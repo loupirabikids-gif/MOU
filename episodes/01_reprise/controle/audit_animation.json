@@ -1,0 +1,21 @@
+{
+  "frames_audited": 312,
+  "two_hands": true,
+  "feet_identical": true,
+  "no_clasp_any_pose": true,
+  "all_ids_unique": true,
+  "all_clip_refs_valid": true,
+  "first_extreme_frame": 144,
+  "fall_heights": [
+    1.12,
+    1.1077777777777778,
+    1.0711111111111116,
+    1.01,
+    0.9244444444444438,
+    0.8144444444444454,
+    0.68
+  ],
+  "fall_monotonic": true,
+  "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "limits": "Structure et planches de poses; critique du montage distincte."
+}

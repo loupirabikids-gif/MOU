@@ -1,0 +1,38 @@
+{
+  "episode": "01_reprise",
+  "revision": 1,
+  "frames": 624000,
+  "duration_seconds": 13.0,
+  "peak_dbfs": -6.0,
+  "rms_dbfs_left_right": [
+    -41.204,
+    -41.127
+  ],
+  "dc_mean_left_right": [
+    -5.969512156951122e-07,
+    -5.965110583183093e-07
+  ],
+  "clipped_samples": 0,
+  "silence_before_flash": {
+    "start_seconds": 5.5,
+    "end_seconds": 6.0,
+    "exact_pcm_silence": true
+  },
+  "silent_fall_5_75_to_6": true,
+  "photo_hold_silent": {
+    "start_seconds": 6.75,
+    "end_seconds": 8.75,
+    "exact_pcm_silence": true
+  },
+  "flash_frame": 144,
+  "flash_sample": 288000,
+  "decoded_click_onset_sample": 288003,
+  "decoded_click_onset_seconds": 6.0000625,
+  "timer_wavs_identical": true,
+  "timer_interval_samples": 48000,
+  "event_count": 7,
+  "mix_sha256": "6597ced7db926fc18ff3f98086a56dd2996fb6a06d8825b5a87321c9bd60410e",
+  "source_sha256": "43e3c84ab4f52f9b74b5954d78ab5d5b2d263dc8e88cb1e7b6b00135b31edc14",
+  "reproduction": "Depuis la racine MOU : .venv/bin/python episodes/01_reprise/sources/son.py",
+  "limite": "Contrôles numériques PCM et synchronisation ; aucune écoute humaine sur appareil mobile ni test public."
+}

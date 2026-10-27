@@ -1,0 +1,19 @@
+MOU — Le retardateur, nouvelle réalisation
+
+Personnage, référence et rig : fournis par l’utilisatrice dans
+MOU_Kit_Demarrage_Codex.zip. Le SHA256 du rig original est relevé dans
+controle/audit_structure.json ; le fichier mou_rig.py n’est pas modifié.
+Les nouvelles poses, masques de raccord, décor et trajectoires sont écrits
+localement en Python/SVG, sans nouvelle illustration ou vidéo de stock.
+Les outils de cache/encodage existants sont réutilisés ; le nouveau montage
+et ses fichiers sont séparés des réalisations précédentes.
+
+Sons : créations procédurales originales locales, paramètres et graines
+consignés dans sons/provenance_et_parametres.json. Aucune voix, musique,
+banque sonore, échantillon ni service de production externe.
+
+Outils gratuits/open source : Python(PSF), CairoSVG(LGPL-3.0), Cairo(LGPL/MPL),
+NumPy(BSD-3-Clause), Pillow(HPND), FFmpeg/libx264(GPL selon build).
+Police DejaVu fournie, licence dans fonts/LICENCE_DejaVu.txt.
+Versions Python exactes : requirements-render.lock. Aucun outil payant ajouté.
+La provenance ne donne pas une nouvelle licence aux références fournies.

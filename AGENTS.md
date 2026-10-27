@@ -6,10 +6,14 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
-Le pilote initial « Le retardateur » est réécrit en V4 « La dernière retouche »
-après retour sur la clarté du gag ; ses versions et critiques sont dans
-`episodes/01/`. PILOTE_01.txt reste la commande initiale, le scénario courant
-est `episodes/01/developpement/scenario_retenu.md`. Ne pas présenter un épisode existant comme une page blanche.
+Commande courante : refaire « Le retardateur » depuis le début, dans
+`episodes/01_reprise/`. Son scénario est
+`episodes/01_reprise/developpement/scenario.md` et sa chronologie commune
+`episodes/01_reprise/chronologie.json`. Reprendre le gag du relâchement trop tôt,
+conserver le personnage et les outils. Les anciens montages et critiques sont
+dans `episodes/01/` et l’historique Git ; ils ne sont pas la nouvelle livraison.
+Ne pas confondre ce nouveau montage avec « La dernière retouche ».
+PILOTE_01.txt conserve le brief initial, précisé par le dossier courant.
 
 MOU est le blob vert citron asymétrique à petite double bosse, deux grands yeux,
 sourcils prune, deux bras courts avec une moufle chacun et deux petits pieds

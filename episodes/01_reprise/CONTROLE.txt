@@ -1,0 +1,42 @@
+MOU — LE RETARDATEUR — NOUVELLE RÉALISATION
+
+13,000 s ·1080×1920 ·24 i/s ·312 images. H264/yuv420p +AAC stéréo48kHz.
+Version muette sans audio, flux vidéo identique. GIF animé270×480 muet.
+Fichiers nouveaux dans episodes/01_reprise ; anciens montages inchangés.
+
+HISTOIRE ET CORRECTIONS
+MOU se croit magnifique, pose puis se relâche trop tôt. Le1 reste affiché
+pendant cet abandon ; le flash capture le premier extrême à6s. Photo fixe
+agrandie6,75–8,75s, puis une seule réaction gênée. Pas de geste aux joues.
+Le réglage5s et les chiffres5→1 sont cohérents avec l’activation1s/clic6s.
+Bras courts et mitaines vérifiés, aucun longJ devant le ventre. Le modèle
+vert et le rig original sont conservés. La première surprise trop souriante
+est corrigée enO. La fin trop apaisée est corrigée par regard bas-gauche et
+bouche retenue, sans ajouter de geste ni modifier les bras ou le rythme.
+
+REVUE ET CONTRÔLES
+Scénario critiqué avant fabrication ; poses puis vrai montage540×960 examinés
+par critique indépendant, d’abord en muet. Faux départ contrôlé sur29images
+consécutives119→147 ; fin corrigée revue9,25→12,958s aussi en270×480. Accord
+pour le final sans nouvelle coupe. Avis et preuves dans controle/critique.md.
+Final1080 contrôlé par coordinateur : deux MP4 décodés intégralement sans
+erreur et huit gestes comparés àdes SVG frais hors cache (écarts1,13–1,57/255).
+312poses : IDs/masques valides, deux mains, deux pieds fixes exclus du warp,
+corps/visage/bras déformés ensemble. Cache et copies atomiques sans liens.
+Cliché calculé exactement par character_at(pose_at(6)), immobile après capture.
+Sept sons originaux ; clic mesuré6.000063s, pic-5.999dBFS,
+sans saturation. Silences avant clic et pendant la photo vérifiés dans AAC.
+
+SOURCES ET PORTÉE
+Commandes : sources/README.md ; versions : controle/outils.txt ; provenance
+et graines audio : sons/. Sources de cette reprise et références regroupées
+dans le ZIP, àextraire sous MOU. Reproduction locale contrôlée séparément.
+Examen interne par images chronométrées, pas de test public. Audio contrôlé
+numériquement sans écoute sur téléphone réel. Veille externe incomplète,
+YouTube absent des domaines autorisés ; aucune statistique ou rétention inventée.
+GitHub ne vaut pas diffusion d’un Short. Profils d’équipe conservés ; rôles
+appliqués par mandats distincts, activation native non prouvée dans ce client.
+
+ZIP extrait ailleurs : commandes lancées depuis /tmp, audit312poses et
+15images, cliché et mix reproduits identiquement. Même environnement installé,
+pas de machine vierge. Empreintes des sources : controle/audit_reproduction.json.

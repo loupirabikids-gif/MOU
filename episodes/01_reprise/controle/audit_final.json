@@ -1,0 +1,35 @@
+{
+  "revision": 1,
+  "encoded_gestures_match_fresh_svg": true,
+  "gesture_roi_mean_errors_0_255": {
+    "0.916667": 1.128787,
+    "2.25": 1.222091,
+    "5.5": 1.271838,
+    "5.958333": 1.35459,
+    "6.0": 1.56166,
+    "7.75": 1.358749,
+    "10.75": 1.201,
+    "12.5": 1.198398
+  },
+  "format": "H264/yuv420p + AAC stereo48kHz",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "duration_seconds": 13.0,
+  "fps": 24,
+  "decoded_frames": 312,
+  "complete_decode_without_errors": true,
+  "mute_contains_no_audio": true,
+  "video_bitstream_identical_between_versions": true,
+  "flash_frame": 144,
+  "capture_uses_same_character_at_exact_click": true,
+  "collapse_still_in_motion_before_click": true,
+  "no_photo_before_click": true,
+  "decoded_click_onset_seconds": 6.000063,
+  "audio_peak_dbfs": -5.999,
+  "decoded_preflash_peak": 0.0,
+  "decoded_photo_hold_audio_peak": 0.0,
+  "photo_screen_mean_delta_7_5_to_8_5": 0.000119,
+  "limits": "Inspection par extractions denses et planches ; contrôle audio numérique, sans écoute sur téléphone ni test public."
+}

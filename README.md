@@ -1,49 +1,45 @@
 # MOU
 
-Le pilote réécrit **« La dernière retouche »**, révision4 : **13 secondes**, vertical
-**1080 × 1920**, avec des sons originaux et sans dialogue.
+**Le retardateur — nouvelle réalisation** : 13 secondes, vertical **1080×1920**,
+avec des sons originaux, sans dialogue. Nouveau montage dans `episodes/01_reprise/`.
 
-## Voir l’épisode
+## Voir le nouvel épisode
 
-L’aperçu est animé et muet. Pour entendre les effets, télécharger le MP4.
+L’aperçu est animé et muet ; le MP4 contient les effets synchronisés.
 
-[![MOU — La dernière retouche](episodes/01/MOU_01_apercu.gif)](episodes/01/MOU_01_le_retardateur.mp4?raw=true)
+[![MOU — Le retardateur](episodes/01_reprise/MOU_le_retardateur_apercu.gif)](episodes/01_reprise/MOU_le_retardateur_nouveau.mp4?raw=true)
 
-- **[MP4 avec son — télécharger](episodes/01/MOU_01_le_retardateur.mp4?raw=true)**
-- [Version muette](episodes/01/MOU_01_le_retardateur_muet.mp4?raw=true)
-- [Sources, sons et références — ZIP](episodes/01/MOU_01_sources.zip?raw=true)
-- [Bilan des contrôles](episodes/01/CONTROLE.txt)
-- [Chronologie](episodes/01/chronologie.json) · [Reproduction](episodes/01/sources/README.md)
+- **[MP4 avec son — télécharger](episodes/01_reprise/MOU_le_retardateur_nouveau.mp4?raw=true)**
+- [Version muette](episodes/01_reprise/MOU_le_retardateur_nouveau_muet.mp4?raw=true)
+- [Sources, sons et références — ZIP](episodes/01_reprise/MOU_le_retardateur_sources.zip?raw=true)
+- [Bilan des contrôles](episodes/01_reprise/CONTROLE.txt) · [Reproduction](episodes/01_reprise/sources/README.md)
 
-MOU se trouve déjà magnifique. Il soulève ses joues pour embellir son sourire,
-puis tire une fois de trop : le flash le capture en pleine retouche. La photo
-lui révèle le résultat. Il baisse les mains, gêné. Son désir provoque l’accident.
+MOU se croit magnifique. Il pose, se relâche pendant que le dernier chiffre
+reste affiché, puis le flash capture son affaissement. Il découvre sa photo
+et termine gêné. Le personnage vert à deux yeux et son rig sont conservés.
 
-Le personnage et le rig fournis sont conservés ; seuls le jeu, les gestes et
-la mise en scène du pilote sont réécrits. Python, SVG, CairoSVG, Pillow, NumPy
-et FFmpeg restent les seuls outils de production, tous gratuits et open source.
+Le compteur est régulier et aucun portrait n’apparaît avant la capture.
+La photo est montrée en gros plan. Les bras restent courts, avec une seule
+mitaine chacun ; les pieds restent au sol. Les anciens montages sont conservés
+séparément dans [episodes/01/](episodes/01/), avec leur historique Git.
 
 ## Équipe et dossier de création
 
-Règles durables : [AGENTS.md](AGENTS.md). [Profils Codex](.codex/config.toml),
-[compatibilité](equipe/compatibilite_agents.md) et [coordination](equipe/README.md).
-Les délégations de la session appliquent ces rôles ; la présence des fichiers
-ne prouve pas leur chargement natif dans tous les clients.
+[Règles durables et rôles](AGENTS.md) · [Profils Codex](.codex/config.toml) ·
+[Compatibilité](equipe/compatibilite_agents.md) · [Coordination](equipe/README.md).
+Les rôles sont appliqués par mandats distincts dans la session ; la présence
+des fichiers ne prouve pas leur activation native dans tous les clients.
 
-- [Scénario courant](episodes/01/developpement/scenario_retenu.md) · [Découpage V4](episodes/01/developpement/decoupage_v4.md)
-- [Critique avant fabrication](episodes/01/developpement/critique_scenario_v4.md) · [Critique du montage réel](episodes/01/controle/critique_v4.md)
-- [Corrections et décisions](episodes/01/developpement/journal_corrections.md)
-- [Cinq pistes pour la suite](episodes/01/developpement/cinq_pistes.md)
-- [Veille datée et limites d’accès](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
+- [Scénario et découpage](episodes/01_reprise/developpement/)
+- [Critique avant fabrication](episodes/01_reprise/developpement/critique_scenario.md) et [critique du vrai montage](episodes/01_reprise/controle/critique.md)
+- [Corrections retenues](episodes/01_reprise/developpement/corrections.md)
+- [Veille datée et limites](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
 
-La V3 avait été jugée confuse par l’utilisatrice. La V4 remplace le faux départ
-par une retouche excessive, un compte régulier et une seule réaction finale.
-Les critiques et découpages précédents restent conservés dans le dossier.
-
-La veille externe reste incomplète : YouTube n’est pas autorisé par le réseau
-courant. Aucun compteur ni visionnage n’est inventé. Cette correction du pilote
-se fonde sur les retours et la critique interne. L’audio est contrôlé numériquement,
-sans écoute sur téléphone réel ni test public. Aucun résultat d’audience n’est fourni.
+Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
+NumPy et FFmpeg. Effets procéduraux originaux, sans voix ni musique externe.
+La veille externe reste incomplète car YouTube n’est pas autorisé par le réseau
+courant. Aucune statistique ni visionnage n’est inventé. La critique par images
+et les contrôles audio numériques ne valent pas test public ou écoute sur téléphone.
 
 ## Base du projet
 
@@ -86,7 +82,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le premier épisode, ses livrables et ses sources se trouvent dans `episodes/01/`.
+Le montage courant, ses livrables et ses sources se trouvent dans `episodes/01_reprise/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

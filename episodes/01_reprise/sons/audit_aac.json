@@ -1,0 +1,12 @@
+{
+  "revision": 1,
+  "scope": "AAC audioseul192k àpartir du mix WAV, pas encore audit du MP4 final",
+  "peak_dbfs": -5.999,
+  "preflash_peak": 0.0,
+  "photo_hold_peak": 0.0,
+  "click_onset_seconds": 6.0000625,
+  "click_offset_seconds": 6.250000000029843e-05,
+  "source_regeneration_byte_identical": true,
+  "mix_sha256": "6597ced7db926fc18ff3f98086a56dd2996fb6a06d8825b5a87321c9bd60410e",
+  "limits": "Contrôle numérique uniquement, aucune écoute humaine ni validation sur téléphone."
+}

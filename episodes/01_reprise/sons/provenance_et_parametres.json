@@ -1,0 +1,164 @@
+{
+  "episode": "MOU — Le retardateur — nouvelle réalisation",
+  "revision": 1,
+  "revision_note": "Tap0,90s et éclat2,20s confirmés par la mise en scène. Trois bips identiques3/4/5s, souffle5,20–5,40s puis silence jusqu’au clic6s. Chute et photo silencieuses, aucun accent final de honte.",
+  "provenance": "Créations procédurales originales synthétisées localement par sources/son.py. Noyaux de synthèse issus des sources locales MOU ; aucun échantillon, enregistrement, service ni banque externe.",
+  "outils": [
+    "Python (PSF)",
+    "NumPy (BSD-3-Clause)",
+    "wave (bibliothèque standard Python)"
+  ],
+  "voice": false,
+  "continuous_music": false,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "duration_seconds": 13.0,
+  "random_seeds": {
+    "tap": 6101,
+    "souffle": 6102,
+    "obturateur": 6104
+  },
+  "chronologie_sha256": "66e64bc0c777a47c98c3388de2bd9c80ad6d2ce0991cd81792c77aef267e35a6",
+  "synchronisation": {
+    "fps": 24,
+    "flash_frame": 144,
+    "flash_sample": 288000,
+    "timer_duration_frames": 2,
+    "timer_interval_samples": 48000,
+    "coordination": "Appui0,90s et éclat2,20s convenus avec le réalisateur ; revue du montage distincte dans controle/."
+  },
+  "events": [
+    {
+      "name": "tap_ecran",
+      "file": "tap_ecran.wav",
+      "start_seconds": 0.9,
+      "start_sample": 43200,
+      "end_seconds": 0.945,
+      "samples": 2160,
+      "pan": 0.0,
+      "peak_dbfs": -24.0,
+      "parameters": {
+        "type": "contact_ecran_mat",
+        "duration_seconds": 0.045,
+        "band_hz": [
+          320,
+          2400
+        ],
+        "resonance_hz": 240,
+        "seed": 6101
+      }
+    },
+    {
+      "name": "vanite_eclat",
+      "file": "vanite_eclat.wav",
+      "start_seconds": 2.2,
+      "start_sample": 105600,
+      "end_seconds": 2.4,
+      "samples": 9600,
+      "pan": 0.1,
+      "peak_dbfs": -20.0,
+      "parameters": {
+        "type": "deux_tintements",
+        "fundamentals_hz": [
+          1480,
+          2210
+        ],
+        "second_offset_seconds": 0.048,
+        "duration_seconds": 0.2
+      }
+    },
+    {
+      "name": "timer_3",
+      "file": "timer_3.wav",
+      "start_seconds": 3.0,
+      "start_sample": 144000,
+      "end_seconds": 3.0833333333333335,
+      "samples": 4000,
+      "pan": 0.0,
+      "peak_dbfs": -16.0,
+      "parameters": {
+        "type": "sinus_harmonique",
+        "frequency_hz": 880,
+        "harmonic_hz": 1760,
+        "harmonic_relative_gain": 0.12,
+        "duration_seconds": 0.08333333333333333
+      }
+    },
+    {
+      "name": "timer_2",
+      "file": "timer_2.wav",
+      "start_seconds": 4.0,
+      "start_sample": 192000,
+      "end_seconds": 4.083333333333333,
+      "samples": 4000,
+      "pan": 0.0,
+      "peak_dbfs": -16.0,
+      "parameters": {
+        "type": "sinus_harmonique",
+        "frequency_hz": 880,
+        "harmonic_hz": 1760,
+        "harmonic_relative_gain": 0.12,
+        "duration_seconds": 0.08333333333333333
+      }
+    },
+    {
+      "name": "timer_1",
+      "file": "timer_1.wav",
+      "start_seconds": 5.0,
+      "start_sample": 240000,
+      "end_seconds": 5.083333333333333,
+      "samples": 4000,
+      "pan": 0.0,
+      "peak_dbfs": -16.0,
+      "parameters": {
+        "type": "sinus_harmonique",
+        "frequency_hz": 880,
+        "harmonic_hz": 1760,
+        "harmonic_relative_gain": 0.12,
+        "duration_seconds": 0.08333333333333333
+      }
+    },
+    {
+      "name": "souffle",
+      "file": "souffle.wav",
+      "start_seconds": 5.2,
+      "start_sample": 249600,
+      "end_seconds": 5.4,
+      "samples": 9600,
+      "pan": 0.0,
+      "peak_dbfs": -23.0,
+      "parameters": {
+        "type": "souffle_air_non_vocal",
+        "band_hz": [
+          180,
+          2100
+        ],
+        "duration_seconds": 0.2,
+        "seed": 6102
+      }
+    },
+    {
+      "name": "obturateur",
+      "file": "obturateur.wav",
+      "start_seconds": 6.0,
+      "start_sample": 288000,
+      "end_seconds": 6.08,
+      "samples": 3840,
+      "pan": 0.0,
+      "peak_dbfs": -6.0,
+      "parameters": {
+        "type": "transitoire_et_deux_contacts_mecaniques",
+        "main_transient_seconds": 0.008,
+        "secondary_offsets_seconds": [
+          0.024,
+          0.048
+        ],
+        "duration_seconds": 0.08,
+        "seed": 6104
+      }
+    }
+  ],
+  "unused_bank": [],
+  "limite": "Contrôle numérique uniquement ; aucune écoute humaine ni sur appareil mobile revendiquée."
+}
