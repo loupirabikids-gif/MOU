@@ -25,7 +25,8 @@ def main():
         for name in ['sources/animation.py','sources/render.py','sources/son.py','sources/verify.py','sources/package.py','chronologie.json','CONTROLE.txt','controle/audit_final.json']:
             assert 'MOU/episodes/01/'+name in z.namelist()
     def describe(p):return {'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
-    result={'titre':'MOU 01 — Le retardateur','revision':2,'duree_secondes':14,'resolution':[1080,1920],'fps':24,
+    timeline=json.loads((EP/'chronologie.json').read_text())
+    result={'titre':'MOU 01 — Le retardateur','revision':timeline['revision'],'duree_secondes':14,'resolution':[1080,1920],'fps':24,
             'fichiers':{n:describe(EP/n) for n in ['MOU_01_le_retardateur.mp4','MOU_01_le_retardateur_muet.mp4']},
             'sources':archive.name,'bilan':'CONTROLE.txt','archive_sources':{**describe(archive),'fichiers':len(collected)},
             'apercu_github':{'fichier':'MOU_01_apercu.gif','muet':True,'width':270,'height':480,'duration_seconds':14}}

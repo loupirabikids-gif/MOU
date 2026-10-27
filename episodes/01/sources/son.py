@@ -9,9 +9,12 @@ n'étire les sons. Les accents laissent de vrais silences au montage.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import math
+import os
 from pathlib import Path
+import tempfile
 import wave
 
 import numpy as np
@@ -57,13 +60,13 @@ def timer(freq: float, length: float) -> np.ndarray:
 
 
 def breath(rng: np.random.Generator) -> np.ndarray:
-    length = .50
+    length = .20
     n = round(length * SR)
     t = np.arange(n) / SR
     # Souffle non vocal : frottement d'air large et doux, sans syllabe.
     air = band_noise(n, 180, 2100, rng)
     envelope = np.sin(math.pi * t / length) ** 1.6
-    return air * envelope * raised_envelope(n, .045, .09)
+    return air * envelope * raised_envelope(n, .016, .05)
 
 
 def vanity_glint() -> np.ndarray:
@@ -113,7 +116,7 @@ def shutter(rng: np.random.Generator) -> np.ndarray:
 
 
 def embarrassment() -> np.ndarray:
-    length = .45
+    length = .35
     n = round(length * SR)
     t = np.arange(n) / SR
     # Petite ponctuation descendante, feutrée ; aucune imitation de parole.
@@ -143,11 +146,31 @@ def write_wave(path: Path, data: np.ndarray) -> None:
     assert data.ndim == 2 and data.shape[1] == 2
     assert np.isfinite(data).all() and np.max(np.abs(data)) < 1
     pcm = np.round(data * 32767).astype('<i2')
-    with wave.open(str(path), 'wb') as f:
-        f.setnchannels(2)
-        f.setsampwidth(2)
-        f.setframerate(SR)
-        f.writeframes(pcm.tobytes())
+    # Une lecture par le monteur voit soit l'ancien WAV entier, soit le
+    # nouveau, jamais une sortie partiellement écrite.
+    fd, temp_name = tempfile.mkstemp(prefix=path.name + '.', suffix='.tmp', dir=path.parent)
+    os.close(fd)
+    try:
+        with wave.open(temp_name, 'wb') as f:
+            f.setnchannels(2)
+            f.setsampwidth(2)
+            f.setframerate(SR)
+            f.writeframes(pcm.tobytes())
+        os.replace(temp_name, path)
+    finally:
+        if os.path.exists(temp_name):
+            os.unlink(temp_name)
+
+
+def write_json(path: Path, value: dict) -> None:
+    fd, temp_name = tempfile.mkstemp(prefix=path.name + '.', suffix='.tmp', dir=path.parent)
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as f:
+            f.write(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
+        os.replace(temp_name, path)
+    finally:
+        if os.path.exists(temp_name):
+            os.unlink(temp_name)
 
 
 def db(value: float) -> float | None:
@@ -159,6 +182,7 @@ def main() -> None:
     timeline = json.loads((ROOT / 'chronologie.json').read_text(encoding='utf-8'))
     assert timeline['duree_secondes'] == DURATION
     assert timeline['flash_time'] == 6.5
+    assert timeline['revision'] == 3
     rng = np.random.default_rng(SEED)
     # name, start, mono data, pan, peak dBFS, fabrication parameters
     events = [
@@ -173,22 +197,20 @@ def main() -> None:
          {'type': 'sinus_harmonique', 'fundamental_hz': 740, 'duration': .115}),
         ('timer_1', 4.2, timer(880, .15), -.35, -14,
          {'type': 'sinus_harmonique', 'fundamental_hz': 880, 'duration': .15}),
-        ('souffle', 5.30, breath(rng), .25, -21,
-         {'type': 'souffle_non_vocal', 'band_hz': [180, 2100], 'duration': .50}),
-        ('detente_elastique', 5.30, elastic_release(), .25, -16.5,
-         {'type': 'glissando_elastique_descendant_non_vocal',
-          'frequency_hz': [311, 70], 'duration': .47,
-          'intention': 'abandon exagéré de la belle pose ; accompagne le souffle'}),
+        ('souffle', 5.78, breath(rng), .25, -21,
+         {'type': 'souffle_non_vocal', 'band_hz': [180, 2100], 'duration': .20,
+          'intention': 'relâchement bref ; la chute suivante reste silencieuse'}),
         ('obturateur', 6.5, shutter(rng), -.35, -6,
          {'type': 'double_clic', 'second_contact_seconds': .037, 'duration': .155}),
-        ('gene', 10.1, embarrassment(), .20, -19,
-         {'type': 'accent_elastique_descendant', 'frequency_hz': [230, 120], 'duration': .45}),
+        ('gene', 12.35, embarrassment(), .20, -19,
+         {'type': 'accent_elastique_descendant', 'frequency_hz': [230, 120], 'duration': .35,
+          'intention': 'ponctuer la rupture du sourire après sa tentative de bonne figure'}),
     ]
     mix = np.zeros((round(DURATION * SR), 2), dtype=np.float64)
     manifest = {
         'episode': 'MOU 01 — Le retardateur',
-        'revision': 2,
-        'revision_note': 'Ajout d’un éclat de vanité à 1,30 s et d’une détente élastique à 5,30 s ; bips, clic, souffle et ponctuation finale conservés.',
+        'revision': 3,
+        'revision_note': 'Souffle raccourci à 5,78–5,98 s ; détente élastique retirée du mix ; chute 6,22–6,458 s silencieuse ; accent de gêne reporté à 12,35–12,70 s. Vanité à 1,30 s, trois bips et clic à 6,50 s conservés.',
         'provenance': 'Tous les effets sont des créations procédurales originales synthétisées localement par sources/son.py. Aucun échantillon, enregistrement, service ni banque externe.',
         'outils': ['Python (PSF)', 'NumPy (BSD-3-Clause)', 'wave (bibliothèque standard Python)'],
         'voice': False, 'continuous_music': False,
@@ -196,6 +218,13 @@ def main() -> None:
         'duration_seconds': DURATION, 'random_seed': SEED,
         'synchronisation': 'Instants exacts de chronologie.json ; conversion en indices entiers 48 kHz. Le flash est image 156 à 24 i/s, échantillon 312000.',
         'events': [],
+        'unused_bank': [{
+            'file': 'detente_elastique.wav', 'used_in_mix': False,
+            'type': 'glissando_elastique_descendant_non_vocal',
+            'frequency_hz': [311, 70], 'duration': .47,
+            'pan': .25, 'peak_dbfs': -16.5,
+            'reason': 'Version 2 archivée en banque uniquement : retirée du mix v3 pour ne pas annoncer la chute avant le flash.'
+        }],
     }
     for name, start, mono, pan, peak_dbfs, parameters in events:
         signal = stereo(mono, pan, peak_dbfs)
@@ -215,6 +244,9 @@ def main() -> None:
     assert 10 ** (-7 / 20) <= peak <= 10 ** (-4 / 20)
     assert not mix[round(6.0 * SR):round(6.5 * SR)].any()
     assert np.isfinite(mix).all()
+    # Cet effet conservé est une banque de travail ; il n'est jamais additionné
+    # à mix et le manifeste le distingue des événements réellement entendus.
+    write_wave(OUT / 'detente_elastique.wav', stereo(elastic_release(), .25, -16.5))
     write_wave(OUT / 'mix.wav', mix)
     # Audit relu sur le WAV réellement livré, incluant la quantification PCM.
     with wave.open(str(OUT / 'mix.wav'), 'rb') as f:
@@ -222,7 +254,7 @@ def main() -> None:
         pcm = np.frombuffer(f.readframes(f.getnframes()), dtype='<i2').reshape(-1, 2)
     decoded = pcm.astype(np.float64) / 32768
     audit = {
-        'revision': 2,
+        'revision': 3,
         'frames': len(decoded), 'duration_seconds': len(decoded) / SR,
         'peak_dbfs': db(float(np.max(np.abs(decoded)))),
         'rms_dbfs_left_right': [db(float(v)) for v in np.sqrt(np.mean(decoded ** 2, axis=0))],
@@ -231,14 +263,21 @@ def main() -> None:
         'silence_before_flash_6_0_to_6_5': not bool(pcm[round(6.0 * SR):round(6.5 * SR)].any()),
         'flash_sample': round(6.5 * SR),
         'vanity_glint_sample': round(1.30 * SR),
-        'elastic_release_sample': round(5.30 * SR),
+        'breath_start_sample': round(5.78 * SR),
+        'breath_end_sample': round(5.98 * SR),
+        'embarrassment_start_sample': round(12.35 * SR),
+        'embarrassment_end_sample': round(12.70 * SR),
+        'elastic_release_used_in_mix': False,
+        'silent_visual_drop_6_22_to_6_458': not bool(pcm[round(6.22 * SR):round(6.458 * SR)].any()),
         'event_count': len(events),
+        'mix_sha256': hashlib.sha256((OUT / 'mix.wav').read_bytes()).hexdigest(),
+        'source_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'reproduction': 'Depuis la racine MOU : .venv/bin/python episodes/01/sources/son.py',
         'limite': 'Contrôle numérique et intention de mixage ; aucun test d’écoute sur appareil mobile réel.',
     }
     assert audit['clipped_samples'] == 0
-    (OUT / 'provenance_et_parametres.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    (OUT / 'audit_son.json').write_text(json.dumps(audit, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    write_json(OUT / 'provenance_et_parametres.json', manifest)
+    write_json(OUT / 'audit_son.json', audit)
     print(json.dumps(audit, ensure_ascii=False, indent=2))
 
 

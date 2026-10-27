@@ -1,0 +1,25 @@
+# Équipe MOU — profils natifs Codex, sans choix de modèle ni assouplissement des permissions.
+# Les instructions durables communes sont dans ../AGENTS.md.
+[agents]
+enabled = true
+
+[agents.veilleur_editorial]
+description = "Veilleur éditorial — recherche récente et comparaison documentée de shorts humoristiques."
+config_file = "agents/veilleur_editorial.toml"
+
+[agents.scenariste_comique]
+description = "Scénariste comique — cinq histoires différentes, évaluation et choix motivé fidèle à MOU."
+config_file = "agents/scenariste_comique.toml"
+
+[agents.responsable_decoupage]
+description = "Rédacteur et responsable du découpage — actions visibles, storyboard chronométré et intentions."
+config_file = "agents/responsable_decoupage.toml"
+
+[agents.critique_independant]
+description = "Critique artistique et comique indépendant — scénario puis montage réel, défauts factuels et corrections."
+config_file = "agents/critique_independant.toml"
+
+[agents.realisateur_animation_son]
+description = "Réalisateur animation et son — animatique complète, jeu, bruitages originaux, corrections et export."
+config_file = "agents/realisateur_animation_son.toml"
+

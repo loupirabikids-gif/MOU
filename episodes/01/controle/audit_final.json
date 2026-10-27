@@ -1,11 +1,12 @@
 {
-  "revision": 2,
+  "revision": 3,
   "encoded_gestures_match_fresh_svg": true,
   "gesture_roi_mean_errors_0_255": {
     "1.625": 0.982407,
     "1.291667": 1.988299,
-    "5.625": 1.653075,
-    "6.458333": 1.538545
+    "6.416667": 1.57118,
+    "6.458333": 1.684907,
+    "13.5": 1.628737
   },
   "format": "H264/yuv420p + AAC stereo48kHz",
   "dimensions": [
@@ -20,9 +21,9 @@
   "video_bitstream_identical_between_versions": true,
   "flash_frame": 156,
   "capture_matches_pose_immediately_before_flash": true,
-  "decoded_click_onset_seconds": 6.500104,
-  "audio_peak_dbfs": -6.087,
+  "decoded_click_onset_seconds": 6.500125,
+  "audio_peak_dbfs": -6.014,
   "decoded_preflash_peak": 0.0,
-  "photo_screen_mean_delta_7_5_to_8_5": 0.003993,
+  "photo_screen_mean_delta_7_5_to_8_5": 0.00446,
   "limits": "Inspection visuelle par échantillons denses et planches ; contrôles audio numériques, sans écoute sur téléphone réel ni test de public."
 }

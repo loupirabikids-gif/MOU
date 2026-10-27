@@ -17,6 +17,8 @@ W,H=1080,1920
 FLASH=6.5
 INK=PALETTE['outline']
 BG='#EEE6FA'
+TIMELINE=json.loads((EP/'chronologie.json').read_text())
+REVISION=int(TIMELINE.get('revision',1))
 PHOTO=None
 CACHE_VERSION='svg-atomic-copy-v2'
 
@@ -150,7 +152,7 @@ def render_job(args):
 def board(frames,out):
     samples=[0,.9,2.2,3.3,4.5,5.5,6.25,6.5,6.75,7.65,9.6,10.6,11.6,12.6,13.8]
     b=Image.new('RGB',(1500,1725),BG);d=ImageDraw.Draw(b)
-    font=ImageFont.truetype(str(ROOT/'fonts/DejaVuSans-Bold.ttf'),17)
+    font=ImageFont.truetype(str(ROOT/'fonts/DejaVuSans-Bold.ttf'),14)
     for j,t in enumerate(samples):
         im=Image.open(Path(frames)/f'{round(t*FPS):04d}.png').convert('RGB'); im.thumbnail((294,523))
         x=(j%5)*300+(300-im.width)//2;y=(j//5)*575
@@ -194,7 +196,15 @@ def audit():
     assert confident['sy']>=1.1 and collapsed['sy']<=.72
     assert confident['sy']-collapsed['sy']>=.38
     assert pose_at(155/FPS)==pose_at(FLASH)
-    report.update(revision=2,vanity_vertical_scale=confident['sy'],collapse_vertical_scale=collapsed['sy'],
+    if REVISION>=3:
+        fall=[deformation_at(pose_at(i/FPS))['sy'] for i in range(149,156)]
+        assert all(b<=a+1e-9 for a,b in zip(fall,fall[1:])), 'rebound before capture'
+        assert pose_at(154/FPS)['grimace']<1. and pose_at(155/FPS)['grimace']==1.
+        assert pose_at(11.4)['vanity']>.9 and pose_at(13.5)['shame']>.9
+        assert pose_at(13.5)['smile']<=.05
+        report.update(first_extreme_frame=155,fall_start_frame=149,fall_has_no_rebound=True,
+                      finale_shame_after_failed_facade=True)
+    report.update(revision=REVISION,vanity_vertical_scale=confident['sy'],collapse_vertical_scale=collapsed['sy'],
                   collapse_horizontal_scale=collapsed['sx'],
                   body_scale_peak_to_collapse=round(max(d['sy'] for d in deformations)-collapsed['sy'],4),
                   feet_excluded_from_body_deformation=True,feet_geometry_fixed_all_frames=True,body_arms_face_warp_together=True,

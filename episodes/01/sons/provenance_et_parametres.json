@@ -1,7 +1,7 @@
 {
   "episode": "MOU 01 — Le retardateur",
-  "revision": 2,
-  "revision_note": "Ajout d’un éclat de vanité à 1,30 s et d’une détente élastique à 5,30 s ; bips, clic, souffle et ponctuation finale conservés.",
+  "revision": 3,
+  "revision_note": "Souffle raccourci à 5,78–5,98 s ; détente élastique retirée du mix ; chute 6,22–6,458 s silencieuse ; accent de gêne reporté à 12,35–12,70 s. Vanité à 1,30 s, trois bips et clic à 6,50 s conservés.",
   "provenance": "Tous les effets sont des créations procédurales originales synthétisées localement par sources/son.py. Aucun échantillon, enregistrement, service ni banque externe.",
   "outils": [
     "Python (PSF)",
@@ -97,9 +97,9 @@
     {
       "name": "souffle",
       "file": "souffle.wav",
-      "start_seconds": 5.3,
-      "start_sample": 254400,
-      "end_seconds": 5.8,
+      "start_seconds": 5.78,
+      "start_sample": 277440,
+      "end_seconds": 5.98,
       "pan": 0.25,
       "peak_dbfs": -21.0,
       "parameters": {
@@ -108,25 +108,8 @@
           180,
           2100
         ],
-        "duration": 0.5
-      }
-    },
-    {
-      "name": "detente_elastique",
-      "file": "detente_elastique.wav",
-      "start_seconds": 5.3,
-      "start_sample": 254400,
-      "end_seconds": 5.77,
-      "pan": 0.25,
-      "peak_dbfs": -16.5,
-      "parameters": {
-        "type": "glissando_elastique_descendant_non_vocal",
-        "frequency_hz": [
-          311,
-          70
-        ],
-        "duration": 0.47,
-        "intention": "abandon exagéré de la belle pose ; accompagne le souffle"
+        "duration": 0.2,
+        "intention": "relâchement bref ; la chute suivante reste silencieuse"
       }
     },
     {
@@ -146,9 +129,9 @@
     {
       "name": "gene",
       "file": "gene.wav",
-      "start_seconds": 10.1,
-      "start_sample": 484800,
-      "end_seconds": 10.55,
+      "start_seconds": 12.35,
+      "start_sample": 592800,
+      "end_seconds": 12.7,
       "pan": 0.2,
       "peak_dbfs": -19.0,
       "parameters": {
@@ -157,8 +140,24 @@
           230,
           120
         ],
-        "duration": 0.45
+        "duration": 0.35,
+        "intention": "ponctuer la rupture du sourire après sa tentative de bonne figure"
       }
+    }
+  ],
+  "unused_bank": [
+    {
+      "file": "detente_elastique.wav",
+      "used_in_mix": false,
+      "type": "glissando_elastique_descendant_non_vocal",
+      "frequency_hz": [
+        311,
+        70
+      ],
+      "duration": 0.47,
+      "pan": 0.25,
+      "peak_dbfs": -16.5,
+      "reason": "Version 2 archivée en banque uniquement : retirée du mix v3 pour ne pas annoncer la chute avant le flash."
     }
   ]
 }

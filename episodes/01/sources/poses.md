@@ -1,60 +1,67 @@
-# Jeu de MOU — Le retardateur, révision du jeu
+# Jeu de MOU — Le retardateur, révision 3
 
 Source commune : `../../../mou_rig.py` et `../../../references/MOU_reference.png`.
-Le rig original reste intact : même corps asymétrique, double bosse, deux yeux,
-deux bras continus avec deux moufles et deux pieds sombres. `character_at()`
-porte les déformations de jeu et la bouche ; le plan, le viseur et la photo
-emploient tous cette fonction.
+Révision locale du pilote après critique du découpage ; les profils d'équipe
+ont été lus comme consignes de rôle, sans prétendre à leur activation native.
+Le rig original reste intact. `character_at()` porte les déformations et la
+bouche ; le plan, le viseur et la photo emploient tous cette fonction.
 
-- 0–0,82 s : MOU est déjà certain de sa beauté, mains fièrement aux hanches,
-  buste redressé, menton haut, regard vers son aperçu et petite moue narcissique.
-- 0,82–1,78 s : grand sourire en coin, sourcil droit conquérant ; clin d'œil
-  unilatéral de 1,58 à 1,66 s. Il se contemple, sans attendre un compliment.
-- 1,78–5,25 s : maintien de la pose très assurée. Après 4 s, le sourire se
-  crispe et les yeux s'ouvrent davantage ; le buste reste gonflé.
-- 5,25–5,40 s : rupture visible, les bras tombent ; étirement bref du corps
-  jusqu'à 118 % de hauteur avant l'affaissement.
-- 5,40–6,15 s : squash à 65 %, petit rebond à 84 %, puis affaissement stable
-  à 68 % avec élargissement à 112 % et inclinaison asymétrique. Les bras
-  ballottent sans se détacher. Bouche grande, molle et pendante de travers,
-  langue basse et un seul œil ouvert : l'accident doit contraster avec la frime.
-- 6,15–6,50 s : grimace et déformation stables. `pose_at(155/24)` est exactement
-  identique à `pose_at(6.5)` ; la photo utilise cette même source de rendu.
-- 6,50–6,625 s : redressement surpris sous le flash. Après 6,625 s, les
-  fragments du personnage sont strictement identiques à la première version.
-- 9,50–10,62 s : regard photo, mains devant le ventre et sourcils de gêne,
-  relevés vers l'intérieur, sans V de colère.
-- 11,00–14,00 s : regard spectateur, sourire forcé, bref retour à la photo,
-  puis réaction finale tenue. Cette dernière réaction n'est pas modifiée.
+## Intention et chronologie verrouillée
 
-## Déformation et contacts
+- 0–4,20 s : auto-admiration V2 conservée : regard aperçu, moue, menton haut,
+  sourire en coin et seul clin d'œil à 1,58–1,66 s ; hanches fières.
+- 4,20–5,75 s : le sourire se crispe progressivement, les yeux s'ouvrent
+  davantage ; il lutte pour garder son beau visage. Aucun mouvement ajouté
+  sur les signaux, pas de grotesque complet à ce stade.
+- 5,75–6,00 s : souffle et détente initiale des mains, visage encore modéré.
+- 6,00–149/24 s (6,208333 s) : courte anticipation verticale. Les bras
+  descendent, sans grande bouche tordue ni aplatissement déjà offert au public.
+- Images 149–155 : UNE chute accélérée quadratique, sans rebond. Le premier
+  extrême est atteint exactement à l'image155 (6,458333 s) : corps à 68 %
+  de hauteur et 112 % de largeur, bouche molle oblique, langue pendante,
+  paupières dépareillées. L'ancien dépassement à 65 % est supprimé, car un
+  retour à 68 % avant le clic créerait le rebond expressément rejeté.
+- Image156 (6,50 s) : même pose et même déformation que155, sans différence
+  numérique ; photo figée via cette même source.
+- 6,50–6,625 s : redressement surpris sous le flash, puis découverte du clic.
+- 9,50–10,40 s : MOU regarde la photo, déçu. Regard bas-gauche et bouche
+  descendante, plutôt qu'une réaction immédiatement souriante.
+- 10,40–11,40 s : il croise notre regard et tente de sauver les apparences :
+  menton relevé, sourcil conquérant et vrai sourire de frime qui revient.
+- 11,40–11,90 s : brève façade ; les mains commencent à rejoindre le ventre.
+- 11,90–12,25 s : regard irrépressible vers la photo, qui défait sa prétention.
+- 12,25–12,75 s : le menton retombe et le sourire se casse.
+- 12,75–14,00 s : vraie gêne, mains devant le ventre ; bouche presque plate,
+  coin minuscule, regard bas, aucun sourire en U ni nouveau clin d'œil.
+  Pas d'éclat final, pas de mouvement destiné à remplir la dernière tenue.
 
-`pose_at(t)` fournit `warp_sx`, `warp_sy` et `warp_skew`. `deformation_at(p)`
-renvoie ces valeurs sous les clés `sx`, `sy`, `skew`, avec `anchor_x=200`
-et `anchor_y=437`. Limites : sx 0,94–1,12 ; sy 0,65–1,18 ; skew −0,07–0,005.
+## Déformation, pieds et raccords
+
+`pose_at(t)` fournit `warp_sx`, `warp_sy`, `warp_skew`, ainsi que les paramètres
+continus de visage et de bras. `deformation_at(p)` renvoie `sx`, `sy`, `skew`,
+`anchor_x=200` et `anchor_y=437`. Limites V3 : sx 0,97–1,12 ; sy 0,68–1,15 ;
+skew −0,07–0,008. `motion_at()` reste à l'identité.
 
 `character_at()` laisse `foot-l` et `foot-r` hors du groupe `body-warp`.
-Ce groupe contient ensemble le corps, les deux bras, les deux mains et le
-visage. Transformation :
+Ce groupe transforme ensemble corps, deux bras/mains et visage :
 
     x' = 200 + sx * (x - 200) + skew * (y - 437)
     y' = 437 + sy * (y - 437)
 
-Les pieds restent fixes, les raccords suivent le corps. Aucun groupe affine
-n'est émis à l'identité, ce qui préserve les fragments de la réaction finale.
-`motion_at()` reste à l'identité : la photo ne perd donc aucune déformation.
+Aucun glissement de pieds, aucune marche ni prise d'objet. Les ouvertures
+inférieures à 0,30 terminent l'œil en arc franc pour éviter l'ovale vert creux.
+La langue reste découpée par la bouche jusqu'au dernier stade de déformation ;
+elle ne se dévoile pendante qu'à la chute aboutie, sans ellipse transparente
+flottant sur la peau pendant l'anticipation.
 
-À l'ouverture d'œil inférieure à 0,30, une fermeture franche en arc remplace
-l'intermédiaire creux du rig. Aucun ovale vert vide ne doit apparaître.
-
-## Contrôles propres au module
+## Contrôles exécutés
 
 336 poses : XML lisible, valeurs finies, exactement deux formes de main,
 identifiants uniques ; pieds frères du groupe affine, bras et visage inclus.
-Photo stable avant le clic, et fragments après 6,625 s strictement identiques
-à la version précédente. À la position x=670 et échelle 2,35, les contours
-des bras avec réserve de 7 pixels restent entre environ x=298 et x=1067,
-ce qui évite le téléphone (bord x=290) et la coupe au bord droit.
+`pose_at(155/24) == pose_at(6.5)` strictement. Hauteur monotone pendant les
+six intervalles de chute : 1,15 ; 1,13694 ; 1,09778 ; 1,0325 ; 0,94111 ;
+0,82361 ; 0,68. Aucun état complet de capture avant l'image155.
 
-Planches de travail : `work/animation_v2/vanite_effondrement.png` et
-`work/animation_v2/scenes.png` ; fichiers SVG des poses conservés au même endroit.
+Planche examinée : `work/animation_v3/poses_v3.png` (16 instants).
+Elle vérifie les intentions et la forme ; elle ne remplace pas la critique
+du montage complet, ni une écoute ou un test auprès d'un public.

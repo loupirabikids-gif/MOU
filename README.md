@@ -1,6 +1,6 @@
 # MOU
 
-Le premier épisode **« Le retardateur »**, révision 2, est terminé : 14 secondes, format
+Le premier épisode **« Le retardateur »**, révision 3, est terminé : 14 secondes, format
 vertical **1080 × 1920**, avec des effets sonores originaux et sans dialogue.
 
 ## Voir le premier épisode
@@ -16,10 +16,26 @@ le MP4 puis l'ouvrir sur un téléphone ou un ordinateur.
 - [Lire le bilan des contrôles](episodes/01/CONTROLE.txt)
 - [Chronologie](episodes/01/chronologie.json) · [Instructions de reproduction](episodes/01/sources/README.md)
 
-Dans cette révision, MOU est visiblement sûr de son charme : menton haut,
-auto-admiration, sourire en coin, clin d’œil et petits éclats de glamour. Son
-relâchement s’exagère en étirement, affaissement et rebond, bouche et langue
-pendantes. La photo enregistre exactement cette pose ratée.
+Dans cette révision, MOU se trouve toujours irrésistible, mais le flash saisit
+le premier arrêt de son affaissement, sans longue grimace annoncée. Devant le
+résultat, il essaie de refaire bonne figure, puis un regard vers la photo casse
+sa façade. La fin reste gênée, sans dialogue.
+
+## Une petite équipe de création
+
+Les règles durables et les cinq rôles sont dans [AGENTS.md](AGENTS.md).
+Les [profils Codex](.codex/config.toml), [preuves de compatibilité](equipe/compatibilite_agents.md)
+et [guide de coordination](equipe/README.md) sont enregistrés dans le projet.
+
+- [Veille datée et blocage d'accès actuel](editorial/veille_2026-10-27.md)
+- [Cinq pistes distinctes pour la suite](episodes/01/developpement/cinq_pistes.md)
+- [Scénario retenu](episodes/01/developpement/scenario_retenu.md) et [découpage V3](episodes/01/developpement/decoupage_v3.md)
+- [Critique avant fabrication](episodes/01/developpement/critique_scenario_v3.md) et [critique du vrai montage](episodes/01/controle/critique_v3.md)
+- [Journal des corrections](episodes/01/developpement/journal_corrections.md) et [suivi après diffusion](publication/README.md)
+
+La veille récente reste incomplète : YouTube est refusé par le réseau actuel.
+Aucun compteur ni visionnage externe n'est inventé. Cette révision du pilote
+s'appuie sur les retours de l'utilisatrice et sa critique interne indépendante.
 
 Le rig MOU fourni est conservé. Fabrication locale avec Python, SVG, CairoSVG,
 Pillow, NumPy et FFmpeg, tous gratuits et open source. Les raccords, les regards,

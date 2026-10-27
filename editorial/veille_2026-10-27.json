@@ -1,0 +1,49 @@
+{
+  "observation_date": "2026-10-27",
+  "timezone": "Africa/Casablanca",
+  "status": "incomplete_network_policy_denial",
+  "comparable_shorts": [],
+  "ordinary_publications": [],
+  "access_evidence": {
+    "url": "https://www.youtube.com/",
+    "operation": "read-only HTTPS using inherited proxy and TLS trust",
+    "result": "Tunnel connection failed: 403 Forbidden",
+    "policy_mode": "restricted",
+    "policy_state": "enforced",
+    "custom_allowed_hosts": []
+  },
+  "observed_external_patterns": [],
+  "missing_fields": [
+    "5–8 verified recent comparable Shorts across multiple channels",
+    "canonical video URLs",
+    "publication dates",
+    "durations",
+    "accessible public counters",
+    "ordinary publications baseline",
+    "actual viewing/shot and audio observations"
+  ],
+  "candidate_channels_unverified": [
+    "Molang",
+    "The Land of Boggs",
+    "Chikn Nuggit",
+    "Simon’s Cat"
+  ],
+  "notes": "No statistics or retention invented. No metadata-only claim of viewing. MOU hypotheses belong to brief/user feedback, not completed external trend research.",
+  "draft_configuration": {
+    "saved": true,
+    "allowed_domains_added": [
+      "youtube.com",
+      "www.youtube.com",
+      "i.ytimg.com"
+    ],
+    "applied_to_runtime": false,
+    "requires_environment_settings_save_and_publish": true
+  },
+  "runtime_recheck": {
+    "observations_current": true,
+    "network_state": "enforced",
+    "custom_hosts": [],
+    "youtube_allowed": false,
+    "observed_spec_revision": "1"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "episode": "01",
+  "titre": "Le retardateur",
+  "revision": 3,
+  "statut": "direction_scenario_retenue_avant_fabrication_animatique_a_controler",
+  "source_scenario": "scenario_retenu.md",
+  "source_critique": "critique_scenario_v3.md",
+  "duree_travail_secondes": 14.0,
+  "fps": 24,
+  "dimensions": [1080, 1920],
+  "flash": {"temps": 6.5, "image": 156},
+  "capture": {
+    "premier_extreme_image": 155,
+    "premier_extreme_secondes": 6.458333333333333,
+    "pose_identique_images": [155, 156],
+    "photo_immobile": true,
+    "meme_deformation_que_personnage": true,
+    "cadrage": "autocadrage V2 sur silhouette entière"
+  },
+  "contraintes": [
+    "MOU vert citron, double bosse, deux yeux, deux bras/mains et deux pieds prune",
+    "même rig, pieds ancrés hors du warp, torse/bras/visage solidaires",
+    "un téléphone fixe, aucun second personnage, aucun texte explicatif ni dialogue",
+    "une chute unique, aucun rebond avant flash, aucune grimace longtemps exposée",
+    "une tentative finale de sauver les apparences, sans nouveau numéro de charme"
+  ],
+  "plans": [
+    {"id": "P01", "debut": 0.0, "fin": 1.8, "cadre": "large", "action": "Moue devant aperçu, redressement, sourire en coin, clin d'œil", "intention": "MOU est sûr d'être beau et admire sa propre image", "regard": "telephone_bas_gauche", "sons": ["pose_froissement", "vanite_eclat"]},
+    {"id": "P02", "debut": 1.8, "fin": 4.2, "cadre": "large", "action": "Tient sa meilleure pose pendant 3 puis 2", "intention": "Conserver sa beauté pour le cliché", "regard": "telephone_objectif", "sons": ["timer_3", "timer_2"]},
+    {"id": "P03", "debut": 4.2, "fin": 5.75, "cadre": "large", "action": "Le 1 disparaît ; sourire se crispe, menton se reprend, écran vérifié", "intention": "Tient encore puis décide à tort que c'est fini", "regard": "telephone_puis_ecran", "sons": ["timer_1"]},
+    {"id": "P04", "debut": 5.75, "fin": 6.083333333333333, "cadre": "large", "action": "Lâche les hanches et souffle sans atteindre encore la pose ratée", "intention": "Cesser enfin l'effort", "regard": "relachement_non_pose", "sons": ["souffle_court"]},
+    {"id": "P05", "debut": 6.083333333333333, "fin": 6.208333333333333, "cadre": "large", "action": "Très bref étirement élastique, pieds fixes", "intention": "Anticipation involontaire de l'affaissement", "regard": "detente_dissymetrique", "sons": []},
+    {"id": "P06", "debut": 6.208333333333333, "fin": 6.458333333333333, "cadre": "large", "action": "Une seule chute ample, bouche oblique et langue pendante", "intention": "Le corps ne tient plus sa belle façade", "regard": "accidentel", "sons": []},
+    {"id": "P07", "debut": 6.458333333333333, "fin": 6.625, "cadre": "large_flash", "action": "Premier arrêt raté ; flash/clic sur même pose à 6,50 puis surprise", "intention": "Le résultat échappe au contrôle de MOU", "regard": "vers_telephone_apres_clic", "sons": ["obturateur"]},
+    {"id": "P08", "debut": 6.625, "fin": 7.25, "cadre": "recadrage_meme_telephone", "action": "MOU se ressaisit trop tard ; caméra rejoint le résultat", "intention": "Découvrir la conséquence", "regard": "telephone", "sons": []},
+    {"id": "P09", "debut": 7.25, "fin": 8.85, "cadre": "gros_plan_telephone", "action": "Photo entière et immobile de la grimace", "intention": "Laisser reconnaître la mauvaise image", "regard": "photo_centre_du_cadre", "sons": []},
+    {"id": "P10", "debut": 8.85, "fin": 9.5, "cadre": "retour_large", "action": "Retour à MOU encore absorbé par le cliché", "intention": "Passer de la conséquence à sa réaction", "regard": "photo_bas_gauche", "sons": []},
+    {"id": "P11", "debut": 9.5, "fin": 10.4, "cadre": "large", "action": "Menton descend, sourcils inquiets, mains vers ventre", "intention": "Comprendre l'écart à son image rêvée", "regard": "photo_bas_gauche", "sons": ["gene"]},
+    {"id": "P12", "debut": 10.4, "fin": 11.4, "cadre": "large", "action": "Redresse un peu menton et sourire de façade ; posture tente de rouvrir", "intention": "Faire croire au spectateur qu'il contrôle encore", "regard": "du_telephone_vers_spectateur", "sons": []},
+    {"id": "P13", "debut": 11.4, "fin": 11.9, "cadre": "large", "action": "Faux beau tenu brièvement, sans clin d'œil ni éclats", "intention": "Sauver les apparences une seule fois", "regard": "spectateur", "sons": []},
+    {"id": "P14", "debut": 11.9, "fin": 12.25, "cadre": "large", "action": "Les yeux reviennent malgré lui au cliché", "intention": "Il ne peut plus ignorer le résultat", "regard": "photo_bas_gauche", "sons": []},
+    {"id": "P15", "debut": 12.25, "fin": 12.75, "cadre": "large", "action": "Sourire cède, menton retombe, mains au ventre", "intention": "La façade ne tient plus", "regard": "photo_puis_spectateur", "sons": []},
+    {"id": "P16", "debut": 12.75, "fin": 14.0, "cadre": "large", "action": "Gêne assumée, bouche presque neutre et regard réservé", "intention": "Admettre silencieusement qu'on l'a vu", "regard": "spectateur", "sons": []}
+  ],
+  "evenements_sonores_proposes": [
+    {"id": "vanite_eclat", "debut": 1.3, "fin": 1.5, "statut": "conserver"},
+    {"id": "timer_3", "debut": 2.0, "statut": "conserver"},
+    {"id": "timer_2", "debut": 3.1, "statut": "conserver"},
+    {"id": "timer_1", "debut": 4.2, "statut": "conserver"},
+    {"id": "souffle_court", "debut": 5.78, "fin": 5.98, "statut": "raccourcir_et_decaler_pour_action"},
+    {"id": "detente_elastique", "statut": "retirer_par_defaut_plutot_que_garder_son_desynchronise_V2"},
+    {"id": "silence_avant_flash", "debut": 6.0, "fin": 6.5, "statut": "preserver_si_souffle_court_retenu"},
+    {"id": "obturateur", "debut": 6.5, "statut": "conserver_exact"},
+    {"id": "gene", "debut": 10.1, "statut": "conserver_discret_si_utile"}
+  ],
+  "controle": {
+    "instants_secondes": [0.6, 1.3, 1.625, 4.8, 5.7, 5.9, 6.125, 6.208333333333333, 6.333333333333333, 6.458333333333333, 6.5, 6.625, 7.5, 9.8, 10.8, 11.65, 12.1, 12.55, 13.3],
+    "ordre": ["lecture complete sans son", "rythme avec bruitages", "critique du montage reel", "corrections retenues", "export final"],
+    "duree_alternative": {"secondes": 13.5, "condition": "seulement si l'animatique constate un temps mort après la réaction complète"},
+    "limite": "Storyboard proposé et relu avant fabrication ; compréhension artistique et synchronisations à confirmer sur montage réellement produit."
+  }
+}

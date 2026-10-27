@@ -12,76 +12,115 @@
   "events": [
     {
       "time": 0.0,
-      "end": 1.6,
-      "action": "MOU admire sa propre image : menton et torse relevés, moue puis sourire en coin et clin d’œil conquérant, mains aux hanches"
+      "end": 1.78,
+      "action": "Auto-admiration de son aperçu, moue, torse relevé, grand sourire en coin et clin d’œil"
     },
     {
       "time": 1.3,
       "end": 1.5,
-      "action": "Éclats graphiques de vanité près du visage",
+      "action": "Éclats de vanité",
       "sound": "vanite_eclat"
     },
     {
       "time": 2.0,
       "end": 2.8,
-      "action": "retardateur 3",
+      "action": "Retardateur 3",
       "sound": "timer_3"
     },
     {
       "time": 3.1,
       "end": 3.9,
-      "action": "retardateur 2",
+      "action": "Retardateur 2",
       "sound": "timer_2"
     },
     {
       "time": 4.2,
       "end": 5.0,
-      "action": "retardateur 1",
+      "action": "Retardateur 1 ; le beau sourire commence à se crisper",
       "sound": "timer_1"
     },
     {
-      "time": 5.25,
-      "end": 6.2,
-      "action": "MOU se dégonfle : étirement bref puis affaissement squash/stretch massif et bouche molle pendante ; pieds fixés",
-      "sounds": [
-        "souffle",
-        "detente_elastique"
-      ]
+      "time": 4.2,
+      "end": 5.75,
+      "action": "Crispation progressive : MOU lutte pour garder son beau visage, regard téléphone, aucun mouvement gratuit"
+    },
+    {
+      "time": 5.75,
+      "end": 6.208333333333333,
+      "action": "Il croit la photo déjà prise, souffle brièvement et relâche sa pose ; courte anticipation verticale",
+      "sound": "souffle"
+    },
+    {
+      "time": 6.208333333333333,
+      "end": 6.458333333333333,
+      "action": "Une seule chute ample, sans rebond, visage et bouche deviennent mous, pieds fixes",
+      "sound_direction": "Chute visuelle silencieuse : ne pas annoncer le clic par un effet élastique"
+    },
+    {
+      "time": 6.458333333333333,
+      "end": 6.5,
+      "action": "Premier arrêt raté, capture imminente ; pas de longue pose grotesque annonçant le résultat"
     },
     {
       "time": 6.5,
       "end": 6.625,
-      "action": "flash et clic sur la grimace affaissée ; photo identique pose et déformation à6.5",
+      "action": "Flash/clic sur la même pose et déformation que l’image155",
       "sound": "obturateur"
     },
     {
       "time": 6.85,
       "end": 7.25,
-      "action": "recadrage vers le même téléphone"
+      "action": "Recadrage du même téléphone"
     },
     {
       "time": 7.25,
       "end": 8.85,
-      "action": "photo immobile en gros plan, grimace lisible"
+      "action": "Photo immobile et lisible : laisser reconnaître la grimace"
     },
     {
       "time": 8.85,
       "end": 9.5,
-      "action": "retour au cadre initial"
+      "action": "Retour à MOU"
     },
     {
       "time": 9.5,
-      "end": 11.3,
-      "action": "MOU voit le résultat ; mains devant ventre, regard gêné",
+      "end": 10.4,
+      "action": "Il regarde la photo et reconnaît sa déconvenue"
+    },
+    {
+      "time": 10.4,
+      "end": 11.4,
+      "action": "Il croise notre regard et tente de sauver les apparences : menton et beau sourire reviennent, sans nouveau clin d’œil"
+    },
+    {
+      "time": 11.4,
+      "end": 11.9,
+      "action": "Brève façade de maîtrise tenue, mains commencent à se rapprocher devant ventre"
+    },
+    {
+      "time": 11.9,
+      "end": 12.25,
+      "action": "Son regard retourne malgré lui à la photo"
+    },
+    {
+      "time": 12.25,
+      "end": 12.75,
+      "action": "La façade se casse : sourire disparaît, menton retombe",
       "sound": "gene"
     },
     {
-      "time": 11.3,
+      "time": 12.75,
       "end": 14.0,
-      "action": "regard spectateur, sourire forcé puis bref regard photo ; tenir la réaction"
+      "action": "Gêne assumée, mains devant ventre, sourire presque nul ou légèrement asymétrique, fin sur réaction"
     }
   ],
   "production": "Python / SVG / CairoSVG / Pillow / NumPy / FFmpeg ; sons originaux locaux, sans voix ni musique continue",
-  "revision": 2,
-  "revision_intention": "MOU se trouve irrésistible ; vanité manifeste puis relâchement corporel très exagéré."
+  "revision": 3,
+  "revision_intention": "MOU veut paraître irrésistible ; le déclenchement surprend le premier arrêt de son relâchement ; il tente ensuite de sauver les apparences et abandonne sa façade.",
+  "audio_silence_before_flash": {
+    "start": 6.0,
+    "end": 6.5,
+    "decoded_check_start": 6.05,
+    "decoded_check_end": 6.45
+  }
 }

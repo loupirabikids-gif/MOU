@@ -22,7 +22,7 @@ def smooth(x):
 
 
 def state(**changes):
-    return {**DEFAULT_POSE, 'grimace': 0.0, 'vanity': 0.0, 'pout': 0.0,
+    return {**DEFAULT_POSE, 'grimace': 0.0, 'vanity': 0.0, 'pout': 0.0, 'shame': 0.0,
             'warp_sx': 1.0, 'warp_sy': 1.0, 'warp_skew': 0.0, **changes}
 
 
@@ -41,23 +41,23 @@ PROUD = state(arm_hips=1., eye_open_l=.53, eye_open_r=.68,
               brow_raise=.70, smile=1., vanity=1.,
               warp_sx=.98, warp_sy=1.13, warp_skew=-.025)
 WINK = dict(PROUD, eye_open_r=0., brow_r=-.95)
-TENSE = state(arm_hips=1., eye_open_l=.76, eye_open_r=.80,
-              pupil_x=-.90, pupil_y=.28, brow_l=.12, brow_r=-.72,
-              brow_raise=.40, smile=1., mouth_open=.14, vanity=.50,
+CRISP = state(arm_hips=1., eye_open_l=.72, eye_open_r=.77,
+              pupil_x=-.94, pupil_y=.30, brow_l=.12, brow_r=-.73,
+              brow_raise=.50, smile=1., mouth_open=.10, vanity=.74,
+              warp_sx=.99, warp_sy=1.12, warp_skew=-.025)
+TENSE = state(arm_hips=1., eye_open_l=.87, eye_open_r=.90,
+              pupil_x=-.90, pupil_y=.40, brow_l=.08, brow_r=-.48,
+              brow_raise=.32, smile=1., mouth_open=.20, vanity=.50,
               warp_sx=.99, warp_sy=1.10, warp_skew=-.025)
-# Le bref étirement précède la chute, sans déplacement des pieds.
-STRETCH = state(arm_hips=.18, eye_open_l=0., eye_open_r=.38,
-                pupil_x=.55, pupil_y=.70, brow_l=.30, brow_r=.75,
-                brow_raise=.35, smile=-.80, mouth_open=.75, grimace=.65,
-                warp_sx=.94, warp_sy=1.18, warp_skew=.005)
-SPLAT = state(arm_hips=.28, eye_open_l=0., eye_open_r=.92,
-              pupil_x=.80, pupil_y=.75, brow_l=-.40, brow_r=.82,
-              brow_raise=-.05, smile=-1., mouth_open=1., grimace=1.,
-              warp_sx=1.12, warp_sy=.65, warp_skew=-.07)
-REBOUND = state(arm_hips=0., eye_open_l=0., eye_open_r=.70,
-                pupil_x=.80, pupil_y=.65, brow_l=-.40, brow_r=.75,
-                brow_raise=.08, smile=-1., mouth_open=1., grimace=1.,
-                warp_sx=1.04, warp_sy=.84, warp_skew=-.035)
+# Le souffle détend d'abord la pose, sans révéler la grimace de la capture.
+EXHALE = state(arm_hips=.50, eye_open_l=.35, eye_open_r=.43,
+               pupil_x=-.70, pupil_y=.45, brow_l=.20, brow_r=.28,
+               brow_raise=.20, smile=.10, mouth_open=.21,
+               warp_sx=.99, warp_sy=1.08, warp_skew=-.015)
+ANTICIPATE = state(arm_hips=.28, eye_open_l=.35, eye_open_r=.55,
+                   pupil_x=-.50, pupil_y=.45, brow_l=.25, brow_r=.35,
+                   brow_raise=.28, smile=-.10, mouth_open=.25,
+                   warp_sx=.97, warp_sy=1.15, warp_skew=.005)
 GRIMACE = state(arm_hips=0., eye_open_l=0., eye_open_r=.83,
                 pupil_x=.80, pupil_y=.68, brow_l=-.48, brow_r=.83,
                 brow_raise=-.10, smile=-1., mouth_open=1., grimace=1.,
@@ -68,28 +68,37 @@ STARTLED = state(arm_hips=0., eye_open_l=1., eye_open_r=1.,
 DISCOVER = state(arm_hips=0., eye_open_l=.94, eye_open_r=.94,
                  pupil_x=-.90, pupil_y=.45, brow_l=.60, brow_r=.60,
                  brow_raise=.45, smile=-.58, mouth_open=.08)
-ASHAMED = state(arm_clasp=1., eye_open_l=.76, eye_open_r=.76,
-                pupil_x=-.85, pupil_y=.40, brow_l=.64, brow_r=.64,
-                brow_raise=.17, smile=.21)
-FORCED = state(arm_clasp=1., eye_open_l=.82, eye_open_r=.82,
-               pupil_x=0., pupil_y=.05, brow_l=.66, brow_r=.66,
-               brow_raise=.25, smile=.42)
-SIDEGLANCE = state(arm_clasp=1., eye_open_l=.78, eye_open_r=.78,
-                   pupil_x=-.78, pupil_y=.38, brow_l=.66, brow_r=.66,
-                   brow_raise=.20, smile=.28)
+DISAPPOINTED = state(arm_hips=0., eye_open_l=.83, eye_open_r=.83,
+                     pupil_x=-.90, pupil_y=.50, brow_l=.70, brow_r=.70,
+                     brow_raise=.16, smile=-.55, mouth_open=0.)
+# Il tente vraiment de reprendre son beau visage. La façade n'est pas sa fin.
+FALSE_PROUD = state(arm_hips=.66, eye_open_l=.59, eye_open_r=.68,
+                    pupil_x=0., pupil_y=.04, brow_l=.15, brow_r=-.92,
+                    brow_raise=.58, smile=1., vanity=1.,
+                    warp_sx=.99, warp_sy=1.07, warp_skew=-.018)
+FACADE = dict(FALSE_PROUD, arm_hips=.45, arm_clasp=.28)
+PHOTO_BREAKS = dict(FACADE, arm_hips=.20, arm_clasp=.62,
+                    pupil_x=-.90, pupil_y=.48, brow_l=.48, brow_r=.30,
+                    brow_raise=.35)
+ASHAMED = state(arm_clasp=1., eye_open_l=.66, eye_open_r=.72,
+                pupil_x=-.70, pupil_y=.62, brow_l=.78, brow_r=.78,
+                brow_raise=.10, smile=0., shame=1.,
+                warp_sx=1.015, warp_sy=.97, warp_skew=.008)
+ADMITTED = dict(ASHAMED, pupil_x=-.15, pupil_y=.70,
+                eye_open_l=.68, eye_open_r=.73)
 
+FALL_START = 149/24
+FIRST_EXTREME = 155/24
 KEYS = [
     (0.00, READY), (.12, READY), (.60, ADMIRE), (.82, ADMIRE),
     (1.28, PROUD), (1.48, PROUD), (1.58, WINK), (1.66, WINK),
-    (1.78, PROUD), (3.85, PROUD), (4.55, TENSE), (5.25, TENSE),
-    (5.40, STRETCH), (5.62, SPLAT), (5.83, REBOUND),
-    (6.15, GRIMACE), (6.50, GRIMACE),
+    (1.78, PROUD), (4.20, PROUD), (5.10, CRISP), (5.75, TENSE),
+    (6.00, EXHALE), (FALL_START, ANTICIPATE),
+    (FIRST_EXTREME, GRIMACE), (6.50, GRIMACE),
     (6.625, STARTLED), (7.25, STARTLED),
-    (8.75, DISCOVER), (9.50, DISCOVER),
-    (10.62, ASHAMED), (10.95, ASHAMED),
-    (11.48, FORCED), (12.15, FORCED),
-    (12.42, SIDEGLANCE), (12.70, SIDEGLANCE),
-    (13.10, FORCED), (14.00, FORCED),
+    (8.75, DISCOVER), (9.50, DISCOVER), (10.40, DISAPPOINTED),
+    (11.40, FALSE_PROUD), (11.90, FACADE), (12.25, PHOTO_BREAKS),
+    (12.75, ASHAMED), (13.15, ADMITTED), (14.00, ADMITTED),
 ]
 
 
@@ -97,17 +106,15 @@ def pose_at(t):
     """Pose complète. La pose à 6.5 s est la seule source de la photo figée."""
     for (ta, a), (tb, b) in zip(KEYS, KEYS[1:]):
         if ta <= t <= tb:
-            u = smooth((t-ta)/(tb-ta))
-            p = {key: a[key]+(b[key]-a[key])*u for key in a}
+            raw = min(1., max(0., (t-ta)/(tb-ta)))
+            # Une seule chute accélérée : le grotesque entier n'est atteint
+            # qu'à l'image155, juste avant le clic156. Aucun rebond.
+            u = raw*raw if ta == FALL_START and tb == FIRST_EXTREME else smooth(raw)
+            p = dict(b) if raw >= 1.0 else {key: a[key]+(b[key]-a[key])*u for key in a}
             break
     else:
         p = dict(KEYS[0 if t < 0 else -1][1])
-    # Clin d'œil de vanité dans KEYS ; le clignement de gêne reste inchangé.
-    blink = 1.0
-    for center, width in [(11.82, .065)]:
-        blink *= 1-.995*math.exp(-((t-center)/width)**2)
-    p['eye_open_l'] *= blink
-    p['eye_open_r'] *= blink
+    # Le seul clin d'œil est celui de vanité déjà inscrit dans KEYS.
     # Sous .30, le morphing du rig donnerait un contour vert vide. Terminer
     # la fermeture en arc franc évite cet artefact sans redessiner les yeux.
     for side in ('l', 'r'):
@@ -126,7 +133,7 @@ def deformation_at(p):
 
     x'=200+sx*(x-200)+skew*(y-437) ; y'=437+sy*(y-437).
     Les pieds sont exclus de ce groupe ; les mains n'en sont jamais exclues.
-    sx : .94..1.12 ; sy : .65..1.18 ; skew : -.07...005.
+    sx : .97..1.12 ; sy : .68..1.15 ; skew : -.07...008.
     """
     return {'sx': float(p.get('warp_sx', 1.)),
             'sy': float(p.get('warp_sy', 1.)),
@@ -139,6 +146,7 @@ def _episode_mouth(p, uid):
     g = min(1., max(0., p.get('grimace', 0.)))
     v = min(1., max(0., p.get('vanity', 0.)))
     pout = min(1., max(0., p.get('pout', 0.)))
+    shame = min(1., max(0., p.get('shame', 0.)))
     smile = max(-1., min(1., p.get('smile', 0.)))
     op = max(0., min(1., p.get('mouth_open', 0.)))
     mix = lambda a, b, u: a+(b-a)*u
@@ -156,7 +164,10 @@ def _episode_mouth(p, uid):
     # Grand bas de bouche mou et oblique : ne doit pas lire un sourire.
     crooked = [(-44., 7.), (-29., -38.), (10., -30.), (39., 26.),
                (46., 58.), (-49., 78.)]
-    for shape, weight in [(grin, v), (lips, pout), (crooked, g)]:
+    # Presque un trait : un coin minuscule et retenu, pas un U heureux.
+    shy = [(-12., 0.), (-3., 3.), (7., 1.), (13., -1.5),
+           (7., 1.), (-3., 3.)]
+    for shape, weight in [(grin, v), (lips, pout), (crooked, g), (shy, shame)]:
         points = [(mix(a[0],b[0],weight),mix(a[1],b[1],weight))
                   for a,b in zip(points,shape)]
     xy = [f'{x:.3f} {y:.3f}' for x,y in points]
@@ -169,7 +180,7 @@ def _episode_mouth(p, uid):
     tongue_ry = mix(15., 24., g)
     # La même langue, désormais molle et sortie : une seule forme rose,
     # jamais dédoublée. Ses proportions reviennent avec le relâchement.
-    tongue_clip = f'clip-path="url(#{clip})"' if g <= .00001 else ''
+    tongue_clip = f'clip-path="url(#{clip})"' if g < .75 else ''
     return (f'<g id="mouth" transform="translate(205 321)">'
             f'<path d="{d}" fill="{ink}" stroke="{ink}" stroke-width="4.6" '
             f'stroke-linecap="round" stroke-linejoin="round"/>'
@@ -184,7 +195,7 @@ def _episode_mouth(p, uid):
 def character_at(p, uid='mou'):
     """Le rig original et son jeu : pieds fixes, torse/bras/visage solidaires."""
     fragment = character_fragment(p, uid=uid)
-    if any(p.get(k, 0.) > .00001 for k in ('grimace', 'vanity', 'pout')):
+    if any(p.get(k, 0.) > .00001 for k in ('grimace', 'vanity', 'pout', 'shame')):
         original = _mouth(p, uid)
         assert original in fragment
         fragment = fragment.replace(original, _episode_mouth(p, uid), 1)
@@ -205,10 +216,15 @@ def character_at(p, uid='mou'):
 
 def intention_at(t):
     if t < .9: return 'auto-admiration'
-    if t < 4.0: return 'certain d’être beau'
-    if t < 5.25: return 'sourire crispé'
-    if t < 6.15: return 'effondrement trop tôt'
-    if t <= 6.50: return 'grimace photographiée'
+    if t < 4.2: return 'certain d’être beau'
+    if t < 5.75: return 'beau sourire qui se crispe'
+    if t < FALL_START: return 'souffle et courte anticipation'
+    if t < FIRST_EXTREME: return 'une seule chute accélérée'
+    if t <= 6.50: return 'premier arrêt raté photographié'
     if t < 9.5: return 'découverte du clic tardif'
-    if t < 11.0: return 'gêne devant la photo'
-    return 'sourire forcé au spectateur'
+    if t < 10.4: return 'déconvenue devant la photo'
+    if t < 11.4: return 'tentative de sauver les apparences'
+    if t < 11.9: return 'façade de maîtrise'
+    if t < 12.25: return 'regard photo qui détruit la façade'
+    if t < 12.75: return 'sourire qui casse, menton retombé'
+    return 'gêne assumée, sourire presque nul'

@@ -1,56 +1,61 @@
-MOU 01 — LE RETARDATEUR — CONTRÔLE DE LA RÉVISION 2
+MOU 01 — LE RETARDATEUR — BILAN V3
 
-DEMANDE APPLIQUÉE
-MOU doit être visiblement certain d’être beau et son relâchement beaucoup
-plus exagéré. Début : regard auto-admiratif vers l’aperçu, moue, menton et
-torse relevés, sourire en coin, sourcil conquérant, éclats à1,30s et clin
-d’œil à1,625s. Ensuite : étirement, affaissement massif, petit rebond,
-bouche franchement oblique et langue unique pendante. La photo ne lit
-plus un sourire de séduction. La réaction gênée termine toujours le gag.
+RÉSULTAT
+14,000s ;1080×1920 ;24i/s ;336images, H264/yuv420p et AAC stéréo48kHz.
+Version muette sans piste audio, avec exactement le même flux vidéo.
+Rig MOU vert et outils gratuits/open source conservés ; aucun modèle remplacé.
 
-IDENTITÉ ET DÉFORMATION
-Le même rig vert citron et sa double bosse sont conservés ; mou_rig.py
-est inchangé (SHA256 dans audit_structure.json). Deux yeux, deux bras,
-deux mains et deux pieds prune. Corps, bras et visage se déforment
-ensemble ; les pieds sont hors de la transformation et fixes aux336images.
-Hauteur de frime : ×1.13 ; anticipation ×1,18 ;
-écrasement maximal ×0,65 ; capture stabilisée ×0.68,
-largeur ×1.12. Les contours des bras restent dans
-le cadre et séparés du téléphone. Le cadrage photo s’ajuste à la silhouette
-pour conserver tête, mains et pieds, sans changer la pose capturée.
+ÉQUIPE ET CRÉATION CONSERVÉES
+Règles dans AGENTS.md, cinq profils natifs dans .codex/agents/ et coordination
+dans equipe/. Profils TOML validés et compatibilité CLI0.163.0 vérifiée ;
+chargement natif dans le chat non prouvé. Les rôles ont été appliqués aux
+agents disponibles par mandats séparés, sans écriture concurrente des fichiers.
+Cinq idées réellement distinctes et choix conservés dans developpement/.
+Le pilote existant est repris après critique du scénario AVANT fabrication.
 
-INSPECTION ET CORRECTIONS
-Montage complet léger avec son contrôlé avant le final, puis lecture muette
-et détails à0,583 /1,292 /1,625 /3,833 /5,375 /5,625 /5,833 /6,250 /
-6,458 /6,750 /7,500 /11,500s. Critique indépendante : critique_v2.md.
-La bouche d’abord trop souriante et le cadrage photo qui coupait la bosse
-ont été corrigés. Le clin d’œil absent du premier calculv2 a révélé des
-anciens liens physiques entre images et cache. Cache et séquences concernés
-mis en quarantaine hors livraison ; nouveau cache, copies atomiques et
-validation de chaque image avant encodage. Un recalcul complet était
-nécessaire pour restaurer l’intégrité. Aucune image partagée entre fichiers.
+CORRECTIONS RETENUES
+V2 montrait trop tôt le cliché raté. V3 garde la crispation jusqu’à5,75s,
+une courte anticipation, puis une chute sans rebond des images149à155.
+Le premier extrême arrive à6,458s ; clic/flash156à6,50 sur la même pose.
+La photo garde exactement cet état et sa déformation, tête/mains/pieds entiers.
+V2 finissait presque sereine. V3 fait essayer à MOU de sauver les apparences
+vers10,4–11,9s ; son regard revient au cliché, son beau sourire se casse et
+il termine gêné, bouche presque plate. Le temps de lecture photo est conservé.
+La critique du vrai montage léger juge ces corrections visibles et garde14s ;
+aucun temps mort constaté ne justifiait de réduire arbitrairement à13,5s.
+Voir developpement/journal_corrections.md et controle/critique_v3.md.
 
-VÉRIFICATIONS DU MP4 FINAL
-14,000s ;1080×1920 ;24i/s ;336images décodées sans erreur.
-H264/yuv420p +AAC stéréo48kHz. Muet : aucune piste audio, même flux vidéo.
-IDs uniques, masques résolus, deux bras/mains, pieds fixes :336scènes.
-Gestes encodés comparés àdes SVG recalculés indépendamment du cache à
-1,292 /1,625 /5,625 /6,458s : écarts moyens locaux inférieurs à3/255.
-Photo : même pose ET déformation qu’avant le flash, à6,50s (image156).
-Écran immobile comparé à7,50 et8,50s : différence moyenne
-0.003993/255, compatible avec H264.
-Clic décodé à6.500104s ; crête AAC
--6.087dBFS, sans saturation. Silence conservé avant flash.
-Neuf effets originaux locaux, dont éclat de vanité et détente élastique.
-GIF de consultation :270×480,140images,14s, muet.
+VÉRIFICATIONS DU FINAL
+Décodage complet des deux MP4 sans erreur :336images. Deux bras/mains,
+pupilles masquées, IDs uniques et références résolues ; pieds fixes hors de
+la déformation à toutes les images. Aucun fichier image lié à un autre :
+copies atomiques, clé SVG et destination comparées avant encodage.
+Gestes du MP4 comparés à des SVG frais hors cache, y compris la nouvelle
+chute et la fin à13,50s. Pas de rebond et extrême155 vérifiés également.
+Clic AAC mesuré à6.500125s ; crête
+-6.014dBFS sans saturation. Souffle5,78–5,98s,
+chute silencieuse et pause avant le flash ; accent gêne12,35–12,70s.
+Huit effets actifs originaux. Ancien effet élastique conservé en banque,
+explicitement exclu du mix. Photo immobile7,5vs8,5 : écart moyen
+0.004460/255, compatible avec compression.
 
-LIVRAISON ET LIMITES
-MP4 son, MP4 muet, ZIP de sources, sons séparés/mix, chronologie et audits.
-Reproduction : sources/README.md ; outils de production gratuits/open source.
-ZIP extrait à un autre chemin et scripts exécutés depuis /tmp : audit des
-336poses et rendu de15images réussis ; photo et mix identiques octet par octet.
-Durée14s maintenue : la nouvelle déformation ne nécessite pas de rallonge.
-Contrôle visuel par extractions denses et planches ; contrôles audio
-numériques, sans écoute subjective sur téléphone réel ni test de public.
-La lecture critique estime la vanité et le relâchement plus explicites ;
-cela ne remplace pas l’appréciation artistique de l’utilisatrice.
+LIMITE ÉDITORIALE ET MESURES
+La veille récente externe est INCOMPLÈTE : accès YouTube refusé par le réseau
+(403). Zéro Short vérifié, aucun lien/compteur/date/rétention inventé.
+Cette révision du pilote demandé se fonde sur retours et critique internes,
+pas sur une fausse veille. Rapport daté dans editorial/ à la racine.
+Domaines requis enregistrés au brouillon des paramètres ; l’enregistrement
+ne les applique pas à l’instance et ne publie pas l’environnement.
+Aucun résultat d’audience de diffusion MOU n’est fourni ; publication/ garde
+le protocole de mesure future. GitHub ne vaut pas publication d’un Short.
+
+PORTÉE
+Inspection artistique par extractions denses de l’animatique entière et
+lecture muette ; audio contrôlé numériquement, sans écoute subjective sur
+téléphone ni test de public. Une petite histoire plus claire est l’objectif,
+pas une promesse de rire, de rétention ou de succès commercial.
+ZIP extrait àun autre chemin :5profils et documents de création présents,
+audit336poses et15images rendues ; photo et mix reproduits identiquement.
+Instructions de démarrage et domaines réseau enregistrés au brouillon cloud,
+sans activation ou publication implicite de cette configuration.
+Sources et commandes : sources/README.md ; audits et preuves : controle/.
