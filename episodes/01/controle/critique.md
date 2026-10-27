@@ -1,3 +1,6 @@
+> Note historique : critique de la version 1 (commit a17f050).
+> La version courante est analysée dans critique_v2.md.
+
 # Critique indépendante — épisode 01, « Le retardateur »
 
 ## Références examinées

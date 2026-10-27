@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[3]
 EP = ROOT/'episodes'/'01'
 sys.path.insert(0,str(ROOT))
-from animation import pose_at, motion_at, character_at, intention_at
+from animation import pose_at, motion_at, character_at, intention_at, deformation_at
 from mou_rig import PALETTE
 import cairosvg
 from PIL import Image, ImageDraw, ImageFont
@@ -18,6 +18,7 @@ FLASH=6.5
 INK=PALETTE['outline']
 BG='#EEE6FA'
 PHOTO=None
+CACHE_VERSION='svg-atomic-copy-v2'
 
 def smooth(x):
     x=max(0,min(1,x)); return x*x*(3-2*x)
@@ -32,12 +33,23 @@ def puppet(t,prefix):
     return isolated(character_at(pose_at(t),uid=prefix),prefix)
 
 def photo_svg():
-    # Same pose/time/render function as the main scene. A portrait crop is
-    # deliberate: phone photograph fills its screen, the face remains large.
+    # The captured pose includes the same body deformation as the main scene.
+    # Fit its actual silhouette into the portrait so squash does not crop a
+    # hand or the two bumps. Raster alpha is used only to measure SVG bounds.
+    avatar=puppet(FLASH,"photo")
+    measurement=(f'<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1240" '
+                 f'viewBox="-80 -60 560 620">{avatar}</svg>')
+    image=Image.open(io.BytesIO(cairosvg.svg2png(bytestring=measurement.encode()))).convert('RGBA')
+    bbox=image.getchannel('A').getbbox()
+    assert bbox is not None
+    left,top,right,bottom=[bbox[0]/2-80,bbox[1]/2-60,bbox[2]/2-80,bbox[3]/2-60]
+    scale=min(432/(right-left),610/(bottom-top))
+    cx=(left+right)/2;cy=(top+bottom)/2
+    shadow_y=372+(bottom-cy)*scale+9
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="480" height="744" viewBox="0 0 480 744">'
             f'<rect width="480" height="744" fill="#E1D1F2"/>'
-            f'<ellipse cx="235" cy="686" rx="205" ry="16" fill="#CBB4E0"/>'
-            f'<g transform="translate(240 686) scale(1.84) translate(-200 -450)">{puppet(FLASH,"photo")}</g></svg>')
+            f'<ellipse cx="240" cy="{shadow_y:.5f}" rx="205" ry="12" fill="#CBB4E0"/>'
+            f'<g transform="translate(240 372) scale({scale:.8f}) translate({-cx:.5f} {-cy:.5f})">{avatar}</g></svg>')
 
 def prepare_photo():
     global PHOTO
@@ -84,6 +96,17 @@ def phone(t):
         a.append(f'<circle cx="253" cy="1006" r="6" fill="#D8F449" opacity="{pulse:.3f}"/>')
     a.append('</g>');return ''.join(a)
 
+
+def vanity_sparkles(t):
+    """Deux accents de glamour, brefs et non anatomiques, près du visage."""
+    pieces=[]
+    for center,x,y,size in [(1.30,946,788,31),(1.43,992,860,20)]:
+        u=(t-(center-.10))/.24
+        if 0<u<1:
+            k=math.sin(math.pi*u)**.6
+            pieces.append(f'<path transform="translate({x} {y}) scale({k:.5f})" d="M0 {-size} Q3 -3 {size} 0 Q3 3 0 {size} Q-3 3 {-size} 0 Q-3 -3 0 {-size}Z" fill="#FFF8CF" stroke="{INK}" stroke-width="4" stroke-linejoin="round"/>')
+    return '<g id="vanity-sparkles">'+''.join(pieces)+'</g>' if pieces else ''
+
 def svg_at(t):
     z,tx,ty=camera(t)
     p=pose_at(t);m=motion_at(t)
@@ -100,7 +123,7 @@ def svg_at(t):
        '<ellipse cx="565" cy="1485" rx="900" ry="113" fill="#E3D5EF"/>',
        '<ellipse cx="670" cy="1468" rx="337" ry="25" fill="#CCB7E0"/>',
        f'<g id="character" transform="translate({670+m.get("dx",0):.5f} {1460+m.get("dy",0):.5f}) scale({2.35*m["sx"]:.6f} {2.35*m["sy"]:.6f}) translate(-200 -450)">{puppet(t,"main")}</g>',
-       phone(t), '</g>']
+       vanity_sparkles(t), phone(t), '</g>']
     if FLASH<=t<FLASH+.125:
         op=[.94,.65,.22][min(2,int((t-FLASH)*FPS))]
         a.append(f'<rect id="flash" width="1080" height="1920" fill="#FFFDF9" opacity="{op}"/>')
@@ -109,7 +132,7 @@ def svg_at(t):
 def render_job(args):
     i,scale,out=args
     data=svg_at(i/FPS).encode()
-    key=hashlib.sha256(data+str(scale).encode()).hexdigest()
+    key=hashlib.sha256(CACHE_VERSION.encode()+data+str(scale).encode()).hexdigest()
     cache=EP/'cache'/f'{key}.png'
     dest=Path(out)/f'{i:04d}.png'
     if not cache.exists():
@@ -119,7 +142,9 @@ def render_job(args):
     # some overlay filesystems race on link+rename from separate workers.
     cached=cache.read_bytes()
     if not dest.exists() or dest.read_bytes()!=cached:
-        dest.write_bytes(cached)
+        tmp_dest=dest.with_name(f".{dest.name}.{os.getpid()}.tmp")
+        tmp_dest.write_bytes(cached)
+        tmp_dest.replace(dest)
     return i
 
 def board(frames,out):
@@ -138,6 +163,8 @@ def audit():
     assert rig_hash=='7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e'
     report={'original_rig_sha256':rig_hash,'frames':FPS*DURATION,'fps':FPS,'duration':DURATION,'flash_frame':156,
             'photo_pose_time':FLASH,'photo_sha256':hashlib.sha256((EP/'sources/photo_capturee.png').read_bytes()).hexdigest()}
+    deformations=[]
+    fixed_feet=None
     for i in range(FPS*DURATION):
         t=i/FPS;p=pose_at(t);root=ET.fromstring(svg_at(t))
         ids=[e.attrib['id'] for e in root.iter() if 'id' in e.attrib]
@@ -150,8 +177,28 @@ def audit():
         assert {'main-arm-left','main-arm-right','main-face','main-main-eye-l','main-main-eye-r'} <= set(ids),(t,'anatomy')
         assert all(math.isfinite(v) for v in p.values())
         assert p['lift_l']==0 and p['lift_r']==0
+        d=deformation_at(p);deformations.append(d)
+        assert all(math.isfinite(v) for v in d.values())
+        assert d['anchor_y']==437.0
+        warp=next((e for e in main.iter() if e.attrib.get('id')=='main-body-warp'),None)
+        assert (warp is not None)==any(abs(d[k]-v)>1e-10 for k,v in [('sx',1.),('sy',1.),('skew',0.)])
+        feet=[ET.tostring(e) for e in main.iter() if e.attrib.get('id') in {'main-foot-l','main-foot-r'}]
+        if fixed_feet is None: fixed_feet=feet
+        assert feet==fixed_feet,(t,'feet changed')
+        if warp is not None:
+            warp_ids={e.attrib.get('id') for e in warp.iter()}
+            assert {'main-body','main-arm-left','main-arm-right','main-face'}<=warp_ids
+            assert not {'main-foot-l','main-foot-r'} & warp_ids
         assert len([e for e in main.iter() if e.attrib.get('id','').endswith(('foot-l','foot-r'))])==2
-    report.update(unique_ids_all_frames=True,two_hands_all_frames=True,two_grounded_feet_all_frames=True,all_clip_references_resolved=True,
+    confident=deformation_at(pose_at(3.3));collapsed=deformation_at(pose_at(FLASH))
+    assert confident['sy']>=1.1 and collapsed['sy']<=.72
+    assert confident['sy']-collapsed['sy']>=.38
+    assert pose_at(155/FPS)==pose_at(FLASH)
+    report.update(revision=2,vanity_vertical_scale=confident['sy'],collapse_vertical_scale=collapsed['sy'],
+                  collapse_horizontal_scale=collapsed['sx'],
+                  body_scale_peak_to_collapse=round(max(d['sy'] for d in deformations)-collapsed['sy'],4),
+                  feet_excluded_from_body_deformation=True,feet_geometry_fixed_all_frames=True,body_arms_face_warp_together=True,
+                  unique_ids_all_frames=True,two_hands_all_frames=True,two_grounded_feet_all_frames=True,all_clip_references_resolved=True,
                   frozen_photo=True,original_rig_unchanged=True)
     (EP/'controle'/'audit_structure.json').write_text(json.dumps(report,indent=2))
     return report
@@ -165,6 +212,14 @@ def main():
     indices=sorted({round(t*FPS) for t in samples}) if a.stills else range(FPS*DURATION)
     with concurrent.futures.ProcessPoolExecutor(max_workers=a.workers) as pool:
         list(pool.map(render_job,[(i,scale,str(frames)) for i in indices]))
+    # Validate destinations after all workers finish: no shared inodes, no
+    # frame overwritten through an old cache hardlink.
+    for i in indices:
+        data=svg_at(i/FPS).encode()
+        key=hashlib.sha256(CACHE_VERSION.encode()+data+str(scale).encode()).hexdigest()
+        dest=frames/f'{i:04d}.png'
+        assert dest.stat().st_nlink==1,(i,'shared frame inode')
+        assert dest.read_bytes()==(EP/'cache'/f'{key}.png').read_bytes(),(i,'frame/cache mismatch')
     board(frames,EP/'controle'/('planche_preview.png' if a.preview else 'planche_finale.png'))
     if a.stills: print(json.dumps(report));return
     tag='premier_montage' if a.preview else 'MOU_01_le_retardateur'

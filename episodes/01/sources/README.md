@@ -3,6 +3,7 @@
 Épisode muet dans son écriture, avec ponctuations sonores originales : 14 secondes,
 24 images/s, 1080 × 1920, H264 yuv420p et AAC stéréo 48 kHz. Deux versions vidéo :
 avec son et sans piste audio. Le rig original reste inchangé.
+Révision 2 : vanité appuyée et déformation très exagérée au relâchement.
 
 Depuis la racine **MOU** du projet décompressé, Python 3.11+ et FFmpeg avec libx264,
 Cairo et fontconfig doivent être disponibles. Les dépendances Python exactes sont
@@ -25,7 +26,7 @@ n'est nécessaire au rendu après installation.
 
 `animation.py` contient les poses et interpolations ; `render.py` compose le décor,
 le même téléphone et ses recadrages, crée la photo fixe à 6,50 s puis encode.
-`son.py` synthétise les sept effets et le mix ; `verify.py` audite les fichiers
+`son.py` synthétise les neuf effets et le mix ; `verify.py` audite les fichiers
 réellement décodés. `../chronologie.json` est le découpage commun des trois agents.
 Les SVG/PNG `photo_capturee` sont calculés par le même modèle à l'instant du clic.
 
@@ -38,5 +39,15 @@ Le gros plan reste le même téléphone fixe, sans apparition d'un autre apparei
 Les mains ne prennent aucun objet ; aucune marche ni rotation n'est ajoutée.
 L'adaptation des paupières dans l'épisode évite les anneaux verts pendant les
 fermetures ; la surprise s'ouvre sous le flash, sans modifier le dessin du rig.
+
+Les paramètres `warp_sx`, `warp_sy`, `warp_skew` déforment le torse, les bras
+et le visage ensemble. Les deux pieds restent hors de ce groupe et fixes.
+MOU se redresse à 1,13 en hauteur, atteint 1,18 en anticipation, puis tombe
+à 0,65 avant de se stabiliser à 0,68 pour la photo. La même déformation
+est utilisée dans la scène, l’aperçu et la capture. Le cadrage photo ajuste
+sa taille à la silhouette mesurée, sans couper les deux bosses ou les mains.
+
+`package.py` régénère le ZIP des sources et LIVRAISON.json après les exports
+et la mise à jour du GIF. Le ZIP exclut caches, séquences PNG, venv et Git.
 
 Les contrôles et limites sont dans `../CONTROLE.txt` et `../controle/`.

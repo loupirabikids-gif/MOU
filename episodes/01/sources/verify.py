@@ -1,8 +1,10 @@
 """Audits du MP4 livré, du silence, de la capture et de la chaîne de rendu."""
 from pathlib import Path
-import hashlib, json, math, subprocess, sys
+import hashlib, io, json, math, subprocess, sys
+import cairosvg
+from PIL import Image
 import numpy as np
-from render import EP, ROOT, FPS, FLASH, audit, prepare_photo
+from render import EP, ROOT, FPS, FLASH, audit, prepare_photo, svg_at
 from animation import pose_at
 
 def probe(p):
@@ -46,7 +48,19 @@ def main():
     assert float(delta.mean())<1.0
     flash=decoded_frame(full,6.5);before=decoded_frame(full,155/FPS)
     assert float(flash.mean())>float(before.mean())+25
-    result={'format':'H264/yuv420p + AAC stereo48kHz','dimensions':[1080,1920],
+    # Compare expressive moments in the encoded video to freshly rasterized
+    # SVGs, independently of the image cache. This catches missing gestures.
+    source_match={}
+    for t,roi in [(1.625,(690,760,870,1010)),(1.2916666666666667,(910,735,1030,895)),
+                  (5.625,(300,900,1080,1480)),(6.458333333333333,(300,900,1080,1480))]:
+        expected=np.asarray(Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg_at(t).encode()))).convert('RGB'))
+        actual=decoded_frame(full,t)
+        x0,y0,x1,y1=roi
+        err=float(np.abs(actual[y0:y1,x0:x1].astype(float)-expected[y0:y1,x0:x1].astype(float)).mean())
+        assert err<3.,(t,'encoded gesture differs from source',err)
+        source_match[str(round(t,6))]=round(err,6)
+    result={'revision':2,'encoded_gestures_match_fresh_svg':True,'gesture_roi_mean_errors_0_255':source_match,
+            'format':'H264/yuv420p + AAC stereo48kHz','dimensions':[1080,1920],
             'duration_seconds':14,'fps':24,'decoded_frames':336,'complete_decode_without_errors':True,
             'mute_contains_no_audio':True,'video_bitstream_identical_between_versions':True,
             'flash_frame':156,'capture_matches_pose_immediately_before_flash':True,

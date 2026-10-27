@@ -1,6 +1,10 @@
 # MOU 01 — Le retardateur
 
-14 secondes · 1080 × 1920 · 24 images/s · sans dialogue.
+**Révision 2** · 14 secondes · 1080 × 1920 · 24 images/s · sans dialogue.
+
+MOU se trouve irrésistible, puis se dégonfle beaucoup trop tôt : véritable
+affaissement du corps, bouche de travers et langue pendante. Pieds ancrés,
+même identité et même modèle articulé. Le cliché conserve cette grimace exacte.
 
 ![Aperçu animé muet](MOU_01_apercu.gif)
 

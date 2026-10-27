@@ -1,5 +1,7 @@
 {
   "episode": "MOU 01 — Le retardateur",
+  "revision": 2,
+  "revision_note": "Ajout d’un éclat de vanité à 1,30 s et d’une détente élastique à 5,30 s ; bips, clic, souffle et ponctuation finale conservés.",
   "provenance": "Tous les effets sont des créations procédurales originales synthétisées localement par sources/son.py. Aucun échantillon, enregistrement, service ni banque externe.",
   "outils": [
     "Python (PSF)",
@@ -30,6 +32,24 @@
           1600
         ],
         "duration": 0.12
+      }
+    },
+    {
+      "name": "vanite_eclat",
+      "file": "vanite_eclat.wav",
+      "start_seconds": 1.3,
+      "start_sample": 62400,
+      "end_seconds": 1.5,
+      "pan": 0.25,
+      "peak_dbfs": -19.0,
+      "parameters": {
+        "type": "double_tintement_bref",
+        "fundamentals_hz": [
+          1480,
+          2210
+        ],
+        "second_tintement_seconds": 0.048,
+        "duration": 0.2
       }
     },
     {
@@ -89,6 +109,24 @@
           2100
         ],
         "duration": 0.5
+      }
+    },
+    {
+      "name": "detente_elastique",
+      "file": "detente_elastique.wav",
+      "start_seconds": 5.3,
+      "start_sample": 254400,
+      "end_seconds": 5.77,
+      "pan": 0.25,
+      "peak_dbfs": -16.5,
+      "parameters": {
+        "type": "glissando_elastique_descendant_non_vocal",
+        "frequency_hz": [
+          311,
+          70
+        ],
+        "duration": 0.47,
+        "intention": "abandon exagéré de la belle pose ; accompagne le souffle"
       }
     },
     {

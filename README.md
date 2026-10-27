@@ -1,6 +1,6 @@
 # MOU
 
-Le premier épisode **« Le retardateur »** est terminé : 14 secondes, format
+Le premier épisode **« Le retardateur »**, révision 2, est terminé : 14 secondes, format
 vertical **1080 × 1920**, avec des effets sonores originaux et sans dialogue.
 
 ## Voir le premier épisode
@@ -15,6 +15,11 @@ le MP4 puis l'ouvrir sur un téléphone ou un ordinateur.
 - [Télécharger les sources et les sons — ZIP](episodes/01/MOU_01_sources.zip?raw=true)
 - [Lire le bilan des contrôles](episodes/01/CONTROLE.txt)
 - [Chronologie](episodes/01/chronologie.json) · [Instructions de reproduction](episodes/01/sources/README.md)
+
+Dans cette révision, MOU est visiblement sûr de son charme : menton haut,
+auto-admiration, sourire en coin, clin d’œil et petits éclats de glamour. Son
+relâchement s’exagère en étirement, affaissement et rebond, bouche et langue
+pendantes. La photo enregistre exactement cette pose ratée.
 
 Le rig MOU fourni est conservé. Fabrication locale avec Python, SVG, CairoSVG,
 Pillow, NumPy et FFmpeg, tous gratuits et open source. Les raccords, les regards,

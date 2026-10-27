@@ -66,6 +66,34 @@ def breath(rng: np.random.Generator) -> np.ndarray:
     return air * envelope * raised_envelope(n, .045, .09)
 
 
+def vanity_glint() -> np.ndarray:
+    """Éclat de satisfaction, court et léger : deux tintements sans mélodie."""
+    length = .20
+    n = round(length * SR)
+    result = np.zeros(n)
+    for start, freq, gain in [(0.0, 1480, 1.0), (.048, 2210, .65)]:
+        j = round(start * SR)
+        u = np.arange(n-j) / SR
+        bell = np.sin(math.tau * freq * u)
+        bell += .20 * np.sin(math.tau * freq * 2.73 * u)
+        bell *= np.exp(-u / .033) * raised_envelope(len(u), .0025, .025)
+        result[j:] += gain * bell
+    return result * raised_envelope(n, .0025, .025)
+
+
+def elastic_release() -> np.ndarray:
+    """Détente corporelle descendante : souple, non vocale, sans gros impact."""
+    length = .47
+    n = round(length * SR)
+    t = np.arange(n) / SR
+    # La chute initiale de hauteur suit l'abandon de la pose ; la petite
+    # oscillation finale accompagne le tassement du même corps articulé.
+    freq = 66 + 245 * np.exp(-t / .115)
+    freq += 12 * np.sin(math.tau * 7 * t) * np.exp(-t / .24)
+    tone = oscillator(freq) + .22 * oscillator(freq * 2)
+    return tone * np.exp(-2.5 * t / length) * raised_envelope(n, .012, .09)
+
+
 def shutter(rng: np.random.Generator) -> np.ndarray:
     n = round(.155 * SR)
     t = np.arange(n) / SR
@@ -136,6 +164,9 @@ def main() -> None:
     events = [
         ('pose_froissement', .72, fabric(rng), .25, -29,
          {'type': 'bruit_filtre', 'band_hz': [260, 1600], 'duration': .12}),
+        ('vanite_eclat', 1.30, vanity_glint(), .25, -19,
+         {'type': 'double_tintement_bref', 'fundamentals_hz': [1480, 2210],
+          'second_tintement_seconds': .048, 'duration': .20}),
         ('timer_3', 2.0, timer(620, .13), -.35, -15,
          {'type': 'sinus_harmonique', 'fundamental_hz': 620, 'duration': .13}),
         ('timer_2', 3.1, timer(740, .115), -.35, -14.5,
@@ -144,6 +175,10 @@ def main() -> None:
          {'type': 'sinus_harmonique', 'fundamental_hz': 880, 'duration': .15}),
         ('souffle', 5.30, breath(rng), .25, -21,
          {'type': 'souffle_non_vocal', 'band_hz': [180, 2100], 'duration': .50}),
+        ('detente_elastique', 5.30, elastic_release(), .25, -16.5,
+         {'type': 'glissando_elastique_descendant_non_vocal',
+          'frequency_hz': [311, 70], 'duration': .47,
+          'intention': 'abandon exagéré de la belle pose ; accompagne le souffle'}),
         ('obturateur', 6.5, shutter(rng), -.35, -6,
          {'type': 'double_clic', 'second_contact_seconds': .037, 'duration': .155}),
         ('gene', 10.1, embarrassment(), .20, -19,
@@ -152,6 +187,8 @@ def main() -> None:
     mix = np.zeros((round(DURATION * SR), 2), dtype=np.float64)
     manifest = {
         'episode': 'MOU 01 — Le retardateur',
+        'revision': 2,
+        'revision_note': 'Ajout d’un éclat de vanité à 1,30 s et d’une détente élastique à 5,30 s ; bips, clic, souffle et ponctuation finale conservés.',
         'provenance': 'Tous les effets sont des créations procédurales originales synthétisées localement par sources/son.py. Aucun échantillon, enregistrement, service ni banque externe.',
         'outils': ['Python (PSF)', 'NumPy (BSD-3-Clause)', 'wave (bibliothèque standard Python)'],
         'voice': False, 'continuous_music': False,
@@ -185,6 +222,7 @@ def main() -> None:
         pcm = np.frombuffer(f.readframes(f.getnframes()), dtype='<i2').reshape(-1, 2)
     decoded = pcm.astype(np.float64) / 32768
     audit = {
+        'revision': 2,
         'frames': len(decoded), 'duration_seconds': len(decoded) / SR,
         'peak_dbfs': db(float(np.max(np.abs(decoded)))),
         'rms_dbfs_left_right': [db(float(v)) for v in np.sqrt(np.mean(decoded ** 2, axis=0))],
@@ -192,6 +230,9 @@ def main() -> None:
         'clipped_samples': int(np.count_nonzero(np.abs(pcm.astype(np.int32)) >= 32767)),
         'silence_before_flash_6_0_to_6_5': not bool(pcm[round(6.0 * SR):round(6.5 * SR)].any()),
         'flash_sample': round(6.5 * SR),
+        'vanity_glint_sample': round(1.30 * SR),
+        'elastic_release_sample': round(5.30 * SR),
+        'event_count': len(events),
         'reproduction': 'Depuis la racine MOU : .venv/bin/python episodes/01/sources/son.py',
         'limite': 'Contrôle numérique et intention de mixage ; aucun test d’écoute sur appareil mobile réel.',
     }
