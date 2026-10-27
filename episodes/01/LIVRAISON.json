@@ -1,6 +1,6 @@
 {
   "titre": "MOU 01 — La dernière retouche",
-  "revision": 5,
+  "revision": 4,
   "duree_secondes": 13.0,
   "resolution": [
     1080,
@@ -9,20 +9,20 @@
   "fps": 24,
   "fichiers": {
     "MOU_01_le_retardateur.mp4": {
-      "bytes": 751689,
-      "sha256": "f8be8554788ea236de33aad79db355119762497902947e43d41a467da2278a78"
+      "bytes": 763096,
+      "sha256": "304b2992cbea68c92d19aa360f5cfc9611ef5179341c3f437d2dd74b0e37cf82"
     },
     "MOU_01_le_retardateur_muet.mp4": {
-      "bytes": 715147,
-      "sha256": "449dabb5a9e951a633e0e69a36da5df9f4308966962c2d2b3f9c4d2263aa8c01"
+      "bytes": 726554,
+      "sha256": "95edc2ff1d363aeacfcd848b628f678f53e91c08f6ed42a1533b2c39fc988aaa"
     }
   },
   "sources": "MOU_01_sources.zip",
   "bilan": "CONTROLE.txt",
   "archive_sources": {
-    "bytes": 11833791,
-    "sha256": "a63469a6f2d48426da4c5bb0988ff6cfc781290e6d2481d1c8fed80d2bb7f8b2",
-    "fichiers": 115
+    "bytes": 10557259,
+    "sha256": "f814ca6a0e8dc9fc598c20db0126c49c42cd0521c4ebe4f2f33fb4b5044a2973",
+    "fichiers": 108
   },
   "apercu_github": {
     "fichier": "MOU_01_apercu.gif",

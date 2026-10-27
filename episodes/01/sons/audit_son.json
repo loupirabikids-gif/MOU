@@ -1,5 +1,5 @@
 {
-  "revision": 5,
+  "revision": 4,
   "frames": 624000,
   "duration_seconds": 13.0,
   "peak_dbfs": -6.0,
@@ -30,7 +30,7 @@
   "timer_interval_samples": 48000,
   "event_count": 7,
   "mix_sha256": "06be52b56a3c0f06b432eaad26e3efed19907d3eb831f969f2bc4611c223a366",
-  "source_sha256": "b51b82fccf8b014445bbc5a5967719c2c52df91e1a482264f2755a2df097b2f2",
+  "source_sha256": "88c9787a659f2e019addfbf80ac2c9ddebefc3c7d04da77eee44920a577342ab",
   "reproduction": "Depuis la racine MOU : .venv/bin/python episodes/01/sources/son.py",
   "limite": "Contrôles numériques PCM et synchronisation ; sans écoute sur appareil mobile ni test public."
 }

@@ -1,6 +1,6 @@
 # MOU
 
-Le pilote réécrit **« La dernière retouche »**, révision5 : **13 secondes**, vertical
+Le pilote réécrit **« La dernière retouche »**, révision4 : **13 secondes**, vertical
 **1080 × 1920**, avec des sons originaux et sans dialogue.
 
 ## Voir l’épisode
@@ -39,11 +39,6 @@ ne prouve pas leur chargement natif dans tous les clients.
 La V3 avait été jugée confuse par l’utilisatrice. La V4 remplace le faux départ
 par une retouche excessive, un compte régulier et une seule réaction finale.
 Les critiques et découpages précédents restent conservés dans le dossier.
-
-La V5 corrige le placement des bras dans la réaction finale : attaches sur les
-flancs, avant-bras plus courts et mains remontées devant le ventre.
-[Avant / après](episodes/01/controle/bras_v5_comparaison.png) ·
-[Critique ciblée des bras](episodes/01/controle/critique_bras_v5.md).
 
 La veille externe reste incomplète : YouTube n’est pas autorisé par le réseau
 courant. Aucun compteur ni visionnage n’est inventé. Cette correction du pilote

@@ -17,8 +17,6 @@ prune de `references/MOU_reference.png`. Réutiliser `mou_rig.py` et le test de
 construction `output/MOU_verification_9_secondes.mp4`. Aucun nez, antenne,
 costume ou nouveau personnage par défaut. Les anciens modèles ocre, cyclope et
 TAP sont abandonnés. La planche d'intentions inspire le jeu, pas les raccords.
-Un comptage de deux mains ne valide pas leur placement : examiner le départ
-du bras sur le flanc et sa descente, sans traits flottants dans le torse.
 Les déformations expressives restent celles du même personnage : bras, visage
 et corps cohérents, deux mains attachées, pupilles découpées par les yeux.
 

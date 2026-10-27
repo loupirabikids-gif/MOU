@@ -1,5 +1,5 @@
 {
-  "revision": 5,
+  "revision": 4,
   "encoded_gestures_match_fresh_svg": true,
   "gesture_roi_mean_errors_0_255": {
     "1.25": 1.068982,
@@ -8,8 +8,8 @@
     "6.375": 1.346025,
     "6.416667": 1.498956,
     "7.791667": 1.35,
-    "10.5": 1.359292,
-    "12.5": 1.363128
+    "10.5": 1.334205,
+    "12.5": 1.413116
   },
   "format": "H264/yuv420p + AAC stereo48kHz",
   "dimensions": [

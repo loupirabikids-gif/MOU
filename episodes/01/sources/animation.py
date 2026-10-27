@@ -114,12 +114,11 @@ def _base_controls(side,p):
     if side=='left':
         down=[(105,291),(80,311),(70,341),(76,367)]
         hip=[(105,291),(24,307),(40,344),(118,356)]
-        # Avant-bras courts devant le ventre ; racines sur les flancs.
-        folded=[(92,302),(73,333),(125,356),(174,366)]
+        folded=[(105,291),(91,344),(119,386),(178,389)]
     else:
         down=[(297,291),(321,310),(332,340),(325,367)]
         hip=[(297,291),(377,307),(361,344),(283,356)]
-        folded=[(316,301),(335,336),(285,360),(230,366)]
+        folded=[(297,291),(311,344),(281,386),(225,389)]
     return [_pt(_pt(a,b,_clamp(p.get('arm_hips',0))),c,
                 _clamp(p.get('arm_clasp',0))) for a,b,c in zip(down,hip,folded)]
 
@@ -245,9 +244,7 @@ def _retouched_mouth(p,uid):
 def character_at(p,uid='mou'):
     fragment=character_fragment(p,uid=uid)
     fragment=fragment.replace(_mouth(p,uid),_retouched_mouth(p,uid),1)
-    # Garder le même contour pendant la descente et la pose finale,
-    # sans retour soudain aux longs rubans du clasp historique.
-    if p.get('arm_raise',0.)>1e-8 or p.get('arm_clasp',0.)>1e-8:
+    if p.get('arm_raise',0.)>1e-8:
         for side in ('left','right'):
             original=_arm(side,_clamp(p.get('arm_hips',0.)),_clamp(p.get('arm_clasp',0.)))
             assert original in fragment

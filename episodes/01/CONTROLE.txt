@@ -1,37 +1,43 @@
-MOU 01 — LA DERNIÈRE RETOUCHE — BILAN V5
+MOU 01 — LA DERNIÈRE RETOUCHE — BILAN V4
 
-13,000s ·1080×1920 ·24i/s ·312images. MP4 H264/yuv420p +AAC stéréo48kHz,
-version muette sans piste audio (même flux vidéo) et GIF270×480.
+13,000s ·1080×1920 ·24i/s ·312images. MP4 H264/yuv420p +AAC stéréo48kHz.
+Version muette sans piste audio, flux vidéo identique. Aperçu GIF270×480 muet.
+Même personnage vert et rig original inchangé ; production gratuite/open source.
 
-CORRECTION DU BRAS
-Le retour sur le bras àdroite de l’image est confirmé aussi dans la V4 :
-attache trop àl’intérieur du torse, long J parallèle au ventre et changement
-de contour pendant la descente. La V5 ramène les attaches sur les flancs,
-raccourcit les avant-bras et remonte les mains finales de23unités locales.
-La construction arrondie reste la même pendant descente et pose ventrale.
-Deux bras/mitaines, même personnage et rig original inchangé.
-La correction concerne la fin ; cadrages, cliché PNG et mix WAV conservés.
+CORRECTIONS OBSERVÉES ET RETENUES
+Le gag V3 était jugé confus. La réécriture choisie fait causer le ratage par
+la vanité de MOU : petit embellissement, dernière traction excessive au clic,
+photo puis une seule réaction gênée. Pas de portrait avant le flash.
+Premier test trop joli : asymétrie nettement renforcée. Boucle du bras droit
+corrigée, deux mitaines continues conservées. Après montage complet, résultat
+agrandi×1,4 : même téléphone, photo entière plus lisible sur mobile.
+Le critique a revu ces corrections dans l’encodé540×960 avant accord final,
+puis4moments du vrai MP4 final1080×1920 : intentions et cadrage conservés.
+Découpage, critiques, preuves et décisions conservés dans le projet.
 
-VÉRIFICATIONS
-Critique indépendante du prototype puis du vrai montage léger :36images
-consécutives9,75–11,208s et15poses, dont10,708s et12,5s. Aucune rupture observée,
-attache mieux lisible et mains distinctes. Preuves : bras_v5_*.png/json et
-critique_bras_v5.md. Mesures des attaches : audit_bras_v5.json.
-Final1080 inspecté à12,5s par le coordinateur ; les deux MP4 sont décodés
-intégralement sans erreur.312poses auditées, pieds fixes, masques/IDs valides,
-contacts joues conservés. Huit moments du final comparés àdes SVG frais hors
-cache, dont10,5et12,5s corrigés (écarts moyens1,07–1,50/255).
-Cliché et mix byte-identiques àlaV4. Clic6,41675s, pic−6,002dBFS sans saturation,
-silences avant clic et pendant la photo. Photo fixe7,5vs8,5s.
-Sources reproductibles et paramètres : sources/README.md, controle/ et sons/.
+CONTRÔLES EXÉCUTÉS
+312poses : deux mains, deux pieds fixes, XML/IDs/masques valides, contacts
+aux joues et appui du déclencheur vérifiés en images. Contact avant le premier
+frottement ; dernière traction encore mobile àl’image153→154. Le cliché
+provient exactement de character_at(pose_at(154/24)), puis reste figé.
+Deux MP4 décodés intégralement sans erreur. Huit moments du final comparés
+àdes SVG frais hors cache (erreurs moyennes1,07à1,50/255). Cache et images
+écrits atomiquement, aucun lien physique partagé.
+Sept événements sonores originaux. Clic mesuré à6.41675s,
+soit0,083ms après le flash ; pic-6.002dBFS sans saturation.
+Silence avant clic et pendant lecture photo. Photo fixe7,5vs8,5s :
+écart moyen0.000019/255.
+Audits détaillés dans controle/ ; paramètres et provenance dans sons/.
 
-PORTÉE
-Examen interne d’extractions et planches, pas de test public. Audio contrôlé
-numériquement sans écoute sur téléphone réel. Veille externe incomplète,
-YouTube absent des domaines autorisés ; aucune métrique inventée. GitHub ne
-vaut pas diffusion d’un Short. Profils d’équipe conservés ; rôles appliqués
-par mandats distincts, activation native non prouvée.
+PORTÉE ET LIMITES
+Lecture interne par extractions chronométrées et planches, ycompris270×480.
+Audio contrôlé numériquement, sans écoute sur téléphone réel ni test public.
+La veille externe demeure incomplète : YouTube absent des domaines autorisés.
+Aucune statistique, rétention ou mesure d’audience inventée ; GitHub ne vaut
+pas diffusion d’un Short. Profils d’équipe conservés, rôles appliqués par
+mandats distincts ; activation native du client non prouvée.
 
-ZIP extrait ailleurs :312poses et15images rendues depuis /tmp ; cliché et
-mix reproduits identiquement. Même environnement installé, pas de machine
-vierge. Empreintes des sources testées dans audit_reproduction_v5.json.
+Sources et reproduction : sources/README.md. ZIP extrait ailleurs puis
+commandes lancées depuis /tmp : audit312poses et15images, photo et mix
+reproduits identiquement. Même environnement installé, pas de machine vierge.
+Audit de reproduction et sommes des sources conservés dans controle/.

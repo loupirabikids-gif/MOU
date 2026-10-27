@@ -62,7 +62,7 @@
     }
   ],
   "production": "Python / SVG / CairoSVG / Pillow / NumPy / FFmpeg ; sons originaux locaux, sans voix ni musique continue",
-  "revision": 5,
+  "revision": 4,
   "revision_intention": "MOU veut embellir une pose qu’il juge déjà magnifique ; sa dernière retouche excessive est capturée. La photo lui révèle son erreur.",
   "audio_silence_before_flash": {
     "start": 6.083333333333333,
@@ -106,6 +106,5 @@
     "start": 7.0,
     "end": 8.8
   },
-  "approval": "Réécriture 2 approuvée par utilisatrice ; critique conceptuelle favorable, validation du rendu restant à faire.",
-  "revision_graphique": "Attaches des bras sur les flancs et avant-bras raccourcis en fin ; main droite remontée, continuité de la descente. Histoire, capture et son conservés."
+  "approval": "Réécriture 2 approuvée par utilisatrice ; critique conceptuelle favorable, validation du rendu restant à faire."
 }
