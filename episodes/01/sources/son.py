@@ -201,7 +201,7 @@ def main() -> None:
         if p.name not in active:
             manifest['unused_bank'].append({
                 'file': p.name, 'used_in_mix': False,
-                'reason': 'Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix V4.',
+                'reason': 'Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix courant.',
                 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()})
     assert len(events) == 7
     assert np.isfinite(mix).all()

@@ -1,7 +1,7 @@
-# Jeu V4 — La dernière retouche
+# Jeu V5 — La dernière retouche
 
 Référence : `../../../mou_rig.py` et `../../../references/MOU_reference.png`.
-Le rig de base reste intact. Révision du pilote selon `chronologie.json` V4,
+Le rig de base reste intact. Révision du pilote selon `chronologie.json` V5,
 13 secondes à 24 i/s. Flash à l'image154 : 154/24 = 6,4166666667 s.
 
 ## Intention et chronologie
@@ -81,3 +81,22 @@ Le coordinateur et le critique ont levé la réserve de raccord pour l'animatiqu
 La preuve retenue et l’audit312poses sont archivés dans
 `../controle/contact_joues_v4.png` et `../controle/audit_contacts_v4.json`.
 La critique du montage complet est distincte : `../controle/critique_v4.md`.
+
+
+## Correction graphique V5 — réaction finale
+
+Le retour utilisateur sur le bras à droite de l’image a révélé un défaut
+également présent dans la V4 : racine trop à l’intérieur du torse et long J
+parallèle au ventre. La pose ventrale est corrigée des deux côtés pour rester
+cohérente, sans ajouter de geste ni modifier le scénario.
+
+Contrôles cubiques à `arm_clasp=1` :
+
+- Gauche : `(92,302), (73,333), (125,356), (174,366)`.
+- Droite : `(316,301), (335,336), (285,360), (230,366)`.
+
+Les deux mains sont plus hautes dans la pose finale. Le constructeur arrondi
+reste actif quand `arm_raise>0` OU `arm_clasp>0`, ycompris après10,7s ; aucun
+retour soudain au long ruban original. Les yeux, les pieds, la pose capturée
+et le mix restent ceux de la V4. Le critique a revu la descente et le
+rapprochement dans le vrai montage encodé : `../controle/critique_bras_v5.md`.

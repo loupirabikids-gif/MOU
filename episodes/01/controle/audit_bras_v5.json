@@ -1,0 +1,34 @@
+{
+  "revision": 5,
+  "time": 12.5,
+  "arms": {
+    "left": {
+      "shoulder": [
+        92.0,
+        302.0
+      ],
+      "body_outline_x_at_same_y": 92.92914551263463,
+      "horizontal_attachment_gap_local": 0.9291455126346335,
+      "hand_center": [
+        174.0,
+        366.0
+      ],
+      "arm_centerline_length_local": 119.49450925579075
+    },
+    "right": {
+      "shoulder": [
+        316.0,
+        301.0
+      ],
+      "body_outline_x_at_same_y": 318.3635985887207,
+      "horizontal_attachment_gap_local": 2.36359858872072,
+      "hand_center": [
+        230.0,
+        366.0
+      ],
+      "arm_centerline_length_local": 126.1262364950925
+    }
+  },
+  "same_photo_and_mix_as_v4": true,
+  "scope": "Repères mesurés du modèle final neutre, plus critique visuelle distincte des raccords et du mouvement."
+}

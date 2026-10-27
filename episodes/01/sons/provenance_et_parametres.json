@@ -1,6 +1,6 @@
 {
   "episode": "MOU 01 — La dernière retouche",
-  "revision": 4,
+  "revision": 5,
   "revision_note": "Sept événements : trois bips identiques, deux frottements de retouche, un déclencheur et un froissement de mains. Aucun son de ratage ni accent de honte.",
   "provenance": "Créations procédurales originales synthétisées localement par sources/son.py ; aucun échantillon, enregistrement, service ni banque externe.",
   "outils": [
@@ -20,7 +20,7 @@
     "mains_baissent": 4103,
     "obturateur": 4104
   },
-  "chronologie_sha256": "df31729fcbfc15f37d668805b2b45240526a5b0fb5edc5b3627c7e8d49c08417",
+  "chronologie_sha256": "1cf342274152cc4afb5793e906a3cf6b8e5f7f993715bf6a00afe1340dd72bb8",
   "synchronisation": {
     "fps": 24,
     "flash_frame": 154,
@@ -161,31 +161,31 @@
     {
       "file": "detente_elastique.wav",
       "used_in_mix": false,
-      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix V4.",
+      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix courant.",
       "sha256": "e9facf75d90b60fd6c0a71b352fa5c2fb122bfaac3c0e2f6dd26a8c6c83e6536"
     },
     {
       "file": "gene.wav",
       "used_in_mix": false,
-      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix V4.",
+      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix courant.",
       "sha256": "099c8d368ddb9c77ef7f6ebbacefd323e279902662b0465395c0797ce9cfd645"
     },
     {
       "file": "pose_froissement.wav",
       "used_in_mix": false,
-      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix V4.",
+      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix courant.",
       "sha256": "f426bbe911824cbe0bb9d7e7effb4da627d950efb148d9cf6abc32dc243ab9a8"
     },
     {
       "file": "souffle.wav",
       "used_in_mix": false,
-      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix V4.",
+      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix courant.",
       "sha256": "4281492883c9f8c17c53a100fdfa740f2985feebce318db8d3de52c8959debdb"
     },
     {
       "file": "vanite_eclat.wav",
       "used_in_mix": false,
-      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix V4.",
+      "reason": "Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix courant.",
       "sha256": "b43ec819cf6fbddc04ed98e9861cb87d05b0f56c22f73118655a5c1989f1ed97"
     }
   ],

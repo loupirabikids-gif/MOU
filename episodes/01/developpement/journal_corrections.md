@@ -68,3 +68,25 @@ ajout excessif, flash, photo et réaction unique. Les raccords sont revérifiés
 dans l’encodé. Il s’agit d’un avis interne par extractions chronométrées,
 pas d’une preuve de réception auprès d’un public. Audio décodé analysé,
 sans écoute subjective. Rapport final : `../controle/critique_v4.md`.
+
+
+## Correction graphique V5 — placement des bras
+
+Retour utilisatrice : « Bras droite et comme mal placée », avec capture d’une
+ancienne version. Le même défaut est confirmé sur la fin de la V4 actuelle.
+La racine droite(297,291) était àenviron20unités du contour du flanc, et le
+long J vers la main389 créait trois traits parallèles et une attache flottante.
+Le passage au ruban historique vers10,7s renforçait la mauvaise lecture.
+
+Correction locale retenue après prototype : racines aux flancs, avant-bras
+plus courts et mains finales remontées à366 ; droite(316,301), gauche(92,302).
+Le constructeur arrondi reste actif dans la pose ventrale pour garder le même
+dessin pendant la descente. Ajuster les deux côtés maintient la cohérence ;
+aucun geste, dialogue, cadrage, temps ou son n’est ajouté. Cliché et mix
+reproduits identiquement àlaV4.
+
+Le critique indépendant examine36images consécutives9,75–11,208s et15poses,
+ycompris10,708s et12,5s du vrai montage corrigé540×960. Il ne constate plus de
+rupture au changement d’état ni de double trait flottant dans la pose finale.
+Accord pour le final. Deux mains, yeux et pieds conservés ; pas de test public.
+Preuves et portée : `../controle/critique_bras_v5.md`, `bras_v5_*.png/json`.

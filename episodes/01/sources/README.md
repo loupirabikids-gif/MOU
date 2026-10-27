@@ -1,4 +1,4 @@
-# MOU 01 — La dernière retouche (V4)
+# MOU 01 — La dernière retouche (V5)
 
 13 secondes, 24 images/s, vertical 1080 × 1920. MP4 H264/yuv420p,
 AAC stéréo 48 kHz et version sans piste audio. Les noms historiques
@@ -60,3 +60,13 @@ ffmpeg -y -i episodes/01/MOU_01_le_retardateur_muet.mp4 -filter_complex "fps=10,
 Contrôles, critique réelle et limites : `../CONTROLE.txt`, `../controle/`.
 Scénario, storyboard, critique avant fabrication et décisions : `../developpement/`.
 La veille externe demeure incomplète ; aucune mesure d'audience n'est inventée.
+
+
+Correction graphique V5 : dans la réaction finale, les attaches suivent les
+flancs et les avant-bras sont plus courts. Les mains passent de389à366 en
+hauteur locale ; le bras droit part de316/301 plutôt que297/291. Le même
+constructeur de contour arrondi reste actif pendant la descente et la pose
+ventrale, évitant un changement de dessin à10,7s. Le rig original reste intact.
+Les cadrages sont conservés ; le cliché PNG et le mix WAV sont byte-identiques
+àceux de la V4.
+La revue dense et les preuves sont dans `../controle/critique_bras_v5.md`.

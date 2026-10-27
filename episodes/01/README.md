@@ -1,6 +1,6 @@
 # MOU 01 — La dernière retouche
 
-**Révision4 · 13 secondes · 1080 × 1920 · 24 images/s · sans dialogue.**
+**Révision5 · 13 secondes · 1080 × 1920 · 24 images/s · sans dialogue.**
 
 MOU veut embellir son sourire. Ses mitaines étirent ses joues une fois de trop,
 et le flash capture cette dernière retouche. Il voit le résultat, baisse les mains
@@ -24,3 +24,6 @@ avec ou sans piste audio. Sources et sons sont consultables dans leurs dossiers.
 
 Les versions précédentes restent documentées. La veille externe est incomplète ;
 aucun résultat d’audience, de rétention ni test public n’est inventé.
+
+La V5 corrige les attaches et raccourcit les avant-bras dans la fin, sans changer
+le scénario ni le mix. [Avant/après](controle/bras_v5_comparaison.png) · [Revue ciblée](controle/critique_bras_v5.md).
