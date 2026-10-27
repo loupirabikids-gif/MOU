@@ -77,6 +77,10 @@ def photo_svg():
     scale = min(432/(right-left), 610/(bottom-top))
     cx, cy = (left+right)/2, (top+bottom)/2
     shadow_y = 372+(bottom-cy)*scale+9
+    # Conserver le cadrage précédent lorsque seuls les bras sont rétablis.
+    framing = TIMELINE.get('photo_framing')
+    if framing:
+        scale, cx, cy, shadow_y = (float(framing[k]) for k in ('scale','cx','cy','shadow_y'))
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="480" height="744" '
             f'viewBox="0 0 480 744"><rect width="480" height="744" fill="#E1D1F2"/>'
             f'<ellipse cx="240" cy="{shadow_y:.5f}" rx="205" ry="12" fill="#CBB4E0"/>'

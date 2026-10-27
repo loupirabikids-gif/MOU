@@ -19,7 +19,7 @@ reste affiché, puis le flash capture son affaissement. Il découvre sa photo
 et termine gêné. Le personnage vert à deux yeux et son rig sont conservés.
 
 Le compteur est régulier et aucun portrait n’apparaît avant la capture.
-La photo est montrée en gros plan. Les bras restent courts, avec une seule
+La photo est montrée en gros plan. Les bras gardent exactement le dessin du modèle original, avec une seule
 mitaine chacun ; les pieds restent au sol. Les anciens montages sont conservés
 séparément dans [episodes/01/](episodes/01/), avec leur historique Git.
 

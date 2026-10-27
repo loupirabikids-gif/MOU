@@ -1,6 +1,6 @@
 {
   "episode": "MOU — Le retardateur — nouvelle réalisation",
-  "revision": 1,
+  "revision": 2,
   "revision_note": "Tap0,90s et éclat2,20s confirmés par la mise en scène. Trois bips identiques3/4/5s, souffle5,20–5,40s puis silence jusqu’au clic6s. Chute et photo silencieuses, aucun accent final de honte.",
   "provenance": "Créations procédurales originales synthétisées localement par sources/son.py. Noyaux de synthèse issus des sources locales MOU ; aucun échantillon, enregistrement, service ni banque externe.",
   "outils": [
@@ -19,7 +19,7 @@
     "souffle": 6102,
     "obturateur": 6104
   },
-  "chronologie_sha256": "66e64bc0c777a47c98c3388de2bd9c80ad6d2ce0991cd81792c77aef267e35a6",
+  "chronologie_sha256": "ad0a03907b5236ed8e1da0ff5344f22c67cf7642b74dea7e3e08dd09c0b56db4",
   "synchronisation": {
     "fps": 24,
     "flash_frame": 144,

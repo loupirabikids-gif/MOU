@@ -26,3 +26,15 @@ la bouche n’a plus le petit sourire apaisé ; la gêne prolonge la déception.
 Les bras restent courts et attachés. Réserve levée, aucune autre correction
 ni coupe imposée :13s conservées. Son avis porte sur le vrai montage léger ;
 le coordinateur contrôle ensuite le final1080 par décodage et SVG frais.
+
+
+## Révision2 — retour au dessin original des bras, àla demande de l’utilisatrice
+
+Les bras raccourcis et leurs masques de racine sont retirés. Les groupes
+`_arm` du rig original sont réutilisés sans remplacement. Les312poses, les
+bouches, les déformations corporelles et le mix sont strictement conservés.
+Le cadrage et l’ombre du cliché sont figés aux valeurs précédentes : hors
+les deux groupes de bras, le SVG de la photo reste strictement identique.
+La demande de conservation du dessin original prévaut sur les adaptations
+esthétiques internes précédentes ; aucun autre geste, rythme ou scénario
+n’est modifié. Contrôles : audit_restauration_bras.json et restauration_bras.md.

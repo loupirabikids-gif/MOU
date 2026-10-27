@@ -1,0 +1,14 @@
+{
+  "baseline_commit": "302c87033374255fc7a9f8d5b1025a8eb2ebc6d7",
+  "poses_compared": 312,
+  "pose_parameters_identical": true,
+  "mouth_paths_identical": true,
+  "non_arm_geometry_identical": true,
+  "canonical_rig_arms_found_all_poses": true,
+  "unchanged": {
+    "episodes/01_reprise/chronologie.json": "timing and actions identical",
+    "episodes/01_reprise/sources/son.py": "43e3c84ab4f52f9b74b5954d78ab5d5b2d263dc8e88cb1e7b6b00135b31edc14",
+    "episodes/01_reprise/sons/mix.wav": "6597ced7db926fc18ff3f98086a56dd2996fb6a06d8825b5a87321c9bd60410e",
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
+  }
+}

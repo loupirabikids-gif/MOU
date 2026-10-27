@@ -23,10 +23,12 @@ capture sa déformation. La photo lui fait perdre son assurance.
 Cette fabrication repart du gag initial dans un dossier distinct. Le modèle
 articulé fourni est conservé ; aucun ancien fichier de episodes/01 n’est réécrit.
 Le compteur5→1 reste régulier, la photo n’apparaît qu’après le clic, les bras
-baissés sont courts et les pieds gardent leur contact au sol.
+gardent le dessin original et les pieds gardent leur contact au sol.
 
 Production locale gratuite/open source : Python, SVG, CairoSVG, Pillow, NumPy,
 FFmpeg. Sept sons originaux, sans voix ni musique. La critique est interne,
 par extractions chronométrées ; aucun test public ni résultat d’audience.
 Le contrôle audio numérique ne vaut pas écoute sur téléphone réel.
 La veille externe demeure incomplète, comme indiqué dans editorial/ du dépôt.
+
+Révision2 : bras originaux rétablis ; scénario, poses, expressions, durée et son conservés.

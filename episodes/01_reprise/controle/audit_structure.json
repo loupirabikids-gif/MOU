@@ -1,5 +1,5 @@
 {
-  "revision": 1,
+  "revision": 2,
   "file_stem": "MOU_le_retardateur_nouveau",
   "original_rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
   "original_rig_unchanged": true,
@@ -8,7 +8,7 @@
   "duration": 13.0,
   "flash_frame": 144,
   "photo_pose_time": 6.0,
-  "photo_sha256": "228f1eadc846c33bc6e1637dbdee48fcbada5e88e64f8d0e2994245c808d8e96",
+  "photo_sha256": "3baa4dd60bdbc34922e8a066ad6a415dc36edeca1961a6cb08054ed5d42d673d",
   "unique_ids_all_frames": true,
   "two_hands_in_puppet_all_frames": true,
   "visible_hand_count_matches_framing": true,

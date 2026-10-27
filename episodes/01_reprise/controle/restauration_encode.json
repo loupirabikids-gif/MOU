@@ -1,0 +1,26 @@
+{
+  "video": "episodes/01_reprise/premier_montage.mp4",
+  "video_sha256": "af283c40ac6b744d9f37c8b02024462866bab11f1ebb59e65b908d15c321356a",
+  "dimensions": [
+    540,
+    960
+  ],
+  "checks": {
+    "2.25": {
+      "changed_arm_pixels": 10522,
+      "mean_error_to_restored_rig_arms": 5.175536970157765,
+      "mean_error_to_removed_adaptation": 138.30694418044732
+    },
+    "6.125": {
+      "changed_arm_pixels": 6135,
+      "mean_error_to_restored_rig_arms": 5.792393371366477,
+      "mean_error_to_removed_adaptation": 137.1531105677805
+    },
+    "12.5": {
+      "changed_arm_pixels": 7864,
+      "mean_error_to_restored_rig_arms": 4.553577483892845,
+      "mean_error_to_removed_adaptation": 137.42819599864362
+    }
+  },
+  "scope": "Extraits du vrai encodage comparés aux rasterisations fraîches des bras restaurés et de l’adaptation supprimée ; aucun jugement de nouveau dessin."
+}

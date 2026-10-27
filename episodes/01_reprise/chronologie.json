@@ -1,7 +1,7 @@
 {
   "episode": "01_reprise",
   "titre": "Le retardateur",
-  "revision": 1,
+  "revision": 2,
   "nouvelle_realisation": true,
   "file_stem": "MOU_le_retardateur_nouveau",
   "duree_secondes": 13.0,
@@ -108,5 +108,13 @@
   },
   "production": "Python/SVG/CairoSVG/Pillow/NumPy/FFmpeg, sons originaux, sans dialogue",
   "commande": "Reprise depuis le début demandée par l’utilisatrice le27octobre2026 ; gag original du relâchement prématuré, personnage et outils conservés.",
-  "scenario_lock": "Chronologie validée par coordination, scénariste et critique avant fabrication, compteur5s cohérent avec activation1s et flash6s."
+  "scenario_lock": "Chronologie validée par coordination, scénariste et critique avant fabrication, compteur5s cohérent avec activation1s et flash6s.",
+  "correction_bras": "Bras exacts du rig original rétablis, sans adaptateur de dessin ; poses, visage, timing et son conservés.",
+  "photo_framing": {
+    "scale": 1.33127889,
+    "cx": 211.25,
+    "cy": 335.25,
+    "shadow_y": 532.43297,
+    "provenance": "Cadrage exact de302c870, conservé pour changer seulement les bras."
+  }
 }

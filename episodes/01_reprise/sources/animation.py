@@ -13,8 +13,7 @@ from pathlib import Path
 ROOT = next(p for p in Path(__file__).resolve().parents if (p/'mou_rig.py').is_file())
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-from mou_rig import (DEFAULT_POSE, PALETTE, character_fragment, _mouth, _arm,
-                     _cubic, _tangent, _clamp, _pt, _n, _path)
+from mou_rig import DEFAULT_POSE, PALETTE, character_fragment, _mouth
 
 
 def smooth(x):
@@ -180,43 +179,11 @@ def _episode_mouth(p, uid):
             '</g></g>')
 
 
-def arm_controls(side,hips):
-    if side=='left':
-        down=[(105,291),(78,311),(71,336),(81,354)]
-        hip=[(105,291),(24,307),(42,335),(119,351)]
-    else:
-        down=[(297,291),(328,311),(340,337),(329,354)]
-        hip=[(297,291),(377,307),(368,335),(284,351)]
-    return [_pt(a,b,_clamp(hips))for a,b in zip(down,hip)]
-
-
-def episode_arm(side,hips,uid):
-    controls=arm_controls(side,hips);left=[];right=[]
-    for i in range(65):
-        t=i/64;x,y=_cubic(controls,t);tx,ty=_tangent(controls,t)
-        hand=_clamp((t-.75)/.25);hand=hand*hand*(3-2*hand);radius=10.5+8.5*hand
-        left.append((x-ty*radius,y+tx*radius));right.append((x+ty*radius,y-tx*radius))
-    ex,ey=controls[-1];tx,ty=_tangent(controls,1)
-    tip=[(ex+(-ty*math.cos(math.pi*j/24)+tx*math.sin(math.pi*j/24))*19,ey+(tx*math.cos(math.pi*j/24)+ty*math.sin(math.pi*j/24))*19)for j in range(1,25)]
-    boundary=left+tip+list(reversed(right[:-1]));d='M'+' L'.join(f'{_n(x)} {_n(y)}'for x,y in boundary)
-    # The internal root is hidden under the torso, the visible emergence is on the flank.
-    body='M90 310 C100 284 111 241 124 200 C141 148 175 123 208 125 C224 124 234 128 246 132 C265 119 290 121 300 137 C310 152 304 171 301 188 C305 225 313 267 319 305 C331 350 321 388 297 403 C265 424 147 426 112 405 C82 390 74 350 90 310 Z'
-    sx,sy=controls[0];clip=f'{uid}-arm-root-{side}'
-    hide=(f'<defs><clipPath id="{clip}"><path d="{body}"/></clipPath></defs>'
-          f'<circle cx="{sx}" cy="{sy}" r="22" fill="{PALETTE["skin"]}" clip-path="url(#{clip})"/>')
-    return f'<g id="arm-{side}">'+_path(d+' Z',PALETTE['skin'],'none',0,data_part='hand',data_side=side)+_path(d,sw=5.2)+hide+'</g>'
-
-
-
 def character_at(p, uid='mou'):
     """Le rig original et son jeu : pieds fixes, torse/bras/visage solidaires."""
     fragment = character_fragment(p, uid=uid)
     assert abs(p.get('arm_clasp',0.))<1e-8, 'Aucun clasp ventral dans cette reprise.'
-    hips=_clamp(p.get('arm_hips',0.))
-    for side in ('left','right'):
-        original_arm=_arm(side,hips,_clamp(p.get('arm_clasp',0.)))
-        assert original_arm in fragment
-        fragment=fragment.replace(original_arm,episode_arm(side,hips,uid),1)
+    # Bras d'origine conservés tels quels dans character_fragment().
     if any(p.get(k, 0.) > .00001 for k in ('grimace', 'vanity', 'pout', 'shame', 'surprise')):
         original = _mouth(p, uid)
         assert original in fragment

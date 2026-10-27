@@ -21,6 +21,10 @@ prune de `references/MOU_reference.png`. Réutiliser `mou_rig.py` et le test de
 construction `output/MOU_verification_9_secondes.mp4`. Aucun nez, antenne,
 costume ou nouveau personnage par défaut. Les anciens modèles ocre, cyclope et
 TAP sont abandonnés. La planche d'intentions inspire le jeu, pas les raccords.
+Les bras de `mou_rig.py` sont retenus tels quels : employer `_arm` sans
+redessiner, raccourcir ou masquer leurs racines. Leur dessin ne change que sur
+demande explicite de l’utilisatrice ; un avis esthétique interne ne suffit pas.
+Un correctif local ne justifie pas de changer l’autre bras, les poses ou le montage.
 Les déformations expressives restent celles du même personnage : bras, visage
 et corps cohérents, deux mains attachées, pupilles découpées par les yeux.
 

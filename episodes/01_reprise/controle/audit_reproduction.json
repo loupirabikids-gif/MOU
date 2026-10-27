@@ -1,5 +1,5 @@
 {
-  "revision": 1,
+  "revision": 2,
   "nouvelle_realisation": true,
   "archive_crc": "pass",
   "extraction_elsewhere": true,
@@ -9,14 +9,14 @@
   "pose_audit_frames": 312,
   "stills_rendered": 15,
   "photo_and_mix_byte_identical": {
-    "episodes/01_reprise/sources/photo_capturee.png": "228f1eadc846c33bc6e1637dbdee48fcbada5e88e64f8d0e2994245c808d8e96",
+    "episodes/01_reprise/sources/photo_capturee.png": "3baa4dd60bdbc34922e8a066ad6a415dc36edeca1961a6cb08054ed5d42d673d",
     "episodes/01_reprise/sons/mix.wav": "6597ced7db926fc18ff3f98086a56dd2996fb6a06d8825b5a87321c9bd60410e"
   },
   "tested_source_sha256": {
     "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
-    "episodes/01_reprise/chronologie.json": "66e64bc0c777a47c98c3388de2bd9c80ad6d2ce0991cd81792c77aef267e35a6",
-    "episodes/01_reprise/sources/animation.py": "6320a825b40eb56e28e6734d19d03b1b70e9e58d02080f49fd6e49bc2cef0a07",
-    "episodes/01_reprise/sources/render.py": "e92d447b10104ed3dfbd28627b256e673fad2354167537a57eec44a3300f1e01",
+    "episodes/01_reprise/chronologie.json": "ad0a03907b5236ed8e1da0ff5344f22c67cf7642b74dea7e3e08dd09c0b56db4",
+    "episodes/01_reprise/sources/animation.py": "9f7df1a34f728dfcf7f4252ab5aec84efddfc34d5f144e256e34d75d5757561b",
+    "episodes/01_reprise/sources/render.py": "03ec5bf7108102b2edb25c5396a8e46753e694c31808980598d9674f56171636",
     "episodes/01_reprise/sources/son.py": "43e3c84ab4f52f9b74b5954d78ab5d5b2d263dc8e88cb1e7b6b00135b31edc14",
     "episodes/01_reprise/sources/verify.py": "6fc87dffac0bde3fc78313543e3b0880bc699cfe85aad5a7b65226904b616be6",
     "episodes/01_reprise/sources/package.py": "1b6cd8dc3e69a08bd98013f8903d360a9bdb376595fe4d236b640ba8680adf60"

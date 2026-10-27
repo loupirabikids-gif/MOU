@@ -1,4 +1,4 @@
-MOU — LE RETARDATEUR — NOUVELLE RÉALISATION
+MOU — LE RETARDATEUR — RÉVISION2, BRAS D’ORIGINE
 
 13,000 s ·1080×1920 ·24 i/s ·312 images. H264/yuv420p +AAC stéréo48kHz.
 Version muette sans audio, flux vidéo identique. GIF animé270×480 muet.
@@ -9,7 +9,7 @@ MOU se croit magnifique, pose puis se relâche trop tôt. Le1 reste affiché
 pendant cet abandon ; le flash capture le premier extrême à6s. Photo fixe
 agrandie6,75–8,75s, puis une seule réaction gênée. Pas de geste aux joues.
 Le réglage5s et les chiffres5→1 sont cohérents avec l’activation1s/clic6s.
-Bras courts et mitaines vérifiés, aucun longJ devant le ventre. Le modèle
+Les bras exacts du rig original sont rétablis sans adaptateur de dessin. Le modèle
 vert et le rig original sont conservés. La première surprise trop souriante
 est corrigée enO. La fin trop apaisée est corrigée par regard bas-gauche et
 bouche retenue, sans ajouter de geste ni modifier les bras ou le rythme.
@@ -40,3 +40,13 @@ appliqués par mandats distincts, activation native non prouvée dans ce client.
 ZIP extrait ailleurs : commandes lancées depuis /tmp, audit312poses et
 15images, cliché et mix reproduits identiquement. Même environnement installé,
 pas de machine vierge. Empreintes des sources : controle/audit_reproduction.json.
+
+
+RÉTABLISSEMENT LIMITÉ AUX BRAS
+Les312poses, bouches et déformations sont strictement identiques à302c870.
+Les groupes _arm d’origine sont présents tels quels àchaqueimage. Après
+retrait des groupes de bras, le personnage et le SVG de la photo sont
+strictement identiques, cadrage et ombre compris. Mix WAV inchangé.
+Contrôle indépendant du code et de3images du vrai MP4 : restauration_bras.md.
+Preuves : audit_restauration_bras.json, restauration_*json/png.
+Aucune nouvelle interprétation esthétique ni nouveau geste n’est appliqué.

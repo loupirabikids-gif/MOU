@@ -21,7 +21,7 @@ courant. Les versions Python sont fixées dans `requirements-render.lock`.
 Après installation, le rendu ne nécessite aucun service, compte ni réseau.
 
 `animation.py` adapte le modèle `../../../mou_rig.py` sans le modifier :
-poses paramétriques, attaches et mitaines courtes, déformation commune au
+poses paramétriques, bras originaux sans remplacement de leur dessin, déformation commune au
 corps/visage/bras, deux pieds fixes. `character_at(pose_at(6.0))` fournit
 exactement la pose du cliché. Lire `poses.md` pour les paramètres et essais.
 
@@ -52,3 +52,6 @@ Le ZIP contient cette fabrication, les références et les règles communes ;
 il exclut venv, cache, séquences PNG, Git et anciens montages de episodes/01.
 Les sources et commandes sont testées avant livraison, avec leur portée dans
 `../CONTROLE.txt` et `../controle/`. Les fichiers antérieurs restent dans le dépôt.
+
+Révision2 : bras du rig original restaurés àla demande de l’utilisatrice.
+Les poses, expressions, timings, son et cadrage photo sont conservés.

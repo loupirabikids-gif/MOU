@@ -31,26 +31,19 @@ réécriture. Il s’agit du gag initial : la prise surprend le relâchement.
 APIs conservées : `pose_at`, `character_at`, `motion_at`, `deformation_at`,
 `intention_at`. `motion_at` reste identité. Les paramètres affines sont
 `warp_sx`, `warp_sy`, `warp_skew`, ancrés en(200,437). Le groupe `body-warp`
-contient corps, bras, masques des racines et visage ; les pieds sont ses frères,
+contient corps, bras et visage ; les pieds sont ses frères,
 jamais ses descendants. Les pieds gardent strictement la géométrie du rig.
 
 La pose fière monte à1,13 en hauteur. La capture descend à0,68 avec largeur1,12
 et cisaillement−0,07. De138à144, les hauteurs diminuent sans rebond :
 1,12 ;1,10778 ;1,07111 ;1,01 ;0,92444 ;0,81444 ;0,68.
 
-Les bras utilisent l’algorithme du rig : ruban continu échantillonné, largeur
-10,5→19 et une seule extrémité de mitaine arrondie. Les mains descendent
-jusqu’ày354, sans parcours autour du bas-ventre. La racine interne du rig est
-conservée, mais son début de trait est caché uniquement dans la peau du torse
-par un clip local : l’attache visible émerge sur le flanc, sans trait flottant.
-Chaque clip est préfixé par `uid`, sans collision avec les yeux ou la photo.
-
-Contrôles baissés : gauche(105,291),(78,311),(71,336),(81,354) ;
-droite(297,291),(328,311),(340,337),(329,354).
-Contrôles hanches : gauche(105,291),(24,307),(42,335),(119,351) ;
-droite(297,291),(377,307),(368,335),(284,351).
-Le paramètre `arm_hips` interpole continûment entre ces deux jeux. `arm_clasp`
-est toujours nul et rejeté s’il est forcé ; cette reprise n’utilise pas ce geste.
+Les bras sont exactement ceux renvoyés par `mou_rig.character_fragment` et
+`mou_rig._arm`. Aucun adaptateur de forme ni masque de racine n’est appliqué.
+Les paramètres de pose `arm_hips` et `arm_clasp` restent ceux du montage
+précédent ; les transformations corporelles communes restent inchangées.
+La demande de l’utilisatrice prévaut sur les adaptations proposées par
+la critique interne. Les helpers `arm_controls` et `episode_arm` ont été supprimés.
 
 ## Contrôle avant intégration
 
@@ -77,3 +70,13 @@ La planche avant/après est `work/reprise_animation/gene_corrigee.png`.
 strictement identiques jusqu’à9,85s, ycompris la capture à6s. La correction
 commence dans la transition de9,85s vers la gêne ; le montage doit la revérifier.
 Rapport de cette restriction de portée : `work/reprise_animation/audit_gene.json`.
+
+
+## Rétablissement demandé des bras d’origine
+
+Révision2 : seul le dessin des bras est rétabli àpartir du rig original.
+Les312poses, les bouches et l’affine corporelle sont identiques à302c870.
+Après retrait des groupes de bras, tout le personnage reste identique.
+Le cadrage de la photo est fixé aux valeurs précédentes pour éviter que
+le retour des bras ne déplace ou ne redimensionne le reste du cliché.
+Voir `../controle/audit_restauration_bras.json` et `restauration_bras.md`.

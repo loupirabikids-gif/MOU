@@ -1,0 +1,9 @@
+{
+  "poses_identical_all_312_frames": true,
+  "mouth_geometry_identical_all_312_frames": true,
+  "body_deformation_identical_all_312_frames": true,
+  "original_rig_arms_exact_all_312_frames": true,
+  "audio_mix_before_sha256": "6597ced7db926fc18ff3f98086a56dd2996fb6a06d8825b5a87321c9bd60410e",
+  "scope": "Seul le dessin des bras est rétabli ; l’affine corporelle commune existante est conservée.",
+  "photo_non_arm_geometry_identical": true
+}
