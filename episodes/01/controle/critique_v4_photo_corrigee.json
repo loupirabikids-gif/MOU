@@ -1,0 +1,15 @@
+{
+  "scope": "Photo agrandie, controle sur premier_montage_muet.mp4 reencode V4",
+  "video_sha256": "6e41ff7dd89e65042158823d70f55e023e1e1d1c0cde0dc95eeea28990dd19bb",
+  "photo_character_green_width_pixels_at_540": 359,
+  "photo_delta_mean_7_to_8_75_0_255": 0.003474151234567901,
+  "dimensions": [
+    540,
+    960
+  ],
+  "timestamps_seconds": [
+    7,
+    7.8,
+    8.75
+  ]
+}

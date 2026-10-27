@@ -1,126 +1,110 @@
 {
   "episode": "01",
-  "titre": "Le retardateur",
-  "duree_secondes": 14.0,
+  "titre": "La dernière retouche",
+  "duree_secondes": 13.0,
   "fps": 24,
   "width": 1080,
   "height": 1920,
   "reference": "../../references/MOU_reference.png",
   "rig": "../../mou_rig.py",
-  "flash_frame": 156,
-  "flash_time": 6.5,
+  "flash_frame": 154,
+  "flash_time": 6.416666666666667,
   "events": [
     {
-      "time": 0.0,
-      "end": 1.78,
-      "action": "Auto-admiration de son aperçu, moue, torse relevé, grand sourire en coin et clin d’œil"
+      "time": 0,
+      "end": 1.4166666666666667,
+      "action": "Téléphone caméra, retardateur 5 s, une mitaine active le déclencheur ; aucun portrait avant clic"
     },
     {
-      "time": 1.3,
-      "end": 1.5,
-      "action": "Éclats de vanité",
-      "sound": "vanite_eclat"
+      "time": 1.4166666666666667,
+      "end": 3.4166666666666665,
+      "action": "Vue depuis objectif ; MOU relève menton et choisit son beau sourire, certain d’être magnifique"
     },
     {
-      "time": 2.0,
-      "end": 2.8,
-      "action": "Retardateur 3",
-      "sound": "timer_3"
+      "time": 3.4166666666666665,
+      "end": 4.15,
+      "action": "Les deux mitaines rejoignent et soulèvent doucement les joues, retouche symétrique"
     },
     {
-      "time": 3.1,
-      "end": 3.9,
-      "action": "Retardateur 2",
-      "sound": "timer_2"
+      "time": 4.15,
+      "end": 4.8,
+      "action": "MOU approuve ce premier embellissement, mains au contact"
     },
     {
-      "time": 4.2,
-      "end": 5.0,
-      "action": "Retardateur 1 ; le beau sourire commence à se crisper",
-      "sound": "timer_1"
+      "time": 4.8,
+      "end": 6.416666666666667,
+      "action": "Il étire encore les joues ; dernière traction asymétrique toujours en cours au clic, satisfait"
     },
     {
-      "time": 4.2,
-      "end": 5.75,
-      "action": "Crispation progressive : MOU lutte pour garder son beau visage, regard téléphone, aucun mouvement gratuit"
+      "time": 6.416666666666667,
+      "end": 7,
+      "action": "Flash sur la retouche ; pose conservée, aucune découverte prématurée"
     },
     {
-      "time": 5.75,
-      "end": 6.208333333333333,
-      "action": "Il croit la photo déjà prise, souffle brièvement et relâche sa pose ; courte anticipation verticale",
-      "sound": "souffle"
+      "time": 7,
+      "end": 8.8,
+      "action": "Photo fixe plein écran, identique à la pose capturée, première image de résultat"
     },
     {
-      "time": 6.208333333333333,
-      "end": 6.458333333333333,
-      "action": "Une seule chute ample, sans rebond, visage et bouche deviennent mous, pieds fixes",
-      "sound_direction": "Chute visuelle silencieuse : ne pas annoncer le clic par un effet élastique"
+      "time": 8.8,
+      "end": 9.7,
+      "action": "Retour MOU, yeux vers photo sous objectif ; sourire figé"
     },
     {
-      "time": 6.458333333333333,
-      "end": 6.5,
-      "action": "Premier arrêt raté, capture imminente ; pas de longue pose grotesque annonçant le résultat"
+      "time": 9.7,
+      "end": 11.1,
+      "action": "Mains descendent lentement, visage revient, menton rentre"
     },
     {
-      "time": 6.5,
-      "end": 6.625,
-      "action": "Flash/clic sur la même pose et déformation que l’image155",
-      "sound": "obturateur"
-    },
-    {
-      "time": 6.85,
-      "end": 7.25,
-      "action": "Recadrage du même téléphone"
-    },
-    {
-      "time": 7.25,
-      "end": 8.85,
-      "action": "Photo immobile et lisible : laisser reconnaître la grimace"
-    },
-    {
-      "time": 8.85,
-      "end": 9.5,
-      "action": "Retour à MOU"
-    },
-    {
-      "time": 9.5,
-      "end": 10.4,
-      "action": "Il regarde la photo et reconnaît sa déconvenue"
-    },
-    {
-      "time": 10.4,
-      "end": 11.4,
-      "action": "Il croise notre regard et tente de sauver les apparences : menton et beau sourire reviennent, sans nouveau clin d’œil"
-    },
-    {
-      "time": 11.4,
-      "end": 11.9,
-      "action": "Brève façade de maîtrise tenue, mains commencent à se rapprocher devant ventre"
-    },
-    {
-      "time": 11.9,
-      "end": 12.25,
-      "action": "Son regard retourne malgré lui à la photo"
-    },
-    {
-      "time": 12.25,
-      "end": 12.75,
-      "action": "La façade se casse : sourire disparaît, menton retombe",
-      "sound": "gene"
-    },
-    {
-      "time": 12.75,
-      "end": 14.0,
-      "action": "Gêne assumée, mains devant ventre, sourire presque nul ou légèrement asymétrique, fin sur réaction"
+      "time": 11.1,
+      "end": 13,
+      "action": "Une seule réaction gênée, bouche minuscule, regard bas, arrêt"
     }
   ],
   "production": "Python / SVG / CairoSVG / Pillow / NumPy / FFmpeg ; sons originaux locaux, sans voix ni musique continue",
-  "revision": 3,
-  "revision_intention": "MOU veut paraître irrésistible ; le déclenchement surprend le premier arrêt de son relâchement ; il tente ensuite de sauver les apparences et abandonne sa façade.",
+  "revision": 4,
+  "revision_intention": "MOU veut embellir une pose qu’il juge déjà magnifique ; sa dernière retouche excessive est capturée. La photo lui révèle son erreur.",
   "audio_silence_before_flash": {
-    "start": 6.0,
-    "end": 6.5,
-    "decoded_check_start": 6.05,
-    "decoded_check_end": 6.45
-  }
+    "start": 6.083333333333333,
+    "end": 6.416666666666667,
+    "decoded_check_start": 6.15,
+    "decoded_check_end": 6.38
+  },
+  "countdown": [
+    {
+      "number": 5,
+      "frame": 34,
+      "time": 1.416666666666667,
+      "sound": null
+    },
+    {
+      "number": 4,
+      "frame": 58,
+      "time": 2.416666666666667,
+      "sound": null
+    },
+    {
+      "number": 3,
+      "frame": 82,
+      "time": 3.416666666666667,
+      "sound": "timer_3"
+    },
+    {
+      "number": 2,
+      "frame": 106,
+      "time": 4.416666666666667,
+      "sound": "timer_2"
+    },
+    {
+      "number": 1,
+      "frame": 130,
+      "time": 5.416666666666667,
+      "sound": "timer_1"
+    }
+  ],
+  "photo_hold": {
+    "start": 7.0,
+    "end": 8.8
+  },
+  "approval": "Réécriture 2 approuvée par utilisatrice ; critique conceptuelle favorable, validation du rendu restant à faire."
 }

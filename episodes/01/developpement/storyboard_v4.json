@@ -1,0 +1,268 @@
+{
+  "episode": "01",
+  "revision": 4,
+  "title": "La dernière retouche",
+  "duration_seconds": 13,
+  "fps": 24,
+  "frame_count": 312,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "status": "Découpage approuvé et critique conceptuelle favorable ; aucun résultat de rendu revendiqué par ce document.",
+  "reference": "chronologie.json verrouillée par le coordinateur",
+  "frames_note": "Indices depuis zéro. first_sample_frame et end_frame_exclusive donnent les échantillons à 24 i/s ; les bornes de jeu non entières restent des intentions continues.",
+  "flash_frame": 154,
+  "flash_seconds": 6.416666666666667,
+  "countdown": [
+    {
+      "number": 5,
+      "frame": 34,
+      "time": 1.416666666666667,
+      "sound": null
+    },
+    {
+      "number": 4,
+      "frame": 58,
+      "time": 2.416666666666667,
+      "sound": null
+    },
+    {
+      "number": 3,
+      "frame": 82,
+      "time": 3.416666666666667,
+      "sound": "timer_3"
+    },
+    {
+      "number": 2,
+      "frame": 106,
+      "time": 4.416666666666667,
+      "sound": "timer_2"
+    },
+    {
+      "number": 1,
+      "frame": 130,
+      "time": 5.416666666666667,
+      "sound": "timer_1"
+    }
+  ],
+  "photo_hold": {
+    "start": 7.0,
+    "end": 8.8
+  },
+  "shots": [
+    {
+      "id": 1,
+      "start_seconds": 0,
+      "end_seconds": 1.4166666666666667,
+      "first_sample_frame": 0,
+      "end_frame_exclusive": 34,
+      "framing": "insert téléphone",
+      "action": "Téléphone caméra, retardateur 5 s, une mitaine active le déclencheur ; aucun portrait avant clic",
+      "intention": "Préparer une photo",
+      "gaze_target": "vers le déclencheur hors champ",
+      "hands_and_contact": "Une mitaine appuie puis se retire ; avant-bras recoupé naturellement.",
+      "feet": "MOU hors champ ; aucun déplacement supposé.",
+      "spectator_understanding": "Le téléphone est en mode caméra ; aucun portrait.",
+      "mou_understanding": "MOU prépare sa belle photo."
+    },
+    {
+      "id": 2,
+      "start_seconds": 1.4166666666666667,
+      "end_seconds": 3.4166666666666665,
+      "first_sample_frame": 34,
+      "end_frame_exclusive": 82,
+      "framing": "vue depuis objectif",
+      "action": "Vue depuis objectif ; MOU relève menton et choisit son beau sourire, certain d’être magnifique",
+      "intention": "Afficher sa beauté certaine",
+      "gaze_target": "objectif",
+      "hands_and_contact": "Deux mains en pose de confiance avant retouche.",
+      "feet": "Deux pieds ancrés.",
+      "spectator_understanding": "MOU pose avec satisfaction.",
+      "mou_understanding": "Il se croit magnifique."
+    },
+    {
+      "id": 3,
+      "start_seconds": 3.4166666666666665,
+      "end_seconds": 4.15,
+      "first_sample_frame": 82,
+      "end_frame_exclusive": 100,
+      "framing": "vue depuis objectif",
+      "action": "Les deux mitaines rejoignent et soulèvent doucement les joues, retouche symétrique",
+      "intention": "Embellir légèrement le sourire",
+      "gaze_target": "objectif",
+      "hands_and_contact": "Deux mitaines montent au contact ; lift symétrique léger.",
+      "feet": "Deux pieds ancrés.",
+      "spectator_understanding": "Le geste commence à modifier les joues.",
+      "mou_understanding": "Il améliore encore sa beauté."
+    },
+    {
+      "id": 4,
+      "start_seconds": 4.15,
+      "end_seconds": 4.8,
+      "first_sample_frame": 100,
+      "end_frame_exclusive": 116,
+      "framing": "vue depuis objectif",
+      "action": "MOU approuve ce premier embellissement, mains au contact",
+      "intention": "Approuver la première retouche",
+      "gaze_target": "objectif",
+      "hands_and_contact": "Deux mitaines maintenues aux joues.",
+      "feet": "Deux pieds ancrés.",
+      "spectator_understanding": "Il choisit d’aller plus loin.",
+      "mou_understanding": "Il trouve le petit ajout réussi."
+    },
+    {
+      "id": 5,
+      "start_seconds": 4.8,
+      "end_seconds": 6.416666666666667,
+      "first_sample_frame": 116,
+      "end_frame_exclusive": 154,
+      "framing": "vue depuis objectif",
+      "action": "Il étire encore les joues ; dernière traction asymétrique toujours en cours au clic, satisfait",
+      "intention": "Ajouter une dernière amélioration",
+      "gaze_target": "objectif",
+      "hands_and_contact": "Traction croissante, asymétrique ; contact constant, dernier ajout encore mobile au clic.",
+      "feet": "Deux pieds ancrés.",
+      "spectator_understanding": "Le public voit que la retouche devient excessive.",
+      "mou_understanding": "Il reste satisfait et ne perçoit pas le ratage."
+    },
+    {
+      "id": 6,
+      "start_seconds": 6.416666666666667,
+      "end_seconds": 7,
+      "first_sample_frame": 154,
+      "end_frame_exclusive": 168,
+      "framing": "vue depuis objectif et flash",
+      "action": "Flash sur la retouche ; pose conservée, aucune découverte prématurée",
+      "intention": "Achever sa pose sans doute",
+      "gaze_target": "objectif",
+      "hands_and_contact": "Même état que la capture, mitaines aux joues.",
+      "feet": "Deux pieds ancrés.",
+      "spectator_understanding": "Le mauvais instant est photographié.",
+      "mou_understanding": "Il sait seulement que la photo est prise."
+    },
+    {
+      "id": 7,
+      "start_seconds": 7,
+      "end_seconds": 8.8,
+      "first_sample_frame": 168,
+      "end_frame_exclusive": 212,
+      "framing": "insert même téléphone",
+      "action": "Photo fixe plein écran, identique à la pose capturée, première image de résultat",
+      "intention": "Donner à lire le résultat",
+      "gaze_target": "MOU hors champ",
+      "hands_and_contact": "La photo montre les deux mitaines exactement comme au clic.",
+      "feet": "La photo conserve les pieds et toute la silhouette.",
+      "spectator_understanding": "Première image affichée comme photo ; immobilité.",
+      "mou_understanding": "Aucune réaction nouvelle montrée hors champ."
+    },
+    {
+      "id": 8,
+      "start_seconds": 8.8,
+      "end_seconds": 9.7,
+      "first_sample_frame": 212,
+      "end_frame_exclusive": 233,
+      "framing": "retour vue objectif",
+      "action": "Retour MOU, yeux vers photo sous objectif ; sourire figé",
+      "intention": "Découvrir la photo",
+      "gaze_target": "écran sous objectif",
+      "hands_and_contact": "Mitaines encore aux joues ; sourire figé.",
+      "feet": "Deux pieds ancrés.",
+      "spectator_understanding": "Le regard déclenche la prise de conscience.",
+      "mou_understanding": "Il découvre son erreur."
+    },
+    {
+      "id": 9,
+      "start_seconds": 9.7,
+      "end_seconds": 11.1,
+      "first_sample_frame": 233,
+      "end_frame_exclusive": 267,
+      "framing": "vue objectif",
+      "action": "Mains descendent lentement, visage revient, menton rentre",
+      "intention": "Abandonner sa retouche avec gêne",
+      "gaze_target": "photo sous objectif",
+      "hands_and_contact": "Deux mitaines descendent lentement ; le visage revient avec le décollage.",
+      "feet": "Deux pieds ancrés.",
+      "spectator_understanding": "L’assurance disparaît dans une seule réaction.",
+      "mou_understanding": "Il sait la photo ratée."
+    },
+    {
+      "id": 10,
+      "start_seconds": 11.1,
+      "end_seconds": 13,
+      "first_sample_frame": 267,
+      "end_frame_exclusive": 312,
+      "framing": "vue objectif",
+      "action": "Une seule réaction gênée, bouche minuscule, regard bas, arrêt",
+      "intention": "Assumer une gêne lisible",
+      "gaze_target": "bas vers sa photo",
+      "hands_and_contact": "Deux mains baissées, sans nouvelle tentative.",
+      "feet": "Deux pieds ancrés.",
+      "spectator_understanding": "La réaction termine l’histoire.",
+      "mou_understanding": "Il ne peut soutenir sa belle image idéale."
+    }
+  ],
+  "sound_events": [
+    {
+      "name": "timer_3",
+      "frame": 82,
+      "start_seconds": 3.4166666666666665,
+      "duration_frames": 2,
+      "duration_seconds": 0.08333333333333333
+    },
+    {
+      "name": "retouche_douce",
+      "frame": 86,
+      "start_seconds": 3.5833333333333335,
+      "duration_frames": 5,
+      "duration_seconds": 0.20833333333333334
+    },
+    {
+      "name": "timer_2",
+      "frame": 106,
+      "start_seconds": 4.416666666666667,
+      "duration_frames": 2,
+      "duration_seconds": 0.08333333333333333
+    },
+    {
+      "name": "timer_1",
+      "frame": 130,
+      "start_seconds": 5.416666666666667,
+      "duration_frames": 2,
+      "duration_seconds": 0.08333333333333333
+    },
+    {
+      "name": "derniere_retouche",
+      "frame": 142,
+      "start_seconds": 5.916666666666667,
+      "duration_frames": 4,
+      "duration_seconds": 0.16666666666666666
+    },
+    {
+      "name": "obturateur",
+      "frame": 154,
+      "start_seconds": 6.416666666666667,
+      "duration_frames": null,
+      "duration_seconds": 0.08
+    },
+    {
+      "name": "mains_descendent",
+      "frame": 236,
+      "start_seconds": 9.833333333333334,
+      "duration_frames": 4,
+      "duration_seconds": 0.16666666666666666
+    }
+  ],
+  "required_tests": [
+    "Contact mitaine–bouton : approche, appui, retrait.",
+    "Contacts mitaines–joues : montée, petite retouche, traction asymétrique, retrait.",
+    "Deux mains et bras continus, yeux dégagés, pieds fixes, identité MOU conservée.",
+    "Photo identique à la pose du clic, fixe et lisible.",
+    "Animatique complète muette puis rythme avec sons réellement accessibles."
+  ],
+  "limits": [
+    "Veille externe récente incomplète.",
+    "Avis conceptuel distinct d’une critique du montage réel.",
+    "Aucune écoute, mesure d’audience ou validation publique revendiquée."
+  ]
+}

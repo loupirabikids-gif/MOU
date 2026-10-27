@@ -26,10 +26,10 @@ def main():
             assert 'MOU/episodes/01/'+name in z.namelist()
     def describe(p):return {'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
     timeline=json.loads((EP/'chronologie.json').read_text())
-    result={'titre':'MOU 01 — Le retardateur','revision':timeline['revision'],'duree_secondes':14,'resolution':[1080,1920],'fps':24,
+    result={'titre':'MOU 01 — '+timeline['titre'],'revision':timeline['revision'],'duree_secondes':timeline['duree_secondes'],'resolution':[1080,1920],'fps':24,
             'fichiers':{n:describe(EP/n) for n in ['MOU_01_le_retardateur.mp4','MOU_01_le_retardateur_muet.mp4']},
             'sources':archive.name,'bilan':'CONTROLE.txt','archive_sources':{**describe(archive),'fichiers':len(collected)},
-            'apercu_github':{'fichier':'MOU_01_apercu.gif','muet':True,'width':270,'height':480,'duration_seconds':14}}
+            'apercu_github':{'fichier':'MOU_01_apercu.gif','muet':True,'width':270,'height':480,'duration_seconds':timeline['duree_secondes']}}
     (EP/'LIVRAISON.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
     print(json.dumps(result,indent=2,ensure_ascii=False))
 if __name__=='__main__':main()

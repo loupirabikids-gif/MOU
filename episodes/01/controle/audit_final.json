@@ -1,29 +1,35 @@
 {
-  "revision": 3,
+  "revision": 4,
   "encoded_gestures_match_fresh_svg": true,
   "gesture_roi_mean_errors_0_255": {
-    "1.625": 0.982407,
-    "1.291667": 1.988299,
-    "6.416667": 1.57118,
-    "6.458333": 1.684907,
-    "13.5": 1.628737
+    "1.25": 1.068982,
+    "2.791667": 1.310866,
+    "3.583333": 1.306094,
+    "6.375": 1.346025,
+    "6.416667": 1.498956,
+    "7.791667": 1.35,
+    "10.5": 1.334205,
+    "12.5": 1.413116
   },
   "format": "H264/yuv420p + AAC stereo48kHz",
   "dimensions": [
     1080,
     1920
   ],
-  "duration_seconds": 14,
+  "duration_seconds": 13.0,
   "fps": 24,
-  "decoded_frames": 336,
+  "decoded_frames": 312,
   "complete_decode_without_errors": true,
   "mute_contains_no_audio": true,
   "video_bitstream_identical_between_versions": true,
-  "flash_frame": 156,
-  "capture_matches_pose_immediately_before_flash": true,
-  "decoded_click_onset_seconds": 6.500125,
-  "audio_peak_dbfs": -6.014,
+  "flash_frame": 154,
+  "capture_uses_same_character_at_exact_click": true,
+  "last_retouch_still_in_motion_before_click": true,
+  "no_photo_before_click": true,
+  "decoded_click_onset_seconds": 6.41675,
+  "audio_peak_dbfs": -6.002,
   "decoded_preflash_peak": 0.0,
-  "photo_screen_mean_delta_7_5_to_8_5": 0.00446,
-  "limits": "Inspection visuelle par échantillons denses et planches ; contrôles audio numériques, sans écoute sur téléphone réel ni test de public."
+  "decoded_photo_hold_audio_peak": 0.0,
+  "photo_screen_mean_delta_7_5_to_8_5": 1.9e-05,
+  "limits": "Inspection par extractions denses et planches ; contrôle audio numérique, sans écoute sur téléphone ni test public."
 }

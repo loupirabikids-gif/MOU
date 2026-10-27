@@ -1,61 +1,43 @@
-MOU 01 — LE RETARDATEUR — BILAN V3
+MOU 01 — LA DERNIÈRE RETOUCHE — BILAN V4
 
-RÉSULTAT
-14,000s ;1080×1920 ;24i/s ;336images, H264/yuv420p et AAC stéréo48kHz.
-Version muette sans piste audio, avec exactement le même flux vidéo.
-Rig MOU vert et outils gratuits/open source conservés ; aucun modèle remplacé.
+13,000s ·1080×1920 ·24i/s ·312images. MP4 H264/yuv420p +AAC stéréo48kHz.
+Version muette sans piste audio, flux vidéo identique. Aperçu GIF270×480 muet.
+Même personnage vert et rig original inchangé ; production gratuite/open source.
 
-ÉQUIPE ET CRÉATION CONSERVÉES
-Règles dans AGENTS.md, cinq profils natifs dans .codex/agents/ et coordination
-dans equipe/. Profils TOML validés et compatibilité CLI0.163.0 vérifiée ;
-chargement natif dans le chat non prouvé. Les rôles ont été appliqués aux
-agents disponibles par mandats séparés, sans écriture concurrente des fichiers.
-Cinq idées réellement distinctes et choix conservés dans developpement/.
-Le pilote existant est repris après critique du scénario AVANT fabrication.
+CORRECTIONS OBSERVÉES ET RETENUES
+Le gag V3 était jugé confus. La réécriture choisie fait causer le ratage par
+la vanité de MOU : petit embellissement, dernière traction excessive au clic,
+photo puis une seule réaction gênée. Pas de portrait avant le flash.
+Premier test trop joli : asymétrie nettement renforcée. Boucle du bras droit
+corrigée, deux mitaines continues conservées. Après montage complet, résultat
+agrandi×1,4 : même téléphone, photo entière plus lisible sur mobile.
+Le critique a revu ces corrections dans l’encodé540×960 avant accord final,
+puis4moments du vrai MP4 final1080×1920 : intentions et cadrage conservés.
+Découpage, critiques, preuves et décisions conservés dans le projet.
 
-CORRECTIONS RETENUES
-V2 montrait trop tôt le cliché raté. V3 garde la crispation jusqu’à5,75s,
-une courte anticipation, puis une chute sans rebond des images149à155.
-Le premier extrême arrive à6,458s ; clic/flash156à6,50 sur la même pose.
-La photo garde exactement cet état et sa déformation, tête/mains/pieds entiers.
-V2 finissait presque sereine. V3 fait essayer à MOU de sauver les apparences
-vers10,4–11,9s ; son regard revient au cliché, son beau sourire se casse et
-il termine gêné, bouche presque plate. Le temps de lecture photo est conservé.
-La critique du vrai montage léger juge ces corrections visibles et garde14s ;
-aucun temps mort constaté ne justifiait de réduire arbitrairement à13,5s.
-Voir developpement/journal_corrections.md et controle/critique_v3.md.
+CONTRÔLES EXÉCUTÉS
+312poses : deux mains, deux pieds fixes, XML/IDs/masques valides, contacts
+aux joues et appui du déclencheur vérifiés en images. Contact avant le premier
+frottement ; dernière traction encore mobile àl’image153→154. Le cliché
+provient exactement de character_at(pose_at(154/24)), puis reste figé.
+Deux MP4 décodés intégralement sans erreur. Huit moments du final comparés
+àdes SVG frais hors cache (erreurs moyennes1,07à1,50/255). Cache et images
+écrits atomiquement, aucun lien physique partagé.
+Sept événements sonores originaux. Clic mesuré à6.41675s,
+soit0,083ms après le flash ; pic-6.002dBFS sans saturation.
+Silence avant clic et pendant lecture photo. Photo fixe7,5vs8,5s :
+écart moyen0.000019/255.
+Audits détaillés dans controle/ ; paramètres et provenance dans sons/.
 
-VÉRIFICATIONS DU FINAL
-Décodage complet des deux MP4 sans erreur :336images. Deux bras/mains,
-pupilles masquées, IDs uniques et références résolues ; pieds fixes hors de
-la déformation à toutes les images. Aucun fichier image lié à un autre :
-copies atomiques, clé SVG et destination comparées avant encodage.
-Gestes du MP4 comparés à des SVG frais hors cache, y compris la nouvelle
-chute et la fin à13,50s. Pas de rebond et extrême155 vérifiés également.
-Clic AAC mesuré à6.500125s ; crête
--6.014dBFS sans saturation. Souffle5,78–5,98s,
-chute silencieuse et pause avant le flash ; accent gêne12,35–12,70s.
-Huit effets actifs originaux. Ancien effet élastique conservé en banque,
-explicitement exclu du mix. Photo immobile7,5vs8,5 : écart moyen
-0.004460/255, compatible avec compression.
+PORTÉE ET LIMITES
+Lecture interne par extractions chronométrées et planches, ycompris270×480.
+Audio contrôlé numériquement, sans écoute sur téléphone réel ni test public.
+La veille externe demeure incomplète : YouTube absent des domaines autorisés.
+Aucune statistique, rétention ou mesure d’audience inventée ; GitHub ne vaut
+pas diffusion d’un Short. Profils d’équipe conservés, rôles appliqués par
+mandats distincts ; activation native du client non prouvée.
 
-LIMITE ÉDITORIALE ET MESURES
-La veille récente externe est INCOMPLÈTE : accès YouTube refusé par le réseau
-(403). Zéro Short vérifié, aucun lien/compteur/date/rétention inventé.
-Cette révision du pilote demandé se fonde sur retours et critique internes,
-pas sur une fausse veille. Rapport daté dans editorial/ à la racine.
-Domaines requis enregistrés au brouillon des paramètres ; l’enregistrement
-ne les applique pas à l’instance et ne publie pas l’environnement.
-Aucun résultat d’audience de diffusion MOU n’est fourni ; publication/ garde
-le protocole de mesure future. GitHub ne vaut pas publication d’un Short.
-
-PORTÉE
-Inspection artistique par extractions denses de l’animatique entière et
-lecture muette ; audio contrôlé numériquement, sans écoute subjective sur
-téléphone ni test de public. Une petite histoire plus claire est l’objectif,
-pas une promesse de rire, de rétention ou de succès commercial.
-ZIP extrait àun autre chemin :5profils et documents de création présents,
-audit336poses et15images rendues ; photo et mix reproduits identiquement.
-Instructions de démarrage et domaines réseau enregistrés au brouillon cloud,
-sans activation ou publication implicite de cette configuration.
-Sources et commandes : sources/README.md ; audits et preuves : controle/.
+Sources et reproduction : sources/README.md. ZIP extrait ailleurs puis
+commandes lancées depuis /tmp : audit312poses et15images, photo et mix
+reproduits identiquement. Même environnement installé, pas de machine vierge.
+Audit de reproduction et sommes des sources conservés dans controle/.

@@ -1,0 +1,20 @@
+{
+  "revision": 4,
+  "scope": "Encodage AAC audio seul depuis le mix V4 ; ne remplace pas le contrôle du MP4 final.",
+  "command": "ffmpeg -y -v error -i episodes/01/sons/mix.wav -c:a aac -b:a 192k /tmp/mou_v4_audio_test.m4a",
+  "aac_peak_dbfs": -6.002429380332776,
+  "aac_preflash_window_seconds": [
+    6.15,
+    6.38
+  ],
+  "aac_preflash_peak": 0.0,
+  "aac_photo_hold_window_seconds": [
+    7,
+    8.8
+  ],
+  "aac_photo_hold_peak": 0.0,
+  "aac_click_onset_seconds": 6.41675,
+  "mix_reproduction_byte_identical": true,
+  "mix_sha256": "06be52b56a3c0f06b432eaad26e3efed19907d3eb831f969f2bc4611c223a366",
+  "limite": "Vérification numérique, sans écoute humaine sur appareil."
+}

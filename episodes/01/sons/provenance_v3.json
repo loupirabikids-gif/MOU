@@ -1,0 +1,163 @@
+{
+  "episode": "MOU 01 — Le retardateur",
+  "revision": 3,
+  "revision_note": "Souffle raccourci à 5,78–5,98 s ; détente élastique retirée du mix ; chute 6,22–6,458 s silencieuse ; accent de gêne reporté à 12,35–12,70 s. Vanité à 1,30 s, trois bips et clic à 6,50 s conservés.",
+  "provenance": "Tous les effets sont des créations procédurales originales synthétisées localement par sources/son.py. Aucun échantillon, enregistrement, service ni banque externe.",
+  "outils": [
+    "Python (PSF)",
+    "NumPy (BSD-3-Clause)",
+    "wave (bibliothèque standard Python)"
+  ],
+  "voice": false,
+  "continuous_music": false,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "duration_seconds": 14.0,
+  "random_seed": 2710202601,
+  "synchronisation": "Instants exacts de chronologie.json ; conversion en indices entiers 48 kHz. Le flash est image 156 à 24 i/s, échantillon 312000.",
+  "events": [
+    {
+      "name": "pose_froissement",
+      "file": "pose_froissement.wav",
+      "start_seconds": 0.72,
+      "start_sample": 34560,
+      "end_seconds": 0.84,
+      "pan": 0.25,
+      "peak_dbfs": -29.0,
+      "parameters": {
+        "type": "bruit_filtre",
+        "band_hz": [
+          260,
+          1600
+        ],
+        "duration": 0.12
+      }
+    },
+    {
+      "name": "vanite_eclat",
+      "file": "vanite_eclat.wav",
+      "start_seconds": 1.3,
+      "start_sample": 62400,
+      "end_seconds": 1.5,
+      "pan": 0.25,
+      "peak_dbfs": -19.0,
+      "parameters": {
+        "type": "double_tintement_bref",
+        "fundamentals_hz": [
+          1480,
+          2210
+        ],
+        "second_tintement_seconds": 0.048,
+        "duration": 0.2
+      }
+    },
+    {
+      "name": "timer_3",
+      "file": "timer_3.wav",
+      "start_seconds": 2.0,
+      "start_sample": 96000,
+      "end_seconds": 2.13,
+      "pan": -0.35,
+      "peak_dbfs": -15.0,
+      "parameters": {
+        "type": "sinus_harmonique",
+        "fundamental_hz": 620,
+        "duration": 0.13
+      }
+    },
+    {
+      "name": "timer_2",
+      "file": "timer_2.wav",
+      "start_seconds": 3.1,
+      "start_sample": 148800,
+      "end_seconds": 3.215,
+      "pan": -0.35,
+      "peak_dbfs": -14.5,
+      "parameters": {
+        "type": "sinus_harmonique",
+        "fundamental_hz": 740,
+        "duration": 0.115
+      }
+    },
+    {
+      "name": "timer_1",
+      "file": "timer_1.wav",
+      "start_seconds": 4.2,
+      "start_sample": 201600,
+      "end_seconds": 4.35,
+      "pan": -0.35,
+      "peak_dbfs": -14.0,
+      "parameters": {
+        "type": "sinus_harmonique",
+        "fundamental_hz": 880,
+        "duration": 0.15
+      }
+    },
+    {
+      "name": "souffle",
+      "file": "souffle.wav",
+      "start_seconds": 5.78,
+      "start_sample": 277440,
+      "end_seconds": 5.98,
+      "pan": 0.25,
+      "peak_dbfs": -21.0,
+      "parameters": {
+        "type": "souffle_non_vocal",
+        "band_hz": [
+          180,
+          2100
+        ],
+        "duration": 0.2,
+        "intention": "relâchement bref ; la chute suivante reste silencieuse"
+      }
+    },
+    {
+      "name": "obturateur",
+      "file": "obturateur.wav",
+      "start_seconds": 6.5,
+      "start_sample": 312000,
+      "end_seconds": 6.655,
+      "pan": -0.35,
+      "peak_dbfs": -6.0,
+      "parameters": {
+        "type": "double_clic",
+        "second_contact_seconds": 0.037,
+        "duration": 0.155
+      }
+    },
+    {
+      "name": "gene",
+      "file": "gene.wav",
+      "start_seconds": 12.35,
+      "start_sample": 592800,
+      "end_seconds": 12.7,
+      "pan": 0.2,
+      "peak_dbfs": -19.0,
+      "parameters": {
+        "type": "accent_elastique_descendant",
+        "frequency_hz": [
+          230,
+          120
+        ],
+        "duration": 0.35,
+        "intention": "ponctuer la rupture du sourire après sa tentative de bonne figure"
+      }
+    }
+  ],
+  "unused_bank": [
+    {
+      "file": "detente_elastique.wav",
+      "used_in_mix": false,
+      "type": "glissando_elastique_descendant_non_vocal",
+      "frequency_hz": [
+        311,
+        70
+      ],
+      "duration": 0.47,
+      "pan": 0.25,
+      "peak_dbfs": -16.5,
+      "reason": "Version 2 archivée en banque uniquement : retirée du mix v3 pour ne pas annoncer la chute avant le flash."
+    }
+  ]
+}

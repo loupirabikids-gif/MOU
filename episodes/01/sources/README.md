@@ -1,61 +1,62 @@
-# MOU 01 — Le retardateur
+# MOU 01 — La dernière retouche (V4)
 
-Épisode muet dans son écriture, avec ponctuations sonores originales : 14 secondes,
-24 images/s, 1080 × 1920, H264 yuv420p et AAC stéréo 48 kHz. Deux versions vidéo :
-avec son et sans piste audio. Le rig original reste inchangé.
-Révision 3 : chute unique juste avant le clic et tentative finale de sauver
-les apparences, puis gêne assumée. Vanité et déformation ample conservées.
+13 secondes, 24 images/s, vertical 1080 × 1920. MP4 H264/yuv420p,
+AAC stéréo 48 kHz et version sans piste audio. Les noms historiques
+`MOU_01_le_retardateur*.mp4` sont conservés pour les liens déjà partagés.
+Le scénario courant est dans `../developpement/scenario_retenu.md` ;
+PILOTE_01.txt reste le point de départ historique, remplacé par la réécriture approuvée.
 
-Depuis la racine **MOU** du projet décompressé, Python 3.11+ et FFmpeg avec libx264,
-Cairo et fontconfig doivent être disponibles. Les dépendances Python exactes sont
-consignées dans `requirements-render.lock` ; la police et sa licence sont dans
-`fonts/`. Linux vérifié ici, Python 3.12.14 et FFmpeg 7.1.5.
+Depuis la racine MOU, Python 3.11+, Cairo/fontconfig et FFmpeg avec libx264 :
 
 ```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r episodes/01/sources/requirements-render.lock
+bash episodes/01/sources/install.sh
 .venv/bin/python episodes/01/sources/son.py
 XDG_CACHE_HOME="$PWD/work/font-cache" .venv/bin/python episodes/01/sources/render.py --preview
+# Examiner le montage complet et corriger avant le rendu final.
 XDG_CACHE_HOME="$PWD/work/font-cache" .venv/bin/python episodes/01/sources/render.py
-.venv/bin/python episodes/01/sources/verify.py
+XDG_CACHE_HOME="$PWD/work/font-cache" .venv/bin/python episodes/01/sources/verify.py
+.venv/bin/python episodes/01/sources/package.py
 ```
 
-Les scripts déterminent leurs chemins depuis leur propre emplacement. Utiliser
-le checkout existant : les tâches cloud sont déjà isolées, aucun worktree requis.
-Aucun service, compte, clé, API de génération, ressource payante ou accès réseau
-n'est nécessaire au rendu après installation.
+Versions Python fixées dans `requirements-render.lock`. Aucun service, clé,
+ressource payante ou réseau n'est nécessaire au rendu après installation.
+Les chemins dépendent de l'emplacement des sources, pas du dossier courant.
+Les profils d'équipe sont appliqués par délégations bornées ; leur présence
+ne prouve pas leur activation native dans un client Codex donné.
 
-`animation.py` contient les poses et interpolations ; `render.py` compose le décor,
-le même téléphone et ses recadrages, crée la photo fixe à 6,50 s puis encode.
-`son.py` synthétise huit effets actifs et le mix ; la détente élastique V2
-reste en banque et est explicitement exclue du mix. `verify.py` audite les fichiers
-réellement décodés. `../chronologie.json` est le découpage commun de l’équipe.
-Les SVG/PNG `photo_capturee` sont calculés par le même modèle à l'instant du clic.
+`animation.py` adapte le rig original inchangé : mêmes rubans continus et
+mitaines, nouvelles cibles de joues, contour et sourire entraînés après contact.
+`contact_geometry(p)` expose les repères locaux des deux bras et joues ;
+`character_at()` est l'unique source du personnage animé et du cliché.
+Les pieds restent fixes. La dernière traction continue jusqu'à l'image154 ;
+le résultat est calculé exactement à154/24 s, puis figé. Les deux yeux restent
+masqués comme dans le modèle. Lire `poses.md` pour les paramètres de jeu.
 
-Le cache par contenu dans `episodes/01/cache/` conserve les images non modifiées :
-relancer ne recalcule que les contenus ou résolutions différents. Les séquences
-PNG et caches sont régénérables et exclus de l'archive de sources. Le script
-`--stills --preview` permet d'examiner une planche avant le montage complet.
+`render.py` compose l'insert d'activation (une mitaine recoupée par le cadre),
+la vue depuis l'objectif, le flash puis le résultat dans le même téléphone.
+Aucun portrait n'est affiché avant le clic. Le résultat7–8,8s est montré
+en gros plan fixe×1,4 du même téléphone, après critique du premier montage. Le premier contact bouton utilise
+le même échantillonnage de ruban que le rig, avec la racine hors cadre.
+Les SVG/PNG `photo_capturee` partagent strictement la pose du clic.
 
-Le gros plan reste le même téléphone fixe, sans apparition d'un autre appareil.
-Les mains ne prennent aucun objet ; aucune marche ni rotation n'est ajoutée.
-L'adaptation des paupières dans l'épisode évite les anneaux verts pendant les
-fermetures ; la surprise s'ouvre sous le flash, sans modifier le dessin du rig.
+`son.py` synthétise sept événements originaux et un mix13s à partir de graines
+fixes : trois bips identiques, deux frottements, clic et descente des mains.
+La pause avant clic et la lecture de la photo restent silencieuses. Les WAV
+historiques ne sont pas utilisés ; le manifeste distingue banque et mix actif.
+`verify.py` décode les deux fichiers livrés, vérifie format/audio/clic/photo fixe
+et compare les moments décisifs à des SVG fraîchement rasterisés hors cache.
 
-Les paramètres `warp_sx`, `warp_sy`, `warp_skew` déforment le torse, les bras
-et le visage ensemble. Les deux pieds restent hors de ce groupe et fixes.
-MOU se redresse à 1,13 en hauteur, atteint 1,15 en anticipation, puis tombe
-une seule fois à 0,68 pour la photo, sans rebond. Le premier extrême se
-produit à l’image155, juste avant le flash156. La fin tente une façade
-séduisante puis la casse ; la bouche finale reste presque plate. La même déformation
-est utilisée dans la scène, l’aperçu et la capture. Le cadrage photo ajuste
-sa taille à la silhouette mesurée, sans couper les deux bosses ou les mains.
+Le cache par contenu n'utilise pas de liens physiques : écritures et copies
+atomiques, comparaison de chaque destination et de sa clé avant encodage.
+`--stills --preview` rend une planche de contrôle ; `--preview` produit le montage
+léger complet. Les PNG/cache/venv/Git sont exclus du ZIP généré par `package.py`.
+Pour régénérer aussi l'aperçu GitHub après le final :
 
-`package.py` régénère le ZIP des sources et LIVRAISON.json après les exports
-et la mise à jour du GIF. Le ZIP exclut caches, séquences PNG, venv et Git.
+```bash
+ffmpeg -y -i episodes/01/MOU_01_le_retardateur_muet.mp4 -filter_complex "fps=10,scale=270:480:flags=lanczos,split[a][b];[a]palettegen[p];[b][p]paletteuse" -loop 0 episodes/01/MOU_01_apercu.gif
+.venv/bin/python episodes/01/sources/package.py
+```
 
-Les contrôles et limites sont dans `../CONTROLE.txt` et `../controle/`.
-
-Le scénario, le storyboard, l’avis avant fabrication et le journal des décisions
-sont conservés dans `../developpement/`. La veille et les profils d’équipe
-sont conservés à la racine du projet.
+Contrôles, critique réelle et limites : `../CONTROLE.txt`, `../controle/`.
+Scénario, storyboard, critique avant fabrication et décisions : `../developpement/`.
+La veille externe demeure incomplète ; aucune mesure d'audience n'est inventée.

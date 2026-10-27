@@ -1,0 +1,10 @@
+{
+  "scope": "Piste AAC réellement décodée du premier_montage.mp4 V4; analyse numérique uniquement, sans écoute",
+  "peak_dbfs": -6.002429380332776,
+  "preflash_peak_6_15_to_6_38": 0.0,
+  "photo_hold_peak_7_to_8_8": 0.0,
+  "click_onset_seconds_threshold_0_005": 6.41675,
+  "flash_seconds": 6.416666666666667,
+  "click_error_seconds": 8.333333333343518e-05,
+  "decoded_samples": 624640
+}

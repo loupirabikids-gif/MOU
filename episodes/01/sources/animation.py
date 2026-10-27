@@ -1,230 +1,272 @@
-"""Le retardateur : vanité, maintien forcé, effondrement élastique, gêne.
+"""La dernière retouche : le même MOU embellit sa pose jusqu'à l'excès.
 
-Même silhouette et rig articulé MOU. Les déformations de jeu transforment
-corps, bras et visage ensemble, avec les deux pieds fixes hors du groupe.
-Le plan, l'aperçu du téléphone et la photo appellent tous character_at().
+Les contacts, les rubans des bras et la peau des joues partagent les mêmes
+repères locaux. Aucun étirement de peau avant le contact des deux mitaines.
 """
 from __future__ import annotations
 
 import math
-import sys
 from pathlib import Path
+import sys
 
-ROOT = Path(__file__).resolve().parents[3]
+ROOT = next(p for p in Path(__file__).resolve().parents if (p/'mou_rig.py').is_file())
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-from mou_rig import DEFAULT_POSE, PALETTE, character_fragment, _mouth
+from mou_rig import (DEFAULT_POSE, PALETTE, character_fragment, _mouth, _arm,
+                     _cubic, _tangent, _clamp, _pt, _n, _path)
+
+FPS = 24
+FLASH = 154/24
+CONTACT_TIME = 3.55
 
 
 def smooth(x):
-    x = min(1.0, max(0.0, float(x)))
-    return x*x*(3.0-2.0*x)
+    x = max(0., min(1., float(x)))
+    return x*x*(3-2*x)
 
 
 def state(**changes):
-    return {**DEFAULT_POSE, 'grimace': 0.0, 'vanity': 0.0, 'pout': 0.0, 'shame': 0.0,
-            'warp_sx': 1.0, 'warp_sy': 1.0, 'warp_skew': 0.0, **changes}
+    return {**DEFAULT_POSE, 'vanity': 0., 'pout': 0., 'shame': 0.,
+            'arm_raise': 0., 'cheek_contact': 0., 'cheek_lift': 0.,
+            'cheek_stretch': 0., 'cheek_asym': 0., 'chin_up': 0.,
+            'chin_tuck': 0., 'shutter_press': 0., **changes}
 
 
-# Téléphone bas-gauche : MOU admire son propre aperçu. Ses mains sont déjà
-# aux hanches, menton haut et buste fier, avant même son premier sourire.
-READY = state(arm_hips=1., eye_open_l=.56, eye_open_r=.65,
-              pupil_x=-.95, pupil_y=.12, brow_l=.05, brow_r=-.95,
-              brow_raise=.50, smile=.65, pout=.35, vanity=.65,
-              warp_sx=.98, warp_sy=1.065, warp_skew=-.025)
-ADMIRE = state(arm_hips=1., eye_open_l=.48, eye_open_r=.60,
-               pupil_x=-1., pupil_y=.30, brow_l=.18, brow_r=-1.,
-               brow_raise=.60, smile=.3, pout=1.,
-               warp_sx=.97, warp_sy=1.12, warp_skew=-.035)
-PROUD = state(arm_hips=1., eye_open_l=.53, eye_open_r=.68,
-              pupil_x=-.95, pupil_y=.20, brow_l=.15, brow_r=-1.,
-              brow_raise=.70, smile=1., vanity=1.,
-              warp_sx=.98, warp_sy=1.13, warp_skew=-.025)
-WINK = dict(PROUD, eye_open_r=0., brow_r=-.95)
-CRISP = state(arm_hips=1., eye_open_l=.72, eye_open_r=.77,
-              pupil_x=-.94, pupil_y=.30, brow_l=.12, brow_r=-.73,
-              brow_raise=.50, smile=1., mouth_open=.10, vanity=.74,
-              warp_sx=.99, warp_sy=1.12, warp_skew=-.025)
-TENSE = state(arm_hips=1., eye_open_l=.87, eye_open_r=.90,
-              pupil_x=-.90, pupil_y=.40, brow_l=.08, brow_r=-.48,
-              brow_raise=.32, smile=1., mouth_open=.20, vanity=.50,
-              warp_sx=.99, warp_sy=1.10, warp_skew=-.025)
-# Le souffle détend d'abord la pose, sans révéler la grimace de la capture.
-EXHALE = state(arm_hips=.50, eye_open_l=.35, eye_open_r=.43,
-               pupil_x=-.70, pupil_y=.45, brow_l=.20, brow_r=.28,
-               brow_raise=.20, smile=.10, mouth_open=.21,
-               warp_sx=.99, warp_sy=1.08, warp_skew=-.015)
-ANTICIPATE = state(arm_hips=.28, eye_open_l=.35, eye_open_r=.55,
-                   pupil_x=-.50, pupil_y=.45, brow_l=.25, brow_r=.35,
-                   brow_raise=.28, smile=-.10, mouth_open=.25,
-                   warp_sx=.97, warp_sy=1.15, warp_skew=.005)
-GRIMACE = state(arm_hips=0., eye_open_l=0., eye_open_r=.83,
-                pupil_x=.80, pupil_y=.68, brow_l=-.48, brow_r=.83,
-                brow_raise=-.10, smile=-1., mouth_open=1., grimace=1.,
-                warp_sx=1.12, warp_sy=.68, warp_skew=-.07)
-STARTLED = state(arm_hips=0., eye_open_l=1., eye_open_r=1.,
-                 pupil_x=-.85, pupil_y=.45, brow_l=.30, brow_r=.30,
-                 brow_raise=.90, smile=-.12, mouth_open=.34)
-DISCOVER = state(arm_hips=0., eye_open_l=.94, eye_open_r=.94,
-                 pupil_x=-.90, pupil_y=.45, brow_l=.60, brow_r=.60,
-                 brow_raise=.45, smile=-.58, mouth_open=.08)
-DISAPPOINTED = state(arm_hips=0., eye_open_l=.83, eye_open_r=.83,
-                     pupil_x=-.90, pupil_y=.50, brow_l=.70, brow_r=.70,
-                     brow_raise=.16, smile=-.55, mouth_open=0.)
-# Il tente vraiment de reprendre son beau visage. La façade n'est pas sa fin.
-FALSE_PROUD = state(arm_hips=.66, eye_open_l=.59, eye_open_r=.68,
-                    pupil_x=0., pupil_y=.04, brow_l=.15, brow_r=-.92,
-                    brow_raise=.58, smile=1., vanity=1.,
-                    warp_sx=.99, warp_sy=1.07, warp_skew=-.018)
-FACADE = dict(FALSE_PROUD, arm_hips=.45, arm_clasp=.28)
-PHOTO_BREAKS = dict(FACADE, arm_hips=.20, arm_clasp=.62,
-                    pupil_x=-.90, pupil_y=.48, brow_l=.48, brow_r=.30,
-                    brow_raise=.35)
-ASHAMED = state(arm_clasp=1., eye_open_l=.66, eye_open_r=.72,
-                pupil_x=-.70, pupil_y=.62, brow_l=.78, brow_r=.78,
-                brow_raise=.10, smile=0., shame=1.,
-                warp_sx=1.015, warp_sy=.97, warp_skew=.008)
-ADMITTED = dict(ASHAMED, pupil_x=-.15, pupil_y=.70,
-                eye_open_l=.68, eye_open_r=.73)
+READY = state(arm_hips=.7, eye_open_l=.65, eye_open_r=.72,
+              pupil_x=0., pupil_y=.1, brow_l=.12, brow_r=-.75,
+              brow_raise=.45, smile=.75, vanity=.6, chin_up=.55)
+PRESS = dict(READY, shutter_press=1.)
+ADMIRE = state(arm_hips=1., eye_open_l=.53, eye_open_r=.64,
+               pupil_x=0., pupil_y=0., brow_l=.15, brow_r=-1.,
+               brow_raise=.65, smile=.35, pout=1., chin_up=1.)
+PROUD = state(arm_hips=1., eye_open_l=.55, eye_open_r=.68,
+              pupil_x=0., pupil_y=0., brow_l=.12, brow_r=-1.,
+              brow_raise=.7, smile=1., vanity=1., chin_up=1.)
+TOUCH = dict(PROUD, arm_hips=.35, arm_raise=1., cheek_contact=1.)
+LIFT = dict(TOUCH, cheek_lift=1.)
+APPROVE = dict(LIFT, eye_open_l=.51, eye_open_r=.64, brow_raise=.82)
+PULL = dict(APPROVE, cheek_stretch=.38, cheek_asym=.08)
+MORE = dict(APPROVE, cheek_stretch=.68, cheek_asym=.35,
+            eye_open_l=.53, eye_open_r=.62)
+CAPTURE = dict(APPROVE, cheek_stretch=1., cheek_asym=1.,
+               eye_open_l=.53, eye_open_r=.40)
+READ = dict(CAPTURE, pupil_y=.95, eye_open_l=.95, eye_open_r=.95,
+            brow_l=.56, brow_r=.56, brow_raise=.45, chin_up=.75)
+SEEN = dict(READ, pupil_y=1., brow_l=.78, brow_r=.78,
+            brow_raise=.2, smile=.02, vanity=.25, chin_up=.5)
+RELEASE = state(arm_hips=0., arm_clasp=.12, arm_raise=.52,
+                cheek_contact=.25, cheek_lift=.4, cheek_stretch=.35,
+                cheek_asym=.35, pupil_y=1., eye_open_l=.80, eye_open_r=.84,
+                brow_l=.75, brow_r=.75, brow_raise=.18,
+                smile=0., shame=.75, chin_tuck=.4)
+LOWER = state(arm_clasp=.55, eye_open_l=.72, eye_open_r=.76,
+              pupil_x=-.1, pupil_y=.9, brow_l=.78, brow_r=.78,
+              brow_raise=.10, smile=0., shame=1., chin_tuck=.85)
+ASHAMED = dict(LOWER, arm_clasp=1., pupil_x=-.12, pupil_y=.72,
+                chin_tuck=1.)
 
-FALL_START = 149/24
-FIRST_EXTREME = 155/24
 KEYS = [
-    (0.00, READY), (.12, READY), (.60, ADMIRE), (.82, ADMIRE),
-    (1.28, PROUD), (1.48, PROUD), (1.58, WINK), (1.66, WINK),
-    (1.78, PROUD), (4.20, PROUD), (5.10, CRISP), (5.75, TENSE),
-    (6.00, EXHALE), (FALL_START, ANTICIPATE),
-    (FIRST_EXTREME, GRIMACE), (6.50, GRIMACE),
-    (6.625, STARTLED), (7.25, STARTLED),
-    (8.75, DISCOVER), (9.50, DISCOVER), (10.40, DISAPPOINTED),
-    (11.40, FALSE_PROUD), (11.90, FACADE), (12.25, PHOTO_BREAKS),
-    (12.75, ASHAMED), (13.15, ADMITTED), (14.00, ADMITTED),
+    (0., READY), (.18, READY), (.46, PRESS), (.62, PRESS), (.90, READY),
+    (34/24, ADMIRE), (1.78, ADMIRE), (2.20, PROUD), (82/24, PROUD),
+    (CONTACT_TIME, TOUCH), (3.5833333333333335, TOUCH), (4.15, LIFT),
+    (4.42, APPROVE), (4.8, APPROVE), (5.6, PULL), (6.15, MORE),
+    (FLASH, CAPTURE), (8.8, CAPTURE), (9.25, READ), (9.7, SEEN),
+    (10.2, RELEASE), (10.7, LOWER), (11.1, ASHAMED), (13., ASHAMED),
 ]
 
 
 def pose_at(t):
-    """Pose complète. La pose à 6.5 s est la seule source de la photo figée."""
-    for (ta, a), (tb, b) in zip(KEYS, KEYS[1:]):
+    for (ta,a),(tb,b) in zip(KEYS,KEYS[1:]):
         if ta <= t <= tb:
-            raw = min(1., max(0., (t-ta)/(tb-ta)))
-            # Une seule chute accélérée : le grotesque entier n'est atteint
-            # qu'à l'image155, juste avant le clic156. Aucun rebond.
-            u = raw*raw if ta == FALL_START and tb == FIRST_EXTREME else smooth(raw)
-            p = dict(b) if raw >= 1.0 else {key: a[key]+(b[key]-a[key])*u for key in a}
+            raw = max(0., min(1., (t-ta)/(tb-ta)))
+            # La dernière traction est encore en mouvement au clic.
+            u = raw if ta == 6.15 and tb == FLASH else smooth(raw)
+            p = dict(b) if raw >= 1 else {k:a[k]+(b[k]-a[k])*u for k in a}
             break
     else:
-        p = dict(KEYS[0 if t < 0 else -1][1])
-    # Le seul clin d'œil est celui de vanité déjà inscrit dans KEYS.
-    # Sous .30, le morphing du rig donnerait un contour vert vide. Terminer
-    # la fermeture en arc franc évite cet artefact sans redessiner les yeux.
-    for side in ('l', 'r'):
+        p = dict(KEYS[0 if t<0 else -1][1])
+    for side in ('l','r'):
         if p['eye_open_'+side] < .30:
-            p['eye_open_'+side] = 0.0
+            p['eye_open_'+side] = 0.
     return p
 
 
 def motion_at(t):
-    """Le jeu physique est dans character_at, également utilisé par la photo."""
-    return {'sx': 1.0, 'sy': 1.0, 'dx': 0.0, 'dy': 0.0}
+    return {'sx':1., 'sy':1., 'dx':0., 'dy':0.}
 
 
 def deformation_at(p):
-    """Paramètres affines communs au torse, aux bras et au visage.
+    """Aucune affine globale : la retouche est une déformation locale de peau."""
+    return {'sx':1., 'sy':1., 'skew':0., 'anchor_x':200., 'anchor_y':437.}
 
-    x'=200+sx*(x-200)+skew*(y-437) ; y'=437+sy*(y-437).
-    Les pieds sont exclus de ce groupe ; les mains n'en sont jamais exclues.
-    sx : .97..1.12 ; sy : .68..1.15 ; skew : -.07...008.
+
+def _skin_displacements(p):
+    contact = _clamp(p.get('cheek_contact',0.))
+    lift = _clamp(p.get('cheek_lift',0.))
+    stretch = _clamp(p.get('cheek_stretch',0.))
+    asym = _clamp(p.get('cheek_asym',0.))
+    # Tirer la droite plus haut amplifie le sourire déjà sûr de lui.
+    return {'left':(-45*stretch*contact, (-8*lift+34*asym)*contact),
+            'right':(45*stretch*contact, (-8*lift-32*asym)*contact)}
+
+
+def _base_controls(side,p):
+    if side=='left':
+        down=[(105,291),(80,311),(70,341),(76,367)]
+        hip=[(105,291),(24,307),(40,344),(118,356)]
+        folded=[(105,291),(91,344),(119,386),(178,389)]
+    else:
+        down=[(297,291),(321,310),(332,340),(325,367)]
+        hip=[(297,291),(377,307),(361,344),(283,356)]
+        folded=[(297,291),(311,344),(281,386),(225,389)]
+    return [_pt(_pt(a,b,_clamp(p.get('arm_hips',0))),c,
+                _clamp(p.get('arm_clasp',0))) for a,b,c in zip(down,hip,folded)]
+
+
+def contact_geometry(p):
+    """Repères locaux400×500, les mêmes qui construisent bras et peau.
+
+    in_contact signifie que la main a atteint la joue ; pendant la descente
+    la peau revient avec le relâchement, sans prétendre garder le contact.
     """
-    return {'sx': float(p.get('warp_sx', 1.)),
-            'sy': float(p.get('warp_sy', 1.)),
-            'skew': float(p.get('warp_skew', 0.)),
-            'anchor_x': 200., 'anchor_y': 437.}
+    displacements = _skin_displacements(p)
+    raise_ = _clamp(p.get('arm_raise',0.))
+    out={'skin_displacement':{k:list(v) for k,v in displacements.items()}}
+    for side,base in [('left',(134.,315.)),('right',(272.,315.))]:
+        dx,dy=displacements[side]
+        target=(base[0]+dx,base[1]+dy)
+        if side=='left':
+            shoulder=(105+dx*.45,291+dy*.45)
+            raised=[shoulder,(33+dx*.35,350+dy*.35),
+                    (70+dx*.65,315+dy),target]
+        else:
+            asym=_clamp(p.get('cheek_asym',0.))*_clamp(p.get('cheek_contact',0.))
+            # Le bras droit se replie depuis une attache plus basse ;
+            # la mitaine haute ne se superpose pas à sa propre épaule.
+            shoulder=(297+dx*.45,291+dy*.45+62*math.sqrt(asym))
+            raised=[shoulder,(369+dx*.35,350+dy*.35),
+                    (332+dx*.65,315+dy),target]
+        controls=[_pt(a,b,raise_) for a,b in zip(_base_controls(side,p),raised)]
+        center=controls[-1];tx,ty=_tangent(controls,1.)
+        out[side]={
+            'shoulder':list(controls[0]), 'controls':[list(q) for q in controls],
+            'hand_center':list(center), 'hand_tip':[center[0]+19*tx,center[1]+19*ty],
+            'cheek_target':list(target), 'contact_gap':math.dist(center,target),
+            'in_contact':raise_>=1-1e-10 and p.get('cheek_contact',0.)>=1-1e-10,
+            'mitten_radius':19.,
+        }
+    return out
 
 
-def _episode_mouth(p, uid):
-    """Même bouche : moue puis grand sourire ; après, mâchoire pendante."""
-    g = min(1., max(0., p.get('grimace', 0.)))
-    v = min(1., max(0., p.get('vanity', 0.)))
-    pout = min(1., max(0., p.get('pout', 0.)))
-    shame = min(1., max(0., p.get('shame', 0.)))
-    smile = max(-1., min(1., p.get('smile', 0.)))
-    op = max(0., min(1., p.get('mouth_open', 0.)))
-    mix = lambda a, b, u: a+(b-a)*u
-    width = mix(12+12*abs(smile), 52, op)
-    yl = mix(-5*smile, -25, op)
-    yr = mix(-9*smile-8*max(0., smile), -31, op)
-    upper = mix(20*smile, -12, op)
-    lower = mix(20*smile, 52, op)
-    points = [(-width, yl), (-width*.4, upper), (width*.4, upper),
-              (width, yr), (width*.9, lower), (-width*.75, lower)]
-    grin = [(-37., 2.), (-17., 27.), (20., 27.), (39., -20.),
-            (30., 21.), (-24., 28.)]
-    lips = [(-11., -2.), (-3., -10.), (9., -6.), (14., -2.),
-            (7., 6.), (-5., 5.)]
-    # Grand bas de bouche mou et oblique : ne doit pas lire un sourire.
-    crooked = [(-44., 7.), (-29., -38.), (10., -30.), (39., 26.),
-               (46., 58.), (-49., 78.)]
-    # Presque un trait : un coin minuscule et retenu, pas un U heureux.
-    shy = [(-12., 0.), (-3., 3.), (7., 1.), (13., -1.5),
-           (7., 1.), (-3., 3.)]
-    for shape, weight in [(grin, v), (lips, pout), (crooked, g), (shy, shame)]:
-        points = [(mix(a[0],b[0],weight),mix(a[1],b[1],weight))
-                  for a,b in zip(points,shape)]
-    xy = [f'{x:.3f} {y:.3f}' for x,y in points]
-    d = f'M{xy[0]} C{xy[1]} {xy[2]} {xy[3]} C{xy[4]} {xy[5]} {xy[0]} Z'
-    ink = PALETTE['outline']
-    clip = f'{uid}-mouth'
-    tongue_y = mix(25., 64., g)
-    tongue_x = mix(8., 20., g)
-    tongue_rx = mix(33., 15., g)
-    tongue_ry = mix(15., 24., g)
-    # La même langue, désormais molle et sortie : une seule forme rose,
-    # jamais dédoublée. Ses proportions reviennent avec le relâchement.
-    tongue_clip = f'clip-path="url(#{clip})"' if g < .75 else ''
+def _raised_arm(side,p,uid):
+    """Union visuelle de capsules SVG : contour rond, aucun trait de poignet.
+
+    L'arc reste celui du rig, avec largeur croissante et une seule moufle.
+    Toutes les encres sont dessinées avant toutes les peaux : les recouvrements
+    ne produisent donc plus les triangles des anciens offsets auto-croisés.
+    """
+    controls=contact_geometry(p)[side]['controls']
+    samples=[]
+    for i in range(65):
+        t=i/64;x,y=_cubic(controls,t)
+        hand=_clamp((t-.75)/.25);hand=hand*hand*(3-2*hand)
+        samples.append((x,y,10.5+8.5*hand))
+    ink=[];skin=[]
+    for color,extra,dest in [(PALETTE['outline'],2.6,ink),(PALETTE['skin'],0.,skin)]:
+        for (x1,y1,r1),(x2,y2,r2) in zip(samples,samples[1:]):
+            r=(r1+r2)/2+extra
+            dest.append(f'<path d="M{x1:.3f} {y1:.3f} L{x2:.3f} {y2:.3f}" '
+                        f'fill="none" stroke="{color}" stroke-width="{2*r:.3f}" '
+                        'stroke-linecap="round"/>')
+        ex,ey,r=samples[-1]
+        dest.append(f'<circle cx="{ex:.3f}" cy="{ey:.3f}" r="{r+extra:.3f}" fill="{color}"/>')
+    # La racine est noyée dans le torse, comme l'épaule ouverte du rig.
+    sx,sy,_=samples[0]
+    clip=f'{uid}-arm-root-{side}'
+    root=(f'<defs><clipPath id="{clip}"><path d="{_body_path(p)}"/></clipPath></defs>'
+          f'<circle cx="{sx:.3f}" cy="{sy:.3f}" r="20" '
+          f'fill="{PALETTE["skin"]}" clip-path="url(#{clip})"/>')
+    return (f'<g id="arm-{side}">'+''.join(ink)
+            +f'<g data-part="hand" data-side="{side}">'+''.join(skin)+'</g>'+root+'</g>')
+
+
+def _body_path(p):
+    ds=_skin_displacements(p);lx,ly=ds['left'];rx,ry=ds['right']
+    d=(f'M{90+lx:.3f} {310+ly:.3f} '
+       f'C{100+lx*.55:.3f} {284+ly*.55:.3f} 111 241 124 200 '
+       'C141 148 175 123 208 125 '
+       'C224 124 234 128 246 132 '
+       'C265 119 290 121 300 137 '
+       'C310 152 304 171 301 188 '
+       f'C305 225 {313+rx*.6:.3f} {267+ry*.5:.3f} {319+rx:.3f} {305+ry:.3f} '
+       f'C{331+rx:.3f} {350+ry*.6:.3f} 321 388 297 403 '
+       'C265 424 147 426 112 405 '
+       f'C82 390 {74+lx:.3f} {350+ly*.6:.3f} {90+lx:.3f} {310+ly:.3f} Z')
+    return d
+
+
+def _retouched_body(p):
+    return '<g id="body">'+_path(_body_path(p),PALETTE['skin'],sw=6)+'</g>'
+
+
+def _retouched_mouth(p,uid):
+    smile=max(-1.,min(1.,p.get('smile',0.)));op=_clamp(p.get('mouth_open',0.))
+    mix=lambda a,b,t:a+(b-a)*t
+    width=mix(12+12*abs(smile),52,op)
+    yl=mix(-5*smile,-25,op);yr=mix(-9*smile-8*max(0.,smile),-31,op)
+    upper=mix(20*smile,-12,op);lower=mix(20*smile,52,op)
+    points=[(-width,yl),(-width*.4,upper),(width*.4,upper),
+            (width,yr),(width*.9,lower),(-width*.75,lower)]
+    grin=[(-37,2),(-17,27),(20,27),(39,-20),(30,21),(-24,28)]
+    lips=[(-11,-2),(-3,-10),(9,-6),(14,-2),(7,6),(-5,5)]
+    shy=[(-12,0),(-3,3),(7,1),(13,-1.5),(7,1),(-3,3)]
+    for shape,weight in [(grin,p.get('vanity',0.)),(lips,p.get('pout',0.)),(shy,p.get('shame',0.))]:
+        points=[_pt(a,b,_clamp(weight)) for a,b in zip(points,shape)]
+    ds=_skin_displacements(p);ldx,ldy=ds['left'];rdx,rdy=ds['right']
+    # Les lèvres suivent les joues réellement saisies. Les yeux restent libres.
+    moved=[]
+    for x,y in points:
+        side='left' if x<0 else 'right'
+        dx,dy=ds[side]
+        influence=min(1.,abs(x)/34.)
+        moved.append((x+dx*.9*influence,y+dy*influence))
+    xy=[f'{x:.3f} {y:.3f}' for x,y in moved]
+    d=f'M{xy[0]} C{xy[1]} {xy[2]} {xy[3]} C{xy[4]} {xy[5]} {xy[0]} Z'
+    ink=PALETTE['outline'];clip=f'{uid}-mouth'
     return (f'<g id="mouth" transform="translate(205 321)">'
-            f'<path d="{d}" fill="{ink}" stroke="{ink}" stroke-width="4.6" '
-            f'stroke-linecap="round" stroke-linejoin="round"/>'
-            f'<defs><clipPath id="{clip}"><path d="{d}"/></clipPath></defs>'
-            f'<g {tongue_clip} opacity="{op:.3f}">'
-            f'<ellipse cx="{tongue_x:.3f}" cy="{tongue_y:.3f}" rx="{tongue_rx:.3f}" '
-            f'ry="{tongue_ry:.3f}" fill="{PALETTE["tongue"]}" '
-            f'stroke="{ink}" stroke-width="{2.4*g:.3f}"/>'
-            '</g></g>')
+            +_path(d,ink,ink,4.6)
+            +f'<defs><clipPath id="{clip}"><path d="{d}"/></clipPath></defs>'
+            +f'<g clip-path="url(#{clip})" opacity="{op:.3f}">'
+            +f'<ellipse cx="8" cy="25" rx="33" ry="15" fill="{PALETTE["tongue"]}"/>'
+            +'</g></g>')
 
 
-def character_at(p, uid='mou'):
-    """Le rig original et son jeu : pieds fixes, torse/bras/visage solidaires."""
-    fragment = character_fragment(p, uid=uid)
-    if any(p.get(k, 0.) > .00001 for k in ('grimace', 'vanity', 'pout', 'shame')):
-        original = _mouth(p, uid)
-        assert original in fragment
-        fragment = fragment.replace(original, _episode_mouth(p, uid), 1)
-    warp = deformation_at(p)
-    if any(abs(warp[k]-v) > 1e-10 for k,v in [('sx',1.),('sy',1.),('skew',0.)]):
-        # Le rig émet les deux groupes pied, puis body, les bras et le visage.
-        # Garder les pieds frères du groupe affine, jamais ses descendants.
-        marker = '<g id="body">'
-        feet, rest = fragment.split(marker, 1)
-        assert 'foot-l' in feet and 'foot-r' in feet and 'arm-' not in feet
-        transform = (f'translate(200 437) matrix({warp["sx"]:.6f} 0 '
-                     f'{warp["skew"]:.6f} {warp["sy"]:.6f} 0 0) '
-                     'translate(-200 -437)')
-        fragment = (feet + f'<g id="body-warp" transform="{transform}">'
-                    + marker + rest + '</g>')
+def character_at(p,uid='mou'):
+    fragment=character_fragment(p,uid=uid)
+    fragment=fragment.replace(_mouth(p,uid),_retouched_mouth(p,uid),1)
+    if p.get('arm_raise',0.)>1e-8:
+        for side in ('left','right'):
+            original=_arm(side,_clamp(p.get('arm_hips',0.)),_clamp(p.get('arm_clasp',0.)))
+            assert original in fragment
+            fragment=fragment.replace(original,_raised_arm(side,p,uid),1)
+    ds=_skin_displacements(p)
+    if any(abs(v)>1e-8 for d in ds.values() for v in d):
+        start=fragment.index('<g id="body">');end=fragment.index('</g>',start)+4
+        fragment=fragment[:start]+_retouched_body(p)+fragment[end:]
+    shift=-3*p.get('chin_up',0.)+4*p.get('chin_tuck',0.)
+    if abs(shift)>1e-8:
+        fragment=fragment.replace('<g id="face">',f'<g id="face" transform="translate(0 {shift:.4f})">',1)
     return fragment
 
 
 def intention_at(t):
-    if t < .9: return 'auto-admiration'
-    if t < 4.2: return 'certain d’être beau'
-    if t < 5.75: return 'beau sourire qui se crispe'
-    if t < FALL_START: return 'souffle et courte anticipation'
-    if t < FIRST_EXTREME: return 'une seule chute accélérée'
-    if t <= 6.50: return 'premier arrêt raté photographié'
-    if t < 9.5: return 'découverte du clic tardif'
-    if t < 10.4: return 'déconvenue devant la photo'
-    if t < 11.4: return 'tentative de sauver les apparences'
-    if t < 11.9: return 'façade de maîtrise'
-    if t < 12.25: return 'regard photo qui détruit la façade'
-    if t < 12.75: return 'sourire qui casse, menton retombé'
-    return 'gêne assumée, sourire presque nul'
+    if t<34/24:return 'active le retardateur'
+    if t<82/24:return 'certain d’être magnifique'
+    if t<CONTACT_TIME:return 'deux mitaines vers les joues'
+    if t<4.15:return 'petit lift des joues'
+    if t<4.8:return 'approuve sa retouche'
+    if t<FLASH:return 'encore une dernière traction'
+    if t<8.8:return 'satisfait de son embellissement'
+    if t<9.7:return 'découvre le résultat sous l’objectif'
+    if t<11.1:return 'mains descendent, prétention défaite'
+    return 'gêne, bouche minuscule'

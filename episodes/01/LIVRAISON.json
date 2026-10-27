@@ -1,7 +1,7 @@
 {
-  "titre": "MOU 01 — Le retardateur",
-  "revision": 3,
-  "duree_secondes": 14,
+  "titre": "MOU 01 — La dernière retouche",
+  "revision": 4,
+  "duree_secondes": 13.0,
   "resolution": [
     1080,
     1920
@@ -9,26 +9,26 @@
   "fps": 24,
   "fichiers": {
     "MOU_01_le_retardateur.mp4": {
-      "bytes": 1247239,
-      "sha256": "ed8891baeb940358d6df086974dcad0dc57aad3e397868e4739d97b872c1e6e6"
+      "bytes": 763096,
+      "sha256": "304b2992cbea68c92d19aa360f5cfc9611ef5179341c3f437d2dd74b0e37cf82"
     },
     "MOU_01_le_retardateur_muet.mp4": {
-      "bytes": 1193428,
-      "sha256": "de1358bfce246257b3b20dd8f0cdb84f7779483544cfc49232d416211dae366d"
+      "bytes": 726554,
+      "sha256": "95edc2ff1d363aeacfcd848b628f678f53e91c08f6ed42a1533b2c39fc988aaa"
     }
   },
   "sources": "MOU_01_sources.zip",
   "bilan": "CONTROLE.txt",
   "archive_sources": {
-    "bytes": 8324249,
-    "sha256": "a9ccb51ca41dda6a432c48bee2324e2786f9575742cc8a1aa83c3e3ad73b5230",
-    "fichiers": 82
+    "bytes": 10557259,
+    "sha256": "f814ca6a0e8dc9fc598c20db0126c49c42cd0521c4ebe4f2f33fb4b5044a2973",
+    "fichiers": 108
   },
   "apercu_github": {
     "fichier": "MOU_01_apercu.gif",
     "muet": true,
     "width": 270,
     "height": 480,
-    "duration_seconds": 14
+    "duration_seconds": 13.0
   }
 }

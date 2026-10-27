@@ -1,0 +1,18 @@
+{
+  "revision": 4,
+  "images_observed_seconds": [
+    0,
+    0.8,
+    1.25
+  ],
+  "press_time_seconds": 1.2,
+  "button_center": [
+    540,
+    1450
+  ],
+  "tip_error_pixels": 0.3594424536601211,
+  "root_beyond_framing": true,
+  "one_continuous_visible_limb": true,
+  "visual_evidence": "contact_bouton_v4.png",
+  "review": "Coordinateur et critique :3images, puis contrôle séparé de la vitesse dans le montage complet."
+}

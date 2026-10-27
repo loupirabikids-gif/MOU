@@ -1,29 +1,36 @@
 {
-  "revision": 3,
-  "frames": 672000,
-  "duration_seconds": 14.0,
+  "revision": 4,
+  "frames": 624000,
+  "duration_seconds": 13.0,
   "peak_dbfs": -6.0,
   "rms_dbfs_left_right": [
-    -38.318,
-    -40.036
+    -41.678,
+    -41.629
   ],
   "dc_mean_left_right": [
-    -1.4350527808779762e-08,
-    -7.674807593936012e-09
+    -1.349326891776843e-07,
+    -1.361553485576923e-07
   ],
   "clipped_samples": 0,
-  "silence_before_flash_6_0_to_6_5": true,
-  "flash_sample": 312000,
-  "vanity_glint_sample": 62400,
-  "breath_start_sample": 277440,
-  "breath_end_sample": 287040,
-  "embarrassment_start_sample": 592800,
-  "embarrassment_end_sample": 609600,
-  "elastic_release_used_in_mix": false,
-  "silent_visual_drop_6_22_to_6_458": true,
-  "event_count": 8,
-  "mix_sha256": "773fc9f4b904d4311524727d78fd1093e64101e5eaca6fcf13840441bd7ef479",
-  "source_sha256": "5dd623c3e7fbe277823880de31219e2b23c4b9b5079e974f2e2da830398cd9ac",
+  "silence_before_flash": {
+    "start_seconds": 6.083333333333333,
+    "end_seconds": 6.416666666666667,
+    "exact_pcm_silence": true
+  },
+  "photo_hold_silent": {
+    "start_seconds": 7.0,
+    "end_seconds": 8.8,
+    "exact_pcm_silence": true
+  },
+  "flash_frame": 154,
+  "flash_sample": 308000,
+  "decoded_click_onset_sample": 308004,
+  "decoded_click_onset_seconds": 6.41675,
+  "timer_wavs_identical": true,
+  "timer_interval_samples": 48000,
+  "event_count": 7,
+  "mix_sha256": "06be52b56a3c0f06b432eaad26e3efed19907d3eb831f969f2bc4611c223a366",
+  "source_sha256": "88c9787a659f2e019addfbf80ac2c9ddebefc3c7d04da77eee44920a577342ab",
   "reproduction": "Depuis la racine MOU : .venv/bin/python episodes/01/sources/son.py",
-  "limite": "Contrôle numérique et intention de mixage ; aucun test d’écoute sur appareil mobile réel."
+  "limite": "Contrôles numériques PCM et synchronisation ; sans écoute sur appareil mobile ni test public."
 }

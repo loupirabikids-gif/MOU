@@ -1,11 +1,10 @@
-"""Sons originaux de MOU 01 — synthèse locale, sans banque ni enregistrement tiers.
+"""MOU 01 — La dernière retouche : sept événements originaux, sans voix.
 
-Reproduire depuis n'importe quel dossier :
-    /workspace/MOU/.venv/bin/python /workspace/MOU/episodes/01/sources/son.py
-
-La chronologie de référence est ../chronologie.json. Les instants exprimés
-ci-dessous sont convertis en indices entiers à 48 kHz ; aucune opération
-n'étire les sons. Les accents laissent de vrais silences au montage.
+Synthèse locale Python/NumPy, 48 kHz stéréo PCM16. Les trois bips sont
+identiques ; les frottements n'annoncent jamais le ratage. La dernière
+traction continue visuellement dans un tiers de seconde de vrai silence.
+Les durées indiquées comme 83/167/208 ms sont arrondies : les sources utilisent
+respectivement 2/4/5 images à 24 i/s et donc un nombre entier d'échantillons.
 """
 from __future__ import annotations
 
@@ -22,12 +21,12 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'sons'
 SR = 48000
-DURATION = 14.0
-SEED = 2710202601
+SEEDS = {'retouche_legere': 4101, 'retouche_finale': 4102,
+         'mains_baissent': 4103, 'obturateur': 4104}
 
 
 def raised_envelope(n: int, attack: float, release: float) -> np.ndarray:
-    """Raccords doux au silence, sans clic numérique aux limites."""
+    """Raccords progressifs au silence, sans clic numérique aux limites."""
     env = np.ones(n, dtype=np.float64)
     a = min(n, max(2, round(attack * SR)))
     r = min(n, max(2, round(release * SR)))
@@ -36,109 +35,54 @@ def raised_envelope(n: int, attack: float, release: float) -> np.ndarray:
     return env
 
 
-def band_noise(n: int, low: float, high: float, rng: np.random.Generator) -> np.ndarray:
-    """Bruit filtré par une fenêtre spectrale douce ; pas de dépendance SciPy."""
-    data = rng.standard_normal(n)
+def band_noise(n: int, low: float, high: float, seed: int) -> np.ndarray:
+    """Bruit à fenêtre spectrale douce, sans dépendance SciPy."""
+    data = np.random.default_rng(seed).standard_normal(n)
     freqs = np.fft.rfftfreq(n, 1 / SR)
     mask = (1 - np.exp(-(freqs / low) ** 4)) * np.exp(-(freqs / high) ** 4)
     filtered = np.fft.irfft(np.fft.rfft(data) * mask, n)
-    rms = np.sqrt(np.mean(filtered ** 2))
-    return filtered / max(rms, 1e-12)
+    return filtered / max(float(np.sqrt(np.mean(filtered ** 2))), 1e-12)
 
 
-def oscillator(freq: np.ndarray) -> np.ndarray:
-    return np.sin(math.tau * np.cumsum(freq) / SR)
-
-
-def timer(freq: float, length: float) -> np.ndarray:
+def timer(length: float) -> np.ndarray:
     n = round(length * SR)
     t = np.arange(n) / SR
-    # Deux harmoniques retenues : timbre doux de petit appareil, pas une alarme.
-    tone = np.sin(math.tau * freq * t) + .11 * np.sin(math.tau * 2 * freq * t)
-    decay = np.exp(-2.6 * t / length)
-    return tone * decay * raised_envelope(n, .004, .018)
+    tone = np.sin(math.tau * 880 * t) + .12 * np.sin(math.tau * 1760 * t)
+    return tone * np.exp(-2.3 * t / length) * raised_envelope(n, .004, .015)
 
 
-def breath(rng: np.random.Generator) -> np.ndarray:
-    length = .20
+def rubbing(length: float, seed: int, low: float, high: float) -> np.ndarray:
     n = round(length * SR)
-    t = np.arange(n) / SR
-    # Souffle non vocal : frottement d'air large et doux, sans syllabe.
-    air = band_noise(n, 180, 2100, rng)
-    envelope = np.sin(math.pi * t / length) ** 1.6
-    return air * envelope * raised_envelope(n, .016, .05)
+    # Frottement souple, non vocal et sans glissando de défaite.
+    env = np.sin(np.linspace(0, math.pi, n)) ** 2
+    return band_noise(n, low, high, seed) * env
 
 
-def vanity_glint() -> np.ndarray:
-    """Éclat de satisfaction, court et léger : deux tintements sans mélodie."""
-    length = .20
-    n = round(length * SR)
+def shutter() -> np.ndarray:
+    """Clic de 80 ms : transitoire 8 ms, contacts mécaniques +24/+48 ms."""
+    n = round(.080 * SR)
     result = np.zeros(n)
-    for start, freq, gain in [(0.0, 1480, 1.0), (.048, 2210, .65)]:
-        j = round(start * SR)
-        u = np.arange(n-j) / SR
-        bell = np.sin(math.tau * freq * u)
-        bell += .20 * np.sin(math.tau * freq * 2.73 * u)
-        bell *= np.exp(-u / .033) * raised_envelope(len(u), .0025, .025)
-        result[j:] += gain * bell
-    return result * raised_envelope(n, .0025, .025)
-
-
-def elastic_release() -> np.ndarray:
-    """Détente corporelle descendante : souple, non vocale, sans gros impact."""
-    length = .47
-    n = round(length * SR)
-    t = np.arange(n) / SR
-    # La chute initiale de hauteur suit l'abandon de la pose ; la petite
-    # oscillation finale accompagne le tassement du même corps articulé.
-    freq = 66 + 245 * np.exp(-t / .115)
-    freq += 12 * np.sin(math.tau * 7 * t) * np.exp(-t / .24)
-    tone = oscillator(freq) + .22 * oscillator(freq * 2)
-    return tone * np.exp(-2.5 * t / length) * raised_envelope(n, .012, .09)
-
-
-def shutter(rng: np.random.Generator) -> np.ndarray:
-    n = round(.155 * SR)
-    t = np.arange(n) / SR
-    result = np.zeros(n)
-    # Double contact très court : un clic principal, puis la fermeture feutrée.
-    for offset, gain in [(0.0, 1.0), (.037, .52)]:
+    rng = np.random.default_rng(SEEDS['obturateur'])
+    for offset, length, gain, resonance in [(0., .008, 1., 1900),
+                                          (.024, .014, .48, 1150),
+                                          (.048, .018, .27, 740)]:
         j = round(offset * SR)
-        m = n - j
-        u = np.arange(m) / SR
-        noise = band_noise(m, 650, 7000, rng)
-        snap = .68 * noise * np.exp(-u / .0055)
-        snap += .32 * oscillator(1700 * np.exp(-u / .009) + 270) * np.exp(-u / .011)
-        snap *= raised_envelope(m, .00035, .008)
-        result[j:] += snap * gain
-    # Pas de réverbération longue : la lecture de la photo reste au calme.
-    return result * raised_envelope(n, .00035, .015)
-
-
-def embarrassment() -> np.ndarray:
-    length = .35
-    n = round(length * SR)
-    t = np.arange(n) / SR
-    # Petite ponctuation descendante, feutrée ; aucune imitation de parole.
-    freq = 230 - 110 * (t / length) + 7 * np.sin(math.tau * 6 * t)
-    tone = oscillator(freq) + .08 * oscillator(freq * 2.01)
-    return tone * np.exp(-3.0 * t / length) * raised_envelope(n, .018, .10)
-
-
-def fabric(rng: np.random.Generator) -> np.ndarray:
-    n = round(.12 * SR)
-    t = np.arange(n) / SR
-    return band_noise(n, 260, 1600, rng) * np.sin(math.pi * t / .12) ** 2
+        m = round(length * SR)
+        t = np.arange(m) / SR
+        # Each component has its own deterministic seed drawn from seed4104.
+        noise = band_noise(m, 650, 7200, int(rng.integers(0, 2**31)))
+        pulse = .78 * noise + .22 * np.sin(math.tau * resonance * t)
+        pulse *= np.exp(-4.5 * t / length) * raised_envelope(m, .0003, .002)
+        result[j:j+m] += gain * pulse
+    return result
 
 
 def stereo(mono: np.ndarray, pan: float, peak_dbfs: float) -> np.ndarray:
-    # Centrage continu, panoramique modéré : portable en écoute mono.
     weights = np.sqrt([(1 - pan) / 2, (1 + pan) / 2])
     signal = mono[:, None] * weights[None, :]
     signal -= signal.mean(axis=0, keepdims=True)
-    # Conserver un raccord nul aux limites après suppression du faible DC.
     signal *= raised_envelope(len(mono), .0002, .001)[:, None]
-    signal *= 10 ** (peak_dbfs / 20) / max(np.max(np.abs(signal)), 1e-12)
+    signal *= 10 ** (peak_dbfs / 20) / max(float(np.max(np.abs(signal))), 1e-12)
     return signal
 
 
@@ -146,8 +90,6 @@ def write_wave(path: Path, data: np.ndarray) -> None:
     assert data.ndim == 2 and data.shape[1] == 2
     assert np.isfinite(data).all() and np.max(np.abs(data)) < 1
     pcm = np.round(data * 32767).astype('<i2')
-    # Une lecture par le monteur voit soit l'ancien WAV entier, soit le
-    # nouveau, jamais une sortie partiellement écrite.
     fd, temp_name = tempfile.mkstemp(prefix=path.name + '.', suffix='.tmp', dir=path.parent)
     os.close(fd)
     try:
@@ -177,54 +119,68 @@ def db(value: float) -> float | None:
     return round(20 * math.log10(value), 3) if value > 0 else None
 
 
+def read_pcm(path: Path) -> np.ndarray:
+    with wave.open(str(path), 'rb') as f:
+        assert (f.getnchannels(), f.getsampwidth(), f.getframerate()) == (2, 2, SR)
+        return np.frombuffer(f.readframes(f.getnframes()), dtype='<i2').reshape(-1, 2)
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    timeline = json.loads((ROOT / 'chronologie.json').read_text(encoding='utf-8'))
-    assert timeline['duree_secondes'] == DURATION
-    assert timeline['flash_time'] == 6.5
-    assert timeline['revision'] == 3
-    rng = np.random.default_rng(SEED)
-    # name, start, mono data, pan, peak dBFS, fabrication parameters
-    events = [
-        ('pose_froissement', .72, fabric(rng), .25, -29,
-         {'type': 'bruit_filtre', 'band_hz': [260, 1600], 'duration': .12}),
-        ('vanite_eclat', 1.30, vanity_glint(), .25, -19,
-         {'type': 'double_tintement_bref', 'fundamentals_hz': [1480, 2210],
-          'second_tintement_seconds': .048, 'duration': .20}),
-        ('timer_3', 2.0, timer(620, .13), -.35, -15,
-         {'type': 'sinus_harmonique', 'fundamental_hz': 620, 'duration': .13}),
-        ('timer_2', 3.1, timer(740, .115), -.35, -14.5,
-         {'type': 'sinus_harmonique', 'fundamental_hz': 740, 'duration': .115}),
-        ('timer_1', 4.2, timer(880, .15), -.35, -14,
-         {'type': 'sinus_harmonique', 'fundamental_hz': 880, 'duration': .15}),
-        ('souffle', 5.78, breath(rng), .25, -21,
-         {'type': 'souffle_non_vocal', 'band_hz': [180, 2100], 'duration': .20,
-          'intention': 'relâchement bref ; la chute suivante reste silencieuse'}),
-        ('obturateur', 6.5, shutter(rng), -.35, -6,
-         {'type': 'double_clic', 'second_contact_seconds': .037, 'duration': .155}),
-        ('gene', 12.35, embarrassment(), .20, -19,
-         {'type': 'accent_elastique_descendant', 'frequency_hz': [230, 120], 'duration': .35,
-          'intention': 'ponctuer la rupture du sourire après sa tentative de bonne figure'}),
+    timeline_path = ROOT / 'chronologie.json'
+    timeline = json.loads(timeline_path.read_text(encoding='utf-8'))
+    duration = float(timeline['duree_secondes'])
+    fps = int(timeline['fps'])
+    flash = float(timeline['flash_time'])
+    assert round(flash * fps) == timeline['flash_frame']
+    assert SR % fps == 0
+    countdown = {e['number']: float(e['time']) for e in timeline['countdown']}
+    silence = timeline['audio_silence_before_flash']
+    silence_start = float(silence['start'])
+    photo_start, photo_end = [float(timeline['photo_hold'][k]) for k in ('start', 'end')]
+    # Onsets for timer3/2/1 come from the common timeline. Mechanical effects
+    # use agreed frame coordinates so they remain exact at sample precision.
+    beep = timer(2 / fps)
+    events = []
+    for number in (3, 2, 1):
+        events.append((f'timer_{number}', countdown[number], beep.copy(), 0., -16.,
+                       {'type': 'sinus_harmonique', 'frequency_hz': 880,
+                        'harmonic_hz': 1760, 'harmonic_relative_gain': .12,
+                        'duration_seconds': len(beep) / SR}))
+    events += [
+        ('retouche_legere', 86 / fps,
+         rubbing(5 / fps, SEEDS['retouche_legere'], 230, 1700), .10, -27.,
+         {'type': 'bruit_filtre_en_cloche', 'band_hz': [230, 1700],
+          'duration_seconds': 5 / fps, 'seed': SEEDS['retouche_legere']}),
+        ('retouche_finale', 142 / fps,
+         rubbing(4 / fps, SEEDS['retouche_finale'], 230, 1800), .10, -24.,
+         {'type': 'bruit_filtre_en_cloche', 'band_hz': [230, 1800],
+          'duration_seconds': 4 / fps, 'seed': SEEDS['retouche_finale']}),
+        ('obturateur', flash, shutter(), 0., -6.,
+         {'type': 'transitoire_et_deux_contacts_mecaniques',
+          'main_transient_seconds': .008, 'secondary_offsets_seconds': [.024, .048],
+          'duration_seconds': .08, 'seed': SEEDS['obturateur']}),
+        ('mains_baissent', 236 / fps,
+         rubbing(4 / fps, SEEDS['mains_baissent'], 220, 1400), .10, -29.,
+         {'type': 'froissement_discret', 'band_hz': [220, 1400],
+          'duration_seconds': 4 / fps, 'seed': SEEDS['mains_baissent']}),
     ]
-    mix = np.zeros((round(DURATION * SR), 2), dtype=np.float64)
+    events.sort(key=lambda e: e[1])
+    mix = np.zeros((round(duration * SR), 2), dtype=np.float64)
     manifest = {
-        'episode': 'MOU 01 — Le retardateur',
-        'revision': 3,
-        'revision_note': 'Souffle raccourci à 5,78–5,98 s ; détente élastique retirée du mix ; chute 6,22–6,458 s silencieuse ; accent de gêne reporté à 12,35–12,70 s. Vanité à 1,30 s, trois bips et clic à 6,50 s conservés.',
-        'provenance': 'Tous les effets sont des créations procédurales originales synthétisées localement par sources/son.py. Aucun échantillon, enregistrement, service ni banque externe.',
+        'episode': 'MOU 01 — ' + timeline['titre'], 'revision': timeline['revision'],
+        'revision_note': 'Sept événements : trois bips identiques, deux frottements de retouche, un déclencheur et un froissement de mains. Aucun son de ratage ni accent de honte.',
+        'provenance': 'Créations procédurales originales synthétisées localement par sources/son.py ; aucun échantillon, enregistrement, service ni banque externe.',
         'outils': ['Python (PSF)', 'NumPy (BSD-3-Clause)', 'wave (bibliothèque standard Python)'],
         'voice': False, 'continuous_music': False,
         'sample_rate': SR, 'channels': 2, 'bit_depth': 16,
-        'duration_seconds': DURATION, 'random_seed': SEED,
-        'synchronisation': 'Instants exacts de chronologie.json ; conversion en indices entiers 48 kHz. Le flash est image 156 à 24 i/s, échantillon 312000.',
-        'events': [],
-        'unused_bank': [{
-            'file': 'detente_elastique.wav', 'used_in_mix': False,
-            'type': 'glissando_elastique_descendant_non_vocal',
-            'frequency_hz': [311, 70], 'duration': .47,
-            'pan': .25, 'peak_dbfs': -16.5,
-            'reason': 'Version 2 archivée en banque uniquement : retirée du mix v3 pour ne pas annoncer la chute avant le flash.'
-        }],
+        'duration_seconds': duration, 'random_seeds': SEEDS,
+        'chronologie_sha256': hashlib.sha256(timeline_path.read_bytes()).hexdigest(),
+        'synchronisation': {'fps': fps, 'flash_frame': timeline['flash_frame'],
+                            'flash_sample': round(flash * SR),
+                            'durations': '83/167/208 ms arrondis ; 2/4/5 images exactes à 24 i/s'},
+        'events': [], 'unused_bank': [],
+        'limite': 'Contrôle numérique uniquement ; aucune écoute humaine sur appareil mobile n’est revendiquée.',
     }
     for name, start, mono, pan, peak_dbfs, parameters in events:
         signal = stereo(mono, pan, peak_dbfs)
@@ -235,45 +191,54 @@ def main() -> None:
         write_wave(OUT / (name + '.wav'), signal)
         manifest['events'].append({
             'name': name, 'file': name + '.wav', 'start_seconds': start,
-            'start_sample': j, 'end_seconds': stop / SR,
+            'start_sample': j, 'end_seconds': stop / SR, 'samples': len(signal),
             'pan': pan, 'peak_dbfs': db(float(np.max(np.abs(signal)))),
             'parameters': parameters,
         })
-    peak = float(np.max(np.abs(mix)))
-    rms = np.sqrt(np.mean(mix ** 2, axis=0))
-    assert 10 ** (-7 / 20) <= peak <= 10 ** (-4 / 20)
-    assert not mix[round(6.0 * SR):round(6.5 * SR)].any()
+    # Historical WAVs remain in the repository as a bank, never in this mix.
+    active = {name + '.wav' for name, *_ in events} | {'mix.wav'}
+    for p in sorted(OUT.glob('*.wav')):
+        if p.name not in active:
+            manifest['unused_bank'].append({
+                'file': p.name, 'used_in_mix': False,
+                'reason': 'Banque historique V1–V3 conservée, non régénérée ni utilisée par le mix V4.',
+                'sha256': hashlib.sha256(p.read_bytes()).hexdigest()})
+    assert len(events) == 7
     assert np.isfinite(mix).all()
-    # Cet effet conservé est une banque de travail ; il n'est jamais additionné
-    # à mix et le manifeste le distingue des événements réellement entendus.
-    write_wave(OUT / 'detente_elastique.wav', stereo(elastic_release(), .25, -16.5))
+    assert not mix[round(silence_start * SR):round(flash * SR)].any()
+    assert not mix[round(photo_start * SR):round(photo_end * SR)].any()
+    assert 10 ** (-7 / 20) <= float(np.max(np.abs(mix))) <= 10 ** (-5 / 20)
     write_wave(OUT / 'mix.wav', mix)
-    # Audit relu sur le WAV réellement livré, incluant la quantification PCM.
-    with wave.open(str(OUT / 'mix.wav'), 'rb') as f:
-        assert (f.getnchannels(), f.getsampwidth(), f.getframerate(), f.getnframes()) == (2, 2, SR, round(SR * DURATION))
-        pcm = np.frombuffer(f.readframes(f.getnframes()), dtype='<i2').reshape(-1, 2)
+    pcm = read_pcm(OUT / 'mix.wav')
+    assert len(pcm) == round(duration * SR)
     decoded = pcm.astype(np.float64) / 32768
+    timers = [read_pcm(OUT / f'timer_{n}.wav') for n in (3, 2, 1)]
+    assert all(np.array_equal(timers[0], t) for t in timers[1:])
+    assert all(round(countdown[n] * SR) - round(countdown[n+1] * SR) == SR for n in (2, 1))
+    click_sample = round(flash * SR)
+    click_window = np.abs(decoded[click_sample:click_sample+round(.02 * SR)]).max(axis=1)
+    onset_sample = click_sample + int(np.argmax(click_window > .005))
+    assert abs(onset_sample - click_sample) < round(.002 * SR)
     audit = {
-        'revision': 3,
-        'frames': len(decoded), 'duration_seconds': len(decoded) / SR,
+        'revision': timeline['revision'], 'frames': len(decoded),
+        'duration_seconds': len(decoded) / SR,
         'peak_dbfs': db(float(np.max(np.abs(decoded)))),
         'rms_dbfs_left_right': [db(float(v)) for v in np.sqrt(np.mean(decoded ** 2, axis=0))],
         'dc_mean_left_right': decoded.mean(axis=0).tolist(),
         'clipped_samples': int(np.count_nonzero(np.abs(pcm.astype(np.int32)) >= 32767)),
-        'silence_before_flash_6_0_to_6_5': not bool(pcm[round(6.0 * SR):round(6.5 * SR)].any()),
-        'flash_sample': round(6.5 * SR),
-        'vanity_glint_sample': round(1.30 * SR),
-        'breath_start_sample': round(5.78 * SR),
-        'breath_end_sample': round(5.98 * SR),
-        'embarrassment_start_sample': round(12.35 * SR),
-        'embarrassment_end_sample': round(12.70 * SR),
-        'elastic_release_used_in_mix': False,
-        'silent_visual_drop_6_22_to_6_458': not bool(pcm[round(6.22 * SR):round(6.458 * SR)].any()),
+        'silence_before_flash': {'start_seconds': silence_start, 'end_seconds': flash,
+                                'exact_pcm_silence': not bool(pcm[round(silence_start * SR):click_sample].any())},
+        'photo_hold_silent': {'start_seconds': photo_start, 'end_seconds': photo_end,
+                             'exact_pcm_silence': not bool(pcm[round(photo_start * SR):round(photo_end * SR)].any())},
+        'flash_frame': timeline['flash_frame'], 'flash_sample': click_sample,
+        'decoded_click_onset_sample': onset_sample,
+        'decoded_click_onset_seconds': onset_sample / SR,
+        'timer_wavs_identical': True, 'timer_interval_samples': SR,
         'event_count': len(events),
         'mix_sha256': hashlib.sha256((OUT / 'mix.wav').read_bytes()).hexdigest(),
         'source_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'reproduction': 'Depuis la racine MOU : .venv/bin/python episodes/01/sources/son.py',
-        'limite': 'Contrôle numérique et intention de mixage ; aucun test d’écoute sur appareil mobile réel.',
+        'limite': 'Contrôles numériques PCM et synchronisation ; sans écoute sur appareil mobile ni test public.',
     }
     assert audit['clipped_samples'] == 0
     write_json(OUT / 'provenance_et_parametres.json', manifest)

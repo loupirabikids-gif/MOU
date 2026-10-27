@@ -1,0 +1,48 @@
+{
+  "scope": "Controle visuel cible du MP4 final1080x1920, quatre instants reextraits du fichier reel, sans reevaluation complete ni ecoute",
+  "file": "MOU_01_le_retardateur.mp4",
+  "sha256": "304b2992cbea68c92d19aa360f5cfc9611ef5179341c3f437d2dd74b0e37cf82",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "samples": [
+    {
+      "time_seconds": 2.8,
+      "lime_character_bounds_pixels": [
+        71,
+        570,
+        1011,
+        1439
+      ]
+    },
+    {
+      "time_seconds": 6.375,
+      "lime_character_bounds_pixels": [
+        40,
+        570,
+        1045,
+        1439
+      ]
+    },
+    {
+      "time_seconds": 7.8,
+      "lime_character_bounds_pixels": [
+        180,
+        456,
+        898,
+        1071
+      ]
+    },
+    {
+      "time_seconds": 12.5,
+      "lime_character_bounds_pixels": [
+        196,
+        570,
+        901,
+        1439
+      ]
+    }
+  ],
+  "lime_character_does_not_touch_frame_edges": true
+}

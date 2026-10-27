@@ -1,0 +1,29 @@
+{
+  "revision": 3,
+  "frames": 672000,
+  "duration_seconds": 14.0,
+  "peak_dbfs": -6.0,
+  "rms_dbfs_left_right": [
+    -38.318,
+    -40.036
+  ],
+  "dc_mean_left_right": [
+    -1.4350527808779762e-08,
+    -7.674807593936012e-09
+  ],
+  "clipped_samples": 0,
+  "silence_before_flash_6_0_to_6_5": true,
+  "flash_sample": 312000,
+  "vanity_glint_sample": 62400,
+  "breath_start_sample": 277440,
+  "breath_end_sample": 287040,
+  "embarrassment_start_sample": 592800,
+  "embarrassment_end_sample": 609600,
+  "elastic_release_used_in_mix": false,
+  "silent_visual_drop_6_22_to_6_458": true,
+  "event_count": 8,
+  "mix_sha256": "773fc9f4b904d4311524727d78fd1093e64101e5eaca6fcf13840441bd7ef479",
+  "source_sha256": "5dd623c3e7fbe277823880de31219e2b23c4b9b5079e974f2e2da830398cd9ac",
+  "reproduction": "Depuis la racine MOU : .venv/bin/python episodes/01/sources/son.py",
+  "limite": "Contrôle numérique et intention de mixage ; aucun test d’écoute sur appareil mobile réel."
+}

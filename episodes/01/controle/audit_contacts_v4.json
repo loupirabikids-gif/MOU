@@ -1,0 +1,27 @@
+{
+  "revision": 4,
+  "duration": 13,
+  "fps": 24,
+  "frames": 312,
+  "flash_frame": 154,
+  "two_hands_all_frames": true,
+  "unique_ids_all_frames": true,
+  "resolved_clip_references_all_frames": true,
+  "feet_pixel_geometry_identical_all_frames": true,
+  "skin_not_deformed_before_contact": true,
+  "contact_first_frame": 86,
+  "max_contact_gap": 0.0,
+  "last_pull_moving_at_frame154": true,
+  "satisfaction_until_photo_end": true,
+  "capture_hand_targets": {
+    "left": [
+      89.0,
+      341.0
+    ],
+    "right": [
+      317.0,
+      275.0
+    ]
+  },
+  "original_rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
+}

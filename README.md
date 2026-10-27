@@ -1,47 +1,49 @@
 # MOU
 
-Le premier épisode **« Le retardateur »**, révision 3, est terminé : 14 secondes, format
-vertical **1080 × 1920**, avec des effets sonores originaux et sans dialogue.
+Le pilote réécrit **« La dernière retouche »**, révision4 : **13 secondes**, vertical
+**1080 × 1920**, avec des sons originaux et sans dialogue.
 
-## Voir le premier épisode
+## Voir l’épisode
 
-L'aperçu ci-dessous est animé et muet. Pour entendre les effets, télécharger
-le MP4 puis l'ouvrir sur un téléphone ou un ordinateur.
+L’aperçu est animé et muet. Pour entendre les effets, télécharger le MP4.
 
-[![Aperçu animé de MOU — Le retardateur](episodes/01/MOU_01_apercu.gif)](episodes/01/MOU_01_le_retardateur.mp4?raw=true)
+[![MOU — La dernière retouche](episodes/01/MOU_01_apercu.gif)](episodes/01/MOU_01_le_retardateur.mp4?raw=true)
 
-- **[Télécharger le MP4 avec son](episodes/01/MOU_01_le_retardateur.mp4?raw=true)**
-- [Télécharger la version muette](episodes/01/MOU_01_le_retardateur_muet.mp4?raw=true)
-- [Télécharger les sources et les sons — ZIP](episodes/01/MOU_01_sources.zip?raw=true)
-- [Lire le bilan des contrôles](episodes/01/CONTROLE.txt)
-- [Chronologie](episodes/01/chronologie.json) · [Instructions de reproduction](episodes/01/sources/README.md)
+- **[MP4 avec son — télécharger](episodes/01/MOU_01_le_retardateur.mp4?raw=true)**
+- [Version muette](episodes/01/MOU_01_le_retardateur_muet.mp4?raw=true)
+- [Sources, sons et références — ZIP](episodes/01/MOU_01_sources.zip?raw=true)
+- [Bilan des contrôles](episodes/01/CONTROLE.txt)
+- [Chronologie](episodes/01/chronologie.json) · [Reproduction](episodes/01/sources/README.md)
 
-Dans cette révision, MOU se trouve toujours irrésistible, mais le flash saisit
-le premier arrêt de son affaissement, sans longue grimace annoncée. Devant le
-résultat, il essaie de refaire bonne figure, puis un regard vers la photo casse
-sa façade. La fin reste gênée, sans dialogue.
+MOU se trouve déjà magnifique. Il soulève ses joues pour embellir son sourire,
+puis tire une fois de trop : le flash le capture en pleine retouche. La photo
+lui révèle le résultat. Il baisse les mains, gêné. Son désir provoque l’accident.
 
-## Une petite équipe de création
+Le personnage et le rig fournis sont conservés ; seuls le jeu, les gestes et
+la mise en scène du pilote sont réécrits. Python, SVG, CairoSVG, Pillow, NumPy
+et FFmpeg restent les seuls outils de production, tous gratuits et open source.
 
-Les règles durables et les cinq rôles sont dans [AGENTS.md](AGENTS.md).
-Les [profils Codex](.codex/config.toml), [preuves de compatibilité](equipe/compatibilite_agents.md)
-et [guide de coordination](equipe/README.md) sont enregistrés dans le projet.
+## Équipe et dossier de création
 
-- [Veille datée et blocage d'accès actuel](editorial/veille_2026-10-27.md)
-- [Cinq pistes distinctes pour la suite](episodes/01/developpement/cinq_pistes.md)
-- [Scénario retenu](episodes/01/developpement/scenario_retenu.md) et [découpage V3](episodes/01/developpement/decoupage_v3.md)
-- [Critique avant fabrication](episodes/01/developpement/critique_scenario_v3.md) et [critique du vrai montage](episodes/01/controle/critique_v3.md)
-- [Journal des corrections](episodes/01/developpement/journal_corrections.md) et [suivi après diffusion](publication/README.md)
+Règles durables : [AGENTS.md](AGENTS.md). [Profils Codex](.codex/config.toml),
+[compatibilité](equipe/compatibilite_agents.md) et [coordination](equipe/README.md).
+Les délégations de la session appliquent ces rôles ; la présence des fichiers
+ne prouve pas leur chargement natif dans tous les clients.
 
-La veille récente reste incomplète : YouTube est refusé par le réseau actuel.
-Aucun compteur ni visionnage externe n'est inventé. Cette révision du pilote
-s'appuie sur les retours de l'utilisatrice et sa critique interne indépendante.
+- [Scénario courant](episodes/01/developpement/scenario_retenu.md) · [Découpage V4](episodes/01/developpement/decoupage_v4.md)
+- [Critique avant fabrication](episodes/01/developpement/critique_scenario_v4.md) · [Critique du montage réel](episodes/01/controle/critique_v4.md)
+- [Corrections et décisions](episodes/01/developpement/journal_corrections.md)
+- [Cinq pistes pour la suite](episodes/01/developpement/cinq_pistes.md)
+- [Veille datée et limites d’accès](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
 
-Le rig MOU fourni est conservé. Fabrication locale avec Python, SVG, CairoSVG,
-Pillow, NumPy et FFmpeg, tous gratuits et open source. Les raccords, les regards,
-la photo figée, la synchronisation et les exports ont été contrôlés. Les deux
-défauts repérés au premier montage (paupières et recadrage) sont corrigés.
-Le contrôle audio est numérique, sans écoute sur téléphone réel ni test public.
+La V3 avait été jugée confuse par l’utilisatrice. La V4 remplace le faux départ
+par une retouche excessive, un compte régulier et une seule réaction finale.
+Les critiques et découpages précédents restent conservés dans le dossier.
+
+La veille externe reste incomplète : YouTube n’est pas autorisé par le réseau
+courant. Aucun compteur ni visionnage n’est inventé. Cette correction du pilote
+se fonde sur les retours et la critique interne. L’audio est contrôlé numériquement,
+sans écoute sur téléphone réel ni test public. Aucun résultat d’audience n’est fourni.
 
 ## Base du projet
 

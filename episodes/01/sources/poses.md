@@ -1,67 +1,83 @@
-# Jeu de MOU — Le retardateur, révision 3
+# Jeu V4 — La dernière retouche
 
-Source commune : `../../../mou_rig.py` et `../../../references/MOU_reference.png`.
-Révision locale du pilote après critique du découpage ; les profils d'équipe
-ont été lus comme consignes de rôle, sans prétendre à leur activation native.
-Le rig original reste intact. `character_at()` porte les déformations et la
-bouche ; le plan, le viseur et la photo emploient tous cette fonction.
+Référence : `../../../mou_rig.py` et `../../../references/MOU_reference.png`.
+Le rig de base reste intact. Révision du pilote selon `chronologie.json` V4,
+13 secondes à 24 i/s. Flash à l'image154 : 154/24 = 6,4166666667 s.
 
-## Intention et chronologie verrouillée
+## Intention et chronologie
 
-- 0–4,20 s : auto-admiration V2 conservée : regard aperçu, moue, menton haut,
-  sourire en coin et seul clin d'œil à 1,58–1,66 s ; hanches fières.
-- 4,20–5,75 s : le sourire se crispe progressivement, les yeux s'ouvrent
-  davantage ; il lutte pour garder son beau visage. Aucun mouvement ajouté
-  sur les signaux, pas de grotesque complet à ce stade.
-- 5,75–6,00 s : souffle et détente initiale des mains, visage encore modéré.
-- 6,00–149/24 s (6,208333 s) : courte anticipation verticale. Les bras
-  descendent, sans grande bouche tordue ni aplatissement déjà offert au public.
-- Images 149–155 : UNE chute accélérée quadratique, sans rebond. Le premier
-  extrême est atteint exactement à l'image155 (6,458333 s) : corps à 68 %
-  de hauteur et 112 % de largeur, bouche molle oblique, langue pendante,
-  paupières dépareillées. L'ancien dépassement à 65 % est supprimé, car un
-  retour à 68 % avant le clic créerait le rebond expressément rejeté.
-- Image156 (6,50 s) : même pose et même déformation que155, sans différence
-  numérique ; photo figée via cette même source.
-- 6,50–6,625 s : redressement surpris sous le flash, puis découverte du clic.
-- 9,50–10,40 s : MOU regarde la photo, déçu. Regard bas-gauche et bouche
-  descendante, plutôt qu'une réaction immédiatement souriante.
-- 10,40–11,40 s : il croise notre regard et tente de sauver les apparences :
-  menton relevé, sourcil conquérant et vrai sourire de frime qui revient.
-- 11,40–11,90 s : brève façade ; les mains commencent à rejoindre le ventre.
-- 11,90–12,25 s : regard irrépressible vers la photo, qui défait sa prétention.
-- 12,25–12,75 s : le menton retombe et le sourire se casse.
-- 12,75–14,00 s : vraie gêne, mains devant le ventre ; bouche presque plate,
-  coin minuscule, regard bas, aucun sourire en U ni nouveau clin d'œil.
-  Pas d'éclat final, pas de mouvement destiné à remplir la dernière tenue.
+MOU est sûr de sa beauté. Il choisit sa pose, soulève ses joues puis pousse sa
+retouche trop loin. Il reste satisfait jusqu'après l'affichage de la photo.
+La gêne n'arrive qu'en découvrant le résultat, pas avant le clic.
 
-## Déformation, pieds et raccords
+- 0–34/24 s : le tap de mitaine est mis en scène dans `render.py`
+  (`tap_geometry`, appui vers1,20s). `shutter_press` reste un paramètre réservé
+  de la bibliothèque de poses ; ce module ne dessine aucun appareil.
+- 34/24–82/24 s : moue puis sourire de vanité, menton relevé, regard objectif.
+- 82/24–3,55 s : les deux mitaines gagnent leurs cibles de joue.
+- 3,55 s : contact atteint. Le premier frottement à 3,583333 s est synchronisé.
+- 3,583333–4,15 s : petit lift symétrique de 8 unités locales.
+- 4,15–4,80 s : MOU approuve, avec ses deux mains toujours au contact.
+- 4,80–6,15 s : il tire davantage ; la déformation devient asymétrique.
+- 6,15–154/24 s : dernière traction linéaire encore en mouvement au clic.
+  Les images153 et154 diffèrent ; le résultat n'est pas une pose ratée tenue
+  en avance. Aucun air inquiet, langue, stupeur ou grimace volontaire.
+- 154/24–8,80 s : satisfaction conservée ; même pose que la photo capturée.
+- 8,80–9,70 s : les yeux descendent vers l'écran sous l'objectif, le sourire
+  se fige puis l'intention change. Aucune découverte prématurée.
+- 9,70–11,10 s : les mains descendent, la peau revient et le menton rentre.
+- 11,10–13 s : une seule réaction gênée, bouche minuscule et regard bas.
 
-`pose_at(t)` fournit `warp_sx`, `warp_sy`, `warp_skew`, ainsi que les paramètres
-continus de visage et de bras. `deformation_at(p)` renvoie `sx`, `sy`, `skew`,
-`anchor_x=200` et `anchor_y=437`. Limites V3 : sx 0,97–1,12 ; sy 0,68–1,15 ;
-skew −0,07–0,008. `motion_at()` reste à l'identité.
+## API et contact
 
-`character_at()` laisse `foot-l` et `foot-r` hors du groupe `body-warp`.
-Ce groupe transforme ensemble corps, deux bras/mains et visage :
+`pose_at(t)`, `character_at(p, uid)`, `motion_at(t)`, `intention_at(t)` et
+`deformation_at(p)` sont conservés. Le rendu du personnage et de sa photo
+doivent tous deux employer `character_at(pose_at(154/24))` au déclenchement.
+`motion_at` et `deformation_at` renvoient une affine identité : aucun aplatissement
+magique du corps. Les pieds sont ceux du rig, sans levée ni translation.
 
-    x' = 200 + sx * (x - 200) + skew * (y - 437)
-    y' = 437 + sy * (y - 437)
+Les paramètres nouveaux sont `arm_raise`, `cheek_contact`, `cheek_lift`,
+`cheek_stretch`, `cheek_asym`, `chin_up`, `chin_tuck` et `shutter_press`.
+Les positions sont exprimées dans le repère local400×500 du rig.
 
-Aucun glissement de pieds, aucune marche ni prise d'objet. Les ouvertures
-inférieures à 0,30 terminent l'œil en arc franc pour éviter l'ovale vert creux.
-La langue reste découpée par la bouche jusqu'au dernier stade de déformation ;
-elle ne se dévoile pendante qu'à la chute aboutie, sans ellipse transparente
-flottant sur la peau pendant l'anticipation.
+`contact_geometry(p)` renvoie :
 
-## Contrôles exécutés
+- `left` / `right` : `shoulder`, `controls` (quatre points cubiques),
+  `hand_center`, `hand_tip`, `cheek_target`, `contact_gap`, `in_contact`,
+  `mitten_radius` (19).
+- `skin_displacement` : vecteurs `left` et `right` communs aux mitaines,
+  au contour de joue et aux coins de bouche.
 
-336 poses : XML lisible, valeurs finies, exactement deux formes de main,
-identifiants uniques ; pieds frères du groupe affine, bras et visage inclus.
-`pose_at(155/24) == pose_at(6.5)` strictement. Hauteur monotone pendant les
-six intervalles de chute : 1,15 ; 1,13694 ; 1,09778 ; 1,0325 ; 0,94111 ;
-0,82361 ; 0,68. Aucun état complet de capture avant l'image155.
+Les cibles de base sont gauche(134,315), droite(272,315). Déplacements :
 
-Planche examinée : `work/animation_v3/poses_v3.png` (16 instants).
-Elle vérifie les intentions et la forme ; elle ne remplace pas la critique
-du montage complet, ni une écoute ou un test auprès d'un public.
+    dx gauche = -45 × stretch × contact
+    dx droite = +45 × stretch × contact
+    dy gauche = (-8 × lift + 34 × asym) × contact
+    dy droite = (-8 × lift - 32 × asym) × contact
+
+Au clic, les cibles sont donc gauche(89,341), droite(317,275). Le premier
+lift reste symétrique ; seule la dernière retouche devient très excessive.
+La paupière droite se comprime légèrement à l'extrême, avec les deux yeux et
+leur découpe conservés. Les sourcils assurés évitent une lecture de peur.
+
+## Raccords et contrôle avant intégration
+
+Le nouveau contact a d'abord été fabriqué et examiné dans
+`work/retouche_animation/`, avant de remplacer la source de production.
+La première amplitude était trop jolie : la traction a été renforcée après
+revue du coordinateur et du critique. Le ruban à offsets auto-croisés faisait
+apparaître triangles/crochets à droite ; cette géométrie a été corrigée.
+
+La version retenue utilise les mêmes arcs cubiques et largeurs que le rig,
+construits par union visuelle de capsules SVG arrondies : toutes les encres,
+puis toutes les peaux. Les recouvrements n'ajoutent plus de trait de poignet.
+La base est masquée uniquement à l'intérieur du contour du torse, comme une
+attache ouverte, sans bulle de rotule. Un seul groupe porte `data-part=hand`
+par côté. Aucun doigt ni membre supplémentaire.
+
+Planches examinées : `test_contact_ensemble.png`, `test_contact_proche.png`,
+puis `test_contact_raccord_final.png` dans `work/retouche_animation/`.
+Le coordinateur et le critique ont levé la réserve de raccord pour l'animatique.
+La preuve retenue et l’audit312poses sont archivés dans
+`../controle/contact_joues_v4.png` et `../controle/audit_contacts_v4.json`.
+La critique du montage complet est distincte : `../controle/critique_v4.md`.
