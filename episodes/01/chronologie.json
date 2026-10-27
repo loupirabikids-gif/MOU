@@ -1,0 +1,20 @@
+{
+  "episode": "01", "titre": "Le retardateur", "duree_secondes": 14.0,
+  "fps": 24, "width": 1080, "height": 1920,
+  "reference": "../../references/MOU_reference.png", "rig": "../../mou_rig.py",
+  "flash_frame": 156, "flash_time": 6.5,
+  "events": [
+    {"time": 0.0, "end": 1.6, "action": "MOU vise le téléphone, prend sa pose mains aux hanches"},
+    {"time": 2.0, "end": 2.8, "action": "retardateur 3", "sound": "timer_3"},
+    {"time": 3.1, "end": 3.9, "action": "retardateur 2", "sound": "timer_2"},
+    {"time": 4.2, "end": 5.0, "action": "retardateur 1", "sound": "timer_1"},
+    {"time": 5.25, "end": 6.2, "action": "MOU se détend trop tôt, relâche les bras et grimace", "sound": "souffle"},
+    {"time": 6.5, "end": 6.625, "action": "flash et clic ; figer exactement pose_at(6.5)", "sound": "obturateur"},
+    {"time": 6.85, "end": 7.25, "action": "recadrage vers le même téléphone"},
+    {"time": 7.25, "end": 8.85, "action": "photo immobile en gros plan, grimace lisible"},
+    {"time": 8.85, "end": 9.5, "action": "retour au cadre initial"},
+    {"time": 9.5, "end": 11.3, "action": "MOU voit le résultat ; mains devant ventre, regard gêné", "sound": "gene"},
+    {"time": 11.3, "end": 14.0, "action": "regard spectateur, sourire forcé puis bref regard photo ; tenir la réaction"}
+  ],
+  "production": "Python / SVG / CairoSVG / Pillow / NumPy / FFmpeg ; sons originaux locaux, sans voix ni musique continue"
+}

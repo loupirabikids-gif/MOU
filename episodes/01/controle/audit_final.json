@@ -1,0 +1,20 @@
+{
+  "format": "H264/yuv420p + AAC stereo48kHz",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "duration_seconds": 14,
+  "fps": 24,
+  "decoded_frames": 336,
+  "complete_decode_without_errors": true,
+  "mute_contains_no_audio": true,
+  "video_bitstream_identical_between_versions": true,
+  "flash_frame": 156,
+  "capture_matches_pose_immediately_before_flash": true,
+  "decoded_click_onset_seconds": 6.500104,
+  "audio_peak_dbfs": -6.087,
+  "decoded_preflash_peak": 0.0,
+  "photo_screen_mean_delta_7_5_to_8_5": 0.010404,
+  "limits": "Inspection visuelle par échantillons denses et planches ; contrôles audio numériques, sans écoute sur téléphone réel ni test de public."
+}

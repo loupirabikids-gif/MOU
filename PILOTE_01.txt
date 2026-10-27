@@ -1,0 +1,80 @@
+MOU — PILOTE 01 : LE RETARDATEUR
+Proposition de départ choisie pour sa faisabilité, le 27 octobre 2026.
+Le personnage est retenu par l'utilisatrice ; ce scénario n'a pas encore
+fait l'objet d'une validation artistique ni d'un test de rétention.
+
+PROMESSE DU GAG
+MOU veut réussir sa photo. Il maintient sa meilleure pose, se relâche
+juste trop tôt et le flash capture sa grimace au lieu de son beau sourire.
+
+CADRE
+Vertical 9:16, fond lavande simple, MOU et un téléphone fixe posé sur
+un petit support intégré au même accessoire. Pas d'autre personnage.
+Le téléphone et son compte à rebours sont reconnaissables dès l'ouverture.
+MOU reste principalement de face et sur place.
+
+DURÉE DE TRAVAIL
+13 à 15 secondes, à ajuster selon la lisibilité du gag. Ce choix est
+une hypothèse de production, pas une durée gagnante démontrée.
+
+DÉCOUPAGE
+
+0–2 s — La pose
+Le téléphone est déjà dans le cadre. MOU prend son air le plus séduisant :
+mains aux hanches, paupières légèrement baissées, sourire de côté.
+Ses pupilles visent clairement le téléphone.
+
+2–5 s — Le maintien
+Le téléphone affiche 3, puis 2, puis 1, avec trois petits sons distincts.
+MOU conserve sa pose ; son sourire se crispe légèrement vers la fin.
+Le compte à rebours ne doit pas occuper toute l'image ni cacher son visage.
+
+5–6,5 s — Le relâchement
+Après le dernier signal, une courte attente crée le faux départ.
+MOU souffle et abandonne son visage de frime pour une grimace très lisible.
+La grimace est une déformation du même visage, sans nouvelle anatomie.
+
+6,5–9 s — La capture
+Le vrai flash et le clic arrivent exactement sur la grimace.
+L'écran affiche la photo de cette pose précise, assez grande pour qu'on
+la reconnaisse sur téléphone. La photo reste immobile après le clic.
+Un bref recadrage peut montrer l'écran ; ne pas ajouter un second appareil.
+
+9–13/15 s — La réaction
+MOU regarde la photo, puis le spectateur. Son assurance disparaît.
+Ses mains se rapprochent devant le ventre, son regard devient gêné et
+un petit sourire forcé apparaît. Tenir juste assez pour comprendre.
+Terminer sur cette réaction, sans longue sortie ni carton de conclusion.
+
+POINTS DÉCISIFS
+- Le spectateur doit comprendre qu'il s'agit d'une photo dès la première image.
+- Le clic est tardif, et la grimace enregistrée correspond au moment du clic.
+- L'écran permet de lire le résultat ; une miniature illisible annule la chute.
+- MOU passe réellement d'une intention à une autre : séduire, attendre,
+  se relâcher, découvrir, être gêné.
+- Le gag reste compréhensible en regardant la version muette.
+
+RÉALISATION
+Réutiliser le modèle fourni. Compléter le jeu du sourire et de la bouche
+si nécessaire, sans modifier les proportions de MOU. La photo peut être
+une image fixe rendue par ce même modèle à l'instant du déclenchement.
+Ses identifiants/masques doivent être isolés de ceux du personnage animé.
+Dans le rig actuel, uid ne préfixe pas encore tous les identifiants : une
+photo PNG rendue une fois est la solution la plus simple pour cette incrustation.
+
+Ne pas ajouter de marche, de rotation de tête ou de prise d'objet à ce pilote.
+Le cadre et le recadrage sont des transformations 2D simples.
+
+SON
+Trois petits signaux de retardateur, un souffle discret, un clic sec,
+éventuellement un très court accent de gêne. Préserver la pause juste
+avant le flash. Les sons accompagnent l'action, sans couvrir la réaction.
+Une musique continue n'est pas nécessaire pour ce premier essai.
+
+LIVRAISON
+episodes/01/MOU_01_le_retardateur.mp4
+episodes/01/MOU_01_le_retardateur_muet.mp4
+episodes/01/chronologie.json
+episodes/01/sources/ et sons/ avec paramètres de fabrication.
+episodes/01/CONTROLE.txt : instants examinés, problèmes corrigés,
+limites restantes et durée finale choisie.

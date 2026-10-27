@@ -1,0 +1,15 @@
+{
+  "original_rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "frames": 336,
+  "fps": 24,
+  "duration": 14,
+  "flash_frame": 156,
+  "photo_pose_time": 6.5,
+  "photo_sha256": "4173ae6befa8df1a605afba70eda5db980662aa37c34919c5c8706ba212864cb",
+  "unique_ids_all_frames": true,
+  "two_hands_all_frames": true,
+  "two_grounded_feet_all_frames": true,
+  "all_clip_references_resolved": true,
+  "frozen_photo": true,
+  "original_rig_unchanged": true
+}

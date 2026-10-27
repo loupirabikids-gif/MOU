@@ -1,0 +1,33 @@
+{
+  "titre": "MOU 01 — Le retardateur",
+  "duree_secondes": 14,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "fichiers": {
+    "MOU_01_le_retardateur.mp4": {
+      "bytes": 971069,
+      "sha256": "0954a4d47726c66c4eaaae99a355e3a615beb146f71c958b3a71518058ef6810"
+    },
+    "MOU_01_le_retardateur_muet.mp4": {
+      "bytes": 911326,
+      "sha256": "aefdd67cb2ace1f9842184303c568559e15fc48c78b3b2b035a6911741bc64d2"
+    }
+  },
+  "sources": "MOU_01_sources.zip",
+  "bilan": "CONTROLE.txt",
+  "archive_sources": {
+    "bytes": 6282281,
+    "sha256": "0bbd97f423728530cc01834e57912ff3e35797d988d99a62dcb04009453f3a75",
+    "fichiers": 52
+  },
+  "apercu_github": {
+    "fichier": "MOU_01_apercu.gif",
+    "muet": true,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 14
+  }
+}

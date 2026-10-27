@@ -1,0 +1,150 @@
+MOU — BRIEF DE LANCEMENT POUR CODEX
+Version du 27 octobre 2026 — personnage retenu : MOU VERT À DEUX YEUX
+
+1. OBJECTIF
+
+Lancer une série de courtes animations humoristiques verticales, lisibles
+sans dialogue, avec un personnage récurrent facile à réutiliser. Produire
+un premier épisode complet avec son, puis conserver une base propre pour
+les suivants. La priorité est un gag lisible, des intentions précises et
+une fabrication fiable.
+
+2. SOURCE DE VÉRITÉ
+
+L'utilisatrice a choisi MOU après plusieurs explorations. Le personnage
+retenu est celui de references/MOU_reference.png : un petit blob vert citron
+asymétrique, une petite double bosse arrondie sur le dessus, deux grands
+yeux blancs verticaux, des pupilles et sourcils prune, deux bras courts
+avec une moufle chacun et deux petits pieds prune. Il n'a pas de nez.
+
+Le code mou_rig.py est l'interprétation vectorielle déjà animée. Son test
+de neuf secondes se trouve dans output. Conserver cette identité ; améliorer
+un raccord, une courbe ou une intention à partir d'un défaut observé.
+Les anciennes pistes de patate ocre, de cyclope et de bras sur la tête
+ne doivent pas remplacer ce modèle.
+
+La référence dessinée et le modèle vectoriel ne sont pas identiques pixel
+à pixel. Le test a vérifié la construction pour les expressions montrées.
+Le dessin du personnage est retenu ; cela ne vaut pas validation de tous
+les futurs scénarios, poses ou résultats commerciaux.
+
+3. PERSONNALITÉ ET ÉCRITURE
+
+Direction de jeu proposée : MOU veut donner l'impression qu'il maîtrise
+la situation. Il se prépare trop, se croit discret, se montre trop sûr de
+lui ou tente de sauver les apparences. Il garde aussi de la curiosité,
+de la joie, de la gourmandise et de la tendresse. Sa frime ne doit pas
+remplacer toutes ses réactions.
+
+Partir d'une situation quotidienne reconnaissable : une photo, le dernier
+biscuit, une petite attente, un objet convoité, un bruit gênant, un effort
+évité. Donner à MOU un désir, une tentative, un renversement et une réaction
+qui révèle son caractère. Le scénario doit rester compréhensible sans lire
+une explication ni entendre une réplique.
+
+Le premier pilote proposé est dans PILOTE_01.txt : Le retardateur.
+Il réutilise les possibilités actuelles et un accessoire fixe.
+
+4. FABRICATION ET DÉPENDANCES
+
+Réutiliser Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg. Les versions
+Python installées pendant le test sont fixées dans requirements.txt.
+Python 3.11 minimum est requis par cette combinaison. CairoSVG peut
+nécessiter Cairo et des bibliothèques système sur la machine de rendu.
+
+Employer uniquement des logiciels de production gratuits et open source.
+Les dessins vectoriels, trajectoires et sons doivent être reproductibles.
+Éviter une migration de moteur ou l'installation d'un gros système de
+génération lorsqu'un geste peut être ajouté au modèle existant.
+
+Le budget logiciel de fabrication visé est nul. L'accès à Codex, le
+matériel, le stockage et le calcul sont des coûts distincts. Aucune voix
+organique expressive n'est garantie par la synthèse procédurale fournie.
+
+5. JEU ET ANIMATION
+
+Le rig supporte actuellement les bras baissés, les mains aux hanches,
+les mains devant le ventre, les regards, le clignement, les sourcils,
+le sourire, la bouche ouverte, les yeux de rire et une petite levée de pied.
+Le test comprend frime, colère, rire et retour au neutre.
+
+La marche, le profil, les retournements et la saisie d'objets ne sont pas
+encore validés. Tester brièvement un nouveau geste nécessaire à un épisode
+avant de l'intégrer. Pour le pilote choisi, MOU reste de face et sur place.
+
+Diriger les pupilles vers l'objet ou le résultat concerné. Faire précéder
+les gestes importants d'une anticipation courte. Tenir les poses quand
+la lecture le demande. Varier les accélérations et les arrêts selon
+l'intention. Les petits écrasements du rire restent localisés.
+
+Conserver exactement deux bras et deux mains. Chaque main doit se lire
+comme l'extrémité d'un seul bras continu. Les yeux et la bouche restent
+dégagés. Les pupilles sont découpées par les yeux. Les pieds suivent
+le corps ou le sol selon le geste, avec des contacts cohérents.
+
+6. EXPRESSIONS
+
+La planche references/MOU_intentions_12.png fournit douze intentions de départ : neutre,
+frime, curiosité, surprise, panique, colère, gêne, dégoût, déception,
+fou rire, malice et fierté absurde. Elles ne sont pas toutes déjà reproduites
+ou vérifiées dans le rig.
+Cette ancienne planche sert au jeu. Pour les raccords des mains, suivre
+la nouvelle étude MOU_reference.png et le modèle vectoriel vérifié.
+
+Étendre progressivement les poses nécessaires aux épisodes. Pour chaque
+état, conserver une intention écrite, les paramètres, les repères du visage
+et un aperçu contrôlé. Les états d'une bibliothèque ne doivent pas être
+présentés comme des émotions scientifiquement validées.
+
+Les anciens fichiers intitulés MOU et comportant 96 poses peuvent provenir
+du modèle de patate abandonné. Ne pas importer ces dessins comme nouvelle
+référence du personnage vert. Les intentions peuvent être retransposées
+et contrôlées si elles sont utiles.
+
+7. SON
+
+Préparer une petite banque originale modifiable : tapotement doux,
+couinement élastique discret, souffle, impact mat, clic et court accent
+de gêne ou de triomphe. Les sons de repère du test sont une base technique,
+pas une voix définitive de MOU.
+
+Synchroniser les sons avec les événements visibles. Garder de vraies pauses
+et faire varier les effets pour éviter la répétition mécanique. Tester
+le mix à faible volume et vérifier l'absence de saturation. Si une ressource
+externe est utilisée, relever son auteur, son URL et sa licence autorisant
+gratuitement l'usage commercial. Préférer les ressources originales ou CC0.
+
+8. AGENTS ET ORDRE DE TRAVAIL
+
+Le coordonnateur stabilise une chronologie courte et répartit le travail
+indépendant : animation, effets sonores, puis critique du rendu. Donner
+à chaque agent une tâche bornée et des fichiers distincts.
+
+La critique doit examiner la compréhension de la première image, le désir
+de MOU, le moment du renversement, les regards, la lecture de l'accessoire,
+les raccords et le rythme. Signaler des problèmes concrets avec leur instant.
+Corriger les défauts matériels avant l'export final. Un contrôle technique
+réussi ne remplace pas cette lecture du gag.
+
+9. DURÉE ET ÉVALUATION
+
+Le pilote est prévu pour environ 13 à 15 secondes. Ajuster cette durée
+au gag ; ne pas ajouter une longue introduction ou une longue réaction
+pour atteindre un nombre arbitraire de secondes.
+
+Après publication, si elle est demandée séparément, comparer sur plusieurs
+épisodes les durées courtes et plus longues en suivant le choix de regarder,
+la durée moyenne regardée, le pourcentage moyen regardé, les partages et
+les abonnements lorsque ces mesures sont accessibles. Les thèmes influencent
+les résultats : un petit échantillon n'isole pas l'effet de la durée.
+
+10. LIVRABLES ET DÉFINITION DU RÉSULTAT
+
+Livrer un MP4 vertical 1080 × 1920 avec son, sa version muette, les sources,
+la chronologie et une courte note de contrôle. Vérifier le montage léger
+complet avant de calculer le final. Le test existant est un point de départ,
+pas le premier épisode.
+
+Les références et les dépôts techniques utiles sont dans SOURCES.txt.
+Le résultat attendu de cette mission est un épisode consultable que l'on
+peut reproduire et améliorer, avec une description honnête des limites.

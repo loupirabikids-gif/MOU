@@ -1,0 +1,85 @@
+MOU 01 — LE RETARDATEUR — BILAN DE CONTRÔLE
+
+LIVRAISON
+MOU_01_le_retardateur.mp4 : 14,000 s ; 1080 × 1920 ; 24 i/s ; 336 images.
+H264/yuv420p ; AAC stéréo 48 kHz. Aucun dialogue ni musique continue.
+MOU_01_le_retardateur_muet.mp4 : même vidéo, aucune piste audio.
+Sources Python/SVG, photo figée, WAV séparés/mix et paramètres fournis.
+Chronologie commune : chronologie.json. Commandes : sources/README.md.
+
+RÉFÉRENCE ET RESPONSABILITÉS
+AGENTS.md, BRIEF_MOU_CODEX.txt, PILOTE_01.txt lus ; référence dessinée,
+planche d'intentions et vidéo de vérification examinées par extractions.
+Le MOU vert citron, sa silhouette asymétrique à double bosse, ses deux
+yeux, ses deux bras et mains, ses deux pieds prune et sa palette restent
+ceux du rig fourni. Aucun nez, costume, marche ou saisie d'objet ajouté.
+Le fichier mou_rig.py fourni est inchangé, empreinte contrôlée.
+Animation, son et critique ont été confiés à des agents distincts ;
+chronologie stabilisée par le coordonnateur, fichiers de travail séparés.
+
+VISIONNAGE ET INSTANTS EXAMINÉS
+Premier montage complet 540 × 960 avec son, puis lecture visuelle de
+l'histoire et des transitions muettes avant calcul final :
+0 / 0,9 / 2,2 / 3,3 / 4,5 / 5,5 / 6,25 / 6,50 / 6,75 / 7,65 /
+9,6 / 10,6 / 11,6 / 12,6 / 13,8 s. Découpage complet extrait à 12 i/s.
+Détails des bras à 0–1,25 et 9,5–10,75 s ; paupières contrôlées image par
+image à 5,50–6,00, 6,58–6,92 et autour du clignement de 11,82 s.
+Le téléphone, son support et l'intention photo se lisent dès l'ouverture.
+La photo agrandie rend la grimace reconnaissable avant le retour à MOU.
+Ses regards vont vers le téléphone, puis vers le spectateur ; les mains
+se rapprochent devant le ventre pour la réaction gênée. Fin sans carton.
+La lecture critique du gag muet est favorable ; aucune mesure de public.
+
+DÉFAUTS OBSERVÉS ET CORRIGÉS
+1. Les IDs SVG des deux instances de MOU se chevauchaient : préfixage de
+   chaque ID ET référence de masque ; la photo est un PNG isolé.
+2. Au premier gros plan, une tranche du MOU animé dépassait au bord droit :
+   recadrage du même téléphone porté de ×2,6 à ×3,6, personnage hors champ,
+   visage photographié agrandi ; signature retirée pendant le gros plan.
+3. Un intermédiaire d'œil à 6,75 s, aussi vers 5,75 s, donnait un anneau
+   vert vide : fermeture franche en arc dans le wrapper de l'épisode ;
+   surprise entièrement ouverte dès 6,625 s, sous le flash. Rig inchangé.
+Ces deux défauts visuels ont été revérifiés sur les images corrigées.
+Le rendu utilise un cache par contenu : les images inchangées sont conservées.
+
+CONTRÔLES DU FICHIER FINAL
+- Décodage complet des deux MP4 sans erreur ; 336 images réellement lues.
+- Deux bras, deux mains distinctes et deux pieds au sol dans les 336 scènes.
+- IDs uniques, références de masques résolues, paramètres finis sur toute
+  la séquence ; contrôles visuels des attaches, regards et visage dégagé.
+- Flash image 156 à 6,50 s ; photo calculée avec la même fonction et la
+  même pose que celle présente immédiatement avant le flash. Photo figée.
+- Écran décodé comparé à 7,50 et 8,50 s : différence moyenne 0,0104 / 255,
+  compatible avec la compression H264 ; source photographique immuable.
+- Clic mesuré dans l'AAC décodé : 6,500104 s, écart de 0,104 milliseconde.
+- Bips originaux à 2,00 / 3,10 / 4,20 s ; souffle 5,30 s ; accent 10,10 s.
+- Crête du WAV : -6,00 dBFS ; crête après AAC : -6,087 dBFS, sans saturation.
+  Silence numérique conservé de 6,05 à 6,45 s dans l'export décodé.
+- Version muette sans piste audio ; flux vidéo identique à la version son.
+Les résultats détaillés sont dans controle/audit_final.json,
+controle/audit_structure.json et sons/audit_son.json.
+
+DURÉE ET LIMITES
+14 secondes retenues : trois signaux, faux départ, 1,6 seconde de photo
+agrandie et une réaction sans prolongation supplémentaire. L'histoire ne
+dépend pas du son. Le personnage reste volontairement de face et fixe.
+Contrôle visuel par planches/extractions denses, pas visionnage humain sur
+un appareil réel ; audio vérifié numériquement, sans écoute subjective à
+faible volume ni test sur haut-parleur de téléphone. Aucun test auprès
+d'un public ni résultat commercial/retenue d'audience n'est revendiqué.
+
+OUTILS ET ENVIRONNEMENT
+Production entièrement locale : Python, SVG, CairoSVG/Cairo, Pillow,
+NumPy et FFmpeg/libx264 ; outils gratuits et open source. Sons originaux,
+sans banque ni service externe. Provenance dans sources/PROVENANCE.txt.
+Installation répétée et opération de rendu Cairo vérifiées. Archive de sources
+extraite à un autre emplacement et exécutée depuis /tmp : imports, audit
+336 poses et rendu de 15 images réussis ; photo et mix WAV reproduits
+identiques octet par octet. Le script
+install_script est enregistré dans le brouillon de configuration cloud ;
+aucun service permanent ne requiert de start_skill. L'enregistrement du
+brouillon ne publie pas l'environnement. Pour conserver aussi cet état
+cloud, vérifier/enregistrer les paramètres puis publier via le produit.
+Le projet et les fichiers ont été livrés localement lors de la fabrication.
+La mise à disposition sur GitHub est une étape ultérieure, explicitement
+demandée par l’utilisatrice ; les liens de consultation sont dans README.md.

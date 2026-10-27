@@ -1,0 +1,20 @@
+MOU 01 — Provenance de fabrication
+
+Identité, références, rig de départ et documents : fournis par l'utilisatrice
+via MOU_Kit_Demarrage_Codex.zip. Rig original inchangé (SHA256 dans audit_structure).
+Aucune nouvelle illustration générée par un service ni ressource de stock ajoutée.
+Animation et décor : formes SVG et paramètres Python créés pour cet épisode.
+Sons : créations procédurales originales locales ; détails complets dans
+../sons/provenance_et_parametres.json. Aucune voix, banque ni musique tierce.
+La provenance ne vaut pas attribution d'une licence nouvelle aux images fournies.
+
+Outils gratuits et open source : Python (PSF), CairoSVG (LGPL-3.0), Cairo
+(LGPL/MPL), NumPy (BSD-3-Clause), Pillow (HPND), FFmpeg/libx264 (GPL selon build).
+Police DejaVu fournie dans fonts ; licence jointe fonts/LICENCE_DejaVu.txt.
+Dépendances exactes dans requirements-render.lock ; version/build FFmpeg relevés
+pour ce rendu dans ../controle/outils.txt. Aucun outil propriétaire de production.
+
+Référence commune : ../../../references/MOU_reference.png dans l'arborescence
+MOU (voir aussi README du projet). Le rig est une interprétation vectorielle de
+cette référence, pas une reproduction pixel à pixel. Les principes de rythme du
+brief guident le gag sans démontrer sa réception auprès d'un public.

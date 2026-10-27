@@ -1,0 +1,46 @@
+MOU VERT — RAPPORT DE VÉRIFICATION DU 27 OCTOBRE 2026
+
+RÉSULTAT
+Le personnage est reconstruit en formes SVG paramétriques et animé par code.
+Le test exporté dure 9 secondes à 24 images/s, soit 216 images, en vertical
+576 × 1024. Il contient des sons de repère synthétisés pour ce test.
+
+CONSTRUCTION CONTRÔLÉE
+Le même contour de corps, les mêmes repères du visage et la même palette
+sont réutilisés dans toutes les poses. Chaque bras et sa moufle constituent
+un contour continu, sans séparation noire au poignet. L'ensemble des images
+est analysé : deux groupes bras, deux formes portant le repère main,
+identifiants SVG uniques, paramètres numériques finis, XML lisible.
+Le personnage retrouve exactement son dessin neutre à la fin du test ;
+le cartouche explicatif change entre le début et la fin.
+
+CONTRÔLE VISUEL EFFECTUÉ
+Inspection des six poses principales et de douze instants intermédiaires
+pendant les transitions. Les raccords d'épaule restent continus et les
+mains gardent une lecture distincte. Les espaces visibles dans les poses
+pliées correspondent à l'espace entre les bras et le corps.
+Les pupilles suivent les regards et restent découpées par les formes des yeux.
+La bouche de rire reste séparée des mains devant le ventre.
+
+CORRECTIONS APPORTÉES PENDANT CETTE VÉRIFICATION
+- Les yeux conservent leurs dimensions en frime ; une paupière les recouvre.
+- Le regard latéral et l'asymétrie des sourcils de frime sont accentués.
+- Le rire ouvre davantage la bouche et laisse mieux voir la langue.
+- La fermeture des yeux transforme le contour en arc ; elle ne superpose
+  plus un ovale transparent et un dessin d'œil fermé.
+
+EXPORT
+La présence d'une piste vidéo 576 × 1024, d'une piste audio et la durée
+de 9 secondes ont été vérifiées avec ffprobe. Le signal sonore de départ
+est inférieur au niveau de saturation.
+
+PORTÉE ET LIMITES
+Ce résultat établit qu'on peut animer cette interprétation de MOU avec
+un modèle vectoriel réutilisable et des outils gratuits et open source.
+Le comptage automatique de mains ne démontre pas, à lui seul, la qualité
+des attaches : c'est pourquoi il est complété par l'inspection visuelle.
+Les formes sont une interprétation vectorielle de la référence, pas un
+tracé pixel à pixel de celle-ci. Le vert et les contours sont uniformes.
+Le test ne couvre pas la marche, les retournements, la prise d'un objet,
+les contacts avec un décor ni l'efficacité d'un gag auprès d'un public.
+Les petits sons du test ne sont pas encore une voix de personnage.

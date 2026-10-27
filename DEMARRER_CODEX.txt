@@ -1,0 +1,19 @@
+Ouvre ce dossier comme le projet MOU.
+
+Lis AGENTS.md, BRIEF_MOU_CODEX.txt et PILOTE_01.txt. Regarde la référence
+et le test animé fournis. Le MOU vert à deux yeux est le personnage retenu :
+conserve son identité et réutilise son modèle articulé.
+
+Produis le premier épisode décrit dans PILOTE_01.txt, avec un humour
+compréhensible sans dialogue, une animation expressive et des sons originaux.
+Utilise uniquement des outils de production gratuits et open source.
+
+Organise les agents utiles pour l'animation, les sons et la critique, en
+évitant qu'ils modifient les mêmes fichiers. Réalise un montage léger complet,
+examine les contacts, les regards, les poses et la chute, corrige les défauts,
+puis livre le MP4 final vertical 1080 × 1920 avec son et les sources.
+
+La validation de MOU porte sur le personnage. Le scénario fourni est la
+proposition de départ ; ses durées peuvent être ajustées pour rendre le gag
+plus clair. Termine un épisode consultable et explique brièvement les
+contrôles réalisés et les limites restantes.

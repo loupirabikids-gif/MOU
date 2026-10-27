@@ -1,0 +1,48 @@
+MOU — RÉFÉRENCES CONSULTÉES LE 27 OCTOBRE 2026
+
+PRIORITÉ DES RÉFÉRENCES DU PROJET
+references/MOU_reference.png : étude graphique du MOU vert retenu.
+references/MOU_intentions_12.png : ancienne planche de jeu. Les douze
+intentions sont utiles ; les anciens replis des bras Frime/Colère sont
+remplacés par la construction corrigée du modèle vérifié.
+mou_rig.py et output/MOU_verification_9_secondes.mp4 : interprétation
+vectorielle et test de construction réellement exécuté.
+La palette comprend des propositions de jeu, pas une liste scientifique
+d'émotions validées ni une preuve de succès commercial.
+
+ÉCRITURE ET FORMAT
+The Land of Boggs — témoignage des créateurs : dessin constant,
+situations quotidiennes exagérées et caractères distincts.
+https://www.buzzfeedanimationlab.com/the-land-of-boggs
+
+Molang — présentation officielle de la comédie 2D sans dialogue.
+https://millimages.com/programs/molang-4/
+
+YouTube — entretien avec Jenny Hoyos et Todd Sherman, 28 janvier 2025 :
+accroche immédiate et petites histoires adaptées au format court.
+https://blog.youtube/creator-and-artist-stories/youtube-shorts-deep-dive/
+
+YouTube — signaux de découverte des Shorts et personnalisation :
+https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en
+
+Ces références inspirent le travail ; elles ne prouvent pas qu'une forme,
+une couleur ou une durée particulière fera réussir MOU. Les audiences
+publiques des autres chaînes ne donnent pas accès à leur rétention interne.
+
+OUTILS ET DÉPÔTS UTILES
+CairoSVG — convertisseur SVG, dépôt officiel, licence LGPL-3.0 :
+https://github.com/Kozea/CairoSVG
+https://cairosvg.org/documentation/
+
+FFmpeg — encodage audio/vidéo, dépôt et conditions de licence officielles :
+https://github.com/FFmpeg/FFmpeg
+https://ffmpeg.org/legal.html
+La licence du binaire dépend des composants activés, notamment libx264.
+
+Python, Pillow et NumPy sont les autres outils de la fabrication actuelle.
+Leurs versions installées sont fixées dans requirements.txt.
+La licence de la police DejaVu fournie se trouve dans fonts.
+
+Les logiciels de fabrication sont gratuits et open source. L'accès à Codex,
+le matériel et le calcul sont des coûts distincts. Les liens ci-dessus ne
+constituent pas un engagement à migrer vers un autre moteur d'animation.

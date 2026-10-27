@@ -1,0 +1,27 @@
+{
+  "frames": 216,
+  "duration_seconds": 9,
+  "fps": 24,
+  "two_hands_each_frame": true,
+  "two_arm_groups_each_frame": true,
+  "unique_svg_ids": true,
+  "finite_parameters": true,
+  "returns_to_same_neutral": true,
+  "max_normalized_parameter_step": 0.5107,
+  "export": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 576,
+        "height": 1024
+      },
+      {
+        "codec_type": "audio"
+      }
+    ],
+    "format": {
+      "duration": "9.000000"
+    }
+  }
+}
