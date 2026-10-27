@@ -6,14 +6,14 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
-Commande courante : refaire « Le retardateur » depuis le début, dans
-`episodes/01_reprise/`. Son scénario est
-`episodes/01_reprise/developpement/scenario.md` et sa chronologie commune
-`episodes/01_reprise/chronologie.json`. Reprendre le gag du relâchement trop tôt,
-conserver le personnage et les outils. Les anciens montages et critiques sont
-dans `episodes/01/` et l’historique Git ; ils ne sont pas la nouvelle livraison.
-Ne pas confondre ce nouveau montage avec « La dernière retouche ».
-PILOTE_01.txt conserve le brief initial, précisé par le dossier courant.
+Commande courante : mettre « Le retardateur » de côté et écrire un autre
+épisode. Conserver ses montages dans `episodes/01_reprise/`, sans poursuivre
+ses corrections. La proposition suivante est « Le torchon », dans
+`episodes/02/developpement/scenario_retenu.md`. Cette commande porte sur
+l’écriture ; elle ne demande pas encore une nouvelle vidéo. Un choix interne
+de scénario n’est pas une validation de production par l’utilisatrice.
+Le personnage et les outils restent retenus. Les autres anciens montages
+et critiques sont dans `episodes/01/` et Git. PILOTE_01.txt est historique.
 
 MOU est le blob vert citron asymétrique à petite double bosse, deux grands yeux,
 sourcils prune, deux bras courts avec une moufle chacun et deux petits pieds

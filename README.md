@@ -1,10 +1,14 @@
 # MOU
 
-**Le retardateur — fin révisée** : 13 secondes, vertical **1080×1920**,
-avec des sons originaux et une histoire compréhensible sans dialogue.
-Montage courant dans `episodes/01_reprise/`.
+**Nouvelle proposition écrite : [Le torchon](episodes/02/developpement/scenario_retenu.md).**
+« Le retardateur » est mis de côté à la demande de l’utilisatrice ; ses fichiers
+restent conservés ci-dessous. Aucune nouvelle vidéo n’est produite à ce stade.
 
-## Voir le nouvel épisode
+**Archive — Le retardateur, fin révisée** : 13 secondes, vertical **1080×1920**,
+avec des sons originaux et une histoire compréhensible sans dialogue.
+Dernier montage conservé dans `episodes/01_reprise/`.
+
+## Voir l’épisode mis de côté
 
 L’aperçu est animé et muet ; le MP4 contient les effets synchronisés.
 
