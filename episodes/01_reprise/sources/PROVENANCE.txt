@@ -1,19 +1,34 @@
-MOU — Le retardateur, nouvelle réalisation
+MOU — Le retardateur, fin révisée (révision 3)
 
 Personnage, référence et rig : fournis par l’utilisatrice dans
 MOU_Kit_Demarrage_Codex.zip. Le SHA256 du rig original est relevé dans
-controle/audit_structure.json ; le fichier mou_rig.py n’est pas modifié.
-Les nouvelles poses, le décor et les trajectoires sont écrits
-localement en Python/SVG, sans nouvelle illustration ou vidéo de stock.
-Les outils de cache/encodage existants sont réutilisés ; le nouveau montage
-et ses fichiers sont séparés des réalisations précédentes.
+controle/audit_structure.json ; le fichier mou_rig.py reste inchangé.
+Les groupes _arm canoniques gardent leur dessin, sans raccourcissement ni masque.
+La correction de la fin suit les indications visuelles de la commande écrite :
+un œil grand ouvert, l’autre légèrement fermé, pupilles convergentes et sourire
+nerveux oblique. Le texte de cette commande est une instruction de production ;
+les documents du kit et avis antérieurs restent des sources distinctes.
+L’image accessible dans cette session est la capture historique du téléphone
+à gauche ; aucun nouveau fichier d’expression n’a été trouvé. Le visage de
+cette révision est donc reconstruit à partir de la description précise donnée.
 
-Sons : créations procédurales originales locales, paramètres et graines
-consignés dans sons/provenance_et_parametres.json. Aucune voix, musique,
-banque sonore, échantillon ni service de production externe.
+Les poses, le décor, les trajectoires et les adaptations locales du visage
+sont écrits en Python/SVG, sans illustration générée ni vidéo de stock.
+Le cliché est rendu par le même personnage à l’instant exact du flash.
+Les outils de cache et d’encodage existants sont réutilisés ; les anciens
+montages restent séparés dans episodes/01/ et dans l’historique Git.
 
-Outils gratuits/open source : Python(PSF), CairoSVG(LGPL-3.0), Cairo(LGPL/MPL),
-NumPy(BSD-3-Clause), Pillow(HPND), FFmpeg/libx264(GPL selon build).
-Police DejaVu fournie, licence dans fonts/LICENCE_DejaVu.txt.
-Versions Python exactes : requirements-render.lock. Aucun outil payant ajouté.
-La provenance ne donne pas une nouvelle licence aux références fournies.
+Sons : neuf événements procéduraux originaux locaux. Sept bruitages existants
+sont conservés et deux vocalisations brèves hé sont ajoutées par synthèse
+Python/NumPy. Aucune voix humaine enregistrée, banque sonore, échantillon,
+musique ou service de production externe. Paramètres et graines figurent dans
+sons/provenance_et_parametres.json. Une vocalisation procédurale ne garantit
+pas le naturel d’une voix humaine expressive ; le contrôle numérique seul
+ne vaut pas écoute humaine ou sur appareil mobile.
+
+Outils gratuits/open source : Python (PSF), CairoSVG (LGPL-3.0),
+Cairo (LGPL/MPL), NumPy (BSD-3-Clause), Pillow (HPND),
+FFmpeg/libx264 (GPL selon build). Police DejaVu fournie, licence dans
+fonts/LICENCE_DejaVu.txt. Versions Python : requirements-render.lock.
+Aucun outil payant ajouté. Cette provenance ne donne pas une nouvelle licence
+aux références fournies.

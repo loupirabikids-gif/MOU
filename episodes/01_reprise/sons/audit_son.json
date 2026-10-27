@@ -1,16 +1,16 @@
 {
   "episode": "01_reprise",
-  "revision": 2,
+  "revision": 3,
   "frames": 624000,
   "duration_seconds": 13.0,
   "peak_dbfs": -6.0,
   "rms_dbfs_left_right": [
-    -41.204,
-    -41.127
+    -40.377,
+    -40.313
   ],
   "dc_mean_left_right": [
-    -5.969512156951122e-07,
-    -5.965110583183093e-07
+    -5.96168713691907e-07,
+    -5.957285563151042e-07
   ],
   "clipped_samples": 0,
   "silence_before_flash": {
@@ -21,7 +21,7 @@
   "silent_fall_5_75_to_6": true,
   "photo_hold_silent": {
     "start_seconds": 6.75,
-    "end_seconds": 8.75,
+    "end_seconds": 8.0,
     "exact_pcm_silence": true
   },
   "flash_frame": 144,
@@ -30,9 +30,30 @@
   "decoded_click_onset_seconds": 6.0000625,
   "timer_wavs_identical": true,
   "timer_interval_samples": 48000,
-  "event_count": 7,
-  "mix_sha256": "6597ced7db926fc18ff3f98086a56dd2996fb6a06d8825b5a87321c9bd60410e",
-  "source_sha256": "43e3c84ab4f52f9b74b5954d78ab5d5b2d263dc8e88cb1e7b6b00135b31edc14",
+  "event_count": 9,
+  "laughs": [
+    {
+      "start_seconds": 11.541666666666666,
+      "duration_seconds": 0.25,
+      "start_frame": 277,
+      "start_sample": 554000,
+      "peak_dbfs": -20.501
+    },
+    {
+      "start_seconds": 11.958333333333334,
+      "duration_seconds": 0.25,
+      "start_frame": 287,
+      "start_sample": 574000,
+      "peak_dbfs": -22.0
+    }
+  ],
+  "final_hold_silent": {
+    "start_seconds": 12.5,
+    "end_seconds": 13.0,
+    "exact_pcm_silence": true
+  },
+  "mix_sha256": "8192e37509ab601750025090e8ca9f25df8e2be6acec9336ff30be590ffb6aee",
+  "source_sha256": "06c80919d4fa35c4b1e55a0a08bfd17863407312cc74cf792f72f625c1033fbc",
   "reproduction": "Depuis la racine MOU : .venv/bin/python episodes/01_reprise/sources/son.py",
   "limite": "Contrôles numériques PCM et synchronisation ; aucune écoute humaine sur appareil mobile ni test public."
 }

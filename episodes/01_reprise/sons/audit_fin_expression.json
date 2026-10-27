@@ -1,0 +1,44 @@
+{
+  "revision": 3,
+  "seven_original_wavs_byte_identical": {
+    "souffle.wav": {
+      "before": "606156d27b82f21d15aded21331f6c7e871ef64c1c88506603ec0f641555425f",
+      "after": "606156d27b82f21d15aded21331f6c7e871ef64c1c88506603ec0f641555425f",
+      "identical": true
+    },
+    "timer_1.wav": {
+      "before": "93566a63c96725d3e2940955eff0c28dccff4ef5961572c473fcf659badd5271",
+      "after": "93566a63c96725d3e2940955eff0c28dccff4ef5961572c473fcf659badd5271",
+      "identical": true
+    },
+    "timer_2.wav": {
+      "before": "93566a63c96725d3e2940955eff0c28dccff4ef5961572c473fcf659badd5271",
+      "after": "93566a63c96725d3e2940955eff0c28dccff4ef5961572c473fcf659badd5271",
+      "identical": true
+    },
+    "tap_ecran.wav": {
+      "before": "772954a5513725727bb72fe1383d74460f5ed32f00838840c90b1718be71811e",
+      "after": "772954a5513725727bb72fe1383d74460f5ed32f00838840c90b1718be71811e",
+      "identical": true
+    },
+    "obturateur.wav": {
+      "before": "4b6ae97af15ca99482dc31b31093b96240eb83e085622989729d67398d3f04d0",
+      "after": "4b6ae97af15ca99482dc31b31093b96240eb83e085622989729d67398d3f04d0",
+      "identical": true
+    },
+    "timer_3.wav": {
+      "before": "93566a63c96725d3e2940955eff0c28dccff4ef5961572c473fcf659badd5271",
+      "after": "93566a63c96725d3e2940955eff0c28dccff4ef5961572c473fcf659badd5271",
+      "identical": true
+    },
+    "vanite_eclat.wav": {
+      "before": "428b4c00250eb395ffaab68c2b8e9a8300fcf3f8db1b2376473cf187bcee3bec",
+      "after": "428b4c00250eb395ffaab68c2b8e9a8300fcf3f8db1b2376473cf187bcee3bec",
+      "identical": true
+    }
+  },
+  "mix_before_first_he_byte_identical_pcm": true,
+  "source_regeneration_byte_identical": true,
+  "mix_sha256": "8192e37509ab601750025090e8ca9f25df8e2be6acec9336ff30be590ffb6aee",
+  "limits": "Contrôles numériques et intention phonétique ; pas d’écoute humaine, pas de garantie de naturel organique."
+}

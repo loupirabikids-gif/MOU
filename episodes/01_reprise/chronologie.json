@@ -1,7 +1,7 @@
 {
   "episode": "01_reprise",
   "titre": "Le retardateur",
-  "revision": 2,
+  "revision": 3,
   "nouvelle_realisation": true,
   "file_stem": "MOU_le_retardateur_nouveau",
   "duree_secondes": 13.0,
@@ -39,29 +39,44 @@
       "action": "Une seule chute ample : visage, bras et corps solidaires deviennent mous ; pieds fixes"
     },
     {
-      "time": 6,
+      "time": 6.0,
+      "end": 6.208333333333333,
+      "action": "Flash et clic sur le sourire crispé de travers et les deux pupilles convergentes ; arrêt exact cinq images"
+    },
+    {
+      "time": 6.208333333333333,
       "end": 6.75,
-      "action": "Flash exactement sur l’extrême, puis surprise ; le cliché garde cet état"
+      "action": "Le corps se redresse légèrement, mais conserve le visage capturé, un œil grand ouvert et un autre légèrement baissé"
     },
     {
       "time": 6.75,
-      "end": 8.75,
-      "action": "Gros plan du résultat dans le même téléphone ; photo figée et lisible"
+      "end": 8.0,
+      "action": "Même téléphone en gros plan : photo fidèle au flash et parfaitement figée pendant1,25s"
     },
     {
-      "time": 8.75,
-      "end": 10,
-      "action": "MOU découvre la photo sous l’objectif ; assurance qui disparaît"
+      "time": 8.0,
+      "end": 9.25,
+      "action": "MOU regarde la photo sous l’objectif ; pupilles convergentes déplacées ensemble vers le bas"
     },
     {
-      "time": 10,
-      "end": 11,
-      "action": "Sa gêne se lit, yeux baissés et bouche retenue ; bras courts baissés aux flancs"
+      "time": 9.25,
+      "end": 10.25,
+      "action": "Le regard remonte vers le spectateur, strabisme conservé"
     },
     {
-      "time": 11,
-      "end": 13,
-      "action": "Une seule réaction gênée tenue, sans nouvelle tentative"
+      "time": 10.25,
+      "end": 11.5,
+      "action": "Il essaie de sauver les apparences, sourire un peu plus crispé et sourcils gênés"
+    },
+    {
+      "time": 11.5,
+      "end": 12.5,
+      "action": "Deux hé brefs et soufflés avec deux minuscules secousses solidaires du corps ; pieds fixes"
+    },
+    {
+      "time": 12.5,
+      "end": 13.0,
+      "action": "Dernière pose louchante au sourire maladroit, strictement tenue une demi-seconde en silence"
     }
   ],
   "countdown": [
@@ -98,7 +113,7 @@
   ],
   "photo_hold": {
     "start": 6.75,
-    "end": 8.75
+    "end": 8.0
   },
   "audio_silence_before_flash": {
     "start": 5.5,
@@ -106,15 +121,38 @@
     "decoded_check_start": 5.6,
     "decoded_check_end": 5.96
   },
-  "production": "Python/SVG/CairoSVG/Pillow/NumPy/FFmpeg, sons originaux, sans dialogue",
-  "commande": "Reprise depuis le début demandée par l’utilisatrice le27octobre2026 ; gag original du relâchement prématuré, personnage et outils conservés.",
-  "scenario_lock": "Chronologie validée par coordination, scénariste et critique avant fabrication, compteur5s cohérent avec activation1s et flash6s.",
-  "correction_bras": "Bras exacts du rig original rétablis, sans adaptateur de dessin ; poses, visage, timing et son conservés.",
+  "production": "Python/SVG/CairoSVG/Pillow/NumPy/FFmpeg ; bruitages et deux hé soufflés synthétisés localement, sans dialogue nécessaire au gag",
+  "commande": "Correction locale de la fin demandée par l’utilisatrice : regard qui louche, sourire nerveux, photo exacte, deux hé et arrêt silencieux. Début et dessin original des bras conservés.",
+  "scenario_lock": "Chronologie revue par critique indépendant avant fabrication ; fin13s, photo1,25s, arrêt capture5images et silence final0,5s.",
+  "correction_bras": "Dessin canonique _arm conservé sans changement ; aucun redessin, raccourcissement ou masque de racines.",
   "photo_framing": {
     "scale": 1.33127889,
     "cx": 211.25,
     "cy": 335.25,
     "shadow_y": 532.43297,
     "provenance": "Cadrage exact de302c870, conservé pour changer seulement les bras."
+  },
+  "capture_hold": {
+    "start": 6.0,
+    "end": 6.208333333333333,
+    "frames": 5
+  },
+  "reaction": {
+    "look_photo_start": 8.0,
+    "look_photo_end": 9.25,
+    "look_viewer_end": 10.25,
+    "save_face_end": 11.5,
+    "laughs": [
+      {
+        "start": 11.541666666666666,
+        "duration": 0.25
+      },
+      {
+        "start": 11.958333333333334,
+        "duration": 0.25
+      }
+    ],
+    "final_hold_start": 12.5,
+    "final_hold_end": 13.0
   }
 }

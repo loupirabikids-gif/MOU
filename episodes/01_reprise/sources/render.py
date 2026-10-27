@@ -38,8 +38,8 @@ PHOTO_START = float(TIMELINE['photo_hold']['start'])
 PHOTO_END = float(TIMELINE['photo_hold']['end'])
 INK = PALETTE['outline']
 BG = PALETTE['background']
-SAMPLES = [0, .9, 1.5, 2.2, 3.4, 4.4, 5.25, 5.75,
-           143/FPS, FLASH, 6.5, 7.75, 9.5, 10.75, 12.5]
+SAMPLES = [0, .9, 2.25, 4.5, 5.5, 143/FPS, FLASH, 147/FPS,
+           7.25, 8.75, 9.75, 10.75, 279/FPS, 289/FPS, 12.75]
 PHOTO = None
 CACHE_VERSION = 'svg-atomic-copy-retardateur-v1'
 CHAR_X, CHAR_FEET, CHAR_SCALE = 540., 1540., 2.85
@@ -253,12 +253,16 @@ def board(frames, out):
 
 
 def audit():
+    from mou_rig import _arm
     rig_hash = hashlib.sha256((ROOT/'mou_rig.py').read_bytes()).hexdigest()
     assert rig_hash == '7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e'
     fixed_feet = None
     for i in range(NFRAMES):
         t = i/FPS
         p = pose_at(t)
+        original_avatar = character_at(p, uid='original-arms')
+        for side in ('left', 'right'):
+            assert _arm(side, p['arm_hips'], p['arm_clasp']) in original_avatar, (t, 'arm drawing changed')
         data = svg_at(t)
         root = ET.fromstring(data)
         ids = [e.attrib['id'] for e in root.iter() if 'id' in e.attrib]
@@ -301,7 +305,15 @@ def audit():
             for i in range(round(5.75*FPS), TIMELINE['flash_frame']+1)]
     assert all(b <= a+1e-10 for a,b in zip(fall,fall[1:])), 'rebound before click'
     assert all(y > collapsed['sy']+1e-10 for y in fall[:-1]), 'extreme reached before click'
-    assert pose_at(12.5)['smile'] <= .05
+    captured = pose_at(FLASH)
+    final = pose_at(TIMELINE['reaction']['final_hold_start'])
+    for p in (captured, final):
+        assert p['eye_open_l'] >= .95 and .55 <= p['eye_open_r'] <= .80
+        assert p['cross'] >= .95 and p['nervous'] >= .95
+        assert p['surprise'] == 0 and p['grimace'] == 0
+    for i in range(TIMELINE['flash_frame'], round(TIMELINE['capture_hold']['end']*FPS)):
+        assert pose_at(i/FPS) == captured, (i, 'capture pose not held')
+    assert all(pose_at(i/FPS) == final for i in range(round(12.5*FPS), NFRAMES))
     from mou_rig import _tangent
     controls = tap_geometry(.90)
     tx,ty = _tangent(controls,1.)
@@ -310,6 +322,7 @@ def audit():
     assert tap_error < 1
     report = {'revision':REVISION,'file_stem':FILE_STEM,
               'original_rig_sha256':rig_hash,'original_rig_unchanged':True,
+              'original_arm_paths_exact_all_frames':True,
               'frames':NFRAMES,'fps':FPS,'duration':DURATION,
               'flash_frame':TIMELINE['flash_frame'],'photo_pose_time':FLASH,
               'photo_sha256':hashlib.sha256((EP/'sources/photo_capturee.png').read_bytes()).hexdigest(),
@@ -321,6 +334,9 @@ def audit():
               'last_digit_held_until_flash':True,'no_portrait_before_flash':True,
               'confidence_vertical_scale':confident['sy'],'capture_vertical_scale':collapsed['sy'],
               'first_extreme_at_click':True,'tap_tip_error_pixels':tap_error,
+              'capture_pose_hold_frames':round((TIMELINE['capture_hold']['end']-FLASH)*FPS),
+              'capture_and_final_cross_eyed_nervous_smile':True,
+              'final_pose_hold_seconds':DURATION-TIMELINE['reaction']['final_hold_start'],
               'limits':'Structure et source partagée ; lisibilité des intentions et raccords jugée séparément sur rendu.'}
     (EP/'controle/audit_structure.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')
     return report

@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = next(p for p in Path(__file__).resolve().parents if (p/'mou_rig.py').is_file())
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-from mou_rig import DEFAULT_POSE, PALETTE, character_fragment, _mouth
+from mou_rig import DEFAULT_POSE, PALETTE, character_fragment, _mouth, _eye
 
 
 def smooth(x):
@@ -23,7 +23,8 @@ def smooth(x):
 
 def state(**changes):
     return {**DEFAULT_POSE, 'grimace': 0.0, 'vanity': 0.0, 'pout': 0.0, 'shame': 0.0, 'surprise': 0.0,
-            'warp_sx': 1.0, 'warp_sy': 1.0, 'warp_skew': 0.0, **changes}
+            'warp_sx': 1.0, 'warp_sy': 1.0, 'warp_skew': 0.0,
+            'cross': 0.0, 'nervous': 0.0, 'lip_tension': 0.0, 'he_open': 0.0, **changes}
 
 
 # Gag initial : séduction, faux achèvement du compteur, relâchement trop tôt.
@@ -52,26 +53,21 @@ ANTICIPATE = state(arm_hips=.28, eye_open_l=.35, eye_open_r=.55,
                    pupil_x=.75, pupil_y=.80, brow_l=.25, brow_r=.35,
                    brow_raise=.28, smile=-.10, mouth_open=.25,
                    warp_sx=.97, warp_sy=1.12, warp_skew=.005)
-GRIMACE = state(arm_hips=0., eye_open_l=0., eye_open_r=.83,
-                pupil_x=.70, pupil_y=.68, brow_l=-.48, brow_r=.83,
-                brow_raise=-.10, smile=-1., mouth_open=1., grimace=1.,
+# La grimace retenue reste un sourire crispé : ni langue sortie ni surprise O.
+# pupil_x est la direction commune ; cross rapproche les deux pupilles.
+GRIMACE = state(arm_hips=0., eye_open_l=1., eye_open_r=.65,
+                pupil_x=0., pupil_y=0., cross=1.,
+                brow_l=.68, brow_r=-.05, brow_raise=.30,
+                smile=.35, nervous=1., lip_tension=.35,
                 warp_sx=1.12, warp_sy=.68, warp_skew=-.07)
-STARTLED = state(arm_hips=0., eye_open_l=1., eye_open_r=1.,
-                 pupil_x=0., pupil_y=.05, brow_l=.30, brow_r=.30,
-                 brow_raise=.90, smile=-.12, mouth_open=0., surprise=1.)
-DISCOVER = state(arm_hips=0., eye_open_l=.94, eye_open_r=.94,
-                 pupil_x=0., pupil_y=.80, brow_l=.60, brow_r=.60,
-                 brow_raise=.45, smile=-.58, mouth_open=.08)
-DISAPPOINTED = state(arm_hips=0., eye_open_l=.83, eye_open_r=.83,
-                     pupil_x=0., pupil_y=.90, brow_l=.70, brow_r=.70,
-                     brow_raise=.16, smile=-.55, mouth_open=0.)
-ASHAMED = state(arm_hips=0., eye_open_l=.62, eye_open_r=.68,
-                pupil_x=-.70, pupil_y=.95, brow_l=.85, brow_r=.85,
-                brow_raise=.05, smile=0., shame=1.,
-                warp_sx=1.015, warp_sy=.97, warp_skew=.008)
-# Il évite toujours l'objectif ; aucun regard final serein ou satisfait.
-ADMITTED = dict(ASHAMED, pupil_x=-.78, pupil_y=.98,
-                eye_open_l=.65, eye_open_r=.70)
+# Retour du corps seulement ; les paramètres du visage restent ceux du clic.
+RECOVERED = dict(GRIMACE, warp_sx=1.015, warp_sy=.97, warp_skew=.008)
+READ_PHOTO = dict(RECOVERED, pupil_y=.85)
+FACE_VIEWER = dict(RECOVERED, pupil_y=0.)
+SAVE_FACE = dict(FACE_VIEWER, lip_tension=1., brow_l=.82,
+                 brow_r=.16, brow_raise=.40)
+FINAL = dict(SAVE_FACE)
+LAUGHS = ((277/24, .25), (287/24, .25))
 
 FALL_START = 5.75
 FIRST_EXTREME = 6.0
@@ -80,10 +76,10 @@ KEYS = [
     (0., READY), (1., ADMIRE), (1.2, ADMIRE), (1.7, PROUD),
     (2.05, PROUD), (2.15, WINK), (2.25, WINK), (2.35, PROUD),
     (5., PROUD), (5.2, SOFTEN), (5.4, EXHALE),
-    (FALL_START, ANTICIPATE), (FLASH, GRIMACE), (6.125, GRIMACE),
-    (6.50, STARTLED), (8.75, STARTLED), (9.15, DISCOVER),
-    (9.85, DISAPPOINTED), (10.75, ASHAMED), (11.25, ADMITTED),
-    (13., ADMITTED),
+    (FALL_START, ANTICIPATE), (FLASH, GRIMACE), (149/24, GRIMACE),
+    (6.75, RECOVERED), (8., RECOVERED), (8.50, READ_PHOTO),
+    (9.25, READ_PHOTO), (10.25, FACE_VIEWER), (11.5, SAVE_FACE),
+    (12.5, FINAL), (13., FINAL),
 ]
 
 
@@ -105,6 +101,15 @@ def pose_at(t):
     for side in ('l', 'r'):
         if p['eye_open_'+side] < .30:
             p['eye_open_'+side] = 0.0
+    # Deux minuscules contractions soufflées, sans déplacement des pieds.
+    # Un seul lobe par syllabe, strictement nul hors de sa fenêtre et avant
+    # la demi-seconde finale. Visage, bras et corps partagent cette affine.
+    for start, duration in LAUGHS:
+        if start < t < start+duration:
+            u = (t-start)/duration
+            pulse = math.sin(math.pi*u)**2
+            p['warp_sy'] -= .006*pulse
+            p['he_open'] = pulse
     return p
 
 
@@ -127,12 +132,15 @@ def deformation_at(p):
 
 
 def _episode_mouth(p, uid):
-    """Même bouche : moue puis grand sourire ; après, mâchoire pendante."""
+    """Même bouche : séduction puis sourire maigre, crispé et oblique."""
     g = min(1., max(0., p.get('grimace', 0.)))
     v = min(1., max(0., p.get('vanity', 0.)))
     pout = min(1., max(0., p.get('pout', 0.)))
     shame = min(1., max(0., p.get('shame', 0.)))
     surprise = min(1., max(0., p.get('surprise', 0.)))
+    nervous = min(1., max(0., p.get('nervous', 0.)))
+    tension = min(1., max(0., p.get('lip_tension', 0.)))
+    he = min(1., max(0., p.get('he_open', 0.)))
     smile = max(-1., min(1., p.get('smile', 0.)))
     op = max(0., min(1., p.get('mouth_open', 0.)))
     mix = lambda a, b, u: a+(b-a)*u
@@ -154,7 +162,13 @@ def _episode_mouth(p, uid):
     shy = [(-13., 2.5), (-4., -1.2), (6., -1.2), (13., 3.),
            (6., -1.2), (-4., -1.2)]
     shocked = [(-17., 0.), (-17., -30.), (17., -30.), (17., 0.), (17., 30.), (-17., 30.)]
-    for shape, weight in [(grin, v), (lips, pout), (crooked, g), (shy, shame), (shocked, surprise)]:
+    # Sourire retenu et étiré : gauche presque plate, coin droit pincé
+    # nettement plus haut. Éviter l'arc en U du premier montage, trop serein.
+    # Le pincement augmente pour sauver les apparences, sans autre geste.
+    tense = [(-33.-2*tension, 1.-2*tension), (-12., -3*tension),
+             (8., 4.-4*tension), (31.+tension, -12.-4*tension),
+             (15., 7.-3*tension+2*he), (-17., 5.-2*tension+2*he)]
+    for shape, weight in [(grin, v), (lips, pout), (crooked, g), (shy, shame), (shocked, surprise), (tense, nervous)]:
         points = [(mix(a[0],b[0],weight),mix(a[1],b[1],weight))
                   for a,b in zip(points,shape)]
     xy = [f'{x:.3f} {y:.3f}' for x,y in points]
@@ -168,6 +182,14 @@ def _episode_mouth(p, uid):
     # La même langue, désormais molle et sortie : une seule forme rose,
     # jamais dédoublée. Ses proportions reviennent avec le relâchement.
     tongue_clip = f'clip-path="url(#{clip})"' if g < .75 else ''
+    # Une petite commissure marque le sourire forcé. Elle n'apparaît que
+    # dans la nouvelle expression ; les anciens SVG restent identiques.
+    crease = ''
+    if nervous > .00001:
+        x, y = tense[3]
+        crease = (f'<path d="M{x:.3f} {y:.3f} q4 -3 7 1" '
+                  f'fill="none" stroke="{ink}" stroke-width="2.8" '
+                  f'stroke-linecap="round" opacity="{nervous:.5f}"/>')
     return (f'<g id="mouth" transform="translate(205 321)">'
             f'<path d="{d}" fill="{ink}" stroke="{ink}" stroke-width="4.6" '
             f'stroke-linecap="round" stroke-linejoin="round"/>'
@@ -176,7 +198,7 @@ def _episode_mouth(p, uid):
             f'<ellipse cx="{tongue_x:.3f}" cy="{tongue_y:.3f}" rx="{tongue_rx:.3f}" '
             f'ry="{tongue_ry:.3f}" fill="{PALETTE["tongue"]}" '
             f'stroke="{ink}" stroke-width="{2.4*g:.3f}"/>'
-            '</g></g>')
+            '</g>'+crease+'</g>')
 
 
 def character_at(p, uid='mou'):
@@ -184,7 +206,17 @@ def character_at(p, uid='mou'):
     fragment = character_fragment(p, uid=uid)
     assert abs(p.get('arm_clasp',0.))<1e-8, 'Aucun clasp ventral dans cette reprise.'
     # Bras d'origine conservés tels quels dans character_fragment().
-    if any(p.get(k, 0.) > .00001 for k in ('grimace', 'vanity', 'pout', 'shame', 'surprise')):
+    # Les yeux gardent leurs contours et leurs masques d'origine ; seule la
+    # direction de chaque pupille diverge de la direction commune. Ne pas
+    # modifier le rig partagé pour cette expression locale de l'épisode.
+    cross = min(1., max(0., p.get('cross', 0.)))
+    if cross > .00001:
+        for side, cx, cy, rx, sign in [('l',164,235,34,1), ('r',242,232,33,-1)]:
+            original = _eye(cx, cy, rx, side, p, uid)
+            directed = dict(p, pupil_x=p.get('pupil_x',0.)+sign*cross)
+            assert original in fragment
+            fragment = fragment.replace(original, _eye(cx,cy,rx,side,directed,uid), 1)
+    if any(p.get(k, 0.) > .00001 for k in ('grimace', 'vanity', 'pout', 'shame', 'surprise', 'nervous')):
         original = _mouth(p, uid)
         assert original in fragment
         fragment = fragment.replace(original, _episode_mouth(p, uid), 1)
@@ -209,9 +241,11 @@ def intention_at(t):
     if t<5:return 'conserve sa meilleure pose'
     if t<FALL_START:return 'croit la prise terminée et souffle'
     if t<FLASH:return 'se relâche trop tôt'
-    if t<6.125:return 'flash sur la déformation'
-    if t<6.75:return 'le clic le surprend'
-    if t<8.75:return 'photo exacte, figée et lisible'
-    if t<10:return 'regarde le résultat sous l’objectif'
-    if t<11:return 'son assurance tombe'
-    return 'réaction gênée, mains baissées'
+    if t<149/24:return 'flash : louche et sourire crispé capturés'
+    if t<6.75:return 'se replace sans effacer sa grimace'
+    if t<8.:return 'photo exacte, figée et lisible'
+    if t<9.25:return 'regarde la photo sous l’objectif'
+    if t<10.25:return 'cherche le spectateur en louchant'
+    if t<11.5:return 'essaie de sauver les apparences'
+    if t<12.5:return 'deux hé soufflés et minuscules secousses'
+    return 'sourire maladroit et louche, silence tenu'

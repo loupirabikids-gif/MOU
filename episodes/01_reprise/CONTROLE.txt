@@ -1,52 +1,64 @@
-MOU — LE RETARDATEUR — RÉVISION2, BRAS D’ORIGINE
+MOU — LE RETARDATEUR — FIN CORRIGÉE, RÉVISION 3
 
-13,000 s ·1080×1920 ·24 i/s ·312 images. H264/yuv420p +AAC stéréo48kHz.
-Version muette sans audio, flux vidéo identique. GIF animé270×480 muet.
-Fichiers nouveaux dans episodes/01_reprise ; anciens montages inchangés.
+13,000 s · 1080 × 1920 · 24 i/s · 312 images.
+MP4 H264/yuv420p + AAC stéréo 48 kHz ; version muette sans audio.
+Les deux versions partagent exactement le même flux vidéo.
 
-HISTOIRE ET CORRECTIONS
-MOU se croit magnifique, pose puis se relâche trop tôt. Le1 reste affiché
-pendant cet abandon ; le flash capture le premier extrême à6s. Photo fixe
-agrandie6,75–8,75s, puis une seule réaction gênée. Pas de geste aux joues.
-Le réglage5s et les chiffres5→1 sont cohérents avec l’activation1s/clic6s.
-Les bras exacts du rig original sont rétablis sans adaptateur de dessin. Le modèle
-vert et le rig original sont conservés. La première surprise trop souriante
-est corrigée enO. La fin trop apaisée est corrigée par regard bas-gauche et
-bouche retenue, sans ajouter de geste ni modifier les bras ou le rythme.
+CORRECTION DEMANDÉE
+Le relâchement aboutit à un œil grand ouvert, l’autre partiellement baissé,
+deux pupilles convergentes et un sourire nerveux oblique. Le clic à 6 s
+capture exactement ce visage et sa déformation. Un arrêt d’environ 0,2 s
+marque la prise. La photo, produite par character_at(pose_at(6)), est montrée
+figée dans le même téléphone de 6,75 à 8 s (1,25 s).
+MOU regarde le résultat, puis le spectateur en gardant le strabisme. Il tente
+de sauver les apparences : sourire pincé, puis deux hé soufflés et deux
+minuscules contractions du corps. Dernière pose identique et silence complet
+de 12,5 à 13 s, sans carton final.
 
-REVUE ET CONTRÔLES
-Scénario critiqué avant fabrication ; poses puis vrai montage540×960 examinés
-par critique indépendant, d’abord en muet. Faux départ contrôlé sur29images
-consécutives119→147 ; fin corrigée revue9,25→12,958s aussi en270×480. Accord
-pour le final sans nouvelle coupe. Avis et preuves dans controle/critique.md.
-Final1080 contrôlé par coordinateur : deux MP4 décodés intégralement sans
-erreur et huit gestes comparés àdes SVG frais hors cache (écarts1,13–1,57/255).
-312poses : IDs/masques valides, deux mains, deux pieds fixes exclus du warp,
-corps/visage/bras déformés ensemble. Cache et copies atomiques sans liens.
-Cliché calculé exactement par character_at(pose_at(6)), immobile après capture.
-Sept sons originaux ; clic mesuré6.000063s, pic-5.999dBFS,
-sans saturation. Silences avant clic et pendant la photo vérifiés dans AAC.
+MODÈLE ET PÉRIMÈTRE PRÉSERVÉS
+Rig original inchangé ; deux mains et deux pieds. Les fragments _arm natifs
+et les paramètres des bras sont conservés sur les 312 poses, sans redessin,
+raccourcissement ou masque. Les 139 SVG du personnage jusqu’à 5,75 s inclus
+restent strictement identiques à la livraison 7e3b0c7. Le compte à rebours,
+le décor, le cadre et les sept bruitages précédents sont conservés.
+Anciens montages episodes/01 inchangés. Seul le dossier actif est livré ici.
 
-SOURCES ET PORTÉE
-Commandes : sources/README.md ; versions : controle/outils.txt ; provenance
-et graines audio : sons/. Sources de cette reprise et références regroupées
-dans le ZIP, àextraire sous MOU. Reproduction locale contrôlée séparément.
-Examen interne par images chronométrées, pas de test public. Audio contrôlé
-numériquement sans écoute sur téléphone réel. Veille externe incomplète,
-YouTube absent des domaines autorisés ; aucune statistique ou rétention inventée.
-GitHub ne vaut pas diffusion d’un Short. Profils d’équipe conservés ; rôles
-appliqués par mandats distincts, activation native non prouvée dans ce client.
+REVUE ET CORRECTION RÉELLE
+Critique indépendante du découpage, puis des MP4 légers réellement encodés.
+Le premier sourire lisait encore un U trop serein : seule la nouvelle bouche
+a été aplatie, étirée et pincée d’un côté, avec petite commissure. Cette retouche
+ne change aucun paramètre de pose ni aucun SVG hors du groupe bouche.
+Le montage corrigé garde 13 s après revue : l’hésitation avant le rire est
+retenue, sans geste supplémentaire. Rapport : controle/critique_fin_v3.md.
 
-ZIP extrait ailleurs : commandes lancées depuis /tmp, audit312poses et
-15images, cliché et mix reproduits identiquement. Même environnement installé,
-pas de machine vierge. Empreintes des sources : controle/audit_reproduction.json.
+CONTRÔLES DU FINAL
+Deux MP4 entièrement décodés sans erreur ; format, durée et 312 images vérifiés.
+Douze gestes du MP4 comparés à des SVG frais hors cache : écarts moyens
+1,13–1,58/255 dus au rendu/encodage. Planche du vrai final : fin_mp4_1080.png.
+312 poses : deux mains, masques/identifiants valides, bras canoniques, pieds
+fixes hors de l’affine du corps, du visage et des bras. Douze poses mesurées
+entières dans le cadre, sans découpe des mitaines ou des pieds.
+Photo figée : écart moyen entre 7 et 7,75 s de 0,000069/255 ; source de capture
+unique. Dernière tenue : écart vidéo de 0,000073/255 ; SVG strictement identiques.
+Clic mesuré à 6,000063 s. Deux hé de 0,25 s aux repères 11,541667 et 11,958333 s,
+avec contractions synchrones. Mix : pic −5,999 dBFS, sans saturation.
+Silences avant flash, pendant la photo et durant la dernière demi-seconde
+vérifiés dans l’AAC décodé. Neuf événements audio originaux au total.
 
+SOURCES, REPRODUCTION ET LIMITES
+Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg ; aucun service de production
+payant ajouté. Deux hé synthétisés localement, sans voix humaine enregistrée.
+Sources et paramètres dans sources/ et sons/ ; commandes dans sources/README.md.
+Le ZIP regroupe ce montage, ses contrôles et les références, sans cache/venv.
+Reproduction du ZIP extrait ailleurs : 312 poses et 15 images, photo et mix
+identiques, commandes depuis /tmp dans le même environnement installé.
+Rapports : audit_final.json, audit_structure.json, audit_fin_scope.json,
+audit_fin_sourire_correction.json, audit_cadrage.json et audit_reproduction.json.
+Les autres rapports de révisions précédentes restent des preuves historiques.
 
-RÉTABLISSEMENT LIMITÉ AUX BRAS
-Les312poses, bouches et déformations sont strictement identiques à302c870.
-Les groupes _arm d’origine sont présents tels quels àchaqueimage. Après
-retrait des groupes de bras, le personnage et le SVG de la photo sont
-strictement identiques, cadrage et ombre compris. Mix WAV inchangé.
-Contrôle indépendant du code et de3images du vrai MP4 : restauration_bras.md.
-Preuves : audit_restauration_bras.json, restauration_*json/png.
-Aucune nouvelle interprétation esthétique ni nouveau geste n’est appliqué.
+L’expression suit la description écrite précise ; aucune nouvelle image de
+référence d’expression n’était accessible dans ce message. Le son est contrôlé
+numériquement ; aucune écoute humaine ou sur téléphone réel n’est revendiquée.
+La synthèse vise un petit hɛ aspiré sans garantir le naturel d’une voix organique.
+Critique interne par extractions chronométrées, sans test public ni métrique
+d’audience. Veille externe encore incomplète, sans statistique inventée.

@@ -1,5 +1,5 @@
 {
-  "revision": 2,
+  "revision": 3,
   "nouvelle_realisation": true,
   "archive_crc": "pass",
   "extraction_elsewhere": true,
@@ -9,16 +9,16 @@
   "pose_audit_frames": 312,
   "stills_rendered": 15,
   "photo_and_mix_byte_identical": {
-    "episodes/01_reprise/sources/photo_capturee.png": "3baa4dd60bdbc34922e8a066ad6a415dc36edeca1961a6cb08054ed5d42d673d",
-    "episodes/01_reprise/sons/mix.wav": "6597ced7db926fc18ff3f98086a56dd2996fb6a06d8825b5a87321c9bd60410e"
+    "episodes/01_reprise/sources/photo_capturee.png": "3b889886c9121bf0f323d91d3223d8fed1dd6e22df8eba3bc58d9e23210d206f",
+    "episodes/01_reprise/sons/mix.wav": "8192e37509ab601750025090e8ca9f25df8e2be6acec9336ff30be590ffb6aee"
   },
   "tested_source_sha256": {
     "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
-    "episodes/01_reprise/chronologie.json": "ad0a03907b5236ed8e1da0ff5344f22c67cf7642b74dea7e3e08dd09c0b56db4",
-    "episodes/01_reprise/sources/animation.py": "9f7df1a34f728dfcf7f4252ab5aec84efddfc34d5f144e256e34d75d5757561b",
-    "episodes/01_reprise/sources/render.py": "03ec5bf7108102b2edb25c5396a8e46753e694c31808980598d9674f56171636",
-    "episodes/01_reprise/sources/son.py": "43e3c84ab4f52f9b74b5954d78ab5d5b2d263dc8e88cb1e7b6b00135b31edc14",
-    "episodes/01_reprise/sources/verify.py": "6fc87dffac0bde3fc78313543e3b0880bc699cfe85aad5a7b65226904b616be6",
+    "episodes/01_reprise/chronologie.json": "8804d45980b6dab14fc21ff71d33fa96938aca92d7cb8dc34b82675a0f49a719",
+    "episodes/01_reprise/sources/animation.py": "97ccaffce3bcbf9dcfd6dc497d0e1880bafb3aef0994c4689287b13c540014b2",
+    "episodes/01_reprise/sources/render.py": "777ed64cfce81a991303bfd07ba344805298ff4b3b3fc89dab5c81699849ced2",
+    "episodes/01_reprise/sources/son.py": "06c80919d4fa35c4b1e55a0a08bfd17863407312cc74cf792f72f625c1033fbc",
+    "episodes/01_reprise/sources/verify.py": "08cda41bdc1fd9c0a850d0f2b04f4c900f60d3dd7db8165d27e09bf6bcc054e0",
     "episodes/01_reprise/sources/package.py": "1b6cd8dc3e69a08bd98013f8903d360a9bdb376595fe4d236b640ba8680adf60"
   },
   "limits": "Sources extraites reproduites localement ; aucun test d’installation sur machine vierge ni nouveau rendu vidéo intégral."

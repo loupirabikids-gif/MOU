@@ -1,14 +1,15 @@
 {
   "episode": "MOU — Le retardateur — nouvelle réalisation",
-  "revision": 2,
-  "revision_note": "Tap0,90s et éclat2,20s confirmés par la mise en scène. Trois bips identiques3/4/5s, souffle5,20–5,40s puis silence jusqu’au clic6s. Chute et photo silencieuses, aucun accent final de honte.",
+  "revision": 3,
+  "revision_note": "Les sept bruitages avant et pendant le clic sont conservés. Deux hé aspirés brefs accompagnent exactement les micro-secousses de fin prévues par la chronologie ; photo et dernière demi-seconde silencieuses.",
   "provenance": "Créations procédurales originales synthétisées localement par sources/son.py. Noyaux de synthèse issus des sources locales MOU ; aucun échantillon, enregistrement, service ni banque externe.",
   "outils": [
     "Python (PSF)",
     "NumPy (BSD-3-Clause)",
     "wave (bibliothèque standard Python)"
   ],
-  "voice": false,
+  "voice": true,
+  "voice_description": "Deux vocalisations hɛ originales synthétisées par source-filtre NumPy ; ni enregistrement humain, ni TTS, ni modèle vocal téléchargé. Intention hé soufflé, naturel vocal non garanti par un contrôle numérique.",
   "continuous_music": false,
   "sample_rate": 48000,
   "channels": 2,
@@ -17,9 +18,11 @@
   "random_seeds": {
     "tap": 6101,
     "souffle": 6102,
-    "obturateur": 6104
+    "obturateur": 6104,
+    "he_1": 6131,
+    "he_2": 6132
   },
-  "chronologie_sha256": "ad0a03907b5236ed8e1da0ff5344f22c67cf7642b74dea7e3e08dd09c0b56db4",
+  "chronologie_sha256": "8804d45980b6dab14fc21ff71d33fa96938aca92d7cb8dc34b82675a0f49a719",
   "synchronisation": {
     "fps": 24,
     "flash_frame": 144,
@@ -156,6 +159,66 @@
         ],
         "duration_seconds": 0.08,
         "seed": 6104
+      }
+    },
+    {
+      "name": "he_nerveux_1",
+      "file": "he_nerveux_1.wav",
+      "start_seconds": 11.541666666666666,
+      "start_sample": 554000,
+      "end_seconds": 11.791666666666666,
+      "samples": 12000,
+      "pan": 0.0,
+      "peak_dbfs": -20.5,
+      "parameters": {
+        "type": "vocalisation_procedurale_h_e_ouvert_aspire",
+        "phonetic_intention": "hɛ",
+        "duration_seconds": 0.25,
+        "f0_start_hz": 214,
+        "f0_fall_hz": 19,
+        "aspiration_before_voicing_seconds": 0.028,
+        "formants_hz": [
+          620,
+          1780,
+          2500
+        ],
+        "formant_bandwidths_hz": [
+          105,
+          145,
+          190
+        ],
+        "seed": 6131,
+        "acting": "petit rire nerveux soufflé ; deuxième tentative plus faible"
+      }
+    },
+    {
+      "name": "he_nerveux_2",
+      "file": "he_nerveux_2.wav",
+      "start_seconds": 11.958333333333334,
+      "start_sample": 574000,
+      "end_seconds": 12.208333333333334,
+      "samples": 12000,
+      "pan": 0.0,
+      "peak_dbfs": -22.0,
+      "parameters": {
+        "type": "vocalisation_procedurale_h_e_ouvert_aspire",
+        "phonetic_intention": "hɛ",
+        "duration_seconds": 0.25,
+        "f0_start_hz": 202,
+        "f0_fall_hz": 19,
+        "aspiration_before_voicing_seconds": 0.028,
+        "formants_hz": [
+          620,
+          1780,
+          2500
+        ],
+        "formant_bandwidths_hz": [
+          105,
+          145,
+          190
+        ],
+        "seed": 6132,
+        "acting": "petit rire nerveux soufflé ; deuxième tentative plus faible"
       }
     }
   ],

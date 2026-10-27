@@ -1,12 +1,30 @@
 {
-  "revision": 1,
-  "scope": "AAC audioseul192k àpartir du mix WAV, pas encore audit du MP4 final",
-  "peak_dbfs": -5.999,
+  "revision": 3,
+  "scope": "AAC audio seul192k àpartir du mix WAV ; audit du MP4 final distinct",
+  "peak_dbfs": -5.999481947182527,
   "preflash_peak": 0.0,
   "photo_hold_peak": 0.0,
+  "final_hold_peak": 0.0,
   "click_onset_seconds": 6.0000625,
-  "click_offset_seconds": 6.250000000029843e-05,
+  "laughs": [
+    {
+      "index": 1,
+      "scheduled_start_seconds": 11.541666666666666,
+      "audible_threshold_onset_seconds": 11.546833333333334,
+      "onset_difference_seconds": 0.005166666666667652,
+      "threshold_linear": 0.001,
+      "peak_dbfs": -20.52115310401215
+    },
+    {
+      "index": 2,
+      "scheduled_start_seconds": 11.958333333333334,
+      "audible_threshold_onset_seconds": 11.964645833333334,
+      "onset_difference_seconds": 0.006312499999999943,
+      "threshold_linear": 0.001,
+      "peak_dbfs": -22.01644104823518
+    }
+  ],
   "source_regeneration_byte_identical": true,
-  "mix_sha256": "6597ced7db926fc18ff3f98086a56dd2996fb6a06d8825b5a87321c9bd60410e",
+  "mix_sha256": "8192e37509ab601750025090e8ca9f25df8e2be6acec9336ff30be590ffb6aee",
   "limits": "Contrôle numérique uniquement, aucune écoute humaine ni validation sur téléphone."
 }

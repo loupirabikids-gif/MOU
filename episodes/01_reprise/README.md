@@ -1,10 +1,11 @@
-# MOU — Le retardateur, nouvelle réalisation
+# MOU — Le retardateur, fin révisée
 
-13secondes ·1080×1920 ·24images/s ·sans dialogue.
+13 secondes · 1080 × 1920 · 24 images/s · histoire compréhensible sans dialogue.
 
-MOU est convaincu d’être magnifique. Il pose pour sa photo, abandonne son
-sourire trop tôt et se relâche pendant que le1 est encore affiché. Le flash
-capture sa déformation. La photo lui fait perdre son assurance.
+MOU se croit magnifique. Il pose, se relâche trop tôt et le flash capture son
+sourire crispé de travers et son regard qui louche. En découvrant la photo,
+il essaie de sauver les apparences avec deux petits « hé… hé… » soufflés.
+Il termine sur le même sourire maladroit, dans une demi-seconde de silence.
 
 [![Aperçu animé muet](MOU_le_retardateur_apercu.gif)](MOU_le_retardateur_nouveau.mp4?raw=true)
 
@@ -16,19 +17,23 @@ capture sa déformation. La photo lui fait perdre son assurance.
 
 ## Création et contrôle
 
-[Scénario](developpement/scenario.md) · [Découpage](developpement/decoupage.md) ·
-[Storyboard](developpement/storyboard.json) · [Critique avant fabrication](developpement/critique_scenario.md) ·
-[Critique du rendu réel](controle/critique.md) · [Décisions et corrections](developpement/corrections.md).
+[Scénario courant](developpement/scenario.md) · [Découpage](developpement/decoupage.md) ·
+[Storyboard](developpement/storyboard.json) · [Critique de la fin avant fabrication](developpement/critique_scenario_fin_v3.md) ·
+[Critique du montage rendu](controle/critique_fin_v3.md) · [Décisions et corrections](developpement/corrections.md).
+Les premiers [avis du scénario](developpement/critique_scenario.md) et
+[du montage](controle/critique.md) restent archivés avec leur périmètre initial.
 
-Cette fabrication repart du gag initial dans un dossier distinct. Le modèle
-articulé fourni est conservé ; aucun ancien fichier de episodes/01 n’est réécrit.
-Le compteur5→1 reste régulier, la photo n’apparaît qu’après le clic, les bras
-gardent le dessin original et les pieds gardent leur contact au sol.
+Révision 3 : seul le relâchement final et sa réaction sont retravaillés, avec
+un arrêt de cinq images sur la capture, la photo fidèle et figée pendant
+1,25 seconde, puis les regards vers le résultat et vers nous. Le début et le
+compteur 5→1 sont conservés. Le personnage, ses deux mains et le dessin des
+bras du rig original restent inchangés. Les pieds gardent leur contact au sol.
+Les anciens fichiers de `episodes/01/` restent conservés séparément.
 
 Production locale gratuite/open source : Python, SVG, CairoSVG, Pillow, NumPy,
-FFmpeg. Sept sons originaux, sans voix ni musique. La critique est interne,
-par extractions chronométrées ; aucun test public ni résultat d’audience.
-Le contrôle audio numérique ne vaut pas écoute sur téléphone réel.
-La veille externe demeure incomplète, comme indiqué dans editorial/ du dépôt.
-
-Révision2 : bras originaux rétablis ; scénario, poses, expressions, durée et son conservés.
+FFmpeg. Neuf événements sonores originaux, dont deux vocalisations procédurales
+brèves ; aucune voix humaine enregistrée ni musique externe. Ces hé ne sont
+pas nécessaires à la compréhension de l’histoire.
+La critique interne et les contrôles audio numériques ne valent ni test public
+ni écoute sur téléphone réel. Leur portée et les résultats effectifs figurent
+au bilan. La veille externe demeure incomplète, comme indiqué dans `editorial/`.

@@ -1,7 +1,8 @@
 # MOU
 
-**Le retardateur — nouvelle réalisation** : 13 secondes, vertical **1080×1920**,
-avec des sons originaux, sans dialogue. Nouveau montage dans `episodes/01_reprise/`.
+**Le retardateur — fin révisée** : 13 secondes, vertical **1080×1920**,
+avec des sons originaux et une histoire compréhensible sans dialogue.
+Montage courant dans `episodes/01_reprise/`.
 
 ## Voir le nouvel épisode
 
@@ -15,12 +16,15 @@ L’aperçu est animé et muet ; le MP4 contient les effets synchronisés.
 - [Bilan des contrôles](episodes/01_reprise/CONTROLE.txt) · [Reproduction](episodes/01_reprise/sources/README.md)
 
 MOU se croit magnifique. Il pose, se relâche pendant que le dernier chiffre
-reste affiché, puis le flash capture son affaissement. Il découvre sa photo
-et termine gêné. Le personnage vert à deux yeux et son rig sont conservés.
+reste affiché, puis le flash capture son sourire crispé et son regard qui louche.
+Il découvre sa photo, nous regarde et tente deux petits « hé… hé… » soufflés
+pour sauver les apparences. La pose finale tient une demi-seconde en silence.
+Le personnage vert à deux yeux, ses deux mains et son rig sont conservés.
 
 Le compteur est régulier et aucun portrait n’apparaît avant la capture.
-La photo est montrée en gros plan. Les bras gardent exactement le dessin du modèle original, avec une seule
-mitaine chacun ; les pieds restent au sol. Les anciens montages sont conservés
+La photo exacte reste figée en gros plan pendant 1,25 seconde. Les bras gardent
+exactement le dessin du modèle original, avec une seule mitaine chacun ;
+les pieds restent au sol. Les anciens montages sont conservés
 séparément dans [episodes/01/](episodes/01/), avec leur historique Git.
 
 ## Équipe et dossier de création
@@ -31,12 +35,14 @@ Les rôles sont appliqués par mandats distincts dans la session ; la présence
 des fichiers ne prouve pas leur activation native dans tous les clients.
 
 - [Scénario et découpage](episodes/01_reprise/developpement/)
-- [Critique avant fabrication](episodes/01_reprise/developpement/critique_scenario.md) et [critique du vrai montage](episodes/01_reprise/controle/critique.md)
+- [Critique de la fin avant fabrication](episodes/01_reprise/developpement/critique_scenario_fin_v3.md) et [critique du montage rendu](episodes/01_reprise/controle/critique_fin_v3.md)
+- [Critiques initiales conservées](episodes/01_reprise/controle/critique.md)
 - [Corrections retenues](episodes/01_reprise/developpement/corrections.md)
 - [Veille datée et limites](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
-NumPy et FFmpeg. Effets procéduraux originaux, sans voix ni musique externe.
+NumPy et FFmpeg. Neuf événements sonores procéduraux originaux, dont deux
+vocalisations brèves, sans voix humaine enregistrée ni musique externe.
 La veille externe reste incomplète car YouTube n’est pas autorisé par le réseau
 courant. Aucune statistique ni visionnage n’est inventé. La critique par images
 et les contrôles audio numériques ne valent pas test public ou écoute sur téléphone.

@@ -1,5 +1,11 @@
 # Décisions — nouvelle réalisation du Retardateur
 
+Les sections ci-dessous conservent l’historique. Les décisions des révisions 1
+et 2 ne décrivent pas la fin courante de la révision 3. Toute ancienne directive
+interne demandant des bras raccourcis, sans long J ou des racines masquées est
+retirée : les deux bras canoniques `_arm` doivent rester tels quels.
+
+
 Commande : refaire l’épisode depuis le début après la confusion entre plusieurs
 anciennes versions. Nouveau dossier01_reprise et nouveaux noms de MP4 ; aucun
 ancien média de episodes/01 n’est modifié.
@@ -38,3 +44,44 @@ les deux groupes de bras, le SVG de la photo reste strictement identique.
 La demande de conservation du dessin original prévaut sur les adaptations
 esthétiques internes précédentes ; aucun autre geste, rythme ou scénario
 n’est modifié. Contrôles : audit_restauration_bras.json et restauration_bras.md.
+
+## Révision 3 — visage capturé et rire nerveux, à la demande de l’utilisatrice
+
+La correction porte sur l’expression de la capture et la réaction finale.
+Le début, le compte régulier, le flash à 6 s, le modèle, le rig et le dessin des
+bras sont conservés. La nouvelle demande remplace volontairement l’ancienne
+bouche pendante, le O de surprise et la fin au regard baissé.
+
+| Demande / risque | Décision | Contrôle prévu sur le vrai rendu |
+| --- | --- | --- |
+| Visage de référence : un œil grand ouvert, l’autre légèrement fermé ; MOU louche et sourit nerveusement de travers | Paramètres indépendants pour la convergence des pupilles et sourire oblique crispé ; aucune nouvelle anatomie | Deux pupilles visibles dans leurs masques au flash et à la dernière pose |
+| Le clic doit photographier cette expression exacte | Source unique `character_at(pose_at(6.0))` pour scène et photo ; arrêt de cinq images à la capture | Comparer capture et cliché, puis vérifier le maintien après le flash |
+| Photo environ une seconde et immobile | Même téléphone, photo fixe de 6,75 à 8 s soit 1,25 s | Comparer les images du MP4 à l’intérieur de l’insert |
+| MOU regarde le résultat puis le spectateur | Regard vertical commun ajouté aux décalages horizontaux convergents ; pas de retour au visage serein | Lire l’ordre des regards de 8 à 10,25 s |
+| Sauver les apparences plutôt que rester simplement déçu | Sourire un peu plus crispé et sourcils gênés de 10,25 à 11,5 s | Réserve du critique : couper si cette intention devient un temps mort, sans mouvement gratuit |
+| Deux petits hé soufflés avec deux minuscules secousses | Sons originaux synthétisés localement aux secondes 277/24 et 287/24, durée 0,25 s chacun ; mêmes repères pour le corps | Vérifier synchronisation et niveau du mix exporté ; ne pas confondre audit numérique et écoute humaine |
+| Fin tenue dans le silence | Pose identique et silence de 12,5 à 13 s | Comparer les douze dernières images et l’audio décodé |
+
+La [recommandation du critique avant fabrication](critique_scenario_fin_v3.md)
+est consignée séparément. La [critique du vrai montage](../controle/critique_fin_v3.md)
+sera le lieu des constats sur le rendu et des corrections réellement retenues.
+Ce journal de décisions ne revendique aucune écoute humaine ni validation du
+MP4 avant leur contrôle par la coordination.
+
+
+### Revue et export de la fin révision 3
+
+Le premier MP4 de cette fin montrait encore une bouche en U trop sereine.
+Le coordinateur et le critique ont retenu une correction strictement locale :
+sourire plus plat à gauche, coin droit pincé et petite commissure. Les 312 poses
+et tous les SVG hors bouche restent identiques à ce premier montage.
+La critique du nouveau MP4 540 × 960 confirme la photo fidèle, les regards et
+les deux microcontractions ; elle accepte les 13 s, l’hésitation avant le rire
+restant motivée par la crispation. Aucun changement des bras n’est retenu.
+
+Le final 1080 × 1920 est décodé intégralement avec sa version muette. Douze
+gestes correspondent aux SVG frais, photo et pose finale restent figées,
+les deux vocalisations sont présentes et la demi-seconde finale est silencieuse.
+Les chiffres et limites figurent dans `../controle/audit_final.json` et
+`../CONTROLE.txt`. La critique et le contrôle audio numérique ne prétendent
+à aucune écoute humaine ni à un test public.

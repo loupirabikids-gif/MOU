@@ -4,7 +4,7 @@ import hashlib, io, json, math, subprocess
 import cairosvg
 from PIL import Image
 import numpy as np
-from render import EP, FPS, DURATION, NFRAMES, FLASH, TIMELINE, audit, prepare_photo, svg_at
+from render import EP, FPS, DURATION, NFRAMES, FLASH, TIMELINE, PHOTO_START, PHOTO_END, audit, prepare_photo, svg_at, puppet, photo_svg
 from animation import pose_at, character_at
 REVISION=int(TIMELINE["revision"])
 
@@ -40,6 +40,9 @@ def main():
     pre=samples[round(silence['decoded_check_start']*48000):round(silence['decoded_check_end']*48000)]
     photo_audio=samples[round(TIMELINE['photo_hold']['start']*48000):round(TIMELINE['photo_hold']['end']*48000)]
     assert float(np.abs(pre).max())<.0001 and float(np.abs(photo_audio).max())<.0001
+    final_start=TIMELINE['reaction']['final_hold_start']
+    final_audio=samples[round(final_start*48000):round(DURATION*48000)]
+    assert float(np.abs(final_audio).max())<.0001
     j=round((FLASH-.02)*48000)
     win=np.abs(samples[j:round((FLASH+.05)*48000)]).max(axis=1)
     onset=(j+int(np.argmax(win>.005)))/48000
@@ -47,16 +50,38 @@ def main():
     assert pose_at(FLASH-1/FPS)!=pose_at(FLASH)
     # Frozen result appears only after the click; it is the same vector model.
     assert all('data:image/png' not in svg_at(i/FPS) for i in range(TIMELINE['flash_frame']))
-    f1,f2=decoded_frame(full,7.5),decoded_frame(full,8.5)
+    f1,f2=decoded_frame(full,7.0),decoded_frame(full,7.75)
     delta=np.abs(f1[395:1280,255:825].astype(float)-f2[395:1280,255:825].astype(float))
     assert float(delta.mean())<1.0
+    assert PHOTO_END-PHOTO_START==1.25
+    assert puppet(FLASH,'photo') in photo_svg(), 'photograph differs from captured avatar'
+    captured=pose_at(FLASH)
+    assert all(pose_at(i/FPS)==captured for i in range(round(FLASH*FPS),round(TIMELINE['capture_hold']['end']*FPS)))
+    last=pose_at(final_start)
+    assert all(pose_at(i/FPS)==last for i in range(round(final_start*FPS),NFRAMES))
+    assert svg_at(final_start)==svg_at((NFRAMES-1)/FPS)
+    last1,last2=decoded_frame(full,final_start),decoded_frame(full,(NFRAMES-1)/FPS)
+    last_delta=float(np.abs(last1.astype(float)-last2.astype(float)).mean())
+    assert last_delta<.5
+    laughs=[]
+    for event in TIMELINE['reaction']['laughs']:
+        start,duration=event['start'],event['duration']
+        audio=samples[round(start*48000):round((start+duration)*48000)]
+        assert float(np.abs(audio).max())>.025, 'missing nervous laugh'
+        breath_onset=start+int(np.argmax(np.abs(audio).max(axis=1)>.0003))/48000
+        assert breath_onset-start<.04
+        assert abs(pose_at(start+2/FPS)['warp_sy']-pose_at(start)['warp_sy'])>.001, 'missing micro-shake'
+        laughs.append({'start_seconds':start,'decoded_onset_seconds':round(breath_onset,6),
+                       'peak_dbfs':round(20*math.log10(float(np.abs(audio).max())),3)})
     flash=decoded_frame(full,FLASH);before=decoded_frame(full,FLASH-1/FPS)
     assert float(flash.mean())>float(before.mean())+25
     source_match={}
     for t,roi in [(22/FPS,(350,1250,1080,1920)),(54/FPS,(100,500,1000,1600)),
                   (132/FPS,(100,500,1000,1600)),(143/FPS,(100,500,1000,1600)),
-                  (FLASH,(100,500,1000,1600)),(186/FPS,(135,165,945,1420)),
-                  (258/FPS,(100,500,1000,1600)),(300/FPS,(100,500,1000,1600))]:
+                  (FLASH,(100,500,1000,1600)),(147/FPS,(100,500,1000,1600)),
+                  (174/FPS,(135,165,945,1420)),(210/FPS,(100,500,1000,1600)),
+                  (240/FPS,(100,500,1000,1600)),(279/FPS,(100,500,1000,1600)),
+                  (289/FPS,(100,500,1000,1600)),(306/FPS,(100,500,1000,1600))]:
         expected=np.asarray(Image.open(io.BytesIO(cairosvg.svg2png(bytestring=svg_at(t).encode()))).convert('RGB'))
         actual=decoded_frame(full,t);x0,y0,x1,y1=roi
         err=float(np.abs(actual[y0:y1,x0:x1].astype(float)-expected[y0:y1,x0:x1].astype(float)).mean())
@@ -70,7 +95,11 @@ def main():
             'collapse_still_in_motion_before_click':True,'no_photo_before_click':True,
             'decoded_click_onset_seconds':round(onset,6),'audio_peak_dbfs':round(20*math.log10(peak),3),
             'decoded_preflash_peak':float(np.abs(pre).max()),'decoded_photo_hold_audio_peak':float(np.abs(photo_audio).max()),
-            'photo_screen_mean_delta_7_5_to_8_5':round(float(delta.mean()),6),
+            'photo_screen_mean_delta_7_to_7_75':round(float(delta.mean()),6),
+            'photo_hold_seconds':PHOTO_END-PHOTO_START,'capture_hold_frames':TIMELINE['capture_hold']['frames'],
+            'laughs':laughs,'final_pose_hold_seconds':DURATION-final_start,
+            'decoded_final_silence_peak':float(np.abs(final_audio).max()),
+            'final_frame_mean_delta':round(last_delta,6),
             'limits':'Inspection par extractions denses et planches ; contrôle audio numérique, sans écoute sur téléphone ni test public.'}
     (EP/'controle/audit_final.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
     print(json.dumps(result,indent=2,ensure_ascii=False))

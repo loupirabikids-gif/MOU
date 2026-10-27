@@ -1,7 +1,8 @@
-"""Le retardateur — nouvelle réalisation : sept événements originaux.
+"""Le retardateur — neuf événements originaux, dont deux hé soufflés.
 
 Synthèse locale Python/NumPy. Tap, éclat de vanité, trois bips identiques,
-souffle et déclencheur. La chute et la lecture du résultat restent silencieuses.
+souffle, déclencheur et deux vocalisations aspirées. La chute, la photo et la
+dernière demi-seconde restent silencieuses.
 Les noyaux de bruit/son reprennent les sources locales du projet MOU ; aucun
 échantillon ni service de production externe n'intervient.
 """
@@ -20,7 +21,8 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'sons'
 SR = 48000
-SEEDS = {'tap': 6101, 'souffle': 6102, 'obturateur': 6104}
+SEEDS = {'tap': 6101, 'souffle': 6102, 'obturateur': 6104,
+         'he_1': 6131, 'he_2': 6132}
 
 
 def raised_envelope(n: int, attack: float, release: float) -> np.ndarray:
@@ -158,6 +160,46 @@ def breath() -> np.ndarray:
     return air * env * raised_envelope(n, .016, .05)
 
 
+def nervous_he(length: float, index: int) -> np.ndarray:
+    """Petit /hɛ/ aspiré, synthèse originale source-filtre, sans voix tierce.
+
+    Une expiration initiale précède une voyelle courte et peu voisée. Les
+    résonances ɛ donnent une couleur vocale plutôt qu'un bip. La deuxième
+    tentative descend légèrement et s'éteint plus vite, sans rire expansif.
+    """
+    n = round(length * SR)
+    t = np.arange(n) / SR
+    start_f0 = 214. if index == 1 else 202.
+    f0 = start_f0 - 19. * t / length
+    f0 += 1.8 * np.sin(math.tau * 8.7 * t)
+    phase = math.tau * np.cumsum(f0) / SR
+    formants = [(620., 105., 1.), (1780., 145., .68), (2500., 190., .32)]
+
+    def response(freq):
+        # Smooth Lorentzian resonances preserve aspiration between harmonics.
+        return sum(gain / (1. + ((freq-centre)/bandwidth)**2)
+                   for centre, bandwidth, gain in formants)
+
+    voice = np.zeros(n, dtype=np.float64)
+    for harmonic in range(1, 33):
+        freq = harmonic * f0
+        amplitude = response(freq) / harmonic ** .95
+        voice += amplitude * np.sin(harmonic * phase - .17 * harmonic)
+    voice /= max(float(np.sqrt(np.mean(voice ** 2))), 1e-12)
+    air = band_noise(n, 140., 4300., SEEDS[f'he_{index}'])
+    freqs = np.fft.rfftfreq(n, 1 / SR)
+    air = np.fft.irfft(np.fft.rfft(air) * response(freqs), n)
+    air /= max(float(np.sqrt(np.mean(air ** 2))), 1e-12)
+    # Initial unvoiced /h/ (about35ms), then breathy ɛ with no hard attack.
+    voiced_gate = np.clip((t-.028)/.030, 0., 1.)
+    voiced_gate = voiced_gate ** 2 * (3.-2.*voiced_gate)
+    envelope = np.sin(math.pi * t / length) ** 1.3
+    envelope *= np.exp(-1.1 * t / length)
+    aspiration = .80 * np.exp(-t/.070) + .24
+    return ((.72 * voice * voiced_gate + aspiration * air) * envelope
+            * raised_envelope(n, .012, .055))
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     timeline_path = ROOT / 'chronologie.json'
@@ -192,15 +234,29 @@ def main() -> None:
                        {'type': 'sinus_harmonique', 'frequency_hz': 880,
                         'harmonic_hz': 1760, 'harmonic_relative_gain': .12,
                         'duration_seconds': len(beep) / SR}))
+    for index, event in enumerate(timeline['reaction']['laughs'], 1):
+        events.append((f'he_nerveux_{index}', float(event['start']),
+                       nervous_he(float(event['duration']), index), 0.,
+                       -20.5 if index == 1 else -22.,
+                       {'type': 'vocalisation_procedurale_h_e_ouvert_aspire',
+                        'phonetic_intention': 'hɛ', 'duration_seconds': event['duration'],
+                        'f0_start_hz': 214 if index == 1 else 202,
+                        'f0_fall_hz': 19, 'aspiration_before_voicing_seconds': .028,
+                        'formants_hz': [620, 1780, 2500],
+                        'formant_bandwidths_hz': [105, 145, 190],
+                        'seed': SEEDS[f'he_{index}'],
+                        'acting': 'petit rire nerveux soufflé ; deuxième tentative plus faible'}))
     events.sort(key=lambda e: e[1])
     mix = np.zeros((round(duration * SR), 2), dtype=np.float64)
     manifest = {
         'episode': 'MOU — ' + timeline['titre'] + ' — nouvelle réalisation',
         'revision': timeline['revision'],
-        'revision_note': 'Tap0,90s et éclat2,20s confirmés par la mise en scène. Trois bips identiques3/4/5s, souffle5,20–5,40s puis silence jusqu’au clic6s. Chute et photo silencieuses, aucun accent final de honte.',
+        'revision_note': 'Les sept bruitages avant et pendant le clic sont conservés. Deux hé aspirés brefs accompagnent exactement les micro-secousses de fin prévues par la chronologie ; photo et dernière demi-seconde silencieuses.',
         'provenance': 'Créations procédurales originales synthétisées localement par sources/son.py. Noyaux de synthèse issus des sources locales MOU ; aucun échantillon, enregistrement, service ni banque externe.',
         'outils': ['Python (PSF)', 'NumPy (BSD-3-Clause)', 'wave (bibliothèque standard Python)'],
-        'voice': False, 'continuous_music': False,
+        'voice': True,
+        'voice_description': 'Deux vocalisations hɛ originales synthétisées par source-filtre NumPy ; ni enregistrement humain, ni TTS, ni modèle vocal téléchargé. Intention hé soufflé, naturel vocal non garanti par un contrôle numérique.',
+        'continuous_music': False,
         'sample_rate': SR, 'channels': 2, 'bit_depth': 16,
         'duration_seconds': duration, 'random_seeds': SEEDS,
         'chronologie_sha256': hashlib.sha256(timeline_path.read_bytes()).hexdigest(),
@@ -231,11 +287,14 @@ def main() -> None:
             manifest['unused_bank'].append({'file': p.name, 'used_in_mix': False,
                                            'reason': 'Effet non retenu dans ce montage.',
                                            'sha256': hashlib.sha256(p.read_bytes()).hexdigest()})
-    assert len(events) == 7
+    assert len(events) == 9
     assert np.isfinite(mix).all()
     assert not mix[round(silence_start * SR):round(flash * SR)].any()
     assert not mix[round(photo_start * SR):round(photo_end * SR)].any()
     assert not mix[round(5.75 * SR):round(flash * SR)].any()
+    final_start = float(timeline['reaction']['final_hold_start'])
+    final_end = float(timeline['reaction']['final_hold_end'])
+    assert not mix[round(final_start * SR):round(final_end * SR)].any()
     assert 10 ** (-7 / 20) <= float(np.max(np.abs(mix))) <= 10 ** (-5 / 20)
     write_wave(OUT / 'mix.wav', mix)
     pcm = read_pcm(OUT / 'mix.wav')
@@ -265,6 +324,13 @@ def main() -> None:
         'decoded_click_onset_seconds': onset_sample / SR,
         'timer_wavs_identical': True, 'timer_interval_samples': SR,
         'event_count': len(events),
+        'laughs': [{'start_seconds': event['start'], 'duration_seconds': event['duration'],
+                    'start_frame': round(event['start'] * fps),
+                    'start_sample': round(event['start'] * SR),
+                    'peak_dbfs': db(float(np.max(np.abs(read_pcm(OUT / f'he_nerveux_{i}.wav').astype(float)/32768))))}
+                   for i, event in enumerate(timeline['reaction']['laughs'], 1)],
+        'final_hold_silent': {'start_seconds': final_start, 'end_seconds': final_end,
+                              'exact_pcm_silence': not bool(pcm[round(final_start * SR):round(final_end * SR)].any())},
         'mix_sha256': hashlib.sha256((OUT / 'mix.wav').read_bytes()).hexdigest(),
         'source_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'reproduction': 'Depuis la racine MOU : .venv/bin/python episodes/01_reprise/sources/son.py',

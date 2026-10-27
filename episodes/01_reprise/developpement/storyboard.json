@@ -1,7 +1,8 @@
 {
   "titre": "Le retardateur",
-  "fabrication": "reprise depuis le découpage initial, commande utilisateur du27octobre2026",
-  "version_travail": 1,
+  "fabrication": "Correction locale de la fin à partir de la demande de l’utilisatrice",
+  "version_travail": 3,
+  "chronologie": "../chronologie.json",
   "duration_seconds": 13,
   "fps": 24,
   "dimensions": [
@@ -10,43 +11,71 @@
   ],
   "flash_frame": 144,
   "flash_time": 6,
+  "capture_hold": {
+    "start": 6.0,
+    "end": 6.208333333333333,
+    "frames": 5
+  },
   "countdown": [
     {
       "number": 5,
-      "time": 1,
       "frame": 24,
+      "time": 1.0,
+      "sound": null,
       "audible": false
     },
     {
       "number": 4,
-      "time": 2,
       "frame": 48,
+      "time": 2.0,
+      "sound": null,
       "audible": false
     },
     {
       "number": 3,
-      "time": 3,
       "frame": 72,
+      "time": 3.0,
+      "sound": "timer_3",
       "audible": true
     },
     {
       "number": 2,
-      "time": 4,
       "frame": 96,
+      "time": 4.0,
+      "sound": "timer_2",
       "audible": true
     },
     {
       "number": 1,
-      "time": 5,
       "frame": 120,
+      "time": 5.0,
+      "sound": "timer_1",
       "audible": true
     }
   ],
   "photo_hold": {
     "start": 6.75,
-    "end": 8.75,
+    "end": 8.0,
     "first_frame": 162,
-    "last_frame": 209
+    "last_frame": 191
+  },
+  "reaction": {
+    "look_photo_start": 8.0,
+    "look_photo_end": 9.25,
+    "look_viewer_end": 10.25,
+    "save_face_end": 11.5,
+    "laughs": [
+      {
+        "start": 11.541666666666666,
+        "duration": 0.25
+      },
+      {
+        "start": 11.958333333333334,
+        "duration": 0.25
+      }
+    ],
+    "final_hold_start": 12.5,
+    "final_hold_end": 13.0
   },
   "beats": [
     {
@@ -56,9 +85,10 @@
       "last_sample_frame": 23,
       "action": "activation",
       "cadrage": "insert_téléphone",
-      "intention_regard": "Préparer la photo : mitaine vise le déclencheur vers0,875–1s.",
-      "mains_pieds": "Une mitaine au bout d’un avant-bras recoupé naturellement.",
-      "son": "Appui bref possible ; aucun faux clic."
+      "action_visible": "Activation du retardateur5s, téléphone reconnaissable, sans portrait",
+      "intention_regard": "Préparer sa photo ; mitaine vise le déclencheur.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Appui0,90s."
     },
     {
       "start": 1,
@@ -67,9 +97,10 @@
       "last_sample_frame": 71,
       "action": "pose_fière",
       "cadrage": "objectif",
-      "intention_regard": "Moue, menton haut, sourire satisfait, bref clin d’œil ; regard objectif.",
-      "mains_pieds": "Deux mains aux hanches, attaches sur flancs, pieds fixes.",
-      "son": "5 et4 muets ; vanité discrète seulement si motivée."
+      "action_visible": "MOU se trouve magnifique : moue, menton relevé, sourire satisfait et bref clin d’œil vers objectif",
+      "intention_regard": "Se trouver magnifique ; moue, sourire et clin d’œil vers objectif.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Éclat2,20s ; chiffres5 et4 muets."
     },
     {
       "start": 3,
@@ -78,9 +109,10 @@
       "last_sample_frame": 119,
       "action": "maintien",
       "cadrage": "objectif",
-      "intention_regard": "MOU reste convaincu d’être beau et tient sa pose.",
-      "mains_pieds": "Deux mains aux hanches ; aucun mouvement gratuit.",
-      "son": "Bips3 et2 à3 et4s."
+      "action_visible": "Il maintient sa meilleure pose ; compte3 puis2 régulier",
+      "intention_regard": "Garder sa meilleure pose, sûr de lui.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Bips3/4s."
     },
     {
       "start": 5,
@@ -89,9 +121,10 @@
       "last_sample_frame": 137,
       "action": "faux_départ",
       "cadrage": "objectif",
-      "intention_regard": "À1, il croit fini ; relâche regard, souffle et commence à descendre.",
-      "mains_pieds": "Anticipation brève, mains et bras continus.",
-      "son": "Bip1 à5s ; souffle5,2–5,4 puis silence."
+      "action_visible": "Le1 reste affiché ; MOU croit fini, son regard décroche et il souffle en abandonnant sa pose",
+      "intention_regard": "Croire fini sur1 ; abandon de pose, regard décroché.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Bip5s ; souffle5,20–5,40s puis silence."
     },
     {
       "start": 5.75,
@@ -100,76 +133,107 @@
       "last_sample_frame": 143,
       "action": "affaissement",
       "cadrage": "objectif",
-      "intention_regard": "Un seul affaissement ample ; premier extrême au clic.",
-      "mains_pieds": "Corps/visage/bras cohérents ; pieds gardent contact.",
+      "action_visible": "Une seule chute ample : visage, bras et corps solidaires deviennent mous ; pieds fixes",
+      "intention_regard": "Relâchement involontaire ample, visage crispé et pupilles convergentes.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
       "son": "Silence."
     },
     {
-      "start": 6,
-      "end": 6.125,
+      "start": 6.0,
+      "end": 6.208333333333333,
       "first_sample_frame": 144,
-      "last_sample_frame": 146,
-      "action": "capture",
+      "last_sample_frame": 148,
+      "action": "capture_tenue",
       "cadrage": "objectif_flash",
-      "intention_regard": "Le flash capture l’état exact de l’image144.",
-      "mains_pieds": "Même état pour cliché et personnage.",
-      "son": "Clic à6s."
+      "action_visible": "Flash et clic sur le sourire crispé de travers et les deux pupilles convergentes ; arrêt exact cinq images",
+      "intention_regard": "Même expression exacte pendant5images : un œil grand ouvert, autre légèrement baissé, sourire nerveux oblique.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Clic6s."
     },
     {
-      "start": 6.125,
+      "start": 6.208333333333333,
       "end": 6.75,
-      "first_sample_frame": 147,
+      "first_sample_frame": 149,
       "last_sample_frame": 161,
-      "action": "surprise",
+      "action": "retour_corps",
       "cadrage": "objectif",
-      "intention_regard": "Se redresse surpris du déclenchement, sans avoir vu le résultat.",
-      "mains_pieds": "Deux bras continus, retour simple.",
-      "son": "Fin de clic puis calme."
+      "action_visible": "Le corps se redresse légèrement, mais conserve le visage capturé, un œil grand ouvert et un autre légèrement baissé",
+      "intention_regard": "Se replacer légèrement sans effacer sourire ni convergence.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Silence après clic."
     },
     {
       "start": 6.75,
-      "end": 8.75,
+      "end": 8.0,
       "first_sample_frame": 162,
-      "last_sample_frame": 209,
+      "last_sample_frame": 191,
       "action": "résultat",
       "cadrage": "insert_téléphone_gros_plan",
-      "intention_regard": "Photo fixe et grande du même instant6s.",
-      "mains_pieds": "Bosses, deux mains et pieds non coupés.",
+      "action_visible": "Même téléphone en gros plan : photo fidèle au flash et parfaitement figée pendant1,25s",
+      "intention_regard": "Photo fidèle à6s, fixe, visage et deux mitaines lisibles.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
       "son": "Silence."
     },
     {
-      "start": 8.75,
-      "end": 10,
-      "first_sample_frame": 210,
-      "last_sample_frame": 239,
-      "action": "découverte",
+      "start": 8.0,
+      "end": 9.25,
+      "first_sample_frame": 192,
+      "last_sample_frame": 221,
+      "action": "regard_photo",
       "cadrage": "objectif",
-      "intention_regard": "Regard sous objectif vers résultat ; assurance disparaît.",
-      "mains_pieds": "Bras baissés courts, pieds fixes.",
-      "son": "Calme."
+      "action_visible": "MOU regarde la photo sous l’objectif ; pupilles convergentes déplacées ensemble vers le bas",
+      "intention_regard": "Regarder sous objectif, décalage vertical commun en gardant la convergence.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Silence."
     },
     {
-      "start": 10,
-      "end": 11,
-      "first_sample_frame": 240,
-      "last_sample_frame": 263,
-      "action": "gêne",
+      "start": 9.25,
+      "end": 10.25,
+      "first_sample_frame": 222,
+      "last_sample_frame": 245,
+      "action": "regard_spectateur",
       "cadrage": "objectif",
-      "intention_regard": "Menton rentré, bouche minuscule, buste sans superbe.",
-      "mains_pieds": "Deux mitaines visibles, attaches au flanc ; pas de longJ.",
-      "son": "Bruissement possible si motivé."
+      "action_visible": "Le regard remonte vers le spectateur, strabisme conservé",
+      "intention_regard": "Remonter les pupilles vers spectateur, toujours en louchant.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Silence."
     },
     {
-      "start": 11,
-      "end": 13,
-      "first_sample_frame": 264,
+      "start": 10.25,
+      "end": 11.5,
+      "first_sample_frame": 246,
+      "last_sample_frame": 275,
+      "action": "sauver_apparences",
+      "cadrage": "objectif",
+      "action_visible": "Il essaie de sauver les apparences, sourire un peu plus crispé et sourcils gênés",
+      "intention_regard": "Sourire légèrement plus tendu, sourcils gênés.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Silence."
+    },
+    {
+      "start": 11.5,
+      "end": 12.5,
+      "first_sample_frame": 276,
+      "last_sample_frame": 299,
+      "action": "rire_nerveux",
+      "cadrage": "objectif",
+      "action_visible": "Deux hé brefs et soufflés avec deux minuscules secousses solidaires du corps ; pieds fixes",
+      "intention_regard": "Deux micro-secousses solidaires corps/bras/visage, pieds fixes ; sourire et strabisme conservés.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Deux hé aspirés277/24 et287/24, durée.25s chacun."
+    },
+    {
+      "start": 12.5,
+      "end": 13.0,
+      "first_sample_frame": 300,
       "last_sample_frame": 311,
       "action": "tenue_finale",
       "cadrage": "objectif",
-      "intention_regard": "Regard bas, une seule réaction ; fin directe.",
-      "mains_pieds": "Pose simple sans mouvement de remplissage.",
-      "son": "Silence."
+      "action_visible": "Dernière pose louchante au sourire maladroit, strictement tenue une demi-seconde en silence",
+      "intention_regard": "Même pose exactement pendant.5s ; couper sans nouvelle action.",
+      "mains_pieds": "Bras canoniques _arm conservés tels quels, deux mitaines et deux pieds fixes ; corps/bras/visage déformés ensemble.",
+      "son": "Silence strict."
     }
   ],
-  "limits": "Découpage écrit et verrouillé par le coordinateur, pas de validation du rendu ou de réception publique. Veille externe incomplète."
+  "limits": "Découpage écrit revu avant fabrication ; le vrai montage et ses sons restent à contrôler, sans écoute humaine ni test public revendiqués. La veille externe demeure incomplète."
 }
