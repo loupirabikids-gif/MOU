@@ -22,4 +22,3 @@ config_file = "agents/critique_independant.toml"
 [agents.realisateur_animation_son]
 description = "Réalisateur animation et son — animatique complète, jeu, bruitages originaux, corrections et export."
 config_file = "agents/realisateur_animation_son.toml"
-
