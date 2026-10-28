@@ -26,16 +26,16 @@ caches se régénèrent localement ; ils ne sont pas nécessaires dans l’archi
 - `../editorial/` : références réellement accessibles et limites de la veille.
 
 L’animatique est en 540×960 à 12 images/s ; l’export complet en 1080×1920 à
-24 images/s, H.264 CRF 14 après le correctif papier V7. La version muette partage exactement les images de la version
+24 images/s, H.264 CRF 12 après la retouche matière V11. La version muette partage exactement les images de la version
 avec son. La vérification technique ne constitue pas un test auprès d’un public.
 
 Le correctif papier V7 conserve les gestes et le mix. Le dernier morceau et
 sa boulette sont agrandis ; le froissage garde un contour continu.
 `../controle/audit_archive.json` vérifie le ZIP lui-même et reste disponible
 dans le dépôt, hors de l’archive, pour éviter une empreinte circulaire.
-Les captures des revues antérieures du papier restent dans le dépôt ; le ZIP
-conserve leurs rapports et preuves JSON, ainsi que les images de la dernière
-révision sonore et les études de construction.
+Les captures complètes des revues restent dans le dépôt ; le ZIP conserve
+leurs rapports et preuves JSON, les études de construction et, pour la V11,
+les planches de lecture et trois images natives décisives du dernier papier.
 
 Correctif sonore V8 : la première phrase sifflée reste, les suivantes sont
 retirées. La piste musicale originale est rigoureusement muette hors des
@@ -55,3 +55,10 @@ secondes du film, avec sortie douce à 2,85–3 s. Le texte est dessiné avec la
 police TTF fournie par Pillow puis intégré sur un calque transparent dans le
 SVG. Cela évite une dépendance à la police installée sur le système de rendu.
 La police est incluse dans le gel des sources et dans le ZIP.
+
+Retouche matière V11 : le dernier morceau garde l’encombrement de 64 × 88 et
+la même prise. Son contour souple et déchiré remplace le rectangle à coin
+replié ; les plis suivent la feuille jusque dans son froissage continu.
+`../controle/audit_papier_v11.json` compare les scènes aux 840 états V10.
+Les autres accessoires, le personnage, les gestes et tout le son restent
+inchangés. L’archive et les contrôles courants correspondent à cette retouche.

@@ -1,38 +1,43 @@
 {
   "status": "passed",
-  "archive_sha256": "5d880243f59dac35d3c0e2d57329892e8089e8ee6525f96b21267e69020dc796",
-  "files_verified": 293,
+  "archive_sha256": "db7121d1494dee9f5860ddf74f86b0152102f32911ce5ac0f8f7c570cd026d54",
+  "files_verified": 311,
   "crc_ok": true,
   "all_manifest_sha256_ok": true,
-  "full_audio_regeneration_from_extracted_sources": true,
-  "regenerated_mix_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
-  "caption_font_bundled": true,
-  "font_sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
   "fresh_extracted_render": [
     {
       "frame": 10,
-      "time": 0.4166666666666667,
-      "label": "caption_visible",
+      "time_seconds": 0.4166666666666667,
       "svg_sha256": "0fc4bb6ff47419fc550e45e5c9d32e83b28c81e611b806a05629eb0ba7149c2c",
       "png_sha256": "1d2033a8451eace5bb421148902f848b930436c5f111632bb40fb492fb2a6347",
       "matches_frozen_uncached_render": true
     },
     {
-      "frame": 71,
-      "time": 2.9583333333333335,
-      "label": "caption_fading",
-      "svg_sha256": "714adbe96af182631097e66e14292d47d33b0f6a59849e48ecf705da952462de",
-      "png_sha256": "fc40bb288d07c3d8b106a04fa4124c0f47bd5a8515c5b4e2d3d4d190197f0c30",
+      "frame": 751,
+      "time_seconds": 31.291666666666668,
+      "svg_sha256": "4e2473e484c27639e6f3bd51a58b168fa894ce02a6c5f69bca99ac5127204232",
+      "png_sha256": "f55b8110e50a7fc32e3cce406da0fda6d4e56393cc2347129d37cfdfda37fb0e",
       "matches_frozen_uncached_render": true
     },
     {
-      "frame": 72,
-      "time": 3.0,
-      "label": "caption_removed",
-      "svg_sha256": "106b2d7cf5a1219aacf89510a15aee16034b3060e21cdbb3c911f3a199b1b8a4",
-      "png_sha256": "a5b82826faefa5d8bdf73acacba4409d4ceceedf70df06dae55ba903b0f8f3c9",
+      "frame": 774,
+      "time_seconds": 32.25,
+      "svg_sha256": "e2867421a291f8862d594dcaf5a598dc60f01c9f9b095edc80104d23bf99bfb7",
+      "png_sha256": "f940a1102d20807b01fe55124202f327ed5c2754c7e93b1cdfde206b8db576e1",
+      "matches_frozen_uncached_render": true
+    },
+    {
+      "frame": 794,
+      "time_seconds": 33.083333333333336,
+      "svg_sha256": "5b26acf1e20a33d9be50d0b9644d423424e7e10b4c4d4bd7b4c8fbc820631ef9",
+      "png_sha256": "03c571f6c0f405ebd9e4891f256a6ae9f983fbcb0a055169d44c5b86a511657a",
       "matches_frozen_uncached_render": true
     }
   ],
-  "method": "New temporary directory; bundled sources/font/timeline/rig/decor only. Caption renders match the independently frozen frame hashes; no PNG cache or original project paths."
+  "bundled_mix_matches_current_audio_audit": true,
+  "mix_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
+  "bundled_sound_source_matches_current_audio_audit": true,
+  "audio_regeneration_repeated_this_revision": false,
+  "selected_current_final_visual_proofs_bundled": true,
+  "method": "Fresh temporary directory; bundled sources/font/timeline/rig/decor only, no PNG cache. Four emitted SVG and full-size PNG hashes match independently frozen current render. Unchanged bundled WAV/source checked against audio audit; no perceptual listening."
 }

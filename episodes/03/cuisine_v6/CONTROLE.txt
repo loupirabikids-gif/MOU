@@ -1,96 +1,80 @@
-MOU — Encore une feuille — légende V10, rythme V9 conservé, 35 secondes
+MOU — Encore une feuille — papier souple V11, 35 secondes
 Contrôles du 28 octobre 2026
 
 LIVRABLE
-35 s au lieu de 30, vertical 1080 × 1920, 24 images/s, 840 images.
-H.264/yuv420p CRF 14 ; AAC stéréo 48 kHz pour le montage sonore.
+35 s, vertical 1080 × 1920, 24 images/s, 840 images.
+H.264/yuv420p CRF 12 ; AAC stéréo 48 kHz pour le montage sonore.
 Muet : aucune piste audio, mêmes images compressées à l’octet près.
-Animatique complète : 540 × 960, 12 images/s, 35 s, 420 images.
+Animatique complète : 540 × 960, 12 images/s, 420 images.
 Aperçu GIF muet : 432 × 768, 350 images, 35 s.
 
-LÉGENDE VALIDÉE V10
-« Me cooking: touch, wash, wipe… repeat. » apparaît sur deux lignes
-pendant 0–3 s, avec sortie à 2,85–3 s. Placement sous l’étagère et au-dessus
-de MOU, sans chevaucher son visage ou les mains ; police DejaVu Sans Bold
-fournie, texte prune bordé de crème. La position initiale devant le luminaire
-a été corrigée pour éviter son cordon dans les lettres.
-Présence vérifiée sur les 840 états : 72 images de légende, puis absence.
-43 SVG échantillonnés après 3 s identiques aux empreintes V9. Le mix PCM
-et le flux AAC sont identiques à la V9, ainsi que les gestes, accessoires,
-modèle, durée et montage. Cette sélection approuve la légende seule ;
-la suggestion de retouche du dernier papier reste distincte.
-Relecture indépendante des études, de l’animatique et du MP4 réel :
-controle/critique_caption_v10_final.md et audit_caption_v10.json.
+RETOUCHE AUTORISÉE
+Le dernier morceau ressemblait à une icône de document rigide.
+Coin rabattu supprimé ; côtés légèrement courbes, bord inférieur déchiré
+et deux plis doux. Même encombrement de référence 64 × 88, même prise,
+mêmes moufles et boulette finale de rayon 22. Le froissage commence sur
+le contour tenu et finit sur la boulette précédente, sans changement d’objet.
+La critique a repéré un pli dépassant du contour pendant la première étude :
+il est maintenant découpé par la surface du papier pendant sa contraction.
 
-OUVERTURE PLUS LISIBLE
-Remuage actif 0–6,6 s, quatre tours avec le geste natif.
-Cuillère posée 6,6–7 s, main levée 7–7,25 s puis tenue du regard jusqu’à
-7,5 s, orientation vers le lavabo jusqu’au premier insert à 7,75 s.
-L’ajout représente 4,5 s de cuisine et 0,5 s de lecture de la main.
-Tous les plans suivants gardent leur durée et leurs gestes, décalés de +5 s.
-Aucun ralenti global ni changement du modèle, des bras ou des mains.
+CONSERVATION ET CONTRÔLES MATIÈRE
+Comparaison de 840 SVG à la V10 du commit b7328c6 : 774 identiques ;
+66 images modifiées, de 29,667 à 32,375 s, uniquement dans le papier en main.
+Tous les autres éléments de scène sont identiques aux 840 instants.
+Rig, animation, chronologie, police, source sonore et mix : octets conservés.
+21 autres fonctions d’accessoires inchangées. Seul autre changement du
+renderer : qualité H.264 CRF 14 vers 12, sans modification des SVG.
+1 001 états de froissage examinés géométriquement : surface positive,
+aucun croisement ; silhouettes des deux raccords identiques par raster.
+51 comparaisons de transparence : aucun pli hors de la surface du papier.
+Deux mains, une bouche, tablier, références SVG valides sur 840 états ;
+même décor approuvé, huit fonctions natives de bras/raccord conservées.
+Voir controle/audit_papier_v11.json et audit_structure.json.
 
-CONSERVATION ET CONTACTS
-654 états après le premier lavabo identiques à la V8, à +120 images ;
-32 empreintes de SVG indépendantes identiques. Les 159 images de remuage
-sont contrôlées : prise cuillère/main exacte, longueur constante et bout
-contenu dans la poêle. Rayon normalisé maximal au carré : 0,307135 < 1.
-Les coutures à 3,3 et 6,6 s ont un écart maximal de prise inférieur à 0,000011 px.
-Même rig ; huit fonctions natives de bras/raccord inchangées. Deux mains,
-une bouche unique, tablier, identifiants et références SVG contrôlés sur 840 états.
-Le décor validé, le gros plan lavabo/main seule à 0,70 et le papier V7 restent
-conservés : morceau 64 × 88, boulette de rayon 22, froissage continu.
-
-SON À VITESSE NORMALE
-52 événements originaux : 48 bruitages, 3 notes initiales, 1 piste musicale.
-Les 46 bruitages courts et les 3 notes sifflées gardent leurs WAV exacts.
-Seuls le lit de cuisson, le premier remuage et la musique sont prolongés.
-Trois notes à 0,3–1,731111 s, aucun retour de sifflement après le premier lavage.
-Musique originale à 108 BPM : 0–7,75 /13,5–15 /20–23 /27–28 s.
-Aucun échantillon musical non nul hors de ces fenêtres : les lavages,
-essuyages, jets, zooms et tenue finale gardent leurs seuls bruitages.
-Pas de modification globale de vitesse ou de hauteur sonore ; partition et
-instruments conservés. Gain commun +6,544 dB, variation de seulement +0,007 dB.
-Repères : cuillère à 6,95 s, événements suivants décalés de cinq secondes,
-deux coupes à 21,05 et 21,75 s. Dernière tenue à 34,4–35 s, cuisson seule.
-Mix : pic -4.0001 dBFS, zéro échantillon saturé.
-AAC décodé : pic -4.0598 dBFS.
+MONTAGE ET SON CONSERVÉS
+Légende exacte « Me cooking: touch, wash, wipe… repeat. » sur deux lignes
+pendant 0–3 s, dégagée du visage, avec sortie à 2,85–3 s.
+Remuage initial jusqu’à 6,6 s ; cuillère posée à 7 s ; inspection de main
+puis regard vers le lavabo jusqu’à 7,75 s. Même montage de 35 s.
+Trois notes sifflées seulement à 0,3–1,731111 s.
+Musique originale à 108 BPM : 0–7,75 /13,5–15 /20–23 /27–28 s ;
+coupée durant lavage, essuyage, jet et zoom poubelle. Fin : cuisson seule.
+52 événements originaux, dont 48 bruitages ; aucun dialogue ou son téléchargé.
+Mix PCM et flux AAC identiques à la V10. Zéro échantillon saturé.
+Pic WAV : -4.0001 dBFS ; AAC : -4.0598 dBFS.
 Corrélation PCM/AAC sans décalage : 0.998595.
-Aucun dialogue, morceau connu ou son téléchargé.
+Voir controle/audit_son_papier_v11.json et les contrôles son précédents.
 
-EXPORTS ET CRITIQUE
-Les deux véritables MP4 sont décodés intégralement sans erreur. La région
-de légende est mesurée pendant sa présence et après sa disparition. La police
-est désormais incluse dans le gel des dépendances du rendu.
-51 images comparées à des SVG/CairoSVG frais hors cache : toutes réussies,
-image entière et régions visibles. Seuil RGB moyen 3/255 conservé ; maximum
-image 1.639691/255 et région 2.915450/255. Sources gelées vérifiées.
-L’animatique puis le véritable export sont relus par le critique indépendant :
-controle/critique_rythme_v9_animatique.md et critique_rythme_v9_final.md.
-Contrôles détaillés : audit_rythme_v9.json, audit_rythme_son_v9.json,
-audit_structure.json et audit_final.json.
+VRAIS EXPORTS ET CRITIQUE
+Deux MP4 décodés intégralement sans erreur, sources gelées vérifiées.
+56 images du MP4 comparées à des SVG/CairoSVG frais hors cache, avec régions
+de mains, raccords, accessoires et légende. Toutes réussies : seuil RGB moyen
+3/255 conservé ; maximum image 1.612592/255, région 2.831652/255.
+Le premier CRF 14 dépassait légèrement ce seuil à 32,375 s dans deux zones
+de main ; rapport conservé sous audit_final_papier_v11_crf14.json. Qualité
+augmentée à CRF 12, puis mêmes contrôles réussis sans relâcher le seuil.
+Critique indépendante : études, animatique complète puis 24 images du vrai
+final, dont 11 successives autour du froissage et trois poses natives.
+Papier souple et lisible, plis contenus, contraction et petite boulette
+conservées ; avis favorable ciblé dans critique_papier_v11_final.md.
+Rapport technique courant : controle/audit_final.json.
 
-SOURCES
-Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg ; outils gratuits/open source.
-Code, partition, sons, dessins, chronologie, rapports et preuves dans le ZIP.
-CRC et manifeste SHA-256 vérifiés. Régénération identique du mix et rendu de
-poses depuis un dossier extrait propre : controle/audit_archive.json,
-disponible dans le dépôt hors du ZIP qu’il vérifie. Anciennes captures
-conservées dans Git ; archive centrée sur les sources et contrôles utiles.
-Les repères principaux de la chronologie sont ceux du film de 35 s ;
-son animation_reference V8 conserve les gestes évalués en temps source.
-Voir sources/README.md, developpement/ouverture_v9.md et controle/CORRECTIONS.md.
+SOURCES ET REPRODUCTION
+Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg, gratuits et open source.
+Code, sons, dessins, police, chronologie, critiques et rapports dans le ZIP.
+CRC et manifeste SHA-256 vérifiés ; poses régénérées depuis une extraction
+propre, sans cache. Voir controle/audit_archive.json dans le dépôt, hors du
+ZIP qu’il vérifie. Le ZIP garde les planches et trois poses finales natives ;
+toutes les captures historiques restent dans Git. Commandes : sources/README.md.
 
 LIMITES
-Les contrôles audio sont numériques, sans écoute perceptive possible avec
-les outils disponibles. Le naturel du mix et son équilibre sur téléphone ne
-sont pas revendiqués comme entendus. Les images successives examinées ne
-constituent ni une projection continue ni un test de compréhension public.
-Les anciennes références YouTube restent inaccessibles ; voir le dossier
-éditorial. Aucune vidéo consultée ou statistique d’audience n’est inventée.
-Montage proposé au jugement de l’utilisatrice, aucune publication sociale.
+Contrôles audio numériques, sans écoute perceptive possible ici. L’équilibre
+sur téléphone n’est pas revendiqué comme entendu. Les images successives
+ne constituent ni une projection continue ni un test de compréhension public.
+Les références YouTube restent inaccessibles, sans visionnage ou compteurs
+inventés. Livraison GitHub ; aucune publication sur un compte social.
 
 EMPREINTES
-Avec son : 2a03a95e5544215889308253375e1561b68832e344e61a4967e91d5e5c61c053
-Muet : 3299db7517fab75c15727368fc7b0cdddf2090ac485ced2451594e23c169cccb
+Avec son : 9877b20659cfd889c2ad5e7a6c954b8b0d6687d519a1ad5a605fdde1bccdb275
+Muet : 666e238c09f3543c801f5b51d44fbc6f342ff24139c735f12dd3a5120e768c0e
 Mix PCM : ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453

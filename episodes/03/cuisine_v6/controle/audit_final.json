@@ -33,8 +33,8 @@
     },
     "render_frozen_sources": {
       "/workspace/MOU/episodes/03/cuisine_v6/sources/animation.py": "2cbfa7f9a6ce1757d4d2f76fdc04f468a672fb74ef9aecaad83a0388a163ce58",
-      "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "f0b93ff580ec29486324c492c2aee681b31ac5050c4311535917f4761704711d",
-      "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "fda9ac4475bae0c4cf8a7f83fcb2f50e6870d4fbb88c8536317bc2ae7d956e71",
+      "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "36097fe101a6694113b596a8ae520f393af6731decaa1814fcabf46008f5e4ea",
+      "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "408ee2be0d0c29fc3434d2b93c0854704a958f89b0c7d8dc408e87de460def7a",
       "/workspace/MOU/episodes/03/cuisine_v6/chronologie.json": "95f7a9cab042e18db2b94553e4df2f4bf601b1d47aa34536e521c1efc5228bf4",
       "/workspace/MOU/fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
     },
@@ -43,8 +43,8 @@
   },
   "sound_video": {
     "path": "episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4",
-    "file_sha256": "2a03a95e5544215889308253375e1561b68832e344e61a4967e91d5e5c61c053",
-    "size_bytes": 9304124,
+    "file_sha256": "9877b20659cfd889c2ad5e7a6c954b8b0d6687d519a1ad5a605fdde1bccdb275",
+    "size_bytes": 10738863,
     "full_decode_without_errors": true,
     "streams": [
       {
@@ -74,8 +74,8 @@
   },
   "silent_video": {
     "path": "episodes/03/cuisine_v6/MOU_Encore_une_feuille_muette.mp4",
-    "file_sha256": "3299db7517fab75c15727368fc7b0cdddf2090ac485ced2451594e23c169cccb",
-    "size_bytes": 8576241,
+    "file_sha256": "666e238c09f3543c801f5b51d44fbc6f342ff24139c735f12dd3a5120e768c0e",
+    "size_bytes": 10010996,
     "full_decode_without_errors": true,
     "streams": [
       {
@@ -93,8 +93,8 @@
     ]
   },
   "identical_compressed_video_bitstreams": {
-    "sha256": "6225044eada2861f4dba13ef441a1efb367ee767a8260d2b77a902d5e128d2f1",
-    "bytes": 8566353
+    "sha256": "e084d0eba1f4febb6317085a734e885d805801d9d160334822428d212754e2a9",
+    "bytes": 10001092
   },
   "audio": {
     "wav_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
@@ -118,7 +118,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "0fc4bb6ff47419fc550e45e5c9d32e83b28c81e611b806a05629eb0ba7149c2c",
         "fresh_png_sha256": "1d2033a8451eace5bb421148902f848b930436c5f111632bb40fb492fb2a6347",
-        "full_frame_mean_abs_rgb_error_0_255": 1.504339,
+        "full_frame_mean_abs_rgb_error_0_255": 1.479232,
         "regions": {
           "faucet": {
             "visible": true,
@@ -128,7 +128,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.578413
+            "mean_abs_rgb_error_0_255": 1.548398
           },
           "bin": {
             "visible": true,
@@ -138,7 +138,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.30318
+            "mean_abs_rgb_error_0_255": 1.264172
           },
           "carrot_and_knife": {
             "visible": true,
@@ -148,7 +148,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.314948
+            "mean_abs_rgb_error_0_255": 2.250825
           },
           "paper_roll": {
             "visible": true,
@@ -158,7 +158,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.093267
+            "mean_abs_rgb_error_0_255": 2.050129
           },
           "opening_caption": {
             "visible": true,
@@ -168,7 +168,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.766882
+            "mean_abs_rgb_error_0_255": 1.717205
           },
           "mouth": {
             "visible": true,
@@ -178,7 +178,7 @@
               651,
               1187
             ],
-            "mean_abs_rgb_error_0_255": 1.815672
+            "mean_abs_rgb_error_0_255": 1.76036
           },
           "apron": {
             "visible": true,
@@ -188,7 +188,7 @@
               732,
               1337
             ],
-            "mean_abs_rgb_error_0_255": 2.354403
+            "mean_abs_rgb_error_0_255": 2.27316
           },
           "hand_left": {
             "visible": true,
@@ -198,7 +198,7 @@
               505,
               1299
             ],
-            "mean_abs_rgb_error_0_255": 2.445048
+            "mean_abs_rgb_error_0_255": 2.332244
           },
           "hand_right": {
             "visible": true,
@@ -208,7 +208,7 @@
               639,
               1349
             ],
-            "mean_abs_rgb_error_0_255": 2.320473
+            "mean_abs_rgb_error_0_255": 2.23354
           },
           "shoulder_left": {
             "visible": true,
@@ -218,7 +218,7 @@
               389,
               1112
             ],
-            "mean_abs_rgb_error_0_255": 1.621474
+            "mean_abs_rgb_error_0_255": 1.584113
           },
           "shoulder_right": {
             "visible": true,
@@ -228,7 +228,7 @@
               831,
               1112
             ],
-            "mean_abs_rgb_error_0_255": 2.104182
+            "mean_abs_rgb_error_0_255": 2.009972
           }
         }
       },
@@ -239,7 +239,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "589b63daad3c58dd80ae20e1344f622699c37e6fcd3de03e4a9969ac72564635",
         "fresh_png_sha256": "01280101b9162424d06a50b95a072816f90690c651f49f8d098a7daff27bb321",
-        "full_frame_mean_abs_rgb_error_0_255": 1.510395,
+        "full_frame_mean_abs_rgb_error_0_255": 1.485512,
         "regions": {
           "faucet": {
             "visible": true,
@@ -249,7 +249,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.579186
+            "mean_abs_rgb_error_0_255": 1.547994
           },
           "bin": {
             "visible": true,
@@ -259,7 +259,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302815
+            "mean_abs_rgb_error_0_255": 1.263639
           },
           "carrot_and_knife": {
             "visible": true,
@@ -269,7 +269,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.353139
+            "mean_abs_rgb_error_0_255": 2.284808
           },
           "paper_roll": {
             "visible": true,
@@ -279,7 +279,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.098736
+            "mean_abs_rgb_error_0_255": 2.053785
           },
           "opening_caption": {
             "visible": true,
@@ -289,7 +289,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.767404
+            "mean_abs_rgb_error_0_255": 1.717482
           },
           "mouth": {
             "visible": true,
@@ -299,7 +299,7 @@
               651,
               1188
             ],
-            "mean_abs_rgb_error_0_255": 2.28974
+            "mean_abs_rgb_error_0_255": 2.208102
           },
           "apron": {
             "visible": true,
@@ -309,7 +309,7 @@
               731,
               1338
             ],
-            "mean_abs_rgb_error_0_255": 2.45392
+            "mean_abs_rgb_error_0_255": 2.367172
           },
           "hand_left": {
             "visible": true,
@@ -319,7 +319,7 @@
               470,
               1317
             ],
-            "mean_abs_rgb_error_0_255": 2.505726
+            "mean_abs_rgb_error_0_255": 2.414651
           },
           "hand_right": {
             "visible": true,
@@ -329,7 +329,7 @@
               638,
               1350
             ],
-            "mean_abs_rgb_error_0_255": 2.385024
+            "mean_abs_rgb_error_0_255": 2.288601
           },
           "shoulder_left": {
             "visible": true,
@@ -339,7 +339,7 @@
               389,
               1112
             ],
-            "mean_abs_rgb_error_0_255": 1.670059
+            "mean_abs_rgb_error_0_255": 1.621019
           },
           "shoulder_right": {
             "visible": true,
@@ -349,7 +349,7 @@
               830,
               1112
             ],
-            "mean_abs_rgb_error_0_255": 2.05858
+            "mean_abs_rgb_error_0_255": 2.015163
           }
         }
       },
@@ -360,7 +360,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "fc0f2ae4c36b95f5ecea1e122b89140f7936a6b8df2627fce4f270a6bddf9d94",
         "fresh_png_sha256": "3686ff0a7cb68dcbf8c9497b736eb75ec9f508573480b956b9e2ecdc05884e9e",
-        "full_frame_mean_abs_rgb_error_0_255": 1.524276,
+        "full_frame_mean_abs_rgb_error_0_255": 1.497106,
         "regions": {
           "faucet": {
             "visible": true,
@@ -370,7 +370,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.578736
+            "mean_abs_rgb_error_0_255": 1.54789
           },
           "bin": {
             "visible": true,
@@ -380,7 +380,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302815
+            "mean_abs_rgb_error_0_255": 1.26347
           },
           "carrot_and_knife": {
             "visible": true,
@@ -390,7 +390,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.326338
+            "mean_abs_rgb_error_0_255": 2.260371
           },
           "paper_roll": {
             "visible": true,
@@ -400,7 +400,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.078887
+            "mean_abs_rgb_error_0_255": 2.035088
           },
           "opening_caption": {
             "visible": true,
@@ -410,7 +410,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.767414
+            "mean_abs_rgb_error_0_255": 1.717482
           },
           "mouth": {
             "visible": true,
@@ -420,7 +420,7 @@
               634,
               1182
             ],
-            "mean_abs_rgb_error_0_255": 1.990667
+            "mean_abs_rgb_error_0_255": 1.907123
           },
           "apron": {
             "visible": true,
@@ -430,7 +430,7 @@
               714,
               1331
             ],
-            "mean_abs_rgb_error_0_255": 2.505096
+            "mean_abs_rgb_error_0_255": 2.413154
           },
           "hand_left": {
             "visible": true,
@@ -440,7 +440,7 @@
               440,
               1315
             ],
-            "mean_abs_rgb_error_0_255": 2.761833
+            "mean_abs_rgb_error_0_255": 2.667824
           },
           "hand_right": {
             "visible": true,
@@ -450,7 +450,7 @@
               621,
               1344
             ],
-            "mean_abs_rgb_error_0_255": 2.360596
+            "mean_abs_rgb_error_0_255": 2.268816
           },
           "shoulder_left": {
             "visible": true,
@@ -460,7 +460,7 @@
               372,
               1106
             ],
-            "mean_abs_rgb_error_0_255": 1.726772
+            "mean_abs_rgb_error_0_255": 1.679075
           },
           "shoulder_right": {
             "visible": true,
@@ -470,7 +470,7 @@
               813,
               1106
             ],
-            "mean_abs_rgb_error_0_255": 2.28789
+            "mean_abs_rgb_error_0_255": 2.157594
           }
         }
       },
@@ -481,7 +481,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "fde7dc4503e4453e12822b209c88b9d628b9b46ffc0521a66a12d568efab2d8b",
         "fresh_png_sha256": "3cd41c75b75daeb579deab72456c83b9c0a62f3b3801c30ea99d2779fdda04bc",
-        "full_frame_mean_abs_rgb_error_0_255": 1.51736,
+        "full_frame_mean_abs_rgb_error_0_255": 1.490111,
         "regions": {
           "faucet": {
             "visible": true,
@@ -491,7 +491,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.578632
+            "mean_abs_rgb_error_0_255": 1.547671
           },
           "bin": {
             "visible": true,
@@ -501,7 +501,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302815
+            "mean_abs_rgb_error_0_255": 1.26347
           },
           "carrot_and_knife": {
             "visible": true,
@@ -511,7 +511,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.436425
+            "mean_abs_rgb_error_0_255": 2.361774
           },
           "paper_roll": {
             "visible": true,
@@ -521,7 +521,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.169053
+            "mean_abs_rgb_error_0_255": 2.110407
           },
           "opening_caption": {
             "visible": true,
@@ -531,7 +531,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.767414
+            "mean_abs_rgb_error_0_255": 1.717482
           },
           "mouth": {
             "visible": true,
@@ -541,7 +541,7 @@
               647,
               1192
             ],
-            "mean_abs_rgb_error_0_255": 1.977121
+            "mean_abs_rgb_error_0_255": 1.893227
           },
           "apron": {
             "visible": true,
@@ -551,7 +551,7 @@
               728,
               1341
             ],
-            "mean_abs_rgb_error_0_255": 2.489086
+            "mean_abs_rgb_error_0_255": 2.394795
           },
           "hand_left": {
             "visible": true,
@@ -561,7 +561,7 @@
               490,
               1310
             ],
-            "mean_abs_rgb_error_0_255": 2.502926
+            "mean_abs_rgb_error_0_255": 2.377077
           },
           "hand_right": {
             "visible": true,
@@ -571,7 +571,7 @@
               634,
               1353
             ],
-            "mean_abs_rgb_error_0_255": 2.42134
+            "mean_abs_rgb_error_0_255": 2.310062
           },
           "shoulder_left": {
             "visible": true,
@@ -581,7 +581,7 @@
               385,
               1116
             ],
-            "mean_abs_rgb_error_0_255": 1.63839
+            "mean_abs_rgb_error_0_255": 1.58812
           },
           "shoulder_right": {
             "visible": true,
@@ -591,7 +591,7 @@
               827,
               1116
             ],
-            "mean_abs_rgb_error_0_255": 2.213669
+            "mean_abs_rgb_error_0_255": 2.122373
           }
         }
       },
@@ -602,7 +602,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "85eb4bff93d0591901d8875babf744a46b8c565e626c535b8f90a97fdd753802",
         "fresh_png_sha256": "58ed039be70d10d4d83a8acc574bcfe652397e16b92e04a6d58b7b497d2d4ea2",
-        "full_frame_mean_abs_rgb_error_0_255": 1.50439,
+        "full_frame_mean_abs_rgb_error_0_255": 1.478199,
         "regions": {
           "faucet": {
             "visible": true,
@@ -612,7 +612,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.580964
+            "mean_abs_rgb_error_0_255": 1.547994
           },
           "bin": {
             "visible": true,
@@ -622,7 +622,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302991
+            "mean_abs_rgb_error_0_255": 1.263298
           },
           "carrot_and_knife": {
             "visible": true,
@@ -632,7 +632,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.347126
+            "mean_abs_rgb_error_0_255": 2.2839
           },
           "paper_roll": {
             "visible": true,
@@ -642,7 +642,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.158564
+            "mean_abs_rgb_error_0_255": 2.111214
           },
           "opening_caption": {
             "visible": true,
@@ -652,7 +652,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.767168
+            "mean_abs_rgb_error_0_255": 1.718872
           },
           "mouth": {
             "visible": true,
@@ -662,7 +662,7 @@
               642,
               1192
             ],
-            "mean_abs_rgb_error_0_255": 2.161242
+            "mean_abs_rgb_error_0_255": 2.102923
           },
           "apron": {
             "visible": true,
@@ -672,7 +672,7 @@
               723,
               1342
             ],
-            "mean_abs_rgb_error_0_255": 2.365336
+            "mean_abs_rgb_error_0_255": 2.285159
           },
           "hand_left": {
             "visible": true,
@@ -682,7 +682,7 @@
               449,
               1325
             ],
-            "mean_abs_rgb_error_0_255": 2.584075
+            "mean_abs_rgb_error_0_255": 2.457371
           },
           "hand_right": {
             "visible": true,
@@ -692,7 +692,7 @@
               630,
               1354
             ],
-            "mean_abs_rgb_error_0_255": 2.274198
+            "mean_abs_rgb_error_0_255": 2.192529
           },
           "shoulder_left": {
             "visible": true,
@@ -702,7 +702,7 @@
               380,
               1117
             ],
-            "mean_abs_rgb_error_0_255": 1.630581
+            "mean_abs_rgb_error_0_255": 1.581563
           },
           "shoulder_right": {
             "visible": true,
@@ -712,7 +712,7 @@
               822,
               1117
             ],
-            "mean_abs_rgb_error_0_255": 2.165995
+            "mean_abs_rgb_error_0_255": 2.065068
           }
         }
       },
@@ -723,7 +723,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "b7d3392c125b48e9e7c3fa8429df98a989028b07f73257f30eea9342615d27bb",
         "fresh_png_sha256": "465b9c1ed58a43ace675ba97396d170cd628e33d0a3993019c1a878ca569bb59",
-        "full_frame_mean_abs_rgb_error_0_255": 1.532634,
+        "full_frame_mean_abs_rgb_error_0_255": 1.503075,
         "regions": {
           "faucet": {
             "visible": true,
@@ -733,7 +733,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.580675
+            "mean_abs_rgb_error_0_255": 1.549841
           },
           "bin": {
             "visible": true,
@@ -743,7 +743,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302974
+            "mean_abs_rgb_error_0_255": 1.263399
           },
           "carrot_and_knife": {
             "visible": true,
@@ -753,7 +753,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.26036
+            "mean_abs_rgb_error_0_255": 2.197859
           },
           "paper_roll": {
             "visible": true,
@@ -763,7 +763,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.059108
+            "mean_abs_rgb_error_0_255": 2.012443
           },
           "opening_caption": {
             "visible": true,
@@ -773,7 +773,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.943704
+            "mean_abs_rgb_error_0_255": 1.875373
           },
           "mouth": {
             "visible": true,
@@ -783,7 +783,7 @@
               655,
               1181
             ],
-            "mean_abs_rgb_error_0_255": 2.026651
+            "mean_abs_rgb_error_0_255": 1.976836
           },
           "apron": {
             "visible": true,
@@ -793,7 +793,7 @@
               735,
               1330
             ],
-            "mean_abs_rgb_error_0_255": 2.315946
+            "mean_abs_rgb_error_0_255": 2.238608
           },
           "hand_left": {
             "visible": true,
@@ -803,7 +803,7 @@
               488,
               1304
             ],
-            "mean_abs_rgb_error_0_255": 2.350217
+            "mean_abs_rgb_error_0_255": 2.243935
           },
           "hand_right": {
             "visible": true,
@@ -813,7 +813,7 @@
               642,
               1343
             ],
-            "mean_abs_rgb_error_0_255": 2.344382
+            "mean_abs_rgb_error_0_255": 2.25205
           },
           "shoulder_left": {
             "visible": true,
@@ -823,7 +823,7 @@
               393,
               1105
             ],
-            "mean_abs_rgb_error_0_255": 1.607745
+            "mean_abs_rgb_error_0_255": 1.533707
           },
           "shoulder_right": {
             "visible": true,
@@ -833,7 +833,7 @@
               835,
               1105
             ],
-            "mean_abs_rgb_error_0_255": 2.068483
+            "mean_abs_rgb_error_0_255": 1.983995
           }
         }
       },
@@ -844,7 +844,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "714adbe96af182631097e66e14292d47d33b0f6a59849e48ecf705da952462de",
         "fresh_png_sha256": "fc40bb288d07c3d8b106a04fa4124c0f47bd5a8515c5b4e2d3d4d190197f0c30",
-        "full_frame_mean_abs_rgb_error_0_255": 1.496191,
+        "full_frame_mean_abs_rgb_error_0_255": 1.469208,
         "regions": {
           "faucet": {
             "visible": true,
@@ -854,7 +854,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.580837
+            "mean_abs_rgb_error_0_255": 1.547994
           },
           "bin": {
             "visible": true,
@@ -864,7 +864,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302771
+            "mean_abs_rgb_error_0_255": 1.263507
           },
           "carrot_and_knife": {
             "visible": true,
@@ -874,7 +874,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.316651
+            "mean_abs_rgb_error_0_255": 2.248352
           },
           "paper_roll": {
             "visible": true,
@@ -884,7 +884,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.095911
+            "mean_abs_rgb_error_0_255": 2.046572
           },
           "opening_caption": {
             "visible": true,
@@ -894,7 +894,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.621807
+            "mean_abs_rgb_error_0_255": 1.575618
           },
           "mouth": {
             "visible": true,
@@ -904,7 +904,7 @@
               652,
               1187
             ],
-            "mean_abs_rgb_error_0_255": 2.103895
+            "mean_abs_rgb_error_0_255": 2.037812
           },
           "apron": {
             "visible": true,
@@ -914,7 +914,7 @@
               732,
               1337
             ],
-            "mean_abs_rgb_error_0_255": 2.356004
+            "mean_abs_rgb_error_0_255": 2.26612
           },
           "hand_left": {
             "visible": true,
@@ -924,7 +924,7 @@
               495,
               1305
             ],
-            "mean_abs_rgb_error_0_255": 2.374948
+            "mean_abs_rgb_error_0_255": 2.262395
           },
           "hand_right": {
             "visible": true,
@@ -934,7 +934,7 @@
               639,
               1349
             ],
-            "mean_abs_rgb_error_0_255": 2.339956
+            "mean_abs_rgb_error_0_255": 2.251664
           },
           "shoulder_left": {
             "visible": true,
@@ -944,7 +944,7 @@
               390,
               1111
             ],
-            "mean_abs_rgb_error_0_255": 1.712133
+            "mean_abs_rgb_error_0_255": 1.66225
           },
           "shoulder_right": {
             "visible": true,
@@ -954,7 +954,7 @@
               831,
               1111
             ],
-            "mean_abs_rgb_error_0_255": 2.119687
+            "mean_abs_rgb_error_0_255": 2.014753
           }
         }
       },
@@ -965,7 +965,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "106b2d7cf5a1219aacf89510a15aee16034b3060e21cdbb3c911f3a199b1b8a4",
         "fresh_png_sha256": "a5b82826faefa5d8bdf73acacba4409d4ceceedf70df06dae55ba903b0f8f3c9",
-        "full_frame_mean_abs_rgb_error_0_255": 1.49974,
+        "full_frame_mean_abs_rgb_error_0_255": 1.474078,
         "regions": {
           "faucet": {
             "visible": true,
@@ -975,7 +975,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.580779
+            "mean_abs_rgb_error_0_255": 1.547994
           },
           "bin": {
             "visible": true,
@@ -985,7 +985,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302771
+            "mean_abs_rgb_error_0_255": 1.263268
           },
           "carrot_and_knife": {
             "visible": true,
@@ -995,7 +995,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.426582
+            "mean_abs_rgb_error_0_255": 2.349048
           },
           "paper_roll": {
             "visible": true,
@@ -1005,7 +1005,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.143284
+            "mean_abs_rgb_error_0_255": 2.0968
           },
           "opening_caption": {
             "visible": true,
@@ -1015,7 +1015,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.627833
+            "mean_abs_rgb_error_0_255": 1.606782
           },
           "mouth": {
             "visible": true,
@@ -1025,7 +1025,7 @@
               649,
               1190
             ],
-            "mean_abs_rgb_error_0_255": 2.272591
+            "mean_abs_rgb_error_0_255": 2.171949
           },
           "apron": {
             "visible": true,
@@ -1035,7 +1035,7 @@
               730,
               1339
             ],
-            "mean_abs_rgb_error_0_255": 2.461094
+            "mean_abs_rgb_error_0_255": 2.354637
           },
           "hand_left": {
             "visible": true,
@@ -1045,7 +1045,7 @@
               498,
               1305
             ],
-            "mean_abs_rgb_error_0_255": 2.468186
+            "mean_abs_rgb_error_0_255": 2.344064
           },
           "hand_right": {
             "visible": true,
@@ -1055,7 +1055,7 @@
               636,
               1352
             ],
-            "mean_abs_rgb_error_0_255": 2.376926
+            "mean_abs_rgb_error_0_255": 2.280754
           },
           "shoulder_left": {
             "visible": true,
@@ -1065,7 +1065,7 @@
               387,
               1114
             ],
-            "mean_abs_rgb_error_0_255": 1.77028
+            "mean_abs_rgb_error_0_255": 1.738201
           },
           "shoulder_right": {
             "visible": true,
@@ -1075,7 +1075,7 @@
               829,
               1114
             ],
-            "mean_abs_rgb_error_0_255": 2.109191
+            "mean_abs_rgb_error_0_255": 2.012408
           }
         }
       },
@@ -1086,7 +1086,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "e5bf384f65f84145d98e15ac2eb88703f238b88f7b5dffc52fdc3d83d81bbda9",
         "fresh_png_sha256": "784ef4a8287cd936f9e4ea756a690b07bfec0cae4258a787ff055cdf9790485d",
-        "full_frame_mean_abs_rgb_error_0_255": 1.514033,
+        "full_frame_mean_abs_rgb_error_0_255": 1.488737,
         "regions": {
           "faucet": {
             "visible": true,
@@ -1096,7 +1096,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.57989
+            "mean_abs_rgb_error_0_255": 1.547382
           },
           "bin": {
             "visible": true,
@@ -1106,7 +1106,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302744
+            "mean_abs_rgb_error_0_255": 1.263234
           },
           "carrot_and_knife": {
             "visible": true,
@@ -1116,7 +1116,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.337636
+            "mean_abs_rgb_error_0_255": 2.265667
           },
           "paper_roll": {
             "visible": true,
@@ -1126,7 +1126,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.083936
+            "mean_abs_rgb_error_0_255": 2.03345
           },
           "opening_caption": {
             "visible": true,
@@ -1136,7 +1136,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.620077
+            "mean_abs_rgb_error_0_255": 1.60769
           },
           "mouth": {
             "visible": true,
@@ -1146,7 +1146,7 @@
               634,
               1183
             ],
-            "mean_abs_rgb_error_0_255": 2.257139
+            "mean_abs_rgb_error_0_255": 2.143418
           },
           "apron": {
             "visible": true,
@@ -1156,7 +1156,7 @@
               715,
               1332
             ],
-            "mean_abs_rgb_error_0_255": 2.472552
+            "mean_abs_rgb_error_0_255": 2.366446
           },
           "hand_left": {
             "visible": true,
@@ -1166,7 +1166,7 @@
               496,
               1290
             ],
-            "mean_abs_rgb_error_0_255": 2.595108
+            "mean_abs_rgb_error_0_255": 2.479989
           },
           "hand_right": {
             "visible": true,
@@ -1176,7 +1176,7 @@
               621,
               1345
             ],
-            "mean_abs_rgb_error_0_255": 2.352363
+            "mean_abs_rgb_error_0_255": 2.267475
           },
           "shoulder_left": {
             "visible": true,
@@ -1186,7 +1186,7 @@
               372,
               1107
             ],
-            "mean_abs_rgb_error_0_255": 1.797487
+            "mean_abs_rgb_error_0_255": 1.755777
           },
           "shoulder_right": {
             "visible": true,
@@ -1196,7 +1196,7 @@
               814,
               1107
             ],
-            "mean_abs_rgb_error_0_255": 2.269563
+            "mean_abs_rgb_error_0_255": 2.162466
           }
         }
       },
@@ -1207,7 +1207,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "33699d023f06f7bd33fd8c4d1dbf5c05c282c5312a89828569e26a69d65761ed",
         "fresh_png_sha256": "bc180bb2de74a3d5389030ac33a3798d3ab09260be04bdc1611db68e5fb06ddd",
-        "full_frame_mean_abs_rgb_error_0_255": 1.506664,
+        "full_frame_mean_abs_rgb_error_0_255": 1.481449,
         "regions": {
           "faucet": {
             "visible": true,
@@ -1217,7 +1217,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.579971
+            "mean_abs_rgb_error_0_255": 1.546828
           },
           "bin": {
             "visible": true,
@@ -1227,7 +1227,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302744
+            "mean_abs_rgb_error_0_255": 1.263234
           },
           "carrot_and_knife": {
             "visible": true,
@@ -1237,7 +1237,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.247674
+            "mean_abs_rgb_error_0_255": 2.187264
           },
           "paper_roll": {
             "visible": true,
@@ -1247,7 +1247,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.073371
+            "mean_abs_rgb_error_0_255": 2.02794
           },
           "opening_caption": {
             "visible": true,
@@ -1257,7 +1257,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.620072
+            "mean_abs_rgb_error_0_255": 1.60769
           },
           "mouth": {
             "visible": true,
@@ -1267,7 +1267,7 @@
               632,
               1179
             ],
-            "mean_abs_rgb_error_0_255": 2.118984
+            "mean_abs_rgb_error_0_255": 2.046289
           },
           "apron": {
             "visible": true,
@@ -1277,7 +1277,7 @@
               713,
               1328
             ],
-            "mean_abs_rgb_error_0_255": 2.347664
+            "mean_abs_rgb_error_0_255": 2.26863
           },
           "hand_left": {
             "visible": true,
@@ -1287,7 +1287,7 @@
               494,
               1286
             ],
-            "mean_abs_rgb_error_0_255": 2.551397
+            "mean_abs_rgb_error_0_255": 2.458679
           },
           "hand_right": {
             "visible": true,
@@ -1297,7 +1297,7 @@
               619,
               1340
             ],
-            "mean_abs_rgb_error_0_255": 2.261254
+            "mean_abs_rgb_error_0_255": 2.173398
           },
           "shoulder_left": {
             "visible": true,
@@ -1307,7 +1307,7 @@
               370,
               1103
             ],
-            "mean_abs_rgb_error_0_255": 1.760399
+            "mean_abs_rgb_error_0_255": 1.706509
           },
           "shoulder_right": {
             "visible": true,
@@ -1317,7 +1317,7 @@
               812,
               1103
             ],
-            "mean_abs_rgb_error_0_255": 2.154179
+            "mean_abs_rgb_error_0_255": 2.081484
           }
         }
       },
@@ -1328,7 +1328,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "03c89f289ecd4622353d0f71f1b837dfb732975597716e61df7aa14a302dfbca",
         "fresh_png_sha256": "1199cfe1951dd4ea422b314b1101f33412d9569bc6c1f51a2524bb77d6b5a345",
-        "full_frame_mean_abs_rgb_error_0_255": 1.514427,
+        "full_frame_mean_abs_rgb_error_0_255": 1.488425,
         "regions": {
           "faucet": {
             "visible": true,
@@ -1338,7 +1338,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.57974
+            "mean_abs_rgb_error_0_255": 1.548029
           },
           "bin": {
             "visible": true,
@@ -1348,7 +1348,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302974
+            "mean_abs_rgb_error_0_255": 1.263237
           },
           "carrot_and_knife": {
             "visible": true,
@@ -1358,7 +1358,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.366554
+            "mean_abs_rgb_error_0_255": 2.291789
           },
           "paper_roll": {
             "visible": true,
@@ -1368,7 +1368,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.106277
+            "mean_abs_rgb_error_0_255": 2.058336
           },
           "opening_caption": {
             "visible": true,
@@ -1378,7 +1378,7 @@
               984,
               636
             ],
-            "mean_abs_rgb_error_0_255": 1.620072
+            "mean_abs_rgb_error_0_255": 1.60769
           },
           "mouth": {
             "visible": true,
@@ -1388,7 +1388,7 @@
               636,
               1186
             ],
-            "mean_abs_rgb_error_0_255": 2.337118
+            "mean_abs_rgb_error_0_255": 2.26935
           },
           "apron": {
             "visible": true,
@@ -1398,7 +1398,7 @@
               716,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.530667
+            "mean_abs_rgb_error_0_255": 2.434363
           },
           "hand_left": {
             "visible": true,
@@ -1408,7 +1408,7 @@
               498,
               1293
             ],
-            "mean_abs_rgb_error_0_255": 2.679275
+            "mean_abs_rgb_error_0_255": 2.569455
           },
           "hand_right": {
             "visible": true,
@@ -1418,7 +1418,7 @@
               623,
               1348
             ],
-            "mean_abs_rgb_error_0_255": 2.390339
+            "mean_abs_rgb_error_0_255": 2.282414
           },
           "shoulder_left": {
             "visible": true,
@@ -1428,7 +1428,7 @@
               374,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.809212
+            "mean_abs_rgb_error_0_255": 1.77267
           },
           "shoulder_right": {
             "visible": true,
@@ -1438,7 +1438,7 @@
               815,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 2.176172
+            "mean_abs_rgb_error_0_255": 2.078956
           }
         }
       },
@@ -1449,7 +1449,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "b935ebbae74676bb9ffbd03d0317c8aad41ba040c193538e14e32efef405b06f",
         "fresh_png_sha256": "ac1fbbd6fa798549c6df0f1eb126dd09bf409fdff889a4316e9edaf34bf2b3a1",
-        "full_frame_mean_abs_rgb_error_0_255": 1.511488,
+        "full_frame_mean_abs_rgb_error_0_255": 1.485062,
         "regions": {
           "faucet": {
             "visible": true,
@@ -1459,7 +1459,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.579382
+            "mean_abs_rgb_error_0_255": 1.546505
           },
           "bin": {
             "visible": true,
@@ -1469,7 +1469,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302744
+            "mean_abs_rgb_error_0_255": 1.263237
           },
           "carrot_and_knife": {
             "visible": true,
@@ -1479,7 +1479,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.243423
+            "mean_abs_rgb_error_0_255": 2.180519
           },
           "paper_roll": {
             "visible": true,
@@ -1489,7 +1489,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.06421
+            "mean_abs_rgb_error_0_255": 2.024079
           },
           "mouth": {
             "visible": true,
@@ -1499,7 +1499,7 @@
               632,
               1179
             ],
-            "mean_abs_rgb_error_0_255": 2.134707
+            "mean_abs_rgb_error_0_255": 2.052136
           },
           "apron": {
             "visible": true,
@@ -1509,7 +1509,7 @@
               713,
               1328
             ],
-            "mean_abs_rgb_error_0_255": 2.397629
+            "mean_abs_rgb_error_0_255": 2.303205
           },
           "hand_left": {
             "visible": true,
@@ -1519,7 +1519,7 @@
               446,
               1310
             ],
-            "mean_abs_rgb_error_0_255": 2.794192
+            "mean_abs_rgb_error_0_255": 2.679426
           },
           "hand_right": {
             "visible": true,
@@ -1529,7 +1529,7 @@
               619,
               1341
             ],
-            "mean_abs_rgb_error_0_255": 2.276562
+            "mean_abs_rgb_error_0_255": 2.17593
           },
           "shoulder_left": {
             "visible": true,
@@ -1539,7 +1539,7 @@
               370,
               1103
             ],
-            "mean_abs_rgb_error_0_255": 1.700271
+            "mean_abs_rgb_error_0_255": 1.630786
           },
           "shoulder_right": {
             "visible": true,
@@ -1549,7 +1549,7 @@
               812,
               1103
             ],
-            "mean_abs_rgb_error_0_255": 2.169023
+            "mean_abs_rgb_error_0_255": 2.118207
           }
         }
       },
@@ -1560,7 +1560,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "9d0f97af2ab2d168e510740e0b080dbc554896ad359c8285b369cd7f8052f94a",
         "fresh_png_sha256": "2294478b46571868031fcf201afbfa2d78ba0d52e0602b7b48bf792e2b875a6b",
-        "full_frame_mean_abs_rgb_error_0_255": 1.517966,
+        "full_frame_mean_abs_rgb_error_0_255": 1.48997,
         "regions": {
           "faucet": {
             "visible": true,
@@ -1570,7 +1570,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.57869
+            "mean_abs_rgb_error_0_255": 1.548398
           },
           "bin": {
             "visible": true,
@@ -1580,7 +1580,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302643
+            "mean_abs_rgb_error_0_255": 1.263234
           },
           "carrot_and_knife": {
             "visible": true,
@@ -1590,7 +1590,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.299548
+            "mean_abs_rgb_error_0_255": 2.227041
           },
           "paper_roll": {
             "visible": true,
@@ -1600,7 +1600,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.073523
+            "mean_abs_rgb_error_0_255": 2.023453
           },
           "mouth": {
             "visible": true,
@@ -1610,7 +1610,7 @@
               633,
               1181
             ],
-            "mean_abs_rgb_error_0_255": 2.253782
+            "mean_abs_rgb_error_0_255": 2.133735
           },
           "apron": {
             "visible": true,
@@ -1620,7 +1620,7 @@
               714,
               1331
             ],
-            "mean_abs_rgb_error_0_255": 2.479792
+            "mean_abs_rgb_error_0_255": 2.364527
           },
           "hand_left": {
             "visible": true,
@@ -1630,7 +1630,7 @@
               456,
               1309
             ],
-            "mean_abs_rgb_error_0_255": 2.706252
+            "mean_abs_rgb_error_0_255": 2.570377
           },
           "hand_right": {
             "visible": true,
@@ -1640,7 +1640,7 @@
               620,
               1343
             ],
-            "mean_abs_rgb_error_0_255": 2.347937
+            "mean_abs_rgb_error_0_255": 2.224402
           },
           "shoulder_left": {
             "visible": true,
@@ -1650,7 +1650,7 @@
               371,
               1105
             ],
-            "mean_abs_rgb_error_0_255": 1.723835
+            "mean_abs_rgb_error_0_255": 1.665323
           },
           "shoulder_right": {
             "visible": true,
@@ -1660,7 +1660,7 @@
               813,
               1105
             ],
-            "mean_abs_rgb_error_0_255": 2.234
+            "mean_abs_rgb_error_0_255": 2.148646
           }
         }
       },
@@ -1671,7 +1671,7 @@
         "phase": "remuer",
         "fresh_svg_sha256": "873439c704ff4a4e2ea2e70fa173e0adaab4f355fc07235ebe92b5454fcf678c",
         "fresh_png_sha256": "237ba257380764c2a90178b29953a98213e111ad2b6568a4b8c32c7f34576f42",
-        "full_frame_mean_abs_rgb_error_0_255": 1.496621,
+        "full_frame_mean_abs_rgb_error_0_255": 1.472963,
         "regions": {
           "faucet": {
             "visible": true,
@@ -1681,7 +1681,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.580087
+            "mean_abs_rgb_error_0_255": 1.547694
           },
           "bin": {
             "visible": true,
@@ -1691,7 +1691,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302933
+            "mean_abs_rgb_error_0_255": 1.263237
           },
           "carrot_and_knife": {
             "visible": true,
@@ -1701,7 +1701,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.249981
+            "mean_abs_rgb_error_0_255": 2.193369
           },
           "paper_roll": {
             "visible": true,
@@ -1711,7 +1711,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.118697
+            "mean_abs_rgb_error_0_255": 2.074939
           },
           "mouth": {
             "visible": true,
@@ -1721,7 +1721,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 2.075728
+            "mean_abs_rgb_error_0_255": 1.995424
           },
           "apron": {
             "visible": true,
@@ -1731,7 +1731,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.307344
+            "mean_abs_rgb_error_0_255": 2.239271
           },
           "hand_left": {
             "visible": true,
@@ -1741,7 +1741,7 @@
               506,
               1293
             ],
-            "mean_abs_rgb_error_0_255": 2.595728
+            "mean_abs_rgb_error_0_255": 2.507553
           },
           "hand_right": {
             "visible": true,
@@ -1751,7 +1751,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.226414
+            "mean_abs_rgb_error_0_255": 2.151904
           },
           "shoulder_left": {
             "visible": true,
@@ -1761,7 +1761,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.794208
+            "mean_abs_rgb_error_0_255": 1.750905
           },
           "shoulder_right": {
             "visible": true,
@@ -1771,7 +1771,7 @@
               823,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 2.035039
+            "mean_abs_rgb_error_0_255": 1.961524
           }
         }
       },
@@ -1782,7 +1782,7 @@
         "phase": "poser_cuillere",
         "fresh_svg_sha256": "612c5137d33d9253991a0492e7e4cb60950cb435e43874e33a444afa0a8b84d0",
         "fresh_png_sha256": "1b8373ef8272e77dd90c94822f0fb59d436daf567e9ea29e8c2d7711ee8584dc",
-        "full_frame_mean_abs_rgb_error_0_255": 1.486268,
+        "full_frame_mean_abs_rgb_error_0_255": 1.463019,
         "regions": {
           "faucet": {
             "visible": true,
@@ -1792,7 +1792,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.58004
+            "mean_abs_rgb_error_0_255": 1.547671
           },
           "bin": {
             "visible": true,
@@ -1802,7 +1802,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302933
+            "mean_abs_rgb_error_0_255": 1.263234
           },
           "carrot_and_knife": {
             "visible": true,
@@ -1812,7 +1812,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.253079
+            "mean_abs_rgb_error_0_255": 2.195792
           },
           "paper_roll": {
             "visible": true,
@@ -1822,7 +1822,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.124886
+            "mean_abs_rgb_error_0_255": 2.085486
           },
           "mouth": {
             "visible": true,
@@ -1832,7 +1832,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 2.024625
+            "mean_abs_rgb_error_0_255": 1.955999
           },
           "apron": {
             "visible": true,
@@ -1842,7 +1842,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.288954
+            "mean_abs_rgb_error_0_255": 2.222959
           },
           "hand_left": {
             "visible": true,
@@ -1852,7 +1852,7 @@
               531,
               1277
             ],
-            "mean_abs_rgb_error_0_255": 2.639857
+            "mean_abs_rgb_error_0_255": 2.554935
           },
           "hand_right": {
             "visible": true,
@@ -1862,7 +1862,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.167748
+            "mean_abs_rgb_error_0_255": 2.101001
           },
           "shoulder_left": {
             "visible": true,
@@ -1872,7 +1872,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.652847
+            "mean_abs_rgb_error_0_255": 1.610022
           },
           "shoulder_right": {
             "visible": true,
@@ -1882,7 +1882,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 2.035858
+            "mean_abs_rgb_error_0_255": 1.968285
           }
         }
       },
@@ -1893,7 +1893,7 @@
         "phase": "inspecter_main",
         "fresh_svg_sha256": "34e77000c577ac99b9ce4c177cd8d93371031e3a05ccc3d54a38ac9ead58be12",
         "fresh_png_sha256": "48f6130e134bd660bcc1285acf57216596ce9b95bfb1cf38499ddfd3d16a9f6e",
-        "full_frame_mean_abs_rgb_error_0_255": 1.482793,
+        "full_frame_mean_abs_rgb_error_0_255": 1.45921,
         "regions": {
           "faucet": {
             "visible": true,
@@ -1903,7 +1903,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.579948
+            "mean_abs_rgb_error_0_255": 1.547694
           },
           "bin": {
             "visible": true,
@@ -1913,7 +1913,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302933
+            "mean_abs_rgb_error_0_255": 1.263234
           },
           "carrot_and_knife": {
             "visible": true,
@@ -1923,7 +1923,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.260844
+            "mean_abs_rgb_error_0_255": 2.199813
           },
           "paper_roll": {
             "visible": true,
@@ -1933,7 +1933,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.122686
+            "mean_abs_rgb_error_0_255": 2.085714
           },
           "mouth": {
             "visible": true,
@@ -1943,7 +1943,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.749732
+            "mean_abs_rgb_error_0_255": 1.708017
           },
           "apron": {
             "visible": true,
@@ -1953,7 +1953,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.276823
+            "mean_abs_rgb_error_0_255": 2.203167
           },
           "hand_left": {
             "visible": true,
@@ -1963,7 +1963,7 @@
               540,
               1317
             ],
-            "mean_abs_rgb_error_0_255": 2.405379
+            "mean_abs_rgb_error_0_255": 2.315729
           },
           "hand_right": {
             "visible": true,
@@ -1973,7 +1973,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.177305
+            "mean_abs_rgb_error_0_255": 2.110927
           },
           "shoulder_left": {
             "visible": true,
@@ -1983,7 +1983,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.704028
+            "mean_abs_rgb_error_0_255": 1.651618
           },
           "shoulder_right": {
             "visible": true,
@@ -1993,7 +1993,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 2.035835
+            "mean_abs_rgb_error_0_255": 1.968035
           }
         }
       },
@@ -2004,7 +2004,7 @@
         "phase": "inspecter_main",
         "fresh_svg_sha256": "839f5e11fa236163c6812246672c8bb517d485d9ce30abb510d07a63227bb3bf",
         "fresh_png_sha256": "a80f9419df427b1643366e5d7f827e20ff4e1e92ea596567fd5e4bffdf34e302",
-        "full_frame_mean_abs_rgb_error_0_255": 1.482746,
+        "full_frame_mean_abs_rgb_error_0_255": 1.459794,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2014,7 +2014,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.57974
+            "mean_abs_rgb_error_0_255": 1.547671
           },
           "bin": {
             "visible": true,
@@ -2024,7 +2024,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302933
+            "mean_abs_rgb_error_0_255": 1.263234
           },
           "carrot_and_knife": {
             "visible": true,
@@ -2034,7 +2034,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.225561
+            "mean_abs_rgb_error_0_255": 2.168981
           },
           "paper_roll": {
             "visible": true,
@@ -2044,7 +2044,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.124658
+            "mean_abs_rgb_error_0_255": 2.085714
           },
           "mouth": {
             "visible": true,
@@ -2054,7 +2054,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.718854
+            "mean_abs_rgb_error_0_255": 1.677047
           },
           "apron": {
             "visible": true,
@@ -2064,7 +2064,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.241895
+            "mean_abs_rgb_error_0_255": 2.176924
           },
           "hand_left": {
             "visible": true,
@@ -2074,7 +2074,7 @@
               545,
               1235
             ],
-            "mean_abs_rgb_error_0_255": 2.26045
+            "mean_abs_rgb_error_0_255": 2.181497
           },
           "hand_right": {
             "visible": true,
@@ -2084,7 +2084,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.177255
+            "mean_abs_rgb_error_0_255": 2.109636
           },
           "shoulder_left": {
             "visible": true,
@@ -2094,7 +2094,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.664914
+            "mean_abs_rgb_error_0_255": 1.605378
           },
           "shoulder_right": {
             "visible": true,
@@ -2104,7 +2104,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 2.035767
+            "mean_abs_rgb_error_0_255": 1.968035
           }
         }
       },
@@ -2115,7 +2115,7 @@
         "phase": "inspecter_main",
         "fresh_svg_sha256": "afe3858f4815d74bd3e5913beab33835ea3a2f4668b21bd4251f72d9e0b3da5d",
         "fresh_png_sha256": "de0631bc9920fda9adb60633af04db439afb91525454292ecf476f286206fb6b",
-        "full_frame_mean_abs_rgb_error_0_255": 1.482967,
+        "full_frame_mean_abs_rgb_error_0_255": 1.459992,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2125,7 +2125,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.57974
+            "mean_abs_rgb_error_0_255": 1.547671
           },
           "bin": {
             "visible": true,
@@ -2135,7 +2135,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302933
+            "mean_abs_rgb_error_0_255": 1.263234
           },
           "carrot_and_knife": {
             "visible": true,
@@ -2145,7 +2145,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.225635
+            "mean_abs_rgb_error_0_255": 2.16837
           },
           "paper_roll": {
             "visible": true,
@@ -2155,7 +2155,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.124693
+            "mean_abs_rgb_error_0_255": 2.085714
           },
           "mouth": {
             "visible": true,
@@ -2165,7 +2165,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.717535
+            "mean_abs_rgb_error_0_255": 1.676916
           },
           "apron": {
             "visible": true,
@@ -2175,7 +2175,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.242874
+            "mean_abs_rgb_error_0_255": 2.1767
           },
           "hand_left": {
             "visible": true,
@@ -2185,7 +2185,7 @@
               545,
               1235
             ],
-            "mean_abs_rgb_error_0_255": 2.260248
+            "mean_abs_rgb_error_0_255": 2.181647
           },
           "hand_right": {
             "visible": true,
@@ -2195,7 +2195,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.178797
+            "mean_abs_rgb_error_0_255": 2.109418
           },
           "shoulder_left": {
             "visible": true,
@@ -2205,7 +2205,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.663661
+            "mean_abs_rgb_error_0_255": 1.606106
           },
           "shoulder_right": {
             "visible": true,
@@ -2215,7 +2215,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 2.035494
+            "mean_abs_rgb_error_0_255": 1.968035
           }
         }
       },
@@ -2226,7 +2226,7 @@
         "phase": "inspecter_main",
         "fresh_svg_sha256": "afe3858f4815d74bd3e5913beab33835ea3a2f4668b21bd4251f72d9e0b3da5d",
         "fresh_png_sha256": "de0631bc9920fda9adb60633af04db439afb91525454292ecf476f286206fb6b",
-        "full_frame_mean_abs_rgb_error_0_255": 1.483003,
+        "full_frame_mean_abs_rgb_error_0_255": 1.459865,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2236,7 +2236,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.57974
+            "mean_abs_rgb_error_0_255": 1.547671
           },
           "bin": {
             "visible": true,
@@ -2246,7 +2246,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.302933
+            "mean_abs_rgb_error_0_255": 1.263659
           },
           "carrot_and_knife": {
             "visible": true,
@@ -2256,7 +2256,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.22567
+            "mean_abs_rgb_error_0_255": 2.168458
           },
           "paper_roll": {
             "visible": true,
@@ -2266,7 +2266,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.124693
+            "mean_abs_rgb_error_0_255": 2.085714
           },
           "mouth": {
             "visible": true,
@@ -2276,7 +2276,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.717535
+            "mean_abs_rgb_error_0_255": 1.677086
           },
           "apron": {
             "visible": true,
@@ -2286,7 +2286,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.242997
+            "mean_abs_rgb_error_0_255": 2.176879
           },
           "hand_left": {
             "visible": true,
@@ -2296,7 +2296,7 @@
               545,
               1235
             ],
-            "mean_abs_rgb_error_0_255": 2.260416
+            "mean_abs_rgb_error_0_255": 2.181547
           },
           "hand_right": {
             "visible": true,
@@ -2306,7 +2306,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.178797
+            "mean_abs_rgb_error_0_255": 2.109636
           },
           "shoulder_left": {
             "visible": true,
@@ -2316,7 +2316,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.664003
+            "mean_abs_rgb_error_0_255": 1.606197
           },
           "shoulder_right": {
             "visible": true,
@@ -2326,7 +2326,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 2.035494
+            "mean_abs_rgb_error_0_255": 1.968581
           }
         }
       },
@@ -2337,7 +2337,7 @@
         "phase": "laver",
         "fresh_svg_sha256": "3acf8c6a3255f78237d41409fd7b010c99aa12e44a753ecd1317e5c33b40571a",
         "fresh_png_sha256": "5c305f9c305f5049a3e520af3ab2f2a4f47c4f009c53615a0d99ff8f6ccb8ae4",
-        "full_frame_mean_abs_rgb_error_0_255": 1.582563,
+        "full_frame_mean_abs_rgb_error_0_255": 1.569271,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2347,7 +2347,7 @@
               988,
               1076
             ],
-            "mean_abs_rgb_error_0_255": 1.382568
+            "mean_abs_rgb_error_0_255": 1.354151
           },
           "bin": {
             "visible": false
@@ -2372,7 +2372,7 @@
               696,
               1348
             ],
-            "mean_abs_rgb_error_0_255": 1.587889
+            "mean_abs_rgb_error_0_255": 1.551017
           },
           "hand_right": {
             "visible": false
@@ -2392,7 +2392,7 @@
         "phase": "laver",
         "fresh_svg_sha256": "43c81eccf66a397c5e67dd8f7cb0d70673c7ea04133e1e0523fb02395f2b22e3",
         "fresh_png_sha256": "74955f82686f5751c81451356e1bd852d099fe35606c11fd14765d17581a82ee",
-        "full_frame_mean_abs_rgb_error_0_255": 1.578681,
+        "full_frame_mean_abs_rgb_error_0_255": 1.566337,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2402,7 +2402,7 @@
               988,
               1076
             ],
-            "mean_abs_rgb_error_0_255": 1.363267
+            "mean_abs_rgb_error_0_255": 1.335245
           },
           "bin": {
             "visible": false
@@ -2427,7 +2427,7 @@
               681,
               1343
             ],
-            "mean_abs_rgb_error_0_255": 1.572253
+            "mean_abs_rgb_error_0_255": 1.53722
           },
           "hand_right": {
             "visible": false
@@ -2447,7 +2447,7 @@
         "phase": "papier",
         "fresh_svg_sha256": "0c42db447e2a6a0b75f1b4c263bfd003c6c9c04f3a91b1df5eacec301d70a13b",
         "fresh_png_sha256": "97c60f3a1212a65f8903d9374d11cb6270108262848aef50dc41f1b7085b3515",
-        "full_frame_mean_abs_rgb_error_0_255": 1.454373,
+        "full_frame_mean_abs_rgb_error_0_255": 1.436883,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2457,7 +2457,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.535711
+            "mean_abs_rgb_error_0_255": 1.497235
           },
           "bin": {
             "visible": true,
@@ -2467,7 +2467,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.245559
+            "mean_abs_rgb_error_0_255": 1.211622
           },
           "carrot_and_knife": {
             "visible": true,
@@ -2477,7 +2477,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.298304
+            "mean_abs_rgb_error_0_255": 2.223565
           },
           "paper_roll": {
             "visible": true,
@@ -2487,7 +2487,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.027793
+            "mean_abs_rgb_error_0_255": 1.989043
           },
           "mouth": {
             "visible": true,
@@ -2497,7 +2497,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.698068
+            "mean_abs_rgb_error_0_255": 1.666967
           },
           "apron": {
             "visible": true,
@@ -2507,7 +2507,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.284886
+            "mean_abs_rgb_error_0_255": 2.196279
           },
           "hand_left": {
             "visible": true,
@@ -2517,7 +2517,7 @@
               565,
               1290
             ],
-            "mean_abs_rgb_error_0_255": 2.36301
+            "mean_abs_rgb_error_0_255": 2.296246
           },
           "hand_right": {
             "visible": true,
@@ -2527,7 +2527,7 @@
               659,
               1298
             ],
-            "mean_abs_rgb_error_0_255": 2.374243
+            "mean_abs_rgb_error_0_255": 2.268011
           },
           "shoulder_left": {
             "visible": true,
@@ -2537,7 +2537,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.575075
+            "mean_abs_rgb_error_0_255": 1.514286
           },
           "shoulder_right": {
             "visible": true,
@@ -2547,7 +2547,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.889284
+            "mean_abs_rgb_error_0_255": 1.811989
           }
         }
       },
@@ -2558,7 +2558,7 @@
         "phase": "jeter",
         "fresh_svg_sha256": "cd4e04c7a4253bee25b4ba21be32eb49b85ff0552af40e6ee690d2e921191c97",
         "fresh_png_sha256": "899252339ac041b49eda4cb712144bc14294f7fcc18858183ed2553598d7058f",
-        "full_frame_mean_abs_rgb_error_0_255": 1.350713,
+        "full_frame_mean_abs_rgb_error_0_255": 1.326628,
         "regions": {
           "faucet": {
             "visible": false
@@ -2571,7 +2571,7 @@
               793,
               1604
             ],
-            "mean_abs_rgb_error_0_255": 1.215154
+            "mean_abs_rgb_error_0_255": 1.1773
           },
           "carrot_and_knife": {
             "visible": false
@@ -2606,7 +2606,7 @@
         "phase": "ajouter_tomate",
         "fresh_svg_sha256": "ee68a45da8d14a612932858417a5bd2dc284b80c01bbf646d310349be918d4f6",
         "fresh_png_sha256": "d9c3e35611691c75fecb9985da117e2dc04412ca48d044a36c4a93b0a78f6fa8",
-        "full_frame_mean_abs_rgb_error_0_255": 1.457864,
+        "full_frame_mean_abs_rgb_error_0_255": 1.442354,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2616,7 +2616,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.544185
+            "mean_abs_rgb_error_0_255": 1.507763
           },
           "bin": {
             "visible": true,
@@ -2626,7 +2626,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.349688
+            "mean_abs_rgb_error_0_255": 1.304172
           },
           "carrot_and_knife": {
             "visible": true,
@@ -2636,7 +2636,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.156365
+            "mean_abs_rgb_error_0_255": 2.121335
           },
           "paper_roll": {
             "visible": true,
@@ -2646,7 +2646,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.023932
+            "mean_abs_rgb_error_0_255": 1.997075
           },
           "mouth": {
             "visible": true,
@@ -2656,7 +2656,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.88599
+            "mean_abs_rgb_error_0_255": 1.85314
           },
           "apron": {
             "visible": true,
@@ -2666,7 +2666,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.193475
+            "mean_abs_rgb_error_0_255": 2.143529
           },
           "hand_left": {
             "visible": true,
@@ -2676,7 +2676,7 @@
               600,
               1339
             ],
-            "mean_abs_rgb_error_0_255": 2.217595
+            "mean_abs_rgb_error_0_255": 2.156129
           },
           "hand_right": {
             "visible": true,
@@ -2686,7 +2686,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.257935
+            "mean_abs_rgb_error_0_255": 2.203662
           },
           "shoulder_left": {
             "visible": true,
@@ -2696,7 +2696,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.596772
+            "mean_abs_rgb_error_0_255": 1.540059
           },
           "shoulder_right": {
             "visible": true,
@@ -2706,7 +2706,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.907452
+            "mean_abs_rgb_error_0_255": 1.875305
           }
         }
       },
@@ -2717,7 +2717,7 @@
         "phase": "ajouter_tomate",
         "fresh_svg_sha256": "9a64a0ffdf999f19773773b0b3fcfb758818c0e8c251cadc2943b4e2e4a3f1ff",
         "fresh_png_sha256": "15af8afbfecef1a1ca317efb56bc804bccaf64d45546e020a3ca01932a9e8a86",
-        "full_frame_mean_abs_rgb_error_0_255": 1.462665,
+        "full_frame_mean_abs_rgb_error_0_255": 1.446825,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2727,7 +2727,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.645599
+            "mean_abs_rgb_error_0_255": 1.604895
           },
           "bin": {
             "visible": true,
@@ -2737,7 +2737,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.348115
+            "mean_abs_rgb_error_0_255": 1.304253
           },
           "carrot_and_knife": {
             "visible": true,
@@ -2747,7 +2747,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.100887
+            "mean_abs_rgb_error_0_255": 2.069412
           },
           "paper_roll": {
             "visible": true,
@@ -2757,7 +2757,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.023932
+            "mean_abs_rgb_error_0_255": 1.997075
           },
           "mouth": {
             "visible": true,
@@ -2767,7 +2767,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.88599
+            "mean_abs_rgb_error_0_255": 1.85314
           },
           "apron": {
             "visible": true,
@@ -2777,7 +2777,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.145084
+            "mean_abs_rgb_error_0_255": 2.103615
           },
           "hand_left": {
             "visible": true,
@@ -2787,7 +2787,7 @@
               436,
               1286
             ],
-            "mean_abs_rgb_error_0_255": 2.805694
+            "mean_abs_rgb_error_0_255": 2.740053
           },
           "hand_right": {
             "visible": true,
@@ -2797,7 +2797,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 1.951662
+            "mean_abs_rgb_error_0_255": 1.914122
           },
           "shoulder_left": {
             "visible": true,
@@ -2807,7 +2807,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.38991
+            "mean_abs_rgb_error_0_255": 1.33454
           },
           "shoulder_right": {
             "visible": true,
@@ -2817,7 +2817,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.907452
+            "mean_abs_rgb_error_0_255": 1.875305
           }
         }
       },
@@ -2828,7 +2828,7 @@
         "phase": "ajouter_tomate",
         "fresh_svg_sha256": "7385d28603362cecb03ca36f58fecaa078a9055938a34ee5be73d6202fd49644",
         "fresh_png_sha256": "7b34d7bba7ffcd82bfac2beac4837ba9e0539943aeec4323d79bac495ae4a165",
-        "full_frame_mean_abs_rgb_error_0_255": 1.462639,
+        "full_frame_mean_abs_rgb_error_0_255": 1.447004,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2838,7 +2838,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.62976
+            "mean_abs_rgb_error_0_255": 1.584115
           },
           "bin": {
             "visible": true,
@@ -2848,7 +2848,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.348115
+            "mean_abs_rgb_error_0_255": 1.304253
           },
           "carrot_and_knife": {
             "visible": true,
@@ -2858,7 +2858,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.100904
+            "mean_abs_rgb_error_0_255": 2.069369
           },
           "paper_roll": {
             "visible": true,
@@ -2868,7 +2868,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.023932
+            "mean_abs_rgb_error_0_255": 1.997075
           },
           "mouth": {
             "visible": true,
@@ -2878,7 +2878,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.88599
+            "mean_abs_rgb_error_0_255": 1.85314
           },
           "apron": {
             "visible": true,
@@ -2888,7 +2888,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.231587
+            "mean_abs_rgb_error_0_255": 2.178283
           },
           "hand_left": {
             "visible": true,
@@ -2898,7 +2898,7 @@
               496,
               1267
             ],
-            "mean_abs_rgb_error_0_255": 2.547306
+            "mean_abs_rgb_error_0_255": 2.487752
           },
           "hand_right": {
             "visible": true,
@@ -2908,7 +2908,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 1.951662
+            "mean_abs_rgb_error_0_255": 1.913485
           },
           "shoulder_left": {
             "visible": true,
@@ -2918,7 +2918,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.70191
+            "mean_abs_rgb_error_0_255": 1.621929
           },
           "shoulder_right": {
             "visible": true,
@@ -2928,7 +2928,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.907452
+            "mean_abs_rgb_error_0_255": 1.875305
           }
         }
       },
@@ -2939,7 +2939,7 @@
         "phase": "laver",
         "fresh_svg_sha256": "e0743c0c0b6ba759e6c3acca4a1f4fedddf0adcc4b998bf869b1eb92899a5152",
         "fresh_png_sha256": "46804416c4cba901dc83c329d6b73d8bf95d0c5b75b1b66b0bfd4117dc482de0",
-        "full_frame_mean_abs_rgb_error_0_255": 1.584629,
+        "full_frame_mean_abs_rgb_error_0_255": 1.570975,
         "regions": {
           "faucet": {
             "visible": true,
@@ -2949,7 +2949,7 @@
               988,
               1076
             ],
-            "mean_abs_rgb_error_0_255": 1.38404
+            "mean_abs_rgb_error_0_255": 1.353557
           },
           "bin": {
             "visible": false
@@ -2974,7 +2974,7 @@
               687,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 1.586654
+            "mean_abs_rgb_error_0_255": 1.55265
           },
           "hand_right": {
             "visible": false
@@ -2994,7 +2994,7 @@
         "phase": "jeter",
         "fresh_svg_sha256": "c20ceca17b5643d81759fdd4684f10eadc48247708f2c6e61b7f9bc8f30d6f96",
         "fresh_png_sha256": "b8c26c5ac6265ed741b2d8190c03fceac78e6038b9f6619ac0450846b071bf23",
-        "full_frame_mean_abs_rgb_error_0_255": 1.402332,
+        "full_frame_mean_abs_rgb_error_0_255": 1.374228,
         "regions": {
           "faucet": {
             "visible": false
@@ -3007,7 +3007,7 @@
               793,
               1604
             ],
-            "mean_abs_rgb_error_0_255": 1.343581
+            "mean_abs_rgb_error_0_255": 1.292696
           },
           "carrot_and_knife": {
             "visible": false
@@ -3042,7 +3042,7 @@
         "phase": "decouper_carotte",
         "fresh_svg_sha256": "72602e19afcbb10e2b6e33b4d87093ee3fedfd105ee59d7499ee70bd187d1fb7",
         "fresh_png_sha256": "e2f1dc2d0bcad8a0b0c303bc021021e6d1145e5b6fe467feef57d590806964ea",
-        "full_frame_mean_abs_rgb_error_0_255": 1.539469,
+        "full_frame_mean_abs_rgb_error_0_255": 1.503125,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3052,7 +3052,7 @@
               188,
               1098
             ],
-            "mean_abs_rgb_error_0_255": 1.68126
+            "mean_abs_rgb_error_0_255": 1.634483
           },
           "bin": {
             "visible": true,
@@ -3062,7 +3062,7 @@
               237,
               1832
             ],
-            "mean_abs_rgb_error_0_255": 1.600209
+            "mean_abs_rgb_error_0_255": 1.510465
           },
           "carrot_and_knife": {
             "visible": true,
@@ -3072,7 +3072,7 @@
               849,
               1382
             ],
-            "mean_abs_rgb_error_0_255": 2.3288
+            "mean_abs_rgb_error_0_255": 2.25546
           },
           "paper_roll": {
             "visible": true,
@@ -3082,7 +3082,7 @@
               1016,
               1328
             ],
-            "mean_abs_rgb_error_0_255": 1.991749
+            "mean_abs_rgb_error_0_255": 1.929134
           },
           "mouth": {
             "visible": true,
@@ -3092,7 +3092,7 @@
               682,
               1170
             ],
-            "mean_abs_rgb_error_0_255": 1.641268
+            "mean_abs_rgb_error_0_255": 1.605461
           },
           "apron": {
             "visible": true,
@@ -3102,7 +3102,7 @@
               775,
               1343
             ],
-            "mean_abs_rgb_error_0_255": 2.402408
+            "mean_abs_rgb_error_0_255": 2.320805
           },
           "hand_left": {
             "visible": true,
@@ -3112,7 +3112,7 @@
               627,
               1357
             ],
-            "mean_abs_rgb_error_0_255": 2.270353
+            "mean_abs_rgb_error_0_255": 2.163875
           },
           "hand_right": {
             "visible": true,
@@ -3122,7 +3122,7 @@
               667,
               1357
             ],
-            "mean_abs_rgb_error_0_255": 2.267204
+            "mean_abs_rgb_error_0_255": 2.184124
           },
           "shoulder_left": {
             "visible": true,
@@ -3132,7 +3132,7 @@
               379,
               1083
             ],
-            "mean_abs_rgb_error_0_255": 1.557537
+            "mean_abs_rgb_error_0_255": 1.54063
           },
           "shoulder_right": {
             "visible": true,
@@ -3142,7 +3142,7 @@
               889,
               1083
             ],
-            "mean_abs_rgb_error_0_255": 1.812755
+            "mean_abs_rgb_error_0_255": 1.768588
           }
         }
       },
@@ -3153,7 +3153,7 @@
         "phase": "decouper_carotte",
         "fresh_svg_sha256": "b41fa92053ad6f50f3afc3a1820350d330f3f8647f89a085d1e6fea94cafbbdb",
         "fresh_png_sha256": "1c18cba76351587981d56da8dc14567f6388a53dd2c4c7976c489a07085e60d4",
-        "full_frame_mean_abs_rgb_error_0_255": 1.481891,
+        "full_frame_mean_abs_rgb_error_0_255": 1.452905,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3163,7 +3163,7 @@
               152,
               1046
             ],
-            "mean_abs_rgb_error_0_255": 1.513083
+            "mean_abs_rgb_error_0_255": 1.471683
           },
           "bin": {
             "visible": true,
@@ -3173,7 +3173,7 @@
               206,
               1835
             ],
-            "mean_abs_rgb_error_0_255": 1.478678
+            "mean_abs_rgb_error_0_255": 1.415386
           },
           "carrot_and_knife": {
             "visible": true,
@@ -3183,7 +3183,7 @@
               863,
               1351
             ],
-            "mean_abs_rgb_error_0_255": 2.106268
+            "mean_abs_rgb_error_0_255": 2.027708
           },
           "paper_roll": {
             "visible": true,
@@ -3193,7 +3193,7 @@
               1043,
               1293
             ],
-            "mean_abs_rgb_error_0_255": 1.970805
+            "mean_abs_rgb_error_0_255": 1.883347
           },
           "mouth": {
             "visible": true,
@@ -3203,7 +3203,7 @@
               700,
               1159
             ],
-            "mean_abs_rgb_error_0_255": 1.672726
+            "mean_abs_rgb_error_0_255": 1.628719
           },
           "apron": {
             "visible": true,
@@ -3213,7 +3213,7 @@
               800,
               1344
             ],
-            "mean_abs_rgb_error_0_255": 2.268136
+            "mean_abs_rgb_error_0_255": 2.180756
           },
           "hand_left": {
             "visible": true,
@@ -3223,7 +3223,7 @@
               571,
               1318
             ],
-            "mean_abs_rgb_error_0_255": 2.271458
+            "mean_abs_rgb_error_0_255": 2.144339
           },
           "hand_right": {
             "visible": true,
@@ -3233,7 +3233,7 @@
               820,
               1352
             ],
-            "mean_abs_rgb_error_0_255": 2.222814
+            "mean_abs_rgb_error_0_255": 2.141649
           },
           "shoulder_left": {
             "visible": true,
@@ -3243,7 +3243,7 @@
               375,
               1065
             ],
-            "mean_abs_rgb_error_0_255": 1.540044
+            "mean_abs_rgb_error_0_255": 1.497822
           },
           "shoulder_right": {
             "visible": true,
@@ -3253,7 +3253,7 @@
               923,
               1065
             ],
-            "mean_abs_rgb_error_0_255": 1.736015
+            "mean_abs_rgb_error_0_255": 1.636696
           }
         }
       },
@@ -3264,7 +3264,7 @@
         "phase": "decouper_carotte",
         "fresh_svg_sha256": "bb304b74158a3f6a3e0dc9ae34d8a1176101126dcb143d32d4c0d9f0b78b73e4",
         "fresh_png_sha256": "0528adf26ca36d9bf00cb91b9b415d2e1fc1d39cb08ebf0617da5a4bceea6ed4",
-        "full_frame_mean_abs_rgb_error_0_255": 1.475101,
+        "full_frame_mean_abs_rgb_error_0_255": 1.44797,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3274,7 +3274,7 @@
               152,
               1046
             ],
-            "mean_abs_rgb_error_0_255": 1.511763
+            "mean_abs_rgb_error_0_255": 1.469458
           },
           "bin": {
             "visible": true,
@@ -3284,7 +3284,7 @@
               206,
               1835
             ],
-            "mean_abs_rgb_error_0_255": 1.47412
+            "mean_abs_rgb_error_0_255": 1.410888
           },
           "carrot_and_knife": {
             "visible": true,
@@ -3294,7 +3294,7 @@
               863,
               1351
             ],
-            "mean_abs_rgb_error_0_255": 2.081749
+            "mean_abs_rgb_error_0_255": 2.008074
           },
           "paper_roll": {
             "visible": true,
@@ -3304,7 +3304,7 @@
               1043,
               1293
             ],
-            "mean_abs_rgb_error_0_255": 1.763005
+            "mean_abs_rgb_error_0_255": 1.713868
           },
           "mouth": {
             "visible": true,
@@ -3314,7 +3314,7 @@
               700,
               1159
             ],
-            "mean_abs_rgb_error_0_255": 1.637191
+            "mean_abs_rgb_error_0_255": 1.591034
           },
           "apron": {
             "visible": true,
@@ -3324,7 +3324,7 @@
               800,
               1344
             ],
-            "mean_abs_rgb_error_0_255": 2.221419
+            "mean_abs_rgb_error_0_255": 2.13707
           },
           "hand_left": {
             "visible": true,
@@ -3334,7 +3334,7 @@
               648,
               1228
             ],
-            "mean_abs_rgb_error_0_255": 2.285857
+            "mean_abs_rgb_error_0_255": 2.194833
           },
           "hand_right": {
             "visible": true,
@@ -3344,7 +3344,7 @@
               894,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 1.998522
+            "mean_abs_rgb_error_0_255": 1.952589
           },
           "shoulder_left": {
             "visible": true,
@@ -3354,7 +3354,7 @@
               375,
               1065
             ],
-            "mean_abs_rgb_error_0_255": 1.41797
+            "mean_abs_rgb_error_0_255": 1.382696
           },
           "shoulder_right": {
             "visible": true,
@@ -3364,7 +3364,7 @@
               923,
               1065
             ],
-            "mean_abs_rgb_error_0_255": 1.6004
+            "mean_abs_rgb_error_0_255": 1.544222
           }
         }
       },
@@ -3375,7 +3375,7 @@
         "phase": "decouper_carotte",
         "fresh_svg_sha256": "74121c09ddf409cbbb7464f578dfc8708b50a5bff13f093bfd23ff291020e5d7",
         "fresh_png_sha256": "9f7c920326615aa6da738d3e3c8e7f6b95012b67c744cb9532b001da09859015",
-        "full_frame_mean_abs_rgb_error_0_255": 1.471298,
+        "full_frame_mean_abs_rgb_error_0_255": 1.444304,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3385,7 +3385,7 @@
               152,
               1046
             ],
-            "mean_abs_rgb_error_0_255": 1.514893
+            "mean_abs_rgb_error_0_255": 1.468755
           },
           "bin": {
             "visible": true,
@@ -3395,7 +3395,7 @@
               206,
               1835
             ],
-            "mean_abs_rgb_error_0_255": 1.47212
+            "mean_abs_rgb_error_0_255": 1.409115
           },
           "carrot_and_knife": {
             "visible": true,
@@ -3405,7 +3405,7 @@
               863,
               1351
             ],
-            "mean_abs_rgb_error_0_255": 2.062968
+            "mean_abs_rgb_error_0_255": 1.997117
           },
           "paper_roll": {
             "visible": true,
@@ -3415,7 +3415,7 @@
               1043,
               1293
             ],
-            "mean_abs_rgb_error_0_255": 1.760533
+            "mean_abs_rgb_error_0_255": 1.713137
           },
           "mouth": {
             "visible": true,
@@ -3425,7 +3425,7 @@
               700,
               1159
             ],
-            "mean_abs_rgb_error_0_255": 1.66984
+            "mean_abs_rgb_error_0_255": 1.630971
           },
           "apron": {
             "visible": true,
@@ -3435,7 +3435,7 @@
               800,
               1344
             ],
-            "mean_abs_rgb_error_0_255": 2.257787
+            "mean_abs_rgb_error_0_255": 2.181228
           },
           "hand_left": {
             "visible": true,
@@ -3445,7 +3445,7 @@
               650,
               1316
             ],
-            "mean_abs_rgb_error_0_255": 2.093986
+            "mean_abs_rgb_error_0_255": 2.011842
           },
           "hand_right": {
             "visible": true,
@@ -3455,7 +3455,7 @@
               894,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.028856
+            "mean_abs_rgb_error_0_255": 1.975698
           },
           "shoulder_left": {
             "visible": true,
@@ -3465,7 +3465,7 @@
               375,
               1065
             ],
-            "mean_abs_rgb_error_0_255": 1.41237
+            "mean_abs_rgb_error_0_255": 1.378563
           },
           "shoulder_right": {
             "visible": true,
@@ -3475,7 +3475,7 @@
               923,
               1065
             ],
-            "mean_abs_rgb_error_0_255": 1.601126
+            "mean_abs_rgb_error_0_255": 1.544474
           }
         }
       },
@@ -3486,7 +3486,7 @@
         "phase": "decouper_carotte",
         "fresh_svg_sha256": "5451d0c76ed7b3cabe720e43eb0dbc820ed5d9d29a1c536430df420d64141b55",
         "fresh_png_sha256": "f5edaee8be162c8529bb71fb85da1329b1d3eb58b513101e138421ae53caaff3",
-        "full_frame_mean_abs_rgb_error_0_255": 1.480167,
+        "full_frame_mean_abs_rgb_error_0_255": 1.45385,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3496,7 +3496,7 @@
               152,
               1046
             ],
-            "mean_abs_rgb_error_0_255": 1.513871
+            "mean_abs_rgb_error_0_255": 1.468755
           },
           "bin": {
             "visible": true,
@@ -3506,7 +3506,7 @@
               206,
               1835
             ],
-            "mean_abs_rgb_error_0_255": 1.470627
+            "mean_abs_rgb_error_0_255": 1.40863
           },
           "carrot_and_knife": {
             "visible": true,
@@ -3516,7 +3516,7 @@
               863,
               1351
             ],
-            "mean_abs_rgb_error_0_255": 2.11791
+            "mean_abs_rgb_error_0_255": 2.049509
           },
           "paper_roll": {
             "visible": true,
@@ -3526,7 +3526,7 @@
               1043,
               1293
             ],
-            "mean_abs_rgb_error_0_255": 1.760782
+            "mean_abs_rgb_error_0_255": 1.713148
           },
           "mouth": {
             "visible": true,
@@ -3536,7 +3536,7 @@
               700,
               1159
             ],
-            "mean_abs_rgb_error_0_255": 1.727311
+            "mean_abs_rgb_error_0_255": 1.689736
           },
           "apron": {
             "visible": true,
@@ -3546,7 +3546,7 @@
               800,
               1344
             ],
-            "mean_abs_rgb_error_0_255": 2.308835
+            "mean_abs_rgb_error_0_255": 2.232639
           },
           "hand_left": {
             "visible": true,
@@ -3556,7 +3556,7 @@
               674,
               1316
             ],
-            "mean_abs_rgb_error_0_255": 2.11895
+            "mean_abs_rgb_error_0_255": 2.025565
           },
           "hand_right": {
             "visible": true,
@@ -3566,7 +3566,7 @@
               894,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.133508
+            "mean_abs_rgb_error_0_255": 2.062529
           },
           "shoulder_left": {
             "visible": true,
@@ -3576,7 +3576,7 @@
               375,
               1065
             ],
-            "mean_abs_rgb_error_0_255": 1.430593
+            "mean_abs_rgb_error_0_255": 1.408341
           },
           "shoulder_right": {
             "visible": true,
@@ -3586,7 +3586,7 @@
               923,
               1065
             ],
-            "mean_abs_rgb_error_0_255": 1.601126
+            "mean_abs_rgb_error_0_255": 1.543378
           }
         }
       },
@@ -3597,7 +3597,7 @@
         "phase": "decouper_carotte",
         "fresh_svg_sha256": "2010ffa183451889d916270df3d456a966140ab0f8ab1b32fb8d2e24de46d665",
         "fresh_png_sha256": "ab4ee09a91354e3dad7ce50e407ffeebe9fa470e83124031114bc5ac9e3b535d",
-        "full_frame_mean_abs_rgb_error_0_255": 1.557759,
+        "full_frame_mean_abs_rgb_error_0_255": 1.519757,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3607,7 +3607,7 @@
               158,
               1055
             ],
-            "mean_abs_rgb_error_0_255": 1.636893
+            "mean_abs_rgb_error_0_255": 1.577687
           },
           "bin": {
             "visible": true,
@@ -3617,7 +3617,7 @@
               211,
               1835
             ],
-            "mean_abs_rgb_error_0_255": 1.716352
+            "mean_abs_rgb_error_0_255": 1.626633
           },
           "carrot_and_knife": {
             "visible": true,
@@ -3627,7 +3627,7 @@
               861,
               1356
             ],
-            "mean_abs_rgb_error_0_255": 2.272118
+            "mean_abs_rgb_error_0_255": 2.184749
           },
           "paper_roll": {
             "visible": true,
@@ -3637,7 +3637,7 @@
               1039,
               1299
             ],
-            "mean_abs_rgb_error_0_255": 1.940197
+            "mean_abs_rgb_error_0_255": 1.870824
           },
           "mouth": {
             "visible": true,
@@ -3647,7 +3647,7 @@
               696,
               1161
             ],
-            "mean_abs_rgb_error_0_255": 1.848161
+            "mean_abs_rgb_error_0_255": 1.791845
           },
           "apron": {
             "visible": true,
@@ -3657,7 +3657,7 @@
               795,
               1345
             ],
-            "mean_abs_rgb_error_0_255": 2.4414
+            "mean_abs_rgb_error_0_255": 2.344176
           },
           "hand_left": {
             "visible": true,
@@ -3667,7 +3667,7 @@
               557,
               1302
             ],
-            "mean_abs_rgb_error_0_255": 2.274327
+            "mean_abs_rgb_error_0_255": 2.171885
           },
           "hand_right": {
             "visible": true,
@@ -3677,7 +3677,7 @@
               880,
               1353
             ],
-            "mean_abs_rgb_error_0_255": 2.137069
+            "mean_abs_rgb_error_0_255": 2.074365
           },
           "shoulder_left": {
             "visible": true,
@@ -3687,7 +3687,7 @@
               375,
               1068
             ],
-            "mean_abs_rgb_error_0_255": 1.543158
+            "mean_abs_rgb_error_0_255": 1.472227
           },
           "shoulder_right": {
             "visible": true,
@@ -3697,7 +3697,7 @@
               917,
               1068
             ],
-            "mean_abs_rgb_error_0_255": 1.71821
+            "mean_abs_rgb_error_0_255": 1.649623
           }
         }
       },
@@ -3708,7 +3708,7 @@
         "phase": "laver",
         "fresh_svg_sha256": "2d01cc0cc4460476b0ce139a7fc0a21b46ffe5f8816a0fc773ff3df96b7e9496",
         "fresh_png_sha256": "5af6e9a55c06668cc72c27332e63caee36d05927150240ab76cf42b32399a33e",
-        "full_frame_mean_abs_rgb_error_0_255": 1.580901,
+        "full_frame_mean_abs_rgb_error_0_255": 1.569987,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3718,7 +3718,7 @@
               988,
               1076
             ],
-            "mean_abs_rgb_error_0_255": 1.368613
+            "mean_abs_rgb_error_0_255": 1.342747
           },
           "bin": {
             "visible": false
@@ -3743,7 +3743,7 @@
               690,
               1343
             ],
-            "mean_abs_rgb_error_0_255": 1.573503
+            "mean_abs_rgb_error_0_255": 1.542533
           },
           "hand_right": {
             "visible": false
@@ -3763,7 +3763,7 @@
         "phase": "papier",
         "fresh_svg_sha256": "c12eace55ae541d51ca4aeb52493ae6cb310461204acd9fd322c0b3d117f12fc",
         "fresh_png_sha256": "1b93736c6560683a0c8e84de597f458964ae2d233106c37e5e8494fe78a5572c",
-        "full_frame_mean_abs_rgb_error_0_255": 1.477665,
+        "full_frame_mean_abs_rgb_error_0_255": 1.458753,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3773,7 +3773,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.528242
+            "mean_abs_rgb_error_0_255": 1.496266
           },
           "bin": {
             "visible": true,
@@ -3783,7 +3783,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.454123
+            "mean_abs_rgb_error_0_255": 1.411524
           },
           "carrot_and_knife": {
             "visible": true,
@@ -3793,7 +3793,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.315601
+            "mean_abs_rgb_error_0_255": 2.23871
           },
           "paper_roll": {
             "visible": true,
@@ -3803,7 +3803,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 1.893115
+            "mean_abs_rgb_error_0_255": 1.844062
           },
           "mouth": {
             "visible": true,
@@ -3813,7 +3813,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.696018
+            "mean_abs_rgb_error_0_255": 1.665074
           },
           "apron": {
             "visible": true,
@@ -3823,7 +3823,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.303749
+            "mean_abs_rgb_error_0_255": 2.207616
           },
           "hand_left": {
             "visible": true,
@@ -3833,7 +3833,7 @@
               565,
               1290
             ],
-            "mean_abs_rgb_error_0_255": 2.381738
+            "mean_abs_rgb_error_0_255": 2.290646
           },
           "hand_right": {
             "visible": true,
@@ -3843,7 +3843,7 @@
               655,
               1301
             ],
-            "mean_abs_rgb_error_0_255": 2.278708
+            "mean_abs_rgb_error_0_255": 2.175662
           },
           "shoulder_left": {
             "visible": true,
@@ -3853,7 +3853,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.58894
+            "mean_abs_rgb_error_0_255": 1.548915
           },
           "shoulder_right": {
             "visible": true,
@@ -3863,7 +3863,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.93352
+            "mean_abs_rgb_error_0_255": 1.837557
           }
         }
       },
@@ -3874,7 +3874,7 @@
         "phase": "jeter",
         "fresh_svg_sha256": "555e454c744ae915ea6e7dfee385fbfa2082b8970de4dc84db4df6ac5d3ea7e8",
         "fresh_png_sha256": "d08042fddfd54971c4f44ac4fe32138411dd5dccdedefe37e8a112564756c44c",
-        "full_frame_mean_abs_rgb_error_0_255": 1.437941,
+        "full_frame_mean_abs_rgb_error_0_255": 1.41004,
         "regions": {
           "faucet": {
             "visible": false
@@ -3887,7 +3887,7 @@
               793,
               1604
             ],
-            "mean_abs_rgb_error_0_255": 1.432641
+            "mean_abs_rgb_error_0_255": 1.38268
           },
           "carrot_and_knife": {
             "visible": false
@@ -3922,7 +3922,7 @@
         "phase": "retoucher_manche",
         "fresh_svg_sha256": "6de920d712ee70e0af1b9cfaa641171ecb386c426cadbdac702d5c86d42cbe9b",
         "fresh_png_sha256": "78e838d3224bb53be4762eecdc590bc1a889b4b029ab02b7abe530f4d0eaebdf",
-        "full_frame_mean_abs_rgb_error_0_255": 1.492556,
+        "full_frame_mean_abs_rgb_error_0_255": 1.469729,
         "regions": {
           "faucet": {
             "visible": true,
@@ -3932,7 +3932,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.548675
+            "mean_abs_rgb_error_0_255": 1.518141
           },
           "bin": {
             "visible": true,
@@ -3942,7 +3942,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.594177
+            "mean_abs_rgb_error_0_255": 1.550302
           },
           "carrot_and_knife": {
             "visible": true,
@@ -3952,7 +3952,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.202964
+            "mean_abs_rgb_error_0_255": 2.143823
           },
           "paper_roll": {
             "visible": true,
@@ -3962,7 +3962,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 1.816047
+            "mean_abs_rgb_error_0_255": 1.786001
           },
           "mouth": {
             "visible": true,
@@ -3972,7 +3972,7 @@
               633,
               1181
             ],
-            "mean_abs_rgb_error_0_255": 2.015076
+            "mean_abs_rgb_error_0_255": 1.959453
           },
           "apron": {
             "visible": true,
@@ -3982,7 +3982,7 @@
               714,
               1331
             ],
-            "mean_abs_rgb_error_0_255": 2.209628
+            "mean_abs_rgb_error_0_255": 2.151703
           },
           "hand_left": {
             "visible": true,
@@ -3992,7 +3992,7 @@
               574,
               1343
             ],
-            "mean_abs_rgb_error_0_255": 2.028084
+            "mean_abs_rgb_error_0_255": 1.966266
           },
           "hand_right": {
             "visible": true,
@@ -4002,7 +4002,7 @@
               620,
               1343
             ],
-            "mean_abs_rgb_error_0_255": 2.094378
+            "mean_abs_rgb_error_0_255": 2.036702
           },
           "shoulder_left": {
             "visible": true,
@@ -4012,7 +4012,7 @@
               371,
               1105
             ],
-            "mean_abs_rgb_error_0_255": 1.626118
+            "mean_abs_rgb_error_0_255": 1.598775
           },
           "shoulder_right": {
             "visible": true,
@@ -4022,7 +4022,7 @@
               813,
               1105
             ],
-            "mean_abs_rgb_error_0_255": 1.968354
+            "mean_abs_rgb_error_0_255": 1.886255
           }
         }
       },
@@ -4033,7 +4033,7 @@
         "phase": "retoucher_manche",
         "fresh_svg_sha256": "be237fa0795a3dcab6861889d3152ad458b2183cc39ee788d61d61aa55c02f84",
         "fresh_png_sha256": "523e0f28f49ea203bb66a525cf977dcd9904fef69818189e8d911e9b03f5af4f",
-        "full_frame_mean_abs_rgb_error_0_255": 1.515872,
+        "full_frame_mean_abs_rgb_error_0_255": 1.489822,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4043,7 +4043,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.548098
+            "mean_abs_rgb_error_0_255": 1.517668
           },
           "bin": {
             "visible": true,
@@ -4053,7 +4053,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.593873
+            "mean_abs_rgb_error_0_255": 1.550302
           },
           "carrot_and_knife": {
             "visible": true,
@@ -4063,7 +4063,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.316743
+            "mean_abs_rgb_error_0_255": 2.246172
           },
           "paper_roll": {
             "visible": true,
@@ -4073,7 +4073,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 1.864613
+            "mean_abs_rgb_error_0_255": 1.835697
           },
           "mouth": {
             "visible": true,
@@ -4083,7 +4083,7 @@
               632,
               1179
             ],
-            "mean_abs_rgb_error_0_255": 2.251345
+            "mean_abs_rgb_error_0_255": 2.14955
           },
           "apron": {
             "visible": true,
@@ -4093,7 +4093,7 @@
               713,
               1329
             ],
-            "mean_abs_rgb_error_0_255": 2.410649
+            "mean_abs_rgb_error_0_255": 2.324023
           },
           "hand_left": {
             "visible": true,
@@ -4103,7 +4103,7 @@
               556,
               1344
             ],
-            "mean_abs_rgb_error_0_255": 2.263032
+            "mean_abs_rgb_error_0_255": 2.17977
           },
           "hand_right": {
             "visible": true,
@@ -4113,7 +4113,7 @@
               620,
               1341
             ],
-            "mean_abs_rgb_error_0_255": 2.313046
+            "mean_abs_rgb_error_0_255": 2.215901
           },
           "shoulder_left": {
             "visible": true,
@@ -4123,7 +4123,7 @@
               370,
               1104
             ],
-            "mean_abs_rgb_error_0_255": 1.712178
+            "mean_abs_rgb_error_0_255": 1.667076
           },
           "shoulder_right": {
             "visible": true,
@@ -4133,7 +4133,7 @@
               812,
               1104
             ],
-            "mean_abs_rgb_error_0_255": 2.293878
+            "mean_abs_rgb_error_0_255": 2.195046
           }
         }
       },
@@ -4144,7 +4144,7 @@
         "phase": "retoucher_manche",
         "fresh_svg_sha256": "a8f206da21260ef7d03b85f89fe7887e7bf2ecc376839a35def4832a69a3b92f",
         "fresh_png_sha256": "8b22f795f832556a045e1ec9746ca9f6f0f4198f7d85e893c7a70fb96a285b4d",
-        "full_frame_mean_abs_rgb_error_0_255": 1.478675,
+        "full_frame_mean_abs_rgb_error_0_255": 1.458169,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4154,7 +4154,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.548745
+            "mean_abs_rgb_error_0_255": 1.518996
           },
           "bin": {
             "visible": true,
@@ -4164,7 +4164,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.593951
+            "mean_abs_rgb_error_0_255": 1.550302
           },
           "carrot_and_knife": {
             "visible": true,
@@ -4174,7 +4174,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.243183
+            "mean_abs_rgb_error_0_255": 2.184978
           },
           "paper_roll": {
             "visible": true,
@@ -4184,7 +4184,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 1.867766
+            "mean_abs_rgb_error_0_255": 1.839406
           },
           "mouth": {
             "visible": true,
@@ -4194,7 +4194,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.768743
+            "mean_abs_rgb_error_0_255": 1.717887
           },
           "apron": {
             "visible": true,
@@ -4204,7 +4204,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.21663
+            "mean_abs_rgb_error_0_255": 2.147356
           },
           "hand_left": {
             "visible": true,
@@ -4214,7 +4214,7 @@
               539,
               1346
             ],
-            "mean_abs_rgb_error_0_255": 2.051356
+            "mean_abs_rgb_error_0_255": 1.956625
           },
           "hand_right": {
             "visible": true,
@@ -4224,7 +4224,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 2.072414
+            "mean_abs_rgb_error_0_255": 2.012441
           },
           "shoulder_left": {
             "visible": true,
@@ -4234,7 +4234,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.628031
+            "mean_abs_rgb_error_0_255": 1.599572
           },
           "shoulder_right": {
             "visible": true,
@@ -4244,7 +4244,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.990848
+            "mean_abs_rgb_error_0_255": 1.94973
           }
         }
       },
@@ -4255,7 +4255,7 @@
         "phase": "laver",
         "fresh_svg_sha256": "d55408b0cff99a8c86fb0245d7951ec72b6079d73afde1a4e708cbed6857e25c",
         "fresh_png_sha256": "ff68156705c1f5837a4746d36000675a987622a925ebd8a6023f80c8ba6e982f",
-        "full_frame_mean_abs_rgb_error_0_255": 1.577748,
+        "full_frame_mean_abs_rgb_error_0_255": 1.567664,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4265,7 +4265,7 @@
               988,
               1076
             ],
-            "mean_abs_rgb_error_0_255": 1.365601
+            "mean_abs_rgb_error_0_255": 1.342257
           },
           "bin": {
             "visible": false
@@ -4290,7 +4290,7 @@
               684,
               1351
             ],
-            "mean_abs_rgb_error_0_255": 1.574145
+            "mean_abs_rgb_error_0_255": 1.545851
           },
           "hand_right": {
             "visible": false
@@ -4308,9 +4308,9 @@
         "time_seconds": 29.791666666666668,
         "shot": "wide",
         "phase": "dernier_bout",
-        "fresh_svg_sha256": "0562b146c121869911d273f83caaf184469ef28a7677c15e768af3873b5a0d27",
-        "fresh_png_sha256": "9a6cb36ea221778aac569626d56c16d5f83f0a61f44056b8328ed7ddd364ee2e",
-        "full_frame_mean_abs_rgb_error_0_255": 1.46522,
+        "fresh_svg_sha256": "1fed6749250289d0560db11425982a5ea38d01cdf9f2cec2af04ced0b2ca2f7f",
+        "fresh_png_sha256": "d5b7286cf5e6089b78021510137955f959f52e39729012b01569569faef3e701",
+        "full_frame_mean_abs_rgb_error_0_255": 1.431843,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4320,7 +4320,7 @@
               47,
               1054
             ],
-            "mean_abs_rgb_error_0_255": 1.672561
+            "mean_abs_rgb_error_0_255": 1.627392
           },
           "bin": {
             "visible": true,
@@ -4330,7 +4330,7 @@
               105,
               1919
             ],
-            "mean_abs_rgb_error_0_255": 1.385443
+            "mean_abs_rgb_error_0_255": 1.310645
           },
           "carrot_and_knife": {
             "visible": true,
@@ -4340,7 +4340,7 @@
               826,
               1389
             ],
-            "mean_abs_rgb_error_0_255": 1.918584
+            "mean_abs_rgb_error_0_255": 1.849879
           },
           "paper_roll": {
             "visible": true,
@@ -4350,7 +4350,7 @@
               1023,
               1325
             ],
-            "mean_abs_rgb_error_0_255": 1.77089
+            "mean_abs_rgb_error_0_255": 1.733346
           },
           "mouth": {
             "visible": true,
@@ -4360,7 +4360,7 @@
               586,
               1076
             ],
-            "mean_abs_rgb_error_0_255": 1.507515
+            "mean_abs_rgb_error_0_255": 1.47279
           },
           "apron": {
             "visible": true,
@@ -4370,7 +4370,7 @@
               696,
               1279
             ],
-            "mean_abs_rgb_error_0_255": 1.923668
+            "mean_abs_rgb_error_0_255": 1.855951
           },
           "hand_left": {
             "visible": true,
@@ -4380,7 +4380,7 @@
               486,
               1219
             ],
-            "mean_abs_rgb_error_0_255": 2.066836
+            "mean_abs_rgb_error_0_255": 1.993628
           },
           "hand_right": {
             "visible": true,
@@ -4390,7 +4390,7 @@
               972,
               1218
             ],
-            "mean_abs_rgb_error_0_255": 1.888737
+            "mean_abs_rgb_error_0_255": 1.853741
           },
           "shoulder_left": {
             "visible": true,
@@ -4400,7 +4400,7 @@
               230,
               973
             ],
-            "mean_abs_rgb_error_0_255": 1.371047
+            "mean_abs_rgb_error_0_255": 1.330917
           },
           "shoulder_right": {
             "visible": true,
@@ -4410,7 +4410,7 @@
               830,
               973
             ],
-            "mean_abs_rgb_error_0_255": 1.566268
+            "mean_abs_rgb_error_0_255": 1.504747
           }
         }
       },
@@ -4419,9 +4419,9 @@
         "time_seconds": 30.416666666666668,
         "shot": "wide",
         "phase": "dernier_bout",
-        "fresh_svg_sha256": "6da56da0148d2143b2224faf2d8644e0e5a73863dec6e3c2e320bf8def83fd79",
-        "fresh_png_sha256": "38091fa8af493e112fd35a4e7f1c9b60793b30eee6a635c65ca7a06f976d874c",
-        "full_frame_mean_abs_rgb_error_0_255": 1.46188,
+        "fresh_svg_sha256": "4519f54848fd0d7bf4cc5474ff4990471c118d9c1902419ff7d19c783f696eac",
+        "fresh_png_sha256": "0fbd80d51d6d4e920f832b4b2460b0b2469cac6b92526fcd3a57a2f8f4c9a4e0",
+        "full_frame_mean_abs_rgb_error_0_255": 1.428799,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4431,7 +4431,7 @@
               47,
               1054
             ],
-            "mean_abs_rgb_error_0_255": 1.660772
+            "mean_abs_rgb_error_0_255": 1.624775
           },
           "bin": {
             "visible": true,
@@ -4441,7 +4441,7 @@
               105,
               1919
             ],
-            "mean_abs_rgb_error_0_255": 1.375329
+            "mean_abs_rgb_error_0_255": 1.300148
           },
           "carrot_and_knife": {
             "visible": true,
@@ -4451,7 +4451,7 @@
               826,
               1389
             ],
-            "mean_abs_rgb_error_0_255": 1.994403
+            "mean_abs_rgb_error_0_255": 1.913225
           },
           "paper_roll": {
             "visible": true,
@@ -4461,7 +4461,7 @@
               1023,
               1325
             ],
-            "mean_abs_rgb_error_0_255": 1.787069
+            "mean_abs_rgb_error_0_255": 1.756926
           },
           "mouth": {
             "visible": true,
@@ -4471,7 +4471,7 @@
               586,
               1076
             ],
-            "mean_abs_rgb_error_0_255": 1.517591
+            "mean_abs_rgb_error_0_255": 1.484672
           },
           "apron": {
             "visible": true,
@@ -4481,7 +4481,7 @@
               696,
               1279
             ],
-            "mean_abs_rgb_error_0_255": 1.975963
+            "mean_abs_rgb_error_0_255": 1.881579
           },
           "hand_left": {
             "visible": true,
@@ -4491,7 +4491,7 @@
               486,
               1219
             ],
-            "mean_abs_rgb_error_0_255": 2.048893
+            "mean_abs_rgb_error_0_255": 1.98582
           },
           "hand_right": {
             "visible": true,
@@ -4501,7 +4501,7 @@
               745,
               1239
             ],
-            "mean_abs_rgb_error_0_255": 2.003063
+            "mean_abs_rgb_error_0_255": 1.832788
           },
           "shoulder_left": {
             "visible": true,
@@ -4511,7 +4511,7 @@
               230,
               973
             ],
-            "mean_abs_rgb_error_0_255": 1.370241
+            "mean_abs_rgb_error_0_255": 1.329367
           },
           "shoulder_right": {
             "visible": true,
@@ -4521,7 +4521,7 @@
               830,
               973
             ],
-            "mean_abs_rgb_error_0_255": 1.530946
+            "mean_abs_rgb_error_0_255": 1.513843
           }
         }
       },
@@ -4530,9 +4530,9 @@
         "time_seconds": 31.291666666666668,
         "shot": "wide",
         "phase": "dernier_bout",
-        "fresh_svg_sha256": "071dbe1a70ed361e4499dc1c83845b956cfb156cbf8b281dcd6559fc75b13765",
-        "fresh_png_sha256": "a49bef6bd2b0d488d8f7a6d3bd01883d6e59eb2aa7de970e3ac237b17f4a4cec",
-        "full_frame_mean_abs_rgb_error_0_255": 1.475749,
+        "fresh_svg_sha256": "4e2473e484c27639e6f3bd51a58b168fa894ce02a6c5f69bca99ac5127204232",
+        "fresh_png_sha256": "f55b8110e50a7fc32e3cce406da0fda6d4e56393cc2347129d37cfdfda37fb0e",
+        "full_frame_mean_abs_rgb_error_0_255": 1.446351,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4542,7 +4542,7 @@
               47,
               1054
             ],
-            "mean_abs_rgb_error_0_255": 1.659354
+            "mean_abs_rgb_error_0_255": 1.622695
           },
           "bin": {
             "visible": true,
@@ -4552,7 +4552,7 @@
               105,
               1919
             ],
-            "mean_abs_rgb_error_0_255": 1.372921
+            "mean_abs_rgb_error_0_255": 1.299552
           },
           "carrot_and_knife": {
             "visible": true,
@@ -4562,7 +4562,7 @@
               826,
               1389
             ],
-            "mean_abs_rgb_error_0_255": 2.007536
+            "mean_abs_rgb_error_0_255": 1.981039
           },
           "paper_roll": {
             "visible": true,
@@ -4572,7 +4572,7 @@
               1023,
               1325
             ],
-            "mean_abs_rgb_error_0_255": 1.750986
+            "mean_abs_rgb_error_0_255": 1.716519
           },
           "mouth": {
             "visible": true,
@@ -4582,7 +4582,7 @@
               586,
               1076
             ],
-            "mean_abs_rgb_error_0_255": 1.505765
+            "mean_abs_rgb_error_0_255": 1.467056
           },
           "apron": {
             "visible": true,
@@ -4592,7 +4592,7 @@
               696,
               1279
             ],
-            "mean_abs_rgb_error_0_255": 2.045141
+            "mean_abs_rgb_error_0_255": 2.032308
           },
           "hand_left": {
             "visible": true,
@@ -4602,7 +4602,7 @@
               497,
               1219
             ],
-            "mean_abs_rgb_error_0_255": 2.28572
+            "mean_abs_rgb_error_0_255": 2.308572
           },
           "hand_right": {
             "visible": true,
@@ -4612,7 +4612,7 @@
               527,
               1228
             ],
-            "mean_abs_rgb_error_0_255": 2.24361
+            "mean_abs_rgb_error_0_255": 2.268752
           },
           "shoulder_left": {
             "visible": true,
@@ -4622,7 +4622,7 @@
               230,
               973
             ],
-            "mean_abs_rgb_error_0_255": 1.391273
+            "mean_abs_rgb_error_0_255": 1.344388
           },
           "shoulder_right": {
             "visible": true,
@@ -4632,7 +4632,7 @@
               830,
               973
             ],
-            "mean_abs_rgb_error_0_255": 1.726453
+            "mean_abs_rgb_error_0_255": 1.661573
           }
         }
       },
@@ -4641,9 +4641,9 @@
         "time_seconds": 32.083333333333336,
         "shot": "wide",
         "phase": "dernier_bout",
-        "fresh_svg_sha256": "7a5c33a0979b50f27ee59fc5e771e08956c1a2318bad25eddde2623e211e9759",
-        "fresh_png_sha256": "c1f03005b6996955e99e6a5d8fc656ca2b9f6fadd4000a4eff3ff5045cbfe679",
-        "full_frame_mean_abs_rgb_error_0_255": 1.551987,
+        "fresh_svg_sha256": "c71de1798ba9f6bddfb7d6d287ab598aaf6ae8ae6881621a2de5ab0726fef5dc",
+        "fresh_png_sha256": "630c8d5ae56c20dba3869300537ee9c6ac5a7e7a83caa8872714166d97b00fb7",
+        "full_frame_mean_abs_rgb_error_0_255": 1.507921,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4653,7 +4653,7 @@
               72,
               1072
             ],
-            "mean_abs_rgb_error_0_255": 1.69196
+            "mean_abs_rgb_error_0_255": 1.618608
           },
           "bin": {
             "visible": true,
@@ -4663,7 +4663,7 @@
               129,
               1912
             ],
-            "mean_abs_rgb_error_0_255": 1.578762
+            "mean_abs_rgb_error_0_255": 1.460215
           },
           "carrot_and_knife": {
             "visible": true,
@@ -4673,7 +4673,7 @@
               828,
               1397
             ],
-            "mean_abs_rgb_error_0_255": 2.098734
+            "mean_abs_rgb_error_0_255": 2.043828
           },
           "paper_roll": {
             "visible": true,
@@ -4683,7 +4683,7 @@
               1019,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 1.854508
+            "mean_abs_rgb_error_0_255": 1.783693
           },
           "mouth": {
             "visible": true,
@@ -4693,7 +4693,7 @@
               595,
               1093
             ],
-            "mean_abs_rgb_error_0_255": 1.798927
+            "mean_abs_rgb_error_0_255": 1.701268
           },
           "apron": {
             "visible": true,
@@ -4703,7 +4703,7 @@
               701,
               1291
             ],
-            "mean_abs_rgb_error_0_255": 2.123223
+            "mean_abs_rgb_error_0_255": 2.084244
           },
           "hand_left": {
             "visible": true,
@@ -4713,7 +4713,7 @@
               509,
               1232
             ],
-            "mean_abs_rgb_error_0_255": 2.374619
+            "mean_abs_rgb_error_0_255": 2.349809
           },
           "hand_right": {
             "visible": true,
@@ -4723,7 +4723,7 @@
               532,
               1238
             ],
-            "mean_abs_rgb_error_0_255": 2.367422
+            "mean_abs_rgb_error_0_255": 2.351933
           },
           "shoulder_left": {
             "visible": true,
@@ -4733,7 +4733,7 @@
               249,
               993
             ],
-            "mean_abs_rgb_error_0_255": 1.444563
+            "mean_abs_rgb_error_0_255": 1.384294
           },
           "shoulder_right": {
             "visible": true,
@@ -4743,7 +4743,229 @@
               832,
               993
             ],
-            "mean_abs_rgb_error_0_255": 1.670767
+            "mean_abs_rgb_error_0_255": 1.643606
+          }
+        }
+      },
+      {
+        "frame": 771,
+        "time_seconds": 32.125,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "ae58e20b1e8e94cd9c7bec17630a52d2ad2ea843775824cb2caf907677c2efba",
+        "fresh_png_sha256": "7fe0b92de09a745e948a0201ff1e66fcbb034492a6ca588995d2eac805db816a",
+        "full_frame_mean_abs_rgb_error_0_255": 1.523447,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              878,
+              98,
+              1090
+            ],
+            "mean_abs_rgb_error_0_255": 1.58712
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1397,
+              153,
+              1902
+            ],
+            "mean_abs_rgb_error_0_255": 1.58333
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              356,
+              1078,
+              829,
+              1404
+            ],
+            "mean_abs_rgb_error_0_255": 2.098786
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              777,
+              950,
+              1014,
+              1344
+            ],
+            "mean_abs_rgb_error_0_255": 1.842233
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              368,
+              933,
+              604,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.758331
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              295,
+              1065,
+              707,
+              1301
+            ],
+            "mean_abs_rgb_error_0_255": 2.158926
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              340,
+              1065,
+              520,
+              1245
+            ],
+            "mean_abs_rgb_error_0_255": 2.456451
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              363,
+              1071,
+              543,
+              1251
+            ],
+            "mean_abs_rgb_error_0_255": 2.469156
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              115,
+              860,
+              270,
+              1014
+            ],
+            "mean_abs_rgb_error_0_255": 1.424941
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              679,
+              860,
+              833,
+              1014
+            ],
+            "mean_abs_rgb_error_0_255": 1.712712
+          }
+        }
+      },
+      {
+        "frame": 772,
+        "time_seconds": 32.166666666666664,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "2a1a20b4da82762b2467ac18caf5a25223dd2e71249e70eba66bb0328cfb2576",
+        "fresh_png_sha256": "c3b0963442fc4e6b9ff248f8bc43b6376a870898742c5f9dbd4d2564f7e0826b",
+        "full_frame_mean_abs_rgb_error_0_255": 1.543907,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              906,
+              128,
+              1109
+            ],
+            "mean_abs_rgb_error_0_255": 1.627822
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1404,
+              181,
+              1888
+            ],
+            "mean_abs_rgb_error_0_255": 1.724145
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              376,
+              1097,
+              830,
+              1411
+            ],
+            "mean_abs_rgb_error_0_255": 2.189049
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              975,
+              1007,
+              1353
+            ],
+            "mean_abs_rgb_error_0_255": 1.829526
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              387,
+              959,
+              614,
+              1129
+            ],
+            "mean_abs_rgb_error_0_255": 1.78662
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              317,
+              1086,
+              712,
+              1312
+            ],
+            "mean_abs_rgb_error_0_255": 2.212699
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              360,
+              1087,
+              532,
+              1259
+            ],
+            "mean_abs_rgb_error_0_255": 2.467527
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              382,
+              1092,
+              555,
+              1265
+            ],
+            "mean_abs_rgb_error_0_255": 2.470981
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              145,
+              888,
+              293,
+              1036
+            ],
+            "mean_abs_rgb_error_0_255": 1.462853
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              686,
+              888,
+              834,
+              1036
+            ],
+            "mean_abs_rgb_error_0_255": 1.749026
           }
         }
       },
@@ -4752,9 +4974,9 @@
         "time_seconds": 32.208333333333336,
         "shot": "wide",
         "phase": "dernier_bout",
-        "fresh_svg_sha256": "8f65c0203f0ea0ac8e4aafcc4d0d4722920287f7fdaa21c62253bcc77c2d532e",
-        "fresh_png_sha256": "e00a86c9bda8174ee1df99898c41a26469749c02367ec790fa2ec775c80b86a2",
-        "full_frame_mean_abs_rgb_error_0_255": 1.599045,
+        "fresh_svg_sha256": "31c64b0759e8921e8d36b0d29849723bf6a2bcdfd4d3bbd46fe852a8fb2bc592",
+        "fresh_png_sha256": "0438fdf577cd4da3e3dd5946b709207debc92eaf77e14817e11ba379e8f23481",
+        "full_frame_mean_abs_rgb_error_0_255": 1.554964,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4764,7 +4986,7 @@
               160,
               1128
             ],
-            "mean_abs_rgb_error_0_255": 1.685707
+            "mean_abs_rgb_error_0_255": 1.632345
           },
           "bin": {
             "visible": true,
@@ -4774,7 +4996,7 @@
               210,
               1871
             ],
-            "mean_abs_rgb_error_0_255": 1.876074
+            "mean_abs_rgb_error_0_255": 1.766024
           },
           "carrot_and_knife": {
             "visible": true,
@@ -4784,7 +5006,7 @@
               829,
               1416
             ],
-            "mean_abs_rgb_error_0_255": 2.312234
+            "mean_abs_rgb_error_0_255": 2.222788
           },
           "paper_roll": {
             "visible": true,
@@ -4794,7 +5016,7 @@
               999,
               1361
             ],
-            "mean_abs_rgb_error_0_255": 1.949534
+            "mean_abs_rgb_error_0_255": 1.890486
           },
           "mouth": {
             "visible": true,
@@ -4804,7 +5026,7 @@
               623,
               1147
             ],
-            "mean_abs_rgb_error_0_255": 1.879611
+            "mean_abs_rgb_error_0_255": 1.802583
           },
           "apron": {
             "visible": true,
@@ -4814,7 +5036,7 @@
               717,
               1321
             ],
-            "mean_abs_rgb_error_0_255": 2.35387
+            "mean_abs_rgb_error_0_255": 2.274041
           },
           "hand_left": {
             "visible": true,
@@ -4824,7 +5046,7 @@
               544,
               1273
             ],
-            "mean_abs_rgb_error_0_255": 2.643049
+            "mean_abs_rgb_error_0_255": 2.541463
           },
           "hand_right": {
             "visible": true,
@@ -4834,7 +5056,7 @@
               566,
               1277
             ],
-            "mean_abs_rgb_error_0_255": 2.659198
+            "mean_abs_rgb_error_0_255": 2.54374
           },
           "shoulder_left": {
             "visible": true,
@@ -4844,7 +5066,7 @@
               317,
               1058
             ],
-            "mean_abs_rgb_error_0_255": 1.566571
+            "mean_abs_rgb_error_0_255": 1.519172
           },
           "shoulder_right": {
             "visible": true,
@@ -4854,7 +5076,229 @@
               833,
               1058
             ],
-            "mean_abs_rgb_error_0_255": 1.771256
+            "mean_abs_rgb_error_0_255": 1.738393
+          }
+        }
+      },
+      {
+        "frame": 774,
+        "time_seconds": 32.25,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "e2867421a291f8862d594dcaf5a598dc60f01c9f9b095edc80104d23bf99bfb7",
+        "fresh_png_sha256": "f940a1102d20807b01fe55124202f327ed5c2754c7e93b1cdfde206b8db576e1",
+        "full_frame_mean_abs_rgb_error_0_255": 1.555424,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              959,
+              189,
+              1144
+            ],
+            "mean_abs_rgb_error_0_255": 1.688117
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1411,
+              237,
+              1852
+            ],
+            "mean_abs_rgb_error_0_255": 1.78687
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              415,
+              1133,
+              828,
+              1418
+            ],
+            "mean_abs_rgb_error_0_255": 2.241918
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              782,
+              1022,
+              989,
+              1366
+            ],
+            "mean_abs_rgb_error_0_255": 1.932334
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              425,
+              1007,
+              631,
+              1162
+            ],
+            "mean_abs_rgb_error_0_255": 1.890698
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              361,
+              1122,
+              721,
+              1328
+            ],
+            "mean_abs_rgb_error_0_255": 2.324456
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              397,
+              1127,
+              554,
+              1284
+            ],
+            "mean_abs_rgb_error_0_255": 2.681285
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              418,
+              1130,
+              575,
+              1287
+            ],
+            "mean_abs_rgb_error_0_255": 2.550543
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              205,
+              943,
+              339,
+              1077
+            ],
+            "mean_abs_rgb_error_0_255": 1.563043
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              697,
+              943,
+              831,
+              1077
+            ],
+            "mean_abs_rgb_error_0_255": 1.830363
+          }
+        }
+      },
+      {
+        "frame": 775,
+        "time_seconds": 32.291666666666664,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "b70e3c6c286d56436a040042bfa4d876cd9aa4b4fcde2c2e9e99da9b980a1b6d",
+        "fresh_png_sha256": "cb2b9e1b1e2989c97c77e49c9124fcd9e3c78bbf5d7e423bbeb686c55b0acc94",
+        "full_frame_mean_abs_rgb_error_0_255": 1.533955,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              28,
+              979,
+              215,
+              1156
+            ],
+            "mean_abs_rgb_error_0_255": 1.661772
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1412,
+              261,
+              1833
+            ],
+            "mean_abs_rgb_error_0_255": 1.775396
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              430,
+              1146,
+              825,
+              1418
+            ],
+            "mean_abs_rgb_error_0_255": 2.289275
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              782,
+              1039,
+              980,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 1.84217
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              440,
+              1025,
+              637,
+              1173
+            ],
+            "mean_abs_rgb_error_0_255": 1.917101
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              379,
+              1135,
+              723,
+              1332
+            ],
+            "mean_abs_rgb_error_0_255": 2.366156
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              411,
+              1142,
+              562,
+              1293
+            ],
+            "mean_abs_rgb_error_0_255": 2.689736
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              432,
+              1144,
+              582,
+              1294
+            ],
+            "mean_abs_rgb_error_0_255": 2.595733
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              229,
+              964,
+              358,
+              1093
+            ],
+            "mean_abs_rgb_error_0_255": 1.59734
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              700,
+              964,
+              829,
+              1093
+            ],
+            "mean_abs_rgb_error_0_255": 1.90255
           }
         }
       },
@@ -4863,9 +5307,9 @@
         "time_seconds": 32.333333333333336,
         "shot": "wide",
         "phase": "dernier_bout",
-        "fresh_svg_sha256": "d1cb6d39dd4bc9be21e556576dd06bb432a16c170451bf92e4dc74c4a0b6b7ca",
-        "fresh_png_sha256": "273f3a96a8cf84ef59636de37599d90015e3ace56ce0a8572ac2a454a1fd0c84",
-        "full_frame_mean_abs_rgb_error_0_255": 1.639691,
+        "fresh_svg_sha256": "712619298b9617872b028ddc10f2bfefe8f2705503a50ffbe020ca2a2ef96339",
+        "fresh_png_sha256": "47b56aaf2ff28dd85398b79cf5c56b5b717057edcc68529a5ca3d1180b4548cb",
+        "full_frame_mean_abs_rgb_error_0_255": 1.59347,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4875,7 +5319,7 @@
               234,
               1164
             ],
-            "mean_abs_rgb_error_0_255": 1.876275
+            "mean_abs_rgb_error_0_255": 1.768366
           },
           "bin": {
             "visible": true,
@@ -4885,7 +5329,7 @@
               279,
               1817
             ],
-            "mean_abs_rgb_error_0_255": 2.083079
+            "mean_abs_rgb_error_0_255": 1.948254
           },
           "carrot_and_knife": {
             "visible": true,
@@ -4895,7 +5339,7 @@
               823,
               1417
             ],
-            "mean_abs_rgb_error_0_255": 2.573113
+            "mean_abs_rgb_error_0_255": 2.475701
           },
           "paper_roll": {
             "visible": true,
@@ -4905,7 +5349,7 @@
               972,
               1369
             ],
-            "mean_abs_rgb_error_0_255": 2.0609
+            "mean_abs_rgb_error_0_255": 1.999251
           },
           "mouth": {
             "visible": true,
@@ -4915,7 +5359,7 @@
               641,
               1181
             ],
-            "mean_abs_rgb_error_0_255": 2.138047
+            "mean_abs_rgb_error_0_255": 2.05788
           },
           "apron": {
             "visible": true,
@@ -4925,7 +5369,7 @@
               724,
               1334
             ],
-            "mean_abs_rgb_error_0_255": 2.66943
+            "mean_abs_rgb_error_0_255": 2.56728
           },
           "hand_left": {
             "visible": true,
@@ -4935,7 +5379,7 @@
               567,
               1298
             ],
-            "mean_abs_rgb_error_0_255": 2.91545
+            "mean_abs_rgb_error_0_255": 2.783512
           },
           "hand_right": {
             "visible": true,
@@ -4945,7 +5389,7 @@
               587,
               1298
             ],
-            "mean_abs_rgb_error_0_255": 2.908259
+            "mean_abs_rgb_error_0_255": 2.779434
           },
           "shoulder_left": {
             "visible": true,
@@ -4955,7 +5399,7 @@
               372,
               1103
             ],
-            "mean_abs_rgb_error_0_255": 1.703542
+            "mean_abs_rgb_error_0_255": 1.651513
           },
           "shoulder_right": {
             "visible": true,
@@ -4965,7 +5409,118 @@
               826,
               1103
             ],
-            "mean_abs_rgb_error_0_255": 2.1467
+            "mean_abs_rgb_error_0_255": 2.102693
+          }
+        }
+      },
+      {
+        "frame": 777,
+        "time_seconds": 32.375,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "7749b7db32dff353ddd84707f941dd9e72d5e504124f86d6f395e4582f615dea",
+        "fresh_png_sha256": "f40edec2a32589a7f355c6ea70ea45a90e6d662db9ad3872146b4212e181aec1",
+        "full_frame_mean_abs_rgb_error_0_255": 1.612592,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              69,
+              1002,
+              246,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.819897
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              37,
+              1410,
+              289,
+              1807
+            ],
+            "mean_abs_rgb_error_0_255": 2.02202
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              448,
+              1159,
+              821,
+              1416
+            ],
+            "mean_abs_rgb_error_0_255": 2.510649
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1058,
+              966,
+              1369
+            ],
+            "mean_abs_rgb_error_0_255": 2.023655
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              458,
+              1045,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 2.134242
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              400,
+              1149,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.606133
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              428,
+              1159,
+              570,
+              1300
+            ],
+            "mean_abs_rgb_error_0_255": 2.828455
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              448,
+              1159,
+              590,
+              1300
+            ],
+            "mean_abs_rgb_error_0_255": 2.831652
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              259,
+              987,
+              381,
+              1109
+            ],
+            "mean_abs_rgb_error_0_255": 1.730068
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              702,
+              987,
+              824,
+              1109
+            ],
+            "mean_abs_rgb_error_0_255": 2.006092
           }
         }
       },
@@ -4976,7 +5531,7 @@
         "phase": "jeter",
         "fresh_svg_sha256": "2a6c909b3841f4ed1f3b12f5bc3fbb522942ba973a68a5865f949fae72e47566",
         "fresh_png_sha256": "cfeaed60295884b5e374ef2c94c1fb2fc044d98d2913d86fd2af9d6f16c5c566",
-        "full_frame_mean_abs_rgb_error_0_255": 1.580793,
+        "full_frame_mean_abs_rgb_error_0_255": 1.542315,
         "regions": {
           "faucet": {
             "visible": true,
@@ -4986,7 +5541,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.770747
+            "mean_abs_rgb_error_0_255": 1.671954
           },
           "bin": {
             "visible": true,
@@ -4996,7 +5551,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.91732
+            "mean_abs_rgb_error_0_255": 1.805171
           },
           "carrot_and_knife": {
             "visible": true,
@@ -5006,7 +5561,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.449613
+            "mean_abs_rgb_error_0_255": 2.356407
           },
           "paper_roll": {
             "visible": true,
@@ -5016,7 +5571,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 2.069586
+            "mean_abs_rgb_error_0_255": 2.004586
           },
           "mouth": {
             "visible": true,
@@ -5026,7 +5581,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.984854
+            "mean_abs_rgb_error_0_255": 1.90675
           },
           "apron": {
             "visible": true,
@@ -5036,7 +5591,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.624224
+            "mean_abs_rgb_error_0_255": 2.501567
           },
           "hand_left": {
             "visible": true,
@@ -5046,7 +5601,7 @@
               513,
               1288
             ],
-            "mean_abs_rgb_error_0_255": 2.887413
+            "mean_abs_rgb_error_0_255": 2.742719
           },
           "hand_right": {
             "visible": true,
@@ -5056,7 +5611,7 @@
               608,
               1321
             ],
-            "mean_abs_rgb_error_0_255": 2.319635
+            "mean_abs_rgb_error_0_255": 2.196586
           },
           "shoulder_left": {
             "visible": true,
@@ -5066,7 +5621,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.746648
+            "mean_abs_rgb_error_0_255": 1.662113
           },
           "shoulder_right": {
             "visible": true,
@@ -5076,7 +5631,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.957403
+            "mean_abs_rgb_error_0_255": 1.890558
           }
         }
       },
@@ -5087,7 +5642,7 @@
         "phase": "jeter",
         "fresh_svg_sha256": "5b26acf1e20a33d9be50d0b9644d423424e7e10b4c4d4bd7b4c8fbc820631ef9",
         "fresh_png_sha256": "03c571f6c0f405ebd9e4891f256a6ae9f983fbcb0a055169d44c5b86a511657a",
-        "full_frame_mean_abs_rgb_error_0_255": 1.416933,
+        "full_frame_mean_abs_rgb_error_0_255": 1.38936,
         "regions": {
           "faucet": {
             "visible": false
@@ -5100,7 +5655,7 @@
               793,
               1604
             ],
-            "mean_abs_rgb_error_0_255": 1.393036
+            "mean_abs_rgb_error_0_255": 1.3458
           },
           "carrot_and_knife": {
             "visible": false
@@ -5135,7 +5690,7 @@
         "phase": "jeter",
         "fresh_svg_sha256": "95ae4ba2ce72d6225cf2efc5f1c2ccafbb6c640986836531eccacb132a204110",
         "fresh_png_sha256": "233e1b129cb7f68b51c0b35a42cf42785d3d4a4fc5c7321321a22864dfe26126",
-        "full_frame_mean_abs_rgb_error_0_255": 1.414719,
+        "full_frame_mean_abs_rgb_error_0_255": 1.387546,
         "regions": {
           "faucet": {
             "visible": false
@@ -5148,7 +5703,7 @@
               793,
               1604
             ],
-            "mean_abs_rgb_error_0_255": 1.389464
+            "mean_abs_rgb_error_0_255": 1.342333
           },
           "carrot_and_knife": {
             "visible": false
@@ -5183,7 +5738,7 @@
         "phase": "satisfaction_derisoire",
         "fresh_svg_sha256": "2d1a669dd7fae4e95fa24261be1c7165e5c5ac58cd3646f898cc1ed10366d37a",
         "fresh_png_sha256": "190bd3129b874ed2a9cd086beefd11ff3790d82f9530a344934587e5e338eb19",
-        "full_frame_mean_abs_rgb_error_0_255": 1.472991,
+        "full_frame_mean_abs_rgb_error_0_255": 1.45845,
         "regions": {
           "faucet": {
             "visible": true,
@@ -5193,7 +5748,7 @@
               247,
               1169
             ],
-            "mean_abs_rgb_error_0_255": 1.538055
+            "mean_abs_rgb_error_0_255": 1.497143
           },
           "bin": {
             "visible": true,
@@ -5203,7 +5758,7 @@
               290,
               1805
             ],
-            "mean_abs_rgb_error_0_255": 1.588878
+            "mean_abs_rgb_error_0_255": 1.540749
           },
           "carrot_and_knife": {
             "visible": true,
@@ -5213,7 +5768,7 @@
               820,
               1415
             ],
-            "mean_abs_rgb_error_0_255": 2.134206
+            "mean_abs_rgb_error_0_255": 2.099336
           },
           "paper_roll": {
             "visible": true,
@@ -5223,7 +5778,7 @@
               965,
               1368
             ],
-            "mean_abs_rgb_error_0_255": 1.98104
+            "mean_abs_rgb_error_0_255": 1.958354
           },
           "mouth": {
             "visible": true,
@@ -5233,7 +5788,7 @@
               644,
               1185
             ],
-            "mean_abs_rgb_error_0_255": 1.773482
+            "mean_abs_rgb_error_0_255": 1.740854
           },
           "apron": {
             "visible": true,
@@ -5243,7 +5798,7 @@
               724,
               1335
             ],
-            "mean_abs_rgb_error_0_255": 2.09432
+            "mean_abs_rgb_error_0_255": 2.04955
           },
           "hand_left": {
             "visible": true,
@@ -5253,7 +5808,7 @@
               545,
               1235
             ],
-            "mean_abs_rgb_error_0_255": 2.220311
+            "mean_abs_rgb_error_0_255": 2.154536
           },
           "hand_right": {
             "visible": true,
@@ -5263,7 +5818,7 @@
               631,
               1347
             ],
-            "mean_abs_rgb_error_0_255": 1.949214
+            "mean_abs_rgb_error_0_255": 1.897658
           },
           "shoulder_left": {
             "visible": true,
@@ -5273,7 +5828,7 @@
               382,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.579605
+            "mean_abs_rgb_error_0_255": 1.532318
           },
           "shoulder_right": {
             "visible": true,
@@ -5283,7 +5838,7 @@
               824,
               1110
             ],
-            "mean_abs_rgb_error_0_255": 1.898732
+            "mean_abs_rgb_error_0_255": 1.863466
           }
         }
       }
@@ -5294,10 +5849,10 @@
   },
   "tested_sources_sha256": {
     "/workspace/MOU/episodes/03/cuisine_v6/sources/animation.py": "2cbfa7f9a6ce1757d4d2f76fdc04f468a672fb74ef9aecaad83a0388a163ce58",
-    "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "f0b93ff580ec29486324c492c2aee681b31ac5050c4311535917f4761704711d",
-    "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "fda9ac4475bae0c4cf8a7f83fcb2f50e6870d4fbb88c8536317bc2ae7d956e71",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "36097fe101a6694113b596a8ae520f393af6731decaa1814fcabf46008f5e4ea",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "408ee2be0d0c29fc3434d2b93c0854704a958f89b0c7d8dc408e87de460def7a",
     "/workspace/MOU/episodes/03/cuisine_v6/sources/son.py": "45b90acdf0e22122d9e11c9cae9fb8640844a2ee67343c62c1aed84e49b8e143",
-    "/workspace/MOU/episodes/03/cuisine_v6/sources/verify.py": "9a6fd49dc9ac42961bcd2ede027aa207d53a3c1a6cbc9108448dbd19d59d636e",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/verify.py": "a434838d435cc677e8d5f4ec3eb2d2453786850417aafdf04aacec10b64de314",
     "/workspace/MOU/episodes/03/cuisine_v6/chronologie.json": "95f7a9cab042e18db2b94553e4df2f4bf601b1d47aa34536e521c1efc5228bf4",
     "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
   }

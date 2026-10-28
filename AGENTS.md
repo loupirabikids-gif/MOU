@@ -6,11 +6,21 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Accord courant : corriger uniquement la matière du dernier papier avant la
+diffusion du pilote. Révision V11 dans `episodes/03/cuisine_v6/` : enlever le
+coin replié évoquant un document, assouplir le contour, marquer une déchirure
+discrète et une courbure contre la moufle. Garder son encombrement 64 × 88,
+sa boulette de rayon 22 et un froissage continu sans croisement de contour.
+Le modèle, les bras, les mains, tous les gestes, le montage de 35 s, la légende
+V10 et le son sont conservés. Contrôles et critique : `controle/*papier_v11*`.
+L’accord autorise la correction, les exports et la livraison GitHub ; aucune
+publication sur un compte social n’a été demandée.
+
 Légende d’ouverture V10 validée : « Me cooking: touch, wash, wipe… repeat. ».
 L’intégrer en deux lignes pendant 0–3 s, dégagée du visage de MOU, avec une
 courte sortie entre 2,85 et 3 s. Garder le montage de 35 s, tous les gestes,
-sons, bras et accessoires. Le retour sur l’aspect raide du dernier papier
-reste une proposition de retouche ; cette sélection valide la légende seule.
+sons, bras et accessoires. Cette sélection validait la légende seule ;
+la retouche du papier a ensuite été autorisée pour la V11 décrite ci-dessus.
 La police DejaVu fournie devient une dépendance gelée du rendu. Contrôles et
 critique dans `controle/*caption_v10*`. Attendre le retour sur ce montage.
 

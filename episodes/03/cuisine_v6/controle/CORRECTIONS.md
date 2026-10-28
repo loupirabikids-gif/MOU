@@ -2,6 +2,32 @@
 
 28 octobre 2026. Révision ciblée de la v5 à la demande de l’utilisatrice.
 
+## Papier souple V11 — retouche autorisée avant diffusion
+
+À 30,25–32,083 s, le dernier morceau ressemblait à une icône de document :
+arêtes droites et coin rabattu. La retouche conserve l’encombrement 64 × 88,
+la prise et les mains ; elle remplace ces arêtes par un contour légèrement
+incurvé, un bas irrégulier et deux plis courbes. Le coin de document disparaît.
+La boulette de rayon 22 reste identique en main, en vol et dans la poubelle.
+
+Le départ du froissage reprend exactement le même contour souple ; l’ordre
+des sommets conserve le sens de la boulette miroir. Dans la première étude,
+le critique a repéré un pli qui dépassait du papier pendant sa contraction,
+vers 32,167–32,333 s. Les plis sont maintenant masqués par le contour courant,
+sans changement des gestes ou de la silhouette. Huit détails successifs sont
+réexaminés après cette correction.
+
+Seul `art.py` change le dessin. Personnage, bras/raccords, deux moufles, contacts,
+regards, expressions, légende V10, montage de 35 s et tous les sons sont
+conservés. Voir `audit_papier_v11.json`, `developpement/papier_v11.md` et les
+critiques `*papier_v11*`. La V10 reste accessible au commit `b7328c6`.
+Le premier export V11 en CRF 14 dépasse légèrement le seuil RGB 3/255 dans
+deux régions de main à l’image 777 (32,375 s) : 3,027337 et 3,020194.
+Le rapport est conservé sous `audit_final_papier_v11_crf14.json`. La qualité
+d’encodage passe en CRF 12, sans changer le seuil ou les SVG, avant de refaire
+les contrôles et la relecture du véritable fichier livré.
+Les sections suivantes sont l’historique des versions précédentes.
+
 ## Légende V10 — phrase validée au départ
 
 Ajout de « Me cooking: touch, wash, wipe… repeat. » pendant les trois premières

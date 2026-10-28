@@ -1,10 +1,11 @@
 {
   "sha256": {
     "/workspace/MOU/episodes/03/cuisine_v6/sources/animation.py": "2cbfa7f9a6ce1757d4d2f76fdc04f468a672fb74ef9aecaad83a0388a163ce58",
-    "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "f0b93ff580ec29486324c492c2aee681b31ac5050c4311535917f4761704711d",
-    "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "fda9ac4475bae0c4cf8a7f83fcb2f50e6870d4fbb88c8536317bc2ae7d956e71",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "36097fe101a6694113b596a8ae520f393af6731decaa1814fcabf46008f5e4ea",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "408ee2be0d0c29fc3434d2b93c0854704a958f89b0c7d8dc408e87de460def7a",
     "/workspace/MOU/episodes/03/cuisine_v6/chronologie.json": "95f7a9cab042e18db2b94553e4df2f4bf601b1d47aa34536e521c1efc5228bf4",
     "/workspace/MOU/fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
   },
-  "output": "/workspace/MOU/episodes/03/cuisine_v6/MOU_Encore_une_feuille_animatique.mp4"
+  "output": "/workspace/MOU/episodes/03/cuisine_v6/MOU_Encore_une_feuille_animatique.mp4",
+  "note": "Same previously reviewed SVG/PNG images; encoding quality CRF12."
 }

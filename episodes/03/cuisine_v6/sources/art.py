@@ -137,6 +137,42 @@ def _strip(start, end, width, sag, progress):
     return ''.join(out)
 
 
+def _last_sheet_points():
+    """A bowed, softly torn sheet, with the original 64 x 88 extent.
+
+    Fifteen clockwise anchors match the final ball's winding and vertex
+    count.  The same outline starts the crush, so there is no replacement
+    frame or folded document corner at the handoff.
+    """
+    sx, sy = LAST_PAPER_WIDTH/64., LAST_PAPER_HEIGHT/88.
+    return tuple((x*sx,y*sy) for x,y in (
+        (-32,-5),(-13,-2),(10,-3),(29,-5),(27,19),
+        (31,43),(32,67),(25,80),(11,77),(0,83),
+        (-9,79),(-23,81),(-28,64),(-31,40),(-28,16)))
+
+
+def _soft_paper_outline(points, rounding=.22):
+    """Round short corner sections without changing the winding order."""
+    rounding=_clamp(rounding,0.,.45)
+    def toward(a,b):
+        return (a[0]+rounding*(b[0]-a[0]),a[1]+rounding*(b[1]-a[1]))
+    first=toward(points[0],points[-1])
+    out=[f'M{_n(first[0])} {_n(first[1])}']
+    for i,point in enumerate(points):
+        before=toward(point,points[i-1])
+        after=toward(point,points[(i+1)%len(points)])
+        out.append(f'L{_n(before[0])} {_n(before[1])} '
+                   f'Q{_n(point[0])} {_n(point[1])} {_n(after[0])} {_n(after[1])}')
+    return ' '.join(out)+' Z'
+
+
+def _last_sheet_creases():
+    # Curves follow the small drape around the existing mitten. They are
+    # short material bends rather than a ruled line or a folded-over corner.
+    return (_path('M-20 13 Q-7 25 -15 45',stroke='#CBB6C8',width=1.8)
+            +_path('M19 31 Q10 49 19 65',stroke='#CBB6C8',width=1.8))
+
+
 def paper_svg(paper: dict | None, t: float = 0.) -> str:
     """Long pulled band, folded wiping band, or its progressive crushed ball.
 
@@ -156,14 +192,9 @@ def paper_svg(paper: dict | None, t: float = 0.) -> str:
         cx,cy=map(float,paper.get('center',end))
         # The last piece stays smaller than the wasted bands, but remains
         # legible on a phone. Its grip and the native hands do not move.
-        width,height=LAST_PAPER_WIDTH,LAST_PAPER_HEIGHT
-        half,top,fold=width/2.,-5.,height*.20
-        bottom=top+height
-        result=(_path(f'M{_n(cx-half)} {_n(cy+top)} L{_n(cx+half)} {_n(cy+top)} '
-                      f'L{_n(cx+half)} {_n(cy+bottom-fold)} L{_n(cx+half-fold)} {_n(cy+bottom)} '
-                      f'L{_n(cx-half)} {_n(cy+bottom)} Z',PAPER,INK,3.2)
-                +_path(f'M{_n(cx+half-fold)} {_n(cy+bottom)} V{_n(cy+bottom-fold)} h{_n(fold)}',
-                       stroke='#C5B2C3',width=1.9))
+        result=(f'<g transform="translate({_n(cx)} {_n(cy)})">'
+                +_path(_soft_paper_outline(_last_sheet_points()),PAPER,INK,3.2)
+                +_last_sheet_creases()+'</g>')
     elif mode == 'pull':
         result = _strip(start, end, width, 21.+17.*progress, progress)
     elif mode == 'wipe':
@@ -201,31 +232,32 @@ def paper_svg(paper: dict | None, t: float = 0.) -> str:
             # outline backwards so the sheet never crosses or collapses while
             # shrinking into the final, geometrically identical ball.
             jagged=jagged[4::-1]+jagged[:4:-1]
-            half,top,fold=LAST_PAPER_WIDTH/2.,-5.,LAST_PAPER_HEIGHT*.20
-            bottom=top+LAST_PAPER_HEIGHT
-            corners=((-half,top),(half,top),(half,bottom-fold),
-                     (half-fold,bottom),(-half,bottom))
-            # Subdivide the same five-sided sheet outline into fifteen points:
-            # its first crushed frame matches the held sheet exactly.
-            rectangle=tuple((a[0]+u*(b[0]-a[0]),a[1]+u*(b[1]-a[1]))
-                            for a,b in zip(corners,corners[1:]+corners[:1])
-                            for u in (0.,1/3,2/3))
+            rectangle=_last_sheet_points()
         pts = [((1-progress)*a*xscale+progress*mirror*b*r,
                 (1-progress)*c*yscale+progress*d*r)
                for (a,c),(b,d) in zip(rectangle,jagged)]
-        outline='M'+' L'.join(f'{_n(x)} {_n(y)}'for x,y in pts)+' Z'
+        outline=(_soft_paper_outline(pts,.22*(1.-progress)) if small else
+                 'M'+' L'.join(f'{_n(x)} {_n(y)}'for x,y in pts)+' Z')
         if small:
-            folded=((half-fold,bottom),(half-fold,bottom-fold),(half,bottom-fold))
-            crushed=tuple((mirror*x*r,y*r) for x,y in ((-.54,-.66),(-.18,-.15),(-.40,.40)))
-            crease='M'+' L'.join(f'{_n((1-progress)*a+progress*b)} {_n((1-progress)*c+progress*d)}'
-                                 for (a,c),(b,d) in zip(folded,crushed))
+            # Keep the held bends at the exact start, then replace them with
+            # the crushed texture as the material contracts. The silhouette
+            # remains one object throughout.
+            crease=(f'<g opacity="{_n(1.-progress)}">'+_last_sheet_creases()+'</g>'
+                    +f'<g opacity="{_n(progress)}">'
+                    +_path(f'M{-.54*r:.4f} {-.66*r:.4f} L{-.18*r:.4f} {-.15*r:.4f} L{-.40*r:.4f} {.40*r:.4f}',
+                           stroke='#C5B2C3',width=1.6)+'</g>')
+            # Bends belong to the shrinking material, never the hand or the
+            # plate behind it. Use this exact current silhouette as their mask.
+            crease=('<defs><clipPath id="papier-dernier-plis-clip" clipPathUnits="userSpaceOnUse">'
+                    f'<path d="{outline}"/></clipPath></defs>'
+                    '<g clip-path="url(#papier-dernier-plis-clip)">'+crease+'</g>')
         else:
             crease=(f'M{(-26+7*progress)*xscale:.4f} {-14*yscale:.4f} '
                     f'L{(14+3*progress)*xscale:.4f} {21*yscale:.4f} '
                     f'L{(-15+5*progress)*xscale:.4f} {(97-69*progress)*yscale:.4f}')
         result=(f'<g transform="translate({_n(cx)} {_n(cy)}) scale({_n(1.+.13*progress)} {_n(1.+.25*progress)})">'
                 +_path(outline,PAPER,INK,3.2 if small else 4.5)
-                +_path(crease,stroke='#C5B2C3',width=1.9-.3*progress if small else 2.5)+'</g>')
+                +(crease if small else _path(crease,stroke='#C5B2C3',width=2.5))+'</g>')
     elif mode == 'ball':
         cx, cy = map(float, paper.get('center', start))
         result = _ball(cx, cy, float(paper.get('r',55.)),

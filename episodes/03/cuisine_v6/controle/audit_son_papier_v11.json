@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "baseline_commit": "b7328c6c628fa16dc5b5e1d6b1633280d32e49b6",
+  "aac_bitstream_byte_identical": true,
+  "aac_adts_sha256": "f7c44375924417b7af360ba340070528a6ded05fa6ca5157a975d42b6de160f2",
+  "aac_adts_bytes": 724692,
+  "mix_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
+  "final_video_sha256": "9877b20659cfd889c2ad5e7a6c954b8b0d6687d519a1ad5a605fdde1bccdb275"
+}

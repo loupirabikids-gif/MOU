@@ -11,6 +11,9 @@ Chaque petit contact relance son lavage avec un débit d’eau exagéré, puis s
 gaspillage de papier. Le rouleau se consomme et le dernier petit bout reçoit
 un soin démesuré. Le dernier morceau a été agrandi pour rester lisible sur
 téléphone : 64 × 88 au lieu de 26 × 40, avec une boulette plus visible.
+La retouche V11 garde cette taille et rend la feuille souple : contour légèrement
+déformé, bord déchiré et plis courbes, sans coin replié de document. Même prise,
+mêmes mains, même durée et même son.
 
 [![Aperçu muet](MOU_Encore_une_feuille_apercu.gif)](MOU_Encore_une_feuille.mp4?raw=true)
 
@@ -19,6 +22,7 @@ téléphone : 64 × 88 au lieu de 26 × 40, avec une boulette plus visible.
 - [Animatique avec son](MOU_Encore_une_feuille_animatique.mp4?raw=true)
 - [Sources et sons ZIP](MOU_Encore_une_feuille_sources.zip?raw=true)
 - [Bilan des contrôles](CONTROLE.txt) · [Critique de la légende V10](controle/critique_caption_v10_final.md) · [Rythme V9](controle/critique_rythme_v9_final.md) · [Son V8 conservé](controle/critique_musique_v8_final.md) · [Correctif papier V7](controle/critique_papier_v7_final.md)
+- [Retouche du papier V11](developpement/papier_v11.md) · [Critique du résultat V11](controle/critique_papier_v11_final.md)
 - [Ouverture et rythme V9](developpement/ouverture_v9.md)
 - [Direction sonore V8](developpement/direction_son_v8.md) · [Chronologie](chronologie.json)
 - [Ajouts initiaux V6 conservés](developpement/ajouts_v6.md)

@@ -10,6 +10,8 @@ Chaque contact relance son lavage et son gaspillage de papier. Le rouleau diminu
 à chaque tirage. Après trois gros gaspillages, il ne reste qu’un minuscule
 bout : MOU sèche sa grande moufle avec une application absurde. Le dernier
 morceau est désormais plus grand pour rester lisible sur téléphone.
+La retouche V11 assouplit le dernier morceau et retire son coin de document,
+avec un bord déchiré et des plis légers ; les mains et le montage sont conservés.
 
 [![Encore une feuille](episodes/03/cuisine_v6/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true)
 

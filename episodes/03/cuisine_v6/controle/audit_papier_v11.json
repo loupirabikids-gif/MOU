@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "baseline_commit": "b7328c6c628fa16dc5b5e1d6b1633280d32e49b6",
+  "scope": "Only the final sheet material and its continuous crumple; no audio listening or audience validation.",
+  "preserved_files_sha256": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/cuisine_v6/chronologie.json": "95f7a9cab042e18db2b94553e4df2f4bf601b1d47aa34536e521c1efc5228bf4",
+    "fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+    "episodes/03/cuisine_v6/audio/mix.wav": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
+    "episodes/03/cuisine_v6/sources/animation.py": "2cbfa7f9a6ce1757d4d2f76fdc04f468a672fb74ef9aecaad83a0388a163ce58",
+    "episodes/03/cuisine_v6/sources/son.py": "45b90acdf0e22122d9e11c9cae9fb8640844a2ee67343c62c1aed84e49b8e143"
+  },
+  "encoding_quality_exception": {
+    "path": "episodes/03/cuisine_v6/sources/render.py",
+    "baseline_sha256": "fda9ac4475bae0c4cf8a7f83fcb2f50e6870d4fbb88c8536317bc2ae7d956e71",
+    "current_sha256": "408ee2be0d0c29fc3434d2b93c0854704a958f89b0c7d8dc408e87de460def7a",
+    "only_byte_change": "'-crf','14' -> '-crf','12'",
+    "reason": "Two decoded hand ROI errors exceeded the unchanged 3/255 threshold at CRF14; use CRF12.",
+    "svg_rendering_code_otherwise_byte_identical": true
+  },
+  "art_sha256": "36097fe101a6694113b596a8ae520f393af6731decaa1814fcabf46008f5e4ea",
+  "unchanged_art_functions": [
+    "_n",
+    "_clamp",
+    "_path",
+    "_ellipse",
+    "_ball",
+    "bin_svg",
+    "_strip",
+    "water_svg",
+    "apron_svg",
+    "lever_tip",
+    "lever_svg",
+    "tomato_svg",
+    "tomato_dish_svg",
+    "food_svg",
+    "spoon_svg",
+    "parked_spoon_svg",
+    "knife_edge_point",
+    "knife_svg",
+    "carrot_svg",
+    "roll_geometry",
+    "roll_svg"
+  ],
+  "scene_comparison": {
+    "frames": 840,
+    "identical_full_svg_frames": 774,
+    "changed_paper_only_frames": 66,
+    "first_changed_frame": 712,
+    "last_changed_frame": 777,
+    "first_changed_seconds": 29.666666666666668,
+    "last_changed_seconds": 32.375,
+    "all_non_paper_svg_subtrees_identical": true
+  },
+  "geometry": {
+    "method": "Flatten actual emitted SVG M/L/H/V/Q/C/Z outlines, applying SVG transforms; test strict nonadjacent segment crossings and signed areas. Endpoints compared by independent CairoSVG alpha raster.",
+    "progress_samples": 1001,
+    "curve_subdivisions_per_segment": 12,
+    "strict_crossings": 0,
+    "min_signed_area": 1614.50784,
+    "max_signed_area": 4823.817513888889,
+    "start_signed_area": 4823.817513888889,
+    "end_signed_area": 1614.50784,
+    "same_outline_for_pull_reveal_wipe": true,
+    "held_vs_crumple_zero_alpha_exact": true,
+    "all_progress_texture_clip_matches_current_outline": true,
+    "texture_alpha_raster_samples": 51,
+    "texture_spill_pixels": 0,
+    "crumple_one_vs_ball_alpha_different_pixels": 0,
+    "endpoint_raster_dimensions": [
+      800,
+      800
+    ],
+    "sheet_dimensions": [
+      64.0,
+      88.0
+    ],
+    "last_ball_radius": 22.0
+  }
+}

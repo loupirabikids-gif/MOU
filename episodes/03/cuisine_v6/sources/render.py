@@ -278,7 +278,7 @@ def encode(frames,fps,scale,tag):
     temp=silent.with_name('.'+silent.name)
     subprocess.run(['ffmpeg','-y','-v','error','-framerate',str(fps),'-i',str(Path(frames)/'%05d.png'),
         '-frames:v',str(round(DURATION*fps)),'-c:v','libx264','-threads','3','-preset','medium',
-        '-crf','14','-pix_fmt','yuv420p','-an','-movflags','+faststart',str(temp)],check=True)
+        '-crf','12','-pix_fmt','yuv420p','-an','-movflags','+faststart',str(temp)],check=True)
     os.replace(temp,silent)
     audio=EP/'audio/mix.wav'
     if audio.exists():
