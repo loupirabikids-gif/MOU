@@ -12,6 +12,16 @@ Les propositions et avis sont dans `episodes/03/developpement/*carotte*v3*` et
 la recherche sourcée dans `recherche/`. Le découpage consolidé est proposé,
 pas encore un nouveau montage validé. La vidéo du commit8b92bed reste la référence ;
 aucune migration de moteur ni installation de plugin n’a été décidée.
+
+Dernier complément demandé : rendre les émotions et les intentions de MOU
+lisibles sans dialogue. La direction des huit temps est dans
+`episodes/03/developpement/direction_jeu_emotions_v4.md`, avec une étude de six
+visages dans `episodes/03/developpement/expressions_v4/`. Pour chaque action, préciser l’information que
+le spectateur doit comprendre et les indices visibles qui la portent : objet
+touché, regard, anticipation, geste et réaction. Vérifier ensuite l’animatique
+en silence, avant le son. Les réactions faciales restent en plans larges ; le
+lavabo garde uniquement la main. La planche n’est pas une validation du film.
+
 Commande courante : avancer petit à petit sur le gag de cuisine et
 d’essuie-tout, dans `episodes/03/`. Le décor fixe de `episodes/03/decor/`
 est validé par l’utilisatrice (« Oui ca me vas »), référence commit795563c.

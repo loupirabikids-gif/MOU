@@ -1,0 +1,206 @@
+{
+  "status": "proposed_acting_study_not_film",
+  "sources_unchanged": {
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/film/sources/animation.py": "8872db86fafe7edcd7aa392232909607b10d84e247b17f67fcee21a435263f75"
+  },
+  "states": [
+    {
+      "id": "envie",
+      "title": "1. Envie de cuisiner",
+      "target": "Regard vers la poêle",
+      "note": "Le plaisir précède le premier geste.",
+      "pose": {
+        "eye_open_l": 1.0,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.3,
+        "smile": 0.68,
+        "mouth_open": 0.1,
+        "pupil_x": -0.72,
+        "pupil_y": 0.83
+      },
+      "full_pose": {
+        "arm_hips": 0.0,
+        "arm_clasp": 1.0,
+        "eye_open_l": 1.0,
+        "eye_open_r": 1.0,
+        "pupil_x": -0.72,
+        "pupil_y": 0.83,
+        "brow_l": 0.0,
+        "brow_r": 0.0,
+        "brow_raise": 0.3,
+        "smile": 0.68,
+        "mouth_open": 0.1,
+        "laugh": 0.0,
+        "lift_l": 0.0,
+        "lift_r": 0.0
+      },
+      "svg_sha256": "a6e131290fa79dd5cce3a992521fc5b3e6e5358e9c77f3f6ee897136cc60d3e8"
+    },
+    {
+      "id": "doute",
+      "title": "2. Petit doute",
+      "target": "Regard vers sa main",
+      "note": "Un arrêt bref après le contact.",
+      "pose": {
+        "eye_open_l": 0.96,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.1,
+        "brow_l": 0.22,
+        "brow_r": 0.04,
+        "smile": -0.13,
+        "pupil_x": 0.0,
+        "pupil_y": 0.88
+      },
+      "full_pose": {
+        "arm_hips": 0.0,
+        "arm_clasp": 1.0,
+        "eye_open_l": 0.96,
+        "eye_open_r": 1.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.88,
+        "brow_l": 0.22,
+        "brow_r": 0.04,
+        "brow_raise": 0.1,
+        "smile": -0.13,
+        "mouth_open": 0.0,
+        "laugh": 0.0,
+        "lift_l": 0.0,
+        "lift_r": 0.0
+      },
+      "svg_sha256": "04337e7f66de4fc2ffe9a781925b5476accd9080f34c53581dd33f2c8ef3f892"
+    },
+    {
+      "id": "soulagement",
+      "title": "3. Soulagement éclair",
+      "target": "Regard sur la main séchée",
+      "note": "Un sourire bref, puis retour à la cuisine.",
+      "pose": {
+        "eye_open_l": 0.81,
+        "eye_open_r": 0.84,
+        "brow_raise": 0.18,
+        "smile": 0.58,
+        "pupil_x": 0.03,
+        "pupil_y": 0.8
+      },
+      "full_pose": {
+        "arm_hips": 0.0,
+        "arm_clasp": 1.0,
+        "eye_open_l": 0.81,
+        "eye_open_r": 0.84,
+        "pupil_x": 0.03,
+        "pupil_y": 0.8,
+        "brow_l": 0.0,
+        "brow_r": 0.0,
+        "brow_raise": 0.18,
+        "smile": 0.58,
+        "mouth_open": 0.0,
+        "laugh": 0.0,
+        "lift_l": 0.0,
+        "lift_r": 0.0
+      },
+      "svg_sha256": "6db98de014429c42a6b4210a317eb0a44e301a18f34c3d0226841d3b7831772a"
+    },
+    {
+      "id": "concentration",
+      "title": "4. Concentration",
+      "target": "Regard vers la carotte",
+      "note": "La précision prépare les deux coupes.",
+      "pose": {
+        "eye_open_l": 0.9,
+        "eye_open_r": 0.94,
+        "brow_raise": 0.02,
+        "brow_l": -0.23,
+        "brow_r": -0.18,
+        "smile": 0.04,
+        "pupil_x": -0.65,
+        "pupil_y": 0.87
+      },
+      "full_pose": {
+        "arm_hips": 0.0,
+        "arm_clasp": 1.0,
+        "eye_open_l": 0.9,
+        "eye_open_r": 0.94,
+        "pupil_x": -0.65,
+        "pupil_y": 0.87,
+        "brow_l": -0.23,
+        "brow_r": -0.18,
+        "brow_raise": 0.02,
+        "smile": 0.04,
+        "mouth_open": 0.0,
+        "laugh": 0.0,
+        "lift_l": 0.0,
+        "lift_r": 0.0
+      },
+      "svg_sha256": "704bfc2c3b2d4797a1439a94f6c8e5f08b84e05850f575a3f41a6c4aa32d87ac"
+    },
+    {
+      "id": "reflexe",
+      "title": "5. Pris par son réflexe",
+      "target": "Le regard rejoint la main",
+      "note": "À jouer surtout par le départ du geste.",
+      "pose": {
+        "eye_open_l": 1.0,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.42,
+        "brow_l": 0.06,
+        "brow_r": 0.15,
+        "smile": -0.1,
+        "mouth_open": 0.05,
+        "pupil_x": 0.02,
+        "pupil_y": 0.86
+      },
+      "full_pose": {
+        "arm_hips": 0.0,
+        "arm_clasp": 1.0,
+        "eye_open_l": 1.0,
+        "eye_open_r": 1.0,
+        "pupil_x": 0.02,
+        "pupil_y": 0.86,
+        "brow_l": 0.06,
+        "brow_r": 0.15,
+        "brow_raise": 0.42,
+        "smile": -0.1,
+        "mouth_open": 0.05,
+        "laugh": 0.0,
+        "lift_l": 0.0,
+        "lift_r": 0.0
+      },
+      "svg_sha256": "aa767dd6eb631b552df449eec2a8ed8f3f313d85319c610acbac8fe4b972ec63"
+    },
+    {
+      "id": "resistance",
+      "title": "6. Résistance finale",
+      "target": "Regard gourmand vers la poêle",
+      "note": "Une main retient l’autre avant le papier.",
+      "pose": {
+        "eye_open_l": 0.9,
+        "eye_open_r": 0.94,
+        "brow_raise": 0.05,
+        "brow_l": 0.22,
+        "brow_r": 0.18,
+        "smile": -0.22,
+        "pupil_x": -0.72,
+        "pupil_y": 0.85
+      },
+      "full_pose": {
+        "arm_hips": 0.0,
+        "arm_clasp": 1.0,
+        "eye_open_l": 0.9,
+        "eye_open_r": 0.94,
+        "pupil_x": -0.72,
+        "pupil_y": 0.85,
+        "brow_l": 0.22,
+        "brow_r": 0.18,
+        "brow_raise": 0.05,
+        "smile": -0.22,
+        "mouth_open": 0.0,
+        "laugh": 0.0,
+        "lift_l": 0.0,
+        "lift_r": 0.0
+      },
+      "svg_sha256": "c5188f9c7fee18872ebca555a7cd860394ce83f76543013f191c8a2416c66297"
+    }
+  ],
+  "limits": "Faces and gaze suggestions only. Resting arms are shared across panels; intercepting, chopping and emotional timing require animation. Labels describe the study and are not episode dialogue."
+}

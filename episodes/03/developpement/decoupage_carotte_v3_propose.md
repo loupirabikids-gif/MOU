@@ -1,5 +1,8 @@
 # Carotte et accélération — proposition consolidée
 
+Complément de jeu : [émotions, regards et intentions sans dialogue](direction_jeu_emotions_v4.md),
+[planche de visages](expressions_v4/README.md) et [contrelecture muette](critique_lecture_muet_v4.md).
+
 Statut : scénario/découpage proposés pour avis, pas de nouveau montage fabriqué.
 La vidéo26s du commit8b92bed reste intacte. Cette proposition développe le retour
 de l’utilisatrice ; aucune validation par statistiques ou public n’est revendiquée.

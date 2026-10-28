@@ -7,6 +7,7 @@ papier et une poubelle qui se remplit à chaque jet.**
 Proposition suivante, pas encore fabriquée : [carotte, quatre rituels et
 accélération progressive](developpement/decoupage_carotte_v3_propose.md).
 [Recherche sourcée d’outils gratuits pour le jeu et le son](../../recherche/README.md).
+[Direction de jeu sans dialogue et planche d’expressions](developpement/expressions_v4/README.md).
 
 [![Montage complet](film/MOU_Encore_une_feuille_apercu.gif)](film/MOU_Encore_une_feuille.mp4?raw=true)
 
