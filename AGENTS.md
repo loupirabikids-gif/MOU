@@ -25,6 +25,13 @@ Dernier correctif demandé : les trois lavages sont des gros plans du lavabo,
 du robinet et de la main uniquement. Visage, corps, îlot et ustensiles de cuisine
 restent hors de ces inserts. Garder exactement les durées, poses, sons et tous
 les autres plans ; il s’agit seulement du cadrage et des calques du gros plan.
+Dernier retour : la main paraît trop grande dans le lavabo et le raccord large
+garde un cran. Réduire uniformément le bras/main natif d’environ30% dans les
+inserts uniquement, en contrôlant réellement contact d’eau et levier. Reprendre
+la jonction extérieure gauche avec une courbe tangente, y compris sa petite
+frontière de remplissage locale si nécessaire. Conserver moufle, trait intérieur,
+bras opposé, jeu, durée et son. Le premier correctif de raccord était incomplet :
+ne pas le qualifier de totalement résolu sans revoir les plans larges exportés.
 Les nouvelles sources et exports sont dans `episodes/03/film/`, sans écraser
 le décor, placement ou test validés. La zone entourée vise le raccord du bras
 à gauche de l’écran, pas la moufle. Seule une retouche locale de cette jonction

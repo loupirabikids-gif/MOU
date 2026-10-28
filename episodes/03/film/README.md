@@ -20,11 +20,17 @@ trois arrivées et le débordement final. MOU termine satisfait de sa main propr
 Les trois lavages sont cadrés uniquement sur le lavabo, le robinet et la main,
 avec l’avant-bras entrant depuis la droite. Aucun visage ou plan de travail
 de premier plan dans ces inserts ; le reste du montage et le son sont conservés.
+La proportion de la main dans ces inserts est réduite à la demande de
+l’utilisatrice. Le raccord extérieur du bras gauche est repris localement
+dans les plans larges après constat d’un cran encore présent.
+La [contrelecture de ces deux points](controle/critique_proportion_main.md)
+et la [répartition réelle du travail entre agents](controle/equipe_correctif_main_raccord.md)
+sont conservées avec les sources.
 Voir la [critique du recadrage](controle/critique_closeup_lavabo.md) et la
-[comparaison avant/après limitée aux lavages](controle/audit_scope_closeup.json).
+[comparaison historique du recadrage](controle/audit_scope_closeup.json).
 
 Décor, modèle et moufles validés conservés. Le raccord gauche est corrigé
-localement dans l’encre ; le bras natif est réorienté au lavabo pour dégager
+localement dans la courbe de jonction et son encre ; le bras natif est réorienté au lavabo pour dégager
 le filet d’eau, sans étirement. Une correction d’ordre de calques rend la tomate
 visible pendant la prise et le transport. Les sources validées ne sont pas
 réécrites ; les premières versions et leurs critiques sont conservées.

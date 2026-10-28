@@ -1,5 +1,10 @@
 # Contrelecture du cadrage rapproché du lavabo
 
+Rapport historique de la versionaada993. Le retour suivant a signalé une main
+trop grande et un raccord encore marqué en plan large ; ces points sont repris
+dans `critique_proportion_main.md`. L’avis ci-dessous ne vaut pas validation
+de ces deux défauts après ce retour.
+
 Demande examinée : voir seulement un gros plan sur le lavabo avec la main
 pendant les lavages. Le récit, les gestes, la durée et le son restent ceux
 du montage précédent. Cette revue ne recommande aucune autre modification.

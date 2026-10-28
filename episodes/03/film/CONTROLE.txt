@@ -1,14 +1,16 @@
-MOU — Encore une feuille — contrôles du premier montage complet
+MOU — Encore une feuille — contrôles de la version corrigée
 
 Export : 1080 × 1920, H264/yuv420p, 24 images/s, 624 images, 26,000 s.
 Version avec son AAC stéréo 48 kHz et version muette : décodage intégral réussi.
 Le flux vidéo compressé est strictement identique entre les deux versions.
 
 Recadrage demandé : uniquement lavabo, robinet et main dans les trois lavages.
-194 images de lavage recadrées ; 430 autres scènes SVG strictement identiques.
-Gestes, personnage, durée et chronologie conservés. Flux AAC strictement
+Main/avant-bras natifs réduits uniformément à70% dans les inserts uniquement.
+Contact du jet, commande et sortie du bras hors champ contrôlés visuellement.
+En plan large, seule la petite jonction extérieure gauche est reprise en tangence.
+Gestes, durée, chronologie, moufles et bras opposé conservés. Flux AAC strictement
 identique à la version précédente, vérifié par empreinte des données audio.
-Voir controle/audit_scope_closeup.json et critique_closeup_lavabo.md.
+Voir controle/audit_scope_main_raccord.json et critique_proportion_main.md.
 
 Histoire et contacts : trois rituels complets après remuage, tomate et manche
 propre. Ouverture, filet visible jusqu’à la main, fermeture, longue bande de
@@ -16,8 +18,9 @@ papier, séchage, lâcher et arrivée dans la même poubelle. Les anciennes boul
 restent visibles ; la troisième dépasse. Critiques indépendantes conservées.
 
 MOU : fichier mou_rig.py original inchangé ; deux bras et deux moufles natifs.
-Correction locale de l’encre au raccord gauche, sans masque ni nouvelle main.
-Remplissages et bras opposé exacts ; aucun étirement. Position et échelle validées
+Correction locale de la frontière et de l’encre du raccord extérieur gauche,
+dans un rayon de24unités, sans masque ni nouvelle main. Trait intérieur,
+moufle et bras opposé conservés. Position et échelle validées
 conservées au plan large. Articulation isométrique au lavabo pour dégager le jet.
 Longueur de cuillère constante de 135 px lorsqu’elle est tenue.
 
@@ -32,7 +35,7 @@ Zéro échantillon PCM saturé ; crête du mix -4.0 dBFS.
 Corrélation du son AAC décodé avec le mix actuel : 0.997061.
 
 Intégrité : 13 images du MP4 comparées à des rendus SVG/CairoSVG frais hors cache,
-avec régions main/robinet/poubelle. Erreur moyenne maximale par image : 1.594/255.
+avec régions main/robinet/poubelle. Erreur moyenne maximale par image : 1.587/255.
 Sources gelées pendant le rendu ; décor, placement et test validés préservés.
 
 Limites : critique visuelle par images réellement décodées et mesures audio.
@@ -40,5 +43,5 @@ Aucune écoute sur téléphone ni projection publique revendiquée. Le jugement
 comique et l’agrément du son restent soumis au retour de l’utilisatrice.
 Livraison GitHub du projet ; aucune publication sur un réseau social.
 
-MP4 avec son SHA256 : fca85b1fc1f268e717603e1dc328a4f89fb6ddbddec57589156782b661523061
-MP4 muet SHA256 : 7c568bbffecc71d22c930647459fd9776739e46839ba04479edd7271703e1b5e
+MP4 avec son SHA256 : ea75c9377982ba32982448234d259bb9eff5f7727e920cebaf2f71e4662c91b2
+MP4 muet SHA256 : 966a0a81bbe10fd801cbe3a1bb5fdfc129ee5584baad8fbb9dff49e265cb44c0

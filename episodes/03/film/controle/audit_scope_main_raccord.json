@@ -1,0 +1,147 @@
+{
+  "base_commit": "aada9932d380c292dfbc39d410f4185e629ee5f7",
+  "duration_seconds": 26,
+  "fps": 24,
+  "frames": 624,
+  "protected_sources_unchanged": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/chronologie.json": "b472a6c4bbba36161f3e4dbe4fa78bdb971008a1b71436db534158d10de8fab1",
+    "episodes/03/film/sources/art.py": "24b0167c91debbf2e6227374cfc693a0e30b424ee57cdf2b2c7714ddf9a4b98b",
+    "episodes/03/film/sources/son.py": "d60300828d44fabc81adfa26fe5d71597c56c0fd5515c696b329fac0a6524fac",
+    "episodes/03/film/audio/mix.wav": "5b457af2dfe22e9169008166cfd836f43547d2f03188a88fbc11304100eb8bc8"
+  },
+  "renderer_sha256": "282016ee94c8c7bb44e817e1cf7e8412ee43db4464bb9b7e5130bfe7cf7b5070",
+  "animation_sha256": "8872db86fafe7edcd7aa392232909607b10d84e247b17f67fcee21a435263f75",
+  "root_geometry_scope_local_radius": 24,
+  "wide_and_bin_pixel_checks": [
+    {
+      "t": 0.5,
+      "changed_pixels": 400,
+      "bbox": [
+        283,
+        1001,
+        323,
+        1087
+      ],
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 2.75,
+      "changed_pixels": 377,
+      "bbox": [
+        271,
+        1001,
+        343,
+        1075
+      ],
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 7.25,
+      "changed_pixels": 404,
+      "bbox": [
+        284,
+        1001,
+        348,
+        1086
+      ],
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 10.25,
+      "changed_pixels": 413,
+      "bbox": [
+        265,
+        1001,
+        323,
+        1063
+      ],
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 10.3333333333,
+      "changed_pixels": 435,
+      "bbox": [
+        252,
+        1001,
+        328,
+        1061
+      ],
+      "max_rgb_error_outside_root_bbox_0_255": 5,
+      "pixels_outside_root_bbox_error_above1": 1
+    },
+    {
+      "t": 10.5,
+      "changed_pixels": 430,
+      "bbox": [
+        267,
+        1001,
+        323,
+        1052
+      ],
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 17.625,
+      "changed_pixels": 374,
+      "bbox": [
+        274,
+        1001,
+        344,
+        1076
+      ],
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 24.75,
+      "changed_pixels": 367,
+      "bbox": [
+        273,
+        1001,
+        341,
+        1076
+      ],
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 9.5,
+      "changed_pixels": 0,
+      "bbox": null,
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 16.9,
+      "changed_pixels": 0,
+      "bbox": null,
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    },
+    {
+      "t": 23.95,
+      "changed_pixels": 0,
+      "bbox": null,
+      "max_rgb_error_outside_root_bbox_0_255": 0,
+      "pixels_outside_root_bbox_error_above1": 0
+    }
+  ],
+  "pixel_comparison_note": "Root bbox includes stroke/antialias margin. Small raster coverage differences up to5/255 outside are recorded, not claimed pixel-identical. All three bin samples are exactly pixel-identical.",
+  "sink_original_arm_uniform_scale": 0.7,
+  "sink_viewbox": [
+    0,
+    900,
+    270,
+    480
+  ],
+  "sink_contact_lift_world_px_maximum": 8,
+  "aac_bitstream_identical_to_previous": true,
+  "aac_adts_sha256": "49912c1f7ab0c7ce2e9392910029adeaa41c9d74c074541e69fe2a71d271ce69",
+  "new_video_sha256": "ea75c9377982ba32982448234d259bb9eff5f7727e920cebaf2f71e4662c91b2"
+}

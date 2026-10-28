@@ -82,7 +82,7 @@ def smooth(u):
 def camera_at(t,state):
     # Hands-only insert on the existing sink, without the foreground island.
     if state['shot']=='sink':
-        return (0.,865.,300.,300.*H/W)
+        return (0.,900.,270.,270.*H/W)
     elif state['shot']=='bin':
         c=next(c for c in TIMELINE['cycles'] if c['id']==state['cycle'])
         u=smooth((t-c['zoom'][0])/.22)
@@ -103,12 +103,17 @@ def svg_at(t):
         # The character stays off screen; its original hand/forearm enters
         # naturally from the right. Cooking props belong to the wider shot.
         parts=[DEFS,BACKGROUND,art.lever_svg(float(s.get('lever',0)))]
+        extension=smooth((hand[1]-1120.)/46.)*smooth((165.-hand[0])/50.)
         if s.get('water'):
-            parts.append(art.water_svg(t,True,hand))
-        parts.append(arms)
+            # The smaller mitten meets the jet a little lower. Keep the
+            # outlet fixed and let the stream reach its visible surface.
+            water_scale=1.+15./72.*extension
+            parts.append(f'<g transform="translate(0 1069) scale(1 {water_scale:.8f}) translate(0 -1069)">'+art.water_svg(t,True,hand)+'</g>')
+        hx,hy=hand
+        hand_parts=[arms]
         if s.get('wet_hand') and not s.get('water'):
-            hx,hy=hand
-            parts.append(f'<path d="M{hx-8:.3f} {hy+31:.3f} q-7 12 0 16 q7 -4 0 -16 M{hx+15:.3f} {hy+43:.3f} q-5 10 0 13 q5 -3 0 -13" fill="#B8E2E4" stroke="#668D9A" stroke-width="2.5"/>')
+            hand_parts.append(f'<path d="M{hx-8:.3f} {hy+31:.3f} q-7 12 0 16 q7 -4 0 -16 M{hx+15:.3f} {hy+43:.3f} q-5 10 0 13 q5 -3 0 -13" fill="#B8E2E4" stroke="#668D9A" stroke-width="2.5"/>')
+        parts.append(f'<g id="proportion-main-lavabo" transform="translate({hx:.6f} {hy-8.*extension:.6f}) scale(.70) translate({-hx:.6f} {-hy:.6f})">'+''.join(hand_parts)+'</g>')
         vb=camera_at(t,s)
         return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
                 f'viewBox="{vb[0]:.6f} {vb[1]:.6f} {vb[2]:.6f} {vb[3]:.6f}">'

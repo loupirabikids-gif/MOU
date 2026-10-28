@@ -26,10 +26,14 @@ décodés et13images reconstruites indépendamment du cache. `package.py` rassem
 les dépendances du projet dans une archive sans les images intermédiaires.
 
 Le modèle original, les dessins validés et le test de remuage ne sont pas
-réécrits. Les gestes utilisent les mêmes bras et moufles ; seule l’encre de la
-petite jonction du bras gauche avec le corps est ajustée au raccord. Dans les
+réécrits. Les gestes utilisent les mêmes bras et moufles ; seule la petite
+jonction extérieure du bras gauche avec le corps est raccordée en tangence,
+avec sa frontière de remplissage et son encre. Dans les
 plans d’évier, le même bras est réorienté par une isométrie pour laisser le
 filet d’eau visible. Aucun étirement ni nouvelle main n’est dessiné.
+La main/avant-bras sont uniformément réduits dans les seuls inserts lavabo,
+avec une légère correction de contact avec le jet. Le modèle du plan large
+et les contacts de commande restent conservés.
 
 Les contrôles numériques et les images extraites ne remplacent pas une écoute
 sur un appareil ou le jugement du public. Les revues précisent leur méthode.

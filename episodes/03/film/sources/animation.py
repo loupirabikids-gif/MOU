@@ -4,8 +4,9 @@ The character is mou_rig, not a new drawing. Every moving limb is one native
 _arm, posed through its existing hips/clasp controls and rigid shoulder rotation.
 In the sink close-up only, reflection about the shoulder/grip axis turns the
 same arm to the near side of the basin without changing its shape or reach.
-Only the ink within twenty-four local pixels of the left shoulder is joined to
-the native body silhouette to remove the notch explicitly marked by the user. Mitten contours,
+Only the exterior boundary and ink within twenty-four local pixels of the left
+shoulder are joined tangentially to the native body silhouette to remove the
+notch explicitly marked by the user. Mitten contours,
 the right arm drawing, body and face are unchanged.
 """
 from __future__ import annotations
@@ -203,7 +204,7 @@ def arm_linear_transform(rotation, reflect_axis=None):
     return a * ca + b * sa, -a * sa + b * ca, b * ca - a * sa, -b * sa - a * ca
 
 
-def soften_left_root(fragment, rotation, reflect_axis=None):
+def _connect_left_root(fragment, rotation, reflect_axis=None):
     """Meet body silhouette with local ink only; no fill/mask/mitten change.
 
     A rotated native arm may begin with an ink cap inside the torso. Where the
@@ -245,6 +246,89 @@ def soften_left_root(fragment, rotation, reflect_axis=None):
     assert count == 1
     return repaired
 
+
+def soften_left_root(fragment, rotation, reflect_axis=None):
+    """Tangent exterior joint; fill/ink change is confined to the 24px root disk."""
+    original=fragment
+    fragment=_connect_left_root(fragment,rotation,reflect_axis)
+    aa,ab,ba,bb=arm_linear_transform(rotation,reflect_axis)
+    def body(p):
+        dx,dy=p[0]-105.,p[1]-291.;return(105.+aa*dx+ab*dy,291.+ba*dx+bb*dy)
+    def local(p):
+        dx,dy=p[0]-105.,p[1]-291.;return(105.+aa*dx+ba*dy,291.+ab*dx+bb*dy)
+    rawds=re.findall(r'<path d="([^"]+)"',original)
+    ds=re.findall(r'<path d="([^"]+)"',fragment)
+    def points(d):return[tuple(map(float,p))for p in re.findall(r'(-?[\d.]+) (-?[\d.]+)',d)]
+    native=points(rawds[0]);current=points(ds[1])
+    # Find the exterior edge at the root. A raised arm can start inside the
+    # torso and cross its silhouette after the first point, still within21px.
+    # Mirroring the native arm swaps the two endpoints in the sink inserts.
+    first,last=body(native[0]),body(native[-1])
+    if not _inside_body(first) and first[0]<105.:
+        reverse=False
+    elif not _inside_body(last) and last[0]<105.:
+        reverse=True
+    elif reflect_axis is None:
+        def exits_near_root(sequence):
+            for p in sequence:
+                if math.dist(p,(105.,291.))>21.:
+                    break
+                q=body(p)
+                if q[0]<105. and not _inside_body(q):
+                    return True
+            return False
+        if exits_near_root(native):
+            reverse=False
+        elif exits_near_root(list(reversed(native))):
+            reverse=True
+        else:
+            return fragment
+    else:return fragment
+    order=list(reversed(native))if reverse else native
+    ordered_stroke=list(reversed(current))if reverse else current
+    B=None
+    for index in range(1,len(order)):
+        if math.dist(order[index],(105.,291.))>=21.:
+            if index>25:return fragment
+            lo,hi=0.,1.
+            for _ in range(30):
+                mid=(lo+hi)/2.;p=point(order[index-1],order[index],mid)
+                if math.dist(p,(105.,291.))<21.:lo=mid
+                else:hi=mid
+            native_b=point(order[index-1],order[index],(lo+hi)/2.)
+            B=body(native_b);break
+    if B is None or B[1]<278.:return fragment
+    cs=((90.,310.),(100.,284.),(111.,241.),(124.,200.))
+    lo,hi=0.,1.
+    for _ in range(40):
+        u=(lo+hi)/2.;p=_cubic(cs,u)
+        if p[1]>271.:lo=u
+        else:hi=u
+    u=(lo+hi)/2.;A=_cubic(cs,u);tx,ty=_tangent(cs,u);T=(-tx,-ty)
+    Q=body(order[index]);P=body(order[index-1]);vx,vy=Q[0]-P[0],Q[1]-P[1];vl=math.hypot(vx,vy);U=(vx/vl,vy/vl)
+    span=math.dist(A,B);handle=min(12.,span/3.)
+    C=(A[0]+T[0]*handle,A[1]+T[1]*handle);D=(B[0]-U[0]*handle,B[1]-U[1]*handle)
+    curve=[_cubic((A,C,D,B),k/32.)for k in range(33)]
+    if max(math.dist(p,(105.,291.))for p in curve)>21.1:return fragment
+    new_order=[local(p)for p in curve]+order[index:]
+    new_fill=list(reversed(new_order))if reverse else new_order
+    # Main original ink from B onward. No alteration of the internal cap.
+    j=next(j for j,p in enumerate(ordered_stroke)if math.dist(p,(105.,291.))>=21.)
+    remain=[native_b]+ordered_stroke[j:]
+    main=list(reversed(remain))if reverse else remain
+    dfill='M'+' L'.join(f'{x:.3f} {y:.3f}'for x,y in new_fill)+' Z'
+    dmain='M'+' L'.join(f'{x:.3f} {y:.3f}'for x,y in main)
+    fragment=fragment.replace(ds[0],dfill,1).replace(ds[1],dmain,1)
+    # Variable-width join follows the same curve and meets body6px and arm5.2px.
+    edge1=[];edge2=[]
+    for k,p in enumerate(curve):
+        v=k/32.;dx,dy=_tangent((A,C,D,B),v);radius=3.-.4*smooth(v)
+        edge1.append(local((p[0]-dy*radius,p[1]+dx*radius)))
+        edge2.append(local((p[0]+dy*radius,p[1]-dx*radius)))
+    ink=edge1+list(reversed(edge2));dink='M'+' L'.join(f'{x:.3f} {y:.3f}'for x,y in ink)+' Z'
+    extra=f'<path d="{dink}" fill="#2B0A24" stroke="none" data-root-join="tangent"/>'
+    fragment=fragment.replace('</g>',extra+'</g>',1)
+    return fragment
 
 def draw_arm(side, meta):
     sx, sy = SHOULDERS[side]
@@ -515,8 +599,9 @@ def scene_state(t):
             'tomato_added': tomato_added, 'paper': paper, 'water': water,
             'lever': lever, 'bin_count': bin_count, 'flying_ball': fly,
             'wet_hand': wet_hand, 'intention': intention, 'pose': pose,
-            'left_root_correction': {'scope_local_radius': 24., 'method': 'native-body silhouette intersection',
-                                     'fill_changed': False, 'mitten_changed': False},
+            'left_root_correction': {'scope_local_radius': 24., 'method': 'tangent native-body exterior join',
+                                     'fill_changed': True, 'fill_scope_local_radius': 24.,
+                                     'mitten_changed': False},
             'bin_lands': BIN_LANDS, 'bin_radii': BIN_RADII}
 
 

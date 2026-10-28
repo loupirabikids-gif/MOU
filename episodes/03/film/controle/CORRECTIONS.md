@@ -73,3 +73,22 @@ La comparaison des624scènes SVG avant/après confirme194images modifiées,
 exclusivement dans les trois inserts de lavage, et430images strictement identiques
 ailleurs. Animation, accessoires, son, rig et chronologie gardent leurs empreintes.
 Les nouveaux contrôles sont `audit_scope_closeup.json` et la critique du gros plan.
+
+## Retour suivant : raccord incomplet et main trop grande
+
+Le réexamen demandé par l’utilisatrice retrouve un petit cran dans les plans
+larges à0.5s,7.25s,17.625s et24.75s, ainsi qu’une cassure à2.75s et10.25s.
+Le correctif précédent avait amélioré l’attache, sans supprimer totalement ce
+défaut. Sa validation était trop large ; les nouveaux contrôles portent sur ces
+vraies images du MP4, pas uniquement sur le lavabo qui masque la racine.
+
+La nouvelle jonction extérieure rejoint la silhouette du corps en tangence,
+avec une transition d’épaisseur du trait et une petite adaptation locale du
+remplissage. L’extrémité de moufle, le trait intérieur, le bras droit et les
+trajectoires restent conservés. Les six poses sont examinées en avant/après.
+
+Dans les lavages, une réduction uniforme à70% du bras/main natif corrige la
+disproportion face à la cuve. Le cadrage laisse la racine hors champ ; le contact
+du jet et le placement de commande sont revus sur les rendus. Les premiers
+essais créaient une pointe de racine visible et un petit vide sous le jet : ils
+ne sont pas retenus. Aucun scénario, minutage ou bruitage n’est remplacé.
