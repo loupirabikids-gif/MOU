@@ -1,18 +1,20 @@
 # MOU
 
-**Étape actuelle : le décor de cuisine.**
-Travail par étapes demandé par l’utilisatrice : présenter cette image fixe
-avant de poursuivre avec le personnage, les mouvements ou les sons.
+**Étape actuelle : le placement fixe de MOU dans la cuisine.**
+Le décor est validé. Cette image propose la taille et la position du personnage ;
+la suite se fera après le retour de l’utilisatrice.
 
-[![Décor de cuisine proposé](episodes/03/decor/MOU_cuisine_apercu.png)](episodes/03/decor/MOU_cuisine_decor.png)
+[![Placement de MOU proposé](episodes/03/placement/MOU_cuisine_placement_apercu.png)](episodes/03/placement/MOU_cuisine_placement.png)
 
-- **[Décor PNG 1080 × 1920](episodes/03/decor/MOU_cuisine_decor.png?raw=true)**
+- **[Placement PNG 1080 × 1920](episodes/03/placement/MOU_cuisine_placement.png?raw=true)**
+- [Source SVG du placement](episodes/03/placement/MOU_cuisine_placement.svg?raw=true)
+- [Décor validé](episodes/03/decor/MOU_cuisine_decor.png?raw=true)
 - [Source SVG](episodes/03/decor/MOU_cuisine_decor.svg?raw=true)
 - [Dossier de la cuisine](episodes/03/) · [Sources et calques](episodes/03/decor/README.md)
 
 Le gag en développement porte sur le réflexe de s’essuyer les mains après
-chaque contact pendant que MOU cuisine réellement. Le décor est la seule
-étape préparée ici.
+chaque contact pendant que MOU cuisine réellement. Cette étape présente
+seulement une image fixe de placement.
 
 Les anciens épisodes sont conservés, mis de côté :
 [Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
@@ -78,7 +80,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-L’étape en cours et ses sources se trouvent dans `episodes/03/decor/`.
+L’étape en cours et ses sources se trouvent dans `episodes/03/placement/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

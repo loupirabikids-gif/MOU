@@ -1,0 +1,44 @@
+{
+  "etape": "placement_fixe_uniquement",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "decor_valide_commit": "795563c2855866993ed4d4a610616544d6e92dac",
+  "decor_png_sha256": "3148c402d57d24c1dc8ef5c5731aa2c07346c3d03fcade74e84c9a7e7ec2f585",
+  "decor_svg_sha256": "7e5292c066a8bdafca4ae42586fbf89ca62f6a45dcbca468bf9b748f19da2d49",
+  "personnage": "mou_rig.py original, sans déformation",
+  "transform": {
+    "translate": [
+      80.0,
+      380.0
+    ],
+    "scale": 2.3
+  },
+  "pose": {
+    "arm_hips": 0.0,
+    "arm_clasp": 1.0,
+    "eye_open_l": 1.0,
+    "eye_open_r": 1.0,
+    "pupil_x": 0.0,
+    "pupil_y": 0.18,
+    "brow_l": 0.0,
+    "brow_r": 0.0,
+    "brow_raise": 0.08,
+    "smile": 0.12,
+    "mouth_open": 0.0,
+    "laugh": 0.0,
+    "lift_l": 0.0,
+    "lift_r": 0.0
+  },
+  "ordre_calques": [
+    "fond",
+    "MOU corps/visage/pieds",
+    "ilot",
+    "MOU bras originaux",
+    "accessoires"
+  ],
+  "animation": false,
+  "audio": false,
+  "limite": "Image de placement ; aucune prise d’objet ni action de cuisine validée."
+}

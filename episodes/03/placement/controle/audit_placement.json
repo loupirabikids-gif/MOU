@@ -1,0 +1,25 @@
+{
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "original_rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "two_original_arm_fragments_exact_once": true,
+  "two_hands": true,
+  "unique_ids_and_valid_clip_references": true,
+  "decor_files_unchanged": {
+    "MOU_cuisine_decor.png": "3148c402d57d24c1dc8ef5c5731aa2c07346c3d03fcade74e84c9a7e7ec2f585",
+    "MOU_cuisine_decor.svg": "7e5292c066a8bdafca4ae42586fbf89ca62f6a45dcbca468bf9b748f19da2d49",
+    "calques/accessoires_cuisine.svg": "696a466f0e2cead08dc8d22f4dbf154845e23f61805f75c69058abb7c59242a0",
+    "calques/fond_cuisine.svg": "6a1fbe07858592ea7fec969022319d1eb48236965ab4bc8028056df68786d9dc",
+    "calques/ilot_cuisine.svg": "4427ee12e9d8e38b0251e89d4425ec39d644b865b96454f9d28dea35a74497f4",
+    "calques/accessoires_cuisine.png": "b34f43d32eb19e5a39dfcd8560243286b75f69d26dc515009f4ecf02ef40e968",
+    "calques/fond_cuisine.png": "1021d2067980154b2beb8899b44161c2309c77a86b8680bf513160476b83d44b",
+    "calques/ilot_cuisine.png": "d0f38a8bc0f77183fe73da340586f1eb5de1e36c10049bc499ca95fb304669ec"
+  },
+  "decor_without_character_pixel_identical": true,
+  "maximum_pixel_error_outside_visible_character": 1.0,
+  "source_sha256": "e1a3213c67dfcbf9f91cfe8002614feaadd7d1578594a3f5a57fcbebc27f3cb3",
+  "placement_png_sha256": "3ceaf858959042246e797c1d97704444ed3fb097c3d9fc1aa35714a2b7a86e83",
+  "limits": "Géométrie originale conservée ; vue fixe de taille et position, sans animation ni validation de saisie."
+}

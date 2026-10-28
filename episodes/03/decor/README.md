@@ -1,5 +1,6 @@
 # Décor de cuisine — proposition 1
 
+**Décor validé par l’utilisatrice** ; voir [la référence](VALIDATION.md).
 Image fixe verticale **1080 × 1920**, dessin original réalisé en SVG.
 Couleurs crème, bois et lavande, contours prune ; centre laissé libre pour MOU.
 

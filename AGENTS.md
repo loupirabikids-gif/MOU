@@ -7,9 +7,13 @@ réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
 Commande courante : avancer petit à petit sur le gag de cuisine et
-d’essuie-tout, dans `episodes/03/`. Étape autorisée maintenant : préparer
-uniquement le décor fixe, dans `episodes/03/decor/`, et le présenter.
-Attendre la prochaine demande avant personnage en scène, animation ou son.
+d’essuie-tout, dans `episodes/03/`. Le décor fixe de `episodes/03/decor/`
+est validé par l’utilisatrice (« Oui ca me vas »), référence commit795563c.
+Étape autorisée maintenant par « Vas y » : placer MOU dans ce décor sur
+une image fixe pour juger taille et position, dans `episodes/03/placement/`.
+Conserver les dessins du décor validé et le rig original. Cette proposition
+de placement attend le retour de l’utilisatrice ; aucune animation ni aucun
+son n’est demandé à cette étape. Ne pas lancer la suite automatiquement.
 Le comportement visé est de s’essuyer les mains après chaque contact pendant
 qu’on cuisine réellement : remuer, ajouter un ingrédient, toucher un manche,
 régler le feu. Ne pas remplacer ce sujet par une pâte jetée avec le papier.
