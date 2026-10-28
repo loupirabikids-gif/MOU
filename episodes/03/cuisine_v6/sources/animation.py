@@ -25,9 +25,10 @@ from mou_rig import DEFAULT_POSE, _arm, _pt, _tangent, _cubic, _mouth, character
 TIMELINE_PATH = Path(__file__).resolve().parents[1] / 'chronologie.json'
 PRODUCTION_TIMELINE = json.loads(TIMELINE_PATH.read_text())
 # Existing actions retain their approved timing/geometry in scene time.
-# Only the opening is extended; production time drives sound and exports.
+# Production time drives the opening extension, edit order, stock and sound.
 TIMELINE = PRODUCTION_TIMELINE.get('animation_reference', PRODUCTION_TIMELINE)
 RETIME = PRODUCTION_TIMELINE.get('retiming', {})
+ACTION_REORDER = PRODUCTION_TIMELINE.get('action_reorder', {})
 DURATION, FPS = PRODUCTION_TIMELINE['duration'], PRODUCTION_TIMELINE['fps']
 CYCLES = TIMELINE['cycles']
 _spec = importlib.util.spec_from_file_location('approved_stir_contact', ROOT / 'episodes/03/test_remuer/sources/animation.py')
@@ -408,12 +409,12 @@ def knife_cut_grip(index):
     return 655.+20.*index-(a*ca-b*sa),1380.-(a*sa+b*ca)
 
 
-def roll_state_at(t):
+def roll_state_at(t, cycles=None):
     """Finite paper stock, consumed during pulls; cylinder height stays fixed."""
     stocks=TIMELINE['paper_stock']
     remaining=float(stocks[0])
     pulling=False
-    for cycle in CYCLES:
+    for cycle in CYCLES if cycles is None else cycles:
         i=cycle['id'];start,end=cycle['pull']
         if t>=end:
             remaining=float(stocks[i])
@@ -846,12 +847,20 @@ def _scene_state(t, playback_time=None):
 
 
 def scene_time(t):
-    """Map the longer opening to the original actions, retaining later frames.
+    """Map production time to the reviewed native actions without slowing them.
 
-    The half-second inspection is an added hold. Later material shifts by
-    exactly 120 frames; the sound and opening sway use real playback time.
+    V12 translates three segments to put the carrot before the tomato. The
+    other material keeps V9's opening extension and exact 120-frame offset;
+    sound and the opening sway use real playback time.
     """
     t=clamp(float(t),0.,DURATION)
+    for segment in ACTION_REORDER.get('segments', []):
+        if segment['output'][0]<=t<segment['output'][1]:
+            shift=segment['output'][0]-segment['source'][0]
+            frame=round(t*FPS)
+            if abs(t*FPS-frame)<1.e-8:
+                return (frame-round(shift*FPS))/FPS
+            return t-shift
     if not RETIME:
         return t
     if t<RETIME['opening_stir_end']:
@@ -871,7 +880,22 @@ def scene_time(t):
 
 def scene_state(t):
     playback_time=clamp(float(t),0.,DURATION)
-    return _scene_state(scene_time(playback_time),playback_time)
+    state=_scene_state(scene_time(playback_time),playback_time)
+    if ACTION_REORDER and ACTION_REORDER['window'][0]<=playback_time<ACTION_REORDER['window'][1]:
+        # Acting/cameras keep their reviewed native clock. These persistent
+        # props follow the new story order, so neither food nor paper resets
+        # when a source action moves to a different ordinal ritual.
+        cycles=PRODUCTION_TIMELINE['cycles']
+        cycle=next(c for c in cycles if c['trigger_start']<=playback_time<c['throw'][1])
+        state['cycle']=cycle['id']
+        state['bin_count']=sum(playback_time>=c['land'] for c in cycles)
+        state['roll']=roll_state_at(playback_time,cycles)
+        if playback_time<ACTION_REORDER['tomato_start']:
+            state['tomato']=TOMATO_START
+            state['tomato_added']=False
+        if playback_time>=ACTION_REORDER['carrot_finished']:
+            state['carrot'].update(cuts=2,t=TIMELINE['carrot']['end'])
+    return state
 
 
 def pose_at(t):return scene_state(t)['pose']

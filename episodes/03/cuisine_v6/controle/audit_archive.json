@@ -1,7 +1,8 @@
 {
   "status": "passed",
-  "archive_sha256": "db7121d1494dee9f5860ddf74f86b0152102f32911ce5ac0f8f7c570cd026d54",
-  "files_verified": 311,
+  "revision": "ordre_v12",
+  "archive_sha256": "1ee6e56b8ca3f46c66e167d9eb59a002d1d473fe9508be18c2de2caab187e9f6",
+  "files_verified": 354,
   "crc_ok": true,
   "all_manifest_sha256_ok": true,
   "fresh_extracted_render": [
@@ -13,10 +14,17 @@
       "matches_frozen_uncached_render": true
     },
     {
-      "frame": 751,
-      "time_seconds": 31.291666666666668,
-      "svg_sha256": "4e2473e484c27639e6f3bd51a58b168fa894ce02a6c5f69bca99ac5127204232",
-      "png_sha256": "f55b8110e50a7fc32e3cce406da0fda6d4e56393cc2347129d37cfdfda37fb0e",
+      "frame": 366,
+      "time_seconds": 15.25,
+      "svg_sha256": "26b8b58dc6f9e1ab39edd79db4cdf5de5fc0bb0b75d3f0d3dfd47442c4f7e253",
+      "png_sha256": "20ca9ae11e70138cc907aa2ca3e1fc04c5fb6f709e006e26450a56f4a7a275b3",
+      "matches_frozen_uncached_render": true
+    },
+    {
+      "frame": 540,
+      "time_seconds": 22.5,
+      "svg_sha256": "afa37e70a27f33c4775043e1d4aec7d688875b2ea9b27c8d07134b1dc799e960",
+      "png_sha256": "4e0ce9cf67be7793ca7ab8cdea38c3067c7b5916e476b82693205438953ebbbb",
       "matches_frozen_uncached_render": true
     },
     {
@@ -25,19 +33,10 @@
       "svg_sha256": "e2867421a291f8862d594dcaf5a598dc60f01c9f9b095edc80104d23bf99bfb7",
       "png_sha256": "f940a1102d20807b01fe55124202f327ed5c2754c7e93b1cdfde206b8db576e1",
       "matches_frozen_uncached_render": true
-    },
-    {
-      "frame": 794,
-      "time_seconds": 33.083333333333336,
-      "svg_sha256": "5b26acf1e20a33d9be50d0b9644d423424e7e10b4c4d4bd7b4c8fbc820631ef9",
-      "png_sha256": "03c571f6c0f405ebd9e4891f256a6ae9f983fbcb0a055169d44c5b86a511657a",
-      "matches_frozen_uncached_render": true
     }
   ],
-  "bundled_mix_matches_current_audio_audit": true,
-  "mix_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
-  "bundled_sound_source_matches_current_audio_audit": true,
-  "audio_regeneration_repeated_this_revision": false,
+  "full_audio_regeneration_from_extracted_sources": true,
+  "regenerated_mix_sha256": "3468170f2ad0a7f8799d2706e76eb3695b1055f3c3329ab4e26ed74231454744",
   "selected_current_final_visual_proofs_bundled": true,
-  "method": "Fresh temporary directory; bundled sources/font/timeline/rig/decor only, no PNG cache. Four emitted SVG and full-size PNG hashes match independently frozen current render. Unchanged bundled WAV/source checked against audio audit; no perceptual listening."
+  "method": "Fresh temporary directory, bundled source/font/timeline/rig/decor only, no PNG cache. Caption, second carrot cut, post-tomato and last-paper SVG/PNG hashes match independent frozen current renders. Full35sWAV regenerated bitwise identically from extracted sound source and new timeline; no perceptual listening."
 }

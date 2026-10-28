@@ -1,4 +1,4 @@
-MOU — Encore une feuille — papier souple V11, 35 secondes
+MOU — Encore une feuille — carotte avant tomate V12, 35 secondes
 Contrôles du 28 octobre 2026
 
 LIVRABLE
@@ -8,64 +8,67 @@ Muet : aucune piste audio, mêmes images compressées à l’octet près.
 Animatique complète : 540 × 960, 12 images/s, 420 images.
 Aperçu GIF muet : 432 × 768, 350 images, 35 s.
 
-RETOUCHE AUTORISÉE
-Le dernier morceau ressemblait à une icône de document rigide.
-Coin rabattu supprimé ; côtés légèrement courbes, bord inférieur déchiré
-et deux plis doux. Même encombrement de référence 64 × 88, même prise,
-mêmes moufles et boulette finale de rayon 22. Le froissage commence sur
-le contour tenu et finit sur la boulette précédente, sans changement d’objet.
-La critique a repéré un pli dépassant du contour pendant la première étude :
-il est maintenant découpé par la surface du papier pendant sa contraction.
+ORDRE DEMANDÉ
+Remuer, laver/essuyer ; découper la carotte, laver/essuyer ;
+ajouter la tomate, laver/essuyer ; reprendre le manche propre, dernier rituel.
+0–13,5 s : ouverture et premier rituel conservés.
+13,5–16,5 s : carotte, coupes à 14,55 et 15,25 s ; couteau posé à 15,95 s.
+16,5–21,5 s : deuxième rituel, décalé de 1,5 s.
+21,5–23 s : tomate, contact avec la poêle à 22,3 s.
+23–35 s : troisième rituel, quatrième contact, petit papier et fin conservés.
+Les gestes gardent leur durée et leur vitesse, avec leur propre lavage.
 
-CONSERVATION ET CONTRÔLES MATIÈRE
-Comparaison de 840 SVG à la V10 du commit b7328c6 : 774 identiques ;
-66 images modifiées, de 29,667 à 32,375 s, uniquement dans le papier en main.
-Tous les autres éléments de scène sont identiques aux 840 instants.
-Rig, animation, chronologie, police, source sonore et mix : octets conservés.
-21 autres fonctions d’accessoires inchangées. Seul autre changement du
-renderer : qualité H.264 CRF 14 vers 12, sans modification des SVG.
-1 001 états de froissage examinés géométriquement : surface positive,
-aucun croisement ; silhouettes des deux raccords identiques par raster.
-51 comparaisons de transparence : aucun pli hors de la surface du papier.
-Deux mains, une bouche, tablier, références SVG valides sur 840 états ;
-même décor approuvé, huit fonctions natives de bras/raccord conservées.
-Voir controle/audit_papier_v11.json et audit_structure.json.
+CONTINUITÉ ET MODÈLE
+840 performances et cadrages comparés aux gestes natifs de la V11, aux
+repères déplacés : identiques. 612 SVG hors de 13,5–23 s identiques à la V11.
+Mêmes bras, raccords, moufles, visage et regards ; huit fonctions natives
+inchangées. Rig, accessoires, dernier papier souple, police et renderer
+conservent leurs octets. La légende V10 garde ses trois secondes au départ.
+La tomate reste sur sa coupelle pendant la découpe et le deuxième rituel ;
+elle quitte la coupelle pour la main, puis rejoint la poêle seulement à 22,3 s.
+Les rondelles de carotte et le couteau posé persistent pendant l’ajout de tomate.
+Les rituels gardent leur rang : accélération conservée, bandes et boulettes
+de tailles croissantes avant le dernier petit bout. Poubelle 0→4 sans retour
+en arrière, stock 1→0 sans regonflement ; rayons 47/53/59/22 conservés.
+Contrôle de structure sur 840 états : deux mains, bouche unique, tablier,
+identifiants et références SVG valides ; décor approuvé conservé.
+Voir controle/audit_ordre_v12.json et audit_structure.json.
 
-MONTAGE ET SON CONSERVÉS
-Légende exacte « Me cooking: touch, wash, wipe… repeat. » sur deux lignes
-pendant 0–3 s, dégagée du visage, avec sortie à 2,85–3 s.
-Remuage initial jusqu’à 6,6 s ; cuillère posée à 7 s ; inspection de main
-puis regard vers le lavabo jusqu’à 7,75 s. Même montage de 35 s.
-Trois notes sifflées seulement à 0,3–1,731111 s.
-Musique originale à 108 BPM : 0–7,75 /13,5–15 /20–23 /27–28 s ;
-coupée durant lavage, essuyage, jet et zoom poubelle. Fin : cuisson seule.
-52 événements originaux, dont 48 bruitages ; aucun dialogue ou son téléchargé.
-Mix PCM et flux AAC identiques à la V10. Zéro échantillon saturé.
-Pic WAV : -4.0001 dBFS ; AAC : -4.0598 dBFS.
-Corrélation PCM/AAC sans décalage : 0.998595.
-Voir controle/audit_son_papier_v11.json et les contrôles son précédents.
+SON RECALÉ
+52 événements originaux : 48 bruitages, trois notes sifflées initiales,
+une musique originale. 50 WAV individuels identiques à la V11 ; seuls
+le lit de cuisson, la musique et le mix sont recalculés pour le nouvel ordre.
+Aucun changement de hauteur ou vitesse des bruitages. Les coupes et la tomate
+suivent leurs nouveaux contacts ; les événements du deuxième rituel sont
+décalés de +1,5 s dans le montage.
+Musique 108 BPM : 0–7,75 /13,5–16,5 /21,5–23 /27–28 s. Zéro échantillon
+musical hors de ces fenêtres ; les rituels et la fin restent sans musique.
+Sifflement seulement à 0,3–1,731111 s ; aucun dialogue ou échantillon téléchargé.
+Le mix hors du passage réordonné présente de faibles écarts PCM de calcul,
+maximum 14/32768 ; il n’est pas revendiqué comme identique octet par octet.
+Mix : pic -4.0001 dBFS ; AAC : -4.0516 dBFS ; zéro saturation.
+Corrélation PCM/AAC sans décalage : 0.998581.
+Voir controle/audit_son_ordre_v12.json et audit_son.json.
 
-VRAIS EXPORTS ET CRITIQUE
-Deux MP4 décodés intégralement sans erreur, sources gelées vérifiées.
-56 images du MP4 comparées à des SVG/CairoSVG frais hors cache, avec régions
-de mains, raccords, accessoires et légende. Toutes réussies : seuil RGB moyen
-3/255 conservé ; maximum image 1.612592/255, région 2.831652/255.
-Le premier CRF 14 dépassait légèrement ce seuil à 32,375 s dans deux zones
-de main ; rapport conservé sous audit_final_papier_v11_crf14.json. Qualité
-augmentée à CRF 12, puis mêmes contrôles réussis sans relâcher le seuil.
-Critique indépendante : études, animatique complète puis 24 images du vrai
-final, dont 11 successives autour du froissage et trois poses natives.
-Papier souple et lisible, plis contenus, contraction et petite boulette
-conservées ; avis favorable ciblé dans critique_papier_v11_final.md.
-Rapport technique courant : controle/audit_final.json.
+VÉRITABLES EXPORTS ET CRITIQUE
+Les deux MP4 sont décodés intégralement sans erreur ; sources gelées vérifiées.
+64 images du MP4 sont comparées à des SVG/CairoSVG frais hors cache, dont
+les coupes, la tomate, les raccords de plans, les mains et le dernier papier.
+Toutes réussies : seuil RGB moyen 3/255 conservé ; maximum image
+1.612592/255 et région 2.831652/255. Aucune baisse des exigences de contrôle.
+Critique indépendante : études, animatique complète, puis 21 images du vrai
+final et trois poses natives. Ordre lisible, accessoires persistants et
+raccords conformes dans les images examinées ; avis favorable ciblé.
+Voir controle/critique_ordre_v12_final.md et audit_final.json.
 
 SOURCES ET REPRODUCTION
 Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg, gratuits et open source.
-Code, sons, dessins, police, chronologie, critiques et rapports dans le ZIP.
-CRC et manifeste SHA-256 vérifiés ; poses régénérées depuis une extraction
-propre, sans cache. Voir controle/audit_archive.json dans le dépôt, hors du
-ZIP qu’il vérifie. Le ZIP garde les planches et trois poses finales natives ;
-toutes les captures historiques restent dans Git. Commandes : sources/README.md.
+Code, sons originaux, dessins, police, chronologie, critiques et rapports
+inclus dans le ZIP. CRC et manifeste SHA-256 vérifiés ; poses et mix
+régénérés depuis une extraction propre sans cache. Voir audit_archive.json
+dans le dépôt, hors du ZIP qu’il vérifie. Les captures complètes sont gardées
+dans Git ; le ZIP contient les planches et trois poses décisives V12.
+Commandes : sources/README.md. Référence V11 conservée au commit 0e74c61.
 
 LIMITES
 Contrôles audio numériques, sans écoute perceptive possible ici. L’équilibre
@@ -75,6 +78,6 @@ Les références YouTube restent inaccessibles, sans visionnage ou compteurs
 inventés. Livraison GitHub ; aucune publication sur un compte social.
 
 EMPREINTES
-Avec son : 9877b20659cfd889c2ad5e7a6c954b8b0d6687d519a1ad5a605fdde1bccdb275
-Muet : 666e238c09f3543c801f5b51d44fbc6f342ff24139c735f12dd3a5120e768c0e
-Mix PCM : ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453
+Avec son : ad1e6efee1b8a62bf22260be3aa932b81214c206bd160e4b725ebd966057320f
+Muet : e219adf92f3407d7153b8b41e36c2091cf8aea0e178fdd3986e32ac932e75c28
+Mix PCM : 3468170f2ad0a7f8799d2706e76eb3695b1055f3c3329ab4e26ed74231454744

@@ -7,7 +7,7 @@
     1080,
     1920
   ],
-  "accord": "Give the audience more time to understand the opening cooking: 35 seconds total, active stirring 0–6.6 s, first hand inspection 7–7.75 s, then shift the existing action by 5 seconds without slowing it.",
+  "accord": "Put carrot-cutting before adding the tomato, preserving the 35-second edit, ordinal washing/paper acceleration, MOU and the approved ending.",
   "cycles": [
     {
       "id": 1,
@@ -72,71 +72,71 @@
     },
     {
       "id": 2,
-      "trigger": "ajouter une tomate",
+      "trigger": "découper une carotte",
       "trigger_start": 13.5,
       "inspect": [
-        14.75,
-        15.0
+        16.3,
+        16.5
       ],
       "sink": [
-        15.0,
-        17.1
+        16.5,
+        18.6
       ],
       "open": [
-        15.0,
-        15.35
+        16.5,
+        16.85
       ],
       "water": [
-        15.35,
-        16.9
+        16.85,
+        18.4
       ],
       "wash": [
-        15.48,
-        16.55
-      ],
-      "close": [
-        16.55,
-        16.95
-      ],
-      "paper": [
-        17.1,
-        19.2
-      ],
-      "reach": [
-        17.1,
-        17.4
-      ],
-      "pull": [
-        17.4,
+        16.98,
         18.05
       ],
-      "tear": 18.05,
-      "wipe": [
+      "close": [
         18.05,
-        18.85
+        18.45
+      ],
+      "paper": [
+        18.6,
+        20.7
+      ],
+      "reach": [
+        18.6,
+        18.9
+      ],
+      "pull": [
+        18.9,
+        19.55
+      ],
+      "tear": 19.55,
+      "wipe": [
+        19.55,
+        20.35
       ],
       "crumple": [
-        18.85,
-        19.2
+        20.35,
+        20.7
       ],
       "throw": [
-        19.2,
-        20.0
+        20.7,
+        21.5
       ],
-      "release": 19.38,
-      "land": 19.77,
+      "release": 20.88,
+      "land": 21.27,
       "zoom": [
-        19.43,
-        20.0
+        20.93,
+        21.5
       ],
       "amount": 1.4
     },
     {
       "id": 3,
-      "trigger": "découper une carotte",
-      "trigger_start": 20.0,
+      "trigger": "ajouter une tomate",
+      "trigger_start": 21.5,
       "inspect": [
-        22.8,
+        22.75,
         23.0
       ],
       "sink": [
@@ -260,17 +260,17 @@
     }
   ],
   "carrot": {
-    "start": 20.0,
+    "start": 13.5,
     "cut_times": [
-      21.05,
-      21.75
+      14.55,
+      15.25
     ],
-    "knife_set_down": 22.45,
-    "end": 22.8
+    "knife_set_down": 15.95,
+    "end": 16.3
   },
   "cooking_events": {
     "spoon_down": 6.95,
-    "tomato_contact": 14.3,
+    "tomato_contact": 22.3,
     "clean_handle": 27.5,
     "stir_end": 6.7
   },
@@ -322,7 +322,8 @@
     "Tablier de cuisine explicitement demandé : SVG attaché au corps, sous les bras, visage et deux moufles dégagés.",
     "Jet d’eau 3 à 4 fois plus large et bruit d’eau plus présent ; mêmes ouvertures, contacts et fermetures.",
     "Recherche internet enregistrée avec observations réelles et limites d’accès, sans inventer de visionnage ou de statistiques.",
-    "Opening V9: four natural stirring revolutions over 6.6 s; spoon down to 7 s; raise the hand, hold its inspection, then look toward the sink at 7.5 s. First sink at 7.75 s. Rest offset +5 s."
+    "Opening V9: four natural stirring revolutions over 6.6 s; spoon down to 7 s; raise the hand, hold its inspection, then look toward the sink at 7.5 s. First sink at 7.75 s. Rest offset +5 s.",
+    "Ordre V12 : carotte avant tomate. Carotte13,5–16,5 ; rituel2 jusqu’à21,5 ; tomate21,5–23. Les rituels gardent leur rang, quantité de papier et vitesse. Découpe et tomate restent chronologiques dans le décor ; ouverture et fin conservées."
   ],
   "paper_stock": [
     1.0,
@@ -365,10 +366,10 @@
       ],
       [
         13.5,
-        15.0
+        16.5
       ],
       [
-        20.0,
+        21.5,
         23.0
       ],
       [
@@ -769,5 +770,51 @@
       ],
       "intention": "Musique originale légère pendant la cuisine, interrompue pour tous les rituels de lavage, essuyage et jet ; aucun retour dans la tenue finale."
     }
+  },
+  "action_reorder": {
+    "revision": "ordre_v12",
+    "baseline_commit": "0e74c619b2791cd813aae4200ebb790bd301286c",
+    "window": [
+      13.5,
+      23.0
+    ],
+    "segments": [
+      {
+        "action": "découper la carotte",
+        "output": [
+          13.5,
+          16.5
+        ],
+        "source": [
+          15.0,
+          18.0
+        ]
+      },
+      {
+        "action": "deuxième rituel",
+        "output": [
+          16.5,
+          21.5
+        ],
+        "source": [
+          10.0,
+          15.0
+        ]
+      },
+      {
+        "action": "ajouter la tomate",
+        "output": [
+          21.5,
+          23.0
+        ],
+        "source": [
+          8.5,
+          10.0
+        ]
+      }
+    ],
+    "carrot_finished": 16.3,
+    "tomato_start": 21.5,
+    "intent": "Only action order changes. Source times preserve reviewed native acting and cameras; persistent props, paper stock and bin count follow production time."
   }
 }

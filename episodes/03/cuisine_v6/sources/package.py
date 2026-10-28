@@ -35,7 +35,13 @@ def main():
                           and 'critique_papier_v11_images' in p.parts
                           and ('final_crf14' in p.parts or p.name not in ('avant_planche.jpg', 'animatique_planche.jpg',
                                              'final_planche.png', 'final_0756.png',
-                                             'final_0774.png', 'final_0795.png'))))
+                                             'final_0774.png', 'final_0795.png')))
+                 and not (p.suffix in ('.png', '.jpg')
+                          and 'critique_ordre_v12_images' in p.parts
+                          and p.name not in ('avant_planche.png', 'avant_planche.jpg',
+                                             'animatique_planche.png', 'animatique_planche.jpg',
+                                             'final_planche.png', 'final_0366.png',
+                                             'final_0522.png', 'final_0540.png')))
     files = sorted(files)
     assert all(p.is_file() for p in files)
     checks = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
@@ -47,7 +53,7 @@ def main():
             archive.write(path, path.relative_to(ROOT).as_posix())
         archive.writestr('MANIFESTE_SHA256.json', json.dumps(checks, ensure_ascii=False, indent=2)+'\n')
         archive.writestr('LIRE_MOI.txt',
-                        'MOU — cuisine, carotte et réflexe, version 6, papier souple V11, musique V8, rythme V9 et légende V10.\n'
+                        'MOU — cuisine, carotte et réflexe, version 6, carotte avant tomate V12, papier souple V11, musique V8, rythme V9 et légende V10.\n'
                         'Voir episodes/03/cuisine_v6/sources/README.md pour reproduire.\n'
                         'Les dessins et les sons originaux sont inclus. Aucun service payant.\n')
     with zipfile.ZipFile(temporary) as archive:

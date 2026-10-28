@@ -6,6 +6,8 @@ Légende d’ouverture : **« Me cooking: touch, wash, wipe… repeat. »**
 MOU siffle au départ, puis cuisine sur une musique originale qui se coupe
 pour chaque rituel de lavage et essuyage. L’ouverture donne plus de temps au
 remuage et à la découverte de la main ; le premier lavage arrive à 7,75 s.
+La carotte est maintenant découpée avant le lancer de tomate ; chaque contact
+garde son propre rituel de lavage et essuyage, de plus en plus rapide.
 Chaque contact relance son lavage et son gaspillage de papier. Le rouleau diminue
 à chaque tirage. Après trois gros gaspillages, il ne reste qu’un minuscule
 bout : MOU sèche sa grande moufle avec une application absurde. Le dernier

@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "baseline_commit": "0e74c619b2791cd813aae4200ebb790bd301286c",
+  "scope": "Scene state, native performance preservation and prop continuity; no PNG cache, audio listening or audience validation.",
+  "tested_sources_sha256": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+    "episodes/03/test_remuer/sources/animation.py": "d6883d83cbd669ea08bf85fe5d40182f027c7ab28d15b9d7a2a011d0bb98f5f4",
+    "episodes/03/cuisine_v6/chronologie.json": "f1cd4438d2e4bbc9c460236c66f5944553dce4bb63a66715cee2158223b71cc2",
+    "episodes/03/cuisine_v6/sources/animation.py": "34a2c3ce64e03bc442dd88475333ada41607330bf017ffc64db60e6609fabb8f",
+    "episodes/03/cuisine_v6/sources/art.py": "36097fe101a6694113b596a8ae520f393af6731decaa1814fcabf46008f5e4ea",
+    "episodes/03/cuisine_v6/sources/render.py": "408ee2be0d0c29fc3434d2b93c0854704a958f89b0c7d8dc408e87de460def7a"
+  },
+  "preserved_files_sha256": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+    "episodes/03/test_remuer/sources/animation.py": "d6883d83cbd669ea08bf85fe5d40182f027c7ab28d15b9d7a2a011d0bb98f5f4",
+    "episodes/03/cuisine_v6/sources/art.py": "36097fe101a6694113b596a8ae520f393af6731decaa1814fcabf46008f5e4ea"
+  },
+  "preserved_native_arm_functions": [
+    "controls",
+    "native_grip",
+    "world_grip",
+    "solve_arm",
+    "arm_linear_transform",
+    "_connect_left_root",
+    "soften_left_root",
+    "draw_arm"
+  ],
+  "scenes": {
+    "frames": 840,
+    "mapped_native_performance_frames": 840,
+    "mapped_native_fields": [
+      "shot",
+      "phase",
+      "actor_transform",
+      "hands",
+      "arm_meta",
+      "torso",
+      "arms",
+      "pose",
+      "spoon",
+      "spoon_held",
+      "water",
+      "lever",
+      "wet_hand",
+      "look_target"
+    ],
+    "camera_matches": 840,
+    "untouched_full_svg_frames": 612,
+    "untouched_windows_seconds": [
+      [
+        0.0,
+        13.5
+      ],
+      [
+        23.0,
+        35.0
+      ]
+    ],
+    "carrot_before_tomato": true,
+    "all_frames_have_two_hands": true
+  },
+  "continuity": {
+    "bin_count_monotonic": true,
+    "bin_count_first_last": [
+      0,
+      4
+    ],
+    "roll_stock_monotonic_decreasing": true,
+    "roll_stock_first_last": [
+      1.0,
+      0.0
+    ],
+    "carrot_cuts_persist": true,
+    "cut_times_seconds": [
+      14.55,
+      15.25
+    ],
+    "knife_parked_after_seconds": 15.95,
+    "tomato_on_dish_until_pickup_seconds": 21.72,
+    "tomato_added_seconds": 22.3,
+    "ordinal_paper_radius_samples": 211,
+    "ordinal_flying_ball_radius_samples": 39,
+    "radii_by_ritual": [
+      47.0,
+      53.0,
+      59.0,
+      22.0
+    ]
+  },
+  "limits": "Numeric/XML continuity and exact preserved scene/performance comparisons; actual encoded films require separate decode checks and independent visual critique."
+}

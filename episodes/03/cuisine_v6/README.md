@@ -7,6 +7,9 @@ Le montage dure 35 s : quatre tours de cuillère dans une ouverture plus
 longue, puis un regard tenu sur la main avant le premier lavage à 7,75 s.
 La musique s’interrompt pendant chaque lavage et essuyage, puis reprend
 quand il retourne à la cuisine.
+Ordre V12 : remuer, découper la carotte, ajouter la tomate, reprendre la
+cuillère propre. Chaque contact déclenche son rituel ; la carotte reste
+découpée et la tomate attend son lancer avant d’apparaître dans la poêle.
 Chaque petit contact relance son lavage avec un débit d’eau exagéré, puis son
 gaspillage de papier. Le rouleau se consomme et le dernier petit bout reçoit
 un soin démesuré. Le dernier morceau a été agrandi pour rester lisible sur
@@ -23,6 +26,7 @@ mêmes mains, même durée et même son.
 - [Sources et sons ZIP](MOU_Encore_une_feuille_sources.zip?raw=true)
 - [Bilan des contrôles](CONTROLE.txt) · [Critique de la légende V10](controle/critique_caption_v10_final.md) · [Rythme V9](controle/critique_rythme_v9_final.md) · [Son V8 conservé](controle/critique_musique_v8_final.md) · [Correctif papier V7](controle/critique_papier_v7_final.md)
 - [Retouche du papier V11](developpement/papier_v11.md) · [Critique du résultat V11](controle/critique_papier_v11_final.md)
+- [Nouvel ordre V12](developpement/ordre_v12.md) · [Critique V12](controle/critique_ordre_v12_final.md)
 - [Ouverture et rythme V9](developpement/ouverture_v9.md)
 - [Direction sonore V8](developpement/direction_son_v8.md) · [Chronologie](chronologie.json)
 - [Ajouts initiaux V6 conservés](developpement/ajouts_v6.md)
@@ -40,7 +44,7 @@ Production gratuite et open source : Python, SVG, CairoSVG, Pillow, NumPy et
 FFmpeg. Les 48 bruitages, les trois notes sifflées du départ et la musique
 de fond sont originaux ; aucun dialogue, morceau connu ou son téléchargé.
 Le sifflement ne revient pas après le premier lavage. La musique se coupe
-aux entrées lavabo (7,75 ; 15 ; 23 ; 28 s) et reste coupée pendant le papier,
+aux entrées lavabo (7,75 ; 16,5 ; 23 ; 28 s) et reste coupée pendant le papier,
 les jets et les zooms. La fin garde seulement le léger son de cuisson.
 
 La veille reste partielle : une vidéo de cuisine examinée par images et une

@@ -6,6 +6,17 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Demande courante V12 : placer la découpe de carotte avant l’ajout de tomate.
+Garder 35 s : ouverture/rituel 1 jusqu’à 13,5 s ; carotte 13,5–16,5 s,
+rituel 2 de 16,5 à 21,5 s ; tomate 21,5–23 s ; rituel 3 puis fin inchangés.
+Conserver l’accélération des lavages, l’ordre des quantités de papier et
+le remplissage croissant de la poubelle. La carotte découpée reste sur la
+planche ; la tomate attend son tour dans son assiette et ne rejoint la poêle
+qu’au lancer. Recaler les sons et coupures musicales. Conserver le modèle,
+bras, mains, dernier papier souple V11 et légende V10. Sources/contrôles
+dans `episodes/03/cuisine_v6/` et `controle/*ordre_v12*`. Livraison GitHub
+autorisée ; aucune publication sur un compte social demandée.
+
 Accord courant : corriger uniquement la matière du dernier papier avant la
 diffusion du pilote. Révision V11 dans `episodes/03/cuisine_v6/` : enlever le
 coin replié évoquant un document, assouplir le contour, marquer une déchirure

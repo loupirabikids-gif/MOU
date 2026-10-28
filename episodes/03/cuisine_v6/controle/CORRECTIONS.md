@@ -2,6 +2,34 @@
 
 28 octobre 2026. Révision ciblée de la v5 à la demande de l’utilisatrice.
 
+## Ordre V12 — carotte avant tomate
+
+Retour : montrer la découpe de carotte avant l’ajout de tomate dans la poêle.
+La carotte passe à 13,5–16,5 s ; le deuxième rituel se décale de 1,5 s,
+jusqu’à 21,5 s. La tomate arrive ensuite à 21,5–23 s. Les plans jusqu’à
+13,5 s et à partir de 23 s gardent leurs états, avec une durée totale de 35 s.
+Les gestes gardent leur vitesse, leurs prises, les bras et le jeu précédents.
+
+Le rang des rituels est conservé pour garder leur accélération et la croissance
+de la poubelle. Le rouleau suit le nouveau temps de production. La tomate
+reste sur son assiette pendant la découpe et le deuxième lavage ; elle ne
+rejoint la poêle qu’à 22,3 s. Les rondelles de carotte et le couteau posé
+restent présents après la découpe. Les trois segments de `action_reorder`
+gardent les temps natifs nécessaires aux gestes et aux caméras, sans changer
+le renderer, le modèle, les deux moufles ou le papier souple V11.
+
+Coupes à 14,55/15,25 s, couteau posé à 15,95 s, contact tomate à 22,3 s ;
+bruitages du deuxième rituel décalés de 1,5 s. Musique coupée pendant tous
+les lavages et essuyages ; fenêtres 0–7,75 /13,5–16,5 /21,5–23 /27–28 s.
+Les 50 WAV courts gardent leurs octets ; cuisson, musique et mix recalculés.
+Les écarts PCM mineurs du mix hors de la zone réordonnée sont documentés dans
+`audit_son_ordre_v12.json` ; le son n’est pas présenté comme bitwise identique.
+
+Découpage et études : `developpement/ordre_v12.md`. Contrôles et critique :
+`audit_ordre_v12.json`, `audit_son_ordre_v12.json` et `critique_ordre_v12*`.
+La V11 reste accessible au commit `0e74c61`. Les sections suivantes sont
+l’historique des révisions précédentes ; le contrôle courant est `audit_final.json`.
+
 ## Papier souple V11 — retouche autorisée avant diffusion
 
 À 30,25–32,083 s, le dernier morceau ressemblait à une icône de document :

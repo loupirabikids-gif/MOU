@@ -1,0 +1,238 @@
+{
+  "status": "passed",
+  "baseline_commit": "0e74c619b2791cd813aae4200ebb790bd301286c",
+  "duration_seconds": 35.0,
+  "event_count": 52,
+  "original_sound_source_unchanged": true,
+  "son_source_sha256": "45b90acdf0e22122d9e11c9cae9fb8640844a2ee67343c62c1aed84e49b8e143",
+  "chronologie_sha256": "f1cd4438d2e4bbc9c460236c66f5944553dce4bb63a66715cee2158223b71cc2",
+  "mix_sha256": "3468170f2ad0a7f8799d2706e76eb3695b1055f3c3329ab4e26ed74231454744",
+  "new_order": [
+    "remuer",
+    "découper une carotte",
+    "ajouter une tomate",
+    "reprendre le manche propre de la cuillère"
+  ],
+  "retimed_events": [
+    {
+      "event": "contact_tomate",
+      "kind": "tomato_contact",
+      "previous_start_seconds": 14.3,
+      "new_start_seconds": 22.3,
+      "shift_seconds": 8.0,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "carotte_coupe_1",
+      "kind": "carrot_chop",
+      "previous_start_seconds": 21.05,
+      "new_start_seconds": 14.55,
+      "shift_seconds": -6.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "carotte_coupe_2",
+      "kind": "carrot_chop",
+      "previous_start_seconds": 21.75,
+      "new_start_seconds": 15.25,
+      "shift_seconds": -6.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "couteau_pose",
+      "kind": "knife_setdown",
+      "previous_start_seconds": 22.45,
+      "new_start_seconds": 15.95,
+      "shift_seconds": -6.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_robinet_ouvre",
+      "kind": "tap",
+      "previous_start_seconds": 15.35,
+      "new_start_seconds": 16.85,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_eau",
+      "kind": "water",
+      "previous_start_seconds": 15.35,
+      "new_start_seconds": 16.85,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_robinet_ferme",
+      "kind": "tap",
+      "previous_start_seconds": 16.9,
+      "new_start_seconds": 18.4,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_main_sous_eau",
+      "kind": "hand_water",
+      "previous_start_seconds": 15.48,
+      "new_start_seconds": 16.98,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_papier_deroule",
+      "kind": "paper_pull",
+      "previous_start_seconds": 17.4,
+      "new_start_seconds": 18.9,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_papier_dechire",
+      "kind": "paper_tear",
+      "previous_start_seconds": 18.05,
+      "new_start_seconds": 19.55,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_essuie_main",
+      "kind": "paper_wipe",
+      "previous_start_seconds": 18.05,
+      "new_start_seconds": 19.55,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_papier_froisse",
+      "kind": "paper_crumple",
+      "previous_start_seconds": 18.85,
+      "new_start_seconds": 20.35,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_papier_lache",
+      "kind": "paper_flight",
+      "previous_start_seconds": 19.38,
+      "new_start_seconds": 20.88,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    },
+    {
+      "event": "c2_poubelle_impact",
+      "kind": "paper_land",
+      "previous_start_seconds": 19.77,
+      "new_start_seconds": 21.27,
+      "shift_seconds": 1.5,
+      "individual_wav_identical": true
+    }
+  ],
+  "unchanged_individual_wav_count": 50,
+  "unchanged_individual_wavs": [
+    "remuage_debut.wav",
+    "cuillere_posee.wav",
+    "contact_tomate.wav",
+    "carotte_coupe_1.wav",
+    "carotte_coupe_2.wav",
+    "couteau_pose.wav",
+    "contact_manche_propre.wav",
+    "c1_robinet_ouvre.wav",
+    "c1_eau.wav",
+    "c1_robinet_ferme.wav",
+    "c1_main_sous_eau.wav",
+    "c1_papier_deroule.wav",
+    "c1_papier_dechire.wav",
+    "c1_essuie_main.wav",
+    "c1_papier_froisse.wav",
+    "c1_papier_lache.wav",
+    "c1_poubelle_impact.wav",
+    "c2_robinet_ouvre.wav",
+    "c2_eau.wav",
+    "c2_robinet_ferme.wav",
+    "c2_main_sous_eau.wav",
+    "c2_papier_deroule.wav",
+    "c2_papier_dechire.wav",
+    "c2_essuie_main.wav",
+    "c2_papier_froisse.wav",
+    "c2_papier_lache.wav",
+    "c2_poubelle_impact.wav",
+    "c3_robinet_ouvre.wav",
+    "c3_eau.wav",
+    "c3_robinet_ferme.wav",
+    "c3_main_sous_eau.wav",
+    "c3_papier_deroule.wav",
+    "c3_papier_dechire.wav",
+    "c3_essuie_main.wav",
+    "c3_papier_froisse.wav",
+    "c3_papier_lache.wav",
+    "c3_poubelle_impact.wav",
+    "c4_robinet_ouvre.wav",
+    "c4_eau.wav",
+    "c4_robinet_ferme.wav",
+    "c4_main_sous_eau.wav",
+    "c4_papier_deroule.wav",
+    "c4_papier_dechire.wav",
+    "c4_essuie_main.wav",
+    "c4_papier_froisse.wav",
+    "c4_papier_lache.wav",
+    "c4_poubelle_impact.wav",
+    "sifflement_p1_n1.wav",
+    "sifflement_p1_n2.wav",
+    "sifflement_p1_n3.wav"
+  ],
+  "regenerated_changed_audio": [
+    "cuisson.wav",
+    "musique_cuisine.wav",
+    "mix.wav"
+  ],
+  "all_event_seeds_kinds_durations_levels_and_pans_unchanged": true,
+  "music_windows_seconds": [
+    [
+      0.0,
+      7.75
+    ],
+    [
+      13.5,
+      16.5
+    ],
+    [
+      21.5,
+      23.0
+    ],
+    [
+      27.0,
+      28.0
+    ]
+  ],
+  "music_bpm": 108,
+  "music_nonzero_samples_outside_windows": 0,
+  "all_full_rituals_music_silent": true,
+  "whistle_notes_only_at_opening": 3,
+  "first_last_mix_frame_silent": true,
+  "clipped_samples": 0,
+  "mix_peak_dbfs": -4.0000883347026726,
+  "master_gain_db_previous": 6.544,
+  "master_gain_db_current": 6.544,
+  "no_speech_or_external_samples": true,
+  "limits": "Numerical PCM/event checks, not perceptual listening or a mobile loudspeaker test. Film contacts require independent rendered-frame review.",
+  "unmoved_mix_region_comparison": [
+    {
+      "seconds": [
+        0.0,
+        13.5
+      ],
+      "pcm_byte_identical": false,
+      "different_channel_samples": 571472,
+      "max_abs_16bit_difference": 14
+    },
+    {
+      "seconds": [
+        23.0,
+        35.0
+      ],
+      "pcm_byte_identical": false,
+      "different_channel_samples": 71832,
+      "max_abs_16bit_difference": 14
+    }
+  ]
+}

@@ -61,4 +61,14 @@ la même prise. Son contour souple et déchiré remplace le rectangle à coin
 replié ; les plis suivent la feuille jusque dans son froissage continu.
 `../controle/audit_papier_v11.json` compare les scènes aux 840 états V10.
 Les autres accessoires, le personnage, les gestes et tout le son restent
-inchangés. L’archive et les contrôles courants correspondent à cette retouche.
+inchangés lors de cette retouche. Les rapports V11 conservent sa preuve.
+
+Ordre V12 : découper la carotte avant d’ajouter la tomate. Les trois segments
+`action_reorder.segments` associent le nouveau temps de production aux gestes
+natifs déjà contrôlés. `animation_reference` et les repères de caméra restent
+en temps source ; la poubelle, le rouleau et les ingrédients suivent l’ordre
+de production. La chronologie principale règle tous les événements sonores.
+Ouverture 0–13,5 s et plans 23–35 s conservés ; montage toujours de 35 s.
+Les contrôles courants et l’archive correspondent à cette V12. Les captures
+complètes restent dans Git ; le ZIP garde les planches et trois poses finales
+de contrôle du nouvel ordre.
