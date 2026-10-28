@@ -1,0 +1,188 @@
+{
+  "video": "MOU_Encore_une_feuille.mp4",
+  "video_sha256": "b5409201c2269856a5624142daccc7420cd17df8b82941f85a371ebd02774e21",
+  "duration_seconds": 35.0,
+  "fps": 24.0,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "method": "Direct FFmpeg decoding of actual MP4; no SVG or PNG cache. All sampled images retained in contact sheets; selected full-resolution images retained separately.",
+  "pages": [
+    "planche_1.png",
+    "planche_2.png",
+    "planche_3.png"
+  ],
+  "samples": [
+    {
+      "frame": 10,
+      "seconds": 0.4166666666666667,
+      "decoded_png_sha256": "d322dc4caf997378071f5429c8120e257eae2797dcc270bc70a4554a63b41f68"
+    },
+    {
+      "frame": 18,
+      "seconds": 0.75,
+      "decoded_png_sha256": "5a20675821aa8ccf726436591a72ac6479e8c00bc8855ef8ce86be55d8b282e5"
+    },
+    {
+      "frame": 41,
+      "seconds": 1.7083333333333333,
+      "decoded_png_sha256": "0967618e4fb8fe03c039df5d0b0677012fa5e2d81fa4cb6f1268336b9e252a5b"
+    },
+    {
+      "frame": 62,
+      "seconds": 2.5833333333333335,
+      "decoded_png_sha256": "b9d39a8ed8074b4b2a19a3198bda6fc2704a18755e735a5ceb9e07a69e11464d"
+    },
+    {
+      "frame": 78,
+      "seconds": 3.25,
+      "decoded_png_sha256": "0e9e9c10ba2fdc5c5a80af00616c2605a7d54400dd58733994b1af8564a31dd4"
+    },
+    {
+      "frame": 79,
+      "seconds": 3.2916666666666665,
+      "decoded_png_sha256": "156d75c482cf9420f4f91e3af821bd6e1321cdb90481645562221104a8c9e055"
+    },
+    {
+      "frame": 80,
+      "seconds": 3.3333333333333335,
+      "decoded_png_sha256": "ea0ee69eefccd3e6a1e3d7e9d2f1d85720d43ce890ccb8752276f2f9b18acfbd"
+    },
+    {
+      "frame": 81,
+      "seconds": 3.375,
+      "decoded_png_sha256": "f01f3fdabda42fee7c0eeb276d74bd150ac79f6afb73b390e97ec4aa045e73b8"
+    },
+    {
+      "frame": 82,
+      "seconds": 3.4166666666666665,
+      "decoded_png_sha256": "f2aea0333ccc056e6a127d89a8e08b5b6c913240519db37aa94e3070350bea23"
+    },
+    {
+      "frame": 86,
+      "seconds": 3.5833333333333335,
+      "decoded_png_sha256": "863acb8f1745661b261cb62c52252672faeea7afa3791eb5c20b7edc0747a779",
+      "native_png": "00086.png"
+    },
+    {
+      "frame": 134,
+      "seconds": 5.583333333333333,
+      "decoded_png_sha256": "8ee93fc262fff3840572b40cad4d52f8ca35a91a3653042396a9ab64c83e1c01"
+    },
+    {
+      "frame": 156,
+      "seconds": 6.5,
+      "decoded_png_sha256": "d725c415f642a85220159a33b15abbb5961329478fe723e16896c6048e7151b5"
+    },
+    {
+      "frame": 158,
+      "seconds": 6.583333333333333,
+      "decoded_png_sha256": "a45a1e286d29facbbfe6d58ab6d857bf9f0a716d100fbb9a981a6e30566831b3",
+      "native_png": "00158.png"
+    },
+    {
+      "frame": 159,
+      "seconds": 6.625,
+      "decoded_png_sha256": "8f1b632b68b71b0cab96a99346992e07df1ffd09a549a13f83106bb33ce18e06"
+    },
+    {
+      "frame": 160,
+      "seconds": 6.666666666666667,
+      "decoded_png_sha256": "1d5be823d994730f2ab80c010038ac6ebb9921896e9450876e4b05cfaea29c3b"
+    },
+    {
+      "frame": 167,
+      "seconds": 6.958333333333333,
+      "decoded_png_sha256": "424547e201de00d3c91bb8b0404e0830ccdbc5d14614fe1ce1e74d8501835c31"
+    },
+    {
+      "frame": 170,
+      "seconds": 7.083333333333333,
+      "decoded_png_sha256": "6e4b700c541aee6b05ba250b905b88d517dce380b5117235b2c2a9befa41ff91"
+    },
+    {
+      "frame": 174,
+      "seconds": 7.25,
+      "decoded_png_sha256": "58a55fc3bb3e90e666f98bb707c79f7ef321e1965d3725b2abdfc8eb8d9d9db3",
+      "native_png": "00174.png"
+    },
+    {
+      "frame": 180,
+      "seconds": 7.5,
+      "decoded_png_sha256": "bbad0b1fb0d91eaf1ee1b41b92f5f20ddc87c799f80be119389f7175d0e0c39b"
+    },
+    {
+      "frame": 184,
+      "seconds": 7.666666666666667,
+      "decoded_png_sha256": "3be7d144f583d4f275c361a788b53bcb3106249ccd44afcd1543d22c96cd660f"
+    },
+    {
+      "frame": 186,
+      "seconds": 7.75,
+      "decoded_png_sha256": "e04e6b5e75da65be6005970f68fffee8405aa678fdd5a523820d40abd6359cc0"
+    },
+    {
+      "frame": 194,
+      "seconds": 8.083333333333334,
+      "decoded_png_sha256": "1d7f5b0ebf709eb06a2c2fa62bb3d38198351255a6ff9ed9b0606bd3f849aae7"
+    },
+    {
+      "frame": 324,
+      "seconds": 13.5,
+      "decoded_png_sha256": "6f04607d3c0094af330a3fb87a9125faaedbfad32debf747f7364a5313ea365b"
+    },
+    {
+      "frame": 360,
+      "seconds": 15.0,
+      "decoded_png_sha256": "850423f100e2431e59bdaaa5550c88ebe78f96dad9be820d7b70a661adb4b04d"
+    },
+    {
+      "frame": 480,
+      "seconds": 20.0,
+      "decoded_png_sha256": "8ef56d0bd0f5351c7b7810cf14614ec8cbe4252289b58ebd95a5a72ac211aed9"
+    },
+    {
+      "frame": 506,
+      "seconds": 21.083333333333332,
+      "decoded_png_sha256": "1a90120892283dbf720a33006d5f714ab5fd7c84cd576d158eaba70b01da3848"
+    },
+    {
+      "frame": 522,
+      "seconds": 21.75,
+      "decoded_png_sha256": "baedf8dc615abc181969b3214b1ed37cccc6e80d77dae2245935b586a988573f"
+    },
+    {
+      "frame": 552,
+      "seconds": 23.0,
+      "decoded_png_sha256": "d344bb601d468c3f8ecb4300bc6d44693fc1c50aa04527e02506a6bcfe937cfc"
+    },
+    {
+      "frame": 648,
+      "seconds": 27.0,
+      "decoded_png_sha256": "8582ea44a05d47abb4d3fcb7929d5fa2e7f2aa51c71372d37f7259a55e191d10"
+    },
+    {
+      "frame": 672,
+      "seconds": 28.0,
+      "decoded_png_sha256": "5a8d0cbc204585e62f5192ff0ee7c2ca08596d56c24e0468f01594ae1caa0f79"
+    },
+    {
+      "frame": 756,
+      "seconds": 31.5,
+      "decoded_png_sha256": "28df1a58ba0281a89958d05ab99b15ecf9b7b3d83ca31258cc50810a7debff13",
+      "native_png": "00756.png"
+    },
+    {
+      "frame": 800,
+      "seconds": 33.333333333333336,
+      "decoded_png_sha256": "a7a7d0c004fe2a2c1a4352049051d4774e8117d6124046d298f9109926c30590"
+    },
+    {
+      "frame": 830,
+      "seconds": 34.583333333333336,
+      "decoded_png_sha256": "e80b4d759107468af662c4c3745526a46e73ffe0a1099500d5696907f8dcf54c"
+    }
+  ],
+  "limits": "Images must still be opened and examined. No listening, continuous playback or public comprehension measurement claimed."
+}

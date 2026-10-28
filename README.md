@@ -1,9 +1,10 @@
 # MOU
 
-**Encore une feuille — tablier, eau exagérée et cuisine en rythme, 30 secondes.**
+**Encore une feuille — tablier, eau exagérée et cuisine en rythme, 35 secondes.**
 MOU siffle au départ, puis cuisine sur une musique originale qui se coupe
-pour chaque rituel de lavage et essuyage. Chaque contact
-relance son lavage et son gaspillage de papier. Le rouleau diminue
+pour chaque rituel de lavage et essuyage. L’ouverture donne plus de temps au
+remuage et à la découverte de la main ; le premier lavage arrive à 7,75 s.
+Chaque contact relance son lavage et son gaspillage de papier. Le rouleau diminue
 à chaque tirage. Après trois gros gaspillages, il ne reste qu’un minuscule
 bout : MOU sèche sa grande moufle avec une application absurde. Le dernier
 morceau est désormais plus grand pour rester lisible sur téléphone.

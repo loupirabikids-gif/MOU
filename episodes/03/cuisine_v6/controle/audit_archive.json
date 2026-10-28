@@ -1,54 +1,54 @@
 {
   "status": "passed",
-  "archive_sha256": "43812b46e1e77fc210e778a148767f28d47075a686a12e34556723b412bf5717",
-  "files_verified": 291,
+  "archive_sha256": "71b0ce9f52ec7cc1193bf4a144c11f6af64948473f24c5e1307530e88ec1944d",
+  "files_verified": 316,
   "crc_ok": true,
   "all_manifest_sha256_ok": true,
   "full_audio_regeneration_from_extracted_sources": true,
-  "regenerated_mix_sha256": "b6bed9c71ec11533b1d8c9bb1b2764d468ed76d56ca8a7da24ffa5235f475b2e",
+  "regenerated_mix_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
   "fresh_extracted_render": [
     {
       "time": 0.4166666666666667,
       "label": "sifflement_initial",
-      "svg_sha256": "8f11a1cd03db3d68ae0f81b10f8a32c4847a80c4297bea886019a66dfbe5cd40",
-      "png_sha256": "8409da817c253d6b165a2f7d8032b65009f6114f5114685433e031a947bfb3c0",
+      "svg_sha256": "1a6788c38c9794218652fc76915ee6cee9178ee9564d76f762a185dddcbe57fe",
+      "png_sha256": "e8657669dba89409cb2f1a27ac58f0bc280d09a0136ef0ebaeb798863d74fdcf",
       "dimensions": [
         1080,
         1920
       ]
     },
     {
-      "time": 8.708333333333334,
-      "label": "tomate_sans_sifflement",
-      "svg_sha256": "ee68a45da8d14a612932858417a5bd2dc284b80c01bbf646d310349be918d4f6",
-      "png_sha256": "d9c3e35611691c75fecb9985da117e2dc04412ca48d044a36c4a93b0a78f6fa8",
+      "time": 3.5833333333333335,
+      "label": "cuisine_prolongee",
+      "svg_sha256": "281aa58eaac65c942bed4afaabba758a68e9edf39e1531dca75157d6353328a5",
+      "png_sha256": "395ec714d7e57003635a22840abcad3f638123458685749ad235ffe96f1b560b",
       "dimensions": [
         1080,
         1920
       ]
     },
     {
-      "time": 15.5,
-      "label": "carotte_sans_sifflement",
-      "svg_sha256": "b41fa92053ad6f50f3afc3a1820350d330f3f8647f89a085d1e6fea94cafbbdb",
-      "png_sha256": "1c18cba76351587981d56da8dc14567f6388a53dd2c4c7976c489a07085e60d4",
+      "time": 7.25,
+      "label": "inspection_tenue",
+      "svg_sha256": "839f5e11fa236163c6812246672c8bb517d485d9ce30abb510d07a63227bb3bf",
+      "png_sha256": "a80f9419df427b1643366e5d7f827e20ff4e1e92ea596567fd5e4bffdf34e302",
       "dimensions": [
         1080,
         1920
       ]
     },
     {
-      "time": 22.291666666666668,
-      "label": "manche_sans_sifflement",
-      "svg_sha256": "be237fa0795a3dcab6861889d3152ad458b2183cc39ee788d61d61aa55c02f84",
-      "png_sha256": "523e0f28f49ea203bb66a525cf977dcd9904fef69818189e8d911e9b03f5af4f",
+      "time": 21.041666666666668,
+      "label": "carotte",
+      "svg_sha256": "74121c09ddf409cbbb7464f578dfc8708b50a5bff13f093bfd23ff291020e5d7",
+      "png_sha256": "9f7c920326615aa6da738d3e3c8e7f6b95012b67c744cb9532b001da09859015",
       "dimensions": [
         1080,
         1920
       ]
     },
     {
-      "time": 26.5,
+      "time": 31.5,
       "label": "papier_conserve",
       "svg_sha256": "f222baa2c72cd77bc6074036619e27f59239c93dc7f43d71e464c477d79a9441",
       "png_sha256": "3e60bedb3262eaf3b2b8417860ab682820229d9882f5cadb31f8e2c046deb943",
@@ -58,5 +58,5 @@
       ]
     }
   ],
-  "method": "New temporary directory; bundled score/sound synthesis/renderer/rig/decor/timeline only. Installed open-source dependencies reused, no PNG cache or original project source paths."
+  "method": "New temporary directory; bundled 35-second timeline including animation_reference, score, sound synthesis, renderer, rig and decor. Installed open-source dependencies reused, no PNG cache or original project source paths."
 }

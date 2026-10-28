@@ -41,3 +41,11 @@ Correctif sonore V8 : la première phrase sifflée reste, les suivantes sont
 retirées. La piste musicale originale est rigoureusement muette hors des
 fenêtres `background_music.windows` de la chronologie. Les sons d’eau et de
 papier restent audibles pendant ces coupures musicales.
+
+Révision de rythme V9 : 35 s /840 images au lieu de 30 s /720. Les champs
+principaux de la chronologie sont les repères de production et pilotent le son.
+`animation_reference` conserve les actions V8 en temps source ; `scene_time`
+évalue l’ouverture prolongée et décale les autres plans de 120 images. Le
+remuage natif et le balancement utilisent leur rythme propre, sans ralentir
+la musique ni rejouer le sifflement. Les fonctions natives des bras restent
+identiques. Les anciens repères chiffrés des documents V8 sont historiques.

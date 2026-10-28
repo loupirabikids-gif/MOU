@@ -6,6 +6,19 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Dernier retour : donner davantage de temps à la compréhension, surtout au
+remuage initial. Révision rythme V9 dans `episodes/03/cuisine_v6/`, 35 s au lieu
+de 30. Remuer activement 0–6,6 s (quatre tours naturels), poser la cuillère
+6,6–7 s, lever/inspecter la main 7–7,5 s puis regarder le lavabo jusqu’à 7,75 s.
+Tous les plans suivants gardent leurs gestes et durées, décalés de +5 s.
+Garder le modèle, les bras, les mains et le papier V7 ; pas de ralenti global.
+Les trois notes sifflées restent à leur heure initiale ; musique originale
+à 108 BPM, fenêtre initiale 0–7,75 puis 13,5–15 /20–23 /27–28 s, coupée
+durant les rituels et la fin. Animation en temps source V8 conservée sous
+`animation_reference` ; `scene_time` relie le temps du film aux actions sans
+changer les fonctions natives. La chronologie de production pilote le son.
+Contrôles et critique : `controle/*rythme*v9*`. Attendre le retour sur ce montage.
+
 Dernière précision sonore : MOU siffle uniquement au départ, avant le premier
 lavage. Correctif son V8 dans `episodes/03/cuisine_v6/` : garder les trois notes
 de la première phrase (0,3–1,731111 s) et retirer les trois phrases suivantes,

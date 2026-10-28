@@ -2,6 +2,28 @@
 
 28 octobre 2026. Révision ciblée de la v5 à la demande de l’utilisatrice.
 
+## Rythme V9 — ouverture prolongée
+
+Retour : la cuisine initiale se lit trop vite. Le montage passe de 30 à
+35 s : remuage actif jusqu’à 6,6 s, cuillère posée à 7 s, puis inspection
+de main jusqu’à 7,75 s. La main monte en un quart de seconde et son regard
+reste dessus jusqu’à 7,5 s, puis s’oriente vers le lavabo.
+
+Le geste natif effectue quatre tours, sans ralenti global. Les 654 états
+à partir du premier lavabo sont identiques à la V8, décalés de 120 images ;
+32 empreintes de SVG indépendantes sont également identiques. Le contact
+cuillère/main et la position de son bout dans la poêle sont contrôlés sur
+les 159 images de remuage, avec les coutures à 3,3 et 6,6 s.
+
+La musique conserve son tempo ; les événements suivants sont décalés de
+cinq secondes. Seuls le lit de cuisson, le premier remuage et la piste
+musicale sont régénérés plus longs. Les 46 autres bruitages et les trois
+notes initiales gardent leurs WAV. Le gain commun varie de +0,007 dB après
+recalcul du lit prolongé. Aucun sifflement supplémentaire.
+
+Voir `audit_rythme_v9.json`, `audit_rythme_son_v9.json` et les critiques V9.
+Les sections suivantes restent l’historique des versions précédentes.
+
 ## Correctif sonore V8, après précision de l’utilisatrice
 
 Conserver seulement la phrase sifflée initiale, de 0,3 à 1,731111 s. Les trois

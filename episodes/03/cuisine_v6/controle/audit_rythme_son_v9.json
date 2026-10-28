@@ -1,0 +1,376 @@
+{
+  "status": "passed",
+  "reference_commit": "21f610b3d3ee6c797820899d1e03c335bc5f20f5",
+  "duration_before_after_seconds": [
+    30,
+    35
+  ],
+  "source_sha256": "45b90acdf0e22122d9e11c9cae9fb8640844a2ee67343c62c1aed84e49b8e143",
+  "timeline_sha256": "95f7a9cab042e18db2b94553e4df2f4bf601b1d47aa34536e521c1efc5228bf4",
+  "mix_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
+  "music_wav_sha256": "39481684e586a76e235abe5e1552706c07402dc798656201c07bc491658d6621",
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 16,
+  "event_count": 52,
+  "opening_stir_before_after_seconds": [
+    2.2,
+    6.7
+  ],
+  "first_wash_before_after_seconds": [
+    2.75,
+    7.75
+  ],
+  "whistle_note_count": 3,
+  "whistle_last_end_seconds": 1.7311041666666667,
+  "foley_wavs_bitwise_preserved": 46,
+  "initial_whistle_wavs_bitwise_preserved": 3,
+  "only_regenerated_wavs": [
+    "cuisson",
+    "remuage_debut",
+    "musique_cuisine"
+  ],
+  "preserved_event_cue_shifts": [
+    {
+      "name": "cuillere_posee",
+      "before_start": 2.45,
+      "after_start": 6.95,
+      "shift": 4.5
+    },
+    {
+      "name": "contact_tomate",
+      "before_start": 9.3,
+      "after_start": 14.3,
+      "shift": 5
+    },
+    {
+      "name": "carotte_coupe_1",
+      "before_start": 16.05,
+      "after_start": 21.05,
+      "shift": 5
+    },
+    {
+      "name": "carotte_coupe_2",
+      "before_start": 16.75,
+      "after_start": 21.75,
+      "shift": 5
+    },
+    {
+      "name": "couteau_pose",
+      "before_start": 17.45,
+      "after_start": 22.45,
+      "shift": 5
+    },
+    {
+      "name": "contact_manche_propre",
+      "before_start": 22.5,
+      "after_start": 27.5,
+      "shift": 5
+    },
+    {
+      "name": "c1_robinet_ouvre",
+      "before_start": 3.23,
+      "after_start": 8.23,
+      "shift": 5
+    },
+    {
+      "name": "c1_eau",
+      "before_start": 3.23,
+      "after_start": 8.23,
+      "shift": 5
+    },
+    {
+      "name": "c1_robinet_ferme",
+      "before_start": 5.05,
+      "after_start": 10.05,
+      "shift": 5
+    },
+    {
+      "name": "c1_main_sous_eau",
+      "before_start": 3.4,
+      "after_start": 8.4,
+      "shift": 5
+    },
+    {
+      "name": "c1_papier_deroule",
+      "before_start": 5.65,
+      "after_start": 10.65,
+      "shift": 5
+    },
+    {
+      "name": "c1_papier_dechire",
+      "before_start": 6.4,
+      "after_start": 11.4,
+      "shift": 5
+    },
+    {
+      "name": "c1_essuie_main",
+      "before_start": 6.4,
+      "after_start": 11.4,
+      "shift": 5
+    },
+    {
+      "name": "c1_papier_froisse",
+      "before_start": 7.25,
+      "after_start": 12.25,
+      "shift": 5
+    },
+    {
+      "name": "c1_papier_lache",
+      "before_start": 7.8,
+      "after_start": 12.8,
+      "shift": 5
+    },
+    {
+      "name": "c1_poubelle_impact",
+      "before_start": 8.22,
+      "after_start": 13.22,
+      "shift": 5
+    },
+    {
+      "name": "c2_robinet_ouvre",
+      "before_start": 10.35,
+      "after_start": 15.35,
+      "shift": 5
+    },
+    {
+      "name": "c2_eau",
+      "before_start": 10.35,
+      "after_start": 15.35,
+      "shift": 5
+    },
+    {
+      "name": "c2_robinet_ferme",
+      "before_start": 11.9,
+      "after_start": 16.9,
+      "shift": 5
+    },
+    {
+      "name": "c2_main_sous_eau",
+      "before_start": 10.48,
+      "after_start": 15.48,
+      "shift": 5
+    },
+    {
+      "name": "c2_papier_deroule",
+      "before_start": 12.4,
+      "after_start": 17.4,
+      "shift": 5
+    },
+    {
+      "name": "c2_papier_dechire",
+      "before_start": 13.05,
+      "after_start": 18.05,
+      "shift": 5
+    },
+    {
+      "name": "c2_essuie_main",
+      "before_start": 13.05,
+      "after_start": 18.05,
+      "shift": 5
+    },
+    {
+      "name": "c2_papier_froisse",
+      "before_start": 13.85,
+      "after_start": 18.85,
+      "shift": 5
+    },
+    {
+      "name": "c2_papier_lache",
+      "before_start": 14.38,
+      "after_start": 19.38,
+      "shift": 5
+    },
+    {
+      "name": "c2_poubelle_impact",
+      "before_start": 14.77,
+      "after_start": 19.77,
+      "shift": 5
+    },
+    {
+      "name": "c3_robinet_ouvre",
+      "before_start": 18.28,
+      "after_start": 23.28,
+      "shift": 5
+    },
+    {
+      "name": "c3_eau",
+      "before_start": 18.28,
+      "after_start": 23.28,
+      "shift": 5
+    },
+    {
+      "name": "c3_robinet_ferme",
+      "before_start": 19.35,
+      "after_start": 24.35,
+      "shift": 5
+    },
+    {
+      "name": "c3_main_sous_eau",
+      "before_start": 18.38,
+      "after_start": 23.38,
+      "shift": 5
+    },
+    {
+      "name": "c3_papier_deroule",
+      "before_start": 19.76,
+      "after_start": 24.76,
+      "shift": 5
+    },
+    {
+      "name": "c3_papier_dechire",
+      "before_start": 20.3,
+      "after_start": 25.3,
+      "shift": 5
+    },
+    {
+      "name": "c3_essuie_main",
+      "before_start": 20.3,
+      "after_start": 25.3,
+      "shift": 5
+    },
+    {
+      "name": "c3_papier_froisse",
+      "before_start": 20.95,
+      "after_start": 25.95,
+      "shift": 5
+    },
+    {
+      "name": "c3_papier_lache",
+      "before_start": 21.4,
+      "after_start": 26.4,
+      "shift": 5
+    },
+    {
+      "name": "c3_poubelle_impact",
+      "before_start": 21.77,
+      "after_start": 26.77,
+      "shift": 5
+    },
+    {
+      "name": "c4_robinet_ouvre",
+      "before_start": 23.24,
+      "after_start": 28.24,
+      "shift": 5
+    },
+    {
+      "name": "c4_eau",
+      "before_start": 23.24,
+      "after_start": 28.24,
+      "shift": 5
+    },
+    {
+      "name": "c4_robinet_ferme",
+      "before_start": 24.22,
+      "after_start": 29.22,
+      "shift": 5
+    },
+    {
+      "name": "c4_main_sous_eau",
+      "before_start": 23.32,
+      "after_start": 28.32,
+      "shift": 5
+    },
+    {
+      "name": "c4_papier_deroule",
+      "before_start": 24.65,
+      "after_start": 29.65,
+      "shift": 5
+    },
+    {
+      "name": "c4_papier_dechire",
+      "before_start": 25.05,
+      "after_start": 30.05,
+      "shift": 5
+    },
+    {
+      "name": "c4_essuie_main",
+      "before_start": 25.8,
+      "after_start": 30.8,
+      "shift": 5
+    },
+    {
+      "name": "c4_papier_froisse",
+      "before_start": 27.1,
+      "after_start": 32.1,
+      "shift": 5
+    },
+    {
+      "name": "c4_papier_lache",
+      "before_start": 27.65,
+      "after_start": 32.65,
+      "shift": 5
+    },
+    {
+      "name": "c4_poubelle_impact",
+      "before_start": 28.1,
+      "after_start": 33.1,
+      "shift": 5
+    },
+    {
+      "name": "sifflement_p1_n1",
+      "before_start": 0.3,
+      "after_start": 0.3,
+      "shift": 0
+    },
+    {
+      "name": "sifflement_p1_n2",
+      "before_start": 0.855556,
+      "after_start": 0.855556,
+      "shift": 0
+    },
+    {
+      "name": "sifflement_p1_n3",
+      "before_start": 1.411111,
+      "after_start": 1.411111,
+      "shift": 0
+    }
+  ],
+  "music_windows": [
+    {
+      "start": 0.0,
+      "end": 7.75,
+      "boundary_steps_lsb": [
+        0,
+        0
+      ]
+    },
+    {
+      "start": 13.5,
+      "end": 15.0,
+      "boundary_steps_lsb": [
+        0,
+        0
+      ]
+    },
+    {
+      "start": 20.0,
+      "end": 23.0,
+      "boundary_steps_lsb": [
+        0,
+        0
+      ]
+    },
+    {
+      "start": 27.0,
+      "end": 28.0,
+      "boundary_steps_lsb": [
+        0,
+        0
+      ]
+    }
+  ],
+  "music_bpm": 108,
+  "music_nonzero_samples_outside_windows": 0,
+  "no_music_during_washing_wiping_throws_zooms_final": true,
+  "no_global_audio_time_stretch_or_pitch_shift": true,
+  "music_instruments_and_score_retained": true,
+  "master_gain_db_before_after": [
+    6.537,
+    6.544
+  ],
+  "mix_peak_dbfs": -4.0,
+  "clipped_samples": 0,
+  "embedded_animation_reference_ignored_by_sound": true,
+  "limits": "Numeric PCM, provenance, cue and hash checks only. No perceptive listening, phone playback or audience-comprehension test is claimed."
+}

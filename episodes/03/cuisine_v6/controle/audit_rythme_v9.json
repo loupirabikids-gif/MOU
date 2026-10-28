@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "reference_commit": "21f610b3d3ee6c797820899d1e03c335bc5f20f5",
+  "duration_before_after": [
+    30,
+    35
+  ],
+  "later_shift_frames": 120,
+  "later_states_identical": 654,
+  "later_svg_hash_samples_identical": 32,
+  "opening_stir_seconds": 6.6,
+  "opening_stir_revolutions": 4,
+  "first_hand_inspection": [
+    7,
+    7.75
+  ],
+  "first_sink_seconds": 7.75,
+  "whistle_notes_unchanged": true,
+  "opening_contact_checks": {
+    "frames": 159,
+    "max_pan_normalized_radius_squared": 0.30713451682958026,
+    "max_spoon_length_error_px": 2.5579538487363607e-13,
+    "max_grip_error_px": 0.0,
+    "seam_checks": [
+      {
+        "time": 3.3,
+        "hand_delta_px": 1.0208067510308163e-05,
+        "bowl_delta_px": 1.0208072803481005e-05
+      },
+      {
+        "time": 6.6,
+        "hand_delta_px": 3.840411380150725e-11,
+        "bowl_delta_px": 4.0542749116133e-11
+      }
+    ]
+  },
+  "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "sources_sha256": {
+    "animation.py": "2cbfa7f9a6ce1757d4d2f76fdc04f468a672fb74ef9aecaad83a0388a163ce58",
+    "art.py": "f0b93ff580ec29486324c492c2aee681b31ac5050c4311535917f4761704711d",
+    "render.py": "66798ea8d9df1f1c876e21472fdf23f1296986679aed30852db6dcfabfd1d3af"
+  },
+  "timeline_sha256": "95f7a9cab042e18db2b94553e4df2f4bf601b1d47aa34536e521c1efc5228bf4",
+  "limits": "State and source comparisons, not independent artistic viewing or perceptive listening."
+}

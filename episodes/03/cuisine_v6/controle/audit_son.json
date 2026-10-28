@@ -2,188 +2,193 @@
   "episode": "03",
   "title": "Encore une feuille — en cuisine et en rythme",
   "timeline_version": 6,
-  "duration_seconds": 30.0,
-  "samples_per_channel": 1440000,
+  "duration_seconds": 35.0,
+  "samples_per_channel": 1680000,
   "sample_rate": 48000,
   "channels": 2,
   "bit_depth": 16,
   "event_count": 52,
   "peak_dbfs": -4.0,
-  "premaster_peak_dbfs": -10.537,
-  "master_gain_db": 6.537,
+  "premaster_peak_dbfs": -10.544,
+  "master_gain_db": 6.544,
   "rms_dbfs_left_right": [
-    -23.452,
-    -27.697
+    -23.981,
+    -28.17
   ],
   "dc_mean_left_right": [
-    -3.530432383219401e-05,
-    -3.51557625664605e-05
+    -4.3294397989908854e-05,
+    -4.3264280046735494e-05
   ],
   "clipped_samples": 0,
   "water_intervals": [
     {
       "cycle": 1,
       "scheduled": [
-        3.23,
-        5.05
+        8.23,
+        10.05
       ],
       "rendered": [
-        3.23,
-        5.05
+        8.23,
+        10.05
       ],
-      "first_above_one_percent_seconds": 3.231125
+      "first_above_one_percent_seconds": 8.231125
     },
     {
       "cycle": 2,
       "scheduled": [
-        10.35,
-        11.9
+        15.35,
+        16.9
       ],
       "rendered": [
-        10.35,
-        11.9
+        15.35,
+        16.9
       ],
-      "first_above_one_percent_seconds": 10.351104166666667
+      "first_above_one_percent_seconds": 15.351104166666667
     },
     {
       "cycle": 3,
       "scheduled": [
-        18.28,
-        19.35
+        23.28,
+        24.35
       ],
       "rendered": [
-        18.28,
-        19.35
+        23.28,
+        24.35
       ],
-      "first_above_one_percent_seconds": 18.2813125
+      "first_above_one_percent_seconds": 23.2813125
     },
     {
       "cycle": 4,
       "scheduled": [
-        23.24,
-        24.22
+        28.24,
+        29.22
       ],
       "rendered": [
-        23.24,
-        24.22
+        28.24,
+        29.22
       ],
-      "first_above_one_percent_seconds": 23.2421875
+      "first_above_one_percent_seconds": 28.2421875
     }
   ],
   "landing_onsets": [
     {
       "cycle": 1,
-      "scheduled_seconds": 8.22,
-      "onset_seconds": 8.220041666666667
+      "scheduled_seconds": 13.22,
+      "onset_seconds": 13.220041666666667
     },
     {
       "cycle": 2,
-      "scheduled_seconds": 14.77,
-      "onset_seconds": 14.770083333333334
+      "scheduled_seconds": 19.77,
+      "onset_seconds": 19.770083333333332
     },
     {
       "cycle": 3,
-      "scheduled_seconds": 21.77,
-      "onset_seconds": 21.770041666666668
+      "scheduled_seconds": 26.77,
+      "onset_seconds": 26.770041666666668
     },
     {
       "cycle": 4,
-      "scheduled_seconds": 28.1,
-      "onset_seconds": 28.100041666666666
+      "scheduled_seconds": 33.1,
+      "onset_seconds": 33.10004166666667
     }
   ],
   "tear_onsets": [
     {
       "cycle": 1,
-      "scheduled_seconds": 6.4,
-      "onset_seconds": 6.400145833333333
+      "scheduled_seconds": 11.4,
+      "onset_seconds": 11.400145833333333
     },
     {
       "cycle": 2,
-      "scheduled_seconds": 13.05,
-      "onset_seconds": 13.050104166666667
+      "scheduled_seconds": 18.05,
+      "onset_seconds": 18.050104166666667
     },
     {
       "cycle": 3,
-      "scheduled_seconds": 20.3,
-      "onset_seconds": 20.3000625
+      "scheduled_seconds": 25.3,
+      "onset_seconds": 25.3000625
     },
     {
       "cycle": 4,
-      "scheduled_seconds": 25.05,
-      "onset_seconds": 25.050104166666667
+      "scheduled_seconds": 30.05,
+      "onset_seconds": 30.050104166666667
     }
   ],
   "carrot_cut_onsets": [
     {
-      "scheduled_seconds": 16.05,
-      "onset_seconds": 16.050041666666665
+      "scheduled_seconds": 21.05,
+      "onset_seconds": 21.050041666666665
     },
     {
-      "scheduled_seconds": 16.75,
-      "onset_seconds": 16.750041666666668
+      "scheduled_seconds": 21.75,
+      "onset_seconds": 21.750041666666668
     }
   ],
   "final_hold_seconds": [
-    29.4,
-    30.0
+    34.4,
+    35.0
   ],
-  "final_hold_rms_dbfs": -48.238,
+  "final_hold_rms_dbfs": -49.385,
   "final_hold_cooking_only": true,
   "tiny_paper_cycle": 4,
   "tiny_paper_events": [
     {
       "name": "c4_papier_deroule",
       "kind": "tiny_paper_pull",
-      "start": 24.65,
+      "start": 29.65,
       "duration": 0.18,
       "peak_dbfs": -28.0
     },
     {
       "name": "c4_papier_dechire",
       "kind": "tiny_paper_tear",
-      "start": 25.05,
+      "start": 30.05,
       "duration": 0.055,
       "peak_dbfs": -25.0
     },
     {
       "name": "c4_essuie_main",
       "kind": "tiny_paper_wipe",
-      "start": 25.8,
+      "start": 30.8,
       "duration": 1.3,
       "peak_dbfs": -28.0
     },
     {
       "name": "c4_papier_froisse",
       "kind": "tiny_paper_crumple",
-      "start": 27.1,
+      "start": 32.1,
       "duration": 0.15,
       "peak_dbfs": -30.0
     },
     {
       "name": "c4_papier_lache",
       "kind": "tiny_paper_flight",
-      "start": 27.65,
+      "start": 32.65,
       "duration": 0.13,
       "peak_dbfs": -38.0
     },
     {
       "name": "c4_poubelle_impact",
       "kind": "tiny_paper_land",
-      "start": 28.1,
+      "start": 33.1,
       "duration": 0.07,
       "peak_dbfs": -31.0
     }
   ],
   "reveal_seconds_without_explanatory_cue": [
-    25.05,
-    25.8
+    30.05,
+    30.8
   ],
   "rhythm": {
     "bpm": 108,
     "phase": 0.3,
     "intent": "petit balancement joyeux pendant la cuisine, arrêté pour les inspections et lavages"
   },
+  "opening_stir_seconds": [
+    0.0,
+    6.7
+  ],
+  "first_wash_start_seconds": 7.75,
   "whistle_phrase_count": 1,
   "whistle_note_count": 3,
   "whistle_notes": [
@@ -221,19 +226,19 @@
     "windows_seconds": [
       [
         0.0,
-        2.75
+        7.75
       ],
       [
-        8.5,
-        10.0
+        13.5,
+        15.0
       ],
       [
-        15.0,
-        18.0
-      ],
-      [
-        22.0,
+        20.0,
         23.0
+      ],
+      [
+        27.0,
+        28.0
       ]
     ],
     "peak_dbfs_before_master": -27.0,
@@ -247,19 +252,19 @@
       "windows_seconds": [
         [
           0.0,
-          2.75
+          7.75
         ],
         [
-          8.5,
-          10.0
+          13.5,
+          15.0
         ],
         [
-          15.0,
-          18.0
-        ],
-        [
-          22.0,
+          20.0,
           23.0
+        ],
+        [
+          27.0,
+          28.0
         ]
       ],
       "window_attack_seconds": 0.01,
@@ -349,22 +354,182 @@
         {
           "window": 1,
           "start": 2.5,
-          "duration": 0.25,
+          "duration": 0.31,
           "midi_note": 76,
           "instrument": "plucked_wood",
           "intensity": 0.45
         },
         {
           "window": 1,
+          "start": 2.777777778,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.68
+        },
+        {
+          "window": 1,
+          "start": 3.194444444,
+          "duration": 0.31,
+          "midi_note": 71,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 1,
+          "start": 3.611111111,
+          "duration": 0.31,
+          "midi_note": 78,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 1,
+          "start": 3.888888889,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.64
+        },
+        {
+          "window": 1,
+          "start": 4.166666667,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.42
+        },
+        {
+          "window": 1,
           "start": 2.222222222,
-          "duration": 0.5277708333333333,
+          "duration": 1.2777708333333333,
+          "midi_note": 45,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.64
+        },
+        {
+          "window": 1,
+          "start": 3.333333333,
+          "duration": 1.2777708333333333,
+          "midi_note": 52,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.46
+        },
+        {
+          "window": 1,
+          "start": 4.444444444,
+          "duration": 0.31,
+          "midi_note": 69,
+          "instrument": "plucked_wood",
+          "intensity": 0.86
+        },
+        {
+          "window": 1,
+          "start": 4.722222222,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.45
+        },
+        {
+          "window": 1,
+          "start": 5.0,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.68
+        },
+        {
+          "window": 1,
+          "start": 5.416666667,
+          "duration": 0.31,
+          "midi_note": 71,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 1,
+          "start": 5.833333333,
+          "duration": 0.31,
+          "midi_note": 78,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 1,
+          "start": 6.111111111,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.64
+        },
+        {
+          "window": 1,
+          "start": 6.388888889,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.42
+        },
+        {
+          "window": 1,
+          "start": 4.444444444,
+          "duration": 1.2777708333333333,
+          "midi_note": 45,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.64
+        },
+        {
+          "window": 1,
+          "start": 5.555555556,
+          "duration": 1.2777708333333333,
+          "midi_note": 52,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.46
+        },
+        {
+          "window": 1,
+          "start": 6.666666667,
+          "duration": 0.31,
+          "midi_note": 69,
+          "instrument": "plucked_wood",
+          "intensity": 0.86
+        },
+        {
+          "window": 1,
+          "start": 6.944444444,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.45
+        },
+        {
+          "window": 1,
+          "start": 7.222222222,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.68
+        },
+        {
+          "window": 1,
+          "start": 7.638888889,
+          "duration": 0.11110416666666667,
+          "midi_note": 71,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 1,
+          "start": 6.666666667,
+          "duration": 1.0833333333333333,
           "midi_note": 45,
           "instrument": "rounded_plucked_bass",
           "intensity": 0.64
         },
         {
           "window": 2,
-          "start": 8.5,
+          "start": 13.5,
           "duration": 0.31,
           "midi_note": 69,
           "instrument": "plucked_wood",
@@ -372,7 +537,7 @@
         },
         {
           "window": 2,
-          "start": 8.777777778,
+          "start": 13.777777778,
           "duration": 0.31,
           "midi_note": 76,
           "instrument": "plucked_wood",
@@ -380,7 +545,7 @@
         },
         {
           "window": 2,
-          "start": 9.055555556,
+          "start": 14.055555556,
           "duration": 0.31,
           "midi_note": 73,
           "instrument": "plucked_wood",
@@ -388,7 +553,7 @@
         },
         {
           "window": 2,
-          "start": 9.472222222,
+          "start": 14.472222222,
           "duration": 0.31,
           "midi_note": 71,
           "instrument": "plucked_wood",
@@ -396,7 +561,7 @@
         },
         {
           "window": 2,
-          "start": 9.888888889,
+          "start": 14.888888889,
           "duration": 0.11110416666666667,
           "midi_note": 78,
           "instrument": "plucked_wood",
@@ -404,7 +569,7 @@
         },
         {
           "window": 2,
-          "start": 8.5,
+          "start": 13.5,
           "duration": 1.2777708333333333,
           "midi_note": 45,
           "instrument": "rounded_plucked_bass",
@@ -412,7 +577,7 @@
         },
         {
           "window": 2,
-          "start": 9.611111111,
+          "start": 14.611111111,
           "duration": 0.38889583333333333,
           "midi_note": 52,
           "instrument": "rounded_plucked_bass",
@@ -420,7 +585,7 @@
         },
         {
           "window": 3,
-          "start": 15.0,
+          "start": 20.0,
           "duration": 0.31,
           "midi_note": 69,
           "instrument": "plucked_wood",
@@ -428,7 +593,7 @@
         },
         {
           "window": 3,
-          "start": 15.277777778,
+          "start": 20.277777778,
           "duration": 0.31,
           "midi_note": 76,
           "instrument": "plucked_wood",
@@ -436,7 +601,7 @@
         },
         {
           "window": 3,
-          "start": 15.555555556,
+          "start": 20.555555556,
           "duration": 0.31,
           "midi_note": 73,
           "instrument": "plucked_wood",
@@ -444,7 +609,7 @@
         },
         {
           "window": 3,
-          "start": 15.972222222,
+          "start": 20.972222222,
           "duration": 0.31,
           "midi_note": 71,
           "instrument": "plucked_wood",
@@ -452,7 +617,7 @@
         },
         {
           "window": 3,
-          "start": 16.388888889,
+          "start": 21.388888889,
           "duration": 0.31,
           "midi_note": 78,
           "instrument": "plucked_wood",
@@ -460,7 +625,7 @@
         },
         {
           "window": 3,
-          "start": 16.666666667,
+          "start": 21.666666667,
           "duration": 0.31,
           "midi_note": 76,
           "instrument": "plucked_wood",
@@ -468,7 +633,7 @@
         },
         {
           "window": 3,
-          "start": 16.944444444,
+          "start": 21.944444444,
           "duration": 0.31,
           "midi_note": 73,
           "instrument": "plucked_wood",
@@ -476,7 +641,7 @@
         },
         {
           "window": 3,
-          "start": 15.0,
+          "start": 20.0,
           "duration": 1.2777708333333333,
           "midi_note": 45,
           "instrument": "rounded_plucked_bass",
@@ -484,7 +649,7 @@
         },
         {
           "window": 3,
-          "start": 16.111111111,
+          "start": 21.111111111,
           "duration": 1.2777708333333333,
           "midi_note": 52,
           "instrument": "rounded_plucked_bass",
@@ -492,7 +657,7 @@
         },
         {
           "window": 3,
-          "start": 17.222222222,
+          "start": 22.222222222,
           "duration": 0.31,
           "midi_note": 69,
           "instrument": "plucked_wood",
@@ -500,7 +665,7 @@
         },
         {
           "window": 3,
-          "start": 17.5,
+          "start": 22.5,
           "duration": 0.31,
           "midi_note": 76,
           "instrument": "plucked_wood",
@@ -508,7 +673,7 @@
         },
         {
           "window": 3,
-          "start": 17.777777778,
+          "start": 22.777777778,
           "duration": 0.22222916666666667,
           "midi_note": 73,
           "instrument": "plucked_wood",
@@ -516,7 +681,7 @@
         },
         {
           "window": 3,
-          "start": 17.222222222,
+          "start": 22.222222222,
           "duration": 0.7777708333333333,
           "midi_note": 45,
           "instrument": "rounded_plucked_bass",
@@ -524,7 +689,7 @@
         },
         {
           "window": 4,
-          "start": 22.0,
+          "start": 27.0,
           "duration": 0.31,
           "midi_note": 69,
           "instrument": "plucked_wood",
@@ -532,7 +697,7 @@
         },
         {
           "window": 4,
-          "start": 22.277777778,
+          "start": 27.277777778,
           "duration": 0.31,
           "midi_note": 76,
           "instrument": "plucked_wood",
@@ -540,7 +705,7 @@
         },
         {
           "window": 4,
-          "start": 22.555555556,
+          "start": 27.555555556,
           "duration": 0.31,
           "midi_note": 73,
           "instrument": "plucked_wood",
@@ -548,7 +713,7 @@
         },
         {
           "window": 4,
-          "start": 22.0,
+          "start": 27.0,
           "duration": 1.0,
           "midi_note": 45,
           "instrument": "rounded_plucked_bass",
@@ -568,8 +733,8 @@
   "no_recorded_voice": true,
   "character_synthetic_whistle": true,
   "no_external_samples": true,
-  "mix_sha256": "b6bed9c71ec11533b1d8c9bb1b2764d468ed76d56ca8a7da24ffa5235f475b2e",
-  "source_sha256": "6f902189a62ade0717f381fb05609a0d2536ec934a7b19bae05e1edb2679f2c5",
-  "chronologie_sha256": "362227e993d340ec39afdb3b700811b87a52445d51f84b26e7a77f10610ecd25",
+  "mix_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
+  "source_sha256": "45b90acdf0e22122d9e11c9cae9fb8640844a2ee67343c62c1aed84e49b8e143",
+  "chronologie_sha256": "95f7a9cab042e18db2b94553e4df2f4bf601b1d47aa34536e521c1efc5228bf4",
   "limits": "Contrôles numériques PCM et concordance avec les événements prévus. Pas d’écoute humaine, de contrôle haut-parleur mobile ni de validation des contacts dans la vidéo par ce rapport."
 }

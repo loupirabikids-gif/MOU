@@ -1,285 +1,286 @@
 {
   "titre": "Encore une feuille — en cuisine et en rythme",
   "version": 6,
-  "duration": 30.0,
+  "duration": 35.0,
   "fps": 24,
   "dimensions": [
     1080,
     1920
   ],
-  "accord": "Sifflement seulement au début avant le premier lavage ; musique de fond originale pendant la cuisine, coupée pendant chaque rituel de lavage et essuyage.",
+  "accord": "Give the audience more time to understand the opening cooking: 35 seconds total, active stirring 0–6.6 s, first hand inspection 7–7.75 s, then shift the existing action by 5 seconds without slowing it.",
   "cycles": [
     {
       "id": 1,
       "trigger": "remuer",
       "trigger_start": 0.0,
       "inspect": [
-        2.5,
-        2.75
+        7.0,
+        7.75
       ],
       "sink": [
-        2.75,
-        5.3
+        7.75,
+        10.3
       ],
       "open": [
-        2.75,
-        3.23
+        7.75,
+        8.23
       ],
       "water": [
-        3.23,
-        5.05
+        8.23,
+        10.05
       ],
       "wash": [
-        3.4,
-        4.7
+        8.4,
+        9.7
       ],
       "close": [
-        4.7,
-        5.1
+        9.7,
+        10.1
       ],
       "paper": [
-        5.3,
-        7.6
+        10.3,
+        12.6
       ],
       "reach": [
-        5.3,
-        5.65
+        10.3,
+        10.65
       ],
       "pull": [
-        5.65,
-        6.4
+        10.65,
+        11.4
       ],
-      "tear": 6.4,
+      "tear": 11.4,
       "wipe": [
-        6.4,
-        7.25
+        11.4,
+        12.25
       ],
       "crumple": [
-        7.25,
-        7.6
+        12.25,
+        12.6
       ],
       "throw": [
-        7.6,
-        8.5
+        12.6,
+        13.5
       ],
-      "release": 7.8,
-      "land": 8.22,
+      "release": 12.8,
+      "land": 13.22,
       "zoom": [
-        7.85,
-        8.5
+        12.85,
+        13.5
       ],
       "amount": 1.0
     },
     {
       "id": 2,
       "trigger": "ajouter une tomate",
-      "trigger_start": 8.5,
+      "trigger_start": 13.5,
       "inspect": [
-        9.75,
-        10.0
+        14.75,
+        15.0
       ],
       "sink": [
-        10.0,
-        12.1
+        15.0,
+        17.1
       ],
       "open": [
-        10.0,
-        10.35
+        15.0,
+        15.35
       ],
       "water": [
-        10.35,
-        11.9
+        15.35,
+        16.9
       ],
       "wash": [
-        10.48,
-        11.55
+        15.48,
+        16.55
       ],
       "close": [
-        11.55,
-        11.95
+        16.55,
+        16.95
       ],
       "paper": [
-        12.1,
-        14.2
+        17.1,
+        19.2
       ],
       "reach": [
-        12.1,
-        12.4
+        17.1,
+        17.4
       ],
       "pull": [
-        12.4,
-        13.05
+        17.4,
+        18.05
       ],
-      "tear": 13.05,
+      "tear": 18.05,
       "wipe": [
-        13.05,
-        13.85
+        18.05,
+        18.85
       ],
       "crumple": [
-        13.85,
-        14.2
+        18.85,
+        19.2
       ],
       "throw": [
-        14.2,
-        15.0
+        19.2,
+        20.0
       ],
-      "release": 14.38,
-      "land": 14.77,
+      "release": 19.38,
+      "land": 19.77,
       "zoom": [
-        14.43,
-        15.0
+        19.43,
+        20.0
       ],
       "amount": 1.4
     },
     {
       "id": 3,
       "trigger": "découper une carotte",
-      "trigger_start": 15.0,
+      "trigger_start": 20.0,
       "inspect": [
-        17.8,
-        18.0
+        22.8,
+        23.0
       ],
       "sink": [
-        18.0,
-        19.5
+        23.0,
+        24.5
       ],
       "open": [
-        18.0,
-        18.28
+        23.0,
+        23.28
       ],
       "water": [
-        18.28,
-        19.35
+        23.28,
+        24.35
       ],
       "wash": [
-        18.38,
-        19.02
+        23.38,
+        24.02
       ],
       "close": [
-        19.02,
-        19.4
+        24.02,
+        24.4
       ],
       "paper": [
-        19.5,
-        21.25
+        24.5,
+        26.25
       ],
       "reach": [
-        19.5,
-        19.76
+        24.5,
+        24.76
       ],
       "pull": [
-        19.76,
-        20.3
+        24.76,
+        25.3
       ],
-      "tear": 20.3,
+      "tear": 25.3,
       "wipe": [
-        20.3,
-        20.95
+        25.3,
+        25.95
       ],
       "crumple": [
-        20.95,
-        21.25
+        25.95,
+        26.25
       ],
       "throw": [
-        21.25,
-        22.0
+        26.25,
+        27.0
       ],
-      "release": 21.4,
-      "land": 21.77,
+      "release": 26.4,
+      "land": 26.77,
       "zoom": [
-        21.45,
-        22.0
+        26.45,
+        27.0
       ],
       "amount": 1.9
     },
     {
       "id": 4,
       "trigger": "reprendre le manche propre de la cuillère",
-      "trigger_start": 22.0,
+      "trigger_start": 27.0,
       "inspect": [
-        22.85,
-        23.0
+        27.85,
+        28.0
       ],
       "sink": [
-        23.0,
-        24.35
+        28.0,
+        29.35
       ],
       "open": [
-        23.0,
-        23.24
+        28.0,
+        28.24
       ],
       "water": [
-        23.24,
-        24.22
+        28.24,
+        29.22
       ],
       "wash": [
-        23.32,
-        23.91
+        28.32,
+        28.91
       ],
       "close": [
-        23.91,
-        24.27
+        28.91,
+        29.27
       ],
       "paper": [
-        24.35,
-        27.4
+        29.35,
+        32.4
       ],
       "reach": [
-        24.35,
-        24.65
+        29.35,
+        29.65
       ],
       "pull": [
-        24.65,
-        25.05
+        29.65,
+        30.05
       ],
-      "tear": 25.05,
+      "tear": 30.05,
       "wipe": [
-        25.8,
-        27.1
+        30.8,
+        32.1
       ],
       "crumple": [
-        27.1,
-        27.4
+        32.1,
+        32.4
       ],
       "throw": [
-        27.4,
-        28.5
+        32.4,
+        33.5
       ],
-      "release": 27.65,
-      "land": 28.1,
+      "release": 32.65,
+      "land": 33.1,
       "zoom": [
-        27.7,
-        28.5
+        32.7,
+        33.5
       ],
       "amount": 0.08,
       "reveal": [
-        25.05,
-        25.8
+        30.05,
+        30.8
       ],
       "tiny": true
     }
   ],
   "carrot": {
-    "start": 15.0,
+    "start": 20.0,
     "cut_times": [
-      16.05,
-      16.75
+      21.05,
+      21.75
     ],
-    "knife_set_down": 17.45,
-    "end": 17.8
+    "knife_set_down": 22.45,
+    "end": 22.8
   },
   "cooking_events": {
-    "spoon_down": 2.45,
-    "tomato_contact": 9.3,
-    "clean_handle": 22.5
+    "spoon_down": 6.95,
+    "tomato_contact": 14.3,
+    "clean_handle": 27.5,
+    "stir_end": 6.7
   },
   "final": [
-    28.5,
-    30.0
+    33.5,
+    35.0
   ],
   "final_hold": [
-    29.4,
-    30.0
+    34.4,
+    35.0
   ],
   "repere": {
     "actor": [
@@ -317,10 +318,11 @@
     "Le quatrième tirage donne seulement un petit bout. MOU le regarde, puis sèche vraiment sa main avec une application démesurée.",
     "Les trois grosses boulettes persistent et le quatrième jet est minuscule, posé au-dessus.",
     "Fin sur la satisfaction de MOU devant sa main propre, avec la recette à peine avancée. Aucun cinquième contact ou lavage.",
-    "Durée30s pour garder le temps de découverte et le petit séchage lisibles sans dialogue.",
+    "Durée35s pour garder le temps de découverte et le petit séchage lisibles sans dialogue.",
     "Tablier de cuisine explicitement demandé : SVG attaché au corps, sous les bras, visage et deux moufles dégagés.",
     "Jet d’eau 3 à 4 fois plus large et bruit d’eau plus présent ; mêmes ouvertures, contacts et fermetures.",
-    "Recherche internet enregistrée avec observations réelles et limites d’accès, sans inventer de visionnage ou de statistiques."
+    "Recherche internet enregistrée avec observations réelles et limites d’accès, sans inventer de visionnage ou de statistiques.",
+    "Opening V9: four natural stirring revolutions over 6.6 s; spoon down to 7 s; raise the hand, hold its inspection, then look toward the sink at 7.5 s. First sink at 7.75 s. Rest offset +5 s."
   ],
   "paper_stock": [
     1.0,
@@ -359,21 +361,413 @@
     "windows": [
       [
         0.0,
-        2.75
+        7.75
       ],
       [
-        8.5,
-        10.0
+        13.5,
+        15.0
       ],
       [
-        15.0,
-        18.0
-      ],
-      [
-        22.0,
+        20.0,
         23.0
+      ],
+      [
+        27.0,
+        28.0
       ]
     ],
     "intention": "Musique originale légère pendant la cuisine, interrompue pour tous les rituels de lavage, essuyage et jet ; aucun retour dans la tenue finale."
+  },
+  "retiming": {
+    "reference_commit": "21f610b3d3ee6c797820899d1e03c335bc5f20f5",
+    "reference_duration": 30.0,
+    "added_stir_seconds": 4.5,
+    "added_inspection_seconds": 0.5,
+    "later_shift_seconds": 5.0,
+    "opening_stir_end": 6.6,
+    "opening_spoon_end": 7.0,
+    "opening_hand_hold_from": 7.25,
+    "opening_look_sink_from": 7.5,
+    "opening_inspect_end": 7.75,
+    "native_stir_loop_seconds": 3.3
+  },
+  "animation_reference": {
+    "titre": "Encore une feuille — en cuisine et en rythme",
+    "version": 6,
+    "duration": 30.0,
+    "fps": 24,
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "accord": "Sifflement seulement au début avant le premier lavage ; musique de fond originale pendant la cuisine, coupée pendant chaque rituel de lavage et essuyage.",
+    "cycles": [
+      {
+        "id": 1,
+        "trigger": "remuer",
+        "trigger_start": 0.0,
+        "inspect": [
+          2.5,
+          2.75
+        ],
+        "sink": [
+          2.75,
+          5.3
+        ],
+        "open": [
+          2.75,
+          3.23
+        ],
+        "water": [
+          3.23,
+          5.05
+        ],
+        "wash": [
+          3.4,
+          4.7
+        ],
+        "close": [
+          4.7,
+          5.1
+        ],
+        "paper": [
+          5.3,
+          7.6
+        ],
+        "reach": [
+          5.3,
+          5.65
+        ],
+        "pull": [
+          5.65,
+          6.4
+        ],
+        "tear": 6.4,
+        "wipe": [
+          6.4,
+          7.25
+        ],
+        "crumple": [
+          7.25,
+          7.6
+        ],
+        "throw": [
+          7.6,
+          8.5
+        ],
+        "release": 7.8,
+        "land": 8.22,
+        "zoom": [
+          7.85,
+          8.5
+        ],
+        "amount": 1.0
+      },
+      {
+        "id": 2,
+        "trigger": "ajouter une tomate",
+        "trigger_start": 8.5,
+        "inspect": [
+          9.75,
+          10.0
+        ],
+        "sink": [
+          10.0,
+          12.1
+        ],
+        "open": [
+          10.0,
+          10.35
+        ],
+        "water": [
+          10.35,
+          11.9
+        ],
+        "wash": [
+          10.48,
+          11.55
+        ],
+        "close": [
+          11.55,
+          11.95
+        ],
+        "paper": [
+          12.1,
+          14.2
+        ],
+        "reach": [
+          12.1,
+          12.4
+        ],
+        "pull": [
+          12.4,
+          13.05
+        ],
+        "tear": 13.05,
+        "wipe": [
+          13.05,
+          13.85
+        ],
+        "crumple": [
+          13.85,
+          14.2
+        ],
+        "throw": [
+          14.2,
+          15.0
+        ],
+        "release": 14.38,
+        "land": 14.77,
+        "zoom": [
+          14.43,
+          15.0
+        ],
+        "amount": 1.4
+      },
+      {
+        "id": 3,
+        "trigger": "découper une carotte",
+        "trigger_start": 15.0,
+        "inspect": [
+          17.8,
+          18.0
+        ],
+        "sink": [
+          18.0,
+          19.5
+        ],
+        "open": [
+          18.0,
+          18.28
+        ],
+        "water": [
+          18.28,
+          19.35
+        ],
+        "wash": [
+          18.38,
+          19.02
+        ],
+        "close": [
+          19.02,
+          19.4
+        ],
+        "paper": [
+          19.5,
+          21.25
+        ],
+        "reach": [
+          19.5,
+          19.76
+        ],
+        "pull": [
+          19.76,
+          20.3
+        ],
+        "tear": 20.3,
+        "wipe": [
+          20.3,
+          20.95
+        ],
+        "crumple": [
+          20.95,
+          21.25
+        ],
+        "throw": [
+          21.25,
+          22.0
+        ],
+        "release": 21.4,
+        "land": 21.77,
+        "zoom": [
+          21.45,
+          22.0
+        ],
+        "amount": 1.9
+      },
+      {
+        "id": 4,
+        "trigger": "reprendre le manche propre de la cuillère",
+        "trigger_start": 22.0,
+        "inspect": [
+          22.85,
+          23.0
+        ],
+        "sink": [
+          23.0,
+          24.35
+        ],
+        "open": [
+          23.0,
+          23.24
+        ],
+        "water": [
+          23.24,
+          24.22
+        ],
+        "wash": [
+          23.32,
+          23.91
+        ],
+        "close": [
+          23.91,
+          24.27
+        ],
+        "paper": [
+          24.35,
+          27.4
+        ],
+        "reach": [
+          24.35,
+          24.65
+        ],
+        "pull": [
+          24.65,
+          25.05
+        ],
+        "tear": 25.05,
+        "wipe": [
+          25.8,
+          27.1
+        ],
+        "crumple": [
+          27.1,
+          27.4
+        ],
+        "throw": [
+          27.4,
+          28.5
+        ],
+        "release": 27.65,
+        "land": 28.1,
+        "zoom": [
+          27.7,
+          28.5
+        ],
+        "amount": 0.08,
+        "reveal": [
+          25.05,
+          25.8
+        ],
+        "tiny": true
+      }
+    ],
+    "carrot": {
+      "start": 15.0,
+      "cut_times": [
+        16.05,
+        16.75
+      ],
+      "knife_set_down": 17.45,
+      "end": 17.8
+    },
+    "cooking_events": {
+      "spoon_down": 2.45,
+      "tomato_contact": 9.3,
+      "clean_handle": 22.5
+    },
+    "final": [
+      28.5,
+      30.0
+    ],
+    "final_hold": [
+      29.4,
+      30.0
+    ],
+    "repere": {
+      "actor": [
+        80,
+        380,
+        2.3
+      ],
+      "actor_sink": [
+        140,
+        380,
+        2.3
+      ],
+      "faucet_tip": [
+        102,
+        1069
+      ],
+      "tap_control": [
+        215,
+        1100
+      ],
+      "water_hand": [
+        102,
+        1166
+      ],
+      "bin": [
+        165,
+        1625
+      ]
+    },
+    "notes": [
+      "Révision ciblée après le retour sur couteau/carotte, taille du rouleau et chute.",
+      "Conserver les trois premiers rituels, les lavages main seule et le modèle avec ses deux moufles.",
+      "Couteau de cuisine à lame large, carotte plus présente et vraie descente du tranchant sous son épaisseur.",
+      "Le rouleau perd du rayon pendant chaque tirage ; hauteur et support fixes, tube en carton apparent à la fin.",
+      "Le quatrième tirage donne seulement un petit bout. MOU le regarde, puis sèche vraiment sa main avec une application démesurée.",
+      "Les trois grosses boulettes persistent et le quatrième jet est minuscule, posé au-dessus.",
+      "Fin sur la satisfaction de MOU devant sa main propre, avec la recette à peine avancée. Aucun cinquième contact ou lavage.",
+      "Durée30s pour garder le temps de découverte et le petit séchage lisibles sans dialogue.",
+      "Tablier de cuisine explicitement demandé : SVG attaché au corps, sous les bras, visage et deux moufles dégagés.",
+      "Jet d’eau 3 à 4 fois plus large et bruit d’eau plus présent ; mêmes ouvertures, contacts et fermetures.",
+      "Recherche internet enregistrée avec observations réelles et limites d’accès, sans inventer de visionnage ou de statistiques."
+    ],
+    "paper_stock": [
+      1.0,
+      0.76,
+      0.42,
+      0.006,
+      0.0
+    ],
+    "rhythm": {
+      "bpm": 108,
+      "phase": 0.3,
+      "intent": "petit balancement joyeux pendant la cuisine, arrêté pour les inspections et lavages"
+    },
+    "whistle_notes": [
+      {
+        "start": 0.3,
+        "end": 0.7,
+        "frequency_hz": 880.0,
+        "phrase": 1
+      },
+      {
+        "start": 0.855556,
+        "end": 1.255556,
+        "frequency_hz": 1108.731,
+        "phrase": 1
+      },
+      {
+        "start": 1.411111,
+        "end": 1.731111,
+        "frequency_hz": 987.767,
+        "phrase": 1
+      }
+    ],
+    "background_music": {
+      "bpm": 108,
+      "windows": [
+        [
+          0.0,
+          2.75
+        ],
+        [
+          8.5,
+          10.0
+        ],
+        [
+          15.0,
+          18.0
+        ],
+        [
+          22.0,
+          23.0
+        ]
+      ],
+      "intention": "Musique originale légère pendant la cuisine, interrompue pour tous les rituels de lavage, essuyage et jet ; aucun retour dans la tenue finale."
+    }
   }
 }

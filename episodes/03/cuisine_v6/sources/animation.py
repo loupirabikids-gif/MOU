@@ -23,8 +23,12 @@ sys.path.insert(0, str(ROOT))
 from mou_rig import DEFAULT_POSE, _arm, _pt, _tangent, _cubic, _mouth, character_fragment
 
 TIMELINE_PATH = Path(__file__).resolve().parents[1] / 'chronologie.json'
-TIMELINE = json.loads(TIMELINE_PATH.read_text())
-DURATION, FPS = TIMELINE['duration'], TIMELINE['fps']
+PRODUCTION_TIMELINE = json.loads(TIMELINE_PATH.read_text())
+# Existing actions retain their approved timing/geometry in scene time.
+# Only the opening is extended; production time drives sound and exports.
+TIMELINE = PRODUCTION_TIMELINE.get('animation_reference', PRODUCTION_TIMELINE)
+RETIME = PRODUCTION_TIMELINE.get('retiming', {})
+DURATION, FPS = PRODUCTION_TIMELINE['duration'], PRODUCTION_TIMELINE['fps']
 CYCLES = TIMELINE['cycles']
 _spec = importlib.util.spec_from_file_location('approved_stir_contact', ROOT / 'episodes/03/test_remuer/sources/animation.py')
 _stir = importlib.util.module_from_spec(_spec)
@@ -437,7 +441,7 @@ def whistle_at(t):
     return {'active':False,'amount':0.,'note_index':None,'phrase':None}
 
 
-def rhythm_at(t):
+def rhythm_at(t, playback_time=None):
     """Small culinary sway; decisive cutting and all cleaning remain still.
 
     Tomato grasp/flight use nearly the full native reach, so only the face
@@ -445,15 +449,19 @@ def rhythm_at(t):
     The carrot preparation sway ends before the hands grip the knife.
     """
     bpm=float(TIMELINE.get('rhythm',{}).get('bpm',108.))
-    phase=(t-.30)*bpm/60.
     cooking_windows=((0.,2.1),(8.5,9.3),(15.,17.45),(22.,22.5))
     cooking=any(a<=t<b for a,b in cooking_windows)
     movement_windows=((0.,2.1),(15.,15.30),(22.,22.5))
+    clock=t
+    if RETIME and t<2.1 and playback_time is not None:
+        clock=playback_time
+        movement_windows=((0.,RETIME['opening_stir_end']),)
+    phase=(clock-.30)*bpm/60.
     envelope=0.
     for start,end in movement_windows:
-        if start<=t<end:
+        if start<=clock<end:
             ramp=min(.16,(end-start)*.32)
-            envelope=smooth((t-start)/ramp)*(1.-smooth((t-(end-ramp))/ramp))
+            envelope=smooth((clock-start)/ramp)*(1.-smooth((clock-(end-ramp))/ramp))
             break
     dx=12.*math.sin(math.pi*phase)*envelope
     dy=7.*math.cos(math.tau*phase)*envelope
@@ -523,13 +531,14 @@ def carrot_action(t, transform):
     return left,right,knife
 
 
-def scene_state(t):
+def _scene_state(t, playback_time=None):
     t=clamp(float(t),0.,DURATION)
+    playback_time=t if playback_time is None else playback_time
     c=cycle_at(t)
     sink=c is not None and c['sink'][0] <= t < c['sink'][1]
     lean=smooth(progress(t,(15.,15.38)))*(1.-smooth(progress(t,(17.45,17.8))))
-    rhythm=rhythm_at(t)
-    whistle=whistle_at(t)
+    rhythm=rhythm_at(t,playback_time)
+    whistle=whistle_at(playback_time)
     dx,dy=rhythm['offset']
     transform=(140.,380.,SCALE) if sink else (80.+45.*lean+dx,380.+75.*lean+dy,SCALE)
     left,right=rest_hand('left',transform),rest_hand('right',transform)
@@ -549,7 +558,11 @@ def scene_state(t):
             **knife_state(KNIFE_PARK_GRIP)}
 
     if t < 2.1:
-        old=_stir.contact_at(t*3.75/2.1)
+        contact_time=t*3.75/2.1
+        if RETIME:
+            loop=RETIME['native_stir_loop_seconds']
+            contact_time=(playback_time%loop)*3.75/loop
+        old=_stir.contact_at(contact_time)
         # The unchanged native arm and the held spoon share the body's sway.
         # This avoids keeping the old world-space grip while moving the torso.
         offset=(transform[0]-80.,transform[1]-380.)
@@ -626,6 +639,8 @@ def scene_state(t):
                 left=move(t,c['inspect'],PARK_GRIP,(475.,1165.))
             else:left=(475.,1165.)
             look=left if t<c['inspect'][1]-.06 else (102.,1130.)
+            if i==1 and RETIME:
+                look=left if playback_time<RETIME['opening_look_sink_from'] else (102.,1130.)
             face(pose,'reflexe' if i==4 else 'doute')
 
         if sink:
@@ -828,6 +843,35 @@ def scene_state(t):
             'left_root_correction':{'scope_local_radius':24.,'method':'unchanged tangent native-body exterior join',
                                     'fill_changed':True,'fill_scope_local_radius':24.,'mitten_changed':False},
             'bin_lands':BIN_LANDS,'bin_radii':BIN_RADII}
+
+
+def scene_time(t):
+    """Map the longer opening to the original actions, retaining later frames.
+
+    The half-second inspection is an added hold. Later material shifts by
+    exactly 120 frames; the sound and opening sway use real playback time.
+    """
+    t=clamp(float(t),0.,DURATION)
+    if not RETIME:
+        return t
+    if t<RETIME['opening_stir_end']:
+        return t*2.1/RETIME['opening_stir_end']
+    if t<RETIME['opening_hand_hold_from']:
+        shift=RETIME['added_stir_seconds']
+    elif t<RETIME['opening_inspect_end']:
+        return CYCLES[0]['inspect'][1]-1.e-9
+    else:
+        shift=RETIME['later_shift_seconds']
+    # Preserve exact frame-time values instead of accumulating float offsets.
+    frame=round(t*FPS)
+    if abs(t*FPS-frame)<1.e-8:
+        return (frame-round(shift*FPS))/FPS
+    return t-shift
+
+
+def scene_state(t):
+    playback_time=clamp(float(t),0.,DURATION)
+    return _scene_state(scene_time(playback_time),playback_time)
 
 
 def pose_at(t):return scene_state(t)['pose']

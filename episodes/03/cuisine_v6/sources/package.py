@@ -41,7 +41,7 @@ def main():
             archive.write(path, path.relative_to(ROOT).as_posix())
         archive.writestr('MANIFESTE_SHA256.json', json.dumps(checks, ensure_ascii=False, indent=2)+'\n')
         archive.writestr('LIRE_MOI.txt',
-                        'MOU — cuisine, carotte et réflexe, version 6, papier V7 et musique V8.\n'
+                        'MOU — cuisine, carotte et réflexe, version 6, papier V7, musique V8 et rythme V9.\n'
                         'Voir episodes/03/cuisine_v6/sources/README.md pour reproduire.\n'
                         'Les dessins et les sons originaux sont inclus. Aucun service payant.\n')
     with zipfile.ZipFile(temporary) as archive:

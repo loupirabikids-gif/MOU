@@ -403,7 +403,7 @@ def events_for(timeline):
     cooking = timeline['cooking_events']
     carrot = timeline['carrot']
     add('cuisson', 'frying', 0., timeline['duration'], -31., -.2)
-    add('remuage_debut', 'stir', 0., 2.2, -23., -.35)
+    add('remuage_debut', 'stir', 0., cooking.get('stir_end', 2.2), -23., -.35)
     add('cuillere_posee', 'wood_contact', cooking['spoon_down'], .10, -23., -.2)
     add('contact_tomate', 'tomato_contact', cooking['tomato_contact'], .11, -23., .18)
     for i, contact in enumerate(carrot['cut_times'], 1):
@@ -594,6 +594,8 @@ def main():
                               for e in tiny_events],
         'reveal_seconds_without_explanatory_cue': reveal,
         'rhythm':timeline['rhythm'],
+        'opening_stir_seconds':[0.,timeline['cooking_events'].get('stir_end',2.2)],
+        'first_wash_start_seconds':first_wash_start,
         'whistle_phrase_count':1,'whistle_note_count':len(whistles),
         'whistle_notes':[{k:e[k] for k in ('name','phrase','start','end','frequency_hz',
                                           'first_above_one_percent_seconds')} for e in whistles],

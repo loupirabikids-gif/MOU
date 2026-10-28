@@ -1,0 +1,173 @@
+{
+  "video": "MOU_Encore_une_feuille_animatique.mp4",
+  "video_sha256": "02a0b0213dd283b91fe2e2fd7c7e53a7e38c2a38a887dc6b3dab17a1913be5ea",
+  "duration_seconds": 35.0,
+  "fps": 12.0,
+  "dimensions": [
+    540,
+    960
+  ],
+  "method": "Direct FFmpeg decoding of actual MP4; no SVG or PNG cache. All sampled images retained in contact sheets; selected full-resolution images retained separately.",
+  "pages": [
+    "planche_1.png",
+    "planche_2.png",
+    "planche_3.png"
+  ],
+  "samples": [
+    {
+      "frame": 5,
+      "seconds": 0.4166666666666667,
+      "decoded_png_sha256": "04ed3e1accdb349869d26ae7978272710e361dbe25a77530cdd56e54dad33ec0"
+    },
+    {
+      "frame": 9,
+      "seconds": 0.75,
+      "decoded_png_sha256": "5b05de0a9719ae7d9fa21232e7495b70ecb7d988962de44dc48ef99ec2dd386f"
+    },
+    {
+      "frame": 20,
+      "seconds": 1.6666666666666667,
+      "decoded_png_sha256": "fda5c3966ab9553e114345cc66c3064171fc0859a324ab9c0eaf5db313340d2e"
+    },
+    {
+      "frame": 31,
+      "seconds": 2.5833333333333335,
+      "decoded_png_sha256": "ada1cf28e390c501e579af368123698767589398a79724b2c1a5014d2d2dc02f"
+    },
+    {
+      "frame": 39,
+      "seconds": 3.25,
+      "decoded_png_sha256": "5d790c3cf9b4dbf6cb546856b2b91d3bb40026123f66af98cf94d417f56fc2dc"
+    },
+    {
+      "frame": 40,
+      "seconds": 3.3333333333333335,
+      "decoded_png_sha256": "5e7c3b06bf26defa4232175692045a68ce84c8d02363c3175b98c98c482f4848"
+    },
+    {
+      "frame": 41,
+      "seconds": 3.4166666666666665,
+      "decoded_png_sha256": "5e019cb874cd7fb0e6452bd95fed3390db3fd75c05bc89ca6196b7fe55502c7b"
+    },
+    {
+      "frame": 43,
+      "seconds": 3.5833333333333335,
+      "decoded_png_sha256": "5499f20fe075985c39b80e029b691623050f04641b8879c7ac22c8ff8f1fe154",
+      "native_png": "00043.png"
+    },
+    {
+      "frame": 67,
+      "seconds": 5.583333333333333,
+      "decoded_png_sha256": "3a1c356a3ec16e6c2c74073525593480657201c531cff1d03d12c14e8f77fa3a"
+    },
+    {
+      "frame": 78,
+      "seconds": 6.5,
+      "decoded_png_sha256": "4afbacd1970b38929d43db7365086c3990cff48d7cb8e089527ef8851b93cce5"
+    },
+    {
+      "frame": 79,
+      "seconds": 6.583333333333333,
+      "decoded_png_sha256": "05de08fe1561ebc4571ad3e84b08fae17622c7d8c6b0d41f6283f2d2a6dcba89",
+      "native_png": "00079.png"
+    },
+    {
+      "frame": 80,
+      "seconds": 6.666666666666667,
+      "decoded_png_sha256": "20a2864daca7f596e1795d50f6341c7a67680f41bcf9693faf1cc22ba38a077e"
+    },
+    {
+      "frame": 83,
+      "seconds": 6.916666666666667,
+      "decoded_png_sha256": "909b0c5bdbe7b6530bd496a806950bee6e50a6dcc6f002366090a8dd52fb6a98"
+    },
+    {
+      "frame": 85,
+      "seconds": 7.083333333333333,
+      "decoded_png_sha256": "afb297940bf68ae6e79d60608472a6169b3c7ef6f6fa82a9417c37505a0ed959"
+    },
+    {
+      "frame": 87,
+      "seconds": 7.25,
+      "decoded_png_sha256": "18bc52c5cc2c2a8ab7fcc602397bdfbf1dd8809d0fb78945819a39aafc8bfb3e",
+      "native_png": "00087.png"
+    },
+    {
+      "frame": 90,
+      "seconds": 7.5,
+      "decoded_png_sha256": "ec20512f5bc4131ef1d8bde41ca8328cf09e375956afaf610e101766a8ce801a"
+    },
+    {
+      "frame": 92,
+      "seconds": 7.666666666666667,
+      "decoded_png_sha256": "a70035db21fc729510dce7fd06d376eefcd0b93fe327ec83048062eb7fee035f"
+    },
+    {
+      "frame": 93,
+      "seconds": 7.75,
+      "decoded_png_sha256": "514cc8037fec67ad79d8923590af1a0f796babbaebaa8618fb8522dd5c7f09e2"
+    },
+    {
+      "frame": 97,
+      "seconds": 8.083333333333334,
+      "decoded_png_sha256": "0ca9433bafec7a70dcea0790f02a7cb419971e9cf2d57b74094cfa1e04f168d3"
+    },
+    {
+      "frame": 162,
+      "seconds": 13.5,
+      "decoded_png_sha256": "a0ff3e0caa37975c9c5f13dd8846220635e54e8967c8e96f1c5665ffc4611ef4"
+    },
+    {
+      "frame": 180,
+      "seconds": 15.0,
+      "decoded_png_sha256": "cd9ed210d2e5646fe7394b57e43d95baadf6cd8daa926ecc11e93e4ec2d12bab"
+    },
+    {
+      "frame": 240,
+      "seconds": 20.0,
+      "decoded_png_sha256": "5d60c2acc9859e54e608bcc265724fdd1fe811c86988089ec87e66663e926454"
+    },
+    {
+      "frame": 253,
+      "seconds": 21.083333333333332,
+      "decoded_png_sha256": "0e8a2efdaeed54f13131aa55c6a52252067728e23034ecf9ebddc9c07e70febf"
+    },
+    {
+      "frame": 261,
+      "seconds": 21.75,
+      "decoded_png_sha256": "df93597330b7de6a370cb5e4340815f225a76106a3d6dac7b45ef5cde6bdc0fb"
+    },
+    {
+      "frame": 276,
+      "seconds": 23.0,
+      "decoded_png_sha256": "4c68b09ae72dc7678d9ac1ae81a751a77a134344a11ff2a8374cd0107d0f587f"
+    },
+    {
+      "frame": 324,
+      "seconds": 27.0,
+      "decoded_png_sha256": "831442f5e22bc52fcaa477af4f1a4e7bcacd821739478f1fc20a98eae1b327d4"
+    },
+    {
+      "frame": 336,
+      "seconds": 28.0,
+      "decoded_png_sha256": "69f43f61f4ee6a6ee404a5aa4d0b27ed7e54c0b1cbca7503edc62875907eb4b2"
+    },
+    {
+      "frame": 378,
+      "seconds": 31.5,
+      "decoded_png_sha256": "a9084f54d64d5b6dad2fe5b3d67f358ff51d9fa01395e20b102de4e43fbe87e8",
+      "native_png": "00378.png"
+    },
+    {
+      "frame": 400,
+      "seconds": 33.333333333333336,
+      "decoded_png_sha256": "852c8614dcb5800ea906da26ac0021cffa4b7f8e591ed7825ed6b5779a0612bd"
+    },
+    {
+      "frame": 415,
+      "seconds": 34.583333333333336,
+      "decoded_png_sha256": "4a39f9efca45a3a2284ae94430584b58a405df71c18b27ef36effa77693ae3aa"
+    }
+  ],
+  "limits": "Images must still be opened and examined. No listening, continuous playback or public comprehension measurement claimed."
+}

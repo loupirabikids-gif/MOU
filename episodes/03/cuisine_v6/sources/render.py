@@ -85,11 +85,12 @@ def smooth(u):
     u=max(0.,min(1.,u));return u*u*(3.-2.*u)
 
 def camera_at(t,state):
+    t=float(state['t'])
     # Hands-only insert on the existing sink, without the foreground island.
     if state['shot']=='sink':
         return (0.,900.,270.,270.*H/W)
     elif state['shot']=='bin':
-        c=next(c for c in TIMELINE['cycles'] if c['id']==state['cycle'])
+        c=next(c for c in animation.CYCLES if c['id']==state['cycle'])
         u=smooth((t-c['zoom'][0])/.22)
         zoom=1.+1.8*u;cx=540.+(200.-540.)*u;cy=960.+(1575.-960.)*u
     elif state['phase']=='decouper_carotte':
@@ -107,6 +108,7 @@ def camera_at(t,state):
 
 def svg_at(t):
     s=animation.scene_state(float(t))
+    t=float(s['t'])
     x,y,scale=s['actor_transform']
     tr=f'translate({x:.6f} {y:.6f}) scale({scale:.6f})'
     hand=s['hands']['left']
@@ -183,10 +185,12 @@ def render_job(args):
     assert destination.stat().st_nlink==1
     return index
 
-SAMPLE_TIMES=[0.5,2.58,3.23,4.0,5.9,6.8,7.8,8.3,9.2,
+BASE_SAMPLE_TIMES=[0.5,2.58,3.23,4.0,5.9,6.8,7.8,8.3,9.2,
               10.2,10.9,12.7,13.5,14.85,15.4,16.05,16.4,16.75,
               17.45,18.6,20.0,20.6,21.85,22.5,23.6,24.8,
               25.1,25.4,26.3,27.2,28.25,29.6]
+SAMPLE_TIMES=sorted({t if t<2.1 else t+5. for t in BASE_SAMPLE_TIMES}
+                    | {2.5,3.3,4.5,6.6,7.2,7.5})
 
 def contact_sheet(frames,fps,destination,times=SAMPLE_TIMES):
     columns,tilew,tileh=4,270,505
