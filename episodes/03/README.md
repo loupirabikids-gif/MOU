@@ -1,10 +1,17 @@
 # MOU en cuisine — essuie-tout
 
-Le décor, le placement et le test muet de remuage sont validés. Étape en cours :
-**script seulement**, avec jets de papier dans une poubelle et lavage au robinet.
+Le décor, le placement et le test muet de remuage sont validés. Le script corrigé
+est accepté : **trois lavages complets pendant la cuisine, beaucoup trop de
+papier et une poubelle qui se remplit à chaque jet.**
 
-- [Script proposé, environ25s, et correction locale du raccord du bras](developpement/scenario_papier_v1.md)
-- [Critique indépendante et décisions](developpement/critique_scenario_papier_v1.md)
+[![Montage complet](film/MOU_Encore_une_feuille_apercu.gif)](film/MOU_Encore_une_feuille.mp4?raw=true)
+
+- **[MP4 avec son,1080×1920,26s](film/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Version muette](film/MOU_Encore_une_feuille_muette.mp4?raw=true) · [Sources ZIP](film/MOU_Encore_une_feuille_sources.zip?raw=true)
+- [Sources et reproduction](film/sources/) · [Contrôles](film/CONTROLE.txt)
+- [Script v2 accepté](developpement/scenario_papier_v2.md) · [Chronologie](chronologie.json)
+- [Critique du montage](film/controle/critique_animatique_v1.md) · [Corrections](film/controle/CORRECTIONS.md)
+- [Ancien script v1, conservé](developpement/scenario_papier_v1.md)
 - [Validation du test de remuage](test_remuer/VALIDATION.md)
 
 [![Test du remuage](test_remuer/MOU_test_remuer_apercu.gif)](test_remuer/MOU_test_remuer.mp4?raw=true)
@@ -23,7 +30,10 @@ portent le gag. La variante où la recette disparaît dans les papiers est écar
 - [Source SVG](decor/MOU_cuisine_decor.svg?raw=true)
 - [Sources et calques du décor](decor/README.md)
 
-L’utilisatrice demande de travailler petit à petit et de ne pas réaliser cette
-suite pour le moment. Aucun essuyage, lavage, nouveau son, correctif graphique
-ou épisode complet n’est produit. Le script reste une proposition.
-Les deux précédents films restent archivés.
+La demande de script seul a été remplacée par l’accord « oui Go » après la
+correction : chaque répétition comprend l’ouverture du robinet, le lavage,
+la fermeture, le séchage et le jet. Une animatique avec son précède l’export
+complet. Le modèle et les deux moufles restent ceux du rig d’origine ; le
+raccord du bras gauche reçoit seulement la correction locale signalée.
+Les deux précédents films restent archivés. Le montage attend le retour de
+l’utilisatrice ; aucune diffusion sur un réseau social n’est effectuée.

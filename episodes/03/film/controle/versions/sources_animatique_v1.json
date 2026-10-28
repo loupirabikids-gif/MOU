@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "/workspace/MOU/episodes/03/film/sources/animation.py": "a6a117686425b89cebee836bf37801a70f413dad5f9fe9bcfba2a25877b866d2",
+    "/workspace/MOU/episodes/03/film/sources/art.py": "24b0167c91debbf2e6227374cfc693a0e30b424ee57cdf2b2c7714ddf9a4b98b",
+    "/workspace/MOU/episodes/03/film/sources/render.py": "1e25555d514eee96e2f51c643d757b3afb907a7f8aa8c92af77e66628843261d",
+    "/workspace/MOU/episodes/03/chronologie.json": "b472a6c4bbba36161f3e4dbe4fa78bdb971008a1b71436db534158d10de8fab1"
+  },
+  "output": "/workspace/MOU/episodes/03/film/MOU_Encore_une_feuille_animatique.mp4"
+}

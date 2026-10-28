@@ -1,0 +1,38 @@
+MOU — Encore une feuille — contrôles du premier montage complet
+
+Export : 1080 × 1920, H264/yuv420p, 24 images/s, 624 images, 26,000 s.
+Version avec son AAC stéréo 48 kHz et version muette : décodage intégral réussi.
+Le flux vidéo compressé est strictement identique entre les deux versions.
+
+Histoire et contacts : trois rituels complets après remuage, tomate et manche
+propre. Ouverture, filet visible jusqu’à la main, fermeture, longue bande de
+papier, séchage, lâcher et arrivée dans la même poubelle. Les anciennes boulettes
+restent visibles ; la troisième dépasse. Critiques indépendantes conservées.
+
+MOU : fichier mou_rig.py original inchangé ; deux bras et deux moufles natifs.
+Correction locale de l’encre au raccord gauche, sans masque ni nouvelle main.
+Remplissages et bras opposé exacts ; aucun étirement. Position et échelle validées
+conservées au plan large. Articulation isométrique au lavabo pour dégager le jet.
+Longueur de cuillère constante de 135 px lorsqu’elle est tenue.
+
+Corrections observées : eau auparavant masquée, terminaisons du raccord gauche,
+bord inférieur des zooms, tomate masquée dans la main et longueur finale de
+cuillère. Voir controle/CORRECTIONS.md et les critiques des vrais montages.
+
+Son : 35 effets/ambiances originaux générés localement, sans voix ni musique.
+Eaux : 3,80–6,10 s ; 11,95–13,85 s ; 18,90–20,65 s.
+Déchirures : 7,65 / 15,00 / 21,85 s. Arrivées : 9,30 / 16,70 / 23,80 s.
+Zéro échantillon PCM saturé ; crête du mix -4.0 dBFS.
+Corrélation du son AAC décodé avec le mix actuel : 0.997061.
+
+Intégrité : 13 images du MP4 comparées à des rendus SVG/CairoSVG frais hors cache,
+avec régions main/robinet/poubelle. Erreur moyenne maximale par image : 1.502/255.
+Sources gelées pendant le rendu ; décor, placement et test validés préservés.
+
+Limites : critique visuelle par images réellement décodées et mesures audio.
+Aucune écoute sur téléphone ni projection publique revendiquée. Le jugement
+comique et l’agrément du son restent soumis au retour de l’utilisatrice.
+Livraison GitHub du projet ; aucune publication sur un réseau social.
+
+MP4 avec son SHA256 : a343142b396ec0a7136d8d42713207babb94099acdc4f40e3786e6e8fa67e007
+MP4 muet SHA256 : e92ab1c4cafb3d6d955b6cec4742f016b9e53e6c9ccc469c764b73959862bc69

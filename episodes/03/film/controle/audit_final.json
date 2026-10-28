@@ -1,0 +1,717 @@
+{
+  "status": "passed",
+  "scope": "final exports only",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "duration_seconds": 26.0,
+  "expected_frames": 624,
+  "limits": "Technical deliverable, source freeze and cache checks. No claim of human listening, continuous viewing, comic success or user approval.",
+  "source_integrity": {
+    "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "approved_decor_unchanged": {
+      "MOU_cuisine_decor.png": "3148c402d57d24c1dc8ef5c5731aa2c07346c3d03fcade74e84c9a7e7ec2f585",
+      "MOU_cuisine_decor.svg": "7e5292c066a8bdafca4ae42586fbf89ca62f6a45dcbca468bf9b748f19da2d49",
+      "calques/accessoires_cuisine.svg": "696a466f0e2cead08dc8d22f4dbf154845e23f61805f75c69058abb7c59242a0",
+      "calques/fond_cuisine.svg": "6a1fbe07858592ea7fec969022319d1eb48236965ab4bc8028056df68786d9dc",
+      "calques/ilot_cuisine.svg": "4427ee12e9d8e38b0251e89d4425ec39d644b865b96454f9d28dea35a74497f4",
+      "calques/accessoires_cuisine.png": "b34f43d32eb19e5a39dfcd8560243286b75f69d26dc515009f4ecf02ef40e968",
+      "calques/fond_cuisine.png": "1021d2067980154b2beb8899b44161c2309c77a86b8680bf513160476b83d44b",
+      "calques/ilot_cuisine.png": "d0f38a8bc0f77183fe73da340586f1eb5de1e36c10049bc499ca95fb304669ec"
+    },
+    "render_frozen_sources": {
+      "/workspace/MOU/episodes/03/film/sources/animation.py": "434cb821ad3a0e3ef65b2f458ae0089e117dd3e2a16160392ff8d400bb0bce60",
+      "/workspace/MOU/episodes/03/film/sources/art.py": "24b0167c91debbf2e6227374cfc693a0e30b424ee57cdf2b2c7714ddf9a4b98b",
+      "/workspace/MOU/episodes/03/film/sources/render.py": "dbe6e12a082d9a1fbb4b3a4322988b698d2730ca43a2f7228389f4d1b15484d8",
+      "/workspace/MOU/episodes/03/chronologie.json": "b472a6c4bbba36161f3e4dbe4fa78bdb971008a1b71436db534158d10de8fab1"
+    },
+    "sound_source_sha256": "d60300828d44fabc81adfa26fe5d71597c56c0fd5515c696b329fac0a6524fac",
+    "sound_audit_mix_sha256": "5b457af2dfe22e9169008166cfd836f43547d2f03188a88fbc11304100eb8bc8"
+  },
+  "sound_video": {
+    "path": "episodes/03/film/MOU_Encore_une_feuille.mp4",
+    "file_sha256": "a343142b396ec0a7136d8d42713207babb94099acdc4f40e3786e6e8fa67e007",
+    "size_bytes": 4081765,
+    "full_decode_without_errors": true,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "624",
+        "nb_read_frames": "624",
+        "duration": "26.000000"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "nb_frames": "1220",
+        "nb_read_frames": "1219",
+        "duration": "26.000000",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ]
+  },
+  "silent_video": {
+    "path": "episodes/03/film/MOU_Encore_une_feuille_muette.mp4",
+    "file_sha256": "e92ab1c4cafb3d6d955b6cec4742f016b9e53e6c9ccc469c764b73959862bc69",
+    "size_bytes": 3543078,
+    "full_decode_without_errors": true,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "624",
+        "nb_read_frames": "624",
+        "duration": "26.000000"
+      }
+    ]
+  },
+  "identical_compressed_video_bitstreams": {
+    "sha256": "efa0e72014bef5413597140907c553530ecb906c453411949fa4fd0297975ce3",
+    "bytes": 3535653
+  },
+  "audio": {
+    "wav_sha256": "5b457af2dfe22e9169008166cfd836f43547d2f03188a88fbc11304100eb8bc8",
+    "duration_seconds": 26.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "wav_clipped_samples": 0,
+    "wav_peak_dbfs": -4.000088,
+    "decoded_aac_peak_dbfs": -3.992812,
+    "wav_vs_decoded_aac_correlation_without_offset": 0.9970609902331157,
+    "wav_vs_decoded_aac_relative_rmse": 0.0771041502494522,
+    "first_and_last_wav_frame_silent": true
+  },
+  "uncached_frame_checks": {
+    "samples": [
+      {
+        "frame": 12,
+        "time_seconds": 0.5,
+        "shot": "wide",
+        "phase": "remuer",
+        "fresh_svg_sha256": "d6dca98b7f1f9684d5dca98d60c0ee6a60df0203b90e059cb65bfcd84d23962a",
+        "fresh_png_sha256": "57e05bfb683e76d327a01dd4234c0dd679bc6b918eec33386030457066cc5162",
+        "full_frame_mean_abs_rgb_error_0_255": 1.497543,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.709541
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.438201
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              322,
+              1173,
+              463,
+              1314
+            ],
+            "mean_abs_rgb_error_0_255": 2.508895
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.15358
+          }
+        }
+      },
+      {
+        "frame": 90,
+        "time_seconds": 3.75,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "5a92028277762ec82cb87fc289b6cdc86ef540af94fcc0f69ca8451d30f75149",
+        "fresh_png_sha256": "bff317ccb802985e04208906d25a94ce6c7dbce31229c780383418faa33cdb09",
+        "full_frame_mean_abs_rgb_error_0_255": 1.40974,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              96,
+              829,
+              398,
+              1114
+            ],
+            "mean_abs_rgb_error_0_255": 1.51761
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              41,
+              1527,
+              472,
+              1920
+            ],
+            "mean_abs_rgb_error_0_255": 1.230771
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              221,
+              874,
+              463,
+              1115
+            ],
+            "mean_abs_rgb_error_0_255": 1.524422
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              919,
+              1177,
+              1080,
+              1419
+            ],
+            "mean_abs_rgb_error_0_255": 1.415225
+          }
+        }
+      },
+      {
+        "frame": 114,
+        "time_seconds": 4.75,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "f84ad9e04754539e82e1d890acc0775a6d1d379c5aec2104e8972543b293cdbe",
+        "fresh_png_sha256": "f50e118b90a023ba73196890c68afd2481d38b211f4ff71d09bd4e7c4107852c",
+        "full_frame_mean_abs_rgb_error_0_255": 1.400258,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              96,
+              829,
+              398,
+              1114
+            ],
+            "mean_abs_rgb_error_0_255": 1.681798
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              41,
+              1527,
+              472,
+              1920
+            ],
+            "mean_abs_rgb_error_0_255": 1.230639
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              25,
+              990,
+              266,
+              1232
+            ],
+            "mean_abs_rgb_error_0_255": 1.858327
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              919,
+              1177,
+              1080,
+              1419
+            ],
+            "mean_abs_rgb_error_0_255": 1.415225
+          }
+        }
+      },
+      {
+        "frame": 186,
+        "time_seconds": 7.75,
+        "shot": "wide",
+        "phase": "papier",
+        "fresh_svg_sha256": "f1e7af50a9df51b9098c74acaa2ddf2998473ef4961502974709d30cbc9d1a8e",
+        "fresh_png_sha256": "ac5a4f53ecc34eda301b7b23ab427f4618e0dc4f33b274525f325a4cda5cc475",
+        "full_frame_mean_abs_rgb_error_0_255": 1.469286,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.598765
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.344621
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              395,
+              1182,
+              536,
+              1323
+            ],
+            "mean_abs_rgb_error_0_255": 2.089801
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              649,
+              1185,
+              790,
+              1326
+            ],
+            "mean_abs_rgb_error_0_255": 2.576447
+          }
+        }
+      },
+      {
+        "frame": 228,
+        "time_seconds": 9.5,
+        "shot": "bin",
+        "phase": "jeter",
+        "fresh_svg_sha256": "bc4de0c70892b9d0f57a795b1c4f03ca1b9542e269435a1e72cadbd49208dada",
+        "fresh_png_sha256": "7040289eaea4569e1953dded30eaae7028c94ec8f165048e33cab42269c31415",
+        "full_frame_mean_abs_rgb_error_0_255": 1.417713,
+        "regions": {
+          "faucet": {
+            "visible": false
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              92,
+              498,
+              793,
+              1604
+            ],
+            "mean_abs_rgb_error_0_255": 1.337017
+          },
+          "hand_left": {
+            "visible": false
+          },
+          "hand_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 252,
+        "time_seconds": 10.5,
+        "shot": "wide",
+        "phase": "ajouter_tomate",
+        "fresh_svg_sha256": "accd70f37b7cc232db9d605dd7de9c483f89af22b65715d3ba230dc2ca1a55b5",
+        "fresh_png_sha256": "d3fc2c5dfb07f518d02d53a3f575794f9eafe5a19eb4d82f7320a2249e5beba3",
+        "full_frame_mean_abs_rgb_error_0_255": 1.468993,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.73338
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.484473
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              308,
+              1143,
+              449,
+              1284
+            ],
+            "mean_abs_rgb_error_0_255": 2.717838
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 1.926161
+          }
+        }
+      },
+      {
+        "frame": 307,
+        "time_seconds": 12.791666666666666,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "0bb4befb4858ecb520a4769a30bd08f704d7c9a2f90e1a99ab12d732a567e712",
+        "fresh_png_sha256": "c2e7beaf9446790fc004bc404b57101e295462972c429097557eaec9a7797d87",
+        "full_frame_mean_abs_rgb_error_0_255": 1.39825,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              96,
+              829,
+              398,
+              1114
+            ],
+            "mean_abs_rgb_error_0_255": 1.696619
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              41,
+              1527,
+              472,
+              1920
+            ],
+            "mean_abs_rgb_error_0_255": 1.235496
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              27,
+              987,
+              268,
+              1229
+            ],
+            "mean_abs_rgb_error_0_255": 1.839329
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              919,
+              1177,
+              1080,
+              1419
+            ],
+            "mean_abs_rgb_error_0_255": 1.43296
+          }
+        }
+      },
+      {
+        "frame": 406,
+        "time_seconds": 16.916666666666668,
+        "shot": "bin",
+        "phase": "jeter",
+        "fresh_svg_sha256": "b46eddee4dd8deba8f768e20dbec5eed4cb2e262812c0ce6d5dfc5d08226753a",
+        "fresh_png_sha256": "a4021e64863d1916b2f71f3017c234fc7aba3356bbc04883d8c670ec965ea833",
+        "full_frame_mean_abs_rgb_error_0_255": 1.47095,
+        "regions": {
+          "faucet": {
+            "visible": false
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              92,
+              498,
+              793,
+              1604
+            ],
+            "mean_abs_rgb_error_0_255": 1.47315
+          },
+          "hand_left": {
+            "visible": false
+          },
+          "hand_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 422,
+        "time_seconds": 17.583333333333332,
+        "shot": "wide",
+        "phase": "retoucher_manche",
+        "fresh_svg_sha256": "aeb1f1dd5d2ba5aa787b3bb4c1e4f9e83d4fc26ca09f8d5fdc8f6c6898a5c677",
+        "fresh_png_sha256": "aa0a1614f8b0d0ca994eb762e3dc05a169126850c4b233ad3022eab22c841a22",
+        "full_frame_mean_abs_rgb_error_0_255": 1.467694,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.591365
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.638565
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              398,
+              1205,
+              539,
+              1346
+            ],
+            "mean_abs_rgb_error_0_255": 1.90148
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 1.933571
+          }
+        }
+      },
+      {
+        "frame": 470,
+        "time_seconds": 19.583333333333332,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "568d339636bd26a9b61563e6babf3b907de6498217b7d50c748fe116ed62fb33",
+        "fresh_png_sha256": "0e3b429e9183a9cbe8fa7d4db56405f48dfa9e4374a82a045e93440105666380",
+        "full_frame_mean_abs_rgb_error_0_255": 1.41859,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              96,
+              829,
+              398,
+              1114
+            ],
+            "mean_abs_rgb_error_0_255": 1.687851
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              41,
+              1527,
+              472,
+              1920
+            ],
+            "mean_abs_rgb_error_0_255": 1.45491
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              25,
+              990,
+              266,
+              1232
+            ],
+            "mean_abs_rgb_error_0_255": 1.838003
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              919,
+              1177,
+              1080,
+              1419
+            ],
+            "mean_abs_rgb_error_0_255": 1.425201
+          }
+        }
+      },
+      {
+        "frame": 516,
+        "time_seconds": 21.5,
+        "shot": "wide",
+        "phase": "papier",
+        "fresh_svg_sha256": "395a76915e8bc2b779d715fa9277b965d7f423fec602db3864734f27abf1cfb7",
+        "fresh_png_sha256": "c21ed80d85131fd8e0d303c54fc67a1eee6dcfb15a0c04fee1f9a7b4f13fd638",
+        "full_frame_mean_abs_rgb_error_0_255": 1.501588,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.595717
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.627369
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              463,
+              1160,
+              604,
+              1301
+            ],
+            "mean_abs_rgb_error_0_255": 2.727713
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              501,
+              1163,
+              642,
+              1304
+            ],
+            "mean_abs_rgb_error_0_255": 2.743122
+          }
+        }
+      },
+      {
+        "frame": 575,
+        "time_seconds": 23.958333333333332,
+        "shot": "bin",
+        "phase": "jeter",
+        "fresh_svg_sha256": "36e939c0aa2ff6973485ddbd849afc6d2830c361f7f7ab6ebbecb9a1d2929081",
+        "fresh_png_sha256": "496f9526c94c46cf4d89f74e22187de627bab5b9e6e85388e930924ee4ba49a9",
+        "full_frame_mean_abs_rgb_error_0_255": 1.497518,
+        "regions": {
+          "faucet": {
+            "visible": false
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              92,
+              498,
+              793,
+              1604
+            ],
+            "mean_abs_rgb_error_0_255": 1.541124
+          },
+          "hand_left": {
+            "visible": false
+          },
+          "hand_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 610,
+        "time_seconds": 25.416666666666668,
+        "shot": "wide",
+        "phase": "satisfaction",
+        "fresh_svg_sha256": "11351ddbeada10674dddfcba168ebde32d9866abecfa01cebeed008c125c804b",
+        "fresh_png_sha256": "55def70d48c4d842c198648131771c54ce7471f5dce428c8ba7ed42b40cb1d8c",
+        "full_frame_mean_abs_rgb_error_0_255": 1.480551,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.586597
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.704989
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              400,
+              1168,
+              541,
+              1309
+            ],
+            "mean_abs_rgb_error_0_255": 2.330751
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 1.913016
+          }
+        }
+      }
+    ],
+    "threshold_mean_abs_rgb_error_0_255": 3.0,
+    "failures": [],
+    "method": "Frames decoded from final MP4 versus direct current SVG/CairoSVG render, independently of PNG cache. Clipped hand/faucet/bin regions are measured only when visible."
+  },
+  "tested_sources_sha256": {
+    "/workspace/MOU/episodes/03/film/sources/animation.py": "434cb821ad3a0e3ef65b2f458ae0089e117dd3e2a16160392ff8d400bb0bce60",
+    "/workspace/MOU/episodes/03/film/sources/art.py": "24b0167c91debbf2e6227374cfc693a0e30b424ee57cdf2b2c7714ddf9a4b98b",
+    "/workspace/MOU/episodes/03/film/sources/render.py": "dbe6e12a082d9a1fbb4b3a4322988b698d2730ca43a2f7228389f4d1b15484d8",
+    "/workspace/MOU/episodes/03/film/sources/son.py": "d60300828d44fabc81adfa26fe5d71597c56c0fd5515c696b329fac0a6524fac",
+    "/workspace/MOU/episodes/03/film/sources/verify.py": "115ba6b8b6d4d83e56bc3fcca7ea02ff4a9184ea416aea50c0c033183446aac4",
+    "/workspace/MOU/episodes/03/chronologie.json": "b472a6c4bbba36161f3e4dbe4fa78bdb971008a1b71436db534158d10de8fab1",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "/workspace/MOU/episodes/03/film/sources/animation.py": "434cb821ad3a0e3ef65b2f458ae0089e117dd3e2a16160392ff8d400bb0bce60",
+    "/workspace/MOU/episodes/03/film/sources/art.py": "24b0167c91debbf2e6227374cfc693a0e30b424ee57cdf2b2c7714ddf9a4b98b",
+    "/workspace/MOU/episodes/03/film/sources/render.py": "dbe6e12a082d9a1fbb4b3a4322988b698d2730ca43a2f7228389f4d1b15484d8",
+    "/workspace/MOU/episodes/03/chronologie.json": "b472a6c4bbba36161f3e4dbe4fa78bdb971008a1b71436db534158d10de8fab1"
+  },
+  "output": "/workspace/MOU/episodes/03/film/MOU_Encore_une_feuille.mp4"
+}

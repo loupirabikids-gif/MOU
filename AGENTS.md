@@ -13,14 +13,20 @@ Le placement fixe `episodes/03/placement/` est également validé (« Yea it coo
 référence commit1e99def. Le test de remuage de4s, muet, dans
 `episodes/03/test_remuer/` est validé (« Oui c est bon »), référence commit095b609.
 Garder décor, taille et position validés ainsi que les bras du rig original.
-Étape actuelle : écrire seulement le script avec une poubelle qui se remplit,
-un rapprochement après chaque jet et un lavage avec ouverture visible du robinet.
-L’utilisatrice demande explicitement « ne realise pas encore » : aucun nouveau
-rendu ni correctif graphique à cette étape. Le script et la correction proposée
-sont dans `episodes/03/developpement/`. La zone entourée vise le raccord du bras
-à gauche de l’écran, pas la moufle. Proposer uniquement une retouche locale de
-cette jonction ; aucune modification de la forme/longueur des bras ou des mains.
-Ne pas lancer la fabrication ou la suite de l’épisode automatiquement.
+Dernier accord « oui Go » : fabriquer le script corrigé avec TROIS cycles
+complets répétés pendant la cuisine : contact, ouvrir le robinet, laver la main,
+fermer, arracher beaucoup trop de papier, sécher, jeter et zoom sur la poubelle.
+La chronologie v2 dans `episodes/03/chronologie.json` fait référence ; elle
+remplace le script v1 où le lavage n’arrivait qu’une fois. L’animatique complète
+avec sons, sa critique et ses corrections précèdent le premier montage exporté
+en1080×1920,26s, avec son et version muette. Cette proposition de montage attend
+maintenant le retour de l’utilisatrice ; ne pas lancer un autre épisode.
+Les nouvelles sources et exports sont dans `episodes/03/film/`, sans écraser
+le décor, placement ou test validés. La zone entourée vise le raccord du bras
+à gauche de l’écran, pas la moufle. Seule une retouche locale de cette jonction
+est autorisée ; aucune modification de la forme/longueur des bras ou des mains.
+Dans les plans d’évier seulement, une articulation isométrique du bras natif
+autour de l’axe épaule/prise dégage le filet ; aucune nouvelle géométrie de main.
 Le comportement visé est de s’essuyer les mains après chaque contact pendant
 qu’on cuisine réellement : remuer, ajouter un ingrédient, toucher un manche,
 régler le feu. Ne pas remplacer ce sujet par une pâte jetée avec le papier.

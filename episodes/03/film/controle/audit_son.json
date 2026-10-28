@@ -1,0 +1,104 @@
+{
+  "episode": "03",
+  "title": "Encore une feuille",
+  "timeline_version": 2,
+  "duration_seconds": 26.0,
+  "samples_per_channel": 1248000,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "event_count": 35,
+  "peak_dbfs": -4.0,
+  "premaster_peak_dbfs": -12.544,
+  "master_gain_db": 8.544,
+  "rms_dbfs_left_right": [
+    -24.239,
+    -28.166
+  ],
+  "dc_mean_left_right": [
+    1.1171438755133213e-06,
+    1.0528319921248998e-06
+  ],
+  "clipped_samples": 0,
+  "water_intervals": [
+    {
+      "cycle": 1,
+      "scheduled": [
+        3.8,
+        6.1
+      ],
+      "rendered": [
+        3.8,
+        6.1
+      ],
+      "first_above_one_percent_seconds": 3.8021041666666666
+    },
+    {
+      "cycle": 2,
+      "scheduled": [
+        11.95,
+        13.85
+      ],
+      "rendered": [
+        11.95,
+        13.85
+      ],
+      "first_above_one_percent_seconds": 11.9525625
+    },
+    {
+      "cycle": 3,
+      "scheduled": [
+        18.9,
+        20.65
+      ],
+      "rendered": [
+        18.9,
+        20.65
+      ],
+      "first_above_one_percent_seconds": 18.90225
+    }
+  ],
+  "landing_onsets": [
+    {
+      "cycle": 1,
+      "scheduled_seconds": 9.3,
+      "onset_seconds": 9.300041666666667
+    },
+    {
+      "cycle": 2,
+      "scheduled_seconds": 16.7,
+      "onset_seconds": 16.7000625
+    },
+    {
+      "cycle": 3,
+      "scheduled_seconds": 23.8,
+      "onset_seconds": 23.8000625
+    }
+  ],
+  "tear_onsets": [
+    {
+      "cycle": 1,
+      "scheduled_seconds": 7.65,
+      "onset_seconds": 7.650104166666667
+    },
+    {
+      "cycle": 2,
+      "scheduled_seconds": 15.0,
+      "onset_seconds": 15.000145833333333
+    },
+    {
+      "cycle": 3,
+      "scheduled_seconds": 21.85,
+      "onset_seconds": 21.850145833333332
+    }
+  ],
+  "hesitation_18_05_to_18_48_rms_dbfs": -57.249,
+  "first_and_last_pcm_frame_silent": true,
+  "no_music": true,
+  "no_voice": true,
+  "no_external_samples": true,
+  "mix_sha256": "5b457af2dfe22e9169008166cfd836f43547d2f03188a88fbc11304100eb8bc8",
+  "source_sha256": "d60300828d44fabc81adfa26fe5d71597c56c0fd5515c696b329fac0a6524fac",
+  "chronologie_sha256": "b472a6c4bbba36161f3e4dbe4fa78bdb971008a1b71436db534158d10de8fab1",
+  "limits": "Contrôles numériques PCM et concordance avec les événements prévus. Pas d’écoute humaine, de contrôle haut-parleur mobile ni de validation des contacts dans la vidéo par ce rapport."
+}

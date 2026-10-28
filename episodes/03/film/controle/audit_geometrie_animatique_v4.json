@@ -1,0 +1,14 @@
+{
+  "frames": 624,
+  "maximum_orthogonality_error": 4.440892098500626e-16,
+  "maximum_transformed_hand_error_px": 5.684341886080801e-13,
+  "maximum_contact_error_px": 7.29344624077747e-08,
+  "native_fill_exact_all": true,
+  "opposite_arm_native_exact_all": true,
+  "reflection_only_sink": true,
+  "local_ink_outside24_exact": true,
+  "spoon_held_length_range_px": [
+    134.99999999999991,
+    139.96482658142963
+  ]
+}
