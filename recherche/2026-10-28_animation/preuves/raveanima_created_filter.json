@@ -1,0 +1,18 @@
+[
+  {
+    "result_count": 1,
+    "query": null,
+    "results": [
+      {
+        "repository": {
+          "id": 1426037841,
+          "name": "raveanima",
+          "owner_id": 207562710,
+          "owner_login": "vibecoderkz",
+          "updated_at": "2026-10-26T14:17:08.397Z",
+          "has_issues": true
+        }
+      }
+    ]
+  }
+]

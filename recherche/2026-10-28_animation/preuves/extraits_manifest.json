@@ -1,0 +1,152 @@
+[
+  {
+    "file": "synfig_license.txt",
+    "excerpt_sha256": "0bb3c7aa93432d53ceb26834bbeb64c6bfe5ace2d019401ab792fc0f0954fef5",
+    "raw_response_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/LICENSE"
+  },
+  {
+    "file": "friction_doc_expressions.txt",
+    "excerpt_sha256": "09491707763a7419bc58fc8a22ff005cc4c6dcf181c5d3ca5b42220a529d2d9d",
+    "raw_response_sha256": null,
+    "url": null
+  },
+  {
+    "file": "raveanima_readme.txt",
+    "excerpt_sha256": "f60c46bf4c8dfb7abc5eeacaccaffe60659a1d399e5a09259d632983138bbb74",
+    "raw_response_sha256": "105f4242c3a0c698acf2999719666522d052fb8e4eaeea86269a1924f1799d62",
+    "url": "https://raw.githubusercontent.com/vibecoderkz/raveanima/main/README.md"
+  },
+  {
+    "file": "opentoonz_cutout2.txt",
+    "excerpt_sha256": "183390fc9e18570a8739e9c0b0c847ffdad6fe9a27f65cc1da1666289cc82c17",
+    "raw_response_sha256": "6635800231e2459b32de0d6b39d1e0a43f41f56d64fc7f52689347777495faa0",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/creating_cutout_animation.rst"
+  },
+  {
+    "file": "inochi_license.txt",
+    "excerpt_sha256": "38bc9087fc61c02c9fd30bec2992be60bce7eee870702ffe18d92912c604c2f2",
+    "raw_response_sha256": "ffeefbd12382fe6a9a9087f03365351b96364f42e50187a8af87e71038e6e948",
+    "url": "https://raw.githubusercontent.com/Inochi2D/inochi-creator/main/LICENSE"
+  },
+  {
+    "file": "friction_docs_readme.txt",
+    "excerpt_sha256": "c004e65d2758968618a1a4aa32eda01c3d37209ddcdb81fa99e80e84c5b90b16",
+    "raw_response_sha256": "49e41f46a536d8ae1806234adee2ce1b26233b64f7725a6e8d010eb132422701",
+    "url": "https://raw.githubusercontent.com/friction2d/friction2d.github.io/main/README.md"
+  },
+  {
+    "file": "blender_gp_svg_source.txt",
+    "excerpt_sha256": "55b873ce5b3d780652e283ad00b0b39a14effb954306366a84ec1e22ffafdd4e",
+    "raw_response_sha256": "e751ef696b327085ec8fc2267c8a24c8031af09cc20ec9e7afb52b0fed59b5fa",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/source/blender/io/grease_pencil/intern/grease_pencil_io_import_svg.cc"
+  },
+  {
+    "file": "opentoonz_plastic2.txt",
+    "excerpt_sha256": "03757df32604d72797a4b632fa4c05e9033d6ea3bd5daae47efe615aefa60275",
+    "raw_response_sha256": "e1a1a022632fd91d6560aea7973496eff8f6badcad98af29cdb7572b79894602",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/create_animations_using_plastic_tool.rst"
+  },
+  {
+    "file": "friction_docs_index.txt",
+    "excerpt_sha256": "b3427e6b2746e18884e836a5a15bc0d5db0412e444e366f49caed292e600f9df",
+    "raw_response_sha256": "a0f7432fbbf8a0871e3de9b5841f944cf0f8cc5c9df2380bd1661cc3100ab261",
+    "url": "https://raw.githubusercontent.com/friction2d/friction2d.github.io/main/documentation/index.md"
+  },
+  {
+    "file": "blender_readme.txt",
+    "excerpt_sha256": "ad8ec6c060d08e01407f66a7c71943c6fac71df3240865a64609da9763a3e02c",
+    "raw_response_sha256": "1bbb333e5196ba3d5cdc42830e5f1db6b77c311da96d4ff4d9a6f8143d9821e1",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/README.md"
+  },
+  {
+    "file": "friction_license2.txt",
+    "excerpt_sha256": "a729b798ff03e97e44d2b3545a0fda517871a7801ec1219ee4a7e56b803a8a5e",
+    "raw_response_sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/LICENSE.md"
+  },
+  {
+    "file": "friction_doc_animation_techniques.txt",
+    "excerpt_sha256": "991532b0a205cadb99badc3b47793400c757e863f424e7646d9cfbd76528c8e6",
+    "raw_response_sha256": null,
+    "url": null
+  },
+  {
+    "file": "friction_readme.txt",
+    "excerpt_sha256": "0d8bff67e479ff4e4fe733e6a30d06001427cfc8d112dd2f0f1254bb146eb8b6",
+    "raw_response_sha256": "725721b31c7b7bf9317800a0af8b38f93ec50edb6d2b02969aeb1c9a53775053",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/README.md"
+  },
+  {
+    "file": "synfig_readme.txt",
+    "excerpt_sha256": "923c9746d526cc144a7d413511fe02df2114dcbb76f9cefecc9725f05fb7d781",
+    "raw_response_sha256": "24dc787354bedb456f978c5dd5cd11f18b84a373adc00c8390610acb4b128066",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/README.md"
+  },
+  {
+    "file": "raveanima_license.txt",
+    "excerpt_sha256": "ecd9c1ae4c67e07567ad483da6b59eb92202d2172ae3dead6795c68888a80b90",
+    "raw_response_sha256": "6cc0a503968d7a772c8eae269339273366c424f09aeb97908d39cdb2c4b6627b",
+    "url": "https://raw.githubusercontent.com/vibecoderkz/raveanima/main/LICENSE"
+  },
+  {
+    "file": "opentoonz_readme.txt",
+    "excerpt_sha256": "173bcd9609647fad2fd3012c0e5feb9360abdef30d82786f17c0d759021ebb61",
+    "raw_response_sha256": "c6b2bffbb2af9497ff127db2031438e306cf50e3ee13442459e4e3a32fe7d0e9",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/README.md"
+  },
+  {
+    "file": "blender_license.txt",
+    "excerpt_sha256": "d6a2a7c68e41903b2fba1a3263a604235b9b57ed86f1d409c3d8eb9870c938e4",
+    "raw_response_sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/COPYING"
+  },
+  {
+    "file": "synfig_bone.txt",
+    "excerpt_sha256": "790ff852206341f10431507fb05e36e4a792ad39822f6ca66067169fc1db2368",
+    "raw_response_sha256": "ee6e3c0fd4a7769c0a3c4cb1a43c6f52f040bc6113f8513dfd881d18e26176cb",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/synfig-studio/src/gui/states/state_bone.cpp"
+  },
+  {
+    "file": "friction_doc_export.txt",
+    "excerpt_sha256": "fb9afae9b1e1e4e1310f6abbf0a309402ac00c6f92f7b141b870f768cc8d8437",
+    "raw_response_sha256": null,
+    "url": null
+  },
+  {
+    "file": "friction_doc_usage.txt",
+    "excerpt_sha256": "43459c117d6d55f8008ee59d3096e1beb421153e69019ca82e9d301ba4eefb8a",
+    "raw_response_sha256": null,
+    "url": null
+  },
+  {
+    "file": "opentoonz_license.txt",
+    "excerpt_sha256": "0cd4891dde0b89dde05674c222f66fdcae7bfab4fe51810fdc49fa0fe7bef489",
+    "raw_response_sha256": "0d25442ea242187a08fea3ef810fe702031d55f15bb81a4f4f97b148df988f59",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/LICENSE.txt"
+  },
+  {
+    "file": "blender_spdx.txt",
+    "excerpt_sha256": "63a2f1cc350e0099cd480e4d1df8a57a60fbc9c35423db2e5cdc941c2bca907b",
+    "raw_response_sha256": "3ddfc9b236b0ed4253011c95c2221fcdf0672e53cae51d8756abea8e594a6615",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/source/blender/blenkernel/BKE_grease_pencil.hh"
+  },
+  {
+    "file": "inochi_readme.txt",
+    "excerpt_sha256": "c2b5c3a6f8b7c3002079ab0407e3996dae02b0c4d5ec0184fa1e2980c11454f9",
+    "raw_response_sha256": "68e98367e591ddb0eb24c8c0a47b212cc51957afd5df5123659bd2c50ab538a6",
+    "url": "https://raw.githubusercontent.com/Inochi2D/inochi-creator/main/README.md"
+  },
+  {
+    "file": "blender_gpl.txt",
+    "excerpt_sha256": "eb0ebf758ec6364d2cac33c33411284e5f6d87963ad7ec5bbf6981026cec99a4",
+    "raw_response_sha256": "f2703dec1b0118070caabd3302e21738c00211b0cc3260dbeb1168d6eda726b7",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/doc/license/GPL-license.txt"
+  },
+  {
+    "file": "blender_args.txt",
+    "excerpt_sha256": "4291fc26b9373649b2aa67f6da548eada74a9c913ee5a7d291d769e36ab9728f",
+    "raw_response_sha256": "3cb1078e6dc692fbc42092fc02d30a3f86c9e2ce46b8a8eaee551328b7303a8d",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/source/creator/creator_args.cc"
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "refInfo": {
+      "name": "main",
+      "listCacheKey": "v0:1735606651.0",
+      "canEdit": false,
+      "refType": "branch",
+      "currentOid": "cb577838a96900236a7b26cddc3c3305e248c928"
+    },
+    "tree": {
+      "items": [
+        {
+          "name": ".well-known",
+          "path": ".well-known",
+          "contentType": "directory"
+        },
+        {
+          "name": "3rdparty",
+          "path": "3rdparty",
+          "contentType": "directory"
+        },
+        {
+          "name": "_drafts",
+          "path": "_drafts",
+          "contentType": "directory"
+        },
+        {
+          "name": "_includes",
+          "path": "_includes",
+          "contentType": "directory"
+        },
+        {
+          "name": "_layouts",
+          "path": "_layouts",
+          "contentType": "directory"
+        },
+        {
+          "name": "_layouts_app",
+          "path": "_layouts_app",
+          "contentType": "directory"
+        },
+        {
+          "name": "_posts",
+          "path": "_posts",
+          "contentType": "directory"
+        },
+        {
+          "name": "assets",
+          "path": "assets",
+          "contentType": "directory"
+        },
+        {
+          "name": "branding",
+          "path": "branding",
+          "contentType": "directory"
+        },
+        {
+          "name": "documentation",
+          "path": "documentation",
+          "contentType": "directory"
+        },
+        {
+          "name": "pandoc",
+          "path": "pandoc",
+          "contentType": "directory"
+        },
+        {
+          "name": "pdf",
+          "path": "pdf",
+          "contentType": "directory"
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "contentType": "file"
+        },
+        {
+          "name": "CNAME",
+          "path": "CNAME",
+          "contentType": "file"
+        },
+        {
+          "name": "LICENSE",
+          "path": "LICENSE",
+          "contentType": "file"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "contentType": "file"
+        },
+        {
+          "name": "_config.yml",
+          "path": "_config.yml",
+          "contentType": "file"
+        },
+        {
+          "name": "_config_app.yml",
+          "path": "_config_app.yml",
+          "contentType": "file"
+        },
+        {
+          "name": "about.html",
+          "path": "about.html",
+          "contentType": "file"
+        },
+        {
+          "name": "about.md",
+          "path": "about.md",
+          "contentType": "file"
+        },
+        {
+          "name": "build_app_about.sh",
+          "path": "build_app_about.sh",
+          "contentType": "file"
+        },
+        {
+          "name": "build_app_docs.sh",
+          "path": "build_app_docs.sh",
+          "contentType": "file"
+        },
+        {
+          "name": "build_contributors.sh",
+          "path": "build_contributors.sh",
+          "contentType": "file"
+        },
+        {
+          "name": "community.md",
+          "path": "community.md",
+          "contentType": "file"
+        },
+        {
+          "name": "docs.qrc",
+          "path": "docs.qrc",
+          "contentType": "file"
+        },
+        {
+          "name": "docs_lin.qrc",
+          "path": "docs_lin.qrc",
+          "contentType": "file"
+        },
+        {
+          "name": "docs_mac.qrc",
+          "path": "docs_mac.qrc",
+          "contentType": "file"
+        },
+        {
+          "name": "docs_win.qrc",
+          "path": "docs_win.qrc",
+          "contentType": "file"
+        },
+        {
+          "name": "download.md",
+          "path": "download.md",
+          "contentType": "file"
+        },
+        {
+          "name": "favicon.ico",
+          "path": "favicon.ico",
+          "contentType": "file"
+        },
+        {
+          "name": "feed.xml",
+          "path": "feed.xml",
+          "contentType": "file"
+        },
+        {
+          "name": "index.md",
+          "path": "index.md",
+          "contentType": "file"
+        },
+        {
+          "name": "local.sh",
+          "path": "local.sh",
+          "contentType": "file"
+        },
+        {
+          "name": "news.md",
+          "path": "news.md",
+          "contentType": "file"
+        },
+        {
+          "name": "privacy.html",
+          "path": "privacy.html",
+          "contentType": "file"
+        },
+        {
+          "name": "privacy.md",
+          "path": "privacy.md",
+          "contentType": "file"
+        },
+        {
+          "name": "public.key",
+          "path": "public.key",
+          "contentType": "file"
+        },
+        {
+          "name": "quicktips.md",
+          "path": "quicktips.md",
+          "contentType": "file"
+        },
+        {
+          "name": "releases.md",
+          "path": "releases.md",
+          "contentType": "file"
+        },
+        {
+          "name": "shortcuts.html",
+          "path": "shortcuts.html",
+          "contentType": "file"
+        },
+        {
+          "name": "update.xml",
+          "path": "update.xml",
+          "contentType": "file"
+        }
+      ],
+      "totalCount": 41,
+      "templateDirectorySuggestionUrl": null,
+      "readme": null,
+      "showBranchInfobar": false
+    }
+  }
+]

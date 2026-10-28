@@ -1,0 +1,144 @@
+[
+  {
+    "name": "audiocraft_readme",
+    "url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/README.md",
+    "status": 200,
+    "bytes": 4834,
+    "sha256": "0240bd901c60c42508680e6beb580574836fd44b8476e721f811831fd2780638",
+    "observed_at": "2026-10-28T16:18:26.984913+01:00"
+  },
+  {
+    "name": "audiocraft_license",
+    "url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/LICENSE",
+    "status": 200,
+    "bytes": 1088,
+    "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+    "observed_at": "2026-10-28T16:18:26.977946+01:00"
+  },
+  {
+    "name": "stable_tools_readme",
+    "url": "https://raw.githubusercontent.com/Stability-AI/stable-audio-tools/main/README.md",
+    "status": 200,
+    "bytes": 7930,
+    "sha256": "55d170f97663ca9ce361e73ca680c7e1399cfc9ee1604e59a226dacffdad3a46",
+    "observed_at": "2026-10-28T16:18:27.107508+01:00"
+  },
+  {
+    "name": "stable_tools_license",
+    "url": "https://raw.githubusercontent.com/Stability-AI/stable-audio-tools/main/LICENSE",
+    "status": 200,
+    "bytes": 1069,
+    "sha256": "a1fac33b7bcd791b74fb33aeb439f825e7277e239fc119fb7d2ab6f084a0c101",
+    "observed_at": "2026-10-28T16:18:27.108448+01:00"
+  },
+  {
+    "name": "audiocraft_weights_license",
+    "url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/LICENSE_weights",
+    "status": 200,
+    "bytes": 19333,
+    "sha256": "336255dc30193e8e15d689d9481bb05673d89055718f3a96923a7ffb99adbbaf",
+    "observed_at": "2026-10-28T16:18:58.013139+01:00"
+  },
+  {
+    "name": "audiogen_docs",
+    "url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/docs/AUDIOGEN.md",
+    "status": 200,
+    "bytes": 6557,
+    "sha256": "02089980a05137bdd075f318abdd70cb3c48da7d5564d43b34d2ff2dcb9e570b",
+    "observed_at": "2026-10-28T16:18:57.863325+01:00"
+  },
+  {
+    "name": "tangoflux_readme",
+    "url": "https://raw.githubusercontent.com/declare-lab/TangoFlux/main/README.md",
+    "status": 200,
+    "bytes": 10246,
+    "sha256": "4d283d7fcb3bfc51927ff510e9268374226853453cf862a3b86e783cb634d784",
+    "observed_at": "2026-10-28T16:18:57.888907+01:00"
+  },
+  {
+    "name": "tangoflux_license",
+    "url": "https://raw.githubusercontent.com/declare-lab/TangoFlux/main/LICENSE",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "audioldm2_readme",
+    "url": "https://raw.githubusercontent.com/haoheliu/AudioLDM2/main/README.md",
+    "status": 200,
+    "bytes": 10046,
+    "sha256": "1f6011a8f4e8608becfc3f825e043385de85f16e3fea9fec8e667eeb34511d54",
+    "observed_at": "2026-10-28T16:18:57.994445+01:00"
+  },
+  {
+    "name": "audioldm2_license",
+    "url": "https://raw.githubusercontent.com/haoheliu/AudioLDM2/main/LICENSE",
+    "status": 200,
+    "bytes": 20845,
+    "sha256": "bcd75117f8322bcdc63ab4e0a3453e39b54f67b32b1a3b6c9a894532f91696c1",
+    "observed_at": "2026-10-28T16:18:57.941096+01:00"
+  },
+  {
+    "name": "audiogen_model_card",
+    "url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/model_cards/AUDIOGEN_MODEL_CARD.md",
+    "status": 200,
+    "bytes": 5788,
+    "sha256": "b4e4679785970dcb7543515193b05904a988bec6a3e7d4bdf2acd3292676c536",
+    "observed_at": "2026-10-28T16:20:10.294271+01:00"
+  },
+  {
+    "name": "tangoflux_community_license",
+    "url": "https://raw.githubusercontent.com/declare-lab/TangoFlux/main/STABILITY_AI_COMMUNITY_LICENSE.md",
+    "status": 200,
+    "bytes": 11852,
+    "sha256": "5f42db121bd67b99f549100ef665d92765a154abe3430a6e36c638ed2fbd96ca",
+    "observed_at": "2026-10-28T16:20:10.661748+01:00"
+  },
+  {
+    "name": "chatterbox_readme",
+    "url": "https://raw.githubusercontent.com/resemble-ai/chatterbox/master/README.md",
+    "status": 200,
+    "bytes": 15301,
+    "sha256": "fd9315cc529c65d46ddd21ded05ba3372b6f6f39242bd015f770145bf5e0448f",
+    "observed_at": "2026-10-28T16:21:17.606962+01:00"
+  },
+  {
+    "name": "chatterbox_license",
+    "url": "https://raw.githubusercontent.com/resemble-ai/chatterbox/master/LICENSE",
+    "status": 200,
+    "bytes": 1067,
+    "sha256": "4248e910a928849fe5815a0f9236e17fa07768d95b9193212752c464b93d6caa",
+    "observed_at": "2026-10-28T16:21:17.573145+01:00"
+  },
+  {
+    "name": "kokoro_readme",
+    "url": "https://raw.githubusercontent.com/hexgrad/kokoro/main/README.md",
+    "status": 200,
+    "bytes": 8355,
+    "sha256": "b50b84220668f8247a2405b249c34c7083acc24114279ff1429fd79f46a2c04b",
+    "observed_at": "2026-10-28T16:21:17.594288+01:00"
+  },
+  {
+    "name": "kokoro_license",
+    "url": "https://raw.githubusercontent.com/hexgrad/kokoro/main/LICENSE",
+    "status": 200,
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "observed_at": "2026-10-28T16:21:17.607422+01:00"
+  },
+  {
+    "name": "bark_readme",
+    "url": "https://raw.githubusercontent.com/suno-ai/bark/main/README.md",
+    "status": 200,
+    "bytes": 15207,
+    "sha256": "727acc4ec3d37ad8e20a8333fb779edece39271f3be9a813019d01849b256c72",
+    "observed_at": "2026-10-28T16:22:00.352521+01:00"
+  },
+  {
+    "name": "bark_license",
+    "url": "https://raw.githubusercontent.com/suno-ai/bark/main/LICENSE",
+    "status": 200,
+    "bytes": 1061,
+    "sha256": "09d0da397aba950dd45c40203220135a8d1d9647f1533df6dad7a4ae5f581dfb",
+    "observed_at": "2026-10-28T16:22:00.301933+01:00"
+  }
+]

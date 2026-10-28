@@ -6,6 +6,12 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Demande actuelle : proposer l’ajout de découpe de carotte et des rituels qui
+s’accélèrent, puis rechercher des outils gratuits utiles au jeu et au son.
+Les propositions et avis sont dans `episodes/03/developpement/*carotte*v3*` et
+la recherche sourcée dans `recherche/`. Le découpage consolidé est proposé,
+pas encore un nouveau montage validé. La vidéo du commit8b92bed reste la référence ;
+aucune migration de moteur ni installation de plugin n’a été décidée.
 Commande courante : avancer petit à petit sur le gag de cuisine et
 d’essuie-tout, dans `episodes/03/`. Le décor fixe de `episodes/03/decor/`
 est validé par l’utilisatrice (« Oui ca me vas »), référence commit795563c.

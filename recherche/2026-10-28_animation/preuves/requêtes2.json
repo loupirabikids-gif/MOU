@@ -1,0 +1,70 @@
+[
+  {
+    "name": "friction_license2",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/LICENSE.md",
+    "status": 200,
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "observed_at_utc": "2026-10-28T15:18:04.957131+00:00"
+  },
+  {
+    "name": "blender_gpl",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/doc/license/GPL-license.txt",
+    "status": 200,
+    "bytes": 17992,
+    "sha256": "f2703dec1b0118070caabd3302e21738c00211b0cc3260dbeb1168d6eda726b7",
+    "observed_at_utc": "2026-10-28T15:18:04.910702+00:00"
+  },
+  {
+    "name": "blender_gp",
+    "url": "https://raw.githubusercontent.com/blender/blender-manual/main/manual/grease_pencil/index.rst",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "blender_svg",
+    "url": "https://raw.githubusercontent.com/blender/blender-manual/main/manual/grease_pencil/import_export/svg.rst",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "blender_args",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/source/creator/creator_args.cc",
+    "status": 200,
+    "bytes": 115955,
+    "sha256": "3cb1078e6dc692fbc42092fc02d30a3f86c9e2ce46b8a8eaee551328b7303a8d",
+    "observed_at_utc": "2026-10-28T15:18:04.971536+00:00"
+  },
+  {
+    "name": "opentoonz_plastic",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/manual/create_animations_using_plastic_tool.rst",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "opentoonz_cutout",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/manual/creating_cutout_animation.rst",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "synfig_bone",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/synfig-studio/src/gui/states/state_bone.cpp",
+    "status": 200,
+    "bytes": 36022,
+    "sha256": "ee6e3c0fd4a7769c0a3c4cb1a43c6f52f040bc6113f8513dfd881d18e26176cb",
+    "observed_at_utc": "2026-10-28T15:18:05.232999+00:00"
+  },
+  {
+    "name": "raveanima_readme",
+    "url": "https://raw.githubusercontent.com/vibecoderkz/raveanima/main/README.md",
+    "status": 200,
+    "bytes": 6131,
+    "sha256": "105f4242c3a0c698acf2999719666522d052fb8e4eaeea86269a1924f1799d62",
+    "observed_at_utc": "2026-10-28T15:18:05.307333+00:00"
+  },
+  {
+    "name": "raveanima_license",
+    "url": "https://raw.githubusercontent.com/vibecoderkz/raveanima/main/LICENSE",
+    "status": 200,
+    "bytes": 1074,
+    "sha256": "6cc0a503968d7a772c8eae269339273366c424f09aeb97908d39cdb2c4b6627b",
+    "observed_at_utc": "2026-10-28T15:18:05.354063+00:00"
+  }
+]

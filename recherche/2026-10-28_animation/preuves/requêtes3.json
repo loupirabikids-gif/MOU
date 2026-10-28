@@ -1,0 +1,42 @@
+[
+  {
+    "name": "friction_org",
+    "url": "https://github.com/search?q=org%3Afriction2d&type=repositories",
+    "status": 200,
+    "bytes": 252018,
+    "sha256": "29e595cfdff73a5092d2b76a894dbf60f0dc3bceb218723c5f5c1de63370b05e",
+    "observed_at_utc": "2026-10-28T15:19:42.814300+00:00"
+  },
+  {
+    "name": "opentoonz_docs_tree",
+    "url": "https://github.com/opentoonz/opentoonz_docs",
+    "status": 200,
+    "bytes": 259855,
+    "sha256": "e135a3937143f6e0068e87451d3417ee62c10706756d57360ceef9609f2beb4a",
+    "observed_at_utc": "2026-10-28T15:19:42.790416+00:00"
+  },
+  {
+    "name": "friction_src_tree",
+    "url": "https://github.com/friction2d/friction/tree/main/src",
+    "status": 200,
+    "bytes": 223281,
+    "sha256": "e8a48ef6b0f90910ef7a084630ffabfca78354bf42ee533e49ced7ea0ab3f4c7",
+    "observed_at_utc": "2026-10-28T15:19:42.928283+00:00"
+  },
+  {
+    "name": "blender_gp_svg_source",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/source/blender/io/grease_pencil/intern/grease_pencil_io_import_svg.cc",
+    "status": 200,
+    "bytes": 18033,
+    "sha256": "e751ef696b327085ec8fc2267c8a24c8031af09cc20ec9e7afb52b0fed59b5fa",
+    "observed_at_utc": "2026-10-28T15:19:42.444144+00:00"
+  },
+  {
+    "name": "blender_spdx",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/source/blender/blenkernel/BKE_grease_pencil.hh",
+    "status": 200,
+    "bytes": 40489,
+    "sha256": "3ddfc9b236b0ed4253011c95c2221fcdf0672e53cae51d8756abea8e594a6615",
+    "observed_at_utc": "2026-10-28T15:19:42.382744+00:00"
+  }
+]

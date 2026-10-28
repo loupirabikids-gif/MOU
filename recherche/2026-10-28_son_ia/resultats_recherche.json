@@ -1,0 +1,212 @@
+[
+  {
+    "file": "search_foley.txt",
+    "results": [
+      {
+        "hl_name": "smthemex/ComfyUI_<em>Foley</em>Crafter",
+        "hl_trunc_description": "FoleyCrafter is a video-to-audio <em>generation</em> framework which can produce realistic <em>sound</em> effects semantically relevant and synchronized wi\u2026",
+        "language": "Python",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 839857456,
+            "name": "ComfyUI_FoleyCrafter",
+            "owner_id": 138738845,
+            "owner_login": "smthemex",
+            "updated_at": "2025-05-29T11:42:48.051Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "SAIL-PRLab/<em>Foley</em>-Omni",
+        "hl_trunc_description": "<em>Foley</em>-Omni: a unified multimodal audio <em>generation</em> model for task-level synthesis and complete video soundtrack <em>generation</em>, producing spee\u2026",
+        "language": "Python",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1255810837,
+            "name": "Foley-Omni",
+            "owner_id": 289112849,
+            "owner_login": "SAIL-PRLab",
+            "updated_at": "2026-10-16T10:30:29.018Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "jnwnlee/video-<em>foley</em>",
+        "hl_trunc_description": "Official implementation of \"Video-<em>Foley</em>: Two-Stage Video-To-<em>Sound</em> <em>Generation</em> via Temporal Event Condition For <em>Foley</em> <em>Sound</em>\". IEEE TASLP 2025.",
+        "language": "Python",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 895407156,
+            "name": "video-foley",
+            "owner_id": 79582852,
+            "owner_login": "jnwnlee",
+            "updated_at": "2026-02-27T07:03:02.356Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "sranade98/<em>foleygen</em>",
+        "hl_trunc_description": "<em>Foley</em> <em>Sound</em> <em>Generation</em> with Encodec and GPT-2",
+        "language": "Jupyter Notebook",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 892883222,
+            "name": "foleygen",
+            "owner_id": 136633626,
+            "owner_login": "sranade98",
+            "updated_at": "2025-03-19T22:52:06.515Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "hazelpe/<em>foleydiff</em>",
+        "hl_trunc_description": "Compact PyTorch latent-diffusion toolkit for text-to-audio and <em>sound</em>-effect (<em>foley</em>) <em>generation</em>",
+        "language": "Python",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1282635931,
+            "name": "foleydiff",
+            "owner_id": 292125771,
+            "owner_login": "hazelpe",
+            "updated_at": "2026-07-26T06:32:41.375Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "IFICL/Multi<em>Foley</em>",
+        "hl_trunc_description": "Project page for the paper: Video-Guided <em>Foley</em> <em>Sound</em> <em>Generation</em> with Multimodal Controls",
+        "language": null,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 890091486,
+            "name": "MultiFoley",
+            "owner_id": 20180169,
+            "owner_login": "IFICL",
+            "updated_at": "2026-07-16T18:10:28.078Z",
+            "has_issues": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "search_foley.txt",
+    "result_count": 9
+  },
+  {
+    "file": "search_sfx.txt",
+    "results": [
+      {
+        "hl_name": "increpare/bfxr",
+        "hl_trunc_description": "Flash + AIR <em>sound</em> <em>effects</em> <em>generator</em>. Based on Sfxr.",
+        "language": "ActionScript",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1407508,
+            "name": "bfxr",
+            "owner_id": 465632,
+            "owner_login": "increpare",
+            "updated_at": "2025-04-17T12:18:05.145Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "grumdrig/jsfxr",
+        "hl_trunc_description": "Dead easy game <em>sound</em> <em>effects</em> <em>generator</em>. A port of sfxr to HTML5.",
+        "language": "JavaScript",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 2259333,
+            "name": "jsfxr",
+            "owner_id": 174813,
+            "owner_login": "grumdrig",
+            "updated_at": "2023-05-04T07:15:06.263Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "agateau/sfxr-qt",
+        "hl_trunc_description": "Qt port of SFXR, a <em>sound</em> effect <em>generator</em>, to generate retro-gaming like <em>sound</em> <em>effects</em>.",
+        "language": "C++",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 117362175,
+            "name": "sfxr-qt",
+            "owner_id": 3575,
+            "owner_login": "agateau",
+            "updated_at": "2024-06-23T21:21:00.028Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "abagames/good-old-game-<em>sound</em>-<em>generator</em>",
+        "hl_trunc_description": "Generate <em>sound</em> <em>effects</em> and background music for good old-fashioned mini-games",
+        "language": "TypeScript",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 456044250,
+            "name": "good-old-game-sound-generator",
+            "owner_id": 2502899,
+            "owner_login": "abagames",
+            "updated_at": "2022-05-21T01:29:44.731Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "swillits/sfxrX",
+        "hl_trunc_description": "Old school 8-bit <em>sound</em> <em>effects</em> <em>generator</em>",
+        "language": "C",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 2033580,
+            "name": "sfxrX",
+            "owner_id": 821490,
+            "owner_login": "swillits",
+            "updated_at": "2017-08-02T00:20:35.683Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "anastasop/thames",
+        "hl_trunc_description": "An ambient <em>sound</em> <em>generator</em> using free <em>sounds</em> from BBC <em>Sounds</em> <em>Effects</em>",
+        "language": "Go",
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 260506773,
+            "name": "thames",
+            "owner_id": 1934184,
+            "owner_login": "anastasop",
+            "updated_at": "2023-12-03T14:51:03.749Z",
+            "has_issues": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "file": "search_sfx.txt",
+    "result_count": 122
+  }
+]

@@ -1,0 +1,33 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/create_animations_using_plastic_tool.rst
+SHA256 de la réponse originale : e1a1a022632fd91d6560aea7973496eff8f6badcad98af29cdb7572b79894602
+
+.. _create_animations_using_plastic_tool:
+
+Create animations using Plastic tool
+====================================
+Plastic is a powerful tool (|plastic|) that can be used as complement in a cutout animation context, as well as a stand-alone animation tool capable of bringing to life a character starting from a single drawing. Using a reference skeleton and a deformable mesh, Plastic allows to curving and deforming each element it's applied to, creating smooth animations.
+Using Plastic tool
+The **Plastic** tool needs as starting input at least one column of the Xsheet (or layer of the Timeline) where one or more drawings are exposed; from now on this will be referred to as the *texture-column* (or **TC**). Using the outlines of the exposed drawing/s as references, the Plastic tool generates a triangular mesh contained in a new kind of column/layer: the *Mesh* column/layer. Each newly created Mesh column/layer is automatically connected to the proper TC. This link is a core point in the way Plastic works: every column/layer linked to a mesh will be deformed by it, and displayed within the mesh boundaries while rendering.
+For animating/deforming a Mesh level, Plastic allows the building of a specific skeleton structure active on the mesh. The skeleton is a set of connected vertices, and, for each vertex, different parameters can be specified as: **Position**, **Angle Bounds**, **Rigidity** and **Staking Order**. Thus a great range of animations and effects can easily be created.
+.. note:: The Plastic tool is applied to a column of the Xsheet (or layer of the Timeline), and the content of it can be an animated level.
+Building a Plastic mesh
+The first step for using Plastic is creating a mesh for the Xsheet column (or Timeline layer) that we are going to animate using the **Plastic** tool. The Mesh is a special kind of level, and can be saved as any other kind of levels. 
+The Mesh level can be seen as *purple* column/layer created when the button **Create Mesh** of the **Plastic** tool is pressed.
+The mesh is the real object that the Plastic tool modifies when a plastic skeleton is animated. For this reason all the elements, that are going to be animated by the Plastic tool, need a mesh. 
+.. tip:: **To create a Plastic mesh:**
+    1. Select the column/layer that is going to be animated using the Plastic tool. This will be the *texture-column* (TC) of the mesh that is going to be created.
+    2. Choose the **Plastic** tool (|plastic|)
+     .. note:: The density of the mesh is crucial for having smooth curves when rotating the skeleton vertex. Lower the **Mesh Edges Length** value and higher the density of the mesh will be, thus a better quality of the animation will be assured, but more computing resources will be required.
+     .. note:: The preview will show you just one level at time, even if you have selected multiple columns/layers, to check the preview of each column/layer you have to select them one by one *while* the **Plastic** tool is active. Each time you change the column/layer selection the preview will update for the new content.
+    7. If you are creating a mesh from a **Sub-Xsheet**, you can choose which elements of the Sub-Xsheet will be used by the Plastic tool for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
+If the **Create Mesh** is applied to a column/layer that is already modified by the Plastic tool (then already linked to a Mesh level) a dialog will prompt asking how to manage the new and the old Mesh files, and the user can choose from one of three options: 
+Modifying a Plastic mesh
+.. tip:: **To update a Plastic mesh to reflect changes in the Level Strip:**
+    3. Activate the **Plastic** tool.
+Edit a Plastic mesh
+.. tip:: **To enter Plastic mesh editing mode:**
+    2. If not already active, choose the **Plastic** tool (|plastic|)
+Building a Plastic skeleton
+The Plastic skeleton is a control structure linked to a mesh level that provides handles for deforming/animating the chosen elements of the Xsheet/Timeline.
+.. tip:: **To create a Plastic skeleton:**

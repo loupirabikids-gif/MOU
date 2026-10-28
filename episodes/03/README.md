@@ -4,6 +4,10 @@ Le décor, le placement et le test muet de remuage sont validés. Le script corr
 est accepté : **trois lavages complets pendant la cuisine, beaucoup trop de
 papier et une poubelle qui se remplit à chaque jet.**
 
+Proposition suivante, pas encore fabriquée : [carotte, quatre rituels et
+accélération progressive](developpement/decoupage_carotte_v3_propose.md).
+[Recherche sourcée d’outils gratuits pour le jeu et le son](../../recherche/README.md).
+
 [![Montage complet](film/MOU_Encore_une_feuille_apercu.gif)](film/MOU_Encore_une_feuille.mp4?raw=true)
 
 - **[MP4 avec son,1080×1920,26s](film/MOU_Encore_une_feuille.mp4?raw=true)**

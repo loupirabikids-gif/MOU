@@ -1,0 +1,35 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/blender/blender/main/source/blender/io/grease_pencil/intern/grease_pencil_io_import_svg.cc
+SHA256 de la réponse originale : e751ef696b327085ec8fc2267c8a24c8031af09cc20ec9e7afb52b0fed59b5fa
+
+/* SPDX-FileCopyrightText: 2024 Blender Authors
+ *
+ * SPDX-License-Identifier: GPL-2.0-or-later */
+
+#include "BKE_attribute.hh"
+#include "nanosvg.h"
+class SVGImporter : public GreasePencilImporter {
+  using GreasePencilImporter::GreasePencilImporter;
+static std::string get_layer_id(const NSVGshape &shape, const int prefix)
+/* Unpack internal NanoSVG color. */
+/* Simple approximation of a gradient by a single color. */
+static ColorGeometry4f average_gradient_color(const NSVGgradient &svg_gradient)
+  const Span<NSVGgradientStop> stops = {svg_gradient.stops, svg_gradient.nstops};
+ * This is because gradients for fill materials in particular can only be defined by materials.
+ * Since each path can have a unique gradient it potentially requires a material per curve.
+ * Stroke gradients could be baked into vertex colors. */
+static ColorGeometry4f convert_svg_color(const NSVGpaint &svg_paint)
+  switch (NSVGpaintType(svg_paint.type)) {
+    case NSVG_PAINT_UNDEF:
+    case NSVG_PAINT_NONE:
+    case NSVG_PAINT_COLOR:
+      return unpack_nano_color(svg_paint.color);
+    case NSVG_PAINT_LINEAR_GRADIENT:
+      return average_gradient_color(*svg_paint.gradient);
+    case NSVG_PAINT_RADIAL_GRADIENT:
+/* Make room for curves and points from the SVG shape.
+static IndexRange extend_curves_geometry(bke::CurvesGeometry &curves, const NSVGshape &shape)
+  for (NSVGpath *path = shape.paths; path; path = path->next) {
+    /* nanosvg converts everything to bezier curves, points come in triplets. Round up to the
+    const Span<float2> svg_path_data = Span<float>(path->pts, 2 * path->npts).cast<float2>();
+    const float2 pos_first = svg_path_data.first();

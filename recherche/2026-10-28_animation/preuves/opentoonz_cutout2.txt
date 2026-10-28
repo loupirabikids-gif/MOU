@@ -1,0 +1,32 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/creating_cutout_animation.rst
+SHA256 de la réponse originale : 6635800231e2459b32de0d6b39d1e0a43f41f56d64fc7f52689347777495faa0
+
+.. _creating_cutout_animation:
+
+Creating Cutout Animation
+=========================
+Cutout animation is based on characters made of several sections connected together to create a character model. For example a basic model can be made of a drawing for the head, one for the body, one for each arm, and one for each leg.
+Animations in this case can be created not by adding drawings depicting the new animated poses, but by transforming (i.e. moving or rotating) the model sections individually at different frames, in order to create different actions. 
+In OpenToonz it's possible to create links between a model's different sections and to set pivot points for each one of them, in order to better manage the animation. For example, you can link a hand to an arm at the wrist, and link the arm to the trunk at the shoulder: in this way when you move the trunk, you will move both arm and hand as well; when you move the arm, it will turn around the shoulder and the hand will follow its movement; when you move the hand, it will turn around the wrist. 
+.. tip:: **To create a cutout animation:**
+    2. Use the **Skeleton** tool (|skeleton|) to link each section to the other and set the related pivot points.
+    3. Create keyframes for each section at different frames to animate the cutout character.
+Using the Skeleton Tool
+The **Skeleton** tool (|skeleton|) allows you to define a model by setting hierarchical links between its different sections exposed in different Xsheet columns (or Timeline layers), and animate it.
+It basically makes possible, by using a single and more immediate tool, the same tasks that could be achieved by using the Stage Schematic and the **Animate** tool (|animate|), when used to create links and animate the transformations of columns/layers (see :ref:`Linking Objects <linking_objects>`  ). Indeed, any editing performed with the **Skeleton** tool (|skeleton|) can also be seen happening in the Stage Schematic and the columns/layers transformation values, and vice versa.
+- **Mode** sets the operation to perform with the tool. Options are: **Build Skeleton**, to create links between the different sections, **Animate**, to animate the character model, and **Inverse Kinematics**, to animate the character model using inverse kinematics.
+- **Show Only Active Skeleton** when activated displays only the pivot points and the skeleton from the current section up to the parent section: in this way it will be easier to manage characters with skeletons of a higher complexity. 
+Building a Skeleton
+When the **Skeleton** tool (|skeleton|) mode is set to **Build Skeleton**, it's possible to set pivot points and links between sections by using the handle available in the Viewer.
+.. note:: The section pivot point can be moved, but *cannot* change its position during the animation: once it is set, or modified, it is retained during all the animation. If the pivot point is changed many times, and you want to set it back to its original position, right-click the section in the Stage Schematic and choose **Reset Center** from the menu that opens.
+A basic model is made of sections linked to each other by their centers. It's simpler to create if compared to a model based on hooks (see  :ref:`Creating Models with Hooks <creating_models_with_hooks>`  ), and has some limitations, but it is suitable for most of the cases of cutout animation. 
+The **Skeleton** tool (|skeleton|) allows you, both, to change the center position of the currently selected model section, and to link it to the center of another section visible in the Viewer.
+In case the sections of your model are drawn in the right place, setting the pivot points and the links is all you have to do to define a skeleton. If they are not, you can set the section right position either before or after setting links by using the **Animate** tool or the **Skeleton** tool in **Animate** mode (see  :ref:`Animating Objects <animating_objects>`  and  :ref:`Animating Models <animating_models>`  ). 
+    Select the **Skeleton** tool (|skeleton|), set the mode to **Build Skeleton**, and click the section in the Viewer.
+    Activate the **Show Only Active Skeleton** option in the tool options bar.
+For example suppose you have a character whose trunk is an animated level made of several drawings of the trunk bending: as the animation of the trunk goes on, the limbs linked to it will not follow the movement of the trunk (because the trunk is neither moving nor rotating in terms of its transformation values).
+By using hooks you can specify, drawing by drawing, where the pivot points have to be placed: in this way the model will maintain its consistency even when different drawings from an animation level are used, during the course of the action (see  :ref:`Using Hooks <using_hooks>`  ).
+The **Skeleton** tool (|skeleton|) allows you, both, to set a hook as the pivot point for the section, and to link it to a specific hook of another section visible in the Viewer.
+When using the **Hook** tool (|hook|) for defining hooks for the model sections, the **Snap** option can be activated (see :ref:`Using Hooks <using_hooks>`  ). In this way it's possible to place hooks exactly in the same position of hooks already defined for other animation levels visible in the Viewer, or, in case the level is a Toonz Vector level, at the center of closed shapes (e.g. rectangles, circles or single vector shapes closed with the **Tape** tool). 
+When the Skeleton tool (|skeleton|) mode is set to **Animate**, it is possible to set positions for the model sections at different frames, thus defining an animation.

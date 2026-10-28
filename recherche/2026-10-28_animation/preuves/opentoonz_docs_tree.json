@@ -1,0 +1,49 @@
+[
+  {
+    "refInfo": {
+      "name": "master",
+      "listCacheKey": "v0:1711073741.0",
+      "canEdit": false,
+      "refType": "branch",
+      "currentOid": "d0cb6a49f3b489c455bc6cf7674ff98f5682dccf"
+    },
+    "tree": {
+      "items": [
+        {
+          "name": "source",
+          "path": "source",
+          "contentType": "directory"
+        },
+        {
+          "name": ".gitignore",
+          "path": ".gitignore",
+          "contentType": "file"
+        },
+        {
+          "name": "CONTRIBUTING.md",
+          "path": "CONTRIBUTING.md",
+          "contentType": "file"
+        },
+        {
+          "name": "Makefile",
+          "path": "Makefile",
+          "contentType": "file"
+        },
+        {
+          "name": "README.md",
+          "path": "README.md",
+          "contentType": "file"
+        },
+        {
+          "name": "make.bat",
+          "path": "make.bat",
+          "contentType": "file"
+        }
+      ],
+      "totalCount": 6,
+      "templateDirectorySuggestionUrl": null,
+      "readme": null,
+      "showBranchInfobar": false
+    }
+  }
+]

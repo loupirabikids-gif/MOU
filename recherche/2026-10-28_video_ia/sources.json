@@ -1,0 +1,109 @@
+[
+  {
+    "name": "github_search_mcp",
+    "url": "https://github.com/search?q=blender+mcp+animation&type=repositories",
+    "observed_at": "2026-10-28T16:21:35.808585+01:00",
+    "status": 200,
+    "final_url": "https://github.com/search?q=blender+mcp+animation&type=repositories",
+    "bytes": 266160,
+    "sha256": "9a0776e5b592e38f4122b049c0a8e99b4c2c8069b6a013bf8fc63e42566b4e3d",
+    "local_file": "work/recherche_video_ia/github_search_mcp.txt",
+    "archived_extract": "recherche/2026-10-28_video_ia/preuves/github_search_mcp_results.json",
+    "note": "Full public HTML retained only in ignored work; status, timestamp and original SHA remain here."
+  },
+  {
+    "name": "blender_mcp_readme",
+    "url": "https://raw.githubusercontent.com/ahujasid/blender-mcp/main/README.md",
+    "observed_at": "2026-10-28T16:21:35.809340+01:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ahujasid/blender-mcp/main/README.md",
+    "bytes": 37048,
+    "sha256": "d527cbec5c0a3c179064c7dd76949a83efe8e011712a221612a7a121a3c03cdb",
+    "local_file": "recherche/2026-10-28_video_ia/preuves/blender_mcp_readme.txt"
+  },
+  {
+    "name": "blender_mcp_license",
+    "url": "https://raw.githubusercontent.com/ahujasid/blender-mcp/main/LICENSE",
+    "observed_at": "2026-10-28T16:21:35.809889+01:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/ahujasid/blender-mcp/main/LICENSE",
+    "bytes": 1071,
+    "sha256": "049501fd54d27852507853a5b88094ca1c6ff97404418a5032f3310eecc9cde6",
+    "local_file": "recherche/2026-10-28_video_ia/preuves/blender_mcp_license.txt"
+  },
+  {
+    "name": "comfyui_readme",
+    "url": "https://raw.githubusercontent.com/comfyanonymous/ComfyUI/master/README.md",
+    "observed_at": "2026-10-28T16:21:35.810391+01:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/comfyanonymous/ComfyUI/master/README.md",
+    "bytes": 29314,
+    "sha256": "1f5452375de6170925930393ade6380f73a01974d00c7e784d1521a86e5b388a",
+    "local_file": "recherche/2026-10-28_video_ia/preuves/comfyui_readme.txt"
+  },
+  {
+    "name": "comfyui_license",
+    "url": "https://raw.githubusercontent.com/comfyanonymous/ComfyUI/master/LICENSE",
+    "observed_at": "2026-10-28T16:21:36.087012+01:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/comfyanonymous/ComfyUI/master/LICENSE",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "local_file": "recherche/2026-10-28_video_ia/preuves/comfyui_license.txt"
+  },
+  {
+    "name": "wan22_readme",
+    "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/README.md",
+    "observed_at": "2026-10-28T16:21:36.128372+01:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/README.md",
+    "bytes": 35804,
+    "sha256": "40222cb3a66cc89aa1cd84589d1fa696806c93c09cf1c4383b3994139202dfa1",
+    "local_file": "recherche/2026-10-28_video_ia/preuves/wan22_readme.txt"
+  },
+  {
+    "name": "wan22_license",
+    "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/LICENSE.txt",
+    "observed_at": "2026-10-28T16:21:36.163574+01:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "local_file": "recherche/2026-10-28_video_ia/preuves/wan22_license.txt"
+  },
+  {
+    "name": "wan22_license_alt",
+    "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/LICENSE",
+    "observed_at": "2026-10-28T16:21:36.389486+01:00",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "wan_animate_preprocess_guide",
+    "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/wan/modules/animate/preprocess/UserGuider.md",
+    "observed_at": "2026-10-28T16:26:15.229169+01:00",
+    "status": 200,
+    "bytes": 4854,
+    "sha256": "689f4adf919c587a5e131ce8ef06f98fe8e7992da58fb2736db81981dbd9a8c3",
+    "local_file": "recherche/2026-10-28_video_ia/preuves/wan_animate_preprocess_guide.txt"
+  },
+  {
+    "name": "wan_animate_preprocess_code",
+    "url": "https://raw.githubusercontent.com/Wan-Video/Wan2.2/main/wan/modules/animate/preprocess/preprocess_data.py",
+    "observed_at": "2026-10-28T16:26:15.478069+01:00",
+    "status": 200,
+    "bytes": 4623,
+    "sha256": "7516300f099b3ade28c51abf0e9a3357ec60a1d085dec7935ce3d245a3f6e939",
+    "local_file": "recherche/2026-10-28_video_ia/preuves/wan_animate_preprocess_code.txt"
+  },
+  {
+    "name": "github_search_blender_mcp",
+    "url": "https://github.com/search?q=blender+mcp&type=repositories",
+    "observed_at": "2026-10-28T16:34:07.276885+01:00",
+    "status": 200,
+    "bytes": 266769,
+    "sha256": "1706f1549334af99ff2771b65796e4e32562ca512b8e22cc8a397c20a3350674",
+    "local_file": "work/recherche_video_ia/github_search_blender_mcp.html",
+    "results_extracted": 0
+  }
+]

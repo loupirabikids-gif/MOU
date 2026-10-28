@@ -1,0 +1,17 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/synfig/synfig/master/LICENSE
+SHA256 de la réponse originale : 3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986
+
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+                            Preamble
+  The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+  The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works.  By contrast,
+the GNU General Public License is intended to guarantee your freedom to
+permission to run the unmodified Program.  The output from running a

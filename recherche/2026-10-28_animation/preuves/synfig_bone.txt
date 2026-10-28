@@ -1,0 +1,36 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/synfig/synfig/master/synfig-studio/src/gui/states/state_bone.cpp
+SHA256 de la réponse originale : ee6e3c0fd4a7769c0a3c4cb1a43c6f52f040bc6113f8513dfd881d18e26176cb
+
+/* === S Y N F I G ========================================================= */
+/*!	\file state_bone.cpp
+**	\brief Template File
+**
+**	\legal
+**	Synfig is free software: you can redistribute it and/or modify
+**	it under the terms of the GNU General Public License as published by
+**	the Free Software Foundation, either version 2 of the License, or
+**	GNU General Public License for more details.
+**	You should have received a copy of the GNU General Public License
+	Duckmatic::Bezier::Handle bone_bezier;
+	enum SkeletonLayerType {SKELETON_TYPE, SKELETON_DEFORMATION_TYPE};
+	SkeletonLayerType c_layer;
+	void update_width_duck_status(SkeletonLayerType type);
+	void update_tool_options(SkeletonLayerType type);
+	int find_bone_index(SkeletonLayerType type, ValueNode_StaticList::Handle list, ValueNode::Handle bone) const;
+	Smach::state<StateBone_Context>("bone", N_("Skeleton Tool"))
+			set_id(settings.get_value("bone.skel_id", _("NewSkeleton")));
+			set_id(settings.get_value("bone.skel_deform_id", _("NewSkeletonDeformation")));
+	set_id(_("NewSkeleton"));
+		id="NewSkeleton";
+	radiobutton_skel(radiogroup,_("Skeleton Layer")),
+	radiobutton_skel_deform(radiogroup,_("Skeleton Deform Layer"))
+	title_label.set_label(_("Skeleton Creation"));
+		if((Layer_Skeleton::Handle::cast_dynamic(layer) || Layer_SkeletonDeformation::Handle::cast_dynamic(layer)) || cnt==0)
+	if(Layer_SkeletonDeformation::Handle::cast_dynamic(layer)){
+	App::dialog_tool_options->set_local_name(_("Skeleton Tool"));
+			_("Clear current Skeleton")
+StateBone_Context::update_tool_options(StateBone_Context::SkeletonLayerType type) {
+			bone_bezier =new Duckmatic::Bezier();
+	Layer_Skeleton::Handle skel_layer = Layer_Skeleton::Handle::cast_dynamic(layer);
+	Layer_SkeletonDeformation::Handle deform_layer = Layer_SkeletonDeformation::Handle::cast_dynamic(layer);

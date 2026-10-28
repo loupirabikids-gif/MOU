@@ -1,0 +1,33 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : voir les manifestes de requêtes
+SHA256 de la réponse originale : voir les manifestes
+
+---
+title: "Animation techniques"
+layout: documentation
+permalink: documentation/animation_techniques.html
+categories: documentation
+cover: animation_techniques/anim_techniques_parenting.svg
+# Animation techniques
+1) Create a new scene and set up as desired. It will be a container of just the looped animation.
+3) Then switch to the main scene, click on the canvas a select `link scene` choosing the scene that contains the animation you want to loop.
+A simple reveal stroke animation could be done by animating the `max-length` parameter from `0` in one frame to `100` in the final frame. The interpolated frames will show the reveal.
+![Playing with offset](/assets/documentation/animation_techniques/anim_techniques_sub-path.svg)
+![Playing with offset](/assets/documentation/animation_techniques/anim_techniques_sub-path_offset.svg)
+![Playing with offset](/assets/documentation/animation_techniques/anim_techniques_follow-path.svg)
+It’s a very used technique to fade or control the opacity of an object based on another. This way, the masking object can have any shape and even grey scale gradient to have extra control on the masking.
+![Playing with offset](/assets/documentation/animation_techniques/anim_techniques_mask.svg)
+![Hierarchy example](/assets/documentation/animation_techniques/anim_techniques_mask_layers.png)
+In the case of masking for an **animated SVG**, it is possible to use shades of grey in the masking object. **White** color will be considered opaque, **black** color will be transparent and shades of grey a transparency ramp.
+Please, don't confuse them with "Layer blending modes" as the name could be similar but the feature is totally different: **Friction** includes a smart way of handling **layer stacking** that simplifies the animation of objects that "change" their layer position with time. It is something that could be done with simpler animation techniques but `Blend Effects` really simplifies it.
+![Blend Effect example](/assets/documentation/animation_techniques/anim_techniques_blend.svg)
+*(**NOTE**: it's an old video so it will refer to Enve 2D animation software instead of Friction which is an evolution of the first one)*
+This technique allow users to create dynamic animations by using code (scripts) to control object properties. Instead of relying on manual keyframes, the user can use expressions to automate behaviors, connect parameters, and add randomness or complexity. There is a whole section about **[Expressions](expressions.html)**.
+![Orbit example](/assets/documentation/animation_techniques/anim_techniques_wiggle.svg)
+![Orbit example](/assets/documentation/animation_techniques/anim_techniques_orbit.svg)
+**Friction** lacks of and advanced rigging system (bones) but there is a `Transform Effect` called `Parent Effect` that helps in this regard. Additionally, using **[Expressions](expressions.html)** with simple `Clamp` functions that limit the movements, makes parenting even more capable.
+![Parenting example](/assets/documentation/animation_techniques/anim_techniques_parenting.svg)
+![Tracking example](/assets/documentation/animation_techniques/anim_techniques_tracking.svg)
+![Text effects screenshot](/assets/documentation/animation_techniques/anim_techniques_text_effects.gif)
+![Text effects screenshot](/assets/documentation/animation_techniques/anim_techniques_text_effects.png)
+This feature allows animators to cycle through a sequence of objects, shapes or images within a single object, enabling the creation of frame-by-frame animations. This is particularly useful for animating complex motions or character expressions that require detailed frame transitions.

@@ -1,0 +1,9 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/friction2d/friction2d.github.io/main/documentation/index.md
+SHA256 de la réponse originale : a0f7432fbbf8a0871e3de9b5841f944cf0f8cc5c9df2380bd1661cc3100ab261
+
+---
+title: "Documentation"
+layout: documentation-index
+permalink: documentation/
+**Friction** is a powerful and versatile motion graphics application that allows you to create vector and raster animations for web and video.

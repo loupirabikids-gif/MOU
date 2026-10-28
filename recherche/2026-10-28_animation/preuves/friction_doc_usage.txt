@@ -1,0 +1,36 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : voir les manifestes de requêtes
+SHA256 de la réponse originale : voir les manifestes
+
+---
+title: "Usage"
+layout: documentation
+permalink: documentation/usage.html
+categories: documentation
+# Basic Usage
+It is important to understand that **Friction is not a vector or raster drawing software, but an animation one**.
+Sure it can create some basic vector based shapes such as rectangles, squares, ellipses, circles, shapes based on nodes and Bezier curves, hand drawn curves or even import bitmap images (raster) but there are lot of drawing tools that a regular designer would miss inside Friction if they insist on looking for them. That being said, it is highly suggested to design assets outside of Friction and then import or link them into the software.
+    - any software capable of exporting to SVG vector graphics file.
+    - any software capable of exporting to JPEG, PNG or WEBP image files.
+- **Background**: a RGB color that defines the background scene color. Note that it allows setting a "transparent" color by setting the `Alpha color`to 0.
+As in other 2D graphical software the canvas can be navigated with two types of movements:
+## Importing and linking
+As commented previously, Friction is not a vector graphics design software, so it is highly suggested that assets are created externally.
+- **Import**: if the asset is `SVG` when using this option the shapes will be imported inside the project. It will be able to modify colors, shapes, etc. within Friction.
+- **Link**: if the asset is a bitmap graphics one (`JPEG`, `PNG`,...) or even `SVG` vector, if using this option, they will be linked or externally referenced. A transform parameter will be added but the assets won't be able to be edited within Friction. The great advantage of using this method is that they can be modified externally and the results will be automatically updated in Friction.
+![Import and link buttons in the main window](/assets/documentation/usage/usage_import_link.png)
+Bitmap graphics will always be **linked**, even if they are added with the **Import** option as there are no tools for editing pixel base images within Friction.
+Assets can be added by "drag & drop" from any file explorer to Friction canvas and they will be imported if possible (`SVG`) and linked if not (`JPEG`, `PNG`,...)
+## Basic animation
+### Keyframes
+Any object, shape, or parameter of them could be animated using the [keyframes technique](https://en.wikipedia.org/wiki/Key_frame). There is no need to animate each frame, only the important positions or values they will take over time. **Frames in the middle will be interpolated automatically**.
+At the same moment the animation is activated, a keyframe icon (circle) will appear at the timeline right at the frame the `time line` is placed.
+Following the example, if a keyframe for `Object > Transform > Translate > x` parameter is created at, for instance "frame 0", the user can move the time line to another frame, for instance "frame 30", and change the value of the parameter. This can be done in different ways:
+- if the time line is in a frame with no keyframe but the user wants to add a keyframe with the same value that is taking in that exact frame, open the contextual menu with the secondary mouse button and selection the `Add Key(s)` option
+Individual keyframes can be removed by pressing `Delete` or using the contextual menu.
+If the user wants to completely delete all the keyframes of the parameter, just press the red icon again and it will turn back to white meaning the parameter is no longer animated and it will take a single value along time. Note that the value it will "choose" to have will be the one taking and the frame where the time line is placed at the time the red button is pressed.
+The **[Timeline](userinterface.html#timeline)** panel will be so helpful to see where the keyframes are placed along time and easy to remap their position in time as it is possible to click and drag them and move them to another time.
+In this panel, it is possible to `copy`, `paste` and even `duplicate` keyframes to new frames just by placing the time line in the desired frame and running the command.
+### Graph view
+The interpolation between keyframes **is linear by default**, but this can be changed with the `Graph view` as it adds the possibility to edit the "speed" and evolution of the value animation from one keyframe to the other in a graphical way.
+In order to activate it, it is needed to select at least one parameter (if more than one just add more to the selection using the `Shift` modifier, a color between the "activate animation" button and the parameter label will show the color of the graph curves) in the **[Timeline](userinterface.html#timeline)** panel (it doesn't work in the Properties panel as there is no timeline in that panel) and press the `Graph view` icon:

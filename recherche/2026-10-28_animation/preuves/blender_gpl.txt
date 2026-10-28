@@ -1,0 +1,19 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/blender/blender/main/doc/license/GPL-license.txt
+SHA256 de la réponse originale : f2703dec1b0118070caabd3302e21738c00211b0cc3260dbeb1168d6eda726b7
+
+		    GNU GENERAL PUBLIC LICENSE
+		       Version 2, June 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+ 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+			    Preamble
+  The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+License is intended to guarantee your freedom to share and change free
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+running the Program is not restricted, and the output from the Program
+Program (independent of having been made by running the Program).

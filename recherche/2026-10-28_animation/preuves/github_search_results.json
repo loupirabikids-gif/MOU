@@ -1,0 +1,56 @@
+{
+  "query": "2d vector animation svg",
+  "url": "https://github.com/search?q=2d+vector+animation+svg&type=repositories",
+  "results": [
+    {
+      "repository": "uilianks/vex",
+      "description": "2D vector game art as code: a DSL that exports SVG/PNG sprites, animations and atlases, with a live viewer. Inspired by claude-pxl.",
+      "github_updated_at_observed": "2026-10-22T13:44:10.908Z"
+    },
+    {
+      "repository": "creek23/kage",
+      "description": "Kage Studio is a vector-based 2D Animation cross-platform Software that can export animation to HTML5, PNG sequence, Spritesheet, and AVI…",
+      "github_updated_at_observed": "2025-05-29T06:19:52.182Z"
+    },
+    {
+      "repository": "dorjeduck/svan2d",
+      "description": "a state-driven, SVG-based 2D vector animation engine in python",
+      "github_updated_at_observed": "2026-10-06T10:13:27.407Z"
+    },
+    {
+      "repository": "fahaddoc/cookie-delivery-animation",
+      "description": "Modern flat-vector 2D cookie-delivery explainer animation (HTML/CSS/JS + SVG, GSAP). 12s seamless loop, responsive, YouTube-Short ready.",
+      "github_updated_at_observed": "2026-06-13T13:05:09.106Z"
+    },
+    {
+      "repository": "mahtab04/vectorgl",
+      "description": "GPU-accelerated 2D vector graphics library for C++20, powered by OpenGL 3.3 with Canvas, scene graph, SVG, text, animation, and effects.",
+      "github_updated_at_observed": "2026-10-27T17:49:29.271Z"
+    },
+    {
+      "repository": "akageyama/slisvg",
+      "description": "A Fortran library for visualizing 2D slice data as SVG contours, vector glyphs, and animations.",
+      "github_updated_at_observed": "2026-10-09T04:53:10.745Z"
+    },
+    {
+      "repository": "sysv86/Mesh",
+      "description": "Mesh: declarative 2D vector graphics engine with native typography and H.264 MP4 export",
+      "github_updated_at_observed": "2026-10-21T06:23:51.705Z"
+    },
+    {
+      "repository": "erenyeager101/whiteboard2svg",
+      "description": "whiteboard2svg which Converts whiteboard-style drawings into SVG. Usefull for creating your own vector drawing also support creating anim…",
+      "github_updated_at_observed": "2026-03-21T09:38:13.032Z"
+    },
+    {
+      "repository": "vibecoderkz/raveanima",
+      "description": "Open-source 2D vector design and animation editor that AI agents drive through MCP and a CLI. Exports Lottie, MP4, GIF, SVG.",
+      "github_updated_at_observed": "2026-10-26T14:17:08.397Z"
+    },
+    {
+      "repository": "VaKaVo/MotionForge",
+      "description": "Desktop 2D animation studio for Windows: timeline, symbols, vector drawing, GIF/PNG/SVG export. C#/.NET 10 (WPF), MIT.",
+      "github_updated_at_observed": "2026-10-20T14:09:00.048Z"
+    }
+  ]
+}

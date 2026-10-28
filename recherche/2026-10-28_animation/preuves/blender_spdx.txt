@@ -1,0 +1,14 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/blender/blender/main/source/blender/blenkernel/BKE_grease_pencil.hh
+SHA256 de la réponse originale : 3ddfc9b236b0ed4253011c95c2221fcdf0672e53cae51d8756abea8e594a6615
+
+/* SPDX-FileCopyrightText: 2023 Blender Authors
+ *
+ * SPDX-License-Identifier: GPL-2.0-or-later */
+
+#pragma once
+   * Return the number of users (keyframes) of this drawing.
+   * \returns true, if the layer contains no keyframes.
+   * \returns the frame duration of the keyframe at \a frame_number.
+   * If there is no keyframe at \a frame_number \returns -1.
+   * If the keyframe is an implicit hold, \returns 0.

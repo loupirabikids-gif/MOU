@@ -1,0 +1,33 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : voir les manifestes de requêtes
+SHA256 de la réponse originale : voir les manifestes
+
+---
+title: "Export"
+layout: documentation
+permalink: documentation/export.html
+categories: documentation
+cover: export/export_svg-dialog.png
+Friction can export to various media formats.
+## SVG Animation
+Friction can export to SVG animation for use on the web.
+Note that what you see in the viewer is not necessarily what you get when exporting an SVG. Only a subset of the features in Friction are supported by the SVG exporter.
+*There is ongoing work to support more features in the SVG exporter.*
+* Keyframes
+* Mix Blend Modes (it is needed to enable it at export dialog)
+Quick preview will export the current scene with default settings *(see export dialog)* and open the preview in the default browser.
+![Export dialog](/assets/documentation/export/export_svg-dialog.png)
+* **Scene**: sets the scene to export.
+* **Fist frame**: first frame to export.
+* **Last frame**: last frame to export.
+* **Background**: it lets user include or not the scene background color.
+* **Loop**: sets the animation as looped if checked, that is, the animation will start again if finished.
+* **Notify when done**: if checked a popup warns the user that the export has been done.
+* **Optimize for Web**: will try to optimize the SVG for web use (make it smaller). Does not apply to previews.
+* **SVG 1.1 Colors**: uses hexcodes for colors, else defaults to `rgba()`.
+Friction can export projects to the most common video formats such as:
+![Video/Audio render dialog](/assets/documentation/export/export_video-dialog.png)
+Once the **"Add to queue"** button is pressed, the active scene is loaded into the panel. The user can then configure exporting parameters to fine-tune the final output.
+- **FPS** (Frames Per Second): Playback frame rate of the export.
+It lets users choose the export format for the video. Common options include `.mp4`, `.mov`, `.avi`, and others, depending on the supported formats in **Friction**.
+Friction can export projects to image sequences (TIFF/PNG/JPEG).

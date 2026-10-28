@@ -1,0 +1,16 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : voir les manifestes de requêtes
+SHA256 de la réponse originale : voir les manifestes
+
+---
+title: "Expressions"
+layout: documentation
+permalink: documentation/expressions.html
+categories: documentation
+Expressions in **Friction** allow users to create dynamic animations by using code to control object properties. Instead of relying on manual keyframes, the user can use expressions to automate behaviors, connect parameters, and add randomness or complexity.
+* Easing: a simple way to create an easing animation for a parameter.
+- **`$value`**: the numeric value the property has, that is, the constant number or actual value driven by keyframes.
+Friction is not capable yet to get a value coming from another time or frame as in other famous software.
+- **export**: presets can be saved as external files with `.fexpr` extension so that they can be backed up or shared.
+        const gradient = 1 + (h & 7); // Gradient range between 1 and 8
+        return (h & 8 ? -gradient : gradient) * x;

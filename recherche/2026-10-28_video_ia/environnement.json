@@ -1,0 +1,8 @@
+{
+  "observed_at": "2026-10-28T16:24:35.147200+01:00",
+  "blender_version": "4.3.2 (confirmed by animation researcher)",
+  "kdenlive_version": "24.12.3 (offscreen --version, exit0)",
+  "nvidia_smi_in_path": false,
+  "nvidia_device_files": [],
+  "meaning": "No NVIDIA GPU detected by these checks. No generative model executed. Blender and Kdenlive binaries are installed; no new MCP plugin installed."
+}

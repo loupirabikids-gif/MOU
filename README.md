@@ -11,6 +11,7 @@ rapproche la caméra de la même poubelle qui se remplit.
 - [Version muette](episodes/03/film/MOU_Encore_une_feuille_muette.mp4?raw=true)
 - [Sources ZIP](episodes/03/film/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/film/CONTROLE.txt)
 - [Script accepté](episodes/03/developpement/scenario_papier_v2.md) · [Critiques et corrections](episodes/03/film/controle/)
+- [Proposition suivante : carotte et accélération](episodes/03/developpement/decoupage_carotte_v3_propose.md) · [Recherche d’outils gratuits](recherche/README.md)
 - [Placement validé](episodes/03/placement/) · [Décor validé](episodes/03/decor/)
 
 Le décor, le placement et le [test de remuage](episodes/03/test_remuer/) validés

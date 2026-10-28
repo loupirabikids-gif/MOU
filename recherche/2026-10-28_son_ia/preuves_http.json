@@ -1,0 +1,218 @@
+[
+  {
+    "key": "audacity_readme",
+    "url": "https://raw.githubusercontent.com/audacity/audacity/master/README.md",
+    "observed_at_utc": "2026-10-28T15:18:12.202056+00:00",
+    "http": 200,
+    "final_url": "https://raw.githubusercontent.com/audacity/audacity/master/README.md",
+    "bytes": 1541,
+    "sha256": "c84ab5991133706a2899c20539df624ecaa124b7be9d4aff6d2b20986978d121",
+    "observed_at_casablanca": "2026-10-28T16:18:12.202056+01:00"
+  },
+  {
+    "key": "audacity_license",
+    "url": "https://raw.githubusercontent.com/audacity/audacity/master/LICENSE.txt",
+    "observed_at_utc": "2026-10-28T15:18:12.202621+00:00",
+    "http": 200,
+    "final_url": "https://raw.githubusercontent.com/audacity/audacity/master/LICENSE.txt",
+    "bytes": 73540,
+    "sha256": "1580ffb4a0c6bbb716324c645682964120eae418b9a1c51842cda140343cb139",
+    "observed_at_casablanca": "2026-10-28T16:18:12.202621+01:00"
+  },
+  {
+    "key": "audacity_license2",
+    "url": "https://raw.githubusercontent.com/audacity/audacity/master/LICENSE",
+    "observed_at_utc": "2026-10-28T15:18:12.203167+00:00",
+    "http": 404,
+    "error": "HTTP Error 404: Not Found",
+    "observed_at_casablanca": "2026-10-28T16:18:12.203167+01:00"
+  },
+  {
+    "key": "kdenlive_readme",
+    "url": "https://raw.githubusercontent.com/KDE/kdenlive/master/README.md",
+    "observed_at_utc": "2026-10-28T15:18:12.203703+00:00",
+    "http": 200,
+    "final_url": "https://raw.githubusercontent.com/KDE/kdenlive/master/README.md",
+    "bytes": 2720,
+    "sha256": "86f55bc195dc5ff81d82f52d1c4b10a17c411e6fc43a629be0c2a74708084f36",
+    "observed_at_casablanca": "2026-10-28T16:18:12.203703+01:00"
+  },
+  {
+    "key": "kdenlive_copying",
+    "url": "https://raw.githubusercontent.com/KDE/kdenlive/master/COPYING",
+    "observed_at_utc": "2026-10-28T15:18:12.204079+00:00",
+    "http": 200,
+    "final_url": "https://raw.githubusercontent.com/KDE/kdenlive/master/COPYING",
+    "bytes": 34670,
+    "sha256": "b6a8bf63ae2c95b0aa256ee774680d7bd18f21f457da75466f7610b3b16acc4e",
+    "observed_at_casablanca": "2026-10-28T16:18:12.204079+01:00"
+  },
+  {
+    "key": "kdenlive_license",
+    "url": "https://raw.githubusercontent.com/KDE/kdenlive/master/LICENSES/GPL-3.0-only.txt",
+    "observed_at_utc": "2026-10-28T15:18:12.204633+00:00",
+    "http": 200,
+    "final_url": "https://raw.githubusercontent.com/KDE/kdenlive/master/LICENSES/GPL-3.0-only.txt",
+    "bytes": 34670,
+    "sha256": "b6a8bf63ae2c95b0aa256ee774680d7bd18f21f457da75466f7610b3b16acc4e",
+    "observed_at_casablanca": "2026-10-28T16:18:12.204633+01:00"
+  },
+  {
+    "key": "lmms_readme",
+    "url": "https://raw.githubusercontent.com/LMMS/lmms/master/README.md",
+    "observed_at_utc": "2026-10-28T15:18:12.558718+00:00",
+    "http": 200,
+    "final_url": "https://raw.githubusercontent.com/LMMS/lmms/master/README.md",
+    "bytes": 3208,
+    "sha256": "c59167012422cf8a23c54b9bc4bed2889d61e74b5b5ff4eb8f87bca3718da28c",
+    "observed_at_casablanca": "2026-10-28T16:18:12.558718+01:00"
+  },
+  {
+    "key": "lmms_license",
+    "url": "https://raw.githubusercontent.com/LMMS/lmms/master/LICENSE.txt",
+    "observed_at_utc": "2026-10-28T15:18:12.576105+00:00",
+    "http": 200,
+    "final_url": "https://raw.githubusercontent.com/LMMS/lmms/master/LICENSE.txt",
+    "bytes": 17987,
+    "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6",
+    "observed_at_casablanca": "2026-10-28T16:18:12.576105+01:00"
+  },
+  {
+    "key": "search_sfx",
+    "url": "https://github.com/search?q=foley+sound+effects+generator+license&type=repositories",
+    "observed_at_utc": "2026-10-28T15:18:12.593701+00:00",
+    "http": 200,
+    "final_url": "https://github.com/search?q=foley+sound+effects+generator+license&type=repositories",
+    "bytes": 177203,
+    "sha256": "c1667a0249c63e30c0d504bb7e78041711267e4b9b2ea11e5ae08463b8db2ca0",
+    "observed_at_casablanca": "2026-10-28T16:18:12.593701+01:00",
+    "publication": "Only selected search-result metadata is retained in resultats_recherche.json; raw HTML kept under work, not published."
+  },
+  {
+    "key": "search_foley",
+    "url": "https://github.com/search?q=foley+sound+generation&type=repositories",
+    "observed_at_utc": "2026-10-28T15:21:13.192863+00:00",
+    "http": 200,
+    "final_url": "https://github.com/search?q=foley+sound+generation&type=repositories",
+    "bytes": 246045,
+    "sha256": "2f83333e2a2c34b4a22d74cf8ffaf15f12c3a18d23d6a123de24781fa5a5a159",
+    "observed_at_casablanca": "2026-10-28T16:21:13.192863+01:00",
+    "publication": "Only selected search-result metadata is retained in resultats_recherche.json; raw HTML kept under work, not published."
+  },
+  {
+    "key": "search_sfx",
+    "url": "https://github.com/search?q=sound+effects+generator&type=repositories",
+    "observed_at_utc": "2026-10-28T15:21:13.193518+00:00",
+    "http": 200,
+    "final_url": "https://github.com/search?q=sound+effects+generator&type=repositories",
+    "bytes": 264276,
+    "sha256": "7b1d4390609e2a3c9815d79bdd4ca1ed311aa523d95d78cff74479508b6147c4",
+    "observed_at_casablanca": "2026-10-28T16:21:13.193518+01:00",
+    "publication": "Only selected search-result metadata is retained in resultats_recherche.json; raw HTML kept under work, not published."
+  },
+  {
+    "key": "jsfxr_readme",
+    "url": "https://raw.githubusercontent.com/chr15m/jsfxr/master/README.md",
+    "observed_at_utc": "2026-10-28T15:21:13.194013+00:00",
+    "http": 200,
+    "final_url": "https://raw.githubusercontent.com/chr15m/jsfxr/master/README.md",
+    "bytes": 3730,
+    "sha256": "afac8cd9a7036d230f7ba46ec3c602d007a4349a7d5e2b8c9e066e123b3ca2ac",
+    "observed_at_casablanca": "2026-10-28T16:21:13.194013+01:00"
+  },
+  {
+    "key": "jsfxr_license",
+    "url": "https://raw.githubusercontent.com/chr15m/jsfxr/master/LICENSE",
+    "observed_at_utc": "2026-10-28T15:21:13.194540+00:00",
+    "http": 404,
+    "error": "HTTP Error 404: Not Found",
+    "observed_at_casablanca": "2026-10-28T16:21:13.194540+01:00"
+  },
+  {
+    "key": "jsfxr_license_txt",
+    "url": "https://raw.githubusercontent.com/chr15m/jsfxr/master/LICENSE.txt",
+    "observed_at_utc": "2026-10-28T15:21:13.195194+00:00",
+    "http": 404,
+    "error": "HTTP Error 404: Not Found",
+    "observed_at_casablanca": "2026-10-28T16:21:13.195194+01:00"
+  },
+  {
+    "key": "foley_omni_readme",
+    "url": "https://raw.githubusercontent.com/SAIL-PRLab/Foley-Omni/main/README.md",
+    "observed_at_utc": "2026-10-28T15:22:27.049914+00:00",
+    "http": 200,
+    "bytes": 7516,
+    "sha256": "8cefffd3da239097706ab0cd3a148156c574abf5ff87a43c39a21f031c7c0d1d",
+    "observed_at_casablanca": "2026-10-28T16:22:27.049914+01:00"
+  },
+  {
+    "key": "foley_omni_license",
+    "url": "https://raw.githubusercontent.com/SAIL-PRLab/Foley-Omni/main/LICENSE",
+    "observed_at_utc": "2026-10-28T15:22:27.050504+00:00",
+    "http": 200,
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "observed_at_casablanca": "2026-10-28T16:22:27.050504+01:00"
+  },
+  {
+    "key": "jsfxr_sfxr_js",
+    "url": "https://raw.githubusercontent.com/chr15m/jsfxr/master/sfxr.js",
+    "observed_at_utc": "2026-10-28T15:22:27.050999+00:00",
+    "http": 200,
+    "bytes": 35898,
+    "sha256": "6095a6358e654bc3ffd55d9ccecf694f187953d78b1391ee2823a6fcb92551c5",
+    "observed_at_casablanca": "2026-10-28T16:22:27.050999+01:00"
+  },
+  {
+    "key": "jsfxr_package",
+    "url": "https://raw.githubusercontent.com/chr15m/jsfxr/master/package.json",
+    "observed_at_utc": "2026-10-28T15:22:27.051467+00:00",
+    "http": 200,
+    "bytes": 1246,
+    "sha256": "0f2fd8d8cf773521264f6c4abc6e3129fa288fc8f047e187d53055a13327ea17",
+    "observed_at_casablanca": "2026-10-28T16:22:27.051467+01:00"
+  },
+  {
+    "key": "jsfxr_copying",
+    "url": "https://raw.githubusercontent.com/chr15m/jsfxr/master/COPYING",
+    "observed_at_utc": "2026-10-28T15:22:27.051809+00:00",
+    "http": 404,
+    "error": "HTTP Error 404: Not Found",
+    "observed_at_casablanca": "2026-10-28T16:22:27.051809+01:00"
+  },
+  {
+    "key": "foley_omni_model_license",
+    "url": "https://raw.githubusercontent.com/SAIL-PRLab/Foley-Omni/main/MODEL_LICENSE",
+    "observed_at_utc": "2026-10-28T15:23:20.646321+00:00",
+    "http": 200,
+    "bytes": 1080,
+    "sha256": "11579bc477f6a3f54030a8382cbaf264cab3717a0a98d5c132d0593b3c881baa",
+    "observed_at_casablanca": "2026-10-28T16:23:20.646321+01:00"
+  },
+  {
+    "key": "foley_omni_third_party",
+    "url": "https://raw.githubusercontent.com/SAIL-PRLab/Foley-Omni/main/THIRD_PARTY_NOTICES.md",
+    "observed_at_utc": "2026-10-28T15:23:20.646966+00:00",
+    "http": 200,
+    "bytes": 7696,
+    "sha256": "2fa51cc1bca56d8fa12013872eb30b36004c10da0bb7d225c953b3a36f541f71",
+    "observed_at_casablanca": "2026-10-28T16:23:20.646966+01:00"
+  },
+  {
+    "key": "foley_omni_thirdparty",
+    "url": "https://raw.githubusercontent.com/SAIL-PRLab/Foley-Omni/main/THIRD_PARTY_LICENSES.md",
+    "observed_at_utc": "2026-10-28T15:23:20.647433+00:00",
+    "http": 404,
+    "error": "HTTP Error 404: Not Found",
+    "observed_at_casablanca": "2026-10-28T16:23:20.647433+01:00"
+  },
+  {
+    "key": "jsfxr_unlicense",
+    "url": "https://raw.githubusercontent.com/chr15m/jsfxr/master/UNLICENSE",
+    "observed_at_utc": "2026-10-28T15:23:20.647859+00:00",
+    "http": 200,
+    "bytes": 1211,
+    "sha256": "7b30c10d168b77d43ddaa3269e7bef3e1a9dd68a54a5f23f1630a653d7e2e2f4",
+    "observed_at_casablanca": "2026-10-28T16:23:20.647859+01:00"
+  }
+]

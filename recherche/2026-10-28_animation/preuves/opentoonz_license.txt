@@ -1,0 +1,16 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/opentoonz/opentoonz/master/LICENSE.txt
+SHA256 de la réponse originale : 0d25442ea242187a08fea3ef810fe702031d55f15bb81a4f4f97b148df988f59
+
+Some of code in this repository is derived from thirdparty libraries.
+For files in the "thirdparty" directory: Please consult with the licenses in the appropriate READMEs or source codes.
+For files in the "stuff/library/mypaint brushes" directory: Please see the licenses in stuff/library/mypaint brushes/Licenses.txt.
+For portions adapted from Tahoma2D: Please see the notices in stuff/doc/Tahoma2D-LICENSE.txt.
+
+- - - - - - - - - - - - - - - -
+OpenToonz
+All contributions by DWANGO:
+Copyright (c) 2016 - 2026, DWANGO Co., Ltd.
+All rights reserved.
+All other contributions:
+Copyright (c) 2016 - 2026, the respective contributors.

@@ -1,0 +1,102 @@
+[
+  {
+    "name": "github_search",
+    "url": "https://github.com/search?q=2d+vector+animation+svg&type=repositories",
+    "final_url": "https://github.com/search?q=2d+vector+animation+svg&type=repositories",
+    "status": 200,
+    "bytes": 262434,
+    "sha256": "ca8afefdd3b5b45aac9713035be63eefa75c3068a1ea78efb6af18ee6563a365",
+    "observed_at_utc": "2026-10-28T15:16:59.106065+00:00"
+  },
+  {
+    "name": "friction_readme",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/friction2d/friction/main/README.md",
+    "status": 200,
+    "bytes": 3183,
+    "sha256": "725721b31c7b7bf9317800a0af8b38f93ec50edb6d2b02969aeb1c9a53775053",
+    "observed_at_utc": "2026-10-28T15:16:58.765847+00:00"
+  },
+  {
+    "name": "friction_license",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/COPYING",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "synfig_readme",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/README.md",
+    "final_url": "https://raw.githubusercontent.com/synfig/synfig/master/README.md",
+    "status": 200,
+    "bytes": 3496,
+    "sha256": "24dc787354bedb456f978c5dd5cd11f18b84a373adc00c8390610acb4b128066",
+    "observed_at_utc": "2026-10-28T15:16:58.718374+00:00"
+  },
+  {
+    "name": "synfig_license",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/LICENSE",
+    "final_url": "https://raw.githubusercontent.com/synfig/synfig/master/LICENSE",
+    "status": 200,
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "observed_at_utc": "2026-10-28T15:16:58.691161+00:00"
+  },
+  {
+    "name": "blender_readme",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/blender/blender/main/README.md",
+    "status": 200,
+    "bytes": 1234,
+    "sha256": "1bbb333e5196ba3d5cdc42830e5f1db6b77c311da96d4ff4d9a6f8143d9821e1",
+    "observed_at_utc": "2026-10-28T15:16:58.991308+00:00"
+  },
+  {
+    "name": "blender_license",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/COPYING",
+    "final_url": "https://raw.githubusercontent.com/blender/blender/main/COPYING",
+    "status": 200,
+    "bytes": 302,
+    "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+    "observed_at_utc": "2026-10-28T15:16:59.017344+00:00"
+  },
+  {
+    "name": "opentoonz_readme",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/README.md",
+    "final_url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/README.md",
+    "status": 200,
+    "bytes": 3971,
+    "sha256": "c6b2bffbb2af9497ff127db2031438e306cf50e3ee13442459e4e3a32fe7d0e9",
+    "observed_at_utc": "2026-10-28T15:16:58.998317+00:00"
+  },
+  {
+    "name": "opentoonz_license",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/LICENSE.txt",
+    "final_url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/LICENSE.txt",
+    "status": 200,
+    "bytes": 2285,
+    "sha256": "0d25442ea242187a08fea3ef810fe702031d55f15bb81a4f4f97b148df988f59",
+    "observed_at_utc": "2026-10-28T15:16:59.051021+00:00"
+  },
+  {
+    "name": "enve_readme",
+    "url": "https://raw.githubusercontent.com/enve2d/enve/master/README.md",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "inochi_readme",
+    "url": "https://raw.githubusercontent.com/Inochi2D/inochi-creator/main/README.md",
+    "final_url": "https://raw.githubusercontent.com/Inochi2D/inochi-creator/main/README.md",
+    "status": 200,
+    "bytes": 6623,
+    "sha256": "68e98367e591ddb0eb24c8c0a47b212cc51957afd5df5123659bd2c50ab538a6",
+    "observed_at_utc": "2026-10-28T15:16:59.268397+00:00"
+  },
+  {
+    "name": "inochi_license",
+    "url": "https://raw.githubusercontent.com/Inochi2D/inochi-creator/main/LICENSE",
+    "final_url": "https://raw.githubusercontent.com/Inochi2D/inochi-creator/main/LICENSE",
+    "status": 200,
+    "bytes": 1330,
+    "sha256": "ffeefbd12382fe6a9a9087f03365351b96364f42e50187a8af87e71038e6e948",
+    "observed_at_utc": "2026-10-28T15:16:59.382018+00:00"
+  }
+]

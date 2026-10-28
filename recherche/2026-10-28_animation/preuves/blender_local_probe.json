@@ -1,0 +1,62 @@
+{
+  "blender_version": "4.3.2",
+  "background": true,
+  "asset": "/workspace/MOU/episodes/03/placement/MOU_cuisine_placement.svg",
+  "tests": [
+    {
+      "importer": "grease_pencil",
+      "poll": true,
+      "result": [
+        "FINISHED"
+      ],
+      "object_count": 1,
+      "material_count": 5,
+      "grease_pencil_layers": 5,
+      "sample_objects": [
+        {
+          "name": "MOU_cuisine_placement.svg",
+          "type": "GREASEPENCIL"
+        }
+      ]
+    },
+    {
+      "importer": "curve",
+      "poll": true,
+      "result": [
+        "FINISHED"
+      ],
+      "object_count": 155,
+      "material_count": 85,
+      "sample_objects": [
+        {
+          "name": "Curve",
+          "type": "CURVE"
+        },
+        {
+          "name": "Curve.001",
+          "type": "CURVE"
+        },
+        {
+          "name": "Curve.002",
+          "type": "CURVE"
+        },
+        {
+          "name": "Curve.003",
+          "type": "CURVE"
+        },
+        {
+          "name": "Curve.004",
+          "type": "CURVE"
+        }
+      ]
+    }
+  ],
+  "render_performed": false,
+  "rig_rebuilt": false,
+  "observed_at": "2026-10-28T16:24:23.983974+01:00",
+  "timezone": "Africa/Casablanca",
+  "asset_sha256": "9d3eadee4fa02337927ff5df36899ac638b2104fe86370285e609cf1db4a41e5",
+  "source_asset_matches_git_HEAD": true,
+  "warning_observed": "SVG has gradients, Grease Pencil color will be approximated",
+  "limits": "Import data only. No render, no visible identity validation, no automatic rigging and no episode modified. Material count includes orphan materials from the preceding test."
+}

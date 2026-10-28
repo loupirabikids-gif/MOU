@@ -1,0 +1,36 @@
+EXTRAIT DOCUMENTAIRE — pas une copie intégrale
+Source : https://raw.githubusercontent.com/blender/blender/main/source/creator/creator_args.cc
+SHA256 de la réponse originale : 3cb1078e6dc692fbc42092fc02d30a3f86c9e2ce46b8a8eaee551328b7303a8d
+
+/* SPDX-FileCopyrightText: 2023 Blender Authors
+ *
+ * SPDX-License-Identifier: GPL-2.0-or-later */
+
+/** \file
+  PRINT("Usage: blender [args ...] [file] [args ...]\n");
+  BLI_args_print_arg_doc(ba, "--background");
+  PRINT("Animation Playback Options:\n");
+  BLI_args_print_arg_doc(ba, "--python");
+  BLI_args_print_arg_doc(ba, "--python-text");
+  BLI_args_print_arg_doc(ba, "--python-expr");
+  BLI_args_print_arg_doc(ba, "--python-console");
+  BLI_args_print_arg_doc(ba, "--python-exit-code");
+  BLI_args_print_arg_doc(ba, "--python-use-system-env");
+  BLI_args_print_arg_doc(ba, "--python-use-user-env");
+  PRINT("\t# blender --background test.blend --render-frame 1 --render-output \"/tmp\"\n");
+  PRINT("\t# blender --background --render-output /tmp test.blend --render-frame 1\n");
+  PRINT("\t# blender --background test.blend --render-output /tmp --render-frame 1\n");
+/** Shared by `--background` & `--command`. */
+static void background_mode_set()
+  G.background = true;
+   * In general background mode should strive to match the behavior of running
+  /* NOTE(@ideasman42): While there is no requirement for sound to be disabled in background-mode,
+   * the use case for playing audio in background mode is enough of a special-case
+   * that users who wish to do this can explicitly enable audio in background mode.
+   * - Unnecessary overhead running an operation in background mode or ...
+static const char arg_handle_background_mode_set_doc[] =
+    "\tRun in background (often used for UI-less rendering).\n"
+    "\tThe audio device is disabled in background-mode by default\n"
+static int arg_handle_background_mode_set(int /*argc*/, const char ** /*argv*/, void * /*data*/)
+  background_mode_set();
+    "\tThis implies '--background' mode.";
