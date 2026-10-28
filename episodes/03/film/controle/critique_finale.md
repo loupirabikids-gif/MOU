@@ -1,5 +1,9 @@
 # Examen visuel ciblé du MP4 final
 
+Rapport de la version initiale livrée au commit121beb3. Les lavages ont ensuite
+été recadrés à la demande de l’utilisatrice ; voir `critique_closeup_lavabo.md`
+pour le dernier export. Les constats et preuves ci-dessous restent historiques.
+
 Fichier : `MOU_Encore_une_feuille.mp4`,26s,1080×1920à24images/s.
 SHA256 : `a343142b396ec0a7136d8d42713207babb94099acdc4f40e3786e6e8fa67e007`.
 

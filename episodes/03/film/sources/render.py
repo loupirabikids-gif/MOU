@@ -80,9 +80,9 @@ def smooth(u):
     u=max(0.,min(1.,u));return u*u*(3.-2.*u)
 
 def camera_at(t,state):
-    # A close-up of the existing sink; body is allowed to leave the frame.
+    # Hands-only insert on the existing sink, without the foreground island.
     if state['shot']=='sink':
-        zoom,cx,cy=1.72,330.,1080.
+        return (0.,865.,300.,300.*H/W)
     elif state['shot']=='bin':
         c=next(c for c in TIMELINE['cycles'] if c['id']==state['cycle'])
         u=smooth((t-c['zoom'][0])/.22)
@@ -99,6 +99,20 @@ def svg_at(t):
     hand=s['hands']['left']
     body=f'<g id="mou-corps" transform="{tr}">'+s['torso']+'</g>'
     arms=f'<g id="mou-bras" transform="{tr}">'+s['arms']+'</g>'
+    if s['shot']=='sink':
+        # The character stays off screen; its original hand/forearm enters
+        # naturally from the right. Cooking props belong to the wider shot.
+        parts=[DEFS,BACKGROUND,art.lever_svg(float(s.get('lever',0)))]
+        if s.get('water'):
+            parts.append(art.water_svg(t,True,hand))
+        parts.append(arms)
+        if s.get('wet_hand') and not s.get('water'):
+            hx,hy=hand
+            parts.append(f'<path d="M{hx-8:.3f} {hy+31:.3f} q-7 12 0 16 q7 -4 0 -16 M{hx+15:.3f} {hy+43:.3f} q-5 10 0 13 q5 -3 0 -13" fill="#B8E2E4" stroke="#668D9A" stroke-width="2.5"/>')
+        vb=camera_at(t,s)
+        return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
+                f'viewBox="{vb[0]:.6f} {vb[1]:.6f} {vb[2]:.6f} {vb[3]:.6f}">'
+                +''.join(parts)+'</svg>')
     paper=s.get('paper')
     parts=[DEFS,BACKGROUND,art.lever_svg(float(s.get('lever',0))),body,
            GROUPS['ilot-cuisine'],PROPS_PULL if paper and paper['mode']=='pull' else GROUPS['accessoires-cuisine'],

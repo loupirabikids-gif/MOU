@@ -60,3 +60,16 @@ Une contrelecture de19images réellement décodées du MP4 v2 confirme la portio
 visible, le lâcher puis son arrivée dans la poêle, ainsi que la fin corrigée de
 cuillère. Aucun nouveau changement narratif ou de modèle n’est retenu avant
 l’export1080×1920à24images/s.
+
+## Retour utilisateur : lavabo et main uniquement
+
+Après le premier montage livré au commit121beb3, l’utilisatrice préfère voir
+uniquement un gros plan du lavabo et de la main pendant les lavages. Les trois
+inserts sont recadrés sur le robinet, la cuve et la moufle, avec le bras original
+entrant par la droite. Le corps, le visage et les accessoires d’îlot sont hors
+de ces inserts. Aucun geste, trait de personnage ou effet sonore n’est modifié.
+
+La comparaison des624scènes SVG avant/après confirme194images modifiées,
+exclusivement dans les trois inserts de lavage, et430images strictement identiques
+ailleurs. Animation, accessoires, son, rig et chronologie gardent leurs empreintes.
+Les nouveaux contrôles sont `audit_scope_closeup.json` et la critique du gros plan.

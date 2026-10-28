@@ -24,6 +24,10 @@ excessive de papier, le séchage et chaque jet. Sans dialogue, sons originaux.
 Chronologie de fabrication indicative :26s,24images/s ; la clarté prime sur
 la durée. Évier existant, petite poubelle ajourée à gauche de l’îlot, même axe.
 
+Précision de réalisation demandée ensuite : chaque lavage se voit uniquement
+en gros plan sur le lavabo, le robinet et la main. Le personnage reste hors
+champ dans ces inserts. Chronologie, actions et sons conservés.
+
 Correction autorisée : uniquement le petit décrochement à la jonction du bras
 gauche à l’écran et du corps. Garder les deux moufles, la longueur des bras et
 le bras opposé. Les autres poses nouvelles utilisent le rig existant articulé.

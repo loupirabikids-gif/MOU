@@ -21,6 +21,10 @@ remplace le script v1 où le lavage n’arrivait qu’une fois. L’animatique c
 avec sons, sa critique et ses corrections précèdent le premier montage exporté
 en1080×1920,26s, avec son et version muette. Cette proposition de montage attend
 maintenant le retour de l’utilisatrice ; ne pas lancer un autre épisode.
+Dernier correctif demandé : les trois lavages sont des gros plans du lavabo,
+du robinet et de la main uniquement. Visage, corps, îlot et ustensiles de cuisine
+restent hors de ces inserts. Garder exactement les durées, poses, sons et tous
+les autres plans ; il s’agit seulement du cadrage et des calques du gros plan.
 Les nouvelles sources et exports sont dans `episodes/03/film/`, sans écraser
 le décor, placement ou test validés. La zone entourée vise le raccord du bras
 à gauche de l’écran, pas la moufle. Seule une retouche locale de cette jonction
