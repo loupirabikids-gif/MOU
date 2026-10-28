@@ -6,12 +6,12 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
-Commande courante : mettre « Le retardateur » de côté et écrire un autre
-épisode. Conserver ses montages dans `episodes/01_reprise/`, sans poursuivre
-ses corrections. La proposition suivante est « Le torchon », dans
-`episodes/02/developpement/scenario_retenu.md`. Cette commande porte sur
-l’écriture ; elle ne demande pas encore une nouvelle vidéo. Un choix interne
-de scénario n’est pas une validation de production par l’utilisatrice.
+Commande courante : fabriquer « Le torchon », épisode02, après le « Vas y »
+de l’utilisatrice du28octobre2026. Son scénario est dans
+`episodes/02/developpement/scenario_retenu.md`, sa chronologie commune dans
+`episodes/02/chronologie.json`. Tester prises, pied et trajet du tissu avant
+animatique complète, critique et final avec son. « Le retardateur » reste
+de côté : conserver ses montages dans `episodes/01_reprise/` sans les corriger.
 Le personnage et les outils restent retenus. Les autres anciens montages
 et critiques sont dans `episodes/01/` et Git. PILOTE_01.txt est historique.
 

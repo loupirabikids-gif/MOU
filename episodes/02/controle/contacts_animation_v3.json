@@ -1,0 +1,1010 @@
+[
+  {
+    "time": 0.0,
+    "phase": "approche",
+    "grips": [
+      [
+        78.6983140803851,
+        378.69269434833546
+      ],
+      [
+        321.9884540945953,
+        378.61596277798964
+      ]
+    ],
+    "cloth_grips": [
+      [
+        148.1202934179782,
+        413.51117275331694
+      ],
+      [
+        254.7915339632581,
+        413.40636148313445
+      ]
+    ],
+    "hem": [
+      [
+        145.45594072266886,
+        413.5137906490945
+      ],
+      [
+        257.45588665856747,
+        413.40374358735687
+      ]
+    ],
+    "free_edge": [
+      [
+        80.0,
+        450.0
+      ],
+      [
+        110.0,
+        478.0
+      ]
+    ],
+    "polygon": [
+      [
+        145.45594072266886,
+        413.5137906490945
+      ],
+      [
+        257.45588665856747,
+        413.40374358735687
+      ],
+      [
+        110.0,
+        478.0
+      ],
+      [
+        80.0,
+        450.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": true,
+    "released": false,
+    "face_covered": false,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 112.0,
+    "unfold_fraction": 0.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      2.418204525511668e-14,
+      2.4155280950058755e-14
+    ],
+    "grip_separation": 243.29015211444107,
+    "blocking_foot_lift": 0.0,
+    "blocking_anchor_inside_panel": true,
+    "blocking_foot_covers_anchor": true,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 1.5,
+    "phase": "prise",
+    "grips": [
+      [
+        148.1202934179782,
+        413.51117275331694
+      ],
+      [
+        254.7915339632581,
+        413.40636148313445
+      ]
+    ],
+    "cloth_grips": [
+      [
+        148.1202934179782,
+        413.51117275331694
+      ],
+      [
+        254.7915339632581,
+        413.40636148313445
+      ]
+    ],
+    "hem": [
+      [
+        145.45594072266886,
+        413.5137906490945
+      ],
+      [
+        257.45588665856747,
+        413.40374358735687
+      ]
+    ],
+    "free_edge": [
+      [
+        80.0,
+        450.0
+      ],
+      [
+        110.0,
+        478.0
+      ]
+    ],
+    "polygon": [
+      [
+        145.45594072266886,
+        413.5137906490945
+      ],
+      [
+        257.45588665856747,
+        413.40374358735687
+      ],
+      [
+        110.0,
+        478.0
+      ],
+      [
+        80.0,
+        450.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": true,
+    "released": false,
+    "face_covered": false,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 112.0,
+    "unfold_fraction": 0.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      2.418204525511668e-14,
+      2.4155280950058755e-14
+    ],
+    "grip_separation": 106.67129203713306,
+    "blocking_foot_lift": 0.0,
+    "blocking_anchor_inside_panel": true,
+    "blocking_foot_covers_anchor": true,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 2.5,
+    "phase": "premiere_traction",
+    "grips": [
+      [
+        174.95929825325325,
+        355.7151476154852
+      ],
+      [
+        233.22548429947483,
+        355.988486836417
+      ]
+    ],
+    "cloth_grips": [
+      [
+        174.95929825325325,
+        355.7151476154852
+      ],
+      [
+        233.22548429947483,
+        355.988486836417
+      ]
+    ],
+    "hem": [
+      [
+        103.0935026367999,
+        355.37800969865185
+      ],
+      [
+        305.09127991592817,
+        356.32562475325034
+      ]
+    ],
+    "free_edge": [
+      [
+        80.0,
+        450.0
+      ],
+      [
+        110.0,
+        478.0
+      ]
+    ],
+    "polygon": [
+      [
+        103.0935026367999,
+        355.37800969865185
+      ],
+      [
+        305.09127991592817,
+        356.32562475325034
+      ],
+      [
+        110.0,
+        478.0
+      ],
+      [
+        80.0,
+        450.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": true,
+    "released": false,
+    "face_covered": false,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      7.738584250852574e-15,
+      7.808935016769415e-15
+    ],
+    "grip_separation": 58.26682718925586,
+    "blocking_foot_lift": 0.0,
+    "blocking_anchor_inside_panel": true,
+    "blocking_foot_covers_anchor": true,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 5.0,
+    "phase": "seconde_traction",
+    "grips": [
+      [
+        177.85160818184286,
+        348.70855517153075
+      ],
+      [
+        233.60943260792277,
+        348.9616314640028
+      ]
+    ],
+    "cloth_grips": [
+      [
+        177.85160818184286,
+        348.70855517153075
+      ],
+      [
+        233.60943260792277,
+        348.9616314640028
+      ]
+    ],
+    "hem": [
+      [
+        104.73156073645893,
+        348.3766743870251
+      ],
+      [
+        306.7294800533067,
+        349.2935122485085
+      ]
+    ],
+    "free_edge": [
+      [
+        80.0,
+        450.0
+      ],
+      [
+        110.0,
+        478.0
+      ]
+    ],
+    "polygon": [
+      [
+        104.73156073645893,
+        348.3766743870251
+      ],
+      [
+        306.7294800533067,
+        349.2935122485085
+      ],
+      [
+        110.0,
+        478.0
+      ],
+      [
+        80.0,
+        450.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": true,
+    "released": false,
+    "face_covered": false,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      2.7788552537152436e-14,
+      2.905486632365559e-14
+    ],
+    "grip_separation": 55.758398760539784,
+    "blocking_foot_lift": 0.0,
+    "blocking_anchor_inside_panel": true,
+    "blocking_foot_covers_anchor": true,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 7.2083333,
+    "phase": "decouvre_pied",
+    "grips": [
+      [
+        177.85160818184286,
+        348.70855517153075
+      ],
+      [
+        233.60943260792277,
+        348.9616314640028
+      ]
+    ],
+    "cloth_grips": [
+      [
+        177.85160818184286,
+        348.70855517153075
+      ],
+      [
+        233.60943260792277,
+        348.9616314640028
+      ]
+    ],
+    "hem": [
+      [
+        104.73156073645893,
+        348.3766743870251
+      ],
+      [
+        306.7294800533067,
+        349.2935122485085
+      ]
+    ],
+    "free_edge": [
+      [
+        80.0,
+        450.0
+      ],
+      [
+        110.0,
+        478.0
+      ]
+    ],
+    "polygon": [
+      [
+        104.73156073645893,
+        348.3766743870251
+      ],
+      [
+        306.7294800533067,
+        349.2935122485085
+      ],
+      [
+        110.0,
+        478.0
+      ],
+      [
+        80.0,
+        450.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": true,
+    "released": false,
+    "face_covered": false,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      2.7788552537152436e-14,
+      2.905486632365559e-14
+    ],
+    "grip_separation": 55.758398760539784,
+    "blocking_foot_lift": 0.0,
+    "blocking_anchor_inside_panel": true,
+    "blocking_foot_covers_anchor": true,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 7.25,
+    "phase": "liberation",
+    "grips": [
+      [
+        177.85160818184286,
+        348.70855517153075
+      ],
+      [
+        233.60943260792277,
+        348.9616314640028
+      ]
+    ],
+    "cloth_grips": [
+      [
+        177.85160818184286,
+        348.70855517153075
+      ],
+      [
+        233.60943260792277,
+        348.9616314640028
+      ]
+    ],
+    "hem": [
+      [
+        104.73156073645893,
+        348.3766743870251
+      ],
+      [
+        306.7294800533067,
+        349.2935122485085
+      ]
+    ],
+    "free_edge": [
+      [
+        80.0,
+        450.0
+      ],
+      [
+        110.0,
+        478.0
+      ]
+    ],
+    "polygon": [
+      [
+        104.73156073645893,
+        348.3766743870251
+      ],
+      [
+        306.7294800533067,
+        349.2935122485085
+      ],
+      [
+        110.0,
+        478.0
+      ],
+      [
+        80.0,
+        450.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": false,
+    "released": true,
+    "face_covered": false,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      2.7788552537152436e-14,
+      2.905486632365559e-14
+    ],
+    "grip_separation": 55.758398760539784,
+    "blocking_foot_lift": 20.0,
+    "blocking_anchor_inside_panel": null,
+    "blocking_foot_covers_anchor": null,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 7.2916666667,
+    "phase": "liberation",
+    "grips": [
+      [
+        177.78004393475064,
+        346.779882065403
+      ],
+      [
+        233.16328146325083,
+        347.01498214027674
+      ]
+    ],
+    "cloth_grips": [
+      [
+        177.78004393475064,
+        346.779882065403
+      ],
+      [
+        233.16328146325083,
+        347.01498214027674
+      ]
+    ],
+    "hem": [
+      [
+        104.47257268427481,
+        346.4686941907157
+      ],
+      [
+        306.4707527137266,
+        347.32617001496396
+      ]
+    ],
+    "free_edge": [
+      [
+        81.48148148370372,
+        427.0370370025923
+      ],
+      [
+        124.22222224355575,
+        452.96296292540706
+      ]
+    ],
+    "polygon": [
+      [
+        104.47257268427481,
+        346.4686941907157
+      ],
+      [
+        306.4707527137266,
+        347.32617001496396
+      ],
+      [
+        124.22222224355575,
+        452.96296292540706
+      ],
+      [
+        81.48148148370372,
+        427.0370370025923
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": false,
+    "released": true,
+    "face_covered": false,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      3.5878890617589224e-14,
+      2.0753475945468275e-14
+    ],
+    "grip_separation": 55.38373652240771,
+    "blocking_foot_lift": 20.0,
+    "blocking_anchor_inside_panel": null,
+    "blocking_foot_covers_anchor": null,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 7.4166666667,
+    "phase": "liberation",
+    "grips": [
+      [
+        176.65124917073587,
+        330.72978962798
+      ],
+      [
+        229.05244997800966,
+        330.70774602964747
+      ]
+    ],
+    "cloth_grips": [
+      [
+        176.65124917073587,
+        330.72978962798
+      ],
+      [
+        229.05244997800966,
+        330.70774602964747
+      ]
+    ],
+    "hem": [
+      [
+        101.85185851100363,
+        330.76125546650695
+      ],
+      [
+        303.8518406377419,
+        330.6762801911205
+      ]
+    ],
+    "free_edge": [
+      [
+        94.81481481837041,
+        220.37037031525875
+      ],
+      [
+        252.22222225635588,
+        227.62962956954019
+      ]
+    ],
+    "polygon": [
+      [
+        101.85185851100363,
+        330.76125546650695
+      ],
+      [
+        303.8518406377419,
+        330.6762801911205
+      ],
+      [
+        252.22222225635588,
+        227.62962956954019
+      ],
+      [
+        94.81481481837041,
+        220.37037031525875
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": false,
+    "released": true,
+    "face_covered": false,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      4.4189074841516135e-15,
+      4.423304407021416e-15
+    ],
+    "grip_separation": 52.40120544381073,
+    "blocking_foot_lift": 20.0,
+    "blocking_anchor_inside_panel": null,
+    "blocking_foot_covers_anchor": null,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 7.5,
+    "phase": "visage_couvert",
+    "grips": [
+      [
+        176.11185053763134,
+        325.10787753831954
+      ],
+      [
+        227.33499803407014,
+        324.9354732256089
+      ]
+    ],
+    "cloth_grips": [
+      [
+        176.11185053763134,
+        325.10787753831954
+      ],
+      [
+        227.33499803407014,
+        324.9354732256089
+      ]
+    ],
+    "hem": [
+      [
+        100.72399635880666,
+        325.36161421444496
+      ],
+      [
+        302.72285221289485,
+        324.68173654948345
+      ]
+    ],
+    "free_edge": [
+      [
+        100.0,
+        140.0
+      ],
+      [
+        302.0,
+        140.0
+      ]
+    ],
+    "polygon": [
+      [
+        100.72399635880666,
+        325.36161421444496
+      ],
+      [
+        302.72285221289485,
+        324.68173654948345
+      ],
+      [
+        302.0,
+        140.0
+      ],
+      [
+        100.0,
+        140.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": false,
+    "released": true,
+    "face_covered": true,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      2.595943262331455e-14,
+      3.081363547157662e-14
+    ],
+    "grip_separation": 51.22343763053165,
+    "blocking_foot_lift": 20.0,
+    "blocking_anchor_inside_panel": null,
+    "blocking_foot_covers_anchor": null,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 9.0,
+    "phase": "revelation",
+    "grips": [
+      [
+        176.11185053763134,
+        325.10787753831954
+      ],
+      [
+        227.33499803407014,
+        324.9354732256089
+      ]
+    ],
+    "cloth_grips": [
+      [
+        176.11185053763134,
+        325.10787753831954
+      ],
+      [
+        227.33499803407014,
+        324.9354732256089
+      ]
+    ],
+    "hem": [
+      [
+        100.72399635880666,
+        325.36161421444496
+      ],
+      [
+        302.72285221289485,
+        324.68173654948345
+      ]
+    ],
+    "free_edge": [
+      [
+        100.0,
+        140.0
+      ],
+      [
+        302.0,
+        140.0
+      ]
+    ],
+    "polygon": [
+      [
+        100.72399635880666,
+        325.36161421444496
+      ],
+      [
+        302.72285221289485,
+        324.68173654948345
+      ],
+      [
+        302.0,
+        140.0
+      ],
+      [
+        100.0,
+        140.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": false,
+    "released": true,
+    "face_covered": true,
+    "reveal_fraction": 0.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      2.595943262331455e-14,
+      3.081363547157662e-14
+    ],
+    "grip_separation": 51.22343763053165,
+    "blocking_foot_lift": 0.0,
+    "blocking_anchor_inside_panel": null,
+    "blocking_foot_covers_anchor": null,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 10.5,
+    "phase": "accuse_pied",
+    "grips": [
+      [
+        161.68366239639337,
+        373.3755686255563
+      ],
+      [
+        240.4597200874595,
+        373.6698700523941
+      ]
+    ],
+    "cloth_grips": [
+      [
+        161.68366239639337,
+        373.3755686255563
+      ],
+      [
+        240.4597200874595,
+        373.6698700523941
+      ]
+    ],
+    "hem": [
+      [
+        100.07239606981749,
+        373.1453935683034
+      ],
+      [
+        302.07098641403536,
+        373.900045109647
+      ]
+    ],
+    "free_edge": [
+      [
+        100.0,
+        289.0
+      ],
+      [
+        302.0,
+        289.0
+      ]
+    ],
+    "polygon": [
+      [
+        100.07239606981749,
+        373.1453935683034
+      ],
+      [
+        302.07098641403536,
+        373.900045109647
+      ],
+      [
+        302.0,
+        289.0
+      ],
+      [
+        100.0,
+        289.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": false,
+    "released": true,
+    "face_covered": false,
+    "reveal_fraction": 1.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      1.0798842568235186e-14,
+      1.097471948302729e-14
+    ],
+    "grip_separation": 78.77660743314614,
+    "blocking_foot_lift": 0.0,
+    "blocking_anchor_inside_panel": null,
+    "blocking_foot_covers_anchor": null,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  },
+  {
+    "time": 11.5,
+    "phase": "tenue_finale",
+    "grips": [
+      [
+        161.68366239639337,
+        373.3755686255563
+      ],
+      [
+        240.4597200874595,
+        373.6698700523941
+      ]
+    ],
+    "cloth_grips": [
+      [
+        161.68366239639337,
+        373.3755686255563
+      ],
+      [
+        240.4597200874595,
+        373.6698700523941
+      ]
+    ],
+    "hem": [
+      [
+        100.07239606981749,
+        373.1453935683034
+      ],
+      [
+        302.07098641403536,
+        373.900045109647
+      ]
+    ],
+    "free_edge": [
+      [
+        100.0,
+        289.0
+      ],
+      [
+        302.0,
+        289.0
+      ]
+    ],
+    "polygon": [
+      [
+        100.07239606981749,
+        373.1453935683034
+      ],
+      [
+        302.07098641403536,
+        373.900045109647
+      ],
+      [
+        302.0,
+        289.0
+      ],
+      [
+        100.0,
+        289.0
+      ]
+    ],
+    "foot_anchor": [
+      151.0,
+      443.0
+    ],
+    "pinned": false,
+    "released": true,
+    "face_covered": false,
+    "reveal_fraction": 1.0,
+    "cloth_width_units": 202.0,
+    "projected_hem_width": 202.0,
+    "unfold_fraction": 1.0,
+    "material": "torchon_plisse_non_elastique",
+    "geometric_grip_errors": [
+      1.0798842568235186e-14,
+      1.097471948302729e-14
+    ],
+    "grip_separation": 78.77660743314614,
+    "blocking_foot_lift": 0.0,
+    "blocking_anchor_inside_panel": null,
+    "blocking_foot_covers_anchor": null,
+    "source_arm_paths_exact": true,
+    "two_hands": 2
+  }
+]

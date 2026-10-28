@@ -1,0 +1,161 @@
+{
+  "episode": "02",
+  "titre": "Le torchon",
+  "revision": 1,
+  "file_stem": "MOU_02_le_torchon",
+  "duree_secondes": 12.0,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "reference": "../../references/MOU_reference.png",
+  "rig": "../../mou_rig.py",
+  "grip_time": 1.5,
+  "pull_1": {
+    "start": 2.25,
+    "peak": 2.5,
+    "end": 3.0
+  },
+  "pull_2": {
+    "start": 4.25,
+    "peak": 5.0,
+    "end": 6.0
+  },
+  "look_down": {
+    "start": 6.0,
+    "end": 7.0
+  },
+  "release_time": 7.25,
+  "flap_time": 7.5,
+  "covered_hold": {
+    "start": 7.5,
+    "end": 8.5
+  },
+  "reveal": {
+    "start": 9.0,
+    "end": 10.5
+  },
+  "blame_foot": {
+    "start": 10.5,
+    "end": 11.5
+  },
+  "final_hold": {
+    "start": 11.5,
+    "end": 12.0
+  },
+  "events": [
+    {
+      "time": 0.0,
+      "end": 2.0,
+      "action": "Repère le coin libre et le saisit avec ses deux mains, sans regarder le bout bloqué sous son pied"
+    },
+    {
+      "time": 2.0,
+      "end": 4.0,
+      "action": "Première traction arrêtée net ; intrigué, il réajuste sa prise"
+    },
+    {
+      "time": 4.0,
+      "end": 6.0,
+      "action": "Tire plus fort vers son menton ; tissu tendu devant le corps, pied bloquant bien visible"
+    },
+    {
+      "time": 6.0,
+      "end": 7.25,
+      "action": "Son regard suit le tissu et découvre son propre pied ; bref instant de compréhension"
+    },
+    {
+      "time": 7.25,
+      "end": 7.5,
+      "action": "Soulève le pied en maintenant sa traction ; ses mains entraînent le tissu vers son visage"
+    },
+    {
+      "time": 7.5,
+      "end": 8.5,
+      "action": "FLAP sur le visage, bref arrêt sous le tissu"
+    },
+    {
+      "time": 8.5,
+      "end": 9.0,
+      "action": "Petite anticipation des mains pour abaisser le torchon"
+    },
+    {
+      "time": 9.0,
+      "end": 10.5,
+      "action": "Les deux mains abaissent le tissu : les deux yeux émergent"
+    },
+    {
+      "time": 10.5,
+      "end": 11.5,
+      "action": "Les yeux désignent le pied et le regard devient accusateur"
+    },
+    {
+      "time": 11.5,
+      "end": 12.0,
+      "action": "Dernier regard tenu une demi-seconde en silence"
+    }
+  ],
+  "audio_events": [
+    {
+      "name": "prise_tissu",
+      "start": 1.5,
+      "duration": 0.15,
+      "kind": "cloth_grip",
+      "peak_dbfs": -26.0
+    },
+    {
+      "name": "traction_1",
+      "start": 2.25,
+      "duration": 0.4,
+      "kind": "cloth_pull",
+      "peak_dbfs": -23.0
+    },
+    {
+      "name": "traction_2",
+      "start": 4.25,
+      "duration": 0.8,
+      "kind": "cloth_pull",
+      "peak_dbfs": -21.0
+    },
+    {
+      "name": "envol_tissu",
+      "start": 7.25,
+      "duration": 0.25,
+      "kind": "cloth_swish",
+      "peak_dbfs": -18.0
+    },
+    {
+      "name": "flap",
+      "start": 7.5,
+      "duration": 0.12,
+      "kind": "cloth_flap",
+      "peak_dbfs": -9.0
+    },
+    {
+      "name": "revelation",
+      "start": 9.0,
+      "duration": 0.85,
+      "kind": "cloth_reveal",
+      "peak_dbfs": -26.0
+    }
+  ],
+  "silences": [
+    {
+      "start": 6.0,
+      "end": 7.25,
+      "reason": "découverte du pied"
+    },
+    {
+      "start": 7.75,
+      "end": 9.0,
+      "reason": "arrêt comique après contact"
+    },
+    {
+      "start": 11.5,
+      "end": 12.0,
+      "reason": "regard final"
+    }
+  ],
+  "production": "Outils libres locaux Python/SVG/CairoSVG/Pillow/NumPy/FFmpeg ; sons procéduraux originaux, sans dialogue ni musique.",
+  "autorisation": "Vas y : fabrication de l’épisode proposé acceptée par l’utilisatrice le28octobre2026 ; Le retardateur reste de côté.",
+  "lock": "Chronologie de coordination examinée par critique indépendant ; nouvelles prises et appui à tester avant montage."
+}

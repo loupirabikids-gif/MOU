@@ -1,0 +1,46 @@
+{
+  "episode": "02",
+  "revision": 1,
+  "duration_seconds": 12.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "event_count": 6,
+  "peak_dbfs": -9.0,
+  "rms_dbfs_left_right": [
+    -40.504,
+    -40.504
+  ],
+  "dc_mean_left_right": [
+    -1.0039011637369791e-06,
+    -1.0039011637369791e-06
+  ],
+  "clipped_samples": 0,
+  "flap_scheduled_seconds": 7.5,
+  "flap_onset_seconds": 7.500042,
+  "silences": [
+    {
+      "start": 6.0,
+      "end": 7.25,
+      "reason": "découverte du pied",
+      "exact_pcm_silence": true
+    },
+    {
+      "start": 7.75,
+      "end": 9.0,
+      "reason": "arrêt comique après contact",
+      "exact_pcm_silence": true
+    },
+    {
+      "start": 11.5,
+      "end": 12.0,
+      "reason": "regard final",
+      "exact_pcm_silence": true
+    }
+  ],
+  "no_music": true,
+  "no_voice": true,
+  "mix_sha256": "98945247952d17624669df3d30a22ced3f463c2688612334ebf86c178d5387b6",
+  "source_sha256": "f27c8ba6e0f69c78ac5ef6920e87f78c6d963ca4aa3ee4f47c5f87382dc3b5d3",
+  "limits": "Contrôles numériques PCM, pas d’écoute humaine, mobile ni test public."
+}

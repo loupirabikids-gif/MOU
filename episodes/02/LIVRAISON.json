@@ -1,0 +1,35 @@
+{
+  "episode": "02",
+  "titre": "Le torchon",
+  "revision": 1,
+  "duree_secondes": 12.0,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "fichiers": {
+    "MOU_02_le_torchon.mp4": {
+      "bytes": 1047772,
+      "sha256": "239c47cc9beb8fcc01091a78476a311f2f0d645687d42e396e0bb433b44bd97d"
+    },
+    "MOU_02_le_torchon_muet.mp4": {
+      "bytes": 974110,
+      "sha256": "e3ea9f17751df6f4cbd25bb2b75206d70a0ca61f55e5dbcd2339d7a78d092bfa"
+    }
+  },
+  "sources": "MOU_02_le_torchon_sources.zip",
+  "archive_sources": {
+    "bytes": 9314557,
+    "sha256": "6fb1bab4744de2a96d607cae605379bdf77f1d6bc3979a174a8a26764a0ff9b2",
+    "fichiers": 85
+  },
+  "bilan": "CONTROLE.txt",
+  "apercu_github": {
+    "fichier": "MOU_02_le_torchon_apercu.gif",
+    "muet": true,
+    "width": 270,
+    "height": 480,
+    "duration_seconds": 12.0
+  }
+}

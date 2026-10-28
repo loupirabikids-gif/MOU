@@ -17,3 +17,11 @@ présentation du nouveau scénario.
 Les pistes sont fondées sur le personnage et l’écriture relue en interne.
 Elles ne sont pas validées par des performances externes. La commande actuelle
 demande un texte, pas la fabrication d’une nouvelle vidéo.
+
+## Actualisation du 28 octobre 2026
+
+La fabrication est désormais autorisée par le « Vas y » de l’utilisatrice.
+L’état de l’environnement a été relu : connecté, politique restreinte appliquée,
+YouTube toujours absent. Aucun nouvel outil web n’est exposé. La veille reste
+incomplète ; aucune vidéo ni statistique n’a été inventée. L’épisode accepté
+est fabriqué à partir de cette écriture et de la critique interne.

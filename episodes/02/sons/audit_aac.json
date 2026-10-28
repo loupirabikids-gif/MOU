@@ -1,0 +1,45 @@
+{
+  "episode": "02",
+  "revision": 1,
+  "scope": "AAC audio seul192k; contrôle final MP4 distinct",
+  "sample_rate": 48000,
+  "channels": 2,
+  "peak_dbfs": -9.027867917275659,
+  "flap_scheduled_seconds": 7.5,
+  "decoded_flap_onset_seconds": 7.500041666666666,
+  "silences": [
+    {
+      "start": 6.0,
+      "end": 7.25,
+      "reason": "découverte du pied",
+      "decoded_peak": 8.541918759874534e-06,
+      "below_minus80_dbfs": true
+    },
+    {
+      "start": 7.75,
+      "end": 9.0,
+      "reason": "arrêt comique après contact",
+      "decoded_peak": 2.4022626803343883e-06,
+      "below_minus80_dbfs": true
+    },
+    {
+      "start": 11.5,
+      "end": 12.0,
+      "reason": "regard final",
+      "decoded_peak": 0.0,
+      "below_minus80_dbfs": true
+    }
+  ],
+  "source_regeneration_byte_identical": true,
+  "wav_sha256": {
+    "revelation.wav": "9649bd9419bd87d77a8b5d4c38bbb412373378d5a9931bed7506723c54fb44c3",
+    "envol_tissu.wav": "14f2c605eeb2eb9ea75caa5d4d82196d66bd044e15568e0c8e0ee0d178f092b5",
+    "mix.wav": "98945247952d17624669df3d30a22ced3f463c2688612334ebf86c178d5387b6",
+    "traction_2.wav": "ec270d89ad5db1b62a5a8fa162da542a27d618ab980f09ee49b7449b4880927f",
+    "flap.wav": "abe7c414f01f7098fea83d23800666eac23e432c228fea5a30b01c4d465dffee",
+    "traction_1.wav": "7c11d358940fbfa9ff51433e6b1bfb609df10d8cc9aee1acef70aa6c3bc9f699",
+    "prise_tissu.wav": "895f1c40596d901f0c342a4566347f3c94d45c904c8d019d5d1862d4432658c4"
+  },
+  "mix_sha256": "98945247952d17624669df3d30a22ced3f463c2688612334ebf86c178d5387b6",
+  "limits": "Mesures numériques, aucune écoute humaine ni sur téléphone."
+}

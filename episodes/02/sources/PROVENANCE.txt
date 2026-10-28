@@ -1,0 +1,50 @@
+MOU — Le torchon, épisode 02
+Fabrication autorisée le 28 octobre 2026
+
+PERSONNAGE ET RÉFÉRENCES
+Personnage vert, références et rig : kit MOU_Kit_Demarrage_Codex.zip fourni
+par l’utilisatrice. Sources communes : mou_rig.py, references/MOU_reference.png
+et test initial output/MOU_verification_9_secondes.mp4.
+
+Le rig partagé est conservé sans réécriture. Les fragments _arm gardent
+leurs tracés canoniques ; les articulations nécessaires peuvent les placer
+dans des groupes de rotation autour des épaules. Aucun raccourcissement,
+redessin ou masque de racine. Deux bras, deux moufles et deux petits pieds.
+Identité des tracés et contrôles numériques ne prouvent pas seuls la
+lisibilité des raccords et des contacts : examiner le rendu réel.
+
+ÉCRITURE ET IMAGES
+Le scénario initial du 27 octobre et ses critiques restent conservés dans
+developpement/. Le « Vas y » du 28 octobre autorise sa réalisation. La
+chronologie commune et le découpage de production précisent les repères.
+Les corrections effectivement retenues sont consignées après leur examen.
+« Le retardateur » reste mis de côté, sans poursuivre son montage.
+
+Le torchon, les poses, la scène et les trajectoires sont écrits localement
+en Python/SVG. Aucun média de stock, service de génération à crédits ou
+nouveau modèle de personnage n’intervient.
+
+SONS
+Six sons de tissu originaux : prise, deux tractions, envol, FLAP et révélation.
+Synthèse Python/NumPy locale, sans banque sonore, échantillon tiers, voix
+humaine, TTS, musique ou service externe. Graines et paramètres dans
+sons/provenance_et_parametres.json ; sources modifiables dans son.py.
+Les mesures de niveau et synchronisation ne valent pas écoute humaine ou
+sur appareil mobile. Aucune telle écoute n’est revendiquée.
+
+OUTILS ET SOURCES
+Python (PSF), CairoSVG (LGPL-3.0), Cairo (LGPL/MPL), NumPy (BSD-3-Clause),
+Pillow (HPND), FFmpeg/libx264 (GPL selon compilation). Police DejaVu fournie,
+licence dans fonts/LICENCE_DejaVu.txt. Versions : requirements-render.lock.
+Aucun outil de production payant ajouté.
+
+Le ZIP garde la structure MOU/ avec cet épisode, rig partagé, polices,
+références et test d’origine. Les contrôles du rendu et de la reproduction
+sont rapportés dans ../CONTROLE.txt selon leur portée réelle.
+Cette provenance ne donne pas de nouvelle licence aux références fournies.
+
+PORTÉE
+Veille externe récente incomplète, documentée dans le développement.
+Aucune statistique, rétention, consultation externe ou réception publique
+n’est inventée. Critique interne uniquement. Une livraison GitHub n’est
+pas une diffusion sur une plateforme de Shorts.

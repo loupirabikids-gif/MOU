@@ -1,0 +1,25 @@
+{
+  "episode": "02",
+  "revision": 1,
+  "archive_crc": "pass",
+  "extraction_elsewhere": true,
+  "commands_from_cwd": "/tmp",
+  "same_installed_environment": true,
+  "fresh_machine_install_not_tested": true,
+  "pose_audit_frames": 288,
+  "stills_rendered": 15,
+  "all_15_stills_byte_identical": true,
+  "mix_byte_identical": {
+    "episodes/02/sons/mix.wav": "98945247952d17624669df3d30a22ced3f463c2688612334ebf86c178d5387b6"
+  },
+  "tested_source_sha256": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/02/chronologie.json": "301bbca381a513c0b4f1b212fc08f1463e5e4a8f6a77075411eb4d4280a343d7",
+    "episodes/02/sources/animation.py": "5248e79b6a2a5fb0195368f2d1c25e54504e971a3953ea5b92212d7e4e41371c",
+    "episodes/02/sources/render.py": "e424e0dd02fbe019ccbe71a6ab6ced77beb9045a913b32cf72d169395512c349",
+    "episodes/02/sources/son.py": "f27c8ba6e0f69c78ac5ef6920e87f78c6d963ca4aa3ee4f47c5f87382dc3b5d3",
+    "episodes/02/sources/verify.py": "c099f439105ddba04e41e540aa9c9ff62e98cdf681ab3673ac15633353cbace9",
+    "episodes/02/sources/package.py": "a5da3351b794c6f537221d7f6e648db69b97e628ef9fb0db76be032a503bb0a0"
+  },
+  "limits": "Extraction et reproduction locale dans le même environnement installé ; pas de machine vierge ni nouveau rendu vidéo intégral."
+}

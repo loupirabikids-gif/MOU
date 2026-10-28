@@ -1,0 +1,46 @@
+MOU — LE TORCHON — ÉPISODE 02, RÉVISION 1
+
+12,000 s · 1080 × 1920 · 24 i/s · 288 images.
+MP4 H264/yuv420p + AAC stéréo 48 kHz ; version muette sans audio.
+Flux vidéo identique entre les deux versions. GIF muet 270 × 480.
+
+MOU saisit le torchon, tire contre son propre pied, le soulève puis reçoit
+le tissu dans la figure. Deux yeux émergent et accusent le pied. Une seule
+scène, sans dialogue. Dernière demi-seconde tenue dans le silence.
+
+CORRECTIONS OBSERVÉES
+Le premier masque cachait les pieds : clip vectoriel du seul tissu à la place.
+Le premier panneau passait sous les deux pieds : pli au sol ramené à gauche.
+Le sursaut trop faible faisait relever le tissu seul : prises remontant désormais
+d’environ 24 unités, entraînant le déploiement. Aucun bras redessiné ni raccourci.
+Modèle et rig d’origine inchangés ; les deux bras _arm sont articulés par groupes
+rotatifs aux épaules. Deux mains distinctes sur les 288 poses, masques valides.
+L’appui gauche est dans le tissu avant libération ; 72 points du périmètre de
+la sole droite restent hors panneau à chacun des 174 photogrammes précédents.
+
+REVUE ET VÉRIFICATION
+Scénario et contacts examinés avant le montage complet. Critique indépendante
+du vrai MP4 léger : 15 images générales et 20 denses autour du départ du tissu.
+Accord pour 12 s, FLAP lisible et regard dirigé vers le pied. Rapport et preuves :
+controle/critique_montage.md, critique_contacts_v1.md et critique_contacts_v3.md.
+Final : deux MP4 décodés intégralement sans erreur. Quatorze gestes comparés
+aux SVG frais hors cache, écarts moyens 1,14–1,28/255. Deux mains, bras canoniques,
+IDs et masques vérifiés sur 288 poses ; 15 cadrages mesurés sans découpe.
+FLAP audio mesuré à 7,500042 s ; pic AAC −9,028 dBFS, aucune saturation.
+Six sons originaux, silences vérifiés ; dernière demi-seconde à zéro exact.
+SVG final immobile, écart vidéo entre première et dernière image tenue :
+0,001721/255. Planche du MP4 final : controle/planche_mp4_final.png.
+
+SOURCES ET LIMITES
+Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg ; six effets de tissu locaux,
+sans musique ni voix. Versions et commandes : sources/README.md ; paramètres
+et graines : sons/. Écriture, critiques et corrections conservées dans le projet.
+Sources archivées et reproduites depuis une extraction séparée : 288 poses,
+15 images et mix WAV identiques, commandes lancées depuis /tmp. Même
+installation, sans test de machine vierge ni second rendu vidéo intégral.
+Preuve : controle/audit_reproduction.json. Manifestes : LIVRAISON.json.
+Tissu paramétrique plissé, pas simulation physique. Inspection par images
+denses et contrôles audio numériques, sans écoute humaine, test mobile ou public.
+Veille externe encore incomplète, sans statistique inventée. GitHub permet
+la consultation ; aucune diffusion sur une plateforme de Shorts n’est revendiquée.
+« Le retardateur » reste de côté, ses fichiers sont inchangés.

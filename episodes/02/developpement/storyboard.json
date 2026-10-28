@@ -1,0 +1,329 @@
+{
+  "episode": "02",
+  "titre": "Le torchon",
+  "revision": 1,
+  "status": "Découpage de fabrication verrouillé ; rendu et contacts à examiner, non validés par ce document.",
+  "date": "2026-10-28",
+  "timezone": "UTC",
+  "authorization": "Fabrication du scénario acceptée par le « Vas y » de l’utilisatrice.",
+  "duration_seconds": 12.0,
+  "fps": 24,
+  "frames": 288,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "source_timeline": "../chronologie.json",
+  "source_timeline_sha256": "301bbca381a513c0b4f1b212fc08f1463e5e4a8f6a77075411eb4d4280a343d7",
+  "model_reference": "../../../references/MOU_reference.png",
+  "model_rig": "../../../mou_rig.py",
+  "rig_rule": "Fragments _arm canoniques conservés ; deux bras, deux moufles, deux pieds. Aucun redessin ou masque de racine.",
+  "editorial_limit": "Veille externe récente incomplète, documentée dans veille_et_limites.md ; aucune statistique ni comparaison externe inventée.",
+  "sound_policy": "Six sons originaux procéduraux, outils libres locaux, sans musique ni dialogue.",
+  "key_frames": {
+    "grip": 36,
+    "pull_1_peak": 60,
+    "pull_2_peak": 120,
+    "release": 174,
+    "flap": 180,
+    "reveal_start": 216,
+    "reveal_end": 252,
+    "final_hold_start": 276
+  },
+  "shots": [
+    {
+      "id": "prise",
+      "start_seconds": 0.0,
+      "end_seconds": 2.0,
+      "first_frame": 0,
+      "end_frame_exclusive": 48,
+      "shot": "Plan d’ensemble frontal fixe, torchon entier, mains et pieds lisibles.",
+      "intention": "Ramasser le coin libre.",
+      "acting_and_gaze": "Curiosité simple ; regard vers le coin puis ses mains.",
+      "anticipation_and_timing": "Petite flexion pour approcher le coin sans saut de tissu.",
+      "contacts": "Deux mains prennent la même lisière ; autre extrémité continue jusqu’au pied qui la bloque.",
+      "information_for_viewer": "Le public voit le bout bloqué ; MOU repère uniquement le coin libre et ignore encore la cause de la résistance.",
+      "audio_events": [
+        {
+          "name": "prise_tissu",
+          "start": 1.5,
+          "duration": 0.15,
+          "kind": "cloth_grip",
+          "peak_dbfs": -26.0
+        }
+      ],
+      "silences_overlapping": [],
+      "source_action": "Repère le coin libre et le saisit avec ses deux mains, sans regarder le bout bloqué sous son pied"
+    },
+    {
+      "id": "traction_1",
+      "start_seconds": 2.0,
+      "end_seconds": 4.0,
+      "first_frame": 48,
+      "end_frame_exclusive": 96,
+      "shot": "Même cadre ; aucun insert qui masquerait l’appui.",
+      "intention": "Surmonter une petite résistance.",
+      "acting_and_gaze": "Intrigue puis sourcils qui se resserrent ; regard sur sa prise.",
+      "anticipation_and_timing": "Courte préparation à2,25s, traction culminant2,5s, arrêt net puis réajustement.",
+      "contacts": "Tissu lié aux deux moufles ; extrémité au sol bloquée.",
+      "information_for_viewer": "L’objet résiste parce que MOU marche dessus, pas parce qu’il est vivant.",
+      "audio_events": [
+        {
+          "name": "traction_1",
+          "start": 2.25,
+          "duration": 0.4,
+          "kind": "cloth_pull",
+          "peak_dbfs": -23.0
+        }
+      ],
+      "silences_overlapping": [],
+      "source_action": "Première traction arrêtée net ; intrigué, il réajuste sa prise"
+    },
+    {
+      "id": "traction_2",
+      "start_seconds": 4.0,
+      "end_seconds": 6.0,
+      "first_frame": 96,
+      "end_frame_exclusive": 144,
+      "shot": "Même plan ; bien dégager le pied bloquant et le bord du tissu.",
+      "intention": "Gagner contre ce torchon obstiné.",
+      "acting_and_gaze": "Effort sincère, mâchoire retenue ; yeux sur les mains plutôt que sur le pied.",
+      "anticipation_and_timing": "Anticipation4–4,25s, traction plus forte jusqu’au pic5s, effort maintenu.",
+      "contacts": "Mains vers le menton, corps en arrière ; tissu tendu devant le torse, sans allongement élastique.",
+      "information_for_viewer": "Le spectateur a une avance claire sur MOU.",
+      "audio_events": [
+        {
+          "name": "traction_2",
+          "start": 4.25,
+          "duration": 0.8,
+          "kind": "cloth_pull",
+          "peak_dbfs": -21.0
+        }
+      ],
+      "silences_overlapping": [],
+      "source_action": "Tire plus fort vers son menton ; tissu tendu devant le corps, pied bloquant bien visible"
+    },
+    {
+      "id": "decouverte",
+      "start_seconds": 6.0,
+      "end_seconds": 7.25,
+      "first_frame": 144,
+      "end_frame_exclusive": 174,
+      "shot": "Continuité du plan, ligne du tissu jusqu’au pied visible.",
+      "intention": "Comprendre ce qui bloque.",
+      "acting_and_gaze": "Le regard descend de la prise au tissu puis au pied ; compréhension brève.",
+      "anticipation_and_timing": "Le déplacement des yeux précède la décision de lever le pied ; pas de pause décorative.",
+      "contacts": "La prise reste ferme et l’effort présent ; pied encore sur le tissu avant la libération.",
+      "information_for_viewer": "MOU découvre seulement maintenant la cause que le public connaît.",
+      "audio_events": [],
+      "silences_overlapping": [
+        {
+          "start": 6.0,
+          "end": 7.25,
+          "reason": "découverte du pied"
+        }
+      ],
+      "source_action": "Son regard suit le tissu et découvre son propre pied ; bref instant de compréhension"
+    },
+    {
+      "id": "liberation",
+      "start_seconds": 7.25,
+      "end_seconds": 7.5,
+      "first_frame": 174,
+      "end_frame_exclusive": 180,
+      "shot": "Aucune coupe : pied, mains et trajet doivent appartenir à la même action.",
+      "intention": "Libérer le torchon tout en continuant à tirer.",
+      "acting_and_gaze": "Attention au pied, puis yeux pris de court par l’arrivée du tissu.",
+      "anticipation_and_timing": "La levée de l’appui précède le mouvement libre du bord, les mains l’entraînent vers le haut.",
+      "contacts": "Un pied se lève ; les deux mains restent liées au tissu ; l’autre pied garde l’appui au sol.",
+      "information_for_viewer": "La force déjà exercée explique l’accident ; le torchon ne vole pas seul.",
+      "audio_events": [
+        {
+          "name": "envol_tissu",
+          "start": 7.25,
+          "duration": 0.25,
+          "kind": "cloth_swish",
+          "peak_dbfs": -18.0
+        }
+      ],
+      "silences_overlapping": [],
+      "source_action": "Soulève le pied en maintenant sa traction ; ses mains entraînent le tissu vers son visage"
+    },
+    {
+      "id": "flap_tenue",
+      "start_seconds": 7.5,
+      "end_seconds": 8.5,
+      "first_frame": 180,
+      "end_frame_exclusive": 204,
+      "shot": "Tissu devant le visage, bras et deux moufles lisibles dans leurs contacts.",
+      "intention": "Subir un bref arrêt.",
+      "acting_and_gaze": "Visage caché ; ne pas le remplacer par une nouvelle grimace gratuite.",
+      "anticipation_and_timing": "Impact à7,5s, petit tassement éventuel puis arrêt, sans rebond répété.",
+      "contacts": "Tissu devant le visage et tenu par les deux mains ; aucune téléportation de couche.",
+      "information_for_viewer": "Le public comprend où le torchon a fini.",
+      "audio_events": [
+        {
+          "name": "flap",
+          "start": 7.5,
+          "duration": 0.12,
+          "kind": "cloth_flap",
+          "peak_dbfs": -9.0
+        }
+      ],
+      "silences_overlapping": [
+        {
+          "start": 7.75,
+          "end": 9.0,
+          "reason": "arrêt comique après contact"
+        }
+      ],
+      "source_action": "FLAP sur le visage, bref arrêt sous le tissu"
+    },
+    {
+      "id": "anticipation_reveal",
+      "start_seconds": 8.5,
+      "end_seconds": 9.0,
+      "first_frame": 204,
+      "end_frame_exclusive": 216,
+      "shot": "Même cadrage, garder la silhouette de MOU sous le tissu.",
+      "intention": "Chercher comment se dégager.",
+      "acting_and_gaze": "L’intention se lit par les mains, pas une parole.",
+      "anticipation_and_timing": "Très petite préparation des mains, aucun nouveau tirage spectaculaire.",
+      "contacts": "Les deux prises restent cohérentes avec le bord qui va descendre.",
+      "information_for_viewer": "Préparer la révélation sans rallonger la chute.",
+      "audio_events": [],
+      "silences_overlapping": [
+        {
+          "start": 7.75,
+          "end": 9.0,
+          "reason": "arrêt comique après contact"
+        }
+      ],
+      "source_action": "Petite anticipation des mains pour abaisser le torchon"
+    },
+    {
+      "id": "revelation",
+      "start_seconds": 9.0,
+      "end_seconds": 10.5,
+      "first_frame": 216,
+      "end_frame_exclusive": 252,
+      "shot": "Deux yeux émergent au-dessus de la lisière abaissée.",
+      "intention": "Retrouver la vue.",
+      "acting_and_gaze": "Yeux d’abord dégagés, puis attention au pied ; aucune pose sereine vers le spectateur.",
+      "anticipation_and_timing": "Les mains abaissent progressivement le tissu, pas un effacement par fondu.",
+      "contacts": "Bord du tissu suit les mains et passe sous les yeux ; deux mitaines restent présentes.",
+      "information_for_viewer": "Le même MOU réapparaît, pas un nouveau personnage.",
+      "audio_events": [
+        {
+          "name": "revelation",
+          "start": 9.0,
+          "duration": 0.85,
+          "kind": "cloth_reveal",
+          "peak_dbfs": -26.0
+        }
+      ],
+      "silences_overlapping": [],
+      "source_action": "Les deux mains abaissent le tissu : les deux yeux émergent"
+    },
+    {
+      "id": "accusation",
+      "start_seconds": 10.5,
+      "end_seconds": 11.5,
+      "first_frame": 252,
+      "end_frame_exclusive": 276,
+      "shot": "Garder pied et yeux visibles dans le même plan.",
+      "intention": "Reporter la faute sur son propre pied.",
+      "acting_and_gaze": "Pupilles dirigées vers ce pied, sourcils contrariés ; mauvaise foi plutôt que honte.",
+      "anticipation_and_timing": "Le regard désigne le pied avant la tenue finale.",
+      "contacts": "Tissu retenu sous les yeux ; position stabilisée, aucun geste ajouté pour remplir.",
+      "information_for_viewer": "La réaction révèle MOU et clôt l’histoire sans réplique.",
+      "audio_events": [],
+      "silences_overlapping": [],
+      "source_action": "Les yeux désignent le pied et le regard devient accusateur"
+    },
+    {
+      "id": "fin",
+      "start_seconds": 11.5,
+      "end_seconds": 12.0,
+      "first_frame": 276,
+      "end_frame_exclusive": 288,
+      "shot": "Pose finale tenue, coupe directe à12s.",
+      "intention": "Soutenir son accusation absurde.",
+      "acting_and_gaze": "Même regard vers le pied et même expression.",
+      "anticipation_and_timing": "Aucun mouvement nouveau pendant cette demi-seconde.",
+      "contacts": "Deux mains et deux pieds du modèle conservés, pose strictement identique.",
+      "information_for_viewer": "Fin sans carton, rire nerveux ou sortie supplémentaire.",
+      "audio_events": [],
+      "silences_overlapping": [
+        {
+          "start": 11.5,
+          "end": 12.0,
+          "reason": "regard final"
+        }
+      ],
+      "source_action": "Dernier regard tenu une demi-seconde en silence"
+    }
+  ],
+  "audio_events": [
+    {
+      "name": "prise_tissu",
+      "start": 1.5,
+      "duration": 0.15,
+      "kind": "cloth_grip",
+      "peak_dbfs": -26.0
+    },
+    {
+      "name": "traction_1",
+      "start": 2.25,
+      "duration": 0.4,
+      "kind": "cloth_pull",
+      "peak_dbfs": -23.0
+    },
+    {
+      "name": "traction_2",
+      "start": 4.25,
+      "duration": 0.8,
+      "kind": "cloth_pull",
+      "peak_dbfs": -21.0
+    },
+    {
+      "name": "envol_tissu",
+      "start": 7.25,
+      "duration": 0.25,
+      "kind": "cloth_swish",
+      "peak_dbfs": -18.0
+    },
+    {
+      "name": "flap",
+      "start": 7.5,
+      "duration": 0.12,
+      "kind": "cloth_flap",
+      "peak_dbfs": -9.0
+    },
+    {
+      "name": "revelation",
+      "start": 9.0,
+      "duration": 0.85,
+      "kind": "cloth_reveal",
+      "peak_dbfs": -26.0
+    }
+  ],
+  "silences": [
+    {
+      "start": 6.0,
+      "end": 7.25,
+      "reason": "découverte du pied"
+    },
+    {
+      "start": 7.75,
+      "end": 9.0,
+      "reason": "arrêt comique après contact"
+    },
+    {
+      "start": 11.5,
+      "end": 12.0,
+      "reason": "regard final"
+    }
+  ],
+  "validation_scope": "Consignes écrites et cohérence temporelle seulement ; essais de contact, lecture du montage et contrôles audio à consigner après production réelle."
+}

@@ -1,0 +1,84 @@
+{
+  "video_sha256": "41d3df2f79c816f41e022d8138167055970014253c6994219976f866ebd70ba7",
+  "events": [
+    {
+      "name": "prise_tissu",
+      "scheduled_start": 1.5,
+      "decoded_onset_seconds": 1.5041875,
+      "difference_seconds": 0.004187500000000011,
+      "peak_linear": 0.04990755021572113
+    },
+    {
+      "name": "traction_1",
+      "scheduled_start": 2.25,
+      "decoded_onset_seconds": 2.2506666666666666,
+      "difference_seconds": 0.0006666666666665932,
+      "peak_linear": 0.07072369754314423
+    },
+    {
+      "name": "traction_2",
+      "scheduled_start": 4.25,
+      "decoded_onset_seconds": 4.250979166666666,
+      "difference_seconds": 0.000979166666666309,
+      "peak_linear": 0.08874522149562836
+    },
+    {
+      "name": "envol_tissu",
+      "scheduled_start": 7.25,
+      "decoded_onset_seconds": 7.261625,
+      "difference_seconds": 0.01162500000000044,
+      "peak_linear": 0.12526871263980865
+    },
+    {
+      "name": "flap",
+      "scheduled_start": 7.5,
+      "decoded_onset_seconds": 7.500020833333333,
+      "difference_seconds": 2.083333333313675e-05,
+      "peak_linear": 0.35367682576179504
+    },
+    {
+      "name": "revelation",
+      "scheduled_start": 9.0,
+      "decoded_onset_seconds": 9.019208333333333,
+      "difference_seconds": 0.019208333333333272,
+      "peak_linear": 0.05010006204247475
+    }
+  ],
+  "silences": [
+    {
+      "start": 6.0,
+      "end": 7.25,
+      "peak_linear": 8.541918759874534e-06
+    },
+    {
+      "start": 7.75,
+      "end": 9.0,
+      "peak_linear": 2.4022626803343883e-06
+    },
+    {
+      "start": 11.5,
+      "end": 12.0,
+      "peak_linear": 0.0
+    }
+  ],
+  "audio_peak_linear": 0.35367682576179504,
+  "original_arm_fragments_all_288_poses": true,
+  "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "limits": "Audio réellement décodé mais non écouté ; contrôle des placements et silences, pas appréciation du timbre sur appareil.",
+  "frame_comparisons": {
+    "covered_hold": {
+      "times": [
+        7.75,
+        8.25
+      ],
+      "mean_delta_0_255": 0.010940072016460906
+    },
+    "final_hold": {
+      "times": [
+        11.5,
+        11.958333333333334
+      ],
+      "mean_delta_0_255": 0.001574074074074074
+    }
+  }
+}

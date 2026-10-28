@@ -1,0 +1,28 @@
+{
+  "episode": "02",
+  "frames": 288,
+  "fps": 24,
+  "source_sha256": "5248e79b6a2a5fb0195368f2d1c25e54504e971a3953ea5b92212d7e4e41371c",
+  "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "original_arm_fragments_exact_all_frames": true,
+  "two_hands_all_frames": true,
+  "unique_ids_all_frames": true,
+  "pinned_frames_checked": 174,
+  "left_anchor_inside_cloth_and_foot": true,
+  "right_sole_perimeter_tests": 12528,
+  "right_sole_outside_cloth": true,
+  "free_edge_static_through_release_frame": true,
+  "grip_error_max_units_after_contact": 4.731190808584878e-14,
+  "minimum_grip_separation_units": 51.22343763053165,
+  "wrist_surge_up_units_7_25_to_7_5": [
+    23.600677633211205,
+    24.02615823839386
+  ],
+  "pixel_foot_occlusion_and_visible_coral_verified_at": [
+    0,
+    2.5,
+    5
+  ],
+  "final_pose_exactly_static_12_frames": true,
+  "limits": "Géométrie et pixels SVG ; critique du mouvement/MP4 distincte. Tissu paramétrique plissé, pas simulation physique."
+}

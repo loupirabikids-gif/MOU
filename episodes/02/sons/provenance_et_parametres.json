@@ -1,0 +1,189 @@
+{
+  "episode": "MOU — Le torchon",
+  "revision": 1,
+  "provenance": "Six effets procéduraux originaux synthétisés localement par Python/NumPy. Noyaux de bruit filtré et enveloppes repris du savoir-faire local MOU ; aucune ressource sonore externe.",
+  "outils": [
+    "Python (PSF)",
+    "NumPy (BSD-3-Clause)",
+    "wave (bibliothèque standard)"
+  ],
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "duration_seconds": 12.0,
+  "chronologie_sha256": "301bbca381a513c0b4f1b212fc08f1463e5e4a8f6a77075411eb4d4280a343d7",
+  "random_seeds": {
+    "prise_tissu": 7201,
+    "traction_1": 7202,
+    "traction_2": 7203,
+    "envol_tissu": 7204,
+    "flap": 7205,
+    "revelation": 7206
+  },
+  "voice": false,
+  "continuous_music": false,
+  "events": [
+    {
+      "name": "prise_tissu",
+      "start": 1.5,
+      "duration": 0.15,
+      "kind": "cloth_grip",
+      "peak_dbfs": -26.0,
+      "file": "prise_tissu.wav",
+      "seed": 7201,
+      "start_sample": 72000,
+      "samples": 7200,
+      "end_seconds": 1.65,
+      "peak_dbfs_measured": -26.0,
+      "parameters": {
+        "band_hz": [
+          270,
+          3100
+        ],
+        "fold_grains": 5,
+        "intention": "prise courte et mate d’une lisière de tissu"
+      }
+    },
+    {
+      "name": "traction_1",
+      "start": 2.25,
+      "duration": 0.4,
+      "kind": "cloth_pull",
+      "peak_dbfs": -23.0,
+      "file": "traction_1.wav",
+      "seed": 7202,
+      "start_sample": 108000,
+      "samples": 19200,
+      "end_seconds": 2.65,
+      "peak_dbfs_measured": -23.0,
+      "parameters": {
+        "band_hz": [
+          180,
+          3300
+        ],
+        "pressure_lobes_fraction": [
+          0.25,
+          0.65
+        ],
+        "fold_grains": 9,
+        "intention": "frottement de coton tendu, irrégulier et sans ressort"
+      }
+    },
+    {
+      "name": "traction_2",
+      "start": 4.25,
+      "duration": 0.8,
+      "kind": "cloth_pull",
+      "peak_dbfs": -21.0,
+      "file": "traction_2.wav",
+      "seed": 7203,
+      "start_sample": 204000,
+      "samples": 38400,
+      "end_seconds": 5.05,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "band_hz": [
+          180,
+          3300
+        ],
+        "pressure_lobes_fraction": [
+          0.25,
+          0.65
+        ],
+        "fold_grains": 18,
+        "intention": "frottement de coton tendu, irrégulier et sans ressort"
+      }
+    },
+    {
+      "name": "envol_tissu",
+      "start": 7.25,
+      "duration": 0.25,
+      "kind": "cloth_swish",
+      "peak_dbfs": -18.0,
+      "file": "envol_tissu.wav",
+      "seed": 7204,
+      "start_sample": 348000,
+      "samples": 12000,
+      "end_seconds": 7.5,
+      "peak_dbfs_measured": -18.0,
+      "parameters": {
+        "band_hz": [
+          140,
+          4300
+        ],
+        "crescendo": true,
+        "intention": "air déplacé par le tissu depuis la libération jusqu’au contact"
+      }
+    },
+    {
+      "name": "flap",
+      "start": 7.5,
+      "duration": 0.12,
+      "kind": "cloth_flap",
+      "peak_dbfs": -9.0,
+      "file": "flap.wav",
+      "seed": 7205,
+      "start_sample": 360000,
+      "samples": 5760,
+      "end_seconds": 7.62,
+      "peak_dbfs_measured": -9.0,
+      "parameters": {
+        "main_band_hz": [
+          65,
+          1400
+        ],
+        "crinkle_band_hz": [
+          700,
+          4200
+        ],
+        "main_decay_seconds": 0.019,
+        "secondary_fold_offset_seconds": 0.023,
+        "attack_seconds": 0.0003,
+        "intention": "un FLAP mat de tissu sur le visage, pas un coup dur"
+      }
+    },
+    {
+      "name": "revelation",
+      "start": 9.0,
+      "duration": 0.85,
+      "kind": "cloth_reveal",
+      "peak_dbfs": -26.0,
+      "file": "revelation.wav",
+      "seed": 7206,
+      "start_sample": 432000,
+      "samples": 40800,
+      "end_seconds": 9.85,
+      "peak_dbfs_measured": -26.0,
+      "parameters": {
+        "band_hz": [
+          200,
+          2600
+        ],
+        "fold_grains": 10,
+        "intention": "deux mains abaissent doucement le tissu ; pas d’accent émotionnel"
+      }
+    }
+  ],
+  "silences": [
+    {
+      "start": 6.0,
+      "end": 7.25,
+      "reason": "découverte du pied",
+      "exact_pcm_silence": true
+    },
+    {
+      "start": 7.75,
+      "end": 9.0,
+      "reason": "arrêt comique après contact",
+      "exact_pcm_silence": true
+    },
+    {
+      "start": 11.5,
+      "end": 12.0,
+      "reason": "regard final",
+      "exact_pcm_silence": true
+    }
+  ],
+  "reproduction": ".venv/bin/python episodes/02/sources/son.py",
+  "limits": "Contrôles numériques PCM, pas d’écoute humaine, mobile ni test public."
+}
