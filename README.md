@@ -1,18 +1,18 @@
 # MOU
 
-**Encore une feuille — version carotte avec son, 29 secondes.**
-MOU remue, ajoute une tomate et découpe une carotte. Chaque petit contact
-déclenche un lavage et beaucoup trop de papier. Les quatre rituels accélèrent,
-la poubelle se remplit ; à la fin, une main tente d’arrêter l’autre.
+**Encore une feuille — version corrigée avec son, 30 secondes.**
+MOU cuisine et gaspille du papier après chaque contact. Le rouleau diminue
+à chaque tirage. Après trois gros gaspillages, il ne reste qu’un minuscule
+bout : MOU sèche sa grande moufle avec une application absurde.
 
-[![Encore une feuille](episodes/03/carotte_v4/MOU_Encore_une_feuille_apercu.gif)](episodes/03/carotte_v4/MOU_Encore_une_feuille.mp4?raw=true)
+[![Encore une feuille](episodes/03/carotte_v5/MOU_Encore_une_feuille_apercu.gif)](episodes/03/carotte_v5/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Voir le MP4 avec son,1080×1920](episodes/03/carotte_v4/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Version muette](episodes/03/carotte_v4/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/carotte_v4/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/carotte_v4/CONTROLE.txt)
-- [Chronologie](episodes/03/carotte_v4/chronologie.json) · [Critiques et corrections](episodes/03/carotte_v4/controle/)
+- **[Voir le MP4 avec son,1080×1920](episodes/03/carotte_v5/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Version muette](episodes/03/carotte_v5/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/carotte_v5/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/carotte_v5/CONTROLE.txt)
+- [Chronologie](episodes/03/carotte_v5/chronologie.json) · [Critiques et corrections](episodes/03/carotte_v5/controle/)
 - [Direction de jeu et expressions](episodes/03/developpement/expressions_v4/) · [Recherche d’outils gratuits](recherche/README.md)
-- [Montage précédent de 26 s conservé](episodes/03/film/)
+- [Version précédente de 29 s conservée](episodes/03/carotte_v4/) · [Montage de 26 s](episodes/03/film/)
 - [Placement validé](episodes/03/placement/) · [Décor validé](episodes/03/decor/)
 
 Le décor, le placement et le [test de remuage](episodes/03/test_remuer/) validés
@@ -82,7 +82,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant et ses sources se trouvent dans `episodes/03/carotte_v4/`.
+Le montage courant et ses sources se trouvent dans `episodes/03/carotte_v5/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

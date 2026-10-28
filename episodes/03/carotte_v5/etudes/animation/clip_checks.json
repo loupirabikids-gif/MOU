@@ -1,0 +1,36 @@
+{
+  "clips": [
+    {
+      "file": "MOU_carotte_raccord_v5.mp4",
+      "start_scene_time": 15.0,
+      "end_scene_time_exclusive": 17.833333333333332,
+      "fps": 12,
+      "frames": 34,
+      "dimensions": [
+        540,
+        960
+      ],
+      "muted": true,
+      "sha256": "b9822edc8a1811730e4e49be45d58f0d62fbeee49318fa48316ec456680f4c45"
+    },
+    {
+      "file": "MOU_petit_essuyage_v5.mp4",
+      "start_scene_time": 25.8,
+      "end_scene_time_exclusive": 27.383333333333333,
+      "fps": 12,
+      "frames": 19,
+      "dimensions": [
+        540,
+        960
+      ],
+      "muted": true,
+      "sha256": "d0b253e6574e18e72bed7c4764d010f29d57bb0b856ad05749c572dc25d21d44"
+    }
+  ],
+  "sources_sha256": {
+    "episodes/03/carotte_v5/sources/animation.py": "20936ce63ff51da8e5d74b9c5743ddd7fed07ced7b3793a2d5ed8be6a430d25a",
+    "episodes/03/carotte_v5/sources/art.py": "338a9fde230c5561ea430fa26387027e10e7452306f132f3e8f10f62604e321d",
+    "episodes/03/carotte_v5/sources/render.py": "6194d2be87e9462470ce38230374450ab56df043b81fc2f870d3b64bbeb78e8f"
+  },
+  "limits": "Gesture studies rendered from current source, not decoded samples of the full final movie."
+}

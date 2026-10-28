@@ -1,0 +1,56 @@
+{
+  "video": "episodes/03/carotte_v5/MOU_Encore_une_feuille_animatique_muette.mp4",
+  "sha256": "1d4efea252a4a62a4f8a053d2e571dfe3169928cbf95b6e4b9b7d91609cedea1",
+  "fps": 12,
+  "dimensions": [
+    540,
+    960
+  ],
+  "indices": [
+    193,
+    201,
+    210,
+    301,
+    310,
+    312,
+    314,
+    316,
+    318,
+    320,
+    322,
+    324,
+    326,
+    337,
+    340,
+    354
+  ],
+  "times": [
+    16.083333333333332,
+    16.75,
+    17.5,
+    25.083333333333332,
+    25.833333333333332,
+    26.0,
+    26.166666666666668,
+    26.333333333333332,
+    26.5,
+    26.666666666666668,
+    26.833333333333332,
+    27.0,
+    27.166666666666668,
+    28.083333333333332,
+    28.333333333333332,
+    29.5
+  ],
+  "method": "Direct decode of corrected full silent animatic, no source/cache substitute.",
+  "retained_native_indices": [
+    193,
+    201,
+    210,
+    314,
+    318,
+    337,
+    354
+  ],
+  "retention": "Other working PNGs removed after review/contact sheets; full 16 decoded indices retained."
+}

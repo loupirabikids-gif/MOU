@@ -1,0 +1,70 @@
+MOU — ENCORE UNE FEUILLE, LE DERNIER BOUT (V5)
+Contrôles du 28 octobre 2026 — Africa/Casablanca
+
+LIVRAISON
+30 s, 1080×1920, 24 images/s, 720 images, H.264/yuv420p.
+Version avec AAC 48 kHz stéréo et version muette ; mêmes images compressées.
+Animatique complète 540×960 / 12 fps, GIF 432×768 de 30 s et archive des sources.
+
+CORRECTIONS DEMANDÉES
+Couteau remplacé par une lame de cuisine plus courte, large et pointue avec
+manche distinct. Le ventre du tranchant descend jusqu’à la planche aux deux
+coupes, 16,05 et 16,75 s. Carotte plus longue, épaisse et effilée ; deux rondelles
+restent sur la planche et le couteau est reposé avant le lavabo.
+Rouleau consommé à chaque tirage, diamètre réduit ensuite conservé ; support,
+tube et hauteur constants. Trois gros prélèvements puis dernier bout 26×40.
+Quatrième lavage : surprise devant le petit morceau et le carton nu, deux
+frottements soigneux sur la moufle mouillée, petit froissage et minuscule jet.
+La boulette 4 (rayon 11) rejoint les trois grosses, puis MOU admire sa main propre.
+La retenue des mains de la v4 est remplacée ; aucun cinquième rituel.
+Les trois premiers rituels accélèrent ; la découverte du dernier bout crée
+une rupture et un ralentissement de jeu, au lieu d’accélérer le gag illisible.
+
+RETOUCHES ISSUES DE LA CRITIQUE DES VRAIS RENDUS
+Onglet raccourci avant le quatrième tirage pour éviter sa disparition magique.
+Pointe de lame rendue plus nette, sans changer longueur ni contact de coupe.
+Engagement du bloc réduit à+45px horizontal/+75px vertical pendant la découpe :
+l’épaule droite reste rattachée visiblement au corps, dégagée du rouleau.
+Petit séchage porté à deux frottements plus amples, au contact des deux moufles.
+Voir controle/CORRECTIONS.md et les critiques avant/après.
+
+MODÈLE ET STRUCTURE
+Rig original inchangé ; huit fonctions de dessin, articulation, solveur et
+raccord local des bras identiques à la base corrigée. Aucune main redessinée.
+Deux mains, identifiants et références SVG vérifiés sur 720 états ; erreur des
+prises programmées maximale 0.00000007 px. Décor maître et sourcesv4 conservés.
+Stock du rouleau monotone de 1 à 0 ; aucun regonflement entre les plans.
+Papiers précédents conservés dans la poubelle, quatrième arrivée minuscule.
+Gros plans lavabo : robinet, lavabo et main/avant-bras uniquement, proportion 0,70.
+
+EXPORTS RÉELS
+Décodage intégral des deux MP4 sans erreur. Flux H.264 identique entre versions.
+24 images du MP4 comparées à des rendus SVG frais indépendants du cache,
+avec régions mains, épaules, couteau/carotte, rouleau, robinet et poubelle.
+Toutes passent le seuil moyen 3/255 ; maximum moyen image entière :
+1.686889/255.
+Rapport : controle/audit_final.json.
+
+SON
+48 événements originaux synthétisés localement ; les trois premiers rituels et
+les effets de cuisine sont conservés. Dernier papier : tirage/déchirure courts,
+deux frottements doux, petit froissage, vol et impact légers. Pas de dialogue,
+musique ou son téléchargé. Dernière tenue 29,4–30 s avec cuisson seule.
+WAV stéréo 48 kHz / 16 bits ; pic -4.00  dBFS, 0 saturation.
+AAC décodé : pic -4.21 dBFS, aucun signal saturé.
+Corrélation AAC/WAV sans décalage : 0.997372.
+Provenance et paramètres : audio/provenance.json.
+
+CRITIQUE ET LIMITES
+Études, premier montage puis nouvelle animatique corrigée examinés par images
+successives. Contrôle final indépendant de 16 images réellement décodées, dont
+les prises et le petit essuyage ouverts en 1080. Pas de défaut nouveau retenu
+sur ce contrôle ciblé. Ce travail reste distinct d’une projection continue,
+d’une écoute perceptive sur téléphone et d’un retour de public. Aucune métrique
+d’audience ou compréhension garantie n’est revendiquée. Montage proposé au
+jugement de l’utilisatrice ; ancienne version 29 s conservée dans carotte_v4/.
+
+SHA-256 MP4 avec son :
+efd91fb3499847a1a25a3eb0b741113c10fb3fc25ad1ffd32d86515c7f135e2c
+SHA-256 MP4 muet :
+92e8b88b20c52a65ccc08a14200799b0279b161568912a8c54c5ad8d2cf3ecdf

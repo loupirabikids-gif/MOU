@@ -6,6 +6,21 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Dernier retour sur la v4 : « knife and carrot are not good », le rouleau doit
+diminuer, et la fin mérite mieux. Révision ciblée fabriquée dans
+`episodes/03/carotte_v5/`, chronologie locale de 30 s : carotte plus lisible,
+véritable couteau de cuisine, volume du rouleau consommé à chaque tirage.
+Le quatrième lavage aboutit au dernier minuscule bout, traité avec un soin
+absurde après trois gros gaspillages, puis jeté comme une petite boulette.
+Ce choix remplace la retenue des mains de la v4 ; aucun cinquième lavage.
+Garder le décor, le personnage, les deux moufles et les fonctions natives des
+bras/raccords. Le déplacement du bloc vers la planche (+45 px horizontal,
++75 px vertical) sert la prise du couteau en gardant l’épaule dégagée du
+rouleau, sans étirer les membres. Le petit séchage montre deux frottements au
+contact. La v4 reste conservée pour comparaison. Voir `controle/` pour les
+observations, corrections et limites de la critique. Attendre le retour de
+l’utilisatrice sur la v5.
+
 Accord courant « vas y » après la planche d’expressions : révision
 carotte/accélération fabriquée dans `episodes/03/carotte_v4/`. Sa chronologie locale fixe
 29 s, quatre rituels, deux coupes de carotte et une interception finale avant

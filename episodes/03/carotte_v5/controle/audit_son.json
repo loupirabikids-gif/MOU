@@ -1,0 +1,190 @@
+{
+  "episode": "03",
+  "title": "Encore une feuille — le dernier bout",
+  "timeline_version": 5,
+  "duration_seconds": 30.0,
+  "samples_per_channel": 1440000,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "event_count": 48,
+  "peak_dbfs": -4.0,
+  "premaster_peak_dbfs": -12.412,
+  "master_gain_db": 8.412,
+  "rms_dbfs_left_right": [
+    -25.98,
+    -29.581
+  ],
+  "dc_mean_left_right": [
+    1.795641581217448e-06,
+    9.489695231119792e-07
+  ],
+  "clipped_samples": 0,
+  "water_intervals": [
+    {
+      "cycle": 1,
+      "scheduled": [
+        3.23,
+        5.05
+      ],
+      "rendered": [
+        3.23,
+        5.05
+      ],
+      "first_above_one_percent_seconds": 3.2315416666666668
+    },
+    {
+      "cycle": 2,
+      "scheduled": [
+        10.35,
+        11.9
+      ],
+      "rendered": [
+        10.35,
+        11.9
+      ],
+      "first_above_one_percent_seconds": 10.352208333333333
+    },
+    {
+      "cycle": 3,
+      "scheduled": [
+        18.28,
+        19.35
+      ],
+      "rendered": [
+        18.28,
+        19.35
+      ],
+      "first_above_one_percent_seconds": 18.281916666666667
+    },
+    {
+      "cycle": 4,
+      "scheduled": [
+        23.24,
+        24.22
+      ],
+      "rendered": [
+        23.24,
+        24.22
+      ],
+      "first_above_one_percent_seconds": 23.242270833333333
+    }
+  ],
+  "landing_onsets": [
+    {
+      "cycle": 1,
+      "scheduled_seconds": 8.22,
+      "onset_seconds": 8.220041666666667
+    },
+    {
+      "cycle": 2,
+      "scheduled_seconds": 14.77,
+      "onset_seconds": 14.770083333333334
+    },
+    {
+      "cycle": 3,
+      "scheduled_seconds": 21.77,
+      "onset_seconds": 21.770041666666668
+    },
+    {
+      "cycle": 4,
+      "scheduled_seconds": 28.1,
+      "onset_seconds": 28.100041666666666
+    }
+  ],
+  "tear_onsets": [
+    {
+      "cycle": 1,
+      "scheduled_seconds": 6.4,
+      "onset_seconds": 6.400145833333333
+    },
+    {
+      "cycle": 2,
+      "scheduled_seconds": 13.05,
+      "onset_seconds": 13.050104166666667
+    },
+    {
+      "cycle": 3,
+      "scheduled_seconds": 20.3,
+      "onset_seconds": 20.3000625
+    },
+    {
+      "cycle": 4,
+      "scheduled_seconds": 25.05,
+      "onset_seconds": 25.050104166666667
+    }
+  ],
+  "carrot_cut_onsets": [
+    {
+      "scheduled_seconds": 16.05,
+      "onset_seconds": 16.050041666666665
+    },
+    {
+      "scheduled_seconds": 16.75,
+      "onset_seconds": 16.750041666666668
+    }
+  ],
+  "final_hold_seconds": [
+    29.4,
+    30.0
+  ],
+  "final_hold_rms_dbfs": -46.363,
+  "final_hold_cooking_only": true,
+  "tiny_paper_cycle": 4,
+  "tiny_paper_events": [
+    {
+      "name": "c4_papier_deroule",
+      "kind": "tiny_paper_pull",
+      "start": 24.65,
+      "duration": 0.18,
+      "peak_dbfs": -28.0
+    },
+    {
+      "name": "c4_papier_dechire",
+      "kind": "tiny_paper_tear",
+      "start": 25.05,
+      "duration": 0.055,
+      "peak_dbfs": -25.0
+    },
+    {
+      "name": "c4_essuie_main",
+      "kind": "tiny_paper_wipe",
+      "start": 25.8,
+      "duration": 1.3,
+      "peak_dbfs": -28.0
+    },
+    {
+      "name": "c4_papier_froisse",
+      "kind": "tiny_paper_crumple",
+      "start": 27.1,
+      "duration": 0.15,
+      "peak_dbfs": -30.0
+    },
+    {
+      "name": "c4_papier_lache",
+      "kind": "tiny_paper_flight",
+      "start": 27.65,
+      "duration": 0.13,
+      "peak_dbfs": -38.0
+    },
+    {
+      "name": "c4_poubelle_impact",
+      "kind": "tiny_paper_land",
+      "start": 28.1,
+      "duration": 0.07,
+      "peak_dbfs": -31.0
+    }
+  ],
+  "reveal_seconds_without_explanatory_cue": [
+    25.05,
+    25.8
+  ],
+  "first_and_last_pcm_frame_silent": true,
+  "no_music": true,
+  "no_voice": true,
+  "no_external_samples": true,
+  "mix_sha256": "738d12c10eec8037735864fe4fce53876c469aec6fae39cec9e092b0ee02fe5e",
+  "source_sha256": "f135be158713f0c08e38a315607bc66a64de1e5cd5c09eba82e9466738eec808",
+  "chronologie_sha256": "9a8fb277d97cb82e7690764911f273f7f156c909e7f8541028e24b8faf32abd6",
+  "limits": "Contrôles numériques PCM et concordance avec les événements prévus. Pas d’écoute humaine, de contrôle haut-parleur mobile ni de validation des contacts dans la vidéo par ce rapport."
+}

@@ -1,0 +1,55 @@
+{
+  "video": "episodes/03/carotte_v5/MOU_Encore_une_feuille.mp4",
+  "sha256": "efd91fb3499847a1a25a3eb0b741113c10fb3fc25ad1ffd32d86515c7f135e2c",
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "indices": [
+    12,
+    168,
+    336,
+    379,
+    386,
+    402,
+    420,
+    504,
+    608,
+    626,
+    632,
+    638,
+    644,
+    650,
+    677,
+    710
+  ],
+  "times": [
+    0.5,
+    7.0,
+    14.0,
+    15.791666666666666,
+    16.083333333333332,
+    16.75,
+    17.5,
+    21.0,
+    25.333333333333332,
+    26.083333333333332,
+    26.333333333333332,
+    26.583333333333332,
+    26.833333333333332,
+    27.083333333333332,
+    28.208333333333332,
+    29.583333333333332
+  ],
+  "method": "Direct decode from final sound MP4, visual-only examination.",
+  "retained_native_indices": [
+    386,
+    402,
+    420,
+    638,
+    677,
+    710
+  ],
+  "retention": "Other working PNGs removed after review and creation of two contact sheets; all 16 decoded indices remain reproducible from the final MP4."
+}
