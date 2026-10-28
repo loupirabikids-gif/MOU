@@ -38,7 +38,7 @@ TOMATO_START = (530., 1268.)
 ROLL_EDGE = (810., 1175.)
 ROLL_HAND = (807., 1217.)
 BIN_LANDS = ((140., 1700.), (195., 1620.), (135., 1537.), (140., 1455.))
-BIN_RADII = (47., 53., 59., 11.)
+BIN_RADII = (47., 53., 59., 22.)
 BIN_ROTATIONS = (-12., 17., -8., 12.)
 SHOULDERS = {'left': (105., 291.), 'right': (297., 291.)}
 GENERIC_HIPS = .7
@@ -732,7 +732,7 @@ def scene_state(t):
                     u=progress(t,crumple)
                     left=point((508.,1220.),(500.,1230.),smooth(u))
                     right=point((526.,1225.),(520.,1230.),smooth(u))
-                    centre=point((516.,1205.),left,smooth(u))
+                    centre=point((516.,1190.),left,smooth(u))
                     paper={'mode':'crumple','center':centre,'start':left,'end':right,
                            'progress':u,'amount':amount,'in_front':True}
                     look=left;face(pose,'soulagement')

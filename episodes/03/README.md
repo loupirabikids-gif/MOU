@@ -6,7 +6,8 @@
 [sources](cuisine_v6/MOU_Encore_une_feuille_sources.zip?raw=true) et
 [contrôles](cuisine_v6/CONTROLE.txt). MOU se balance et siffle par moments ;
 les quatre rituels, la carotte, le rouleau qui diminue et la fin du minuscule
-bout sont conservés. [Références internet et limites](cuisine_v6/editorial/veille_cuisine_v6.md).
+bout sont conservés. Ce dernier morceau est agrandi pour être lisible sur
+téléphone. [Références internet et limites](cuisine_v6/editorial/veille_cuisine_v6.md).
 La [version précédente de 30 s](carotte_v5/), la [version de 29 s](carotte_v4/)
 et le montage de 26 s ci-dessous restent conservés.
 

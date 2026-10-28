@@ -6,6 +6,18 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Dernier retour : deux références YouTube fournies et dernier bout de papier trop
+petit. Correctif papier V7 dans le même dossier `episodes/03/cuisine_v6/` :
+feuille finale portée de 26 × 40 à 64 × 88 unités du décor, boulette de rayon
+11 à 22, cohérente en main, en vol et dans la poubelle. Même prise, mêmes
+bras/moufles, jeu, tablier, eau, son, caméra et chronologie de 30 s. Le papier
+reste plus petit que les trois grandes bandes gaspillées. Le départ du
+froissage reprend le contour et l’ancrage de la feuille tenue. La version
+précédente reste consultable au commit `0e188a3`. Références exactes et refus
+réseau dans `editorial/references_utilisatrice_v7.md` ; aucune des deux vidéos
+n’a pu être examinée. Ne pas inventer leur contenu. Contrôles et critique du
+correctif dans `controle/*papier_v7*`. Attendre le retour sur ce montage.
+
 Dernière demande : exagérer le débit d’eau, ajouter un tablier et montrer MOU
 qui cuisine joyeusement en sifflant par moments. Révision dans
 `episodes/03/cuisine_v6/`, 30 s, mêmes actions et fin du dernier petit bout.

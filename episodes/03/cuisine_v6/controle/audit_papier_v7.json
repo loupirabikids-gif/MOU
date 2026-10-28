@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "reference_commit": "0e188a34a94613d094f2bd87bd9dd9ddf3d59456",
+  "frames_compared": 720,
+  "unchanged_state_fields": [
+    "actor_transform",
+    "arm_meta",
+    "arms",
+    "bin_count",
+    "bin_lands",
+    "carrot",
+    "cycle",
+    "hands",
+    "intention",
+    "interception",
+    "left_root_correction",
+    "lever",
+    "look_target",
+    "phase",
+    "pose",
+    "rhythm",
+    "roll",
+    "shot",
+    "spoon",
+    "spoon_held",
+    "t",
+    "tomato",
+    "tomato_added",
+    "torso",
+    "water",
+    "wet_hand",
+    "whistle"
+  ],
+  "paper_before_dimensions": [
+    26,
+    40
+  ],
+  "paper_after_dimensions": [
+    64,
+    88
+  ],
+  "ball_before_radius": 11,
+  "ball_after_radius": 22,
+  "audio_mix_sha256": "b6caa180dfe9dc50906f902e61eaa97ca6301d1f9da3722d143da1dda5bee3b1",
+  "timeline_sha256": "fec2e489c622470c5ed8715b4a805aa233bd95e2a9a6203bc1acb333ab3dc190",
+  "limits": "Numeric preservation plus fresh study images; independent critic reviews the actual final export separately.",
+  "sources_sha256": {
+    "art.py": "f0b93ff580ec29486324c492c2aee681b31ac5050c4311535917f4761704711d",
+    "animation.py": "33f66efa582a8387261bb81c3129f3fa619dfec81b66b74515169a72fd2c0b0a",
+    "render.py": "689fd5d62128cd4858c74de9f36c3200e8880cb2b35b8308b2d5d9377f0cc939"
+  },
+  "all_fields_compared_except": [
+    "bin_radii",
+    "flying_ball",
+    "paper"
+  ],
+  "all_before_last_pull_paper_identical": true,
+  "renderer_unchanged": false,
+  "unchanged_svg_samples_before_last_pull": [
+    0.4166666666666667,
+    0.75,
+    1.0416666666666667,
+    1.4583333333333333,
+    2.5833333333333335,
+    3.5833333333333335,
+    4.5,
+    6.791666666666667,
+    8.291666666666666,
+    8.708333333333334,
+    9.0,
+    9.166666666666666,
+    11.0,
+    14.833333333333334,
+    15.208333333333334,
+    15.5,
+    15.708333333333334,
+    16.041666666666668,
+    16.75,
+    17.5,
+    18.708333333333332,
+    20.583333333333332,
+    21.833333333333332,
+    22.166666666666668,
+    22.291666666666668,
+    22.5,
+    23.583333333333332
+  ],
+  "crumple_geometry": {
+    "progress_samples": 101,
+    "self_intersections": 0,
+    "winding_preserved": true,
+    "area_monotonic_decreasing": true,
+    "start_end_local_area": [
+      5477.12,
+      1143.0144
+    ]
+  },
+  "renderer_change": "Encoding CRF16 to CRF14 only; scene assembly and camera unchanged."
+}

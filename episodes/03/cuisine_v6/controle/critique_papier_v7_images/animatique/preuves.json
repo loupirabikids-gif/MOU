@@ -1,0 +1,55 @@
+{
+  "video": "MOU_Encore_une_feuille_animatique.mp4",
+  "video_sha256": "bef3922f159fd8f551d54c733590cd15a4303fa43744ea0ce4caafe54b66b2a5",
+  "method": "Direct FFmpeg decoding of actual revised animatic; no SVG or PNG cache",
+  "frames": [
+    {
+      "frame": 318,
+      "time_seconds": 26.5,
+      "png": "00318.png",
+      "sha256": "a9084f54d64d5b6dad2fe5b3d67f358ff51d9fa01395e20b102de4e43fbe87e8"
+    },
+    {
+      "frame": 325,
+      "time_seconds": 27.083333333333332,
+      "png": "00325.png",
+      "sha256": "65d7f94f25b2fcb2ab387654985cf5075de41f964e678a1018e5035d15a1ba75"
+    },
+    {
+      "frame": 326,
+      "time_seconds": 27.166666666666668,
+      "png": "00326.png",
+      "sha256": "4cee4510510c0790ba4860e44fd78f906677ad8063386968823cd1eda77342a1"
+    },
+    {
+      "frame": 327,
+      "time_seconds": 27.25,
+      "png": "00327.png",
+      "sha256": "a6486def70d43968f7da95d474f06c589fc3a4850685c7d22fd980d380d78bbd"
+    },
+    {
+      "frame": 328,
+      "time_seconds": 27.333333333333332,
+      "png": "00328.png",
+      "sha256": "553d4ee5392de5906e778a5274281084109e3d7790f3709e10a6bf99cbed4dff"
+    },
+    {
+      "frame": 329,
+      "time_seconds": 27.416666666666668,
+      "png": "00329.png",
+      "sha256": "aff0b224536b6635334079691bd56fea63a3ea19ce26e71bb35f267801e37556"
+    },
+    {
+      "frame": 331,
+      "time_seconds": 27.583333333333332,
+      "png": "00331.png",
+      "sha256": "40d8c21782d45c45386dbff4e813a717871bba38ae562a5a7b260f199d8efc77"
+    },
+    {
+      "frame": 340,
+      "time_seconds": 28.333333333333332,
+      "png": "00340.png",
+      "sha256": "852c8614dcb5800ea906da26ac0021cffa4b7f8e591ed7825ed6b5779a0612bd"
+    }
+  ]
+}

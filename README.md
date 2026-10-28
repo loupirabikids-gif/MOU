@@ -4,7 +4,8 @@
 MOU cuisine joyeusement, se balance et siffle par moments. Chaque contact
 relance son lavage et son gaspillage de papier. Le rouleau diminue
 à chaque tirage. Après trois gros gaspillages, il ne reste qu’un minuscule
-bout : MOU sèche sa grande moufle avec une application absurde.
+bout : MOU sèche sa grande moufle avec une application absurde. Le dernier
+morceau est désormais plus grand pour rester lisible sur téléphone.
 
 [![Encore une feuille](episodes/03/cuisine_v6/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true)
 

@@ -2,6 +2,45 @@
 
 28 octobre 2026. Révision ciblée de la v5 à la demande de l’utilisatrice.
 
+## Correctif papier V7, après retour sur la V6
+
+Problème observé à 25,4–27,1 s : le dernier morceau de 26 × 40 unités ne
+reste qu’une petite tache entre les moufles sur un écran de téléphone.
+L’utilisatrice demande de l’agrandir. La critique indépendante confirme ce
+problème sur une image décodée du montage livré.
+
+Correction ciblée : morceau de 64 × 88, même prise et mêmes gestes. La
+boulette passe de rayon 11 à 22 en main, en vol et dans la poubelle. Elle
+reste plus petite que les trois grosses boulettes précédentes. Le départ du
+froissage reprend le même contour et le même ancrage que la feuille tenue,
+afin de conserver la continuité après son agrandissement.
+
+Les 720 états sont comparés à la version du commit `0e188a3` : 27 champs
+restent identiques, notamment corps, bras, mains, regards, expressions,
+tablier, cuisine, eau, caméra et rythme. Aucun son ni événement de chronologie
+n’est modifié. Les SVG échantillonnés avant le dernier tirage sont identiques.
+Voir `audit_papier_v7.json`, les études et les critiques `*papier_v7*`.
+
+Contrôle du froissage vers 27,30 s : l’interpolation vers une boulette
+miroir inversait le sens de parcours du contour et le croisait brièvement.
+Le sens des sommets a été rétabli sans changer la forme finale. Sur 101
+progressions, le contour reste simple, sa surface positive et décroissante.
+La critique reprend cette transition sur les nouvelles images réellement
+décodées ; l’ancienne attribution à une occultation par les mains est retirée.
+
+L’encodage du papier agrandi en CRF 16 dépassait légèrement la limite RGB
+dans trois zones de mains à 27,33 et 27,58 s : maximum 3,0491/255 pour un seuil
+de 3/255. Rapport conservé : `audit_final_papier_v7_crf16.json`. Le rendu final
+est réencodé en CRF 14 avec le seuil inchangé ; les comparaisons hors cache
+incluent maintenant quatre instants supplémentaires autour du froissage/jet.
+
+Les deux exemples fournis sont consignés dans
+`../editorial/references_utilisatrice_v7.md`. Leur accès renvoie un refus du
+proxy ; aucune adaptation du montage ne leur est attribuée sans visionnage.
+
+Les sections suivantes décrivent la V6 initiale, conservée dans Git avec son
+empreinte. Le contrôle courant après correctif est `audit_final.json`.
+
 ## Ajouts retenus
 
 - Jet d’eau environ trois à quatre fois plus large, impact et éclaboussures
@@ -26,8 +65,8 @@ Les sources gelées et les fonctions du rig étaient conformes : aucun indice
 de mauvaise géométrie ou de cache périmé n’a été trouvé.
 
 Correction : augmenter la qualité H.264 en CRF 16, réencoder les mêmes images,
-puis relancer le contrôleur sans changer son seuil. `audit_final.json` passe
-les 33 comparaisons hors cache et toutes les zones visibles. Le critique
+puis relancer le contrôleur sans changer son seuil. `audit_final_v6_avant_papier_v7.json` conserve
+les 33 comparaisons réussies hors cache et toutes les zones visibles. Le critique
 relit le véritable nouveau fichier ; l’ancienne preuve est identifiée comme
 historique. Ni le jeu, ni les dessins, ni le son n’ont changé pour cette étape.
 

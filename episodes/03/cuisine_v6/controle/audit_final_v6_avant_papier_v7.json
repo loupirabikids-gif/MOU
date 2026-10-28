@@ -1,0 +1,3258 @@
+{
+  "status": "passed",
+  "scope": "final exports only",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "duration_seconds": 30.0,
+  "expected_frames": 720,
+  "limits": "Technical deliverable, source freeze and cache checks. No claim of human listening, continuous viewing, comic success or user approval.",
+  "source_integrity": {
+    "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "native_arm_functions_identical_to_previous": [
+      "controls",
+      "native_grip",
+      "world_grip",
+      "solve_arm",
+      "arm_linear_transform",
+      "_connect_left_root",
+      "soften_left_root",
+      "draw_arm"
+    ],
+    "approved_decor_unchanged": {
+      "MOU_cuisine_decor.png": "3148c402d57d24c1dc8ef5c5731aa2c07346c3d03fcade74e84c9a7e7ec2f585",
+      "MOU_cuisine_decor.svg": "7e5292c066a8bdafca4ae42586fbf89ca62f6a45dcbca468bf9b748f19da2d49",
+      "calques/accessoires_cuisine.svg": "696a466f0e2cead08dc8d22f4dbf154845e23f61805f75c69058abb7c59242a0",
+      "calques/fond_cuisine.svg": "6a1fbe07858592ea7fec969022319d1eb48236965ab4bc8028056df68786d9dc",
+      "calques/ilot_cuisine.svg": "4427ee12e9d8e38b0251e89d4425ec39d644b865b96454f9d28dea35a74497f4",
+      "calques/accessoires_cuisine.png": "b34f43d32eb19e5a39dfcd8560243286b75f69d26dc515009f4ecf02ef40e968",
+      "calques/fond_cuisine.png": "1021d2067980154b2beb8899b44161c2309c77a86b8680bf513160476b83d44b",
+      "calques/ilot_cuisine.png": "d0f38a8bc0f77183fe73da340586f1eb5de1e36c10049bc499ca95fb304669ec"
+    },
+    "render_frozen_sources": {
+      "/workspace/MOU/episodes/03/cuisine_v6/sources/animation.py": "0483a9db4f9c5ecb5cb81432d3b2e4e4c044e743d008a8aad50de4bae01edf33",
+      "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "33f67c451f87db22617349193069325ead9d5a85710c0905721dac3a9419f479",
+      "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "8dd4186905545f44b88d6ac670c588b6b5056aacd3086cc1fb1c5e16a2b0ec11",
+      "/workspace/MOU/episodes/03/cuisine_v6/chronologie.json": "fec2e489c622470c5ed8715b4a805aa233bd95e2a9a6203bc1acb333ab3dc190"
+    },
+    "sound_source_sha256": "6b1dbc809152ef833faa13352c827b90c0cfbe681759a0eb93d84446e50337df",
+    "sound_audit_mix_sha256": "b6caa180dfe9dc50906f902e61eaa97ca6301d1f9da3722d143da1dda5bee3b1"
+  },
+  "sound_video": {
+    "path": "episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4",
+    "file_sha256": "cc835e735c4b7d055b725bc7157ffa158cc6333b774b2da4873804e84c32a233",
+    "size_bytes": 7245935,
+    "full_decode_without_errors": true,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "720",
+        "nb_read_frames": "720",
+        "duration": "30.000000"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "nb_frames": "1408",
+        "nb_read_frames": "1407",
+        "duration": "30.000000",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ]
+  },
+  "silent_video": {
+    "path": "episodes/03/cuisine_v6/MOU_Encore_une_feuille_muette.mp4",
+    "file_sha256": "939a1b74aad845c45229f135afad51271ba06c74d8a972f7830f5be63497ed08",
+    "size_bytes": 6622637,
+    "full_decode_without_errors": true,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "720",
+        "nb_read_frames": "720",
+        "duration": "30.000000"
+      }
+    ]
+  },
+  "identical_compressed_video_bitstreams": {
+    "sha256": "ca5e0d835466d574985ed45072c00516d2228c5f71d85e1ef60e90c7c455856e",
+    "bytes": 6614197
+  },
+  "audio": {
+    "wav_sha256": "b6caa180dfe9dc50906f902e61eaa97ca6301d1f9da3722d143da1dda5bee3b1",
+    "duration_seconds": 30.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "bits": 16,
+    "wav_clipped_samples": 0,
+    "wav_peak_dbfs": -4.000088,
+    "decoded_aac_peak_dbfs": -4.105696,
+    "wav_vs_decoded_aac_correlation_without_offset": 0.9987540533380744,
+    "wav_vs_decoded_aac_relative_rmse": 0.050239391051549814,
+    "first_and_last_wav_frame_silent": true
+  },
+  "uncached_frame_checks": {
+    "samples": [
+      {
+        "frame": 10,
+        "time_seconds": 0.4166666666666667,
+        "shot": "wide",
+        "phase": "remuer",
+        "fresh_svg_sha256": "8f11a1cd03db3d68ae0f81b10f8a32c4847a80c4297bea886019a66dfbe5cd40",
+        "fresh_png_sha256": "8409da817c253d6b165a2f7d8032b65009f6114f5114685433e031a947bfb3c0",
+        "full_frame_mean_abs_rgb_error_0_255": 1.532828,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.627567
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.372699
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.399862
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.159863
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              466,
+              1048,
+              651,
+              1187
+            ],
+            "mean_abs_rgb_error_0_255": 1.876946
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              409,
+              1152,
+              732,
+              1337
+            ],
+            "mean_abs_rgb_error_0_255": 2.506379
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              339,
+              1171,
+              480,
+              1312
+            ],
+            "mean_abs_rgb_error_0_255": 2.659105
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              498,
+              1208,
+              639,
+              1349
+            ],
+            "mean_abs_rgb_error_0_255": 2.464967
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              268,
+              991,
+              389,
+              1112
+            ],
+            "mean_abs_rgb_error_0_255": 1.772306
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              710,
+              991,
+              831,
+              1112
+            ],
+            "mean_abs_rgb_error_0_255": 2.189673
+          }
+        }
+      },
+      {
+        "frame": 18,
+        "time_seconds": 0.75,
+        "shot": "wide",
+        "phase": "remuer",
+        "fresh_svg_sha256": "fd66f3934150f9c562d4c2fb7a1abfc5df2cabd9fae1398118bc68b4b618282d",
+        "fresh_png_sha256": "594bf3594ccedad2aad287d292ae0cc76ffe9755034151d6ff6af7c597f05473",
+        "full_frame_mean_abs_rgb_error_0_255": 1.537552,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.627152
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.372138
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.4341
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.16039
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              466,
+              1049,
+              651,
+              1188
+            ],
+            "mean_abs_rgb_error_0_255": 2.40083
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              408,
+              1153,
+              731,
+              1338
+            ],
+            "mean_abs_rgb_error_0_255": 2.539548
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              322,
+              1178,
+              463,
+              1319
+            ],
+            "mean_abs_rgb_error_0_255": 2.651258
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              497,
+              1209,
+              638,
+              1350
+            ],
+            "mean_abs_rgb_error_0_255": 2.503596
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              268,
+              991,
+              389,
+              1112
+            ],
+            "mean_abs_rgb_error_0_255": 1.717301
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              709,
+              991,
+              830,
+              1112
+            ],
+            "mean_abs_rgb_error_0_255": 2.13403
+          }
+        }
+      },
+      {
+        "frame": 25,
+        "time_seconds": 1.0416666666666667,
+        "shot": "wide",
+        "phase": "remuer",
+        "fresh_svg_sha256": "733ecc034372f7f33d7e9a98da63600c2616f5ec0b9caa5bbf54a24546336272",
+        "fresh_png_sha256": "de844eeaa8ec74bee5434d783863ee044d3093a0e7734ea9945351517f0d584f",
+        "full_frame_mean_abs_rgb_error_0_255": 1.557377,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.622338
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.371814
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.424204
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.143664
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              449,
+              1043,
+              634,
+              1182
+            ],
+            "mean_abs_rgb_error_0_255": 2.052797
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              391,
+              1146,
+              714,
+              1331
+            ],
+            "mean_abs_rgb_error_0_255": 2.626709
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              352,
+              1150,
+              493,
+              1291
+            ],
+            "mean_abs_rgb_error_0_255": 2.766209
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              480,
+              1203,
+              621,
+              1344
+            ],
+            "mean_abs_rgb_error_0_255": 2.454722
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              251,
+              985,
+              372,
+              1106
+            ],
+            "mean_abs_rgb_error_0_255": 1.960818
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              692,
+              985,
+              813,
+              1106
+            ],
+            "mean_abs_rgb_error_0_255": 2.412221
+          }
+        }
+      },
+      {
+        "frame": 35,
+        "time_seconds": 1.4583333333333333,
+        "shot": "wide",
+        "phase": "remuer",
+        "fresh_svg_sha256": "f94aa188065d679dfe7705bff1302f3a3f384d4315572e7bb27f31a679992d09",
+        "fresh_png_sha256": "c338f2de3655fead6d36cafc4092c1149fea00d8f384bf5918e9fadb1728f2c1",
+        "full_frame_mean_abs_rgb_error_0_255": 1.54693,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.624346
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.371706
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.542773
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.242594
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              462,
+              1053,
+              647,
+              1192
+            ],
+            "mean_abs_rgb_error_0_255": 2.088055
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              405,
+              1156,
+              728,
+              1341
+            ],
+            "mean_abs_rgb_error_0_255": 2.644482
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              321,
+              1181,
+              462,
+              1322
+            ],
+            "mean_abs_rgb_error_0_255": 2.834197
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              493,
+              1212,
+              634,
+              1353
+            ],
+            "mean_abs_rgb_error_0_255": 2.544825
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              264,
+              995,
+              385,
+              1116
+            ],
+            "mean_abs_rgb_error_0_255": 1.79735
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              706,
+              995,
+              827,
+              1116
+            ],
+            "mean_abs_rgb_error_0_255": 2.309974
+          }
+        }
+      },
+      {
+        "frame": 62,
+        "time_seconds": 2.5833333333333335,
+        "shot": "wide",
+        "phase": "inspecter_main",
+        "fresh_svg_sha256": "34e77000c577ac99b9ce4c177cd8d93371031e3a05ccc3d54a38ac9ead58be12",
+        "fresh_png_sha256": "48f6130e134bd660bcc1285acf57216596ce9b95bfb1cf38499ddfd3d16a9f6e",
+        "full_frame_mean_abs_rgb_error_0_255": 1.526258,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.623988
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.368209
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.384194
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.201147
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1047,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 1.853192
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1150,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.434397
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              399,
+              1176,
+              540,
+              1317
+            ],
+            "mean_abs_rgb_error_0_255": 2.574032
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.336821
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              261,
+              989,
+              382,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.793639
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              703,
+              989,
+              824,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 2.152062
+          }
+        }
+      },
+      {
+        "frame": 86,
+        "time_seconds": 3.5833333333333335,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "3acf8c6a3255f78237d41409fd7b010c99aa12e44a753ecd1317e5c33b40571a",
+        "fresh_png_sha256": "5c305f9c305f5049a3e520af3ab2f2a4f47c4f009c53615a0d99ff8f6ccb8ae4",
+        "full_frame_mean_abs_rgb_error_0_255": 1.588185,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              288,
+              416,
+              988,
+              1076
+            ],
+            "mean_abs_rgb_error_0_255": 1.404982
+          },
+          "bin": {
+            "visible": false
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              135,
+              787,
+              696,
+              1348
+            ],
+            "mean_abs_rgb_error_0_255": 1.609215
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 108,
+        "time_seconds": 4.5,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "43c81eccf66a397c5e67dd8f7cb0d70673c7ea04133e1e0523fb02395f2b22e3",
+        "fresh_png_sha256": "74955f82686f5751c81451356e1bd852d099fe35606c11fd14765d17581a82ee",
+        "full_frame_mean_abs_rgb_error_0_255": 1.584223,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              288,
+              416,
+              988,
+              1076
+            ],
+            "mean_abs_rgb_error_0_255": 1.382779
+          },
+          "bin": {
+            "visible": false
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              120,
+              782,
+              681,
+              1343
+            ],
+            "mean_abs_rgb_error_0_255": 1.593535
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 163,
+        "time_seconds": 6.791666666666667,
+        "shot": "wide",
+        "phase": "papier",
+        "fresh_svg_sha256": "0c42db447e2a6a0b75f1b4c263bfd003c6c9c04f3a91b1df5eacec301d70a13b",
+        "fresh_png_sha256": "97c60f3a1212a65f8903d9374d11cb6270108262848aef50dc41f1b7085b3515",
+        "full_frame_mean_abs_rgb_error_0_255": 1.477789,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.559885
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.280253
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.401876
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.09429
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1047,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 1.733477
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1150,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.396262
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              424,
+              1149,
+              565,
+              1290
+            ],
+            "mean_abs_rgb_error_0_255": 2.482705
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              518,
+              1157,
+              659,
+              1298
+            ],
+            "mean_abs_rgb_error_0_255": 2.446775
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              261,
+              989,
+              382,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.642943
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              703,
+              989,
+              824,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.961478
+          }
+        }
+      },
+      {
+        "frame": 199,
+        "time_seconds": 8.291666666666666,
+        "shot": "bin",
+        "phase": "jeter",
+        "fresh_svg_sha256": "cd4e04c7a4253bee25b4ba21be32eb49b85ff0552af40e6ee690d2e921191c97",
+        "fresh_png_sha256": "899252339ac041b49eda4cb712144bc14294f7fcc18858183ed2553598d7058f",
+        "full_frame_mean_abs_rgb_error_0_255": 1.380048,
+        "regions": {
+          "faucet": {
+            "visible": false
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              92,
+              498,
+              793,
+              1604
+            ],
+            "mean_abs_rgb_error_0_255": 1.266487
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": false
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 209,
+        "time_seconds": 8.708333333333334,
+        "shot": "wide",
+        "phase": "ajouter_tomate",
+        "fresh_svg_sha256": "fda2c09abfb61ca7fef8add8acc3d27dfe50cb49f688fe1fc54c89faf1c2b2fc",
+        "fresh_png_sha256": "e74873e4bdb4fc81b2358be27feba47bb7dd1aeef3608899c3336af6e86679c0",
+        "full_frame_mean_abs_rgb_error_0_255": 1.476672,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.593685
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.392851
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.210454
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.058757
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1047,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 1.699086
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1150,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.252879
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1198,
+              600,
+              1339
+            ],
+            "mean_abs_rgb_error_0_255": 2.291686
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.339051
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              261,
+              989,
+              382,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.647975
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              703,
+              989,
+              824,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.946383
+          }
+        }
+      },
+      {
+        "frame": 216,
+        "time_seconds": 9.0,
+        "shot": "wide",
+        "phase": "ajouter_tomate",
+        "fresh_svg_sha256": "08423e0df6c66e38224e42fb022d5dfa85e5cd87c96b0e958f648a21a2558a3a",
+        "fresh_png_sha256": "e6110ba12989c6b7607f2f83708652aa30ad8e0b4486ddf50460732b8861408f",
+        "full_frame_mean_abs_rgb_error_0_255": 1.482476,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.719146
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.393144
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.149878
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.058757
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1047,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 1.699543
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1150,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.190969
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              295,
+              1145,
+              436,
+              1286
+            ],
+            "mean_abs_rgb_error_0_255": 2.945358
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.00679
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              261,
+              989,
+              382,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.488172
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              703,
+              989,
+              824,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.946383
+          }
+        }
+      },
+      {
+        "frame": 220,
+        "time_seconds": 9.166666666666666,
+        "shot": "wide",
+        "phase": "ajouter_tomate",
+        "fresh_svg_sha256": "7385d28603362cecb03ca36f58fecaa078a9055938a34ee5be73d6202fd49644",
+        "fresh_png_sha256": "7b34d7bba7ffcd82bfac2beac4837ba9e0539943aeec4323d79bac495ae4a165",
+        "full_frame_mean_abs_rgb_error_0_255": 1.48516,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.679215
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.393107
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.149698
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.058757
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1047,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 1.972699
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1150,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.294953
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              355,
+              1126,
+              496,
+              1267
+            ],
+            "mean_abs_rgb_error_0_255": 2.66613
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.006589
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              261,
+              989,
+              382,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.795005
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              703,
+              989,
+              824,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.946383
+          }
+        }
+      },
+      {
+        "frame": 264,
+        "time_seconds": 11.0,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "e0743c0c0b6ba759e6c3acca4a1f4fedddf0adcc4b998bf869b1eb92899a5152",
+        "fresh_png_sha256": "46804416c4cba901dc83c329d6b73d8bf95d0c5b75b1b66b0bfd4117dc482de0",
+        "full_frame_mean_abs_rgb_error_0_255": 1.590165,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              288,
+              416,
+              988,
+              1076
+            ],
+            "mean_abs_rgb_error_0_255": 1.409721
+          },
+          "bin": {
+            "visible": false
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              126,
+              786,
+              687,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 1.615836
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 356,
+        "time_seconds": 14.833333333333334,
+        "shot": "bin",
+        "phase": "jeter",
+        "fresh_svg_sha256": "c20ceca17b5643d81759fdd4684f10eadc48247708f2c6e61b7f9bc8f30d6f96",
+        "fresh_png_sha256": "b8c26c5ac6265ed741b2d8190c03fceac78e6038b9f6619ac0450846b071bf23",
+        "full_frame_mean_abs_rgb_error_0_255": 1.445351,
+        "regions": {
+          "faucet": {
+            "visible": false
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              92,
+              498,
+              793,
+              1604
+            ],
+            "mean_abs_rgb_error_0_255": 1.411732
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": false
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 365,
+        "time_seconds": 15.208333333333334,
+        "shot": "wide",
+        "phase": "decouper_carotte",
+        "fresh_svg_sha256": "74055c73a4825b95ebe08b701d04c054bfe0a1e6d1fc846816735ae8a5c4c4b8",
+        "fresh_png_sha256": "cb6254c7603f919f1528cd2d248333b73562e56d387400f6072f12bbcbddf39a",
+        "full_frame_mean_abs_rgb_error_0_255": 1.590432,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              907,
+              188,
+              1098
+            ],
+            "mean_abs_rgb_error_0_255": 1.795542
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1375,
+              237,
+              1832
+            ],
+            "mean_abs_rgb_error_0_255": 1.723452
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              421,
+              1087,
+              849,
+              1382
+            ],
+            "mean_abs_rgb_error_0_255": 2.485031
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              802,
+              971,
+              1016,
+              1328
+            ],
+            "mean_abs_rgb_error_0_255": 2.072816
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              468,
+              1010,
+              682,
+              1170
+            ],
+            "mean_abs_rgb_error_0_255": 1.745804
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1129,
+              775,
+              1343
+            ],
+            "mean_abs_rgb_error_0_255": 2.582922
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              464,
+              1194,
+              627,
+              1357
+            ],
+            "mean_abs_rgb_error_0_255": 2.447577
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              504,
+              1194,
+              667,
+              1357
+            ],
+            "mean_abs_rgb_error_0_255": 2.437615
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              240,
+              943,
+              379,
+              1083
+            ],
+            "mean_abs_rgb_error_0_255": 1.622388
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              749,
+              943,
+              889,
+              1083
+            ],
+            "mean_abs_rgb_error_0_255": 1.865493
+          }
+        }
+      },
+      {
+        "frame": 372,
+        "time_seconds": 15.5,
+        "shot": "wide",
+        "phase": "decouper_carotte",
+        "fresh_svg_sha256": "71e3281901a87f9e07edffa69aae0e6d00cfe7abae1ae00a4d5f68d37c262953",
+        "fresh_png_sha256": "7575d9c37db4affb2cf969a0c20b2c3e7391da0686cb3edd87cd54342c4c607a",
+        "full_frame_mean_abs_rgb_error_0_255": 1.521365,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              840,
+              152,
+              1046
+            ],
+            "mean_abs_rgb_error_0_255": 1.580917
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1344,
+              206,
+              1835
+            ],
+            "mean_abs_rgb_error_0_255": 1.569138
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              403,
+              1034,
+              863,
+              1351
+            ],
+            "mean_abs_rgb_error_0_255": 2.206572
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              812,
+              910,
+              1043,
+              1293
+            ],
+            "mean_abs_rgb_error_0_255": 2.042563
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              471,
+              987,
+              700,
+              1159
+            ],
+            "mean_abs_rgb_error_0_255": 1.731263
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              399,
+              1115,
+              800,
+              1344
+            ],
+            "mean_abs_rgb_error_0_255": 2.376766
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              397,
+              1144,
+              571,
+              1318
+            ],
+            "mean_abs_rgb_error_0_255": 2.410468
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              645,
+              1177,
+              820,
+              1352
+            ],
+            "mean_abs_rgb_error_0_255": 2.292299
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              225,
+              915,
+              375,
+              1065
+            ],
+            "mean_abs_rgb_error_0_255": 1.593659
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              773,
+              915,
+              923,
+              1065
+            ],
+            "mean_abs_rgb_error_0_255": 1.782119
+          }
+        }
+      },
+      {
+        "frame": 377,
+        "time_seconds": 15.708333333333334,
+        "shot": "wide",
+        "phase": "decouper_carotte",
+        "fresh_svg_sha256": "bb304b74158a3f6a3e0dc9ae34d8a1176101126dcb143d32d4c0d9f0b78b73e4",
+        "fresh_png_sha256": "0528adf26ca36d9bf00cb91b9b415d2e1fc1d39cb08ebf0617da5a4bceea6ed4",
+        "full_frame_mean_abs_rgb_error_0_255": 1.512544,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              840,
+              152,
+              1046
+            ],
+            "mean_abs_rgb_error_0_255": 1.573688
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1344,
+              206,
+              1835
+            ],
+            "mean_abs_rgb_error_0_255": 1.564372
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              403,
+              1034,
+              863,
+              1351
+            ],
+            "mean_abs_rgb_error_0_255": 2.174937
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              812,
+              910,
+              1043,
+              1293
+            ],
+            "mean_abs_rgb_error_0_255": 1.809965
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              471,
+              987,
+              700,
+              1159
+            ],
+            "mean_abs_rgb_error_0_255": 1.711875
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              399,
+              1115,
+              800,
+              1344
+            ],
+            "mean_abs_rgb_error_0_255": 2.329115
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              474,
+              1053,
+              648,
+              1228
+            ],
+            "mean_abs_rgb_error_0_255": 2.43549
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              719,
+              1173,
+              894,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.053465
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              225,
+              915,
+              375,
+              1065
+            ],
+            "mean_abs_rgb_error_0_255": 1.450696
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              773,
+              915,
+              923,
+              1065
+            ],
+            "mean_abs_rgb_error_0_255": 1.633763
+          }
+        }
+      },
+      {
+        "frame": 385,
+        "time_seconds": 16.041666666666668,
+        "shot": "wide",
+        "phase": "decouper_carotte",
+        "fresh_svg_sha256": "74121c09ddf409cbbb7464f578dfc8708b50a5bff13f093bfd23ff291020e5d7",
+        "fresh_png_sha256": "9f7c920326615aa6da738d3e3c8e7f6b95012b67c744cb9532b001da09859015",
+        "full_frame_mean_abs_rgb_error_0_255": 1.50728,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              840,
+              152,
+              1046
+            ],
+            "mean_abs_rgb_error_0_255": 1.572656
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1344,
+              206,
+              1835
+            ],
+            "mean_abs_rgb_error_0_255": 1.559719
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              403,
+              1034,
+              863,
+              1351
+            ],
+            "mean_abs_rgb_error_0_255": 2.146516
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              812,
+              910,
+              1043,
+              1293
+            ],
+            "mean_abs_rgb_error_0_255": 1.810134
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              471,
+              987,
+              700,
+              1159
+            ],
+            "mean_abs_rgb_error_0_255": 1.708397
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              399,
+              1115,
+              800,
+              1344
+            ],
+            "mean_abs_rgb_error_0_255": 2.355004
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              475,
+              1141,
+              650,
+              1316
+            ],
+            "mean_abs_rgb_error_0_255": 2.226765
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              719,
+              1173,
+              894,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.07896
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              225,
+              915,
+              375,
+              1065
+            ],
+            "mean_abs_rgb_error_0_255": 1.455259
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              773,
+              915,
+              923,
+              1065
+            ],
+            "mean_abs_rgb_error_0_255": 1.634815
+          }
+        }
+      },
+      {
+        "frame": 402,
+        "time_seconds": 16.75,
+        "shot": "wide",
+        "phase": "decouper_carotte",
+        "fresh_svg_sha256": "5451d0c76ed7b3cabe720e43eb0dbc820ed5d9d29a1c536430df420d64141b55",
+        "fresh_png_sha256": "f5edaee8be162c8529bb71fb85da1329b1d3eb58b513101e138421ae53caaff3",
+        "full_frame_mean_abs_rgb_error_0_255": 1.518645,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              840,
+              152,
+              1046
+            ],
+            "mean_abs_rgb_error_0_255": 1.573795
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1344,
+              206,
+              1835
+            ],
+            "mean_abs_rgb_error_0_255": 1.559699
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              403,
+              1034,
+              863,
+              1351
+            ],
+            "mean_abs_rgb_error_0_255": 2.204986
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              812,
+              910,
+              1043,
+              1293
+            ],
+            "mean_abs_rgb_error_0_255": 1.810142
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              471,
+              987,
+              700,
+              1159
+            ],
+            "mean_abs_rgb_error_0_255": 1.767239
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              399,
+              1115,
+              800,
+              1344
+            ],
+            "mean_abs_rgb_error_0_255": 2.412422
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              500,
+              1142,
+              674,
+              1316
+            ],
+            "mean_abs_rgb_error_0_255": 2.221969
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              719,
+              1173,
+              894,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.2022
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              225,
+              915,
+              375,
+              1065
+            ],
+            "mean_abs_rgb_error_0_255": 1.481126
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              773,
+              915,
+              923,
+              1065
+            ],
+            "mean_abs_rgb_error_0_255": 1.634711
+          }
+        }
+      },
+      {
+        "frame": 420,
+        "time_seconds": 17.5,
+        "shot": "wide",
+        "phase": "decouper_carotte",
+        "fresh_svg_sha256": "2010ffa183451889d916270df3d456a966140ab0f8ab1b32fb8d2e24de46d665",
+        "fresh_png_sha256": "ab4ee09a91354e3dad7ce50e407ffeebe9fa470e83124031114bc5ac9e3b535d",
+        "full_frame_mean_abs_rgb_error_0_255": 1.600278,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              851,
+              158,
+              1055
+            ],
+            "mean_abs_rgb_error_0_255": 1.708468
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1349,
+              211,
+              1835
+            ],
+            "mean_abs_rgb_error_0_255": 1.823526
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              406,
+              1043,
+              861,
+              1356
+            ],
+            "mean_abs_rgb_error_0_255": 2.358602
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              811,
+              920,
+              1039,
+              1299
+            ],
+            "mean_abs_rgb_error_0_255": 2.032411
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              470,
+              991,
+              696,
+              1161
+            ],
+            "mean_abs_rgb_error_0_255": 1.913639
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              399,
+              1118,
+              795,
+              1345
+            ],
+            "mean_abs_rgb_error_0_255": 2.546296
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              384,
+              1129,
+              557,
+              1302
+            ],
+            "mean_abs_rgb_error_0_255": 2.385267
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              707,
+              1180,
+              880,
+              1353
+            ],
+            "mean_abs_rgb_error_0_255": 2.228374
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              227,
+              920,
+              375,
+              1068
+            ],
+            "mean_abs_rgb_error_0_255": 1.615032
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              769,
+              920,
+              917,
+              1068
+            ],
+            "mean_abs_rgb_error_0_255": 1.790069
+          }
+        }
+      },
+      {
+        "frame": 449,
+        "time_seconds": 18.708333333333332,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "2d01cc0cc4460476b0ce139a7fc0a21b46ffe5f8816a0fc773ff3df96b7e9496",
+        "fresh_png_sha256": "5af6e9a55c06668cc72c27332e63caee36d05927150240ab76cf42b32399a33e",
+        "full_frame_mean_abs_rgb_error_0_255": 1.588724,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              288,
+              416,
+              988,
+              1076
+            ],
+            "mean_abs_rgb_error_0_255": 1.396403
+          },
+          "bin": {
+            "visible": false
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              129,
+              782,
+              690,
+              1343
+            ],
+            "mean_abs_rgb_error_0_255": 1.597232
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 494,
+        "time_seconds": 20.583333333333332,
+        "shot": "wide",
+        "phase": "papier",
+        "fresh_svg_sha256": "c12eace55ae541d51ca4aeb52493ae6cb310461204acd9fd322c0b3d117f12fc",
+        "fresh_png_sha256": "1b93736c6560683a0c8e84de597f458964ae2d233106c37e5e8494fe78a5572c",
+        "full_frame_mean_abs_rgb_error_0_255": 1.502216,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.567723
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.503885
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.417375
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 1.935416
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1047,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 1.722353
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1150,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.410167
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              424,
+              1149,
+              565,
+              1290
+            ],
+            "mean_abs_rgb_error_0_255": 2.482555
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              514,
+              1160,
+              655,
+              1301
+            ],
+            "mean_abs_rgb_error_0_255": 2.421072
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              261,
+              989,
+              382,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.63691
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              703,
+              989,
+              824,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.964142
+          }
+        }
+      },
+      {
+        "frame": 524,
+        "time_seconds": 21.833333333333332,
+        "shot": "bin",
+        "phase": "jeter",
+        "fresh_svg_sha256": "555e454c744ae915ea6e7dfee385fbfa2082b8970de4dc84db4df6ac5d3ea7e8",
+        "fresh_png_sha256": "d08042fddfd54971c4f44ac4fe32138411dd5dccdedefe37e8a112564756c44c",
+        "full_frame_mean_abs_rgb_error_0_255": 1.478455,
+        "regions": {
+          "faucet": {
+            "visible": false
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              92,
+              498,
+              793,
+              1604
+            ],
+            "mean_abs_rgb_error_0_255": 1.504136
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": false
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 532,
+        "time_seconds": 22.166666666666668,
+        "shot": "wide",
+        "phase": "retoucher_manche",
+        "fresh_svg_sha256": "94d56015fc1ecebe8a59865d2064bd55ccf3311f62f0854cbfeede9713df148c",
+        "fresh_png_sha256": "dff247e4be98699df3cb6ddacfc05bf4045655fd3c0d2db0b9aa2680413048f8",
+        "full_frame_mean_abs_rgb_error_0_255": 1.521426,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.591631
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.662522
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.285766
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 1.875336
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              448,
+              1042,
+              633,
+              1181
+            ],
+            "mean_abs_rgb_error_0_255": 1.808711
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              391,
+              1146,
+              714,
+              1331
+            ],
+            "mean_abs_rgb_error_0_255": 2.317195
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              433,
+              1202,
+              574,
+              1343
+            ],
+            "mean_abs_rgb_error_0_255": 2.151133
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              479,
+              1202,
+              620,
+              1343
+            ],
+            "mean_abs_rgb_error_0_255": 2.20279
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              250,
+              984,
+              371,
+              1105
+            ],
+            "mean_abs_rgb_error_0_255": 1.693122
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              692,
+              984,
+              813,
+              1105
+            ],
+            "mean_abs_rgb_error_0_255": 2.035904
+          }
+        }
+      },
+      {
+        "frame": 535,
+        "time_seconds": 22.291666666666668,
+        "shot": "wide",
+        "phase": "retoucher_manche",
+        "fresh_svg_sha256": "e48d40f060935bb9fe6e003650c783872f8190611724949233cb8adad2c9243d",
+        "fresh_png_sha256": "b63a23d6cb1a1f39fbf96cb5f725611017ca2b68c06efa1ff8f0752a0df9f448",
+        "full_frame_mean_abs_rgb_error_0_255": 1.541966,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.586863
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.662076
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.413203
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 1.920264
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              447,
+              1040,
+              632,
+              1179
+            ],
+            "mean_abs_rgb_error_0_255": 1.967905
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              390,
+              1144,
+              713,
+              1329
+            ],
+            "mean_abs_rgb_error_0_255": 2.527359
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              415,
+              1203,
+              556,
+              1344
+            ],
+            "mean_abs_rgb_error_0_255": 2.413343
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              479,
+              1200,
+              620,
+              1341
+            ],
+            "mean_abs_rgb_error_0_255": 2.495096
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              249,
+              983,
+              370,
+              1104
+            ],
+            "mean_abs_rgb_error_0_255": 1.774788
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              691,
+              983,
+              812,
+              1104
+            ],
+            "mean_abs_rgb_error_0_255": 2.311249
+          }
+        }
+      },
+      {
+        "frame": 540,
+        "time_seconds": 22.5,
+        "shot": "wide",
+        "phase": "retoucher_manche",
+        "fresh_svg_sha256": "a8f206da21260ef7d03b85f89fe7887e7bf2ecc376839a35def4832a69a3b92f",
+        "fresh_png_sha256": "8b22f795f832556a045e1ec9746ca9f6f0f4198f7d85e893c7a70fb96a285b4d",
+        "full_frame_mean_abs_rgb_error_0_255": 1.508524,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.590846
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.662316
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.327366
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 1.922581
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1047,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 1.828163
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1150,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.304303
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              398,
+              1205,
+              539,
+              1346
+            ],
+            "mean_abs_rgb_error_0_255": 2.154218
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.17204
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              261,
+              989,
+              382,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.721103
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              703,
+              989,
+              824,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 2.044624
+          }
+        }
+      },
+      {
+        "frame": 566,
+        "time_seconds": 23.583333333333332,
+        "shot": "sink",
+        "phase": "laver",
+        "fresh_svg_sha256": "d55408b0cff99a8c86fb0245d7951ec72b6079d73afde1a4e708cbed6857e25c",
+        "fresh_png_sha256": "ff68156705c1f5837a4746d36000675a987622a925ebd8a6023f80c8ba6e982f",
+        "full_frame_mean_abs_rgb_error_0_255": 1.58688,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              288,
+              416,
+              988,
+              1076
+            ],
+            "mean_abs_rgb_error_0_255": 1.395035
+          },
+          "bin": {
+            "visible": false
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              123,
+              790,
+              684,
+              1351
+            ],
+            "mean_abs_rgb_error_0_255": 1.602466
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 595,
+        "time_seconds": 24.791666666666668,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "6347a9bade491a9683124724ddce4711681812d8d3de5ffe8d56daf31c278aea",
+        "fresh_png_sha256": "f12c6df3f14e9f4a9f30c6c516a23d5394d81d32beebc7400641d419447d82da",
+        "full_frame_mean_abs_rgb_error_0_255": 1.50283,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              829,
+              47,
+              1054
+            ],
+            "mean_abs_rgb_error_0_255": 1.747076
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1381,
+              105,
+              1919
+            ],
+            "mean_abs_rgb_error_0_255": 1.473624
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              322,
+              1041,
+              826,
+              1389
+            ],
+            "mean_abs_rgb_error_0_255": 1.959534
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              771,
+              905,
+              1023,
+              1325
+            ],
+            "mean_abs_rgb_error_0_255": 1.83448
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              335,
+              887,
+              586,
+              1076
+            ],
+            "mean_abs_rgb_error_0_255": 1.536176
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              257,
+              1028,
+              696,
+              1279
+            ],
+            "mean_abs_rgb_error_0_255": 1.973745
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              295,
+              1027,
+              486,
+              1219
+            ],
+            "mean_abs_rgb_error_0_255": 2.129299
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              781,
+              1027,
+              972,
+              1218
+            ],
+            "mean_abs_rgb_error_0_255": 1.904105
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              66,
+              809,
+              230,
+              973
+            ],
+            "mean_abs_rgb_error_0_255": 1.420447
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              666,
+              809,
+              830,
+              973
+            ],
+            "mean_abs_rgb_error_0_255": 1.605208
+          }
+        }
+      },
+      {
+        "frame": 610,
+        "time_seconds": 25.416666666666668,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "ae4048abb25afbe92f3f1f1b7bb3451f67d35ad0a50a5b961b721fe42ee37773",
+        "fresh_png_sha256": "8c49a7e1459a50151f84c1a7311a06ae81c4831d79383bb3b9eb445dc00c7a8c",
+        "full_frame_mean_abs_rgb_error_0_255": 1.492845,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              829,
+              47,
+              1054
+            ],
+            "mean_abs_rgb_error_0_255": 1.742222
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1381,
+              105,
+              1919
+            ],
+            "mean_abs_rgb_error_0_255": 1.458925
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              322,
+              1041,
+              826,
+              1389
+            ],
+            "mean_abs_rgb_error_0_255": 2.026045
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              771,
+              905,
+              1023,
+              1325
+            ],
+            "mean_abs_rgb_error_0_255": 1.8677
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              335,
+              887,
+              586,
+              1076
+            ],
+            "mean_abs_rgb_error_0_255": 1.539858
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              257,
+              1028,
+              696,
+              1279
+            ],
+            "mean_abs_rgb_error_0_255": 1.984932
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              295,
+              1027,
+              486,
+              1219
+            ],
+            "mean_abs_rgb_error_0_255": 2.120273
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              553,
+              1048,
+              745,
+              1239
+            ],
+            "mean_abs_rgb_error_0_255": 1.907922
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              66,
+              809,
+              230,
+              973
+            ],
+            "mean_abs_rgb_error_0_255": 1.413953
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              666,
+              809,
+              830,
+              973
+            ],
+            "mean_abs_rgb_error_0_255": 1.610277
+          }
+        }
+      },
+      {
+        "frame": 631,
+        "time_seconds": 26.291666666666668,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "b053fe1864a4e70e9667840c135a2f5cb5cb1ef57e31bbeef162109eb6438f1f",
+        "fresh_png_sha256": "c0babc0894ade29e35dba3811d6d4ae0d4b572d0fe0a70149c585c8d728e1f39",
+        "full_frame_mean_abs_rgb_error_0_255": 1.506327,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              829,
+              47,
+              1054
+            ],
+            "mean_abs_rgb_error_0_255": 1.745059
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1381,
+              105,
+              1919
+            ],
+            "mean_abs_rgb_error_0_255": 1.45611
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              322,
+              1041,
+              826,
+              1389
+            ],
+            "mean_abs_rgb_error_0_255": 2.067877
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              771,
+              905,
+              1023,
+              1325
+            ],
+            "mean_abs_rgb_error_0_255": 1.798224
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              335,
+              887,
+              586,
+              1076
+            ],
+            "mean_abs_rgb_error_0_255": 1.522671
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              257,
+              1028,
+              696,
+              1279
+            ],
+            "mean_abs_rgb_error_0_255": 2.112095
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              306,
+              1028,
+              497,
+              1219
+            ],
+            "mean_abs_rgb_error_0_255": 2.335453
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              335,
+              1037,
+              527,
+              1228
+            ],
+            "mean_abs_rgb_error_0_255": 2.284122
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              66,
+              809,
+              230,
+              973
+            ],
+            "mean_abs_rgb_error_0_255": 1.418959
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              666,
+              809,
+              830,
+              973
+            ],
+            "mean_abs_rgb_error_0_255": 1.757325
+          }
+        }
+      },
+      {
+        "frame": 653,
+        "time_seconds": 27.208333333333332,
+        "shot": "wide",
+        "phase": "dernier_bout",
+        "fresh_svg_sha256": "fc422ee40aca29bdcf9e51c32e3bfeff4b3771b6f428f13b782f3667b72535f6",
+        "fresh_png_sha256": "7a27fce9e7f929620bd41c1a82b2b77c3bd406374273891b8bc6907e21cc418a",
+        "full_frame_mean_abs_rgb_error_0_255": 1.655327,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              934,
+              160,
+              1128
+            ],
+            "mean_abs_rgb_error_0_255": 1.785535
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              0,
+              1409,
+              210,
+              1871
+            ],
+            "mean_abs_rgb_error_0_255": 2.032646
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              396,
+              1117,
+              829,
+              1416
+            ],
+            "mean_abs_rgb_error_0_255": 2.41133
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              782,
+              1000,
+              999,
+              1361
+            ],
+            "mean_abs_rgb_error_0_255": 1.999494
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              407,
+              984,
+              623,
+              1147
+            ],
+            "mean_abs_rgb_error_0_255": 1.926967
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              340,
+              1105,
+              717,
+              1321
+            ],
+            "mean_abs_rgb_error_0_255": 2.452627
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              379,
+              1108,
+              544,
+              1273
+            ],
+            "mean_abs_rgb_error_0_255": 2.718678
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              401,
+              1112,
+              566,
+              1277
+            ],
+            "mean_abs_rgb_error_0_255": 2.721898
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              176,
+              917,
+              317,
+              1058
+            ],
+            "mean_abs_rgb_error_0_255": 1.607314
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              692,
+              917,
+              833,
+              1058
+            ],
+            "mean_abs_rgb_error_0_255": 1.873497
+          }
+        }
+      },
+      {
+        "frame": 678,
+        "time_seconds": 28.25,
+        "shot": "bin",
+        "phase": "jeter",
+        "fresh_svg_sha256": "49d5660e2b9106b9cf6a77d7178bc4fe2a9bae02b756cb9bb36b96faed10066c",
+        "fresh_png_sha256": "b6612b21a3e9d3c7361c011684e909996b750f9499c8f4337cc35dd4d8c15a53",
+        "full_frame_mean_abs_rgb_error_0_255": 1.436275,
+        "regions": {
+          "faucet": {
+            "visible": false
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              92,
+              498,
+              793,
+              1604
+            ],
+            "mean_abs_rgb_error_0_255": 1.426035
+          },
+          "carrot_and_knife": {
+            "visible": false
+          },
+          "paper_roll": {
+            "visible": false
+          },
+          "mouth": {
+            "visible": false
+          },
+          "apron": {
+            "visible": false
+          },
+          "hand_left": {
+            "visible": false
+          },
+          "hand_right": {
+            "visible": false
+          },
+          "shoulder_left": {
+            "visible": false
+          },
+          "shoulder_right": {
+            "visible": false
+          }
+        }
+      },
+      {
+        "frame": 710,
+        "time_seconds": 29.583333333333332,
+        "shot": "wide",
+        "phase": "satisfaction_derisoire",
+        "fresh_svg_sha256": "7cede4dc258c40657f18557cf882768952775fd10d3a41ae44a8682d73e21978",
+        "fresh_png_sha256": "b45646d06d9bb1660781e16d2d2230b5d845b90fa5dbd230e111f986f4e7274e",
+        "full_frame_mean_abs_rgb_error_0_255": 1.493539,
+        "regions": {
+          "faucet": {
+            "visible": true,
+            "pixel_bbox": [
+              72,
+              1004,
+              247,
+              1169
+            ],
+            "mean_abs_rgb_error_0_255": 1.579221
+          },
+          "bin": {
+            "visible": true,
+            "pixel_bbox": [
+              40,
+              1410,
+              290,
+              1805
+            ],
+            "mean_abs_rgb_error_0_255": 1.631561
+          },
+          "carrot_and_knife": {
+            "visible": true,
+            "pixel_bbox": [
+              450,
+              1160,
+              820,
+              1415
+            ],
+            "mean_abs_rgb_error_0_255": 2.186123
+          },
+          "paper_roll": {
+            "visible": true,
+            "pixel_bbox": [
+              780,
+              1060,
+              965,
+              1368
+            ],
+            "mean_abs_rgb_error_0_255": 2.004341
+          },
+          "mouth": {
+            "visible": true,
+            "pixel_bbox": [
+              459,
+              1047,
+              644,
+              1185
+            ],
+            "mean_abs_rgb_error_0_255": 1.815681
+          },
+          "apron": {
+            "visible": true,
+            "pixel_bbox": [
+              402,
+              1150,
+              724,
+              1335
+            ],
+            "mean_abs_rgb_error_0_255": 2.145364
+          },
+          "hand_left": {
+            "visible": true,
+            "pixel_bbox": [
+              404,
+              1094,
+              545,
+              1235
+            ],
+            "mean_abs_rgb_error_0_255": 2.285398
+          },
+          "hand_right": {
+            "visible": true,
+            "pixel_bbox": [
+              490,
+              1206,
+              631,
+              1347
+            ],
+            "mean_abs_rgb_error_0_255": 2.003471
+          },
+          "shoulder_left": {
+            "visible": true,
+            "pixel_bbox": [
+              261,
+              989,
+              382,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.647383
+          },
+          "shoulder_right": {
+            "visible": true,
+            "pixel_bbox": [
+              703,
+              989,
+              824,
+              1110
+            ],
+            "mean_abs_rgb_error_0_255": 1.929855
+          }
+        }
+      }
+    ],
+    "threshold_mean_abs_rgb_error_0_255": 3.0,
+    "failures": [],
+    "method": "Frames decoded from final MP4 versus direct current SVG/CairoSVG render, independently of PNG cache. Clipped hand/faucet/bin regions are measured only when visible."
+  },
+  "tested_sources_sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/animation.py": "0483a9db4f9c5ecb5cb81432d3b2e4e4c044e743d008a8aad50de4bae01edf33",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "33f67c451f87db22617349193069325ead9d5a85710c0905721dac3a9419f479",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "8dd4186905545f44b88d6ac670c588b6b5056aacd3086cc1fb1c5e16a2b0ec11",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/son.py": "6b1dbc809152ef833faa13352c827b90c0cfbe681759a0eb93d84446e50337df",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/verify.py": "f38a48a930169edbff4ae47b339311f62b3061f6feb704932797a06960317384",
+    "/workspace/MOU/episodes/03/cuisine_v6/chronologie.json": "fec2e489c622470c5ed8715b4a805aa233bd95e2a9a6203bc1acb333ab3dc190",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
+  }
+}

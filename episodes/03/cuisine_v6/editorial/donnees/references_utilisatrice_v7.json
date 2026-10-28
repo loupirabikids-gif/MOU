@@ -1,0 +1,62 @@
+{
+  "etat": "acces_bloque",
+  "politique_active": {
+    "mode": "restricted",
+    "state": "enforced",
+    "observations_current": true,
+    "domaine_youtube_autorise": false
+  },
+  "methode": "Une requête HTTPS normale à chaque lien exact fourni, proxy hérité et TLS conservés ; aucun miroir ni contournement. Pas de nouvel essai après refus.",
+  "references": [
+    {
+      "url_fournie": "https://youtube.com/shorts/jkWeZ3fe51Y?si=QEFPUyXaswmPEc8N",
+      "url_canonique": "https://youtube.com/shorts/jkWeZ3fe51Y",
+      "video_id": "jkWeZ3fe51Y",
+      "observation_utc": "2026-10-28T21:36:58.981242+00:00",
+      "observation_casablanca": "2026-10-28T22:36:58.981242+01:00",
+      "http_status": null,
+      "error_type": "URLError",
+      "error_reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "titre": "non accessible",
+      "chaine": "non accessible",
+      "date_publication": "non accessible",
+      "duree": "non accessible",
+      "vues": "non accessible",
+      "mentions_jaime": "non accessible",
+      "commentaires": "non accessible",
+      "retention": "non accessible",
+      "video_examinee": false,
+      "images_examinees": false,
+      "son_ecoute": false,
+      "source_type": "lien fourni par utilisatrice ; GET HTTPS via proxy hérité",
+      "proxy_tunnel_status": 403,
+      "http_status_explanation": "Pas de réponse HTTP de YouTube ; le tunnel HTTPS est refusé par le proxy avec 403."
+    },
+    {
+      "url_fournie": "https://youtube.com/shorts/UiJhobrGzCM?feature=shared",
+      "url_canonique": "https://youtube.com/shorts/UiJhobrGzCM",
+      "video_id": "UiJhobrGzCM",
+      "observation_utc": "2026-10-28T21:36:58.982645+00:00",
+      "observation_casablanca": "2026-10-28T22:36:58.982645+01:00",
+      "http_status": null,
+      "error_type": "URLError",
+      "error_reason": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "titre": "non accessible",
+      "chaine": "non accessible",
+      "date_publication": "non accessible",
+      "duree": "non accessible",
+      "vues": "non accessible",
+      "mentions_jaime": "non accessible",
+      "commentaires": "non accessible",
+      "retention": "non accessible",
+      "video_examinee": false,
+      "images_examinees": false,
+      "son_ecoute": false,
+      "source_type": "lien fourni par utilisatrice ; GET HTTPS via proxy hérité",
+      "proxy_tunnel_status": 403,
+      "http_status_explanation": "Pas de réponse HTTP de YouTube ; le tunnel HTTPS est refusé par le proxy avec 403."
+    }
+  ],
+  "consequence": "Aucune inspiration de mise en scène, rythme ou son ne peut être attribuée à ces vidéos non consultées. Le correctif de taille du dernier papier repose séparément sur le retour explicite de l’utilisatrice.",
+  "configuration": "Brouillon réseau préparé au tour précédent par le coordinateur, non appliqué dans le runtime observé ; aucun changement de configuration dans cette tâche."
+}

@@ -12,8 +12,9 @@ INK = '#382035'
 PAPER = '#FFFDF7'
 LAVENDER = '#CDB4D0'
 BIN_CENTRES = ((140., 1700.), (195., 1620.), (135., 1537.), (140., 1455.))
-BIN_RADII = (47., 53., 59., 11.)
+BIN_RADII = (47., 53., 59., 22.)
 BIN_ROTATIONS = (-12., 17., -8., 12.)
+LAST_PAPER_WIDTH, LAST_PAPER_HEIGHT = 64., 88.
 # A spoon set on the pan rim remains within the original left hand's reach.
 PARKED_BOWL = (337., 1308.)
 PARKED_GRIP = (468., 1275.)
@@ -61,8 +62,8 @@ def _ball(x, y, radius, rotation=0., seed=1):
         f'M{-.62*r:.4f} {.56*r:.4f} L{-.11*r:.4f} {.25*r:.4f} L{.09*r:.4f} {.64*r:.4f}',
     ]
     return (f'<g transform="translate({_n(x)} {_n(y)}) rotate({_n(rotation)}) scale(1.13 1.25)">'
-            + _path(outline, PAPER, INK, 2.5 if radius<15. else 4.2)
-            + ''.join(_path(d, stroke='#C5B2C3', width=1.3 if radius<15. else 2.4) for d in folds)
+            + _path(outline, PAPER, INK, 3.2 if radius<30. else 4.2)
+            + ''.join(_path(d, stroke='#C5B2C3', width=1.6 if radius<30. else 2.4) for d in folds)
             + '</g>')
 
 
@@ -153,15 +154,16 @@ def paper_svg(paper: dict | None, t: float = 0.) -> str:
     width = 96. + 8.*_clamp(amount-1., 0., 3.)
     if mode in ('tiny','tiny_pull','tiny_wipe'):
         cx,cy=map(float,paper.get('center',end))
-        # A real small scrap, not a downscaled giant sheet. The lower tail
-        # remains readable beyond the grip; optional front overlay can show it
-        # against the coloured mitten without inventing fingers.
-        width,height=26.,40.
-        result=(_path(f'M{_n(cx-13.)} {_n(cy-5.)} L{_n(cx+13.)} {_n(cy-5.)} '
-                      f'L{_n(cx+13.)} {_n(cy+27.)} L{_n(cx+6.)} {_n(cy+35.)} '
-                      f'L{_n(cx-13.)} {_n(cy+35.)} Z',PAPER,INK,2.7)
-                +_path(f'M{_n(cx+6.)} {_n(cy+35.)} V{_n(cy+27.)} h7',
-                       stroke='#C5B2C3',width=1.7))
+        # The last piece stays smaller than the wasted bands, but remains
+        # legible on a phone. Its grip and the native hands do not move.
+        width,height=LAST_PAPER_WIDTH,LAST_PAPER_HEIGHT
+        half,top,fold=width/2.,-5.,height*.20
+        bottom=top+height
+        result=(_path(f'M{_n(cx-half)} {_n(cy+top)} L{_n(cx+half)} {_n(cy+top)} '
+                      f'L{_n(cx+half)} {_n(cy+bottom-fold)} L{_n(cx+half-fold)} {_n(cy+bottom)} '
+                      f'L{_n(cx-half)} {_n(cy+bottom)} Z',PAPER,INK,3.2)
+                +_path(f'M{_n(cx+half-fold)} {_n(cy+bottom)} V{_n(cy+bottom-fold)} h{_n(fold)}',
+                       stroke='#C5B2C3',width=1.9))
     elif mode == 'pull':
         result = _strip(start, end, width, 21.+17.*progress, progress)
     elif mode == 'wipe':
@@ -192,18 +194,38 @@ def paper_svg(paper: dict | None, t: float = 0.) -> str:
         rectangle = ((-43,-28),(-13,-28),(15,-28),(43,-28),(65,-18),
                      (65,16),(65,51),(53,85),(38,132),(7,150),
                      (-21,146),(-48,132),(-61,93),(-62,45),(-56,10))
-        small= r<15.
-        xscale,yscale=(.20,.267) if small else (1.,1.)
-        pts = [((1-progress)*a*xscale*(mirror if small else 1.)+progress*mirror*b*r,
+        small= cycle==4
+        xscale,yscale=1.,1.
+        if small:
+            # Mirroring the ball reverses its winding. Traverse that same
+            # outline backwards so the sheet never crosses or collapses while
+            # shrinking into the final, geometrically identical ball.
+            jagged=jagged[4::-1]+jagged[:4:-1]
+            half,top,fold=LAST_PAPER_WIDTH/2.,-5.,LAST_PAPER_HEIGHT*.20
+            bottom=top+LAST_PAPER_HEIGHT
+            corners=((-half,top),(half,top),(half,bottom-fold),
+                     (half-fold,bottom),(-half,bottom))
+            # Subdivide the same five-sided sheet outline into fifteen points:
+            # its first crushed frame matches the held sheet exactly.
+            rectangle=tuple((a[0]+u*(b[0]-a[0]),a[1]+u*(b[1]-a[1]))
+                            for a,b in zip(corners,corners[1:]+corners[:1])
+                            for u in (0.,1/3,2/3))
+        pts = [((1-progress)*a*xscale+progress*mirror*b*r,
                 (1-progress)*c*yscale+progress*d*r)
                for (a,c),(b,d) in zip(rectangle,jagged)]
         outline='M'+' L'.join(f'{_n(x)} {_n(y)}'for x,y in pts)+' Z'
+        if small:
+            folded=((half-fold,bottom),(half-fold,bottom-fold),(half,bottom-fold))
+            crushed=tuple((mirror*x*r,y*r) for x,y in ((-.54,-.66),(-.18,-.15),(-.40,.40)))
+            crease='M'+' L'.join(f'{_n((1-progress)*a+progress*b)} {_n((1-progress)*c+progress*d)}'
+                                 for (a,c),(b,d) in zip(folded,crushed))
+        else:
+            crease=(f'M{(-26+7*progress)*xscale:.4f} {-14*yscale:.4f} '
+                    f'L{(14+3*progress)*xscale:.4f} {21*yscale:.4f} '
+                    f'L{(-15+5*progress)*xscale:.4f} {(97-69*progress)*yscale:.4f}')
         result=(f'<g transform="translate({_n(cx)} {_n(cy)}) scale({_n(1.+.13*progress)} {_n(1.+.25*progress)})">'
-                +_path(outline,PAPER,INK,2.7 if small else 4.5)
-                +_path(f'M{(-26+7*progress)*xscale:.4f} {-14*yscale:.4f} '
-                       f'L{(14+3*progress)*xscale:.4f} {21*yscale:.4f} '
-                       f'L{(-15+5*progress)*xscale:.4f} {(97-69*progress)*yscale:.4f}',
-                       stroke='#C5B2C3',width=1.3 if small else 2.5)+'</g>')
+                +_path(outline,PAPER,INK,3.2 if small else 4.5)
+                +_path(crease,stroke='#C5B2C3',width=1.9-.3*progress if small else 2.5)+'</g>')
     elif mode == 'ball':
         cx, cy = map(float, paper.get('center', start))
         result = _ball(cx, cy, float(paper.get('r',55.)),

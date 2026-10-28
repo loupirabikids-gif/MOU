@@ -1,0 +1,88 @@
+{
+  "video": "MOU_Encore_une_feuille.mp4",
+  "video_sha256": "640399e6fd2b2208ae30e70b6c31673134ad26a1995056cd98c99747eb338f88",
+  "method": "Direct FFmpeg decoding of actual CRF14 final MP4; no SVG or PNG cache",
+  "dense_transition_frames": [
+    652,
+    653,
+    654,
+    655,
+    656,
+    657,
+    658
+  ],
+  "frames": [
+    {
+      "frame": 610,
+      "time_seconds": 25.416666666666668,
+      "png": "00610.png",
+      "sha256": "ed6a10c4a382b3013eccdc2fcbd54fa656196367c7c6a7c47af0561d0a1ca6b7"
+    },
+    {
+      "frame": 636,
+      "time_seconds": 26.5,
+      "png": "00636.png",
+      "sha256": "28df1a58ba0281a89958d05ab99b15ecf9b7b3d83ca31258cc50810a7debff13"
+    },
+    {
+      "frame": 652,
+      "time_seconds": 27.166666666666668,
+      "png": "00652.png",
+      "sha256": "dd3238ef805c1165128bfd69f569e18d19f3b377d70c071997d161a7c45a14f6"
+    },
+    {
+      "frame": 653,
+      "time_seconds": 27.208333333333332,
+      "png": "00653.png",
+      "sha256": "b741af3d73b3616a801be0c6652db390ec51be9107b4f604b520fb1cb32e8e23"
+    },
+    {
+      "frame": 654,
+      "time_seconds": 27.25,
+      "png": "00654.png",
+      "sha256": "3b079e07ddf3756594f7d8f0d45baa74562025fb4c38ecc30837a3f8f1471184"
+    },
+    {
+      "frame": 655,
+      "time_seconds": 27.291666666666668,
+      "png": "00655.png",
+      "sha256": "d5843a33d4e85aa1bc24b4076ac1a10d1050c2f9c00844aae18fa06f15ab8b46"
+    },
+    {
+      "frame": 656,
+      "time_seconds": 27.333333333333332,
+      "png": "00656.png",
+      "sha256": "475830ad4e6b24b208f7a567e49e76877c4782ed88bd87900109d485b353ac56"
+    },
+    {
+      "frame": 657,
+      "time_seconds": 27.375,
+      "png": "00657.png",
+      "sha256": "cfc645d362eb8285eee42f49947f3aba18fab0865fb6fd2f46f89c6c751dd149"
+    },
+    {
+      "frame": 658,
+      "time_seconds": 27.416666666666668,
+      "png": "00658.png",
+      "sha256": "d037b8edecf79765c00a51e7e7ef3c43383fff09329d4bb9a22181775f7917f4"
+    },
+    {
+      "frame": 662,
+      "time_seconds": 27.583333333333332,
+      "png": "00662.png",
+      "sha256": "221fdf2794cc7960803db9bc92244c11f073465d0ec2e8098b215fea8baa4221"
+    },
+    {
+      "frame": 680,
+      "time_seconds": 28.333333333333332,
+      "png": "00680.png",
+      "sha256": "a7a7d0c004fe2a2c1a4352049051d4774e8117d6124046d298f9109926c30590"
+    },
+    {
+      "frame": 710,
+      "time_seconds": 29.583333333333332,
+      "png": "00710.png",
+      "sha256": "e80b4d759107468af662c4c3745526a46e73ffe0a1099500d5696907f8dcf54c"
+    }
+  ]
+}

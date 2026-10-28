@@ -25,7 +25,10 @@ def main():
         files.update(p for p in directory.rglob('*') if p.is_file()
                      and '__pycache__' not in p.parts and p.suffix != '.pyc')
     files.update(p for p in (EP/'controle').rglob('*')
-                 if p.is_file() and p.suffix in ('.json', '.md', '.txt', '.png', '.py'))
+                 if p.is_file() and p.name != 'audit_archive.json'
+                 and p.suffix in ('.json', '.md', '.txt', '.png', '.py')
+                 and not (p.suffix == '.png' and any(part in
+                     ('animatique_avant_morphing', 'final_crf16') for part in p.parts)))
     files = sorted(files)
     assert all(p.is_file() for p in files)
     checks = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
@@ -37,7 +40,7 @@ def main():
             archive.write(path, path.relative_to(ROOT).as_posix())
         archive.writestr('MANIFESTE_SHA256.json', json.dumps(checks, ensure_ascii=False, indent=2)+'\n')
         archive.writestr('LIRE_MOI.txt',
-                        'MOU — cuisine, carotte et réflexe, version 6.\n'
+                        'MOU — cuisine, carotte et réflexe, version 6, correctif papier V7.\n'
                         'Voir episodes/03/cuisine_v6/sources/README.md pour reproduire.\n'
                         'Les dessins et les sons originaux sont inclus. Aucun service payant.\n')
     with zipfile.ZipFile(temporary) as archive:

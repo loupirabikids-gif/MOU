@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "archive_sha256": "e7976f4d619b330e66518b48e1ef83e58f8e80b34112050e942149fdb973ff67",
-  "files_verified": 237,
+  "archive_sha256": "bd5af9a6073d5f93561ce629067b7ab1cf21f48cb1469750444674aa71d6c281",
+  "files_verified": 288,
   "crc_ok": true,
   "all_manifest_sha256_ok": true,
   "fresh_extracted_render": [
@@ -10,16 +10,6 @@
       "label": "tablier_sifflement",
       "svg_sha256": "8f11a1cd03db3d68ae0f81b10f8a32c4847a80c4297bea886019a66dfbe5cd40",
       "png_sha256": "8409da817c253d6b165a2f7d8032b65009f6114f5114685433e031a947bfb3c0",
-      "dimensions": [
-        1080,
-        1920
-      ]
-    },
-    {
-      "time": 4.208333333333333,
-      "label": "lavage",
-      "svg_sha256": "573b3915b14db253a0df80ab2730a18bead13fb88a63775e3d5fc17c02c9bc26",
-      "png_sha256": "5d0c3f66970d1cb2a0223b0909771b02876bc668255b17cb449bfe7ea09426dc",
       "dimensions": [
         1080,
         1920
@@ -37,9 +27,29 @@
     },
     {
       "time": 26.5,
-      "label": "petit_papier",
-      "svg_sha256": "86d1f18b9f4517245ff57faf6bce9f665b3b7bc4cf200d93b7b19a138fd090af",
-      "png_sha256": "d3c0660cd93078c87a96dec13697273b7a48599fe87ab0e0a57e28e0d1c22ae2",
+      "label": "papier_agrandi",
+      "svg_sha256": "f222baa2c72cd77bc6074036619e27f59239c93dc7f43d71e464c477d79a9441",
+      "png_sha256": "3e60bedb3262eaf3b2b8417860ab682820229d9882f5cadb31f8e2c046deb943",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "time": 27.291666666666668,
+      "label": "froissage_corrige",
+      "svg_sha256": "c88f53eba1f7b1624b1d4fd7968864c38893687c7255bfd880abe0f45b03cb47",
+      "png_sha256": "d7e5057fe54b14841ed2f3f9bd1305ce0648aea4754f15880835a18186a40da8",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "time": 28.25,
+      "label": "boulette_poubelle",
+      "svg_sha256": "95ae4ba2ce72d6225cf2efc5f1c2ccafbb6c640986836531eccacb132a204110",
+      "png_sha256": "233e1b129cb7f68b51c0b35a42cf42785d3d4a4fc5c7321321a22864dfe26126",
       "dimensions": [
         1080,
         1920

@@ -26,5 +26,13 @@ caches se régénèrent localement ; ils ne sont pas nécessaires dans l’archi
 - `../editorial/` : références réellement accessibles et limites de la veille.
 
 L’animatique est en 540×960 à 12 images/s ; l’export complet en 1080×1920 à
-24 images/s. La version muette partage exactement les images de la version
+24 images/s, H.264 CRF 14 après le correctif papier V7. La version muette partage exactement les images de la version
 avec son. La vérification technique ne constitue pas un test auprès d’un public.
+
+Le correctif papier V7 conserve les gestes et le mix. Le dernier morceau et
+sa boulette sont agrandis ; le froissage garde un contour continu.
+`../controle/audit_archive.json` vérifie le ZIP lui-même et reste disponible
+dans le dépôt, hors de l’archive, pour éviter une empreinte circulaire.
+Les captures des essais de papier avant correction du froissage restent dans
+le dépôt ; le ZIP conserve leurs rapports et preuves JSON, ainsi que les
+images de l’animatique et de l’export courants.
