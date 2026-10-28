@@ -1,7 +1,7 @@
 {
   "title": "Encore une feuille — en cuisine et en rythme",
   "timeline_version": 6,
-  "provenance": "Tous les effets et les notes sifflées sont originaux, synthétisés localement : bruit filtré, micro-grains, enveloppes, faibles résonances et oscillateur soufflé à hauteur variable. Aucune mélodie ou prise de son importée, aucun service externe. Les sifflements constituent le jeu sonore de MOU, sans dialogue ni musique de fond.",
+  "provenance": "Effets, trois notes sifflées initiales et partition de fond sont originaux, synthétisés localement. La musique emploie des oscillateurs harmoniques amortis pour un motif inédit à cordes pincées/bois et basse ronde. Aucun morceau, échantillon ou service importé. Sifflement uniquement avant le premier lavage ; musique coupée pendant tous les rituels et la fin, sans queue de réverbération. Aucun dialogue.",
   "tools": [
     "Python (PSF)",
     "NumPy (BSD-3-Clause)",
@@ -13,8 +13,8 @@
   "duration_seconds": 30.0,
   "master_gain_db": 6.537,
   "event_bank_levels": "WAV individuels avant gain commun. Sommation aux start_sample, gain master_gain_db puis enveloppe globale attaque 8ms/sortie35ms reproduisent le mix.",
-  "chronologie_sha256": "fec2e489c622470c5ed8715b4a805aa233bd95e2a9a6203bc1acb333ab3dc190",
-  "source_sha256": "6b1dbc809152ef833faa13352c827b90c0cfbe681759a0eb93d84446e50337df",
+  "chronologie_sha256": "362227e993d340ec39afdb3b700811b87a52445d51f84b26e7a77f10610ecd25",
+  "source_sha256": "6f902189a62ade0717f381fb05609a0d2536ec934a7b19bae05e1edb2679f2c5",
   "events": [
     {
       "name": "cuisson",
@@ -1431,232 +1431,340 @@
       "sha256": "2914540c1d2e0119f3a0b476695ea130b251ca7bc88cf4291e7da4fbf47d44c0"
     },
     {
-      "name": "sifflement_p2_n4",
-      "kind": "whistle",
-      "start": 8.633333,
-      "duration": 0.19,
-      "peak_dbfs": -19.5,
+      "name": "musique_cuisine",
+      "kind": "background_music",
+      "start": 0.0,
+      "duration": 30.0,
+      "peak_dbfs": -27.0,
       "pan": 0.0,
       "cycle": null,
-      "frequency_hz": 1318.51,
-      "phrase": 2,
-      "end": 8.823333,
-      "file": "sifflement_p2_n4.wav",
+      "file": "musique_cuisine.wav",
       "seed": 3039891,
-      "start_sample": 414400,
-      "samples": 9120,
-      "end_seconds": 8.823333333333334,
-      "first_above_one_percent_seconds": 8.634708333333334,
-      "peak_dbfs_measured": -19.5,
+      "start_sample": 0,
+      "samples": 1440000,
+      "end_seconds": 30.0,
+      "first_above_one_percent_seconds": 0.001625,
+      "peak_dbfs_measured": -27.0,
       "parameters": {
-        "fundamental_hz": 1318.51,
-        "initial_scoop_cents": -48.0,
-        "scoop_time_seconds": 0.032,
-        "vibrato_hz": 5.05,
-        "vibrato_depth_cents": 5.2,
-        "pitch_jitter_std_cents": 2.2,
-        "jitter_node_spacing_seconds": 0.03,
-        "air_band_hz": [
-          800,
-          4300
+        "source": "original score and analytic local synthesis; no tune, sample or service imported",
+        "intention": "fond joyeux discret, cordes pincées et bois ; coupure à chaque rituel",
+        "bpm": 108.0,
+        "meter_beats": 4,
+        "windows_seconds": [
+          [
+            0.0,
+            2.75
+          ],
+          [
+            8.5,
+            10.0
+          ],
+          [
+            15.0,
+            18.0
+          ],
+          [
+            22.0,
+            23.0
+          ]
         ],
-        "air_amplitude": 0.065,
-        "attack_seconds": 0.02,
-        "release_seconds": 0.035,
-        "source": "original local synthesis, no tune or sample imported",
-        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
-      },
-      "sha256": "9a82ff54c544ee2407319e21b9c532561e74197924eb6e5972e70f11a4903a53"
-    },
-    {
-      "name": "sifflement_p2_n5",
-      "kind": "whistle",
-      "start": 8.911111,
-      "duration": 0.19,
-      "peak_dbfs": -19.5,
-      "pan": 0.0,
-      "cycle": null,
-      "frequency_hz": 1108.731,
-      "phrase": 2,
-      "end": 9.101111,
-      "file": "sifflement_p2_n5.wav",
-      "seed": 3040028,
-      "start_sample": 427733,
-      "samples": 9120,
-      "end_seconds": 9.101104166666667,
-      "first_above_one_percent_seconds": 8.912625,
-      "peak_dbfs_measured": -19.5,
-      "parameters": {
-        "fundamental_hz": 1108.731,
-        "initial_scoop_cents": -48.0,
-        "scoop_time_seconds": 0.032,
-        "vibrato_hz": 5.05,
-        "vibrato_depth_cents": 5.2,
-        "pitch_jitter_std_cents": 2.2,
-        "jitter_node_spacing_seconds": 0.03,
-        "air_band_hz": [
-          800,
-          4300
+        "window_attack_seconds": 0.01,
+        "window_release_seconds": 0.01,
+        "reverb_tail_seconds": 0.0,
+        "notes": [
+          {
+            "window": 1,
+            "start": 0.0,
+            "duration": 0.31,
+            "midi_note": 69,
+            "instrument": "plucked_wood",
+            "intensity": 0.86
+          },
+          {
+            "window": 1,
+            "start": 0.277777778,
+            "duration": 0.31,
+            "midi_note": 76,
+            "instrument": "plucked_wood",
+            "intensity": 0.45
+          },
+          {
+            "window": 1,
+            "start": 0.555555556,
+            "duration": 0.31,
+            "midi_note": 73,
+            "instrument": "plucked_wood",
+            "intensity": 0.68
+          },
+          {
+            "window": 1,
+            "start": 0.972222222,
+            "duration": 0.31,
+            "midi_note": 71,
+            "instrument": "plucked_wood",
+            "intensity": 0.5
+          },
+          {
+            "window": 1,
+            "start": 1.388888889,
+            "duration": 0.31,
+            "midi_note": 78,
+            "instrument": "plucked_wood",
+            "intensity": 0.5
+          },
+          {
+            "window": 1,
+            "start": 1.666666667,
+            "duration": 0.31,
+            "midi_note": 76,
+            "instrument": "plucked_wood",
+            "intensity": 0.64
+          },
+          {
+            "window": 1,
+            "start": 1.944444444,
+            "duration": 0.31,
+            "midi_note": 73,
+            "instrument": "plucked_wood",
+            "intensity": 0.42
+          },
+          {
+            "window": 1,
+            "start": 0.0,
+            "duration": 1.2777708333333333,
+            "midi_note": 45,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.64
+          },
+          {
+            "window": 1,
+            "start": 1.111111111,
+            "duration": 1.2777708333333333,
+            "midi_note": 52,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.46
+          },
+          {
+            "window": 1,
+            "start": 2.222222222,
+            "duration": 0.31,
+            "midi_note": 69,
+            "instrument": "plucked_wood",
+            "intensity": 0.86
+          },
+          {
+            "window": 1,
+            "start": 2.5,
+            "duration": 0.25,
+            "midi_note": 76,
+            "instrument": "plucked_wood",
+            "intensity": 0.45
+          },
+          {
+            "window": 1,
+            "start": 2.222222222,
+            "duration": 0.5277708333333333,
+            "midi_note": 45,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.64
+          },
+          {
+            "window": 2,
+            "start": 8.5,
+            "duration": 0.31,
+            "midi_note": 69,
+            "instrument": "plucked_wood",
+            "intensity": 0.86
+          },
+          {
+            "window": 2,
+            "start": 8.777777778,
+            "duration": 0.31,
+            "midi_note": 76,
+            "instrument": "plucked_wood",
+            "intensity": 0.45
+          },
+          {
+            "window": 2,
+            "start": 9.055555556,
+            "duration": 0.31,
+            "midi_note": 73,
+            "instrument": "plucked_wood",
+            "intensity": 0.68
+          },
+          {
+            "window": 2,
+            "start": 9.472222222,
+            "duration": 0.31,
+            "midi_note": 71,
+            "instrument": "plucked_wood",
+            "intensity": 0.5
+          },
+          {
+            "window": 2,
+            "start": 9.888888889,
+            "duration": 0.11110416666666667,
+            "midi_note": 78,
+            "instrument": "plucked_wood",
+            "intensity": 0.5
+          },
+          {
+            "window": 2,
+            "start": 8.5,
+            "duration": 1.2777708333333333,
+            "midi_note": 45,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.64
+          },
+          {
+            "window": 2,
+            "start": 9.611111111,
+            "duration": 0.38889583333333333,
+            "midi_note": 52,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.46
+          },
+          {
+            "window": 3,
+            "start": 15.0,
+            "duration": 0.31,
+            "midi_note": 69,
+            "instrument": "plucked_wood",
+            "intensity": 0.86
+          },
+          {
+            "window": 3,
+            "start": 15.277777778,
+            "duration": 0.31,
+            "midi_note": 76,
+            "instrument": "plucked_wood",
+            "intensity": 0.45
+          },
+          {
+            "window": 3,
+            "start": 15.555555556,
+            "duration": 0.31,
+            "midi_note": 73,
+            "instrument": "plucked_wood",
+            "intensity": 0.68
+          },
+          {
+            "window": 3,
+            "start": 15.972222222,
+            "duration": 0.31,
+            "midi_note": 71,
+            "instrument": "plucked_wood",
+            "intensity": 0.5
+          },
+          {
+            "window": 3,
+            "start": 16.388888889,
+            "duration": 0.31,
+            "midi_note": 78,
+            "instrument": "plucked_wood",
+            "intensity": 0.5
+          },
+          {
+            "window": 3,
+            "start": 16.666666667,
+            "duration": 0.31,
+            "midi_note": 76,
+            "instrument": "plucked_wood",
+            "intensity": 0.64
+          },
+          {
+            "window": 3,
+            "start": 16.944444444,
+            "duration": 0.31,
+            "midi_note": 73,
+            "instrument": "plucked_wood",
+            "intensity": 0.42
+          },
+          {
+            "window": 3,
+            "start": 15.0,
+            "duration": 1.2777708333333333,
+            "midi_note": 45,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.64
+          },
+          {
+            "window": 3,
+            "start": 16.111111111,
+            "duration": 1.2777708333333333,
+            "midi_note": 52,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.46
+          },
+          {
+            "window": 3,
+            "start": 17.222222222,
+            "duration": 0.31,
+            "midi_note": 69,
+            "instrument": "plucked_wood",
+            "intensity": 0.86
+          },
+          {
+            "window": 3,
+            "start": 17.5,
+            "duration": 0.31,
+            "midi_note": 76,
+            "instrument": "plucked_wood",
+            "intensity": 0.45
+          },
+          {
+            "window": 3,
+            "start": 17.777777778,
+            "duration": 0.22222916666666667,
+            "midi_note": 73,
+            "instrument": "plucked_wood",
+            "intensity": 0.68
+          },
+          {
+            "window": 3,
+            "start": 17.222222222,
+            "duration": 0.7777708333333333,
+            "midi_note": 45,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.64
+          },
+          {
+            "window": 4,
+            "start": 22.0,
+            "duration": 0.31,
+            "midi_note": 69,
+            "instrument": "plucked_wood",
+            "intensity": 0.86
+          },
+          {
+            "window": 4,
+            "start": 22.277777778,
+            "duration": 0.31,
+            "midi_note": 76,
+            "instrument": "plucked_wood",
+            "intensity": 0.45
+          },
+          {
+            "window": 4,
+            "start": 22.555555556,
+            "duration": 0.31,
+            "midi_note": 73,
+            "instrument": "plucked_wood",
+            "intensity": 0.68
+          },
+          {
+            "window": 4,
+            "start": 22.0,
+            "duration": 1.0,
+            "midi_note": 45,
+            "instrument": "rounded_plucked_bass",
+            "intensity": 0.64
+          }
         ],
-        "air_amplitude": 0.065,
-        "attack_seconds": 0.02,
-        "release_seconds": 0.035,
-        "source": "original local synthesis, no tune or sample imported",
-        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
+        "maximum_abs_sample_outside_windows": 0.0,
+        "restart_motif_on_each_cooking_return": true
       },
-      "sha256": "cb15e31f7c2dda570617fc9fe7c85383cd8c09402992d5c2b6eca790f55692be"
-    },
-    {
-      "name": "sifflement_p3_n6",
-      "kind": "whistle",
-      "start": 15.161111,
-      "duration": 0.17,
-      "peak_dbfs": -19.5,
-      "pan": 0.0,
-      "cycle": null,
-      "frequency_hz": 880.0,
-      "phrase": 3,
-      "end": 15.331111,
-      "file": "sifflement_p3_n6.wav",
-      "seed": 3040165,
-      "start_sample": 727733,
-      "samples": 8160,
-      "end_seconds": 15.331104166666666,
-      "first_above_one_percent_seconds": 15.162541666666666,
-      "peak_dbfs_measured": -19.5,
-      "parameters": {
-        "fundamental_hz": 880.0,
-        "initial_scoop_cents": -48.0,
-        "scoop_time_seconds": 0.032,
-        "vibrato_hz": 5.05,
-        "vibrato_depth_cents": 5.2,
-        "pitch_jitter_std_cents": 2.2,
-        "jitter_node_spacing_seconds": 0.03,
-        "air_band_hz": [
-          800,
-          4300
-        ],
-        "air_amplitude": 0.065,
-        "attack_seconds": 0.02,
-        "release_seconds": 0.035,
-        "source": "original local synthesis, no tune or sample imported",
-        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
-      },
-      "sha256": "61dd71ff22c6ef993aa70e5c1cf41462b04b37a88b4904b236a20525870fce69"
-    },
-    {
-      "name": "sifflement_p3_n7",
-      "kind": "whistle",
-      "start": 15.438889,
-      "duration": 0.15,
-      "peak_dbfs": -19.5,
-      "pan": 0.0,
-      "cycle": null,
-      "frequency_hz": 987.767,
-      "phrase": 3,
-      "end": 15.588889,
-      "file": "sifflement_p3_n7.wav",
-      "seed": 3040302,
-      "start_sample": 741067,
-      "samples": 7200,
-      "end_seconds": 15.588895833333334,
-      "first_above_one_percent_seconds": 15.4405625,
-      "peak_dbfs_measured": -19.5,
-      "parameters": {
-        "fundamental_hz": 987.767,
-        "initial_scoop_cents": -48.0,
-        "scoop_time_seconds": 0.032,
-        "vibrato_hz": 5.05,
-        "vibrato_depth_cents": 5.2,
-        "pitch_jitter_std_cents": 2.2,
-        "jitter_node_spacing_seconds": 0.03,
-        "air_band_hz": [
-          800,
-          4300
-        ],
-        "air_amplitude": 0.065,
-        "attack_seconds": 0.02,
-        "release_seconds": 0.035,
-        "source": "original local synthesis, no tune or sample imported",
-        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
-      },
-      "sha256": "b3b621e385ee32323c8d9de3805edc07ce38b4f56aa3841199b102d4b544e04a"
-    },
-    {
-      "name": "sifflement_p4_n8",
-      "kind": "whistle",
-      "start": 22.105556,
-      "duration": 0.115,
-      "peak_dbfs": -19.5,
-      "pan": 0.0,
-      "cycle": null,
-      "frequency_hz": 1108.731,
-      "phrase": 4,
-      "end": 22.220556,
-      "file": "sifflement_p4_n8.wav",
-      "seed": 3040439,
-      "start_sample": 1061067,
-      "samples": 5520,
-      "end_seconds": 22.2205625,
-      "first_above_one_percent_seconds": 22.107104166666666,
-      "peak_dbfs_measured": -19.5,
-      "parameters": {
-        "fundamental_hz": 1108.731,
-        "initial_scoop_cents": -48.0,
-        "scoop_time_seconds": 0.032,
-        "vibrato_hz": 5.05,
-        "vibrato_depth_cents": 5.2,
-        "pitch_jitter_std_cents": 2.2,
-        "jitter_node_spacing_seconds": 0.03,
-        "air_band_hz": [
-          800,
-          4300
-        ],
-        "air_amplitude": 0.065,
-        "attack_seconds": 0.02,
-        "release_seconds": 0.02875,
-        "source": "original local synthesis, no tune or sample imported",
-        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
-      },
-      "sha256": "16f1a3392baa89a9efd3cfc43fa1bb3a880f738b2715b50d34158e43cc96380d"
-    },
-    {
-      "name": "sifflement_p4_n9",
-      "kind": "whistle",
-      "start": 22.244444,
-      "duration": 0.135,
-      "peak_dbfs": -19.5,
-      "pan": 0.0,
-      "cycle": null,
-      "frequency_hz": 880.0,
-      "phrase": 4,
-      "end": 22.379444,
-      "file": "sifflement_p4_n9.wav",
-      "seed": 3040576,
-      "start_sample": 1067733,
-      "samples": 6480,
-      "end_seconds": 22.3794375,
-      "first_above_one_percent_seconds": 22.2458125,
-      "peak_dbfs_measured": -19.5,
-      "parameters": {
-        "fundamental_hz": 880.0,
-        "initial_scoop_cents": -48.0,
-        "scoop_time_seconds": 0.032,
-        "vibrato_hz": 5.05,
-        "vibrato_depth_cents": 5.2,
-        "pitch_jitter_std_cents": 2.2,
-        "jitter_node_spacing_seconds": 0.03,
-        "air_band_hz": [
-          800,
-          4300
-        ],
-        "air_amplitude": 0.065,
-        "attack_seconds": 0.02,
-        "release_seconds": 0.03375,
-        "source": "original local synthesis, no tune or sample imported",
-        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
-      },
-      "sha256": "3e77f8ffd478ab8aedff134c0777ed0e9d6c503f805e6c074cf7970fb9f98022"
+      "sha256": "49dce776a1a7d1391c2409bfb1674f93cc2e3886b021bdfe955be2901a6a0bde"
     }
   ],
   "rhythm": {
@@ -1682,45 +1790,354 @@
       "end": 1.731111,
       "frequency_hz": 987.767,
       "phrase": 1
-    },
-    {
-      "start": 8.633333,
-      "end": 8.823333,
-      "frequency_hz": 1318.51,
-      "phrase": 2
-    },
-    {
-      "start": 8.911111,
-      "end": 9.101111,
-      "frequency_hz": 1108.731,
-      "phrase": 2
-    },
-    {
-      "start": 15.161111,
-      "end": 15.331111,
-      "frequency_hz": 880.0,
-      "phrase": 3
-    },
-    {
-      "start": 15.438889,
-      "end": 15.588889,
-      "frequency_hz": 987.767,
-      "phrase": 3
-    },
-    {
-      "start": 22.105556,
-      "end": 22.220556,
-      "frequency_hz": 1108.731,
-      "phrase": 4
-    },
-    {
-      "start": 22.244444,
-      "end": 22.379444,
-      "frequency_hz": 880.0,
-      "phrase": 4
     }
   ],
-  "no_background_music": true,
+  "background_music": {
+    "event_file": "musique_cuisine.wav",
+    "bpm": 108,
+    "windows_seconds": [
+      [
+        0.0,
+        2.75
+      ],
+      [
+        8.5,
+        10.0
+      ],
+      [
+        15.0,
+        18.0
+      ],
+      [
+        22.0,
+        23.0
+      ]
+    ],
+    "peak_dbfs_before_master": -27.0,
+    "outside_window_nonzero_samples": 0,
+    "all_washing_wiping_throwing_and_final_music_silent": true,
+    "parameters": {
+      "source": "original score and analytic local synthesis; no tune, sample or service imported",
+      "intention": "fond joyeux discret, cordes pincées et bois ; coupure à chaque rituel",
+      "bpm": 108.0,
+      "meter_beats": 4,
+      "windows_seconds": [
+        [
+          0.0,
+          2.75
+        ],
+        [
+          8.5,
+          10.0
+        ],
+        [
+          15.0,
+          18.0
+        ],
+        [
+          22.0,
+          23.0
+        ]
+      ],
+      "window_attack_seconds": 0.01,
+      "window_release_seconds": 0.01,
+      "reverb_tail_seconds": 0.0,
+      "notes": [
+        {
+          "window": 1,
+          "start": 0.0,
+          "duration": 0.31,
+          "midi_note": 69,
+          "instrument": "plucked_wood",
+          "intensity": 0.86
+        },
+        {
+          "window": 1,
+          "start": 0.277777778,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.45
+        },
+        {
+          "window": 1,
+          "start": 0.555555556,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.68
+        },
+        {
+          "window": 1,
+          "start": 0.972222222,
+          "duration": 0.31,
+          "midi_note": 71,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 1,
+          "start": 1.388888889,
+          "duration": 0.31,
+          "midi_note": 78,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 1,
+          "start": 1.666666667,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.64
+        },
+        {
+          "window": 1,
+          "start": 1.944444444,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.42
+        },
+        {
+          "window": 1,
+          "start": 0.0,
+          "duration": 1.2777708333333333,
+          "midi_note": 45,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.64
+        },
+        {
+          "window": 1,
+          "start": 1.111111111,
+          "duration": 1.2777708333333333,
+          "midi_note": 52,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.46
+        },
+        {
+          "window": 1,
+          "start": 2.222222222,
+          "duration": 0.31,
+          "midi_note": 69,
+          "instrument": "plucked_wood",
+          "intensity": 0.86
+        },
+        {
+          "window": 1,
+          "start": 2.5,
+          "duration": 0.25,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.45
+        },
+        {
+          "window": 1,
+          "start": 2.222222222,
+          "duration": 0.5277708333333333,
+          "midi_note": 45,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.64
+        },
+        {
+          "window": 2,
+          "start": 8.5,
+          "duration": 0.31,
+          "midi_note": 69,
+          "instrument": "plucked_wood",
+          "intensity": 0.86
+        },
+        {
+          "window": 2,
+          "start": 8.777777778,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.45
+        },
+        {
+          "window": 2,
+          "start": 9.055555556,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.68
+        },
+        {
+          "window": 2,
+          "start": 9.472222222,
+          "duration": 0.31,
+          "midi_note": 71,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 2,
+          "start": 9.888888889,
+          "duration": 0.11110416666666667,
+          "midi_note": 78,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 2,
+          "start": 8.5,
+          "duration": 1.2777708333333333,
+          "midi_note": 45,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.64
+        },
+        {
+          "window": 2,
+          "start": 9.611111111,
+          "duration": 0.38889583333333333,
+          "midi_note": 52,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.46
+        },
+        {
+          "window": 3,
+          "start": 15.0,
+          "duration": 0.31,
+          "midi_note": 69,
+          "instrument": "plucked_wood",
+          "intensity": 0.86
+        },
+        {
+          "window": 3,
+          "start": 15.277777778,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.45
+        },
+        {
+          "window": 3,
+          "start": 15.555555556,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.68
+        },
+        {
+          "window": 3,
+          "start": 15.972222222,
+          "duration": 0.31,
+          "midi_note": 71,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 3,
+          "start": 16.388888889,
+          "duration": 0.31,
+          "midi_note": 78,
+          "instrument": "plucked_wood",
+          "intensity": 0.5
+        },
+        {
+          "window": 3,
+          "start": 16.666666667,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.64
+        },
+        {
+          "window": 3,
+          "start": 16.944444444,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.42
+        },
+        {
+          "window": 3,
+          "start": 15.0,
+          "duration": 1.2777708333333333,
+          "midi_note": 45,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.64
+        },
+        {
+          "window": 3,
+          "start": 16.111111111,
+          "duration": 1.2777708333333333,
+          "midi_note": 52,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.46
+        },
+        {
+          "window": 3,
+          "start": 17.222222222,
+          "duration": 0.31,
+          "midi_note": 69,
+          "instrument": "plucked_wood",
+          "intensity": 0.86
+        },
+        {
+          "window": 3,
+          "start": 17.5,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.45
+        },
+        {
+          "window": 3,
+          "start": 17.777777778,
+          "duration": 0.22222916666666667,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.68
+        },
+        {
+          "window": 3,
+          "start": 17.222222222,
+          "duration": 0.7777708333333333,
+          "midi_note": 45,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.64
+        },
+        {
+          "window": 4,
+          "start": 22.0,
+          "duration": 0.31,
+          "midi_note": 69,
+          "instrument": "plucked_wood",
+          "intensity": 0.86
+        },
+        {
+          "window": 4,
+          "start": 22.277777778,
+          "duration": 0.31,
+          "midi_note": 76,
+          "instrument": "plucked_wood",
+          "intensity": 0.45
+        },
+        {
+          "window": 4,
+          "start": 22.555555556,
+          "duration": 0.31,
+          "midi_note": 73,
+          "instrument": "plucked_wood",
+          "intensity": 0.68
+        },
+        {
+          "window": 4,
+          "start": 22.0,
+          "duration": 1.0,
+          "midi_note": 45,
+          "instrument": "rounded_plucked_bass",
+          "intensity": 0.64
+        }
+      ],
+      "maximum_abs_sample_outside_windows": 0.0,
+      "restart_motif_on_each_cooking_return": true
+    }
+  },
+  "no_background_music": false,
+  "original_background_music": true,
   "no_external_music": true,
   "no_speech": true,
   "no_recorded_voice": true,

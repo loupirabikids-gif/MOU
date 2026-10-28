@@ -7,7 +7,7 @@
     1080,
     1920
   ],
-  "accord": "Augmenter le débit d’eau, ajouter un tablier et un MOU joyeux qui siffle en rythme ; rechercher des épisodes comparables sur internet",
+  "accord": "Sifflement seulement au début avant le premier lavage ; musique de fond originale pendant la cuisine, coupée pendant chaque rituel de lavage et essuyage.",
   "cycles": [
     {
       "id": 1,
@@ -320,7 +320,6 @@
     "Durée30s pour garder le temps de découverte et le petit séchage lisibles sans dialogue.",
     "Tablier de cuisine explicitement demandé : SVG attaché au corps, sous les bras, visage et deux moufles dégagés.",
     "Jet d’eau 3 à 4 fois plus large et bruit d’eau plus présent ; mêmes ouvertures, contacts et fermetures.",
-    "MOU siffle neuf notes originales en quatre phrases à108BPM pendant la cuisine ; le jeu s’arrête pendant les lavages et avant les contacts de coupe.",
     "Recherche internet enregistrée avec observations réelles et limites d’accès, sans inventer de visionnage ou de statistiques."
   ],
   "paper_stock": [
@@ -353,42 +352,28 @@
       "end": 1.731111,
       "frequency_hz": 987.767,
       "phrase": 1
-    },
-    {
-      "start": 8.633333,
-      "end": 8.823333,
-      "frequency_hz": 1318.51,
-      "phrase": 2
-    },
-    {
-      "start": 8.911111,
-      "end": 9.101111,
-      "frequency_hz": 1108.731,
-      "phrase": 2
-    },
-    {
-      "start": 15.161111,
-      "end": 15.331111,
-      "frequency_hz": 880.0,
-      "phrase": 3
-    },
-    {
-      "start": 15.438889,
-      "end": 15.588889,
-      "frequency_hz": 987.767,
-      "phrase": 3
-    },
-    {
-      "start": 22.105556,
-      "end": 22.220556,
-      "frequency_hz": 1108.731,
-      "phrase": 4
-    },
-    {
-      "start": 22.244444,
-      "end": 22.379444,
-      "frequency_hz": 880.0,
-      "phrase": 4
     }
-  ]
+  ],
+  "background_music": {
+    "bpm": 108,
+    "windows": [
+      [
+        0.0,
+        2.75
+      ],
+      [
+        8.5,
+        10.0
+      ],
+      [
+        15.0,
+        18.0
+      ],
+      [
+        22.0,
+        23.0
+      ]
+    ],
+    "intention": "Musique originale légère pendant la cuisine, interrompue pour tous les rituels de lavage, essuyage et jet ; aucun retour dans la tenue finale."
+  }
 }

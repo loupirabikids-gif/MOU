@@ -1,0 +1,157 @@
+{
+  "video": "episodes/03/cuisine_v6/MOU_Encore_une_feuille_animatique.mp4",
+  "video_sha256": "8f5f462c60286ec19470a63d25cd6bb346d222bcbe523a9004964eb676923308",
+  "duration_seconds": 30,
+  "dimensions": [
+    540,
+    960
+  ],
+  "fps": 12,
+  "method": "Direct ffmpeg select on real MP4; no SVG or PNG cache used.",
+  "decoded_images": [
+    {
+      "frame": 5,
+      "time_seconds": 0.4166666666666667,
+      "file": "00005.png",
+      "sha256": "37a5c1b854ed9e4d58efa1dcda5135c22c22b1417a8ef44a2389b62a01d62a97"
+    },
+    {
+      "frame": 9,
+      "time_seconds": 0.75,
+      "file": "00009.png",
+      "sha256": "792670542893ffdebf7f1b72abe8e5696580f4c9604fe51516abdb417d7e1229"
+    },
+    {
+      "frame": 13,
+      "time_seconds": 1.0833333333333333,
+      "file": "00013.png",
+      "sha256": "dfdb66b8846c762cad02e6c37694e4ebd20155f4301043156717e969cd4086b6"
+    },
+    {
+      "frame": 32,
+      "time_seconds": 2.6666666666666665,
+      "file": "00032.png",
+      "sha256": "fc0010be8281e84ab478d79d4e5b4cbb95eda01270d57d45ccba9c8ce6cbba74"
+    },
+    {
+      "frame": 33,
+      "time_seconds": 2.75,
+      "file": "00033.png",
+      "sha256": "76457cc15bbbb5bd507830b5d140b71ad759013ab92e09cfd8114dea8d43ac05"
+    },
+    {
+      "frame": 101,
+      "time_seconds": 8.416666666666666,
+      "file": "00101.png",
+      "sha256": "de854198a69b80c88f1db0054f1cfb6cd3366885c82ff4ad42712c783440e9b9"
+    },
+    {
+      "frame": 102,
+      "time_seconds": 8.5,
+      "file": "00102.png",
+      "sha256": "a6dbbf5f327f4bdd4ff214a1eb76bafe91f940e169ce608640caa587a4fa3065"
+    },
+    {
+      "frame": 104,
+      "time_seconds": 8.666666666666666,
+      "file": "00104.png",
+      "sha256": "e11822724d58674043721555e0fba35d99e41e2403ac91bfdaf105e0254c0092"
+    },
+    {
+      "frame": 108,
+      "time_seconds": 9.0,
+      "file": "00108.png",
+      "sha256": "141487a12989d6cdee1290c478868fae1e8439543537a44659fec6af91cf06ef"
+    },
+    {
+      "frame": 119,
+      "time_seconds": 9.916666666666666,
+      "file": "00119.png",
+      "sha256": "c2db124d9483e05c79e06ce2f1f510e561e694d82d13c2f9d8c20ac2f20d1f5e"
+    },
+    {
+      "frame": 120,
+      "time_seconds": 10.0,
+      "file": "00120.png",
+      "sha256": "cd9ed210d2e5646fe7394b57e43d95baadf6cd8daa926ecc11e93e4ec2d12bab"
+    },
+    {
+      "frame": 179,
+      "time_seconds": 14.916666666666666,
+      "file": "00179.png",
+      "sha256": "184b95bacfb85766d0579841390611f790cddc11be273351abf1f97ee27daed2"
+    },
+    {
+      "frame": 180,
+      "time_seconds": 15.0,
+      "file": "00180.png",
+      "sha256": "5d60c2acc9859e54e608bcc265724fdd1fe811c86988089ec87e66663e926454"
+    },
+    {
+      "frame": 186,
+      "time_seconds": 15.5,
+      "file": "00186.png",
+      "sha256": "65b7bea63c03251925e5e68cf662bf3178b95b78291ca361ace7a3c3461ef61c"
+    },
+    {
+      "frame": 215,
+      "time_seconds": 17.916666666666668,
+      "file": "00215.png",
+      "sha256": "2c0b93a074b0c7dc3c14e1c5491748283bb259b515d15acfa2e70e94be92d11d"
+    },
+    {
+      "frame": 216,
+      "time_seconds": 18.0,
+      "file": "00216.png",
+      "sha256": "4c68b09ae72dc7678d9ac1ae81a751a77a134344a11ff2a8374cd0107d0f587f"
+    },
+    {
+      "frame": 263,
+      "time_seconds": 21.916666666666668,
+      "file": "00263.png",
+      "sha256": "0d965914f882ce44f44302c251a7dc93cd621bcddb4a331eac59ee2f15934ce4"
+    },
+    {
+      "frame": 264,
+      "time_seconds": 22.0,
+      "file": "00264.png",
+      "sha256": "831442f5e22bc52fcaa477af4f1a4e7bcacd821739478f1fc20a98eae1b327d4"
+    },
+    {
+      "frame": 267,
+      "time_seconds": 22.25,
+      "file": "00267.png",
+      "sha256": "90822fccd9e5a9bc356a35d2231650a7a453608dd16c91e3c32a5654ab9114f1"
+    },
+    {
+      "frame": 275,
+      "time_seconds": 22.916666666666668,
+      "file": "00275.png",
+      "sha256": "1e31d537311beb8126a28993299236cb9f598a17117b49c53cf49b68ec7ae846"
+    },
+    {
+      "frame": 276,
+      "time_seconds": 23.0,
+      "file": "00276.png",
+      "sha256": "69f43f61f4ee6a6ee404a5aa4d0b27ed7e54c0b1cbca7503edc62875907eb4b2"
+    },
+    {
+      "frame": 318,
+      "time_seconds": 26.5,
+      "file": "00318.png",
+      "sha256": "a9084f54d64d5b6dad2fe5b3d67f358ff51d9fa01395e20b102de4e43fbe87e8"
+    },
+    {
+      "frame": 340,
+      "time_seconds": 28.333333333333332,
+      "file": "00340.png",
+      "sha256": "852c8614dcb5800ea906da26ac0021cffa4b7f8e591ed7825ed6b5779a0612bd"
+    },
+    {
+      "frame": 355,
+      "time_seconds": 29.583333333333332,
+      "file": "00355.png",
+      "sha256": "4a39f9efca45a3a2284ae94430584b58a405df71c18b27ef36effa77693ae3aa"
+    }
+  ]
+}

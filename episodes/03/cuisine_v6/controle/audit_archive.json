@@ -1,13 +1,15 @@
 {
   "status": "passed",
-  "archive_sha256": "bd5af9a6073d5f93561ce629067b7ab1cf21f48cb1469750444674aa71d6c281",
-  "files_verified": 288,
+  "archive_sha256": "43812b46e1e77fc210e778a148767f28d47075a686a12e34556723b412bf5717",
+  "files_verified": 291,
   "crc_ok": true,
   "all_manifest_sha256_ok": true,
+  "full_audio_regeneration_from_extracted_sources": true,
+  "regenerated_mix_sha256": "b6bed9c71ec11533b1d8c9bb1b2764d468ed76d56ca8a7da24ffa5235f475b2e",
   "fresh_extracted_render": [
     {
       "time": 0.4166666666666667,
-      "label": "tablier_sifflement",
+      "label": "sifflement_initial",
       "svg_sha256": "8f11a1cd03db3d68ae0f81b10f8a32c4847a80c4297bea886019a66dfbe5cd40",
       "png_sha256": "8409da817c253d6b165a2f7d8032b65009f6114f5114685433e031a947bfb3c0",
       "dimensions": [
@@ -16,10 +18,30 @@
       ]
     },
     {
-      "time": 16.75,
-      "label": "carotte",
-      "svg_sha256": "5451d0c76ed7b3cabe720e43eb0dbc820ed5d9d29a1c536430df420d64141b55",
-      "png_sha256": "f5edaee8be162c8529bb71fb85da1329b1d3eb58b513101e138421ae53caaff3",
+      "time": 8.708333333333334,
+      "label": "tomate_sans_sifflement",
+      "svg_sha256": "ee68a45da8d14a612932858417a5bd2dc284b80c01bbf646d310349be918d4f6",
+      "png_sha256": "d9c3e35611691c75fecb9985da117e2dc04412ca48d044a36c4a93b0a78f6fa8",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "time": 15.5,
+      "label": "carotte_sans_sifflement",
+      "svg_sha256": "b41fa92053ad6f50f3afc3a1820350d330f3f8647f89a085d1e6fea94cafbbdb",
+      "png_sha256": "1c18cba76351587981d56da8dc14567f6388a53dd2c4c7976c489a07085e60d4",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "time": 22.291666666666668,
+      "label": "manche_sans_sifflement",
+      "svg_sha256": "be237fa0795a3dcab6861889d3152ad458b2183cc39ee788d61d61aa55c02f84",
+      "png_sha256": "523e0f28f49ea203bb66a525cf977dcd9904fef69818189e8d911e9b03f5af4f",
       "dimensions": [
         1080,
         1920
@@ -27,34 +49,14 @@
     },
     {
       "time": 26.5,
-      "label": "papier_agrandi",
+      "label": "papier_conserve",
       "svg_sha256": "f222baa2c72cd77bc6074036619e27f59239c93dc7f43d71e464c477d79a9441",
       "png_sha256": "3e60bedb3262eaf3b2b8417860ab682820229d9882f5cadb31f8e2c046deb943",
       "dimensions": [
         1080,
         1920
       ]
-    },
-    {
-      "time": 27.291666666666668,
-      "label": "froissage_corrige",
-      "svg_sha256": "c88f53eba1f7b1624b1d4fd7968864c38893687c7255bfd880abe0f45b03cb47",
-      "png_sha256": "d7e5057fe54b14841ed2f3f9bd1305ce0648aea4754f15880835a18186a40da8",
-      "dimensions": [
-        1080,
-        1920
-      ]
-    },
-    {
-      "time": 28.25,
-      "label": "boulette_poubelle",
-      "svg_sha256": "95ae4ba2ce72d6225cf2efc5f1c2ccafbb6c640986836531eccacb132a204110",
-      "png_sha256": "233e1b129cb7f68b51c0b35a42cf42785d3d4a4fc5c7321321a22864dfe26126",
-      "dimensions": [
-        1080,
-        1920
-      ]
     }
   ],
-  "method": "New temporary directory; bundled renderer/rig/decor/timeline only. Installed open-source dependencies reused, no PNG cache or original project source paths."
+  "method": "New temporary directory; bundled score/sound synthesis/renderer/rig/decor/timeline only. Installed open-source dependencies reused, no PNG cache or original project source paths."
 }

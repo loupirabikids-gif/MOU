@@ -1,0 +1,362 @@
+{
+  "status": "passed",
+  "method": "Independent PCM WAV reads and git byte comparison; no perceptive listening.",
+  "reference_commit": "24a9531745b89c50068c1973e49e93ed62deb195",
+  "sound_source_sha256": "6f902189a62ade0717f381fb05609a0d2536ec934a7b19bae05e1edb2679f2c5",
+  "mix_sha256": "b6bed9c71ec11533b1d8c9bb1b2764d468ed76d56ca8a7da24ffa5235f475b2e",
+  "music_wav_sha256": "49dce776a1a7d1391c2409bfb1674f93cc2e3886b021bdfe955be2901a6a0bde",
+  "music_windows": [
+    [
+      0.0,
+      2.75
+    ],
+    [
+      8.5,
+      10.0
+    ],
+    [
+      15.0,
+      18.0
+    ],
+    [
+      22.0,
+      23.0
+    ]
+  ],
+  "samples_outside_windows_nonzero": 0,
+  "boundaries": [
+    {
+      "start": 0.0,
+      "end": 2.75,
+      "start_sample_l_r": [
+        0,
+        0
+      ],
+      "last_sample_l_r": [
+        0,
+        0
+      ],
+      "first_sample_after_l_r": [
+        0,
+        0
+      ]
+    },
+    {
+      "start": 8.5,
+      "end": 10.0,
+      "start_sample_l_r": [
+        0,
+        0
+      ],
+      "last_sample_l_r": [
+        0,
+        0
+      ],
+      "first_sample_after_l_r": [
+        0,
+        0
+      ]
+    },
+    {
+      "start": 15.0,
+      "end": 18.0,
+      "start_sample_l_r": [
+        0,
+        0
+      ],
+      "last_sample_l_r": [
+        0,
+        0
+      ],
+      "first_sample_after_l_r": [
+        0,
+        0
+      ]
+    },
+    {
+      "start": 22.0,
+      "end": 23.0,
+      "start_sample_l_r": [
+        0,
+        0
+      ],
+      "last_sample_l_r": [
+        0,
+        0
+      ],
+      "first_sample_after_l_r": [
+        0,
+        0
+      ]
+    }
+  ],
+  "verified_unchanged_event_wavs": [
+    {
+      "file": "cuisson.wav",
+      "kind": "frying",
+      "sha256": "cf1ffccdcf132f4cf97f1d8f7065ffef23fa4498beaebd1f5af26240bd199457"
+    },
+    {
+      "file": "remuage_debut.wav",
+      "kind": "stir",
+      "sha256": "7725df0935a7549decd7c13df21852f7a2a421e8ec65740ff2888423a34a5a09"
+    },
+    {
+      "file": "cuillere_posee.wav",
+      "kind": "wood_contact",
+      "sha256": "1da395cce8d12e2ef1807c5d569abfb91e78fac63d1c8af091007f6c4063a958"
+    },
+    {
+      "file": "contact_tomate.wav",
+      "kind": "tomato_contact",
+      "sha256": "8fd9c2cf249b14a7f4f8235a215ca5af1f2e181aba89ca5479c560a1eef7822a"
+    },
+    {
+      "file": "carotte_coupe_1.wav",
+      "kind": "carrot_chop",
+      "sha256": "4f5bd6c80adfecb7e5c62f21bdd544c4152e126257ea7c3fb0abddaa4955401f"
+    },
+    {
+      "file": "carotte_coupe_2.wav",
+      "kind": "carrot_chop",
+      "sha256": "3ca6b2fd85db7b23e100c39fe90e5f6320f21745eacbbbe93bd57364afb874ea"
+    },
+    {
+      "file": "couteau_pose.wav",
+      "kind": "knife_setdown",
+      "sha256": "eaf10c556da68e99eb261c5ff1ad872520216b345fcb0b503f260656861934d2"
+    },
+    {
+      "file": "contact_manche_propre.wav",
+      "kind": "wood_contact",
+      "sha256": "584abae6eb03b06972ec69704f880980fb44e16b8818925c96855786ef466fc7"
+    },
+    {
+      "file": "c1_robinet_ouvre.wav",
+      "kind": "tap",
+      "sha256": "2e894e985ce65e52c1f846059ab32ea1cbef7376d15ef7d0462f65bcaf5d3653"
+    },
+    {
+      "file": "c1_eau.wav",
+      "kind": "water",
+      "sha256": "434c643f3002f3ddc5eb82eb071bb7a4537d2a41b1104c351d0ac43f1b181da3"
+    },
+    {
+      "file": "c1_robinet_ferme.wav",
+      "kind": "tap",
+      "sha256": "890b0d1d698e7ba82fc0782b91794a83e57a7114f4bc40571d96883415b9fdbb"
+    },
+    {
+      "file": "c1_main_sous_eau.wav",
+      "kind": "hand_water",
+      "sha256": "b2a7988b78db5942c64fa325477cf1bc5d7308cb6e97d4ee9013c9489b345d76"
+    },
+    {
+      "file": "c1_papier_deroule.wav",
+      "kind": "paper_pull",
+      "sha256": "b000c3db5d226f3ed886cb1afad24cb72c5cdc8b2aeb5898c7dff93016001a32"
+    },
+    {
+      "file": "c1_papier_dechire.wav",
+      "kind": "paper_tear",
+      "sha256": "6fb3cc290ec5239898e7d87fd63001ea9519d69833d1e2272998ce35a016769d"
+    },
+    {
+      "file": "c1_essuie_main.wav",
+      "kind": "paper_wipe",
+      "sha256": "60bafad80a3cfe9bfce2deedcccb2c2e98037bb8e3a902d02383637fc9a1ed79"
+    },
+    {
+      "file": "c1_papier_froisse.wav",
+      "kind": "paper_crumple",
+      "sha256": "5d147e028bf2653df42c3ef9960c1763b8e3a0bf82e299f40210e80ac65c477f"
+    },
+    {
+      "file": "c1_papier_lache.wav",
+      "kind": "paper_flight",
+      "sha256": "06c0c0886d3885b97b724b2a4f03892cef4e02d8858067e0765918506c229f67"
+    },
+    {
+      "file": "c1_poubelle_impact.wav",
+      "kind": "paper_land",
+      "sha256": "81fba2ea9022378528b3b1d48eb7cc7f9b622c5a8fe090bfb54d5fa4c24dc893"
+    },
+    {
+      "file": "c2_robinet_ouvre.wav",
+      "kind": "tap",
+      "sha256": "d4127e358ecd9e43dbf7f6ec86cd3ebbb3b350cde07dbcf0eaec6eb630c1a501"
+    },
+    {
+      "file": "c2_eau.wav",
+      "kind": "water",
+      "sha256": "47e07b4917f703ea267d2ee8ef75b36efe07ccdf1c2816aff3bfaeb7b3521a30"
+    },
+    {
+      "file": "c2_robinet_ferme.wav",
+      "kind": "tap",
+      "sha256": "8eb868c85241bb79c0a9af11d11d92289decf49a89666e8905966047cde26568"
+    },
+    {
+      "file": "c2_main_sous_eau.wav",
+      "kind": "hand_water",
+      "sha256": "5591c0770ffb0f1e4df49a476d0f68e713484322b11a0046d0ce276e9b7e25f8"
+    },
+    {
+      "file": "c2_papier_deroule.wav",
+      "kind": "paper_pull",
+      "sha256": "cb73b967eb241862a4635d6cf39693dc24c0808d1b87ddb804d048b52cba97e8"
+    },
+    {
+      "file": "c2_papier_dechire.wav",
+      "kind": "paper_tear",
+      "sha256": "4770e300527e3bb3a3458519cb649bf0513e92497c8b17d3e4e9723d28c4adbc"
+    },
+    {
+      "file": "c2_essuie_main.wav",
+      "kind": "paper_wipe",
+      "sha256": "cae6bc81e0837f2dfc0dbfe582b978edc9eca2333b0b36a4517ebaade7430c64"
+    },
+    {
+      "file": "c2_papier_froisse.wav",
+      "kind": "paper_crumple",
+      "sha256": "1e85898cbe4702c656aec1f0a07dd4191716f4bb38486600b7fd2d25eaf4f82c"
+    },
+    {
+      "file": "c2_papier_lache.wav",
+      "kind": "paper_flight",
+      "sha256": "f76cc8a7d544215b00110f81d3009d0edcd31669222ee9c382b1a5d8ea81b3f7"
+    },
+    {
+      "file": "c2_poubelle_impact.wav",
+      "kind": "paper_land",
+      "sha256": "7f28080dcd473cc5f2c9583446b92c4dccc0ed16c8f65fa916edb41763e58fe9"
+    },
+    {
+      "file": "c3_robinet_ouvre.wav",
+      "kind": "tap",
+      "sha256": "e98f3b5c6ed5d28b0e67497fcdc48a14949986adbea016a9ef34752e9989d597"
+    },
+    {
+      "file": "c3_eau.wav",
+      "kind": "water",
+      "sha256": "659b987fc18a33353e9f7555d4345a9955bd0c745aba247a6d90818fdbd1ebd9"
+    },
+    {
+      "file": "c3_robinet_ferme.wav",
+      "kind": "tap",
+      "sha256": "a0cdb8313f9c7cb059f23f2f0fb51f49b4981941d1dd3fb319b1c4ba420fe869"
+    },
+    {
+      "file": "c3_main_sous_eau.wav",
+      "kind": "hand_water",
+      "sha256": "c3100f00b82a4213027ab49379e7323035ea595f977b261c3db1fcef1ec2223c"
+    },
+    {
+      "file": "c3_papier_deroule.wav",
+      "kind": "paper_pull",
+      "sha256": "bbe5a9cc4efbbfa5b7658cd0474a11d75b08f7505d6346eacf971b59ad91818a"
+    },
+    {
+      "file": "c3_papier_dechire.wav",
+      "kind": "paper_tear",
+      "sha256": "666de359083b3f4fdf799409f5068fe33541b0a94f662bfae053d9099f71d8a4"
+    },
+    {
+      "file": "c3_essuie_main.wav",
+      "kind": "paper_wipe",
+      "sha256": "d2e207b27d4a3bde12032da0f3aa1059973fede9516c918892ab3f18f093eb2c"
+    },
+    {
+      "file": "c3_papier_froisse.wav",
+      "kind": "paper_crumple",
+      "sha256": "45969e32034bffc96377169daed0ff4004e1e7f58fbd36cbb7c684dd712cb202"
+    },
+    {
+      "file": "c3_papier_lache.wav",
+      "kind": "paper_flight",
+      "sha256": "9b88c5c370ee8788200d3f6928a536121e673f3871a9581e76e4f95c5488c879"
+    },
+    {
+      "file": "c3_poubelle_impact.wav",
+      "kind": "paper_land",
+      "sha256": "68e0d38c236554f9f3d782489fcff10e8967d0b88d97b66912beeca2b4deb29c"
+    },
+    {
+      "file": "c4_robinet_ouvre.wav",
+      "kind": "tap",
+      "sha256": "b78003a140884d9dc9d55cce5c60fa38e8a2e6c42c67e257cbce984b5659f106"
+    },
+    {
+      "file": "c4_eau.wav",
+      "kind": "water",
+      "sha256": "6e4e417408f4445691d18bf0bac3266f91c44ae3d5cc0bf625eaa42c7d311443"
+    },
+    {
+      "file": "c4_robinet_ferme.wav",
+      "kind": "tap",
+      "sha256": "780ee32c1e1c51457d7946e0385186136382fc0be1593cee46a66b949bd7d956"
+    },
+    {
+      "file": "c4_main_sous_eau.wav",
+      "kind": "hand_water",
+      "sha256": "3b4a1b04a12de6546a9acd95756850155bcddd2adadf0a3f5217925ececa1dd5"
+    },
+    {
+      "file": "c4_papier_deroule.wav",
+      "kind": "tiny_paper_pull",
+      "sha256": "50af81672a7c082adda80a8c8c337fd4f29073685341d7e6dc106fb30e0de60d"
+    },
+    {
+      "file": "c4_papier_dechire.wav",
+      "kind": "tiny_paper_tear",
+      "sha256": "964734f9d69fe23eaafec5df11079b804e2e07aece106bb672390d27f9728b13"
+    },
+    {
+      "file": "c4_essuie_main.wav",
+      "kind": "tiny_paper_wipe",
+      "sha256": "14469643fdfa11c9b22e02bc832f835435e48e6b69d52ffd4ba0ed40ff6c40d2"
+    },
+    {
+      "file": "c4_papier_froisse.wav",
+      "kind": "tiny_paper_crumple",
+      "sha256": "9b83f26b5e8e4ef6c8799910238cfb920ce407630b7694e51dbb44d41cdd65f2"
+    },
+    {
+      "file": "c4_papier_lache.wav",
+      "kind": "tiny_paper_flight",
+      "sha256": "72009d4672ea16e51070abc9bb627eb31f22d053422541fd75c272143286db62"
+    },
+    {
+      "file": "c4_poubelle_impact.wav",
+      "kind": "tiny_paper_land",
+      "sha256": "9190137a1a2753889f310190459f0a708404d14b0ff0c7baa3cd236ba56205db"
+    },
+    {
+      "file": "sifflement_p1_n1.wav",
+      "kind": "whistle",
+      "sha256": "4f5d9fb77246e984f4b76fbfc293d4454736873a959a41fc53d1969cea735628"
+    },
+    {
+      "file": "sifflement_p1_n2.wav",
+      "kind": "whistle",
+      "sha256": "c5908d8c7ed155e3a921ff4fa3dda0b73ff790a6debab5d040717e94b54b294a"
+    },
+    {
+      "file": "sifflement_p1_n3.wav",
+      "kind": "whistle",
+      "sha256": "2914540c1d2e0119f3a0b476695ea130b251ca7bc88cf4291e7da4fbf47d44c0"
+    }
+  ],
+  "foley_count": 48,
+  "whistle_count": 3,
+  "last_whistle_end_seconds": 1.7311041666666667,
+  "obsolete_whistles_absent": [
+    "sifflement_p2_n4.wav",
+    "sifflement_p2_n5.wav",
+    "sifflement_p3_n6.wav",
+    "sifflement_p3_n7.wav",
+    "sifflement_p4_n8.wav",
+    "sifflement_p4_n9.wav"
+  ],
+  "limits": "Checks of actual isolated PCM files and metadata; natural timbre, pleasure, mix on phone and continuous perceived rhythm have not been heard."
+}

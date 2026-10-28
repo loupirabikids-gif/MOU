@@ -1,7 +1,8 @@
 # MOU
 
 **Encore une feuille — tablier, eau exagérée et cuisine en rythme, 30 secondes.**
-MOU cuisine joyeusement, se balance et siffle par moments. Chaque contact
+MOU siffle au départ, puis cuisine sur une musique originale qui se coupe
+pour chaque rituel de lavage et essuyage. Chaque contact
 relance son lavage et son gaspillage de papier. Le rouleau diminue
 à chaque tirage. Après trois gros gaspillages, il ne reste qu’un minuscule
 bout : MOU sèche sa grande moufle avec une application absurde. Le dernier
@@ -37,8 +38,8 @@ des fichiers ne prouve pas leur activation native dans tous les clients.
 - [Veille datée et limites](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
-NumPy et FFmpeg. 57 événements sonores originaux dans ce montage, dont neuf
-notes sifflées synthétiques : aucun dialogue ni musique externe.
+NumPy et FFmpeg. Bruitages et musique sont originaux ; trois notes sifflées
+uniquement au départ, aucun dialogue ni musique téléchargée.
 La [veille de cette révision](episodes/03/cuisine_v6/editorial/veille_cuisine_v6.md)
 reste partielle : une vidéo de cuisine examinée par images et une boucle CSS lue.
 YouTube reste bloqué par le réseau courant ; les accès sont préparés dans

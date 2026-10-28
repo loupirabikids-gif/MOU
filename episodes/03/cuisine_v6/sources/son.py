@@ -1,8 +1,8 @@
 """Encore une feuille — bruitages originaux, reproductibles et sans ressources externes.
 
-Synthèse locale Python/NumPy/wave : eau sous pression, papier, cuisine et
-sifflements originaux du personnage. Les phrases sifflées ne couvrent que les
-actions de cuisine ; le lavage et la découverte du petit bout restent distincts.
+Synthèse locale Python/NumPy/wave : eau sous pression, papier, cuisine,
+sifflement initial et musique originale à cordes pincées/bois. La musique
+s'interrompt pendant chaque rituel ; aucune note ne déborde de sa fenêtre.
 La chronologie et ses notes communes règlent bouche, rythme et son.
 """
 from __future__ import annotations
@@ -283,6 +283,83 @@ def make_whistle(length, frequency_hz, seed):
     return signal,params
 
 
+def make_background_music(length, specification, seed):
+    """Original, quiet plucked-wood motif with finite, silent cut windows.
+
+    This is an original local score, not a performance or downloaded loop.
+    Each cooking return restarts the same small motif; the pattern never
+    continues beneath washing, wiping, bin inserts or the final reaction.
+    """
+    n=round(length*SR)
+    signal=np.zeros(n,dtype=np.float64)
+    beat=60./float(specification['bpm'])
+    windows=[tuple(map(float,w)) for w in specification['windows']]
+    # Beat positions, MIDI pitch and intensity: a new four-beat pentatonic
+    # motif. The melody uses short, overtone-rich plucks, not breathy tones.
+    melody=((0.,69,.86),(.5,76,.45),(1.,73,.68),(1.75,71,.50),
+            (2.5,78,.50),(3.,76,.64),(3.5,73,.42))
+    bass=((0.,45,.64),(2.,52,.46))
+    score=[]
+
+    def pluck(pitch,duration,bass_note,note_seed):
+        count=max(2,round(duration*SR))
+        t=np.arange(count)/SR
+        frequency=440.*2.**((pitch-69)/12.)
+        rng=np.random.default_rng(note_seed)
+        phase=rng.uniform(-.05,.05)
+        if bass_note:
+            voice=(np.sin(math.tau*frequency*t+phase)*np.exp(-t/.37)
+                   +.38*np.sin(math.tau*frequency*2.003*t)*np.exp(-t/.24)
+                   +.12*np.sin(math.tau*frequency*3.011*t)*np.exp(-t/.14))
+        else:
+            voice=(np.sin(math.tau*frequency*t+phase)*np.exp(-t/.125)
+                   +.32*np.sin(math.tau*frequency*2.006*t+.10)*np.exp(-t/.068)
+                   +.11*np.sin(math.tau*frequency*3.019*t+.18)*np.exp(-t/.043)
+                   +.035*np.sin(math.tau*frequency*4.033*t)*np.exp(-t/.026))
+        voice-=voice.mean()
+        voice*=envelope(count,.004 if bass_note else .0025,.016)
+        return voice
+
+    for window_index,(start,end) in enumerate(windows):
+        a,b=round(start*SR),round(end*SR)
+        assert 0<=a<b<=n
+        section=np.zeros(b-a,dtype=np.float64)
+        local_length=(b-a)/SR
+        for bar in range(math.ceil(local_length/(4.*beat))):
+            for bass_note,notes in ((False,melody),(True,bass)):
+                for position,pitch,intensity in notes:
+                    onset=(bar*4.+position)*beat
+                    remaining=local_length-onset
+                    if remaining<.06:
+                        continue
+                    duration=min(2.3*beat if bass_note else .31,remaining)
+                    offset=round(onset*SR)
+                    note=pluck(pitch,duration,bass_note,
+                               seed+window_index*1009+len(score)*37)
+                    count=min(len(note),len(section)-offset)
+                    section[offset:offset+count]+=intensity*note[:count]
+                    score.append({'window':window_index+1,'start':round(start+onset,9),
+                                  'duration':count/SR,'midi_note':pitch,
+                                  'instrument':'rounded_plucked_bass' if bass_note else 'plucked_wood',
+                                  'intensity':intensity})
+        # Finite 10 ms ramps stay inside each window: even a truncated note
+        # has no release/reverb tail after the exact visual cut.
+        section*=envelope(len(section),.010,.010)
+        signal[a:b]=section
+    mask=np.zeros(n,dtype=bool)
+    for start,end in windows:mask[round(start*SR):round(end*SR)]=True
+    assert not np.any(signal[~mask])
+    parameters={'source':'original score and analytic local synthesis; no tune, sample or service imported',
+                'intention':'fond joyeux discret, cordes pincées et bois ; coupure à chaque rituel',
+                'bpm':float(specification['bpm']),'meter_beats':4,
+                'windows_seconds':[list(w) for w in windows],
+                'window_attack_seconds':.010,'window_release_seconds':.010,
+                'reverb_tail_seconds':0.,'notes':score,
+                'maximum_abs_sample_outside_windows':0.,
+                'restart_motif_on_each_cooking_return':True}
+    return signal,parameters
+
+
 def atomic_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, name = tempfile.mkstemp(prefix='.'+path.name, suffix='.tmp', dir=path.parent)
@@ -366,6 +443,8 @@ def events_for(timeline):
         events[-1].update({'frequency_hz':float(note['frequency_hz']),
                           'phrase':int(note['phrase']),
                           'end':float(note['end'])})
+    # Append the music last so every retained Foley/whistle keeps its seed.
+    add('musique_cuisine','background_music',0.,timeline['duration'],-27.,0.)
     return events
 
 
@@ -387,6 +466,8 @@ def main():
         softness = float(event['cycle']-1) if event['kind'] == 'paper_land' else 0.
         if event['kind']=='whistle':
             mono,parameters=make_whistle(event['duration'],event['frequency_hz'],seed)
+        elif event['kind']=='background_music':
+            mono,parameters=make_background_music(event['duration'],timeline['background_music'],seed)
         else:
             mono, parameters = make_sound(event['kind'], event['duration'], seed, softness)
         signal = stereo(mono, event['peak_dbfs'], event['pan'])
@@ -421,6 +502,10 @@ def main():
             'first_above_one_percent_seconds': (start+int(above[0]))/SR if len(above) else None,
             'peak_dbfs_measured': db(peak), 'parameters': parameters,
             'sha256': sha(path)})
+    used_whistles={e['file'] for e in metadata if e['kind']=='whistle'}
+    for obsolete in OUT.glob('sifflement_*.wav'):
+        if obsolete.name not in used_whistles:
+            obsolete.unlink()
     # One common, fixed gain brings sparse Foley to a useful playback level,
     # preserving its dynamics and leaving four decibels for the AAC encode.
     assert np.isfinite(mix).all() and float(np.abs(mix).max()) < .89
@@ -456,7 +541,8 @@ def main():
             'onset_seconds': tear['first_above_one_percent_seconds']})
     hold_start, hold_end = timeline['final_hold']
     pause = decoded[round(hold_start*SR):round(hold_end*SR)]
-    assert all(e['kind'] == 'frying' or e['start']+e['duration'] <= hold_start for e in metadata)
+    assert all(e['kind'] in ('frying','background_music')
+               or e['start']+e['duration'] <= hold_start for e in metadata)
     cuts = [e for e in metadata if e['kind'] == 'carrot_chop']
     assert [e['start'] for e in cuts] == timeline['carrot']['cut_times']
     assert all(abs(e['first_above_one_percent_seconds']-e['start']) < .003 for e in cuts)
@@ -465,18 +551,30 @@ def main():
     tiny_events = [e for e in metadata if e['kind'].startswith('tiny_')]
     assert len(tiny_events) == 6
     reveal = timeline['cycles'][-1]['reveal']
-    assert all(e['kind']=='frying' or e['start']+e['duration'] <= reveal[0]+.06
+    assert all(e['kind'] in ('frying','background_music') or e['start']+e['duration'] <= reveal[0]+.06
                or e['start'] >= reveal[1] for e in metadata)
     whistles=[e for e in metadata if e['kind']=='whistle']
     assert len(whistles)==len(timeline['whistle_notes'])
-    assert sorted({e['phrase'] for e in whistles})==[1,2,3,4]
-    allowed_cooking=[(0.,2.1),(8.5,9.3),(15.,15.6),(22.,22.5)]
+    assert len(whistles)==3 and sorted({e['phrase'] for e in whistles})==[1]
+    first_wash_start=timeline['cycles'][0]['sink'][0]
     for event in whistles:
-        assert any(start<=event['start'] and event['end_seconds']<=end+1./SR
-                   for start,end in allowed_cooking),event
+        assert 0.<=event['start']<event['end_seconds']<=first_wash_start,event
         assert all(event['end_seconds']<=c['sink'][0] or event['start']>=c['sink'][1]
                    for c in timeline['cycles']),event
         assert abs(event['end_seconds']-event['end'])<=1./SR
+    music=next(e for e in metadata if e['kind']=='background_music')
+    with wave.open(str(OUT/music['file']),'rb') as stream:
+        music_pcm=np.frombuffer(stream.readframes(n),'<i2').reshape(-1,2)
+    music_mask=np.zeros(n,dtype=bool)
+    music_windows=timeline['background_music']['windows']
+    for start,end in music_windows:music_mask[round(start*SR):round(end*SR)]=True
+    assert not music_pcm[~music_mask].any()
+    for cycle in timeline['cycles']:
+        for name in ('sink','wash','wipe','throw','zoom'):
+            start,end=cycle[name]
+            assert not music_pcm[round(start*SR):round(end*SR)].any(),(cycle['id'],name)
+    assert not music_pcm[round(reveal[0]*SR):round(reveal[1]*SR)].any()
+    assert not music_pcm[round(timeline['final'][0]*SR):].any()
     audit = {'episode': '03', 'title': timeline['titre'], 'timeline_version': 6,
         'duration_seconds': len(pcm)/SR, 'samples_per_channel': n, 'sample_rate': SR,
         'channels': 2, 'bit_depth': 16, 'event_count': len(events),
@@ -496,19 +594,27 @@ def main():
                               for e in tiny_events],
         'reveal_seconds_without_explanatory_cue': reveal,
         'rhythm':timeline['rhythm'],
-        'whistle_phrase_count':4,'whistle_note_count':len(whistles),
+        'whistle_phrase_count':1,'whistle_note_count':len(whistles),
         'whistle_notes':[{k:e[k] for k in ('name','phrase','start','end','frequency_hz',
                                           'first_above_one_percent_seconds')} for e in whistles],
         'whistles_only_during_cooking':True,
+        'whistles_only_before_first_wash':True,
+        'last_whistle_end_seconds':max(e['end_seconds'] for e in whistles),
+        'background_music':{'event_file':music['file'],'bpm':timeline['background_music']['bpm'],
+                            'windows_seconds':music_windows,'peak_dbfs_before_master':music['peak_dbfs_measured'],
+                            'outside_window_nonzero_samples':int(np.count_nonzero(music_pcm[~music_mask])),
+                            'all_washing_wiping_throwing_and_final_music_silent':True,
+                            'parameters':music['parameters']},
         'water_event_gain_change_db_vs_v5':4.,
         'first_and_last_pcm_frame_silent': True,
-        'no_background_music':True,'no_external_music':True,'no_speech':True,
+        'no_background_music':False,'original_background_music':True,
+        'no_external_music':True,'no_speech':True,
         'no_recorded_voice':True,'character_synthetic_whistle':True,
         'no_external_samples': True, 'mix_sha256': sha(OUT/'mix.wav'),
         'source_sha256': sha(__file__), 'chronologie_sha256': hashlib.sha256(timeline_bytes).hexdigest(),
         'limits': 'Contrôles numériques PCM et concordance avec les événements prévus. Pas d’écoute humaine, de contrôle haut-parleur mobile ni de validation des contacts dans la vidéo par ce rapport.'}
     provenance = {'title': timeline['titre'], 'timeline_version': 6,
-        'provenance': 'Tous les effets et les notes sifflées sont originaux, synthétisés localement : bruit filtré, micro-grains, enveloppes, faibles résonances et oscillateur soufflé à hauteur variable. Aucune mélodie ou prise de son importée, aucun service externe. Les sifflements constituent le jeu sonore de MOU, sans dialogue ni musique de fond.',
+        'provenance': 'Effets, trois notes sifflées initiales et partition de fond sont originaux, synthétisés localement. La musique emploie des oscillateurs harmoniques amortis pour un motif inédit à cordes pincées/bois et basse ronde. Aucun morceau, échantillon ou service importé. Sifflement uniquement avant le premier lavage ; musique coupée pendant tous les rituels et la fin, sans queue de réverbération. Aucun dialogue.',
         'tools': ['Python (PSF)', 'NumPy (BSD-3-Clause)', 'wave (bibliothèque standard)'],
         'sample_rate': SR, 'channels': 2, 'bit_depth': 16, 'duration_seconds': duration,
         'master_gain_db': audit['master_gain_db'],
@@ -516,7 +622,9 @@ def main():
         'chronologie_sha256': audit['chronologie_sha256'], 'source_sha256': audit['source_sha256'],
         'events': metadata,'rhythm':timeline['rhythm'],
         'whistle_notes':timeline['whistle_notes'],
-        'no_background_music':True,'no_external_music':True,'no_speech':True,
+        'background_music':audit['background_music'],
+        'no_background_music':False,'original_background_music':True,
+        'no_external_music':True,'no_speech':True,
         'no_recorded_voice':True,'character_synthetic_whistle':True,
         'reproduction': '.venv/bin/python -B episodes/03/cuisine_v6/sources/son.py',
         'limits': audit['limits']}

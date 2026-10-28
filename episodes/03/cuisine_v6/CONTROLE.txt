@@ -1,86 +1,74 @@
-MOU — Encore une feuille, cuisine en rythme — V6, correctif papier V7
+MOU — Encore une feuille — correctif sonore V8, papier V7 conservé
 Contrôles du 28 octobre 2026
 
-LIVRABLE
-30 secondes, vertical 1080 × 1920, 24 images/s, 720 images.
-H.264/yuv420p CRF 14, AAC stéréo 48 kHz pour la version sonore.
-Version muette : aucune piste audio ; mêmes images compressées à l’octet près.
-Animatique complète : 540 × 960, 12 images/s, 30 secondes.
-Aperçu GIF muet : 432 × 768, 300 images, 30 secondes.
+EXPORTS
+30 s, vertical 1080 × 1920, 24 images/s, 720 images.
+H.264/yuv420p CRF 14 ; AAC stéréo 48 kHz pour le montage sonore.
+Muet : aucune piste audio, mêmes images compressées à l’octet près.
+Animatique complète : 540 × 960, 12 images/s, 30 s.
+Aperçu GIF muet : 432 × 768, 300 images, 30 s.
 
-CORRECTIF DU DERNIER MORCEAU
-Retour utilisateur : morceau trop petit. Feuille 64 × 88 au lieu de 26 × 40 ;
-boulette de rayon 22 au lieu de 11, identique en main, en vol et dans la poubelle.
-Même prise, mêmes gestes : 720 états et 27 champs de scène comparés à la V6,
-identiques hors données du papier ; 27 SVG avant le dernier tirage identiques.
-Contenu du mix, chronologie, corps, bras et caméra conservés.
-Froissage : sens du contour corrigé ; sur 101 progressions, aucune intersection,
-surface positive et décroissante. Études, animatique et export réellement
-examinés par le critique : controle/critique_papier_v7_final.md.
+MODIFICATION DEMANDÉE
+Sifflement uniquement au départ : les 3 notes initiales, 0,3–1,731111 s.
+Aucun sifflement après le début du premier lavage. Les 6 notes suivantes et
+leurs bouches O sont retirées. Le dernier message précise « laver les mains »
+et remplace la mention précédente de cuisine : aucun changement de geste.
+Musique de fond originale, bois/cordes pincées et basse ronde, 108 BPM.
+Fenêtres : 0–2,75 ; 8,5–10 ; 15–18 ; 22–23 s. Coupure sur chaque entrée au
+lavabo, maintenue pendant essuyage, froissage, jet et zoom. Reprise seulement
+au retour cuisine. La tenue finale garde le léger son de cuisson seul.
 
-AJOUTS DEMANDÉS
-Tablier corail sur le corps, sous les bras et sans couvrir le visage.
-Jet environ 3 à 4 fois plus large ; éclaboussures dans le bassin.
-Quatre phrases de neuf notes sifflées originales à 108 BPM, pendant la cuisine.
-Bouche unique en O pendant les notes et petit balancement joyeux ; arrêt pour
-les inspections/lavages et contacts stables aux deux coupes de carotte.
-Les quatre rituels et la chute du dernier minuscule bout restent ceux de la v5.
+SON ET SYNCHRONISATION
+52 événements : 48 bruitages, 3 notes sifflées et 1 piste musicale originale.
+48 WAV Foley et 3 notes initiales identiques à la version précédente ;
+6 WAV sifflés obsolètes retirés. Même gain commun : +6,537 dB.
+Musique seule : aucun échantillon non nul hors des quatre fenêtres ;
+enveloppes de 10 ms et aucune résonance hors fenêtre. Le mix PCM reste
+identique à la V7 hors des fenêtres musicales. Contrôle indépendant par
+le critique dans critique_musique_v8_images/controle_son_independant.json.
+Musique : crête −20,463 dBFS après gain, sous le sifflement initial à −12,963.
+Mix PCM : crête -4.0001 dBFS, aucun échantillon saturé.
+AAC décodé : crête -4.0482 dBFS.
+Corrélation PCM/AAC sans décalage : 0.998523.
+Ouvertures/fermetures, papier, deux coupes et impacts conservent leurs repères.
+Aucun dialogue, morceau connu ou son téléchargé.
 
-INTÉGRITÉ ET IMAGE
-Rig original inchangé ; huit fonctions natives de dessin/articulation/raccord
-identiques à la référence corrigée. Deux mains, identifiants et références SVG
-contrôlés sur 720 états ; une seule bouche et un tablier par corps rendu.
-Le décor validé reste identique. Lavabos : même cadrage main seule, échelle 0,70.
-Décodage intégral des deux vrais MP4 sans erreur. 37 images comparées à des
-SVG/CairoSVG frais, sans cache, sur l’image entière et les régions visibles
-(mains, épaules, bouche, tablier, robinet, poubelle, carotte/couteau et rouleau).
-Erreur RGB moyenne maximale : image 1.639691/255 ; région 2.915450/255.
-Limite maintenue à 3/255. Aucune comparaison en échec dans audit_final.json.
-Rouleau : stock décroissant de 1 à 0 ; poubelle : 4 papiers, nombre croissant.
-Relecture indépendante des études, de l’animatique et d’images réellement
-décodées du fichier final : voir les critiques, preuves et limites dans controle/.
-Captures du coordinateur : bouche/tablier à 0,417 s, lavage à 4,208 s ;
-papier à 26,5 s, froissage à 27,292 s et boulette à 28,25 s.
-Le premier encodage CRF 18 et sa correction sont documentés dans CORRECTIONS.md.
+IMAGE ET CONSERVATION DU MODÈLE
+720 états comparés à la V7 : 28 champs identiques, dont bras, mains, poses,
+regards, objets, eau, caméra et rythme. Seules les données de sifflement et
+la bouche du corps changent, sur 24 images. Aucun changement de source du rig,
+de dessin des bras, de tablier ou de décor. Huit fonctions natives restent
+identiques à la référence corrigée. Une bouche unique, deux mains et
+identifiants/références SVG contrôlés sur 720 états.
+Papier V7 : dernier morceau 64 × 88, boulette de rayon 22, froissage continu
+conservé. Lavabo : même gros plan main seule, échelle 0,70.
+Les deux véritables MP4 sont décodés intégralement sans erreur.
+37 comparaisons aux SVG/CairoSVG frais hors cache : toutes réussies ; seuil
+RGB moyen 3/255 inchangé. Maximum image 1.639691/255, région 2.915450/255.
+L’animatique puis les images du véritable export sont examinées par le critique :
+controle/critique_musique_v8_animatique.md et critique_musique_v8_final.md.
 
-SON
-57 événements originaux, dont 9 notes sifflées synthétiques ; aucun dialogue,
-aucun son téléchargé ni morceau connu. Eau : +4 dB par rapport à la v5.
-Repères communs animation/son pour les notes, robinets, déchirures, deux coupes
-et quatre impacts de papier. Neuf attaques des notes à moins de 2 ms des repères.
-Mix PCM : 30 s, 48 kHz, stéréo 16 bits, pic -4.0001 dBFS,
-aucun échantillon saturé ; AAC décodé : -4.1057 dBFS.
-Corrélation PCM/AAC sans décalage : 0.998754.
-La tenue finale de 29,4 à 30 s garde seulement le léger son de cuisson.
+SOURCES ET REPRODUCTION
+Python, SVG, CairoSVG, Pillow, NumPy, FFmpeg ; production gratuite/open source.
+Partition, instruments et bruitages synthétisés localement dans son.py.
+ZIP avec code, dessins, sons, chronologie, références, rapports et preuves.
+CRC et manifeste SHA-256 vérifiés ; rendu de poses et régénération du mix
+identique depuis un dossier extrait propre : controle/audit_archive.json
+(disponible dans le dépôt, hors du ZIP qu’il vérifie).
+Les anciennes captures de critique restent dans le dépôt ; l’archive conserve
+leurs rapports/JSON et les images de la révision sonore actuelle.
+Reproduction : sources/README.md. Corrections : controle/CORRECTIONS.md.
 
-SOURCES
-Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg ; aucun outil de production payant.
-Archive ZIP : code, dessins, sons, chronologie, études, veille, critiques,
-contrôles, référence, dépendances et polices. CRC et manifeste SHA-256 vérifiés.
-Contrôle de reproduction dans un dossier extrait propre : voir
-controle/audit_archive.json dans le dépôt, hors du ZIP qu’il vérifie.
-Pas de cache d’images requis. Commandes dans sources/README.md.
-
-RECHERCHE ET LIMITES
-Une animation de cuisine accessible sur GitHub a été examinée par images ;
-une boucle CSS a été lue. Leurs dates, durées et limites sont sourcées dans
-editorial/veille_cuisine_v6.md. Aucun visuel ni son de ces œuvres n’est repris.
-Les deux exemples fournis par l’utilisatrice restent bloqués (403 du tunnel
-proxy), sans vidéo ni métadonnée examinée : voir
-editorial/references_utilisatrice_v7.md. Le correctif de papier est fondé sur
-son retour explicite, sans attribuer d’observation aux vidéos inaccessibles.
-La veille de Shorts récents reste incomplète : YouTube et les moteurs de
-recherche ne sont pas autorisés dans la politique réseau active. Le brouillon
-d’accès est enregistré, non appliqué ; enregistrer les paramètres de
-l’environnement puis publier est nécessaire pour activer ces accès.
-Aucune statistique, rétention, écoute ou vidéo consultée n’est inventée.
-Aucune écoute perceptive de ce mix n’a été possible avec les outils disponibles.
-Les contrôles audio sont numériques ; le naturel du sifflement sur téléphone
-reste à apprécier. Les images successives examinées et les contrôles ne
-constituent ni une projection continue ni un test de compréhension public.
+LIMITES
+Les contrôles sonores sont numériques : aucune écoute perceptive n’a été
+possible avec les outils disponibles, et l’agrément de la musique sur téléphone
+n’est pas validé par une audition. Les images successives ne constituent ni
+une projection continue ni un test de compréhension public.
+Les deux références YouTube précédemment fournies restent inaccessibles ;
+leur contenu n’est pas inventé. Voir editorial/references_utilisatrice_v7.md.
 Montage proposé au jugement de l’utilisatrice ; aucune publication sociale.
 
-EMPREINTES DES EXPORTS FINAUX
-Avec son : 640399e6fd2b2208ae30e70b6c31673134ad26a1995056cd98c99747eb338f88
-Muet : 8ca758bfe1e059427d50e91bb3304b61853e0e5e8fa4da7d9d4077c350cabb43
-Mix PCM : b6caa180dfe9dc50906f902e61eaa97ca6301d1f9da3722d143da1dda5bee3b1
+EMPREINTES
+Avec son : b07fd0e56c46e6f953343280b1de265384db6a8501fd023bc38524fd075d5687
+Muet : 22ed460512ee090b370d28471de7ca021bd992fd5c5ea6e09efa3f06623e5404
+Mix PCM : b6bed9c71ec11533b1d8c9bb1b2764d468ed76d56ca8a7da24ffa5235f475b2e

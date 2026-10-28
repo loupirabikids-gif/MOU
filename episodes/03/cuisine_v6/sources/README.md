@@ -19,7 +19,7 @@ caches se régénèrent localement ; ils ne sont pas nécessaires dans l’archi
 - `animation.py` : actions, regards, expressions et articulation du modèle.
 - `art.py` : tablier, jet renforcé, accessoires, papier et poubelle.
 - `render.py` : plans larges, lavabo/main uniquement, zooms poubelle, encodage.
-- `son.py` : eau et autres effets originaux, neuf notes sifflées, mix et provenance.
+- `son.py` : eau et autres effets originaux, trois notes sifflées initiales et musique de fond originale, mix et provenance.
 - `verify.py` : contrôles des vrais MP4 et comparaison à des SVG frais hors cache.
 - `package.py` : archive vérifiée avec manifeste SHA-256.
 - `../chronologie.json` : référence commune des événements et durées.
@@ -33,6 +33,11 @@ Le correctif papier V7 conserve les gestes et le mix. Le dernier morceau et
 sa boulette sont agrandis ; le froissage garde un contour continu.
 `../controle/audit_archive.json` vérifie le ZIP lui-même et reste disponible
 dans le dépôt, hors de l’archive, pour éviter une empreinte circulaire.
-Les captures des essais de papier avant correction du froissage restent dans
-le dépôt ; le ZIP conserve leurs rapports et preuves JSON, ainsi que les
-images de l’animatique et de l’export courants.
+Les captures des revues antérieures du papier restent dans le dépôt ; le ZIP
+conserve leurs rapports et preuves JSON, ainsi que les images de la dernière
+révision sonore et les études de construction.
+
+Correctif sonore V8 : la première phrase sifflée reste, les suivantes sont
+retirées. La piste musicale originale est rigoureusement muette hors des
+fenêtres `background_music.windows` de la chronologie. Les sons d’eau et de
+papier restent audibles pendant ces coupures musicales.

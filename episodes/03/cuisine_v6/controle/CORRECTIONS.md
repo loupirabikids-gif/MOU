@@ -2,6 +2,23 @@
 
 28 octobre 2026. Révision ciblée de la v5 à la demande de l’utilisatrice.
 
+## Correctif sonore V8, après précision de l’utilisatrice
+
+Conserver seulement la phrase sifflée initiale, de 0,3 à 1,731111 s. Les trois
+phrases suivantes et leurs bouches O sont retirées. Le dernier message précise
+que l’arrêt est lié au lavage, et remplace la mention précédente de cuisine.
+Aucun ajout de pause ni changement de geste n’est nécessaire.
+
+Une musique de fond originale à 108 BPM accompagne les plages de cuisine :
+0–2,75 ; 8,5–10 ; 15–18 ; 22–23 s. Elle se coupe sur chaque entrée au lavabo,
+reste coupée pendant essuyage, jet et zoom, puis revient au retour cuisine.
+Le dernier petit papier et la tenue finale conservent leurs seuls bruitages.
+Les gestes, le personnage et le correctif papier V7 sont conservés.
+
+Les contrôles du son et la critique actuelle sont dans `*musique_v8*`.
+Les sections suivantes documentent les révisions antérieures et leurs
+empreintes ; le contrôle courant des MP4 reste `audit_final.json`.
+
 ## Correctif papier V7, après retour sur la V6
 
 Problème observé à 25,4–27,1 s : le dernier morceau de 26 × 40 unités ne

@@ -25588,6 +25588,6 @@
     0.0
   ],
   "single_mouth_and_apron_when_actor_rendered": true,
-  "whistling_frames": 51,
+  "whistling_frames": 27,
   "limits": "Vector structure and numeric checks; rendered gestures require independent visual review."
 }

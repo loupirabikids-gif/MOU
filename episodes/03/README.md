@@ -4,7 +4,8 @@
 30 secondes](cuisine_v6/).** [MP4 avec son](cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true),
 [muet](cuisine_v6/MOU_Encore_une_feuille_muette.mp4?raw=true),
 [sources](cuisine_v6/MOU_Encore_une_feuille_sources.zip?raw=true) et
-[contrôles](cuisine_v6/CONTROLE.txt). MOU se balance et siffle par moments ;
+[contrôles](cuisine_v6/CONTROLE.txt). MOU siffle au départ ; une musique de fond originale accompagne la cuisine
+et se coupe pendant les rituels de lavage et essuyage ;
 les quatre rituels, la carotte, le rouleau qui diminue et la fin du minuscule
 bout sont conservés. Ce dernier morceau est agrandi pour être lisible sur
 téléphone. [Références internet et limites](cuisine_v6/editorial/veille_cuisine_v6.md).

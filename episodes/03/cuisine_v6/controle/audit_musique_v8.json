@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "reference_commit": "24a9531745b89c50068c1973e49e93ed62deb195",
+  "chronologie_sha256": "362227e993d340ec39afdb3b700811b87a52445d51f84b26e7a77f10610ecd25",
+  "sound_source_sha256": "6f902189a62ade0717f381fb05609a0d2536ec934a7b19bae05e1edb2679f2c5",
+  "mix_sha256": "b6bed9c71ec11533b1d8c9bb1b2764d468ed76d56ca8a7da24ffa5235f475b2e",
+  "music_wav_sha256": "49dce776a1a7d1391c2409bfb1674f93cc2e3886b021bdfe955be2901a6a0bde",
+  "duration_seconds": 30,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 16,
+  "event_count": 52,
+  "foley_wavs_bitwise_preserved": 48,
+  "initial_whistle_wavs_bitwise_preserved": 3,
+  "obsolete_whistle_wavs_removed": [
+    "sifflement_p2_n4.wav",
+    "sifflement_p2_n5.wav",
+    "sifflement_p3_n6.wav",
+    "sifflement_p3_n7.wav",
+    "sifflement_p4_n8.wav",
+    "sifflement_p4_n9.wav"
+  ],
+  "whistle_last_end_seconds": 1.7311041666666667,
+  "no_whistle_after_first_wash": true,
+  "music_original_local_score": true,
+  "music_bpm": 108,
+  "music_windows": [
+    {
+      "start": 0.0,
+      "end": 2.75,
+      "peak_dbfs_before_master": -27.105632840024118,
+      "rms_dbfs_before_master": -41.228548389655224,
+      "start_boundary_step_lsb": 0,
+      "end_boundary_step_lsb": 0
+    },
+    {
+      "start": 8.5,
+      "end": 10.0,
+      "peak_dbfs_before_master": -27.257117140644965,
+      "rms_dbfs_before_master": -41.11616222932856,
+      "start_boundary_step_lsb": 0,
+      "end_boundary_step_lsb": 0
+    },
+    {
+      "start": 15.0,
+      "end": 18.0,
+      "peak_dbfs_before_master": -26.9981771647469,
+      "rms_dbfs_before_master": -41.279384679436255,
+      "start_boundary_step_lsb": 0,
+      "end_boundary_step_lsb": 0
+    },
+    {
+      "start": 22.0,
+      "end": 23.0,
+      "peak_dbfs_before_master": -27.22051923690142,
+      "rms_dbfs_before_master": -40.797970704921866,
+      "start_boundary_step_lsb": 0,
+      "end_boundary_step_lsb": 0
+    }
+  ],
+  "music_nonzero_samples_outside_windows": 0,
+  "music_no_reverb_tail": true,
+  "no_music_during_washing_wiping_throws_zooms_final": true,
+  "pcm_samples_changed_outside_music_windows_vs_reference": 0,
+  "master_gain_db_before_after": [
+    6.537,
+    6.537
+  ],
+  "music_peak_dbfs_before_after_master": [
+    -27.0,
+    -20.463
+  ],
+  "whistle_peak_dbfs_before_after_master": [
+    -19.5,
+    -12.963
+  ],
+  "mix_peak_dbfs": -4.0,
+  "clipped_samples": 0,
+  "limits": "Numeric PCM/source checks only; no perceptive listening or playback on phone was available. The natural/pleasant character of the music is not claimed to have been heard."
+}

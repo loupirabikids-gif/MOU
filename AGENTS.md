@@ -6,6 +6,18 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Dernière précision sonore : MOU siffle uniquement au départ, avant le premier
+lavage. Correctif son V8 dans `episodes/03/cuisine_v6/` : garder les trois notes
+de la première phrase (0,3–1,731111 s) et retirer les trois phrases suivantes,
+avec leurs bouches O. Ajouter une musique de fond originale à 108 BPM seulement
+pendant les fenêtres 0–2,75 ; 8,5–10 ; 15–18 ; 22–23 s. La couper pendant
+chaque rituel complet de lavage/essuie/jet ; reprise au retour à la cuisine.
+Aucune musique sur la tenue finale. Conserver les gestes, les bras, les mains,
+le tablier, l’eau renforcée et le papier agrandi V7. Garder les 48 bruitages.
+La précision « commence à laver les mains » remplace le message précédent
+« commence à cuisiner » ; aucune pause d’introduction supplémentaire.
+Critiques et contrôles de cette révision : `controle/*musique_v8*`.
+
 Dernier retour : deux références YouTube fournies et dernier bout de papier trop
 petit. Correctif papier V7 dans le même dossier `episodes/03/cuisine_v6/` :
 feuille finale portée de 26 × 40 à 64 × 88 unités du décor, boulette de rayon
