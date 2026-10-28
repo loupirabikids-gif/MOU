@@ -1,7 +1,11 @@
 # MOU en cuisine — essuie-tout
 
-Le décor et le placement de MOU sont validés. Étape en cours : **un court test
-muet où MOU remue la poêle**, pour apprécier le naturel du mouvement.
+Le décor, le placement et le test muet de remuage sont validés. Étape en cours :
+**script seulement**, avec jets de papier dans une poubelle et lavage au robinet.
+
+- [Script proposé, environ25s, et correction locale du raccord du bras](developpement/scenario_papier_v1.md)
+- [Critique indépendante et décisions](developpement/critique_scenario_papier_v1.md)
+- [Validation du test de remuage](test_remuer/VALIDATION.md)
 
 [![Test du remuage](test_remuer/MOU_test_remuer_apercu.gif)](test_remuer/MOU_test_remuer.mp4?raw=true)
 
@@ -19,6 +23,7 @@ portent le gag. La variante où la recette disparaît dans les papiers est écar
 - [Source SVG](decor/MOU_cuisine_decor.svg?raw=true)
 - [Sources et calques du décor](decor/README.md)
 
-L’utilisatrice demande de travailler petit à petit. Cette étape s’arrête au
-test de remuage proposé. Aucun essuyage, son ou épisode complet n’est produit.
+L’utilisatrice demande de travailler petit à petit et de ne pas réaliser cette
+suite pour le moment. Aucun essuyage, lavage, nouveau son, correctif graphique
+ou épisode complet n’est produit. Le script reste une proposition.
 Les deux précédents films restent archivés.

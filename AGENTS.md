@@ -10,12 +10,17 @@ Commande courante : avancer petit à petit sur le gag de cuisine et
 d’essuie-tout, dans `episodes/03/`. Le décor fixe de `episodes/03/decor/`
 est validé par l’utilisatrice (« Oui ca me vas »), référence commit795563c.
 Le placement fixe `episodes/03/placement/` est également validé (« Yea it cool »),
-référence commit1e99def. Étape autorisée maintenant par « Go » : un court test
-où MOU remue la poêle pour examiner le naturel du geste, dans
-`episodes/03/test_remuer/`. Garder décor, taille et position validés ainsi que
-les bras du rig original. Ce test de4s est muet, sans essuyage ni autre action.
-Le geste proposé attend le retour de l’utilisatrice : ne pas lancer la suite
-de l’épisode automatiquement.
+référence commit1e99def. Le test de remuage de4s, muet, dans
+`episodes/03/test_remuer/` est validé (« Oui c est bon »), référence commit095b609.
+Garder décor, taille et position validés ainsi que les bras du rig original.
+Étape actuelle : écrire seulement le script avec une poubelle qui se remplit,
+un rapprochement après chaque jet et un lavage avec ouverture visible du robinet.
+L’utilisatrice demande explicitement « ne realise pas encore » : aucun nouveau
+rendu ni correctif graphique à cette étape. Le script et la correction proposée
+sont dans `episodes/03/developpement/`. La zone entourée vise le raccord du bras
+à gauche de l’écran, pas la moufle. Proposer uniquement une retouche locale de
+cette jonction ; aucune modification de la forme/longueur des bras ou des mains.
+Ne pas lancer la fabrication ou la suite de l’épisode automatiquement.
 Le comportement visé est de s’essuyer les mains après chaque contact pendant
 qu’on cuisine réellement : remuer, ajouter un ingrédient, toucher un manche,
 régler le feu. Ne pas remplacer ce sujet par une pâte jetée avec le papier.
