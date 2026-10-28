@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Africa/Casablanca",
+  "method": "Images réellement ouvertes par le critique, produites par les autres agents ; pas un examen du MP4 complet ni une écoute.",
+  "images": [
+    {
+      "path": "etudes/accessoires/planche_tablier_v6.png",
+      "sha256": "41f41e399f658dd8cd2bd4fe6d33bdcfaf2b78029345af6d64a131556678878e",
+      "dimensions": [
+        1080,
+        1388
+      ]
+    },
+    {
+      "path": "etudes/accessoires/comparaison_eau_v5_v6.png",
+      "sha256": "c6b5153edf37b4990cabe9a640f2e727c2a3486550fc49936eb2dbdc9d75871f",
+      "dimensions": [
+        800,
+        752
+      ]
+    },
+    {
+      "path": "etudes/animation/etude_jeu_sifflement.png",
+      "sha256": "69370da4c3795fe793092d923ccf5ec48d643a677e66fe329be5821771d33314",
+      "dimensions": [
+        1458,
+        1491
+      ]
+    },
+    {
+      "path": "etudes/animation/etude_bouche_unique.png",
+      "sha256": "332bc1d654fc2194c73f9462683e5de54083f1424e67eeefc8bb6520669796e0",
+      "dimensions": [
+        930,
+        520
+      ]
+    }
+  ]
+}

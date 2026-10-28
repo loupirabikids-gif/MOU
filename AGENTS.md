@@ -6,6 +6,23 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Dernière demande : exagérer le débit d’eau, ajouter un tablier et montrer MOU
+qui cuisine joyeusement en sifflant par moments. Révision dans
+`episodes/03/cuisine_v6/`, 30 s, mêmes actions et fin du dernier petit bout.
+Le tablier est explicitement autorisé pour cet épisode : calque sur le corps,
+sous les bras, visage dégagé, sans modifier `mou_rig.py` ni les deux moufles.
+Quatre phrases de neuf notes originales, à 108 BPM, sont synchronisées avec une
+bouche unique en petit O et un léger balancement pendant la cuisine. Arrêter
+ce jeu aux inspections/lavages et stabiliser les contacts du couteau. Jet 3–4 fois
+plus large, éclaboussures dans le bassin ; même main à 0,70 et même cadrage.
+Veille dans `editorial/veille_cuisine_v6.md` : une vidéo de cuisine réellement
+examinée par images et une boucle CSS lue. La sélection de Shorts comiques
+récents reste incomplète ; le brouillon d’accès YouTube/recherche est enregistré,
+mais il n’est pas encore actif. Ne pas inventer de visionnage ou de compteurs.
+Animatique complète et export avec son/muet produits ; voir `CONTROLE.txt` et
+`controle/` dans la v6. Attendre le retour créatif sur ce montage sans lancer
+un nouvel épisode. Les versions précédentes restent conservées.
+
 Dernier retour sur la v4 : « knife and carrot are not good », le rouleau doit
 diminuer, et la fin mérite mieux. Révision ciblée fabriquée dans
 `episodes/03/carotte_v5/`, chronologie locale de 30 s : carotte plus lisible,

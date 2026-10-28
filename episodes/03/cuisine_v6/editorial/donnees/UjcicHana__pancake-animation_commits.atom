@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/UjcicHana/pancake-animation/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/UjcicHana/pancake-animation/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/UjcicHana/pancake-animation/commits/master.atom"/>
+  <title>Recent Commits to pancake-animation:master</title>
+  <updated>2025-01-31T13:40:43Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/549cee31ffae3a25338a2ce2d064a6730ce2c5ed</id>
+    <link type="text/html" rel="alternate" href="https://github.com/UjcicHana/pancake-animation/commit/549cee31ffae3a25338a2ce2d064a6730ce2c5ed"/>
+    <title>
+        Added documentationa and video
+    </title>
+    <updated>2025-01-31T13:40:43Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/108579613?s=30&amp;v=4"/>
+    <author>
+      <name>UjcicHana</name>
+      <uri>https://github.com/UjcicHana</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Added documentationa and video&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/aa701472b24f90c203f9b321974f381349c725e4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/UjcicHana/pancake-animation/commit/aa701472b24f90c203f9b321974f381349c725e4"/>
+    <title>
+        Initial commit
+    </title>
+    <updated>2025-01-31T12:35:38Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/108579613?s=30&amp;v=4"/>
+    <author>
+      <name>UjcicHana</name>
+      <uri>https://github.com/UjcicHana</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial commit&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

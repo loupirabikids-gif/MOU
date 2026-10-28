@@ -1,0 +1,30 @@
+[
+  {
+    "query": "whistling animation",
+    "url": "https://github.com/search?q=whistling%20animation&type=repositories",
+    "status": 200,
+    "sha256": "ef0951bae6fe85fdc38847c38eea4f2f1a44d69df7d5536168961ef44dcadc29",
+    "results": []
+  },
+  {
+    "query": "cooking cartoon",
+    "url": "https://github.com/search?q=cooking%20cartoon&type=repositories",
+    "status": 200,
+    "sha256": "87eee9db3125f5716ec436f084798e22025114e6986c831cabbfa670416b4344",
+    "results": []
+  },
+  {
+    "query": "chef animation",
+    "url": "https://github.com/search?q=chef%20animation&type=repositories",
+    "status": 200,
+    "sha256": "b3749df53cad66b0fe9b5153c115ed5131b2caa105168d6ddc99ccc1edea2f59",
+    "results": []
+  },
+  {
+    "query": "cooking animation",
+    "url": "https://github.com/search?q=cooking%20animation&type=repositories",
+    "status": 200,
+    "sha256": "1aba491dc3929813fb1c640494e5f2976fb172c73a64cb247bebf8c1a95f24d4",
+    "results": []
+  }
+]

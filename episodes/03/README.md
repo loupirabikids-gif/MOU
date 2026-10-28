@@ -1,11 +1,14 @@
 # MOU en cuisine — essuie-tout
 
-**Version courante : [couteau et carotte repris, rouleau consommé et dernier
-minuscule bout de papier, 30 secondes](carotte_v5/).** [MP4 avec son](carotte_v5/MOU_Encore_une_feuille.mp4?raw=true),
-[muet](carotte_v5/MOU_Encore_une_feuille_muette.mp4?raw=true),
-[sources](carotte_v5/MOU_Encore_une_feuille_sources.zip?raw=true) et
-[contrôles](carotte_v5/CONTROLE.txt). Le montage de 26 s ci-dessous est conservé
-comme version précédente ; [la version de 29 s](carotte_v4/) est également conservée.
+**Version courante : [MOU avec tablier, eau exagérée et cuisine en rythme,
+30 secondes](cuisine_v6/).** [MP4 avec son](cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true),
+[muet](cuisine_v6/MOU_Encore_une_feuille_muette.mp4?raw=true),
+[sources](cuisine_v6/MOU_Encore_une_feuille_sources.zip?raw=true) et
+[contrôles](cuisine_v6/CONTROLE.txt). MOU se balance et siffle par moments ;
+les quatre rituels, la carotte, le rouleau qui diminue et la fin du minuscule
+bout sont conservés. [Références internet et limites](cuisine_v6/editorial/veille_cuisine_v6.md).
+La [version précédente de 30 s](carotte_v5/), la [version de 29 s](carotte_v4/)
+et le montage de 26 s ci-dessous restent conservés.
 
 Le décor, le placement et le test muet de remuage sont validés. Le script corrigé
 est accepté : **trois lavages complets pendant la cuisine, beaucoup trop de

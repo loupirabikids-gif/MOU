@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/withaarzoo/Animated-Loader/commits/main</id>
+  <link type="text/html" rel="alternate" href="https://github.com/withaarzoo/Animated-Loader/commits/main"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/withaarzoo/Animated-Loader/commits/main.atom"/>
+  <title>Recent Commits to Animated-Loader:main</title>
+  <updated>2023-04-04T10:07:10Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/cd76d7e884938775d279ef37357d1010ea98cd33</id>
+    <link type="text/html" rel="alternate" href="https://github.com/withaarzoo/Animated-Loader/commit/cd76d7e884938775d279ef37357d1010ea98cd33"/>
+    <title>
+        Add files via upload
+    </title>
+    <updated>2023-04-04T10:07:10Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59678435?s=30&amp;v=4"/>
+    <author>
+      <name>withaarzoo</name>
+      <uri>https://github.com/withaarzoo</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Add files via upload&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/bf3b90691e6daad40c4fa04601989db5af19800d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/withaarzoo/Animated-Loader/commit/bf3b90691e6daad40c4fa04601989db5af19800d"/>
+    <title>
+        Update README.md
+    </title>
+    <updated>2023-04-04T10:05:55Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59678435?s=30&amp;v=4"/>
+    <author>
+      <name>withaarzoo</name>
+      <uri>https://github.com/withaarzoo</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Update README.md&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/0f6286eb5dd471fce6afd42e45c9fbec64544c32</id>
+    <link type="text/html" rel="alternate" href="https://github.com/withaarzoo/Animated-Loader/commit/0f6286eb5dd471fce6afd42e45c9fbec64544c32"/>
+    <title>
+        Initial commit
+    </title>
+    <updated>2023-04-04T10:05:05Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/59678435?s=30&amp;v=4"/>
+    <author>
+      <name>withaarzoo</name>
+      <uri>https://github.com/withaarzoo</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Initial commit&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

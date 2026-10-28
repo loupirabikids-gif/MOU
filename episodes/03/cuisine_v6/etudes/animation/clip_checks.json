@@ -1,0 +1,28 @@
+{
+  "duration": 2.25,
+  "fps": 24,
+  "frames": 54,
+  "dimensions": [
+    540,
+    960
+  ],
+  "scene_time": [
+    0.0,
+    2.25
+  ],
+  "sound_file": "MOU_jeu_siffle_v6.mp4",
+  "silent_file": "MOU_jeu_siffle_v6_muette.mp4",
+  "clips_sha256": {
+    "MOU_jeu_siffle_v6.mp4": "55c0bd51664445c1e1050bac0bb41693e582129dd375f9cffea33abf1f8d765f",
+    "MOU_jeu_siffle_v6_muette.mp4": "47e69a37a19f7e6634ba5c6d35ad1bf635502dcbb0e6c303c7013c8bb25bc5ca"
+  },
+  "sources_sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/animation.py": "0483a9db4f9c5ecb5cb81432d3b2e4e4c044e743d008a8aad50de4bae01edf33",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "33f67c451f87db22617349193069325ead9d5a85710c0905721dac3a9419f479",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "d1dbe7c632b90478e5505fb2410269a8d6903827d8d7c60069eec0e7d393264a",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/son.py": "6b1dbc809152ef833faa13352c827b90c0cfbe681759a0eb93d84446e50337df",
+    "/workspace/MOU/episodes/03/cuisine_v6/chronologie.json": "fec2e489c622470c5ed8715b4a805aa233bd95e2a9a6203bc1acb333ab3dc190",
+    "/workspace/MOU/episodes/03/cuisine_v6/audio/mix.wav": "b6caa180dfe9dc50906f902e61eaa97ca6301d1f9da3722d143da1dda5bee3b1"
+  },
+  "limits": "A complete encoded short acting study; no claim of human listening or a public comprehension test."
+}

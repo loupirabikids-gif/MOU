@@ -1,0 +1,1115 @@
+[
+  {
+    "query": "cooking animation",
+    "results": [
+      {
+        "id": "140060341",
+        "archived": false,
+        "color": "#438eff",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "krfong916/<em>animations</em>-stir-fry",
+        "hl_trunc_description": "Repo for <em>cooking</em> up and serving all my <em>animations</em>",
+        "language": "Objective-C",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 140060341,
+            "name": "animations-stir-fry",
+            "owner_id": 17156721,
+            "owner_login": "krfong916",
+            "updated_at": "2018-07-13T20:19:21.255Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "623407644",
+        "archived": false,
+        "color": "#663399",
+        "followers": 8,
+        "has_funding_file": false,
+        "hl_name": "withaarzoo/Animated-Loader",
+        "hl_trunc_description": "This is a simple HTML and CSS code to create an animated loader that can be used for <em>cooking</em> or restaurant websites. The loader is create…",
+        "language": "CSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 623407644,
+            "name": "Animated-Loader",
+            "owner_id": 59678435,
+            "owner_login": "withaarzoo",
+            "updated_at": "2023-04-04T10:07:11.034Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "css",
+          "html",
+          "webdevelopment"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "762829505",
+        "archived": false,
+        "color": "#e34c26",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "DanielleMalingue/<em>Cooking</em>WithTheHomies",
+        "hl_trunc_description": "Practice <em>Cooking</em> Site Featuring <em>Animation</em> ",
+        "language": "HTML",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 762829505,
+            "name": "CookingWithTheHomies",
+            "owner_id": 125500654,
+            "owner_login": "DanielleMalingue",
+            "updated_at": "2024-02-26T06:59:15.612Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1259417356",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "itsplay64-tech/<em>Cooking</em>-<em>animation</em>",
+        "hl_trunc_description": "jeu de cuisine chilll",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1259417356,
+            "name": "Cooking-animation",
+            "owner_id": 290737047,
+            "owner_login": "itsplay64-tech",
+            "updated_at": "2026-06-08T14:14:55.605Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "721305939",
+        "archived": false,
+        "color": "#663399",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "ShahzaibMirza-10/<em>cooking</em>-<em>animation</em>",
+        "hl_trunc_description": null,
+        "language": "CSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 721305939,
+            "name": "cooking-animation",
+            "owner_id": 150156134,
+            "owner_login": "ShahzaibMirza-10",
+            "updated_at": "2023-11-20T19:38:26.876Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "593263314",
+        "archived": false,
+        "color": "#663399",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "hosseinnabi-ir/Loading-<em>Animation</em>-CSS",
+        "hl_trunc_description": "<em>Cooking</em> Loading <em>Animation</em> using HTML &amp; CSS",
+        "language": "CSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 593263314,
+            "name": "Loading-Animation-CSS",
+            "owner_id": 68454951,
+            "owner_login": "hosseinnabi-ir",
+            "updated_at": "2025-12-20T10:15:24.868Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "604764564",
+        "archived": false,
+        "color": "#663399",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "jjdistracted/pan-Loading-<em>Animation</em>-CSS",
+        "hl_trunc_description": "<em>Cooking</em> Loading <em>Animation</em> using HTML &amp; CSS ",
+        "language": "CSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 604764564,
+            "name": "pan-Loading-Animation-CSS",
+            "owner_id": 48287269,
+            "owner_login": "jjdistracted",
+            "updated_at": "2023-02-21T18:37:44.616Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1270409221",
+        "archived": false,
+        "color": "#663399",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "iqram665/370-Biryani-<em>Cooking</em>-<em>Animation</em>",
+        "hl_trunc_description": "High quality 3D <em>animation</em> of <em>cooking</em> traditional South Asian biryani. Visual sequence showing aromatic basmati rice, tender meat pieces.",
+        "language": "CSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1270409221,
+            "name": "370-Biryani-Cooking-Animation",
+            "owner_id": 202742707,
+            "owner_login": "iqram665",
+            "updated_at": "2026-06-15T17:28:17.198Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1040986520",
+        "archived": false,
+        "color": "#e34c26",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "nicovlr/<em>cookingvitrine</em>",
+        "hl_trunc_description": "Site vitrine restaurant gastronomique — design moderne et <em>animations</em> fluides",
+        "language": "HTML",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1040986520,
+            "name": "cookingvitrine",
+            "owner_id": 159495253,
+            "owner_login": "nicovlr",
+            "updated_at": "2026-02-22T12:42:29.052Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "website",
+          "design",
+          "landing-page",
+          "frontend",
+          "showcase",
+          "animations",
+          "restaurant"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "768138593",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "TheMooskyFish/BugFables-SkipCook",
+        "hl_trunc_description": "Skips all chef's <em>cooking</em> <em>animation</em>",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 768138593,
+            "name": "BugFables-SkipCook",
+            "owner_id": 32228338,
+            "owner_login": "TheMooskyFish",
+            "updated_at": "2024-03-13T20:09:09.071Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "mod",
+          "bepinex",
+          "bug-fables"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  },
+  {
+    "query": "cooking cartoon",
+    "results": [
+      {
+        "id": "1374878448",
+        "archived": false,
+        "color": "#3178c6",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "hadokae/<em>cartoon</em>-<em>cooking</em>-game",
+        "hl_trunc_description": "<em>Cartoon</em> <em>Cooking</em> Game - Online Multiplayer",
+        "language": "TypeScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1374878448,
+            "name": "cartoon-cooking-game",
+            "owner_id": 66497319,
+            "owner_login": "hadokae",
+            "updated_at": "2026-09-22T04:11:18.869Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1431909676",
+        "archived": false,
+        "color": "#3178c6",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "EMTismine520/goose-lane",
+        "hl_trunc_description": "Goose Lane: two-page merge and <em>cooking</em> game with 38 editable 96x96 B <em>cartoon</em> kitchen assets",
+        "language": "TypeScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1431909676,
+            "name": "goose-lane",
+            "owner_id": 142954297,
+            "owner_login": "EMTismine520",
+            "updated_at": "2026-10-28T15:39:54.912Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1342256891",
+        "archived": false,
+        "color": "#3178c6",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "colineatherton/wrens-kitchen",
+        "hl_trunc_description": "A 3D <em>cartoon</em> <em>cooking</em> game: serve funny animals, keep your stars, don't set the kitchen on fire",
+        "language": "TypeScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1342256891,
+            "name": "wrens-kitchen",
+            "owner_id": 10983142,
+            "owner_login": "colineatherton",
+            "updated_at": "2026-08-22T14:40:57.565Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1280264842",
+        "archived": false,
+        "color": "#e34c26",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "snake14v/oorulogix-food-icons",
+        "hl_trunc_description": "Open-source pack of 156 original flat-<em>cartoon</em> food icons (SVG, MIT) for food-ordering apps &amp; <em>cooking</em> games — by Oorulogix",
+        "language": "HTML",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1280264842,
+            "name": "oorulogix-food-icons",
+            "owner_id": 28014965,
+            "owner_login": "snake14v",
+            "updated_at": "2026-06-26T18:03:36.401Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1433418475",
+        "archived": false,
+        "color": null,
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "nanouroumoussa20-oss/LORD-MOUSSA-",
+        "hl_trunc_description": "\"I want to create an entertainment app with several sections: movies, <em>cartoons</em>, documentaries, news and football matches, <em>cooking</em> tips, a…",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1433418475,
+            "name": "LORD-MOUSSA-",
+            "owner_id": 347684097,
+            "owner_login": "nanouroumoussa20-oss",
+            "updated_at": "2026-10-25T16:48:07.093Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1021369372",
+        "archived": false,
+        "color": null,
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "MuhmmadUmerShehzad/Unity-Project-1",
+        "hl_trunc_description": "Kitchen Chaos is a fast-paced <em>cooking</em> simulation game built in Unity (C#). Players manage a busy kitchen—preparing ingredients, <em>cooking</em> d…",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1021369372,
+            "name": "Unity-Project-1",
+            "owner_id": 168339537,
+            "owner_login": "MuhmmadUmerShehzad",
+            "updated_at": "2025-07-17T10:02:03.138Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1175077043",
+        "archived": false,
+        "color": "#3572A5",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "dalmiakavya24/raccoon-recipe-reviewer",
+        "hl_trunc_description": "Raccoon Recipe Reviewer is a quirky desktop app where <em>cartoon</em> raccoons review your recipes like chaotic food critics. Users input a recip…",
+        "language": "Python",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1175077043,
+            "name": "raccoon-recipe-reviewer",
+            "owner_id": 239339203,
+            "owner_login": "dalmiakavya24",
+            "updated_at": "2026-03-07T07:54:44.950Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "59564694",
+        "archived": false,
+        "color": null,
+        "followers": 4,
+        "has_funding_file": false,
+        "hl_name": "IPTVWORLD/Iptv-world",
+        "hl_trunc_description": "... , Ethiopia Movies, <em>cooking</em> shows, <em>cartoons</em>, Indian and Belgali Movies, and much more at your own convenience through our Video On Dem…",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 59564694,
+            "name": "Iptv-world",
+            "owner_id": 19550432,
+            "owner_login": "IPTVWORLD",
+            "updated_at": "2016-05-24T10:45:13.478Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "239198176",
+        "archived": false,
+        "color": null,
+        "followers": 33,
+        "has_funding_file": false,
+        "hl_name": "Agoengwew/wew",
+        "hl_trunc_description": "\" group-title=\"KIDS\",<em>CARTOON</em> NETWORK <a href=\"https://liveanevia.mncnow.id/live/eds/CartoonNetwork/sa_hls/CartoonNetwork-avc1_2499968=10-mp4a_98800_ind=16.m3u8\" rel=\"nofollow\">https://liveanevia.mncnow.id/live/eds/CartoonNetwork/sa_hls/CartoonNetwork-avc1_2499968=10-mp4a_9880…</a>",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 239198176,
+            "name": "wew",
+            "owner_id": 19416521,
+            "owner_login": "Agoengwew",
+            "updated_at": "2020-02-08T20:14:21.239Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  },
+  {
+    "query": "chef animation",
+    "results": [
+      {
+        "id": "1165163784",
+        "archived": false,
+        "color": null,
+        "followers": 10,
+        "has_funding_file": false,
+        "hl_name": "sacredvoid/presentation-<em>chef</em>",
+        "hl_trunc_description": "AI skill that converts any content into stunning Apple Keynote-style HTML presentations. Cinematic <em>animations</em>, glassmorphism, ambient eff…",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1165163784,
+            "name": "presentation-chef",
+            "owner_id": 33939902,
+            "owner_login": "sacredvoid",
+            "updated_at": "2026-02-25T21:05:57.433Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "keynote",
+          "slideshow",
+          "slides",
+          "presentations",
+          "no-dependencies",
+          "claude",
+          "html-slides",
+          "glassmorphism",
+          "anthropic",
+          "claude-code",
+          "presentation-generator",
+          "claude-code-plugin",
+          "cinematic-animations",
+          "claude-code-skill",
+          "html-presentations",
+          "ai-presentations",
+          "chroniclehq"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "981728104",
+        "archived": false,
+        "color": "#c6538c",
+        "followers": 7,
+        "has_funding_file": false,
+        "hl_name": "hamza-shabbir-ansari/Restaurant-website",
+        "hl_trunc_description": "Urban Bites is a stylish and fully responsive restaurant website built with HTML, CSS, SCSS, JavaScript, and Bootstrap. It offers a moder…",
+        "language": "SCSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 981728104,
+            "name": "Restaurant-website",
+            "owner_id": 160782327,
+            "owner_login": "hamza-shabbir-ansari",
+            "updated_at": "2025-05-11T19:06:15.851Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "website",
+          "restaurant",
+          "webdevelopment",
+          "restaurant-website",
+          "restaurant-website-html-css",
+          "restaurant-website-responsive-html-css-javascript"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1370156065",
+        "archived": false,
+        "color": "#e34c26",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "majyk1/<em>chefaid</em>-<em>animations</em>",
+        "hl_trunc_description": null,
+        "language": "HTML",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1370156065,
+            "name": "chefaid-animations",
+            "owner_id": 234678792,
+            "owner_login": "majyk1",
+            "updated_at": "2026-09-14T18:24:31.542Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "129695511",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "KevinGutowski/<em>ChefsTable</em>",
+        "hl_trunc_description": "Text <em>animation</em> style found in <em>Chef</em>’s Table",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 129695511,
+            "name": "ChefsTable",
+            "owner_id": 4199296,
+            "owner_login": "KevinGutowski",
+            "updated_at": "2018-04-16T07:33:42.413Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1370162243",
+        "archived": false,
+        "color": "#e34c26",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "majyk1/<em>chefaid</em>-<em>animations</em>-web",
+        "hl_trunc_description": null,
+        "language": "HTML",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1370162243,
+            "name": "chefaid-animations-web",
+            "owner_id": 234678792,
+            "owner_login": "majyk1",
+            "updated_at": "2026-09-14T15:56:12.312Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1370175463",
+        "archived": false,
+        "color": null,
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "majyk1/<em>chefaid</em>-<em>animations</em>-website",
+        "hl_trunc_description": null,
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1370175463,
+            "name": "chefaid-animations-website",
+            "owner_id": 234678792,
+            "owner_login": "majyk1",
+            "updated_at": "2026-09-14T15:56:57.951Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "880395296",
+        "archived": false,
+        "color": "#F05138",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "vhenriquebm/<em>Chef</em>Delivery",
+        "hl_trunc_description": "Food app with SwiftUI, <em>animations</em> and TDD 🍔🍟",
+        "language": "Swift",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 880395296,
+            "name": "ChefDelivery",
+            "owner_id": 89821794,
+            "owner_login": "vhenriquebm",
+            "updated_at": "2024-12-11T17:07:09.027Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "996332078",
+        "archived": false,
+        "color": "#3178c6",
+        "followers": 2,
+        "has_funding_file": false,
+        "hl_name": "creativoma/<em>chefai</em>-landing-page",
+        "hl_trunc_description": "This project is an animated landing page built with React and Motion, featuring scroll <em>animations</em> and interactive elements for showcasing…",
+        "language": "TypeScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 996332078,
+            "name": "chefai-landing-page",
+            "owner_id": 66380259,
+            "owner_login": "creativoma",
+            "updated_at": "2025-12-07T11:53:14.392Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": true,
+        "topics": [
+          "reactjs",
+          "motion",
+          "tailwindcss",
+          "vitejs"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "615964440",
+        "archived": false,
+        "color": "#663399",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "khanatiullah8/css_task_<em>chef</em>_<em>animation</em>",
+        "hl_trunc_description": null,
+        "language": "CSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 615964440,
+            "name": "css_task_chef_animation",
+            "owner_id": 108446571,
+            "owner_login": "khanatiullah8",
+            "updated_at": "2023-03-19T07:54:01.139Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "768138593",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "TheMooskyFish/BugFables-SkipCook",
+        "hl_trunc_description": "Skips all <em>chef</em>'s cooking <em>animation</em>",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 768138593,
+            "name": "BugFables-SkipCook",
+            "owner_id": 32228338,
+            "owner_login": "TheMooskyFish",
+            "updated_at": "2024-03-13T20:09:09.071Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "mod",
+          "bepinex",
+          "bug-fables"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  },
+  {
+    "query": "whistling animation",
+    "results": [
+      {
+        "id": "537368721",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "skipzero/svg-<em>animation</em>-tool",
+        "hl_trunc_description": "web based tool for editing svg <em>animations</em> and other bells and <em>whistles</em>...",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 537368721,
+            "name": "svg-animation-tool",
+            "owner_id": 961763,
+            "owner_login": "skipzero",
+            "updated_at": "2026-10-20T23:30:49.249Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "468897123",
+        "archived": false,
+        "color": "#e16737",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "avery-water/ecog_<em>animations</em>_task",
+        "hl_trunc_description": "MATLAB scripts used to align two audio recordings and extract trial onset times defined by a <em>whistle</em> sound. ",
+        "language": "MATLAB",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 468897123,
+            "name": "ecog_animations_task",
+            "owner_id": 53536982,
+            "owner_login": "avery-water",
+            "updated_at": "2022-03-11T20:54:40.604Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "283906059",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "DaLivelyGhost/Definitely-Not-Pong",
+        "hl_trunc_description": "CSCD371 Assignment. Assignment was geared towards learning <em>animation</em> in c#. Added a few bells and <em>whistles</em>.",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 283906059,
+            "name": "Definitely-Not-Pong",
+            "owner_id": 57687407,
+            "owner_login": "DaLivelyGhost",
+            "updated_at": "2020-07-31T00:40:25.880Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1235179468",
+        "archived": false,
+        "color": "#b07219",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "Seramicx/seramicx-elden-horses",
+        "hl_trunc_description": "Forge 1.20.1 Elden Ring horse summon: Spectral Steed bond, Spectral Leap double jump, <em>whistle</em> mount <em>animation</em>, netherite horse armor.",
+        "language": "Java",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1235179468,
+            "name": "seramicx-elden-horses",
+            "owner_id": 125859300,
+            "owner_login": "Seramicx",
+            "updated_at": "2026-05-31T02:59:20.433Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "minecraft",
+          "animation",
+          "forge",
+          "spectral",
+          "minecraft-mod",
+          "minecraft-forge",
+          "forge-mod",
+          "horse",
+          "horses",
+          "summon",
+          "enchantments",
+          "minecraft-java-edition",
+          "elden-ring",
+          "minecraft-1-20-1",
+          "forge-1-20-1",
+          "apotheosis",
+          "playeranimator",
+          "shiny-horses"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1064192889",
+        "archived": false,
+        "color": "#f34b7d",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "AbsalomGuardian/AutomatedMazeTraversal",
+        "hl_trunc_description": "Project from 2023 where I created an algorithm to automatically traverse a maze, with a bunch of bells and <em>whistles</em> for the <em>animation</em> dem…",
+        "language": "C++",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1064192889,
+            "name": "AutomatedMazeTraversal",
+            "owner_id": 193945088,
+            "owner_login": "AbsalomGuardian",
+            "updated_at": "2025-09-25T17:31:57.086Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "337458702",
+        "archived": false,
+        "color": "#c6538c",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "Beschuetzer/Natour",
+        "hl_trunc_description": "This is the first project from the Udemy Course: &lt;a target=\"_blank\" rel=\"noreferrer\" class=\"skills-popup__link-text skills__title--animat…",
+        "language": "SCSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 337458702,
+            "name": "Natour",
+            "owner_id": 62818816,
+            "owner_login": "Beschuetzer",
+            "updated_at": "2021-02-18T19:36:58.782Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "sass",
+          "html5",
+          "bem",
+          "css3",
+          "scss",
+          "responsive-design",
+          "checkbox-hack",
+          "css-popup"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  }
+]

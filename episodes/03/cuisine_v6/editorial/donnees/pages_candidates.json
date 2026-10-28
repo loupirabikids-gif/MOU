@@ -1,0 +1,924 @@
+[
+  {
+    "repo": "CodeMonkeyUnity/KitchenChaos",
+    "url": "https://github.com/CodeMonkeyUnity/KitchenChaos",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repo": "itsplay64-tech/Cooking-animation",
+    "url": "https://github.com/itsplay64-tech/Cooking-animation",
+    "status": 200,
+    "sha256": "911f523e79ac3d84c2f807a9f0110682745a966e459402472e60dc1b6f40465d",
+    "media_links": [
+      "/itsplay64-tech/Cooking-animation/blob/main/README.md",
+      "/itsplay64-tech/Cooking-animation/blob/main/customers.js",
+      "/itsplay64-tech/Cooking-animation/blob/main/game.js",
+      "/itsplay64-tech/Cooking-animation/blob/main/index.html",
+      "/itsplay64-tech/Cooking-animation/blob/main/recipes.js",
+      "/itsplay64-tech/Cooking-animation/blob/main/styles.css",
+      "/itsplay64-tech/Cooking-animation/blob/main/LICENSE"
+    ],
+    "route": [
+      {
+        "path": "/",
+        "refInfo": {
+          "name": "main",
+          "listCacheKey": "v0:1780924966.0",
+          "canEdit": false,
+          "refType": "branch",
+          "currentOid": "cddd32a4e477f0c718168414e3e0c82b99429130"
+        },
+        "tree": {
+          "items": [
+            {
+              "name": "README.md",
+              "path": "README.md",
+              "contentType": "file"
+            },
+            {
+              "name": "customers.js",
+              "path": "customers.js",
+              "contentType": "file"
+            },
+            {
+              "name": "game.js",
+              "path": "game.js",
+              "contentType": "file"
+            },
+            {
+              "name": "index.html",
+              "path": "index.html",
+              "contentType": "file"
+            },
+            {
+              "name": "recipes.js",
+              "path": "recipes.js",
+              "contentType": "file"
+            },
+            {
+              "name": "styles.css",
+              "path": "styles.css",
+              "contentType": "file"
+            }
+          ],
+          "totalCount": 6,
+          "templateDirectorySuggestionUrl": null,
+          "readme": null,
+          "showBranchInfobar": false
+        },
+        "userNameDisplayConfiguration": null,
+        "treeExpanded": false,
+        "symbolsExpanded": false,
+        "copilotSWEAgentEnabled": false,
+        "copilotAccessAllowed": false,
+        "isOverview": true,
+        "overview": {
+          "banners": {
+            "shouldRecommendReadme": false,
+            "isPersonalRepo": false,
+            "showUseActionBanner": false,
+            "actionSlug": null,
+            "actionId": null,
+            "showProtectBranchBanner": false,
+            "requiredCustomPropertyValuesMissingCount": 0,
+            "transactionalMessageBanner": null,
+            "publishBannersInfo": {
+              "dismissActionNoticePath": "/settings/dismiss-notice/publish_action_from_repo",
+              "releasePath": "/itsplay64-tech/Cooking-animation/releases/new?marketplace=true",
+              "showPublishActionBanner": false
+            },
+            "interactionLimitBanner": null,
+            "showInvitationBanner": false,
+            "inviterName": null,
+            "actionsMigrationBannerInfo": {
+              "releaseTags": [],
+              "showImmutableActionsMigrationBanner": false,
+              "initialMigrationStatus": null
+            },
+            "copilotSurveyBanner": null,
+            "showSpammyBanner": false,
+            "blockedContributorsBanner": null,
+            "codespacesSurveyBanner": null
+          },
+          "codeButton": {
+            "contactPath": "/contact",
+            "isEnterprise": false,
+            "local": {
+              "protocolInfo": {
+                "httpAvailable": true,
+                "sshAvailable": null,
+                "httpUrl": "https://github.com/itsplay64-tech/Cooking-animation.git",
+                "showCloneWarning": null,
+                "sshUrl": null,
+                "sshCertificatesRequired": null,
+                "sshCertificatesAvailable": null,
+                "ghCliUrl": "gh repo clone itsplay64-tech/Cooking-animation",
+                "defaultProtocol": "http",
+                "newSshKeyUrl": "/settings/ssh/new",
+                "setProtocolPath": "/users/set_protocol?protocol_type=clone"
+              },
+              "platformInfo": {
+                "cloneUrl": "https://desktop.github.com",
+                "showVisualStudioCloneButton": false,
+                "visualStudioCloneUrl": "https://windows.github.com",
+                "showXcodeCloneButton": false,
+                "xcodeCloneUrl": "xcode://clone?repo=https%3A%2F%2Fgithub.com%2Fitsplay64-tech%2FCooking-animation",
+                "zipballUrl": "/itsplay64-tech/Cooking-animation/archive/refs/heads/main.zip"
+              }
+            },
+            "newCodespacePath": "/codespaces/new?hide_repo_select=true&repo=1259417356"
+          },
+          "popovers": {
+            "rename": null,
+            "renamedParentRepo": null
+          },
+          "commitCount": "4",
+          "overviewFiles": [
+            {
+              "displayName": "README.md",
+              "repoName": "Cooking-animation",
+              "refName": "main",
+              "path": "README.md",
+              "preferredFileType": "readme",
+              "tabName": "README",
+              "richText": "<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🍳 Jeu de Cuisine - Combinaison d'Ingrédients</h2><a id=\"user-content--jeu-de-cuisine---combinaison-dingrédients\" class=\"anchor\" aria-label=\"Permalink: 🍳 Jeu de Cuisine - Combinaison d'Ingrédients\" href=\"#-jeu-de-cuisine---combinaison-dingrédients\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Un jeu interactif et amusant où vous devez combiner les bons ingrédients pour créer des plats délicieux !</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">✨ Fonctionnalités</h3><a id=\"user-content--fonctionnalités\" class=\"anchor\" aria-label=\"Permalink: ✨ Fonctionnalités\" href=\"#-fonctionnalités\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li><strong>🎮 Gameplay Simple</strong>: Glissez-déposez les ingrédients dans la casserole</li>\n<li><strong>🍽️ 18+ Recettes</strong>: Découvrez diverses recettes de cuisines du monde</li>\n<li><strong>📊 Système de Points</strong>: Gagnez des points en complétant les recettes</li>\n<li><strong>📈 Système de Niveaux</strong>: Progressez et débloquez de nouveaux défis</li>\n<li><strong>✅ Suggestions de Recettes</strong>: Voyez les recettes que vous pouvez préparer</li>\n<li><strong>💾 Sauvegarde Automatique</strong>: Votre progression est automatiquement sauvegardée</li>\n<li><strong>🎨 Animations Fluides</strong>: Des animations et transitions agréables</li>\n<li><strong>📱 Responsive</strong>: Fonctionne sur desktop, tablette et mobile</li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🎯 Comment Jouer</h3><a id=\"user-content--comment-jouer\" class=\"anchor\" aria-label=\"Permalink: 🎯 Comment Jouer\" href=\"#-comment-jouer\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ol dir=\"auto\">\n<li><strong>Choisissez vos Ingrédients</strong>: Glissez les ingrédients disponibles dans la casserole</li>\n<li><strong>Consultez les Recettes</strong>: Regardez les recettes disponibles sur le panneau de droite</li>\n<li><strong>Complétez une Recette</strong>: Une fois que vous avez les bons ingrédients, cliquez sur \"Cuire le Plat\"</li>\n<li><strong>Gagnez des Points</strong>: Chaque recette réussie vous rapporte des points</li>\n<li><strong>Progressez</strong>: Débloquez de nouveaux niveaux en créant des plats</li>\n</ol>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🛠️ Ingrédients Disponibles</h3><a id=\"user-content-️-ingrédients-disponibles\" class=\"anchor\" aria-label=\"Permalink: 🛠️ Ingrédients Disponibles\" href=\"#️-ingrédients-disponibles\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li>🍅 Tomate</li>\n<li>🍝 Pâtes</li>\n<li>🧀 Fromage</li>\n<li>🫒 Huile d'olive</li>\n<li>🥬 Salade</li>\n<li>🥒 Concombre</li>\n<li>🍞 Pain</li>\n<li>🍖 Viande</li>\n<li>🥣 Bouillon</li>\n<li>🥚 Œuf</li>\n<li>🧅 Oignon</li>\n<li>🍜 Nouilles</li>\n<li>🥞 Pancakes</li>\n<li>🍓 Fraise</li>\n<li>🍯 Miel</li>\n<li>🍚 Riz</li>\n<li>🐟 Poisson</li>\n<li>🥢 Baguettes</li>\n<li>🥩 Steak</li>\n<li>🧈 Beurre</li>\n<li>🧄 Ail</li>\n<li>🌮 Tacos</li>\n<li>🌶️ Piment</li>\n<li>🍫 Chocolat</li>\n<li>🧂 Sel</li>\n<li>🌽 Maïs</li>\n<li>🥔 Pomme de terre</li>\n<li>💧 Eau</li>\n<li>🍒 Cerise</li>\n<li>🥕 Carotte</li>\n<li>🌿 Herbes</li>\n<li>🥧 Tarte</li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🍲 Exemples de Recettes</h3><a id=\"user-content--exemples-de-recettes\" class=\"anchor\" aria-label=\"Permalink: 🍲 Exemples de Recettes\" href=\"#-exemples-de-recettes\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<markdown-accessiblity-table><table>\n<thead>\n<tr>\n<th>Plat</th>\n<th>Ingrédients</th>\n<th>Points</th>\n<th>Difficulté</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>🍝 Pâtes Simples</td>\n<td>🍅 🍝</td>\n<td>50</td>\n<td>Facile</td>\n</tr>\n<tr>\n<td>🍕 Pizza Margherita</td>\n<td>🧀 🍅 🫒</td>\n<td>100</td>\n<td>Moyen</td>\n</tr>\n<tr>\n<td>🥗 Salade Verte</td>\n<td>🥬 🥒 🫒</td>\n<td>75</td>\n<td>Facile</td>\n</tr>\n<tr>\n<td>🍔 Burger Classique</td>\n<td>🍞 🍖 🧀 🍅</td>\n<td>120</td>\n<td>Moyen</td>\n</tr>\n<tr>\n<td>🍜 Ramen Asiatique</td>\n<td>🍜 🥣 🥚 🧅</td>\n<td>150</td>\n<td>Difficile</td>\n</tr>\n<tr>\n<td>🥞 Pancakes Sucrés</td>\n<td>🥞 🍓 🍯</td>\n<td>100</td>\n<td>Moyen</td>\n</tr>\n<tr>\n<td>🍱 Sushi Box</td>\n<td>🍚 🐟 🥒 🥢</td>\n<td>200</td>\n<td>Difficile</td>\n</tr>\n<tr>\n<td>🥩 Steak Grillé</td>\n<td>🥩 🧈 🧄</td>\n<td>175</td>\n<td>Difficile</td>\n</tr>\n<tr>\n<td>🌮 Tacos Délicieux</td>\n<td>🌮 🍖 🧅 🌶️</td>\n<td>130</td>\n<td>Moyen</td>\n</tr>\n<tr>\n<td>🍰 Gâteau au Chocolat</td>\n<td>🍫 🥚 🍯 🧈</td>\n<td>160</td>\n<td>Difficile</td>\n</tr>\n</tbody>\n</table></markdown-accessiblity-table>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">⌨️ Raccourcis Clavier</h3><a id=\"user-content-️-raccourcis-clavier\" class=\"anchor\" aria-label=\"Permalink: ⌨️ Raccourcis Clavier\" href=\"#️-raccourcis-clavier\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li><strong>Entrée</strong>: Cuire le plat (si activé)</li>\n<li><strong>Échap</strong>: Réinitialiser les ingrédients</li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">💾 Stockage Local</h3><a id=\"user-content--stockage-local\" class=\"anchor\" aria-label=\"Permalink: 💾 Stockage Local\" href=\"#-stockage-local\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Le jeu sauvegarde automatiquement votre progression dans le stockage local du navigateur:</p>\n<ul dir=\"auto\">\n<li>Points totaux</li>\n<li>Niveau actuel</li>\n<li>Nombre de plats créés</li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🎨 Technologies Utilisées</h3><a id=\"user-content--technologies-utilisées\" class=\"anchor\" aria-label=\"Permalink: 🎨 Technologies Utilisées\" href=\"#-technologies-utilisées\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li><strong>HTML5</strong>: Structure et sémantique</li>\n<li><strong>CSS3</strong>: Styles avec animations et gradients</li>\n<li><strong>Vanilla JavaScript</strong>: Logique du jeu sans dépendances</li>\n<li><strong>LocalStorage</strong>: Sauvegarde de la progression</li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">📦 Installation</h3><a id=\"user-content--installation\" class=\"anchor\" aria-label=\"Permalink: 📦 Installation\" href=\"#-installation\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ol dir=\"auto\">\n<li>Clonez le repository:</li>\n</ol>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"git clone https://github.com/itsplay64-tech/Cooking-animation.git\ncd Cooking-animation\"><pre>git clone https://github.com/itsplay64-tech/Cooking-animation.git\n<span class=\"pl-c1\">cd</span> Cooking-animation</pre></div>\n<ol start=\"2\" dir=\"auto\">\n<li>Ouvrez <code>index.html</code> dans votre navigateur:</li>\n</ol>\n<div class=\"highlight highlight-source-shell notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Sur macOS/Linux\nopen index.html\n\n# Sur Windows\nstart index.html\n\n# Ou simplement double-cliquez sur le fichier\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Sur macOS/Linux</span>\nopen index.html\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Sur Windows</span>\nstart index.html\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Ou simplement double-cliquez sur le fichier</span></pre></div>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🚀 Déploiement</h3><a id=\"user-content--déploiement\" class=\"anchor\" aria-label=\"Permalink: 🚀 Déploiement\" href=\"#-déploiement\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Vous pouvez déployer ce jeu sur:</p>\n<ul dir=\"auto\">\n<li><strong>GitHub Pages</strong>: Poussez vers une branche <code>gh-pages</code></li>\n<li><strong>Netlify</strong>: Connectez le repository directement</li>\n<li><strong>Vercel</strong>: Importez le projet</li>\n<li><strong>N'importe quel serveur web statique</strong></li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🐛 Bugs et Suggestions</h3><a id=\"user-content--bugs-et-suggestions\" class=\"anchor\" aria-label=\"Permalink: 🐛 Bugs et Suggestions\" href=\"#-bugs-et-suggestions\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Si vous trouvez des bugs ou avez des suggestions, veuillez:</p>\n<ol dir=\"auto\">\n<li>Ouvrir une <a href=\"https://github.com/itsplay64-tech/Cooking-animation/issues\">Issue</a></li>\n<li>Décrire le problème ou la suggestion en détail</li>\n<li>Nous allons répondre rapidement</li>\n</ol>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🤝 Contributions</h3><a id=\"user-content--contributions\" class=\"anchor\" aria-label=\"Permalink: 🤝 Contributions\" href=\"#-contributions\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Les contributions sont les bienvenues! N'hésitez pas à:</p>\n<ol dir=\"auto\">\n<li>Fork le repository</li>\n<li>Créer une branche pour votre fonctionnalité (<code>git checkout -b feature/nouvelle-feature</code>)</li>\n<li>Committer vos modifications (<code>git commit -am 'Ajouter une nouvelle feature'</code>)</li>\n<li>Pousser vers la branche (<code>git push origin feature/nouvelle-feature</code>)</li>\n<li>Ouvrir une Pull Request</li>\n</ol>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">📝 Idées pour Améliorer le Jeu</h3><a id=\"user-content--idées-pour-améliorer-le-jeu\" class=\"anchor\" aria-label=\"Permalink: 📝 Idées pour Améliorer le Jeu\" href=\"#-idées-pour-améliorer-le-jeu\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Ajouter plus de recettes</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Système de bonus pour les récidives</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Mode time-attack</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Classement global</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Thèmes personnalisables</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Sons et musiques</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Achievements/Trophées</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Tutoriel interactif</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Mode multiplayer</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" id=\"\" disabled=\"\" class=\"task-list-item-checkbox\" aria-label=\"Incomplete task\"> Recettes aléatoires</li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">📄 Licence</h3><a id=\"user-content--licence\" class=\"anchor\" aria-label=\"Permalink: 📄 Licence\" href=\"#-licence\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Ce projet est sous licence MIT. Voir le fichier <a href=\"/itsplay64-tech/Cooking-animation/blob/main/LICENSE\">LICENSE</a> pour plus de détails.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">👨‍💻 Auteur</h3><a id=\"user-content-‍-auteur\" class=\"anchor\" aria-label=\"Permalink: 👨‍💻 Auteur\" href=\"#‍-auteur\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Créé par <a href=\"https://github.com/itsplay64-tech\">itsplay64-tech</a></p>\n<div class=\"markdown-heading\" dir=\"auto\"><h3 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">🌟 Soutenez le Projet</h3><a id=\"user-content--soutenez-le-projet\" class=\"anchor\" aria-label=\"Permalink: 🌟 Soutenez le Projet\" href=\"#-soutenez-le-projet\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">Si vous aimez ce jeu, n'oubliez pas de:</p>\n<ul dir=\"auto\">\n<li>⭐ Mettre une star au repository</li>\n<li>🔄 Partager le projet avec vos amis</li>\n<li>💬 Laisser vos commentaires et suggestions</li>\n</ul>\n<hr>\n<p dir=\"auto\"><strong>Amusez-vous bien en combinant les ingrédients! 👨‍🍳🎮</strong></p>\n</article>",
+              "loaded": true,
+              "timedOut": false,
+              "errorMessage": null,
+              "headerInfo": {
+                "toc": [
+                  {
+                    "level": 2,
+                    "text": "🍳 Jeu de Cuisine - Combinaison d'Ingrédients",
+                    "anchor": "-jeu-de-cuisine---combinaison-dingrédients",
+                    "htmlText": "🍳 Jeu de Cuisine - Combinaison d'Ingrédients"
+                  },
+                  {
+                    "level": 3,
+                    "text": "✨ Fonctionnalités",
+                    "anchor": "-fonctionnalités",
+                    "htmlText": "✨ Fonctionnalités"
+                  },
+                  {
+                    "level": 3,
+                    "text": "🎯 Comment Jouer",
+                    "anchor": "-comment-jouer",
+                    "htmlText": "🎯 Comment Jouer"
+                  },
+                  {
+                    "level": 3,
+                    "text": "🛠️ Ingrédients Disponibles",
+                    "anchor": "️-ingrédients-disponibles",
+                    "htmlText": "🛠️ Ingrédients Disponibles"
+                  },
+                  {
+                    "level": 3,
+                    "text": "🍲 Exemples de Recettes",
+                    "anchor": "-exemples-de-recettes",
+                    "htmlText": "🍲 Exemples de Recettes"
+                  },
+                  {
+                    "level": 3,
+                    "text": "⌨️ Raccourcis Clavier",
+                    "anchor": "️-raccourcis-clavier",
+                    "htmlText": "⌨️ Raccourcis Clavier"
+                  },
+                  {
+                    "level": 3,
+                    "text": "💾 Stockage Local",
+                    "anchor": "-stockage-local",
+                    "htmlText": "💾 Stockage Local"
+                  },
+                  {
+                    "level": 3,
+                    "text": "🎨 Technologies Utilisées",
+                    "anchor": "-technologies-utilisées",
+                    "htmlText": "🎨 Technologies Utilisées"
+                  },
+                  {
+                    "level": 3,
+                    "text": "📦 Installation",
+                    "anchor": "-installation",
+                    "htmlText": "📦 Installation"
+                  },
+                  {
+                    "level": 3,
+                    "text": "🚀 Déploiement",
+                    "anchor": "-déploiement",
+                    "htmlText": "🚀 Déploiement"
+                  },
+                  {
+                    "level": 3,
+                    "text": "🐛 Bugs et Suggestions",
+                    "anchor": "-bugs-et-suggestions",
+                    "htmlText": "🐛 Bugs et Suggestions"
+                  },
+                  {
+                    "level": 3,
+                    "text": "🤝 Contributions",
+                    "anchor": "-contributions",
+                    "htmlText": "🤝 Contributions"
+                  },
+                  {
+                    "level": 3,
+                    "text": "📝 Idées pour Améliorer le Jeu",
+                    "anchor": "-idées-pour-améliorer-le-jeu",
+                    "htmlText": "📝 Idées pour Améliorer le Jeu"
+                  },
+                  {
+                    "level": 3,
+                    "text": "📄 Licence",
+                    "anchor": "-licence",
+                    "htmlText": "📄 Licence"
+                  },
+                  {
+                    "level": 3,
+                    "text": "👨‍💻 Auteur",
+                    "anchor": "‍-auteur",
+                    "htmlText": "👨‍💻 Auteur"
+                  },
+                  {
+                    "level": 3,
+                    "text": "🌟 Soutenez le Projet",
+                    "anchor": "-soutenez-le-projet",
+                    "htmlText": "🌟 Soutenez le Projet"
+                  }
+                ],
+                "siteNavLoginPath": "/login?return_to=https%3A%2F%2Fgithub.com%2Fitsplay64-tech%2FCooking-animation"
+              }
+            }
+          ],
+          "overviewFilesProcessingTime": 0,
+          "copilotSWEAgentEnabled": false,
+          "sidebarAboutData": {
+            "description": "jeu de cuisine chilll",
+            "formattedDescription": "jeu de cuisine chilll",
+            "topics": [],
+            "showInsights": true,
+            "canOpenStargazersAndWatchers": false,
+            "stargazerCount": 0,
+            "watcherCount": 0,
+            "forksCount": 0,
+            "stargazersPath": "/itsplay64-tech/Cooking-animation/stargazers",
+            "watchersPath": "/itsplay64-tech/Cooking-animation/watchers",
+            "forkNetworkPath": "/itsplay64-tech/Cooking-animation/forks",
+            "activityPath": "/itsplay64-tech/Cooking-animation/activity",
+            "reportPath": "/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fitsplay64-tech%2FCooking-animation&report=itsplay64-tech+%28user%29",
+            "canEditMetadata": false,
+            "ownerLogin": "itsplay64-tech",
+            "repoName": "Cooking-animation",
+            "isOrg": false,
+            "sections": {
+              "releases": {
+                "releaseCount": 0,
+                "tagCount": 0
+              },
+              "sponsors": false,
+              "deployments": false,
+              "packages": true,
+              "usedBy": false,
+              "contributors": true,
+              "languages": true,
+              "cta": false,
+              "suggestedWorkflows": false
+            },
+            "hasCitation": false,
+            "pagesUrl": "https://itsplay64-tech.github.io/Cooking-animation/",
+            "repo": {
+              "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/290737047?s=60&v=4",
+              "ownerId": 290737047,
+              "isPrivate": false,
+              "isTemplate": false,
+              "isFork": false,
+              "isMirror": false,
+              "isArchived": false,
+              "visibilityLabel": "Public",
+              "isAdvisoryWorkspace": false
+            },
+            "star": {
+              "viewerHasStarred": false,
+              "canStar": false
+            },
+            "fork": {
+              "canFork": false,
+              "forkabilityError": "not_logged_in"
+            },
+            "pin": {
+              "canPin": false,
+              "isPinned": false,
+              "isOrgOwned": false,
+              "pinItemsRemaining": 6
+            },
+            "watch": {
+              "canWatch": false,
+              "watchData": {
+                "repositoryId": "1259417356",
+                "repositoryName": "itsplay64-tech/Cooking-animation",
+                "watchersCount": 0,
+                "subscriptionType": "none",
+                "subscribableThreadTypes": [
+                  {
+                    "name": "Issue",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "PullRequest",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "Release",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "Discussion",
+                    "enabled": false,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "SecurityAlert",
+                    "enabled": true,
+                    "subscribed": false
+                  }
+                ],
+                "showLabelSubscriptions": false,
+                "subscribedLabels": []
+              }
+            },
+            "viewer": {
+              "isLoggedIn": false,
+              "isSiteAdmin": false,
+              "emuContributionBlocked": false
+            },
+            "showSponsorButton": false,
+            "showTemplateButton": false,
+            "showDemoNotification": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "repo": "ShahzaibMirza-10/cooking-animation",
+    "url": "https://github.com/ShahzaibMirza-10/cooking-animation",
+    "status": 200,
+    "sha256": "cab02f157f2cdf7531139fef6d41e200612ffbf5372716738a79d01c959b7577",
+    "media_links": [
+      "/ShahzaibMirza-10/cooking-animation/tree/main/public",
+      "/ShahzaibMirza-10/cooking-animation/tree/main/src",
+      "/ShahzaibMirza-10/cooking-animation/blob/main/.eslintrc.cjs",
+      "/ShahzaibMirza-10/cooking-animation/blob/main/.gitattributes",
+      "/ShahzaibMirza-10/cooking-animation/blob/main/.gitignore",
+      "/ShahzaibMirza-10/cooking-animation/blob/main/README.md",
+      "/ShahzaibMirza-10/cooking-animation/blob/main/index.html",
+      "/ShahzaibMirza-10/cooking-animation/blob/main/package-lock.json",
+      "/ShahzaibMirza-10/cooking-animation/blob/main/package.json",
+      "/ShahzaibMirza-10/cooking-animation/blob/main/vite.config.js",
+      "https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md"
+    ],
+    "route": [
+      {
+        "path": "/",
+        "refInfo": {
+          "name": "main",
+          "listCacheKey": "v0:1700508807.0",
+          "canEdit": false,
+          "refType": "branch",
+          "currentOid": "818a443f5f230285fe852bf30870c34f22219cb6"
+        },
+        "tree": {
+          "items": [
+            {
+              "name": "public",
+              "path": "public",
+              "contentType": "directory"
+            },
+            {
+              "name": "src",
+              "path": "src",
+              "contentType": "directory"
+            },
+            {
+              "name": ".eslintrc.cjs",
+              "path": ".eslintrc.cjs",
+              "contentType": "file"
+            },
+            {
+              "name": ".gitattributes",
+              "path": ".gitattributes",
+              "contentType": "file"
+            },
+            {
+              "name": ".gitignore",
+              "path": ".gitignore",
+              "contentType": "file"
+            },
+            {
+              "name": "README.md",
+              "path": "README.md",
+              "contentType": "file"
+            },
+            {
+              "name": "index.html",
+              "path": "index.html",
+              "contentType": "file"
+            },
+            {
+              "name": "package-lock.json",
+              "path": "package-lock.json",
+              "contentType": "file"
+            },
+            {
+              "name": "package.json",
+              "path": "package.json",
+              "contentType": "file"
+            },
+            {
+              "name": "vite.config.js",
+              "path": "vite.config.js",
+              "contentType": "file"
+            }
+          ],
+          "totalCount": 10,
+          "templateDirectorySuggestionUrl": null,
+          "readme": null,
+          "showBranchInfobar": false
+        },
+        "userNameDisplayConfiguration": null,
+        "treeExpanded": false,
+        "symbolsExpanded": false,
+        "copilotSWEAgentEnabled": false,
+        "copilotAccessAllowed": false,
+        "isOverview": true,
+        "overview": {
+          "banners": {
+            "shouldRecommendReadme": false,
+            "isPersonalRepo": false,
+            "showUseActionBanner": false,
+            "actionSlug": null,
+            "actionId": null,
+            "showProtectBranchBanner": false,
+            "requiredCustomPropertyValuesMissingCount": 0,
+            "transactionalMessageBanner": null,
+            "publishBannersInfo": {
+              "dismissActionNoticePath": "/settings/dismiss-notice/publish_action_from_repo",
+              "releasePath": "/ShahzaibMirza-10/cooking-animation/releases/new?marketplace=true",
+              "showPublishActionBanner": false
+            },
+            "interactionLimitBanner": null,
+            "showInvitationBanner": false,
+            "inviterName": null,
+            "actionsMigrationBannerInfo": {
+              "releaseTags": [],
+              "showImmutableActionsMigrationBanner": false,
+              "initialMigrationStatus": null
+            },
+            "copilotSurveyBanner": null,
+            "showSpammyBanner": false,
+            "blockedContributorsBanner": null,
+            "codespacesSurveyBanner": null
+          },
+          "codeButton": {
+            "contactPath": "/contact",
+            "isEnterprise": false,
+            "local": {
+              "protocolInfo": {
+                "httpAvailable": true,
+                "sshAvailable": null,
+                "httpUrl": "https://github.com/ShahzaibMirza-10/cooking-animation.git",
+                "showCloneWarning": null,
+                "sshUrl": null,
+                "sshCertificatesRequired": null,
+                "sshCertificatesAvailable": null,
+                "ghCliUrl": "gh repo clone ShahzaibMirza-10/cooking-animation",
+                "defaultProtocol": "http",
+                "newSshKeyUrl": "/settings/ssh/new",
+                "setProtocolPath": "/users/set_protocol?protocol_type=clone"
+              },
+              "platformInfo": {
+                "cloneUrl": "https://desktop.github.com",
+                "showVisualStudioCloneButton": false,
+                "visualStudioCloneUrl": "https://windows.github.com",
+                "showXcodeCloneButton": false,
+                "xcodeCloneUrl": "xcode://clone?repo=https%3A%2F%2Fgithub.com%2FShahzaibMirza-10%2Fcooking-animation",
+                "zipballUrl": "/ShahzaibMirza-10/cooking-animation/archive/refs/heads/main.zip"
+              }
+            },
+            "newCodespacePath": "/codespaces/new?hide_repo_select=true&repo=721305939"
+          },
+          "popovers": {
+            "rename": null,
+            "renamedParentRepo": null
+          },
+          "commitCount": "3",
+          "overviewFiles": [
+            {
+              "displayName": "README.md",
+              "repoName": "cooking-animation",
+              "refName": "main",
+              "path": "README.md",
+              "preferredFileType": "readme",
+              "tabName": "README",
+              "richText": "<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div class=\"markdown-heading\" dir=\"auto\"><h1 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">React + Vite</h1><a id=\"user-content-react--vite\" class=\"anchor\" aria-label=\"Permalink: React + Vite\" href=\"#react--vite\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.</p>\n<p dir=\"auto\">Currently, two official plugins are available:</p>\n<ul dir=\"auto\">\n<li><a href=\"https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md\">@vitejs/plugin-react</a> uses <a href=\"https://babeljs.io/\" rel=\"nofollow\">Babel</a> for Fast Refresh</li>\n<li><a href=\"https://github.com/vitejs/vite-plugin-react-swc\">@vitejs/plugin-react-swc</a> uses <a href=\"https://swc.rs/\" rel=\"nofollow\">SWC</a> for Fast Refresh</li>\n</ul>\n</article>",
+              "loaded": true,
+              "timedOut": false,
+              "errorMessage": null,
+              "headerInfo": {
+                "toc": [
+                  {
+                    "level": 1,
+                    "text": "React + Vite",
+                    "anchor": "react--vite",
+                    "htmlText": "React + Vite"
+                  }
+                ],
+                "siteNavLoginPath": "/login?return_to=https%3A%2F%2Fgithub.com%2FShahzaibMirza-10%2Fcooking-animation"
+              }
+            }
+          ],
+          "overviewFilesProcessingTime": 0,
+          "copilotSWEAgentEnabled": false,
+          "sidebarAboutData": {
+            "topics": [],
+            "showInsights": true,
+            "canOpenStargazersAndWatchers": false,
+            "stargazerCount": 0,
+            "watcherCount": 1,
+            "forksCount": 0,
+            "stargazersPath": "/ShahzaibMirza-10/cooking-animation/stargazers",
+            "watchersPath": "/ShahzaibMirza-10/cooking-animation/watchers",
+            "forkNetworkPath": "/ShahzaibMirza-10/cooking-animation/forks",
+            "activityPath": "/ShahzaibMirza-10/cooking-animation/activity",
+            "reportPath": "/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FShahzaibMirza-10%2Fcooking-animation&report=ShahzaibMirza-10+%28user%29",
+            "canEditMetadata": false,
+            "ownerLogin": "ShahzaibMirza-10",
+            "repoName": "cooking-animation",
+            "isOrg": false,
+            "sections": {
+              "releases": {
+                "releaseCount": 0,
+                "tagCount": 0
+              },
+              "sponsors": false,
+              "deployments": false,
+              "packages": true,
+              "usedBy": true,
+              "contributors": true,
+              "languages": true,
+              "cta": false,
+              "suggestedWorkflows": false
+            },
+            "hasCitation": false,
+            "repo": {
+              "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/150156134?s=60&v=4",
+              "ownerId": 150156134,
+              "isPrivate": false,
+              "isTemplate": false,
+              "isFork": false,
+              "isMirror": false,
+              "isArchived": false,
+              "visibilityLabel": "Public",
+              "isAdvisoryWorkspace": false
+            },
+            "star": {
+              "viewerHasStarred": false,
+              "canStar": false
+            },
+            "fork": {
+              "canFork": false,
+              "forkabilityError": "not_logged_in"
+            },
+            "pin": {
+              "canPin": false,
+              "isPinned": false,
+              "isOrgOwned": false,
+              "pinItemsRemaining": 6
+            },
+            "watch": {
+              "canWatch": false,
+              "watchData": {
+                "repositoryId": "721305939",
+                "repositoryName": "ShahzaibMirza-10/cooking-animation",
+                "watchersCount": 1,
+                "subscriptionType": "none",
+                "subscribableThreadTypes": [
+                  {
+                    "name": "Issue",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "PullRequest",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "Release",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "Discussion",
+                    "enabled": false,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "SecurityAlert",
+                    "enabled": true,
+                    "subscribed": false
+                  }
+                ],
+                "showLabelSubscriptions": false,
+                "subscribedLabels": []
+              }
+            },
+            "viewer": {
+              "isLoggedIn": false,
+              "isSiteAdmin": false,
+              "emuContributionBlocked": false
+            },
+            "showSponsorButton": false,
+            "showTemplateButton": false,
+            "showDemoNotification": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "repo": "withaarzoo/Animated-Loader",
+    "url": "https://github.com/withaarzoo/Animated-Loader",
+    "status": 200,
+    "sha256": "136ade66c0900cd3cf34a4db1792d8907fd417f7502a9e6ddb0b8b6bc2a2dac7",
+    "media_links": [
+      "/withaarzoo/Animated-Loader/blob/main/README.md",
+      "/withaarzoo/Animated-Loader/blob/main/index.html",
+      "/withaarzoo/Animated-Loader/blob/main/style.css"
+    ],
+    "route": [
+      {
+        "path": "/",
+        "refInfo": {
+          "name": "main",
+          "listCacheKey": "v0:1680602831.0",
+          "canEdit": false,
+          "refType": "branch",
+          "currentOid": "cd76d7e884938775d279ef37357d1010ea98cd33"
+        },
+        "tree": {
+          "items": [
+            {
+              "name": "README.md",
+              "path": "README.md",
+              "contentType": "file"
+            },
+            {
+              "name": "index.html",
+              "path": "index.html",
+              "contentType": "file"
+            },
+            {
+              "name": "style.css",
+              "path": "style.css",
+              "contentType": "file"
+            }
+          ],
+          "totalCount": 3,
+          "templateDirectorySuggestionUrl": null,
+          "readme": null,
+          "showBranchInfobar": false
+        },
+        "userNameDisplayConfiguration": null,
+        "treeExpanded": false,
+        "symbolsExpanded": false,
+        "copilotSWEAgentEnabled": false,
+        "copilotAccessAllowed": false,
+        "isOverview": true,
+        "overview": {
+          "banners": {
+            "shouldRecommendReadme": false,
+            "isPersonalRepo": false,
+            "showUseActionBanner": false,
+            "actionSlug": null,
+            "actionId": null,
+            "showProtectBranchBanner": false,
+            "requiredCustomPropertyValuesMissingCount": 0,
+            "transactionalMessageBanner": null,
+            "publishBannersInfo": {
+              "dismissActionNoticePath": "/settings/dismiss-notice/publish_action_from_repo",
+              "releasePath": "/withaarzoo/Animated-Loader/releases/new?marketplace=true",
+              "showPublishActionBanner": false
+            },
+            "interactionLimitBanner": null,
+            "showInvitationBanner": false,
+            "inviterName": null,
+            "actionsMigrationBannerInfo": {
+              "releaseTags": [],
+              "showImmutableActionsMigrationBanner": false,
+              "initialMigrationStatus": null
+            },
+            "copilotSurveyBanner": null,
+            "showSpammyBanner": false,
+            "blockedContributorsBanner": null,
+            "codespacesSurveyBanner": null
+          },
+          "codeButton": {
+            "contactPath": "/contact",
+            "isEnterprise": false,
+            "local": {
+              "protocolInfo": {
+                "httpAvailable": true,
+                "sshAvailable": null,
+                "httpUrl": "https://github.com/withaarzoo/Animated-Loader.git",
+                "showCloneWarning": null,
+                "sshUrl": null,
+                "sshCertificatesRequired": null,
+                "sshCertificatesAvailable": null,
+                "ghCliUrl": "gh repo clone withaarzoo/Animated-Loader",
+                "defaultProtocol": "http",
+                "newSshKeyUrl": "/settings/ssh/new",
+                "setProtocolPath": "/users/set_protocol?protocol_type=clone"
+              },
+              "platformInfo": {
+                "cloneUrl": "https://desktop.github.com",
+                "showVisualStudioCloneButton": false,
+                "visualStudioCloneUrl": "https://windows.github.com",
+                "showXcodeCloneButton": false,
+                "xcodeCloneUrl": "xcode://clone?repo=https%3A%2F%2Fgithub.com%2Fwithaarzoo%2FAnimated-Loader",
+                "zipballUrl": "/withaarzoo/Animated-Loader/archive/refs/heads/main.zip"
+              }
+            },
+            "newCodespacePath": "/codespaces/new?hide_repo_select=true&repo=623407644"
+          },
+          "popovers": {
+            "rename": null,
+            "renamedParentRepo": null
+          },
+          "commitCount": "3",
+          "overviewFiles": [
+            {
+              "displayName": "README.md",
+              "repoName": "Animated-Loader",
+              "refName": "main",
+              "path": "README.md",
+              "preferredFileType": "readme",
+              "tabName": "README",
+              "richText": "<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div class=\"markdown-heading\" dir=\"auto\"><h1 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">Animated Loader for Cooking/Restaurant Websites</h1><a id=\"user-content-animated-loader-for-cookingrestaurant-websites\" class=\"anchor\" aria-label=\"Permalink: Animated Loader for Cooking/Restaurant Websites\" href=\"#animated-loader-for-cookingrestaurant-websites\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">This is a simple HTML and CSS code to create an animated loader that can be used for cooking or restaurant websites. The loader is created with bubble animations that are followed by a flipping pancake animation.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">Getting Started</h2><a id=\"user-content-getting-started\" class=\"anchor\" aria-label=\"Permalink: Getting Started\" href=\"#getting-started\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">To use this loader, simply copy and paste the HTML and CSS code into your project. You can customize the loader by modifying the CSS code to fit your project's color scheme.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">Usage</h2><a id=\"user-content-usage\" class=\"anchor\" aria-label=\"Permalink: Usage\" href=\"#usage\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\">This loader can be used on any website that requires a loading animation. Simply add the code to your HTML file where you want the loader to appear.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 tabindex=\"-1\" class=\"heading-element\" dir=\"auto\">Preview</h2><a id=\"user-content-preview\" class=\"anchor\" aria-label=\"Permalink: Preview\" href=\"#preview\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://user-images.githubusercontent.com/59678435/229759072-3bba651a-2f34-4585-b30e-548d9e7bea08.png\"><img width=\"960\" alt=\"Screenshot 2023-04-04 153257\" src=\"https://user-images.githubusercontent.com/59678435/229759072-3bba651a-2f34-4585-b30e-548d9e7bea08.png\" style=\"max-width: 100%;\"></a></p>\n</article>",
+              "loaded": true,
+              "timedOut": false,
+              "errorMessage": null,
+              "headerInfo": {
+                "toc": [
+                  {
+                    "level": 1,
+                    "text": "Animated Loader for Cooking/Restaurant Websites",
+                    "anchor": "animated-loader-for-cookingrestaurant-websites",
+                    "htmlText": "Animated Loader for Cooking/Restaurant Websites"
+                  },
+                  {
+                    "level": 2,
+                    "text": "Getting Started",
+                    "anchor": "getting-started",
+                    "htmlText": "Getting Started"
+                  },
+                  {
+                    "level": 2,
+                    "text": "Usage",
+                    "anchor": "usage",
+                    "htmlText": "Usage"
+                  },
+                  {
+                    "level": 2,
+                    "text": "Preview",
+                    "anchor": "preview",
+                    "htmlText": "Preview"
+                  }
+                ],
+                "siteNavLoginPath": "/login?return_to=https%3A%2F%2Fgithub.com%2Fwithaarzoo%2FAnimated-Loader"
+              }
+            }
+          ],
+          "overviewFilesProcessingTime": 0,
+          "copilotSWEAgentEnabled": false,
+          "sidebarAboutData": {
+            "description": "This is a simple HTML and CSS code to create an animated loader that can be used for cooking or restaurant websites. The loader is created with bubble animations that are followed by a flipping pancake animation.",
+            "formattedDescription": "This is a simple HTML and CSS code to create an animated loader that can be used for cooking or restaurant websites. The loader is created with bubble animations that are followed by a flipping pancake animation.",
+            "topics": [
+              {
+                "name": "css"
+              },
+              {
+                "name": "html"
+              },
+              {
+                "name": "webdevelopment"
+              }
+            ],
+            "showInsights": true,
+            "canOpenStargazersAndWatchers": false,
+            "stargazerCount": 8,
+            "watcherCount": 1,
+            "forksCount": 3,
+            "stargazersPath": "/withaarzoo/Animated-Loader/stargazers",
+            "watchersPath": "/withaarzoo/Animated-Loader/watchers",
+            "forkNetworkPath": "/withaarzoo/Animated-Loader/forks",
+            "activityPath": "/withaarzoo/Animated-Loader/activity",
+            "reportPath": "/contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fwithaarzoo%2FAnimated-Loader&report=withaarzoo+%28user%29",
+            "canEditMetadata": false,
+            "ownerLogin": "withaarzoo",
+            "repoName": "Animated-Loader",
+            "isOrg": false,
+            "sections": {
+              "releases": {
+                "releaseCount": 0,
+                "tagCount": 0
+              },
+              "sponsors": false,
+              "deployments": false,
+              "packages": true,
+              "usedBy": false,
+              "contributors": true,
+              "languages": true,
+              "cta": false,
+              "suggestedWorkflows": false
+            },
+            "hasCitation": false,
+            "repo": {
+              "ownerAvatarUrl": "https://avatars.githubusercontent.com/u/59678435?s=60&v=4",
+              "ownerId": 59678435,
+              "isPrivate": false,
+              "isTemplate": false,
+              "isFork": false,
+              "isMirror": false,
+              "isArchived": false,
+              "visibilityLabel": "Public",
+              "isAdvisoryWorkspace": false
+            },
+            "star": {
+              "viewerHasStarred": false,
+              "canStar": false
+            },
+            "fork": {
+              "canFork": false,
+              "forkabilityError": "not_logged_in"
+            },
+            "pin": {
+              "canPin": false,
+              "isPinned": false,
+              "isOrgOwned": false,
+              "pinItemsRemaining": 6
+            },
+            "watch": {
+              "canWatch": false,
+              "watchData": {
+                "repositoryId": "623407644",
+                "repositoryName": "withaarzoo/Animated-Loader",
+                "watchersCount": 1,
+                "subscriptionType": "none",
+                "subscribableThreadTypes": [
+                  {
+                    "name": "Issue",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "PullRequest",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "Release",
+                    "enabled": true,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "Discussion",
+                    "enabled": false,
+                    "subscribed": false
+                  },
+                  {
+                    "name": "SecurityAlert",
+                    "enabled": true,
+                    "subscribed": false
+                  }
+                ],
+                "showLabelSubscriptions": false,
+                "subscribedLabels": []
+              }
+            },
+            "viewer": {
+              "isLoggedIn": false,
+              "isSiteAdmin": false,
+              "emuContributionBlocked": false
+            },
+            "showSponsorButton": false,
+            "showTemplateButton": false,
+            "showDemoNotification": false
+          }
+        }
+      }
+    ]
+  }
+]

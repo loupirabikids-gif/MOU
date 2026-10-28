@@ -1,0 +1,23 @@
+[
+  {
+    "name": "loader_readme",
+    "url": "https://raw.githubusercontent.com/withaarzoo/Animated-Loader/main/README.md",
+    "status": 200,
+    "bytes": 789,
+    "sha256": "482c3d6abd7e75a730503b676ad09df727b80b933c1397342716ea5cb70b6e86"
+  },
+  {
+    "name": "loader_css",
+    "url": "https://raw.githubusercontent.com/withaarzoo/Animated-Loader/main/style.css",
+    "status": 200,
+    "bytes": 4484,
+    "sha256": "04a209f33c82377c0a6f21700d91df5f7e8e64162e2580ad3ddcb769eeb1fa1e"
+  },
+  {
+    "name": "pancake_cover",
+    "url": "https://raw.githubusercontent.com/UjcicHana/pancake-animation/master/cover.png",
+    "status": 200,
+    "bytes": 1485479,
+    "sha256": "fca910df1bf1b25ede61a4991f2b67c05396238b51d758fc30f36b750bbf28cf"
+  }
+]

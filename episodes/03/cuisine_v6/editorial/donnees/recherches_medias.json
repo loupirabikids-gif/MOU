@@ -1,0 +1,685 @@
+[
+  {
+    "query": "chef svg animation",
+    "url": "https://github.com/search?q=chef%20svg%20animation&type=repositories",
+    "status": 200,
+    "sha256": "be1a75ad0199dbd03790c4fbe74859c22f433f6f99cc09eebbbd86a99188dc38",
+    "results": []
+  },
+  {
+    "query": "pancake animation",
+    "url": "https://github.com/search?q=pancake%20animation&type=repositories",
+    "status": 200,
+    "sha256": "445e8bfabf4bd9893b55825c437af553051e85140dd854af615364c72190a880",
+    "results": [
+      {
+        "id": "604729144",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 9,
+        "has_funding_file": false,
+        "hl_name": "crimson-projects/css-<em>pancake</em>-loader",
+        "hl_trunc_description": "CSS <em>Pancake</em> Loader | Crimson",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": true,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 604729144,
+            "name": "css-pancake-loader",
+            "owner_id": 120462751,
+            "owner_login": "crimson-projects",
+            "updated_at": "2023-02-21T17:06:20.893Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "css",
+          "animation",
+          "loader",
+          "crimson",
+          "css-animation",
+          "subux"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "623407644",
+        "archived": false,
+        "color": "#663399",
+        "followers": 8,
+        "has_funding_file": false,
+        "hl_name": "withaarzoo/Animated-Loader",
+        "hl_trunc_description": "This is a simple HTML and CSS code to create an animated loader that can be used for cooking or restaurant websites. The loader is create…",
+        "language": "CSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 623407644,
+            "name": "Animated-Loader",
+            "owner_id": 59678435,
+            "owner_login": "withaarzoo",
+            "updated_at": "2023-04-04T10:07:11.034Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "css",
+          "html",
+          "webdevelopment"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1075626148",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 2,
+        "has_funding_file": false,
+        "hl_name": "Belheika/flipnflop",
+        "hl_trunc_description": "Cookie or <em>pancake</em>? Choose cookies or <em>pancakes</em> and follow the recipe steps with simple <em>animations</em> and sounds.",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1075626148,
+            "name": "flipnflop",
+            "owner_id": 104413258,
+            "owner_login": "Belheika",
+            "updated_at": "2025-11-17T14:22:19.631Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "925201555",
+        "archived": false,
+        "color": null,
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "UjcicHana/<em>pancake</em>-<em>animation</em>",
+        "hl_trunc_description": "Projekt za predmet 3D modeliranje i animacija",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 925201555,
+            "name": "pancake-animation",
+            "owner_id": 108579613,
+            "owner_login": "UjcicHana",
+            "updated_at": "2025-01-31T13:40:53.487Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1327632392",
+        "archived": false,
+        "color": "#3178c6",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "CoderTalhaa/<em>pancake</em>-<em>animation</em>",
+        "hl_trunc_description": null,
+        "language": "TypeScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1327632392,
+            "name": "pancake-animation",
+            "owner_id": 120743825,
+            "owner_login": "CoderTalhaa",
+            "updated_at": "2026-08-25T11:44:58.722Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "668173849",
+        "archived": false,
+        "color": "#663399",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "Luca-Andreea-Nicoleta/<em>pancake</em>_<em>animation</em>",
+        "hl_trunc_description": "Simple <em>animation</em> of <em>pancake</em> making in html and css",
+        "language": "CSS",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 668173849,
+            "name": "pancake_animation",
+            "owner_id": 138120423,
+            "owner_login": "Luca-Andreea-Nicoleta",
+            "updated_at": "2023-07-19T07:42:02.054Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "730820665",
+        "archived": false,
+        "color": "#e34c26",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "sa-bats/<em>Pancake</em>-recipe-<em>animation</em>",
+        "hl_trunc_description": null,
+        "language": "HTML",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 730820665,
+            "name": "Pancake-recipe-animation",
+            "owner_id": 84566819,
+            "owner_login": "sa-bats",
+            "updated_at": "2023-12-12T19:32:24.888Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1421303640",
+        "archived": false,
+        "color": "#A97BFF",
+        "followers": 2,
+        "has_funding_file": false,
+        "hl_name": "noodlefishy/Stop-motion-<em>pancakes</em>",
+        "hl_trunc_description": "Stop motion video editor with onion skinning, rotoscoping doodles, iPhone continuity camera capture and audio lip sync",
+        "language": "Kotlin",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1421303640,
+            "name": "Stop-motion-pancakes",
+            "owner_id": 122267295,
+            "owner_login": "noodlefishy",
+            "updated_at": "2026-10-17T18:14:46.134Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "drawing",
+          "ffmpeg",
+          "animation",
+          "doodle",
+          "stop-motion",
+          "video-editing",
+          "doodles",
+          "video-editor",
+          "drawing-app",
+          "video-editing-software",
+          "onion-skinning",
+          "stop-motion-with-animashooter-capture",
+          "stop-motion-capture-windows",
+          "stop-motion-studio",
+          "stop-motion-animation",
+          "stop-motion-animations"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  },
+  {
+    "query": "cooking gif",
+    "url": "https://github.com/search?q=cooking%20gif&type=repositories",
+    "status": 200,
+    "sha256": "2e87227ba5188589059dcc66ee2b0d8e44edff6420d0dafc7653721dfeced228",
+    "results": [
+      {
+        "id": "263309247",
+        "archived": false,
+        "color": "#e34c26",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "zionhaye/GIFHUB-What-s-<em>Cooking</em>",
+        "hl_trunc_description": null,
+        "language": "HTML",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 263309247,
+            "name": "GIFHUB-What-s-Cooking",
+            "owner_id": 60522100,
+            "owner_login": "zionhaye",
+            "updated_at": "2020-05-12T10:49:51.472Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "165706785",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "kiecoo/4-<em>cooking</em>-gift-shop",
+        "hl_trunc_description": null,
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 165706785,
+            "name": "4-cooking-gift-shop",
+            "owner_id": 34873832,
+            "owner_login": "kiecoo",
+            "updated_at": "2019-01-17T15:02:05.294Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "939974774",
+        "archived": false,
+        "color": "#e34c26",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "yael3259/Egg-Timer-App",
+        "hl_trunc_description": "A simple and aesthetic timer for <em>cooking</em> eggs with four <em>cooking</em> options. The timer adjusts automatically, featuring <em>GIF</em> animations, custo…",
+        "language": "HTML",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 939974774,
+            "name": "Egg-Timer-App",
+            "owner_id": 157998716,
+            "owner_login": "yael3259",
+            "updated_at": "2025-02-27T12:16:24.607Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1316975598",
+        "archived": false,
+        "color": null,
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "Rina759/<em>GIFT</em>-OF-THE-GIVERS-FOUNDATION",
+        "hl_trunc_description": "My project is about to bring hope and restore dignity to the most vulnerable. We are <em>cooking</em> for the community and helping by giving blan…",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1316975598,
+            "name": "GIFT-OF-THE-GIVERS-FOUNDATION",
+            "owner_id": 310908084,
+            "owner_login": "Rina759",
+            "updated_at": "2026-07-30T07:33:28.114Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "138819608",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "zhengcx/RNCookAssistant",
+        "hl_trunc_description": "A practice project in full use of ReacNative.The main theme is <em>cooking</em>. (一个完全使用ReactNative的日常练手项目，附带项目<em>GIF</em>预览图)",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 138819608,
+            "name": "RNCookAssistant",
+            "owner_id": 10628339,
+            "owner_login": "zhengcx",
+            "updated_at": "2018-07-22T10:59:31.983Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "124183001",
+        "archived": false,
+        "color": null,
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "1994sheng/html-javascript",
+        "hl_trunc_description": "-Compatible\" content=\"IE=edge\"&gt; &lt;!-- ↓ページタイトル↓ --&gt; &lt;title&gt;Home <em>Cooking</em>&lt;/title&gt; &lt;!-- ↓検索エンジン用ここから↓ --&gt; &lt;meta name=\"Description\" content=\"検…",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 124183001,
+            "name": "html-javascript",
+            "owner_id": 37068019,
+            "owner_login": "1994sheng",
+            "updated_at": "2018-03-07T05:17:04.583Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  },
+  {
+    "query": "cooking shortfilm",
+    "url": "https://github.com/search?q=cooking%20shortfilm&type=repositories",
+    "status": 200,
+    "sha256": "421957b0a7d28e1d6f9cf3cffb1f1924b4455e4f334ca0d0410138e5876e3bc9",
+    "results": []
+  },
+  {
+    "query": "kitchen chaos gameplay",
+    "url": "https://github.com/search?q=kitchen%20chaos%20gameplay&type=repositories",
+    "status": 200,
+    "sha256": "3bf93ff0b2a3d4ceb1fb23671ed990061f18261eb03cd5594ad6d9e61eec1574",
+    "results": [
+      {
+        "id": "1086977063",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "Xiaojun1023/<em>KitchenChaos</em>_Unity",
+        "hl_trunc_description": "<em>Kitchen</em> <em>Chaos</em> is a 3D cooking simulation game built in Unity using C#. The project features interactive <em>kitchen</em> objects, recipe driven <em>ga…</em>",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1086977063,
+            "name": "KitchenChaos_Unity",
+            "owner_id": 123503321,
+            "owner_login": "Xiaojun1023",
+            "updated_at": "2026-01-05T08:21:35.660Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1313432881",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "boxboxdanh/<em>Kitchen</em>_<em>Chaos</em>-Unity-Prototype",
+        "hl_trunc_description": "A work-in-progress Unity <em>gameplay</em> systems prototype inspired by Overcooked.",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1313432881,
+            "name": "Kitchen_Chaos-Unity-Prototype",
+            "owner_id": 104618654,
+            "owner_login": "boxboxdanh",
+            "updated_at": "2026-07-27T05:10:24.525Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "prototype",
+          "csharp",
+          "unity",
+          "game-development",
+          "game-design",
+          "overcooked",
+          "gameplay-systems"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1133519345",
+        "archived": false,
+        "color": "#9400ff",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "RAN123456789123456789/<em>KitchenChaos</em>",
+        "hl_trunc_description": "Hello and welcome to our Hide-and-Strike Party! We're thrilled that you're checking out this groundbreaking AI game of ours. Its one-of-a…",
+        "language": "ASP.NET",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1133519345,
+            "name": "KitchenChaos",
+            "owner_id": 191448820,
+            "owner_login": "RAN123456789123456789",
+            "updated_at": "2026-01-13T13:39:26.631Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1259924070",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "Soumyadeeps006/<em>kitchen</em>-<em>chaos</em>",
+        "hl_trunc_description": "<em>Kitchen</em> <em>Chaos</em> is a fast-paced 2D cooking game built with Phaser 3 and Capacitor. Collect ingredients, navigate a chaotic <em>kitchen</em>, and del…",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1259924070,
+            "name": "kitchen-chaos",
+            "owner_id": 119580643,
+            "owner_login": "Soumyadeeps006",
+            "updated_at": "2026-06-05T01:59:25.640Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1345950685",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "microjumper/<em>Kitchen</em>CaosRemake",
+        "hl_trunc_description": "A refactored Unity remake of Code Monkey's <em>Kitchen</em> <em>Chaos</em>, featuring cleaner C# architecture and upcoming custom <em>gameplay</em> features.",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1345950685,
+            "name": "KitchenCaosRemake",
+            "owner_id": 4838867,
+            "owner_login": "microjumper",
+            "updated_at": "2026-09-11T15:18:07.609Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "694611013",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "usamanadim8874056/<em>kitchen</em>-<em>chaos</em>-game",
+        "hl_trunc_description": "\"<em>Kitchen</em> <em>Chaos</em> Game\" is a delightful culinary adventure inspired by the Code Monkey YouTube tutorials. Become a mischievous chef in a bus…",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 694611013,
+            "name": "kitchen-chaos-game",
+            "owner_id": 129657433,
+            "owner_login": "usamanadim8874056",
+            "updated_at": "2023-09-21T12:14:31.761Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1318010998",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "shubhchovatiya/Cooking_<em>Chaos</em>",
+        "hl_trunc_description": "This project is a cooking simulation game developed in Unity 6. Players prepare meals by collecting ingredients, chopping, cooking, plati…",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1318010998,
+            "name": "Cooking_Chaos",
+            "owner_id": 202085593,
+            "owner_login": "shubhchovatiya",
+            "updated_at": "2026-08-03T19:18:41.983Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+MOU — Encore une feuille, cuisine en rythme — V6
+Contrôles du 28 octobre 2026
+
+LIVRABLE
+30 secondes, vertical 1080 × 1920, 24 images/s, 720 images.
+H.264/yuv420p CRF 16, AAC stéréo 48 kHz pour la version sonore.
+Version muette : aucune piste audio ; mêmes images compressées à l’octet près.
+Animatique complète : 540 × 960, 12 images/s, 30 secondes.
+Aperçu GIF muet : 432 × 768, 300 images, 30 secondes.
+
+AJOUTS DEMANDÉS
+Tablier corail sur le corps, sous les bras et sans couvrir le visage.
+Jet environ 3 à 4 fois plus large ; éclaboussures dans le bassin.
+Quatre phrases de neuf notes sifflées originales à 108 BPM, pendant la cuisine.
+Bouche unique en O pendant les notes et petit balancement joyeux ; arrêt pour
+les inspections/lavages et contacts stables aux deux coupes de carotte.
+Les quatre rituels et la chute du dernier minuscule bout restent ceux de la v5.
+
+INTÉGRITÉ ET IMAGE
+Rig original inchangé ; huit fonctions natives de dessin/articulation/raccord
+identiques à la référence corrigée. Deux mains, identifiants et références SVG
+contrôlés sur 720 états ; une seule bouche et un tablier par corps rendu.
+Le décor validé reste identique. Lavabos : même cadrage main seule, échelle 0,70.
+Décodage intégral des deux vrais MP4 sans erreur. 33 images comparées à des
+SVG/CairoSVG frais, sans cache, sur l’image entière et les régions visibles
+(mains, épaules, bouche, tablier, robinet, poubelle, carotte/couteau et rouleau).
+Erreur RGB moyenne maximale : image 1.655327/255 ; région 2.945358/255.
+Limite maintenue à 3/255. Aucune comparaison en échec dans audit_final.json.
+Rouleau : stock décroissant de 1 à 0 ; poubelle : 4 papiers, nombre croissant.
+Relecture indépendante des études, de l’animatique et d’images réellement
+décodées du fichier final : voir les critiques, preuves et limites dans controle/.
+Captures du coordinateur : bouche/tablier à 0,417 s, lavage à 4,208 s.
+Le premier encodage CRF 18 et sa correction sont documentés dans CORRECTIONS.md.
+
+SON
+57 événements originaux, dont 9 notes sifflées synthétiques ; aucun dialogue,
+aucun son téléchargé ni morceau connu. Eau : +4 dB par rapport à la v5.
+Repères communs animation/son pour les notes, robinets, déchirures, deux coupes
+et quatre impacts de papier. Neuf attaques des notes à moins de 2 ms des repères.
+Mix PCM : 30 s, 48 kHz, stéréo 16 bits, pic -4.0001 dBFS,
+aucun échantillon saturé ; AAC décodé : -4.1057 dBFS.
+Corrélation PCM/AAC sans décalage : 0.998754.
+La tenue finale de 29,4 à 30 s garde seulement le léger son de cuisson.
+
+SOURCES
+Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg ; aucun outil de production payant.
+Archive ZIP : code, dessins, sons, chronologie, études, veille, critiques,
+contrôles, référence, dépendances et polices. CRC et manifeste SHA-256 vérifiés.
+Contrôle de reproduction dans un dossier extrait propre : voir audit_archive.json.
+Pas de cache d’images requis. Commandes dans sources/README.md.
+
+RECHERCHE ET LIMITES
+Une animation de cuisine accessible sur GitHub a été examinée par images ;
+une boucle CSS a été lue. Leurs dates, durées et limites sont sourcées dans
+editorial/veille_cuisine_v6.md. Aucun visuel ni son de ces œuvres n’est repris.
+La veille de Shorts récents reste incomplète : YouTube et les moteurs de
+recherche ne sont pas autorisés dans la politique réseau active. Le brouillon
+d’accès est enregistré, non appliqué ; enregistrer les paramètres de
+l’environnement puis publier est nécessaire pour activer ces accès.
+Aucune statistique, rétention, écoute ou vidéo consultée n’est inventée.
+Aucune écoute perceptive de ce mix n’a été possible avec les outils disponibles.
+Les contrôles audio sont numériques ; le naturel du sifflement sur téléphone
+reste à apprécier. Les images successives examinées et les contrôles ne
+constituent ni une projection continue ni un test de compréhension public.
+Montage proposé au jugement de l’utilisatrice ; aucune publication sociale.
+
+EMPREINTES DES EXPORTS FINAUX
+Avec son : cc835e735c4b7d055b725bc7157ffa158cc6333b774b2da4873804e84c32a233
+Muet : 939a1b74aad845c45229f135afad51271ba06c74d8a972f7830f5be63497ed08
+Mix PCM : b6caa180dfe9dc50906f902e61eaa97ca6301d1f9da3722d143da1dda5bee3b1

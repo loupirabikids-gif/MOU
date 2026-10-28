@@ -1,0 +1,276 @@
+{
+  "episode": "03",
+  "title": "Encore une feuille — en cuisine et en rythme",
+  "timeline_version": 6,
+  "duration_seconds": 30.0,
+  "samples_per_channel": 1440000,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "event_count": 57,
+  "peak_dbfs": -4.0,
+  "premaster_peak_dbfs": -10.537,
+  "master_gain_db": 6.537,
+  "rms_dbfs_left_right": [
+    -23.131,
+    -26.893
+  ],
+  "dc_mean_left_right": [
+    -5.754873487684462e-06,
+    -5.5897818671332466e-06
+  ],
+  "clipped_samples": 0,
+  "water_intervals": [
+    {
+      "cycle": 1,
+      "scheduled": [
+        3.23,
+        5.05
+      ],
+      "rendered": [
+        3.23,
+        5.05
+      ],
+      "first_above_one_percent_seconds": 3.231125
+    },
+    {
+      "cycle": 2,
+      "scheduled": [
+        10.35,
+        11.9
+      ],
+      "rendered": [
+        10.35,
+        11.9
+      ],
+      "first_above_one_percent_seconds": 10.351104166666667
+    },
+    {
+      "cycle": 3,
+      "scheduled": [
+        18.28,
+        19.35
+      ],
+      "rendered": [
+        18.28,
+        19.35
+      ],
+      "first_above_one_percent_seconds": 18.2813125
+    },
+    {
+      "cycle": 4,
+      "scheduled": [
+        23.24,
+        24.22
+      ],
+      "rendered": [
+        23.24,
+        24.22
+      ],
+      "first_above_one_percent_seconds": 23.2421875
+    }
+  ],
+  "landing_onsets": [
+    {
+      "cycle": 1,
+      "scheduled_seconds": 8.22,
+      "onset_seconds": 8.220041666666667
+    },
+    {
+      "cycle": 2,
+      "scheduled_seconds": 14.77,
+      "onset_seconds": 14.770083333333334
+    },
+    {
+      "cycle": 3,
+      "scheduled_seconds": 21.77,
+      "onset_seconds": 21.770041666666668
+    },
+    {
+      "cycle": 4,
+      "scheduled_seconds": 28.1,
+      "onset_seconds": 28.100041666666666
+    }
+  ],
+  "tear_onsets": [
+    {
+      "cycle": 1,
+      "scheduled_seconds": 6.4,
+      "onset_seconds": 6.400145833333333
+    },
+    {
+      "cycle": 2,
+      "scheduled_seconds": 13.05,
+      "onset_seconds": 13.050104166666667
+    },
+    {
+      "cycle": 3,
+      "scheduled_seconds": 20.3,
+      "onset_seconds": 20.3000625
+    },
+    {
+      "cycle": 4,
+      "scheduled_seconds": 25.05,
+      "onset_seconds": 25.050104166666667
+    }
+  ],
+  "carrot_cut_onsets": [
+    {
+      "scheduled_seconds": 16.05,
+      "onset_seconds": 16.050041666666665
+    },
+    {
+      "scheduled_seconds": 16.75,
+      "onset_seconds": 16.750041666666668
+    }
+  ],
+  "final_hold_seconds": [
+    29.4,
+    30.0
+  ],
+  "final_hold_rms_dbfs": -48.238,
+  "final_hold_cooking_only": true,
+  "tiny_paper_cycle": 4,
+  "tiny_paper_events": [
+    {
+      "name": "c4_papier_deroule",
+      "kind": "tiny_paper_pull",
+      "start": 24.65,
+      "duration": 0.18,
+      "peak_dbfs": -28.0
+    },
+    {
+      "name": "c4_papier_dechire",
+      "kind": "tiny_paper_tear",
+      "start": 25.05,
+      "duration": 0.055,
+      "peak_dbfs": -25.0
+    },
+    {
+      "name": "c4_essuie_main",
+      "kind": "tiny_paper_wipe",
+      "start": 25.8,
+      "duration": 1.3,
+      "peak_dbfs": -28.0
+    },
+    {
+      "name": "c4_papier_froisse",
+      "kind": "tiny_paper_crumple",
+      "start": 27.1,
+      "duration": 0.15,
+      "peak_dbfs": -30.0
+    },
+    {
+      "name": "c4_papier_lache",
+      "kind": "tiny_paper_flight",
+      "start": 27.65,
+      "duration": 0.13,
+      "peak_dbfs": -38.0
+    },
+    {
+      "name": "c4_poubelle_impact",
+      "kind": "tiny_paper_land",
+      "start": 28.1,
+      "duration": 0.07,
+      "peak_dbfs": -31.0
+    }
+  ],
+  "reveal_seconds_without_explanatory_cue": [
+    25.05,
+    25.8
+  ],
+  "rhythm": {
+    "bpm": 108,
+    "phase": 0.3,
+    "intent": "petit balancement joyeux pendant la cuisine, arrêté pour les inspections et lavages"
+  },
+  "whistle_phrase_count": 4,
+  "whistle_note_count": 9,
+  "whistle_notes": [
+    {
+      "name": "sifflement_p1_n1",
+      "phrase": 1,
+      "start": 0.3,
+      "end": 0.7,
+      "frequency_hz": 880.0,
+      "first_above_one_percent_seconds": 0.30141666666666667
+    },
+    {
+      "name": "sifflement_p1_n2",
+      "phrase": 1,
+      "start": 0.855556,
+      "end": 1.255556,
+      "frequency_hz": 1108.731,
+      "first_above_one_percent_seconds": 0.8571041666666667
+    },
+    {
+      "name": "sifflement_p1_n3",
+      "phrase": 1,
+      "start": 1.411111,
+      "end": 1.731111,
+      "frequency_hz": 987.767,
+      "first_above_one_percent_seconds": 1.4128125
+    },
+    {
+      "name": "sifflement_p2_n4",
+      "phrase": 2,
+      "start": 8.633333,
+      "end": 8.823333,
+      "frequency_hz": 1318.51,
+      "first_above_one_percent_seconds": 8.634708333333334
+    },
+    {
+      "name": "sifflement_p2_n5",
+      "phrase": 2,
+      "start": 8.911111,
+      "end": 9.101111,
+      "frequency_hz": 1108.731,
+      "first_above_one_percent_seconds": 8.912625
+    },
+    {
+      "name": "sifflement_p3_n6",
+      "phrase": 3,
+      "start": 15.161111,
+      "end": 15.331111,
+      "frequency_hz": 880.0,
+      "first_above_one_percent_seconds": 15.162541666666666
+    },
+    {
+      "name": "sifflement_p3_n7",
+      "phrase": 3,
+      "start": 15.438889,
+      "end": 15.588889,
+      "frequency_hz": 987.767,
+      "first_above_one_percent_seconds": 15.4405625
+    },
+    {
+      "name": "sifflement_p4_n8",
+      "phrase": 4,
+      "start": 22.105556,
+      "end": 22.220556,
+      "frequency_hz": 1108.731,
+      "first_above_one_percent_seconds": 22.107104166666666
+    },
+    {
+      "name": "sifflement_p4_n9",
+      "phrase": 4,
+      "start": 22.244444,
+      "end": 22.379444,
+      "frequency_hz": 880.0,
+      "first_above_one_percent_seconds": 22.2458125
+    }
+  ],
+  "whistles_only_during_cooking": true,
+  "water_event_gain_change_db_vs_v5": 4.0,
+  "first_and_last_pcm_frame_silent": true,
+  "no_background_music": true,
+  "no_external_music": true,
+  "no_speech": true,
+  "no_recorded_voice": true,
+  "character_synthetic_whistle": true,
+  "no_external_samples": true,
+  "mix_sha256": "b6caa180dfe9dc50906f902e61eaa97ca6301d1f9da3722d143da1dda5bee3b1",
+  "source_sha256": "6b1dbc809152ef833faa13352c827b90c0cfbe681759a0eb93d84446e50337df",
+  "chronologie_sha256": "fec2e489c622470c5ed8715b4a805aa233bd95e2a9a6203bc1acb333ab3dc190",
+  "limits": "Contrôles numériques PCM et concordance avec les événements prévus. Pas d’écoute humaine, de contrôle haut-parleur mobile ni de validation des contacts dans la vidéo par ce rapport."
+}

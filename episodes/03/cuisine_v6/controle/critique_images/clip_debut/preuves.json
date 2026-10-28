@@ -1,0 +1,22 @@
+{
+  "source": "episodes/03/cuisine_v6/etudes/animation/MOU_jeu_siffle_v6_muette.mp4",
+  "sha256": "47e69a37a19f7e6634ba5c6d35ad1bf635502dcbb0e6c303c7013c8bb25bc5ca",
+  "fps": 24,
+  "frame_indices": [
+    3,
+    7,
+    10,
+    14,
+    18,
+    22,
+    26,
+    29,
+    32,
+    35,
+    38,
+    42,
+    46,
+    50
+  ],
+  "method": "Images décodées du vrai MP4 muet ; crop de contrôle x100:490,y270:695, aucun SVG source substitué."
+}

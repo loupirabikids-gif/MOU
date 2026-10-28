@@ -1,0 +1,379 @@
+[
+  {
+    "query": "cooking animated short film",
+    "url": "https://github.com/search?q=cooking%20animated%20short%20film&type=repositories",
+    "status": 200,
+    "sha256": "5376a29b7acc45b052e242b5bbe7aa110cd57337bcb6d9b310cbe6eb41924450",
+    "results": []
+  },
+  {
+    "query": "fresh guacamole",
+    "url": "https://github.com/search?q=fresh%20guacamole&type=repositories",
+    "status": 200,
+    "sha256": "6024fd40d5fcc34a4b03e21d28d36f219f0204bb235c6e218e3407e4fa6a930b",
+    "results": [
+      {
+        "id": "1043137652",
+        "archived": false,
+        "color": "#89e051",
+        "followers": 7,
+        "has_funding_file": false,
+        "hl_name": "betaDtech/<em>guacamole</em>-with-tomcat10",
+        "hl_trunc_description": "<em>Guacamole</em> 1.6.0 — <em>Fresh</em> Install on Ubuntu 24.04 (RDP-enabled)",
+        "language": "Shell",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1043137652,
+            "name": "guacamole-with-tomcat10",
+            "owner_id": 19999905,
+            "owner_login": "betaDtech",
+            "updated_at": "2025-08-23T10:12:01.408Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [
+          "nginx",
+          "ubuntu",
+          "tomcat",
+          "ssh-client",
+          "guacamole",
+          "ssh-tunnel",
+          "vnc-viewer",
+          "rdp-connection",
+          "tomcat10",
+          "guacd",
+          "rdp-free",
+          "web-rdp"
+        ],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "113893309",
+        "archived": false,
+        "color": null,
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "wa0852/reimagined-<em>guacamole</em>",
+        "hl_trunc_description": "<em>fresh</em> bites ",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 113893309,
+            "name": "reimagined-guacamole",
+            "owner_id": 34455540,
+            "owner_login": "wa0852",
+            "updated_at": "2017-12-11T18:40:37.170Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "1139268566",
+        "archived": false,
+        "color": null,
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "Shreya-png235/crispy-s-big-<em>guacamole</em>",
+        "hl_trunc_description": "Hi everyone this sounds like <em>fresh</em> <em>guacamole</em>",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 1139268566,
+            "name": "crispy-s-big-guacamole",
+            "owner_id": 253571309,
+            "owner_login": "Shreya-png235",
+            "updated_at": "2026-01-21T18:35:59.473Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "274021176",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "omelnykov1/<em>GuacAMole</em>",
+        "hl_trunc_description": "Guac-A-Mole is a clone of popular arcade game Whack-A-Mole, which involves quickly and repeatedly hitting avocados with a mallet as they …",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 274021176,
+            "name": "GuacAMole",
+            "owner_id": 59855208,
+            "owner_login": "omelnykov1",
+            "updated_at": "2023-01-06T09:32:37.049Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "462759608",
+        "archived": false,
+        "color": null,
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "LaurenceCarrillo/super-duper-<em>guacamole</em>",
+        "hl_trunc_description": "Last week I fired up the grill and put some <em>fresh</em> spicy burgers on to cook. While they cooked I sliced up a <em>fresh</em> avocado, tomatoes, and …",
+        "language": null,
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 462759608,
+            "name": "super-duper-guacamole",
+            "owner_id": 100292954,
+            "owner_login": "LaurenceCarrillo",
+            "updated_at": "2022-02-23T14:03:20.604Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  },
+  {
+    "query": "western spaghetti",
+    "url": "https://github.com/search?q=western%20spaghetti&type=repositories",
+    "status": 200,
+    "sha256": "ac1e6ca67c75ab6d8176bd28c77d82eda56aa51afa5299a4441cdcc71e08a286",
+    "results": [
+      {
+        "id": "5198019",
+        "archived": false,
+        "color": "#b07219",
+        "followers": 1,
+        "has_funding_file": false,
+        "hl_name": "leonarven/Bang-",
+        "hl_trunc_description": "Bang! is a wild west-themed card game similar to a <em>spaghetti</em> <em>western</em>.",
+        "language": "Java",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 5198019,
+            "name": "Bang-",
+            "owner_id": 315250,
+            "owner_login": "leonarven",
+            "updated_at": "2013-02-25T14:18:04.000Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "14004999",
+        "archived": false,
+        "color": "#f34b7d",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "SpaghettiWestern/<em>SpaghettiWestern</em>",
+        "hl_trunc_description": "First attempt at dimetric graphics.",
+        "language": "C++",
+        "mirror": false,
+        "owned_by_organization": true,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 14004999,
+            "name": "SpaghettiWestern",
+            "owner_id": 5819022,
+            "owner_login": "SpaghettiWestern",
+            "updated_at": "2016-03-23T03:47:50.041Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "320672988",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "stephenrockwell/<em>SpaghettiWestern</em>",
+        "hl_trunc_description": "An old timey <em>spaghetti</em> <em>western</em>",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 320672988,
+            "name": "SpaghettiWestern",
+            "owner_id": 34867686,
+            "owner_login": "stephenrockwell",
+            "updated_at": "2020-12-16T18:55:44.044Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "805045712",
+        "archived": false,
+        "color": "#7355dd",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "Lukasgrat/<em>SpaghettiWestern</em>",
+        "hl_trunc_description": "A work in progress class project",
+        "language": "C#",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 805045712,
+            "name": "SpaghettiWestern",
+            "owner_id": 60186475,
+            "owner_login": "Lukasgrat",
+            "updated_at": "2025-02-04T14:20:43.509Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      },
+      {
+        "id": "87390311",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "cmontoya13/Hangman-Game",
+        "hl_trunc_description": "<em>Spaghetti</em> <em>Western</em> Hangman",
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 87390311,
+            "name": "Hangman-Game",
+            "owner_id": 24463803,
+            "owner_login": "cmontoya13",
+            "updated_at": "2017-04-17T19:28:15.464Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  },
+  {
+    "query": "pingu pancakes",
+    "url": "https://github.com/search?q=pingu%20pancakes&type=repositories",
+    "status": 200,
+    "sha256": "7c88249fc4d80cc535f9049ae524b0e2c14d9722606f93e4fb7a77baf6459135",
+    "results": []
+  },
+  {
+    "query": "larva cooking",
+    "url": "https://github.com/search?q=larva%20cooking&type=repositories",
+    "status": 200,
+    "sha256": "8b93b5072c511ac6d952975187135fbb2b9fd3f2c88013f571980665b6fd0c91",
+    "results": []
+  },
+  {
+    "query": "booba kitchen",
+    "url": "https://github.com/search?q=booba%20kitchen&type=repositories",
+    "status": 200,
+    "sha256": "9672448110620e6c35fa06b3d93f9b348fedf819f99000e636e25f8e88926a40",
+    "results": [
+      {
+        "id": "854412837",
+        "archived": false,
+        "color": "#f1e05a",
+        "followers": 0,
+        "has_funding_file": false,
+        "hl_name": "hongbuilds/BooBaLoos<em>Kitchen</em>",
+        "hl_trunc_description": null,
+        "language": "JavaScript",
+        "mirror": false,
+        "owned_by_organization": false,
+        "public": true,
+        "repo": {
+          "repository": {
+            "id": 854412837,
+            "name": "BooBaLoosKitchen",
+            "owner_id": 36454250,
+            "owner_login": "hongbuilds",
+            "updated_at": "2026-10-01T09:43:17.527Z",
+            "has_issues": true
+          }
+        },
+        "sponsorable": false,
+        "topics": [],
+        "type": "Public",
+        "help_wanted_issues_count": 0,
+        "good_first_issue_issues_count": 0,
+        "starred_by_current_user": false
+      }
+    ]
+  }
+]

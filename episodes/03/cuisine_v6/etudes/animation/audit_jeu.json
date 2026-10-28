@@ -1,0 +1,271 @@
+{
+  "samples": [
+    {
+      "time": 0.15,
+      "actor_transform": [
+        71.09975635155266,
+        379.13252022179006,
+        2.3
+      ],
+      "whistle": {
+        "active": false,
+        "amount": 0.0,
+        "note_index": null,
+        "phrase": null
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": -0.26999999999999996,
+        "cooking": true,
+        "body_envelope": 0.98876953125,
+        "offset": [
+          -8.900243648447345,
+          -0.8674797782099649
+        ],
+        "contact_locked": false
+      }
+    },
+    {
+      "time": 0.4,
+      "actor_transform": [
+        86.42992153974797,
+        382.9804550409555,
+        2.3
+      ],
+      "whistle": {
+        "active": true,
+        "amount": 1.0,
+        "note_index": 0,
+        "phrase": 1,
+        "frequency_hz": 880.0,
+        "start": 0.3,
+        "end": 0.7
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": 0.18000000000000008,
+        "cooking": true,
+        "body_envelope": 1.0,
+        "offset": [
+          6.429921539747961,
+          2.9804550409555057
+        ],
+        "contact_locked": false
+      }
+    },
+    {
+      "time": 0.75,
+      "actor_transform": [
+        86.74500053422557,
+        382.57687186879275,
+        2.3
+      ],
+      "whistle": {
+        "active": false,
+        "amount": 0.0,
+        "note_index": null,
+        "phrase": null
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": 0.81,
+        "cooking": true,
+        "body_envelope": 1.0,
+        "offset": [
+          6.745000534225566,
+          2.5768718687927477
+        ],
+        "contact_locked": false
+      }
+    },
+    {
+      "time": 1.05,
+      "actor_transform": [
+        69.30792170973959,
+        375.8855032339527,
+        2.3
+      ],
+      "whistle": {
+        "active": true,
+        "amount": 1.0,
+        "note_index": 1,
+        "phrase": 1,
+        "frequency_hz": 1108.731,
+        "start": 0.855556,
+        "end": 1.255556
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": 1.35,
+        "cooking": true,
+        "body_envelope": 1.0,
+        "offset": [
+          -10.692078290260413,
+          -4.11449676604731
+        ],
+        "contact_locked": false
+      }
+    },
+    {
+      "time": 1.32,
+      "actor_transform": [
+        74.0872719014205,
+        383.60107673647053,
+        2.3
+      ],
+      "whistle": {
+        "active": false,
+        "amount": 0.0,
+        "note_index": null,
+        "phrase": null
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": 1.8359999999999999,
+        "cooking": true,
+        "body_envelope": 1.0,
+        "offset": [
+          -5.912728098579509,
+          3.6010767364705325
+        ],
+        "contact_locked": false
+      }
+    },
+    {
+      "time": 1.58,
+      "actor_transform": [
+        89.79607100860622,
+        377.6702631883391,
+        2.3
+      ],
+      "whistle": {
+        "active": true,
+        "amount": 1.0,
+        "note_index": 2,
+        "phrase": 1,
+        "frequency_hz": 987.767,
+        "start": 1.411111,
+        "end": 1.731111
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": 2.3040000000000003,
+        "cooking": true,
+        "body_envelope": 1.0,
+        "offset": [
+          9.796071008606212,
+          -2.329736811660916
+        ],
+        "contact_locked": false
+      }
+    },
+    {
+      "time": 8.72,
+      "actor_transform": [
+        80.0,
+        380.0,
+        2.3
+      ],
+      "whistle": {
+        "active": true,
+        "amount": 1.0,
+        "note_index": 3,
+        "phrase": 2,
+        "frequency_hz": 1318.51,
+        "start": 8.633333,
+        "end": 8.823333
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": 15.156,
+        "cooking": true,
+        "body_envelope": 0.0,
+        "offset": [
+          -0.0,
+          0.0
+        ],
+        "contact_locked": true
+      }
+    },
+    {
+      "time": 15.23,
+      "actor_transform": [
+        113.29295531381756,
+        433.1987872882289,
+        2.3
+      ],
+      "whistle": {
+        "active": true,
+        "amount": 1.0,
+        "note_index": 5,
+        "phrase": 3,
+        "frequency_hz": 880.0,
+        "start": 15.161111,
+        "end": 15.331111
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": 26.874000000000002,
+        "cooking": true,
+        "body_envelope": 0.8196795428240773,
+        "offset": [
+          3.7926637261225626,
+          4.031634642070565
+        ],
+        "contact_locked": false
+      }
+    },
+    {
+      "time": 22.16,
+      "actor_transform": [
+        69.34236261423753,
+        375.9569910760443,
+        2.3
+      ],
+      "whistle": {
+        "active": true,
+        "amount": 1.0,
+        "note_index": 7,
+        "phrase": 4,
+        "frequency_hz": 1108.731,
+        "start": 22.105556,
+        "end": 22.220556
+      },
+      "rhythm": {
+        "bpm": 108.0,
+        "beat_phase": 39.348,
+        "cooking": true,
+        "body_envelope": 1.0,
+        "offset": [
+          -10.657637385762467,
+          -4.043008923955731
+        ],
+        "contact_locked": false
+      }
+    }
+  ],
+  "duration": 30.0,
+  "fps": 24,
+  "states_checked": 720,
+  "max_programmed_grip_error": 7.29344624077747e-08,
+  "spoon_bowl_max_pan_normalized_radius_squared": 0.3287514975261757,
+  "native_arm_functions_preserved": [
+    "controls",
+    "native_grip",
+    "world_grip",
+    "solve_arm",
+    "arm_linear_transform",
+    "_connect_left_root",
+    "soften_left_root",
+    "draw_arm"
+  ],
+  "one_mouth_and_two_hands_all_states": true,
+  "whistling_frame_count": 51,
+  "sources_sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/animation.py": "0483a9db4f9c5ecb5cb81432d3b2e4e4c044e743d008a8aad50de4bae01edf33",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "33f67c451f87db22617349193069325ead9d5a85710c0905721dac3a9419f479",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "d1dbe7c632b90478e5505fb2410269a8d6903827d8d7c60069eec0e7d393264a",
+    "/workspace/MOU/episodes/03/cuisine_v6/chronologie.json": "fec2e489c622470c5ed8715b4a805aa233bd95e2a9a6203bc1acb333ab3dc190"
+  },
+  "limits": "Rendered acting study and numeric geometry checks; rhythm and soundtrack still need review on the actual complete encoded movie."
+}

@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/animation.py": "0483a9db4f9c5ecb5cb81432d3b2e4e4c044e743d008a8aad50de4bae01edf33",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/art.py": "33f67c451f87db22617349193069325ead9d5a85710c0905721dac3a9419f479",
+    "/workspace/MOU/episodes/03/cuisine_v6/sources/render.py": "d1dbe7c632b90478e5505fb2410269a8d6903827d8d7c60069eec0e7d393264a",
+    "/workspace/MOU/episodes/03/cuisine_v6/chronologie.json": "fec2e489c622470c5ed8715b4a805aa233bd95e2a9a6203bc1acb333ab3dc190"
+  },
+  "output": "/workspace/MOU/episodes/03/cuisine_v6/MOU_Encore_une_feuille_animatique.mp4"
+}

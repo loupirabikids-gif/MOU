@@ -1,0 +1,81 @@
+{
+  "production_sources_unchanged": {
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/carotte_v5/sources/render.py": "6194d2be87e9462470ce38230374450ab56df043b81fc2f870d3b64bbeb78e8f",
+    "/workspace/MOU/episodes/03/carotte_v5/sources/animation.py": "20936ce63ff51da8e5d74b9c5743ddd7fed07ced7b3793a2d5ed8be6a430d25a"
+  },
+  "art_sha256": "33f67c451f87db22617349193069325ead9d5a85710c0905721dac3a9419f479",
+  "apron_times": [
+    0.5,
+    8.9,
+    16.083333,
+    26.5,
+    29.6
+  ],
+  "water_time": 4.0,
+  "limits": "Rendered stills with V5 poses. Costume and water appearance only; V6 rhythmic movement and audio require the new full animatic.",
+  "water_splash_checks": [
+    {
+      "time": 3.3,
+      "visible_water_bbox_world_after_max_extension": [
+        88.2,
+        1069.0,
+        189.6,
+        1159.2
+      ]
+    },
+    {
+      "time": 3.5,
+      "visible_water_bbox_world_after_max_extension": [
+        89.0,
+        1069.0,
+        202.2,
+        1159.4
+      ]
+    },
+    {
+      "time": 4.0,
+      "visible_water_bbox_world_after_max_extension": [
+        84.8,
+        1069.0,
+        197.4,
+        1159.4
+      ]
+    },
+    {
+      "time": 4.2,
+      "visible_water_bbox_world_after_max_extension": [
+        85.6,
+        1069.0,
+        210.0,
+        1160.2
+      ]
+    },
+    {
+      "time": 10.8,
+      "visible_water_bbox_world_after_max_extension": [
+        88.6,
+        1069.0,
+        189.6,
+        1159.2
+      ]
+    },
+    {
+      "time": 23.6,
+      "visible_water_bbox_world_after_max_extension": [
+        84.0,
+        1069.0,
+        196.4,
+        1159.4
+      ]
+    }
+  ],
+  "water_off_empty": true,
+  "apron_local_bbox_approx": [
+    128.6,
+    290.6,
+    284.4,
+    426.2
+  ],
+  "apron_has_no_character_geometry": true
+}

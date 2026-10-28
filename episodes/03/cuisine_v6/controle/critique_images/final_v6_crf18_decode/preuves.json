@@ -1,0 +1,36 @@
+{
+  "source": "episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4",
+  "sha256": "a61a2c883f04f1d6dd338180fd694c3db2362698a68a67cb2fb069ed13d505a1",
+  "fps": 24,
+  "frame_indices": [
+    10,
+    18,
+    25,
+    38,
+    100,
+    209,
+    216,
+    372,
+    386,
+    402,
+    456,
+    535,
+    548,
+    636,
+    678,
+    710
+  ],
+  "pages": [
+    "page_01.png",
+    "page_02.png"
+  ],
+  "native_frames_kept": [
+    10,
+    100,
+    386,
+    636
+  ],
+  "method": "16 images réellement décodées du MP4 final1080x1920 ; pages réduites et4captures natives conservées, sans SVG ou cache substitué. Inspection séquentielle, sans écoute perceptive ou test public.",
+  "encoding": "CRF18 — archive historique",
+  "source_status": "Le chemin source a été remplacé par un nouvel encodage CRF16. Le SHA et les captures de cette archive identifient l’ancien export CRF18."
+}

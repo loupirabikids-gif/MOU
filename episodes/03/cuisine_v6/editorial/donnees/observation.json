@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-28T22:05:06.918204+01:00",
+  "network_policy": "restricted; GitHub/raw allowed; YouTube/search engines not allowed at runtime",
+  "browser_capture": "Chromium loader timed out; no CSS animation screenshot was obtained",
+  "external_video_original_stored_only_in_ignored_work_folder": true,
+  "analysis_images_reduced_for_reference_only_not_production": true
+}

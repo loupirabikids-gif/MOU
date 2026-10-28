@@ -1,0 +1,16 @@
+[
+  {
+    "name": "loader_css_immutable",
+    "url": "https://raw.githubusercontent.com/withaarzoo/Animated-Loader/cd76d7e884938775d279ef37357d1010ea98cd33/style.css",
+    "status": 200,
+    "sha256": "04a209f33c82377c0a6f21700d91df5f7e8e64162e2580ad3ddcb769eeb1fa1e",
+    "matches_reviewed_source": true
+  },
+  {
+    "name": "pancake_immutable",
+    "url": "https://raw.githubusercontent.com/UjcicHana/pancake-animation/549cee31ffae3a25338a2ce2d064a6730ce2c5ed/final.mp4",
+    "status": 200,
+    "sha256": "fb0b34c87c033a0368d98c9c3f5d7a4930088dd22d17534d4a1a0565e00ac0e0",
+    "matches_reviewed_source": true
+  }
+]

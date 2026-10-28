@@ -1,18 +1,19 @@
 # MOU
 
-**Encore une feuille — version corrigée avec son, 30 secondes.**
-MOU cuisine et gaspille du papier après chaque contact. Le rouleau diminue
+**Encore une feuille — tablier, eau exagérée et cuisine en rythme, 30 secondes.**
+MOU cuisine joyeusement, se balance et siffle par moments. Chaque contact
+relance son lavage et son gaspillage de papier. Le rouleau diminue
 à chaque tirage. Après trois gros gaspillages, il ne reste qu’un minuscule
 bout : MOU sèche sa grande moufle avec une application absurde.
 
-[![Encore une feuille](episodes/03/carotte_v5/MOU_Encore_une_feuille_apercu.gif)](episodes/03/carotte_v5/MOU_Encore_une_feuille.mp4?raw=true)
+[![Encore une feuille](episodes/03/cuisine_v6/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Voir le MP4 avec son,1080×1920](episodes/03/carotte_v5/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Version muette](episodes/03/carotte_v5/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/carotte_v5/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/carotte_v5/CONTROLE.txt)
-- [Chronologie](episodes/03/carotte_v5/chronologie.json) · [Critiques et corrections](episodes/03/carotte_v5/controle/)
+- **[Voir le MP4 avec son,1080×1920](episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Version muette](episodes/03/cuisine_v6/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v6/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/cuisine_v6/CONTROLE.txt)
+- [Chronologie](episodes/03/cuisine_v6/chronologie.json) · [Critiques et corrections](episodes/03/cuisine_v6/controle/)
 - [Direction de jeu et expressions](episodes/03/developpement/expressions_v4/) · [Recherche d’outils gratuits](recherche/README.md)
-- [Version précédente de 29 s conservée](episodes/03/carotte_v4/) · [Montage de 26 s](episodes/03/film/)
+- [Version précédente de 30 s](episodes/03/carotte_v5/) · [Version de 29 s conservée](episodes/03/carotte_v4/) · [Montage de 26 s](episodes/03/film/)
 - [Placement validé](episodes/03/placement/) · [Décor validé](episodes/03/decor/)
 
 Le décor, le placement et le [test de remuage](episodes/03/test_remuer/) validés
@@ -35,10 +36,12 @@ des fichiers ne prouve pas leur activation native dans tous les clients.
 - [Veille datée et limites](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
-NumPy et FFmpeg. Quarante-huit événements sonores originaux dans ce montage,
-sans voix ni musique externe.
-La veille externe reste incomplète car YouTube n’est pas autorisé par le réseau
-courant. Aucune statistique ni visionnage n’est inventé. La critique par images
+NumPy et FFmpeg. 57 événements sonores originaux dans ce montage, dont neuf
+notes sifflées synthétiques : aucun dialogue ni musique externe.
+La [veille de cette révision](episodes/03/cuisine_v6/editorial/veille_cuisine_v6.md)
+reste partielle : une vidéo de cuisine examinée par images et une boucle CSS lue.
+YouTube reste bloqué par le réseau courant ; les accès sont préparés dans
+un brouillon à enregistrer puis publier dans les paramètres cloud. Aucune statistique ni visionnage n’est inventé. La critique par images
 et les contrôles audio numériques ne valent pas test public ou écoute sur téléphone.
 
 ## Base du projet
@@ -82,7 +85,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant et ses sources se trouvent dans `episodes/03/carotte_v5/`.
+Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v6/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer
