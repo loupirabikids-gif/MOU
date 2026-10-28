@@ -1,24 +1,21 @@
 # MOU
 
-**Le torchon — épisode 02** : 12 secondes, vertical **1080 × 1920**, avec son.
+**Étape actuelle : le décor de cuisine.**
+Travail par étapes demandé par l’utilisatrice : présenter cette image fixe
+avant de poursuivre avec le personnage, les mouvements ou les sons.
 
-MOU veut ramasser un torchon, le bloque lui-même sous son pied et reçoit
-le tissu dans la figure quand il libère cet appui. Son dernier regard
-accuse son propre pied. L’histoire se comprend sans dialogue.
+[![Décor de cuisine proposé](episodes/03/decor/MOU_cuisine_apercu.png)](episodes/03/decor/MOU_cuisine_decor.png)
 
-[![MOU — Le torchon, aperçu animé muet](episodes/02/MOU_02_le_torchon_apercu.gif)](episodes/02/MOU_02_le_torchon.mp4?raw=true)
+- **[Décor PNG 1080 × 1920](episodes/03/decor/MOU_cuisine_decor.png?raw=true)**
+- [Source SVG](episodes/03/decor/MOU_cuisine_decor.svg?raw=true)
+- [Dossier de la cuisine](episodes/03/) · [Sources et calques](episodes/03/decor/README.md)
 
-- **[MP4 avec son](episodes/02/MOU_02_le_torchon.mp4?raw=true)**
-- [Version muette](episodes/02/MOU_02_le_torchon_muet.mp4?raw=true)
-- [Sources, sons et références — ZIP](episodes/02/MOU_02_le_torchon_sources.zip?raw=true)
-- [Bilan des contrôles](episodes/02/CONTROLE.txt) · [Reproduction](episodes/02/sources/README.md)
+Le gag en développement porte sur le réflexe de s’essuyer les mains après
+chaque contact pendant que MOU cuisine réellement. Le décor est la seule
+étape préparée ici.
 
-Le modèle vert et les tracés des deux bras d’origine sont conservés.
-Les prises et l’appui ont été éprouvés avant le montage complet ; les défauts
-observés et corrections restent dans le dossier de création.
-
-« Le retardateur » reste mis de côté. Ses [derniers fichiers](episodes/01_reprise/)
-et les [anciens montages](episodes/01/) restent conservés séparément.
+Les anciens épisodes sont conservés, mis de côté :
+[Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
 
 ## Équipe et dossier de création
 
@@ -27,10 +24,10 @@ et les [anciens montages](episodes/01/) restent conservés séparément.
 Les rôles sont appliqués par mandats distincts dans la session ; la présence
 des fichiers ne prouve pas leur activation native dans tous les clients.
 
-- [Scénario et découpage](episodes/02/developpement/)
+- [Archives : scénario et découpage du Torchon](episodes/02/developpement/)
 - [Critique de la fin avant fabrication](episodes/02/developpement/critique_scenario_fin_v3.md) et [critique du montage rendu](episodes/02/controle/critique_montage.md)
 - [Critiques initiales conservées](episodes/01_reprise/controle/critique.md)
-- [Corrections retenues](episodes/02/developpement/corrections.md)
+- [Archives : corrections retenues](episodes/02/developpement/corrections.md)
 - [Veille datée et limites](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
@@ -81,7 +78,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant, ses livrables et ses sources se trouvent dans `episodes/02/`.
+L’étape en cours et ses sources se trouvent dans `episodes/03/decor/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

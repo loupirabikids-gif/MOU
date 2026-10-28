@@ -1,0 +1,72 @@
+{
+  "episode": "03",
+  "etape": "decor_fixe_uniquement",
+  "version": 1,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "personnage_present": false,
+  "animation": false,
+  "audio": false,
+  "palette": {
+    "outline": "#382035",
+    "cream": "#FFF4E5",
+    "lavender": "#CDB4D0",
+    "paper": "#FFFDF7",
+    "wood": "#EBC59E"
+  },
+  "zones": {
+    "jeu_futur_mou": {
+      "x": [
+        340,
+        750
+      ],
+      "y": [
+        650,
+        1300
+      ]
+    },
+    "surface_plan_de_travail": {
+      "y": [
+        1260,
+        1453
+      ]
+    },
+    "poele": {
+      "centre": [
+        293,
+        1307
+      ]
+    },
+    "papier": {
+      "centre": [
+        876,
+        1225
+      ]
+    },
+    "accumulation_future_papier": {
+      "x": [
+        0,
+        330
+      ],
+      "y": [
+        1500,
+        1900
+      ]
+    }
+  },
+  "calques": [
+    "fond_cuisine",
+    "ilot_cuisine",
+    "accessoires_cuisine"
+  ],
+  "sources": "sources/decor.py",
+  "outils": [
+    "Python",
+    "SVG",
+    "CairoSVG",
+    "Pillow"
+  ],
+  "limites": "Proposition de décor ; aucune animation ni interaction des mains avec les accessoires validée."
+}

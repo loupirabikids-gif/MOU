@@ -1,0 +1,12 @@
+{
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "master_opaque": true,
+  "layers": 3,
+  "png_layer_composite_mean_delta_0_255": 0.00037165637860082305,
+  "no_character": true,
+  "no_embedded_raster_inputs": true,
+  "sha256": "3148c402d57d24c1dc8ef5c5731aa2c07346c3d03fcade74e84c9a7e7ec2f585"
+}

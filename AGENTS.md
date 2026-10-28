@@ -6,12 +6,15 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
-Commande courante : fabriquer « Le torchon », épisode02, après le « Vas y »
-de l’utilisatrice du28octobre2026. Son scénario est dans
-`episodes/02/developpement/scenario_retenu.md`, sa chronologie commune dans
-`episodes/02/chronologie.json`. Tester prises, pied et trajet du tissu avant
-animatique complète, critique et final avec son. « Le retardateur » reste
-de côté : conserver ses montages dans `episodes/01_reprise/` sans les corriger.
+Commande courante : avancer petit à petit sur le gag de cuisine et
+d’essuie-tout, dans `episodes/03/`. Étape autorisée maintenant : préparer
+uniquement le décor fixe, dans `episodes/03/decor/`, et le présenter.
+Attendre la prochaine demande avant personnage en scène, animation ou son.
+Le comportement visé est de s’essuyer les mains après chaque contact pendant
+qu’on cuisine réellement : remuer, ajouter un ingrédient, toucher un manche,
+régler le feu. Ne pas remplacer ce sujet par une pâte jetée avec le papier.
+« Le retardateur » et « Le torchon » ont été écartés ; conserver leurs fichiers
+dans `episodes/01_reprise/` et `episodes/02/` sans poursuivre leurs corrections.
 Le personnage et les outils restent retenus. Les autres anciens montages
 et critiques sont dans `episodes/01/` et Git. PILOTE_01.txt est historique.
 
