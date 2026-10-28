@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "reference_commit": "5e180fbc3c76b8344410cda021349b7f7a993970",
+  "caption": "Me cooking: touch, wash, wipe… repeat.",
+  "window_seconds": [
+    0,
+    3
+  ],
+  "fade_out_seconds": [
+    2.85,
+    3
+  ],
+  "font_file": "fonts/DejaVuSans-Bold.ttf",
+  "font_sha256": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+  "caption_frames": 72,
+  "all_840_caption_presence_checks_passed": true,
+  "unchanged_svg_samples_after_caption": 43,
+  "audio_mix_sha256": "ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453",
+  "timeline_sha256": "95f7a9cab042e18db2b94553e4df2f4bf601b1d47aa34536e521c1efc5228bf4",
+  "scope": "Caption only. Paper correction remains a proposal; no animation, props, sound or duration changes.",
+  "original_aac_adts_sha256": "f7c44375924417b7af360ba340070528a6ded05fa6ca5157a975d42b6de160f2",
+  "caption_line_top_y": [
+    500,
+    572
+  ],
+  "caption_region": [
+    96,
+    488,
+    984,
+    636
+  ],
+  "placement_correction": "Moved below the hanging lamp to avoid its cord crossing the text; still above MOU’s head.",
+  "render_source_sha256": "fda9ac4475bae0c4cf8a7f83fcb2f50e6870d4fbb88c8536317bc2ae7d956e71",
+  "final_aac_adts_sha256": "f7c44375924417b7af360ba340070528a6ded05fa6ca5157a975d42b6de160f2",
+  "aac_bitstream_unchanged": true
+}

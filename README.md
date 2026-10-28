@@ -1,6 +1,8 @@
 # MOU
 
 **Encore une feuille — tablier, eau exagérée et cuisine en rythme, 35 secondes.**
+
+Légende d’ouverture : **« Me cooking: touch, wash, wipe… repeat. »**
 MOU siffle au départ, puis cuisine sur une musique originale qui se coupe
 pour chaque rituel de lavage et essuyage. L’ouverture donne plus de temps au
 remuage et à la découverte de la main ; le premier lavage arrive à 7,75 s.

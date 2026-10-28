@@ -1,0 +1,55 @@
+{
+  "video": "episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4",
+  "sha256": "2a03a95e5544215889308253375e1561b68832e344e61a4967e91d5e5c61c053",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": "24",
+  "duration_seconds": 35.0,
+  "samples": [
+    {
+      "frame": 0,
+      "time_seconds": 0.0,
+      "png_sha256": "c166759e5b5c5741ed681d5a5b7a53ec8c4520b027c111194629e6002485cd12",
+      "native_png_preserved": false
+    },
+    {
+      "frame": 10,
+      "time_seconds": 0.4166666666666667,
+      "png_sha256": "066a8c7c0cf14c08afc4ce5f6b7544c0013ab961b2f2d93a96f825b8f0ab7c8b",
+      "native_png_preserved": true
+    },
+    {
+      "frame": 36,
+      "time_seconds": 1.5,
+      "png_sha256": "c87efaf0751e759a9809276ec94ef6013246aa808c1d15ca2d36e5a34a9ca19c",
+      "native_png_preserved": false
+    },
+    {
+      "frame": 66,
+      "time_seconds": 2.75,
+      "png_sha256": "41190d36806d4eda5833c8a33343fe6129caa59d900eaa65c0ab56bbd31d3d1a",
+      "native_png_preserved": false
+    },
+    {
+      "frame": 71,
+      "time_seconds": 2.9583333333333335,
+      "png_sha256": "b154b4f48d0a62c87fc3ed526b3aa2aa7f4334c1c379b305ecd38d4aa6653ec6",
+      "native_png_preserved": false
+    },
+    {
+      "frame": 72,
+      "time_seconds": 3.0,
+      "png_sha256": "31f425d2a9468fd4930f35bf7948b35364ecb9e4fb1e5f4cff88c31892650841",
+      "native_png_preserved": true
+    },
+    {
+      "frame": 73,
+      "time_seconds": 3.0416666666666665,
+      "png_sha256": "23d262ecace43f617760e8ddb4b279538b21ee020fe361a5b52b5a28c2ae657c",
+      "native_png_preserved": false
+    }
+  ],
+  "method": "Direct indexed ffmpeg decoding of the named MP4; no SVG or render cache."
+}

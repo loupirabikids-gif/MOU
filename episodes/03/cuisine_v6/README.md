@@ -1,5 +1,7 @@
 # Encore une feuille — en cuisine et en rythme
 
+Légende au départ, pendant trois secondes : **« Me cooking: touch, wash, wipe… repeat. »**
+
 MOU siffle au début, puis cuisine sur une musique originale légère.
 Le montage dure 35 s : quatre tours de cuillère dans une ouverture plus
 longue, puis un regard tenu sur la main avant le premier lavage à 7,75 s.
@@ -16,7 +18,7 @@ téléphone : 64 × 88 au lieu de 26 × 40, avec une boulette plus visible.
 - [Version muette](MOU_Encore_une_feuille_muette.mp4?raw=true)
 - [Animatique avec son](MOU_Encore_une_feuille_animatique.mp4?raw=true)
 - [Sources et sons ZIP](MOU_Encore_une_feuille_sources.zip?raw=true)
-- [Bilan des contrôles](CONTROLE.txt) · [Critique du rythme V9](controle/critique_rythme_v9_final.md) · [Son V8 conservé](controle/critique_musique_v8_final.md) · [Correctif papier V7](controle/critique_papier_v7_final.md)
+- [Bilan des contrôles](CONTROLE.txt) · [Critique de la légende V10](controle/critique_caption_v10_final.md) · [Rythme V9](controle/critique_rythme_v9_final.md) · [Son V8 conservé](controle/critique_musique_v8_final.md) · [Correctif papier V7](controle/critique_papier_v7_final.md)
 - [Ouverture et rythme V9](developpement/ouverture_v9.md)
 - [Direction sonore V8](developpement/direction_son_v8.md) · [Chronologie](chronologie.json)
 - [Ajouts initiaux V6 conservés](developpement/ajouts_v6.md)

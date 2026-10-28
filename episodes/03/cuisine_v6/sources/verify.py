@@ -32,7 +32,7 @@ BASE_SAMPLE_TIMES = (.4, .75, 1.05, 1.45, 2.58, 3.6, 4.5, 6.8, 8.3, 8.7, 9.0, 9.
                 15.2, 15.5, 15.7, 16.05, 16.75, 17.5, 18.7, 20.6, 21.85, 22.15, 22.3, 22.5,
                 23.6, 24.8, 25.4, 26.3, 27.1, 27.2, 27.35, 27.6, 28.1, 28.25, 29.6)
 SAMPLE_TIMES = tuple(sorted({t if t<2.1 else t+5. for t in BASE_SAMPLE_TIMES}
-    | {2.5,3.25,3.333333,3.5,4.5,5.5,6.583333,6.75,7.083333,7.333333,7.5}))
+    | {2.5,2.875,2.958333,3.,3.25,3.333333,3.5,4.5,5.5,6.583333,6.75,7.083333,7.333333,7.5}))
 MEAN_ERROR_LIMIT = 3.0
 
 
@@ -118,6 +118,7 @@ def source_checks():
     # All current scene authors must be covered by the render-time freeze.
     required = [EP/'sources'/name for name in ('animation.py', 'art.py', 'render.py')]
     required.append(EP/'chronologie.json')
+    required.append(ROOT/'fonts/DejaVuSans-Bold.ttf')
     assert {str(p) for p in required}.issubset(frozen), 'incomplete final source freeze'
     assert digest(ROOT/'mou_rig.py') == RIG_SHA, 'canonical rig changed'
     # New acting may change native controls/rotation; the native arm drawing,
@@ -220,6 +221,8 @@ def fresh_image_checks(renderer, video):
         regions = {'faucet': (72, 1004, 247, 1169), 'bin': (40, 1410, 290, 1805),
                    'carrot_and_knife': (450, 1160, 820, 1415),
                    'paper_roll': (780, 1060, 965, 1368)}
+        if t<renderer.CAPTION_END+1.:
+            regions['opening_caption']=(96.,488.,984.,636.)
         ax, ay, scale = state['actor_transform']
         regions['mouth'] = (ax+165.*scale, ay+290.*scale,
                             ax+245.*scale, ay+350.*scale)

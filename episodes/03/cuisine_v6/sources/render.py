@@ -5,6 +5,7 @@ The lightweight animatic is 540x960 at12fps. The corrected full export is
 """
 from __future__ import annotations
 import argparse
+import base64
 import concurrent.futures
 import hashlib
 import importlib.util
@@ -30,6 +31,25 @@ DURATION, FPS = float(TIMELINE['duration']), int(TIMELINE['fps'])
 W, H = TIMELINE['dimensions']
 RIG_SHA = '7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e'
 CACHE_VERSION = 'papier-cuisine-v6'
+CAPTION_TEXT = 'Me cooking: touch, wash, wipe… repeat.'
+CAPTION_END = 3.
+CAPTION_FONT = ROOT/'fonts/DejaVuSans-Bold.ttf'
+
+
+def caption_image():
+    """Render the approved text with the bundled font, independent of fontconfig."""
+    layer=Image.new('RGBA',(W,650),(0,0,0,0))
+    draw=ImageDraw.Draw(layer)
+    title,body=CAPTION_TEXT.split(': ',1)
+    for text,size,y in [(title+':',58,500),(body,52,572)]:
+        font=ImageFont.truetype(str(CAPTION_FONT),size)
+        draw.text((W/2.,y),text,font=font,anchor='mt',fill='#382035',
+                  stroke_width=4,stroke_fill='#FFF4E5')
+    data=io.BytesIO();layer.save(data,format='PNG')
+    return base64.b64encode(data.getvalue()).decode('ascii')
+
+
+CAPTION_IMAGE = caption_image()
 
 def module(name, path):
     spec=importlib.util.spec_from_file_location(name,path)
@@ -84,6 +104,15 @@ PROPS_PULL=serial(props)
 def smooth(u):
     u=max(0.,min(1.,u));return u*u*(3.-2.*u)
 
+
+def caption_svg_at(playback_time):
+    if not 0.<=playback_time<CAPTION_END:
+        return ''
+    opacity=1.-smooth((playback_time-(CAPTION_END-.15))/.15)
+    return (f'<g id="caption-ouverture" data-caption="{CAPTION_TEXT}" opacity="{opacity:.8f}">'
+            f'<image x="0" y="0" width="{W}" height="650" '
+            f'href="data:image/png;base64,{CAPTION_IMAGE}"/></g>')
+
 def camera_at(t,state):
     t=float(state['t'])
     # Hands-only insert on the existing sink, without the foreground island.
@@ -107,7 +136,8 @@ def camera_at(t,state):
     return (cx-width/2.,cy-height/2.,width,height)
 
 def svg_at(t):
-    s=animation.scene_state(float(t))
+    playback_time=float(t)
+    s=animation.scene_state(playback_time)
     t=float(s['t'])
     x,y,scale=s['actor_transform']
     tr=f'translate({x:.6f} {y:.6f}) scale({scale:.6f})'
@@ -166,6 +196,7 @@ def svg_at(t):
         hx,hy=hand
         parts.append(f'<path d="M{hx-8:.3f} {hy+31:.3f} q-7 12 0 16 q7 -4 0 -16 M{hx+15:.3f} {hy+43:.3f} q-5 10 0 13 q5 -3 0 -13" fill="#B8E2E4" stroke="#668D9A" stroke-width="2.5"/>')
     parts.append(art.bin_svg(s['bin_count'],s.get('flying_ball')))
+    parts.append(caption_svg_at(playback_time))
     vb=camera_at(t,s)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
             f'viewBox="{vb[0]:.6f} {vb[1]:.6f} {vb[2]:.6f} {vb[3]:.6f}">'
@@ -272,6 +303,7 @@ def main():
     args=parser.parse_args()
     fps,scale,tag=(12,.5,'animatique') if args.preview else (FPS,1.,'final')
     sources=[EP/'sources'/n for n in ('animation.py','art.py','render.py')]+[EP/'chronologie.json']
+    sources.append(CAPTION_FONT)
     frozen={str(p):digest(p) for p in sources}
     write_json(EP/'controle/audit_structure.json',structure_audit())
     indices=sorted({round(t*fps) for t in SAMPLE_TIMES}) if args.stills else list(range(round(DURATION*fps)))

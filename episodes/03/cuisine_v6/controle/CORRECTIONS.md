@@ -2,6 +2,26 @@
 
 28 octobre 2026. Révision ciblée de la v5 à la demande de l’utilisatrice.
 
+## Légende V10 — phrase validée au départ
+
+Ajout de « Me cooking: touch, wash, wipe… repeat. » pendant les trois premières
+secondes, sur deux lignes, sans masquer le visage. Sortie douce à 2,85–3 s.
+La police fournie est utilisée directement par Pillow et gelée avec le rendu.
+Le calque transparent s’intègre au SVG ; le reste de la scène est conservé.
+
+La première étude plaçait le texte devant le luminaire : son cordon traversait
+visuellement certains mots. Les deux lignes sont déplacées sous l’étagère,
+au-dessus de la tête, avec contour crème. L’étude native et la réduction au
+format téléphone sont relues : texte entier lisible, visage dégagé.
+
+Le montage, le mix et tous les gestes restent ceux de la V9. Les 43 SVG
+échantillonnés après la disparition sont identiques aux empreintes précédentes.
+Le retour sur la forme du dernier papier reste une proposition distincte ;
+aucune correction de papier ou de main n’est incluse dans cette sélection.
+
+Voir `audit_caption_v10.json` et les critiques de la légende. Les sections
+suivantes restent l’historique des révisions précédentes.
+
 ## Rythme V9 — ouverture prolongée
 
 Retour : la cuisine initiale se lit trop vite. Le montage passe de 30 à

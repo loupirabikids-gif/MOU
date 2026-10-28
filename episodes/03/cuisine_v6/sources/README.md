@@ -49,3 +49,9 @@ principaux de la chronologie sont les repères de production et pilotent le son.
 remuage natif et le balancement utilisent leur rythme propre, sans ralentir
 la musique ni rejouer le sifflement. Les fonctions natives des bras restent
 identiques. Les anciens repères chiffrés des documents V8 sont historiques.
+
+Légende V10 : `CAPTION_TEXT` dans `render.py`, visible sur les trois premières
+secondes du film, avec sortie douce à 2,85–3 s. Le texte est dessiné avec la
+police TTF fournie par Pillow puis intégré sur un calque transparent dans le
+SVG. Cela évite une dépendance à la police installée sur le système de rendu.
+La police est incluse dans le gel des sources et dans le ZIP.

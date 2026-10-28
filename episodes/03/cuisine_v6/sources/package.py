@@ -29,7 +29,7 @@ def main():
                  and p.suffix in ('.json', '.md', '.txt', '.png', '.py')
                  and not (p.suffix == '.png' and any(part in
                      ('animatique_avant_morphing', 'final_crf16', 'critique_images',
-                      'critique_papier_v7_images') for part in p.parts)))
+                      'critique_papier_v7_images', 'critique_musique_v8_images') for part in p.parts)))
     files = sorted(files)
     assert all(p.is_file() for p in files)
     checks = {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest()
@@ -41,7 +41,7 @@ def main():
             archive.write(path, path.relative_to(ROOT).as_posix())
         archive.writestr('MANIFESTE_SHA256.json', json.dumps(checks, ensure_ascii=False, indent=2)+'\n')
         archive.writestr('LIRE_MOI.txt',
-                        'MOU — cuisine, carotte et réflexe, version 6, papier V7, musique V8 et rythme V9.\n'
+                        'MOU — cuisine, carotte et réflexe, version 6, papier V7, musique V8, rythme V9 et légende V10.\n'
                         'Voir episodes/03/cuisine_v6/sources/README.md pour reproduire.\n'
                         'Les dessins et les sons originaux sont inclus. Aucun service payant.\n')
     with zipfile.ZipFile(temporary) as archive:

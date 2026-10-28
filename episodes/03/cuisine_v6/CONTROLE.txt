@@ -1,4 +1,4 @@
-MOU — Encore une feuille — rythme V9, 35 secondes
+MOU — Encore une feuille — légende V10, rythme V9 conservé, 35 secondes
 Contrôles du 28 octobre 2026
 
 LIVRABLE
@@ -7,6 +7,20 @@ H.264/yuv420p CRF 14 ; AAC stéréo 48 kHz pour le montage sonore.
 Muet : aucune piste audio, mêmes images compressées à l’octet près.
 Animatique complète : 540 × 960, 12 images/s, 35 s, 420 images.
 Aperçu GIF muet : 432 × 768, 350 images, 35 s.
+
+LÉGENDE VALIDÉE V10
+« Me cooking: touch, wash, wipe… repeat. » apparaît sur deux lignes
+pendant 0–3 s, avec sortie à 2,85–3 s. Placement sous l’étagère et au-dessus
+de MOU, sans chevaucher son visage ou les mains ; police DejaVu Sans Bold
+fournie, texte prune bordé de crème. La position initiale devant le luminaire
+a été corrigée pour éviter son cordon dans les lettres.
+Présence vérifiée sur les 840 états : 72 images de légende, puis absence.
+43 SVG échantillonnés après 3 s identiques aux empreintes V9. Le mix PCM
+et le flux AAC sont identiques à la V9, ainsi que les gestes, accessoires,
+modèle, durée et montage. Cette sélection approuve la légende seule ;
+la suggestion de retouche du dernier papier reste distincte.
+Relecture indépendante des études, de l’animatique et du MP4 réel :
+controle/critique_caption_v10_final.md et audit_caption_v10.json.
 
 OUVERTURE PLUS LISIBLE
 Remuage actif 0–6,6 s, quatre tours avec le geste natif.
@@ -45,8 +59,10 @@ Corrélation PCM/AAC sans décalage : 0.998595.
 Aucun dialogue, morceau connu ou son téléchargé.
 
 EXPORTS ET CRITIQUE
-Les deux véritables MP4 sont décodés intégralement sans erreur.
-48 images comparées à des SVG/CairoSVG frais hors cache : toutes réussies,
+Les deux véritables MP4 sont décodés intégralement sans erreur. La région
+de légende est mesurée pendant sa présence et après sa disparition. La police
+est désormais incluse dans le gel des dépendances du rendu.
+51 images comparées à des SVG/CairoSVG frais hors cache : toutes réussies,
 image entière et régions visibles. Seuil RGB moyen 3/255 conservé ; maximum
 image 1.639691/255 et région 2.915450/255. Sources gelées vérifiées.
 L’animatique puis le véritable export sont relus par le critique indépendant :
@@ -75,6 +91,6 @@ Les anciennes références YouTube restent inaccessibles ; voir le dossier
 Montage proposé au jugement de l’utilisatrice, aucune publication sociale.
 
 EMPREINTES
-Avec son : b5409201c2269856a5624142daccc7420cd17df8b82941f85a371ebd02774e21
-Muet : da34f5af520c623a1d323aab263582b316f70188e82d84947416c070fabd937b
+Avec son : 2a03a95e5544215889308253375e1561b68832e344e61a4967e91d5e5c61c053
+Muet : 3299db7517fab75c15727368fc7b0cdddf2090ac485ced2451594e23c169cccb
 Mix PCM : ea4801f5688b709a2a781baeabda03084e6715f96d2057edf1bf83f5e380d453

@@ -6,6 +6,14 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Légende d’ouverture V10 validée : « Me cooking: touch, wash, wipe… repeat. ».
+L’intégrer en deux lignes pendant 0–3 s, dégagée du visage de MOU, avec une
+courte sortie entre 2,85 et 3 s. Garder le montage de 35 s, tous les gestes,
+sons, bras et accessoires. Le retour sur l’aspect raide du dernier papier
+reste une proposition de retouche ; cette sélection valide la légende seule.
+La police DejaVu fournie devient une dépendance gelée du rendu. Contrôles et
+critique dans `controle/*caption_v10*`. Attendre le retour sur ce montage.
+
 Dernier retour : donner davantage de temps à la compréhension, surtout au
 remuage initial. Révision rythme V9 dans `episodes/03/cuisine_v6/`, 35 s au lieu
 de 30. Remuer activement 0–6,6 s (quatre tours naturels), poser la cuillère
