@@ -1,0 +1,141 @@
+{
+  "episode": "03",
+  "title": "Encore une feuille — carotte et réflexe",
+  "timeline_version": 4,
+  "duration_seconds": 29.0,
+  "samples_per_channel": 1392000,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "event_count": 48,
+  "peak_dbfs": -4.0,
+  "premaster_peak_dbfs": -12.395,
+  "master_gain_db": 8.395,
+  "rms_dbfs_left_right": [
+    -25.701,
+    -28.844
+  ],
+  "dc_mean_left_right": [
+    1.318811000078574e-06,
+    1.0509052495846802e-06
+  ],
+  "clipped_samples": 0,
+  "water_intervals": [
+    {
+      "cycle": 1,
+      "scheduled": [
+        3.23,
+        5.05
+      ],
+      "rendered": [
+        3.23,
+        5.05
+      ],
+      "first_above_one_percent_seconds": 3.2315416666666668
+    },
+    {
+      "cycle": 2,
+      "scheduled": [
+        10.35,
+        11.9
+      ],
+      "rendered": [
+        10.35,
+        11.9
+      ],
+      "first_above_one_percent_seconds": 10.352208333333333
+    },
+    {
+      "cycle": 3,
+      "scheduled": [
+        18.28,
+        19.35
+      ],
+      "rendered": [
+        18.28,
+        19.35
+      ],
+      "first_above_one_percent_seconds": 18.281916666666667
+    },
+    {
+      "cycle": 4,
+      "scheduled": [
+        23.24,
+        24.22
+      ],
+      "rendered": [
+        23.24,
+        24.22
+      ],
+      "first_above_one_percent_seconds": 23.242270833333333
+    }
+  ],
+  "landing_onsets": [
+    {
+      "cycle": 1,
+      "scheduled_seconds": 8.22,
+      "onset_seconds": 8.220041666666667
+    },
+    {
+      "cycle": 2,
+      "scheduled_seconds": 14.77,
+      "onset_seconds": 14.770083333333334
+    },
+    {
+      "cycle": 3,
+      "scheduled_seconds": 21.77,
+      "onset_seconds": 21.770041666666668
+    },
+    {
+      "cycle": 4,
+      "scheduled_seconds": 26.22,
+      "onset_seconds": 26.220041666666667
+    }
+  ],
+  "tear_onsets": [
+    {
+      "cycle": 1,
+      "scheduled_seconds": 6.4,
+      "onset_seconds": 6.400145833333333
+    },
+    {
+      "cycle": 2,
+      "scheduled_seconds": 13.05,
+      "onset_seconds": 13.050104166666667
+    },
+    {
+      "cycle": 3,
+      "scheduled_seconds": 20.3,
+      "onset_seconds": 20.3000625
+    },
+    {
+      "cycle": 4,
+      "scheduled_seconds": 25.0,
+      "onset_seconds": 25.000125
+    }
+  ],
+  "carrot_cut_onsets": [
+    {
+      "scheduled_seconds": 16.05,
+      "onset_seconds": 16.050041666666665
+    },
+    {
+      "scheduled_seconds": 16.75,
+      "onset_seconds": 16.750041666666668
+    }
+  ],
+  "final_hold_seconds": [
+    28.4,
+    29.0
+  ],
+  "final_hold_rms_dbfs": -45.894,
+  "final_hold_cooking_only": true,
+  "first_and_last_pcm_frame_silent": true,
+  "no_music": true,
+  "no_voice": true,
+  "no_external_samples": true,
+  "mix_sha256": "087d0077a777c1e552cdda4fcc833890a237d4bceec0b89b2eacdf2d8ed3c0b3",
+  "source_sha256": "234e714de39375c487290e6da2fca5f46a7ed00fc732ee36388777d877406250",
+  "chronologie_sha256": "4e77827bc473cdfd4ba5aa3f6426a522f899f76c628335074e6d147c8fcfa13f",
+  "limits": "Contrôles numériques PCM et concordance avec les événements prévus. Pas d’écoute humaine, de contrôle haut-parleur mobile ni de validation des contacts dans la vidéo par ce rapport."
+}

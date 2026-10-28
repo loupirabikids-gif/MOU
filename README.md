@@ -1,17 +1,18 @@
 # MOU
 
-**Encore une feuille — premier montage complet avec son,26secondes.**
-Pendant qu’il cuisine, MOU répète trois fois son rituel : ouvrir le robinet,
-laver sa main, fermer, arracher trop de papier, sécher et jeter. Chaque jet
-rapproche la caméra de la même poubelle qui se remplit.
+**Encore une feuille — version carotte avec son, 29 secondes.**
+MOU remue, ajoute une tomate et découpe une carotte. Chaque petit contact
+déclenche un lavage et beaucoup trop de papier. Les quatre rituels accélèrent,
+la poubelle se remplit ; à la fin, une main tente d’arrêter l’autre.
 
-[![Encore une feuille](episodes/03/film/MOU_Encore_une_feuille_apercu.gif)](episodes/03/film/MOU_Encore_une_feuille.mp4?raw=true)
+[![Encore une feuille](episodes/03/carotte_v4/MOU_Encore_une_feuille_apercu.gif)](episodes/03/carotte_v4/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Voir le MP4 avec son,1080×1920](episodes/03/film/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Version muette](episodes/03/film/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/film/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/film/CONTROLE.txt)
-- [Script accepté](episodes/03/developpement/scenario_papier_v2.md) · [Critiques et corrections](episodes/03/film/controle/)
-- [Proposition suivante : carotte et accélération](episodes/03/developpement/decoupage_carotte_v3_propose.md) · [Recherche d’outils gratuits](recherche/README.md)
+- **[Voir le MP4 avec son,1080×1920](episodes/03/carotte_v4/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Version muette](episodes/03/carotte_v4/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/carotte_v4/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/carotte_v4/CONTROLE.txt)
+- [Chronologie](episodes/03/carotte_v4/chronologie.json) · [Critiques et corrections](episodes/03/carotte_v4/controle/)
+- [Direction de jeu et expressions](episodes/03/developpement/expressions_v4/) · [Recherche d’outils gratuits](recherche/README.md)
+- [Montage précédent de 26 s conservé](episodes/03/film/)
 - [Placement validé](episodes/03/placement/) · [Décor validé](episodes/03/decor/)
 
 Le décor, le placement et le [test de remuage](episodes/03/test_remuer/) validés
@@ -34,7 +35,7 @@ des fichiers ne prouve pas leur activation native dans tous les clients.
 - [Veille datée et limites](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
-NumPy et FFmpeg. Trente-cinq effets et ambiances originaux dans ce montage,
+NumPy et FFmpeg. Quarante-huit événements sonores originaux dans ce montage,
 sans voix ni musique externe.
 La veille externe reste incomplète car YouTube n’est pas autorisé par le réseau
 courant. Aucune statistique ni visionnage n’est inventé. La critique par images
@@ -81,7 +82,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant et ses sources se trouvent dans `episodes/03/film/`.
+Le montage courant et ses sources se trouvent dans `episodes/03/carotte_v4/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

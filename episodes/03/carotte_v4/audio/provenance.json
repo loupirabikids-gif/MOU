@@ -1,0 +1,1297 @@
+{
+  "title": "Encore une feuille — carotte et réflexe",
+  "timeline_version": 4,
+  "provenance": "Tous les effets sont originaux, synthétisés localement par bruit filtré, micro-grains, enveloppes et faibles résonances. Aucun son téléchargé, musique, voix ou service externe.",
+  "tools": [
+    "Python (PSF)",
+    "NumPy (BSD-3-Clause)",
+    "wave (bibliothèque standard)"
+  ],
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "duration_seconds": 29.0,
+  "master_gain_db": 8.395,
+  "event_bank_levels": "WAV individuels avant gain commun. Sommation aux start_sample, gain master_gain_db puis enveloppe globale attaque 8ms/sortie35ms reproduisent le mix.",
+  "chronologie_sha256": "4e77827bc473cdfd4ba5aa3f6426a522f899f76c628335074e6d147c8fcfa13f",
+  "source_sha256": "234e714de39375c487290e6da2fca5f46a7ed00fc732ee36388777d877406250",
+  "events": [
+    {
+      "name": "cuisson",
+      "kind": "frying",
+      "start": 0.0,
+      "duration": 29.0,
+      "peak_dbfs": -31.0,
+      "pan": -0.2,
+      "cycle": null,
+      "file": "cuisson.wav",
+      "seed": 3032904,
+      "start_sample": 0,
+      "samples": 1392000,
+      "end_seconds": 29.0,
+      "first_above_one_percent_seconds": 0.001125,
+      "peak_dbfs_measured": -31.0,
+      "parameters": {
+        "band_hz": [
+          500,
+          4700
+        ],
+        "pops_per_second": 13,
+        "intention": "cuisson douce, aucun gros crépitement de friture",
+        "perspective_gain_sink": 0.23,
+        "perspective_gain_bin": 0.3,
+        "final_hold_cooking_only_seconds": [
+          28.4,
+          29.0
+        ],
+        "final_hold_gain": 0.55
+      },
+      "sha256": "730426104488a4d8d6d51071e31faf9c5f8e72b6af9ee94c5e9403e94b8b3375"
+    },
+    {
+      "name": "remuage_debut",
+      "kind": "stir",
+      "start": 0.0,
+      "duration": 2.2,
+      "peak_dbfs": -23.0,
+      "pan": -0.35,
+      "cycle": null,
+      "file": "remuage_debut.wav",
+      "seed": 3033041,
+      "start_sample": 0,
+      "samples": 105600,
+      "end_seconds": 2.2,
+      "first_above_one_percent_seconds": 0.0015208333333333332,
+      "peak_dbfs_measured": -23.0,
+      "parameters": {
+        "band_hz": [
+          160,
+          2100
+        ],
+        "pressure_cycles": 2.3,
+        "intention": "cuillère en bois qui glisse doucement dans la poêle"
+      },
+      "sha256": "7725df0935a7549decd7c13df21852f7a2a421e8ec65740ff2888423a34a5a09"
+    },
+    {
+      "name": "cuillere_posee",
+      "kind": "wood_contact",
+      "start": 2.45,
+      "duration": 0.1,
+      "peak_dbfs": -23.0,
+      "pan": -0.2,
+      "cycle": null,
+      "file": "cuillere_posee.wav",
+      "seed": 3033178,
+      "start_sample": 117600,
+      "samples": 4800,
+      "end_seconds": 2.55,
+      "first_above_one_percent_seconds": 2.4501458333333335,
+      "peak_dbfs_measured": -23.0,
+      "parameters": {
+        "band_hz": [
+          140,
+          2200
+        ],
+        "intention": "contact de moufle sur manche en bois"
+      },
+      "sha256": "1da395cce8d12e2ef1807c5d569abfb91e78fac63d1c8af091007f6c4063a958"
+    },
+    {
+      "name": "contact_tomate",
+      "kind": "tomato_contact",
+      "start": 9.3,
+      "duration": 0.11,
+      "peak_dbfs": -23.0,
+      "pan": 0.18,
+      "cycle": null,
+      "file": "contact_tomate.wav",
+      "seed": 3033315,
+      "start_sample": 446400,
+      "samples": 5280,
+      "end_seconds": 9.41,
+      "first_above_one_percent_seconds": 9.300125,
+      "peak_dbfs_measured": -23.0,
+      "parameters": {
+        "band_hz": [
+          100,
+          1700
+        ],
+        "intention": "petit contact mou de tomate"
+      },
+      "sha256": "8fd9c2cf249b14a7f4f8235a215ca5af1f2e181aba89ca5479c560a1eef7822a"
+    },
+    {
+      "name": "carotte_coupe_1",
+      "kind": "carrot_chop",
+      "start": 16.05,
+      "duration": 0.095,
+      "peak_dbfs": -15.0,
+      "pan": 0.23,
+      "cycle": null,
+      "file": "carotte_coupe_1.wav",
+      "seed": 3033452,
+      "start_sample": 770400,
+      "samples": 4560,
+      "end_seconds": 16.145,
+      "first_above_one_percent_seconds": 16.050041666666665,
+      "peak_dbfs_measured": -15.0,
+      "parameters": {
+        "board_band_hz": [
+          90,
+          1900
+        ],
+        "vegetable_band_hz": [
+          850,
+          4900
+        ],
+        "wood_resonances_hz": [
+          370,
+          610
+        ],
+        "intention": "tac bref du couteau traversant la carotte sur la planche"
+      },
+      "sha256": "4f5bd6c80adfecb7e5c62f21bdd544c4152e126257ea7c3fb0abddaa4955401f"
+    },
+    {
+      "name": "carotte_coupe_2",
+      "kind": "carrot_chop",
+      "start": 16.75,
+      "duration": 0.095,
+      "peak_dbfs": -15.5,
+      "pan": 0.23,
+      "cycle": null,
+      "file": "carotte_coupe_2.wav",
+      "seed": 3033589,
+      "start_sample": 804000,
+      "samples": 4560,
+      "end_seconds": 16.845,
+      "first_above_one_percent_seconds": 16.750041666666668,
+      "peak_dbfs_measured": -15.5,
+      "parameters": {
+        "board_band_hz": [
+          90,
+          1900
+        ],
+        "vegetable_band_hz": [
+          850,
+          4900
+        ],
+        "wood_resonances_hz": [
+          370,
+          610
+        ],
+        "intention": "tac bref du couteau traversant la carotte sur la planche"
+      },
+      "sha256": "3ca6b2fd85db7b23e100c39fe90e5f6320f21745eacbbbe93bd57364afb874ea"
+    },
+    {
+      "name": "couteau_pose",
+      "kind": "knife_setdown",
+      "start": 17.45,
+      "duration": 0.105,
+      "peak_dbfs": -23.0,
+      "pan": 0.23,
+      "cycle": null,
+      "file": "couteau_pose.wav",
+      "seed": 3033726,
+      "start_sample": 837600,
+      "samples": 5040,
+      "end_seconds": 17.555,
+      "first_above_one_percent_seconds": 17.4500625,
+      "peak_dbfs_measured": -23.0,
+      "parameters": {
+        "body_band_hz": [
+          110,
+          2100
+        ],
+        "blade_resonances_hz": [
+          1370,
+          2230
+        ],
+        "intention": "petit contact du couteau posé, sans longue sonnerie"
+      },
+      "sha256": "eaf10c556da68e99eb261c5ff1ad872520216b345fcb0b503f260656861934d2"
+    },
+    {
+      "name": "contact_manche_propre",
+      "kind": "wood_contact",
+      "start": 22.5,
+      "duration": 0.1,
+      "peak_dbfs": -20.0,
+      "pan": -0.2,
+      "cycle": null,
+      "file": "contact_manche_propre.wav",
+      "seed": 3033863,
+      "start_sample": 1080000,
+      "samples": 4800,
+      "end_seconds": 22.6,
+      "first_above_one_percent_seconds": 22.5000625,
+      "peak_dbfs_measured": -20.0,
+      "parameters": {
+        "band_hz": [
+          140,
+          2200
+        ],
+        "intention": "contact de moufle sur manche en bois"
+      },
+      "sha256": "584abae6eb03b06972ec69704f880980fb44e16b8818925c96855786ef466fc7"
+    },
+    {
+      "name": "c1_robinet_ouvre",
+      "kind": "tap",
+      "start": 3.23,
+      "duration": 0.075,
+      "peak_dbfs": -21.0,
+      "pan": -0.6,
+      "cycle": 1,
+      "file": "c1_robinet_ouvre.wav",
+      "seed": 3034000,
+      "start_sample": 155040,
+      "samples": 3600,
+      "end_seconds": 3.305,
+      "first_above_one_percent_seconds": 3.2300416666666667,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "sha256": "2e894e985ce65e52c1f846059ab32ea1cbef7376d15ef7d0462f65bcaf5d3653"
+    },
+    {
+      "name": "c1_eau",
+      "kind": "water",
+      "start": 3.23,
+      "duration": 1.82,
+      "peak_dbfs": -15.5,
+      "pan": -0.55,
+      "cycle": 1,
+      "file": "c1_eau.wav",
+      "seed": 3034137,
+      "start_sample": 155040,
+      "samples": 87360,
+      "end_seconds": 5.05,
+      "first_above_one_percent_seconds": 3.2315416666666668,
+      "peak_dbfs_measured": -15.5,
+      "parameters": {
+        "body_band_hz": [
+          160,
+          1800
+        ],
+        "air_band_hz": [
+          1000,
+          5100
+        ],
+        "micro_splashes_per_second": 20,
+        "intention": "petit filet d’eau, sans bruit blanc agressif"
+      },
+      "sha256": "5ba48c31b2c2919487f123d258580a45684a3a69b790e93f328da3d5e51eebac"
+    },
+    {
+      "name": "c1_robinet_ferme",
+      "kind": "tap",
+      "start": 5.05,
+      "duration": 0.075,
+      "peak_dbfs": -21.5,
+      "pan": -0.6,
+      "cycle": 1,
+      "file": "c1_robinet_ferme.wav",
+      "seed": 3034274,
+      "start_sample": 242400,
+      "samples": 3600,
+      "end_seconds": 5.125,
+      "first_above_one_percent_seconds": 5.050041666666667,
+      "peak_dbfs_measured": -21.5,
+      "parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "sha256": "890b0d1d698e7ba82fc0782b91794a83e57a7114f4bc40571d96883415b9fdbb"
+    },
+    {
+      "name": "c1_main_sous_eau",
+      "kind": "hand_water",
+      "start": 3.4,
+      "duration": 1.3,
+      "peak_dbfs": -21.0,
+      "pan": -0.55,
+      "cycle": 1,
+      "file": "c1_main_sous_eau.wav",
+      "seed": 3034411,
+      "start_sample": 163200,
+      "samples": 62400,
+      "end_seconds": 4.7,
+      "first_above_one_percent_seconds": 3.400916666666667,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "band_hz": [
+          200,
+          2800
+        ],
+        "splashes_per_second": 23,
+        "intention": "main qui se tourne sous le filet, petits clapotis"
+      },
+      "sha256": "42f9cc0915e0a5c842b921fcdca4e52c1727a68312c619c46ed4c95e457b3861"
+    },
+    {
+      "name": "c1_papier_deroule",
+      "kind": "paper_pull",
+      "start": 5.65,
+      "duration": 0.75,
+      "peak_dbfs": -20.0,
+      "pan": 0.4,
+      "cycle": 1,
+      "file": "c1_papier_deroule.wav",
+      "seed": 3034548,
+      "start_sample": 271200,
+      "samples": 36000,
+      "end_seconds": 6.4,
+      "first_above_one_percent_seconds": 5.651020833333333,
+      "peak_dbfs_measured": -20.0,
+      "parameters": {
+        "band_hz": [
+          260,
+          4100
+        ],
+        "folds_per_second": 25,
+        "intention": "longue bande de papier déroulée et tendue"
+      },
+      "sha256": "b000c3db5d226f3ed886cb1afad24cb72c5cdc8b2aeb5898c7dff93016001a32"
+    },
+    {
+      "name": "c1_papier_dechire",
+      "kind": "paper_tear",
+      "start": 6.4,
+      "duration": 0.145,
+      "peak_dbfs": -13.0,
+      "pan": 0.35,
+      "cycle": 1,
+      "file": "c1_papier_dechire.wav",
+      "seed": 3034685,
+      "start_sample": 307200,
+      "samples": 6960,
+      "end_seconds": 6.545,
+      "first_above_one_percent_seconds": 6.400145833333333,
+      "peak_dbfs_measured": -13.0,
+      "parameters": {
+        "band_hz": [
+          600,
+          6000
+        ],
+        "fibre_bursts_per_second": 100,
+        "intention": "courte déchirure de fibres, pas claquement mécanique"
+      },
+      "sha256": "6fb3cc290ec5239898e7d87fd63001ea9519d69833d1e2272998ce35a016769d"
+    },
+    {
+      "name": "c1_essuie_main",
+      "kind": "paper_wipe",
+      "start": 6.4,
+      "duration": 0.85,
+      "peak_dbfs": -20.0,
+      "pan": 0.05,
+      "cycle": 1,
+      "file": "c1_essuie_main.wav",
+      "seed": 3034822,
+      "start_sample": 307200,
+      "samples": 40800,
+      "end_seconds": 7.25,
+      "first_above_one_percent_seconds": 6.401395833333333,
+      "peak_dbfs_measured": -20.0,
+      "parameters": {
+        "band_hz": [
+          230,
+          3700
+        ],
+        "pressure_peaks_fraction": [
+          0.25,
+          0.7
+        ],
+        "intention": "deux frottements feutrés sur la main"
+      },
+      "sha256": "60bafad80a3cfe9bfce2deedcccb2c2e98037bb8e3a902d02383637fc9a1ed79"
+    },
+    {
+      "name": "c1_papier_froisse",
+      "kind": "paper_crumple",
+      "start": 7.25,
+      "duration": 0.35,
+      "peak_dbfs": -17.0,
+      "pan": -0.05,
+      "cycle": 1,
+      "file": "c1_papier_froisse.wav",
+      "seed": 3034959,
+      "start_sample": 348000,
+      "samples": 16800,
+      "end_seconds": 7.6,
+      "first_above_one_percent_seconds": 7.2519375,
+      "peak_dbfs_measured": -17.0,
+      "parameters": {
+        "base_band_hz": [
+          220,
+          3500
+        ],
+        "folds_per_second": 65,
+        "intention": "papier comprimé en grosse boulette"
+      },
+      "sha256": "5d147e028bf2653df42c3ef9960c1763b8e3a0bf82e299f40210e80ac65c477f"
+    },
+    {
+      "name": "c1_papier_lache",
+      "kind": "paper_flight",
+      "start": 7.8,
+      "duration": 0.36,
+      "peak_dbfs": -26.0,
+      "pan": -0.35,
+      "cycle": 1,
+      "file": "c1_papier_lache.wav",
+      "seed": 3035096,
+      "start_sample": 374400,
+      "samples": 17280,
+      "end_seconds": 8.16,
+      "first_above_one_percent_seconds": 7.8070625,
+      "peak_dbfs_measured": -26.0,
+      "parameters": {
+        "band_hz": [
+          160,
+          2800
+        ],
+        "intention": "air déplacé discret après le lâcher"
+      },
+      "sha256": "06c0c0886d3885b97b724b2a4f03892cef4e02d8858067e0765918506c229f67"
+    },
+    {
+      "name": "c1_poubelle_impact",
+      "kind": "paper_land",
+      "start": 8.22,
+      "duration": 0.2,
+      "peak_dbfs": -15.5,
+      "pan": -0.45,
+      "cycle": 1,
+      "file": "c1_poubelle_impact.wav",
+      "seed": 3035233,
+      "start_sample": 394560,
+      "samples": 9600,
+      "end_seconds": 8.42,
+      "first_above_one_percent_seconds": 8.220041666666667,
+      "peak_dbfs_measured": -15.5,
+      "parameters": {
+        "body_band_hz": [
+          75,
+          1500.0
+        ],
+        "fold_band_hz": [
+          650,
+          4200.0
+        ],
+        "paper_cushioning_step": 0.0,
+        "secondary_fold_offset_seconds": 0.033,
+        "intention": "impact souple de papier dans une petite poubelle"
+      },
+      "sha256": "81fba2ea9022378528b3b1d48eb7cc7f9b622c5a8fe090bfb54d5fa4c24dc893"
+    },
+    {
+      "name": "c2_robinet_ouvre",
+      "kind": "tap",
+      "start": 10.35,
+      "duration": 0.075,
+      "peak_dbfs": -21.0,
+      "pan": -0.6,
+      "cycle": 2,
+      "file": "c2_robinet_ouvre.wav",
+      "seed": 3035370,
+      "start_sample": 496800,
+      "samples": 3600,
+      "end_seconds": 10.425,
+      "first_above_one_percent_seconds": 10.3500625,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "sha256": "d4127e358ecd9e43dbf7f6ec86cd3ebbb3b350cde07dbcf0eaec6eb630c1a501"
+    },
+    {
+      "name": "c2_eau",
+      "kind": "water",
+      "start": 10.35,
+      "duration": 1.55,
+      "peak_dbfs": -15.5,
+      "pan": -0.55,
+      "cycle": 2,
+      "file": "c2_eau.wav",
+      "seed": 3035507,
+      "start_sample": 496800,
+      "samples": 74400,
+      "end_seconds": 11.9,
+      "first_above_one_percent_seconds": 10.352208333333333,
+      "peak_dbfs_measured": -15.5,
+      "parameters": {
+        "body_band_hz": [
+          160,
+          1800
+        ],
+        "air_band_hz": [
+          1000,
+          5100
+        ],
+        "micro_splashes_per_second": 20,
+        "intention": "petit filet d’eau, sans bruit blanc agressif"
+      },
+      "sha256": "3bbe24d5ed6011506bd5cc50fd3a2131c3088079a54cb7b96a20c2a42c0d7cf5"
+    },
+    {
+      "name": "c2_robinet_ferme",
+      "kind": "tap",
+      "start": 11.9,
+      "duration": 0.075,
+      "peak_dbfs": -21.5,
+      "pan": -0.6,
+      "cycle": 2,
+      "file": "c2_robinet_ferme.wav",
+      "seed": 3035644,
+      "start_sample": 571200,
+      "samples": 3600,
+      "end_seconds": 11.975,
+      "first_above_one_percent_seconds": 11.900041666666667,
+      "peak_dbfs_measured": -21.5,
+      "parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "sha256": "8eb868c85241bb79c0a9af11d11d92289decf49a89666e8905966047cde26568"
+    },
+    {
+      "name": "c2_main_sous_eau",
+      "kind": "hand_water",
+      "start": 10.48,
+      "duration": 1.07,
+      "peak_dbfs": -21.0,
+      "pan": -0.55,
+      "cycle": 2,
+      "file": "c2_main_sous_eau.wav",
+      "seed": 3035781,
+      "start_sample": 503040,
+      "samples": 51360,
+      "end_seconds": 11.55,
+      "first_above_one_percent_seconds": 10.481166666666667,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "band_hz": [
+          200,
+          2800
+        ],
+        "splashes_per_second": 23,
+        "intention": "main qui se tourne sous le filet, petits clapotis"
+      },
+      "sha256": "8082d8ddbf2a438fb73faa8adfc20e7438bcebad8d3e9610a2fead7abdd88a5e"
+    },
+    {
+      "name": "c2_papier_deroule",
+      "kind": "paper_pull",
+      "start": 12.4,
+      "duration": 0.65,
+      "peak_dbfs": -19.7,
+      "pan": 0.4,
+      "cycle": 2,
+      "file": "c2_papier_deroule.wav",
+      "seed": 3035918,
+      "start_sample": 595200,
+      "samples": 31200,
+      "end_seconds": 13.05,
+      "first_above_one_percent_seconds": 12.400833333333333,
+      "peak_dbfs_measured": -19.7,
+      "parameters": {
+        "band_hz": [
+          260,
+          4100
+        ],
+        "folds_per_second": 25,
+        "intention": "longue bande de papier déroulée et tendue"
+      },
+      "sha256": "cb73b967eb241862a4635d6cf39693dc24c0808d1b87ddb804d048b52cba97e8"
+    },
+    {
+      "name": "c2_papier_dechire",
+      "kind": "paper_tear",
+      "start": 13.05,
+      "duration": 0.145,
+      "peak_dbfs": -13.0,
+      "pan": 0.35,
+      "cycle": 2,
+      "file": "c2_papier_dechire.wav",
+      "seed": 3036055,
+      "start_sample": 626400,
+      "samples": 6960,
+      "end_seconds": 13.195,
+      "first_above_one_percent_seconds": 13.050104166666667,
+      "peak_dbfs_measured": -13.0,
+      "parameters": {
+        "band_hz": [
+          600,
+          6000
+        ],
+        "fibre_bursts_per_second": 100,
+        "intention": "courte déchirure de fibres, pas claquement mécanique"
+      },
+      "sha256": "4770e300527e3bb3a3458519cb649bf0513e92497c8b17d3e4e9723d28c4adbc"
+    },
+    {
+      "name": "c2_essuie_main",
+      "kind": "paper_wipe",
+      "start": 13.05,
+      "duration": 0.8,
+      "peak_dbfs": -20.0,
+      "pan": 0.05,
+      "cycle": 2,
+      "file": "c2_essuie_main.wav",
+      "seed": 3036192,
+      "start_sample": 626400,
+      "samples": 38400,
+      "end_seconds": 13.85,
+      "first_above_one_percent_seconds": 13.051291666666666,
+      "peak_dbfs_measured": -20.0,
+      "parameters": {
+        "band_hz": [
+          230,
+          3700
+        ],
+        "pressure_peaks_fraction": [
+          0.25,
+          0.7
+        ],
+        "intention": "deux frottements feutrés sur la main"
+      },
+      "sha256": "cae6bc81e0837f2dfc0dbfe582b978edc9eca2333b0b36a4517ebaade7430c64"
+    },
+    {
+      "name": "c2_papier_froisse",
+      "kind": "paper_crumple",
+      "start": 13.85,
+      "duration": 0.35,
+      "peak_dbfs": -17.0,
+      "pan": -0.05,
+      "cycle": 2,
+      "file": "c2_papier_froisse.wav",
+      "seed": 3036329,
+      "start_sample": 664800,
+      "samples": 16800,
+      "end_seconds": 14.2,
+      "first_above_one_percent_seconds": 13.851625,
+      "peak_dbfs_measured": -17.0,
+      "parameters": {
+        "base_band_hz": [
+          220,
+          3500
+        ],
+        "folds_per_second": 65,
+        "intention": "papier comprimé en grosse boulette"
+      },
+      "sha256": "1e85898cbe4702c656aec1f0a07dd4191716f4bb38486600b7fd2d25eaf4f82c"
+    },
+    {
+      "name": "c2_papier_lache",
+      "kind": "paper_flight",
+      "start": 14.38,
+      "duration": 0.355,
+      "peak_dbfs": -26.0,
+      "pan": -0.35,
+      "cycle": 2,
+      "file": "c2_papier_lache.wav",
+      "seed": 3036466,
+      "start_sample": 690240,
+      "samples": 17040,
+      "end_seconds": 14.735,
+      "first_above_one_percent_seconds": 14.386229166666666,
+      "peak_dbfs_measured": -26.0,
+      "parameters": {
+        "band_hz": [
+          160,
+          2800
+        ],
+        "intention": "air déplacé discret après le lâcher"
+      },
+      "sha256": "f76cc8a7d544215b00110f81d3009d0edcd31669222ee9c382b1a5d8ea81b3f7"
+    },
+    {
+      "name": "c2_poubelle_impact",
+      "kind": "paper_land",
+      "start": 14.77,
+      "duration": 0.2,
+      "peak_dbfs": -16.75,
+      "pan": -0.45,
+      "cycle": 2,
+      "file": "c2_poubelle_impact.wav",
+      "seed": 3036603,
+      "start_sample": 708960,
+      "samples": 9600,
+      "end_seconds": 14.97,
+      "first_above_one_percent_seconds": 14.770083333333334,
+      "peak_dbfs_measured": -16.75,
+      "parameters": {
+        "body_band_hz": [
+          75,
+          1250.0
+        ],
+        "fold_band_hz": [
+          650,
+          3684.210526315789
+        ],
+        "paper_cushioning_step": 1.0,
+        "secondary_fold_offset_seconds": 0.033,
+        "intention": "impact souple de papier dans une petite poubelle"
+      },
+      "sha256": "7f28080dcd473cc5f2c9583446b92c4dccc0ed16c8f65fa916edb41763e58fe9"
+    },
+    {
+      "name": "c3_robinet_ouvre",
+      "kind": "tap",
+      "start": 18.28,
+      "duration": 0.075,
+      "peak_dbfs": -21.0,
+      "pan": -0.6,
+      "cycle": 3,
+      "file": "c3_robinet_ouvre.wav",
+      "seed": 3036740,
+      "start_sample": 877440,
+      "samples": 3600,
+      "end_seconds": 18.355,
+      "first_above_one_percent_seconds": 18.280041666666666,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "sha256": "e98f3b5c6ed5d28b0e67497fcdc48a14949986adbea016a9ef34752e9989d597"
+    },
+    {
+      "name": "c3_eau",
+      "kind": "water",
+      "start": 18.28,
+      "duration": 1.07,
+      "peak_dbfs": -15.5,
+      "pan": -0.55,
+      "cycle": 3,
+      "file": "c3_eau.wav",
+      "seed": 3036877,
+      "start_sample": 877440,
+      "samples": 51360,
+      "end_seconds": 19.35,
+      "first_above_one_percent_seconds": 18.281916666666667,
+      "peak_dbfs_measured": -15.5,
+      "parameters": {
+        "body_band_hz": [
+          160,
+          1800
+        ],
+        "air_band_hz": [
+          1000,
+          5100
+        ],
+        "micro_splashes_per_second": 20,
+        "intention": "petit filet d’eau, sans bruit blanc agressif"
+      },
+      "sha256": "780ea7adc2e6f640954fa77e186d03a3e9033980db3a9ac29dcb2322b17b3e4f"
+    },
+    {
+      "name": "c3_robinet_ferme",
+      "kind": "tap",
+      "start": 19.35,
+      "duration": 0.075,
+      "peak_dbfs": -21.5,
+      "pan": -0.6,
+      "cycle": 3,
+      "file": "c3_robinet_ferme.wav",
+      "seed": 3037014,
+      "start_sample": 928800,
+      "samples": 3600,
+      "end_seconds": 19.425,
+      "first_above_one_percent_seconds": 19.350104166666668,
+      "peak_dbfs_measured": -21.5,
+      "parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "sha256": "a0cdb8313f9c7cb059f23f2f0fb51f49b4981941d1dd3fb319b1c4ba420fe869"
+    },
+    {
+      "name": "c3_main_sous_eau",
+      "kind": "hand_water",
+      "start": 18.38,
+      "duration": 0.64,
+      "peak_dbfs": -21.0,
+      "pan": -0.55,
+      "cycle": 3,
+      "file": "c3_main_sous_eau.wav",
+      "seed": 3037151,
+      "start_sample": 882240,
+      "samples": 30720,
+      "end_seconds": 19.02,
+      "first_above_one_percent_seconds": 18.38104166666667,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "band_hz": [
+          200,
+          2800
+        ],
+        "splashes_per_second": 23,
+        "intention": "main qui se tourne sous le filet, petits clapotis"
+      },
+      "sha256": "f125d628ea9a1445d337dbb55a85609bded9bb75871c3cb7dc80acf3f3633cde"
+    },
+    {
+      "name": "c3_papier_deroule",
+      "kind": "paper_pull",
+      "start": 19.76,
+      "duration": 0.54,
+      "peak_dbfs": -19.4,
+      "pan": 0.4,
+      "cycle": 3,
+      "file": "c3_papier_deroule.wav",
+      "seed": 3037288,
+      "start_sample": 948480,
+      "samples": 25920,
+      "end_seconds": 20.3,
+      "first_above_one_percent_seconds": 19.761,
+      "peak_dbfs_measured": -19.4,
+      "parameters": {
+        "band_hz": [
+          260,
+          4100
+        ],
+        "folds_per_second": 25,
+        "intention": "longue bande de papier déroulée et tendue"
+      },
+      "sha256": "bbe5a9cc4efbbfa5b7658cd0474a11d75b08f7505d6346eacf971b59ad91818a"
+    },
+    {
+      "name": "c3_papier_dechire",
+      "kind": "paper_tear",
+      "start": 20.3,
+      "duration": 0.145,
+      "peak_dbfs": -13.0,
+      "pan": 0.35,
+      "cycle": 3,
+      "file": "c3_papier_dechire.wav",
+      "seed": 3037425,
+      "start_sample": 974400,
+      "samples": 6960,
+      "end_seconds": 20.445,
+      "first_above_one_percent_seconds": 20.3000625,
+      "peak_dbfs_measured": -13.0,
+      "parameters": {
+        "band_hz": [
+          600,
+          6000
+        ],
+        "fibre_bursts_per_second": 100,
+        "intention": "courte déchirure de fibres, pas claquement mécanique"
+      },
+      "sha256": "666de359083b3f4fdf799409f5068fe33541b0a94f662bfae053d9099f71d8a4"
+    },
+    {
+      "name": "c3_essuie_main",
+      "kind": "paper_wipe",
+      "start": 20.3,
+      "duration": 0.65,
+      "peak_dbfs": -20.0,
+      "pan": 0.05,
+      "cycle": 3,
+      "file": "c3_essuie_main.wav",
+      "seed": 3037562,
+      "start_sample": 974400,
+      "samples": 31200,
+      "end_seconds": 20.95,
+      "first_above_one_percent_seconds": 20.301270833333334,
+      "peak_dbfs_measured": -20.0,
+      "parameters": {
+        "band_hz": [
+          230,
+          3700
+        ],
+        "pressure_peaks_fraction": [
+          0.25,
+          0.7
+        ],
+        "intention": "deux frottements feutrés sur la main"
+      },
+      "sha256": "d2e207b27d4a3bde12032da0f3aa1059973fede9516c918892ab3f18f093eb2c"
+    },
+    {
+      "name": "c3_papier_froisse",
+      "kind": "paper_crumple",
+      "start": 20.95,
+      "duration": 0.3,
+      "peak_dbfs": -17.0,
+      "pan": -0.05,
+      "cycle": 3,
+      "file": "c3_papier_froisse.wav",
+      "seed": 3037699,
+      "start_sample": 1005600,
+      "samples": 14400,
+      "end_seconds": 21.25,
+      "first_above_one_percent_seconds": 20.952166666666667,
+      "peak_dbfs_measured": -17.0,
+      "parameters": {
+        "base_band_hz": [
+          220,
+          3500
+        ],
+        "folds_per_second": 65,
+        "intention": "papier comprimé en grosse boulette"
+      },
+      "sha256": "45969e32034bffc96377169daed0ff4004e1e7f58fbd36cbb7c684dd712cb202"
+    },
+    {
+      "name": "c3_papier_lache",
+      "kind": "paper_flight",
+      "start": 21.4,
+      "duration": 0.335,
+      "peak_dbfs": -26.0,
+      "pan": -0.35,
+      "cycle": 3,
+      "file": "c3_papier_lache.wav",
+      "seed": 3037836,
+      "start_sample": 1027200,
+      "samples": 16080,
+      "end_seconds": 21.735,
+      "first_above_one_percent_seconds": 21.406104166666665,
+      "peak_dbfs_measured": -26.0,
+      "parameters": {
+        "band_hz": [
+          160,
+          2800
+        ],
+        "intention": "air déplacé discret après le lâcher"
+      },
+      "sha256": "9b88c5c370ee8788200d3f6928a536121e673f3871a9581e76e4f95c5488c879"
+    },
+    {
+      "name": "c3_poubelle_impact",
+      "kind": "paper_land",
+      "start": 21.77,
+      "duration": 0.2,
+      "peak_dbfs": -18.0,
+      "pan": -0.45,
+      "cycle": 3,
+      "file": "c3_poubelle_impact.wav",
+      "seed": 3037973,
+      "start_sample": 1044960,
+      "samples": 9600,
+      "end_seconds": 21.97,
+      "first_above_one_percent_seconds": 21.770041666666668,
+      "peak_dbfs_measured": -18.0,
+      "parameters": {
+        "body_band_hz": [
+          75,
+          1071.4285714285716
+        ],
+        "fold_band_hz": [
+          650,
+          3281.25
+        ],
+        "paper_cushioning_step": 2.0,
+        "secondary_fold_offset_seconds": 0.033,
+        "intention": "impact souple de papier dans une petite poubelle"
+      },
+      "sha256": "68e0d38c236554f9f3d782489fcff10e8967d0b88d97b66912beeca2b4deb29c"
+    },
+    {
+      "name": "c4_robinet_ouvre",
+      "kind": "tap",
+      "start": 23.24,
+      "duration": 0.075,
+      "peak_dbfs": -21.0,
+      "pan": -0.6,
+      "cycle": 4,
+      "file": "c4_robinet_ouvre.wav",
+      "seed": 3038110,
+      "start_sample": 1115520,
+      "samples": 3600,
+      "end_seconds": 23.315,
+      "first_above_one_percent_seconds": 23.240041666666666,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "sha256": "b78003a140884d9dc9d55cce5c60fa38e8a2e6c42c67e257cbce984b5659f106"
+    },
+    {
+      "name": "c4_eau",
+      "kind": "water",
+      "start": 23.24,
+      "duration": 0.98,
+      "peak_dbfs": -15.5,
+      "pan": -0.55,
+      "cycle": 4,
+      "file": "c4_eau.wav",
+      "seed": 3038247,
+      "start_sample": 1115520,
+      "samples": 47040,
+      "end_seconds": 24.22,
+      "first_above_one_percent_seconds": 23.242270833333333,
+      "peak_dbfs_measured": -15.5,
+      "parameters": {
+        "body_band_hz": [
+          160,
+          1800
+        ],
+        "air_band_hz": [
+          1000,
+          5100
+        ],
+        "micro_splashes_per_second": 20,
+        "intention": "petit filet d’eau, sans bruit blanc agressif"
+      },
+      "sha256": "b9ab45e05bd5488c7f5f0996d22449a3d19bf9b4364f85baf3ccb54d44884431"
+    },
+    {
+      "name": "c4_robinet_ferme",
+      "kind": "tap",
+      "start": 24.22,
+      "duration": 0.075,
+      "peak_dbfs": -21.5,
+      "pan": -0.6,
+      "cycle": 4,
+      "file": "c4_robinet_ferme.wav",
+      "seed": 3038384,
+      "start_sample": 1162560,
+      "samples": 3600,
+      "end_seconds": 24.295,
+      "first_above_one_percent_seconds": 24.220125,
+      "peak_dbfs_measured": -21.5,
+      "parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "sha256": "780ee32c1e1c51457d7946e0385186136382fc0be1593cee46a66b949bd7d956"
+    },
+    {
+      "name": "c4_main_sous_eau",
+      "kind": "hand_water",
+      "start": 23.32,
+      "duration": 0.59,
+      "peak_dbfs": -21.0,
+      "pan": -0.55,
+      "cycle": 4,
+      "file": "c4_main_sous_eau.wav",
+      "seed": 3038521,
+      "start_sample": 1119360,
+      "samples": 28320,
+      "end_seconds": 23.91,
+      "first_above_one_percent_seconds": 23.320916666666665,
+      "peak_dbfs_measured": -21.0,
+      "parameters": {
+        "band_hz": [
+          200,
+          2800
+        ],
+        "splashes_per_second": 23,
+        "intention": "main qui se tourne sous le filet, petits clapotis"
+      },
+      "sha256": "99676887ca4352a20a304dd32871f6872e03a21c35fa2a5dfd68fb7a14775256"
+    },
+    {
+      "name": "c4_papier_deroule",
+      "kind": "paper_pull",
+      "start": 24.55,
+      "duration": 0.45,
+      "peak_dbfs": -19.1,
+      "pan": 0.4,
+      "cycle": 4,
+      "file": "c4_papier_deroule.wav",
+      "seed": 3038658,
+      "start_sample": 1178400,
+      "samples": 21600,
+      "end_seconds": 25.0,
+      "first_above_one_percent_seconds": 24.551104166666665,
+      "peak_dbfs_measured": -19.1,
+      "parameters": {
+        "band_hz": [
+          260,
+          4100
+        ],
+        "folds_per_second": 25,
+        "intention": "longue bande de papier déroulée et tendue"
+      },
+      "sha256": "ee908310a8d30a00914bf22a43a46057d45aa99bf395a25711b3047183190468"
+    },
+    {
+      "name": "c4_papier_dechire",
+      "kind": "paper_tear",
+      "start": 25.0,
+      "duration": 0.145,
+      "peak_dbfs": -13.0,
+      "pan": 0.35,
+      "cycle": 4,
+      "file": "c4_papier_dechire.wav",
+      "seed": 3038795,
+      "start_sample": 1200000,
+      "samples": 6960,
+      "end_seconds": 25.145,
+      "first_above_one_percent_seconds": 25.000125,
+      "peak_dbfs_measured": -13.0,
+      "parameters": {
+        "band_hz": [
+          600,
+          6000
+        ],
+        "fibre_bursts_per_second": 100,
+        "intention": "courte déchirure de fibres, pas claquement mécanique"
+      },
+      "sha256": "00d7974a7bd25682133cc477352614c2601ee5b01ddf33be10a28f1e2d0ca8a4"
+    },
+    {
+      "name": "c4_essuie_main",
+      "kind": "paper_wipe",
+      "start": 25.0,
+      "duration": 0.47,
+      "peak_dbfs": -20.0,
+      "pan": 0.05,
+      "cycle": 4,
+      "file": "c4_essuie_main.wav",
+      "seed": 3038932,
+      "start_sample": 1200000,
+      "samples": 22560,
+      "end_seconds": 25.47,
+      "first_above_one_percent_seconds": 25.001291666666667,
+      "peak_dbfs_measured": -20.0,
+      "parameters": {
+        "band_hz": [
+          230,
+          3700
+        ],
+        "pressure_peaks_fraction": [
+          0.25,
+          0.7
+        ],
+        "intention": "deux frottements feutrés sur la main"
+      },
+      "sha256": "3ee46543b6a44050693e7af25d49fc95fd6637eb15f45ee33c5e2a7b6b0a171b"
+    },
+    {
+      "name": "c4_papier_froisse",
+      "kind": "paper_crumple",
+      "start": 25.47,
+      "duration": 0.18,
+      "peak_dbfs": -17.0,
+      "pan": -0.05,
+      "cycle": 4,
+      "file": "c4_papier_froisse.wav",
+      "seed": 3039069,
+      "start_sample": 1222560,
+      "samples": 8640,
+      "end_seconds": 25.65,
+      "first_above_one_percent_seconds": 25.471625,
+      "peak_dbfs_measured": -17.0,
+      "parameters": {
+        "base_band_hz": [
+          220,
+          3500
+        ],
+        "folds_per_second": 65,
+        "intention": "papier comprimé en grosse boulette"
+      },
+      "sha256": "f997ebe0c1da775bf41615b485e8e24247b698ba6973036fa22aa2b42b2a2a23"
+    },
+    {
+      "name": "c4_papier_lache",
+      "kind": "paper_flight",
+      "start": 25.8,
+      "duration": 0.36,
+      "peak_dbfs": -26.0,
+      "pan": -0.35,
+      "cycle": 4,
+      "file": "c4_papier_lache.wav",
+      "seed": 3039206,
+      "start_sample": 1238400,
+      "samples": 17280,
+      "end_seconds": 26.16,
+      "first_above_one_percent_seconds": 25.806229166666668,
+      "peak_dbfs_measured": -26.0,
+      "parameters": {
+        "band_hz": [
+          160,
+          2800
+        ],
+        "intention": "air déplacé discret après le lâcher"
+      },
+      "sha256": "d756bb861db50da7ca2bf546a0a27b3ce9ce8adba0c4621dd7015c834a711d2f"
+    },
+    {
+      "name": "c4_poubelle_impact",
+      "kind": "paper_land",
+      "start": 26.22,
+      "duration": 0.2,
+      "peak_dbfs": -19.25,
+      "pan": -0.45,
+      "cycle": 4,
+      "file": "c4_poubelle_impact.wav",
+      "seed": 3039343,
+      "start_sample": 1258560,
+      "samples": 9600,
+      "end_seconds": 26.42,
+      "first_above_one_percent_seconds": 26.220041666666667,
+      "peak_dbfs_measured": -19.25,
+      "parameters": {
+        "body_band_hz": [
+          75,
+          937.5
+        ],
+        "fold_band_hz": [
+          650,
+          2957.7464788732395
+        ],
+        "paper_cushioning_step": 3.0,
+        "secondary_fold_offset_seconds": 0.033,
+        "intention": "impact souple de papier dans une petite poubelle"
+      },
+      "sha256": "1b10cecfe486d93d38dc7ea25592cacc2bb2789006c8b76aeba9ee7d6c38fd6f"
+    }
+  ],
+  "no_music": true,
+  "no_voice": true,
+  "reproduction": ".venv/bin/python -B episodes/03/carotte_v4/sources/son.py",
+  "limits": "Contrôles numériques PCM et concordance avec les événements prévus. Pas d’écoute humaine, de contrôle haut-parleur mobile ni de validation des contacts dans la vidéo par ce rapport."
+}

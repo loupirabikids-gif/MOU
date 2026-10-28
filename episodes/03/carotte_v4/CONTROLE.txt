@@ -1,0 +1,56 @@
+MOU — ENCORE UNE FEUILLE, CAROTTE ET RÉFLEXE
+Contrôles du 28 octobre 2026 — Africa/Casablanca
+
+Livrables réels : MP4 vertical 1080 × 1920, 24 images/s, 696 images,
+29 secondes ; H.264/yuv420p avec AAC 48 kHz stéréo, et version muette.
+Animatique complète 540 × 960 à 12 images/s, aperçu GIF de 29 s et sources.
+
+RÉCIT ET CORRECTIONS
+Quatre rituels après remuage, tomate, deux coupes de carotte, puis manche propre.
+Durées inspection→fin du jet : 6,00 ; 5,25 ; 4,20 ; 3,65 s.
+Deux rondelles persistent ; couteau posé avant lavage. Quatre bandes et quatre
+jets, avec les mêmes papiers conservés dans la poubelle et le dernier débordant.
+Doute visible dès 2,50 s, clignements d’inspection retirés. Zoom de découpe ×1,24.
+Départ final vers le papier puis interception à 27,55 s ; aucune cinquième feuille.
+Léger engagement du corps de 70 px à droite pour ce geste ; tenue de 28,40 à 29 s.
+Voir controle/CORRECTIONS.md et les critiques des études/animatique/final.
+
+MODÈLE ET CONTACTS
+Rig original inchangé, ainsi que huit fonctions de dessin, articulation,
+solveur et raccord local des bras, comparées au montage corrigé précédent.
+Deux mains dans chaque structure SVG ; références et identifiants contrôlés
+sur les 696 états. Erreur maximale des prises programmées : 0.00000007 px.
+Décor validé inchangé. Les gros plans lavabo gardent uniquement le lavabo,
+le robinet et la main, à la même proportion corrigée de 0,70.
+
+FICHIERS EXPORTÉS
+Décodage intégral sans erreur des deux MP4. Flux H.264 strictement identique
+entre version avec son et muette. Comparaison de 23 images décodées à des SVG
+rendus à neuf, hors cache : toutes sous le seuil moyen de 3/255, sur image et
+régions visibles mains/robinet/poubelle. Moyenne maximale sur image entière :
+1.618221/255.
+Rapport détaillé : controle/audit_final.json.
+
+SON
+48 événements originaux synthétisés localement ; quatre rituels complets et
+deux coups de carotte à 16,05 et 16,75 s. Ni dialogue, ni musique, ni son téléchargé.
+WAV 48 kHz, stéréo, 16 bits ; pic -4.00 dBFS, aucun échantillon saturé.
+AAC décodé : pic -4.42 dBFS, signal fini sans saturation.
+Corrélation AAC/WAV sans décalage : 0.997326.
+Dernière tenue : cuisson seule. Paramètres et provenance dans audio/provenance.json.
+
+CRITIQUE ET LIMITES
+Critique indépendante de 80 images décodées de l’animatique puis de 20 images
+ciblées du vrai MP4 final. Les corrections retenues ont été revues. Cette lecture
+séquentielle et ces contrôles numériques restent distincts d’une projection
+continue, d’une écoute perceptive sur téléphone et d’un test auprès d’un public.
+Aucun avis de public, chiffre d’audience ou écoute humaine n’est revendiqué.
+Le montage est proposé au retour créatif de l’utilisatrice.
+
+SHA-256 MP4 avec son :
+24ff34b9c7869c6d195527e9083e8a9606b3bb562de7d2ac34bc15bfaeee18a3
+SHA-256 MP4 muet :
+9f469b1bb75a7656ab0fd796a72e76b72b2a752026ac0e0c897045ddd1f7c262
+
+Le montage précédent de 26 s, le décor, le placement et le test de remuage
+restent conservés dans leurs dossiers. Aucun épisode écarté n’a été relancé.

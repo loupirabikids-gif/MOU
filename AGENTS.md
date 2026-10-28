@@ -6,11 +6,21 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
-Demande actuelle : proposer l’ajout de découpe de carotte et des rituels qui
+Accord courant « vas y » après la planche d’expressions : révision
+carotte/accélération fabriquée dans `episodes/03/carotte_v4/`. Sa chronologie locale fixe
+29 s, quatre rituels, deux coupes de carotte et une interception finale avant
+le papier. Les études, l’animatique complète et l’export sont produits ; voir
+`controle/` pour les critiques et les corrections. Attendre le retour créatif
+de l’utilisatrice sur ce montage, sans lancer un nouvel épisode. Les fichiers de `film/` et la
+chronologie v2 restent conservés. Le décor, les mains et les fonctions de dessin
+et de raccord des bras restent ceux du montage corrigé précédent.
+
+Historique de cette révision : proposer l’ajout de découpe de carotte et des rituels qui
 s’accélèrent, puis rechercher des outils gratuits utiles au jeu et au son.
 Les propositions et avis sont dans `episodes/03/developpement/*carotte*v3*` et
-la recherche sourcée dans `recherche/`. Le découpage consolidé est proposé,
-pas encore un nouveau montage validé. La vidéo du commit8b92bed reste la référence ;
+la recherche sourcée dans `recherche/`. Le découpage consolidé était proposé
+avant fabrication ; sa réalisation est désormais dans `carotte_v4/`. La vidéo
+du commit8b92bed reste la référence de construction corrigée des bras ;
 aucune migration de moteur ni installation de plugin n’a été décidée.
 
 Dernier complément demandé : rendre les émotions et les intentions de MOU

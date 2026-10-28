@@ -1,11 +1,17 @@
 # MOU en cuisine — essuie-tout
 
+**Version courante : [carotte, quatre rituels accélérés et jeu sans dialogue,
+29 secondes](carotte_v4/).** [MP4 avec son](carotte_v4/MOU_Encore_une_feuille.mp4?raw=true),
+[muet](carotte_v4/MOU_Encore_une_feuille_muette.mp4?raw=true),
+[sources](carotte_v4/MOU_Encore_une_feuille_sources.zip?raw=true) et
+[contrôles](carotte_v4/CONTROLE.txt). Le montage de 26 s ci-dessous est conservé
+comme version précédente.
+
 Le décor, le placement et le test muet de remuage sont validés. Le script corrigé
 est accepté : **trois lavages complets pendant la cuisine, beaucoup trop de
 papier et une poubelle qui se remplit à chaque jet.**
 
-Proposition suivante, pas encore fabriquée : [carotte, quatre rituels et
-accélération progressive](developpement/decoupage_carotte_v3_propose.md).
+[Découpage ayant guidé la révision carotte](developpement/decoupage_carotte_v3_propose.md).
 [Recherche sourcée d’outils gratuits pour le jeu et le son](../../recherche/README.md).
 [Direction de jeu sans dialogue et planche d’expressions](developpement/expressions_v4/README.md).
 

@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "/workspace/MOU/episodes/03/carotte_v4/sources/animation.py": "64842f9fbced6d3b2de48212aaa2a62d930cd4b8ad88fb7c65fb7200854fb407",
+    "/workspace/MOU/episodes/03/carotte_v4/sources/art.py": "84d1aa660b8e6d5e51a2c3a9e660d149e768538e86c3c53746fcd046f39959c9",
+    "/workspace/MOU/episodes/03/carotte_v4/sources/render.py": "cfaf519fa7eaf32c5a1d768c982ae0c5c007f9c3f41088f46f6b10c750f330f5",
+    "/workspace/MOU/episodes/03/carotte_v4/chronologie.json": "4e77827bc473cdfd4ba5aa3f6426a522f899f76c628335074e6d147c8fcfa13f"
+  },
+  "output": "/workspace/MOU/episodes/03/carotte_v4/MOU_Encore_une_feuille_animatique.mp4"
+}

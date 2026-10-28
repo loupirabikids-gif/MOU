@@ -1,0 +1,28 @@
+{
+  "titre": "Encore une feuille — carotte et réflexe",
+  "version": 4,
+  "duration": 29.0,
+  "fps": 24,
+  "dimensions": [1080, 1920],
+  "accord": "vas y après direction de jeu sans dialogue et planche de six intentions",
+  "cycles": [
+    {"id": 1, "trigger": "remuer", "trigger_start": 0.0, "inspect": [2.5, 2.75], "sink": [2.75, 5.3], "open": [2.75, 3.23], "water": [3.23, 5.05], "wash": [3.4, 4.7], "close": [4.7, 5.1], "paper": [5.3, 7.6], "reach": [5.3, 5.65], "pull": [5.65, 6.4], "tear": 6.4, "wipe": [6.4, 7.25], "crumple": [7.25, 7.6], "throw": [7.6, 8.5], "release": 7.8, "land": 8.22, "zoom": [7.85, 8.5], "amount": 1.0},
+    {"id": 2, "trigger": "ajouter une tomate", "trigger_start": 8.5, "inspect": [9.75, 10.0], "sink": [10.0, 12.1], "open": [10.0, 10.35], "water": [10.35, 11.9], "wash": [10.48, 11.55], "close": [11.55, 11.95], "paper": [12.1, 14.2], "reach": [12.1, 12.4], "pull": [12.4, 13.05], "tear": 13.05, "wipe": [13.05, 13.85], "crumple": [13.85, 14.2], "throw": [14.2, 15.0], "release": 14.38, "land": 14.77, "zoom": [14.43, 15.0], "amount": 1.4},
+    {"id": 3, "trigger": "découper une carotte", "trigger_start": 15.0, "inspect": [17.8, 18.0], "sink": [18.0, 19.5], "open": [18.0, 18.28], "water": [18.28, 19.35], "wash": [18.38, 19.02], "close": [19.02, 19.4], "paper": [19.5, 21.25], "reach": [19.5, 19.76], "pull": [19.76, 20.3], "tear": 20.3, "wipe": [20.3, 20.95], "crumple": [20.95, 21.25], "throw": [21.25, 22.0], "release": 21.4, "land": 21.77, "zoom": [21.45, 22.0], "amount": 1.9},
+    {"id": 4, "trigger": "reprendre le manche propre de la cuillère", "trigger_start": 22.0, "inspect": [22.85, 23.0], "sink": [23.0, 24.35], "open": [23.0, 23.24], "water": [23.24, 24.22], "wash": [23.32, 23.91], "close": [23.91, 24.27], "paper": [24.35, 25.65], "reach": [24.35, 24.55], "pull": [24.55, 25.0], "tear": 25.0, "wipe": [25.0, 25.47], "crumple": [25.47, 25.65], "throw": [25.65, 26.5], "release": 25.8, "land": 26.22, "zoom": [25.85, 26.5], "amount": 2.5}
+  ],
+  "carrot": {"start": 15.0, "cut_times": [16.05, 16.75], "knife_set_down": 17.45, "end": 17.8},
+  "cooking_events": {"spoon_down": 2.45, "tomato_contact": 9.3, "clean_handle": 22.5},
+  "final": [26.5, 29.0],
+  "final_hold": [28.4, 29.0],
+  "repere": {"actor": [80, 380, 2.3], "actor_sink": [140, 380, 2.3], "faucet_tip": [102, 1069], "tap_control": [215, 1100], "water_hand": [102, 1166], "bin": [165, 1625]},
+  "notes": [
+    "Même décor, modèle, deux moufles et raccords corrigés que le montage précédent.",
+    "Quatre rituels complets ; intervalles inspect-début à fin du jet : 6.0, 5.25, 4.2 et 3.65 secondes.",
+    "Accélérer approches et transitions en conservant commande, eau, séchage, lâcher et arrivée.",
+    "Deux coupes et deux rondelles persistantes ; couteau posé avant le lavabo.",
+    "Chaque insert lavabo garde la main seule à la proportion corrigée .70.",
+    "Interception finale avant contact avec le papier ; pas de cinquième feuille ni de cinquième jet.",
+    "Lecture en silence avant contrôle des bruitages. Dernière tenue avec cuisson seule, sans dialogue."
+  ]
+}

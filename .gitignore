@@ -4,3 +4,5 @@ __pycache__/
 work/
 episodes/*/frames/
 episodes/*/cache/
+episodes/03/carotte_v4/frames/
+episodes/03/carotte_v4/cache/
