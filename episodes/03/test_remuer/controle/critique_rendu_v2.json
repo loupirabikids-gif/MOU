@@ -1,0 +1,14 @@
+{
+  "verdict": "favorable_rendu_1080_test_seul",
+  "mp4_sha256": "21f1d4bfc63e1f44862b7bd1e94dbc88c3f23130ad8ce02601cbf26daaebff92",
+  "source_sha256": "d6883d83cbd669ea08bf85fe5d40182f027c7ab28d15b9d7a2a011d0bb98f5f4",
+  "decoded_frames_examined": 96,
+  "method": "dense decoded frame extraction, no real-time playback",
+  "tempo_issue_corrected": true,
+  "blocking_defects_observed": [],
+  "proof": [
+    "work/remuer_critique/v2/dense_1.png",
+    "work/remuer_critique/v2/dense_2.png",
+    "episodes/03/test_remuer/controle/critique_tempo_v2.png"
+  ]
+}

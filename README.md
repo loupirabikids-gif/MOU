@@ -1,20 +1,18 @@
 # MOU
 
-**Étape actuelle : le placement fixe de MOU dans la cuisine.**
-Le décor est validé. Cette image propose la taille et la position du personnage ;
-la suite se fera après le retour de l’utilisatrice.
+**Étape actuelle : un court test où MOU remue la poêle.**
+Le décor et le placement sont validés. Ce test muet de4secondes permet
+maintenant d’apprécier le geste avant de poursuivre avec l’essuyage.
 
-[![Placement de MOU proposé](episodes/03/placement/MOU_cuisine_placement_apercu.png)](episodes/03/placement/MOU_cuisine_placement.png)
+[![Test du remuage](episodes/03/test_remuer/MOU_test_remuer_apercu.gif)](episodes/03/test_remuer/MOU_test_remuer.mp4?raw=true)
 
-- **[Placement PNG 1080 × 1920](episodes/03/placement/MOU_cuisine_placement.png?raw=true)**
-- [Source SVG du placement](episodes/03/placement/MOU_cuisine_placement.svg?raw=true)
-- [Décor validé](episodes/03/decor/MOU_cuisine_decor.png?raw=true)
-- [Source SVG](episodes/03/decor/MOU_cuisine_decor.svg?raw=true)
-- [Dossier de la cuisine](episodes/03/) · [Sources et calques](episodes/03/decor/README.md)
+- **[Voir le test MP4](episodes/03/test_remuer/MOU_test_remuer.mp4?raw=true)**
+- [Sources et contrôles](episodes/03/test_remuer/) · [Bilan](episodes/03/test_remuer/CONTROLE.txt)
+- [Placement validé](episodes/03/placement/) · [Décor validé](episodes/03/decor/)
 
 Le gag en développement porte sur le réflexe de s’essuyer les mains après
-chaque contact pendant que MOU cuisine réellement. Cette étape présente
-seulement une image fixe de placement.
+chaque contact pendant que MOU cuisine réellement. Cette étape ne présente
+que le test de remuage, sans essuyage ni épisode complet.
 
 Les anciens épisodes sont conservés, mis de côté :
 [Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
@@ -80,7 +78,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-L’étape en cours et ses sources se trouvent dans `episodes/03/placement/`.
+L’étape en cours et ses sources se trouvent dans `episodes/03/test_remuer/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

@@ -1,0 +1,558 @@
+{
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "duration_seconds": 4.0,
+  "frames": 96,
+  "audio": false,
+  "original_rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "animation_source_sha256": "d6883d83cbd669ea08bf85fe5d40182f027c7ab28d15b9d7a2a011d0bb98f5f4",
+  "renderer_source_sha256": "24c4d9bc31a060344b41e860e5135a9b093ef1e81b90ec2f977dfe39cc7d3bc7",
+  "decor_files_unchanged": {
+    "MOU_cuisine_decor.png": "3148c402d57d24c1dc8ef5c5731aa2c07346c3d03fcade74e84c9a7e7ec2f585",
+    "MOU_cuisine_decor.svg": "7e5292c066a8bdafca4ae42586fbf89ca62f6a45dcbca468bf9b748f19da2d49",
+    "calques/accessoires_cuisine.svg": "696a466f0e2cead08dc8d22f4dbf154845e23f61805f75c69058abb7c59242a0",
+    "calques/fond_cuisine.svg": "6a1fbe07858592ea7fec969022319d1eb48236965ab4bc8028056df68786d9dc",
+    "calques/ilot_cuisine.svg": "4427ee12e9d8e38b0251e89d4425ec39d644b865b96454f9d28dea35a74497f4",
+    "calques/accessoires_cuisine.png": "b34f43d32eb19e5a39dfcd8560243286b75f69d26dc515009f4ecf02ef40e968",
+    "calques/fond_cuisine.png": "1021d2067980154b2beb8899b44161c2309c77a86b8680bf513160476b83d44b",
+    "calques/ilot_cuisine.png": "d0f38a8bc0f77183fe73da340586f1eb5de1e36c10049bc499ca95fb304669ec"
+  },
+  "decor_import_pixel_identical": true,
+  "actor_transform": "translate(80.0000 380.0000) scale(2.3000)",
+  "torso_and_feet_native_all_frames": true,
+  "two_canonical_arm_fragments_exact_once_all_frames": true,
+  "left_clasp": 0.1,
+  "right_clasp": 1.0,
+  "left_shoulder_rotation_degrees": [
+    -42.168923216962426,
+    -25.093946097813784
+  ],
+  "two_hands_all_frames": true,
+  "unique_ids_all_frames": true,
+  "all_clip_references_resolved": true,
+  "entirely_vector_artwork": true,
+  "spoon_grip_to_bowl_length_pixels": [
+    134.99999999999986,
+    135.00000000000017
+  ],
+  "maximum_pan_interior_normalized_squared_radius": 0.14617058915350015,
+  "composition_back_to_front": [
+    "approved background",
+    "native torso",
+    "approved island",
+    "approved props",
+    "world spoon",
+    "native arms"
+  ],
+  "pan_rim_extra_occlusion": false,
+  "contact_samples": {
+    "0.000000": {
+      "t": 0.0,
+      "phase": -0.22,
+      "hand": [
+        435.71472698580897,
+        1222.1310609035556
+      ],
+      "grip": [
+        435.71472698580897,
+        1222.1310609035556
+      ],
+      "grip_local": [
+        154.65857695035174,
+        366.1439395232851
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        327.1564107265712,
+        1302.3812445230296
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -42.165920349264184,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "0.333333": {
+      "t": 0.3333333333333333,
+      "phase": 0.0057465448788933116,
+      "hand": [
+        434.9221905479346,
+        1222.6522026534403
+      ],
+      "grip": [
+        434.9221905479346,
+        1222.6522026534403
+      ],
+      "grip_local": [
+        154.31399589040635,
+        366.3705228928002
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        327.9994221029745,
+        1305.0689581590136
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -41.903580031581136,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "0.708333": {
+      "t": 0.7083333333333334,
+      "phase": 1.4977674952642572,
+      "hand": [
+        405.5195381503797,
+        1238.6575894504583
+      ],
+      "grip": [
+        405.5195381503797,
+        1238.6575894504583
+      ],
+      "grip_local": [
+        141.53023397842597,
+        373.3293867175906
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        295.55373775368446,
+        1316.9680149576293
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -32.634614752759184,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "1.083333": {
+      "t": 1.0833333333333333,
+      "phase": 2.7790602957231405,
+      "hand": [
+        380.5149131612302,
+        1247.8769863253642
+      ],
+      "grip": [
+        380.5149131612302,
+        1247.8769863253642
+      ],
+      "grip_local": [
+        130.65865789618707,
+        377.3378201414627
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        260.2749391234305,
+        1309.2557175226548
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -25.258729831460993,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "1.458333": {
+      "t": 1.4583333333333333,
+      "phase": 4.025591996147809,
+      "hand": [
+        395.06964934772236,
+        1242.9571355988326
+      ],
+      "grip": [
+        395.06964934772236,
+        1242.9571355988326
+      ],
+      "grip_local": [
+        136.98680406422713,
+        375.1987546081881
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        270.8077737168746,
+        1295.7206292729982
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -29.508959310677042,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "1.833333": {
+      "t": 1.8333333333333333,
+      "phase": 5.472868180701814,
+      "hand": [
+        431.6141736236764,
+        1224.7720725376728
+      ],
+      "grip": [
+        431.6141736236764,
+        1224.7720725376728
+      ],
+      "grip_local": [
+        152.875727662468,
+        367.2922054511621
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        317.1244047675379,
+        1296.3059304461344
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -40.816902639920166,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "2.166667": {
+      "t": 2.1666666666666665,
+      "phase": 6.8584598132722405,
+      "hand": [
+        427.742272121954,
+        1227.1430743319966
+      ],
+      "grip": [
+        427.742272121954,
+        1227.1430743319966
+      ],
+      "grip_local": [
+        151.19229222693653,
+        368.3230757965203
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        322.36650446943537,
+        1311.5287816030886
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -39.561169696728555,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "2.541667": {
+      "t": 2.5416666666666665,
+      "phase": 8.275938142457724,
+      "hand": [
+        392.7777825361577,
+        1243.8123574229144
+      ],
+      "grip": [
+        392.7777825361577,
+        1243.8123574229144
+      ],
+      "grip_local": [
+        135.99034023311205,
+        375.5705901838758
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        278.66588517911947,
+        1315.9474728770174
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -28.832384917278752,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "2.916667": {
+      "t": 2.9166666666666665,
+      "phase": 9.509381192535907,
+      "hand": [
+        380.8649842643881,
+        1247.7726130144417
+      ],
+      "grip": [
+        380.8649842643881,
+        1247.7726130144417
+      ],
+      "grip_local": [
+        130.810862723647,
+        377.2924404410617
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        258.12518517281546,
+        1303.9859719156887
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -25.359763010068686,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "3.291667": {
+      "t": 3.2916666666666665,
+      "phase": 10.815767025106735,
+      "hand": [
+        409.43132974054186,
+        1236.873081020576
+      ],
+      "grip": [
+        409.43132974054186,
+        1236.873081020576
+      ],
+      "grip_local": [
+        143.23101293067037,
+        372.55351348720694
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        286.74060187298255,
+        1293.1934618371906
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -33.82380480841629,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "3.666667": {
+      "t": 3.6666666666666665,
+      "phase": 12.278280714723891,
+      "hand": [
+        435.7020776013769,
+        1222.139419534493
+      ],
+      "grip": [
+        435.7020776013769,
+        1222.139419534493
+      ],
+      "grip_local": [
+        154.65307721799,
+        366.14757371064917
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        326.55759135967435,
+        1301.590543648849
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -42.16172701264977,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    },
+    "3.958333": {
+      "t": 3.9583333333333335,
+      "phase": 12.346370614359172,
+      "hand": [
+        435.71472698580897,
+        1222.1310609035556
+      ],
+      "grip": [
+        435.71472698580897,
+        1222.1310609035556
+      ],
+      "grip_local": [
+        154.65857695035174,
+        366.1439395232851
+      ],
+      "native_grip_local": [
+        91.36452459122688,
+        380.0317905143431
+      ],
+      "bowl": [
+        327.1564107265712,
+        1302.3812445230296
+      ],
+      "spoon_length": 135.0,
+      "left_clasp": 0.1,
+      "left_rotation_deg": -42.165920349264184,
+      "shoulder": [
+        321.5,
+        1049.3
+      ],
+      "pan_interior": {
+        "center": [
+          293.0,
+          1304.0
+        ],
+        "radii": [
+          114.0,
+          34.0
+        ]
+      },
+      "contact": "left original mitten holds spoon; bowl remains inside pan"
+    }
+  },
+  "limits": "Native source geometry and contacts verified. Natural movement, grip readability and depth require review of the rendered video."
+}

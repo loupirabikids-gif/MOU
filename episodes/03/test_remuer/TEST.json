@@ -1,0 +1,45 @@
+{
+  "etape": "microtest_remuer_uniquement",
+  "version_tempo": 2,
+  "duration_seconds": 4.0,
+  "fps": 24,
+  "frames": 96,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "audio": false,
+  "placement_valide_commit": "1e99defc120e5d3a5b45c2fee605b36f9e894944",
+  "decor_valide_commit": "795563c2855866993ed4d4a610616544d6e92dac",
+  "placement": {
+    "translate": [
+      80.0,
+      380.0
+    ],
+    "scale": 2.3
+  },
+  "tours": 2,
+  "stir_start": 0.2,
+  "stir_end": 3.75,
+  "final_hold_seconds": 0.25,
+  "fichiers": {
+    "MOU_test_remuer.mp4": {
+      "bytes": 209004,
+      "sha256": "69e2038883af04a9f52fcb6937c23665e7f7a38e5e7e9ea9fcf06de946f5d8f5"
+    },
+    "MOU_test_remuer_apercu.gif": {
+      "bytes": 1037698,
+      "sha256": "b8827eca0b5a85505d657fbd0c47c0eb3bb96794eda8f6c843eb32ffa409b16a"
+    }
+  },
+  "apercu_gif": {
+    "dimensions": [
+      432,
+      768
+    ],
+    "nominal_fps": 24,
+    "frames": 96,
+    "duration_ms": 4000
+  },
+  "limite": "Étude du remuage muet, sans essuyage ni épisode complet ; à apprécier par l’utilisatrice."
+}

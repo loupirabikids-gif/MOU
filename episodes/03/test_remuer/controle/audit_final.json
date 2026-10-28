@@ -1,0 +1,40 @@
+{
+  "stage": "microtest_remuer_uniquement",
+  "duration_seconds": 4.0,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "decoded_frames": 96,
+  "format": "H264/yuv420p",
+  "audio_streams": 0,
+  "full_decode_without_errors": true,
+  "fresh_svg_vs_encoded_contact_roi_mean_errors_0_255": {
+    "0": 1.824457,
+    "8": 1.838744,
+    "17": 1.847562,
+    "26": 1.779176,
+    "35": 1.853557,
+    "44": 1.871135,
+    "52": 1.88284,
+    "61": 1.792527,
+    "63": 1.822084,
+    "70": 1.808973,
+    "79": 1.832811,
+    "88": 1.872473,
+    "95": 1.865025
+  },
+  "fresh_svg_vs_encoded_face_roi_mean_errors_0_255": {
+    "0": 1.509499,
+    "63": 1.503094,
+    "95": 1.522527
+  },
+  "fixed_scenery_mean_delta_first_last_0_255": 0.045355,
+  "right_arm_exact_original_fixed": true,
+  "net_stirring_turns": 2,
+  "video_sha256": "69e2038883af04a9f52fcb6937c23665e7f7a38e5e7e9ea9fcf06de946f5d8f5",
+  "tested_animation_sha256": "d6883d83cbd669ea08bf85fe5d40182f027c7ab28d15b9d7a2a011d0bb98f5f4",
+  "tested_renderer_sha256": "24c4d9bc31a060344b41e860e5135a9b093ef1e81b90ec2f977dfe39cc7d3bc7",
+  "scope": "Vérification technique du geste ; naturel et profondeur examinés dans la critique du MP4. Aucun essuyage, son ou épisode complet."
+}

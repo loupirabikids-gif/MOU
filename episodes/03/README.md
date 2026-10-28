@@ -1,12 +1,12 @@
 # MOU en cuisine — essuie-tout
 
-Le décor est validé. Étape en cours : **une image fixe de MOU dans la cuisine**,
-pour examiner taille et position avant toute animation.
+Le décor et le placement de MOU sont validés. Étape en cours : **un court test
+muet où MOU remue la poêle**, pour apprécier le naturel du mouvement.
 
-[![Proposition de placement de MOU](placement/MOU_cuisine_placement_apercu.png)](placement/MOU_cuisine_placement.png)
+[![Test du remuage](test_remuer/MOU_test_remuer_apercu.gif)](test_remuer/MOU_test_remuer.mp4?raw=true)
 
-[Image 1080 × 1920](placement/MOU_cuisine_placement.png?raw=true) ·
-[Source SVG](placement/MOU_cuisine_placement.svg?raw=true) · [Dossier du placement](placement/)
+[Voir le test de 4 secondes](test_remuer/MOU_test_remuer.mp4?raw=true) ·
+[Sources et contrôles](test_remuer/) · [Placement validé](placement/)
 
 Le sujet retenu est le réflexe de s’essuyer les mains après chaque contact
 pendant que l’on cuisine : remuer la poêle, ajouter des ingrédients, toucher
@@ -20,5 +20,5 @@ portent le gag. La variante où la recette disparaît dans les papiers est écar
 - [Sources et calques du décor](decor/README.md)
 
 L’utilisatrice demande de travailler petit à petit. Cette étape s’arrête au
-placement proposé, à examiner. Aucun mouvement, montage ou son n’est produit.
+test de remuage proposé. Aucun essuyage, son ou épisode complet n’est produit.
 Les deux précédents films restent archivés.

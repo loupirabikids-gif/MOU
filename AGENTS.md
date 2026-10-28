@@ -9,11 +9,13 @@ Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épiso
 Commande courante : avancer petit à petit sur le gag de cuisine et
 d’essuie-tout, dans `episodes/03/`. Le décor fixe de `episodes/03/decor/`
 est validé par l’utilisatrice (« Oui ca me vas »), référence commit795563c.
-Étape autorisée maintenant par « Vas y » : placer MOU dans ce décor sur
-une image fixe pour juger taille et position, dans `episodes/03/placement/`.
-Conserver les dessins du décor validé et le rig original. Cette proposition
-de placement attend le retour de l’utilisatrice ; aucune animation ni aucun
-son n’est demandé à cette étape. Ne pas lancer la suite automatiquement.
+Le placement fixe `episodes/03/placement/` est également validé (« Yea it cool »),
+référence commit1e99def. Étape autorisée maintenant par « Go » : un court test
+où MOU remue la poêle pour examiner le naturel du geste, dans
+`episodes/03/test_remuer/`. Garder décor, taille et position validés ainsi que
+les bras du rig original. Ce test de4s est muet, sans essuyage ni autre action.
+Le geste proposé attend le retour de l’utilisatrice : ne pas lancer la suite
+de l’épisode automatiquement.
 Le comportement visé est de s’essuyer les mains après chaque contact pendant
 qu’on cuisine réellement : remuer, ajouter un ingrédient, toucher un manche,
 régler le feu. Ne pas remplacer ce sujet par une pâte jetée avec le papier.

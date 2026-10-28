@@ -1,0 +1,34 @@
+MOU — TEST DU GESTE DE REMUAGE, TEMPO V2
+
+4,000s · 1080×1920 · 24i/s · 96images · H264/yuv420p · muet.
+Deux tours dans la poêle, corps et placement validés(80,380,2,30) conservés.
+Bras droit exactement dans sa pose validée. Bras gauche natif, articulé à
+l’épaule ; deux moufles d’origine, aucune racine masquée ni contour redessiné.
+Cuillère de135px entre centre du bol et prise dans la moufle, longueur
+constante ; bol toujours dans la cavité de la poêle. Regard vers le geste.
+
+CORRECTION DU TEST
+La première version avait de longues zones presque immobiles. Seul le temps
+est corrigé : anticipation0–0,20s, remuage0,20–3,75s, tenue finale0,25s.
+Géométrie des bras, cuillère, corps, calques et décor conservée.
+Revue indépendante des96images réellement décodées du MP4V2 : début visible
+vers0,33–0,46s, geste continu, prise et raccords propres, sans saut observé.
+Avis : controle/critique_rendu_v1.md et critique_rendu_v2.md ; preuve abrégée
+critique_tempo_v2.png. Revue par extractions denses, sans lecture temps réel.
+
+CONTRÔLES DU FINAL
+Décodage intégral sans erreur, dimensions,96images et absence d’audio vérifiés.
+13instants de main/cuillère/poêle comparés à des SVG frais hors cache :
+écarts moyens1.779–1.883/255. Trois visages dont le clignement contrôlés.
+Décor, rig et calques approuvés vérifiés par empreintes ; import du décor
+identique pixel par pixel. Fond fixe dans le MP4 : écart moyen premier/dernier
+0.045355/255, dû à l’encodage. Cache et copies atomiques, sans liens.
+Rapports : controle/audit_structure.json, audit_geometrie.json, audit_final.json.
+Sources et commandes : README.md. Aperçu GIF432×768,24i/s nominal,
+durée4.00s ; le MP4 est la référence temporelle.
+
+PORTÉE
+Ce fichier livre seulement l’essai du remuage demandé par «Go».
+Aucun essuyage des mains, son, nouvel ingrédient ou montage d’épisode ajouté.
+Le geste reste à apprécier par l’utilisatrice. Modèle et éléments validés ne
+sont pas réécrits ; sources locales Python/SVG/CairoSVG/Pillow/NumPy/FFmpeg.

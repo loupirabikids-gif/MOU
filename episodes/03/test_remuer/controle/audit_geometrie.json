@@ -1,0 +1,31 @@
+{
+  "sampled_frames": 97,
+  "duration": 4.0,
+  "fps": 24,
+  "stir_start": 0.2,
+  "stir_end": 3.75,
+  "speed_ramp_seconds": 0.16,
+  "final_hold_seconds": 0.25,
+  "two_original_arm_fragments_each_frame": true,
+  "right_arm_exact_approved_pose_each_frame": true,
+  "torso_exact_canonical_each_frame": true,
+  "two_hands_each_frame": true,
+  "fixed_root_transform_each_frame": true,
+  "grip_exactly_on_original_hand_each_frame": true,
+  "constant_spoon_length": 135.0,
+  "bowl_inside_pan_each_frame": true,
+  "left_rotation_range_deg": [
+    -42.168923216962426,
+    -25.093946097813784
+  ],
+  "completed_stirring_turns": 2.0,
+  "stirring_phase_monotone": true,
+  "early_bowl_displacement_from_stir_start_pixels": {
+    "0.35": 3.573330763715454,
+    "0.4": 5.967170098097832,
+    "0.45": 8.840157682078747
+  },
+  "changes_since_v1_limited_to_phase_intention_and_timing_constants": true,
+  "source_sha256": "d6883d83cbd669ea08bf85fe5d40182f027c7ab28d15b9d7a2a011d0bb98f5f4",
+  "limits": "Numerical and source construction checks; visual review of MP4 remains separate. No audio, paper action or episode continuation."
+}
