@@ -5,6 +5,9 @@ dans le contour, comme sa nouvelle référence, et les autres doigts réunis.
 Préparer uniquement un essai du frottement dans `episodes/03/etudes_geste/moufle_pouce/`.
 Le dessin précédent à petite boucle intérieure a été rejeté. Attendre le retour
 sur cet essai avant toute intégration ; le rig et l’épisode V13 restent conservés.
+Dernier retour : dessus du pouce trop triangulaire. Arrondir uniquement cette
+zone et conserver sa courbure pendant le repli et les frottements ; reste de
+la moufle, bras, décor et durée conservés. L’essai corrigé reste à valider.
 
 ## But et référence commune
 

@@ -5,6 +5,13 @@ par l’utilisatrice, avec un vrai pouce saillant et les autres doigts réunis
 dans une seule forme arrondie. La proposition précédente avec une petite
 boucle intérieure est rejetée ; elle reste archivée dans le dossier parent.
 
+Correctif suivant : dessus du pouce jugé trop triangulaire. Le sommet est
+remplacé par un arc large, avec des tangentes continues dans les deux poses
+et pendant les frottements. Seul le contour local du pouce est retouché ;
+paume, bras, décor, geste et durée de 4 secondes conservés. Voir la critique
+du correctif dans `critique_arrondi.md`. La version précédente reste au
+commit `fc27956f297c750bd85a69698b125397d2e696a6`.
+
 ![Essai animé](MOU_essai_moufle_pouce.gif)
 
 [Lire le MP4 muet de 4 secondes](MOU_essai_moufle_pouce.mp4).

@@ -10,13 +10,13 @@
   "scope": "Etude isolee, episode et rig non modifies",
   "cycles_relative_thumb_motion": 3,
   "files": {
-    "MOU_moufle_pouce.svg": "54a115203a618c5daff3affe4a96345c4399b9892f78f1d4f9188fd3ce86ff53",
-    "MOU_moufle_contact.png": "00bb87bb5dce64458205d216d91ddb018cd0db5fdad374d5e727fa7ae2b67b02",
-    "MOU_moufle_contact.svg": "b6661c7854c16085f9f269be78baeba5b3fbb6abee55959fd56f20e6d901ed89",
-    "MOU_essai_moufle_pouce.gif": "f740cd0cc0a9f6cc0ed1163591e1abbf842ba39929874808cf22ac56be79115b",
-    "MOU_moufle_pouce.png": "c32633b3e0ddc43d2308b41b1471113988c307e9d8b082ad73ae686f9c82b668",
-    "render.py": "458226dc240feb7fd7715c5c9be739eaac6e91804d4babd63456470f003c11af",
-    "MOU_essai_moufle_pouce.mp4": "28c55c3f2a89fdf1768900fbd220ac1901c0de57e30bb143f3d4f992e2494fd1"
+    "MOU_moufle_pouce.svg": "9d9594788bd07179d048ddb97e75b010b20789e7147fb5dcf1c7e4585460634e",
+    "MOU_moufle_contact.png": "1bc0069f92fe0a9af19b28249eb04b2ea427529e6ba81b8b98cc8c2dd76dcb1e",
+    "MOU_moufle_contact.svg": "72a6e05ce1276df9569bea3d67fd9aff4afae0ba81b2a73574ed614c209f4909",
+    "MOU_essai_moufle_pouce.gif": "1caf7a582b90913abd7023fcf3a324f283f50131f92150f7bcd3fc572216ed1d",
+    "MOU_moufle_pouce.png": "e7a1c8325cbcd6e461a2aaf219acefefc26d43b6708b9556f5d2c753ff0d7398",
+    "render.py": "44d7db5a2ae87749ac5f0c9697e4d8333f7054b7326f63db9245ad9e44c3c223",
+    "MOU_essai_moufle_pouce.mp4": "556235b547ed06ddee3b0ce6aec3b10b8efadd762ac95a98a60d1e0830a16851"
   },
   "verification": {
     "full_mp4_decoded_without_error": true,
@@ -28,8 +28,23 @@
     "actual_duration": 4.0,
     "actual_frames": 96,
     "fresh_source_export_comparisons": 11,
-    "max_mean_rgb_error_255": 1.6388469328703703,
-    "v13_and_rig_unchanged_vs": "abf2fe338074ba27de7bf73f8c1cc04b6859c69d",
+    "max_mean_rgb_error_255": 1.6391329089506173,
+    "max_top_thumb_tangent_angle_degrees_96_frames": 1.5783177085116574e-12,
+    "before_after_changed_pixel_bounds": {
+      "MOU_moufle_contact.png": [
+        260,
+        294,
+        463,
+        373
+      ],
+      "MOU_moufle_pouce.png": [
+        280,
+        260,
+        452,
+        327
+      ]
+    },
+    "v13_and_rig_unchanged_vs": "fc27956f297c750bd85a69698b125397d2e696a6",
     "gif": {
       "size": [
         480,
