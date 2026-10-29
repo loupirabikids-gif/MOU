@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "zip_sha256": "ad877292c729bb3de636a2fbb476cc75b089db4a91308dd4aedda1b94a2ba9aa",
+  "zip_bytes": 29505602,
+  "manifest_files": 128,
+  "zip_crc_and_all_hashes": true,
+  "cold_extracted_audio_regeneration": "Complete41s mix, continuous music, four stems and unducked reference bit-identical",
+  "audio_files_reproduced": {
+    "mix.wav": "4dd914c20c5913af0e7bcfabb887fecc83e5651e3b0b2edadaf9ed6bb372cbd1",
+    "musique_cuisine.wav": "699984802cb7d54205515cae783b565eea34bab023fa88755eed66cb77cf033b",
+    "musique_basse.wav": "f66f33e8909c8eaabf5b287ece2d910ccc6f1aa077f8686a52e8da884dfe2582",
+    "musique_accords.wav": "c5cc668244394d2777dd873d959a4357ee9030a3099afb786e15ec92ac2ff759",
+    "musique_ponctuations.wav": "d3f0a06d3a7c2a41600eac5ab7ee6fbf1a63e6e31ae6717ddfddecf47a7fec12",
+    "musique_percussions.wav": "d9cfb150c8be03091173b6422b1bd4b4c538d3b2b79f06e2cde80b589b1a11ff",
+    "musique_sans_baisse.wav": "f24f6fde5ec5bb66f5ee1ddc046bec981310bdd8238f4e793938453babf1b703"
+  },
+  "fluidsynth_version": "2.4.4",
+  "limits": "Reproduction verified in current environment using bundled GPL instrument bank; no perceptual listening claimed."
+}

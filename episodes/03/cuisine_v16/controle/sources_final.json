@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v16/sources/animation.py": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+    "/workspace/MOU/episodes/03/cuisine_v16/sources/art.py": "ce0c190cf5917f8e237d7443a194528d7b7b9c93ec038279004474bcdfb8f6fc",
+    "/workspace/MOU/episodes/03/cuisine_v16/sources/render.py": "ff9dc261489df7673025a3918da13313d30a7517a917a735dc794921d6014578",
+    "/workspace/MOU/episodes/03/cuisine_v16/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "/workspace/MOU/episodes/03/cuisine_v16/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v16/sources/son.py": "18103ffded3b43ccb761c4ce020d3671f13daaaea0979d061bf930a5786bb461",
+    "/workspace/MOU/episodes/03/cuisine_v16/sources/music.py": "2a977a953932b0df0f2aef14b12c537760973aa3d40f322cff9e1c2a8e153b5f",
+    "/workspace/MOU/episodes/03/cuisine_v16/chronologie.json": "e4f0fd4344a1fbf972b24c8076c3dfc0a9e3efec00bdb79ac33c50f5c8bb7746",
+    "/workspace/MOU/fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+    "/workspace/MOU/episodes/03/cuisine_v16/assets/TimGM6mb.sf2": "c5378b62028c920cb11e4803327983fee2f2cdff5dc89c708e39da417e51c854"
+  },
+  "output": "/workspace/MOU/episodes/03/cuisine_v16/MOU_Encore_une_feuille.mp4",
+  "method": "Continuous music mix muxed with the unchanged verified V15 H264 stream."
+}

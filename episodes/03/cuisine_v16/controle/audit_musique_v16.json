@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "continuous_music_seconds": [
+    0.0,
+    41.0
+  ],
+  "style": "same discreet cartoon jazz as V15",
+  "preserved_v15_score_events": 119,
+  "total_score_events": 316,
+  "visual_cut_restarts": 0,
+  "synth_sessions_per_instrument": 1,
+  "nonmusic_wavs_identical_to_v15": 63,
+  "master_gain_linear_exact": 2.124210976406158,
+  "fixed_v15_music_common_scale": 1.0202131333074838,
+  "sink_duck_target_db": -6.0,
+  "sink_duck_attack_seconds": 0.12,
+  "sink_duck_release_seconds": 0.18,
+  "sink_checks": [
+    {
+      "cycle": 1,
+      "sink": [
+        7.75,
+        10.3
+      ],
+      "measured_gain_db": -5.99994351220437,
+      "rms_music_pre_master_dbfs": -48.66064825570344
+    },
+    {
+      "cycle": 2,
+      "sink": [
+        16.5,
+        18.6
+      ],
+      "measured_gain_db": -6.000071155725819,
+      "rms_music_pre_master_dbfs": -48.94755511535715
+    },
+    {
+      "cycle": 3,
+      "sink": [
+        23.0,
+        24.5
+      ],
+      "measured_gain_db": -5.999992734362754,
+      "rms_music_pre_master_dbfs": -49.477610324616286
+    },
+    {
+      "cycle": 4,
+      "sink": [
+        29.0,
+        30.35
+      ],
+      "measured_gain_db": -5.999836784833987,
+      "rms_music_pre_master_dbfs": -50.72907940323945
+    },
+    {
+      "cycle": 5,
+      "sink": [
+        34.0,
+        35.35
+      ],
+      "measured_gain_db": -5.99996950919106,
+      "rms_music_pre_master_dbfs": -50.47388385796559
+    }
+  ],
+  "max_reference_gain_pcm_error_lsb": 0.9984514545019558,
+  "nonzero_music_every_half_second": true,
+  "minimum_half_second_music_rms_pre_master_dbfs": -59.43460466507855,
+  "music_continues_during_wiping_throwing_bin_and_final": true,
+  "mix_peak_dbfs": -3.735,
+  "clipped_samples": 0,
+  "mix_sha256": "4dd914c20c5913af0e7bcfabb887fecc83e5651e3b0b2edadaf9ed6bb372cbd1",
+  "music_source_sha256": "2a977a953932b0df0f2aef14b12c537760973aa3d40f322cff9e1c2a8e153b5f",
+  "son_source_sha256": "18103ffded3b43ccb761c4ce020d3671f13daaaea0979d061bf930a5786bb461",
+  "limits": "Score, envelope and PCM measurements only; no perceptual listening claimed."
+}

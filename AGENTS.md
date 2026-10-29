@@ -1,16 +1,18 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
-Demande courante : perfectionner la musique de la V14, dans
-`episodes/03/cuisine_v15/`. Préserver à l’octet près les images compressées,
-la version muette, tous les bruitages et le sifflement initial ; ne modifier
-que la musique et sa place dans le mix. Garder 108 BPM et les fenêtres cuisine
-existantes, silence musical pendant chaque lavage/essuie/jet et la fin.
-Préférence choisie : « Jazz cartoon discret », contrebasse ronde, accords
-doux et percussions légères, sans concurrence mélodique pendant le sifflement.
-Ce choix remplace le groove funk proposé initialement. Fournir aussi un court
-avant/après. FluidSynth et TimGM6mb déjà installés peuvent donner des timbres
-plus riches ; partition originale, crédits et licences de la banque inclus.
-Les mesures ne remplacent pas l’écoute : ne pas prétendre avoir écouté.
+Demande courante V16 : conserver le jazz sur toute la vidéo de 41 s et
+diminuer seulement son volume pendant les cinq lavages pour entendre l’eau.
+Cette consigne REMPLACE les anciennes coupures/silences pendant les lavages,
+l’essuyage, les jets, la poubelle et la fin. Révision dans
+`episodes/03/cuisine_v16/`, V15 conservée. Garder thème, timbres et 108 BPM ;
+une partition continue sans redémarrage aux changements de plan, baisse douce
+d’environ 6 dB sur les inserts lavabo, puis retour au niveau normal.
+Préserver les images compressées, les 63 bruitages/notes sifflées et leur
+gain ; seule la musique change. Garder la place du sifflement initial.
+Les fenêtres historiques de la chronologie visuelle restent archivées ; la
+politique musicale effective V16 est décrite dans les sources et l’audit son.
+FluidSynth et TimGM6mb libres, crédits et licences inclus. Les mesures ne
+remplacent pas l’écoute : ne pas prétendre avoir écouté. Livraison GitHub autorisée.
 
 Accord courant « Oui go pour la video » : intégrer aux cinq gros plans du lavabo
 la moufle à pouce distinct et arrondi validée au commit `b4b0f78`, dans

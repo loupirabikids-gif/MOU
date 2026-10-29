@@ -1,0 +1,47 @@
+MOU — Encore une feuille — musique continue V16
+Contrôles du 29 octobre 2026
+
+LIVRAISON
+41 s, vertical 1080 × 1920, 24 images/s, 984 images, H.264 + AAC stéréo 48 kHz.
+Le même jazz accompagne toute la vidéo, avec une baisse de 6 dB aux cinq
+inserts lavabo pour laisser la place au robinet et à l’eau. Descente douce
+sur 120 ms, remontée sur 180 ms ; aucun arrêt ni redémarrage au changement de plan.
+La musique continue pendant essuyage, papier, jet, poubelle et fin.
+Fondu terminal de 150 ms seulement.
+
+CONSERVATION
+Flux H.264 strictement identique à V15, sans réencodage des images.
+Versions muettes et GIF identiques. Les 63 WAV de bruitages/sifflement,
+leurs horaires, leurs niveaux et le gain master précis sont conservés.
+Même thème, mêmes timbres et 108 BPM ; les 119 événements de partition V15
+sont repris aux mêmes instants. Ajout de liaisons dans les anciennes zones
+vides, avec 316 événements au total. Un seul rendu continu par instrument.
+
+CONTRÔLES
+- Chronologie visuelle et cinq sources de dessin identiques à V15.
+- Baisse mesurée sur les cinq lavages : −6 dB à 0,0002 dB près, gain 0,501187.
+  Enveloppe jamais nulle, transitions progressives. Stem sans baisse fourni
+  pour vérifier directement ce gain, sans comparer des passages différents.
+- Musique présente sur 163 fenêtres glissantes de 0,5 s, ainsi que pendant
+  essuyage, jet et fin. Blancs du sel et du manche propre comblés.
+- Mix reconstruit à partir des stems et du gain master conservé.
+  Pic WAV proche de −3,735 dBFS, aucune saturation.
+- MP4 avec son et muet décodés intégralement ; AAC conforme au nouveau WAV.
+  Contrôle principal des images hors cache et contrôle indépendant du
+  flux vidéo identique à V15.
+- Avant/après au premier lavage : mêmes images et bruitages, musique
+  coupée en V15, présente à volume réduit en V16.
+
+SOURCES
+Partition, quatre stems instrumentaux, musique avec/sans baisse, sons et
+instruments libres dans le ZIP avec manifeste SHA-256. Rendu local Python,
+FluidSynth 2.4.4 et banque TimGM6mb sous GPL-2, crédits et licences inclus.
+Aucun morceau, boucle musicale ou service à crédits importé.
+Commandes dans sources/README.md ; rapports dans controle/.
+La production autonome conserve toutes ses données. Le comparateur vidéo
+nécessite V15 dans le checkout. Contrôles ZIP : audit_archive.json.
+
+LIMITES
+Mesures de signaux, de partition et de métadonnées : aucune écoute perceptive
+ni validation du mix sur téléphone n’est revendiquée. L’extrait et le film
+permettent une comparaison à l’écoute. Livraison GitHub uniquement.
