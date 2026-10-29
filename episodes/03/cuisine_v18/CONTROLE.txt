@@ -1,0 +1,32 @@
+MOU — dosage musique/bruitages V18
+29 octobre 2026
+
+Retour précis de l’utilisatrice : l’équilibre change trop entre les scènes.
+Recontrôle : le mix V17 gagnait environ 10 dB à l’arrivée de l’eau.
+
+La partition et le rendu musical sans baisse sont identiques à V17.
+Aucune nouvelle musique. Les 63 fichiers de bruitages restent identiques,
+mais leurs niveaux au mix sont volontairement rééquilibrés : eau −9 dB,
+frottement mouillé −7 dB, déroulage −2 dB, déchirure/froissage/impact −3 dB,
+essuyage −5 dB. Les petits sons de la dernière feuille restent délicats.
+La musique baisse seulement de 1,5 dB au lavabo, avec transitions douces.
+
+Comparaison des mêmes 15 passages : hors phrase sifflée d’ouverture, bref
+contact du manche et fondu terminal. Sur ce périmètre défini, étendue
+des niveaux moyens de 12,094 dB en V17 à 4,865 dB en V18. Les mesures et leurs
+fenêtres exactes sont dans controle/audit_mix_v18.json. En élargissant aux
+autres passages hors sifflement, l’étendue reste de 5,240 dB. Cette plage décrit
+les scènes ; les transitoires et le sifflement conservent leur expressivité.
+Reconstruction conforme aux gains annoncés, erreur maximale 4,38 unités PCM16.
+Pic WAV −7,68 dBFS, aucun écrêtage. Le master n’est pas renormalisé selon les scènes.
+
+Images compressées et versions muettes identiques à V17. Vidéo complète
+41 s, 1080 × 1920, 24 images/s, son AAC stéréo 48 kHz ; extrait de 20 s.
+Sources, banques et réglages fournis ; les gains sont tracés par événement
+dans audio/provenance.json et dans le code. Instruments libres déjà utilisés,
+crédits et licences inclus. Commandes dans sources/README.md.
+
+Limite explicite : l’accès audio essayé dans cette session a répondu que
+le modèle ne supporte pas l’entrée audio. Aucune écoute réelle ni validation
+artistique du mix ne sont donc revendiquées. Il s’agit d’une correction
+mesurée du dosage demandé ; l’extrait permet de comparer à l’écoute.

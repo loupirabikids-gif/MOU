@@ -1,0 +1,158 @@
+{
+  "status": "passed",
+  "music_partition_and_unducked_pcm_identical": true,
+  "original_effect_wavs_identical": 63,
+  "mix_reconstruction_max_lsb": 4.374129479693693,
+  "peak_dbfs": -7.684326807400652,
+  "segments": [
+    {
+      "segment": "cuisine",
+      "seconds": [
+        2.0,
+        6.5
+      ],
+      "v17_rms_dbfs": -29.468435042032848,
+      "v18_rms_dbfs": -29.468435042032848
+    },
+    {
+      "segment": "carotte",
+      "seconds": [
+        13.5,
+        16.5
+      ],
+      "v17_rms_dbfs": -30.462160364217045,
+      "v18_rms_dbfs": -30.38685046802844
+    },
+    {
+      "segment": "tomate",
+      "seconds": [
+        21.5,
+        23.0
+      ],
+      "v17_rms_dbfs": -31.162973720711395,
+      "v18_rms_dbfs": -30.933048208825106
+    },
+    {
+      "segment": "sel",
+      "seconds": [
+        27.0,
+        29.0
+      ],
+      "v17_rms_dbfs": -31.14096837219348,
+      "v18_rms_dbfs": -31.02346358079685
+    },
+    {
+      "segment": "fin",
+      "seconds": [
+        39.5,
+        40.8
+      ],
+      "v17_rms_dbfs": -30.9788360184329,
+      "v18_rms_dbfs": -30.9788360184329
+    },
+    {
+      "segment": "eau1",
+      "seconds": [
+        8.23,
+        10.05
+      ],
+      "v17_rms_dbfs": -19.779612897580837,
+      "v18_rms_dbfs": -26.968129244965763
+    },
+    {
+      "segment": "essuyage1",
+      "seconds": [
+        11.4,
+        12.25
+      ],
+      "v17_rms_dbfs": -25.24438283240537,
+      "v18_rms_dbfs": -27.60715891166261
+    },
+    {
+      "segment": "eau2",
+      "seconds": [
+        16.85,
+        18.4
+      ],
+      "v17_rms_dbfs": -19.64902890127135,
+      "v18_rms_dbfs": -26.830015825021487
+    },
+    {
+      "segment": "essuyage2",
+      "seconds": [
+        19.55,
+        20.35
+      ],
+      "v17_rms_dbfs": -24.820977577181345,
+      "v18_rms_dbfs": -27.462447496234937
+    },
+    {
+      "segment": "eau3",
+      "seconds": [
+        23.28,
+        24.35
+      ],
+      "v17_rms_dbfs": -19.156000561155444,
+      "v18_rms_dbfs": -26.77862957716988
+    },
+    {
+      "segment": "essuyage3",
+      "seconds": [
+        25.3,
+        25.95
+      ],
+      "v17_rms_dbfs": -23.469944849084527,
+      "v18_rms_dbfs": -26.158613936967136
+    },
+    {
+      "segment": "eau4",
+      "seconds": [
+        29.24,
+        30.22
+      ],
+      "v17_rms_dbfs": -19.06850824474484,
+      "v18_rms_dbfs": -26.476895192579775
+    },
+    {
+      "segment": "essuyage4",
+      "seconds": [
+        31.1,
+        31.95
+      ],
+      "v17_rms_dbfs": -24.117380944062145,
+      "v18_rms_dbfs": -26.67161304454251
+    },
+    {
+      "segment": "eau5",
+      "seconds": [
+        34.24,
+        35.22
+      ],
+      "v17_rms_dbfs": -19.131682940458084,
+      "v18_rms_dbfs": -26.455629957705607
+    },
+    {
+      "segment": "essuyage5",
+      "seconds": [
+        36.8,
+        38.1
+      ],
+      "v17_rms_dbfs": -30.21863932637968,
+      "v18_rms_dbfs": -30.21863932637968
+    }
+  ],
+  "scene_rms_range_v17": 12.094465475966555,
+  "scene_rms_range_v18": 4.864849643829714,
+  "range_scope": "Comparable body scenes; initial foreground whistle phrase excluded. This is not a perceptual listening test.",
+  "mix_gain_db_by_kind": {
+    "water": -9.0,
+    "hand_water": -7.0,
+    "paper_pull": -2.0,
+    "paper_tear": -3.0,
+    "paper_wipe": -5.0,
+    "paper_crumple": -3.0,
+    "paper_land": -3.0
+  },
+  "music_duck_db": -1.5,
+  "h264_identical_to_v17": "c1960d79bf8bea4d6116a0ee651989b79353ef9a705f0a467f980634d1bc8c35"
+}

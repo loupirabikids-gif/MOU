@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "zip_bytes": 35146012,
+  "zip_sha256": "38a57c1a0ef286ecef851d7da883edcf65e929f6cfd81f9f0f0ae06f09af29b6",
+  "manifest_files": 126,
+  "crc_and_all_hashes_verified": true,
+  "scope": "Archive integrity; music engine unchanged from independently cold-reproduced V17. V18 mix gains are reconstructed by audit_mix_v18.py. No listening claimed."
+}

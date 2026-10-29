@@ -1,6 +1,18 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
-Demande courante V17 : la musique V16 donne toujours une impression de
+Demande courante V18 : après rejet V17, l’utilisatrice précise que le problème
+est « l’équilibre change trop d’une scène à l’autre ». Refaire uniquement le
+dosage dans `episodes/03/cuisine_v18/`, sans recomposer la musique ni changer
+les images. Le mix V17 gagne environ 10 dB à l’arrivée de l’eau. Réduire eau,
+frottement mouillé et pics de papier ; alléger la baisse musicale au lavabo.
+Les fichiers originaux de bruitages restent conservés, mais leur gain dans
+le mix change volontairement : ne plus affirmer que leurs niveaux sont inchangés.
+La qualité perçue doit être distinguée des mesures. L’essai d’accès audio
+dans cette session a explicitement répondu que le modèle ne supporte pas
+l’entrée audio ; aucune écoute réelle ne peut être revendiquée. Ne pas refaire
+une composition ni multiplier les versions sur la base de mesures seules.
+
+Historique V17 : la musique V16 donne toujours une impression de
 coupures/reprises ; chercher et corriger la cause dans `episodes/03/cuisine_v17/`.
 Le diagnostic prouve que les anciennes phrases conservées par fenêtres
 déplacent la phase rythmique et tronquent les liaisons. Des quasi-silences
