@@ -1,0 +1,47 @@
+MOU — Encore une feuille — pouce arrondi V14
+Contrôles du 29 octobre 2026
+
+LIVRAISON
+41 s, vertical 1080 × 1920, 24 images/s, 984 images.
+MP4 H.264/yuv420p CRF 12 + AAC stéréo 48 kHz ; version muette avec
+exactement le même flux d’images compressées. Animatique complète avec
+son et muette : 540 × 960, 12 images/s. Aperçu GIF : 432 × 768, 41 s.
+
+CORRECTIF VALIDÉ
+Moufle à pouce distinct et arrondi de l’étude b4b0f78 intégrée dans les
+cinq gros plans lavabo. Trois petits frottements aux deux premiers lavages,
+deux aux trois derniers. Le pouce reste rond pendant les interpolations.
+Le bout réel de la moufle accompagne le levier ; poignet hors de l’eau.
+Rig canonique, bras et mains des plans larges, décor, jeu, montage et son
+V13 conservés. La V13 reste disponible dans son dossier et dans Git.
+
+CONTRÔLES RÉUSSIS
+- 984 SVG valides, identifiants/références uniques : deux mains dans les
+  plans larges, une seule dans les 215 images de lavabo.
+- Les 769 SVG hors lavabo sont identiques à V13. Chronologie, animation,
+  accessoires, source sonore et 66 fichiers audio identiques à l’octet près.
+- Deux poses du pouce conformes à l’étude validée ; tangentes vérifiées
+  sur les 215 poses du lavabo. 25 contrôles de contacts réels : 10 levier,
+  15 eau ; eau limitée à l’extrémité de la moufle, poignet sec.
+- Deux MP4 entièrement décodés sans erreur ; vidéo compressée identique
+  entre version sonore et muette. 60 images finales comparées aux SVG
+  frais hors cache : erreur RGB moyenne maximale 1,616644/255 sur l’image
+  et 2,850265/255 dans les régions ciblées, seuil conservé à 3/255.
+- Audit indépendant : 15 extraits du MP4 final contrôlés
+  sur les cinq lavages, erreur RGB moyenne maximale 1,614771/255.
+- Son : WAV de 41 s sans saturation, AAC conforme au mix, corrélation
+  0,9985266515 sans décalage. Les événements restent ceux de V13.
+
+CRITIQUE ET SOURCES
+Critique avant intégration, études, animatique complète et images du
+véritable export dans controle/critique_pouce_v14*.md. Les preuves et le
+journal des corrections sont conservés. Sources, sons et dépendances du
+projet inclus dans le ZIP, avec manifeste SHA-256 ; commandes dans
+sources/README.md. Les contrôles de l’archive figurent dans audit_archive.json.
+
+LIMITES
+Examen de poses et d’extraits successifs, contrôles géométriques et audio
+numériques : aucune écoute perceptive, lecture continue ou validation
+auprès du public n’est revendiquée. Aucun dialogue ni son téléchargé.
+Outils gratuits et open source : Python, SVG, CairoSVG, Pillow, NumPy, FFmpeg.
+Livraison sur GitHub ; aucune publication sur un compte social.

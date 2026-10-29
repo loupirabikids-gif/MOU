@@ -1,4 +1,7 @@
-# Moufle avec un pouce distinct — essai à valider
+# Moufle avec un pouce distinct — étude validée
+
+Essai arrondi accepté ensuite par l’utilisatrice : « Oui go pour la video ».
+L’intégration aux cinq lavages est dans [la V14](../../cuisine_v14/).
 
 Demande du 29 octobre 2026 : une main comme la référence rapprochée fournie
 par l’utilisatrice, avec un vrai pouce saillant et les autres doigts réunis
@@ -25,8 +28,9 @@ Image de la silhouette : [MOU_moufle_pouce.png](MOU_moufle_pouce.png).
 Une seule main, poignet sec ; aucun ongle ni découpe de doigts humains.
 La nouvelle forme est limitée à cette étude. Le bras continu à droite,
 la palette et le lavabo sont repris de la V13. Le rig canonique, les sources
-et les exports de l’épisode ne sont pas modifiés. L’essai n’est pas encore
-une nouvelle référence validée du personnage.
+et les exports V13 ne sont pas modifiés. L’accord porte sur cette moufle
+dans les inserts de lavage de la V14 ; les mains des plans larges restent celles
+du modèle existant.
 
 Production gratuite et open source : SVG, Python, CairoSVG, Pillow, FFmpeg.
 Depuis la racine du dépôt, avec les dépendances installées :

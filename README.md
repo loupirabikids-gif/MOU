@@ -1,24 +1,25 @@
 # MOU
 
-**Encore une feuille — sel et lavage du bout des doigts, 41 secondes.**
+**Encore une feuille — moufle au pouce arrondi, 41 secondes.**
 
 MOU remue, coupe la carotte, ajoute la tomate puis une pincée de sel.
 Chaque contact relance son nettoyage et son gaspillage de papier, jusqu’au
-dernier petit bout. Les gros plans montrent le bout de sa moufle native
-sous le jet, avec le poignet dégagé, dans un lavabo plus lisible.
+dernier petit bout. Les gros plans montrent la moufle au pouce arrondi validé,
+avec un petit frottement sous le jet et le poignet dégagé.
 Le jeu souligne sa première inquiétude, sa détermination devant le dernier
 papier et sa fierté finale devant sa main propre et la poubelle pleine.
 
 Légende d’ouverture : **« Me cooking: touch, wash, wipe… repeat. »**
 Sifflement au départ seulement ; musique originale coupée pendant chaque
-lavage et essuyage. Même modèle, mêmes bras et mains, même cuisine.
+lavage et essuyage. Même modèle, bras et mains des plans larges conservés.
 
-[![Encore une feuille](episodes/03/cuisine_v13/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v13/MOU_Encore_une_feuille.mp4?raw=true)
+[![Encore une feuille](episodes/03/cuisine_v14/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v14/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Voir le MP4 avec son, 1080 × 1920](episodes/03/cuisine_v13/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Version muette](episodes/03/cuisine_v13/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v13/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/cuisine_v13/CONTROLE.txt)
-- [Chronologie](episodes/03/cuisine_v13/chronologie.json) · [Critiques et corrections](episodes/03/cuisine_v13/controle/)
+- **[Voir le MP4 avec son, 1080 × 1920](episodes/03/cuisine_v14/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Version muette](episodes/03/cuisine_v14/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v14/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/cuisine_v14/CONTROLE.txt)
+- [Chronologie](episodes/03/cuisine_v14/chronologie.json) · [Critiques et corrections](episodes/03/cuisine_v14/controle/)
+- [V13 précédente de 41 s conservée](episodes/03/cuisine_v13/)
 - [Version précédente de 35 s conservée](episodes/03/cuisine_v6/) · [Version de 30 s](episodes/03/carotte_v5/)
 - [Décor validé](episodes/03/decor/) · [Placement](episodes/03/placement/) · [Test de remuage](episodes/03/test_remuer/)
 

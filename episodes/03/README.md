@@ -1,15 +1,16 @@
 # MOU en cuisine — essuie-tout
 
-**Version courante : [MOU avec tablier, eau exagérée et cuisine en rythme,
-35 secondes](cuisine_v6/).** [MP4 avec son](cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true),
-[muet](cuisine_v6/MOU_Encore_une_feuille_muette.mp4?raw=true),
-[sources](cuisine_v6/MOU_Encore_une_feuille_sources.zip?raw=true) et
-[contrôles](cuisine_v6/CONTROLE.txt). MOU siffle au départ ; une musique de fond originale accompagne la cuisine
-et se coupe pendant les rituels de lavage et essuyage. Le début laisse
-plus de temps à la cuisine et à l’inspection de la main ;
-les quatre rituels, la carotte, le rouleau qui diminue et la fin du minuscule
-bout sont conservés. Ce dernier morceau est agrandi pour être lisible sur
-téléphone. [Références internet et limites](cuisine_v6/editorial/veille_cuisine_v6.md).
+**Version courante : [MOU en cuisine, moufle au pouce arrondi,
+41 secondes](cuisine_v14/).** [MP4 avec son](cuisine_v14/MOU_Encore_une_feuille.mp4?raw=true),
+[muet](cuisine_v14/MOU_Encore_une_feuille_muette.mp4?raw=true),
+[sources](cuisine_v14/MOU_Encore_une_feuille_sources.zip?raw=true) et
+[contrôles](cuisine_v14/CONTROLE.txt). MOU siffle au départ ; la musique originale
+accompagne la cuisine et se coupe pendant les rituels de lavage et essuyage.
+MOU remue, coupe la carotte, ajoute la tomate et le sel, puis touche le manche
+propre : cinq lavages et autant de papiers jetés. Les inserts du lavabo montrent
+le pouce arrondi validé qui frotte contre le bout de la moufle, poignet sec.
+Les plans larges, le montage et les sons de la [V13](cuisine_v13/) sont conservés.
+[Références internet et limites](cuisine_v6/editorial/veille_cuisine_v6.md).
 La [version précédente de 30 s](carotte_v5/), la [version de 29 s](carotte_v4/)
 et le montage de 26 s ci-dessous restent conservés.
 

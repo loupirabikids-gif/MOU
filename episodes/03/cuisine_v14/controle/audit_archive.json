@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "zip_sha256": "6e0a8f41b3b5b9e28f89ddaf885edeeff2823be4d6b47feb7128455cdcbb2c89",
+  "zip_bytes": 24209132,
+  "manifest_files": 134,
+  "zip_crc_and_all_hashes": true,
+  "cold_extracted_source_frames": [
+    {
+      "frame": 10,
+      "time_seconds": 0.4166666666666667,
+      "fresh_svg_and_png_match": true
+    },
+    {
+      "frame": 219,
+      "time_seconds": 9.125,
+      "fresh_svg_and_png_match": true
+    },
+    {
+      "frame": 679,
+      "time_seconds": 28.291666666666668,
+      "fresh_svg_and_png_match": true
+    },
+    {
+      "frame": 831,
+      "time_seconds": 34.625,
+      "fresh_svg_and_png_match": true
+    },
+    {
+      "frame": 917,
+      "time_seconds": 38.208333333333336,
+      "fresh_svg_and_png_match": true
+    },
+    {
+      "frame": 983,
+      "time_seconds": 40.958333333333336,
+      "fresh_svg_and_png_match": true
+    }
+  ],
+  "limits": "Archive production checked independently of repository caches. Comparative V13 audit requires the full checkout as documented."
+}

@@ -1,0 +1,494 @@
+{
+  "status": "passed",
+  "scope": "V14 integration of approved rounded mitten in sink shots only",
+  "limits": "Emitted geometry, preservation and actual-film samples; separate visual critique, no listening or audience validation.",
+  "preservation": {
+    "identical_sources": {
+      "chronologie.json": "e4f0fd4344a1fbf972b24c8076c3dfc0a9e3efec00bdb79ac33c50f5c8bb7746",
+      "sources/animation.py": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+      "sources/art.py": "ce0c190cf5917f8e237d7443a194528d7b7b9c93ec038279004474bcdfb8f6fc",
+      "sources/son.py": "0683633185a85125673691279e7e5b3592384fa1d532ea0b45fc496b69bb7e9b"
+    },
+    "audio_files_byte_identical": 66,
+    "mix_sha256": "e53b41813f5706fb4ae72b3f845a1a67017b6cebf628e5e7f6ee3852a69fddb7"
+  },
+  "approved_pose_constants_exact": true,
+  "all_frames": {
+    "total": 984,
+    "wide_svg_byte_identical": 769,
+    "sink_single_hand": 215,
+    "unique_svg_ids_and_refs": true,
+    "max_actual_upper_thumb_tangent_angle_degrees": 1.033057721718796e-05
+  },
+  "sink_contact_checks": [
+    {
+      "time": 8.66,
+      "phase": "rinse_tip",
+      "cycle": 1,
+      "wet_pixels": 1652,
+      "wet_bounds": [
+        96.25,
+        1088.75,
+        112.25,
+        1136.25
+      ],
+      "wet_distal_extent_fraction": 0.20699467984971326,
+      "dry_wrist_min_distance": 80.6315598678255,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.909811,
+      "actual_rub_cycles": 3
+    },
+    {
+      "time": 9.05,
+      "phase": "rinse_tip",
+      "cycle": 1,
+      "wet_pixels": 1878,
+      "wet_bounds": [
+        95.25,
+        1087.25,
+        112.25,
+        1137.25
+      ],
+      "wet_distal_extent_fraction": 0.21517741585920483,
+      "dry_wrist_min_distance": 79.91365110677144,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.263247,
+      "actual_rub_cycles": 3
+    },
+    {
+      "time": 9.44,
+      "phase": "rinse_tip",
+      "cycle": 1,
+      "wet_pixels": 2145,
+      "wet_bounds": [
+        94.75,
+        1085.75,
+        112.75,
+        1138.25
+      ],
+      "wet_distal_extent_fraction": 0.2296880142376904,
+      "dry_wrist_min_distance": 78.895558953422,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 169.616683,
+      "actual_rub_cycles": 3
+    },
+    {
+      "time": 8.134,
+      "phase": "open_tap",
+      "cycle": 1,
+      "actual_lever_endpoint": [
+        211.6872,
+        1086.2983
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013635752202192724
+    },
+    {
+      "time": 10.0,
+      "phase": "close_tap",
+      "cycle": 1,
+      "actual_lever_endpoint": [
+        214.9768,
+        1088.2912
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013609123929199293
+    },
+    {
+      "time": 17.194,
+      "phase": "rinse_tip",
+      "cycle": 2,
+      "wet_pixels": 1664,
+      "wet_bounds": [
+        96.25,
+        1088.75,
+        112.25,
+        1136.25
+      ],
+      "wet_distal_extent_fraction": 0.20699467984971326,
+      "dry_wrist_min_distance": 80.6315598678255,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.909811,
+      "actual_rub_cycles": 3
+    },
+    {
+      "time": 17.515,
+      "phase": "rinse_tip",
+      "cycle": 2,
+      "wet_pixels": 1995,
+      "wet_bounds": [
+        95.25,
+        1086.75,
+        112.75,
+        1137.25
+      ],
+      "wet_distal_extent_fraction": 0.22150527822819832,
+      "dry_wrist_min_distance": 79.05248847227574,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.263247,
+      "actual_rub_cycles": 3
+    },
+    {
+      "time": 17.836000000000002,
+      "phase": "rinse_tip",
+      "cycle": 2,
+      "wet_pixels": 2189,
+      "wet_bounds": [
+        94.75,
+        1085.75,
+        112.75,
+        1138.25
+      ],
+      "wet_distal_extent_fraction": 0.2296880142376904,
+      "dry_wrist_min_distance": 78.8384266843912,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 169.616683,
+      "actual_rub_cycles": 3
+    },
+    {
+      "time": 16.78,
+      "phase": "open_tap",
+      "cycle": 2,
+      "actual_lever_endpoint": [
+        211.6872,
+        1086.2983
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013635752202192724
+    },
+    {
+      "time": 18.35,
+      "phase": "close_tap",
+      "cycle": 2,
+      "actual_lever_endpoint": [
+        214.9768,
+        1088.2912
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013609123929199293
+    },
+    {
+      "time": 23.508,
+      "phase": "rinse_tip",
+      "cycle": 3,
+      "wet_pixels": 1751,
+      "wet_bounds": [
+        96.25,
+        1087.75,
+        112.75,
+        1136.25
+      ],
+      "wet_distal_extent_fraction": 0.21332254221870672,
+      "dry_wrist_min_distance": 80.13155990309568,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.909811,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 23.7,
+      "phase": "rinse_tip",
+      "cycle": 3,
+      "wet_pixels": 1911,
+      "wet_bounds": [
+        95.25,
+        1087.25,
+        112.25,
+        1137.25
+      ],
+      "wet_distal_extent_fraction": 0.21517741585920483,
+      "dry_wrist_min_distance": 79.55206423529866,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.263247,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 23.892,
+      "phase": "rinse_tip",
+      "cycle": 3,
+      "wet_pixels": 2087,
+      "wet_bounds": [
+        94.75,
+        1086.25,
+        112.25,
+        1138.25
+      ],
+      "wet_distal_extent_fraction": 0.22336015186869693,
+      "dry_wrist_min_distance": 79.06656008121026,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 169.616683,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 23.224,
+      "phase": "open_tap",
+      "cycle": 3,
+      "actual_lever_endpoint": [
+        211.6872,
+        1086.2983
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013635752202192724
+    },
+    {
+      "time": 24.305,
+      "phase": "close_tap",
+      "cycle": 3,
+      "actual_lever_endpoint": [
+        216.1114,
+        1089.1813
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013639961700384036
+    },
+    {
+      "time": 29.438,
+      "phase": "rinse_tip",
+      "cycle": 4,
+      "wet_pixels": 1855,
+      "wet_bounds": [
+        96.25,
+        1087.75,
+        113.25,
+        1136.75
+      ],
+      "wet_distal_extent_fraction": 0.2196504045877002,
+      "dry_wrist_min_distance": 79.63155993880878,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.909811,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 29.615000000000002,
+      "phase": "rinse_tip",
+      "cycle": 4,
+      "wet_pixels": 2008,
+      "wet_bounds": [
+        95.25,
+        1086.75,
+        112.75,
+        1137.25
+      ],
+      "wet_distal_extent_fraction": 0.22150527822819832,
+      "dry_wrist_min_distance": 78.99513687571041,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.263247,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 29.792,
+      "phase": "rinse_tip",
+      "cycle": 4,
+      "wet_pixels": 2145,
+      "wet_bounds": [
+        94.75,
+        1086.25,
+        112.75,
+        1138.25
+      ],
+      "wet_distal_extent_fraction": 0.2296880142376904,
+      "dry_wrist_min_distance": 78.8384266843912,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 169.616683,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 29.192,
+      "phase": "open_tap",
+      "cycle": 4,
+      "actual_lever_endpoint": [
+        211.6872,
+        1086.2983
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013635752202192724
+    },
+    {
+      "time": 30.162,
+      "phase": "close_tap",
+      "cycle": 4,
+      "actual_lever_endpoint": [
+        212.9792,
+        1086.988
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013587525512403532
+    },
+    {
+      "time": 34.438,
+      "phase": "rinse_tip",
+      "cycle": 5,
+      "wet_pixels": 1718,
+      "wet_bounds": [
+        96.25,
+        1088.25,
+        112.25,
+        1136.25
+      ],
+      "wet_distal_extent_fraction": 0.20699467984971326,
+      "dry_wrist_min_distance": 80.32215760075593,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.909811,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 34.614999999999995,
+      "phase": "rinse_tip",
+      "cycle": 5,
+      "wet_pixels": 1862,
+      "wet_bounds": [
+        95.25,
+        1087.25,
+        112.25,
+        1137.25
+      ],
+      "wet_distal_extent_fraction": 0.21517741585920483,
+      "dry_wrist_min_distance": 79.98533251885924,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 170.263247,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 34.791999999999994,
+      "phase": "rinse_tip",
+      "cycle": 5,
+      "wet_pixels": 2075,
+      "wet_bounds": [
+        94.75,
+        1086.25,
+        112.25,
+        1138.25
+      ],
+      "wet_distal_extent_fraction": 0.22336015186869693,
+      "dry_wrist_min_distance": 79.24347748181415,
+      "wet_tint_clip_is_drawn_mitten": true,
+      "dry_forearm_clip_x": 169.616683,
+      "actual_rub_cycles": 2
+    },
+    {
+      "time": 34.192,
+      "phase": "open_tap",
+      "cycle": 5,
+      "actual_lever_endpoint": [
+        211.6872,
+        1086.2983
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013635752202192724
+    },
+    {
+      "time": 35.162,
+      "phase": "close_tap",
+      "cycle": 5,
+      "actual_lever_endpoint": [
+        212.9792,
+        1086.988
+      ],
+      "lever_inside_hand_fill": false,
+      "lever_to_hand_boundary_distance": 0.013587525512403532
+    }
+  ],
+  "final_video_sha256": "f6920d1dd6f8bb2f163d69fa8a58cba7b56a803e1e4bf22d9730efe8978011f5",
+  "actual_final_samples": [
+    {
+      "frame": 208,
+      "time": 8.666666666666666,
+      "mean_rgb_error": 1.6134860468106995,
+      "proof": "controle/preuves_audit_v14/final_0208.png"
+    },
+    {
+      "frame": 217,
+      "time": 9.041666666666666,
+      "mean_rgb_error": 1.6094502314814816,
+      "proof": "controle/preuves_audit_v14/final_0217.png"
+    },
+    {
+      "frame": 227,
+      "time": 9.458333333333334,
+      "mean_rgb_error": 1.61135641718107,
+      "proof": "controle/preuves_audit_v14/final_0227.png"
+    },
+    {
+      "frame": 413,
+      "time": 17.208333333333332,
+      "mean_rgb_error": 1.6133608217592592,
+      "proof": "controle/preuves_audit_v14/final_0413.png"
+    },
+    {
+      "frame": 420,
+      "time": 17.5,
+      "mean_rgb_error": 1.6144399434156378,
+      "proof": "controle/preuves_audit_v14/final_0420.png"
+    },
+    {
+      "frame": 428,
+      "time": 17.833333333333332,
+      "mean_rgb_error": 1.614770608281893,
+      "proof": "controle/preuves_audit_v14/final_0428.png"
+    },
+    {
+      "frame": 564,
+      "time": 23.5,
+      "mean_rgb_error": 1.6109749549897119,
+      "proof": "controle/preuves_audit_v14/final_0564.png"
+    },
+    {
+      "frame": 569,
+      "time": 23.708333333333332,
+      "mean_rgb_error": 1.614455697016461,
+      "proof": "controle/preuves_audit_v14/final_0569.png"
+    },
+    {
+      "frame": 573,
+      "time": 23.875,
+      "mean_rgb_error": 1.6147252764917694,
+      "proof": "controle/preuves_audit_v14/final_0573.png"
+    },
+    {
+      "frame": 707,
+      "time": 29.458333333333332,
+      "mean_rgb_error": 1.6138358410493827,
+      "proof": "controle/preuves_audit_v14/final_0707.png"
+    },
+    {
+      "frame": 711,
+      "time": 29.625,
+      "mean_rgb_error": 1.6125461355452675,
+      "proof": "controle/preuves_audit_v14/final_0711.png"
+    },
+    {
+      "frame": 715,
+      "time": 29.791666666666668,
+      "mean_rgb_error": 1.6142255015432099,
+      "proof": "controle/preuves_audit_v14/final_0715.png"
+    },
+    {
+      "frame": 827,
+      "time": 34.458333333333336,
+      "mean_rgb_error": 1.6141129758230452,
+      "proof": "controle/preuves_audit_v14/final_0827.png"
+    },
+    {
+      "frame": 831,
+      "time": 34.625,
+      "mean_rgb_error": 1.6130920460390947,
+      "proof": "controle/preuves_audit_v14/final_0831.png"
+    },
+    {
+      "frame": 835,
+      "time": 34.791666666666664,
+      "mean_rgb_error": 1.6130359439300412,
+      "proof": "controle/preuves_audit_v14/final_0835.png"
+    }
+  ],
+  "frozen_sources_sha256": {
+    "episodes/03/cuisine_v14/chronologie.json": "e4f0fd4344a1fbf972b24c8076c3dfc0a9e3efec00bdb79ac33c50f5c8bb7746",
+    "episodes/03/cuisine_v14/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "episodes/03/cuisine_v14/sources/verify.py": "6706b13975dca6720cd6080e6a75f1548530ce8537bf55f1d553d33f31480d51",
+    "episodes/03/cuisine_v14/sources/animation.py": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+    "episodes/03/cuisine_v14/sources/package.py": "ecc693f695cdd9d510d6ee579ffbdc38632b21bf29d2627870eebe5f7ffb2baa",
+    "episodes/03/cuisine_v14/sources/son.py": "0683633185a85125673691279e7e5b3592384fa1d532ea0b45fc496b69bb7e9b",
+    "episodes/03/cuisine_v14/sources/render.py": "ff9dc261489df7673025a3918da13313d30a7517a917a735dc794921d6014578",
+    "episodes/03/cuisine_v14/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "episodes/03/cuisine_v14/sources/art.py": "ce0c190cf5917f8e237d7443a194528d7b7b9c93ec038279004474bcdfb8f6fc"
+  }
+}

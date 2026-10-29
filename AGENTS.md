@@ -1,13 +1,17 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
-Étude courante : l’utilisatrice préfère une moufle avec un seul pouce distinct
-dans le contour, comme sa nouvelle référence, et les autres doigts réunis.
-Préparer uniquement un essai du frottement dans `episodes/03/etudes_geste/moufle_pouce/`.
-Le dessin précédent à petite boucle intérieure a été rejeté. Attendre le retour
-sur cet essai avant toute intégration ; le rig et l’épisode V13 restent conservés.
-Dernier retour : dessus du pouce trop triangulaire. Arrondir uniquement cette
-zone et conserver sa courbure pendant le repli et les frottements ; reste de
-la moufle, bras, décor et durée conservés. L’essai corrigé reste à valider.
+Accord courant « Oui go pour la video » : intégrer aux cinq gros plans du lavabo
+la moufle à pouce distinct et arrondi validée au commit `b4b0f78`, dans
+`episodes/03/cuisine_v14/`. Les autres doigts restent réunis en un seul bout
+arrondi. Conserver les bras et mains des plans larges, le rig canonique, le
+montage de 41 s, la chronologie et le son V13. Conserver V13 pour comparaison.
+Le pouce reste rond pendant le repli et les frottements ; trois petits
+frottements aux deux premiers lavages, deux aux trois derniers si nécessaire
+pour la lisibilité. Vérifier contacts réels du nouveau contour, poignet sec,
+raccord et une seule main dans l’insert. Critique de l’animatique complète
+avant rendu final avec son, muet, sources et bilan ; livraison GitHub autorisée.
+Les propositions rejetées restent dans Git ; ne pas reprendre la boucle
+intérieure ni le dessus triangulaire du pouce.
 
 ## But et référence commune
 
