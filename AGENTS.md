@@ -1,5 +1,17 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Demande courante : perfectionner la musique de la V14, dans
+`episodes/03/cuisine_v15/`. Préserver à l’octet près les images compressées,
+la version muette, tous les bruitages et le sifflement initial ; ne modifier
+que la musique et sa place dans le mix. Garder 108 BPM et les fenêtres cuisine
+existantes, silence musical pendant chaque lavage/essuie/jet et la fin.
+Préférence choisie : « Jazz cartoon discret », contrebasse ronde, accords
+doux et percussions légères, sans concurrence mélodique pendant le sifflement.
+Ce choix remplace le groove funk proposé initialement. Fournir aussi un court
+avant/après. FluidSynth et TimGM6mb déjà installés peuvent donner des timbres
+plus riches ; partition originale, crédits et licences de la banque inclus.
+Les mesures ne remplacent pas l’écoute : ne pas prétendre avoir écouté.
+
 Accord courant « Oui go pour la video » : intégrer aux cinq gros plans du lavabo
 la moufle à pouce distinct et arrondi validée au commit `b4b0f78`, dans
 `episodes/03/cuisine_v14/`. Les autres doigts restent réunis en un seul bout

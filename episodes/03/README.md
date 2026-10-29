@@ -1,15 +1,16 @@
 # MOU en cuisine — essuie-tout
 
-**Version courante : [MOU en cuisine, moufle au pouce arrondi,
-41 secondes](cuisine_v14/).** [MP4 avec son](cuisine_v14/MOU_Encore_une_feuille.mp4?raw=true),
-[muet](cuisine_v14/MOU_Encore_une_feuille_muette.mp4?raw=true),
-[sources](cuisine_v14/MOU_Encore_une_feuille_sources.zip?raw=true) et
-[contrôles](cuisine_v14/CONTROLE.txt). MOU siffle au départ ; la musique originale
-accompagne la cuisine et se coupe pendant les rituels de lavage et essuyage.
+**Version courante : [MOU en cuisine, jazz cartoon discret,
+41 secondes](cuisine_v15/).** [MP4 avec son](cuisine_v15/MOU_Encore_une_feuille.mp4?raw=true),
+[muet](cuisine_v15/MOU_Encore_une_feuille_muette.mp4?raw=true),
+[sources](cuisine_v15/MOU_Encore_une_feuille_sources.zip?raw=true) et
+[contrôles](cuisine_v15/CONTROLE.txt). MOU siffle au départ ; la nouvelle musique
+originale choisie est un jazz cartoon discret, coupé pendant les rituels.
 MOU remue, coupe la carotte, ajoute la tomate et le sel, puis touche le manche
 propre : cinq lavages et autant de papiers jetés. Les inserts du lavabo montrent
 le pouce arrondi validé qui frotte contre le bout de la moufle, poignet sec.
-Les plans larges, le montage et les sons de la [V13](cuisine_v13/) sont conservés.
+Les images et bruitages de la [V14](cuisine_v14/) sont conservés.
+[Avant/après musical](cuisine_v15/comparaison/).
 [Références internet et limites](cuisine_v6/editorial/veille_cuisine_v6.md).
 La [version précédente de 30 s](carotte_v5/), la [version de 29 s](carotte_v4/)
 et le montage de 26 s ci-dessous restent conservés.

@@ -1,0 +1,17 @@
+{
+  "same_images": true,
+  "variants": [
+    {
+      "variant": "avant",
+      "duration": "10.666667",
+      "video_sha256": "d860bffa8d80128a15aa9dfa6079439091df7e70903d1a89bbe33da5c0653256",
+      "file_sha256": "d30383efb4b549e27de2db92547cd182c025778b854007612b852fa4619a0a84"
+    },
+    {
+      "variant": "apres",
+      "duration": "10.666667",
+      "video_sha256": "d860bffa8d80128a15aa9dfa6079439091df7e70903d1a89bbe33da5c0653256",
+      "file_sha256": "d178705c7dc261031c802f2bd0c75147fca9387ea98b13633f1f2968f1a8b10a"
+    }
+  ]
+}

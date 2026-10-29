@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "zip_sha256": "2913d8d043067f41478794f5b2f3bff05014d6f097e42dd180f5173ae2dd49a2",
+  "zip_bytes": 22801786,
+  "manifest_files": 127,
+  "zip_crc_and_all_hashes": true,
+  "cold_extracted_audio_regeneration": "complete41s mix, music and four stems bit-identical",
+  "audio_files_reproduced": {
+    "mix.wav": "068b6dae3c5e69668d70026b385ebbbd073ea50c3e26daf861661b626854b815",
+    "musique_cuisine.wav": "07aad820a8841ea91d44f7b2669c80a8a3064e9183e5cb4fe99b8eb7d397a04b",
+    "musique_basse.wav": "dae3650ee1ec0b6f7bb5100b7c8d3fc47b498275d0a1879a994428126ea7b2dc",
+    "musique_accords.wav": "f9fc746dd6caafcc97d7a679261d53016d4702b8a77ce48c3446932090b59641",
+    "musique_ponctuations.wav": "8cd98a46d31967009f2b00734faba854c591a23011a9defd8f885abac3fead39",
+    "musique_percussions.wav": "d7f8c50c2170e245243daae8094d1aaa1c563bed12464a9fca43a2e96814d7e4"
+  },
+  "fluidsynth_version": "2.4.4",
+  "limits": "Reproduction verified in the current environment with the bundled GPL instrument bank; no perceptual listening claimed.",
+  "cold_test_archive_sha256": "2a307dd0253fe1c3d7cf663bb9db1fcb7af73230c72509c7e589d40487fce51d",
+  "cold_reproduction_inputs_unchanged": true,
+  "post_cold_test_archive_changes": "Trailing whitespace removed from the FluidSynth copyright notice only; all 126 other manifest files unchanged."
+}

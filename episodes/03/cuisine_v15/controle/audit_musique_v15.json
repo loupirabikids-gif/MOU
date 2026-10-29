@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "style": "Jazz cartoon discret, original written score",
+  "master_gain_linear_exact": 2.124210976406158,
+  "nonmusic_event_wavs_identical_to_v14": 63,
+  "pcm_mix_outside_music_windows_identical_to_v14": true,
+  "music_pcm_outside_windows_nonzero_samples": 0,
+  "stem_sum_max_abs_difference_int16": 2,
+  "windows": [
+    {
+      "seconds": [
+        0.0,
+        7.75
+      ],
+      "pre_master_peak_dbfs": -25.247086982213727,
+      "pre_master_rms_dbfs": -42.26509540079419,
+      "post_master_rms_dbfs": -35.72109540079419
+    },
+    {
+      "seconds": [
+        13.5,
+        16.5
+      ],
+      "pre_master_peak_dbfs": -23.500116402391992,
+      "pre_master_rms_dbfs": -40.694593751625845,
+      "post_master_rms_dbfs": -34.15059375162585
+    },
+    {
+      "seconds": [
+        21.5,
+        23.0
+      ],
+      "pre_master_peak_dbfs": -24.23212320142127,
+      "pre_master_rms_dbfs": -40.991827665469756,
+      "post_master_rms_dbfs": -34.44782766546976
+    },
+    {
+      "seconds": [
+        27.0,
+        29.0
+      ],
+      "pre_master_peak_dbfs": -24.97966079038953,
+      "pre_master_rms_dbfs": -41.922933103392445,
+      "post_master_rms_dbfs": -35.37893310339245
+    },
+    {
+      "seconds": [
+        33.0,
+        34.0
+      ],
+      "pre_master_peak_dbfs": -26.89203462632817,
+      "pre_master_rms_dbfs": -43.234866279078076,
+      "post_master_rms_dbfs": -36.69086627907808
+    }
+  ],
+  "notes": 119,
+  "fluidsynth_version": "2.4.4",
+  "soundfont_sha256": "c5378b62028c920cb11e4803327983fee2f2cdff5dc89c708e39da417e51c854",
+  "son_source_sha256": "de8aa94f257fb2dc1e5b49faa678d6d0420c60a0e66f5147ebf544909b2e44a1",
+  "music_source_sha256": "6b314d8f1b905fec00cfdf964807884dd3657ac3bbb201ac15d4e96c48944ae1",
+  "mix_sha256": "068b6dae3c5e69668d70026b385ebbbd073ea50c3e26daf861661b626854b815",
+  "music_sha256": "07aad820a8841ea91d44f7b2669c80a8a3064e9183e5cb4fe99b8eb7d397a04b",
+  "limits": "Written-score and numerical PCM checks only; no perceptual listening or phone-speaker/audience validation claimed."
+}

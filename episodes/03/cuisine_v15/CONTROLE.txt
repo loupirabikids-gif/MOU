@@ -1,0 +1,47 @@
+MOU — Encore une feuille — musique V15
+Contrôles du 29 octobre 2026
+
+LIVRAISON
+41 s, vertical 1080 × 1920, 24 images/s, 984 images.
+Nouvelle musique choisie : « Jazz cartoon discret ». Contrebasse, accords
+doux de piano électrique, petites réponses de piano et batterie aux balais.
+Partition originale à 108 BPM, léger swing et reprises adaptées aux cinq
+fenêtres de cuisine. Accompagnement allégé pendant le sifflement initial.
+
+CONSERVATION
+Le flux H.264 est strictement identique à V14, sans réencodage des images.
+Version muette et aperçu GIF identiques ; moufle au pouce arrondi conservée.
+Chronologie et cinq sources visuelles identiques à l’octet près.
+Les 63 WAV de bruitages/sifflement sont inchangés ; le PCM du mix hors
+fenêtres musicales est lui aussi identique à V14. Même gain master précis.
+
+CONTRÔLES RÉUSSIS
+- Zéro échantillon musical hors fenêtres cuisine : 0–7,75 /13,5–16,5 /
+  21,5–23 /27–29 /33–34 s. Lavage, essuyage, jet, poubelle et fin sans musique.
+- Sorties de 12 ms à l’intérieur des fenêtres, coupures à zéro, pas de queue.
+- WAV 48 kHz stéréo, 41 s, aucune saturation ; pic du mix proche de −4 dBFS.
+- Deux MP4 entièrement décodés ; vidéo identique entre sonore/muet et V14.
+  AAC conforme au nouveau WAV, corrélation 0,9985957134 sans décalage.
+- Contrôle principal : 60 images finales comparées à des SVG frais hors cache.
+- Avant/après : environ 10,7 s chacun, même flux vidéo ; seule la piste
+  sonore diffère. Le passage au premier lavage permet de comparer la coupure.
+- Quatre stems modifiables, 119 notes/événements de partition documentés.
+
+SOURCES ET PROVENANCE
+Musique rendue localement avec Python et FluidSynth 2.4.4. Banque tierce
+TimGM6mb sous GPL-2 incluse avec ses crédits et licences : les timbres
+instrumentaux ne sont pas des échantillons créés pour ce projet.
+Aucune chanson, boucle musicale, voix ou service à crédits importé.
+Sources, sons, instruments libres et manifeste SHA-256 dans le ZIP.
+Contrôles de l’archive et reproduction à froid : controle/audit_archive.json.
+
+Rapports : audit_final.json, audit_audio_v15.json, audit_musique_v15.json,
+audit_son.json et critique_musique_v15.md. Le vérificateur comparatif a
+besoin de V14 dans le checkout ; la production autonome est décrite dans
+sources/README.md et comprend toutes ses dépendances de données.
+
+LIMITES
+La critique porte sur la partition, la construction et les mesures du rendu.
+Aucune écoute perceptive, validation du son sur téléphone ou préférence
+du public n’est revendiquée. Les extraits permettent une comparaison à l’écoute.
+Livraison GitHub ; aucune publication sur un compte social.
