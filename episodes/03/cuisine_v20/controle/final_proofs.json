@@ -1,0 +1,26 @@
+{
+  "video": "MOU_Encore_une_feuille.mp4",
+  "video_sha256": "b4a05afccbeb4441f0f819b82b5efe29cacce9854173773c23abeee216db3342",
+  "method": "Frames decoded directly from MP4, including AAC muxed version.",
+  "fps": 24,
+  "ending_frames": [
+    930,
+    934,
+    938,
+    939,
+    940,
+    942,
+    946,
+    950,
+    954,
+    958,
+    962,
+    966,
+    978
+  ],
+  "named_frames": {
+    "96": "chef",
+    "432": "lavabo",
+    "978": "final"
+  }
+}

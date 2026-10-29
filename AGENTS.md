@@ -1,6 +1,16 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
-Demande courante : préparer une image de validation d’une toque portant « MOU »
+Accord courant « oui je valide » : intégrer dans `episodes/03/cuisine_v20/`
+la toque « MOU » et le tablier de taille de l’image `chef_v1` validée.
+Le SVG du costume reste identique à l’étude. Garder le rig, les deux bras,
+les deux mains, les inserts du lavabo et la légende V19. Dernière boulette :
+contact visible avec le tas plein à 39,1 s, rebond puis chute au sol vers
+39,85 s, tenue du gros plan jusqu’à 40,25 s puis MOU satisfait de sa main.
+Durée 41 s. Garder musique, mix et bruitages V19 ; seul un contact feutré du
+papier au sol est ajouté au son existant. Ne pas recomposer ou renormaliser.
+Critiquer l’animatique réelle avant final, puis livrer son/muet/sources/GitHub.
+
+Étude préalable : préparer une image de validation d’une toque portant « MOU »
 et d’un tablier noué uniquement à la taille, sans bavette ni bretelles.
 Étude dans `episodes/03/etudes_costume/chef_v1/`, à partir de la V19, avec
 les bras, mains et rig conservés. Attendre la validation de l’image avant

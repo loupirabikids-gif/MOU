@@ -1,0 +1,39 @@
+MOU — Encore une feuille V20 : costume de chef et papier au sol
+
+Livraison : 41 s, 1080 × 1920, 24 images/s, H264/yuv420p, son AAC stéréo 48 kHz.
+Version muette : même flux H264. Animatique complète : 540 × 960, 12 images/s.
+GIF d’aperçu : 432 × 768, 10 images/s, 41 s.
+
+Changements : toque « MOU » et tablier de taille identiques à l’image validée.
+Dernier petit papier : contact sur le tas débordant 39,1 s, rebond puis contact
+au sol 39,85 s ; gros plan jusqu’à 40,25 s, puis MOU fier de sa main propre.
+Quatre grosses boulettes dans la poubelle, petite boulette persistante au sol.
+Texte d’ouverture « Just cooking. Mostly washing. » conservé, 0–3 s, position haute.
+
+Contrôles réalisés :
+- Costume SVG identique à la maquette ; image fraîche à 4 s identique pixel à pixel.
+- Rig canonique inchangé ; 984 états corps/bras/visage/mains identiques à V19.
+- 215 images SVG des inserts du lavabo identiques, une seule moufle à pouce arrondi.
+- Contact réel des contours tenu sur deux images finales 938/939.
+- Toute la trajectoire reste cadrée, toutes les caméras restent dans le décor.
+- Deux MP4 décodés entièrement sans erreur ; 984 images chacun, durée 41 s.
+- 72 images MP4 comparées à des SVG/CairoSVG frais hors cache, régions costume,
+  nom, bras, lavabo, ingrédients, papier et sol : tous les seuils respectés.
+- Musique et 69 WAV de référence conservés à l’identique. Le mix PCM reste
+  strictement identique à V19 hors du seul contact sol 39,85–39,97 s.
+- Aucun échantillon saturé ; AAC comparé au WAV courant, sans décalage.
+- Sources gelées pendant les rendus ; archive ZIP avec manifeste SHA256/CRC.
+
+Défauts corrigés avant livraison : dernier zoom trop serré, qui coupait
+brièvement le papier en approche ; dernier cadrage désormais zoom 2,5,
+centre (220, 1536). Deux petites régions d’accessoire dépassaient légèrement
+le seuil de fidélité sous CRF12 ; final en CRF8, même seuil et mêmes sources.
+Critique indépendante favorable sur animatique et images du MP4 définitif.
+
+Limites : examen visuel par images et mesures numériques audio. Aucune écoute
+humaine ni validation sur téléphone revendiquée ; aucune publication sociale.
+Rapports et reproduction dans controle/, developpement/ et sources/README.md.
+
+Corrélation AAC/WAV : 0.999209982.
+MP4 sonore SHA256 :b4a05afccbeb4441f0f819b82b5efe29cacce9854173773c23abeee216db3342
+MP4 muet SHA256 :acd80cd623f83057765a35ff140953ef327951b6050ddbff9ff44a608b0defc8

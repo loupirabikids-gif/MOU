@@ -1,0 +1,17 @@
+{
+  "initial_video_sha256": "8287594f189118cc1f795dd0b3053cdec9ead1c3f4373ed035550df8183edd8d",
+  "failed_checks": [
+    {
+      "frame": 349,
+      "roi": "salt_bowl",
+      "mean_error": 3.1479674796747967
+    },
+    {
+      "frame": 366,
+      "roi": "salt_bowl",
+      "mean_error": 3.1053861788617887
+    }
+  ],
+  "diagnosis": "The two small salt-bowl ROIs slightly exceed the fixed mean RGB error threshold under CRF12; source and decoded scene content otherwise agree. Keep the same threshold and reduce final compression to CRF8.",
+  "correction": "Reencode exact same current PNG frames and WAV with final CRF8; preview remains CRF12."
+}

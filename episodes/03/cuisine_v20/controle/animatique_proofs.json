@@ -1,0 +1,25 @@
+{
+  "video": "MOU_Encore_une_feuille_animatique.mp4",
+  "video_sha256": "27d26109a6b9f918128faabfdd78b5d16aa52f8495de020875f5905c132a26dd",
+  "method": "Frames decoded directly from MP4, including AAC muxed version.",
+  "fps": 12,
+  "ending_frames": [
+    465,
+    467,
+    469,
+    470,
+    471,
+    473,
+    475,
+    477,
+    479,
+    481,
+    483,
+    489
+  ],
+  "named_frames": {
+    "48": "chef",
+    "216": "lavabo",
+    "489": "final"
+  }
+}
