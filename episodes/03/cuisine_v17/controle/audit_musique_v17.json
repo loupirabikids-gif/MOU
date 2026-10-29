@@ -1,0 +1,124 @@
+{
+  "status": "passed",
+  "composition_inputs": [
+    "duration",
+    "bpm"
+  ],
+  "score_invariant_to_visual_and_duck_windows": true,
+  "rendered_raw_pcm_bit_identical_under_changed_visual_and_duck_windows": true,
+  "score_events": 594,
+  "walking_bass_beats": 74,
+  "walking_bass_every_global_integer_beat": true,
+  "same_pitch_gate_overlaps": 0,
+  "master_gain_linear_exact": 2.124210976406158,
+  "nonmusic_wavs_identical_to_v16": 63,
+  "target_raw_music_rms_after_master": -31.0,
+  "body_raw_music_rms_after_master": -31.000255769590872,
+  "duck_db_target": -3.0,
+  "duck_attack_seconds": 0.5,
+  "duck_release_seconds": 0.7,
+  "gain_reconstruction_max_lsb": 0.9980162378194093,
+  "duck_checks": [
+    {
+      "cycle": 1,
+      "seconds": [
+        7.75,
+        10.3
+      ],
+      "measured_gain_db": -3.0000456933146893
+    },
+    {
+      "cycle": 2,
+      "seconds": [
+        16.5,
+        18.6
+      ],
+      "measured_gain_db": -3.000021062312399
+    },
+    {
+      "cycle": 3,
+      "seconds": [
+        23.0,
+        24.5
+      ],
+      "measured_gain_db": -3.0000835232638154
+    },
+    {
+      "cycle": 4,
+      "seconds": [
+        29.0,
+        30.35
+      ],
+      "measured_gain_db": -3.0000216764847725
+    },
+    {
+      "cycle": 5,
+      "seconds": [
+        34.0,
+        35.35
+      ],
+      "measured_gain_db": -2.9999730166432004
+    }
+  ],
+  "continuity": {
+    "raw": {
+      "100": {
+        "minimum_dbfs_after_master": -36.27945408342535,
+        "minimum_time": 5.78,
+        "p10": -33.43693860338581,
+        "median": -31.431121932689265,
+        "p90": -29.049759945434054
+      },
+      "200": {
+        "minimum_dbfs_after_master": -35.85477564861399,
+        "minimum_time": 5.68,
+        "p10": -33.012023274949755,
+        "median": -31.065267310843737,
+        "p90": -29.372623168042367
+      },
+      "500": {
+        "minimum_dbfs_after_master": -33.49622237524707,
+        "minimum_time": 39.5,
+        "p10": -31.997489675941026,
+        "median": -30.97908690728172,
+        "p90": -30.185054043052187
+      }
+    },
+    "ducked": {
+      "100": {
+        "minimum_dbfs_after_master": -39.15085588769529,
+        "minimum_time": 23.56,
+        "p10": -34.952676211772385,
+        "median": -32.314327781920866,
+        "p90": -29.483411089491817
+      },
+      "200": {
+        "minimum_dbfs_after_master": -38.685797773519134,
+        "minimum_time": 23.46,
+        "p10": -34.629723022887404,
+        "median": -32.16507369716076,
+        "p90": -29.790728140896118
+      },
+      "500": {
+        "minimum_dbfs_after_master": -36.15694228964954,
+        "minimum_time": 23.16,
+        "p10": -33.882322128425805,
+        "median": -31.67081927329647,
+        "p90": -30.414874720245074
+      }
+    }
+  },
+  "phone_proxy_300_4500hz_200ms": {
+    "minimum_dbfs_after_master": -38.831234517029415,
+    "minimum_time": 28.12,
+    "p10": -37.02871264245436,
+    "median": -34.86543645332712,
+    "p90": -32.56256711451721
+  },
+  "mix_peak_dbfs": -3.788,
+  "clipped_samples": 0,
+  "mix_sha256": "5df7395074ce7fa8eaa6d10b6e0fa3958ccb43f5a90c760df1c823c6758ff675",
+  "music_source_sha256": "10b6616a217b8d209a6e8d3f669efaa4848ce81a92cf29a0e0ba3921c4684c52",
+  "son_source_sha256": "297d157d054e4273462e15def59424f8c12e45f2620d67d285d095e089c80222",
+  "limits": "Score, PCM, gain and phone-band proxy measurements only; not a perceptual listening test."
+}

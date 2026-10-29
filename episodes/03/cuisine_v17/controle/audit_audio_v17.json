@@ -1,0 +1,264 @@
+{
+  "status": "passed",
+  "scope": "V17 known audible-gap regressions: independent score, short-window PCM, envelope and transport safeguards",
+  "limits": "No perceptual listening, phone playback or artistic approval is claimed. Passing numbers alone cannot establish continuous musical feel.",
+  "visual_preservation": {
+    "chronologie.json": "e4f0fd4344a1fbf972b24c8076c3dfc0a9e3efec00bdb79ac33c50f5c8bb7746",
+    "sources/animation.py": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+    "sources/art.py": "ce0c190cf5917f8e237d7443a194528d7b7b9c93ec038279004474bcdfb8f6fc",
+    "sources/render.py": "ff9dc261489df7673025a3918da13313d30a7517a917a735dc794921d6014578",
+    "sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0"
+  },
+  "audio": {
+    "nonmusic_wavs_byte_identical": 63,
+    "master_gain_linear_exact": 2.124210976406158,
+    "mix_reconstruction_max_error_pcm": 4.418851049082207,
+    "mix_reconstruction_rms_error_pcm": 1.0627233413414088,
+    "mix_sha256": "5df7395074ce7fa8eaa6d10b6e0fa3958ccb43f5a90c760df1c823c6758ff675",
+    "music_sha256": "c675ab5d18f4c6b009b638a8aad01f04314128b8838381431f968dab5cf7ba73",
+    "raw_sha256": "0d11d49c37f54a44f21fe958092ce1d687c20f630c67f9f8195464976ba29e94",
+    "score": {
+      "notes": 594,
+      "composition_invariant_to_visual_windows_and_ducking": true,
+      "composition_requires_only_bpm_and_duration": true,
+      "bass_notes": 74,
+      "maximum_bass_grid_error_seconds": 4.4444842867758577e-10,
+      "interior_pulse_beats_checked": 71,
+      "beat_seconds": 0.5555555555555556,
+      "score_sha256": "4f0278c88ad4582577e3e1aaac4d2b3a0b469024ce2026eb66f6017788600f34"
+    },
+    "gain_min_max": [
+      0.7079457843841379,
+      1.0
+    ],
+    "raw_times_gain_max_error_pcm": 0.9980162378194093,
+    "wash_checks": [
+      {
+        "cycle": 1,
+        "seconds": [
+          7.75,
+          10.3
+        ],
+        "export_measured_duck_db": -3.0000403748612663,
+        "music_rms_dbfs_postmaster": -33.62505640206315,
+        "water_minus_music_rms_db": 12.86227977162796
+      },
+      {
+        "cycle": 2,
+        "seconds": [
+          16.5,
+          18.6
+        ],
+        "export_measured_duck_db": -3.0000159177107477,
+        "music_rms_dbfs_postmaster": -33.382156415590096,
+        "water_minus_music_rms_db": 12.92929827102435
+      },
+      {
+        "cycle": 3,
+        "seconds": [
+          23.0,
+          24.5
+        ],
+        "export_measured_duck_db": -3.000077604206182,
+        "music_rms_dbfs_postmaster": -34.081278662506016,
+        "water_minus_music_rms_db": 14.35563454406327
+      },
+      {
+        "cycle": 4,
+        "seconds": [
+          29.0,
+          30.35
+        ],
+        "export_measured_duck_db": -3.000015705901232,
+        "music_rms_dbfs_postmaster": -33.83704795448245,
+        "water_minus_music_rms_db": 14.005358370195221
+      },
+      {
+        "cycle": 5,
+        "seconds": [
+          34.0,
+          35.35
+        ],
+        "export_measured_duck_db": -2.999967425859132,
+        "music_rms_dbfs_postmaster": -33.62382935331537,
+        "water_minus_music_rms_db": 13.711066073633393
+      }
+    ],
+    "raw_normal_rms_dbfs_postmaster": -31.010040795840833,
+    "rolling_200ms_raw": {
+      "windows": 2023,
+      "minimum": {
+        "start": 23.45,
+        "end": 23.65,
+        "dbfs": -35.724224904064755
+      },
+      "percentiles_dbfs": {
+        "5": -33.44568873661158,
+        "10": -33.00257153844837,
+        "50": -31.094135994764628,
+        "90": -29.3945803103065,
+        "95": -29.22615995922497
+      },
+      "p95_minus_p5_db": 4.219528777386611
+    },
+    "rolling_200ms_music": {
+      "windows": 2023,
+      "minimum": {
+        "start": 23.45,
+        "end": 23.65,
+        "dbfs": -38.72417533413667
+      },
+      "percentiles_dbfs": {
+        "5": -35.13066909933343,
+        "10": -34.53313290111354,
+        "50": -32.14737617122069,
+        "90": -29.774925749364062,
+        "95": -29.367898888501767
+      },
+      "p95_minus_p5_db": 5.762770210831665
+    },
+    "rolling_100ms_raw": {
+      "windows": 2028,
+      "minimum": {
+        "start": 5.77,
+        "end": 5.87,
+        "dbfs": -36.40286463253046
+      },
+      "percentiles_dbfs": {
+        "5": -33.974353779795734,
+        "10": -33.47564070722205,
+        "50": -31.435673746004106,
+        "90": -29.10711888570033,
+        "95": -28.70820716685441
+      },
+      "p95_minus_p5_db": 5.2661466129413235
+    },
+    "rolling_100ms_music": {
+      "windows": 2028,
+      "minimum": {
+        "start": 23.55,
+        "end": 23.65,
+        "dbfs": -39.33881391848069
+      },
+      "percentiles_dbfs": {
+        "5": -35.45330215099215,
+        "10": -34.89309478075424,
+        "50": -32.27943555301415,
+        "90": -29.471814289756328,
+        "95": -28.944007370817424
+      },
+      "p95_minus_p5_db": 6.509294780174727
+    },
+    "window_hop_seconds": 0.02,
+    "known_v16_dropout_regressions": [
+      {
+        "seconds": [
+          14.65,
+          14.85
+        ],
+        "v16_dbfs": -99.5223562525918,
+        "v17_music_dbfs": -33.02426238493759,
+        "v17_raw_dbfs": -33.02426238493759
+      },
+      {
+        "seconds": [
+          15.85,
+          16.05
+        ],
+        "v16_dbfs": -82.52857065406765,
+        "v17_music_dbfs": -29.590306040119565,
+        "v17_raw_dbfs": -29.584377304980777
+      },
+      {
+        "seconds": [
+          16.45,
+          16.65
+        ],
+        "v16_dbfs": -86.10045249594643,
+        "v17_music_dbfs": -33.72183873425379,
+        "v17_raw_dbfs": -30.730244812775958
+      },
+      {
+        "seconds": [
+          29.0,
+          29.2
+        ],
+        "v16_dbfs": -87.07207066827345,
+        "v17_music_dbfs": -36.292443507995536,
+        "v17_raw_dbfs": -33.2923808491295
+      }
+    ],
+    "phoneband_180_6000hz_raw_rms_dbfs_postmaster": -32.39316843304296,
+    "phoneband_loss_db": 1.3831276372021257,
+    "contact_level_context": [
+      {
+        "event": "carotte_coupe_1",
+        "start": 14.55,
+        "foley_peak_minus_music_rms_db": 25.365735396733903,
+        "potential_masking_flag": false
+      },
+      {
+        "event": "carotte_coupe_2",
+        "start": 15.25,
+        "foley_peak_minus_music_rms_db": 23.363377583333545,
+        "potential_masking_flag": false
+      },
+      {
+        "event": "couteau_pose",
+        "start": 15.95,
+        "foley_peak_minus_music_rms_db": 12.594333915185727,
+        "potential_masking_flag": false
+      },
+      {
+        "event": "contact_tomate",
+        "start": 22.3,
+        "foley_peak_minus_music_rms_db": 15.569758244602268,
+        "potential_masking_flag": false
+      },
+      {
+        "event": "sel_pince",
+        "start": 27.35,
+        "foley_peak_minus_music_rms_db": 8.570793216557393,
+        "potential_masking_flag": false
+      },
+      {
+        "event": "sel_saupoudre",
+        "start": 28.05,
+        "foley_peak_minus_music_rms_db": 9.712910410619287,
+        "potential_masking_flag": false
+      }
+    ],
+    "mix_peak_dbfs": -3.787609367416475,
+    "clipped_samples": 0,
+    "mix_dc_mean_left_right": [
+      -8.486468617509051e-05,
+      -8.422642219357374e-05
+    ],
+    "limits": "Signal/score safeguards and phone-band approximation; these numbers do not prove perceptual listening or preference."
+  },
+  "final_video": {
+    "mp4_sha256": "993307805fb8ffb9c904e66f2af85342fd1f42c03e955960b5b425c971c0fb8b",
+    "h264_byte_identical_to_v16": {
+      "sha256": "c1960d79bf8bea4d6116a0ee651989b79353ef9a705f0a467f980634d1bc8c35",
+      "bytes": 12544892
+    },
+    "silent_mp4_byte_identical": true,
+    "aac_vs_current_wav_correlation": 0.9988958447410884,
+    "aac_peak_dbfs": -3.8783294332721425,
+    "aac_packets": 1923,
+    "maximum_aac_packet_gap_seconds": 1.00000000458067e-06
+  },
+  "tested_source_and_audio_sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v17/sources/music.py": "10b6616a217b8d209a6e8d3f669efaa4848ce81a92cf29a0e0ba3921c4684c52",
+    "/workspace/MOU/episodes/03/cuisine_v17/sources/son.py": "297d157d054e4273462e15def59424f8c12e45f2620d67d285d095e089c80222",
+    "/workspace/MOU/episodes/03/cuisine_v17/sources/render.py": "ff9dc261489df7673025a3918da13313d30a7517a917a735dc794921d6014578",
+    "/workspace/MOU/episodes/03/cuisine_v17/sources/animation.py": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+    "/workspace/MOU/episodes/03/cuisine_v17/sources/art.py": "ce0c190cf5917f8e237d7443a194528d7b7b9c93ec038279004474bcdfb8f6fc",
+    "/workspace/MOU/episodes/03/cuisine_v17/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "/workspace/MOU/episodes/03/cuisine_v17/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v17/audio/mix.wav": "5df7395074ce7fa8eaa6d10b6e0fa3958ccb43f5a90c760df1c823c6758ff675",
+    "/workspace/MOU/episodes/03/cuisine_v17/audio/musique_cuisine.wav": "c675ab5d18f4c6b009b638a8aad01f04314128b8838381431f968dab5cf7ba73",
+    "/workspace/MOU/episodes/03/cuisine_v17/audio/musique_sans_baisse.wav": "0d11d49c37f54a44f21fe958092ce1d687c20f630c67f9f8195464976ba29e94"
+  }
+}

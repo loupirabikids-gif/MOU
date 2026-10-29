@@ -1,6 +1,6 @@
 # MOU
 
-**Encore une feuille — jazz continu, baissé au lavage, 41 secondes.**
+**Encore une feuille — nouvel accompagnement jazz, 41 secondes.**
 
 MOU remue, coupe la carotte, ajoute la tomate puis une pincée de sel.
 Chaque contact relance son nettoyage et son gaspillage de papier, jusqu’au
@@ -10,17 +10,19 @@ Le jeu souligne sa première inquiétude, sa détermination devant le dernier
 papier et sa fierté finale devant sa main propre et la poubelle pleine.
 
 Légende d’ouverture : **« Me cooking: touch, wash, wipe… repeat. »**
-Sifflement au départ seulement ; jazz cartoon discret continu, avec contrebasse
-et accords doux. Son volume baisse doucement pendant les lavages pour laisser
-entendre l’eau, puis remonte. Images et bruitages conservés.
+Sifflement au départ seulement ; accompagnement jazz construit sur une grille
+unique, contrebasse régulière, accords liés et balais. Le fond est plus présent,
+avec une baisse légère et progressive au lavage. Images et bruitages conservés.
 
-[![Encore une feuille](episodes/03/cuisine_v16/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v16/MOU_Encore_une_feuille.mp4?raw=true)
+[![Encore une feuille](episodes/03/cuisine_v17/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v17/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Voir le MP4 avec son, 1080 × 1920](episodes/03/cuisine_v16/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Avant/après de la musique](episodes/03/cuisine_v16/comparaison/)
-- [Version muette](episodes/03/cuisine_v16/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v16/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/cuisine_v16/CONTROLE.txt)
-- [Chronologie](episodes/03/cuisine_v16/chronologie.json) · [Critiques et corrections](episodes/03/cuisine_v16/controle/)
+- **[Voir le MP4 avec son, 1080 × 1920](episodes/03/cuisine_v17/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Avant/après de la musique](episodes/03/cuisine_v17/comparaison/)
+- [Version muette](episodes/03/cuisine_v17/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v17/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/cuisine_v17/CONTROLE.txt)
+- [Chronologie](episodes/03/cuisine_v17/chronologie.json) · [Critiques et corrections](episodes/03/cuisine_v17/controle/)
+- [Diagnostic des coupures perçues](episodes/03/developpement/diagnostic_musique_v17.md)
+- [V16 conservée](episodes/03/cuisine_v16/)
 - [V15 avec coupures musicales conservée](episodes/03/cuisine_v15/)
 - [V14 avec l’ancienne musique conservée](episodes/03/cuisine_v14/)
 - [V13 précédente de 41 s conservée](episodes/03/cuisine_v13/)
@@ -45,7 +47,7 @@ des fichiers ne prouve pas leur activation native dans tous les clients.
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
 NumPy, FFmpeg et FluidSynth. Partition originale, banque d’instruments libre
-[TimGM6mb créditée](episodes/03/cuisine_v16/assets/README.md), bruitages originaux ; trois notes sifflées
+[TimGM6mb créditée](episodes/03/cuisine_v17/assets/README.md), bruitages originaux ; trois notes sifflées
 uniquement au départ, aucun dialogue ni musique téléchargée.
 La [veille de cette révision](episodes/03/cuisine_v6/editorial/veille_cuisine_v6.md)
 reste partielle : une vidéo de cuisine examinée par images et une boucle CSS lue.

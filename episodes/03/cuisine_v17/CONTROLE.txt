@@ -1,0 +1,50 @@
+MOU — Encore une feuille — partition jazz globale V17
+Contrôles du 29 octobre 2026
+
+PROBLÈME TROUVÉ
+La V16 gardait les anciennes phrases composées par plans : leurs reprises
+déplaçaient le rythme et les liaisons étaient encore tronquées. Des creux
+de 200 ms proches du silence passaient les anciens tests sur 500 ms.
+Le fond devenait aussi très faible dans les médiums sous l’eau.
+Le flux AAC était continu ; les défauts se trouvaient dans la musique.
+
+CORRECTION
+Une seule partition à 108 BPM, indépendante des plans : basse régulière,
+accords liés, balais et petites réponses de piano. Mêmes timbres de jazz
+discret, nouvelle grille globale ; aucun ancien raccord de partition.
+Niveau plus constant et plus présent. Baisse limitée à 3 dB au lavabo,
+descente de 500 ms et retour de 700 ms, sans autre baisse locale.
+Images, montage de 41 s et 63 bruitages/notes sifflées conservés.
+
+PREUVES ET RÉGRESSIONS
+- Partition identique lorsque les fenêtres des plans/lavages changent ;
+  rendu brut identique à l’octet près lors d’une seconde synthèse.
+- 594 événements écrits, 74 pulsations de basse sur la grille globale ;
+  pas de portes MIDI de même hauteur qui se chevauchent.
+- Niveau musical brut après master : environ −31 dBFS RMS. Balayage des
+  fenêtres de 100/200 ms tous les 20 ms ; minimum atténué de 200 ms autour
+  de −38,7 dBFS, contre des quasi-extinctions à −83/−99 dBFS en V16.
+- Les nouveaux tests rejettent réellement les anciens trous de V16.
+  À 14,65 s : −99,52 → −33,02 dBFS sur 200 ms ; à 29 s : −87,07 → −36,29.
+- Les sauts aux reprises de 13,5 et 21,5 s passent d’environ +5/+6 dB
+  à presque 0 dB. Le fond reste présent dans la bande utile d’un petit
+  haut-parleur ; cette simulation numérique ne constitue pas une écoute.
+- Baisse réelle de 3 dB aux cinq lavages, transitions progressives.
+  L’eau reste dominante dans les mesures ; aucun écrêtage du mix.
+- 63 WAV et leur gain inchangés, vidéo H.264 et muet identiques à V16.
+  Deux MP4 entièrement décodés, 984 images, 1080 × 1920 à 24 images/s.
+- AAC conforme au nouveau WAV, corrélation 0,9988958447 ; aucun trou dans
+  les paquets audio. Vérification principale de 60 images hors cache.
+
+LIVRABLES ET SOURCES
+MP4 avec son, muet, animatique, extrait avant/après de 20 s, sources et sons.
+Partition, quatre stems et référence sans baisse inclus. Rendu local libre :
+Python, FluidSynth 2.4.4, TimGM6mb GPL-2 crédité et fourni avec ses licences.
+Source ZIP avec manifeste SHA-256 ; reproduction dans sources/README.md.
+Audit d’archive et régénération à froid dans controle/audit_archive.json.
+Diagnostic initial et critique finale conservés, avec leurs limites.
+
+LIMITES
+Mesures de partition, de signaux et de fichiers. Aucune écoute perceptive
+ou validation du résultat sur téléphone n’est revendiquée. L’extrait permet
+de juger la continuité à l’écoute. Livraison GitHub, pas de publication sociale.

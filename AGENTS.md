@@ -1,18 +1,25 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
-Demande courante V16 : conserver le jazz sur toute la vidéo de 41 s et
-diminuer seulement son volume pendant les cinq lavages pour entendre l’eau.
-Cette consigne REMPLACE les anciennes coupures/silences pendant les lavages,
-l’essuyage, les jets, la poubelle et la fin. Révision dans
-`episodes/03/cuisine_v16/`, V15 conservée. Garder thème, timbres et 108 BPM ;
-une partition continue sans redémarrage aux changements de plan, baisse douce
-d’environ 6 dB sur les inserts lavabo, puis retour au niveau normal.
-Préserver les images compressées, les 63 bruitages/notes sifflées et leur
-gain ; seule la musique change. Garder la place du sifflement initial.
-Les fenêtres historiques de la chronologie visuelle restent archivées ; la
-politique musicale effective V16 est décrite dans les sources et l’audit son.
-FluidSynth et TimGM6mb libres, crédits et licences inclus. Les mesures ne
-remplacent pas l’écoute : ne pas prétendre avoir écouté. Livraison GitHub autorisée.
+Demande courante V17 : la musique V16 donne toujours une impression de
+coupures/reprises ; chercher et corriger la cause dans `episodes/03/cuisine_v17/`.
+Le diagnostic prouve que les anciennes phrases conservées par fenêtres
+déplacent la phase rythmique et tronquent les liaisons. Des quasi-silences
+de 200 ms subsistent malgré les tests de non-zéro sur 500 ms. Le fond est
+aussi trop faible sous l’eau, surtout en bande utile d’un petit haut-parleur.
+Remplacer cette construction par une partition jazz sur une grille globale
+unique à 108 BPM, accompagnement régulier et accords liés, indépendante des
+plans. Ne pas conserver les 119 anciennes notes aux instants des raccords.
+Gardez les timbres et le caractère de jazz discret. Réduire le volume de 3 dB
+aux lavages avec des transitions de 500/700 ms ; viser un fond plus constant
+et présent. Ces valeurs sont des choix de réalisation, pas des demandes chiffrées.
+Images compressées, 63 bruitages/sifflements, leurs gains et 41 s conservés.
+Les anciennes consignes de silence musical restent remplacées : musique
+pendant l’essuyage, les jets et la fin. Les fenêtres historiques de la
+chronologie ne doivent plus intervenir dans la composition ni le rendu brut.
+Tester la partition, les creux sur 100/200 ms et le niveau utile, pas seulement
+un signal non nul. Les mesures ne prouvent pas l’écoute ou la continuité perçue ;
+ne pas prétendre avoir écouté. FluidSynth/TimGM6mb libres, crédits inclus,
+sources et diagnostics conservés. Livraison GitHub autorisée.
 
 Accord courant « Oui go pour la video » : intégrer aux cinq gros plans du lavabo
 la moufle à pouce distinct et arrondi validée au commit `b4b0f78`, dans

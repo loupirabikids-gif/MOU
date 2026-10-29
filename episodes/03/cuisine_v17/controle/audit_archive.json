@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "zip_sha256": "0035caa4a8d0ee5ecad7ea14e8041b2d760e2a6da434688e008696117045196a",
+  "zip_bytes": 35074483,
+  "manifest_files": 129,
+  "zip_crc_and_all_hashes": true,
+  "diagnostic_included": true,
+  "cold_extracted_audio_regeneration": "41s global jazz mix, four stems and unducked reference bit-identical",
+  "audio_files_reproduced": {
+    "mix.wav": "5df7395074ce7fa8eaa6d10b6e0fa3958ccb43f5a90c760df1c823c6758ff675",
+    "musique_cuisine.wav": "c675ab5d18f4c6b009b638a8aad01f04314128b8838381431f968dab5cf7ba73",
+    "musique_basse.wav": "f3226ab83fe8e74a10ef28f5f77b5c298f0e1aa7c928d08a3526590c35b55d06",
+    "musique_accords.wav": "71dccb824ff47808d6c38f3868ea2ba4a7e350729293a6c22a1a77420050d56a",
+    "musique_ponctuations.wav": "57a501d810cfd719fb5a840fab5deb2b8b942279a40206f40880b2aca26cfcb5",
+    "musique_percussions.wav": "5b56bfc5bf1d7c9173fafb789666f7ff67d3becdf27d61b3ce654f13829241a9",
+    "musique_sans_baisse.wav": "0d11d49c37f54a44f21fe958092ce1d687c20f630c67f9f8195464976ba29e94"
+  },
+  "fluidsynth_version": "2.4.4",
+  "limits": "Reproduced in current environment with bundled free instrument bank. This is not perceptual listening."
+}
