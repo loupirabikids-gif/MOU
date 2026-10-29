@@ -1,0 +1,14 @@
+{
+  "sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/animation.py": "9a7736efd9b0f8e512a62aa28a5cc199a76fcc4fc90a2070fd9da8fd731fe08a",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/art.py": "2a9818c90e47edc8d5ea9027e5e4e1904c6ce66067f5ba29a903e28a9366ff7d",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/render.py": "aaf644711cd6444601c155be4f0cc3e69435bab8b2424fa386603c052b773b78",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v21/chronologie.json": "461de4f8e8999b62777415e7096fee93f240c35fcefa4c7df5206f71109b0db6",
+    "/workspace/MOU/episodes/03/cuisine_v21/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "/workspace/MOU/fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+  },
+  "output": "/workspace/MOU/episodes/03/cuisine_v21/MOU_Encore_une_feuille.mp4"
+}

@@ -1,5 +1,21 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Accord courant V21 : l’utilisatrice accepte la clôture du tablier et signale
+que le jeu des émotions est insuffisant. Corriger le jeu, pas seulement le
+scénario : regards qui précèdent le geste, arrêt de compréhension, contraste
+des paupières/sourcils/bouche, vraie transition vers la gêne, puis pose tenue.
+Dans `episodes/03/cuisine_v21/`, garder costume, rig, bras et moufles V20.
+Fin à 44,5 s : goutte encore attachée à la gauche, droite vers tube vide,
+déclic vers le tablier avant mouvement, essuyage simple, regard au gaspillage,
+puis public et petit sourire gêné. La goutte disparaît au contact du tissu.
+Renforcer aussi les inspections et la découverte du dernier papier par le
+visage et les regards, sans modifier leurs gestes et contacts déjà établis.
+Tester cette fin par un aperçu muet réel, faire critiquer les émotions vues
+sans confondre paramètres différents et sentiments effectivement lisibles.
+Musique/timbres/dosage conservés ; prolonger la même partition globale pour
+la durée ajoutée, sans coupure ni redémarrage. Livrer fin courte et film entier,
+son/muet/sources/contrôles sur GitHub. L’accord autorise cette réalisation.
+
 Accord courant « oui je valide » : intégrer dans `episodes/03/cuisine_v20/`
 la toque « MOU » et le tablier de taille de l’image `chef_v1` validée.
 Le SVG du costume reste identique à l’étude. Garder le rig, les deux bras,

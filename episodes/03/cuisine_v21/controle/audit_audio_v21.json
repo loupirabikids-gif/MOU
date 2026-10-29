@@ -1,0 +1,912 @@
+{
+  "status": "passed",
+  "duration_seconds": 44.5,
+  "source_sha256": "ede9f98d99babcfdb0b9e752441ac145647ee8f5f911d9fdb957271103647457",
+  "chronologie_sha256": "461de4f8e8999b62777415e7096fee93f240c35fcefa4c7df5206f71109b0db6",
+  "mix_sha256": "7644138c35cd980246a8829508561dcb819eec0e8858f6264404e5882b01caa1",
+  "baseline_v20_pcm_sha256": "ef140d9ececf58d36b85dee3645b1e2a58f41dea988877b469d644728c128ab0",
+  "identical_pcm_prefix_seconds": 40.5,
+  "old_music_pcm_prefix_exact": true,
+  "old_fixed_calibration": 1.2217762480997532,
+  "music_source_byte_unchanged_sha256": "10b6616a217b8d209a6e8d3f669efaa4848ce81a92cf29a0e0ba3921c4684c52",
+  "retained_wavs_byte_identical": {
+    "cuisson.wav": "9e81e276f6a40cd5efe68e2eee1c7e342f11f3d41c77a16fae2371f6786040a7",
+    "remuage_debut.wav": "0aa50ea6c4459a269c17322c0465306a6d39cbe324440c761d134153441c37fe",
+    "cuillere_posee.wav": "1da395cce8d12e2ef1807c5d569abfb91e78fac63d1c8af091007f6c4063a958",
+    "contact_tomate.wav": "8fd9c2cf249b14a7f4f8235a215ca5af1f2e181aba89ca5479c560a1eef7822a",
+    "carotte_coupe_1.wav": "4f5bd6c80adfecb7e5c62f21bdd544c4152e126257ea7c3fb0abddaa4955401f",
+    "carotte_coupe_2.wav": "3ca6b2fd85db7b23e100c39fe90e5f6320f21745eacbbbe93bd57364afb874ea",
+    "couteau_pose.wav": "eaf10c556da68e99eb261c5ff1ad872520216b345fcb0b503f260656861934d2",
+    "contact_manche_propre.wav": "584abae6eb03b06972ec69704f880980fb44e16b8818925c96855786ef466fc7",
+    "sel_pince.wav": "d8e8f7beb3aff34e3678c949740b7196f9bc0ff17ee91a3f2483a46e19729361",
+    "sel_saupoudre.wav": "6d2936731eaac3a094d75015b0ab51781b8bed0ac1f38fc5eff1e9b8569d2d72",
+    "c1_robinet_ouvre.wav": "2e894e985ce65e52c1f846059ab32ea1cbef7376d15ef7d0462f65bcaf5d3653",
+    "c1_eau.wav": "434c643f3002f3ddc5eb82eb071bb7a4537d2a41b1104c351d0ac43f1b181da3",
+    "c1_robinet_ferme.wav": "890b0d1d698e7ba82fc0782b91794a83e57a7114f4bc40571d96883415b9fdbb",
+    "c1_main_sous_eau.wav": "b2a7988b78db5942c64fa325477cf1bc5d7308cb6e97d4ee9013c9489b345d76",
+    "c1_papier_deroule.wav": "b000c3db5d226f3ed886cb1afad24cb72c5cdc8b2aeb5898c7dff93016001a32",
+    "c1_papier_dechire.wav": "6fb3cc290ec5239898e7d87fd63001ea9519d69833d1e2272998ce35a016769d",
+    "c1_essuie_main.wav": "60bafad80a3cfe9bfce2deedcccb2c2e98037bb8e3a902d02383637fc9a1ed79",
+    "c1_papier_froisse.wav": "5d147e028bf2653df42c3ef9960c1763b8e3a0bf82e299f40210e80ac65c477f",
+    "c1_papier_lache.wav": "06c0c0886d3885b97b724b2a4f03892cef4e02d8858067e0765918506c229f67",
+    "c1_poubelle_impact.wav": "81fba2ea9022378528b3b1d48eb7cc7f9b622c5a8fe090bfb54d5fa4c24dc893",
+    "c2_robinet_ouvre.wav": "d4127e358ecd9e43dbf7f6ec86cd3ebbb3b350cde07dbcf0eaec6eb630c1a501",
+    "c2_eau.wav": "47e07b4917f703ea267d2ee8ef75b36efe07ccdf1c2816aff3bfaeb7b3521a30",
+    "c2_robinet_ferme.wav": "8eb868c85241bb79c0a9af11d11d92289decf49a89666e8905966047cde26568",
+    "c2_main_sous_eau.wav": "5591c0770ffb0f1e4df49a476d0f68e713484322b11a0046d0ce276e9b7e25f8",
+    "c2_papier_deroule.wav": "cb73b967eb241862a4635d6cf39693dc24c0808d1b87ddb804d048b52cba97e8",
+    "c2_papier_dechire.wav": "4770e300527e3bb3a3458519cb649bf0513e92497c8b17d3e4e9723d28c4adbc",
+    "c2_essuie_main.wav": "cae6bc81e0837f2dfc0dbfe582b978edc9eca2333b0b36a4517ebaade7430c64",
+    "c2_papier_froisse.wav": "1e85898cbe4702c656aec1f0a07dd4191716f4bb38486600b7fd2d25eaf4f82c",
+    "c2_papier_lache.wav": "f76cc8a7d544215b00110f81d3009d0edcd31669222ee9c382b1a5d8ea81b3f7",
+    "c2_poubelle_impact.wav": "7f28080dcd473cc5f2c9583446b92c4dccc0ed16c8f65fa916edb41763e58fe9",
+    "c3_robinet_ouvre.wav": "e98f3b5c6ed5d28b0e67497fcdc48a14949986adbea016a9ef34752e9989d597",
+    "c3_eau.wav": "659b987fc18a33353e9f7555d4345a9955bd0c745aba247a6d90818fdbd1ebd9",
+    "c3_robinet_ferme.wav": "a0cdb8313f9c7cb059f23f2f0fb51f49b4981941d1dd3fb319b1c4ba420fe869",
+    "c3_main_sous_eau.wav": "c3100f00b82a4213027ab49379e7323035ea595f977b261c3db1fcef1ec2223c",
+    "c3_papier_deroule.wav": "bbe5a9cc4efbbfa5b7658cd0474a11d75b08f7505d6346eacf971b59ad91818a",
+    "c3_papier_dechire.wav": "666de359083b3f4fdf799409f5068fe33541b0a94f662bfae053d9099f71d8a4",
+    "c3_essuie_main.wav": "d2e207b27d4a3bde12032da0f3aa1059973fede9516c918892ab3f18f093eb2c",
+    "c3_papier_froisse.wav": "45969e32034bffc96377169daed0ff4004e1e7f58fbd36cbb7c684dd712cb202",
+    "c3_papier_lache.wav": "9b88c5c370ee8788200d3f6928a536121e673f3871a9581e76e4f95c5488c879",
+    "c3_poubelle_impact.wav": "68e0d38c236554f9f3d782489fcff10e8967d0b88d97b66912beeca2b4deb29c",
+    "c4_robinet_ouvre.wav": "274efe819daf972841653a67d66d294e08308db2df3f68e4436d2b6c6931aef8",
+    "c4_eau.wav": "1d7a5b291b91e59d41eca6b62ac8512f70746318101db324285ed1e369b66da1",
+    "c4_robinet_ferme.wav": "45196636a4a020a7d3966e0d58073462348678524ff0dcf4f1dff64ceb332d50",
+    "c4_main_sous_eau.wav": "f22c9b21930ca3ad274e28cba6cea55f7e3b8afbe6730dffe6696da3f8ad1d76",
+    "c4_papier_deroule.wav": "c11617a16ab67a145b39b17e520b77c66a4f654c195c05985aee052abdb106fc",
+    "c4_papier_dechire.wav": "676b1c676bc0e3621eb41c9e9750b91675f9169c6ddb76684866d1e23fd6c65c",
+    "c4_essuie_main.wav": "56bc2afcb34e65f7c0f5784afbd4fa7630e357eec5d02af8e697263593113a25",
+    "c4_papier_froisse.wav": "d590fff1d54d5091abf5cb7035417f462005bdd50376824f70bc485bd8119fb2",
+    "c4_papier_lache.wav": "262a0207c9efc3328617aa44f83acbeeb24e6efb778b4c26b894dc85307f1808",
+    "c4_poubelle_impact.wav": "a99b7d71cd9df1d161fa24f982f555ec5e9f6381fc4a2d2546d4494008d387da",
+    "c5_robinet_ouvre.wav": "b78003a140884d9dc9d55cce5c60fa38e8a2e6c42c67e257cbce984b5659f106",
+    "c5_eau.wav": "6e4e417408f4445691d18bf0bac3266f91c44ae3d5cc0bf625eaa42c7d311443",
+    "c5_robinet_ferme.wav": "780ee32c1e1c51457d7946e0385186136382fc0be1593cee46a66b949bd7d956",
+    "c5_main_sous_eau.wav": "3b4a1b04a12de6546a9acd95756850155bcddd2adadf0a3f5217925ececa1dd5",
+    "c5_papier_deroule.wav": "50af81672a7c082adda80a8c8c337fd4f29073685341d7e6dc106fb30e0de60d",
+    "c5_papier_dechire.wav": "964734f9d69fe23eaafec5df11079b804e2e07aece106bb672390d27f9728b13",
+    "c5_essuie_main.wav": "14469643fdfa11c9b22e02bc832f835435e48e6b69d52ffd4ba0ed40ff6c40d2",
+    "c5_papier_froisse.wav": "9b83f26b5e8e4ef6c8799910238cfb920ce407630b7694e51dbb44d41cdd65f2",
+    "c5_papier_lache.wav": "72009d4672ea16e51070abc9bb627eb31f22d053422541fd75c272143286db62",
+    "c5_poubelle_impact.wav": "9190137a1a2753889f310190459f0a708404d14b0ff0c7baa3cd236ba56205db",
+    "sifflement_p1_n1.wav": "4f5d9fb77246e984f4b76fbfc293d4454736873a959a41fc53d1969cea735628",
+    "sifflement_p1_n2.wav": "c5908d8c7ed155e3a921ff4fa3dda0b73ff790a6debab5d040717e94b54b294a",
+    "sifflement_p1_n3.wav": "2914540c1d2e0119f3a0b476695ea130b251ca7bc88cf4291e7da4fbf47d44c0",
+    "musique_cuisine.wav": "97747b1bb41677330c694ea3cbebeb63e34d5a2a5bf76ec7c5c856418bdfaaca",
+    "musique_basse.wav": "e954ad278868686d73c9ecc91f539dad0f99d5ad851614ef46632f1097c39bab",
+    "musique_accords.wav": "bbea291098fa0bf6cb5a4a64b75c94609f39b957bcee167fa9316f5caaf1a0a6",
+    "musique_ponctuations.wav": "6a02d2274b77ba98c7abbe13e584a8d6af6e0c0dc72c7ddce40a0e5e53c73049",
+    "musique_percussions.wav": "835200026c825f90566c1030783dd49f5ac1e3b92fad3adb6c623313f7769dbc",
+    "musique_sans_baisse.wav": "0d11d49c37f54a44f21fe958092ce1d687c20f630c67f9f8195464976ba29e94",
+    "c5_papier_sol.wav": "de06fe4cc6d3b30b8a8c5bf771d3845e5546aa55b7ac5879d635b6b62d19fe5e"
+  },
+  "mix_recipe": {
+    "baseline": "Bundled V19 PCM plus exact original39.85s floor cue = V20.",
+    "prefix_pcm_identical_until_seconds": 40.5,
+    "crossfade_seconds": [
+      40.5,
+      40.75
+    ],
+    "music_blend": "Linear smoothstep of phase-aligned old/new music, fixed calibration.",
+    "frying_blend": "Equal-power of the old residual and new low cooking texture.",
+    "after_crossfade": "Continued global score + low cooking texture, same fixed master.",
+    "cloth_wipe_seconds": [
+      42.0,
+      42.4
+    ],
+    "new_final_master_fade_seconds": [
+      44.465,
+      44.5
+    ],
+    "no_new_global_normalization": true
+  },
+  "music_100ms_windows_step20ms": [
+    {
+      "start": 40.25,
+      "rms_dbfs": -32.69795155928628
+    },
+    {
+      "start": 40.27,
+      "rms_dbfs": -31.679982054616747
+    },
+    {
+      "start": 40.29,
+      "rms_dbfs": -31.23305922493092
+    },
+    {
+      "start": 40.31,
+      "rms_dbfs": -30.440040178667335
+    },
+    {
+      "start": 40.33,
+      "rms_dbfs": -29.89986233758713
+    },
+    {
+      "start": 40.35,
+      "rms_dbfs": -30.04313568223334
+    },
+    {
+      "start": 40.37,
+      "rms_dbfs": -29.999598633918282
+    },
+    {
+      "start": 40.39,
+      "rms_dbfs": -30.122808153155724
+    },
+    {
+      "start": 40.41,
+      "rms_dbfs": -30.024436796113797
+    },
+    {
+      "start": 40.43,
+      "rms_dbfs": -30.245230797861918
+    },
+    {
+      "start": 40.45,
+      "rms_dbfs": -30.20793423399563
+    },
+    {
+      "start": 40.47,
+      "rms_dbfs": -29.956544467971273
+    },
+    {
+      "start": 40.49,
+      "rms_dbfs": -28.905035763338475
+    },
+    {
+      "start": 40.51,
+      "rms_dbfs": -28.489706205978646
+    },
+    {
+      "start": 40.53,
+      "rms_dbfs": -28.33608145249118
+    },
+    {
+      "start": 40.55,
+      "rms_dbfs": -28.191558170539995
+    },
+    {
+      "start": 40.57,
+      "rms_dbfs": -28.337126291991794
+    },
+    {
+      "start": 40.59,
+      "rms_dbfs": -29.083155450623025
+    },
+    {
+      "start": 40.61,
+      "rms_dbfs": -29.665443391616968
+    },
+    {
+      "start": 40.63,
+      "rms_dbfs": -29.678017780290045
+    },
+    {
+      "start": 40.65,
+      "rms_dbfs": -29.83448118672534
+    },
+    {
+      "start": 40.67,
+      "rms_dbfs": -30.183713201151036
+    },
+    {
+      "start": 40.69,
+      "rms_dbfs": -30.39979511361157
+    },
+    {
+      "start": 40.71,
+      "rms_dbfs": -30.40652135630223
+    },
+    {
+      "start": 40.73,
+      "rms_dbfs": -30.75968016082447
+    },
+    {
+      "start": 40.75,
+      "rms_dbfs": -30.983543903929082
+    },
+    {
+      "start": 40.77,
+      "rms_dbfs": -31.149037010849963
+    },
+    {
+      "start": 40.79,
+      "rms_dbfs": -31.475369619438645
+    },
+    {
+      "start": 40.81,
+      "rms_dbfs": -31.310668264029307
+    },
+    {
+      "start": 40.83,
+      "rms_dbfs": -31.112029626159355
+    },
+    {
+      "start": 40.85,
+      "rms_dbfs": -30.97991253435316
+    },
+    {
+      "start": 40.87,
+      "rms_dbfs": -30.745704012894585
+    },
+    {
+      "start": 40.89,
+      "rms_dbfs": -30.444741121137156
+    },
+    {
+      "start": 40.91,
+      "rms_dbfs": -30.684070321610125
+    },
+    {
+      "start": 40.93,
+      "rms_dbfs": -30.81644557435004
+    },
+    {
+      "start": 40.95,
+      "rms_dbfs": -30.78514421351604
+    },
+    {
+      "start": 40.97,
+      "rms_dbfs": -31.116457860761564
+    },
+    {
+      "start": 40.99,
+      "rms_dbfs": -31.101340724835417
+    },
+    {
+      "start": 41.01,
+      "rms_dbfs": -31.59280575726339
+    },
+    {
+      "start": 41.03,
+      "rms_dbfs": -30.16766234737853
+    },
+    {
+      "start": 41.05,
+      "rms_dbfs": -29.99197699723024
+    },
+    {
+      "start": 41.07,
+      "rms_dbfs": -29.81577365271857
+    },
+    {
+      "start": 41.09,
+      "rms_dbfs": -30.08763312642659
+    },
+    {
+      "start": 41.11,
+      "rms_dbfs": -30.169811456466775
+    },
+    {
+      "start": 41.13,
+      "rms_dbfs": -32.09303970286905
+    },
+    {
+      "start": 41.15,
+      "rms_dbfs": -33.308307224198884
+    },
+    {
+      "start": 41.17,
+      "rms_dbfs": -34.426585658849554
+    },
+    {
+      "start": 41.19,
+      "rms_dbfs": -34.77885272349461
+    },
+    {
+      "start": 41.21,
+      "rms_dbfs": -35.2277852003708
+    },
+    {
+      "start": 41.23,
+      "rms_dbfs": -35.24719391493959
+    },
+    {
+      "start": 41.25,
+      "rms_dbfs": -35.58933991279121
+    },
+    {
+      "start": 41.27,
+      "rms_dbfs": -35.67185394561365
+    },
+    {
+      "start": 41.29,
+      "rms_dbfs": -35.90924680904418
+    },
+    {
+      "start": 41.31,
+      "rms_dbfs": -36.085790893942836
+    },
+    {
+      "start": 41.33,
+      "rms_dbfs": -36.312725943180745
+    },
+    {
+      "start": 41.35,
+      "rms_dbfs": -34.06584329985791
+    },
+    {
+      "start": 41.37,
+      "rms_dbfs": -32.73785665200942
+    },
+    {
+      "start": 41.39,
+      "rms_dbfs": -31.158822046500227
+    },
+    {
+      "start": 41.41,
+      "rms_dbfs": -30.185374223702468
+    },
+    {
+      "start": 41.43,
+      "rms_dbfs": -29.39555472119399
+    },
+    {
+      "start": 41.45,
+      "rms_dbfs": -29.183561835332345
+    },
+    {
+      "start": 41.47,
+      "rms_dbfs": -29.117555083144794
+    },
+    {
+      "start": 41.49,
+      "rms_dbfs": -29.15920745917706
+    },
+    {
+      "start": 41.51,
+      "rms_dbfs": -29.264325114117703
+    },
+    {
+      "start": 41.53,
+      "rms_dbfs": -29.316628840778144
+    },
+    {
+      "start": 41.55,
+      "rms_dbfs": -29.56369172736997
+    },
+    {
+      "start": 41.57,
+      "rms_dbfs": -29.703579195018047
+    },
+    {
+      "start": 41.59,
+      "rms_dbfs": -29.07067471629339
+    },
+    {
+      "start": 41.61,
+      "rms_dbfs": -28.776254471663197
+    },
+    {
+      "start": 41.63,
+      "rms_dbfs": -28.722270192010235
+    },
+    {
+      "start": 41.65,
+      "rms_dbfs": -28.437863154249534
+    },
+    {
+      "start": 41.67,
+      "rms_dbfs": -28.495966243402272
+    },
+    {
+      "start": 41.69,
+      "rms_dbfs": -29.193106058552143
+    },
+    {
+      "start": 41.71,
+      "rms_dbfs": -29.6732266565989
+    },
+    {
+      "start": 41.73,
+      "rms_dbfs": -29.80837977218453
+    },
+    {
+      "start": 41.75,
+      "rms_dbfs": -30.39438760102785
+    },
+    {
+      "start": 41.77,
+      "rms_dbfs": -30.404294855226155
+    },
+    {
+      "start": 41.79,
+      "rms_dbfs": -30.72391755784497
+    },
+    {
+      "start": 41.81,
+      "rms_dbfs": -30.814395704576953
+    },
+    {
+      "start": 41.83,
+      "rms_dbfs": -31.206071252670917
+    },
+    {
+      "start": 41.85,
+      "rms_dbfs": -31.23674930886179
+    },
+    {
+      "start": 41.87,
+      "rms_dbfs": -31.41592169810174
+    },
+    {
+      "start": 41.89,
+      "rms_dbfs": -31.810808307839658
+    },
+    {
+      "start": 41.91,
+      "rms_dbfs": -31.806298003400183
+    },
+    {
+      "start": 41.93,
+      "rms_dbfs": -31.592595111622437
+    },
+    {
+      "start": 41.95,
+      "rms_dbfs": -31.48495219056585
+    },
+    {
+      "start": 41.97,
+      "rms_dbfs": -31.398750119104967
+    },
+    {
+      "start": 41.99,
+      "rms_dbfs": -31.1519195060192
+    },
+    {
+      "start": 42.01,
+      "rms_dbfs": -31.04453681268991
+    },
+    {
+      "start": 42.03,
+      "rms_dbfs": -31.325318167078414
+    },
+    {
+      "start": 42.05,
+      "rms_dbfs": -31.3277871120102
+    },
+    {
+      "start": 42.07,
+      "rms_dbfs": -31.495288290281486
+    },
+    {
+      "start": 42.09,
+      "rms_dbfs": -31.39557142084632
+    },
+    {
+      "start": 42.11,
+      "rms_dbfs": -31.85520336789463
+    },
+    {
+      "start": 42.13,
+      "rms_dbfs": -31.946625071839016
+    },
+    {
+      "start": 42.15,
+      "rms_dbfs": -29.908343736065035
+    },
+    {
+      "start": 42.17,
+      "rms_dbfs": -29.30212184764235
+    },
+    {
+      "start": 42.19,
+      "rms_dbfs": -28.88610919706061
+    },
+    {
+      "start": 42.21,
+      "rms_dbfs": -28.829802300939896
+    },
+    {
+      "start": 42.23,
+      "rms_dbfs": -28.542528765388685
+    },
+    {
+      "start": 42.25,
+      "rms_dbfs": -30.000419892907328
+    },
+    {
+      "start": 42.27,
+      "rms_dbfs": -30.65351175434403
+    },
+    {
+      "start": 42.29,
+      "rms_dbfs": -31.62691529060513
+    },
+    {
+      "start": 42.31,
+      "rms_dbfs": -31.487362395527
+    },
+    {
+      "start": 42.33,
+      "rms_dbfs": -32.12530772671689
+    },
+    {
+      "start": 42.35,
+      "rms_dbfs": -32.346212838177394
+    },
+    {
+      "start": 42.37,
+      "rms_dbfs": -32.59956885015661
+    },
+    {
+      "start": 42.39,
+      "rms_dbfs": -32.576698494785276
+    },
+    {
+      "start": 42.41,
+      "rms_dbfs": -32.95773691726933
+    },
+    {
+      "start": 42.43,
+      "rms_dbfs": -33.033191379420344
+    },
+    {
+      "start": 42.45,
+      "rms_dbfs": -33.38585831137052
+    },
+    {
+      "start": 42.47,
+      "rms_dbfs": -32.6703746997767
+    },
+    {
+      "start": 42.49,
+      "rms_dbfs": -31.732711831994074
+    },
+    {
+      "start": 42.51,
+      "rms_dbfs": -31.23986542658517
+    },
+    {
+      "start": 42.53,
+      "rms_dbfs": -30.73044445774935
+    },
+    {
+      "start": 42.55,
+      "rms_dbfs": -30.153712762612233
+    },
+    {
+      "start": 42.57,
+      "rms_dbfs": -30.198488797042096
+    },
+    {
+      "start": 42.59,
+      "rms_dbfs": -30.299752305459798
+    },
+    {
+      "start": 42.61,
+      "rms_dbfs": -30.31485972216856
+    },
+    {
+      "start": 42.63,
+      "rms_dbfs": -30.21347937677499
+    },
+    {
+      "start": 42.65,
+      "rms_dbfs": -30.3794109548977
+    },
+    {
+      "start": 42.67,
+      "rms_dbfs": -30.295837070884218
+    },
+    {
+      "start": 42.69,
+      "rms_dbfs": -30.435951437052545
+    },
+    {
+      "start": 42.71,
+      "rms_dbfs": -29.08996175073436
+    },
+    {
+      "start": 42.73,
+      "rms_dbfs": -28.817901789709065
+    },
+    {
+      "start": 42.75,
+      "rms_dbfs": -28.326288831738967
+    },
+    {
+      "start": 42.77,
+      "rms_dbfs": -28.535293663956022
+    },
+    {
+      "start": 42.79,
+      "rms_dbfs": -28.193089174574823
+    },
+    {
+      "start": 42.81,
+      "rms_dbfs": -29.26963643561047
+    },
+    {
+      "start": 42.83,
+      "rms_dbfs": -29.78480521666659
+    },
+    {
+      "start": 42.85,
+      "rms_dbfs": -30.47580495563816
+    },
+    {
+      "start": 42.87,
+      "rms_dbfs": -30.273580744013067
+    },
+    {
+      "start": 42.89,
+      "rms_dbfs": -31.23941425860426
+    },
+    {
+      "start": 42.91,
+      "rms_dbfs": -31.21607268825916
+    },
+    {
+      "start": 42.93,
+      "rms_dbfs": -31.258460746535693
+    },
+    {
+      "start": 42.95,
+      "rms_dbfs": -31.726376665932566
+    },
+    {
+      "start": 42.97,
+      "rms_dbfs": -31.78245094210622
+    },
+    {
+      "start": 42.99,
+      "rms_dbfs": -31.81596380543157
+    },
+    {
+      "start": 43.01,
+      "rms_dbfs": -32.44475753264511
+    },
+    {
+      "start": 43.03,
+      "rms_dbfs": -32.46736436805832
+    },
+    {
+      "start": 43.05,
+      "rms_dbfs": -32.13307978917946
+    },
+    {
+      "start": 43.07,
+      "rms_dbfs": -32.26470582959098
+    },
+    {
+      "start": 43.09,
+      "rms_dbfs": -32.23110097753966
+    },
+    {
+      "start": 43.11,
+      "rms_dbfs": -31.71031813507144
+    },
+    {
+      "start": 43.13,
+      "rms_dbfs": -31.742298532842632
+    },
+    {
+      "start": 43.15,
+      "rms_dbfs": -32.01759444792089
+    },
+    {
+      "start": 43.17,
+      "rms_dbfs": -31.708703869691902
+    },
+    {
+      "start": 43.19,
+      "rms_dbfs": -31.766368239011346
+    },
+    {
+      "start": 43.21,
+      "rms_dbfs": -32.16402707028998
+    },
+    {
+      "start": 43.23,
+      "rms_dbfs": -32.29643125958907
+    },
+    {
+      "start": 43.25,
+      "rms_dbfs": -31.371358776887174
+    },
+    {
+      "start": 43.27,
+      "rms_dbfs": -29.465798866272802
+    },
+    {
+      "start": 43.29,
+      "rms_dbfs": -28.598580207963245
+    },
+    {
+      "start": 43.31,
+      "rms_dbfs": -28.17729451096924
+    },
+    {
+      "start": 43.33,
+      "rms_dbfs": -27.784047751082316
+    },
+    {
+      "start": 43.35,
+      "rms_dbfs": -28.017651562465215
+    },
+    {
+      "start": 43.37,
+      "rms_dbfs": -29.20566233840976
+    },
+    {
+      "start": 43.39,
+      "rms_dbfs": -30.079818426391448
+    },
+    {
+      "start": 43.41,
+      "rms_dbfs": -30.581746587084865
+    },
+    {
+      "start": 43.43,
+      "rms_dbfs": -31.313902323765326
+    },
+    {
+      "start": 43.45,
+      "rms_dbfs": -31.545383514803223
+    },
+    {
+      "start": 43.47,
+      "rms_dbfs": -32.10629317591281
+    },
+    {
+      "start": 43.49,
+      "rms_dbfs": -32.40729339195373
+    },
+    {
+      "start": 43.51,
+      "rms_dbfs": -32.5654233211898
+    },
+    {
+      "start": 43.53,
+      "rms_dbfs": -32.99159557674975
+    },
+    {
+      "start": 43.55,
+      "rms_dbfs": -33.065961466327764
+    },
+    {
+      "start": 43.57,
+      "rms_dbfs": -32.76679428927506
+    },
+    {
+      "start": 43.59,
+      "rms_dbfs": -31.881205129662987
+    },
+    {
+      "start": 43.61,
+      "rms_dbfs": -31.228357769991675
+    },
+    {
+      "start": 43.63,
+      "rms_dbfs": -30.477343457474998
+    },
+    {
+      "start": 43.65,
+      "rms_dbfs": -30.06002767601068
+    },
+    {
+      "start": 43.67,
+      "rms_dbfs": -29.85264522114392
+    },
+    {
+      "start": 43.69,
+      "rms_dbfs": -29.81626701864063
+    },
+    {
+      "start": 43.71,
+      "rms_dbfs": -30.027584150946616
+    },
+    {
+      "start": 43.73,
+      "rms_dbfs": -29.942038637758635
+    },
+    {
+      "start": 43.75,
+      "rms_dbfs": -30.07585932764213
+    },
+    {
+      "start": 43.77,
+      "rms_dbfs": -30.102372401029136
+    },
+    {
+      "start": 43.79,
+      "rms_dbfs": -30.40811976601639
+    },
+    {
+      "start": 43.81,
+      "rms_dbfs": -30.00903284477399
+    },
+    {
+      "start": 43.83,
+      "rms_dbfs": -29.283935136681546
+    },
+    {
+      "start": 43.85,
+      "rms_dbfs": -28.835715252660506
+    },
+    {
+      "start": 43.87,
+      "rms_dbfs": -28.760825860888556
+    },
+    {
+      "start": 43.89,
+      "rms_dbfs": -28.551438435194896
+    },
+    {
+      "start": 43.91,
+      "rms_dbfs": -28.93041246619849
+    },
+    {
+      "start": 43.93,
+      "rms_dbfs": -29.80854969750091
+    },
+    {
+      "start": 43.95,
+      "rms_dbfs": -30.438190349524913
+    },
+    {
+      "start": 43.97,
+      "rms_dbfs": -30.720878051694896
+    },
+    {
+      "start": 43.99,
+      "rms_dbfs": -31.20582751403967
+    },
+    {
+      "start": 44.01,
+      "rms_dbfs": -31.33843833242771
+    },
+    {
+      "start": 44.03,
+      "rms_dbfs": -31.595695068651697
+    },
+    {
+      "start": 44.05,
+      "rms_dbfs": -31.814591770386606
+    },
+    {
+      "start": 44.07,
+      "rms_dbfs": -32.018181320822386
+    },
+    {
+      "start": 44.09,
+      "rms_dbfs": -32.24784633194085
+    },
+    {
+      "start": 44.11,
+      "rms_dbfs": -32.42386204859336
+    },
+    {
+      "start": 44.13,
+      "rms_dbfs": -32.608905035139664
+    }
+  ],
+  "minimum_music_100ms_rms_dbfs": -36.312725943180745,
+  "crossfade_boundary_jump_lsb": {
+    "40.5": 68,
+    "40.75": 56
+  },
+  "no_clipping": true,
+  "peak_dbfs": -7.684,
+  "limits": "Numerical and source checks only; no listening, phone playback or audience approval claimed.",
+  "cloth_retiming_check": {
+    "previous_mix_sha256": "fa26f66d684f8c553c0de15dd0d85a24a08e0b2a79246b56b9b81ed97c1edb4c",
+    "new_mix_sha256": "7644138c35cd980246a8829508561dcb819eec0e8858f6264404e5882b01caa1",
+    "old_friction_seconds": [
+      41.85,
+      42.65
+    ],
+    "new_contact_friction_seconds": [
+      42.0,
+      42.4
+    ],
+    "all_pcm_outside_union_identical": true,
+    "unchanged_before_seconds": 41.85,
+    "unchanged_after_seconds": 42.65,
+    "first_changed_second": 41.8581875,
+    "last_changed_second": 42.6370625,
+    "music_and_crossfade_unchanged": true
+  }
+}

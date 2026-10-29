@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "archive_sha256": "7b331a06ce67d3d3cd0795f7b29093aab7f1196ae5b90f7b4227dc51859f97b3",
+  "bytes": 56239091,
+  "manifest_files": 169,
+  "all_crc_and_sha256_passed": true,
+  "standalone_renderer_import": true,
+  "standalone_fresh_frames_identical": {
+    "4.0": "4dda0d7bed4054316f8b80bc2b127c8a4c6f124e70cab7c21c9e4a1322b463f7",
+    "42.25": "15f1929f6734bba6fdc7e6dfa83fbdaa3e94113d7f6f55a93825a2795c42d098"
+  },
+  "standalone_audio_regeneration_exact": true,
+  "mix_sha256": "7644138c35cd980246a8829508561dcb819eec0e8858f6264404e5882b01caa1"
+}

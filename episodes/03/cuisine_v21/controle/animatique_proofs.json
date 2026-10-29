@@ -1,0 +1,27 @@
+{
+  "source_video": "MOU_Encore_une_feuille_animatique.mp4",
+  "source_sha256": "1a3349f411b608249aac2231695eb4aeb52e1a68eea5630b95e54f1e03d80411",
+  "method": "Actual MP4 frames; face crops provide no intended-emotion captions.",
+  "ending_frames": [
+    486,
+    494,
+    500,
+    507,
+    515,
+    523,
+    530
+  ],
+  "other_frames": [
+    88,
+    197,
+    274,
+    347,
+    407,
+    437,
+    440,
+    469,
+    470
+  ],
+  "clip_start_seconds": 37.0,
+  "clip_duration_seconds": 7.5
+}

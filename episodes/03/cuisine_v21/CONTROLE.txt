@@ -1,0 +1,47 @@
+MOU — Encore une feuille V21 : jeu et clôture du tablier
+
+Livraison : 44,5 s, 1080 × 1920, 24 images/s, H264/yuv420p, AAC stéréo 48 kHz.
+Version muette : même flux H264. Fin séparée : 7,5 s, 180 images, son et muet.
+Animatique complète : 540 × 960 à 12 images/s ; GIF : 432 × 768, 44,5 s.
+
+Réponse au retour sur les émotions :
+- Regards et expressions renforcés aux inspections et au dernier morceau.
+- Fin : goutte encore présente, réflexe vers le tube vide, regard au tablier
+  AVANT le geste, essuyage, constat du gaspillage puis regard public.
+- MOU se redresse pendant le déclic pour dégager le tissu ; le geste passe
+  sur la poche, loin du menton. Le corps s’affaisse ensuite et les deux
+  mains rejoignent la pose native devant le ventre. Le sourire est retenu.
+- Toque, tablier, modèle, géométrie des bras et moufles conservés.
+
+Critiques et corrections :
+La première lecture sans scénario voyait une main au menton et un retour
+à l’assurance. Ces deux constats ont motivé la révision du geste et de la
+posture. Le second examen situe désormais le geste au ventre/tablier et
+voit un sourire fragile avec des sourcils préoccupés. Il n’identifie pas
+spontanément la gêne voulue. Le critique informé juge le mouvement amélioré,
+mais cette nuance artistique n’est pas présentée comme un accord unanime.
+Les deux lectures et les images de l’essai précédent sont conservées.
+
+Contrôles réalisés :
+- 966 états historiques de bras/accessoires conservés avant 40,25 s.
+- 215 images SVG du lavabo identiques ; même rig et mêmes solveurs natifs.
+- Goutte attachée au vrai contour de la moufle ; disparition liée au tissu.
+- Contact du tablier visible de 42,0 à 42,4 s, trace liée à la passe réelle.
+- Papier : impact du tas et chute au sol V20 conservés, persistance finale.
+- 1068 images par MP4 complet ; décodages intégraux sans erreur.
+- 87 images du MP4 comparées à des rendus SVG/CairoSVG frais hors cache.
+- Flux H264 identique entre film sonore et muet ; formats et clips vérifiés.
+- 70 WAV historiques conservés ; PCM V20 identique jusqu’à 40,5 s.
+- Même partition, instruments et calibration, continuation sur grille globale.
+  Raccord en phase avant l’ancien fondu ; friction sur le contact réel uniquement.
+- Aucune saturation ; AAC comparé au WAV courant sans décalage.
+- Sources gelées ; ZIP avec manifeste SHA256, CRC et contrôle d’autonomie.
+
+Limites : critiques par images extraites, pas test public. Les contrôles du
+son sont numériques ; aucune écoute réelle ou validation sur téléphone
+n’est revendiquée. Aucune publication sociale effectuée.
+Voir controle/, developpement/ et sources/README.md pour les preuves et la reproduction.
+
+Corrélation AAC/WAV : 0.999238908.
+MP4 sonore SHA256 : 48dd63a624de51320a88172e88d601547fb8028e3cf386961753d7b82925940a
+MP4 muet SHA256 : 7a8d116c61bc6ff2d9ad47672c4e6ec565a8dac78c491333a788e83c267e083b

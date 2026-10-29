@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "clips": [
+    {
+      "file": "MOU_fin_tablier.mp4",
+      "frames": 180,
+      "duration": 7.5,
+      "sound": true
+    },
+    {
+      "file": "MOU_fin_tablier_muette.mp4",
+      "frames": 180,
+      "duration": 7.5,
+      "sound": false
+    }
+  ],
+  "gif_frames": 445,
+  "gif_duration_seconds": 44.5
+}

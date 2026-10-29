@@ -1,0 +1,376 @@
+{
+  "status": "passed",
+  "scope": "V21 geometry/continuity/audio preservation",
+  "limits": "No numerical check is treated as an audience test or proof of expressive acting.",
+  "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "scene": {
+    "frames": 1068,
+    "external_v20_comparison": "passed",
+    "historical_action_frames_identical": 966,
+    "preserved_fields": [
+      "arms",
+      "hands",
+      "actor_transform",
+      "spoon",
+      "spoon_held",
+      "tomato",
+      "tomato_added",
+      "paper",
+      "water",
+      "lever",
+      "bin_count",
+      "flying_ball",
+      "floor_ball",
+      "roll",
+      "carrot",
+      "salt"
+    ],
+    "sink_svg_frames_identical": 215,
+    "native_articulation_functions": [
+      "controls",
+      "native_grip",
+      "world_grip",
+      "solve_arm",
+      "arm_linear_transform",
+      "_connect_left_root",
+      "soften_left_root",
+      "draw_arm"
+    ],
+    "body_contour_and_approved_costume_preserved": true,
+    "all_cameras_inside_decor": true,
+    "last_paper_fully_visible_during_flight_insert_and_final_wide_frames": 82,
+    "four_papers_in_bin_and_fifth_persistent_on_floor": true,
+    "drop_attached_frames": 45,
+    "drop_to_native_cap_ink_max_gap_world_units": 5.981287947123706,
+    "apron_contact_frames": 10,
+    "apron_contacts": [
+      {
+        "time": 42.0,
+        "cloth_point_distance_to_cap": 15.617496099135373
+      },
+      {
+        "time": 42.041666666666664,
+        "cloth_point_distance_to_cap": 14.974587985898548
+      },
+      {
+        "time": 42.083333333333336,
+        "cloth_point_distance_to_cap": 13.220944520657609
+      },
+      {
+        "time": 42.125,
+        "cloth_point_distance_to_cap": 11.064865416820231
+      },
+      {
+        "time": 42.166666666666664,
+        "cloth_point_distance_to_cap": 8.859141956896561
+      },
+      {
+        "time": 42.208333333333336,
+        "cloth_point_distance_to_cap": 7.300964023092936
+      },
+      {
+        "time": 42.25,
+        "cloth_point_distance_to_cap": 9.96410901539647
+      },
+      {
+        "time": 42.291666666666664,
+        "cloth_point_distance_to_cap": 14.590002061263526
+      },
+      {
+        "time": 42.333333333333336,
+        "cloth_point_distance_to_cap": 18.683600381652106
+      },
+      {
+        "time": 42.375,
+        "cloth_point_distance_to_cap": 21.19553179932668
+      }
+    ],
+    "wet_patch_after_contact_monotonic": true,
+    "phase_samples": {
+      "goutte_agacement": {
+        "first_time": 40.25,
+        "pose": {
+          "arm_hips": 0.0,
+          "arm_clasp": 1.0,
+          "eye_open_l": 0.99,
+          "eye_open_r": 1.0,
+          "pupil_x": -0.2929627083846236,
+          "pupil_y": 0.88,
+          "brow_l": 0.2,
+          "brow_r": 0.1,
+          "brow_raise": 0.8,
+          "smile": -0.34,
+          "mouth_open": 0.1,
+          "laugh": 0.0,
+          "lift_l": 0.0,
+          "lift_r": 0.0
+        },
+        "look_target": [
+          453.7815604007666,
+          1224.02439481011
+        ]
+      },
+      "reflexe_tube_vide": {
+        "first_time": 40.75,
+        "pose": {
+          "arm_hips": 0.0,
+          "arm_clasp": 1.0,
+          "eye_open_l": 0.58,
+          "eye_open_r": 0.94,
+          "pupil_x": -0.2929627083846236,
+          "pupil_y": 0.88,
+          "brow_l": 0.82,
+          "brow_r": -0.18,
+          "brow_raise": 0.13,
+          "smile": -0.56,
+          "mouth_open": 0.025,
+          "laugh": 0.0,
+          "lift_l": 0.0,
+          "lift_r": 0.0
+        },
+        "look_target": [
+          453.7815604007666,
+          1224.02439481011
+        ]
+      },
+      "declic_tablier": {
+        "first_time": 41.416666666666664,
+        "pose": {
+          "arm_hips": 0.0,
+          "arm_clasp": 1.0,
+          "eye_open_l": 0.58,
+          "eye_open_r": 0.94,
+          "pupil_x": 0.92,
+          "pupil_y": 0.7692715772008385,
+          "brow_l": 0.82,
+          "brow_r": -0.18,
+          "brow_raise": 0.13,
+          "smile": -0.56,
+          "mouth_open": 0.025,
+          "laugh": 0.0,
+          "lift_l": 0.0,
+          "lift_r": 0.0
+        },
+        "look_target": [
+          857.7520790466405,
+          1179.752336248285
+        ]
+      },
+      "essuie_tablier": {
+        "first_time": 41.875,
+        "pose": {
+          "arm_hips": 0.0,
+          "arm_clasp": 1.0,
+          "eye_open_l": 0.8,
+          "eye_open_r": 0.85,
+          "pupil_x": -0.05193548387096745,
+          "pupil_y": 0.88,
+          "brow_l": -0.1,
+          "brow_r": -0.07000000000000002,
+          "brow_raise": 0.2,
+          "smile": 0.4600000000000001,
+          "mouth_open": 0.0,
+          "laugh": 0.0,
+          "lift_l": 0.0,
+          "lift_r": 0.0
+        },
+        "look_target": [
+          528.5,
+          1205.5
+        ]
+      },
+      "realise_gaspillage": {
+        "first_time": 42.666666666666664,
+        "pose": {
+          "arm_hips": 0.0,
+          "arm_clasp": 1.0,
+          "eye_open_l": 0.89,
+          "eye_open_r": 0.94,
+          "pupil_x": -0.10925461524562641,
+          "pupil_y": 0.88,
+          "brow_l": 0.77,
+          "brow_r": 0.62,
+          "brow_raise": 0.66,
+          "smile": -0.49,
+          "mouth_open": 0.08,
+          "laugh": 0.0,
+          "lift_l": 0.0,
+          "lift_r": 0.0
+        },
+        "look_target": [
+          510.6095312979535,
+          1218.5506490045302
+        ]
+      },
+      "gene_public": {
+        "first_time": 43.25,
+        "pose": {
+          "arm_hips": 0.0,
+          "arm_clasp": 1.0,
+          "eye_open_l": 0.89,
+          "eye_open_r": 0.94,
+          "pupil_x": -0.92,
+          "pupil_y": 0.88,
+          "brow_l": 0.77,
+          "brow_r": 0.62,
+          "brow_raise": 0.66,
+          "smile": -0.49,
+          "mouth_open": 0.08,
+          "laugh": 0.0,
+          "lift_l": 0.0,
+          "lift_r": 0.0
+        },
+        "look_target": [
+          190.0,
+          1450.0
+        ]
+      },
+      "gene_tenue": {
+        "first_time": 43.75,
+        "pose": {
+          "arm_hips": 0.0,
+          "arm_clasp": 1.0,
+          "eye_open_l": 0.91,
+          "eye_open_r": 0.94,
+          "pupil_x": 0.0,
+          "pupil_y": 0.0,
+          "brow_l": 0.9,
+          "brow_r": 0.9,
+          "brow_raise": 0.58,
+          "smile": 0.13,
+          "mouth_open": 0.015,
+          "laugh": 0.0,
+          "lift_l": 0.0,
+          "lift_r": 0.0
+        },
+        "look_target": [
+          544.5999999999999,
+          932.1999999999999
+        ]
+      }
+    },
+    "limits": "The state/geometry checks do not establish whether viewers understand an emotion."
+  },
+  "audio": {
+    "duration_seconds": 44.5,
+    "current_mix_sha256": "7644138c35cd980246a8829508561dcb819eec0e8858f6264404e5882b01caa1",
+    "v20_reconstructed_wav_sha256": "d7170eb6c75f9fa1effeb0de4e2f1a66f4ece2d685afc08d2a6b4a4e57127791",
+    "pcm_identical_before_seconds": 40.5,
+    "retained_wav_count": 70,
+    "retained_wavs_sha256": {
+      "cuisson.wav": "9e81e276f6a40cd5efe68e2eee1c7e342f11f3d41c77a16fae2371f6786040a7",
+      "remuage_debut.wav": "0aa50ea6c4459a269c17322c0465306a6d39cbe324440c761d134153441c37fe",
+      "cuillere_posee.wav": "1da395cce8d12e2ef1807c5d569abfb91e78fac63d1c8af091007f6c4063a958",
+      "contact_tomate.wav": "8fd9c2cf249b14a7f4f8235a215ca5af1f2e181aba89ca5479c560a1eef7822a",
+      "carotte_coupe_1.wav": "4f5bd6c80adfecb7e5c62f21bdd544c4152e126257ea7c3fb0abddaa4955401f",
+      "carotte_coupe_2.wav": "3ca6b2fd85db7b23e100c39fe90e5f6320f21745eacbbbe93bd57364afb874ea",
+      "couteau_pose.wav": "eaf10c556da68e99eb261c5ff1ad872520216b345fcb0b503f260656861934d2",
+      "contact_manche_propre.wav": "584abae6eb03b06972ec69704f880980fb44e16b8818925c96855786ef466fc7",
+      "sel_pince.wav": "d8e8f7beb3aff34e3678c949740b7196f9bc0ff17ee91a3f2483a46e19729361",
+      "sel_saupoudre.wav": "6d2936731eaac3a094d75015b0ab51781b8bed0ac1f38fc5eff1e9b8569d2d72",
+      "c1_robinet_ouvre.wav": "2e894e985ce65e52c1f846059ab32ea1cbef7376d15ef7d0462f65bcaf5d3653",
+      "c1_eau.wav": "434c643f3002f3ddc5eb82eb071bb7a4537d2a41b1104c351d0ac43f1b181da3",
+      "c1_robinet_ferme.wav": "890b0d1d698e7ba82fc0782b91794a83e57a7114f4bc40571d96883415b9fdbb",
+      "c1_main_sous_eau.wav": "b2a7988b78db5942c64fa325477cf1bc5d7308cb6e97d4ee9013c9489b345d76",
+      "c1_papier_deroule.wav": "b000c3db5d226f3ed886cb1afad24cb72c5cdc8b2aeb5898c7dff93016001a32",
+      "c1_papier_dechire.wav": "6fb3cc290ec5239898e7d87fd63001ea9519d69833d1e2272998ce35a016769d",
+      "c1_essuie_main.wav": "60bafad80a3cfe9bfce2deedcccb2c2e98037bb8e3a902d02383637fc9a1ed79",
+      "c1_papier_froisse.wav": "5d147e028bf2653df42c3ef9960c1763b8e3a0bf82e299f40210e80ac65c477f",
+      "c1_papier_lache.wav": "06c0c0886d3885b97b724b2a4f03892cef4e02d8858067e0765918506c229f67",
+      "c1_poubelle_impact.wav": "81fba2ea9022378528b3b1d48eb7cc7f9b622c5a8fe090bfb54d5fa4c24dc893",
+      "c2_robinet_ouvre.wav": "d4127e358ecd9e43dbf7f6ec86cd3ebbb3b350cde07dbcf0eaec6eb630c1a501",
+      "c2_eau.wav": "47e07b4917f703ea267d2ee8ef75b36efe07ccdf1c2816aff3bfaeb7b3521a30",
+      "c2_robinet_ferme.wav": "8eb868c85241bb79c0a9af11d11d92289decf49a89666e8905966047cde26568",
+      "c2_main_sous_eau.wav": "5591c0770ffb0f1e4df49a476d0f68e713484322b11a0046d0ce276e9b7e25f8",
+      "c2_papier_deroule.wav": "cb73b967eb241862a4635d6cf39693dc24c0808d1b87ddb804d048b52cba97e8",
+      "c2_papier_dechire.wav": "4770e300527e3bb3a3458519cb649bf0513e92497c8b17d3e4e9723d28c4adbc",
+      "c2_essuie_main.wav": "cae6bc81e0837f2dfc0dbfe582b978edc9eca2333b0b36a4517ebaade7430c64",
+      "c2_papier_froisse.wav": "1e85898cbe4702c656aec1f0a07dd4191716f4bb38486600b7fd2d25eaf4f82c",
+      "c2_papier_lache.wav": "f76cc8a7d544215b00110f81d3009d0edcd31669222ee9c382b1a5d8ea81b3f7",
+      "c2_poubelle_impact.wav": "7f28080dcd473cc5f2c9583446b92c4dccc0ed16c8f65fa916edb41763e58fe9",
+      "c3_robinet_ouvre.wav": "e98f3b5c6ed5d28b0e67497fcdc48a14949986adbea016a9ef34752e9989d597",
+      "c3_eau.wav": "659b987fc18a33353e9f7555d4345a9955bd0c745aba247a6d90818fdbd1ebd9",
+      "c3_robinet_ferme.wav": "a0cdb8313f9c7cb059f23f2f0fb51f49b4981941d1dd3fb319b1c4ba420fe869",
+      "c3_main_sous_eau.wav": "c3100f00b82a4213027ab49379e7323035ea595f977b261c3db1fcef1ec2223c",
+      "c3_papier_deroule.wav": "bbe5a9cc4efbbfa5b7658cd0474a11d75b08f7505d6346eacf971b59ad91818a",
+      "c3_papier_dechire.wav": "666de359083b3f4fdf799409f5068fe33541b0a94f662bfae053d9099f71d8a4",
+      "c3_essuie_main.wav": "d2e207b27d4a3bde12032da0f3aa1059973fede9516c918892ab3f18f093eb2c",
+      "c3_papier_froisse.wav": "45969e32034bffc96377169daed0ff4004e1e7f58fbd36cbb7c684dd712cb202",
+      "c3_papier_lache.wav": "9b88c5c370ee8788200d3f6928a536121e673f3871a9581e76e4f95c5488c879",
+      "c3_poubelle_impact.wav": "68e0d38c236554f9f3d782489fcff10e8967d0b88d97b66912beeca2b4deb29c",
+      "c4_robinet_ouvre.wav": "274efe819daf972841653a67d66d294e08308db2df3f68e4436d2b6c6931aef8",
+      "c4_eau.wav": "1d7a5b291b91e59d41eca6b62ac8512f70746318101db324285ed1e369b66da1",
+      "c4_robinet_ferme.wav": "45196636a4a020a7d3966e0d58073462348678524ff0dcf4f1dff64ceb332d50",
+      "c4_main_sous_eau.wav": "f22c9b21930ca3ad274e28cba6cea55f7e3b8afbe6730dffe6696da3f8ad1d76",
+      "c4_papier_deroule.wav": "c11617a16ab67a145b39b17e520b77c66a4f654c195c05985aee052abdb106fc",
+      "c4_papier_dechire.wav": "676b1c676bc0e3621eb41c9e9750b91675f9169c6ddb76684866d1e23fd6c65c",
+      "c4_essuie_main.wav": "56bc2afcb34e65f7c0f5784afbd4fa7630e357eec5d02af8e697263593113a25",
+      "c4_papier_froisse.wav": "d590fff1d54d5091abf5cb7035417f462005bdd50376824f70bc485bd8119fb2",
+      "c4_papier_lache.wav": "262a0207c9efc3328617aa44f83acbeeb24e6efb778b4c26b894dc85307f1808",
+      "c4_poubelle_impact.wav": "a99b7d71cd9df1d161fa24f982f555ec5e9f6381fc4a2d2546d4494008d387da",
+      "c5_robinet_ouvre.wav": "b78003a140884d9dc9d55cce5c60fa38e8a2e6c42c67e257cbce984b5659f106",
+      "c5_eau.wav": "6e4e417408f4445691d18bf0bac3266f91c44ae3d5cc0bf625eaa42c7d311443",
+      "c5_robinet_ferme.wav": "780ee32c1e1c51457d7946e0385186136382fc0be1593cee46a66b949bd7d956",
+      "c5_main_sous_eau.wav": "3b4a1b04a12de6546a9acd95756850155bcddd2adadf0a3f5217925ececa1dd5",
+      "c5_papier_deroule.wav": "50af81672a7c082adda80a8c8c337fd4f29073685341d7e6dc106fb30e0de60d",
+      "c5_papier_dechire.wav": "964734f9d69fe23eaafec5df11079b804e2e07aece106bb672390d27f9728b13",
+      "c5_essuie_main.wav": "14469643fdfa11c9b22e02bc832f835435e48e6b69d52ffd4ba0ed40ff6c40d2",
+      "c5_papier_froisse.wav": "9b83f26b5e8e4ef6c8799910238cfb920ce407630b7694e51dbb44d41cdd65f2",
+      "c5_papier_lache.wav": "72009d4672ea16e51070abc9bb627eb31f22d053422541fd75c272143286db62",
+      "c5_poubelle_impact.wav": "9190137a1a2753889f310190459f0a708404d14b0ff0c7baa3cd236ba56205db",
+      "sifflement_p1_n1.wav": "4f5d9fb77246e984f4b76fbfc293d4454736873a959a41fc53d1969cea735628",
+      "sifflement_p1_n2.wav": "c5908d8c7ed155e3a921ff4fa3dda0b73ff790a6debab5d040717e94b54b294a",
+      "sifflement_p1_n3.wav": "2914540c1d2e0119f3a0b476695ea130b251ca7bc88cf4291e7da4fbf47d44c0",
+      "musique_cuisine.wav": "97747b1bb41677330c694ea3cbebeb63e34d5a2a5bf76ec7c5c856418bdfaaca",
+      "musique_basse.wav": "e954ad278868686d73c9ecc91f539dad0f99d5ad851614ef46632f1097c39bab",
+      "musique_accords.wav": "bbea291098fa0bf6cb5a4a64b75c94609f39b957bcee167fa9316f5caaf1a0a6",
+      "musique_ponctuations.wav": "6a02d2274b77ba98c7abbe13e584a8d6af6e0c0dc72c7ddce40a0e5e53c73049",
+      "musique_percussions.wav": "835200026c825f90566c1030783dd49f5ac1e3b92fad3adb6c623313f7769dbc",
+      "musique_sans_baisse.wav": "0d11d49c37f54a44f21fe958092ce1d687c20f630c67f9f8195464976ba29e94",
+      "c5_papier_sol.wav": "de06fe4cc6d3b30b8a8c5bf771d3845e5546aa55b7ac5879d635b6b62d19fe5e"
+    },
+    "cloth_sound_follows_visible_contact_seconds": [
+      42.0,
+      42.4
+    ],
+    "music_continuation_rolling_windows": {
+      "0.1": {
+        "minimum_pre_master_dbfs": -42.70036426430076,
+        "maximum_pre_master_dbfs": -34.33519434641488,
+        "step_seconds": 0.02
+      },
+      "0.2": {
+        "minimum_pre_master_dbfs": -42.21491400542927,
+        "maximum_pre_master_dbfs": -35.46983335066375,
+        "step_seconds": 0.02
+      }
+    },
+    "crossfade_boundary_jump_lsb": {
+      "40.5": 68,
+      "40.75": 56
+    },
+    "crossfade_jump_threshold_lsb": 612.0,
+    "no_clipping": true,
+    "peak_dbfs": -7.684326807400652,
+    "limits": "Numerical waveform and file checks only; no listening or phone playback claimed."
+  },
+  "final_mp4s": {
+    "MOU_Encore_une_feuille.mp4": "48dd63a624de51320a88172e88d601547fb8028e3cf386961753d7b82925940a",
+    "MOU_Encore_une_feuille_muette.mp4": "7a8d116c61bc6ff2d9ad47672c4e6ec565a8dac78c491333a788e83c267e083b"
+  },
+  "production_inputs_unchanged": {
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/animation.py": "9a7736efd9b0f8e512a62aa28a5cc199a76fcc4fc90a2070fd9da8fd731fe08a",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/art.py": "2a9818c90e47edc8d5ea9027e5e4e1904c6ce66067f5ba29a903e28a9366ff7d",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/render.py": "aaf644711cd6444601c155be4f0cc3e69435bab8b2424fa386603c052b773b78",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/son.py": "ede9f98d99babcfdb0b9e752441ac145647ee8f5f911d9fdb957271103647457",
+    "/workspace/MOU/episodes/03/cuisine_v21/sources/music.py": "10b6616a217b8d209a6e8d3f669efaa4848ce81a92cf29a0e0ba3921c4684c52",
+    "/workspace/MOU/episodes/03/cuisine_v21/chronologie.json": "461de4f8e8999b62777415e7096fee93f240c35fcefa4c7df5206f71109b0db6",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/cuisine_v21/audio/mix.wav": "7644138c35cd980246a8829508561dcb819eec0e8858f6264404e5882b01caa1",
+    "/workspace/MOU/episodes/03/cuisine_v21/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "/workspace/MOU/episodes/03/cuisine_v21/assets/TimGM6mb.sf2": "c5378b62028c920cb11e4803327983fee2f2cdff5dc89c708e39da417e51c854"
+  }
+}

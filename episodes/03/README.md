@@ -1,16 +1,18 @@
 # MOU en cuisine — essuie-tout
 
 **Version courante : [MOU en cuisine, Just cooking. Mostly washing. —
-41 secondes](cuisine_v20/).** [MP4 avec son](cuisine_v20/MOU_Encore_une_feuille.mp4?raw=true),
-[muet](cuisine_v20/MOU_Encore_une_feuille_muette.mp4?raw=true),
-[sources](cuisine_v20/MOU_Encore_une_feuille_sources.zip?raw=true) et
-[contrôles](cuisine_v20/CONTROLE.txt). Toque « MOU » et tablier de taille validés.
+44,5 secondes](cuisine_v21/).** [MP4 avec son](cuisine_v21/MOU_Encore_une_feuille.mp4?raw=true),
+[muet](cuisine_v21/MOU_Encore_une_feuille_muette.mp4?raw=true),
+[sources](cuisine_v21/MOU_Encore_une_feuille_sources.zip?raw=true) et
+[contrôles](cuisine_v21/CONTROLE.txt). Toque « MOU » et tablier de taille validés.
 MOU siffle au départ ; musique et dosage restent ceux de V19.
 MOU remue, coupe la carotte, ajoute la tomate et le sel, puis touche le manche
 propre : cinq lavages et autant de papiers jetés. Les inserts du lavabo montrent
 le pouce arrondi validé qui frotte contre le bout de la moufle, poignet sec.
 Le dernier petit papier rebondit sur le tas plein puis tombe au sol ;
-le gros plan est tenu pour laisser voir le résultat. La [V19](cuisine_v19/)
+le gros plan est tenu pour laisser voir le résultat. Une goutte reste :
+MOU découvre son tablier, y sèche sa main puis mesure son gaspillage.
+[La V20 de 41 s](cuisine_v20/) est conservée. La [V19](cuisine_v19/)
 reste conservée, ainsi que la [V14](cuisine_v14/) et son ancienne musique.
 [Références internet et limites](cuisine_v6/editorial/veille_cuisine_v6.md).
 La [version précédente de 30 s](carotte_v5/), la [version de 29 s](carotte_v4/)

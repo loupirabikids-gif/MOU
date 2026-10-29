@@ -1,0 +1,27 @@
+{
+  "source_video": "MOU_Encore_une_feuille.mp4",
+  "source_sha256": "48dd63a624de51320a88172e88d601547fb8028e3cf386961753d7b82925940a",
+  "method": "Actual MP4 frames; face crops provide no intended-emotion captions.",
+  "ending_frames": [
+    972,
+    988,
+    1001,
+    1014,
+    1031,
+    1046,
+    1060
+  ],
+  "other_frames": [
+    175,
+    394,
+    549,
+    694,
+    814,
+    874,
+    881,
+    938,
+    939
+  ],
+  "clip_start_seconds": 37.0,
+  "clip_duration_seconds": 7.5
+}
