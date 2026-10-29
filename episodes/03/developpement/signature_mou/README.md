@@ -3,7 +3,9 @@
 L’utilisatrice demande un concept récurrent de phrases pour distinguer la série,
 un placement plus haut et un style adapté au personnage et à la cuisine.
 Il s’agit d’une proposition éditoriale et de maquettes : aucun MP4, son ou
-modèle de MOU n’est modifié. La formule n’est pas encore validée.
+modèle de MOU n’est modifié. L’utilisatrice a ensuite retenu une autre phrase : « Just cooking. Mostly washing. »,
+intégrée dans [la V19](../../cuisine_v19/). Le label de méthode n’est pas retenu ;
+le placement haut et le style arrondi sont adaptés à ce texte.
 
 ## Recommandation
 

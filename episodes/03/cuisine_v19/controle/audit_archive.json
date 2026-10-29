@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "manifest_files": 135,
+  "zip_crc_and_all_hashes": true,
+  "cold_caption_frame_bit_identical": true,
+  "zip_sha256": "cfcec6a72d69eba8ea448ec55d6f83972a5337ed5a0d03514ea094cca905c1f2",
+  "zip_bytes": 39792342
+}

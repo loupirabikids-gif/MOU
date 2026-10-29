@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "aac_bitstreams_identical_to_v18": {
+    "final": "c668d6f930ba9140d716890099cbcb96029b7d4bca5dfac0866a8d643108e279",
+    "_animatique": "c668d6f930ba9140d716890099cbcb96029b7d4bca5dfac0866a8d643108e279"
+  },
+  "wav_mix_identical": true
+}

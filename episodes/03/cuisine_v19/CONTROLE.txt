@@ -1,0 +1,30 @@
+MOU — Just cooking. Mostly washing. — V19
+29 octobre 2026
+
+Phrase choisie intégrée exactement, sans autre label :
+Just cooking.
+Mostly washing.
+
+Deux lignes Nunito ExtraBold 48 px, cartouche crème/prune et accent citron.
+Position x60–480, y128–274 sur 1080 × 1920, au-dessus de la fenêtre et à
+gauche de la lampe. Titre visible 0–3 s, même sortie fondue de 150 ms.
+Personnage, fenêtre, lampe, étagère et gestes restent dégagés.
+
+Rendu complet : 41 s, 1080 × 1920, 24 images/s, 984 images, avec son et muet.
+Animatique complète : 540 × 960, 12 images/s. GIF muet : 432 × 768.
+Deux MP4 entièrement décodés, 60 images comparées à des rendus SVG frais,
+avec contrôles sur le nouveau cartouche et sur l’ancienne zone de texte.
+Le cache réutilisé dépend du SVG complet, de l’échelle et de sa version.
+
+Piste AAC finale et animatique identiques à l’octet près aux pistes V18.
+Mix WAV et toutes les sources de son conservés. Aucun remix ni recomposition.
+La copie de la piste a été vérifiée par SHA-256 après extraction des AAC.
+
+Critique indépendante : images 360/1080, animatique réellement exportée et
+captures du MP4 à 0,5 /2,9167 /3 s. Titre exact, aucune ancienne légende ou
+autre signature, fondu propre, disparition complète à 3 s ; avis favorable.
+Les captures et le rapport sont conservés dans controle/.
+
+Police libre Nunito, licence SIL OFL 1.1 incluse dans assets. Sources,
+images, sons et licences dans le ZIP avec manifeste SHA-256.
+Reproduction dans sources/README.md ; aucune écoute nouvelle revendiquée.

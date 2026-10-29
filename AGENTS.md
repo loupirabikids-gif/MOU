@@ -1,14 +1,15 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
-Étude courante : proposer une signature de phrases récurrentes et un style
-plus adapté à MOU ; remonter le texte pour dégager le décor. Maquettes dans
-`episodes/03/developpement/signature_mou/`. Recommandation à discuter :
-« La méthode MOU » + une intention courte (« Faire simple. » pour la cuisine),
-équivalent anglais « The MOU Method / Keep it simple. ». Petit cartouche
-crème/prune, accent citron, police libre Nunito arrondie, en haut à gauche
-dans le mur vide. Cette identité n’est PAS encore validée : ne pas modifier
-le film, le mix ni appliquer la formule aux épisodes suivants sans ce choix.
-Conserver la phrase anglaise existante dans la vidéo actuelle jusqu’à décision.
+Choix courant : l’utilisatrice retient « Just cooking mostly washing ».
+Intégrer « Just cooking. » / « Mostly washing. » sur deux lignes en anglais
+dans `episodes/03/cuisine_v19/`, plus haut à gauche pour dégager le décor.
+Aucun label « The MOU Method » ni autre texte : cette proposition n’a pas
+été retenue. Police Nunito arrondie, petit cartouche crème à contour prune
+et accent citron, dans le mur vide au-dessus de la fenêtre et à gauche de
+la lampe. Garder la durée d’ouverture 0–3 s, les gestes et le son V18.
+Préserver la piste AAC existante sans réencodage quand le MP4 V18 est présent.
+Les maquettes antérieures restent dans developpement/signature_mou comme
+historique, sans devenir des règles de marque pour les autres épisodes.
 
 Demande courante V18 : après rejet V17, l’utilisatrice précise que le problème
 est « l’équilibre change trop d’une scène à l’autre ». Refaire uniquement le
