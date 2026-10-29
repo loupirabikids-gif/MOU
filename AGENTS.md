@@ -1,5 +1,11 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Étude courante : l’utilisatrice préfère une moufle avec un seul pouce distinct
+dans le contour, comme sa nouvelle référence, et les autres doigts réunis.
+Préparer uniquement un essai du frottement dans `episodes/03/etudes_geste/moufle_pouce/`.
+Le dessin précédent à petite boucle intérieure a été rejeté. Attendre le retour
+sur cet essai avant toute intégration ; le rig et l’épisode V13 restent conservés.
+
 ## But et référence commune
 
 Produire de petites histoires claires, surprenantes et fidèles à MOU. Un export

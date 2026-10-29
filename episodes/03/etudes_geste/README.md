@@ -1,5 +1,9 @@
 # Proposition de geste à valider
 
+La proposition ci-dessous a été rejetée. La nouvelle demande porte sur une
+moufle avec un pouce saillant dans le contour : voir
+[l’essai animé à valider](moufle_pouce/README.md).
+
 Image seule demandée par l’utilisatrice avant modification de l’animation.
 Une seule main : extrémité arrondie repliée contre une petite indication de
 pouce, sous le jet ; la flèche représente le frottement circulaire souhaité.
