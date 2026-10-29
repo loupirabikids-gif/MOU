@@ -1,5 +1,14 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Demande courante : préparer une image de validation d’une toque portant « MOU »
+et d’un tablier noué uniquement à la taille, sans bavette ni bretelles.
+Étude dans `episodes/03/etudes_costume/chef_v1/`, à partir de la V19, avec
+les bras, mains et rig conservés. Attendre la validation de l’image avant
+de refaire le film. Nouvelle chute demandée : le dernier papier tombe au sol
+car la poubelle est pleine ; proposer le contact avec le tas puis la chute
+à côté, en conservant les quatre grandes boulettes dans la poubelle.
+La V19 et son mix restent la référence de production pendant cette étude.
+
 Choix courant : l’utilisatrice retient « Just cooking mostly washing ».
 Intégrer « Just cooking. » / « Mostly washing. » sur deux lignes en anglais
 dans `episodes/03/cuisine_v19/`, plus haut à gauche pour dégager le décor.

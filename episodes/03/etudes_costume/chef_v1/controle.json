@@ -1,0 +1,25 @@
+{
+  "scope": "Still study only, awaiting user approval; no MP4 rerendered.",
+  "reference": "cuisine_v19",
+  "reference_time": 4.0,
+  "tools": [
+    "Python",
+    "SVG",
+    "CairoSVG",
+    "Pillow"
+  ],
+  "production_inputs_unchanged": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/cuisine_v19/MOU_Encore_une_feuille.mp4": "bd581a88a007050db1cd106586bb03fa6b40f792ad14c4e2e0b5901b5b7f65e0",
+    "episodes/03/cuisine_v19/sources/art.py": "ce0c190cf5917f8e237d7443a194528d7b7b9c93ec038279004474bcdfb8f6fc",
+    "episodes/03/cuisine_v19/sources/animation.py": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+    "episodes/03/cuisine_v19/sources/render.py": "f8b767f1c44b361b4d70618081baaeabe67530327f96328dcaaaceea18afe16b",
+    "episodes/03/cuisine_v19/chronologie.json": "e4f0fd4344a1fbf972b24c8076c3dfc0a9e3efec00bdb79ac33c50f5c8bb7746",
+    "episodes/03/cuisine_v19/audio/mix.wav": "8ddc8746a5ec7ae7d5914a29245eb1033982029c2e1b3b4fd1b7cb415ac5874a"
+  },
+  "costume": {
+    "hat_text": "MOU",
+    "apron": "waist only; no bib or shoulder straps"
+  },
+  "proposed_ending": "Final radius-22 crumpled sheet lands on floor beside full bin; first four remain in bin."
+}
