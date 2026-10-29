@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "revision": "cuisine_v13",
+  "archive_sha256": "96c25af696bf8d90e33358d51401c34a53d6a86d6885fab3289dfd2b4c96f7e8",
+  "files_verified": 139,
+  "crc_ok": true,
+  "all_manifest_sha256_ok": true,
+  "fresh_extracted_render": [
+    {
+      "frame": 10,
+      "time_seconds": 0.4166666666666667,
+      "svg_sha256": "8c4c6b651bda585c850d9df2d44f7c04c2a630d9b705ff8a82001999f5790056",
+      "png_sha256": "1d2033a8451eace5bb421148902f848b930436c5f111632bb40fb492fb2a6347",
+      "matches_frozen_uncached_render": true
+    },
+    {
+      "frame": 219,
+      "time_seconds": 9.125,
+      "svg_sha256": "0968d269ce2dcd07abe5a765792708ff453a7f91c08caa002c690ffd14a9a93c",
+      "png_sha256": "7a9843f07f1c9914d021be165f8f8c102e754a1fdee76de305e1d00ea91c7de8",
+      "matches_frozen_uncached_render": true
+    },
+    {
+      "frame": 660,
+      "time_seconds": 27.5,
+      "svg_sha256": "408fa6d2552ca1cab2a68ac94b5055257d886be2abf5533666cc559037133dbd",
+      "png_sha256": "78a2c20202f2063450163dcd937eb05559ae92e61d0ca69b42b39d5ef4a07008",
+      "matches_frozen_uncached_render": true
+    },
+    {
+      "frame": 679,
+      "time_seconds": 28.291666666666668,
+      "svg_sha256": "41e7328687e2a47e40c90ad225b12657ba0a1e4c57f74b62a9eec46440bef3cf",
+      "png_sha256": "a1a01445946e949c327f717d0df012474539191bcc3edd36881ebdd364909e19",
+      "matches_frozen_uncached_render": true
+    },
+    {
+      "frame": 918,
+      "time_seconds": 38.25,
+      "svg_sha256": "d9daaf50389b26573880018b632257811b4e3f4b877f9c1a3239d104efaabd7e",
+      "png_sha256": "bfd9979150af792b2af211b119b1c6e93d1d28498f6f0618077018140c04973c",
+      "matches_frozen_uncached_render": true
+    },
+    {
+      "frame": 965,
+      "time_seconds": 40.208333333333336,
+      "svg_sha256": "467812a87d6a65bb3d6df66b5a56591a6314529bfd78c154f7191db026706e1f",
+      "png_sha256": "8d514e5ec186bdd47483b791d47d35e6e43d4dde938b2c23d01eb69c4b61a591",
+      "matches_frozen_uncached_render": true
+    }
+  ],
+  "full_audio_regeneration_from_extracted_sources": true,
+  "regenerated_mix_sha256": "e53b41813f5706fb4ae72b3f845a1a67017b6cebf628e5e7f6ee3852a69fddb7",
+  "selected_current_final_visual_proofs_bundled": true,
+  "method": "Fresh temporary directory, bundled source/font/timeline/rig/decor only, no PNG cache. Caption, new sink, salt pinch/sprinkle, tiny crumple and final acting SVG/PNG hashes match independently frozen current renders. Full41sWAV regenerated bitwise identically from extracted source and timeline; no perceptual listening."
+}

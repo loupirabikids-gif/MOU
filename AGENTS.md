@@ -6,6 +6,20 @@ Produire de petites histoires claires, surprenantes et fidèles à MOU. Un expor
 réussi ou une statistique isolée ne prouve pas qu'un gag fonctionne. Avancer
 jusqu'à un montage consultable, corriger les défauts réels et livrer les sources.
 Lire ce fichier, `BRIEF_MOU_CODEX.txt`, la référence et le dossier de l'épisode.
+Commande V13 du 29 octobre : réaliser les trois retouches de jeu approuvées
+(première inspection, découverte du dernier papier et petit signe de fierté
+final), améliorer le lavabo et montrer seulement le bout de la moufle sous
+l’eau, poignet/avant-bras dégagés. Garder la forme native de MOU et ses deux
+mains ; aucun doigt humain ajouté. Le gros plan reste lavabo/main seule.
+Ajouter une pincée de sel visible dans la poêle puis un lavage/essuie/jet
+supplémentaire, avant le dernier contact du manche propre. Nouvelle révision
+dans `episodes/03/cuisine_v13/`, environ 41 s, cinq rituels ; la V12 de 35 s
+reste conservée dans `cuisine_v6/`. Ordre : remuer, carotte, tomate, sel,
+manche propre. Garder la légende, le sifflement initial, les coupures musicales
+et le dernier papier souple. Sons originaux recalés sur la chronologie V13.
+Agents répartis par fichiers : animation/chronologie, lavabo, accessoires,
+son, critique et vérification ; le coordinateur intègre et livre sur GitHub.
+
 Demande courante V12 : placer la découpe de carotte avant l’ajout de tomate.
 Garder 35 s : ouverture/rituel 1 jusqu’à 13,5 s ; carotte 13,5–16,5 s,
 rituel 2 de 16,5 à 21,5 s ; tomate 21,5–23 s ; rituel 3 puis fin inchangés.

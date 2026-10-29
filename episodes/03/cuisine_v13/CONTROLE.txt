@@ -1,0 +1,85 @@
+MOU — Encore une feuille — sel et bout des doigts V13
+Contrôles du 29 octobre 2026
+
+LIVRABLES
+41 s, 1080 × 1920 vertical, 24 images/s, 984 images.
+H.264/yuv420p CRF 12, AAC stéréo 48 kHz ; version muette avec le même
+flux d’images compressées à l’octet près. Animatique complète avec son et
+muette : 540 × 960 à 12 images/s, 492 images. GIF muet : 432 × 768, 410 images.
+
+MODIFICATIONS DEMANDÉES
+Trois retouches de jeu : sourire interrompu et inquiétude à la première
+inspection ; regard entre dernier papier et tube vide suivi d’une détermination
+excessive ; petit hochement fier puis pose tenue devant la poubelle pleine.
+Nouveau lavabo : cuve plus profonde, rebord, bonde et contact d’eau lisibles.
+Le bout arrondi de la moufle native entre seul dans le jet ; poignet et
+avant-bras restent hors de l’eau. La même main ouvre et ferme le robinet.
+Échelle uniforme 0,70 conservée dans cet insert ; aucun doigt ou contour
+humain ajouté. Une seule main visible dans le gros plan ; deux pour MOU.
+
+Ajout du sel à 27–29 s : bol révélé avant la pincée, transport de quelques
+grains au bout de la moufle, huit émissions dans la poêle, inspection et
+nouveau lavage/essuie/jet. Ce rituel se termine à 33 s. Le dernier contact
+du manche propre et la fin passent de 27–35 à 33–41 s. Ordre de cuisine
+conservé : remuer, carotte, tomate, sel, manche propre. Pas de dialogue.
+
+CORRECTIONS OBSERVÉES ET RETENUES
+Le premier bol était caché par la main d’appui : elle se dégage désormais
+avant la prise. Les grains sont agrandis modestement et le plan rapproché
+pour rester lisibles sur téléphone. La petite cinquième boulette flottait :
+son arrivée et sa position dans le panier sont corrigées ensemble à (201,1400),
+où elle repose sur le quatrième papier. L’ancien grand froissage miroir
+croisait son contour ; ordre de parcours corrigé sans changer les silhouettes
+initiale/finale. Même dernier papier souple de 64 × 88, boulette de rayon 22.
+Voir controle/CORRECTIONS.md et les études réellement examinées.
+
+CONSTRUCTION ET CONTACTS
+984 états/SVG contrôlés : 769 larges avec deux mains, 215 inserts avec une
+seule main visible. Même rig et huit fonctions natives de bras/raccord.
+Poubelle de 0 à 5 sans disparition, rouleau de 1 à 0 sans regonflement ;
+254 états de papier et 48 états de vol vérifiés. Contacts sur les cinq
+rouleaux : erreur maximale inférieure à 0,000001 px. Grain émis à la véritable
+extrémité native ; 46 états de chute contrôlés, toutes cibles dans la poêle.
+25 contrôles indépendants de géométrie raster des inserts : eau limitée au
+cap distal de la moufle, paume/poignet secs ; dix contacts de levier exacts.
+Cinq froissages × 101 progressions : aucun croisement ou effondrement,
+raccords vers les boulettes identiques. Hochement terminé avant la tenue finale.
+Contrôles : controle/audit_v13.json, audit_structure.json et sources_final.json.
+
+SON ORIGINAL SYNCHRONISÉ
+64 événements : 60 bruitages, trois notes sifflées initiales, une musique.
+Deux textures courtes originales pour pincée et chute de sel. 50 anciens WAV
+individuels conservent leurs octets, avec les graines de synthèse d’origine.
+Musique 108 BPM : 0–7,75 /13,5–16,5 /21,5–23 /27–29 /33–34 s ; zéro
+échantillon musical hors fenêtres, pendant les rituels, jets et la fin.
+Sifflement uniquement à 0,3–1,731111 s. Aucun son téléchargé ou voix ajoutée.
+Mix PCM : pic -4.0001 dBFS ; AAC : -4.0061 dBFS ; zéro saturation.
+Corrélation PCM/AAC sans décalage : 0.998527.
+Chronologie et source liées par SHA-256 dans audit_son.json et audit_son_v13.json.
+
+EXPORTS RÉELS ET CRITIQUE
+Les deux MP4 sont décodés intégralement sans erreur. Sources gelées vérifiées,
+y compris le nouveau module du lavabo et la police fournie. 60 images du MP4
+comparées à des SVG/CairoSVG frais hors cache : toutes réussies, image entière
+et régions visibles, dont bout mouillé et poignet sec. Seuil moyen RGB 3/255
+conservé ; maximum image 1.616644/255 et région 2.850265/255.
+Critique indépendante des études, de l’animatique complète puis du vrai final :
+24 poses, trois détails natifs et neuf détails successifs du hochement examinés.
+Avis favorable ciblé : lavabo, sel et cinquième rituel lisibles, raccords et
+réactions conformes dans les images vues. Rapport : critique_v13_final.md.
+
+SOURCES ET LIMITES
+Python, SVG, CairoSVG, Pillow, NumPy et FFmpeg, gratuits et open source.
+ZIP : code, dessins, sons, police, chronologie, critiques et preuves choisies.
+CRC/manifeste SHA-256 vérifiés ; poses et mix régénérés depuis une extraction
+propre sans cache. Voir controle/audit_archive.json hors du ZIP qu’il vérifie.
+Commandes : sources/README.md. La V12 de 35 s est conservée au commit bad439d.
+Contrôles audio numériques, sans écoute perceptive possible ici ; aucun
+équilibre sur téléphone revendiqué comme entendu. Les images successives
+ne valent ni projection continue ni test de compréhension auprès d’un public.
+Livraison sur GitHub, aucune publication sur un compte social.
+
+EMPREINTES
+Avec son : cf4da78d94733c49ab5a47c9f985277e2e1896251e0d99f52d459eb61057f710
+Muet : a78f60952e1db3a04a360334bdba2d118d54ba28489b2b68103118e9ac184783
+Mix PCM : e53b41813f5706fb4ae72b3f845a1a67017b6cebf628e5e7f6ee3852a69fddb7

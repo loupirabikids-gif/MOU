@@ -1,0 +1,40 @@
+{
+  "film": "episodes/03/cuisine_v13/MOU_Encore_une_feuille_animatique.mp4",
+  "sha256": "0b99505b2d1d1a81d317328d5882b7825e1a04c372b8c95e7f1fe4f831afb23b",
+  "fps": 12.0,
+  "dimensions": [
+    540,
+    960
+  ],
+  "frames": [
+    87,
+    105,
+    117,
+    183,
+    270,
+    324,
+    329,
+    334,
+    338,
+    341,
+    346,
+    350,
+    358,
+    362,
+    376,
+    394,
+    402,
+    418,
+    433,
+    439,
+    448,
+    470,
+    485,
+    491
+  ],
+  "selected_native_png_frames": [
+    105,
+    338,
+    485
+  ]
+}

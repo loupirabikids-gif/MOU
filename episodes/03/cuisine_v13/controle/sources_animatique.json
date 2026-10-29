@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v13/sources/animation.py": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+    "/workspace/MOU/episodes/03/cuisine_v13/sources/art.py": "ce0c190cf5917f8e237d7443a194528d7b7b9c93ec038279004474bcdfb8f6fc",
+    "/workspace/MOU/episodes/03/cuisine_v13/sources/render.py": "91f660471f9442854b69faa432eff085f286712207a638b6a707457c82f3a8ed",
+    "/workspace/MOU/episodes/03/cuisine_v13/sources/sink.py": "f2c3d4b5ce0e5aa4e535397ca2c97679b4f383a13019b77f3d49a5a517ba554f",
+    "/workspace/MOU/episodes/03/cuisine_v13/chronologie.json": "e4f0fd4344a1fbf972b24c8076c3dfc0a9e3efec00bdb79ac33c50f5c8bb7746",
+    "/workspace/MOU/fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+  },
+  "output": "/workspace/MOU/episodes/03/cuisine_v13/MOU_Encore_une_feuille_animatique.mp4"
+}

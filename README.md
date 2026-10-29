@@ -1,34 +1,28 @@
 # MOU
 
-**Encore une feuille — tablier, eau exagérée et cuisine en rythme, 35 secondes.**
+**Encore une feuille — sel et lavage du bout des doigts, 41 secondes.**
+
+MOU remue, coupe la carotte, ajoute la tomate puis une pincée de sel.
+Chaque contact relance son nettoyage et son gaspillage de papier, jusqu’au
+dernier petit bout. Les gros plans montrent le bout de sa moufle native
+sous le jet, avec le poignet dégagé, dans un lavabo plus lisible.
+Le jeu souligne sa première inquiétude, sa détermination devant le dernier
+papier et sa fierté finale devant sa main propre et la poubelle pleine.
 
 Légende d’ouverture : **« Me cooking: touch, wash, wipe… repeat. »**
-MOU siffle au départ, puis cuisine sur une musique originale qui se coupe
-pour chaque rituel de lavage et essuyage. L’ouverture donne plus de temps au
-remuage et à la découverte de la main ; le premier lavage arrive à 7,75 s.
-La carotte est maintenant découpée avant le lancer de tomate ; chaque contact
-garde son propre rituel de lavage et essuyage, de plus en plus rapide.
-Chaque contact relance son lavage et son gaspillage de papier. Le rouleau diminue
-à chaque tirage. Après trois gros gaspillages, il ne reste qu’un minuscule
-bout : MOU sèche sa grande moufle avec une application absurde. Le dernier
-morceau est désormais plus grand pour rester lisible sur téléphone.
-La retouche V11 assouplit le dernier morceau et retire son coin de document,
-avec un bord déchiré et des plis légers ; les mains et le montage sont conservés.
+Sifflement au départ seulement ; musique originale coupée pendant chaque
+lavage et essuyage. Même modèle, mêmes bras et mains, même cuisine.
 
-[![Encore une feuille](episodes/03/cuisine_v6/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true)
+[![Encore une feuille](episodes/03/cuisine_v13/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v13/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Voir le MP4 avec son,1080×1920](episodes/03/cuisine_v6/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Version muette](episodes/03/cuisine_v6/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v6/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/cuisine_v6/CONTROLE.txt)
-- [Chronologie](episodes/03/cuisine_v6/chronologie.json) · [Critiques et corrections](episodes/03/cuisine_v6/controle/)
-- [Direction de jeu et expressions](episodes/03/developpement/expressions_v4/) · [Recherche d’outils gratuits](recherche/README.md)
-- [Version précédente de 30 s](episodes/03/carotte_v5/) · [Version de 29 s conservée](episodes/03/carotte_v4/) · [Montage de 26 s](episodes/03/film/)
-- [Placement validé](episodes/03/placement/) · [Décor validé](episodes/03/decor/)
+- **[Voir le MP4 avec son, 1080 × 1920](episodes/03/cuisine_v13/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Version muette](episodes/03/cuisine_v13/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v13/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/cuisine_v13/CONTROLE.txt)
+- [Chronologie](episodes/03/cuisine_v13/chronologie.json) · [Critiques et corrections](episodes/03/cuisine_v13/controle/)
+- [Version précédente de 35 s conservée](episodes/03/cuisine_v6/) · [Version de 30 s](episodes/03/carotte_v5/)
+- [Décor validé](episodes/03/decor/) · [Placement](episodes/03/placement/) · [Test de remuage](episodes/03/test_remuer/)
 
-Le décor, le placement et le [test de remuage](episodes/03/test_remuer/) validés
-restent conservés. Le montage complet est proposé au jugement de l’utilisatrice.
-
-Les anciens épisodes sont conservés, mis de côté :
+Les épisodes abandonnés restent conservés :
 [Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
 
 ## Équipe et dossier de création
@@ -94,7 +88,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v6/`.
+Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v13/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

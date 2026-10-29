@@ -1,0 +1,466 @@
+{
+  "status": "passed",
+  "baseline_commit": "bad439dafb1d2bd7fccb2683efc4d7c2258be8c7",
+  "scope": "Independent native model, emitted SVG/state, salt/contact and material continuity checks. Separate actual-film decode/visual critique required; no listening or audience validation.",
+  "tested_sources_sha256": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+    "episodes/03/cuisine_v13/chronologie.json": "e4f0fd4344a1fbf972b24c8076c3dfc0a9e3efec00bdb79ac33c50f5c8bb7746",
+    "episodes/03/cuisine_v13/sources/animation.py": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+    "episodes/03/cuisine_v13/sources/art.py": "ce0c190cf5917f8e237d7443a194528d7b7b9c93ec038279004474bcdfb8f6fc",
+    "episodes/03/cuisine_v13/sources/render.py": "91f660471f9442854b69faa432eff085f286712207a638b6a707457c82f3a8ed",
+    "episodes/03/cuisine_v13/sources/sink.py": "f2c3d4b5ce0e5aa4e535397ca2c97679b4f383a13019b77f3d49a5a517ba554f"
+  },
+  "preserved_native_arm_functions": [
+    "controls",
+    "native_grip",
+    "world_grip",
+    "solve_arm",
+    "arm_linear_transform",
+    "_connect_left_root",
+    "soften_left_root",
+    "draw_arm"
+  ],
+  "scenes": {
+    "frames": 984,
+    "wide_frames": 769,
+    "sink_frames": 215,
+    "physical_hands_each_state": 2,
+    "rendered_hands_wide": 2,
+    "rendered_hands_sink": 1,
+    "caption_frames": 72,
+    "preserved_native_cooking_performance_frames": 287,
+    "all_emitted_viewboxes_match_camera_metadata": true
+  },
+  "continuity": {
+    "bin_count_first_last": [
+      0,
+      5
+    ],
+    "bin_count_monotonic": true,
+    "roll_stock_first_last": [
+      1.0,
+      0.0
+    ],
+    "roll_stock_monotonic_decreasing": true,
+    "carrot_cuts_persist": true,
+    "paper_samples": 254,
+    "flying_samples": 48,
+    "bin_centres": [
+      [
+        140.0,
+        1700.0
+      ],
+      [
+        195.0,
+        1620.0
+      ],
+      [
+        135.0,
+        1537.0
+      ],
+      [
+        201.0,
+        1472.0
+      ],
+      [
+        201.0,
+        1400.0
+      ]
+    ],
+    "radii": [
+      47.0,
+      53.0,
+      59.0,
+      61.0,
+      22.0
+    ],
+    "exact_roll_and_flight_contacts": [
+      {
+        "cycle": 1,
+        "right_grip_to_roll_error": 1.0439262366421688e-08,
+        "flight_to_landed_centre_error": 0.0031123148446754604
+      },
+      {
+        "cycle": 2,
+        "right_grip_to_roll_error": 6.19725141630503e-09,
+        "flight_to_landed_centre_error": 0.0029117188397407615
+      },
+      {
+        "cycle": 3,
+        "right_grip_to_roll_error": 4.666438123487782e-08,
+        "flight_to_landed_centre_error": 0.0026995505935260393
+      },
+      {
+        "cycle": 4,
+        "right_grip_to_roll_error": 2.840251634060869e-08,
+        "flight_to_landed_centre_error": 0.0022963886693172877
+      },
+      {
+        "cycle": 5,
+        "right_grip_to_roll_error": 4.457647277902614e-08,
+        "flight_to_landed_centre_error": 0.0015887157453381856
+      }
+    ]
+  },
+  "salt": {
+    "falling_grain_samples": 46,
+    "maximum_native_tip_error": 0.0,
+    "maximum_emission_origin_error": 4.840511759194961e-05,
+    "all_targets_in_pan": true
+  },
+  "sink": {
+    "method": "Independently extract actual native fill and primary jet from emitted SVG; rasterize540x960, inverse-transform their overlap into canonical native cap coordinates. Negative axial projection would wet palm/wrist. Native shape and uniform scale checked directly.",
+    "checks": [
+      {
+        "time": 8.041666666666666,
+        "phase": "open_tap",
+        "tap_error": 7.733092064513579e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 8.416666666666666,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2094,
+        "minimum_local_cap_projection": 7.34987629016488,
+        "wet_fraction_of_distal_cap": 0.35685071574642124,
+        "wet_tint_pixels": 2086,
+        "wet_tint_fraction_of_distal_cap": 0.3554873892297205,
+        "wet_tint_minimum_local_projection": 7.34987629016488,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 8.833333333333334,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2295,
+        "minimum_local_cap_projection": 6.768653464336468,
+        "wet_fraction_of_distal_cap": 0.3916382252559727,
+        "wet_tint_pixels": 2316,
+        "wet_tint_fraction_of_distal_cap": 0.39522184300341295,
+        "wet_tint_minimum_local_projection": 6.63951577268036,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 9.291666666666666,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 1900,
+        "minimum_local_cap_projection": 8.138208306082216,
+        "wet_fraction_of_distal_cap": 0.32395566922421143,
+        "wet_tint_pixels": 1958,
+        "wet_tint_fraction_of_distal_cap": 0.33384484228474,
+        "wet_tint_minimum_local_projection": 7.769866879319957,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 9.958333333333334,
+        "phase": "close_tap",
+        "tap_error": 7.769159055099367e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 16.708333333333332,
+        "phase": "open_tap",
+        "tap_error": 7.76301618750881e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 17.0,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2021,
+        "minimum_local_cap_projection": 7.748792846179025,
+        "wet_fraction_of_distal_cap": 0.3445865302642796,
+        "wet_tint_pixels": 2069,
+        "wet_tint_fraction_of_distal_cap": 0.35277067348678603,
+        "wet_tint_minimum_local_projection": 7.380451419416771,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 17.375,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2271,
+        "minimum_local_cap_projection": 6.8151757912897635,
+        "wet_fraction_of_distal_cap": 0.3876088069636457,
+        "wet_tint_pixels": 2348,
+        "wet_tint_fraction_of_distal_cap": 0.4007509813961427,
+        "wet_tint_minimum_local_projection": 6.446834364527508,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 17.708333333333332,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2035,
+        "minimum_local_cap_projection": 7.704751274059131,
+        "wet_fraction_of_distal_cap": 0.34726962457337884,
+        "wet_tint_pixels": 1942,
+        "wet_tint_fraction_of_distal_cap": 0.33139931740614337,
+        "wet_tint_minimum_local_projection": 7.81481731750917,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 18.291666666666668,
+        "phase": "close_tap",
+        "tap_error": 7.77111935440652e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 23.166666666666668,
+        "phase": "open_tap",
+        "tap_error": 7.76301618750881e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 23.416666666666668,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 1978,
+        "minimum_local_cap_projection": 7.7045718290992955,
+        "wet_fraction_of_distal_cap": 0.3370250468563639,
+        "wet_tint_pixels": 1978,
+        "wet_tint_fraction_of_distal_cap": 0.3370250468563639,
+        "wet_tint_minimum_local_projection": 7.7045718290992955,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 23.625,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2345,
+        "minimum_local_cap_projection": 6.48292606527709,
+        "wet_fraction_of_distal_cap": 0.4002389486260454,
+        "wet_tint_pixels": 2356,
+        "wet_tint_fraction_of_distal_cap": 0.4021164021164021,
+        "wet_tint_minimum_local_projection": 6.4183572194490255,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 23.833333333333332,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 1984,
+        "minimum_local_cap_projection": 7.7565660999060935,
+        "wet_fraction_of_distal_cap": 0.3383933140030701,
+        "wet_tint_pixels": 2011,
+        "wet_tint_fraction_of_distal_cap": 0.34299846494968445,
+        "wet_tint_minimum_local_projection": 7.562859562421888,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 24.25,
+        "phase": "close_tap",
+        "tap_error": 7.717042380158498e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 29.166666666666668,
+        "phase": "open_tap",
+        "tap_error": 7.783885808678569e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 29.333333333333332,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 1984,
+        "minimum_local_cap_projection": 7.769068279739028,
+        "wet_fraction_of_distal_cap": 0.3383933140030701,
+        "wet_tint_pixels": 2058,
+        "wet_tint_fraction_of_distal_cap": 0.35101483881971685,
+        "wet_tint_minimum_local_projection": 7.400726852976775,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 29.541666666666668,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2271,
+        "minimum_local_cap_projection": 6.798070843790239,
+        "wet_fraction_of_distal_cap": 0.38774116441864437,
+        "wet_tint_pixels": 2350,
+        "wet_tint_fraction_of_distal_cap": 0.4012292982755677,
+        "wet_tint_minimum_local_projection": 6.4297294170279855,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 29.75,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 1996,
+        "minimum_local_cap_projection": 7.736922032505972,
+        "wet_fraction_of_distal_cap": 0.3401499659168371,
+        "wet_tint_pixels": 2069,
+        "wet_tint_fraction_of_distal_cap": 0.35259032038173144,
+        "wet_tint_minimum_local_projection": 7.3685806057436904,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 30.125,
+        "phase": "close_tap",
+        "tap_error": 7.736333278637688e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 34.166666666666664,
+        "phase": "open_tap",
+        "tap_error": 7.783885622867928e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      },
+      {
+        "time": 34.333333333333336,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2140,
+        "minimum_local_cap_projection": 7.400726852976775,
+        "wet_fraction_of_distal_cap": 0.36500085280573086,
+        "wet_tint_pixels": 2058,
+        "wet_tint_fraction_of_distal_cap": 0.35101483881971685,
+        "wet_tint_minimum_local_projection": 7.400726852976775,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 34.541666666666664,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2418,
+        "minimum_local_cap_projection": 6.4297294170279855,
+        "wet_fraction_of_distal_cap": 0.41283933754481816,
+        "wet_tint_pixels": 2350,
+        "wet_tint_fraction_of_distal_cap": 0.4012292982755677,
+        "wet_tint_minimum_local_projection": 6.4297294170279855,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 34.75,
+        "phase": "rinse_tip",
+        "tap_error": null,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 2123,
+        "minimum_local_cap_projection": 7.3685806057436904,
+        "wet_fraction_of_distal_cap": 0.3617927743694615,
+        "wet_tint_pixels": 2069,
+        "wet_tint_fraction_of_distal_cap": 0.35259032038173144,
+        "wet_tint_minimum_local_projection": 7.3685806057436904,
+        "wet_tint_clip_exact_native_outline": true
+      },
+      {
+        "time": 35.125,
+        "phase": "close_tap",
+        "tap_error": 7.736333326324107e-05,
+        "uniform_native_scale": 1.6099998293953328,
+        "wet_pixels": 0,
+        "minimum_local_cap_projection": null,
+        "wet_fraction_of_distal_cap": 0.0
+      }
+    ],
+    "rinse_samples": 15,
+    "moving_tap_samples": 10
+  },
+  "paper_geometry": [
+    {
+      "cycle": 1,
+      "radius": 47.0,
+      "visual_seed": 1,
+      "samples": 101,
+      "min_area": 7368.693839999999,
+      "max_area": 19109.0,
+      "strict_crossings": 0,
+      "endpoint_alpha_different_pixels": 0
+    },
+    {
+      "cycle": 2,
+      "radius": 53.0,
+      "visual_seed": 2,
+      "samples": 101,
+      "min_area": 9370.14984,
+      "max_area": 19109.0,
+      "strict_crossings": 0,
+      "endpoint_alpha_different_pixels": 0
+    },
+    {
+      "cycle": 3,
+      "radius": 59.0,
+      "visual_seed": 3,
+      "samples": 101,
+      "min_area": 11611.78056,
+      "max_area": 19109.0,
+      "strict_crossings": 0,
+      "endpoint_alpha_different_pixels": 0
+    },
+    {
+      "cycle": 4,
+      "radius": 61.0,
+      "visual_seed": 3,
+      "samples": 101,
+      "min_area": 12412.362959999999,
+      "max_area": 19109.0,
+      "strict_crossings": 0,
+      "endpoint_alpha_different_pixels": 0
+    },
+    {
+      "cycle": 5,
+      "radius": 22.0,
+      "visual_seed": 4,
+      "samples": 101,
+      "min_area": 1614.50784,
+      "max_area": 4823.817513888889,
+      "strict_crossings": 0,
+      "endpoint_alpha_different_pixels": 0
+    }
+  ],
+  "acting_parameter_observations": {
+    "first_inspection_smile_min": -0.22,
+    "first_inspection_brow_peak": 0.66,
+    "last_reveal_left_eye_min": 0.72,
+    "last_reveal_tube_glance_frames": 7,
+    "final_smile_min": 0.84,
+    "final_nod_offset_peak": 4.972077065562801,
+    "final_hold_nod_settled": true
+  },
+  "limits": "SVG/state/contact checks and finite geometry samples, not continuous audience viewing or sound audition. Actual encoded MP4s are audited and visually reviewed separately."
+}

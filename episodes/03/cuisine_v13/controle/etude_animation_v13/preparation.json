@@ -1,0 +1,22 @@
+{
+  "duration": 41,
+  "frames": 984,
+  "native_arm_functions_unchanged": [
+    "controls",
+    "native_grip",
+    "world_grip",
+    "solve_arm",
+    "arm_linear_transform",
+    "_connect_left_root",
+    "soften_left_root",
+    "draw_arm"
+  ],
+  "max_contact_error_px": 7.29344624077747e-08,
+  "bin_count_monotonic": true,
+  "stock_monotonic": true,
+  "final_bin_count": 5,
+  "final_stock": 0.0,
+  "animation_sha256": "b229e7d52307a7949b982ff4d1a982429baaefd7a780c16f6a99279de0392cc3",
+  "chronologie_sha256": "e4f0fd4344a1fbf972b24c8076c3dfc0a9e3efec00bdb79ac33c50f5c8bb7746",
+  "limits": "Preparation numeric checks and SVG studies; final film requires independent critique and technical decode."
+}
