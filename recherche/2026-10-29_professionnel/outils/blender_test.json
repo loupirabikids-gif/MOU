@@ -1,0 +1,94 @@
+{
+  "blender_version": "4.3.2",
+  "background": true,
+  "imports": [
+    {
+      "mode": "gp",
+      "result": [
+        "FINISHED"
+      ],
+      "objects": 1,
+      "object_types": [
+        "GREASEPENCIL"
+      ],
+      "bbox_min": [
+        -0.5291666984558105,
+        -2.8913261118646005e-08,
+        -0.6614583134651184
+      ],
+      "bbox_max": [
+        0.5291666984558105,
+        2.8913261118646005e-08,
+        0.6614583134651184
+      ],
+      "camera_scale": 1.3229166269302368,
+      "camera_location": [
+        0.0,
+        -5.291666507720947,
+        0.0
+      ],
+      "camera_euler": [
+        1.5707963705062866,
+        0.0,
+        0.0
+      ],
+      "rendered_png": "/workspace/MOU/work/test_outils_pro/blender/mou_gp.png"
+    },
+    {
+      "mode": "curves",
+      "result": [
+        "FINISHED"
+      ],
+      "objects": 24,
+      "object_types": [
+        "CURVE"
+      ],
+      "bbox_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bbox_max": [
+        0.11289119720458984,
+        0.1410841941833496,
+        2.300000051036477e-05
+      ],
+      "camera_scale": 0.1410841941833496,
+      "camera_location": [
+        0.05644559860229492,
+        0.0705420970916748,
+        0.5643482804298401
+      ],
+      "camera_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rendered_png": "/workspace/MOU/work/test_outils_pro/blender/mou_curves.png"
+    }
+  ],
+  "image_plane": {
+    "source": "mou_cairo.png",
+    "camera": "orthographic",
+    "keyframes": [
+      1,
+      18,
+      26,
+      48
+    ],
+    "holds": [
+      [
+        1,
+        18
+      ],
+      [
+        26,
+        48
+      ]
+    ],
+    "closeup_frame": 30,
+    "curves": "Bezier AUTO_CLAMPED",
+    "geometry_changed": false,
+    "note": "Image plane preserves native art but is not a new facial rig."
+  }
+}

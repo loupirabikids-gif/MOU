@@ -1,0 +1,31 @@
+[
+  {
+    "name": "lavender_README_master.md",
+    "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/master/README.md",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "lavender_root.html",
+    "url": "https://github.com/lavenderdotpet/CC0-Public-Domain-Sounds",
+    "status": 200,
+    "sha256": "4394c53129e9b017838a24de6917fc951eef8d447a208c71ecb3f6b3bfa22001"
+  },
+  {
+    "name": "wyzowl_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/main/LICENSE",
+    "status": 200,
+    "sha256": "7179683e8000e6bdc9bbc60d85edf0a4ac8e76f951857f54fcb775d5886f1309"
+  },
+  {
+    "name": "wyzowl_sounds.json",
+    "url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/main/sounds.json",
+    "status": 200,
+    "sha256": "67f4debfc7077d15391a896bac71a5d12c5c596dc194564e6054a844a98c9726"
+  },
+  {
+    "name": "Bodila_sfx.py",
+    "url": "https://raw.githubusercontent.com/Bodila51/opus-sound-layer/main/scripts/sfx.py",
+    "status": 200,
+    "sha256": "f0bea3a8df7d943013324c5d89f820bf44b7c6e06f062dffdaaca41a8afcfd0f"
+  }
+]

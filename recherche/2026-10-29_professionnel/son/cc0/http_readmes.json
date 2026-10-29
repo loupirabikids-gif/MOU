@@ -1,0 +1,19 @@
+[
+  {
+    "repo": "lavenderdotpet/CC0-Public-Domain-Sounds",
+    "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/main/README.md",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repo": "Bodila51/opus-sound-layer",
+    "url": "https://raw.githubusercontent.com/Bodila51/opus-sound-layer/main/README.md",
+    "status": 200,
+    "sha256": "320f9be3bc29afc1ab6a3c46117f131b58607a465464e807d237d34d0c60933e"
+  },
+  {
+    "repo": "wyzowl/sfx-kit",
+    "url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/main/README.md",
+    "status": 200,
+    "sha256": "4156ba7ec586cd0ac53344e33c92310cd03a19d268a6f6231ed7c80c20d6e60d"
+  }
+]

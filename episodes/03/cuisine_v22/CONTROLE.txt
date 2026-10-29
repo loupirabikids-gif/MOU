@@ -1,0 +1,52 @@
+MOU — Encore une feuille, V22 — contrôle du 29 octobre 2026
+
+Livraison : 1080 × 1920, 24 images/s, 48,25 s, 1 158 images.
+MP4 H264 yuv420p ; son AAC stéréo 48 kHz. Version muette incluse.
+Animatique complète 540 × 960 à 12 images/s ; test de la fin 8 s à 1080 × 1920.
+
+MISE EN SCÈNE ET CORRECTIONS
+Six cadrages pour cinq temps narratifs : manque, déclic, essuyage,
+constat des déchets, retour au public. Le corps ne monte ni ne descend
+pour dégager le geste. Regards avant les mains ; poses tenues distinctes.
+Contact tissu sur 20 images, résultat dégagé tenu 8 images et dernière
+réaction tenue 16 images. Le sourire annulant le constat a été supprimé.
+La trace brune a été remplacée par de l'eau bleue. Le point de vue poubelle
+précise la cible du regard. Les raccords coupés dans le gros plan sont recadrés.
+
+MODÈLE ET GESTES
+Rig canonique et fonctions des deux bras/moufles conservés.
+Costume validé conservé. Comparaison indépendante : 966 états d'actions
+initiaux identiques à V20 ; 215 SVG lavabo identiques. Corps stable sur
+les 192 images finales. Contacts du tissu, masques des pupilles/langue,
+trajectoires des cinq papiers et cadrages à l'intérieur du décor contrôlés.
+
+SON
+Même partition jazz sur une grille continue. Une seule eau, attaques
+papier/couteau adoucies, sifflement initial réduit ; 25 couches retirées,
+41 événements actifs dont deux fonds. Aucun accent sur les expressions.
+Baisse musicale progressive de 1,5 dB au lavage, un gain commun au film.
+Mix -25,01 LUFS, -11,50 dBTP, sans échantillon PCM saturé.
+Régénération et somme indépendante identiques échantillon par échantillon.
+Le son du test est l'extrait exact des huit dernières secondes du mix.
+
+EXPORTS RÉELS
+Deux MP4 décodés intégralement sans erreur ; flux vidéo H264 identiques.
+96 images décodées comparées hors cache aux SVG/CairoSVG actuels, avec
+contrôles locaux du visage, des mains, raccords, objets et contacts.
+Corrélation AAC/WAV courant sans décalage : 0.999856095.
+
+MP4 son SHA256 : 2473b3597f624fdb44a06a497ed0dca814ddc987b75c55506574e7dcd9552b9f
+MP4 muet SHA256 : ae2825df2e3a96b25a16752f3406907a70e14b6b572288d6b148fe7685339cd2
+Mix WAV SHA256 : d5e95dc32911c9087c797193ca750d66c82a546ad3355ebe210d6433bc68fc7b
+
+DÉTAILS ET LIMITES
+Audits : controle/audit_final.json, audit_revision_v22.json, audit_audio_v22.json.
+L'intégrité ZIP et la reproduction isolée des sources sont consignées
+après empaquetage dans controle/audit_archive.json, livré à côté de l'archive.
+Critique : ../developpement/etude_professionnelle/critique_test.md.
+Recherche : ../../../recherche/2026-10-29_professionnel/README.md.
+Blender et RaveAnima ont été réellement essayés ; le film reste rendu par
+CairoSVG afin de respecter les masques. Oggy officiel inaccessible (403) :
+aucun épisode visionné ni écouté. Critique par images successives et
+animatique échantillonnée ; aucune écoute du mix par le modèle, aucune
+étude publique ni certification du confort sonore ou de qualité professionnelle.

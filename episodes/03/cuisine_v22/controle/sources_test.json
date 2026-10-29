@@ -1,0 +1,19 @@
+{
+  "sources_sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/animation.py": "0362d1bc783211d11a80d3512b381fb7978effc5497c10a64b69dffe15a0bc97",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/acting.py": "4161ce65e483e9bba62899bc87d1426ddfd13b55ae077430a3578ad9ca81382b",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/poses.json": "f9149dbf327caf468ac49021f86ea6662549cad8c7c47de641d49c486f628e5d",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/art.py": "2a9818c90e47edc8d5ea9027e5e4e1904c6ce66067f5ba29a903e28a9366ff7d",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/render.py": "eb8f744d721d6949287681fbd7d128b8e614572f3de33c7e834f6e4592a73874",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/test_scene.py": "a49c82a2c0ad9a954bed022c26729f49d0a33ecab5719904e5b16b9a2466fa7c",
+    "/workspace/MOU/episodes/03/cuisine_v22/chronologie.json": "24e0073f6b1215a2d06e2a4886a4b484d7b10b986c25ab5bb2a9ef6f3b1898aa",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/cuisine_v22/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+  },
+  "start_episode_seconds": 40.25,
+  "duration_seconds": 8.0,
+  "fps": 24,
+  "frames": 192,
+  "silent_video_sha256": "fb5e6793a08d48523008c11851a4df8db843c17c170510af5a015afe5dc2689b"
+}

@@ -1,0 +1,41 @@
+{
+  "changes": [
+    {
+      "layer": "Layer_001",
+      "use_lights": false
+    },
+    {
+      "layer": "foot-l",
+      "use_lights": false
+    },
+    {
+      "layer": "foot-r",
+      "use_lights": false
+    },
+    {
+      "layer": "body",
+      "use_lights": false
+    },
+    {
+      "layer": "arm-left",
+      "use_lights": false
+    },
+    {
+      "layer": "arm-right",
+      "use_lights": false
+    },
+    {
+      "layer": "face",
+      "use_lights": false
+    }
+  ],
+  "layers": [
+    "Layer_001",
+    "foot-l",
+    "foot-r",
+    "body",
+    "arm-left",
+    "arm-right",
+    "face"
+  ]
+}

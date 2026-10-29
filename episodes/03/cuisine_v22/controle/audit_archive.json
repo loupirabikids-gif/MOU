@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "observed_utc": "2026-10-29T20:43:10.596211+00:00",
+  "archive_sha256": "15659866124919fbc660450ab0b36be4b4bfb49493a19f73f9c20c796912edb9",
+  "archive_bytes": 61286560,
+  "limits": "Archive integrity and isolated reproduction only; no continuous viewing, listening, artistic or audience approval.",
+  "crc_passed": true,
+  "manifest_files_verified": 282,
+  "cold_loaded_modules": {
+    "archive_cold_renderer": "episodes/03/cuisine_v22/sources/render.py",
+    "papier_animation": "episodes/03/cuisine_v22/sources/animation.py",
+    "papier_art": "episodes/03/cuisine_v22/sources/art.py",
+    "mou_lavabo_v14": "episodes/03/cuisine_v22/sources/sink.py",
+    "mou_costume_chef_v20": "episodes/03/cuisine_v22/sources/costume.py",
+    "approved_stir_contact": "episodes/03/test_remuer/sources/animation.py",
+    "mou_rig": "mou_rig.py"
+  },
+  "fresh_cairo_frames": [
+    {
+      "time_seconds": 4.0,
+      "svg_sha256": "6d4f7ea7cd2dbe19a6c3ec5b5f92b7032f017153a38316af51d2e4f49b023582",
+      "png_sha256": "4dda0d7bed4054316f8b80bc2b127c8a4c6f124e70cab7c21c9e4a1322b463f7",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 44.25,
+      "svg_sha256": "242012332979f12073f744d5abc683a65dde0e73e5c335566a053f10d74397a3",
+      "png_sha256": "98fe1b5333da6efeeae2e0d2fe8f57e0cb67e41a1cc40cc42c4cfa3b01f97fc3",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 47.916666666666664,
+      "svg_sha256": "c19cc2b1d2ab4d93d7dbaaaf7559fe27641e913209d52adfeb6e769d0678003b",
+      "png_sha256": "d9fd6b477e7726060634779207ef157d94cfb92182ac9343a5c75ef361f0f616",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    }
+  ],
+  "regenerated_mix_sha256": "d5e95dc32911c9087c797193ca750d66c82a546ad3355ebe210d6433bc68fc7b",
+  "sound_regeneration": {
+    "duration_seconds": 48.25,
+    "event_count": 41,
+    "removed_event_count": 25,
+    "mix_sha256": "d5e95dc32911c9087c797193ca750d66c82a546ad3355ebe210d6433bc68fc7b",
+    "mix_metrics": {
+      "rms_dbfs": -27.29310770250352,
+      "peak_dbfs": -11.512625442766769,
+      "crest_db": 15.78048225973675,
+      "energy_fraction_2_6khz": 0.02168437051260354
+    },
+    "input_loudness": {
+      "input_i": "-25.01",
+      "input_tp": "-11.50",
+      "input_lra": "1.30",
+      "input_thresh": "-35.01"
+    },
+    "delivery_gain_db": 5.129999999999999,
+    "rolling_250ms_body_p95_minus_p05_db": 4.278990075927453
+  },
+  "isolated_work_directory": "work/verif_archive_v22/cold_oi6tnmew",
+  "no_render_cache_used": true
+}

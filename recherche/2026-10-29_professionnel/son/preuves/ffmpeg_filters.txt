@@ -1,0 +1,546 @@
+@section afade
+
+Apply fade-in/out effect to input audio.
+
+A description of the accepted parameters follows.
+
+@table @option
+@item type, t
+Specify the effect type, can be either @code{in} for fade-in, or
+@code{out} for a fade-out effect. Default is @code{in}.
+
+@item start_sample, ss
+Specify the number of the start sample for starting to apply the fade
+effect. Default is 0.
+
+@item nb_samples, ns
+Specify the number of samples for which the fade effect has to last. At
+the end of the fade-in effect the output audio will have the same
+volume as the input audio, at the end of the fade-out transition
+the output audio will be silence. Default is 44100.
+
+@item start_time, st
+Specify the start time of the fade effect. Default is 0.
+The value must be specified as a time duration; see
+@ref{time duration syntax,,the Time duration section in the ffmpeg-utils(1) manual,ffmpeg-utils}
+for the accepted syntax.
+If set this option is used instead of @var{start_sample}.
+
+@item duration, d
+Specify the duration of the fade effect. See
+@ref{time duration syntax,,the Time duration section in the ffmpeg-utils(1) manual,ffmpeg-utils}
+for the accepted syntax.
+At the end of the fade-in effect the output audio will have the same
+volume as the input audio, at the end of the fade-out transition
+the output audio will be silence.
+By default the duration is determined by @var{nb_samples}.
+If set this option is used instead of @var{nb_samples}.
+
+@item curve
+Set curve for fade transition.
+
+It accepts the following values:
+@table @option
+@item tri
+select triangular, linear slope (default)
+@item qsin
+select quarter of sine wave
+@item hsin
+select half of sine wave
+@item esin
+select exponential sine wave
+@item log
+select logarithmic
+@item ipar
+select inverted parabola
+@item qua
+select quadratic
+@item cub
+select cubic
+@item squ
+select square root
+@item cbr
+select cubic root
+@item par
+select parabola
+@item exp
+select exponential
+@item iqsin
+select inverted quarter of sine wave
+@item ihsin
+select inverted half of sine wave
+@item dese
+select double-exponential seat
+@item desi
+select double-exponential sigmoid
+@item losi
+select logistic sigmoid
+@item sinc
+select sine cardinal function
+@item isinc
+select inverted sine cardinal function
+@item quat
+select quartic
+@item quatr
+select quartic root
+@item qsin2
+select squared quarter of sine wave
+@item hsin2
+select squared half of sine wave
+@item nofade
+no fade applied
+@end table
+
+@item silence
+Set the initial gain for fade-in or final gain for fade-out.
+Default value is @code{0.0}.
+
+@item unity
+Set the initial gain for fade-out or final gain for fade-in.
+Default value is @code{1.0}.
+@end table
+
+@subsection Commands
+
+This filter supports the all above options as @ref{commands}.
+
+@subsection Examples
+
+@itemize
+@item
+Fade in first 15 seconds of audio:
+@example
+afade=t=in:ss=0:d=15
+@end example
+
+@item
+Fade out last 25 seconds of a 900 seconds audio:
+@example
+afade=t=out:st=875:d=25
+@end example
+@end itemize
+
+
+
+@section lowpass
+
+Apply a low-pass filter with 3dB point frequency.
+The filter can be either single-pole or double-pole (the default).
+The filter roll off at 6dB per pole per octave (20dB per pole per decade).
+
+The filter accepts the following options:
+
+@table @option
+@item frequency, f
+Set frequency in Hz. Default is 500.
+
+@item poles, p
+Set number of poles. Default is 2.
+
+@item width_type, t
+Set method to specify band-width of filter.
+@table @option
+@item h
+Hz
+@item q
+Q-Factor
+@item o
+octave
+@item s
+slope
+@item k
+kHz
+@end table
+
+@item width, w
+Specify the band-width of a filter in width_type units.
+Applies only to double-pole filter.
+The default is 0.707q and gives a Butterworth response.
+
+@item mix, m
+How much to use filtered signal in output. Default is 1.
+Range is between 0 and 1.
+
+@item channels, c
+Specify which channels to filter, by default all available are filtered.
+
+@item normalize, n
+Normalize biquad coefficients, by default is disabled.
+Enabling it will normalize magnitude response at DC to 0dB.
+
+@item transform, a
+Set transform type of IIR filter.
+@table @option
+@item di
+@item dii
+@item tdi
+@item tdii
+@item latt
+@item svf
+@item zdf
+@end table
+
+@item precision, r
+Set precision of filtering.
+@table @option
+@item auto
+Pick automatic sample format depending on surround filters.
+@item s16
+Always use signed 16-bit.
+@item s32
+Always use signed 32-bit.
+@item f32
+Always use float 32-bit.
+@item f64
+Always use float 64-bit.
+@end table
+
+@item block_size, b
+Set block size used for reverse IIR processing. If this value is set to high enough
+value (higher than impulse response length truncated when reaches near zero values) filtering
+will become linear phase otherwise if not big enough it will just produce nasty artifacts.
+
+Note that filter delay will be exactly this many samples when set to non-zero value.
+@end table
+
+@subsection Examples
+@itemize
+@item
+Lowpass only LFE channel, it LFE is not present it does nothing:
+@example
+lowpass=c=LFE
+@end example
+@end itemize
+
+@subsection Commands
+
+This filter supports the following commands:
+@table @option
+@item frequency, f
+Change lowpass frequency.
+Syntax for the command is : "@var{frequency}"
+
+@item width_type, t
+Change lowpass width_type.
+Syntax for the command is : "@var{width_type}"
+
+@item width, w
+Change lowpass width.
+Syntax for the command is : "@var{width}"
+
+@item mix, m
+Change lowpass mix.
+Syntax for the command is : "@var{mix}"
+@end table
+
+
+
+@section acompressor
+
+A compressor is mainly used to reduce the dynamic range of a signal.
+Especially modern music is mostly compressed at a high ratio to
+improve the overall loudness. It's done to get the highest attention
+of a listener, "fatten" the sound and bring more "power" to the track.
+If a signal is compressed too much it may sound dull or "dead"
+afterwards or it may start to "pump" (which could be a powerful effect
+but can also destroy a track completely).
+The right compression is the key to reach a professional sound and is
+the high art of mixing and mastering. Because of its complex settings
+it may take a long time to get the right feeling for this kind of effect.
+
+Compression is done by detecting the volume above a chosen level
+@code{threshold} and dividing it by the factor set with @code{ratio}.
+So if you set the threshold to -12dB and your signal reaches -6dB a ratio
+of 2:1 will result in a signal at -9dB. Because an exact manipulation of
+the signal would cause distortion of the waveform the reduction can be
+levelled over the time. This is done by setting "Attack" and "Release".
+@code{attack} determines how long the signal has to rise above the threshold
+before any reduction will occur and @code{release} sets the time the signal
+has to fall below the threshold to reduce the reduction again. Shorter signals
+than the chosen attack time will be left untouched.
+The overall reduction of the signal can be made up afterwards with the
+@code{makeup} setting. So compressing the peaks of a signal about 6dB and
+raising the makeup to this level results in a signal twice as loud than the
+source. To gain a softer entry in the compression the @code{knee} flattens the
+hard edge at the threshold in the range of the chosen decibels.
+
+The filter accepts the following options:
+
+@table @option
+@item level_in
+Set input gain. Default is 1. Range is between 0.015625 and 64.
+
+@item mode
+Set mode of compressor operation. Can be @code{upward} or @code{downward}.
+Default is @code{downward}.
+
+@item threshold
+If a signal of stream rises above this level it will affect the gain
+reduction.
+By default it is 0.125. Range is between 0.00097563 and 1.
+
+@item ratio
+Set a ratio by which the signal is reduced. 1:2 means that if the level
+rose 4dB above the threshold, it will be only 2dB above after the reduction.
+Default is 2. Range is between 1 and 20.
+
+@item attack
+Amount of milliseconds the signal has to rise above the threshold before gain
+reduction starts. Default is 20. Range is between 0.01 and 2000.
+
+@item release
+Amount of milliseconds the signal has to fall below the threshold before
+reduction is decreased again. Default is 250. Range is between 0.01 and 9000.
+
+@item makeup
+Set the amount by how much signal will be amplified after processing.
+Default is 1. Range is from 1 to 64.
+
+@item knee
+Curve the sharp knee around the threshold to enter gain reduction more softly.
+Default is 2.82843. Range is between 1 and 8.
+
+@item link
+Choose if the @code{average} level between all channels of input stream
+or the louder(@code{maximum}) channel of input stream affects the
+reduction. Default is @code{average}.
+
+@item detection
+Should the exact signal be taken in case of @code{peak} or an RMS one in case
+of @code{rms}. Default is @code{rms} which is mostly smoother.
+
+@item mix
+How much to use compressed signal in output. Default is 1.
+Range is between 0 and 1.
+@end table
+
+@subsection Commands
+
+This filter supports the all above options as @ref{commands}.
+
+
+
+@section ebur128
+
+EBU R128 scanner filter. This filter takes an audio stream and analyzes its loudness
+level. By default, it logs a message at a frequency of 10Hz with the
+Momentary loudness (identified by @code{M}), Short-term loudness (@code{S}),
+Integrated loudness (@code{I}) and Loudness Range (@code{LRA}).
+
+The filter can only analyze streams which have
+sample format is double-precision floating point. The input stream will be converted to
+this specification, if needed. Users may need to insert aformat and/or aresample filters
+after this filter to obtain the original parameters.
+
+The filter also has a video output (see the @var{video} option) with a real
+time graph to observe the loudness evolution. The graphic contains the logged
+message mentioned above, so it is not printed anymore when this option is set,
+unless the verbose logging is set. The main graphing area contains the
+short-term loudness (3 seconds of analysis), and the gauge on the right is for
+the momentary loudness (400 milliseconds), but can optionally be configured
+to instead display short-term loudness (see @var{gauge}).
+
+The green area marks a  +/- 1LU target range around the target loudness
+(-23LUFS by default, unless modified through @var{target}).
+
+More information about the Loudness Recommendation EBU R128 on
+@url{http://tech.ebu.ch/loudness}.
+
+The filter accepts the following options:
+
+@table @option
+
+@item video
+Activate the video output. The audio stream is passed unchanged whether this
+option is set or no. The video stream will be the first output stream if
+activated. Default is @code{0}.
+
+@item size
+Set the video size. This option is for video only. For the syntax of this
+option, check the
+@ref{video size syntax,,"Video size" section in the ffmpeg-utils manual,ffmpeg-utils}.
+Default and minimum resolution is @code{640x480}.
+
+@item meter
+Set the EBU scale meter. Default is @code{9}. Common values are @code{9} and
+@code{18}, respectively for EBU scale meter +9 and EBU scale meter +18. Any
+other integer value between this range is allowed.
+
+@item metadata
+Set metadata injection. If set to @code{1}, the audio input will be segmented
+into 100ms output frames, each of them containing various loudness information
+in metadata.  All the metadata keys are prefixed with @code{lavfi.r128.}.
+
+Default is @code{0}.
+
+@item framelog
+Force the frame logging level.
+
+Available values are:
+@table @samp
+@item quiet
+logging disabled
+@item info
+information logging level
+@item verbose
+verbose logging level
+@end table
+
+By default, the logging level is set to @var{info}. If the @option{video} or
+the @option{metadata} options are set, it switches to @var{verbose}.
+
+@item peak
+Set peak mode(s).
+
+Available modes can be cumulated (the option is a @code{flag} type). Possible
+values are:
+@table @samp
+@item none
+Disable any peak mode (default).
+@item sample
+Enable sample-peak mode.
+
+Simple peak mode looking for the higher sample value. It logs a message
+for sample-peak (identified by @code{SPK}).
+@item true
+Enable true-peak mode.
+
+If enabled, the peak lookup is done on an over-sampled version of the input
+stream for better peak accuracy. It logs a message for true-peak.
+(identified by @code{TPK}) and true-peak per frame (identified by @code{FTPK}).
+This mode requires a build with @code{libswresample}.
+@end table
+
+@item dualmono
+Treat mono input files as "dual mono". If a mono file is intended for playback
+on a stereo system, its EBU R128 measurement will be perceptually incorrect.
+If set to @code{true}, this option will compensate for this effect.
+Multi-channel input files are not affected by this option.
+
+@item panlaw
+Set a specific pan law to be used for the measurement of dual mono files.
+This parameter is optional, and has a default value of -3.01dB.
+
+@item target
+Set a specific target level (in LUFS) used as relative zero in the visualization.
+This parameter is optional and has a default value of -23LUFS as specified
+by EBU R128. However, material published online may prefer a level of -16LUFS
+(e.g. for use with podcasts or video platforms).
+
+@item gauge
+Set the value displayed by the gauge. Valid values are @code{momentary} and s
+@code{shortterm}. By default the momentary value will be used, but in certain
+scenarios it may be more useful to observe the short term value instead (e.g.
+live mixing).
+
+@item scale
+Sets the display scale for the loudness. Valid parameters are @code{absolute}
+(in LUFS) or @code{relative} (LU) relative to the target. This only affects the
+video output, not the summary or continuous log output.
+
+@item integrated
+Read-only exported value for measured integrated loudness, in LUFS.
+
+@item range
+Read-only exported value for measured loudness range, in LU.
+
+@item lra_low
+Read-only exported value for measured LRA low, in LUFS.
+
+@item lra_high
+Read-only exported value for measured LRA high, in LUFS.
+
+@item sample_peak
+Read-only exported value for measured sample peak, in dBFS.
+
+@item true_peak
+Read-only exported value for measured true peak, in dBFS.
+@end table
+
+@subsection Examples
+
+@itemize
+@item
+Real-time graph using @command{ffplay}, with a EBU scale meter +18:
+@example
+ffplay -f lavfi -i "amovie=input.mp3,ebur128=video=1:meter=18 [out0][out1]"
+@end example
+
+@item
+Run an analysis with @command{ffmpeg}:
+@example
+ffmpeg -nostats -i input.mp3 -filter_complex ebur128 -f null -
+@end example
+@end itemize
+
+
+
+@section loudnorm
+
+EBU R128 loudness normalization. Includes both dynamic and linear normalization modes.
+Support for both single pass (livestreams, files) and double pass (files) modes.
+This algorithm can target IL, LRA, and maximum true peak. In dynamic mode, to accurately
+detect true peaks, the audio stream will be upsampled to 192 kHz.
+Use the @code{-ar} option or @code{aresample} filter to explicitly set an output sample rate.
+
+The filter accepts the following options:
+
+@table @option
+@item I, i
+Set integrated loudness target.
+Range is -70.0 - -5.0. Default value is -24.0.
+
+@item LRA, lra
+Set loudness range target.
+Range is 1.0 - 50.0. Default value is 7.0.
+
+@item TP, tp
+Set maximum true peak.
+Range is -9.0 - +0.0. Default value is -2.0.
+
+@item measured_I, measured_i
+Measured IL of input file.
+Range is -99.0 - +0.0.
+
+@item measured_LRA, measured_lra
+Measured LRA of input file.
+Range is  0.0 - 99.0.
+
+@item measured_TP, measured_tp
+Measured true peak of input file.
+Range is  -99.0 - +99.0.
+
+@item measured_thresh
+Measured threshold of input file.
+Range is -99.0 - +0.0.
+
+@item offset
+Set offset gain. Gain is applied before the true-peak limiter.
+Range is  -99.0 - +99.0. Default is +0.0.
+
+@item linear
+Normalize by linearly scaling the source audio.
+@code{measured_I}, @code{measured_LRA}, @code{measured_TP},
+and @code{measured_thresh} must all be specified. Target LRA shouldn't
+be lower than source LRA and the change in integrated loudness shouldn't
+result in a true peak which exceeds the target TP. If any of these
+conditions aren't met, normalization mode will revert to @var{dynamic}.
+Options are @code{true} or @code{false}. Default is @code{true}.
+
+@item dual_mono
+Treat mono input files as "dual-mono". If a mono file is intended for playback
+on a stereo system, its EBU R128 measurement will be perceptually incorrect.
+If set to @code{true}, this option will compensate for this effect.
+Multi-channel input files are not affected by this option.
+Options are true or false. Default is false.
+
+@item print_format
+Set print format for stats. Options are summary, json, or none.
+Default value is none.
+
+@item stats_file
+Write stats to specified file. Format is controlled by @option{print_format},
+which must be set. Specify @code{-} to write to standard output.
+Default is unset.
+@end table
+

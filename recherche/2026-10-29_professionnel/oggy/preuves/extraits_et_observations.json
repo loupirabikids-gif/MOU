@@ -1,0 +1,39 @@
+[
+  {
+    "source": "OpenToonz — Editing Curves and Numerical Columns",
+    "file_observed": "work/recherche_oggy/opentoonz_curves.txt",
+    "lines": [
+      295,
+      301
+    ],
+    "short_quote": "**Constant**",
+    "observation": "Le manuel expose des interpolations distinctes et le nombre de frames répétées via Step."
+  },
+  {
+    "source": "OpenToonz — Creating Movements",
+    "file_observed": "work/recherche_oggy/opentoonz_movements.txt",
+    "lines": [
+      16,
+      24
+    ],
+    "short_quote": "additional cameras can be defined",
+    "observation": "Caméras multiples, chacune animable et activable indépendamment."
+  },
+  {
+    "source": "OpenToonz — Cutout Animation",
+    "file_observed": "work/recherche_oggy/opentoonz_cutout.txt",
+    "lines": [
+      11,
+      34
+    ],
+    "short_quote": "**Inverse Kinematics**",
+    "observation": "Parentage, pivots et contrôles de squelette sont documentés, mais ne créent pas le jeu automatiquement."
+  },
+  {
+    "source": "Friction — Animation Techniques",
+    "file_observed": "work/recherche_oggy/friction_animation_techniques.txt",
+    "section": "Flip book / Morphing",
+    "short_quote": "Only one frame will be displayed at a time",
+    "observation": "Un groupe peut exposer une image dessinée à la fois; le morphing exige de choisir les points et les tangentes."
+  }
+]

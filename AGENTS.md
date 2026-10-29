@@ -1,5 +1,27 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Demande courante V22 : après rejet « Ridicule » de V21, chercher et tester
+des outils/techniques pour une animation expressive, des pauses calculées,
+des cadrages utiles et des sons confortables, inspiration demandée Oggy.
+Recherche et essais dans `recherche/2026-10-29_professionnel/`. L’accès officiel
+Xilam/YouTube est bloqué403 : aucun visionnage ni écoute Oggy revendiqué.
+V21 est une version rejetée, pas une référence de qualité validée.
+Conserver MOU, costume et géométrie des deux bras/moufles, utiliser de vraies
+poses tenues, regards et coupes, sans montée/descente mécanique du corps.
+Tester la fin en 8 s/6 plans, corps stable : cause, visage/déclic, macro
+main/tissu sans visage ni îlot, regard en large, insert poubelle puis réaction.
+Le macro utilise les dessins natifs avec un cadrage de détail ; ne pas
+relever artificiellement le corps pour dégager le tablier. Le sourire et
+le visage ne suffisent pas à prouver une émotion lisible.
+V22 réutilise l’art du projet et le rendu Cairo qui conserve ses masques.
+Les imports Blender/RaveAnima ont été réellement testés et leurs limites
+sont documentées : un logiciel installé ne prouve pas un jeu réussi.
+Le son peut être corrigé : une seule eau, attaques papier/couteau adoucies,
+sifflement moins saillant, réactions sans ponctuations sonores. Musique
+jazz sur la même grille, dosage stable. Les mesures ne prouvent pas le
+confort à l’écoute ; ne pas prétendre avoir écouté. Sources et licences
+CC0/FOSS doivent être vérifiées avant tout ajout. Livraison GitHub autorisée.
+
 Accord courant V21 : l’utilisatrice accepte la clôture du tablier et signale
 que le jeu des émotions est insuffisant. Corriger le jeu, pas seulement le
 scénario : regards qui précèdent le geste, arrêt de compréhension, contraste

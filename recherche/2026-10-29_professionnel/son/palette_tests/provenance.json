@@ -1,0 +1,108 @@
+{
+  "scope": "Listening studies only; no production file modified.",
+  "tools": [
+    "Python",
+    "NumPy",
+    "wave"
+  ],
+  "asset_origin": "Derived from original MOU synthetic banks, whose existing provenance is kept.",
+  "claims": "No listening performed; fewer layers/lower high-frequency energy are measurable, pleasantness remains unverified.",
+  "files": [
+    {
+      "file": "eau_une_couche_test.wav",
+      "sha256": "b96ec896f70a3072ecd96ba483f426892670d62240ce95a3d963ad2d07acaf40",
+      "duration_seconds": 2.0,
+      "stage": "post-mix test level; no extra master gain",
+      "sources": [
+        {
+          "source": "episodes/03/cuisine_v21/audio/c1_eau.wav",
+          "sha256": "434c643f3002f3ddc5eb82eb071bb7a4537d2a41b1104c351d0ac43f1b181da3"
+        }
+      ],
+      "parameters": {
+        "lowpass_hz": 2400,
+        "attack_seconds": 0.045,
+        "release_seconds": 0.07,
+        "target_active_rms_dbfs": -32,
+        "peak_cap_dbfs": -21,
+        "separate_hand_layer": false
+      },
+      "peak_dbfs": -21.0
+    },
+    {
+      "file": "papier_un_geste_test.wav",
+      "sha256": "645b8164da4eba41ba30263a0d8ddf03c6ae94a7cfe6ac67a27e850cb9682b68",
+      "duration_seconds": 2.0,
+      "stage": "post-mix test level; no extra master gain",
+      "sources": [
+        {
+          "source": "episodes/03/cuisine_v21/audio/c1_papier_deroule.wav",
+          "sha256": "b000c3db5d226f3ed886cb1afad24cb72c5cdc8b2aeb5898c7dff93016001a32"
+        },
+        {
+          "source": "episodes/03/cuisine_v21/audio/c1_papier_dechire.wav",
+          "sha256": "6fb3cc290ec5239898e7d87fd63001ea9519d69833d1e2272998ce35a016769d"
+        }
+      ],
+      "parameters": {
+        "one_pull_then_one_tear": true,
+        "pull_lowpass_hz": 2600,
+        "tear_lowpass_hz": 2800,
+        "pull_target_rms_dbfs": -35,
+        "tear_peak_dbfs": -22,
+        "separate_wipe_crumple_flight_layers": false
+      },
+      "peak_dbfs": -22.0
+    },
+    {
+      "file": "couteau_transitoires_retenus_test.wav",
+      "sha256": "8de97ad47abcc13e6e621d9784cdcc1e90beb6f0385b82cb6b303ec531311cad",
+      "duration_seconds": 1.7,
+      "stage": "post-mix test level; no extra master gain",
+      "sources": [
+        {
+          "source": "episodes/03/cuisine_v21/audio/carotte_coupe_1.wav",
+          "sha256": "4f5bd6c80adfecb7e5c62f21bdd544c4152e126257ea7c3fb0abddaa4955401f"
+        }
+      ],
+      "parameters": {
+        "lowpass_hz": 2700,
+        "attack_seconds": 0.0025,
+        "peak_dbfs_first": -21,
+        "two_contacts_seconds": [
+          0.3,
+          1.0
+        ],
+        "production_retiming": false
+      },
+      "peak_dbfs": -21.0
+    },
+    {
+      "file": "sifflement_niveau_retenu_test.wav",
+      "sha256": "3cdb07918aaf5016738ecf5085cdd0348cc8d085bc90483ccc113fd77e87978c",
+      "duration_seconds": 2.0,
+      "stage": "post-mix test level; no extra master gain",
+      "sources": [
+        {
+          "source": "episodes/03/cuisine_v21/audio/sifflement_p1_n1.wav",
+          "sha256": "4f5d9fb77246e984f4b76fbfc293d4454736873a959a41fc53d1969cea735628"
+        },
+        {
+          "source": "episodes/03/cuisine_v21/audio/sifflement_p1_n2.wav",
+          "sha256": "c5908d8c7ed155e3a921ff4fa3dda0b73ff790a6debab5d040717e94b54b294a"
+        },
+        {
+          "source": "episodes/03/cuisine_v21/audio/sifflement_p1_n3.wav",
+          "sha256": "2914540c1d2e0119f3a0b476695ea130b251ca7bc88cf4291e7da4fbf47d44c0"
+        }
+      ],
+      "parameters": {
+        "same_three_notes": true,
+        "lowpass_hz": 2600,
+        "postmix_peak_dbfs": -20.5,
+        "new_voice_or_melody": false
+      },
+      "peak_dbfs": -20.5
+    }
+  ]
+}

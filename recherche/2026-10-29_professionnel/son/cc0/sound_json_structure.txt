@@ -1,0 +1,1 @@
+['$schema', 'name', 'version', 'description', 'homepage', 'license', 'credit', 'format', 'how_to_use', 'loudness', 'categories', 'sounds']

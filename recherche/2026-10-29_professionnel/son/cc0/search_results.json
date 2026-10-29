@@ -1,0 +1,190 @@
+[
+  {
+    "query": "cc0 kitchen sounds",
+    "url": "https://github.com/search?q=cc0+kitchen+sounds&type=repositories",
+    "status": 200,
+    "observed_utc": "2026-10-29T19:54:18.651898+00:00",
+    "result_count": 0,
+    "html_sha256": "821069ac22f07b262f268197b9a92066a2c966e59ff176947309aaac72a8aae9",
+    "results": []
+  },
+  {
+    "query": "cc0 foley sound effects",
+    "url": "https://github.com/search?q=cc0+foley+sound+effects&type=repositories",
+    "status": 200,
+    "observed_utc": "2026-10-29T19:54:18.643488+00:00",
+    "result_count": 1,
+    "html_sha256": "85e607f592942f75ae432a6be29ec86de06f28729c3adf10e78d4509c7360278",
+    "results": [
+      {
+        "hl_name": "GhazaGG/Game-<em>Sound</em>-Effect-for-Claude",
+        "hl_trunc_description": "\ud83d\udd0a Claude Code skill that designs game <em>sound</em> <em>effects</em> that don't <em>sound</em> like raw beeps: click-proof synth, <em>CC0</em> <em>foley</em> pipeline, and a doctor \u2026",
+        "repo": {
+          "repository": {
+            "id": 1435428240,
+            "name": "Game-Sound-Effect-for-Claude",
+            "owner_id": 108437886,
+            "owner_login": "GhazaGG",
+            "updated_at": "2026-10-29T08:41:08.177Z",
+            "has_issues": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "query": "cc0 water sounds",
+    "url": "https://github.com/search?q=cc0+water+sounds&type=repositories",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "query": "cc0-sounds",
+    "url": "https://github.com/search?q=cc0-sounds&type=repositories",
+    "status": 200,
+    "observed_utc": "2026-10-29T19:54:18.773964+00:00",
+    "result_count": 76,
+    "html_sha256": "544907ae9a600eeed286ff578904904afc68db018aeb1797302c56bbe1b02478",
+    "results": [
+      {
+        "hl_name": "lavenderdotpet/<em>CC0</em>-Public-Domain-<em>Sounds</em>",
+        "hl_trunc_description": "collection of <em>cc0</em> <em>sounds</em> ive collected over some time",
+        "repo": {
+          "repository": {
+            "id": 343220607,
+            "name": "CC0-Public-Domain-Sounds",
+            "owner_id": 51702517,
+            "owner_login": "lavenderdotpet",
+            "updated_at": "2024-02-22T21:13:49.212Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "BigAndCrispy/Unity-First-Person-Melee",
+        "hl_trunc_description": "A simple template for a first person melee system in Unity. The project includes Free <em>CC0</em> 3D Models, <em>sounds</em> and animations made by me!",
+        "repo": {
+          "repository": {
+            "id": 619351661,
+            "name": "Unity-First-Person-Melee",
+            "owner_id": 69850965,
+            "owner_login": "BigAndCrispy",
+            "updated_at": "2023-03-27T04:29:45.961Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "Bodila51/opus-sound-layer",
+        "hl_trunc_description": "<em>Sound</em> layer for Claude Opus 5.5 motion videos: real <em>CC0</em> recordings, timeline-placed mix, measured QA.",
+        "repo": {
+          "repository": {
+            "id": 1412136607,
+            "name": "opus-sound-layer",
+            "owner_id": 191466064,
+            "owner_login": "Bodila51",
+            "updated_at": "2026-10-23T17:04:23.781Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "TeamForbiddenLLC/warfork-free-soundpacks",
+        "hl_trunc_description": "Warfork Free Soundpacks <em>CC0</em> &amp; CC BY SA 3.0 US + Warsow Soundpack (with non-free <em>sounds</em> removed)",
+        "repo": {
+          "repository": {
+            "id": 272276049,
+            "name": "warfork-free-soundpacks",
+            "owner_id": 54721884,
+            "owner_login": "TeamForbiddenLLC",
+            "updated_at": "2023-09-27T05:45:41.697Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "kmilo93sd/agent-video-editor",
+        "hl_trunc_description": "Editing judgment for AI agents: pacing, cuts, captions, audio, color and thumbnails for any video type, plus 128 <em>CC0</em> <em>sounds</em>, 26 <em>CC0</em> graph\u2026",
+        "repo": {
+          "repository": {
+            "id": 1404605611,
+            "name": "agent-video-editor",
+            "owner_id": 28406349,
+            "owner_login": "kmilo93sd",
+            "updated_at": "2026-10-04T18:10:19.661Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "wyzowl/sfx-kit",
+        "hl_trunc_description": "320 original <em>sound</em> effects for videos, animations and interfaces, with the data AI tools need to choose, place and mix each one. <em>CC0</em>.",
+        "repo": {
+          "repository": {
+            "id": 1425767937,
+            "name": "sfx-kit",
+            "owner_id": 342417920,
+            "owner_login": "wyzowl",
+            "updated_at": "2026-10-20T07:49:07.841Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "facebookincubator/Meta-open-sound",
+        "hl_trunc_description": "Free instrument samples and <em>sound</em> effects from Meta: piano and guitar plus game and VR SFX, WAV + OGG, <em>CC0</em> and CC BY 4.0.",
+        "repo": {
+          "repository": {
+            "id": 1310293358,
+            "name": "Meta-open-sound",
+            "owner_id": 19538647,
+            "owner_login": "facebookincubator",
+            "updated_at": "2026-10-20T20:24:31.279Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "iterami/AudioEditor.htm",
+        "hl_trunc_description": ":<em>sound</em>: <em>CC0</em> audio editing tool. <a href=\"https://iterami.github.io/AudioEditor.htm/\" rel=\"nofollow\">https://iterami.github.io/AudioEditor.htm/</a>",
+        "repo": {
+          "repository": {
+            "id": 162842495,
+            "name": "AudioEditor.htm",
+            "owner_id": 4668430,
+            "owner_login": "iterami",
+            "updated_at": "2026-07-27T17:47:30.056Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "LoveBodhi/<em>CC0</em>-Samples-List",
+        "hl_trunc_description": "\u6536\u5f55\u5df2\u9a8c\u8bc1\u7684\u5f00\u6e90\uff08<em>CC0</em>\uff09\u97f3\u8272\u5e93\u3002<em>CC0</em> <em>Sound</em> Samples Collection.",
+        "repo": {
+          "repository": {
+            "id": 831688316,
+            "name": "CC0-Samples-List",
+            "owner_id": 37089530,
+            "owner_login": "LoveBodhi",
+            "updated_at": "2024-08-11T10:12:49.300Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "hl_name": "Leminno-org/ambient-<em>sounds</em>-library",
+        "hl_trunc_description": "Versioned <em>CC0</em> <em>sound</em> resources for Ambient <em>Sounds</em> by Leminno",
+        "repo": {
+          "repository": {
+            "id": 1410648632,
+            "name": "ambient-sounds-library",
+            "owner_id": 347896362,
+            "owner_login": "Leminno-org",
+            "updated_at": "2026-10-08T21:46:13.376Z",
+            "has_issues": true
+          }
+        }
+      }
+    ]
+  }
+]

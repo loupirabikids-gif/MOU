@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "scope": "format, hash and sample measurements only, no listening",
+  "files": [
+    {
+      "file": "eau_une_couche_test.wav",
+      "duration_seconds": 2.0,
+      "peak_dbfs": -21.001341670225994,
+      "active_rms_dbfs": -34.504111705747576,
+      "no_clipping": true
+    },
+    {
+      "file": "papier_un_geste_test.wav",
+      "duration_seconds": 2.0,
+      "peak_dbfs": -21.999515337009644,
+      "active_rms_dbfs": -34.841208629617746,
+      "no_clipping": true
+    },
+    {
+      "file": "couteau_transitoires_retenus_test.wav",
+      "duration_seconds": 1.7,
+      "peak_dbfs": -21.001341670225994,
+      "active_rms_dbfs": -36.17097057634087,
+      "no_clipping": true
+    },
+    {
+      "file": "sifflement_niveau_retenu_test.wav",
+      "duration_seconds": 2.0,
+      "peak_dbfs": -20.50140029913078,
+      "active_rms_dbfs": -25.25650962359959,
+      "no_clipping": true
+    }
+  ]
+}

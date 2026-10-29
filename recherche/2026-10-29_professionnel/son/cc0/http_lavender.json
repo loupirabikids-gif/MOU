@@ -1,0 +1,30 @@
+[
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/main/LICENSE",
+    "status": 200,
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "observed_utc": "2026-10-29T19:55:38.294857+00:00"
+  },
+  {
+    "path": "40-cc0-water-splash-slime-sfx",
+    "url": "https://github.com/lavenderdotpet/CC0-Public-Domain-Sounds/tree/main/40-cc0-water-splash-slime-sfx",
+    "status": 200,
+    "sha256": "52520f5c8d2e2f27c4062743ff3acfba56c08f9bdb37646bd4944fc87bfbd47f",
+    "observed_utc": "2026-10-29T19:55:38.747291+00:00"
+  },
+  {
+    "path": "Micro Pack - Kitchen Knives",
+    "url": "https://github.com/lavenderdotpet/CC0-Public-Domain-Sounds/tree/main/Micro%20Pack%20-%20Kitchen%20Knives",
+    "status": 200,
+    "sha256": "99dd5e6bc8c30634c963cff8b533a5311b444c67ce137f7f94dc03b4d5046a4d",
+    "observed_utc": "2026-10-29T19:55:38.727039+00:00"
+  },
+  {
+    "path": "bb - Books, Paper, Writing (Jan 2021)",
+    "url": "https://github.com/lavenderdotpet/CC0-Public-Domain-Sounds/tree/main/bb%20-%20Books%2C%20Paper%2C%20Writing%20%28Jan%202021%29",
+    "status": 200,
+    "sha256": "3c37a6f3ade0a787213c9c5cac401d1a4f24ea4d24513600db5618dddc3f1471",
+    "observed_utc": "2026-10-29T19:55:38.734785+00:00"
+  }
+]

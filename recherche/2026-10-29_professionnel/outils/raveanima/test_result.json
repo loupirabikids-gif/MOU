@@ -1,0 +1,31 @@
+{
+  "status": "technical_test_passed_with_visual_incompatibility",
+  "repo": "https://github.com/vibecoderkz/raveanima",
+  "commit": "14cfa3866655aec8f89419528c17f6fee2d7a03a",
+  "version": "0.2.0",
+  "license": "MIT",
+  "local_node_version": "24.19.0",
+  "installation": "npm ci --workspace @raveanima/headless --include-workspace-root=false --omit=dev --ignore-scripts --no-audit --no-fund --cache local",
+  "packages_installed": 100,
+  "dependency_size_approx_MiB": 92,
+  "import_nodes": 36,
+  "import_warnings": [],
+  "rendered_with": "Skia @napi-rs/canvas, no window",
+  "hold_0_to_04_png_bytes_identical": true,
+  "motion_frame_differs": true,
+  "mp4_frames": 36,
+  "mp4_duration": 1.5,
+  "visual_findings": [
+    "SVG clip-path not retained: eyelid paint extends outside the eye/body silhouette",
+    "Tongue ellipse appears below the mouth because clipping is lost"
+  ],
+  "limits": "Technical translation/hold test only, not an artistic acting test or production migration.",
+  "mask_reconstruction_test": {
+    "manual_clip_groups": 3,
+    "actual_png_rendered": true,
+    "visual_result": "eye and mouth clipping restored; no limb/body geometry changed",
+    "full_mean_abs_rgb_error_direct": 0.49056333333333335,
+    "full_mean_abs_rgb_error_rebuilt": 0.20174666666666666,
+    "limits": "Single retained pose only; all expressions and SVG kitchen assets remain unvalidated."
+  }
+}

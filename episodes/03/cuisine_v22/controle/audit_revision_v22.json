@@ -1,0 +1,388 @@
+{
+  "status": "passed",
+  "scope": "independent V22 geometry/staging/audio checks",
+  "limits": "No artistic, audience, continuous-viewing or listening approval is implied.",
+  "scene": {
+    "full_frames": 1158,
+    "external_v20_comparison": "passed",
+    "historical_action_frames_identical": 966,
+    "sink_svg_frames_identical": 215,
+    "body_and_costume_preserved": true,
+    "arm_functions_identical": [
+      "controls",
+      "native_grip",
+      "world_grip",
+      "solve_arm",
+      "arm_linear_transform",
+      "_connect_left_root",
+      "soften_left_root",
+      "draw_arm"
+    ],
+    "ending_body_transform_constant": [
+      80.0,
+      380.0,
+      2.3
+    ],
+    "six_fixed_camera_shots": {
+      "medium": [
+        50.0,
+        120.0,
+        1000.0,
+        1777.7777777778
+      ],
+      "face_discovery": [
+        330.0,
+        600.0,
+        420.0,
+        746.6666666667
+      ],
+      "cloth_macro": [
+        482.49999999999994,
+        1148.1999999999998,
+        114.99999999999999,
+        204.44444444446998
+      ],
+      "wide_look": [
+        0.0,
+        0.0,
+        1080.0,
+        1920.0
+      ],
+      "bin_pov": [
+        0.0,
+        1020.0,
+        500.0,
+        888.8888888889
+      ],
+      "face_audience": [
+        330.0,
+        600.0,
+        420.0,
+        746.6666666667
+      ]
+    },
+    "narrative_beats": 5,
+    "bin_flight_contour_frames_by_paper": {
+      "1": 9,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 28
+    },
+    "all_paper_flights_fully_cadrated": true,
+    "all_viewports_within_decor": true,
+    "wet_cap_frames": 89,
+    "drop_to_native_cap_ink_max_gap": 5.981287947123706,
+    "apron_contact_frames": 20,
+    "macro_contact_anchors": [
+      {
+        "frame": 84,
+        "native_anchor": [
+          185.2982815294381,
+          384.0488715629877
+        ]
+      },
+      {
+        "frame": 85,
+        "native_anchor": [
+          185.43372875558242,
+          384.0543359417834
+        ]
+      },
+      {
+        "frame": 86,
+        "native_anchor": [
+          185.82138079120656,
+          384.0699409238768
+        ]
+      },
+      {
+        "frame": 87,
+        "native_anchor": [
+          186.43319509516354,
+          384.0944667494401
+        ]
+      },
+      {
+        "frame": 88,
+        "native_anchor": [
+          187.2411231979393,
+          384.1266626840713
+        ]
+      },
+      {
+        "frame": 89,
+        "native_anchor": [
+          188.21711533017736,
+          384.1652678409984
+        ]
+      },
+      {
+        "frame": 90,
+        "native_anchor": [
+          189.3331243154907,
+          384.2090289552287
+        ]
+      },
+      {
+        "frame": 91,
+        "native_anchor": [
+          190.56110879356964,
+          384.2567150418393
+        ]
+      },
+      {
+        "frame": 92,
+        "native_anchor": [
+          191.8730347898574,
+          384.3071282129306
+        ]
+      },
+      {
+        "frame": 93,
+        "native_anchor": [
+          193.2408770428526,
+          384.3591117382546
+        ]
+      },
+      {
+        "frame": 94,
+        "native_anchor": [
+          194.63661936615313,
+          384.41155492646413
+        ]
+      },
+      {
+        "frame": 95,
+        "native_anchor": [
+          196.03225423847354,
+          384.4633951131988
+        ]
+      },
+      {
+        "frame": 96,
+        "native_anchor": [
+          197.39978256594966,
+          384.51361754899995
+        ]
+      },
+      {
+        "frame": 97,
+        "native_anchor": [
+          198.71121244040336,
+          384.56125252118477
+        ]
+      },
+      {
+        "frame": 98,
+        "native_anchor": [
+          199.93855815554804,
+          384.60537070347067
+        ]
+      },
+      {
+        "frame": 99,
+        "native_anchor": [
+          201.0538390833779,
+          384.6450765571814
+        ]
+      },
+      {
+        "frame": 100,
+        "native_anchor": [
+          202.02907792298257,
+          384.67949955111834
+        ]
+      },
+      {
+        "frame": 101,
+        "native_anchor": [
+          202.8362993100725,
+          384.70778389069284
+        ]
+      },
+      {
+        "frame": 102,
+        "native_anchor": [
+          203.44752783941956,
+          384.7290761425733
+        ]
+      },
+      {
+        "frame": 103,
+        "native_anchor": [
+          203.83478591515632,
+          384.74251098594664
+        ]
+      }
+    ],
+    "wet_trace_hold_exact_frames": 8,
+    "planned_macro_entry_partial_water_frames": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "final_hold_exact_frames": 16,
+    "fifth_paper_persistent_on_floor": true
+  },
+  "masks": {
+    "isolated_actual_mask_rasters": [
+      {
+        "test_frame": 40,
+        "mask": "mou-cuisine-v6-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 40,
+        "mask": "mou-cuisine-v6-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 40,
+        "mask": "mou-cuisine-v6-mouth",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 48,
+        "mask": "mou-cuisine-v6-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 48,
+        "mask": "mou-cuisine-v6-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 48,
+        "mask": "mou-cuisine-v6-mouth",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 64,
+        "mask": "mou-cuisine-v6-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 64,
+        "mask": "mou-cuisine-v6-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 64,
+        "mask": "mou-cuisine-v6-mouth",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 72,
+        "mask": "mou-cuisine-v6-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 72,
+        "mask": "mou-cuisine-v6-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 72,
+        "mask": "mou-cuisine-v6-mouth",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 100,
+        "mask": "mou-cuisine-v6-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 100,
+        "mask": "mou-cuisine-v6-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 100,
+        "mask": "mou-cuisine-v6-mouth",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 166,
+        "mask": "mou-cuisine-v6-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 166,
+        "mask": "mou-cuisine-v6-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 166,
+        "mask": "mou-cuisine-v6-mouth",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 184,
+        "mask": "mou-cuisine-v6-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 184,
+        "mask": "mou-cuisine-v6-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "test_frame": 184,
+        "mask": "mou-cuisine-v6-mouth",
+        "outside_mask_pixels": 0
+      }
+    ],
+    "whole_face_rotation_keeps_both_pupils_and_tongue_clipped": true,
+    "macro_face_raster_above_viewport": true
+  },
+  "audio": {
+    "duration_seconds": 48.25,
+    "mix_sha256": "d5e95dc32911c9087c797193ca750d66c82a546ad3355ebe210d6433bc68fc7b",
+    "active_events": 41,
+    "removed_events": 25,
+    "single_water_layer_per_wash": true,
+    "cloth_contact_sound_seconds": [
+      43.75,
+      44.583333333333336
+    ],
+    "no_foreground_reaction_accents": true,
+    "no_clipping": true,
+    "postmix_recipe_reconstructs_integer_pcm_exactly": true,
+    "fixed_delivery_gain_db": 5.129999999999999,
+    "eight_second_audio_is_exact_final_slice": true,
+    "raw_reference_wavs_verified": 70,
+    "limits": "No numerical loudness, spectrum or layering check proves perceptual comfort."
+  },
+  "final_mp4s": {
+    "MOU_Encore_une_feuille.mp4": {
+      "sha256": "2473b3597f624fdb44a06a497ed0dca814ddc987b75c55506574e7dcd9552b9f",
+      "frames": 1158,
+      "duration_seconds": 48.25
+    },
+    "MOU_Encore_une_feuille_muette.mp4": {
+      "sha256": "ae2825df2e3a96b25a16752f3406907a70e14b6b572288d6b148fe7685339cd2",
+      "frames": 1158,
+      "duration_seconds": 48.25
+    }
+  },
+  "source_snapshot": {
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/animation.py": "0362d1bc783211d11a80d3512b381fb7978effc5497c10a64b69dffe15a0bc97",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/art.py": "2a9818c90e47edc8d5ea9027e5e4e1904c6ce66067f5ba29a903e28a9366ff7d",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/render.py": "eb8f744d721d6949287681fbd7d128b8e614572f3de33c7e834f6e4592a73874",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/acting.py": "4161ce65e483e9bba62899bc87d1426ddfd13b55ae077430a3578ad9ca81382b",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/poses.json": "f9149dbf327caf468ac49021f86ea6662549cad8c7c47de641d49c486f628e5d",
+    "/workspace/MOU/episodes/03/cuisine_v22/chronologie.json": "24e0073f6b1215a2d06e2a4886a4b484d7b10b986c25ab5bb2a9ef6f3b1898aa",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/cuisine_v22/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/son.py": "f7ec60f0ab3781b0cf76895547f446f3ff99e8a7a107e1abbd0257a636566d0a",
+    "/workspace/MOU/episodes/03/cuisine_v22/sources/music.py": "10b6616a217b8d209a6e8d3f669efaa4848ce81a92cf29a0e0ba3921c4684c52",
+    "/workspace/MOU/episodes/03/cuisine_v22/audio/mix.wav": "d5e95dc32911c9087c797193ca750d66c82a546ad3355ebe210d6433bc68fc7b"
+  }
+}

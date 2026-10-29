@@ -1,40 +1,32 @@
 # MOU
 
-**Encore une feuille — Just cooking. Mostly washing. — 44,5 secondes.**
+**Encore une feuille — Just cooking. Mostly washing. — V22, 48,25 secondes.**
 
-MOU remue, coupe la carotte, ajoute la tomate puis une pincée de sel.
-Chaque contact relance son nettoyage et son gaspillage de papier, jusqu’au
-dernier petit bout. Les gros plans montrent la moufle au pouce arrondi validé,
-avec un petit frottement sous le jet et le poignet dégagé.
-Le jeu souligne sa première inquiétude, sa détermination devant le dernier
-papier et sa gêne lorsqu’il réalise son gaspillage. Le dernier papier rebondit
-sur la poubelle pleine et tombe au sol. MOU porte la toque à son nom et le
-tablier de taille validés. Il découvre finalement ce tablier pour sécher
-sa main, puis réalise son gaspillage et se tourne vers nous, gêné.
+MOU cuisine, mais chaque contact relance son lavage et son gaspillage de papier.
+Carotte, tomate, pincée de sel… le rouleau finit vide et la poubelle déborde.
+Il découvre finalement qu’il peut sécher sa main sur son tablier.
 
-Légende d’ouverture : **« Just cooking. Mostly washing. »**
-Sifflement au départ seulement ; accompagnement jazz construit sur une grille
-unique, contrebasse régulière, accords liés et balais. Le fond est plus présent,
-avec une baisse légère et progressive au lavage. Le dosage sonore est conservé ;
-le contact du papier au sol reste présent, la même musique est prolongée
-et un frottement de tissu accompagne la nouvelle clôture.
+La V22 conserve le dessin, les deux bras/moufles, la toque et le tablier validés.
+Elle reprend la réalisation : regards avant les gestes, cadrages fixes utiles,
+détail de l’essuyage sur le tissu, insert des déchets puis réaction tenue.
+Le mix allège les superpositions et les attaques ; le jazz reste continu.
 
-[![Encore une feuille](episodes/03/cuisine_v21/MOU_Encore_une_feuille_apercu.gif)](episodes/03/cuisine_v21/MOU_Encore_une_feuille.mp4?raw=true)
+- **[Voir le film avec son — 1080 × 1920](episodes/03/cuisine_v22/MOU_Encore_une_feuille.mp4?raw=true)**
+- **[Voir la nouvelle fin — test de 8 secondes](episodes/03/cuisine_v22/MOU_test_mise_en_scene.mp4?raw=true)**
+- [Version muette](episodes/03/cuisine_v22/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v22/MOU_Encore_une_feuille_sources.zip?raw=true) · [Contrôles et limites](episodes/03/cuisine_v22/CONTROLE.txt)
+- [Découpage et critiques](episodes/03/developpement/etude_professionnelle/)
+- [Recherche : outils libres réellement testés et techniques retenues](recherche/2026-10-29_professionnel/README.md)
 
-- **[Voir le MP4 avec son, 1080 × 1920](episodes/03/cuisine_v21/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Version muette](episodes/03/cuisine_v21/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v21/MOU_Encore_une_feuille_sources.zip?raw=true) · [Bilan des contrôles](episodes/03/cuisine_v21/CONTROLE.txt)
-- [Chronologie](episodes/03/cuisine_v21/chronologie.json) · [Critiques et corrections](episodes/03/cuisine_v21/controle/)
-- [V20 conservée](episodes/03/cuisine_v20/)
-- [V19 conservée](episodes/03/cuisine_v19/)
-- [Diagnostic des coupures perçues](episodes/03/developpement/diagnostic_musique_v17.md)
-- [V16 conservée](episodes/03/cuisine_v16/)
-- [V15 avec coupures musicales conservée](episodes/03/cuisine_v15/)
-- [V14 avec l’ancienne musique conservée](episodes/03/cuisine_v14/)
-- [V13 précédente de 41 s conservée](episodes/03/cuisine_v13/)
-- [Version précédente de 35 s conservée](episodes/03/cuisine_v6/) · [Version de 30 s](episodes/03/carotte_v5/)
-- [Décor validé](episodes/03/decor/) · [Placement](episodes/03/placement/) · [Test de remuage](episodes/03/test_remuer/)
+Blender et RaveAnima ont été essayés ; leurs imports automatiques altèrent les
+masques du SVG. Le film garde son rendu CairoSVG. Friction et OpenToonz
+fournissent des méthodes de poses, d’exposition et de courbes documentées.
+L’accès officiel à Oggy est bloqué : aucun visionnage n’est revendiqué.
+Le modèle ne peut pas écouter le mix ; les mesures ne certifient pas le confort
+sur téléphone. Les critiques portent sur les images et les séquences décodées.
 
+[Historique V21 rejeté](episodes/03/cuisine_v21/) · [V20](episodes/03/cuisine_v20/) ·
+[V19](episodes/03/cuisine_v19/) · [Versions de 35 secondes](episodes/03/cuisine_v6/).
 Les épisodes abandonnés restent conservés :
 [Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
 
@@ -53,12 +45,11 @@ des fichiers ne prouve pas leur activation native dans tous les clients.
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
 NumPy, FFmpeg et FluidSynth. Partition originale, banque d’instruments libre
-[TimGM6mb créditée](episodes/03/cuisine_v21/assets/README.md), bruitages originaux ; trois notes sifflées
+[TimGM6mb créditée](episodes/03/cuisine_v22/assets/README.md), bruitages originaux ; trois notes sifflées
 uniquement au départ, aucun dialogue ni musique téléchargée.
-La [veille de cette révision](episodes/03/cuisine_v6/editorial/veille_cuisine_v6.md)
-reste partielle : une vidéo de cuisine examinée par images et une boucle CSS lue.
-YouTube reste bloqué par le réseau courant ; les accès sont préparés dans
-un brouillon à enregistrer puis publier dans les paramètres cloud. Aucune statistique ni visionnage n’est inventé. La critique par images
+La [recherche de réalisation actuelle](recherche/2026-10-29_professionnel/README.md)
+conserve les essais et les preuves d’accès. Aucune statistique, écoute ou
+observation d’une vidéo inaccessible n’est inventée. Les critiques par images
 et les contrôles audio numériques ne valent pas test public ou écoute sur téléphone.
 
 ## Base du projet
@@ -102,7 +93,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v13/`.
+Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v22/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

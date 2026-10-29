@@ -1,0 +1,217 @@
+{
+  "refInfo": {
+    "name": "main",
+    "listCacheKey": "v0:1614553534.3547661",
+    "canEdit": false,
+    "refType": "branch",
+    "currentOid": "f2b6264f9ab89fabc266914c3654685d68c5a39b"
+  },
+  "tree": {
+    "items": [
+      {
+        "name": "bubble_01.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/bubble_01.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "bubble_02.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/bubble_02.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "bubble_03.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/bubble_03.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "loop_bubbles_02.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/loop_bubbles_02.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "loop_bubbles_1.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/loop_bubbles_1.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "loop_rain.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/loop_rain.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "loop_water_01.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/loop_water_01.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "loop_water_02.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/loop_water_02.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "loop_water_03.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/loop_water_03.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_01.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_01.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_02.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_02.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_03.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_03.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_04.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_04.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_05.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_05.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_06.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_06.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_07.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_07.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_08.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_08.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_09.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_09.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_10.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_10.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_11.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_11.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_12.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_12.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_13.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_13.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_14.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_14.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_15.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_15.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "slime_16.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/slime_16.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_01.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_01.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_02.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_02.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_03.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_03.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_04.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_04.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_05.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_05.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_06.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_06.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_07.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_07.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_08.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_08.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_09.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_09.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_10.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_10.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_11.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_11.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_12.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_12.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_13.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_13.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_14.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_14.ogg",
+        "contentType": "file"
+      },
+      {
+        "name": "splash_15.ogg",
+        "path": "40-cc0-water-splash-slime-sfx/splash_15.ogg",
+        "contentType": "file"
+      }
+    ],
+    "totalCount": 40,
+    "templateDirectorySuggestionUrl": null,
+    "readme": null,
+    "showBranchInfobar": false
+  }
+}

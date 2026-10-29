@@ -1,0 +1,41 @@
+{
+  "fps": 24,
+  "duration_seconds": 8,
+  "frames": 192,
+  "actor_transform": [80, 380, 2.3],
+  "face_rotation_pivot_native": [205, 250],
+  "shots": [
+    {"id": "medium_cause", "start": 0, "stop": 40, "information": "Moufle humide et tube vide"},
+    {"id": "face_discovery", "start": 40, "stop": 76, "information": "Regard au tablier et solution comprise"},
+    {"id": "macro_apron", "start": 76, "stop": 116, "information": "Une passe sur le tissu et une trace"},
+    {"id": "wide_waste", "start": 116, "stop": 160, "information": "Poubelle pleine et papier au sol"},
+    {"id": "face_audience", "start": 160, "stop": 192, "information": "Pris sur le fait devant le public"}
+  ],
+  "face_poses": {
+    "notice_drop": {"eye_open_l": 0.89, "eye_open_r": 0.96, "brow_raise": 0.38, "brow_l": 0.35, "brow_r": 0.24, "smile": -0.26, "mouth_open": 0.015},
+    "contrariete": {"eye_open_l": 0.69, "eye_open_r": 0.83, "brow_raise": -0.05, "brow_l": -0.44, "brow_r": -0.31, "smile": -0.49, "mouth_open": 0.0},
+    "solution": {"eye_open_l": 1.0, "eye_open_r": 1.0, "brow_raise": 0.82, "brow_l": 0.08, "brow_r": 0.06, "smile": 0.04, "mouth_open": 0.115},
+    "waste_realisation": {"eye_open_l": 0.94, "eye_open_r": 0.98, "brow_raise": 0.58, "brow_l": 0.76, "brow_r": 0.65, "smile": -0.29, "mouth_open": 0.015},
+    "caught": {"eye_open_l": 0.92, "eye_open_r": 0.96, "brow_raise": 0.49, "brow_l": 0.72, "brow_r": 0.61, "smile": 0.13, "mouth_open": 0.0}
+  },
+  "exposure_holds": [
+    {"start": 0, "stop": 4, "purpose": "Identifier la goutte"},
+    {"start": 24, "stop": 48, "purpose": "Le geste vers le tube s'est arrêté"},
+    {"start": 56, "stop": 64, "purpose": "Regarder le tissu avant de comprendre"},
+    {"start": 68, "stop": 76, "purpose": "Tenir la solution avant la main"},
+    {"start": 108, "stop": 116, "purpose": "Laisser voir la trace sans main dessus"},
+    {"start": 124, "stop": 160, "purpose": "Mesurer le gaspillage"},
+    {"start": 176, "stop": 192, "purpose": "Réaction finale tenue"}
+  ],
+  "hand_action_frames": {
+    "right_reach": [10, 24],
+    "right_clear": [40, 56],
+    "left_enter_macro": [76, 84],
+    "cloth_contact": [84, 104],
+    "drop_absorption": [84, 89],
+    "left_leave_macro": [104, 108],
+    "both_hands_rest": [116, 124]
+  },
+  "contact_native": [195, 385],
+  "limits": "Ces poses et temps sont des choix de réalisation pour le test. Ils ne prouvent pas la lisibilité émotionnelle ni une qualité professionnelle."
+}

@@ -1,0 +1,224 @@
+{
+  "scope": "Measurements only, no listening or perceptual approval.",
+  "mix_sha256": "7644138c35cd980246a8829508561dcb819eec0e8858f6264404e5882b01caa1",
+  "mix_metrics": {
+    "duration_seconds": 44.5,
+    "rms_dbfs": -27.88902125560439,
+    "peak_dbfs": -7.684326807400652,
+    "crest_db": 20.204694448203742,
+    "energy_fraction_2_6khz": 0.12384930656083988,
+    "energy_fraction_above_6khz": 0.001804385752232884
+  },
+  "loudnorm_input": {
+    "input_i": "-25.07",
+    "input_tp": "-7.50",
+    "input_lra": "4.50",
+    "input_thresh": "-35.07"
+  },
+  "bank_post_master_estimates": [
+    {
+      "name": "cuisson",
+      "kind": "frying",
+      "start": 0.0,
+      "mix_gain_db": 0.0,
+      "post_master_estimate": {
+        "duration_seconds": 41.0,
+        "rms_dbfs": -44.60534660349423,
+        "peak_dbfs": -24.46096467867612,
+        "crest_db": 20.144381924818113,
+        "energy_fraction_2_6khz": 0.5341370002938748,
+        "energy_fraction_above_6khz": 0.001082899758611813
+      },
+      "source_sha256": "9e81e276f6a40cd5efe68e2eee1c7e342f11f3d41c77a16fae2371f6786040a7"
+    },
+    {
+      "name": "remuage_debut",
+      "kind": "stir",
+      "start": 0.0,
+      "mix_gain_db": 0.0,
+      "post_master_estimate": {
+        "duration_seconds": 6.7,
+        "rms_dbfs": -34.3055009325868,
+        "peak_dbfs": -16.455239001376366,
+        "crest_db": 17.85026193121044,
+        "energy_fraction_2_6khz": 0.03200053131745317,
+        "energy_fraction_above_6khz": 3.639009234283949e-07
+      },
+      "source_sha256": "0aa50ea6c4459a269c17322c0465306a6d39cbe324440c761d134153441c37fe"
+    },
+    {
+      "name": "c1_eau",
+      "kind": "water",
+      "start": 8.23,
+      "mix_gain_db": -9.0,
+      "post_master_estimate": {
+        "duration_seconds": 1.82,
+        "rms_dbfs": -29.762729603093867,
+        "peak_dbfs": -13.956661405561055,
+        "crest_db": 15.806068197532813,
+        "energy_fraction_2_6khz": 0.028072469450144678,
+        "energy_fraction_above_6khz": 2.2581008631584387e-07
+      },
+      "source_sha256": "434c643f3002f3ddc5eb82eb071bb7a4537d2a41b1104c351d0ac43f1b181da3"
+    },
+    {
+      "name": "c1_main_sous_eau",
+      "kind": "hand_water",
+      "start": 8.4,
+      "mix_gain_db": -7.0,
+      "post_master_estimate": {
+        "duration_seconds": 1.3,
+        "rms_dbfs": -32.738874895608554,
+        "peak_dbfs": -17.457131693600118,
+        "crest_db": 15.281743202008434,
+        "energy_fraction_2_6khz": 0.10031892839979117,
+        "energy_fraction_above_6khz": 1.3365756424830366e-07
+      },
+      "source_sha256": "b2a7988b78db5942c64fa325477cf1bc5d7308cb6e97d4ee9013c9489b345d76"
+    },
+    {
+      "name": "c1_papier_deroule",
+      "kind": "paper_pull",
+      "start": 10.65,
+      "mix_gain_db": -2.0,
+      "post_master_estimate": {
+        "duration_seconds": 0.75,
+        "rms_dbfs": -30.4914150975415,
+        "peak_dbfs": -15.455469871546843,
+        "crest_db": 15.035945225994656,
+        "energy_fraction_2_6khz": 0.4126617896922904,
+        "energy_fraction_above_6khz": 1.970218381133271e-05
+      },
+      "source_sha256": "b000c3db5d226f3ed886cb1afad24cb72c5cdc8b2aeb5898c7dff93016001a32"
+    },
+    {
+      "name": "c1_papier_dechire",
+      "kind": "paper_tear",
+      "start": 11.4,
+      "mix_gain_db": -3.0,
+      "post_master_estimate": {
+        "duration_seconds": 0.145,
+        "rms_dbfs": -25.186717054371066,
+        "peak_dbfs": -9.455812245955066,
+        "crest_db": 15.730904808415998,
+        "energy_fraction_2_6khz": 0.6780605478152711,
+        "energy_fraction_above_6khz": 0.024777535009671524
+      },
+      "source_sha256": "6fb3cc290ec5239898e7d87fd63001ea9519d69833d1e2272998ce35a016769d"
+    },
+    {
+      "name": "c1_essuie_main",
+      "kind": "paper_wipe",
+      "start": 11.4,
+      "mix_gain_db": -5.0,
+      "post_master_estimate": {
+        "duration_seconds": 0.85,
+        "rms_dbfs": -34.69162221572964,
+        "peak_dbfs": -18.455469871546843,
+        "crest_db": 16.236152344182795,
+        "energy_fraction_2_6khz": 0.34554332679072236,
+        "energy_fraction_above_6khz": 2.3451074509911133e-07
+      },
+      "source_sha256": "60bafad80a3cfe9bfce2deedcccb2c2e98037bb8e3a902d02383637fc9a1ed79"
+    },
+    {
+      "name": "c1_papier_froisse",
+      "kind": "paper_crumple",
+      "start": 12.25,
+      "mix_gain_db": -3.0,
+      "post_master_estimate": {
+        "duration_seconds": 0.35,
+        "rms_dbfs": -34.07677105751627,
+        "peak_dbfs": -13.45713169360012,
+        "crest_db": 20.61963936391615,
+        "energy_fraction_2_6khz": 0.45153513583663,
+        "energy_fraction_above_6khz": 0.004757625633700641
+      },
+      "source_sha256": "5d147e028bf2653df42c3ef9960c1763b8e3a0bf82e299f40210e80ac65c477f"
+    },
+    {
+      "name": "c1_poubelle_impact",
+      "kind": "paper_land",
+      "start": 13.22,
+      "mix_gain_db": -3.0,
+      "post_master_estimate": {
+        "duration_seconds": 0.2,
+        "rms_dbfs": -33.050665590327434,
+        "peak_dbfs": -11.956165800199038,
+        "crest_db": 21.094499790128395,
+        "energy_fraction_2_6khz": 0.012881834110348479,
+        "energy_fraction_above_6khz": 5.660175630346814e-06
+      },
+      "source_sha256": "81fba2ea9022378528b3b1d48eb7cc7f9b622c5a8fe090bfb54d5fa4c24dc893"
+    },
+    {
+      "name": "carotte_coupe_1",
+      "kind": "carrot_chop",
+      "start": 14.55,
+      "mix_gain_db": 0.0,
+      "post_master_estimate": {
+        "duration_seconds": 0.095,
+        "rms_dbfs": -26.151613327084426,
+        "peak_dbfs": -8.456098337391358,
+        "crest_db": 17.695514989693066,
+        "energy_fraction_2_6khz": 0.01562102820116239,
+        "energy_fraction_above_6khz": 1.6980200846745495e-05
+      },
+      "source_sha256": "4f5bd6c80adfecb7e5c62f21bdd544c4152e126257ea7c3fb0abddaa4955401f"
+    },
+    {
+      "name": "sifflement_p1_n1",
+      "kind": "whistle",
+      "start": 0.3,
+      "mix_gain_db": 0.0,
+      "post_master_estimate": {
+        "duration_seconds": 0.4,
+        "rms_dbfs": -17.85962476932662,
+        "peak_dbfs": -12.95590642576612,
+        "crest_db": 4.903718343560497,
+        "energy_fraction_2_6khz": 0.004338139147199303,
+        "energy_fraction_above_6khz": 2.909433290542257e-07
+      },
+      "source_sha256": "4f5d9fb77246e984f4b76fbfc293d4454736873a959a41fc53d1969cea735628"
+    },
+    {
+      "name": "musique_cuisine",
+      "kind": "background_music",
+      "start": 0.0,
+      "mix_gain_db": 0.0,
+      "post_master_estimate": {
+        "duration_seconds": 41.0,
+        "rms_dbfs": -31.42573147510323,
+        "peak_dbfs": -17.20964890113978,
+        "crest_db": 14.216082573963451,
+        "energy_fraction_2_6khz": 0.0004952722994645469,
+        "energy_fraction_above_6khz": 5.4659021485686426e-05
+      },
+      "source_sha256": "97747b1bb41677330c694ea3cbebeb63e34d5a2a5bf76ec7c5c856418bdfaaca"
+    },
+    {
+      "name": "tablier_essuie",
+      "kind": "cloth_wipe",
+      "start": 42.0,
+      "mix_gain_db": 0.0,
+      "post_master_estimate": {
+        "duration_seconds": 0.4,
+        "rms_dbfs": -43.29416326560537,
+        "peak_dbfs": -28.451627604014078,
+        "crest_db": 14.842535661591294,
+        "energy_fraction_2_6khz": 0.045251174778669565,
+        "energy_fraction_above_6khz": 1.5292547906187675e-06
+      },
+      "source_sha256": "86096bb36b0b7702ed1e544ed785902d424931c54069433d2e5146fbf627b70e"
+    }
+  ],
+  "foreground_event_count": 64,
+  "foreground_events_per_second": 1.4382022471910112,
+  "foreground_scheduled_occupancy_fraction": 0.5923595505617978,
+  "foreground_layers_2plus_fraction": 0.1407865168539326,
+  "foreground_layers_3plus_fraction": 0.0,
+  "water_seconds": 6.4,
+  "hand_water_overlap_seconds": 4.190000000000005,
+  "hand_water_overlap_fraction_of_water": 0.6546875000000008,
+  "limits": "Bank estimates apply fixed event mix gain/master only; the full mix contains overlaps and global envelope. Spectral share, LUFS and absence of clipping do not prove comfort."
+}

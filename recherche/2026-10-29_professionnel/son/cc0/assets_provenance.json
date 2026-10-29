@@ -1,0 +1,40 @@
+[
+  {
+    "file": "ben_burnes_page_turn_1.wav",
+    "origin_path": "bb - Books, Paper, Writing (Jan 2021)/Page Turn 1.wav",
+    "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/bb%20-%20Books%2C%20Paper%2C%20Writing%20%28Jan%202021%29/Page%20Turn%201.wav",
+    "source_repo": "lavenderdotpet/CC0-Public-Domain-Sounds",
+    "source_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+    "author": "Benjamin / Ben Burnes (Abstraction)",
+    "license": "CC0 1.0 Universal (pack notice explicitly says Creative Commons 0)",
+    "license_notice": "preuves/notice_paper.txt",
+    "bytes": 606084,
+    "sha256": "5dabe0b0a2b89d9ede1e6420a5f815a8d4da924a12b636136eb423fce7235c69",
+    "status": 200,
+    "observed_utc": "2026-10-29T19:56:54.141801+00:00",
+    "duration_seconds": 3.435601,
+    "sample_rate": "44100",
+    "channels": 2,
+    "codec": "pcm_s16le",
+    "listening_performed": false
+  },
+  {
+    "file": "ben_burnes_knife_tap_1.wav",
+    "origin_path": "Micro Pack - Kitchen Knives/Big Knife - Tap 1.wav",
+    "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Kitchen%20Knives/Big%20Knife%20-%20Tap%201.wav",
+    "source_repo": "lavenderdotpet/CC0-Public-Domain-Sounds",
+    "source_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+    "author": "Benjamin / Ben Burnes (Abstraction)",
+    "license": "CC0 1.0 Universal (pack notice explicitly says Creative Commons 0)",
+    "license_notice": "preuves/notice_knife.txt",
+    "bytes": 452420,
+    "sha256": "d02823e1b7ad5454ec008797c4ebb03c9d0c1c43cf706e04c08cfd688f2cd850",
+    "status": 200,
+    "observed_utc": "2026-10-29T19:56:54.128395+00:00",
+    "duration_seconds": 2.56449,
+    "sample_rate": "44100",
+    "channels": 2,
+    "codec": "pcm_s16le",
+    "listening_performed": false
+  }
+]

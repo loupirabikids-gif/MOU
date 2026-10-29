@@ -1,0 +1,14 @@
+Commandes exécutées depuis /workspace/MOU (clone épinglé 14cfa3866655aec8f89419528c17f6fee2d7a03a) :
+
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js --version
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js new work/test_outils_pro/raveanima/mou.anima --width 400 --height 500 --background '#EEE6FA' --fps 24
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js batch work/test_outils_pro/raveanima/mou.anima work/test_outils_pro/raveanima/import_steps.json
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js export work/test_outils_pro/raveanima/mou.anima work/test_outils_pro/raveanima/MOU_import.png
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js batch work/test_outils_pro/raveanima/mou.anima work/test_outils_pro/raveanima/timing_steps.json
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js export work/test_outils_pro/raveanima/mou.anima work/test_outils_pro/raveanima/MOU_hold_0.png --time 0
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js export work/test_outils_pro/raveanima/mou.anima work/test_outils_pro/raveanima/MOU_hold_04.png --time 0.4
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js export work/test_outils_pro/raveanima/mou.anima work/test_outils_pro/raveanima/MOU_move_1.png --time 1
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js export work/test_outils_pro/raveanima/mou.anima work/test_outils_pro/raveanima/MOU_test_timing.mp4 --fps 24
+node work/test_outils_pro/raveanima/repo/packages/headless/dist/anima.js export work/test_outils_pro/raveanima/mou_masks_rebuilt.anima work/test_outils_pro/raveanima/MOU_masks_rebuilt.png --time 0
+
+La reconstruction manuelle des trois groupes clip=true est conservée dans mou_masks_rebuilt.anima, avec la géométrie du corps et des bras identique à l'import.

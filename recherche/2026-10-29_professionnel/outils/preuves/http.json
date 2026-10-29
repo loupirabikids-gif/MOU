@@ -1,0 +1,72 @@
+[
+  {
+    "name": "blender_readme",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/README.md",
+    "observed_utc": "2026-10-29T19:54:19.968974+00:00",
+    "status": 200,
+    "bytes": 1234,
+    "sha256": "1bbb333e5196ba3d5cdc42830e5f1db6b77c311da96d4ff4d9a6f8143d9821e1"
+  },
+  {
+    "name": "blender_copying",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/COPYING",
+    "observed_utc": "2026-10-29T19:54:19.969684+00:00",
+    "status": 200,
+    "bytes": 302,
+    "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387"
+  },
+  {
+    "name": "friction_readme",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/README.md",
+    "observed_utc": "2026-10-29T19:54:19.970290+00:00",
+    "status": 200,
+    "bytes": 3183,
+    "sha256": "725721b31c7b7bf9317800a0af8b38f93ec50edb6d2b02969aeb1c9a53775053"
+  },
+  {
+    "name": "friction_license",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/LICENSE.md",
+    "observed_utc": "2026-10-29T19:54:19.970931+00:00",
+    "status": 200,
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "name": "friction_animation",
+    "url": "https://raw.githubusercontent.com/friction2d/friction2d.github.io/main/documentation/animation_techniques.md",
+    "observed_utc": "2026-10-29T19:54:19.971892+00:00",
+    "status": 200,
+    "bytes": 10737,
+    "sha256": "6c4fde52b1fbdb5799a4a2e7cd1c676e0f6529625596dfac8ad0aa7694ae0f56"
+  },
+  {
+    "name": "opentoonz_readme",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/README.md",
+    "observed_utc": "2026-10-29T19:54:20.135338+00:00",
+    "status": 200,
+    "bytes": 3971,
+    "sha256": "c6b2bffbb2af9497ff127db2031438e306cf50e3ee13442459e4e3a32fe7d0e9"
+  },
+  {
+    "name": "opentoonz_license",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/LICENSE.txt",
+    "observed_utc": "2026-10-29T19:54:20.328963+00:00",
+    "status": 200,
+    "bytes": 2285,
+    "sha256": "0d25442ea242187a08fea3ef810fe702031d55f15bb81a4f4f97b148df988f59"
+  },
+  {
+    "name": "opentoonz_xsheet",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/working_in_xsheet.rst",
+    "observed_utc": "2026-10-29T19:54:20.329577+00:00",
+    "status": 200,
+    "bytes": 124917,
+    "sha256": "6889becaed471a80116d66f495866aa6c2d3c3daba76d8b5fa94f9b288f5143d"
+  },
+  {
+    "name": "opentoonz_interpolation",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz_docs/master/source/editing_using_spreadsheet_and_function_editor.rst",
+    "observed_utc": "2026-10-29T19:54:20.336699+00:00",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "gp": {
+    "mean_absolute_rgb_error": 161.72670666666667,
+    "rgb_pixels_exact_percent": 0.0,
+    "p99_error": 191.0
+  },
+  "curves": {
+    "mean_absolute_rgb_error": 11.418306666666666,
+    "rgb_pixels_exact_percent": 56.1435,
+    "p99_error": 234.0
+  },
+  "image_plane": {
+    "mean_absolute_rgb_error": 1.427525,
+    "rgb_pixels_exact_percent": 53.6575,
+    "p99_error": 40.0
+  },
+  "gp_unlit": {
+    "mean_absolute_rgb_error": 1.7061266666666666,
+    "rgb_pixels_exact_percent": 95.691,
+    "p99_error": 68.0
+  }
+}
