@@ -1,0 +1,132 @@
+{
+  "repository": "https://github.com/sherldawn/animation-script-engine",
+  "inspected_commit": "f359024597c7ae105942041f02fd2a2c1b759b91",
+  "observed_utc": "2026-10-29T22:58:37.772567+00:00",
+  "license": "MIT, LICENSE fetched 200",
+  "http": [
+    {
+      "name": "repo",
+      "url": "https://github.com/sherldawn/animation-script-engine",
+      "observed_utc": "2026-10-29T22:57:00.750764+00:00",
+      "status": 200,
+      "bytes": 305773,
+      "sha256": "eb688f36a863f4586b8a4cd2d97512a28e075d50574e8b13e20c23bc9b2e9d52"
+    },
+    {
+      "name": "README",
+      "url": "https://raw.githubusercontent.com/sherldawn/animation-script-engine/main/README.md",
+      "observed_utc": "2026-10-29T22:57:01.841446+00:00",
+      "status": 200,
+      "bytes": 11429,
+      "sha256": "636f572830d4f1d07ec246930bca63a0f797e3ed61852ca125ffec40036b9ed6"
+    },
+    {
+      "name": "LICENSE",
+      "url": "https://raw.githubusercontent.com/sherldawn/animation-script-engine/main/LICENSE",
+      "observed_utc": "2026-10-29T22:57:02.110610+00:00",
+      "status": 200,
+      "bytes": 1055,
+      "sha256": "3bed3331b7048bac17cf50e249d560ccc9508c970da8d7b9283bf4f2e633a91d"
+    },
+    {
+      "path": "data/research.js",
+      "url": "https://raw.githubusercontent.com/sherldawn/animation-script-engine/f359024597c7ae105942041f02fd2a2c1b759b91/data/research.js",
+      "observed_utc": "2026-10-29T22:57:18.488579+00:00",
+      "status": 200,
+      "bytes": 28192,
+      "sha256": "b83aedffe543590c81b6fd3c6dfdfe0eed3ddb8709937c8048644d086ca69a44"
+    },
+    {
+      "path": "data/works.js",
+      "url": "https://raw.githubusercontent.com/sherldawn/animation-script-engine/f359024597c7ae105942041f02fd2a2c1b759b91/data/works.js",
+      "observed_utc": "2026-10-29T22:57:18.489319+00:00",
+      "status": 200,
+      "bytes": 100691,
+      "sha256": "5d94ace16166e807865618670dcf33a0dc3426b6543612b989270c24586fbfae"
+    },
+    {
+      "path": "data/rules.js",
+      "url": "https://raw.githubusercontent.com/sherldawn/animation-script-engine/f359024597c7ae105942041f02fd2a2c1b759b91/data/rules.js",
+      "observed_utc": "2026-10-29T22:57:18.489873+00:00",
+      "status": 200,
+      "bytes": 8035,
+      "sha256": "ae8b67237fba052d7ca7b585148723f5d82451e004024780939ff6b46efcbf75"
+    },
+    {
+      "path": "examples/001-猫之功夫幻想.md",
+      "url": "https://raw.githubusercontent.com/sherldawn/animation-script-engine/f359024597c7ae105942041f02fd2a2c1b759b91/examples/001-%E7%8C%AB%E4%B9%8B%E5%8A%9F%E5%A4%AB%E5%B9%BB%E6%83%B3.md",
+      "observed_utc": "2026-10-29T22:57:18.490486+00:00",
+      "status": 200,
+      "bytes": 10436,
+      "sha256": "93e4a82b39b6b487dd65a2256f68944ec5d43963121f4e9b6a5d41f642651d9a"
+    },
+    {
+      "path": "data/generator-config.js",
+      "url": "https://raw.githubusercontent.com/sherldawn/animation-script-engine/f359024597c7ae105942041f02fd2a2c1b759b91/data/generator-config.js",
+      "observed_utc": "2026-10-29T22:57:18.490937+00:00",
+      "status": 200,
+      "bytes": 2336,
+      "sha256": "433420dbd67e5fc4d128885195981a0bb8aae9134eed9e2279107a1d11484a5a"
+    }
+  ],
+  "checks": {
+    "work_ids_count": 98,
+    "unique_work_ids_count": 98,
+    "rule_numeric_id_count": 15,
+    "work_url_fields_count": 105,
+    "work_youtube_url_occurrences": 97,
+    "checked_observation_field_names_not_found": [
+      "observed_at",
+      "observed_date",
+      "observation_date",
+      "fetched_at",
+      "collected_at",
+      "retrieved_at"
+    ]
+  },
+  "short_observations": {
+    "readme": "AI generation requires API key; offline corpus and prompt copy available without key.",
+    "research.js": "topChannels lists six channels and fans/views text; no observation timestamps or primary evidence supplied in that section.",
+    "rules.js": "15 prescriptive/ranked rules; no experiment validates claimed audience success.",
+    "example": "001-猫之功夫幻想.md gives initial hotpot competition then cats/fish fantasy/real-world reversal; checklist percentages describe author scoring.",
+    "scope": "Repository contents read, no app executed, no external model/API called, no animation rendered, no YouTube video seen or heard."
+  },
+  "six_channel_links_read_in_repository": [
+    {
+      "name": "Alan Becker",
+      "url": "https://www.youtube.com/@alanbecker",
+      "age_audience_classification": "not_verified",
+      "youtube_page_opened": false
+    },
+    {
+      "name": "Cas van de Pol",
+      "url": "https://www.youtube.com/@CasvanDePol",
+      "age_audience_classification": "not_verified",
+      "youtube_page_opened": false
+    },
+    {
+      "name": "Kurzgesagt",
+      "url": "https://www.youtube.com/@kurzgesagt",
+      "age_audience_classification": "not_verified",
+      "youtube_page_opened": false
+    },
+    {
+      "name": "Corridor Crew",
+      "url": "https://www.youtube.com/@CorridorCrew",
+      "age_audience_classification": "not_verified",
+      "youtube_page_opened": false
+    },
+    {
+      "name": "TheOdd1sOut",
+      "url": "https://www.youtube.com/@TheOdd1sOut",
+      "age_audience_classification": "not_verified",
+      "youtube_page_opened": false
+    },
+    {
+      "name": "worthikids",
+      "url": "https://www.youtube.com/@worthikids",
+      "age_audience_classification": "not_verified",
+      "youtube_page_opened": false
+    }
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "observed_utc": "2026-10-29T22:58:42.270042+00:00",
+  "scope": "Public GitHub searches and READMEs only. YouTube and publisher pages not viewed.",
+  "searches": [
+    {
+      "q": "\"MeatCanyon\" in:readme",
+      "url": "https://github.com/search?q=%22MeatCanyon%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/patmakesapps/Super-Intelligence",
+        "/bspeelm/bivy"
+      ]
+    },
+    {
+      "q": "\"Flashgitz\" in:readme",
+      "url": "https://github.com/search?q=%22Flashgitz%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/yeenprogrammer2002/Furry-Hunter-Source-Code",
+        "/hundt12345/Gamestop"
+      ]
+    },
+    {
+      "q": "\"Cyanide\" \"YouTube\" in:readme",
+      "url": "https://github.com/search?q=%22Cyanide%22+%22YouTube%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/linsa-io/youtube",
+        "/mathiasvr/youtube-terminal",
+        "/jonathanslima/track-to-learn-english",
+        "/w23/jetlag_appear",
+        "/appellation/pleb",
+        "/kjr1010/pleb",
+        "/yihong0618/gitblog",
+        "/SuperAB123/Free-Official-Youtube-Content",
+        "/msmathers/datapypes",
+        "/mjdargen/Gom-Jabbar"
+      ]
+    },
+    {
+      "q": "\"Worthikids\" in:readme",
+      "url": "https://github.com/search?q=%22Worthikids%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/wombatCountry/wombats-obscure-jokers",
+        "/sherldawn/animation-script-engine"
+      ]
+    },
+    {
+      "q": "\"TomSka\" in:readme",
+      "url": "https://github.com/search?q=%22TomSka%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/Falling10fruit/Random",
+        "/DanOvad/youtube-channel-analysis",
+        "/arcticsixxx/geonames_api",
+        "/tomskajulia75-ui/julia-portfolio",
+        "/dionislez/infotecs_task",
+        "/outadoc/PointlessButton",
+        "/E-Bor/API-cities",
+        "/galahyde/galahyde",
+        "/novozhilov-ivan/infotecs_exercise",
+        "/11BelowStudio/Muffin-Mania"
+      ]
+    },
+    {
+      "q": "\"Vivziepop\" in:readme",
+      "url": "https://github.com/search?q=%22Vivziepop%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/NNXXYOD/securitybreaches",
+        "/dollitics/dollitics",
+        "/scouttfkissr-W2I/READ-4-INFO-",
+        "/wakabayashiiz/wakabayashiiz",
+        "/Suleman-Tariq/Python-Web-Scraping-with-Tkinter-GUI",
+        "/ire-landd/old-layout",
+        "/SABER-EXE/SABER-EXE",
+        "/TheVainAvian/TheVainAvian",
+        "/kattiebattie/kattiebattie",
+        "/quincynyan/Merry-Sinsmas"
+      ]
+    },
+    {
+      "q": "\"Joel Haver\" in:readme",
+      "url": "https://github.com/search?q=%22Joel+Haver%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/SomeDebris/oscars-script_2023",
+        "/jamespacileo/rosso",
+        "/TonyNanWork/GroupD-Joel-Haver-Tool",
+        "/akinazuki/rosso",
+        "/Duckduckgot/rosso"
+      ]
+    },
+    {
+      "q": "\"adult swim\" in:readme",
+      "url": "https://github.com/search?q=%22adult+swim%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/AdamAtomic/flixel",
+        "/codrops/CubesAdventCalendar",
+        "/jdorfman/awesome-json-datasets",
+        "/bizarro/bookmarks",
+        "/lelouchB/final-space-api",
+        "/luruke/awesome-casestudy",
+        "/vaffeine/vulkano-raytracing",
+        "/STESRacing/Bulk-Video-Grabber-Engine",
+        "/lvarayut/javascript-style-guide",
+        "/armoucar/javascript-style-guide"
+      ]
+    },
+    {
+      "q": "\"SimonsCat\" in:readme",
+      "url": "https://github.com/search?q=%22SimonsCat%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/GreatScottPullBoy/cats_are_awesome",
+        "/msukhovarov/examples",
+        "/simoncatadmin/simonscat",
+        "/KubiszDeny/plugin.video.simonscat",
+        "/unkn-one/yt-playlist-titles-downloader",
+        "/kim-kamikawa/kim-kamikawa.github.io",
+        "/YudiA26/DataEngineers"
+      ]
+    },
+    {
+      "q": "\"Explosm\" \"subscribers\" in:readme",
+      "url": "https://github.com/search?q=%22Explosm%22+%22subscribers%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/MKolman/ComicMessenger"
+      ]
+    },
+    {
+      "q": "\"TomSka\" \"youtube.com\" in:readme",
+      "url": "https://github.com/search?q=%22TomSka%22+%22youtube.com%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/BladeOfEnat/wallman-mirror"
+      ]
+    },
+    {
+      "q": "\"MeatCanyon\" \"youtube.com\" in:readme",
+      "url": "https://github.com/search?q=%22MeatCanyon%22+%22youtube.com%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": []
+    },
+    {
+      "q": "\"Flashgitz\" \"youtube.com\" in:readme",
+      "url": "https://github.com/search?q=%22Flashgitz%22+%22youtube.com%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": []
+    },
+    {
+      "q": "\"adult animation\" \"million\" in:readme",
+      "url": "https://github.com/search?q=%22adult+animation%22+%22million%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/Flowergothic/HazbinHotel",
+        "/kunokari09/app-dev",
+        "/yagabagaba/boring"
+      ]
+    },
+    {
+      "q": "\"Happy Tree Friends\" in:readme",
+      "url": "https://github.com/search?q=%22Happy+Tree+Friends%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/C2D-Game-Development/Cuddle-Rebuttal",
+        "/AnimMouse/Happy-Tree-Friends-SWF",
+        "/mikelwave/atleastthereiscedacedovic",
+        "/AnimMouse/44444444.xyz",
+        "/sf-wdi-30/schedule",
+        "/brenolapreza/happy-tree-friends",
+        "/vincent09086/High-Effort-Ugh-Kade-Engine",
+        "/huijay12/college-JAVA-project_Happy-Tree-Friends",
+        "/Alena0490/Carousel",
+        "/GBellune/happy-tree-friends-education"
+      ]
+    },
+    {
+      "q": "\"Les Kassos\" in:readme",
+      "url": "https://github.com/search?q=%22Les+Kassos%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/RonanSalieri/Moniteur-Video-0.3"
+      ]
+    },
+    {
+      "q": "\"MondoMedia\" in:readme",
+      "url": "https://github.com/search?q=%22MondoMedia%22+in%3Areadme&type=repositories",
+      "status": 200,
+      "repos": [
+        "/mlconnor/phantalyzer",
+        "/vincent09086/High-Effort-Ugh-Kade-Engine",
+        "/T4K09/Run-and-Bun",
+        "/Happyfinishls/Happy-tree-friends-Fla-Assets-archive",
+        "/sunny8899g/loon88a2"
+      ]
+    }
+  ],
+  "readmes": [
+    {
+      "repo": "patmakesapps/Super-Intelligence",
+      "url": "https://raw.githubusercontent.com/patmakesapps/Super-Intelligence/HEAD/README.md",
+      "status": 200,
+      "sha256": "5edbf71d928894aba1a80b6c70d6b90be3339a3e1595a33b3193c84aef30a57b",
+      "hits": [
+        {
+          "line": 3,
+          "text": "A South Park / MeatCanyon-style parody cartoon, built entirely in HTML, CSS and SVG, replaying the week the White House renamed A.I. to \"Super Intelligence\" and posted an accord signed by the \"President of the Unites States.\""
+        }
+      ]
+    },
+    {
+      "repo": "bspeelm/bivy",
+      "url": "https://raw.githubusercontent.com/bspeelm/bivy/HEAD/README.md",
+      "status": 200,
+      "sha256": "c7289e993b6668b5a07b60ef622a475e9de80ad471de627e413cb277d7897746",
+      "hits": [
+        {
+          "line": 103,
+          "text": ">   Papa Meat                                       3.6M subscribers"
+        },
+        {
+          "line": 104,
+          "text": "  ✓ MeatCanyon                                      9.1M subscribers"
+        },
+        {
+          "line": 105,
+          "text": "    Meaty Magic                                     266K subscribers"
+        }
+      ]
+    },
+    {
+      "repo": "hundt12345/Gamestop",
+      "url": "https://raw.githubusercontent.com/hundt12345/Gamestop/HEAD/README.md",
+      "status": 200,
+      "sha256": "479a21e427645ee748cd25b5b520cb442ee6fe428481cc1f93698153ac6b63ac",
+      "hits": [
+        {
+          "line": 143,
+          "text": "The public interface, tooltips, accessibility labels and dynamic event details are in English. Meme shortcuts reveal a collapsed dock and update the selected card synchronously. Three additional January 2021 videos have publication-date anchors and original / archive-context links: placeboing’s *WE LIKE THE STOCK*, Chris Voiceman’s *DO YOU HEAR THE PEOPLE BUY*, and Flashgitz’s *300 GameStop GameStonks* (mature humor). Weekend publication dates map to the nearest available trading session; these editorial anchors do not imply a market impact."
+        }
+      ]
+    },
+    {
+      "repo": "linsa-io/youtube",
+      "url": "https://raw.githubusercontent.com/linsa-io/youtube/HEAD/README.md",
+      "status": 200,
+      "sha256": "ab03ec48a5818ff88b0a38b3d16e7df7a573d1a54e5df61eff9e4f8839cae00f",
+      "hits": [
+        {
+          "line": 52,
+          "text": "- [ExplosmEntertainment](https://www.youtube.com/channel/UCWXCrItCF6ZgXrdozUS-Idw) - 'Cyanide & Happiness' comics, shorts, and animations."
+        },
+        {
+          "line": 105,
+          "text": "- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw/videos) - Some combination of math explanations and entertainment driven by animations."
+        }
+      ]
+    },
+    {
+      "repo": "jonathanslima/track-to-learn-english",
+      "url": "https://raw.githubusercontent.com/jonathanslima/track-to-learn-english/HEAD/README.md",
+      "status": 200,
+      "sha256": "8f225cfaaeffd27cde31b1999e9bb2d2af26f9f0646d6cb9f06150ae20428001",
+      "hits": [
+        {
+          "line": 38,
+          "text": "  - [Cyanide & Happiness](http://explosm.net/comics/archive)"
+        }
+      ]
+    },
+    {
+      "repo": "SuperAB123/Free-Official-Youtube-Content",
+      "url": "https://raw.githubusercontent.com/SuperAB123/Free-Official-Youtube-Content/HEAD/README.md",
+      "status": 200,
+      "sha256": "3d250d78e6cbef8f5e89f817e9a87547198163b795ac11fdd3d6cb9a1a76147a",
+      "hits": [
+        {
+          "line": 103,
+          "text": "[**Pony Canyon Anime**](https://www.youtube.com/@ponycanyon_anime) (Official trailers and music clips)"
+        },
+        {
+          "line": 115,
+          "text": "[**Toei Animation**](https://www.youtube.com/@ToeiAnimationOfficial) (Clips and episodes from their classic and current catalog)"
+        },
+        {
+          "line": 117,
+          "text": "[**TOHO animation**](https://www.youtube.com/@TOHOanimation) (Trailers, music, and clips from major anime like Jujutsu Kaisen and My Hero Academia)"
+        },
+        {
+          "line": 125,
+          "text": "[**Adult Swim**](https://www.youtube.com/@adultswim) ( Adult Swim is famous for surreal, dark humor, shock comedy, and experimental animation.) "
+        },
+        {
+          "line": 139,
+          "text": "[**Cartoon Hangover**](https://www.youtube.com/@CartoonHangover) (Home of Bravest Warriors and other indie animations)"
+        },
+        {
+          "line": 151,
+          "text": "[**Cyanide & Happiness**](https://www.youtube.com/@ExplosmEntertainment) (Official shorts and compilations)"
+        },
+        {
+          "line": 155,
+          "text": "[**Disney Channel Animation**](https://www.youtube.com/@disneychannelanimation) (Mostly Clips, compilations and extras but some full seasons like [Tangled: The Series/Rapunzel's Tangled Adventure Season 1 (TTS/RTA)](https://www.youtube.com/playlist?list=PLiv1IUQDVSNIqxjX4rzvIMw7EjwGspqGt) (Underrated Animated Series with some great songs, basically it is Tangled 2, but beware its hour-long pilot episode is Tangled: Before Ever After (Tangled: Before Ever After is basically episode 0 and the foundation of the series' plot!) and not its episode 1 \"What the Hair?!\" | [TTS/RTA Episode Guide](https://www.reddit.com/r/Tangled/comments/ekn533/rapunzels_tangled_adventure_episode_guide/)) and [The Owl House Season 3](https://www.youtube.com/watch?v=Jg2i4vqSFxM) and some full episodes)"
+        },
+        {
+          "line": 175,
+          "text": "[**Green Gold TV**](https://www.youtube.com/@GreenGoldTV) (Official Green Gold Animation channel — creators of Chhota Bheem, Mighty Little Bheem & Super Bheem)"
+        },
+        {
+          "line": 225,
+          "text": "[**Simon's Cat**](https://www.youtube.com/@SimonsCat) (Full episodes of the popular animated web series)"
+        },
+        {
+          "line": 261,
+          "text": "[**Vivziepop/SpindleHorse**](https://www.youtube.com/@SpindleHorse) (Not suitable for kids, full episodes and related content)"
+        },
+        {
+          "line": 265,
+          "text": "[**WB Kids**](https://www.youtube.com/@WBKids) (A mix of clips and full episodes from the Warner Bros. animation library)"
+        },
+        {
+          "line": 307,
+          "text": "[**Hello Jadoo TV**](https://www.youtube.com/hellojadooya) (Full episodes and clips of the Korean kids animation)"
+        },
+        {
+          "line": 387,
+          "text": "[**WB Kids**](https://www.youtube.com/@WBKids) (A mix of clips and full episodes from the Warner Bros. animation library)"
+        },
+        {
+          "line": 593,
+          "text": "[**Animation World Network**](https://www.youtube.com/@AWN-AnimationWorldNetwork) (Trailers, clips and Featurettes from upcoming animated movies (including fully animated movies and CG animated movies/movies who use a lot of CGI constantly))"
+        },
+        {
+          "line": 645,
+          "text": "[**Disney Music**](https://www.youtube.com/@DisneyMusicVEVO) (Official musical clips annd scenes from Disney animations and movies)"
+        },
+        {
+          "line": 757,
+          "text": "[**Sony Pictures Animation**](https://www.youtube.com/@SonyAnimation) (Clips, songs, Behind The Scenes and extra content)"
+        },
+        {
+          "line": 809,
+          "text": "[**Walt Disney Animation Studios**](https://www.youtube.com/@disneyanimation/) (Trailers, Featurettes, Clips, Songs and shorts like [\"Once Upon a Studio\"](https://www.youtube.com/watch?v=gB90me0aqSY) )"
+        },
+        {
+          "line": 1139,
+          "text": "[**Cinesite**](https://www.youtube.com/@Cinesite.) (VFX and animation breakdowns)"
+        },
+        {
+          "line": 1169,
+          "text": "[**Mikros Animation**](https://www.youtube.com/@mikrosanimation) (Breakdowns for animated films)"
+        },
+        {
+          "line": 1193,
+          "text": "[**Storm Studios**](https://www.youtube.com/@stormstudios357) (VFX breakdowns and animation work)"
+        }
+      ]
+    },
+    {
+      "repo": "sherldawn/animation-script-engine",
+      "url": "https://raw.githubusercontent.com/sherldawn/animation-script-engine/HEAD/README.md",
+      "status": 200,
+      "sha256": "636f572830d4f1d07ec246930bca63a0f797e3ed61852ca125ffec40036b9ed6",
+      "hits": [
+        {
+          "line": 5,
+          "text": "**[👉 在线体验（GitHub Pages）](https://sherldawn.github.io/animation-script-engine/)** · **[项目介绍](docs/项目介绍.md)**"
+        },
+        {
+          "line": 42,
+          "text": "直接打开 **[GitHub Pages](https://sherldawn.github.io/animation-script-engine/)**，无需安装。"
+        },
+        {
+          "line": 53,
+          "text": "git clone https://github.com/sherldawn/animation-script-engine.git"
+        },
+        {
+          "line": 54,
+          "text": "cd animation-script-engine"
+        },
+        {
+          "line": 75,
+          "text": "| 📺 **头部账号** | 6个标杆频道（Alan Becker / Cas van de Pol / worthikids等）× 3部代表作 |"
+        }
+      ]
+    },
+    {
+      "repo": "DanOvad/youtube-channel-analysis",
+      "error": "README.md unavailable"
+    },
+    {
+      "repo": "jamespacileo/rosso",
+      "error": "README.md unavailable"
+    },
+    {
+      "repo": "TonyNanWork/GroupD-Joel-Haver-Tool",
+      "url": "https://raw.githubusercontent.com/TonyNanWork/GroupD-Joel-Haver-Tool/HEAD/README.md",
+      "status": 200,
+      "sha256": "f2d759845e156b69b7cabdcefb7d42f8df8dac656bc00c7fb7da82b26525fd20",
+      "hits": [
+        {
+          "line": 1,
+          "text": "# GroupD-Joel-Haver-Tool"
+        }
+      ]
+    },
+    {
+      "repo": "11BelowStudio/Muffin-Mania",
+      "url": "https://raw.githubusercontent.com/11BelowStudio/Muffin-Mania/HEAD/README.md",
+      "observed_utc": "2026-10-29T22:57:28.768977+00:00",
+      "status": 200,
+      "sha256": "73f6bdd859710e14e1df260c0f64376ae5e667463bcbd46f03f5c3d950e56820",
+      "hits": [
+        {
+          "line": 61,
+          "text": "    * Partially inspired by asdfmovie5 (TomSka, 2012)"
+        }
+      ]
+    },
+    {
+      "repo": "MKolman/ComicMessenger",
+      "url": "https://raw.githubusercontent.com/MKolman/ComicMessenger/HEAD/README.md",
+      "observed_utc": "2026-10-29T22:57:28.828395+00:00",
+      "status": 200,
+      "sha256": "45671fe3b71e9a8822044bf95d7e91a32e3f22952cdb9ff2631ac21b1a9ccbd7",
+      "hits": [
+        {
+          "line": 42,
+          "text": "You can change the list of subscribers in the list at the bottom of `main.py`."
+        },
+        {
+          "line": 57,
+          "text": " - Cyanide & Happiness (http://explosm.net/comics/latest/)"
+        }
+      ]
+    },
+    {
+      "repo": "GreatScottPullBoy/cats_are_awesome",
+      "url": "https://raw.githubusercontent.com/GreatScottPullBoy/cats_are_awesome/HEAD/README.md",
+      "observed_utc": "2026-10-29T22:57:28.920905+00:00",
+      "status": 200,
+      "sha256": "0bcbe2f7d2a8403ce4e4ea330a726d57f0222d352e5cb136fba8a49891af7beb",
+      "hits": [
+        {
+          "line": 3,
+          "text": "* @simonscat"
+        }
+      ]
+    },
+    {
+      "repo": "simoncatadmin/simonscat",
+      "url": "https://raw.githubusercontent.com/simoncatadmin/simonscat/HEAD/README.md",
+      "observed_utc": "2026-10-29T22:57:28.826135+00:00",
+      "status": 200,
+      "sha256": "60bed71aa43afb52f335dc1a14fbab876b29eeffa94108549043d5a3f1999292",
+      "hits": [
+        {
+          "line": 1,
+          "text": "# simonscat"
+        }
+      ]
+    },
+    {
+      "repo": "Flowergothic/HazbinHotel",
+      "url": "https://raw.githubusercontent.com/Flowergothic/HazbinHotel/HEAD/README.md",
+      "observed_utc": "2026-10-29T22:57:28.839189+00:00",
+      "status": 200,
+      "sha256": "1cea440b47492fbffb5eb3b11048671bcbaf899118876ffd0e8e0ad1c12b67eb",
+      "hits": [
+        {
+          "line": 6,
+          "text": "Asarch, S. (2021, February 13). _A cartoon demon musical drew in 53 million YouTube viewers. The creator of “Hazbin Hotel” says she couldn’t have predicted its success._ Business Insider. https://www.businessinsider.com/hazbin-hotel-creator-on-shows-creation-and-future-2021-2"
+        }
+      ]
+    },
+    {
+      "repo": "C2D-Game-Development/Cuddle-Rebuttal",
+      "url": "https://raw.githubusercontent.com/C2D-Game-Development/Cuddle-Rebuttal/HEAD/README.md",
+      "observed_utc": "2026-10-29T22:59:06.646968+00:00",
+      "status": 200,
+      "sha256": "2eb7393bfd5fe1c1356dac3ce590791ade46cb72c33c87b6c07fce944ed568ba",
+      "hits": [
+        {
+          "line": 44,
+          "text": "Stephanie Mitchell - Github: https://github.com/stephsorandom </br>"
+        },
+        {
+          "line": 45,
+          "text": "Heather Michaels - Github: https://github.com/hkmichae </br>"
+        },
+        {
+          "line": 46,
+          "text": "Roberto Lopez-Trigo - Github: https://github.com/BobbyBaritone94 </br>"
+        },
+        {
+          "line": 47,
+          "text": "Michael Power - Github: https://github.com/empower87 </br>"
+        },
+        {
+          "line": 51,
+          "text": "* [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial) - Canvas js/html tutorial"
+        },
+        {
+          "line": 52,
+          "text": "* [JavaScript](https://www.javascript.com/) - JavaScript language used w/ canvas to create logic"
+        },
+        {
+          "line": 53,
+          "text": "* [CSS](https://www.w3schools.com/css/) - Css language used to style and animate the HUD"
+        },
+        {
+          "line": 58,
+          "text": "* Thanks to the awesome instructors at [Ironhack](https://www.ironhack.com/en): </br>"
+        },
+        {
+          "line": 62,
+          "text": "* [Super Smash Bros.](https://www.smashbros.com/en_US/) and [Happy Tree Friends](https://www.imdb.com/title/tt0770762/) for the fun inspiration!"
+        }
+      ]
+    },
+    {
+      "repo": "AnimMouse/Happy-Tree-Friends-SWF",
+      "url": "https://raw.githubusercontent.com/AnimMouse/Happy-Tree-Friends-SWF/HEAD/README.md",
+      "observed_utc": "2026-10-29T22:59:06.669874+00:00",
+      "status": 200,
+      "sha256": "564c9a10ae49a3d30721649abf67796a4c2f1d1f67aea4a9d8abf4231fc70784",
+      "hits": [
+        {
+          "line": 1,
+          "text": "# Happy Tree Friends SWF"
+        },
+        {
+          "line": 2,
+          "text": "A collection of [Happy Tree Friends](https://www.happytreefriends.com) SWF Flash Animations."
+        }
+      ]
+    },
+    {
+      "repo": "RonanSalieri/Moniteur-Video-0.3",
+      "url": "https://raw.githubusercontent.com/RonanSalieri/Moniteur-Video-0.3/HEAD/README.md",
+      "observed_utc": "2026-10-29T22:59:06.655480+00:00",
+      "status": 200,
+      "sha256": "f4fbb0a355273378d574792237b649dfe824866874d25ffc315e23efd5f67d24",
+      "hits": [
+        {
+          "line": 20,
+          "text": "Exemple sur un lien d'intégration \"Youtube\" :"
+        },
+        {
+          "line": 22,
+          "text": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/MsN0_WNXvh8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        },
+        {
+          "line": 24,
+          "text": "https://www.youtube.com/embed/MsN0_WNXvh8"
+        },
+        {
+          "line": 30,
+          "text": "YOUTUBE"
+        },
+        {
+          "line": 32,
+          "text": "[iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qLINONEDT6U\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen> [/iframe]"
+        },
+        {
+          "line": 36,
+          "text": "[iframe src=\"https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FBENBOY26%2Fvideos%2F677457100062212%2F&show_text=false&width=560&t=0\" width=\"560\" height=\"314\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowfullscreen=\"true\" allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowFullScreen=\"true\"> [/iframe]"
+        },
+        {
+          "line": 40,
+          "text": "[iframe src=\"https://player.vimeo.com/video/684542460?h=782c09adc7&title=0&byline=0&portrait=0\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen>[/iframe]"
+        },
+        {
+          "line": 63,
+          "text": "(1, 'Youtube'),"
+        },
+        {
+          "line": 94,
+          "text": "(1, 'Wow Unreal 5', 'https://www.youtube.com/embed/_r862KvbVn4', 'Youtube'),"
+        },
+        {
+          "line": 95,
+          "text": "(2, 'France Info', 'https://www.youtube.com/embed/Z-Nwo-ypKtM', 'Youtube'),"
+        },
+        {
+          "line": 96,
+          "text": "(3, 'Unreal Engine', 'https://www.youtube.com/embed/Vd6hAK3HlCM', 'Youtube'),"
+        },
+        {
+          "line": 97,
+          "text": "(4, 'Sport', 'https://player.vimeo.com/video/290120770?h=d6a8a5d5b8&color=ffffff&title=0&byline=0&portrait=0&badge=0', 'Vimeo'),"
+        },
+        {
+          "line": 98,
+          "text": "(5, 'BFMTV', 'https://www.dailymotion.com/embed/video/x89via0?autoplay=1', 'Daylimotion'),"
+        },
+        {
+          "line": 99,
+          "text": "(6, 'Skynews', 'https://www.youtube.com/embed/9Auq9mYxFEE', 'Youtube'),"
+        },
+        {
+          "line": 100,
+          "text": "(7, 'Euronews', 'https://www.youtube.com/embed/sPgqEHsONK8', 'Youtube'),"
+        },
+        {
+          "line": 101,
+          "text": "(8, 'Wow Dragon Flight', 'https://www.youtube.com/embed/-nZ_e9wAWxw', 'Youtube'),"
+        },
+        {
+          "line": 102,
+          "text": "(9, 'Diablo', 'https://www.youtube.com/embed/-WWDCa9Yz1A', 'Youtube'),"
+        },
+        {
+          "line": 103,
+          "text": "(10, 'Cnews Live', 'https://www.dailymotion.com/embed/video/x3b68jn?autoplay=1', 'Daylimotion'),"
+        },
+        {
+          "line": 104,
+          "text": "(11, 'GrandMa Tips', 'https://www.youtube.com/embed/EuIxM58dsbM', 'Youtube'),"
+        },
+        {
+          "line": 105,
+          "text": "(12, 'Les Kassos', 'https://www.youtube.com/embed/o7SuM1vAAGI', 'Youtube');"
+        },
+        {
+          "line": 135,
+          "text": "Dans un navigateur, écrire l'adresse correspondante à votre serveur et le dossier contenant le script. Par exemple, https://monsite.com/moniteur/\"."
+        }
+      ]
+    },
+    {
+      "repo": "mlconnor/phantalyzer",
+      "url": "https://raw.githubusercontent.com/mlconnor/phantalyzer/HEAD/readme.md",
+      "observed_utc": "2026-10-29T22:59:06.921915+00:00",
+      "status": 200,
+      "sha256": "5b8fa67b6340e7a9f9c571ac29712146e55462918ff4e8e094c5336636f6aa65",
+      "hits": [
+        {
+          "line": 2,
+          "text": "Phantalyzer is a [PhantomJS](http://phantomjs.org/) (headless Webkit browser bot) based tool that leverages [Wappalyzer](http://wappalyzer.com/) (browser plugin) to detect software in use across a large number of sites.  Wappalyzer is a browser plug-in so it's original design is to provide feedback from within the browser.  My intent here is to enable analysis and reporting for a large numbers of sites.  An example of this would be a report that indicates which sites are using Flash (and may need to be converted), which are not using proper analytics tags, etc."
+        },
+        {
+          "line": 12,
+          "text": "phantomjs phantalyzer.js http://www.cnn.com"
+        },
+        {
+          "line": 60,
+          "text": "    phantalyzer.js --imageFile ~/tmp/cnn.png --webSecurityEnabled false http://cnn.com"
+        },
+        {
+          "line": 64,
+          "text": "    phantalyzer.js --loadImages false http://cnn.com"
+        },
+        {
+          "line": 89,
+          "text": "curl http://localhost:3000/?url=http://cnn.com"
+        },
+        {
+          "line": 95,
+          "text": "{ 'Requested URL': 'http://www.cnn.com',"
+        },
+        {
+          "line": 96,
+          "text": "  'Page URL': 'http://www.cnn.com/',"
+        },
+        {
+          "line": 126,
+          "text": "  Youtube: '',"
+        },
+        {
+          "line": 315,
+          "text": "MondoMedia"
+        },
+        {
+          "line": 469,
+          "text": "YouTube"
+        }
+      ]
+    }
+  ],
+  "discarded_evidence": [
+    {
+      "source": "https://github.com/bspeelm/bivy",
+      "reason": "README terminal screenshot example lists subscriber counts without an observation date. It is not a checked YouTube counter."
+    },
+    {
+      "source": "https://github.com/Flowergothic/HazbinHotel",
+      "reason": "Fan README cites an article title reporting a historical audience number. The publisher article has not been consulted; not a verified current audience measurement."
+    }
+  ]
+}

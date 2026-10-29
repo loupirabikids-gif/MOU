@@ -1,0 +1,391 @@
+[
+  {
+    "repository": "blender/blender",
+    "kind": "readme",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/README.md",
+    "observed_utc": "2026-10-29T22:54:56.731089+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/blender/blender/main/README.md",
+    "bytes_read": 1234,
+    "sha256": "1bbb333e5196ba3d5cdc42830e5f1db6b77c311da96d4ff4d9a6f8143d9821e1",
+    "excerpt": "<!--\nKeep this document short & concise,\nlinking to external resources instead of including content in-line.\nSee 'release/text/readme.html' for the end user read-me.\n-->\n\nBlender\n=======\n\nBlender is the free and open source 3D creation suite.\nIt supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing,\nmotion tracking and video editing.\n\n![Blender screenshot](https://code.blender.org/wp-content/uploads/2018/12/springrg.jpg \"Blender screenshot\")\n\nProject Pages\n-------------\n\n- [Main Website](https://www.blender.org)\n- [Reference Manual](https://docs.blender.org/manual/en/latest/index.html)\n- [User Community](https://www.blender.org/community/)\n\nDevelopment\n-----------\n\n- [Build Instructions](https://developer.blender.org/docs/handbook/building_blender/)\n- [Code Review & Bug Tracker](https://projects.blender.org)\n- [Developer Forum](https://devtalk.blender.org)\n- [Developer Documentation](https://developer.blender.org/docs/)\n\n\nLicense\n-------\n\nBlender as a whole is licensed under the GNU General Public License, Version 3.\nIndividual files may have a different but compatible license.\n\nSee [blender.org/about/license](https://www.blender.org/about/license) for details.\n"
+  },
+  {
+    "repository": "blender/blender",
+    "kind": "license",
+    "url": "https://raw.githubusercontent.com/blender/blender/main/COPYING",
+    "observed_utc": "2026-10-29T22:54:56.731977+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/blender/blender/main/COPYING",
+    "bytes_read": 302,
+    "sha256": "19e6f4b541772f9d7b98a52bdbca3ebd5ef9e404956a9a6de68bfc3c1a178387",
+    "excerpt": "Blender uses the GNU General Public License, which describes the rights\nto distribute or change the code. \n\nPlease read this file for the full license.\ndoc/license/GPL-license.txt\n\nApart from the GNU GPL, Blender is not available under other licenses.\n\n2010, Blender Foundation\nfoundation@blender.org\n\n"
+  },
+  {
+    "repository": "blender/blender",
+    "kind": "latest_release",
+    "url": "https://github.com/blender/blender/releases/latest",
+    "observed_utc": "2026-10-29T22:54:56.732518+00:00",
+    "status": 200,
+    "final_url": "https://github.com/blender/blender/releases",
+    "bytes_read": 131835,
+    "sha256": "364b9aeabfb23ec3f92350d87cae9017072badefc58283e43419adc52ebd0515",
+    "release_datetimes": []
+  },
+  {
+    "repository": "blender/blender",
+    "kind": "commits_atom",
+    "url": "https://github.com/blender/blender/commits/main.atom",
+    "observed_utc": "2026-10-29T22:54:56.733107+00:00",
+    "status": 200,
+    "final_url": "https://github.com/blender/blender/commits/main.atom",
+    "bytes_read": 24166,
+    "sha256": "20a14a9037b606efe7c037af753d1a3b32bafd545d710a5baffa379757377b3f",
+    "updated_dates": [
+      "2026-10-29T22:19:16Z",
+      "2026-10-29T22:19:16Z",
+      "2026-10-29T22:00:02Z",
+      "2026-10-29T20:15:57Z"
+    ],
+    "commit_ids": [
+      "40af1cf14c5ed6da4b0e76e45973a7fa3517a01e",
+      "50a34ead5e7f84354452ad8df9507a3eabaa07f2",
+      "fbcde3397ba24b61834d0d407aaaae98757337f1"
+    ]
+  },
+  {
+    "repository": "friction2d/friction",
+    "kind": "readme",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/README.md",
+    "observed_utc": "2026-10-29T22:54:56.733711+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/friction2d/friction/main/README.md",
+    "bytes_read": 3183,
+    "sha256": "725721b31c7b7bf9317800a0af8b38f93ec50edb6d2b02969aeb1c9a53775053",
+    "excerpt": "# Friction\n\n[![Windows](https://github.com/friction2d/friction/actions/workflows/windows.yml/badge.svg)](https://github.com/friction2d/friction/actions/workflows/windows.yml?query=branch%3Amain) [![Linux](https://github.com/friction2d/friction/actions/workflows/linux.yml/badge.svg)](https://github.com/friction2d/friction/actions/workflows/linux.yml?query=branch%3Amain) [![macOS](https://github.com/friction2d/friction/actions/workflows/macos.yml/badge.svg)](https://github.com/friction2d/friction/actions/workflows/macos.yml?query=branch%3Amain)\n\n[Friction](https://friction.graphics) is a powerful and versatile motion graphics application that allows you to create vector and raster animations for web and video.\n\n![Screenshot of Friction 1.0.0](https://friction.graphics/assets/screenshots/100/friction-100-linux-screenshot.png?v=1)\n\n## Contribute\n\nWe accept any contributions, big or small. Before submitting a pull request it's recommended that you communicate with the developers first (on [GitHub](https://github.com/friction2d/friction/issues) or [Codeberg](https://codeberg.org/friction/friction/issues)).\n\nIt's always preferred to submit pull requests against the `main` branch.\n\n**Note:** All contributions must be original work. Generated code is considered tainted and will not be accepted directly. Non-developers may submit generated code drafts strictly to illustrate features or concepts, but a maintainer or contributor must rewrite the code before it can be merged.\n\n## Branches and versions\n\nFriction uses `X.Y.Z` version numbers and `vX.Y` branches.\n\n* `X` = Major\n* `Y` = Minor\n* `Z` = Patch\n\nBranch `main` is always the current branch for the next `X` or `Y` release.\n\nA new stable branch is cut from `main` on each `X` or `Y` release and is maintained until a new stable branch is created. Patch (`Z`) releases comes from the parent stable branch (`vX.Y`).\n\nImportant fixes added to `main` will be backported to active stable branches when possible (and within reason).\n\n## Documentation\n\nSee https://friction.graphics/documentation for generic documentation.\n\n### Build instructions\n\n* [Linux](https://friction.graphics/documentation/source-linux.html)\n* [Windows](https://friction.graphics/documentation/source-windows.html)\n* [macOS](https://friction.graphics/documentation/source-macos.html)\n\n## License (GPL-3.0-only)\n\nFriction is copyright &copy; Ole-André Rodlie and contributors.\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version 3.\n\n**This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the [GNU General Public License](LICENSE.md) for more details.**\n\nFriction is based on [enve](https://github.com/MaurycyLiebner/enve) - Copyright &copy; Maurycy Liebner and contributors.\n\nThird-party software may contain other OSS licenses, see 'Help' > 'About' > 'Licenses' in Friction.\n\nSource code for third-party software can be downloaded [here](https://download.friction.graphics/distfiles/).\n"
+  },
+  {
+    "repository": "friction2d/friction",
+    "kind": "license",
+    "url": "https://raw.githubusercontent.com/friction2d/friction/main/LICENSE.md",
+    "observed_utc": "2026-10-29T22:54:56.734427+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/friction2d/friction/main/LICENSE.md",
+    "bytes_read": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nthe GNU General Public License is intended to guarantee your freedom to\nshare and change all versions of a program--to make sure it remains free\nsoftware for all its users.  We, the Free Software Foundation, use the\nGNU General Public License for most of our software; it applies also to\nany other work released this way by its authors.  You can apply it to\nyour programs, too.\n\n  When we speak of free software, we are referring to freedom, not\nprice.  Our General Public Licenses are designed to make sure that you\nhave the freedom to distribute copies of free software (and charge for\nthem if you wish), that you receive source code or can get it if you\nwant it, that you can change the software or use pieces of it in new\nfree programs, and that you know you can do these things.\n\n  To protect your rights, we need to prevent others from denying you\nthese rights or asking you to surrender the rights.  Therefore, you have\ncertain responsibilities if you distribute copies of the software, or if\nyou modify it: responsibilities to respect the freedom of others.\n\n  For example, if you distribute copies of such a program, whether\ngratis or for a fee, you must pass on to the recipients the same\nfreedoms that you received.  You must make sure that they, too, receive\nor can get the source code.  And you must show them these terms so they\nknow their rights.\n\n  Developers that use the GNU GPL protect your rights with two steps:\n(1) assert copyright on the software, and (2) offer you this License\ngiving you legal permission to copy, distribute and/or modify it.\n\n  For the developers' and authors' protection, the GPL clearly explains\nthat there is no warranty for this free software.  For both users' and\nauthors' sake, the GPL requires that modified versions be marked as\nchanged, so that their problems will not be attributed erroneously to\nauthors of previous versions.\n\n  Some devices are designed to deny users access to install or run\nmodified versions of the software inside them, although the manufacturer\ncan do so.  This is fundamentally incompatible with the aim of\nprotecting users' freedom to change the software.  The systematic\npattern of such abuse occurs in the area of products for individuals to\nuse, which is precisely where it is most unacceptable.  Therefore, we\nhave designed this version of the GPL to prohibit the practice for those\nproducts.  If such problems arise substantially in other domains, we\nstand ready to extend this provision to those domains in future versions\nof the GPL, as needed to protect the freedom of users.\n\n  Finally, every program is threatened constantly by software patents.\nStates should not allow patents to restrict development and use of\nsoftware on general-purpose computers, but in those that do, we wish to\navoid the special danger that patents applied to a free program could\nmake it effectively proprietary.  To prevent this, the GPL assures that\npatents cannot be"
+  },
+  {
+    "repository": "friction2d/friction",
+    "kind": "latest_release",
+    "url": "https://github.com/friction2d/friction/releases/latest",
+    "observed_utc": "2026-10-29T22:54:57.114974+00:00",
+    "status": 200,
+    "final_url": "https://github.com/friction2d/friction/releases/tag/v1.0.0-rc.3",
+    "bytes_read": 167756,
+    "sha256": "8c4bf849032b92e507648a820eb102ca24bde9509e69d5d4294dda358a5bdb12",
+    "release_datetimes": [
+      "2025-12-31T21:53:48Z",
+      "2025-12-31 05:40:44 UTC"
+    ]
+  },
+  {
+    "repository": "friction2d/friction",
+    "kind": "commits_atom",
+    "url": "https://github.com/friction2d/friction/commits/main.atom",
+    "observed_utc": "2026-10-29T22:54:57.147651+00:00",
+    "status": 200,
+    "final_url": "https://github.com/friction2d/friction/commits/main.atom",
+    "bytes_read": 15186,
+    "sha256": "81afb2065b74f31c0b99004e338daee4f7b8bc47561517ef57d4bb8c00d2cf12",
+    "updated_dates": [
+      "2026-10-28T13:08:59Z",
+      "2026-10-28T13:08:59Z",
+      "2026-10-15T20:58:36Z",
+      "2026-10-15T20:50:50Z"
+    ],
+    "commit_ids": [
+      "be9471cae9558f95ba65e7763d96136de9221dc9",
+      "cfc7481d09f3791457747752c268a779ac55258f",
+      "2155c04ae4c6e763900c0ec01f57bd5a2ec5773f"
+    ]
+  },
+  {
+    "repository": "opentoonz/opentoonz",
+    "kind": "readme",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/README.md",
+    "observed_utc": "2026-10-29T22:54:57.155374+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/README.md",
+    "bytes_read": 3971,
+    "sha256": "c6b2bffbb2af9497ff127db2031438e306cf50e3ee13442459e4e3a32fe7d0e9",
+    "excerpt": "# OpenToonz\n\n## ⚠️ **Important**\n\n**OFFICIAL SOURCE ONLY:** The only official websites for OpenToonz are [**opentoonz.github.io**](https://opentoonz.github.io/) and this [GitHub repository](https://github.com/opentoonz/opentoonz). To ensure your security, please avoid downloading OpenToonz from any other domain, as there are no other official mirrors or partner sites.\n\n[日本語](./doc/README_ja.md) [简体中文](./doc/README_chs.md)\n\n[![](https://ci.appveyor.com/api/projects/status/oa5l5pc964h8fv49/branch/master?svg=true)](https://ci.appveyor.com/project/opentoonz/opentoonz)\n[![Build Windows](https://github.com/opentoonz/opentoonz/actions/workflows/workflow_windows.yml/badge.svg?branch=master)](https://github.com/opentoonz/opentoonz/actions/workflows/workflow_windows.yml)\n[![Build macOS](https://github.com/opentoonz/opentoonz/actions/workflows/workflow_macos.yml/badge.svg?branch=master)](https://github.com/opentoonz/opentoonz/actions/workflows/workflow_macos.yml)\n[![Build Linux](https://github.com/opentoonz/opentoonz/actions/workflows/workflow_linux.yml/badge.svg?branch=master)](https://github.com/opentoonz/opentoonz/actions/workflows/workflow_linux.yml)\n[![Translation status](https://hosted.weblate.org/widgets/opentoonz/-/svg-badge.svg)](https://hosted.weblate.org/engage/opentoonz/)\n\n## What is OpenToonz?\n\nOpenToonz is a 2D animation software published by \n[DWANGO](http://dwango.co.jp/english/). It is based on **Toonz Studio\nGhibli Version**, originally developed in Italy by\n[Digital Video, Inc.](http://www.toonz.com/), and customized by\n[Studio Ghibli](http://www.ghibli.jp/) over many years of production.\n\n## Program Requirements\n\nPlease refer to the OpenToonz site at <https://opentoonz.github.io/e/index.html>.\n\n## Installation\n\nPlease download and install OpenToonz from the latest installer at <https://opentoonz.github.io/e/index.html>.\n\nOlder versions and unstable nightly builds are also available at <https://github.com/opentoonz/opentoonz/releases>.\n\n## Development\n\n- [Development checklist (draft)](./doc/development_checklist.md)\n- [AI-assisted development checklist (draft)](./doc/ai_assisted_development_checklist.md)\n\n## How to Build Locally\n\n- [Windows](./doc/how_to_build_win.md)\n- [macOS](./doc/how_to_build_macosx.md)\n- [Linux](./doc/how_to_build_linux.md)\n- [BSD](./doc/how_to_build_bsd.md)\n\nFor instructions on how to build stylesheets, please [see here](./doc/how_to_stylesheet.md).\n\nCan't develop but still want to help? Help us test individual Pull Requests before they are merged with [these steps](./doc/how_to_test_prs.md).\n\n## Community\n\n- To share tips or to troubleshoot, join the [Google OpenToonz Users forum](https://groups.google.com/forum/#!forum/opentoonz_en)\n- If you found a bug with the software after troubleshooting, or are a developer, search the [Github issues](https://github.com/opentoonz/opentoonz/issues) and post there.\n\n## Documentation\n\n- For general documentation, please [look here](https://github.com/opentoonz/opentoonz_docs).\n\n## Licensing\n\n- Files outside of the `thirdparty` and `stuff/library/mypaint brushes` directories are based on the Modified BSD License.\n  - [modified BSD license](./LICENSE.txt).\n  - Based on this license, this software may be used or changed freely for business or personal use.\n- For files in the `thirdparty` directory:\n  - Please consult with the licenses in the appropriate READMEs or source codes.\n- For files in the `stuff/library/mypaint brushes` directory:\n  - Please see the licenses in `stuff/library/mypaint brushes/Licenses.txt`.\n\n### Special Thanks\n\nThis open-source program is developed from Toonz, a software originally created by Digital Video, S.p.A., Rome, Italy\n\n## Contributing translations\n\nTo share updated translation files or review, merge, and refresh catalogs, see\n[Contributing and maintaining translations](toonz/sources/translations/README.md).\nQt Linguist editing and existing manual translation tools remain supported.\n"
+  },
+  {
+    "repository": "opentoonz/opentoonz",
+    "kind": "license",
+    "url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/LICENSE.txt",
+    "observed_utc": "2026-10-29T22:54:57.164995+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/opentoonz/opentoonz/master/LICENSE.txt",
+    "bytes_read": 2285,
+    "sha256": "0d25442ea242187a08fea3ef810fe702031d55f15bb81a4f4f97b148df988f59",
+    "excerpt": "Some of code in this repository is derived from thirdparty libraries.\nFor files in the \"thirdparty\" directory: Please consult with the licenses in the appropriate READMEs or source codes.\nFor files in the \"stuff/library/mypaint brushes\" directory: Please see the licenses in stuff/library/mypaint brushes/Licenses.txt.\nFor portions adapted from Tahoma2D: Please see the notices in stuff/doc/Tahoma2D-LICENSE.txt.\n\n- - - - - - - - - - - - - - - -\n\nOpenToonz\n\nAll contributions by DWANGO:\nCopyright (c) 2016 - 2026, DWANGO Co., Ltd.\nAll rights reserved.\n\nAll other contributions:\nCopyright (c) 2016 - 2026, the respective contributors.\nAll rights reserved.\n\nEach contributor holds copyright over their respective contributions.\nThe project versioning (Git) records all such contribution source information.\n\n\nLICENSE\n\nBSD 3-Clause \"New\" or \"Revised\" License\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"
+  },
+  {
+    "repository": "opentoonz/opentoonz",
+    "kind": "latest_release",
+    "url": "https://github.com/opentoonz/opentoonz/releases/latest",
+    "observed_utc": "2026-10-29T22:54:57.229139+00:00",
+    "status": 200,
+    "final_url": "https://github.com/opentoonz/opentoonz/releases/tag/v1.8.0",
+    "bytes_read": 283691,
+    "sha256": "22db948f62dc9a9b0432c52eaeb2b9488e056350e2343c7540f4824162441ffa",
+    "release_datetimes": [
+      "2026-06-19T06:16:15Z",
+      "2026-06-19 00:39:06 UTC"
+    ]
+  },
+  {
+    "repository": "opentoonz/opentoonz",
+    "kind": "commits_atom",
+    "url": "https://github.com/opentoonz/opentoonz/commits/master.atom",
+    "observed_utc": "2026-10-29T22:54:57.413077+00:00",
+    "status": 200,
+    "final_url": "https://github.com/opentoonz/opentoonz/commits/master.atom",
+    "bytes_read": 19182,
+    "sha256": "f32fba79297e8e650231af56d4d6757dbe074180040f3bba3707baba67368d5a",
+    "updated_dates": [
+      "2026-10-28T11:40:20Z",
+      "2026-10-28T11:40:20Z",
+      "2026-10-28T11:29:40Z",
+      "2026-10-27T13:51:17Z"
+    ],
+    "commit_ids": [
+      "572d59ac5fedfeaf7910967b439c6b8d73c9c3e1",
+      "8d8484ba9fc2d93480af5b4b738b42bb94eb77d9",
+      "8e0c19ba47c80acd3d8f611337c59e3f5d1837b1"
+    ]
+  },
+  {
+    "repository": "synfig/synfig",
+    "kind": "readme",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/README.md",
+    "observed_utc": "2026-10-29T22:54:57.498099+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/synfig/synfig/master/README.md",
+    "bytes_read": 3496,
+    "sha256": "24dc787354bedb456f978c5dd5cd11f18b84a373adc00c8390610acb4b128066",
+    "excerpt": "Synfig Studio\n=============\n\nAbout\n-----\n\nSynfig Studio is a free and open-source 2D animation software, designed as\npowerful industrial-strength solution for creating film-quality animation using\na vector and bitmap artwork. It eliminates the need to create animation\nframe-by frame, allowing you to produce 2D animation of a higher quality with\nfewer people and resources. Synfig Studio is available for Windows, Linux and\nMacOS.\n\nhttps://synfig.org/\n\n[![GitHub Actions](https://github.com/synfig/synfig/workflows/Synfig%20CI/badge.svg?branch=master)](https://github.com/synfig/synfig/actions)\n[![Windows Build status](https://img.shields.io/appveyor/ci/synfig/synfig/master.svg?label=Windows%20build)](https://ci.appveyor.com/project/Synfig/synfig/branch/master)\n\nInstalling\n----------\n\n* [Installation instructions for Windows, Linux, MacOS packages](https://synfig.readthedocs.io/en/latest/installation.html)\n* [Building and installing from source](https://synfig-docs-dev.readthedocs.io/en/latest/building/Building%20Synfig.html)\n\n## Credits\n\n### Code Contributors\n\nThis project exists thanks to all the people who contribute. [[Contribute](https://synfig-docs-dev.readthedocs.io/en/latest/community/contribution%20guidelines.html)].\n<a href=\"https://github.com/synfig/synfig/graphs/contributors\"><img src=\"https://opencollective.com/synfig/contributors.svg?width=890&button=false\" /></a>\n\n### Financial Contributors\n\nBecome a financial contributor and help us sustain our community.\n\n#### Individuals\n\n<a href=\"https://opencollective.com/synfig\"><img src=\"https://opencollective.com/synfig/individuals.svg?width=890\"></a>\n\n#### Organizations\n\nSupport this project with your organization. Your logo will show up here with a link to your website.\n\n<a href=\"https://opencollective.com/synfig/organization/0/website\"><img src=\"https://opencollective.com/synfig/organization/0/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/1/website\"><img src=\"https://opencollective.com/synfig/organization/1/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/2/website\"><img src=\"https://opencollective.com/synfig/organization/2/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/3/website\"><img src=\"https://opencollective.com/synfig/organization/3/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/4/website\"><img src=\"https://opencollective.com/synfig/organization/4/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/5/website\"><img src=\"https://opencollective.com/synfig/organization/5/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/6/website\"><img src=\"https://opencollective.com/synfig/organization/6/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/7/website\"><img src=\"https://opencollective.com/synfig/organization/7/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/8/website\"><img src=\"https://opencollective.com/synfig/organization/8/avatar.svg\"></a>\n<a href=\"https://opencollective.com/synfig/organization/9/website\"><img src=\"https://opencollective.com/synfig/organization/9/avatar.svg\"></a>\n\n## SAST Tools\n\n[PVS-Studio](https://pvs-studio.com/pvs-studio/?utm_source=website&utm_medium=github&utm_campaign=open_source) - static analyzer for C, C++, C#, and Java code.\n\n## License\n\nThis project is licensed under the [GNU General Public License v3.0](https://github.com/synfig/synfig/blob/master/LICENSE).\n"
+  },
+  {
+    "repository": "synfig/synfig",
+    "kind": "license",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/COPYING",
+    "observed_utc": "2026-10-29T22:54:57.675539+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "repository": "synfig/synfig",
+    "kind": "latest_release",
+    "url": "https://github.com/synfig/synfig/releases/latest",
+    "observed_utc": "2026-10-29T22:54:57.745347+00:00",
+    "status": 200,
+    "final_url": "https://github.com/synfig/synfig/releases/tag/v1.5.5",
+    "bytes_read": 170538,
+    "sha256": "e7d463e557dd28f315f9267420fb4de36ebabf3808c26281b08ca2819ee08000",
+    "release_datetimes": [
+      "2026-03-16T08:26:12Z",
+      "2026-03-15 09:15:25 UTC"
+    ]
+  },
+  {
+    "repository": "synfig/synfig",
+    "kind": "commits_atom",
+    "url": "https://github.com/synfig/synfig/commits/master.atom",
+    "observed_utc": "2026-10-29T22:54:57.793831+00:00",
+    "status": 200,
+    "final_url": "https://github.com/synfig/synfig/commits/master.atom",
+    "bytes_read": 16836,
+    "sha256": "005f58297d7e0b51e45101a01434c70ec8525198fd262abe7608ed72f7a99e58",
+    "updated_dates": [
+      "2026-10-27T17:52:06Z",
+      "2026-10-27T17:52:06Z",
+      "2026-10-25T17:22:54Z",
+      "2026-10-24T08:07:22Z"
+    ],
+    "commit_ids": [
+      "17ffa4c29f38512ac5ee8eca22dca1ca1c9f0156",
+      "db2295b7957be9281f202d788999ee75d8c68f4a",
+      "713ba480de02e5c839b92cbe868b7da06e439193"
+    ]
+  },
+  {
+    "repository": "vibecoderkz/raveanima",
+    "kind": "readme",
+    "url": "https://raw.githubusercontent.com/vibecoderkz/raveanima/main/README.md",
+    "observed_utc": "2026-10-29T22:54:57.846533+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/vibecoderkz/raveanima/main/README.md",
+    "bytes_read": 6131,
+    "sha256": "105f4242c3a0c698acf2999719666522d052fb8e4eaeea86269a1924f1799d62",
+    "excerpt": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"brand/readme-banner-dark.png\">\n    <img src=\"brand/readme-banner-light.png\" alt=\"RaveAnima: a keyframe diamond with anime eyes\" width=\"100%\">\n  </picture>\n</p>\n\n# RaveAnima\n\nDesktop editor for 2D vector design and keyframe animation, built so that people and AI agents use the same tools.\nAn open-source, local-first alternative to Rive, with Lottie as a first-class export.\n\n- **Draw**: rectangles, ellipses, polygons, stars, pen paths with editable points, text, images, groups, solid and gradient fills, strokes, trim paths. SVG import turns files into native editable shapes.\n- **Animate**: timelines with loop / ping-pong, keyframes on any numeric or colour property, path morphing, easing presets and a cubic-bezier editor, auto-key in Animate mode, animation presets.\n- **Interact**: state machines with inputs, states, transitions and pointer listeners, played by the `<anima-player>` web component.\n- **Export**: Lottie JSON (lottie-web, iOS, Android, Flutter, Skottie), a self-contained interactive HTML page, MP4, GIF, WebM with alpha, MOV, SVG, PNG.\n- **For agents**: every action is a typed command with undo. Agents drive the open window live, or work headless without any window, through MCP or the CLI.\n\nDocuments are plain JSON (`.anima`), easy to diff, review and generate.\n\n## Requirements\n\n- Node.js 22.12 or newer and npm.\n- `ffmpeg` on `PATH` for video and GIF export (CLI and desktop).\n- For the desktop app only: Rust (stable) and the [Tauri 2 prerequisites](https://v2.tauri.app/start/prerequisites/) for your OS. The bundle config targets Linux (`.deb`, `.AppImage`).\n\n## Quick start\n\n```bash\ngit clone https://github.com/vibecoderkz/raveanima.git\ncd raveanima\nnpm install\nnpm test                       # core tests\nnpm run build                  # tests + typecheck + player, CLI and desktop web bundles (no Rust needed)\nnpm run desktop                # Tauri dev window (needs Rust)\nnpm run desktop:build          # .deb and .AppImage\n```\n\n## CLI\n\n```bash\nnpx raveanima new hello.anima --width 1080 --height 1080\nnpx raveanima run hello.anima node.add '{\"type\":\"rect\",\"props\":{\"width\":200,\"height\":200,\"fill\":\"#FF3B2E\"}}'\nnpx raveanima export hello.anima hello.png\nnpx raveanima export hello.anima hello.json     # Lottie\nnpx raveanima commands                          # every command with its description\nnpx raveanima --help\n```\n\nCommands: `new | inspect | run | batch | export | sheet | commands | guide | mcp`. The CLI bundle is committed at\n`packages/headless/dist/anima.js`, so it works right after `npm install`; `npm run build` regenerates it.\n\n## Agents (MCP)\n\n```bash\n# Drive the open window (you watch every step, Ctrl+Z undoes it)\nclaude mcp add raveanima -- node /path/to/raveanima/packages/headless/dist/anima.js mcp --live\n\n# No window: in-memory document, render previews as images\nclaude mcp add raveanima-headless -- node /path/to/raveanima/packages/headless/dist/anima.js mcp\n```\n\nMCP tools: `anima_guide`, `command_list`, `command_run`, `command_batch`, `doc_inspect`, `doc_open`, `doc_import`,\n`export`, `render_preview`, `render_contact_sheet`.\n\nThe live bridge listens on `127.0.0.1:47900` only, needs the bearer token the app writes to\n`~/.config/anima/bridge.token` (mode 600) on launch, and refuses any request that carries a browser `Origin`.\n\n## Web player\n\n`raveanima export file.anima page.html` writes one self-contained page with the player inside. To embed it yourself,\nbuild the player (`npm run build -w @raveanima/player`) and load `packages/player/dist/anima-player.iife.js`:\n\n```html\n<script src=\"anima-player.iife.js\"></script>\n<anima-player src=\"owl-interactive.anima\" state-machine=\"Owl\"></anima-player>\n```\n\nAttributes: `src`, `state-machine`, `animation`, `fit` (`contain` or `cover`), `paused`.\n\n## Examples\n\n`examples/` holds scripts that build documents only through commands, the same way an agent does over MCP:\n\n```bash\nnpx tsx examples/owl.ts               # writes examples/owl.anima\nnpx tsx examples/owl-interactive.ts   # adds hover and click states\n```\n\n## Layout\n\n| Path | What |\n| --- | --- |\n| `packages/core` | Document model, command registry with undo, animation evaluation, state machines, renderer (Canvas2D API), SVG import, SVG and Lottie export. Pure TypeScript, no DOM needed. |\n| `packages/headless` | Skia rendering (`@napi-rs/canvas`), ffmpeg video, the `raveanima` CLI and the MCP server. |\n| `packages/player` | `<anima-player>` web component for any web page. |\n| `apps/desktop` | Tauri 2 app: React UI in the webview, Rust shell for files, video export and the agent bridge. |\n| `replica/` | Clean-room recon of Rive (public docs and the MIT runtime only) and the feature matrix. |\n\n## Names kept for compatibility\n\nThe project was called Anima during development. These identifiers keep that name so existing files, scripts and\nagent setups keep working: the `anima` CLI command (an alias of `raveanima`), the `.anima` file extension and its\n`\"format\": \"anima\"` field, MCP tool names such as `anima_guide`, the `<anima-player>` element, the bundle path\n`packages/headless/dist/anima.js`, and the bridge token path above.\n\n## Fonts\n\nThe UI is designed for SF Pro. Apple's font license does not allow redistribution, so this repository ships no font\nfiles. If SF Pro is installed on your system it is used automatically; you can also place `SF-Pro-Text-Regular.otf`,\n`SF-Pro-Text-Semibold.otf`, `SF-Pro-Display-Semibold.otf` and `SF-Pro-Display-Bold.otf` from\n[developer.apple.com/fonts](https://developer.apple.com/fonts/) into `apps/desktop/public/fonts/`. Without them the\nUI falls back to the system sans-serif.\n\n## Clean room\n\nRaveAnima is an independent implementation. Rive was studied only through its public documentation and its\nMIT-licensed runtime sources; no Rive editor binary, code, assets or file was used. Rive is a trademark of its owner,\nand this project is not affiliated with it.\n\n## License\n\n[MIT](LICENSE). Copyright (c) 2026 Dias Zhumagaliyev.\n\n---\n\nDeveloped by Dias Zhumagaliyev: https://dias.now · hello@dias.now\n"
+  },
+  {
+    "repository": "vibecoderkz/raveanima",
+    "kind": "license",
+    "url": "https://raw.githubusercontent.com/vibecoderkz/raveanima/main/LICENSE",
+    "observed_utc": "2026-10-29T22:54:57.957306+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/vibecoderkz/raveanima/main/LICENSE",
+    "bytes_read": 1074,
+    "sha256": "6cc0a503968d7a772c8eae269339273366c424f09aeb97908d39cdb2c4b6627b",
+    "excerpt": "MIT License\n\nCopyright (c) 2026 Dias Zhumagaliyev\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+  },
+  {
+    "repository": "vibecoderkz/raveanima",
+    "kind": "latest_release",
+    "url": "https://github.com/vibecoderkz/raveanima/releases/latest",
+    "observed_utc": "2026-10-29T22:54:58.137838+00:00",
+    "status": 200,
+    "final_url": "https://github.com/vibecoderkz/raveanima/releases",
+    "bytes_read": 137129,
+    "sha256": "1b73ca3118fbd386470e255efb0ea048ac7745bac0a31fbce18d0b3921ae6155",
+    "release_datetimes": []
+  },
+  {
+    "repository": "vibecoderkz/raveanima",
+    "kind": "commits_atom",
+    "url": "https://github.com/vibecoderkz/raveanima/commits/main.atom",
+    "observed_utc": "2026-10-29T22:54:58.167421+00:00",
+    "status": 200,
+    "final_url": "https://github.com/vibecoderkz/raveanima/commits/main.atom",
+    "bytes_read": 5041,
+    "sha256": "9f09167b5c813f90803fff0c22ea050bb5ab543aefda37bad08f3fa2f91af292",
+    "updated_dates": [
+      "2026-10-20T18:41:44Z",
+      "2026-10-20T18:41:44Z",
+      "2026-10-20T02:47:22Z",
+      "2026-10-20T02:47:22Z"
+    ],
+    "commit_ids": [
+      "14cfa3866655aec8f89419528c17f6fee2d7a03a",
+      "a89f56acf340e3a35ef95306b3d0f7eb3861aca6",
+      "203a4a6d7ff9705c4c5ecfb7d41509e9138c955a"
+    ]
+  },
+  {
+    "repository": "audacity/audacity",
+    "kind": "readme",
+    "url": "https://raw.githubusercontent.com/audacity/audacity/master/README.md",
+    "observed_utc": "2026-10-29T22:54:58.207040+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/audacity/audacity/master/README.md",
+    "bytes_read": 1541,
+    "sha256": "c84ab5991133706a2899c20539df624ecaa124b7be9d4aff6d2b20986978d121",
+    "excerpt": "# Audacity\n\n[![Coverage](https://s3.us-east-1.amazonaws.com/extensions.musescore.org/test/code_coverage/au_coverage_badge.svg)](https://github.com/audacity/audacity/actions/workflows/au4_check_unit_tests.yml)\n\n[**Audacity**](https://www.audacityteam.org) is an easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems. More info can be found on https://www.audacityteam.org\n\n## This repository is currently undergoing major structural change.\n\nWe're currently working on Audacity 4, which means an entirely new UI and also refactorings aplenty. As such, the `master` branch is currently not particularly friendly to new contributors. It is still possible to submit patches to Audacity 3.x; make sure you branch off `audacity3` if you choose to do so. Build instructions for 3.x can be found [here](https://github.com/audacity/audacity/blob/release-3.7.0/BUILDING.md); build instructions for Audacity 4 can be found [here](https://github.com/audacity/audacity/blob/master/BUILDING.md).\n\nYou can stay updated with our efforts on [YouTube](https://youtube.com/@audacity), [Discord](https://discord.gg/audacity) and [our blog](https://audacityteam.org/blog).\n\n## License\n\nAudacity is open source software licensed GPLv3. Most code files are GPLv2-or-later, with the notable exceptions being `/au3/lib-src` (which contains third party libraries), as well as VST3-related code. Documentation is licensed CC-by 3.0 unless otherwise noted. Details can be found in the [license file](LICENSE.txt).\n"
+  },
+  {
+    "repository": "audacity/audacity",
+    "kind": "license",
+    "url": "https://raw.githubusercontent.com/audacity/audacity/master/LICENSE.txt",
+    "observed_utc": "2026-10-29T22:54:58.263773+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/audacity/audacity/master/LICENSE.txt",
+    "bytes_read": 73540,
+    "sha256": "1580ffb4a0c6bbb716324c645682964120eae418b9a1c51842cda140343cb139",
+    "excerpt": "Audacity is released under the GNU General Public License version 3 (GPLv3). \nIndividual source files may be available under other licenses as specified \nin those files or an accompanying file. In particular, many source files are \navailable under GPL version 2 (GPLv2) or (at your option) any later version, \nand this is the default license used where no other license is specified.\n\nDocumentation is distributed under a Creative Commons-Attribution license.\n(CC-BY 3.0)\n\nFollowing are the full license texts of the\n\t* GNU General Public License Version 2 (GPLv2), \n\t* GNU General Public License Version 3 (GPLv3), and\n\t* Creative Commons-Attribution 3.0 Unported (CC-BY 3.0)\nlicenses. \n\n###############################################################################\n\n\t\t    GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n\t\t\t    Preamble\n\n  The licenses for most software are designed to take away your\nfreedom to share and change it.  By contrast, the GNU General Public\nLicense is intended to guarantee your freedom to share and change free\nsoftware--to make sure the software is free for all its users.  This\nGeneral Public License applies to most of the Free Software\nFoundation's software and to any other program whose authors commit to\nusing it.  (Some other Free Software Foundation software is covered by\nthe GNU Library General Public License instead.)  You can apply it to\nyour programs, too.\n\n  When we speak of free software, we are referring to freedom, not\nprice.  Our General Public Licenses are designed to make sure that you\nhave the freedom to distribute copies of free software (and charge for\nthis service if you wish), that you receive source code or can get it\nif you want it, that you can change the software or use pieces of it\nin new free programs; and that you know you can do these things.\n\n  To protect your rights, we need to make restrictions that forbid\nanyone to deny you these rights or to ask you to surrender the rights.\nThese restrictions translate to certain responsibilities for you if you\ndistribute copies of the software, or if you modify it.\n\n  For example, if you distribute copies of such a program, whether\ngratis or for a fee, you must give the recipients all the rights that\nyou have.  You must make sure that they, too, receive or can get the\nsource code.  And you must show them these terms so they know their\nrights.\n\n  We protect your rights with two steps: (1) copyright the software, and\n(2) offer you this license which gives you legal permission to copy,\ndistribute and/or modify the software.\n\n  Also, for each author's protection and ours, we want to make certain\nthat everyone understands that there is no warranty for this free\nsoftware.  If the software is modified by someone else and passed on, we\nwant its recipients to know that what they have is not the original, so\nthat any problems introduced by others will not reflect on the original\nauthors' reputations.\n\n  Finally, any free program is threatened constantly by software\npatents.  We wish to avoid the danger that redistributors of a free\nprogram will individually obtain patent licenses, in effect making the\nprogram proprietary.  To prevent this, we have made it clear that any\npatent must be licensed for everyone's free u"
+  },
+  {
+    "repository": "audacity/audacity",
+    "kind": "latest_release",
+    "url": "https://github.com/audacity/audacity/releases/latest",
+    "observed_utc": "2026-10-29T22:54:58.539223+00:00",
+    "status": 200,
+    "final_url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1",
+    "bytes_read": 192735,
+    "sha256": "d343bcd142774fdbfe12c9343809ebf1858b7f0aaf17964e4539a8e7205b1119",
+    "release_datetimes": [
+      "2026-09-30T11:59:48Z"
+    ]
+  },
+  {
+    "repository": "audacity/audacity",
+    "kind": "commits_atom",
+    "url": "https://github.com/audacity/audacity/commits/master.atom",
+    "observed_utc": "2026-10-29T22:54:58.571322+00:00",
+    "status": 200,
+    "final_url": "https://github.com/audacity/audacity/commits/master.atom",
+    "bytes_read": 23510,
+    "sha256": "018af9dac84d5a0138da5895a1b9fcc7f275039a2fb1771f740ae64dd37bd754",
+    "updated_dates": [
+      "2026-10-29T15:33:51Z",
+      "2026-10-29T15:33:51Z",
+      "2026-10-29T14:17:11Z",
+      "2026-10-29T14:16:55Z"
+    ],
+    "commit_ids": [
+      "cd9074f148e5918ad79513be1ad6619f46227d18",
+      "b857fd2377da94761beb4ddb940c0beb08da0913",
+      "8828c8a3dfd93125d39e228a611b425794fb5361"
+    ]
+  },
+  {
+    "repository": "synfig/synfig",
+    "kind": "license_corrected",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/LICENSE",
+    "observed_utc": "2026-10-29T22:55:56.770188+00:00",
+    "status": 200,
+    "bytes_read": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n\n  The licenses for most software and other practical works are designed\nto take away your freedom to share and change the works.  By contrast,\nthe GNU General Public License is intended to guarantee your freedom to\nshare and change all versions of a program--to make sure it remains free\nsoftware for all its users.  We, the Free Software Foundation, use the\nGNU General Public License for most of our software; it applies also to\nany other work released this way by its authors.  You can apply it to\nyour programs, too.\n\n  When we speak of free software, we are referring to freedom, not\nprice.  Our General Public Licenses are designed to make sure that you\nhave the freedom to distribute copies of free software (and charge for\nthem if you wish), that you receive source code or can get it if you\nwant it, that you can change the software or use pieces of it in new\nfree programs, and that you know you can do these things.\n\n  To protect your rights, we need to prevent others from denying you\nthese rights or asking you to surrender the rights.  Therefore, you have\ncertain responsibilities if you distribute copies of the software, or if\nyou modify it: responsibilities to respect the freedom of others.\n\n  For example, if you distribute copies of such a program, whether\ngratis or for a fee, you must pass on to the recipients the same\nfreedoms that you received.  You must make sure that they, too, receive\nor can get the source code.  And you must show them these terms so they\nknow their rights.\n\n  Developers that use the GNU GPL protect your rights with two steps:\n(1) assert copyright on the software, and (2) offer you this License\ngiving you legal permission to copy, distribute and/or modify it.\n\n  For the developers' and authors' protection, the GPL clearly explains\nthat there is no warranty for this free software.  For both users' and\nauthors' sake, the GPL requires that modified versions be marked as\nchanged, so that their problems will not be attributed erroneously to\nauthors of previous versions.\n\n  Some devices are designed to deny users access t"
+  },
+  {
+    "repository": "synfig/synfig",
+    "kind": "skeleton_source",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/synfig-core/src/synfig/layers/layer_skeleton.cpp",
+    "observed_utc": "2026-10-29T22:55:56.771023+00:00",
+    "status": 200,
+    "bytes_read": 6010,
+    "sha256": "7eda758f11fdd7c64726351250dd828dfdecdf1bb5150e080602679ac2f1f69f",
+    "excerpt": "/* === S Y N F I G ========================================================= */\n/*!\t\\file layer_skeleton.cpp\n**\t\\brief Implementation of the \"Layer_Skeleton\" layer\n**\n**\t\\legal\n**\tCopyright (c) 2008 Chris Moore\n**\n**\tThis file is part of Synfig.\n**\n**\tSynfig is free software: you can redistribute it and/or modify\n**\tit under the terms of the GNU General Public License as published by\n**\tthe Free Software Foundation, either version 2 of the License, or\n**\t(at your option) any later version.\n**\n**\tSynfig is distributed in the hope that it will be useful,\n**\tbut WITHOUT ANY WARRANTY; without even the implied warranty of\n**\tMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n**\tGNU General Public License for more details.\n**\n**\tYou should have received a copy of the GNU General Public License\n**\talong with Synfig.  If not, see <https://www.gnu.org/licenses/>.\n**\t\\endlegal\n*/\n/* ========================================================================= */\n\n/* === H E A D E R S ======================================================= */\n\n#ifdef USING_PCH\n#\tinclude \"pch.h\"\n#else\n#ifdef HAVE_CONFIG_H\n#\tinclude <config.h>\n#endif\n\n#include \"layer_skeleton.h\"\n#ifdef _DEBUG\n#include \"synfig/general.h\"\n#endif\n\n#include <synfig/localization.h>\n\n#include <synfig/context.h>\n#include <synfig/paramdesc.h>\n#include <synfig/renddesc.h>\n#include <synfig/string.h>\n#include <synfig/surface.h>\n#include <synfig/time.h>\n#include <synfig/value.h>\n#include <synfig/valuenodes/valuenode_bone.h>\n\n#endif\n\n/* === U S I N G =========================================================== */\n\nusing namespace synfig;\n\n/* === G L O B A L S ======================================================= */\n\nSYNFIG_LAYER_INIT(Layer_Skeleton);\nSYNFIG_LAYER_SET_NAME(Layer_Skeleton,\"skeleton\");\nSYNFIG_LAYER_SET_LOCAL_NAME(Layer_Skeleton,N_(\"Skeleton\"));\nSYNFIG_LAYER_SET_CATEGORY(Layer_Skeleton,N_(\"Other\"));\nSYNFIG_LAYER_SET_VERSION(Layer_Skeleton,\"0.1\");\n\n/* === P R O C E D U R E S ================================================= */\n\n/* === M E T H O D S ======================================================= */\n\n/* === E N T R Y P O I N T ================================================= */\n\nLayer_Skeleton::Layer_Skeleton():\n\tparam_name(ValueBase((const char*)\"skeleton\"))\n{\n\tstd::vector<synfig::Bone> bones;\n\tint bone_count = 1;\n\tif (getenv(\"SYNFIG_NUMBER_OF_BONES_IN_SKELETON\"))\n\t\tbone_count = atoi(getenv(\"SYNFIG_NUMBER_OF_BONES_IN_SKELETON\"));\n\tif (bone_count < 1) bone_count = 1;\n\telse if (bone_count",
+    "feature_lines": [
+      "/*!\t\\file layer_skeleton.cpp",
+      "**\t\\brief Implementation of the \"Layer_Skeleton\" layer",
+      "#include \"layer_skeleton.h\"",
+      "#include <synfig/valuenodes/valuenode_bone.h>",
+      "SYNFIG_LAYER_INIT(Layer_Skeleton);",
+      "SYNFIG_LAYER_SET_NAME(Layer_Skeleton,\"skeleton\");",
+      "SYNFIG_LAYER_SET_LOCAL_NAME(Layer_Skeleton,N_(\"Skeleton\"));",
+      "SYNFIG_LAYER_SET_CATEGORY(Layer_Skeleton,N_(\"Other\"));",
+      "SYNFIG_LAYER_SET_VERSION(Layer_Skeleton,\"0.1\");",
+      "Layer_Skeleton::Layer_Skeleton():",
+      "param_name(ValueBase((const char*)\"skeleton\"))",
+      "std::vector<synfig::Bone> bones;"
+    ]
+  },
+  {
+    "repository": "synfig/synfig",
+    "kind": "bone_edit_source",
+    "url": "https://raw.githubusercontent.com/synfig/synfig/master/synfig-studio/src/gui/states/state_bone.cpp",
+    "observed_utc": "2026-10-29T22:55:56.771514+00:00",
+    "status": 200,
+    "bytes_read": 36022,
+    "sha256": "ee6e3c0fd4a7769c0a3c4cb1a43c6f52f040bc6113f8513dfd881d18e26176cb",
+    "excerpt": "/* === S Y N F I G ========================================================= */\n/*!\t\\file state_bone.cpp\n**\t\\brief Template File\n**\n**\t\\legal\n**\tCopyright (c) 2020 Aditya Abhiram J\n**\n**\tThis file is part of Synfig.\n**\n**\tSynfig is free software: you can redistribute it and/or modify\n**\tit under the terms of the GNU General Public License as published by\n**\tthe Free Software Foundation, either version 2 of the License, or\n**\t(at your option) any later version.\n**\n**\tSynfig is distributed in the hope that it will be useful,\n**\tbut WITHOUT ANY WARRANTY; without even the implied warranty of\n**\tMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n**\tGNU General Public License for more details.\n**\n**\tYou should have received a copy of the GNU General Public License\n**\talong with Synfig.  If not, see <https://www.gnu.org/licenses/>.\n**\t\\endlegal\n*/\n/* ========================================================================= */\n\n/* === H E A D E R S ======================================================= */\n\n#ifdef USING_PCH\n#\tinclude \"pch.h\"\n#else\n#ifdef HAVE_CONFIG_H\n#\tinclude <config.h>\n#endif\n\n#include <gui/states/state_bone.h>\n\n#include <gtkmm/radiobutton.h>\n#include <gtkmm/separatormenuitem.h>\n\n#include <gui/app.h>\n#include <gui/canvasview.h>\n#include <gui/docks/dialog_tooloptions.h>\n#include <gui/docks/dock_toolbox.h>\n#include <gui/event_mouse.h>\n#include <gui/localization.h>\n#include <gui/widgets/widget_distance.h>\n#include <gui/workarea.h>\n\n#include <synfig/general.h>\n#include <synfig/layers/layer_skeleton.h>\n#include <synfig/layers/layer_skeletondeformation.h>\n#include <synfig/valuenodes/valuenode_bone.h>\n#include <synfig/valuenodes/valuenode_composite.h>\n#include <synfig/valuenodes/valuenode_staticlist.h>\n\n#include <synfigapp/actions/layeradd.h>\n#include <synfigapp/main.h>\n\n#endif\n\n/* === U S I N G =========================================================== */\n\nusing namespace studio;\nusing namespace synfig;\nusing namespace synfigapp;\n\n/* === M A C R O S ========================================================= */\n\n#define GAP\t(3)\n#define DEFAULT_WIDTH (\"6px\")\n\n/* === G L O B A L S ======================================================= */\n\nStateBone studio::state_bone;\n\n/* === C L A S S E S & S T R U C T S ======================================= */\n\nclass studio::StateBone_Context : public sigc::trackable\n{\n\tCanvasView::Handle canvas_view_;\n\tCanvasView::IsWorking is_working;\n\n\tbool prev_workarea_layer_status_;\n\tDuck::Type prev_type_mask;\n\n\t//",
+    "feature_lines": [
+      "/*!\t\\file state_bone.cpp",
+      "#include <gui/states/state_bone.h>",
+      "#include <synfig/layers/layer_skeleton.h>",
+      "#include <synfig/layers/layer_skeletondeformation.h>",
+      "#include <synfig/valuenodes/valuenode_bone.h>",
+      "StateBone studio::state_bone;",
+      "class studio::StateBone_Context : public sigc::trackable",
+      "Duckmatic::Bezier::Handle bone_bezier;",
+      "synfig::ValueNode::Handle active_bone;",
+      "enum SkeletonLayerType {SKELETON_TYPE, SKELETON_DEFORMATION_TYPE};",
+      "SkeletonLayerType c_layer;",
+      "//  bone width"
+    ]
+  }
+]
