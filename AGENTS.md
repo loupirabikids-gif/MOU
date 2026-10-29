@@ -1,5 +1,15 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Étude courante : proposer une signature de phrases récurrentes et un style
+plus adapté à MOU ; remonter le texte pour dégager le décor. Maquettes dans
+`episodes/03/developpement/signature_mou/`. Recommandation à discuter :
+« La méthode MOU » + une intention courte (« Faire simple. » pour la cuisine),
+équivalent anglais « The MOU Method / Keep it simple. ». Petit cartouche
+crème/prune, accent citron, police libre Nunito arrondie, en haut à gauche
+dans le mur vide. Cette identité n’est PAS encore validée : ne pas modifier
+le film, le mix ni appliquer la formule aux épisodes suivants sans ce choix.
+Conserver la phrase anglaise existante dans la vidéo actuelle jusqu’à décision.
+
 Demande courante V18 : après rejet V17, l’utilisatrice précise que le problème
 est « l’équilibre change trop d’une scène à l’autre ». Refaire uniquement le
 dosage dans `episodes/03/cuisine_v18/`, sans recomposer la musique ni changer

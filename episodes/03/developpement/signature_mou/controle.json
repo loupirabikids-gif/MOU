@@ -1,0 +1,64 @@
+{
+  "scope": "Still proposals only; episode MP4, production sources and audio unchanged.",
+  "frame_time_seconds": 1.0,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "font": "Nunito ExtraBold, SIL OFL 1.1",
+  "font_sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+  "font_source": "https://github.com/google/fonts/tree/main/ofl/nunito",
+  "versions": [
+    {
+      "name": "MOU_signature_proposee",
+      "language": "fr",
+      "card": true,
+      "overlay_bbox": [
+        80,
+        128,
+        469,
+        275
+      ],
+      "changed_pixel_bbox": [
+        80,
+        128,
+        469,
+        275
+      ]
+    },
+    {
+      "name": "MOU_signature_texte_seul",
+      "language": "fr",
+      "card": false,
+      "overlay_bbox": [
+        89,
+        145,
+        411,
+        245
+      ],
+      "changed_pixel_bbox": [
+        89,
+        145,
+        411,
+        245
+      ]
+    },
+    {
+      "name": "MOU_signature_english",
+      "language": "en",
+      "card": true,
+      "overlay_bbox": [
+        80,
+        128,
+        469,
+        275
+      ],
+      "changed_pixel_bbox": [
+        80,
+        128,
+        469,
+        275
+      ]
+    }
+  ]
+}
