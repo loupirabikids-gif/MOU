@@ -1,0 +1,30 @@
+MOU — Just cooking. Mostly washing. — V26
+38 secondes, vertical 1080 × 1920, 24 images/s, 912 images ; AAC 48 kHz stéréo.
+
+Jeu et histoire : quatre rituels, hésitation, repas progressivement noirci,
+papier au sol, puis présentation fière des deux moufles propres. Déformations
+réelles croissantes mesurées : 5,96 % / 12,99 % / 20 %, aire apparente compensée.
+Toque, tablier, contours natifs des deux bras/moufles et modèle conservés.
+
+Critique : animatique complète examinée par images décodées. Deux défauts
+retenus puis corrigés dans un second MP4 : sol prolongé pour enlever les
+bandes noires ; vrai détail du repas brûlé. La seconde revue vérifie ces
+corrections et le contraste final, sans nouvelle reprise narrative.
+
+Technique : décodage complet des versions son et muette ; flux H.264 identiques.
+50 images du MP4 comparées à CairoSVG frais hors cache, aucun échec. 912 états,
+prises et raccords, masques, pieds, stocks et quatre rinçages vérifiés.
+18 dernières images : corps et visage tenus, fumée encore animée.
+Corrélation AAC/WAV : 0,99807 ; zéro saturation PCM. Aperçu exact 30–38 s vérifié.
+
+Son : jazz lié et doux, sifflement initial seulement, 48 événements synchronisés.
+Mix mesuré : −33,68 LUFS et −18,98 dBTP. Les sources adaptées sont créditées et
+leurs licences sont incluses. Ces mesures ne certifient pas le confort sonore.
+
+Sources : ZIP avec manifeste SHA256. L'audit de reproduction dans un dossier
+isolé est conservé séparément dans controle/audit_archive.json afin d'éviter
+une empreinte circulaire. Voir aussi controle/audit_final.json et qa_v26.md.
+
+Limites : examen par images et mesures ; aucune écoute, lecture continue,
+reconnaissance publique des émotions ou garantie de succès revendiquée.
+La livraison n'est pas une approbation artistique de l'utilisatrice.

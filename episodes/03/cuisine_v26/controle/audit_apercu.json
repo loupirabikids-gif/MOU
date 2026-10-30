@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "duration_s": 8.0,
+  "episode_range_s": [
+    30.0,
+    38.0
+  ],
+  "frames": 192,
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "audio_correlation": 0.9991907595007218,
+  "source_excerpt_sha256": "768184867fc6c7edab065ef643c0f0e170e84c3e81b7b42a96998c98c2258e1f",
+  "clip_sha256": "9f36595e597180e05c27339280ba32b0a66e67a9e7f82f937bd7ce5433649dd9"
+}

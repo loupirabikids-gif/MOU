@@ -1,0 +1,394 @@
+{
+  "scope": "Only unused files copied into cuisine_v26/audio, not V25 originals",
+  "deleted_files": [
+    {
+      "file": "sifflement_p1_n2.wav",
+      "bytes": 76844
+    },
+    {
+      "file": "c4_eau.wav",
+      "bytes": 188204
+    },
+    {
+      "file": "carotte_coupe_2.wav",
+      "bytes": 18284
+    },
+    {
+      "file": "jazz_accords_v25.wav",
+      "bytes": 8256044
+    },
+    {
+      "file": "cuillere_posee.wav",
+      "bytes": 19244
+    },
+    {
+      "file": "cuisson_v22.wav",
+      "bytes": 7728044
+    },
+    {
+      "file": "contact_manche_propre.wav",
+      "bytes": 19244
+    },
+    {
+      "file": "partition_v25.mid",
+      "bytes": 960
+    },
+    {
+      "file": "c2_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "provenance_reference_v24.json",
+      "bytes": 93126
+    },
+    {
+      "file": "sifflement_p1_n1.wav",
+      "bytes": 76844
+    },
+    {
+      "file": "c5_eau.wav",
+      "bytes": 188204
+    },
+    {
+      "file": "extrait_mix_v25.mp3",
+      "bytes": 169388
+    },
+    {
+      "file": "c2_eau.wav",
+      "bytes": 297644
+    },
+    {
+      "file": "c4_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "reference_levels_v23_v24.json",
+      "bytes": 603
+    },
+    {
+      "file": "jazz_basse_v25.wav",
+      "bytes": 8256044
+    },
+    {
+      "file": "sel_saupoudre.wav",
+      "bytes": 96044
+    },
+    {
+      "file": "extrait_mix_v25.wav",
+      "bytes": 1344044
+    },
+    {
+      "file": "couteau_pose.wav",
+      "bytes": 20204
+    },
+    {
+      "file": "c5_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "c5_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "partition_v25.json",
+      "bytes": 33408
+    },
+    {
+      "file": "c1_eau.wav",
+      "bytes": 349484
+    },
+    {
+      "file": "jazz_seul_complet.wav",
+      "bytes": 8256044
+    },
+    {
+      "file": "sifflement_p1_n3.wav",
+      "bytes": 61484
+    },
+    {
+      "file": "c4_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "test_fin_v25.wav",
+      "bytes": 1536044
+    },
+    {
+      "file": "c3_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "c1_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "jazz_seul_15s.mp3",
+      "bytes": 361196
+    },
+    {
+      "file": "musique_v25.wav",
+      "bytes": 8256044
+    },
+    {
+      "file": "carotte_coupe_1.wav",
+      "bytes": 18284
+    },
+    {
+      "file": "jazz_seul_15s.wav",
+      "bytes": 2880044
+    },
+    {
+      "file": "contact_tomate.wav",
+      "bytes": 21164
+    },
+    {
+      "file": "cuisson.wav",
+      "bytes": 7872044
+    },
+    {
+      "file": "c2_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "jazz_sans_baisse_v25.wav",
+      "bytes": 8256044
+    },
+    {
+      "file": "c3_eau.wav",
+      "bytes": 205484
+    },
+    {
+      "file": "c3_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "c1_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/sifflement_p1_n2.wav",
+      "bytes": 76844
+    },
+    {
+      "file": "processed_v22/c4_eau.wav",
+      "bytes": 188204
+    },
+    {
+      "file": "processed_v22/carotte_coupe_2.wav",
+      "bytes": 18284
+    },
+    {
+      "file": "processed_v22/cuillere_posee.wav",
+      "bytes": 19244
+    },
+    {
+      "file": "processed_v22/contact_manche_propre.wav",
+      "bytes": 19244
+    },
+    {
+      "file": "processed_v22/c2_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/sifflement_p1_n1.wav",
+      "bytes": 76844
+    },
+    {
+      "file": "processed_v22/c5_eau.wav",
+      "bytes": 188204
+    },
+    {
+      "file": "processed_v22/c2_eau.wav",
+      "bytes": 297644
+    },
+    {
+      "file": "processed_v22/c4_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/sel_saupoudre.wav",
+      "bytes": 96044
+    },
+    {
+      "file": "processed_v22/couteau_pose.wav",
+      "bytes": 20204
+    },
+    {
+      "file": "processed_v22/c5_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/c5_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/c1_eau.wav",
+      "bytes": 349484
+    },
+    {
+      "file": "processed_v22/sifflement_p1_n3.wav",
+      "bytes": 61484
+    },
+    {
+      "file": "processed_v22/c4_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/c3_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/c1_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/carotte_coupe_1.wav",
+      "bytes": 18284
+    },
+    {
+      "file": "processed_v22/contact_tomate.wav",
+      "bytes": 21164
+    },
+    {
+      "file": "processed_v22/c2_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/c3_eau.wav",
+      "bytes": 205484
+    },
+    {
+      "file": "processed_v22/c3_robinet_ouvre.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "processed_v22/c1_robinet_ferme.wav",
+      "bytes": 14444
+    },
+    {
+      "file": "foley_v25/c3_essuyage_2_v25.wav",
+      "bytes": 46124
+    },
+    {
+      "file": "foley_v25/c3_poubelle_impact_v25.wav",
+      "bytes": 30764
+    },
+    {
+      "file": "foley_v25/c5_papier_dechire_v25.wav",
+      "bytes": 23084
+    },
+    {
+      "file": "foley_v25/c3_froissage_v25.wav",
+      "bytes": 57644
+    },
+    {
+      "file": "foley_v25/c2_essuyage_1_v25.wav",
+      "bytes": 49964
+    },
+    {
+      "file": "foley_v25/c4_froissage_v25.wav",
+      "bytes": 57644
+    },
+    {
+      "file": "foley_v25/c3_papier_deroule_v25.wav",
+      "bytes": 58976
+    },
+    {
+      "file": "foley_v25/c5_essuyage_2_v25.wav",
+      "bytes": 49964
+    },
+    {
+      "file": "foley_v25/c4_poubelle_impact_v25.wav",
+      "bytes": 30764
+    },
+    {
+      "file": "foley_v25/c1_essuyage_2_v25.wav",
+      "bytes": 49964
+    },
+    {
+      "file": "foley_v25/c1_papier_deroule_v25.wav",
+      "bytes": 65324
+    },
+    {
+      "file": "foley_v25/c1_poubelle_impact_v25.wav",
+      "bytes": 30764
+    },
+    {
+      "file": "foley_v25/c5_essuyage_1_v25.wav",
+      "bytes": 49964
+    },
+    {
+      "file": "foley_v25/c2_essuyage_2_v25.wav",
+      "bytes": 49964
+    },
+    {
+      "file": "foley_v25/c5_poubelle_impact_v25.wav",
+      "bytes": 23084
+    },
+    {
+      "file": "foley_v25/c1_essuyage_1_v25.wav",
+      "bytes": 49964
+    },
+    {
+      "file": "foley_v25/c1_froissage_v25.wav",
+      "bytes": 67244
+    },
+    {
+      "file": "foley_v25/c3_essuyage_1_v25.wav",
+      "bytes": 46124
+    },
+    {
+      "file": "foley_v25/c3_papier_dechire_v25.wav",
+      "bytes": 26924
+    },
+    {
+      "file": "foley_v25/c4_essuyage_1_v25.wav",
+      "bytes": 49964
+    },
+    {
+      "file": "foley_v25/c2_papier_dechire_v25.wav",
+      "bytes": 34604
+    },
+    {
+      "file": "foley_v25/c5_papier_sol_v25.wav",
+      "bytes": 23084
+    },
+    {
+      "file": "foley_v25/c5_papier_deroule_v25.wav",
+      "bytes": 26924
+    },
+    {
+      "file": "foley_v25/c4_papier_dechire_v25.wav",
+      "bytes": 38444
+    },
+    {
+      "file": "foley_v25/c4_essuyage_2_v25.wav",
+      "bytes": 49964
+    },
+    {
+      "file": "foley_v25/c4_papier_deroule_v25.wav",
+      "bytes": 54612
+    },
+    {
+      "file": "foley_v25/c2_poubelle_impact_v25.wav",
+      "bytes": 30764
+    },
+    {
+      "file": "foley_v25/c2_froissage_v25.wav",
+      "bytes": 67244
+    },
+    {
+      "file": "foley_v25/c5_froissage_v25.wav",
+      "bytes": 57644
+    },
+    {
+      "file": "foley_v25/c2_papier_deroule_v25.wav",
+      "bytes": 65324
+    },
+    {
+      "file": "foley_v25/c1_papier_dechire_v25.wav",
+      "bytes": 38444
+    }
+  ],
+  "freed_bytes": 68302585
+}

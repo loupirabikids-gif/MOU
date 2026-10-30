@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "scope": "One full sound regeneration after removal of unused copied V25 files",
+  "seconds": 11.814485521004826,
+  "identical_pcm": {
+    "audio/mix.wav": "a785f8bd9cd5bbeeb3baae830b6e61f5b3d8154d6bed59887035f3c2d2051bbb",
+    "audio/musique_v26.wav": "48a350334c30c7688bf43dbb17094a5c550ecdcd2cb9279c3ff04ecb794a670f",
+    "audio/test_fin_v26.wav": "768184867fc6c7edab065ef643c0f0e170e84c3e81b7b42a96998c98c2258e1f"
+  },
+  "source_bank_sha256": "e16c2f10c1cd4bb1dded74ae6b1aa96aa3a4070006001db48f0b3bd0b9d72f9b",
+  "motion_sync_sha256": "fdff3a6d4416506e47cff6f92a672f386413a2addd23d0d81e56db15573d6341",
+  "producer_summary": {
+    "mix": "/workspace/MOU/episodes/03/cuisine_v26/audio/mix.wav",
+    "seconds": 38.0,
+    "events": 48,
+    "paper_events": 25,
+    "music_continuity": {
+      "longest_digital_zero_seconds": 2.0833333333333333e-05,
+      "half_second_range_db": 6.594418016634201,
+      "half_second_p05_p95_dbfs": [
+        -45.091438779874345,
+        -39.707708462230734
+      ]
+    },
+    "mix_metrics": {
+      "rms_dbfs": -36.36465795641755,
+      "peak_dbfs": -18.98260626869813,
+      "clipped_samples": 0
+    },
+    "loudness": {
+      "input_i": "-33.68",
+      "input_tp": "-18.98",
+      "input_lra": "3.60",
+      "input_thresh": "-43.70"
+    }
+  },
+  "limits": "Bit-identical PCM regeneration is not listening or proof of sonic comfort."
+}

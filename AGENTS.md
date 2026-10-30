@@ -1,5 +1,23 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande de réalisation : « Vas y » autorise la fabrication du découpage
+progressif retenu. Travailler dans `episodes/03/cuisine_v26/`, 38 s, quatre
+rituels, 23 plans, dernier repas brûlé et fausse victoire des mains propres.
+Préserver V25 et les références. Sources de geste V25 copiées localement sous
+`reference_*.py` ; son, animation et accessoires ont des fichiers exclusifs.
+Produire une animatique complète puis faire critiquer le vrai montage, corriger
+les défauts retenus, exporter son/muet/sources 1080 × 1920 et livrer sur GitHub
+dans l'autorisation existante. Les contrôles techniques et la critique ne
+constituent pas une approbation de l'utilisatrice ni une écoute du modèle.
+
+V26 réalisée après critique du vrai montage : sol SVG prolongé sous le décor
+pour supprimer les bandes noires et révélation du repas en vrai détail.
+Seconde revue des corrections favorable à l'export. QA finale passée :
+912 états et 50 images du vrai MP4 comparées hors cache ; sources V25 et
+rig protégés. Aucun autre défaut retenu ne reste ouvert. Le bilan et les
+limites sont dans `episodes/03/cuisine_v26/CONTROLE.txt` ; l'audit de l'archive
+reste séparé. Ne pas transformer ces contrôles en approbation artistique.
+
 Direction précisée après le réexamen : l'utilisatrice recommande un cartoon
 progressif, le repas brûlé avec le papier en complice et un humour de situation
 pour adultes, lisible aussi sans dialogue pour un public familial. Transformer

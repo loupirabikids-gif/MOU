@@ -1,55 +1,32 @@
 # MOU
 
-**V25 rejetée par l'utilisatrice : version de travail conservée, publication
-déconseillée en l'état.** Le [réexamen éditorial](episodes/03/developpement/reprise_editoriale/)
-reprend la progression du gag et le jeu de MOU. Les contrôles techniques
-ci-dessous ne constituent pas une approbation artistique.
+**Just cooking. Mostly washing. — V26, 38 secondes.**
 
-Le [nouveau découpage de 38 secondes](episodes/03/developpement/reprise_editoriale/decoupage_progressif.md)
-précise la direction choisie : élasticité progressive, repas brûlé, papier
-débordant et fierté déplacée devant des mains impeccables. C'est un document
-de préparation ; les vidéos ci-dessous restent celles de V25.
+MOU cuisine, se lave et gaspille du papier. Il tente de résister à son rituel,
+mais finit plus fier de ses mains impeccables que de son repas brûlé.
+L'animation progresse du jeu retenu aux réactions cartoon ; la fin présente
+les deux moufles avec le plat noir, la fumée et la poubelle débordante.
 
-**[Bibliothèque d’expressions de MOU](bibliotheque/expressions/v1/)** — 36 poses, 12 familles, galerie SVG/PNG et six transitions de visage.
+[![MOU présente ses mains devant le repas raté](episodes/03/cuisine_v26/controle/affiche_v26.png)](episodes/03/cuisine_v26/MOU_Encore_une_feuille.mp4?raw=true)
 
-**Encore une feuille — Just cooking. Mostly washing. — V25, 43 secondes.**
+- **[Film avec son — 1080 × 1920](episodes/03/cuisine_v26/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Aperçu de la fin — 8 secondes](episodes/03/cuisine_v26/MOU_test_mise_en_scene.mp4?raw=true)
+- [Version muette](episodes/03/cuisine_v26/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v26/MOU_Encore_une_feuille_sources.zip?raw=true)
+- [Découpage, critiques et contrôles](episodes/03/cuisine_v26/)
+- [Bibliothèque d'expressions : 36 poses](bibliotheque/expressions/v1/)
 
-MOU cuisine, mais chaque contact relance son lavage et son gaspillage de papier.
-Carotte, tomate, pincée de sel… le rouleau finit vide et la poubelle déborde.
-La dernière boulette tombe au sol ; MOU regarde les déchets puis le public.
+Le modèle, la toque « MOU », le tablier de taille et les deux moufles sont
+conservés. Jazz piano-contrebasse continu, bruitages courts synchronisés et
+sifflement seulement au départ. La production utilise des outils gratuits
+et open source. Le modèle ne peut pas écouter : les mesures ne certifient
+pas le confort sonore. La critique par images n'est pas un test public.
 
-La V25 reprend le jeu : corps et visage agissent ensemble, les mains libres
-accompagnent les intentions et des pauses exposent les réactions. Après le
-dernier essuyage, le soulagement précède la découverte des déchets et le recul ;
-MOU rejoint ensuite le spectateur du regard. Le modèle, les contours natifs
-des deux bras/moufles, le costume et les gros plans de lavabo sont conservés.
-
-Le fond musical est un duo piano-contrebasse aux attaques enveloppées,
-sans mélodie aiguë ni percussion. Il reste continu et son niveau moyen est
-environ 6 dB plus bas que V24. Les événements papier utilisent des prises et
-textures libres documentées, avec leurs coupes alignées aux gestes.
-
-[![Attitudes et regards extraits du film V25](episodes/03/cuisine_v25/controle/planche_jeu_final.png)](episodes/03/cuisine_v25/MOU_Encore_une_feuille.mp4?raw=true)
-
-- **[Film avec son — 1080 × 1920](episodes/03/cuisine_v25/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Aperçu du jeu et de la fin — 8 secondes](episodes/03/cuisine_v25/MOU_test_mise_en_scene.mp4?raw=true)
-- [Version muette](episodes/03/cuisine_v25/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v25/MOU_Encore_une_feuille_sources.zip?raw=true) · [Contrôles et limites](episodes/03/cuisine_v25/CONTROLE.txt)
-- [Direction et critiques V25](episodes/03/cuisine_v25/)
-- [Recherche : outils libres réellement testés et techniques retenues](recherche/2026-10-29_professionnel/README.md)
-- [Repérage animation adulte : chaînes, pages et dépôts GitHub](recherche/2026-10-29_animation_adulte/README.md)
-- [Accès YouTube après activation du 30 octobre et recherche documentaire](recherche/2026-10-30_acces_youtube/README.md)
-- [Lamput : analyse visuelle du fichier fourni et propositions pour MOU](recherche/2026-10-30_lamput/README.md)
-
-Blender et RaveAnima ont été essayés ; leurs imports automatiques altèrent les
-masques du SVG. Le film garde son rendu CairoSVG. Friction et OpenToonz
-fournissent des méthodes de poses, d’exposition et de courbes documentées.
-L’accès officiel à Oggy est bloqué : aucun visionnage n’est revendiqué.
-Le modèle ne peut pas écouter le mix ; les mesures ne certifient pas le confort
-sur téléphone. Les critiques portent sur les images et les séquences décodées.
-
-[V24 rejetée](episodes/03/cuisine_v24/) · [V23](episodes/03/cuisine_v23/) · [V22](episodes/03/cuisine_v22/) · [V21 rejetée](episodes/03/cuisine_v21/) · [V20](episodes/03/cuisine_v20/) ·
-[V19](episodes/03/cuisine_v19/) · [Versions de 35 secondes](episodes/03/cuisine_v6/).
+[V25 rejetée](episodes/03/cuisine_v25/) · [V24 rejetée](episodes/03/cuisine_v24/) ·
+[V23](episodes/03/cuisine_v23/) · [Versions précédentes](episodes/03/).
+[Réexamen éditorial](episodes/03/developpement/reprise_editoriale/) ·
+[Référence Lamput examinée](recherche/2026-10-30_lamput/) ·
+[Outils libres et essais](recherche/2026-10-29_professionnel/).
 Les épisodes abandonnés restent conservés :
 [Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
 
@@ -116,7 +93,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v22/`.
+Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v26/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

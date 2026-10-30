@@ -1,0 +1,307 @@
+{
+  "titre": "Just cooking. Mostly washing.",
+  "statut": "Découpage de préparation après critique écrite ; aucun nouveau film rendu.",
+  "usage": "Données descriptives ; le renderer V25 ne les consomme pas encore.",
+  "source_markdown": "decoupage_progressif.md",
+  "source_sha256": "e4b09683c423f68e41f4b0af9acbd9926d8c062a8d98edc5ed0a1743eda5ed3c",
+  "duration_s": 38.0,
+  "fps": 24,
+  "frame_count": 912,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "end_frame_convention": "borne exclusive",
+  "direction": {
+    "public": "Adultes : humour de situation ; lecture visuelle familiale sans dialogue.",
+    "chute": "Repas raté, mains impeccables, fierté déplacée face au public ; papier complice.",
+    "musique": "Jazz doux continu, dosage stable, aucune coupure automatique à 40 s.",
+    "modele": "MOU canonique, deux yeux, deux bras continus, deux moufles simples à pouce rond, toque MOU et tablier de taille."
+  },
+  "elasticite_proposee_non_testee": [
+    {
+      "shots": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05a",
+        "05b"
+      ],
+      "amplitude_percent": [
+        5,
+        8
+      ]
+    },
+    {
+      "shots": [
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "amplitude_percent": [
+        10,
+        15
+      ]
+    },
+    {
+      "shots": [
+        "16",
+        "17",
+        "20"
+      ],
+      "amplitude_percent": [
+        20,
+        25
+      ],
+      "constraint": "Pointes seulement après 25,33 s, pendant 2–4 images, puis pose lisible ; aucune répétition permanente."
+    }
+  ],
+  "final_hold": {
+    "start_frame": 894,
+    "end_frame_exclusive": 912,
+    "body_hold_frames": 18,
+    "smoke_continues": true
+  },
+  "old_v25_reference": "verification_repere_35_42.md",
+  "review": "critique_decoupage_progressif.md",
+  "shots": [
+    {
+      "id": "01",
+      "start_s": 0.0,
+      "end_s": 3.5,
+      "start_frame": 0,
+      "end_frame_exclusive": 84,
+      "cadre_action": "Plan moyen cuisine : MOU remue le plat coloré, toque « MOU » et tablier de taille. Une trace minuscule atteint la moufle. Cuillère posée. Cartouche sorti avant 3 s.",
+      "jeu_regard_tenue": "Chef heureux, petite souplesse liée au remuage. Vers 2,75 s : pupilles poêle → trace ; arrêt du geste avant crispation du sourire. Inspection exposée pendant les 6 dernières images.",
+      "son": "Sifflement au départ seulement, jazz doux continu, cuisson et contact de cuillère discrets."
+    },
+    {
+      "id": "02",
+      "start_s": 3.5,
+      "end_s": 5.75,
+      "start_frame": 84,
+      "end_frame_exclusive": 138,
+      "cadre_action": "Insert lavabo, une seule moufle/avant-bras. Ouvrir, laver les bouts sous un débit exagéré, fermer.",
+      "jeu_regard_tenue": "Ouverture 3,50–3,90 ; eau 3,90–5,35 ; deux frottements arrondis 4,05–5,10 ; fermeture/retrait 5,10–5,75. Pouce distinct, autres doigts réunis, poignet hors du jet. Petites gouttes causées par les contacts.",
+      "son": "Un écoulement continu aux attaques douces ; jazz maintenu à bas niveau."
+    },
+    {
+      "id": "03",
+      "start_s": 5.75,
+      "end_s": 8.0,
+      "start_frame": 138,
+      "end_frame_exclusive": 192,
+      "cadre_action": "Rapproché du visage aux mains : yeux, bouche et deux moufles lisibles. Bande de papier démesurée, séchage, froissage, jet ; la bande peut sortir du cadre sans couper le visage.",
+      "jeu_regard_tenue": "Regard sur la longueur de papier puis sur la main. Anticipation avant tirage, petit dépassement amorti. Satisfaction exposée 6–8 images après séchage. Compression légère au départ du jet.",
+      "son": "Déroulé, déchirure, deux frottements et froissage, sans accent sonore sur le sourire."
+    },
+    {
+      "id": "04",
+      "start_s": 8.0,
+      "end_s": 8.75,
+      "start_frame": 192,
+      "end_frame_exclusive": 210,
+      "cadre_action": "Insert poubelle, première grosse boule ; axe de comparaison conservé pour la suite.",
+      "jeu_regard_tenue": "Contact, tassement, petit rebond souple ; elle reste au panier. État final tenu au moins 5 images.",
+      "son": "Impact mat et froissement court."
+    },
+    {
+      "id": "05a",
+      "start_s": 8.75,
+      "end_s": 10.5,
+      "start_frame": 210,
+      "end_frame_exclusive": 252,
+      "cadre_action": "Détail carotte/planche : deux coupes, couteau posé avant la fin du plan.",
+      "jeu_regard_tenue": "Assurance, puis arrêt du geste. Le couteau garde sa prise native jusqu'à sa pose.",
+      "son": "Deux coups distincts et pose mate ; cuisson discrète."
+    },
+    {
+      "id": "05b",
+      "start_s": 10.5,
+      "end_s": 11.0,
+      "start_frame": 252,
+      "end_frame_exclusive": 264,
+      "cadre_action": "Raccord plus large sur MOU et sa moufle levée, couteau visible sur la planche.",
+      "jeu_regard_tenue": "Regard moufle puis lavabo ; une impatience remplace la satisfaction précédente.",
+      "son": "Seulement le fond déjà présent."
+    },
+    {
+      "id": "06",
+      "start_s": 11.0,
+      "end_s": 12.75,
+      "start_frame": 264,
+      "end_frame_exclusive": 306,
+      "cadre_action": "Deuxième insert lavabo, geste entier plus pressé.",
+      "jeu_regard_tenue": "Ouverture jusqu'à 11,30 ; eau 11,30–12,40 ; deux frottements 11,40–12,25 ; fermeture/retrait jusqu'à 12,75. Trajet plus direct, petit dépassement au retour. Pas un premier clip accéléré uniformément.",
+      "son": "Même matière d'eau, durée réduite sans hausse de niveau."
+    },
+    {
+      "id": "07",
+      "start_s": 12.75,
+      "end_s": 14.25,
+      "start_frame": 306,
+      "end_frame_exclusive": 342,
+      "cadre_action": "Papier et visage ; rouleau aminci. Il essuie en regardant une fois vers la poêle puis jette.",
+      "jeu_regard_tenue": "Plaisir devenu empressement. Regard poêle 4 images avant retour sur la main, bouche serrée. Un frottement ample et un bref. Le papier et le costume terminent légèrement après le mouvement du corps.",
+      "son": "Papier calé sur les deux vitesses réelles ; aucun son de sourcil."
+    },
+    {
+      "id": "08",
+      "start_s": 14.25,
+      "end_s": 15.0,
+      "start_frame": 342,
+      "end_frame_exclusive": 360,
+      "cadre_action": "Deuxième grosse boule, la première persiste.",
+      "jeu_regard_tenue": "La nouvelle boule déplace la précédente puis se stabilise ; aucun panier réinitialisé.",
+      "son": "Court tassement."
+    },
+    {
+      "id": "09",
+      "start_s": 15.0,
+      "end_s": 16.25,
+      "start_frame": 360,
+      "end_frame_exclusive": 390,
+      "cadre_action": "Plan moyen : tomate dans la poêle, puis inspection de moufle. Cuisson plus dorée, vapeur blanche accrue.",
+      "jeu_regard_tenue": "Départ vif, arrêt contrarié ; yeux trace → poêle → lavabo. Il veut poursuivre, sans encore remarquer une dégradation.",
+      "son": "Contact de tomate et cuisson, sans impact agressif."
+    },
+    {
+      "id": "10",
+      "start_s": 16.25,
+      "end_s": 17.75,
+      "start_frame": 390,
+      "end_frame_exclusive": 426,
+      "cadre_action": "Troisième lavabo, bref mais intégral.",
+      "jeu_regard_tenue": "Ouverture jusqu'à 16,50 ; eau jusqu'à 17,45 ; deux frottements 16,60–17,25 ; fermeture/retrait avant 17,75. Départs plus francs et arrêts nets, pas une main qui vibre sans contact.",
+      "son": "Jet identifiable au même ordre de niveau."
+    },
+    {
+      "id": "11",
+      "start_s": 17.75,
+      "end_s": 19.0,
+      "start_frame": 426,
+      "end_frame_exclusive": 456,
+      "cadre_action": "MOU tire encore trop de papier, essuie et lance presque machinalement.",
+      "jeu_regard_tenue": "Buste orienté vers la poêle pendant que les mains finissent ; deux essuyages d'amplitudes différentes. La bande garde une vraie largeur ; rouleau presque vide.",
+      "son": "Déchirure et frottements rapprochés, sans devenir plus forts."
+    },
+    {
+      "id": "12",
+      "start_s": 19.0,
+      "end_s": 19.5,
+      "start_frame": 456,
+      "end_frame_exclusive": 468,
+      "cadre_action": "Troisième boule au-dessus du bord.",
+      "jeu_regard_tenue": "Contact visible, une seule oscillation du tas.",
+      "son": "Froissement groupé discret."
+    },
+    {
+      "id": "13",
+      "start_s": 19.5,
+      "end_s": 21.0,
+      "start_frame": 468,
+      "end_frame_exclusive": 504,
+      "cadre_action": "Sel dans la poêle ; un grain reste sur la moufle. Il repose le sel et approche la cuillère.",
+      "jeu_regard_tenue": "Les pupilles repèrent le grain avant l'arrêt du bras ; bouche qui se ferme. Il voudrait ignorer ce contact trivial. Quelques bords brunissent dans la poêle.",
+      "son": "Petite pluie de sel ; fond inchangé."
+    },
+    {
+      "id": "14",
+      "start_s": 21.0,
+      "end_s": 23.0,
+      "start_frame": 504,
+      "end_frame_exclusive": 552,
+      "cadre_action": "Rapprochement lent, motivé par l'hésitation : main, MOU, bord de poêle. Il tente de reprendre la cuillère, se retient, cède.",
+      "jeu_regard_tenue": "Main 21–21,25 ; poêle 21,25–21,65 ; approche jusqu'à 21,95 ; arrêt 21,95–22,45. La main ne touche pas la cuillère. Retrait puis départ décidé vers lavabo à 22,65. Corps, bouche et yeux portent la même pensée.",
+      "son": "Les gestes se taisent pendant l'arrêt ; jazz continu. Aucun « boing » ou soupir nécessaire."
+    },
+    {
+      "id": "15",
+      "start_s": 23.0,
+      "end_s": 24.5,
+      "start_frame": 552,
+      "end_frame_exclusive": 588,
+      "cadre_action": "Quatrième et dernier lavabo.",
+      "jeu_regard_tenue": "Ouverture jusqu'à 23,25 ; eau jusqu'à 24,20 ; deux frottements 23,35–24,05 ; fermeture/retrait avant 24,50. Accents francs, forme de moufle lisible.",
+      "son": "Pas de jet plus assourdissant pour annoncer l'escalade."
+    },
+    {
+      "id": "16",
+      "start_s": 24.5,
+      "end_s": 28.0,
+      "start_frame": 588,
+      "end_frame_exclusive": 672,
+      "cadre_action": "Dernier papier, tube nu ; morceau assez grand pour envelopper les bouts de la moufle. La vapeur devient grisâtre. Il voit la poêle, regarde sa main humide, puis finit de sécher.",
+      "jeu_regard_tenue": "Tirage/déchirure jusqu'à 25,20 ; regard tube/arrêt jusqu'à 25,55 ; regard fumée jusqu'à 25,90, main jusqu'à 26,15 ; choix exposé jusqu'à 26,40. Deux frottements nerveux 26,40–27,35 ; compression/relevé avec dépassement bref ; froissage jusqu'à 28.",
+      "son": "Déchirure et deux frottements séparés ; cuisson légèrement plus sèche, sans gain brutal."
+    },
+    {
+      "id": "17",
+      "start_s": 28.0,
+      "end_s": 28.75,
+      "start_frame": 672,
+      "end_frame_exclusive": 690,
+      "cadre_action": "Dernier jet ; cadre gardant les attaches des bras.",
+      "jeu_regard_tenue": "Anticipation de 4 images, compression franche de 2–4 images, accélération puis retour amorti. Le papier quitte la moufle ; la main libre ne se duplique pas dans un smear.",
+      "son": "Froissage et relâchement brefs."
+    },
+    {
+      "id": "18",
+      "start_s": 28.75,
+      "end_s": 30.25,
+      "start_frame": 690,
+      "end_frame_exclusive": 726,
+      "cadre_action": "Dernière boule : contact avec le tas, rebond, chute au sol.",
+      "jeu_regard_tenue": "Contact vers 29 ; rebond exposé ; stabilisation au sol avant 29,95, tenue jusqu'à 30,25. Trois grosses boules restent au panier, seule la dernière tombe.",
+      "son": "Tassement, froissement, petit contact au sol."
+    },
+    {
+      "id": "19",
+      "start_s": 30.25,
+      "end_s": 31.5,
+      "start_frame": 726,
+      "end_frame_exclusive": 756,
+      "cadre_action": "Insert poêle : mêmes aliments noircis, fumée sombre peu dense.",
+      "jeu_regard_tenue": "Le spectateur voit le résultat avant la réaction. Pas de flammes ni d'alarme. Les positions générales des aliments assurent la continuité.",
+      "son": "Cuisson qui s'éteint progressivement ; jazz bas."
+    },
+    {
+      "id": "20",
+      "start_s": 31.5,
+      "end_s": 33.25,
+      "start_frame": 756,
+      "end_frame_exclusive": 798,
+      "cadre_action": "MOU et repas ensemble. Il découvre, recule, se fige.",
+      "jeu_regard_tenue": "Regard poêle avant la réaction. Extrême cartoon de 2–4 images puis bouche tombante, arrêt de lecture 12 images. Les yeux restent attachés au visage ; fumée derrière les mains, sans cacher les yeux.",
+      "son": "Raréfaction des effets, sans cri ni accent qui explique la pensée."
+    },
+    {
+      "id": "21",
+      "start_s": 33.25,
+      "end_s": 35.75,
+      "start_frame": 798,
+      "end_frame_exclusive": 858,
+      "cadre_action": "Même axe : il examine une moufle puis l'autre et les présente devant le repas noir.",
+      "jeu_regard_tenue": "Déception → constat des mains → satisfaction déplacée. Regards avant gestes ; mains à deux hauteurs, paumes lisibles, buste fièrement redressé. Sourire seulement après examen des deux mains. Plat noir et mains propres coexistent dans ce cadre pendant tout le plan.",
+      "son": "Les gestes de papier et la cuisson cessent ; jazz doux conservé. Pas de carillon « propre »."
+    },
+    {
+      "id": "22",
+      "start_s": 35.75,
+      "end_s": 38.0,
+      "start_frame": 858,
+      "end_frame_exclusive": 912,
+      "cadre_action": "Très léger élargissement : MOU face caméra, mains présentées ; repas fumant, poubelle pleine et dernière boulette au sol.",
+      "jeu_regard_tenue": "Le sourire né au plan 21 reste présent pendant que les pupilles rejoignent le public. Le corps achève la présentation : « au moins, ça, c'est réussi ». Aucun deuxième départ de sourire ni nouveau visage choqué. 37,25–38 s : pose tenue de 18 images, seule une volute continue derrière lui.",
+      "son": "Jazz jusqu'à une sortie finale courte, sans reprise ni nouveau gag sonore."
+    }
+  ]
+}

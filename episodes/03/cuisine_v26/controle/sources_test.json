@@ -1,0 +1,28 @@
+{
+  "sources_sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/animation.py": "29748212112335d5113f0cd77c7b6f7839b6cb675ebc5096333fb74582676bcd",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/poses.json": "ba81b9a395f650f4d21e51e2052af39933ff19dba69402d2f8aea48f42170db7",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/art.py": "481475ec22011957c341726e616b665841af723450cac6028411153349f2f924",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/render.py": "6a4a7078476adcb4f4d27dd3946c2e646ab0e5c329c722a59f1a905fa9cd7af5",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/test_scene.py": "b4b1d2f38ac7ef76ee3a556a27e8e9157e7b83583ac118449f725772a6ba4e8a",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/jeu_visage.py": "1eb3cbdf61b525ba6b1b3f9583e5ff40dbb9c3e8c3397efe1309ce474f777897",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/performance.py": "470be3672654baed33d29176cc2732adaf91548d9a02447f6b3aabbb8b6dddc4",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/cooking_fx.py": "f3e522fb3a953dcadc647b1f6fb5711029d2dbdc0d23923463c17c2dffbedc27",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/reference_animation.py": "b079195b7599a5a21042370d38480a780329b2378af9f0eeb536d97fc854e917",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/reference_performance.py": "6a3e64adfce3445ed9acd78721c5dda813325d9f7ef7865ab4156971855c281b",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/reference_jeu_visage.py": "2725f1dc7e4be5eb8bea7565b03b2cd23c723a4019ccfb3270b8d47f3970ef07",
+    "/workspace/MOU/episodes/03/cuisine_v26/sources/reference_acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/cuisine_v26/chronologie.json": "5695031652327ad1564ad7dac8036c67c6fbf61c8a37e4555e559ff8d53bbe6a",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/cuisine_v26/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+  },
+  "start_episode_seconds": 30.0,
+  "duration_seconds": 8.0,
+  "fps": 24,
+  "frames": 192,
+  "silent_video_sha256": "4045c4913807b3c4ec2cebcdf7466bfa4a07e58a53ebeab0e905121b303b25b8"
+}

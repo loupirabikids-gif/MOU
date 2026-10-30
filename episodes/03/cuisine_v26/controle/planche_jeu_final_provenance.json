@@ -1,0 +1,78 @@
+{
+  "source_video_sha256": "57e3cbb8b45595901aa18738643b135998fd97933460240f029d93855b516cc0",
+  "samples": [
+    {
+      "frame": 26,
+      "time_s": 1.0833333333333333,
+      "label": "Cuisine",
+      "decoded_png_sha256": "cd2ffe06224d185cf58488cd06283de3caad55b17c505db8894a5f95c7bdfb69"
+    },
+    {
+      "frame": 76,
+      "time_s": 3.1666666666666665,
+      "label": "Inspection",
+      "decoded_png_sha256": "6fe3d5c32b197ec05fcda45f6af76089cc3272384b03b643efa8528d92a72445"
+    },
+    {
+      "frame": 173,
+      "time_s": 7.208333333333333,
+      "label": "Soulagement",
+      "decoded_png_sha256": "731731f7a25c233a4f8907c3f6d98b52753a62f2b6cd0b1f0fd8cd88a6b579dc"
+    },
+    {
+      "frame": 319,
+      "time_s": 13.291666666666666,
+      "label": "Impatience",
+      "decoded_png_sha256": "2daf32e6093090fdc5c4c014a9e1de4d2c13219fd492ee183cd13a0bbc1d4d52"
+    },
+    {
+      "frame": 533,
+      "time_s": 22.208333333333332,
+      "label": "Résister",
+      "decoded_png_sha256": "ef7f8d89d09e5b15a4dbaebfd433f247af9e132f6b57163714dab651fc342994"
+    },
+    {
+      "frame": 619,
+      "time_s": 25.791666666666668,
+      "label": "Fumée vue",
+      "decoded_png_sha256": "81af323032363525a9218256289812e3c8fd5cf5bb11b58126baae4e1ab93119"
+    },
+    {
+      "frame": 637,
+      "time_s": 26.541666666666668,
+      "label": "Finir le rituel",
+      "decoded_png_sha256": "30ea8358d71c5ae24673941e993df68a88a04c2a307f93af8d5f80ae2ad1b3b1"
+    },
+    {
+      "frame": 765,
+      "time_s": 31.875,
+      "label": "Choc",
+      "decoded_png_sha256": "0f0a09cd3f4be64ac0ab603bb6ad249d92938f0f55d14d21dfbaa0a2dff49620"
+    },
+    {
+      "frame": 785,
+      "time_s": 32.708333333333336,
+      "label": "Repas perdu",
+      "decoded_png_sha256": "d9c1c371dd84c2d6b5c95f883936f133b092b2c7f9c0e9ac277291e005087329"
+    },
+    {
+      "frame": 821,
+      "time_s": 34.208333333333336,
+      "label": "Examiner les mains",
+      "decoded_png_sha256": "9cfff9f04eed82658979dd06777af5163b52c4cd4ff387882f8fe56ed6ddd4b6"
+    },
+    {
+      "frame": 852,
+      "time_s": 35.5,
+      "label": "Fausse victoire",
+      "decoded_png_sha256": "5665e0a706c80fafb25582d40f7511a653daa6096cea411bce50521ac62360cd"
+    },
+    {
+      "frame": 900,
+      "time_s": 37.5,
+      "label": "Public",
+      "decoded_png_sha256": "3a6b6e0847cb55a3b3594b3da52c881ed5320d3dd5897d2b97811f009f674290"
+    }
+  ],
+  "method": "FFmpeg frame decoding of final MP4; no cached SVG/PNG source used."
+}
