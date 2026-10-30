@@ -1,0 +1,81 @@
+MOU — Encore une feuille — V25
+30 octobre 2026, Africa/Casablanca
+
+LIVRAISON
+Film sonore et muet : 1080 × 1920, H.264/yuv420p, 24 images/s,
+1032 images, 43 secondes. Son AAC stéréo 48 kHz.
+Animatique complète : 540 × 960, 12 images/s, 516 images.
+Aperçu de la fin : 35–43 s, 8 secondes et 192 images.
+
+REPRISE DU JEU
+Corps, visage, costume et bras coordonnés ; pieds natifs hors rotation.
+Ancien balancement périodique de l'ouverture retiré ; plaisir de cuisiner,
+recul à l'inspection, attitudes et regards des rituels différenciés.
+Quatrième essuyage corrigé après critique du vrai MP4 : regard vers la
+poêle, penché tenu et bouche serrée, puis retour au papier.
+Fin : soulagement après 38,1 s, découverte des déchets avec recul,
+regard au public avant fermeture de bouche, quinze dernières images tenues.
+Le cadrage final est élargi pour exposer le jeu et garder « MOU » lisible.
+
+La critique indépendante a examiné l'animatique complète par séries et
+repères, identifié la faiblesse du quatrième essuyage, puis vérifié sa
+correction dans 19 images consécutives du nouveau MP4. La réserve ciblée
+est levée. L'ouverture garde un jeu discret : réserve de style explicitée.
+Voir controle/critique_montage_v25.md et developpement/corrections_v25.md.
+Il s'agit d'un examen d'images, pas d'une lecture continue ou d'un test public.
+
+MODÈLE ET CONTACTS
+Rig et fonctions natives des bras conservés ; aucun nouveau contour de main.
+QA indépendante : 1032 états, 215 SVG lavabo identiques à V24,
+1381 prises contraintes contrôlées, 817 états d'acteur avec rotation commune,
+pieds natifs rendus hors rotation ; inclinaisons de −3,3° à +3,7°.
+Contacts recalculés depuis les contrôles natifs ; erreur numérique maximale
+environ 2,1e−9 px. Contrôles raster des jambes/corps aux inclinaisons extrêmes
+et des masques des pupilles, inversion du regard corps puis visage.
+Les 105 images d'essuyage gardent les coordonnées monde des mains V24.
+Les quinze derniers SVG sont identiques ; modèle et costume conservés.
+
+SON
+Nouveau duo piano-contrebasse, sans ligne mélodique aiguë ni percussion.
+Grille continue à 108 BPM ; vélocités 28–36, attaques piano 45 ms/basse 35 ms.
+Niveau musical moyen environ 5,8 dB inférieur à V24 ; gain de livraison
+fixe +3,50 dB, sans normalisation du film annulant la baisse.
+31 événements papier adaptés à partir de sources MIT/CC0 documentées ;
+26 autres événements conservent leurs PCM, instants et gains.
+Les sources d'eau et de couteau restent synthétiques ; cette limite est
+explicite. Les captations papier, le carton adapté et la texture CC0 dont
+la méthode n'est pas documentée sont distingués dans la provenance.
+Les frottements suivent les mouvements des moufles. Le mix de 58 événements
+est reconstruit bit pour bit par la QA ; MIDI et partition contrôlés.
+Mix : 43 s, 48 kHz stéréo 16 bits, −30,57 LUFS, −14,15 dBTP,
+zéro écrêtage. L'AAC décodé correspond au WAV courant (corrélation 0,9981).
+Extrait final : échantillons exacts du mix 35–43 s, sans gain supplémentaire.
+Recette, sources et licences : developpement/son_v25.md.
+
+EXPORTS ET SOURCES
+Décodage complet sans erreur des deux MP4 ; flux vidéo compressés identiques
+entre versions sonore et muette. Cent images du vrai MP4 comparées à des
+rendus CairoSVG frais hors cache, y compris régions de visage, costume,
+épaules et mains adaptées à l'inclinaison. Sources restées gelées.
+Résultats : controle/audit_final.json et audit_revision_v25.json.
+
+ZIP : sources, chronologie, partition, banque, sons et notices, polices,
+critiques, corrections et manifeste SHA-256. Le contrôle froid reproduit
+quatre images et le mix depuis une extraction isolée sans réseau ni cache.
+Son audit_archive.json est produit hors ZIP pour éviter une empreinte
+circulaire. Commandes : sources/README.md.
+
+SHA-256
+Film sonore :
+a5f865db13979b6eea7accf8b207dd2de24857ffbd14de31c97593829d836155
+Film muet :
+4da5d1acaad0a5202797772c0b755d3d4b457b25a4f9fc296a20d9a9e14b9cf2
+Mix WAV :
+c2430570a3e08ee7bed41cb4ffdd6fa0315031b9adac7774ee2e67b773478f0c
+
+LIMITES
+Le modèle ne peut pas écouter l'audio ici. Les mesures ne certifient ni
+douceur perçue, ni naturel des effets, ni confort sonore. Le jeu a fait
+l'objet d'une critique d'images ; sa réussite auprès du public n'est pas
+établie. V24 et les essais précédents restent conservés. Livraison GitHub
+autorisée ; aucune publication sur réseau social ou statistique d'audience.

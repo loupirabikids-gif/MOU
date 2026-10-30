@@ -1,0 +1,557 @@
+{
+  "status": "passed",
+  "scope": "independent V25 transformations, contacts and PCM checks",
+  "limits": "No artistic, audience, continuous-viewing or listening approval is implied.",
+  "scene": {
+    "sink_frames_identical": 215,
+    "constrained_hand_targets_checked": 1381,
+    "actual_endpoint_frames": 1634,
+    "common_body_arm_transforms": 817,
+    "grounded_foot_groups": 1634,
+    "gaze_frames": 817,
+    "full_frames": 1032,
+    "external_v24_contact_comparison": "passed",
+    "native_arm_functions_unchanged": [
+      "controls",
+      "native_grip",
+      "world_grip",
+      "solve_arm",
+      "arm_linear_transform",
+      "_connect_left_root",
+      "soften_left_root",
+      "draw_arm"
+    ],
+    "canonical_rig_unchanged": true,
+    "new_poses_allowed": true,
+    "actual_performance_angle_min_max_degrees": [
+      -3.3,
+      3.7
+    ],
+    "maximum_free_hand_displacement_from_v24_pixels": 43.94200022143318,
+    "maximum_native_contact_error_pixels": 2.091958646875681e-09,
+    "final_hold_exact_frames": 15,
+    "body_leg_connected_rasters": [
+      {
+        "time_seconds": 2.5,
+        "angle_degrees": -1.7,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63191
+      },
+      {
+        "time_seconds": 7.375,
+        "angle_degrees": 2.8,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63222
+      },
+      {
+        "time_seconds": 7.708333333333333,
+        "angle_degrees": 2.8,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63222
+      },
+      {
+        "time_seconds": 31.583333333333332,
+        "angle_degrees": -3.3,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63194
+      },
+      {
+        "time_seconds": 32.0,
+        "angle_degrees": -3.3,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63194
+      },
+      {
+        "time_seconds": 40.875,
+        "angle_degrees": 3.7,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63215
+      },
+      {
+        "time_seconds": 41.291666666666664,
+        "angle_degrees": 3.7,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63215
+      },
+      {
+        "time_seconds": 41.4,
+        "angle_degrees": 3.7,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63215
+      },
+      {
+        "time_seconds": 41.708333333333336,
+        "angle_degrees": 3.7,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63215
+      },
+      {
+        "time_seconds": 42.5,
+        "angle_degrees": 0.8,
+        "nontrivial_connected_components": 1,
+        "painted_pixels": 63197
+      }
+    ],
+    "expression_phase_frames": {
+      "cuisine_absorbee": 168,
+      "premiere_inspection": 18,
+      "premier_soulagement": 76,
+      "precision_carotte": 68,
+      "inspection_repetee": 17,
+      "rituel_papier": 69,
+      "cuisine": 30,
+      "contretemps_recurrent": 60,
+      "assaisonner": 44,
+      "contretemps_pese": 36,
+      "impatience_retour_cuisine": 27,
+      "manche_propre": 21,
+      "dernier_papier": 117,
+      "cloture_gaspillage_courte": 66
+    }
+  },
+  "masks": {
+    "transformed_actual_pupil_rasters": [
+      {
+        "time_seconds": 0.5,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 0.5,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 2.5,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 2.5,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 3.5,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 3.5,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 7.125,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 7.125,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 7.375,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 7.375,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 11.9,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 11.9,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 12.5,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 12.5,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 22.875,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 22.875,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 28.9,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 28.9,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 35.7,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 35.7,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 36.3,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 36.3,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 37.3,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 37.3,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 38.2,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 38.2,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 40.5,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 40.5,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 40.875,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 40.875,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 41.4,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 41.4,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 41.8,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 41.8,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 42.5,
+        "eye": "mou-visage-v23-eye-l",
+        "outside_pixels": 0
+      },
+      {
+        "time_seconds": 42.5,
+        "eye": "mou-visage-v23-eye-r",
+        "outside_pixels": 0
+      }
+    ],
+    "zero_outside_pixels": true
+  },
+  "audio": {
+    "duration_seconds": 43.0,
+    "mix_sha256": "c2430570a3e08ee7bed41cb4ffdd6fa0315031b9adac7774ee2e67b773478f0c",
+    "events": 58,
+    "integer_pcm_reconstruction_exact": true,
+    "fixed_delivery_gain_db": 3.5,
+    "clipped_samples": 0,
+    "single_music_bed": true,
+    "single_water_event_per_wash": true,
+    "music_rms_change_db_against_v24_seconds2_to40": -5.803941436565249,
+    "music_active_tracks": [
+      "accords",
+      "basse"
+    ],
+    "melody_and_brushes_absent_from_score": true,
+    "music_note_count": 94,
+    "music_note_velocity_min_max": [
+      28,
+      36
+    ],
+    "per_note_additional_attack_seconds": {
+      "accords": 0.045,
+      "basse": 0.035
+    },
+    "soundfont_sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+    "actual_rub_motion_checks": [
+      {
+        "name": "c1_essuyage_1_v25",
+        "centre_seconds": 11.74576,
+        "independent_motion_peak_seconds": 11.74576,
+        "independent_peak_speed_pixels_per_second": 279.94145891789475
+      },
+      {
+        "name": "c1_essuyage_2_v25",
+        "centre_seconds": 12.05567,
+        "independent_motion_peak_seconds": 12.057753333333332,
+        "independent_peak_speed_pixels_per_second": 192.38877551790935
+      },
+      {
+        "name": "c2_essuyage_1_v25",
+        "centre_seconds": 19.87547,
+        "independent_motion_peak_seconds": 19.87547,
+        "independent_peak_speed_pixels_per_second": 297.4376076713467
+      },
+      {
+        "name": "c2_essuyage_2_v25",
+        "centre_seconds": 20.17028,
+        "independent_motion_peak_seconds": 20.168196666666667,
+        "independent_peak_speed_pixels_per_second": 204.4087638633084
+      },
+      {
+        "name": "c3_essuyage_1_v25",
+        "centre_seconds": 25.56459,
+        "independent_motion_peak_seconds": 25.56459,
+        "independent_peak_speed_pixels_per_second": 366.07034072888604
+      },
+      {
+        "name": "c3_essuyage_2_v25",
+        "centre_seconds": 25.80354,
+        "independent_motion_peak_seconds": 25.802498333333336,
+        "independent_peak_speed_pixels_per_second": 251.57903042887773
+      },
+      {
+        "name": "c4_essuyage_1_v25",
+        "centre_seconds": 31.44576,
+        "independent_motion_peak_seconds": 31.44576,
+        "independent_peak_speed_pixels_per_second": 279.9414589183242
+      },
+      {
+        "name": "c4_essuyage_2_v25",
+        "centre_seconds": 31.75567,
+        "independent_motion_peak_seconds": 31.757753333333334,
+        "independent_peak_speed_pixels_per_second": 192.38877551774678
+      },
+      {
+        "name": "c5_essuyage_1_v25",
+        "centre_seconds": 37.377,
+        "independent_motion_peak_seconds": 37.380125,
+        "independent_peak_speed_pixels_per_second": 108.88874893541309
+      },
+      {
+        "name": "c5_essuyage_2_v25",
+        "centre_seconds": 37.82,
+        "independent_motion_peak_seconds": 37.82,
+        "independent_peak_speed_pixels_per_second": 108.89004017755062
+      }
+    ],
+    "midi_independent_parse": {
+      "format": 1,
+      "tracks": 3,
+      "ticks_per_quarter": 480,
+      "tempo_microseconds_per_quarter": 555556,
+      "note_on_count": 94,
+      "active_channels": [
+        0,
+        1
+      ],
+      "programs": {
+        "0": 32,
+        "1": 0
+      },
+      "percussion_note_events": 0
+    },
+    "recorded_or_library_paper_replacements": 31,
+    "retained_v24_nonpaper_events_exact": 26,
+    "source_recording_files_verified": {
+      "assets/paper_recordings/wav/paper__flatten__01.wav": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "assets/paper_recordings/wav/cardboard__tear__01.wav": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+      "assets/paper_recordings/wav/paper__flatten__02.wav": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "assets/paper_recordings/wav/Ben_Burnes_Paper_Scraps.wav": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c"
+    },
+    "source_material_method_distinctions": {
+      "flatten01": {
+        "description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+        "recording_method_verified": true,
+        "licence": "MIT"
+      },
+      "cardboardtear": {
+        "description": "Actual thick-cardboard tearing recording; adapted quietly as a paper tear, not a towel recording.",
+        "recording_method_verified": true,
+        "licence": "MIT"
+      },
+      "flatten02": {
+        "description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+        "recording_method_verified": true,
+        "licence": "MIT"
+      },
+      "paperscraps": {
+        "description": "Paper Scraps library texture, adapted to visible crumpling; no claim of recorded crumple or towel capture.",
+        "recording_method_verified": false,
+        "licence": "CC0-1.0"
+      }
+    },
+    "paper_source_licence_notices_included": true,
+    "no_foreground_reaction_accents_after40_25": true,
+    "exact_final_excerpts": {
+      "test_fin_v25.wav": [
+        35.0,
+        43.0
+      ]
+    },
+    "limits": "An exact mix recipe and lower background RMS do not certify auditory softness or comfort."
+  },
+  "final_mp4s": {
+    "files": {
+      "MOU_Encore_une_feuille.mp4": {
+        "sha256": "a5f865db13979b6eea7accf8b207dd2de24857ffbd14de31c97593829d836155",
+        "frames": 1032,
+        "duration_seconds": 43.0,
+        "full_decode_without_errors": true
+      },
+      "MOU_Encore_une_feuille_muette.mp4": {
+        "sha256": "4da5d1acaad0a5202797772c0b755d3d4b457b25a4f9fc296a20d9a9e14b9cf2",
+        "frames": 1032,
+        "duration_seconds": 43.0,
+        "full_decode_without_errors": true
+      }
+    },
+    "same_compressed_video_bitstream": "59ef1d3d1995618d826ccc37af59a8fe6014cfc7fa91377dba4dc2ec465b64b2",
+    "aac_current_wav_correlation": 0.9981071018442113
+  },
+  "source_snapshot": {
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/animation.py": "32e61db35f9bc04edea631213552939108897bffa7b759f1347f5d756a305e09",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/art.py": "2a9818c90e47edc8d5ea9027e5e4e1904c6ce66067f5ba29a903e28a9366ff7d",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/render.py": "5c15b6c1ecfc434985e3e6f60f053d202ff57ee2c923c6205483661a0c904753",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/poses.json": "ba81b9a395f650f4d21e51e2052af39933ff19dba69402d2f8aea48f42170db7",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/jeu_visage.py": "2725f1dc7e4be5eb8bea7565b03b2cd23c723a4019ccfb3270b8d47f3970ef07",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/performance.py": "6a3e64adfce3445ed9acd78721c5dda813325d9f7ef7865ab4156971855c281b",
+    "/workspace/MOU/episodes/03/cuisine_v25/chronologie.json": "e8586365c28bc84ca6cf2d6427e22ecec5debe9f7df57c10a310534856584d99",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/son.py": "5da3dba0aa384cab7b5e1535bff2ec7df44cee9bdd3c4360804d071d4c83bf74",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/music.py": "8170599b9a4fd1a178134536c7bdb768a16fa0e1256d5afed38592ac98456ab6",
+    "/workspace/MOU/episodes/03/cuisine_v25/sources/foley.py": "ede5328c4a2eb405c3a5645e99601d45ca3b0fd845826ca4532606d2901f45b9",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/mix.wav": "c2430570a3e08ee7bed41cb4ffdd6fa0315031b9adac7774ee2e67b773478f0c",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/provenance.json": "79f03f41ca7e77fdb44ca0e0edd9be03eabc7fb75ea14f35ca2f5d8d3cb3d307",
+    "/workspace/MOU/episodes/03/cuisine_v25/controle/audit_son.json": "4cdd8babe74ac30fe6edc6f765c9bd1a34c1dd630d072b57cc12aea4c431f8de",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/partition_v25.json": "3998feba6df3026b14fb20357421573b6ffefeaf0c3c45db23d416e9318b19a7",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/partition_v25.mid": "dc2c14ff93392aa9313f14524d72e50b0064c390c5a56dc362ed9368d0d428a3",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/FluidR3_MOU_trio.sf2": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/provenance.json": "c71d5e57705551325eb6c2503517a0eab53cb8d9b00c928ccc8a84e6e06149c3",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/rights/atom_MIT_LICENSE.txt": "f688bd222a68aa26576832b07c97f54ee7da7cf11109b1eaaafbab3ff72d4ab0",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/rights/Ben_Burnes_Paper_Cutter_CC0.txt": "771c08981f268afb6783d0f8ac154d34618387898e5f2db01ec2f59553f877ea",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/wav/paper__flatten__01.wav": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/wav/Ben_Burnes_Paper_Scraps.wav": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/wav/paper__flatten__02.wav": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/wav/cardboard__tear__01.wav": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/evidence/atom_README.md": "a0e90e1a34ee85c7ead805e95251fc4e6d07bb387b837ea306ec7fb8dfd6f0a5",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/evidence/atom_map_paper.json": "501a01ae7e61830aa986063c07bcade0d171128f09605b1933773366ed1dd150",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/evidence/atom_map_cardboard.json": "0ae3990c7bf8394920bab420ac5893246d69bc17c9ab920068e59248f4cee6b7",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/evidence/atom_download_manifest.json": "b0eda866d0770e0ec674a38122b63df95e318a1b991f86362e753a53d39fb0c3",
+    "/workspace/MOU/episodes/03/cuisine_v25/assets/paper_recordings/evidence/library_source_manifest.json": "be3eb570fc566696d69209c74d45fc8424d9f0aa628f85440a166a623a2dbde7",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/provenance_reference_v24.json": "250530792792a56bee0b046cd9f3c7cae7f574f7adef31d0d514a62ad0899196",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/reference_levels_v23_v24.json": "055465fb00625c1469c374022deaad4735f4b9f2ac9c1ec13133f2380078f9d2",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/test_fin_v25.wav": "70bf2a80a9df9a237d61c1d71a92dab7d2fc0836a7598ed801180f72db84f6a3",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/cuisson_v22.wav": "d52f6d6ad89509dbc86d31716b244945425686a0ad43e0d6d28339adbf5f8fbd",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/musique_v25.wav": "0d9f235c6f9644b0c36de85c4a33fe81d0dee98733451943d5ab749efc0696ac",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/sifflement_p1_n1.wav": "164a04b8161badbb19be62de62278725e9972d837f3f0e6131057e4632a2212d",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/sifflement_p1_n2.wav": "32e2afbe2acf10c7a2f65099e979a4fc8264041369e861b87fa4184757786d8c",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/sifflement_p1_n3.wav": "ba38a0d8fd3327f1dafd9bd775441fb37c5c4550348c3b5791122cbf792abe04",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/cuillere_posee.wav": "3ce6bfa34e8db122d0d3960db4e16e2c07057ef35053ac65dc2adbb781aa73fa",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c1_eau.wav": "904fa2f63940489bc89e48a52614af6f3665c2d77ed62a550800bddc9f8e26d7",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c1_robinet_ouvre.wav": "aaef3e79e8719ffd518faf3551bb1f37a6165183274569fe80a4622b48bee4ad",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c1_robinet_ferme.wav": "554381837452401bc013661c307fd82302c9a594ee5ea718fac19696ae7d0ec0",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c1_papier_deroule_v25.wav": "1fcd1855f851f9d539520f59dc475c274fd160561010bdd17799785d1a011da5",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c1_papier_dechire_v25.wav": "2453a28408924cce98485dae109259ccfcbfc75333c81c049d4cb21b0a370842",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c1_essuyage_1_v25.wav": "df5914f68c111f6d6f497db2c8293d4bf0c34e742e970500d5fa9665ff9cfc22",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c1_essuyage_2_v25.wav": "5f2811c20f2476d4f0456cfa9ae2f50c1e39638f7fb1a84d6ccb3ef7063816f1",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c1_froissage_v25.wav": "04e8254163c2b121bfc02fe315cac8a03d35069417cd8b4b9f1e49f9d4063621",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c1_poubelle_impact_v25.wav": "1c299ee72b0fe2d057cba3d7b37597c8c2cf9c8308847096095502e9ca0b2c34",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/carotte_coupe_1.wav": "5d9c1be30c999a7879b20f929a6ea738bcae2dc61ffb4336386bd2bb15dbd994",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/carotte_coupe_2.wav": "a6660c4420f1fd493fa449a1518dbc36a4e81b59efedd56f9dcbae747496ab28",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/couteau_pose.wav": "ed4f901609636141330b0e90628b5ea818ab7b5139a98828f30cdcf9c76beed3",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c2_eau.wav": "b82e1d40a8d763d0aeff4b481cc8299035501b38b3d65c26a122879f2200eb73",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c2_robinet_ouvre.wav": "2527bac602dd5a365c57a85eadf9565294ffe220ea28f50f4137e8add7613d68",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c2_robinet_ferme.wav": "1edc08e903d0889be9cd24c8a7110a0ce10590166be7276fcc3d0c3b6c4649c7",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c2_papier_deroule_v25.wav": "f9011244944e10bf4d6e2f47c9392fdccaab8c1e01475999c17d7d495ab7003c",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c2_papier_dechire_v25.wav": "af3daa70e71c3fb70f0e8bf9fc1b660a40e25eddb8b3f6302c8094a19f97b9d0",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c2_essuyage_1_v25.wav": "46bc6edb432369a50030e54cf9e96f36b5962927187e488b4bd281c1fc5010d2",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c2_essuyage_2_v25.wav": "480154eb235747074c3d43d55c85f1e1c52ae0b78f68ae4f0be672dca8e3d646",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c2_froissage_v25.wav": "2ae663e12813c60c6ffa5231d088bc74f44548e5fe9b8e159a4ed975651ec89a",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c2_poubelle_impact_v25.wav": "46a730604675181e2706728c86212bb41903cc336856b1d2d75b81ad3a136b4b",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/contact_tomate.wav": "26f52390585c0a3e2e507f2e8e4fe43d92b1bff085eea56277a25607aa890f6c",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c3_eau.wav": "73cbd52b15675fdb42ed4ba004d577a59f773e6f2d3198d7581a1a98892cf789",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c3_robinet_ouvre.wav": "e03d96f95ec7b04e6d34c55fafc218e1c800569f64c2692a9970ff1dd4243fde",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c3_robinet_ferme.wav": "c862378cb8a9bd455b4d6c71ac5e0e2d33c7071c8f15c3a0e50317152fd0fc2f",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c3_papier_deroule_v25.wav": "f2d5fc41df9e9a4085ea6438ab0013430260fda028f133793f3eaf85a2ed5b2e",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c3_papier_dechire_v25.wav": "803ce0b3daf57c265d3fe6c6fcc9a6859eac114cd6af7e13712794a4e2369fa9",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c3_essuyage_1_v25.wav": "8fd92b01a49dfcdeba84f4b3097088acb7a2db2c644f829b3b4762e0a446e4f9",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c3_essuyage_2_v25.wav": "93546280c7a3cf2d55346536ef2e3640c9ee5b1a3e9858adf9014693d82314ab",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c3_froissage_v25.wav": "dfb3efef9413fc6df79e2f8d2f96031ed90e51d33419c6cd387fae0f33ff784e",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c3_poubelle_impact_v25.wav": "fed548a63019e952ea191e5ff5960b535a61f7e288e6b91f244100d2e8d22680",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/sel_saupoudre.wav": "9dfe3d37270526c49c11940fb7700b1ca051cdd12cc51b589b7359ade17a2f0c",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c4_eau.wav": "dec9417fda9daaf21cfca66da94fd20f14a663150fc69716c3ca5e22e3341022",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c4_robinet_ouvre.wav": "537c5795ab5813d8a938014ff0c25dadde681a96f85f944cb072edcebfbd1648",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c4_robinet_ferme.wav": "79beb613b012c6c7805c13d8f476b92ea9b3cdaf5f4ca3bc49d1e4ff22b5cf61",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c4_papier_deroule_v25.wav": "e76bf0c26fadd1541ae444e16e4d3413a7673cb79ae928e147a4cff1bbc9f93c",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c4_papier_dechire_v25.wav": "2453a28408924cce98485dae109259ccfcbfc75333c81c049d4cb21b0a370842",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c4_essuyage_1_v25.wav": "afb18454eaaa9a58708ddf5c90824e23b36a11ed743a6e2dc5bba972eb7f25b3",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c4_essuyage_2_v25.wav": "8826ac18c5bb5693eca7fb9055793568d9445a8cfbfcd2e38acad586f391390a",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c4_froissage_v25.wav": "4cfbe007e8b7feb24447317d9e63294f29c915aef0339e47ff0ae126c14d9550",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c4_poubelle_impact_v25.wav": "6b20f458348cd28fbadc801f748da92762dd742aaa6cced050a0747fca399c1c",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/contact_manche_propre.wav": "60e047b6f195f9af03a8311c8feabd6948f6de02a7387deb31d80b5f5c577a19",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c5_eau.wav": "f28108f3a9ac92a2058e83e5fe25945750075885986b502296c1ae0992aab138",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c5_robinet_ouvre.wav": "9c7d48787c5899be5bfb83602fa1df7d61c00da5981151f7eac33b62f6a47b09",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/processed_v22/c5_robinet_ferme.wav": "8b66a08276a1ca24aff1162958ee92c44da1ecdf09831c3f189bad175d1effcb",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c5_papier_deroule_v25.wav": "8c9617bc41e652de1f4e829169d3972703c7103bf550920c52fd47cb4d50b4f8",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c5_papier_dechire_v25.wav": "b6ab5da688cd6964f78518a510763e99c8478182976f7428a501c3098ef99abe",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c5_essuyage_1_v25.wav": "62f6d3b5c91fcc6ffbb00bb100d197dee6d4d01eaf009b6eb8e242bc4bf9b02b",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c5_essuyage_2_v25.wav": "5485119909e886115d8164612814a46f78264da0673da9d0a0baaf0d01fc933a",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c5_froissage_v25.wav": "e5f26c4e2617ecf42a8a996c9c79f8e791f76d0065da58bbbadb2887bf68a273",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c5_poubelle_impact_v25.wav": "15a452e3bc5d5daaa9b67b9805118fb3205654750c5aa44162de9166f1048d6a",
+    "/workspace/MOU/episodes/03/cuisine_v25/audio/foley_v25/c5_papier_sol_v25.wav": "188d55563afb5a907b44f91a3573a4110398227fccd0f12828f8511b19308370"
+  }
+}

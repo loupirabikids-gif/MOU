@@ -1,0 +1,22 @@
+{
+  "v23": {
+    "source": "episodes/03/cuisine_v23/audio/musique_v23.wav",
+    "source_sha256": "31b1eb935a51e7a93b02812b9bde5d2e0809094dbc048010a9f4fa9dabf13e38",
+    "measurement_seconds": [
+      2.0,
+      42.3
+    ],
+    "rms_dbfs": -31.984588900404884,
+    "peak_dbfs": -13.857791960340514
+  },
+  "v24": {
+    "source": "episodes/03/cuisine_v24/audio/musique_v24.wav",
+    "source_sha256": "f2bfa1a6ed04c06d22510aab58a110afd7b8d2cb242f9fa4d870647d17359eb9",
+    "measurement_seconds": [
+      2.0,
+      42.3
+    ],
+    "rms_dbfs": -35.984574766750896,
+    "peak_dbfs": -17.858501451122994
+  }
+}

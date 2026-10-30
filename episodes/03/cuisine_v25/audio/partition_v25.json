@@ -1,0 +1,1184 @@
+{
+  "original_score": true,
+  "style": "soft medium-register piano and double-bass jazz bed",
+  "bpm": 108.0,
+  "meter_beats": 4,
+  "global_clock_origin_seconds": 0.3,
+  "tonal_center": "A major, sixth/ninth and minor-seventh colours",
+  "notes": [
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 0,
+      "global_beat": -0.54,
+      "start": 0.0,
+      "duration": 2.472222222,
+      "midi_note": 59,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 0,
+      "global_beat": -0.54,
+      "start": 0.0,
+      "duration": 2.027777778,
+      "midi_note": 45,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 0,
+      "global_beat": -0.5238,
+      "start": 0.009,
+      "duration": 2.472222222,
+      "midi_note": 61,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 0,
+      "global_beat": -0.5076,
+      "start": 0.018,
+      "duration": 2.472222222,
+      "midi_note": 66,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 1,
+      "global_beat": 4.0,
+      "start": 2.522222222,
+      "duration": 2.027777778,
+      "midi_note": 57,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 1,
+      "global_beat": 4.0,
+      "start": 2.522222222,
+      "duration": 0.933333333,
+      "midi_note": 42,
+      "velocity": 35,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 1,
+      "global_beat": 4.0162,
+      "start": 2.531222222,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 1,
+      "global_beat": 4.0324,
+      "start": 2.540222222,
+      "duration": 2.027777778,
+      "midi_note": 64,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 1,
+      "global_beat": 6.0,
+      "start": 3.633333333,
+      "duration": 0.933333333,
+      "midi_note": 49,
+      "velocity": 33,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 2,
+      "global_beat": 8.0,
+      "start": 4.744444444,
+      "duration": 2.027777778,
+      "midi_note": 57,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 2,
+      "global_beat": 8.0,
+      "start": 4.744444444,
+      "duration": 0.933333333,
+      "midi_note": 47,
+      "velocity": 36,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 2,
+      "global_beat": 8.0162,
+      "start": 4.753444444,
+      "duration": 2.027777778,
+      "midi_note": 62,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 2,
+      "global_beat": 8.0324,
+      "start": 4.762444444,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 2,
+      "global_beat": 10.0,
+      "start": 5.855555556,
+      "duration": 0.933333333,
+      "midi_note": 54,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 3,
+      "global_beat": 12.0,
+      "start": 6.966666667,
+      "duration": 2.027777778,
+      "midi_note": 56,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 3,
+      "global_beat": 12.0,
+      "start": 6.966666667,
+      "duration": 0.933333333,
+      "midi_note": 40,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 3,
+      "global_beat": 12.0162,
+      "start": 6.975666667,
+      "duration": 2.027777778,
+      "midi_note": 62,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 3,
+      "global_beat": 12.0324,
+      "start": 6.984666667,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 3,
+      "global_beat": 14.0,
+      "start": 8.077777778,
+      "duration": 0.933333333,
+      "midi_note": 47,
+      "velocity": 32,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 4,
+      "global_beat": 16.0,
+      "start": 9.188888889,
+      "duration": 2.027777778,
+      "midi_note": 56,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 4,
+      "global_beat": 16.0,
+      "start": 9.188888889,
+      "duration": 0.933333333,
+      "midi_note": 45,
+      "velocity": 35,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 4,
+      "global_beat": 16.0162,
+      "start": 9.197888889,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 4,
+      "global_beat": 16.0324,
+      "start": 9.206888889,
+      "duration": 2.027777778,
+      "midi_note": 64,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 4,
+      "global_beat": 18.0,
+      "start": 10.3,
+      "duration": 0.933333333,
+      "midi_note": 52,
+      "velocity": 33,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 5,
+      "global_beat": 20.0,
+      "start": 11.411111111,
+      "duration": 2.027777778,
+      "midi_note": 53,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 5,
+      "global_beat": 20.0,
+      "start": 11.411111111,
+      "duration": 0.933333333,
+      "midi_note": 37,
+      "velocity": 36,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 5,
+      "global_beat": 20.0162,
+      "start": 11.420111111,
+      "duration": 2.027777778,
+      "midi_note": 59,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 5,
+      "global_beat": 20.0324,
+      "start": 11.429111111,
+      "duration": 2.027777778,
+      "midi_note": 63,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 5,
+      "global_beat": 22.0,
+      "start": 12.522222222,
+      "duration": 0.933333333,
+      "midi_note": 44,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 6,
+      "global_beat": 24.0,
+      "start": 13.633333333,
+      "duration": 2.027777778,
+      "midi_note": 57,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 6,
+      "global_beat": 24.0,
+      "start": 13.633333333,
+      "duration": 0.933333333,
+      "midi_note": 42,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 6,
+      "global_beat": 24.0162,
+      "start": 13.642333333,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 6,
+      "global_beat": 24.0324,
+      "start": 13.651333333,
+      "duration": 2.027777778,
+      "midi_note": 64,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 6,
+      "global_beat": 26.0,
+      "start": 14.744444444,
+      "duration": 0.933333333,
+      "midi_note": 49,
+      "velocity": 32,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 7,
+      "global_beat": 28.0,
+      "start": 15.855555556,
+      "duration": 2.027777778,
+      "midi_note": 56,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 7,
+      "global_beat": 28.0,
+      "start": 15.855555556,
+      "duration": 0.933333333,
+      "midi_note": 40,
+      "velocity": 35,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 7,
+      "global_beat": 28.0162,
+      "start": 15.864555556,
+      "duration": 2.027777778,
+      "midi_note": 62,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 7,
+      "global_beat": 28.0324,
+      "start": 15.873555556,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 7,
+      "global_beat": 30.0,
+      "start": 16.966666667,
+      "duration": 0.933333333,
+      "midi_note": 47,
+      "velocity": 33,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 8,
+      "global_beat": 32.0,
+      "start": 18.077777778,
+      "duration": 2.027777778,
+      "midi_note": 56,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 8,
+      "global_beat": 32.0,
+      "start": 18.077777778,
+      "duration": 0.933333333,
+      "midi_note": 45,
+      "velocity": 36,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 8,
+      "global_beat": 32.0162,
+      "start": 18.086777778,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 8,
+      "global_beat": 32.0324,
+      "start": 18.095777778,
+      "duration": 2.027777778,
+      "midi_note": 64,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 8,
+      "global_beat": 34.0,
+      "start": 19.188888889,
+      "duration": 0.933333333,
+      "midi_note": 52,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 9,
+      "global_beat": 36.0,
+      "start": 20.3,
+      "duration": 2.027777778,
+      "midi_note": 57,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 9,
+      "global_beat": 36.0,
+      "start": 20.3,
+      "duration": 0.933333333,
+      "midi_note": 42,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 9,
+      "global_beat": 36.0162,
+      "start": 20.309,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 9,
+      "global_beat": 36.0324,
+      "start": 20.318,
+      "duration": 2.027777778,
+      "midi_note": 64,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 9,
+      "global_beat": 38.0,
+      "start": 21.411111111,
+      "duration": 0.933333333,
+      "midi_note": 49,
+      "velocity": 32,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 10,
+      "global_beat": 40.0,
+      "start": 22.522222222,
+      "duration": 2.027777778,
+      "midi_note": 57,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 10,
+      "global_beat": 40.0,
+      "start": 22.522222222,
+      "duration": 0.933333333,
+      "midi_note": 47,
+      "velocity": 35,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 10,
+      "global_beat": 40.0162,
+      "start": 22.531222222,
+      "duration": 2.027777778,
+      "midi_note": 62,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 10,
+      "global_beat": 40.0324,
+      "start": 22.540222222,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 10,
+      "global_beat": 42.0,
+      "start": 23.633333333,
+      "duration": 0.933333333,
+      "midi_note": 54,
+      "velocity": 33,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 11,
+      "global_beat": 44.0,
+      "start": 24.744444444,
+      "duration": 2.027777778,
+      "midi_note": 56,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 11,
+      "global_beat": 44.0,
+      "start": 24.744444444,
+      "duration": 0.933333333,
+      "midi_note": 40,
+      "velocity": 36,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 11,
+      "global_beat": 44.0162,
+      "start": 24.753444444,
+      "duration": 2.027777778,
+      "midi_note": 62,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 11,
+      "global_beat": 44.0324,
+      "start": 24.762444444,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 11,
+      "global_beat": 46.0,
+      "start": 25.855555556,
+      "duration": 0.933333333,
+      "midi_note": 47,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 12,
+      "global_beat": 48.0,
+      "start": 26.966666667,
+      "duration": 2.027777778,
+      "midi_note": 57,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 12,
+      "global_beat": 48.0,
+      "start": 26.966666667,
+      "duration": 0.933333333,
+      "midi_note": 47,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 12,
+      "global_beat": 48.0162,
+      "start": 26.975666667,
+      "duration": 2.027777778,
+      "midi_note": 62,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 12,
+      "global_beat": 48.0324,
+      "start": 26.984666667,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 12,
+      "global_beat": 50.0,
+      "start": 28.077777778,
+      "duration": 0.933333333,
+      "midi_note": 54,
+      "velocity": 32,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 13,
+      "global_beat": 52.0,
+      "start": 29.188888889,
+      "duration": 2.027777778,
+      "midi_note": 56,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 13,
+      "global_beat": 52.0,
+      "start": 29.188888889,
+      "duration": 0.933333333,
+      "midi_note": 40,
+      "velocity": 35,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 13,
+      "global_beat": 52.0162,
+      "start": 29.197888889,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 13,
+      "global_beat": 52.0324,
+      "start": 29.206888889,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 13,
+      "global_beat": 54.0,
+      "start": 30.3,
+      "duration": 0.933333333,
+      "midi_note": 47,
+      "velocity": 33,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 14,
+      "global_beat": 56.0,
+      "start": 31.411111111,
+      "duration": 2.027777778,
+      "midi_note": 56,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 14,
+      "global_beat": 56.0,
+      "start": 31.411111111,
+      "duration": 0.933333333,
+      "midi_note": 45,
+      "velocity": 36,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 14,
+      "global_beat": 56.0162,
+      "start": 31.420111111,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 14,
+      "global_beat": 56.0324,
+      "start": 31.429111111,
+      "duration": 2.027777778,
+      "midi_note": 64,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 14,
+      "global_beat": 58.0,
+      "start": 32.522222222,
+      "duration": 0.933333333,
+      "midi_note": 52,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 15,
+      "global_beat": 60.0,
+      "start": 33.633333333,
+      "duration": 2.027777778,
+      "midi_note": 57,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 15,
+      "global_beat": 60.0,
+      "start": 33.633333333,
+      "duration": 0.933333333,
+      "midi_note": 45,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 15,
+      "global_beat": 60.0162,
+      "start": 33.642333333,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 15,
+      "global_beat": 60.0324,
+      "start": 33.651333333,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 15,
+      "global_beat": 62.0,
+      "start": 34.744444444,
+      "duration": 0.933333333,
+      "midi_note": 52,
+      "velocity": 32,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 16,
+      "global_beat": 64.0,
+      "start": 35.855555556,
+      "duration": 2.027777778,
+      "midi_note": 59,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 16,
+      "global_beat": 64.0,
+      "start": 35.855555556,
+      "duration": 0.933333333,
+      "midi_note": 45,
+      "velocity": 35,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 16,
+      "global_beat": 64.0162,
+      "start": 35.864555556,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 16,
+      "global_beat": 64.0324,
+      "start": 35.873555556,
+      "duration": 2.027777778,
+      "midi_note": 66,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 16,
+      "global_beat": 66.0,
+      "start": 36.966666667,
+      "duration": 0.933333333,
+      "midi_note": 52,
+      "velocity": 33,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 17,
+      "global_beat": 68.0,
+      "start": 38.077777778,
+      "duration": 2.027777778,
+      "midi_note": 57,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 17,
+      "global_beat": 68.0,
+      "start": 38.077777778,
+      "duration": 0.933333333,
+      "midi_note": 42,
+      "velocity": 36,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 17,
+      "global_beat": 68.0162,
+      "start": 38.086777778,
+      "duration": 2.027777778,
+      "midi_note": 61,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 17,
+      "global_beat": 68.0324,
+      "start": 38.095777778,
+      "duration": 2.027777778,
+      "midi_note": 64,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 17,
+      "global_beat": 70.0,
+      "start": 39.188888889,
+      "duration": 0.933333333,
+      "midi_note": 49,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 18,
+      "global_beat": 72.0,
+      "start": 40.3,
+      "duration": 2.6,
+      "midi_note": 57,
+      "velocity": 28,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 18,
+      "global_beat": 72.0,
+      "start": 40.3,
+      "duration": 0.933333333,
+      "midi_note": 45,
+      "velocity": 34,
+      "additional_attack_seconds": 0.035
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 18,
+      "global_beat": 72.0162,
+      "start": 40.309,
+      "duration": 2.591,
+      "midi_note": 61,
+      "velocity": 29,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+      "bar_index": 18,
+      "global_beat": 72.0324,
+      "start": 40.318,
+      "duration": 2.582,
+      "midi_note": 66,
+      "velocity": 30,
+      "additional_attack_seconds": 0.045
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass, soft two-feel",
+      "bar_index": 18,
+      "global_beat": 74.0,
+      "start": 41.411111111,
+      "duration": 0.933333333,
+      "midi_note": 52,
+      "velocity": 32,
+      "additional_attack_seconds": 0.035
+    }
+  ],
+  "instruments": {
+    "basse": {
+      "program": 32,
+      "bank": 0,
+      "channel": 0,
+      "gain": 0.55,
+      "pan": 54,
+      "instrument": "FluidR3 acoustic double bass, soft two-feel"
+    },
+    "accords": {
+      "program": 0,
+      "bank": 0,
+      "channel": 1,
+      "gain": 1.0,
+      "pan": 64,
+      "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords"
+    }
+  },
+  "continuous_global_clock": true,
+  "visual_cut_restarts": 0,
+  "frame_or_action_dependent_notes": false,
+  "score_inputs": [
+    "duration",
+    "bpm"
+  ],
+  "melody_line": false,
+  "drums_or_brushes": false,
+  "composition_character": "one held three-note piano chord per bar; two-feel bass, no walking line",
+  "opening": "A6/9 colour under original A5/C#6/B5 whistle; no new whistle",
+  "note_attack_seconds": {
+    "accords": 0.045,
+    "basse": 0.035
+  },
+  "velocity_range": [
+    28,
+    36
+  ],
+  "per_track_constant_balance": {
+    "basse": 260.2132139627211,
+    "accords": 628.7278187262363
+  },
+  "bass_rms_relative_to_piano_db": -8.0,
+  "one_global_music_calibration": 0.0078121170194748995,
+  "target_unducked_music_body_rms_dbfs": -41.5,
+  "body_measurement_seconds": [
+    2.0,
+    42.3
+  ],
+  "actual_unducked_body_rms_dbfs": -41.5,
+  "duck_db": -1.0,
+  "duck_intervals": [
+    [
+      7.75,
+      10.3
+    ],
+    [
+      16.5,
+      18.6
+    ],
+    [
+      23.0,
+      24.5
+    ],
+    [
+      29.0,
+      30.35
+    ],
+    [
+      34.0,
+      35.35
+    ]
+  ],
+  "duck_attack_seconds": 0.6,
+  "duck_release_seconds": 0.8,
+  "duck_gain_min": 0.8912509381337456,
+  "duck_gain_max": 1.0,
+  "ending_fade_seconds": [
+    42.4,
+    43.0
+  ],
+  "fixed_music_bus_compression": false,
+  "dynamic_normalization": false,
+  "fluidsynth_version": "2.4.4",
+  "soundfont": {
+    "file": "assets/FluidR3_MOU_trio.sf2",
+    "sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+    "license": "MIT FluidR3 subset, bundled notice"
+  },
+  "limits": "Composed/sample-rendered proposal with softened attacks and lower measured level. No listening or perceptual softness claim.",
+  "stems": [
+    {
+      "track": "basse",
+      "file": "jazz_basse_v25.wav",
+      "sha256": "6f49fe97ced9ae7fa1302b413bd035a2e0dddfad0036a58ac094d8e897acb3e0",
+      "actual_metrics": {
+        "rms_dbfs": -50.6040139938607,
+        "peak_dbfs": -33.944480826915246,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "track": "accords",
+      "file": "jazz_accords_v25.wav",
+      "sha256": "bfb8f303e044a1b3f2eedcd978d250f78f5ad87b846693fd0d621d162df183eb",
+      "actual_metrics": {
+        "rms_dbfs": -42.4322549723422,
+        "peak_dbfs": -22.869180469896058,
+        "clipped_samples": 0
+      }
+    }
+  ],
+  "music_source_sha256": "8170599b9a4fd1a178134536c7bdb768a16fa0e1256d5afed38592ac98456ab6",
+  "unattenuated_file": "jazz_sans_baisse_v25.wav",
+  "unattenuated_sha256": "e0e2a64b47c8f085881e43d5b76c742cda5b73dde7853d6fe8f9e0ce44f4f8ef",
+  "measured_music_body_rms_dbfs_pcm": -41.779254828088256,
+  "reference_level_comparison": {
+    "v23": {
+      "source": "episodes/03/cuisine_v23/audio/musique_v23.wav",
+      "source_sha256": "31b1eb935a51e7a93b02812b9bde5d2e0809094dbc048010a9f4fa9dabf13e38",
+      "measurement_seconds": [
+        2.0,
+        42.3
+      ],
+      "rms_dbfs": -31.984588900404884,
+      "peak_dbfs": -13.857791960340514,
+      "v25_minus_reference_rms_db": -9.794665927683372
+    },
+    "v24": {
+      "source": "episodes/03/cuisine_v24/audio/musique_v24.wav",
+      "source_sha256": "f2bfa1a6ed04c06d22510aab58a110afd7b8d2cb242f9fa4d870647d17359eb9",
+      "measurement_seconds": [
+        2.0,
+        42.3
+      ],
+      "rms_dbfs": -35.984574766750896,
+      "peak_dbfs": -17.858501451122994,
+      "v25_minus_reference_rms_db": -5.79468006133736
+    }
+  },
+  "reference_level_comparison_note": "Different calmer orchestration; differences are measured RMS levels, not proof of perceived softness."
+}

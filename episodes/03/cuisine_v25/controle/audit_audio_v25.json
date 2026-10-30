@@ -1,0 +1,3551 @@
+{
+  "episode": "03",
+  "revision": "V25 soft piano/bass bed and recorded-paper adaptations",
+  "duration_seconds": 43.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "samples_per_channel": 2064000,
+  "expected_video_frames": 1032,
+  "fps": 24,
+  "source_sha256": "5da3dba0aa384cab7b5e1535bff2ec7df44cee9bdd3c4360804d071d4c83bf74",
+  "music_source_sha256": "8170599b9a4fd1a178134536c7bdb768a16fa0e1256d5afed38592ac98456ab6",
+  "foley_source_sha256": "ede5328c4a2eb405c3a5645e99601d45ca3b0fd845826ca4532606d2901f45b9",
+  "chronologie_sha256": "e8586365c28bc84ca6cf2d6427e22ecec5debe9f7df57c10a310534856584d99",
+  "mix_sha256": "c2430570a3e08ee7bed41cb4ffdd6fa0315031b9adac7774ee2e67b773478f0c",
+  "event_count": 58,
+  "retained_v24_nonpaper_events": 26,
+  "recorded_paper_event_count": 31,
+  "recorded_paper_events": [
+    {
+      "name": "c1_papier_deroule_v25",
+      "kind": "paper_pull",
+      "cycle": 1,
+      "start": 10.965,
+      "duration": 0.34,
+      "replaces_event": "c1_papier_deroule",
+      "original_event_sha256": "cfda4d48eee60b86b2282be4d3bd633adb64ef51623aa45ca6158b93a12f7fdd",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.04,
+        "output_duration_seconds": 0.34,
+        "recording_duration_used_seconds": 0.34,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 4.1666666666666665e-05,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0012708333333333332,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -1.402108998775647e-05,
+          -1.402108998775647e-05
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -33.022963663571296,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 6.8135123186572315,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -1.4917448762670933,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -21.001341670225994
+      },
+      "sync": {
+        "action_interval": [
+          10.65,
+          11.4
+        ],
+        "target": "actual paper drag inside pull phase",
+        "starts_at_pull_fraction": 0.42
+      },
+      "file": "foley_v25/c1_papier_deroule_v25.wav",
+      "sha256": "1fcd1855f851f9d539520f59dc475c274fd160561010bdd17799785d1a011da5",
+      "start_sample": 526320,
+      "samples": 16320,
+      "end_seconds": 11.305,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -38.25066637749062,
+        "peak_dbfs": -21.001341670225994,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c1_papier_dechire_v25",
+      "kind": "paper_tear",
+      "cycle": 1,
+      "start": 11.4,
+      "duration": 0.2,
+      "replaces_event": "c1_papier_dechire",
+      "original_event_sha256": "f2c66e9b9e7e3fc7dc388b1172027374b375df2ec45742a13e7485683d49a98e",
+      "source_id": "cardboardtear",
+      "source_recording_file": "assets/paper_recordings/wav/cardboard__tear__01.wav",
+      "source_recording_sha256": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/cardboard__tear__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual thick-cardboard tearing recording; adapted quietly as a paper tear, not a towel recording.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.0,
+        "output_duration_seconds": 0.2,
+        "recording_duration_used_seconds": 0.2,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0021666666666666666,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0021875,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          0.0001402445329160577,
+          0.0001402445329160577
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -17.547883774578448,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -8.776870901251009,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -4.793676322264563,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -18.99912610181711
+      },
+      "sync": {
+        "action_interval": [
+          11.4,
+          12.25
+        ],
+        "target": "visible tear contact",
+        "contact_seconds": 11.4
+      },
+      "file": "foley_v25/c1_papier_dechire_v25.wav",
+      "sha256": "2453a28408924cce98485dae109259ccfcbfc75333c81c049d4cb21b0a370842",
+      "start_sample": 547200,
+      "samples": 9600,
+      "end_seconds": 11.6,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -38.36590912840578,
+        "peak_dbfs": -18.99912610181711,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c1_essuyage_1_v25",
+      "kind": "paper_wipe",
+      "cycle": 1,
+      "start": 11.61576,
+      "duration": 0.26,
+      "replaces_event": "c1_essuyage_1_v24",
+      "original_event_sha256": "c0f6e6180d663736a0436fafcf5740e85561cda62c221b420205358241bdd27c",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.13,
+        "output_duration_seconds": 0.26,
+        "recording_duration_used_seconds": 0.26,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 4.1666666666666665e-05,
+        "processed_first_activity_above_2pct_peak_seconds": 0.002458333333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -6.863139355745719e-07,
+          -6.863139355745719e-07
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -32.216126662726715,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 4.7618547907457405,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": 2.441318275951173,
+        "result_peak_dbfs": -23.05558010468102
+      },
+      "sync": {
+        "action_interval": [
+          11.4,
+          12.25
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 11.74576,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c1_essuyage_1_v25.wav",
+      "sha256": "df5914f68c111f6d6f497db2c8293d4bf0c34e742e970500d5fa9665ff9cfc22",
+      "start_sample": 557556,
+      "samples": 12480,
+      "end_seconds": 11.87576,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -39.49546989656267,
+        "peak_dbfs": -23.05558010468102,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c1_essuyage_2_v25",
+      "kind": "paper_wipe",
+      "cycle": 1,
+      "start": 11.925669999999998,
+      "duration": 0.26,
+      "replaces_event": "c1_essuyage_2_v24",
+      "original_event_sha256": "7ba8082fe5d32d3c3af68baf952742512d0d39197f3ee7ce28d9051eca424ee7",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.05,
+        "output_duration_seconds": 0.26,
+        "recording_duration_used_seconds": 0.26,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0014375,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -8.741127739559245e-05,
+          -8.741127739559245e-05
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -32.42331704448333,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 2.2542845494389234,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -3.30864693871288,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -23.19996829666401
+      },
+      "sync": {
+        "action_interval": [
+          11.4,
+          12.25
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 12.05567,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c1_essuyage_2_v25.wav",
+      "sha256": "5f2811c20f2476d4f0456cfa9ae2f50c1e39638f7fb1a84d6ccb3ef7063816f1",
+      "start_sample": 572432,
+      "samples": 12480,
+      "end_seconds": 12.185669999999998,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.21023510283032,
+        "peak_dbfs": -23.19996829666401,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c1_froissage_v25",
+      "kind": "paper_crumple",
+      "cycle": 1,
+      "start": 12.25,
+      "duration": 0.35,
+      "replaces_event": "c1_froissage_v24",
+      "original_event_sha256": "a16230510116d7a24b712e4c535c3afa5774c55daf35bf9ed06b62563e141aff",
+      "source_id": "paperscraps",
+      "source_recording_file": "assets/paper_recordings/wav/Ben_Burnes_Paper_Scraps.wav",
+      "source_recording_sha256": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Paper%20Scraps.wav",
+      "source_licence": "CC0-1.0",
+      "source_description": "Paper Scraps library texture, adapted to visible crumpling; no claim of recorded crumple or towel capture.",
+      "recording_method_verified": false,
+      "recording_method_note": "Author pack notice explicitly licenses existing sounds CC0, but microphone/recording method and precise paper gesture are undocumented in consulted evidence.",
+      "processing": {
+        "recording_offset_seconds": 0.7000000000000001,
+        "output_duration_seconds": 0.34999999999999964,
+        "recording_duration_used_seconds": 0.35,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0006041666666666667,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          6.153018250250581e-05,
+          6.017294454188632e-05
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -35.54910535557748,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 4.07112396564319,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": -5.707997270687704,
+        "result_peak_dbfs": -32.70416318128475
+      },
+      "sync": {
+        "action_interval": [
+          12.25,
+          12.6
+        ],
+        "target": "visible paper compression",
+        "material_adaptation": "Paper Scraps library texture; exact recorded gesture and recording method unknown"
+      },
+      "file": "foley_v25/c1_froissage_v25.wav",
+      "sha256": "04e8254163c2b121bfc02fe315cac8a03d35069417cd8b4b9f1e49f9d4063621",
+      "start_sample": 588000,
+      "samples": 16800,
+      "end_seconds": 12.6,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -43.51915821920472,
+        "peak_dbfs": -32.70416318128475,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c1_poubelle_impact_v25",
+      "kind": "paper_land",
+      "cycle": 1,
+      "start": 13.22,
+      "duration": 0.16,
+      "replaces_event": "c1_poubelle_impact",
+      "original_event_sha256": "4c8570bc3d8b2a7b57d5796c6b31addb1447fb58f8e66e5213f85c50b99e0a06",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.0,
+        "output_duration_seconds": 0.16,
+        "recording_duration_used_seconds": 0.16,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.002395833333333333,
+        "processed_first_activity_above_2pct_peak_seconds": 0.002395833333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          6.873994880421767e-05,
+          6.873994880421767e-05
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.02
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -29.217692143871187,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -7.10713195164163,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -2.783197852787696,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -23.00298372643461
+      },
+      "sync": {
+        "action_interval": [
+          13.22,
+          13.5
+        ],
+        "target": "paper reaches bin",
+        "contact_seconds": 13.22,
+        "material_adaptation": "recorded palm/paper contact adapted as soft paper landing"
+      },
+      "file": "foley_v25/c1_poubelle_impact_v25.wav",
+      "sha256": "1c299ee72b0fe2d057cba3d7b37597c8c2cf9c8308847096095502e9ca0b2c34",
+      "start_sample": 634560,
+      "samples": 7680,
+      "end_seconds": 13.38,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -48.36622559116344,
+        "peak_dbfs": -23.00298372643461,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_papier_deroule_v25",
+      "kind": "paper_pull",
+      "cycle": 2,
+      "start": 19.173,
+      "duration": 0.34,
+      "replaces_event": "c2_papier_deroule",
+      "original_event_sha256": "41d4a8c7a356f56b064a8d9a769607c347489982226441385e9a3c6c40e96d21",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.06,
+        "output_duration_seconds": 0.34,
+        "recording_duration_used_seconds": 0.34,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0014375,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          1.8711747542316515e-05,
+          1.8711747542316515e-05
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -32.77465081128783,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 5.56425890973051,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": 1.7437520715398471,
+        "result_peak_dbfs": -22.256893860796065
+      },
+      "sync": {
+        "action_interval": [
+          18.9,
+          19.55
+        ],
+        "target": "actual paper drag inside pull phase",
+        "starts_at_pull_fraction": 0.42
+      },
+      "file": "foley_v25/c2_papier_deroule_v25.wav",
+      "sha256": "f9011244944e10bf4d6e2f47c9392fdccaab8c1e01475999c17d7d495ab7003c",
+      "start_sample": 920304,
+      "samples": 16320,
+      "end_seconds": 19.512999999999998,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -39.251525783054575,
+        "peak_dbfs": -22.256893860796065,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_papier_dechire_v25",
+      "kind": "paper_tear",
+      "cycle": 2,
+      "start": 19.55,
+      "duration": 0.18,
+      "replaces_event": "c2_papier_dechire",
+      "original_event_sha256": "29cecad24f0058d12c561222cc394e3a7e60fd39fc07c2ea804919bbbeb935a8",
+      "source_id": "cardboardtear",
+      "source_recording_file": "assets/paper_recordings/wav/cardboard__tear__01.wav",
+      "source_recording_sha256": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/cardboard__tear__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual thick-cardboard tearing recording; adapted quietly as a paper tear, not a towel recording.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.005,
+        "output_duration_seconds": 0.18,
+        "recording_duration_used_seconds": 0.18,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.014083333333333333,
+        "processed_first_activity_above_2pct_peak_seconds": 0.014083333333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -0.00010075740488463476,
+          -0.00010075740488463476
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -17.096182664931874,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -8.770076723470313,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -2.5992490565859843,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -18.99912610181711
+      },
+      "sync": {
+        "action_interval": [
+          19.55,
+          20.35
+        ],
+        "target": "visible tear contact",
+        "contact_seconds": 19.55
+      },
+      "file": "foley_v25/c2_papier_dechire_v25.wav",
+      "sha256": "af3daa70e71c3fb70f0e8bf9fc1b660a40e25eddb8b3f6302c8094a19f97b9d0",
+      "start_sample": 938400,
+      "samples": 8640,
+      "end_seconds": 19.73,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -37.907473327924706,
+        "peak_dbfs": -18.99912610181711,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_essuyage_1_v25",
+      "kind": "paper_wipe",
+      "cycle": 2,
+      "start": 19.74547,
+      "duration": 0.26,
+      "replaces_event": "c2_essuyage_1_v24",
+      "original_event_sha256": "35bc32a62d703da90d162ce3e3d2c8ae8abdb6957e315b0c4e997877dac3c8ac",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.06,
+        "output_duration_seconds": 0.26,
+        "recording_duration_used_seconds": 0.26,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0010833333333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -2.250725676599603e-05,
+          -2.250725676599603e-05
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -33.440353026330456,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 4.4441705088618475,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -3.144437231341552,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -22.497361128185652
+      },
+      "sync": {
+        "action_interval": [
+          19.55,
+          20.35
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 19.87547,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c2_essuyage_1_v25.wav",
+      "sha256": "46bc6edb432369a50030e54cf9e96f36b5962927187e488b4bd281c1fc5010d2",
+      "start_sample": 947783,
+      "samples": 12480,
+      "end_seconds": 20.005470000000003,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -41.03745765579366,
+        "peak_dbfs": -22.497361128185652,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_essuyage_2_v25",
+      "kind": "paper_wipe",
+      "cycle": 2,
+      "start": 20.040280000000003,
+      "duration": 0.26,
+      "replaces_event": "c2_essuyage_2_v24",
+      "original_event_sha256": "1a2aa70906d7677bce05a66d81722e0d288ea5bf95471a981613b59fe3c5e2c0",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.13999999999999999,
+        "output_duration_seconds": 0.26,
+        "recording_duration_used_seconds": 0.26,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0012708333333333332,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -1.0814888132547577e-05,
+          -1.0814888132547577e-05
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -32.45641320788254,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 3.94004038749424,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": 2.3231519977932704,
+        "result_peak_dbfs": -23.87703008988748
+      },
+      "sync": {
+        "action_interval": [
+          19.55,
+          20.35
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 20.17028,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c2_essuyage_2_v25.wav",
+      "sha256": "480154eb235747074c3d43d55c85f1e1c52ae0b78f68ae4f0be672dca8e3d646",
+      "start_sample": 961933,
+      "samples": 12480,
+      "end_seconds": 20.300280000000004,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -40.55756205547055,
+        "peak_dbfs": -23.87703008988748,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_froissage_v25",
+      "kind": "paper_crumple",
+      "cycle": 2,
+      "start": 20.35,
+      "duration": 0.35,
+      "replaces_event": "c2_froissage_v24",
+      "original_event_sha256": "fedacb29c494bbf1c2a4cd60e51c628f86242c661382e353133502a279bb2852",
+      "source_id": "paperscraps",
+      "source_recording_file": "assets/paper_recordings/wav/Ben_Burnes_Paper_Scraps.wav",
+      "source_recording_sha256": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Paper%20Scraps.wav",
+      "source_licence": "CC0-1.0",
+      "source_description": "Paper Scraps library texture, adapted to visible crumpling; no claim of recorded crumple or towel capture.",
+      "recording_method_verified": false,
+      "recording_method_note": "Author pack notice explicitly licenses existing sounds CC0, but microphone/recording method and precise paper gesture are undocumented in consulted evidence.",
+      "processing": {
+        "recording_offset_seconds": 0.75,
+        "output_duration_seconds": 0.34999999999999787,
+        "recording_duration_used_seconds": 0.35,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0007291666666666667,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -7.09303221452187e-05,
+          -7.120718201881411e-05
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -35.69535748845056,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 4.923934660082628,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": -4.934941587736146,
+        "result_peak_dbfs": -31.937908088188887
+      },
+      "sync": {
+        "action_interval": [
+          20.35,
+          20.7
+        ],
+        "target": "visible paper compression",
+        "material_adaptation": "Paper Scraps library texture; exact recorded gesture and recording method unknown"
+      },
+      "file": "foley_v25/c2_froissage_v25.wav",
+      "sha256": "2ae663e12813c60c6ffa5231d088bc74f44548e5fe9b8e159a4ed975651ec89a",
+      "start_sample": 976800,
+      "samples": 16800,
+      "end_seconds": 20.700000000000003,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.81257133742619,
+        "peak_dbfs": -31.937908088188887,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_poubelle_impact_v25",
+      "kind": "paper_land",
+      "cycle": 2,
+      "start": 21.27,
+      "duration": 0.16,
+      "replaces_event": "c2_poubelle_impact_v24",
+      "original_event_sha256": "9f73335f05817b1185531f3ad6640b83b12cee145ef546f79d028613cdd20209",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.18,
+        "output_duration_seconds": 0.16,
+        "recording_duration_used_seconds": 0.16,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.000375,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          9.414755462144874e-06,
+          9.414755462144874e-06
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.02
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -33.28321732252053,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 0.5660378885193705,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": 0.6281947688590035,
+        "result_peak_dbfs": -26.36890413873344
+      },
+      "sync": {
+        "action_interval": [
+          21.27,
+          21.5
+        ],
+        "target": "paper reaches bin",
+        "contact_seconds": 21.27,
+        "material_adaptation": "recorded palm/paper contact adapted as soft paper landing"
+      },
+      "file": "foley_v25/c2_poubelle_impact_v25.wav",
+      "sha256": "46a730604675181e2706728c86212bb41903cc336856b1d2d75b81ad3a136b4b",
+      "start_sample": 1020960,
+      "samples": 7680,
+      "end_seconds": 21.43,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -44.75857776992899,
+        "peak_dbfs": -26.36890413873344,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_papier_deroule_v25",
+      "kind": "paper_pull",
+      "cycle": 3,
+      "start": 24.986800000000002,
+      "duration": 0.3069375,
+      "replaces_event": "c3_papier_deroule",
+      "original_event_sha256": "6d888d9efe6f2625144294d6b928946f2d27aed494f56e315e95e201b9696dab",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.05,
+        "output_duration_seconds": 0.3069359999999995,
+        "recording_duration_used_seconds": 0.3069375,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 2.0833333333333333e-05,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0016458333333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -1.3887456352083875e-05,
+          -1.3887456352083875e-05
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -33.314120657787065,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 6.813540862725994,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -0.5837126356868203,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -21.001341670225994
+      },
+      "sync": {
+        "action_interval": [
+          24.76,
+          25.3
+        ],
+        "target": "actual paper drag inside pull phase",
+        "starts_at_pull_fraction": 0.42
+      },
+      "file": "foley_v25/c3_papier_deroule_v25.wav",
+      "sha256": "f2d5fc41df9e9a4085ea6438ab0013430260fda028f133793f3eaf85a2ed5b2e",
+      "start_sample": 1199366,
+      "samples": 14733,
+      "end_seconds": 25.293737500000002,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -38.541790102063665,
+        "peak_dbfs": -21.001341670225994,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_papier_dechire_v25",
+      "kind": "paper_tear",
+      "cycle": 3,
+      "start": 25.3,
+      "duration": 0.14,
+      "replaces_event": "c3_papier_dechire",
+      "original_event_sha256": "451a71bc960704dc16288e6725382e077f9cc11a03aebea68a9ca746ebf403d8",
+      "source_id": "cardboardtear",
+      "source_recording_file": "assets/paper_recordings/wav/cardboard__tear__01.wav",
+      "source_recording_sha256": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/cardboard__tear__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual thick-cardboard tearing recording; adapted quietly as a paper tear, not a towel recording.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.02,
+        "output_duration_seconds": 0.14,
+        "recording_duration_used_seconds": 0.14,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.002,
+        "processed_first_activity_above_2pct_peak_seconds": 0.002,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -0.00038364669542406747,
+          -0.00038364669542406747
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -16.0191287175928,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -8.762094897132563,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -0.8610596022496391,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -18.99912610181711
+      },
+      "sync": {
+        "action_interval": [
+          25.3,
+          25.95
+        ],
+        "target": "visible tear contact",
+        "contact_seconds": 25.3
+      },
+      "file": "foley_v25/c3_papier_dechire_v25.wav",
+      "sha256": "803ce0b3daf57c265d3fe6c6fcc9a6859eac114cd6af7e13712794a4e2369fa9",
+      "start_sample": 1214400,
+      "samples": 6720,
+      "end_seconds": 25.44,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -36.82238636989327,
+        "peak_dbfs": -18.99912610181711,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_essuyage_1_v25",
+      "kind": "paper_wipe",
+      "cycle": 3,
+      "start": 25.444589999999998,
+      "duration": 0.24,
+      "replaces_event": "c3_essuyage_1_v24",
+      "original_event_sha256": "a2e919768bbe39827f6648671400c2487760d74cdce712fc939ed6b0a5218526",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.12,
+        "output_duration_seconds": 0.24,
+        "recording_duration_used_seconds": 0.24,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.003,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -4.882955463954749e-06,
+          -4.882955463954749e-06
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -32.78354960586483,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 5.319639868254572,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -0.0988899550642453,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -22.497361128185652
+      },
+      "sync": {
+        "action_interval": [
+          25.3,
+          25.95
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 25.56459,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c3_essuyage_1_v25.wav",
+      "sha256": "8fd92b01a49dfcdeba84f4b3097088acb7a2db2c644f829b3b4762e0a446e4f9",
+      "start_sample": 1221340,
+      "samples": 11520,
+      "end_seconds": 25.684589999999996,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -39.505124571674784,
+        "peak_dbfs": -22.497361128185652,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_essuyage_2_v25",
+      "kind": "paper_wipe",
+      "cycle": 3,
+      "start": 25.68354,
+      "duration": 0.24,
+      "replaces_event": "c3_essuyage_2_v24",
+      "original_event_sha256": "30c017388d863d73fbfb0d0a651e955d6b360bc4333431f6403b9fe98e9c58b1",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.04,
+        "output_duration_seconds": 0.24,
+        "recording_duration_used_seconds": 0.24,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 2.0833333333333333e-05,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0021041666666666665,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -2.5478811295590966e-06,
+          -2.5478811295590966e-06
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -31.82703029951274,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 1.9290454294757529,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -2.8416435581366226,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -23.19996829666401
+      },
+      "sync": {
+        "action_interval": [
+          25.3,
+          25.95
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 25.80354,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c3_essuyage_2_v25.wav",
+      "sha256": "93546280c7a3cf2d55346536ef2e3640c9ee5b1a3e9858adf9014693d82314ab",
+      "start_sample": 1232810,
+      "samples": 11520,
+      "end_seconds": 25.92354,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -41.93926454999794,
+        "peak_dbfs": -23.19996829666401,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_froissage_v25",
+      "kind": "paper_crumple",
+      "cycle": 3,
+      "start": 25.95,
+      "duration": 0.3,
+      "replaces_event": "c3_froissage_v24",
+      "original_event_sha256": "63254b0ca8a8464d0352f7372d03e856409ed6b6c73de255653f3c4fe9db4a6a",
+      "source_id": "paperscraps",
+      "source_recording_file": "assets/paper_recordings/wav/Ben_Burnes_Paper_Scraps.wav",
+      "source_recording_sha256": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Paper%20Scraps.wav",
+      "source_licence": "CC0-1.0",
+      "source_description": "Paper Scraps library texture, adapted to visible crumpling; no claim of recorded crumple or towel capture.",
+      "recording_method_verified": false,
+      "recording_method_note": "Author pack notice explicitly licenses existing sounds CC0, but microphone/recording method and precise paper gesture are undocumented in consulted evidence.",
+      "processing": {
+        "recording_offset_seconds": 0.8,
+        "output_duration_seconds": 0.3000000000000007,
+        "recording_duration_used_seconds": 0.3,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0007916666666666666,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -0.0001478801939986359,
+          -0.00014014086971821864
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -36.073084939945524,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 5.164651051677281,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": -4.740895552282509,
+        "result_peak_dbfs": -31.741081654060082
+      },
+      "sync": {
+        "action_interval": [
+          25.95,
+          26.25
+        ],
+        "target": "visible paper compression",
+        "material_adaptation": "Paper Scraps library texture; exact recorded gesture and recording method unknown"
+      },
+      "file": "foley_v25/c3_froissage_v25.wav",
+      "sha256": "dfb3efef9413fc6df79e2f8d2f96031ed90e51d33419c6cd387fae0f33ff784e",
+      "start_sample": 1245600,
+      "samples": 14400,
+      "end_seconds": 26.25,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.94971463103689,
+        "peak_dbfs": -31.741081654060082,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_poubelle_impact_v25",
+      "kind": "paper_land",
+      "cycle": 3,
+      "start": 26.77,
+      "duration": 0.16,
+      "replaces_event": "c3_poubelle_impact_v24",
+      "original_event_sha256": "34328dba42cb5b7544ba40fc1768c07290e1a9ceb73536f59fa1edbabe4a92c0",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.3,
+        "output_duration_seconds": 0.16,
+        "recording_duration_used_seconds": 0.16,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 4.1666666666666665e-05,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0007916666666666666,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -3.0842814571063745e-05,
+          -3.0842814571063745e-05
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.02
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -35.475599703601674,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": 0.2557703387039567
+        },
+        "fixed_gain_db": 0.2435614370376406,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -1.7162683065418376,
+        "peak_db_change_from_old_cue": 2.999999999999999,
+        "result_peak_dbfs": -23.700723232210542
+      },
+      "sync": {
+        "action_interval": [
+          26.77,
+          27.0
+        ],
+        "target": "paper reaches bin",
+        "contact_seconds": 26.77,
+        "material_adaptation": "recorded palm/paper contact adapted as soft paper landing"
+      },
+      "file": "foley_v25/c3_poubelle_impact_v25.wav",
+      "sha256": "fed548a63019e952ea191e5ff5960b535a61f7e288e6b91f244100d2e8d22680",
+      "start_sample": 1284960,
+      "samples": 7680,
+      "end_seconds": 26.93,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -47.31718795347665,
+        "peak_dbfs": -23.700723232210542,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_papier_deroule_v25",
+      "kind": "paper_pull",
+      "cycle": 4,
+      "start": 30.810000000000002,
+      "duration": 0.28420833333333334,
+      "replaces_event": "c4_papier_deroule",
+      "original_event_sha256": "888ba72a94d37911cd6ce706f5a3a1973c79ff9b02fb393748b1df851e193ffe",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.08,
+        "output_duration_seconds": 0.28419999999999995,
+        "recording_duration_used_seconds": 0.28420833333333334,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0014375,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          1.5630220150160538e-06,
+          1.5630220150160538e-06
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -33.213039096743984,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 6.816841708683006,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -0.7190888737254206,
+        "peak_db_change_from_old_cue": 3.000000000000002,
+        "result_peak_dbfs": -21.001341670225994
+      },
+      "sync": {
+        "action_interval": [
+          30.6,
+          31.1
+        ],
+        "target": "actual paper drag inside pull phase",
+        "starts_at_pull_fraction": 0.42
+      },
+      "file": "foley_v25/c4_papier_deroule_v25.wav",
+      "sha256": "e76bf0c26fadd1541ae444e16e4d3413a7673cb79ae928e147a4cff1bbc9f93c",
+      "start_sample": 1478880,
+      "samples": 13642,
+      "end_seconds": 31.094208333333334,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -38.43741834920652,
+        "peak_dbfs": -21.001341670225994,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_papier_dechire_v25",
+      "kind": "paper_tear",
+      "cycle": 4,
+      "start": 31.1,
+      "duration": 0.2,
+      "replaces_event": "c4_papier_dechire",
+      "original_event_sha256": "1363bcc004927d4b2fb931c1f4d3568e688eb9a113c7b829e664ce19289f19d8",
+      "source_id": "cardboardtear",
+      "source_recording_file": "assets/paper_recordings/wav/cardboard__tear__01.wav",
+      "source_recording_sha256": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/cardboard__tear__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual thick-cardboard tearing recording; adapted quietly as a paper tear, not a towel recording.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.0,
+        "output_duration_seconds": 0.2,
+        "recording_duration_used_seconds": 0.2,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0021666666666666666,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0021875,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          0.0001402445329160577,
+          0.0001402445329160577
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -17.547883774578448,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -8.776870901251009,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -3.582011234969062,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -18.99912610181711
+      },
+      "sync": {
+        "action_interval": [
+          31.1,
+          31.95
+        ],
+        "target": "visible tear contact",
+        "contact_seconds": 31.1
+      },
+      "file": "foley_v25/c4_papier_dechire_v25.wav",
+      "sha256": "2453a28408924cce98485dae109259ccfcbfc75333c81c049d4cb21b0a370842",
+      "start_sample": 1492800,
+      "samples": 9600,
+      "end_seconds": 31.3,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -38.36590912840578,
+        "peak_dbfs": -18.99912610181711,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_essuyage_1_v25",
+      "kind": "paper_wipe",
+      "cycle": 4,
+      "start": 31.31576,
+      "duration": 0.26,
+      "replaces_event": "c4_essuyage_1_v24",
+      "original_event_sha256": "1be32ae97f60140ae8e597db0f66623e26b1d6b6af0434505704bc27e8003f81",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.05,
+        "output_duration_seconds": 0.26,
+        "recording_duration_used_seconds": 0.26,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0014375,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -8.741127739559245e-05,
+          -8.741127739559245e-05
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -32.42331704448333,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 2.9557687802731007,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -3.7690972517234784,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -22.497361128185652
+      },
+      "sync": {
+        "action_interval": [
+          31.1,
+          31.95
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 31.44576,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c4_essuyage_1_v25.wav",
+      "sha256": "afb18454eaaa9a58708ddf5c90824e23b36a11ed743a6e2dc5bba972eb7f25b3",
+      "start_sample": 1503156,
+      "samples": 12480,
+      "end_seconds": 31.575760000000002,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -41.5087821990267,
+        "peak_dbfs": -22.497361128185652,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_essuyage_2_v25",
+      "kind": "paper_wipe",
+      "cycle": 4,
+      "start": 31.62567,
+      "duration": 0.26,
+      "replaces_event": "c4_essuyage_2_v24",
+      "original_event_sha256": "9b6d45fa0f860f00d6286fc57b0a57fa2e26dd4dfca1bba4020f618f481614c4",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.13,
+        "output_duration_seconds": 0.26,
+        "recording_duration_used_seconds": 0.26,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 4.1666666666666665e-05,
+        "processed_first_activity_above_2pct_peak_seconds": 0.002458333333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -6.863139355745719e-07,
+          -6.863139355745719e-07
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -32.216126662726715,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 4.61905228396039,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -0.9390266270615283,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -23.19996829666401
+      },
+      "sync": {
+        "action_interval": [
+          31.1,
+          31.95
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 31.75567,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c4_essuyage_2_v25.wav",
+      "sha256": "8826ac18c5bb5693eca7fb9055793568d9445a8cfbfcd2e38acad586f391390a",
+      "start_sample": 1518032,
+      "samples": 12480,
+      "end_seconds": 31.88567,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -39.63833974955627,
+        "peak_dbfs": -23.19996829666401,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_froissage_v25",
+      "kind": "paper_crumple",
+      "cycle": 4,
+      "start": 31.95,
+      "duration": 0.3,
+      "replaces_event": "c4_froissage_v24",
+      "original_event_sha256": "781ff351a502e770e161539fb7ef000b9519f6d661ada3833ee11c9d7d02c4f0",
+      "source_id": "paperscraps",
+      "source_recording_file": "assets/paper_recordings/wav/Ben_Burnes_Paper_Scraps.wav",
+      "source_recording_sha256": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Paper%20Scraps.wav",
+      "source_licence": "CC0-1.0",
+      "source_description": "Paper Scraps library texture, adapted to visible crumpling; no claim of recorded crumple or towel capture.",
+      "recording_method_verified": false,
+      "recording_method_note": "Author pack notice explicitly licenses existing sounds CC0, but microphone/recording method and precise paper gesture are undocumented in consulted evidence.",
+      "processing": {
+        "recording_offset_seconds": 0.8500000000000001,
+        "output_duration_seconds": 0.3000000000000007,
+        "recording_duration_used_seconds": 0.3,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0009375,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -2.8464695107730778e-05,
+          -1.7194238881393807e-05
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -35.63633403759883,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 5.018776980339707,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": -1.8444166164268587,
+        "result_peak_dbfs": -28.841964651456337
+      },
+      "sync": {
+        "action_interval": [
+          31.95,
+          32.25
+        ],
+        "target": "visible paper compression",
+        "material_adaptation": "Paper Scraps library texture; exact recorded gesture and recording method unknown"
+      },
+      "file": "foley_v25/c4_froissage_v25.wav",
+      "sha256": "4cfbe007e8b7feb24447317d9e63294f29c915aef0339e47ff0ae126c14d9550",
+      "start_sample": 1533600,
+      "samples": 14400,
+      "end_seconds": 32.25,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.658687303511485,
+        "peak_dbfs": -28.841964651456337,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_poubelle_impact_v25",
+      "kind": "paper_land",
+      "cycle": 4,
+      "start": 32.77,
+      "duration": 0.16,
+      "replaces_event": "c4_poubelle_impact_v24",
+      "original_event_sha256": "8475363310a8e9cc7cfdf0480daae1565e011e943ad8a9a478828679b16ebf95",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.005,
+        "output_duration_seconds": 0.16,
+        "recording_duration_used_seconds": 0.16,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0006875,
+        "processed_first_activity_above_2pct_peak_seconds": 0.005541666666666667,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          0.000133702446931111,
+          0.000133702446931111
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.02
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -29.158378899622907,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -7.511190329588181,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -5.412592752479628,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -23.401524088012593
+      },
+      "sync": {
+        "action_interval": [
+          32.77,
+          33.0
+        ],
+        "target": "paper reaches bin",
+        "contact_seconds": 32.77,
+        "material_adaptation": "recorded palm/paper contact adapted as soft paper landing"
+      },
+      "file": "foley_v25/c4_poubelle_impact_v25.wav",
+      "sha256": "6b20f458348cd28fbadc801f748da92762dd742aaa6cced050a0747fca399c1c",
+      "start_sample": 1572960,
+      "samples": 7680,
+      "end_seconds": 32.93,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -48.710990059879215,
+        "peak_dbfs": -23.401524088012593,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_papier_deroule_v25",
+      "kind": "tiny_paper_pull",
+      "cycle": 5,
+      "start": 35.818,
+      "duration": 0.14,
+      "replaces_event": "c5_papier_deroule",
+      "original_event_sha256": "40c45c7fd77a548ae4c401f7e0a2a79eb34a2ebc6b45446fb1183edac0db0c8d",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.22,
+        "output_duration_seconds": 0.14,
+        "recording_duration_used_seconds": 0.14,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0008333333333333334,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          0.0004006865124197271,
+          0.0004006865124197271
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -34.00543191434745,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 1.6061076634007727,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -0.5644222563087796,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -27.00411217668814
+      },
+      "sync": {
+        "action_interval": [
+          35.65,
+          36.05
+        ],
+        "target": "actual paper drag inside pull phase",
+        "starts_at_pull_fraction": 0.42
+      },
+      "file": "foley_v25/c5_papier_deroule_v25.wav",
+      "sha256": "8c9617bc41e652de1f4e829169d3972703c7103bf550920c52fd47cb4d50b4f8",
+      "start_sample": 1719264,
+      "samples": 6720,
+      "end_seconds": 35.958,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -44.44071300079809,
+        "peak_dbfs": -27.00411217668814,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_papier_dechire_v25",
+      "kind": "tiny_paper_tear",
+      "cycle": 5,
+      "start": 36.05,
+      "duration": 0.12,
+      "replaces_event": "c5_papier_dechire",
+      "original_event_sha256": "7158788b717c7af29d7ec0bfe5b9b1ddf4152cdd363b39da0da586bc37c16ef2",
+      "source_id": "cardboardtear",
+      "source_recording_file": "assets/paper_recordings/wav/cardboard__tear__01.wav",
+      "source_recording_sha256": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/cardboard__tear__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual thick-cardboard tearing recording; adapted quietly as a paper tear, not a towel recording.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.03,
+        "output_duration_seconds": 0.12,
+        "recording_duration_used_seconds": 0.12,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 4.1666666666666665e-05,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0011875,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -5.826181310067587e-05,
+          -5.826181310067587e-05
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -15.372349120197157,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -16.309192869688793,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": 2.459971316867853,
+        "result_peak_dbfs": -26.53605277920001
+      },
+      "sync": {
+        "action_interval": [
+          36.05,
+          38.1
+        ],
+        "target": "visible tear contact",
+        "contact_seconds": 36.05
+      },
+      "file": "foley_v25/c5_papier_dechire_v25.wav",
+      "sha256": "b6ab5da688cd6964f78518a510763e99c8478182976f7428a501c3098ef99abe",
+      "start_sample": 1730400,
+      "samples": 5760,
+      "end_seconds": 36.169999999999995,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -43.72242715185059,
+        "peak_dbfs": -26.53605277920001,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_essuyage_1_v25",
+      "kind": "tiny_paper_wipe",
+      "cycle": 5,
+      "start": 37.247,
+      "duration": 0.26,
+      "replaces_event": "c5_essuyage_1_v24",
+      "original_event_sha256": "46068a16b5e4c2f15f6d17cb886b2c265d9812ce714d48833442d3a689f6735c",
+      "source_id": "flatten01",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__01.wav",
+      "source_recording_sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.13999999999999999,
+        "output_duration_seconds": 0.26,
+        "recording_duration_used_seconds": 0.26,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0012708333333333332,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -1.0814888132547577e-05,
+          -1.0814888132547577e-05
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -32.45641320788254,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 1.8189819494521229,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -0.8876126406384639,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -25.99624743049312
+      },
+      "sync": {
+        "action_interval": [
+          36.8,
+          38.1
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 37.377,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c5_essuyage_1_v25.wav",
+      "sha256": "62f6d3b5c91fcc6ffbb00bb100d197dee6d4d01eaf009b6eb8e242bc4bf9b02b",
+      "start_sample": 1787856,
+      "samples": 12480,
+      "end_seconds": 37.507,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.678721481886946,
+        "peak_dbfs": -25.99624743049312,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_essuyage_2_v25",
+      "kind": "tiny_paper_wipe",
+      "cycle": 5,
+      "start": 37.69,
+      "duration": 0.26,
+      "replaces_event": "c5_essuyage_2_v24",
+      "original_event_sha256": "0228d62a5c0a39e857246d11e19a3d2c93dd96e0f3a1e18be5ade5a87b7a5eb6",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.06,
+        "output_duration_seconds": 0.26,
+        "recording_duration_used_seconds": 0.26,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0010833333333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -2.250725676599603e-05,
+          -2.250725676599603e-05
+        ],
+        "edge_fade_seconds": [
+          0.008,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -33.440353026330456,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": 0.24517998252887305,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -2.4001748586445286,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -26.695014673273665
+      },
+      "sync": {
+        "action_interval": [
+          36.8,
+          38.1
+        ],
+        "target": "actual relative mitten speed peak",
+        "centre_seconds": 37.82,
+        "trajectory_preserved_from_v24": true,
+        "method": "Fixed world grips retained; main speed peaks sampled from V24. Last pair uses earlier main peaks to fit longer recorded strokes."
+      },
+      "file": "foley_v25/c5_essuyage_2_v25.wav",
+      "sha256": "5485119909e886115d8164612814a46f78264da0673da9d0a0baaf0d01fc933a",
+      "start_sample": 1809120,
+      "samples": 12480,
+      "end_seconds": 37.949999999999996,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -45.236403519837786,
+        "peak_dbfs": -26.695014673273665,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_froissage_v25",
+      "kind": "tiny_paper_crumple",
+      "cycle": 5,
+      "start": 38.1,
+      "duration": 0.3,
+      "replaces_event": "c5_froissage_v24",
+      "original_event_sha256": "b7a63e2355debd51544646ba974e2c51e165e2b892df02ea91e2abaa09d2723a",
+      "source_id": "paperscraps",
+      "source_recording_file": "assets/paper_recordings/wav/Ben_Burnes_Paper_Scraps.wav",
+      "source_recording_sha256": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Paper%20Scraps.wav",
+      "source_licence": "CC0-1.0",
+      "source_description": "Paper Scraps library texture, adapted to visible crumpling; no claim of recorded crumple or towel capture.",
+      "recording_method_verified": false,
+      "recording_method_note": "Author pack notice explicitly licenses existing sounds CC0, but microphone/recording method and precise paper gesture are undocumented in consulted evidence.",
+      "processing": {
+        "recording_offset_seconds": 0.9,
+        "output_duration_seconds": 0.29999999999999716,
+        "recording_duration_used_seconds": 0.3,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0009375,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          -0.00013939289397790669,
+          -0.00011982702062692536
+        ],
+        "edge_fade_seconds": [
+          0.005,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -35.31450835672909,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -0.606932067404265,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": -4.419103490745582,
+        "result_peak_dbfs": -34.419237766010966
+      },
+      "sync": {
+        "action_interval": [
+          38.1,
+          38.4
+        ],
+        "target": "visible paper compression",
+        "material_adaptation": "Paper Scraps library texture; exact recorded gesture and recording method unknown"
+      },
+      "file": "foley_v25/c5_froissage_v25.wav",
+      "sha256": "e5f26c4e2617ecf42a8a996c9c79f8e791f76d0065da58bbbadb2887bf68a273",
+      "start_sample": 1828800,
+      "samples": 14400,
+      "end_seconds": 38.4,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -47.962592590769404,
+        "peak_dbfs": -34.419237766010966,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_poubelle_impact_v25",
+      "kind": "tiny_paper_land",
+      "cycle": 5,
+      "start": 39.1,
+      "duration": 0.12,
+      "replaces_event": "c5_poubelle_impact",
+      "original_event_sha256": "cdb766dea91651b7ea45d6983250d58725d9c1794544673181059c12478faf2d",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.2,
+        "output_duration_seconds": 0.12,
+        "recording_duration_used_seconds": 0.12,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 2.0833333333333333e-05,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0005208333333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          3.024260683156162e-06,
+          3.024260683156162e-06
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.02
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -33.433074697107045,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -1.430570907854104,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": 0.0,
+        "peak_db_change_from_old_cue": 2.6371398685624845,
+        "result_peak_dbfs": -28.37079843903323
+      },
+      "sync": {
+        "action_interval": [
+          39.1,
+          39.5
+        ],
+        "target": "paper reaches bin",
+        "contact_seconds": 39.1,
+        "material_adaptation": "recorded palm/paper contact adapted as soft paper landing"
+      },
+      "file": "foley_v25/c5_poubelle_impact_v25.wav",
+      "sha256": "15a452e3bc5d5daaa9b67b9805118fb3205654750c5aa44162de9166f1048d6a",
+      "start_sample": 1876800,
+      "samples": 5760,
+      "end_seconds": 39.22,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -46.90449241261794,
+        "peak_dbfs": -28.37079843903323,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_papier_sol_v25",
+      "kind": "tiny_paper_floor",
+      "cycle": null,
+      "start": 39.85,
+      "duration": 0.12,
+      "replaces_event": "c5_papier_sol",
+      "original_event_sha256": "1171fd5bc7945cc0e0d07fb7a36fe986500aa0d3e399274145db32a7d7656586",
+      "source_id": "flatten02",
+      "source_recording_file": "assets/paper_recordings/wav/paper__flatten__02.wav",
+      "source_recording_sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "source_licence": "MIT",
+      "source_description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+      "recording_method_verified": true,
+      "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture.",
+      "processing": {
+        "recording_offset_seconds": 0.31,
+        "output_duration_seconds": 0.12,
+        "recording_duration_used_seconds": 0.12,
+        "silence_tail_padding_seconds": 0.0,
+        "raw_first_activity_above_2pct_peak_seconds": 0.0,
+        "processed_first_activity_above_2pct_peak_seconds": 0.0009583333333333333,
+        "activity_measure_is_not_listening": true,
+        "dc_removed_per_channel": [
+          2.7611596355716884e-05,
+          2.7611596355716884e-05
+        ],
+        "edge_fade_seconds": [
+          0.002,
+          0.015
+        ],
+        "resample_hz": 48000,
+        "channels": 2,
+        "lowpass_hz": null,
+        "synthesis_or_looping_or_time_stretch": false,
+        "compression": {
+          "ratio": 2.0,
+          "threshold_dbfs": -34.56510172889633,
+          "threshold_relative_to_source_rms_db": 12.041199826559248,
+          "attack_ms": 2.0,
+          "release_ms": 40.0,
+          "maximum_gain_reduction_db": -0.0
+        },
+        "fixed_gain_db": -7.045137046268853,
+        "gain_policy": "Match old cue RMS, bounded by old peak+3dB",
+        "rms_db_change_from_old_cue": -2.640988189184354,
+        "peak_db_change_from_old_cue": 3.0000000000000004,
+        "result_peak_dbfs": -30.995559274792225
+      },
+      "sync": {
+        "action_interval": [
+          39.85,
+          40.25
+        ],
+        "target": "last paper reaches floor",
+        "contact_seconds": 39.85,
+        "material_adaptation": "recorded paper/palm contact adapted as floor contact"
+      },
+      "file": "foley_v25/c5_papier_sol_v25.wav",
+      "sha256": "188d55563afb5a907b44f91a3573a4110398227fccd0f12828f8511b19308370",
+      "start_sample": 1912800,
+      "samples": 5760,
+      "end_seconds": 39.97,
+      "stage": "recording excerpt adapted locally, postmix PCM before unchanged fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -53.65033436090307,
+        "peak_dbfs": -30.995559274792225,
+        "clipped_samples": 0
+      }
+    }
+  ],
+  "reference_sources_unchanged": {
+    "provenance_reference_v24.json": "250530792792a56bee0b046cd9f3c7cae7f574f7adef31d0d514a62ad0899196",
+    "cuisson_v22.wav": "d52f6d6ad89509dbc86d31716b244945425686a0ad43e0d6d28339adbf5f8fbd",
+    "processed_v22/sifflement_p1_n1.wav": "164a04b8161badbb19be62de62278725e9972d837f3f0e6131057e4632a2212d",
+    "processed_v22/sifflement_p1_n2.wav": "32e2afbe2acf10c7a2f65099e979a4fc8264041369e861b87fa4184757786d8c",
+    "processed_v22/sifflement_p1_n3.wav": "ba38a0d8fd3327f1dafd9bd775441fb37c5c4550348c3b5791122cbf792abe04",
+    "processed_v22/cuillere_posee.wav": "3ce6bfa34e8db122d0d3960db4e16e2c07057ef35053ac65dc2adbb781aa73fa",
+    "processed_v22/c1_eau.wav": "904fa2f63940489bc89e48a52614af6f3665c2d77ed62a550800bddc9f8e26d7",
+    "processed_v22/c1_robinet_ouvre.wav": "aaef3e79e8719ffd518faf3551bb1f37a6165183274569fe80a4622b48bee4ad",
+    "processed_v22/c1_robinet_ferme.wav": "554381837452401bc013661c307fd82302c9a594ee5ea718fac19696ae7d0ec0",
+    "processed_v22/carotte_coupe_1.wav": "5d9c1be30c999a7879b20f929a6ea738bcae2dc61ffb4336386bd2bb15dbd994",
+    "processed_v22/carotte_coupe_2.wav": "a6660c4420f1fd493fa449a1518dbc36a4e81b59efedd56f9dcbae747496ab28",
+    "processed_v22/couteau_pose.wav": "ed4f901609636141330b0e90628b5ea818ab7b5139a98828f30cdcf9c76beed3",
+    "processed_v22/c2_eau.wav": "b82e1d40a8d763d0aeff4b481cc8299035501b38b3d65c26a122879f2200eb73",
+    "processed_v22/c2_robinet_ouvre.wav": "2527bac602dd5a365c57a85eadf9565294ffe220ea28f50f4137e8add7613d68",
+    "processed_v22/c2_robinet_ferme.wav": "1edc08e903d0889be9cd24c8a7110a0ce10590166be7276fcc3d0c3b6c4649c7",
+    "processed_v22/contact_tomate.wav": "26f52390585c0a3e2e507f2e8e4fe43d92b1bff085eea56277a25607aa890f6c",
+    "processed_v22/c3_eau.wav": "73cbd52b15675fdb42ed4ba004d577a59f773e6f2d3198d7581a1a98892cf789",
+    "processed_v22/c3_robinet_ouvre.wav": "e03d96f95ec7b04e6d34c55fafc218e1c800569f64c2692a9970ff1dd4243fde",
+    "processed_v22/c3_robinet_ferme.wav": "c862378cb8a9bd455b4d6c71ac5e0e2d33c7071c8f15c3a0e50317152fd0fc2f",
+    "processed_v22/sel_saupoudre.wav": "9dfe3d37270526c49c11940fb7700b1ca051cdd12cc51b589b7359ade17a2f0c",
+    "processed_v22/c4_eau.wav": "dec9417fda9daaf21cfca66da94fd20f14a663150fc69716c3ca5e22e3341022",
+    "processed_v22/c4_robinet_ouvre.wav": "537c5795ab5813d8a938014ff0c25dadde681a96f85f944cb072edcebfbd1648",
+    "processed_v22/c4_robinet_ferme.wav": "79beb613b012c6c7805c13d8f476b92ea9b3cdaf5f4ca3bc49d1e4ff22b5cf61",
+    "processed_v22/contact_manche_propre.wav": "60e047b6f195f9af03a8311c8feabd6948f6de02a7387deb31d80b5f5c577a19",
+    "processed_v22/c5_eau.wav": "f28108f3a9ac92a2058e83e5fe25945750075885986b502296c1ae0992aab138",
+    "processed_v22/c5_robinet_ouvre.wav": "9c7d48787c5899be5bfb83602fa1df7d61c00da5981151f7eac33b62f6a47b09",
+    "processed_v22/c5_robinet_ferme.wav": "8b66a08276a1ca24aff1162958ee92c44da1ecdf09831c3f189bad175d1effcb",
+    "reference_levels_v23_v24.json": "055465fb00625c1469c374022deaad4735f4b9f2ac9c1ec13133f2380078f9d2"
+  },
+  "delivery_gain_db": 3.5,
+  "delivery_gain_linear": 1.4962356560944334,
+  "global_normalization_mode": "No whole-film loudness normalization; original fixed+3.50dB delivery gain",
+  "delivery_target_lufs": null,
+  "historical_master_reapplied": false,
+  "pregain_metrics": {
+    "rms_dbfs": -37.221163344142234,
+    "peak_dbfs": -17.65378092960558,
+    "clipped_samples": 0
+  },
+  "mix_metrics": {
+    "rms_dbfs": -33.72115922530846,
+    "peak_dbfs": -14.154240258912342,
+    "clipped_samples": 0
+  },
+  "input_loudness": {
+    "input_i": "-30.57",
+    "input_tp": "-14.15",
+    "input_lra": "6.00",
+    "input_thresh": "-40.86"
+  },
+  "clipped_samples": 0,
+  "background_music": {
+    "original_score": true,
+    "style": "soft medium-register piano and double-bass jazz bed",
+    "bpm": 108.0,
+    "meter_beats": 4,
+    "global_clock_origin_seconds": 0.3,
+    "tonal_center": "A major, sixth/ninth and minor-seventh colours",
+    "notes": [
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 0,
+        "global_beat": -0.54,
+        "start": 0.0,
+        "duration": 2.472222222,
+        "midi_note": 59,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 0,
+        "global_beat": -0.54,
+        "start": 0.0,
+        "duration": 2.027777778,
+        "midi_note": 45,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 0,
+        "global_beat": -0.5238,
+        "start": 0.009,
+        "duration": 2.472222222,
+        "midi_note": 61,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 0,
+        "global_beat": -0.5076,
+        "start": 0.018,
+        "duration": 2.472222222,
+        "midi_note": 66,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 1,
+        "global_beat": 4.0,
+        "start": 2.522222222,
+        "duration": 2.027777778,
+        "midi_note": 57,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 1,
+        "global_beat": 4.0,
+        "start": 2.522222222,
+        "duration": 0.933333333,
+        "midi_note": 42,
+        "velocity": 35,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 1,
+        "global_beat": 4.0162,
+        "start": 2.531222222,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 1,
+        "global_beat": 4.0324,
+        "start": 2.540222222,
+        "duration": 2.027777778,
+        "midi_note": 64,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 1,
+        "global_beat": 6.0,
+        "start": 3.633333333,
+        "duration": 0.933333333,
+        "midi_note": 49,
+        "velocity": 33,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 2,
+        "global_beat": 8.0,
+        "start": 4.744444444,
+        "duration": 2.027777778,
+        "midi_note": 57,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 2,
+        "global_beat": 8.0,
+        "start": 4.744444444,
+        "duration": 0.933333333,
+        "midi_note": 47,
+        "velocity": 36,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 2,
+        "global_beat": 8.0162,
+        "start": 4.753444444,
+        "duration": 2.027777778,
+        "midi_note": 62,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 2,
+        "global_beat": 8.0324,
+        "start": 4.762444444,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 2,
+        "global_beat": 10.0,
+        "start": 5.855555556,
+        "duration": 0.933333333,
+        "midi_note": 54,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 3,
+        "global_beat": 12.0,
+        "start": 6.966666667,
+        "duration": 2.027777778,
+        "midi_note": 56,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 3,
+        "global_beat": 12.0,
+        "start": 6.966666667,
+        "duration": 0.933333333,
+        "midi_note": 40,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 3,
+        "global_beat": 12.0162,
+        "start": 6.975666667,
+        "duration": 2.027777778,
+        "midi_note": 62,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 3,
+        "global_beat": 12.0324,
+        "start": 6.984666667,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 3,
+        "global_beat": 14.0,
+        "start": 8.077777778,
+        "duration": 0.933333333,
+        "midi_note": 47,
+        "velocity": 32,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 4,
+        "global_beat": 16.0,
+        "start": 9.188888889,
+        "duration": 2.027777778,
+        "midi_note": 56,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 4,
+        "global_beat": 16.0,
+        "start": 9.188888889,
+        "duration": 0.933333333,
+        "midi_note": 45,
+        "velocity": 35,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 4,
+        "global_beat": 16.0162,
+        "start": 9.197888889,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 4,
+        "global_beat": 16.0324,
+        "start": 9.206888889,
+        "duration": 2.027777778,
+        "midi_note": 64,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 4,
+        "global_beat": 18.0,
+        "start": 10.3,
+        "duration": 0.933333333,
+        "midi_note": 52,
+        "velocity": 33,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 5,
+        "global_beat": 20.0,
+        "start": 11.411111111,
+        "duration": 2.027777778,
+        "midi_note": 53,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 5,
+        "global_beat": 20.0,
+        "start": 11.411111111,
+        "duration": 0.933333333,
+        "midi_note": 37,
+        "velocity": 36,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 5,
+        "global_beat": 20.0162,
+        "start": 11.420111111,
+        "duration": 2.027777778,
+        "midi_note": 59,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 5,
+        "global_beat": 20.0324,
+        "start": 11.429111111,
+        "duration": 2.027777778,
+        "midi_note": 63,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 5,
+        "global_beat": 22.0,
+        "start": 12.522222222,
+        "duration": 0.933333333,
+        "midi_note": 44,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 6,
+        "global_beat": 24.0,
+        "start": 13.633333333,
+        "duration": 2.027777778,
+        "midi_note": 57,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 6,
+        "global_beat": 24.0,
+        "start": 13.633333333,
+        "duration": 0.933333333,
+        "midi_note": 42,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 6,
+        "global_beat": 24.0162,
+        "start": 13.642333333,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 6,
+        "global_beat": 24.0324,
+        "start": 13.651333333,
+        "duration": 2.027777778,
+        "midi_note": 64,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 6,
+        "global_beat": 26.0,
+        "start": 14.744444444,
+        "duration": 0.933333333,
+        "midi_note": 49,
+        "velocity": 32,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 7,
+        "global_beat": 28.0,
+        "start": 15.855555556,
+        "duration": 2.027777778,
+        "midi_note": 56,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 7,
+        "global_beat": 28.0,
+        "start": 15.855555556,
+        "duration": 0.933333333,
+        "midi_note": 40,
+        "velocity": 35,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 7,
+        "global_beat": 28.0162,
+        "start": 15.864555556,
+        "duration": 2.027777778,
+        "midi_note": 62,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 7,
+        "global_beat": 28.0324,
+        "start": 15.873555556,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 7,
+        "global_beat": 30.0,
+        "start": 16.966666667,
+        "duration": 0.933333333,
+        "midi_note": 47,
+        "velocity": 33,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 8,
+        "global_beat": 32.0,
+        "start": 18.077777778,
+        "duration": 2.027777778,
+        "midi_note": 56,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 8,
+        "global_beat": 32.0,
+        "start": 18.077777778,
+        "duration": 0.933333333,
+        "midi_note": 45,
+        "velocity": 36,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 8,
+        "global_beat": 32.0162,
+        "start": 18.086777778,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 8,
+        "global_beat": 32.0324,
+        "start": 18.095777778,
+        "duration": 2.027777778,
+        "midi_note": 64,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 8,
+        "global_beat": 34.0,
+        "start": 19.188888889,
+        "duration": 0.933333333,
+        "midi_note": 52,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 9,
+        "global_beat": 36.0,
+        "start": 20.3,
+        "duration": 2.027777778,
+        "midi_note": 57,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 9,
+        "global_beat": 36.0,
+        "start": 20.3,
+        "duration": 0.933333333,
+        "midi_note": 42,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 9,
+        "global_beat": 36.0162,
+        "start": 20.309,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 9,
+        "global_beat": 36.0324,
+        "start": 20.318,
+        "duration": 2.027777778,
+        "midi_note": 64,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 9,
+        "global_beat": 38.0,
+        "start": 21.411111111,
+        "duration": 0.933333333,
+        "midi_note": 49,
+        "velocity": 32,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 10,
+        "global_beat": 40.0,
+        "start": 22.522222222,
+        "duration": 2.027777778,
+        "midi_note": 57,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 10,
+        "global_beat": 40.0,
+        "start": 22.522222222,
+        "duration": 0.933333333,
+        "midi_note": 47,
+        "velocity": 35,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 10,
+        "global_beat": 40.0162,
+        "start": 22.531222222,
+        "duration": 2.027777778,
+        "midi_note": 62,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 10,
+        "global_beat": 40.0324,
+        "start": 22.540222222,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 10,
+        "global_beat": 42.0,
+        "start": 23.633333333,
+        "duration": 0.933333333,
+        "midi_note": 54,
+        "velocity": 33,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 11,
+        "global_beat": 44.0,
+        "start": 24.744444444,
+        "duration": 2.027777778,
+        "midi_note": 56,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 11,
+        "global_beat": 44.0,
+        "start": 24.744444444,
+        "duration": 0.933333333,
+        "midi_note": 40,
+        "velocity": 36,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 11,
+        "global_beat": 44.0162,
+        "start": 24.753444444,
+        "duration": 2.027777778,
+        "midi_note": 62,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 11,
+        "global_beat": 44.0324,
+        "start": 24.762444444,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 11,
+        "global_beat": 46.0,
+        "start": 25.855555556,
+        "duration": 0.933333333,
+        "midi_note": 47,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 12,
+        "global_beat": 48.0,
+        "start": 26.966666667,
+        "duration": 2.027777778,
+        "midi_note": 57,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 12,
+        "global_beat": 48.0,
+        "start": 26.966666667,
+        "duration": 0.933333333,
+        "midi_note": 47,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 12,
+        "global_beat": 48.0162,
+        "start": 26.975666667,
+        "duration": 2.027777778,
+        "midi_note": 62,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 12,
+        "global_beat": 48.0324,
+        "start": 26.984666667,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 12,
+        "global_beat": 50.0,
+        "start": 28.077777778,
+        "duration": 0.933333333,
+        "midi_note": 54,
+        "velocity": 32,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 13,
+        "global_beat": 52.0,
+        "start": 29.188888889,
+        "duration": 2.027777778,
+        "midi_note": 56,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 13,
+        "global_beat": 52.0,
+        "start": 29.188888889,
+        "duration": 0.933333333,
+        "midi_note": 40,
+        "velocity": 35,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 13,
+        "global_beat": 52.0162,
+        "start": 29.197888889,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 13,
+        "global_beat": 52.0324,
+        "start": 29.206888889,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 13,
+        "global_beat": 54.0,
+        "start": 30.3,
+        "duration": 0.933333333,
+        "midi_note": 47,
+        "velocity": 33,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 14,
+        "global_beat": 56.0,
+        "start": 31.411111111,
+        "duration": 2.027777778,
+        "midi_note": 56,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 14,
+        "global_beat": 56.0,
+        "start": 31.411111111,
+        "duration": 0.933333333,
+        "midi_note": 45,
+        "velocity": 36,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 14,
+        "global_beat": 56.0162,
+        "start": 31.420111111,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 14,
+        "global_beat": 56.0324,
+        "start": 31.429111111,
+        "duration": 2.027777778,
+        "midi_note": 64,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 14,
+        "global_beat": 58.0,
+        "start": 32.522222222,
+        "duration": 0.933333333,
+        "midi_note": 52,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 15,
+        "global_beat": 60.0,
+        "start": 33.633333333,
+        "duration": 2.027777778,
+        "midi_note": 57,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 15,
+        "global_beat": 60.0,
+        "start": 33.633333333,
+        "duration": 0.933333333,
+        "midi_note": 45,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 15,
+        "global_beat": 60.0162,
+        "start": 33.642333333,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 15,
+        "global_beat": 60.0324,
+        "start": 33.651333333,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 15,
+        "global_beat": 62.0,
+        "start": 34.744444444,
+        "duration": 0.933333333,
+        "midi_note": 52,
+        "velocity": 32,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 16,
+        "global_beat": 64.0,
+        "start": 35.855555556,
+        "duration": 2.027777778,
+        "midi_note": 59,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 16,
+        "global_beat": 64.0,
+        "start": 35.855555556,
+        "duration": 0.933333333,
+        "midi_note": 45,
+        "velocity": 35,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 16,
+        "global_beat": 64.0162,
+        "start": 35.864555556,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 16,
+        "global_beat": 64.0324,
+        "start": 35.873555556,
+        "duration": 2.027777778,
+        "midi_note": 66,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 16,
+        "global_beat": 66.0,
+        "start": 36.966666667,
+        "duration": 0.933333333,
+        "midi_note": 52,
+        "velocity": 33,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 17,
+        "global_beat": 68.0,
+        "start": 38.077777778,
+        "duration": 2.027777778,
+        "midi_note": 57,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 17,
+        "global_beat": 68.0,
+        "start": 38.077777778,
+        "duration": 0.933333333,
+        "midi_note": 42,
+        "velocity": 36,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 17,
+        "global_beat": 68.0162,
+        "start": 38.086777778,
+        "duration": 2.027777778,
+        "midi_note": 61,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 17,
+        "global_beat": 68.0324,
+        "start": 38.095777778,
+        "duration": 2.027777778,
+        "midi_note": 64,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 17,
+        "global_beat": 70.0,
+        "start": 39.188888889,
+        "duration": 0.933333333,
+        "midi_note": 49,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 18,
+        "global_beat": 72.0,
+        "start": 40.3,
+        "duration": 2.6,
+        "midi_note": 57,
+        "velocity": 28,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 18,
+        "global_beat": 72.0,
+        "start": 40.3,
+        "duration": 0.933333333,
+        "midi_note": 45,
+        "velocity": 34,
+        "additional_attack_seconds": 0.035
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 18,
+        "global_beat": 72.0162,
+        "start": 40.309,
+        "duration": 2.591,
+        "midi_note": 61,
+        "velocity": 29,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "accords",
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords",
+        "bar_index": 18,
+        "global_beat": 72.0324,
+        "start": 40.318,
+        "duration": 2.582,
+        "midi_note": 66,
+        "velocity": 30,
+        "additional_attack_seconds": 0.045
+      },
+      {
+        "track": "basse",
+        "instrument": "FluidR3 acoustic double bass, soft two-feel",
+        "bar_index": 18,
+        "global_beat": 74.0,
+        "start": 41.411111111,
+        "duration": 0.933333333,
+        "midi_note": 52,
+        "velocity": 32,
+        "additional_attack_seconds": 0.035
+      }
+    ],
+    "instruments": {
+      "basse": {
+        "program": 32,
+        "bank": 0,
+        "channel": 0,
+        "gain": 0.55,
+        "pan": 54,
+        "instrument": "FluidR3 acoustic double bass, soft two-feel"
+      },
+      "accords": {
+        "program": 0,
+        "bank": 0,
+        "channel": 1,
+        "gain": 1.0,
+        "pan": 64,
+        "instrument": "FluidR3 Yamaha grand piano, held medium-register jazz chords"
+      }
+    },
+    "continuous_global_clock": true,
+    "visual_cut_restarts": 0,
+    "frame_or_action_dependent_notes": false,
+    "score_inputs": [
+      "duration",
+      "bpm"
+    ],
+    "melody_line": false,
+    "drums_or_brushes": false,
+    "composition_character": "one held three-note piano chord per bar; two-feel bass, no walking line",
+    "opening": "A6/9 colour under original A5/C#6/B5 whistle; no new whistle",
+    "note_attack_seconds": {
+      "accords": 0.045,
+      "basse": 0.035
+    },
+    "velocity_range": [
+      28,
+      36
+    ],
+    "per_track_constant_balance": {
+      "basse": 260.2132139627211,
+      "accords": 628.7278187262363
+    },
+    "bass_rms_relative_to_piano_db": -8.0,
+    "one_global_music_calibration": 0.0078121170194748995,
+    "target_unducked_music_body_rms_dbfs": -41.5,
+    "body_measurement_seconds": [
+      2.0,
+      42.3
+    ],
+    "actual_unducked_body_rms_dbfs": -41.5,
+    "duck_db": -1.0,
+    "duck_intervals": [
+      [
+        7.75,
+        10.3
+      ],
+      [
+        16.5,
+        18.6
+      ],
+      [
+        23.0,
+        24.5
+      ],
+      [
+        29.0,
+        30.35
+      ],
+      [
+        34.0,
+        35.35
+      ]
+    ],
+    "duck_attack_seconds": 0.6,
+    "duck_release_seconds": 0.8,
+    "duck_gain_min": 0.8912509381337456,
+    "duck_gain_max": 1.0,
+    "ending_fade_seconds": [
+      42.4,
+      43.0
+    ],
+    "fixed_music_bus_compression": false,
+    "dynamic_normalization": false,
+    "fluidsynth_version": "2.4.4",
+    "soundfont": {
+      "file": "assets/FluidR3_MOU_trio.sf2",
+      "sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+      "license": "MIT FluidR3 subset, bundled notice"
+    },
+    "limits": "Composed/sample-rendered proposal with softened attacks and lower measured level. No listening or perceptual softness claim.",
+    "stems": [
+      {
+        "track": "basse",
+        "file": "jazz_basse_v25.wav",
+        "sha256": "6f49fe97ced9ae7fa1302b413bd035a2e0dddfad0036a58ac094d8e897acb3e0",
+        "actual_metrics": {
+          "rms_dbfs": -50.6040139938607,
+          "peak_dbfs": -33.944480826915246,
+          "clipped_samples": 0
+        }
+      },
+      {
+        "track": "accords",
+        "file": "jazz_accords_v25.wav",
+        "sha256": "bfb8f303e044a1b3f2eedcd978d250f78f5ad87b846693fd0d621d162df183eb",
+        "actual_metrics": {
+          "rms_dbfs": -42.4322549723422,
+          "peak_dbfs": -22.869180469896058,
+          "clipped_samples": 0
+        }
+      }
+    ],
+    "music_source_sha256": "8170599b9a4fd1a178134536c7bdb768a16fa0e1256d5afed38592ac98456ab6",
+    "unattenuated_file": "jazz_sans_baisse_v25.wav",
+    "unattenuated_sha256": "e0e2a64b47c8f085881e43d5b76c742cda5b73dde7853d6fe8f9e0ce44f4f8ef",
+    "measured_music_body_rms_dbfs_pcm": -41.779254828088256,
+    "reference_level_comparison": {
+      "v23": {
+        "source": "episodes/03/cuisine_v23/audio/musique_v23.wav",
+        "source_sha256": "31b1eb935a51e7a93b02812b9bde5d2e0809094dbc048010a9f4fa9dabf13e38",
+        "measurement_seconds": [
+          2.0,
+          42.3
+        ],
+        "rms_dbfs": -31.984588900404884,
+        "peak_dbfs": -13.857791960340514,
+        "v25_minus_reference_rms_db": -9.794665927683372
+      },
+      "v24": {
+        "source": "episodes/03/cuisine_v24/audio/musique_v24.wav",
+        "source_sha256": "f2bfa1a6ed04c06d22510aab58a110afd7b8d2cb242f9fa4d870647d17359eb9",
+        "measurement_seconds": [
+          2.0,
+          42.3
+        ],
+        "rms_dbfs": -35.984574766750896,
+        "peak_dbfs": -17.858501451122994,
+        "v25_minus_reference_rms_db": -5.79468006133736
+      }
+    },
+    "reference_level_comparison_note": "Different calmer orchestration; differences are measured RMS levels, not proof of perceived softness."
+  },
+  "paper_palette_status": "Proposed V25 material; earlier short trial not accepted or represented as approved",
+  "recording_source_provenance": {
+    "sources": [
+      {
+        "id": "flatten01",
+        "path": "wav/paper__flatten__01.wav",
+        "sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+        "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+        "author": "MXAntian",
+        "source_repo": "AgentGameLab/atom-sfx",
+        "source_commit": "b3e55737e0019905b8d85ef0d06def1bca6ab025",
+        "licence": "MIT",
+        "licence_file": "rights/atom_MIT_LICENSE.txt",
+        "licence_sha256": "f688bd222a68aa26576832b07c97f54ee7da7cf11109b1eaaafbab3ff72d4ab0",
+        "evidence_file": "evidence/atom_README.md",
+        "evidence_sha256": "a0e90e1a34ee85c7ead805e95251fc4e6d07bb387b837ea306ec7fb8dfd6f0a5",
+        "description": "Actual paper palm-smoothing recording, gradual smoothing take; adapted as paper pull.",
+        "recording_method_verified": true,
+        "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture."
+      },
+      {
+        "id": "flatten02",
+        "path": "wav/paper__flatten__02.wav",
+        "sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+        "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+        "author": "MXAntian",
+        "source_repo": "AgentGameLab/atom-sfx",
+        "source_commit": "b3e55737e0019905b8d85ef0d06def1bca6ab025",
+        "licence": "MIT",
+        "licence_file": "rights/atom_MIT_LICENSE.txt",
+        "licence_sha256": "f688bd222a68aa26576832b07c97f54ee7da7cf11109b1eaaafbab3ff72d4ab0",
+        "evidence_file": "evidence/atom_README.md",
+        "evidence_sha256": "a0e90e1a34ee85c7ead805e95251fc4e6d07bb387b837ea306ec7fb8dfd6f0a5",
+        "description": "Actual paper palm-smoothing recording, patting take; excerpts adapted as rubbing/contact.",
+        "recording_method_verified": true,
+        "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture."
+      },
+      {
+        "id": "cardboardtear",
+        "path": "wav/cardboard__tear__01.wav",
+        "sha256": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+        "source_url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/cardboard__tear__01.wav",
+        "author": "MXAntian",
+        "source_repo": "AgentGameLab/atom-sfx",
+        "source_commit": "b3e55737e0019905b8d85ef0d06def1bca6ab025",
+        "licence": "MIT",
+        "licence_file": "rights/atom_MIT_LICENSE.txt",
+        "licence_sha256": "f688bd222a68aa26576832b07c97f54ee7da7cf11109b1eaaafbab3ff72d4ab0",
+        "evidence_file": "evidence/atom_README.md",
+        "evidence_sha256": "a0e90e1a34ee85c7ead805e95251fc4e6d07bb387b837ea306ec7fb8dfd6f0a5",
+        "description": "Actual thick-cardboard tearing recording; adapted quietly as a paper tear, not a towel recording.",
+        "recording_method_verified": true,
+        "recording_method_note": "Upstream README declares real recording workflow and shipped recordings; technique maps identify palm smoothing or cardboard tearing. Not paper-towel capture."
+      },
+      {
+        "id": "paperscraps",
+        "path": "wav/Ben_Burnes_Paper_Scraps.wav",
+        "sha256": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+        "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Paper%20Scraps.wav",
+        "author": "Benjamin / Ben Burnes (Abstraction)",
+        "source_repo": "lavenderdotpet/CC0-Public-Domain-Sounds",
+        "source_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+        "licence": "CC0-1.0",
+        "licence_file": "rights/Ben_Burnes_Paper_Cutter_CC0.txt",
+        "licence_sha256": "771c08981f268afb6783d0f8ac154d34618387898e5f2db01ec2f59553f877ea",
+        "evidence_file": "evidence/library_source_manifest.json",
+        "evidence_sha256": "be3eb570fc566696d69209c74d45fc8424d9f0aa628f85440a166a623a2dbde7",
+        "description": "Paper Scraps library texture, adapted to visible crumpling; no claim of recorded crumple or towel capture.",
+        "recording_method_verified": false,
+        "recording_method_note": "Author pack notice explicitly licenses existing sounds CC0, but microphone/recording method and precise paper gesture are undocumented in consulted evidence."
+      }
+    ],
+    "licensing_review": "Pinned MIT own-recording evidence and explicit CC0 library notice checked by coordinator in this session.",
+    "creative_status": "Proposed V25 palette; preceding short paper trial has not been accepted by user.",
+    "recording_method_distinctions": "AtomSFX palm-smoothing and thick cardboard tearing have documented real-recording workflow; Ben Burnes Paper Scraps library method is unverified. None is a verified kitchen-towel recording."
+  },
+  "synthetic_elements_retained": [
+    "water",
+    "tap",
+    "knife",
+    "cooking",
+    "salt",
+    "whistle"
+  ],
+  "retained_synthetic_elements_status": "Existing softened processed V24 cues; no verified recorded replacements added",
+  "reaction_foreground_silence_40_25_to43": true,
+  "test_final_file": "test_fin_v25.wav",
+  "test_final_sha256": "70bf2a80a9df9a237d61c1d71a92dab7d2fc0836a7598ed801180f72db84f6a3",
+  "test_final_seconds": [
+    35.0,
+    43.0
+  ],
+  "excerpt_file": "extrait_mix_v25.mp3",
+  "excerpt_seconds": [
+    10.25,
+    17.25
+  ],
+  "limits": "No model listening is available. Levels, source evidence and source-defined attacks are technical facts; softness, comfort, material identity and comic success require listening/viewing judgement."
+}

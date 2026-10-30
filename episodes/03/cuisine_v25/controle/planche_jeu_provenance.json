@@ -1,0 +1,354 @@
+[
+  {
+    "frame": 84,
+    "time": 3.5,
+    "label": "Plaisir",
+    "crop_from_encoded_frame": [
+      321,
+      546,
+      754,
+      1203
+    ],
+    "expression": {
+      "phase": "cuisine_absorbee",
+      "pose_from": "joie_leger",
+      "pose_to": "joie_franc",
+      "weight": 0.42,
+      "gaze_phase": "cible_action",
+      "target_world": [
+        327.17684145984833,
+        1302.4127683809045
+      ],
+      "target_before_body_rotation_world": [
+        328.5686444802739,
+        1295.7771272846308
+      ],
+      "target_compensated_world": [
+        328.5686444802739,
+        1295.7771272846308
+      ],
+      "face_roll_deg": 0.0,
+      "performance_face_overrides": {},
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 177,
+    "time": 7.375,
+    "label": "Inspection",
+    "crop_from_encoded_frame": [
+      63,
+      0,
+      1080,
+      1425
+    ],
+    "expression": {
+      "phase": "premiere_inspection",
+      "pose_from": "doute_franc",
+      "pose_to": "doute_franc",
+      "weight": 1.0,
+      "gaze_phase": "main_observee",
+      "target_world": [
+        495.9875205338466,
+        1145.3697673934435
+      ],
+      "target_before_body_rotation_world": [
+        486.25305413329494,
+        1148.321064179037
+      ],
+      "target_compensated_world": [
+        486.25305413329494,
+        1148.321064179037
+      ],
+      "face_roll_deg": 0.0,
+      "performance_face_overrides": {
+        "eye_open_l": 0.98,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.77,
+        "brow_l": 0.6000000000000001,
+        "brow_r": -0.2,
+        "mouth_open": 0.08
+      },
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 756,
+    "time": 31.5,
+    "label": "Impatience",
+    "crop_from_encoded_frame": [
+      299,
+      541,
+      750,
+      1209
+    ],
+    "expression": {
+      "phase": "impatience_retour_cuisine",
+      "pose_from": "contrariete_franc",
+      "pose_to": "contrariete_franc",
+      "weight": 0.0,
+      "gaze_phase": "poele_puis_papier",
+      "target_world": [
+        293.0,
+        1305.0
+      ],
+      "target_before_body_rotation_world": [
+        295.7887655106159,
+        1290.1876845497768
+      ],
+      "target_compensated_world": [
+        295.7887655106159,
+        1290.1876845497768
+      ],
+      "face_roll_deg": 0.0,
+      "performance_face_overrides": {
+        "eye_open_l": 0.66,
+        "eye_open_r": 0.92,
+        "brow_raise": 0.04,
+        "brow_l": -0.72,
+        "brow_r": -0.4,
+        "smile": -0.45,
+        "mouth_open": 0.025,
+        "mouth_shape": "grit",
+        "mouth_width": 23.0,
+        "mouth_skew": -0.22,
+        "pupil_x": 0.1,
+        "pupil_y": -0.65,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 876,
+    "time": 36.5,
+    "label": "Petite feuille",
+    "crop_from_encoded_frame": [
+      249,
+      307,
+      808,
+      1177
+    ],
+    "expression": {
+      "phase": "dernier_papier",
+      "pose_from": "surprise_franc",
+      "pose_to": "surprise_franc",
+      "weight": 1.0,
+      "gaze_phase": "petite_feuille_visible_avant_surprise",
+      "target_world": [
+        680.0000000184803,
+        1199.9999999530537
+      ],
+      "target_before_body_rotation_world": [
+        680.0000000184804,
+        1199.9999999530537
+      ],
+      "target_compensated_world": [
+        680.0000000184804,
+        1199.9999999530537
+      ],
+      "face_roll_deg": 0.0,
+      "performance_face_overrides": {
+        "mouth_open": 0.38,
+        "pupil_scale": 0.9
+      },
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 919,
+    "time": 38.291666666666664,
+    "label": "Soulagement",
+    "crop_from_encoded_frame": [
+      224,
+      301,
+      804,
+      1183
+    ],
+    "expression": {
+      "phase": "dernier_papier",
+      "pose_from": "soulagement_leger",
+      "pose_to": "soulagement_leger",
+      "weight": 0.0,
+      "gaze_phase": "main_enfin_seche",
+      "target_world": [
+        502.37620023162305,
+        1227.0297496151134
+      ],
+      "target_before_body_rotation_world": [
+        505.07416919523246,
+        1225.9512165225597
+      ],
+      "target_compensated_world": [
+        505.07416919523246,
+        1225.9512165225597
+      ],
+      "face_roll_deg": 0.0,
+      "performance_face_overrides": {
+        "eye_open_l": 0.67,
+        "eye_open_r": 0.72,
+        "smile": 0.48,
+        "mouth_shape": "smile",
+        "mouth_width": 25.0,
+        "mouth_open": 0.0
+      },
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 980,
+    "time": 40.833333333333336,
+    "label": "Découverte",
+    "crop_from_encoded_frame": [
+      328,
+      454,
+      821,
+      1178
+    ],
+    "expression": {
+      "phase": "cloture_gaspillage_courte",
+      "pose_from": "surprise_franc",
+      "pose_to": "surprise_franc",
+      "weight": 0.0,
+      "gaze_phase": "dechets_decouverts",
+      "target_world": [
+        165.0,
+        1475.0
+      ],
+      "target_before_body_rotation_world": [
+        174.1302813024344,
+        1499.6728518968794
+      ],
+      "target_compensated_world": [
+        174.1302813024344,
+        1499.6728518968794
+      ],
+      "face_roll_deg": 0.0,
+      "performance_face_overrides": {
+        "mouth_open": 0.4,
+        "pupil_scale": 0.86
+      },
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 992,
+    "time": 41.333333333333336,
+    "label": "Recul",
+    "crop_from_encoded_frame": [
+      55,
+      0,
+      1079,
+      1418
+    ],
+    "expression": {
+      "phase": "cloture_gaspillage_courte",
+      "pose_from": "surprise_franc",
+      "pose_to": "surprise_franc",
+      "weight": 0.0,
+      "gaze_phase": "vers_public",
+      "target_world": [
+        165.0,
+        1475.0
+      ],
+      "target_before_body_rotation_world": [
+        174.1302813024344,
+        1499.6728518968794
+      ],
+      "target_compensated_world": [
+        174.1302813024344,
+        1499.6728518968794
+      ],
+      "face_roll_deg": 0.0,
+      "performance_face_overrides": {
+        "mouth_open": 0.4,
+        "pupil_scale": 0.86
+      },
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 1026,
+    "time": 42.75,
+    "label": "Gêne",
+    "crop_from_encoded_frame": [
+      37,
+      0,
+      990,
+      1394
+    ],
+    "expression": {
+      "phase": "cloture_gaspillage_courte",
+      "pose_from": "gene_franc",
+      "pose_to": "gene_franc",
+      "weight": 0.0,
+      "gaze_phase": "public",
+      "target_world": [
+        544.5999999999999,
+        918.1999999999999
+      ],
+      "target_before_body_rotation_world": [
+        538.6276518352494,
+        918.3380392731597
+      ],
+      "target_compensated_world": [
+        538.6276518352494,
+        918.3380392731597
+      ],
+      "face_roll_deg": 0.0,
+      "performance_face_overrides": {
+        "mouth_open": 0.025,
+        "smile": -0.3,
+        "mouth_shape": "wince",
+        "mouth_width": 24.0,
+        "mouth_skew": 0.42,
+        "eye_open_l": 0.77,
+        "eye_open_r": 0.92,
+        "brow_l": 0.85,
+        "brow_r": 0.55
+      },
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  }
+]

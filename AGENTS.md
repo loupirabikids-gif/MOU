@@ -1,5 +1,27 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande V25 : l'utilisatrice reste insatisfaite ; elle demande une musique
+douce et une vraie reprise des expressions, de l'animation et des mouvements.
+Cette demande autorise maintenant le jeu corporel et les poses, au-delà des
+anciens correctifs sonores. Travailler dans `episodes/03/cuisine_v25/`, 43 s.
+Conserver le dessin canonique et les contours natifs des deux bras/moufles ;
+les attitudes et mouvements sont autorisés. Donner une intention à chaque
+anticipation, geste et arrêt ; distinguer soulagement avant la chute,
+surprise corporelle après le résultat, puis réaction au public. Les pieds
+restent au sol et les objets tenus gardent leurs contacts. Pas de balancement
+mécanique ni d'enchaînement de visages sur un corps figé. Renforcer aussi
+l'ouverture et les réactions aux rituels. Critiquer l'animatique réellement
+produite avant le final. Jazz continu plus doux dans ses attaques et moins
+présent, sans regain de normalisation. Les palettes V24 et papier_foley_v1
+restent des essais rejetés, pas une qualité approuvée. Livrer la révision
+complète son/muet/sources sur GitHub dans l'autorisation existante. Ne pas
+confondre contrôles techniques, qualité artistique et écoute indisponible.
+La critique du vrai MP4 a conduit à corriger le quatrième essuyage : regard
+poêle, inclinaison tenue et bouche serrée. Réserve ciblée levée après revue
+du nouveau MP4. Final et QA passés ; bilan dans `episodes/03/cuisine_v25/CONTROLE.txt`.
+Les preuves techniques et la revue interne ne valent pas accord artistique
+de l'utilisatrice. Conserver cette distinction pour la suite.
+
 Clarification après V24 : l'utilisatrice confirme que les effets sonores
 paraissent artificiels ou peu clairs. Priorité à la matière sonore ; ne pas
 déduire de ce retour une autorisation de retoucher le personnage ou le jeu.

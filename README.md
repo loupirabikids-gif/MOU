@@ -2,32 +2,30 @@
 
 **[Bibliothèque d’expressions de MOU](bibliotheque/expressions/v1/)** — 36 poses, 12 familles, galerie SVG/PNG et six transitions de visage.
 
-**Correction sonore en cours :** les effets V24 ont été jugés artificiels ou
-peu clairs. [Essai court avec une nouvelle matière de papier](episodes/03/etudes_son/papier_foley_v1/).
-
-**Encore une feuille — Just cooking. Mostly washing. — V24, 43 secondes.**
+**Encore une feuille — Just cooking. Mostly washing. — V25, 43 secondes.**
 
 MOU cuisine, mais chaque contact relance son lavage et son gaspillage de papier.
 Carotte, tomate, pincée de sel… le rouleau finit vide et la poubelle déborde.
 La dernière boulette tombe au sol ; MOU regarde les déchets puis le public.
 
-La V24 conserve les expressions et les gestes de la V23 jusqu’à 40,25 s.
-Elle termine sur le constat du gaspillage et une réaction tenue de 0,625 s,
-sans détour par la solution du tablier. Le dessin, les deux bras/moufles,
-la toque, le tablier de taille et les gros plans de lavabo sont conservés.
+La V25 reprend le jeu : corps et visage agissent ensemble, les mains libres
+accompagnent les intentions et des pauses exposent les réactions. Après le
+dernier essuyage, le soulagement précède la découverte des déchets et le recul ;
+MOU rejoint ensuite le spectateur du regard. Le modèle, les contours natifs
+des deux bras/moufles, le costume et les gros plans de lavabo sont conservés.
 
-Le jazz de piano, contrebasse et balais garde sa composition continue à 108 BPM,
-avec un niveau baissé de 4dB. Les frottements d’essuyage, froissages et impacts
-de papier ajoutés sont synchronisés aux gestes et aux contacts.
+Le fond musical est un duo piano-contrebasse aux attaques enveloppées,
+sans mélodie aiguë ni percussion. Il reste continu et son niveau moyen est
+environ 6 dB plus bas que V24. Les événements papier utilisent des prises et
+textures libres documentées, avec leurs coupes alignées aux gestes.
 
-[![Expressions extraites du vrai film V24](episodes/03/cuisine_v24/controle/planche_jeu_final.png)](episodes/03/cuisine_v24/MOU_Encore_une_feuille.mp4?raw=true)
+[![Attitudes et regards extraits du film V25](episodes/03/cuisine_v25/controle/planche_jeu_final.png)](episodes/03/cuisine_v25/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Film avec son — 1080 × 1920](episodes/03/cuisine_v24/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Extrait du mix et des bruitages](episodes/03/cuisine_v24/audio/extrait_bruitages_v24.mp3?raw=true)
-- [Fin courte — 2,75 secondes](episodes/03/cuisine_v24/MOU_test_mise_en_scene.mp4?raw=true)
-- [Version muette](episodes/03/cuisine_v24/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v24/MOU_Encore_une_feuille_sources.zip?raw=true) · [Contrôles et limites](episodes/03/cuisine_v24/CONTROLE.txt)
-- [Direction et critiques V24](episodes/03/cuisine_v24/)
+- **[Film avec son — 1080 × 1920](episodes/03/cuisine_v25/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Aperçu du jeu et de la fin — 8 secondes](episodes/03/cuisine_v25/MOU_test_mise_en_scene.mp4?raw=true)
+- [Version muette](episodes/03/cuisine_v25/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v25/MOU_Encore_une_feuille_sources.zip?raw=true) · [Contrôles et limites](episodes/03/cuisine_v25/CONTROLE.txt)
+- [Direction et critiques V25](episodes/03/cuisine_v25/)
 - [Recherche : outils libres réellement testés et techniques retenues](recherche/2026-10-29_professionnel/README.md)
 - [Repérage animation adulte : chaînes, pages et dépôts GitHub](recherche/2026-10-29_animation_adulte/README.md)
 - [Accès YouTube après activation du 30 octobre et recherche documentaire](recherche/2026-10-30_acces_youtube/README.md)
@@ -40,7 +38,7 @@ L’accès officiel à Oggy est bloqué : aucun visionnage n’est revendiqué.
 Le modèle ne peut pas écouter le mix ; les mesures ne certifient pas le confort
 sur téléphone. Les critiques portent sur les images et les séquences décodées.
 
-[Version précédente V23](episodes/03/cuisine_v23/) · [V22](episodes/03/cuisine_v22/) · [V21 rejetée](episodes/03/cuisine_v21/) · [V20](episodes/03/cuisine_v20/) ·
+[V24 rejetée](episodes/03/cuisine_v24/) · [V23](episodes/03/cuisine_v23/) · [V22](episodes/03/cuisine_v22/) · [V21 rejetée](episodes/03/cuisine_v21/) · [V20](episodes/03/cuisine_v20/) ·
 [V19](episodes/03/cuisine_v19/) · [Versions de 35 secondes](episodes/03/cuisine_v6/).
 Les épisodes abandonnés restent conservés :
 [Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
