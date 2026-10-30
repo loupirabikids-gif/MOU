@@ -1,0 +1,88 @@
+{
+  "frozen_sources_sha256": {
+    "bibliotheque/expressions/v1/catalogue.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+    "bibliotheque/expressions/v1/sources/face.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "bibliotheque/expressions/v1/sources/render.py": "be6462718ead5c743672f7a7d579b6b82203b161d9e086ccca481c0907f25b28",
+    "bibliotheque/expressions/v1/sources/animer.py": "86e9d7a37d0f9b6a874e0179178c217fd809bb37485923501f6d2bba8d068f59",
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/film/sources/animation.py": "8872db86fafe7edcd7aa392232909607b10d84e247b17f67fcee21a435263f75"
+  },
+  "fps": 24,
+  "frames": 432,
+  "duration": 18.0,
+  "scenes": [
+    {
+      "id": "plaisir",
+      "label": "Le plaisir de cuisiner",
+      "start_seconds": 0,
+      "duration_seconds": 3,
+      "from": "neutre",
+      "to": "joie_franc",
+      "target": [
+        70.0,
+        285.0
+      ]
+    },
+    {
+      "id": "inspection",
+      "label": "Quelque chose sur la main",
+      "start_seconds": 3,
+      "duration_seconds": 3,
+      "from": "joie_franc",
+      "to": "doute_franc",
+      "target": [
+        360.0,
+        330.0
+      ]
+    },
+    {
+      "id": "agacement",
+      "label": "Encore un lavage",
+      "start_seconds": 6,
+      "duration_seconds": 3,
+      "from": "doute_franc",
+      "to": "contrariete_franc",
+      "target": [
+        80.0,
+        160.0
+      ]
+    },
+    {
+      "id": "decouverte",
+      "label": "Un tout petit morceau",
+      "start_seconds": 9,
+      "duration_seconds": 3,
+      "from": "fierte_franc",
+      "to": "surprise_franc",
+      "target": [
+        360.0,
+        330.0
+      ]
+    },
+    {
+      "id": "soulagement",
+      "label": "La main est propre",
+      "start_seconds": 12,
+      "duration_seconds": 3,
+      "from": "peur_franc",
+      "to": "soulagement_franc",
+      "target": [
+        360.0,
+        330.0
+      ]
+    },
+    {
+      "id": "gene",
+      "label": "Le gaspillage est visible",
+      "start_seconds": 15,
+      "duration_seconds": 3,
+      "from": "neutre",
+      "to": "gene_franc",
+      "target": [
+        70.0,
+        330.0
+      ]
+    }
+  ],
+  "limits": "Facial studies with fixed native body/arms. No audio, episode edit or audience validation."
+}

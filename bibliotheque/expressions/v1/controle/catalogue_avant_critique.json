@@ -1,0 +1,1657 @@
+{
+  "schema_version": "1.0",
+  "version": 1,
+  "status": "premiere_etude_a_critiquer",
+  "title": "MOU — bibliothèque d’intentions du visage",
+  "pose_count": 36,
+  "family_count": 12,
+  "native_canvas": [
+    400,
+    500
+  ],
+  "scope": "Visage uniquement. Les bras/moufles, la silhouette et les films existants restent les sources canoniques.",
+  "source_reference": "recherche/2026-10-30_lamput/README.md",
+  "timing_note": "La fenêtre indicative 8–16 images à24fps est un point de départ d’essai, pas une durée mesurée dans Lamput ni une norme émotionnelle. Déplacer les tenues après examen des transitions.",
+  "native_params": [
+    "eye_open_l",
+    "eye_open_r",
+    "pupil_x",
+    "pupil_y",
+    "brow_l",
+    "brow_r",
+    "brow_raise",
+    "smile",
+    "mouth_open",
+    "laugh"
+  ],
+  "adapter_params": {
+    "mouth_shape": [
+      "native",
+      "smile",
+      "frown",
+      "flat",
+      "o",
+      "grit",
+      "wince",
+      "pout"
+    ],
+    "mouth_width": "Demi-largeur en coordonnées natives, plage8–48.",
+    "mouth_skew": "Asymétrie des coins, plage−1à1, limitée à7px par l’adaptateur.",
+    "pupil_scale": "Échelle commune des pupilles, plage0.7–1.2."
+  },
+  "families": [
+    {
+      "id": "joie",
+      "label": "Joie",
+      "description": "Partager un plaisir, du contentement discret au rire.",
+      "context": "Une réussite ou un petit plaisir visible.",
+      "risk": "Le sourire peut sembler gratuit si la cause du plaisir manque.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "fierte",
+      "label": "Fierté",
+      "description": "Vouloir montrer que l’on maîtrise la situation.",
+      "context": "MOU admire un geste réussi ou se montre au public.",
+      "risk": "Une demi-paupière et un sourire de côté peuvent évoquer la moquerie.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "curiosite",
+      "label": "Curiosité / concentration",
+      "description": "Examiner un détail avant d’agir.",
+      "context": "Un objet, une trace ou un détail appelle son attention.",
+      "risk": "Sans cible montrée, l’asymétrie peut se lire comme du doute.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "doute",
+      "label": "Doute / méfiance",
+      "description": "Vérifier quelque chose qui paraît suspect.",
+      "context": "MOU inspecte sa moufle ou un objet dont il n’est pas sûr.",
+      "risk": "Le doute et le dégoût se séparent surtout par la cible et le recul du geste.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "surprise",
+      "label": "Surprise",
+      "description": "Découvrir un résultat qui contredit l’attente.",
+      "context": "Une quantité de papier inattendue, un objet disparu.",
+      "risk": "Une bouche ronde seule peut évoquer un sifflement ; montrer l’événement.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "peur",
+      "label": "Inquiétude / peur",
+      "description": "Anticiper une menace ou une perte de contrôle.",
+      "context": "MOU regarde un problème qu’il n’ose pas encore toucher.",
+      "risk": "Le visage seul ne prouve pas la nature de la menace.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "contrariete",
+      "label": "Contrariété / exaspération",
+      "description": "Subir un contretemps ou une répétition agaçante.",
+      "context": "Le rituel empêche encore MOU de cuisiner.",
+      "risk": "Des paupières basses seules peuvent évoquer le sommeil.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "colere",
+      "label": "Colère",
+      "description": "S’opposer franchement à quelque chose.",
+      "context": "Une cause visible arrête MOU et provoque son opposition.",
+      "risk": "Une grimace de dents sans sourcils dirigés peut évoquer la peur.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "tristesse",
+      "label": "Déception / tristesse",
+      "description": "Constater une perte ou un résultat décevant.",
+      "context": "Le résultat ne répond pas à ce que MOU espérait.",
+      "risk": "Le découragement peut ressembler à la fatigue ; garder le regard relié au résultat.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "degout",
+      "label": "Dégoût",
+      "description": "Être rebuté par ce qu’il voit ou touche.",
+      "context": "Une trace ou une texture visible contrarie son envie de cuisiner.",
+      "risk": "Une grimace asymétrique peut ressembler à la gêne sans contexte.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "gene",
+      "label": "Gêne",
+      "description": "Se savoir vu au mauvais moment et sauver les apparences.",
+      "context": "MOU regarde son résultat, puis une personne ou le public.",
+      "risk": "Un grand sourire ou une demi-paupière de frime annule la gêne.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    },
+    {
+      "id": "soulagement",
+      "label": "Soulagement",
+      "description": "Relâcher la tension après un problème résolu.",
+      "context": "Une main est enfin sèche, un risque vient de disparaître.",
+      "risk": "La joie et le soulagement se distinguent par la tension qui précédait.",
+      "levels": [
+        "leger",
+        "franc",
+        "exagere"
+      ]
+    }
+  ],
+  "neutral": {
+    "id": "neutre",
+    "label": "Repos attentif",
+    "params": {
+      "eye_open_l": 1.0,
+      "eye_open_r": 1.0,
+      "brow_raise": 0.0,
+      "brow_l": 0.0,
+      "brow_r": 0.0,
+      "smile": 0.0,
+      "mouth_open": 0.0,
+      "mouth_shape": "native",
+      "mouth_width": 18,
+      "mouth_skew": 0.0,
+      "pupil_x": 0.0,
+      "pupil_y": 0.0,
+      "pupil_scale": 1.0,
+      "laugh": 0.0
+    }
+  },
+  "poses": [
+    {
+      "id": "joie_leger",
+      "family": "joie",
+      "label": "Contentement",
+      "intensity": "leger",
+      "intention": "Profiter tranquillement du résultat.",
+      "look": {
+        "target": "résultat agréable déjà montré",
+        "x": 0.0,
+        "y": 0.1
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.94/0.96, regard dirigé vers résultat agréable déjà montré.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme smile, demi-largeur 22, asymétrie 0."
+      },
+      "context": "Une réussite ou un petit plaisir visible.",
+      "risk": "Le sourire peut sembler gratuit si la cause du plaisir manque.",
+      "params": {
+        "eye_open_l": 0.94,
+        "eye_open_r": 0.96,
+        "brow_raise": 0.35,
+        "brow_l": 0.05,
+        "brow_r": 0.05,
+        "smile": 0.5,
+        "mouth_open": 0.0,
+        "mouth_shape": "smile",
+        "mouth_width": 22,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.1,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "joie_franc",
+      "family": "joie",
+      "label": "Plaisir franc",
+      "intensity": "franc",
+      "intention": "Laisser voir que ce résultat lui plaît.",
+      "look": {
+        "target": "résultat agréable déjà montré",
+        "x": 0.0,
+        "y": 0.05
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.86/0.9, regard dirigé vers résultat agréable déjà montré.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme smile, demi-largeur 32, asymétrie 0.1."
+      },
+      "context": "Une réussite ou un petit plaisir visible.",
+      "risk": "Le sourire peut sembler gratuit si la cause du plaisir manque.",
+      "params": {
+        "eye_open_l": 0.86,
+        "eye_open_r": 0.9,
+        "brow_raise": 0.65,
+        "brow_l": -0.05,
+        "brow_r": -0.05,
+        "smile": 0.85,
+        "mouth_open": 0.36,
+        "mouth_shape": "smile",
+        "mouth_width": 32,
+        "mouth_skew": 0.1,
+        "pupil_x": 0.0,
+        "pupil_y": 0.05,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "joie_exagere",
+      "family": "joie",
+      "label": "Rire joyeux",
+      "intensity": "exagere",
+      "intention": "Laisser éclater son plaisir.",
+      "look": {
+        "target": "résultat agréable déjà montré",
+        "x": 0.0,
+        "y": 0.0
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.18/0.18, regard dirigé vers résultat agréable déjà montré.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme smile, demi-largeur 40, asymétrie 0.05."
+      },
+      "context": "Une réussite ou un petit plaisir visible.",
+      "risk": "Le sourire peut sembler gratuit si la cause du plaisir manque.",
+      "params": {
+        "eye_open_l": 0.18,
+        "eye_open_r": 0.18,
+        "brow_raise": 0.8,
+        "brow_l": 0.1,
+        "brow_r": 0.1,
+        "smile": 1.0,
+        "mouth_open": 0.8,
+        "mouth_shape": "smile",
+        "mouth_width": 40,
+        "mouth_skew": 0.05,
+        "pupil_x": 0.0,
+        "pupil_y": 0.0,
+        "pupil_scale": 1.0,
+        "laugh": 0.55
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "fierte_leger",
+      "family": "fierte",
+      "label": "Satisfait de soi",
+      "intensity": "leger",
+      "intention": "Constater qu’il a bien fait.",
+      "look": {
+        "target": "public ou résultat dont il est fier",
+        "x": 0.05,
+        "y": -0.25
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.84/0.89, regard dirigé vers public ou résultat dont il est fier.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme smile, demi-largeur 18, asymétrie 0.1."
+      },
+      "context": "MOU admire un geste réussi ou se montre au public.",
+      "risk": "Une demi-paupière et un sourire de côté peuvent évoquer la moquerie.",
+      "params": {
+        "eye_open_l": 0.84,
+        "eye_open_r": 0.89,
+        "brow_raise": 0.2,
+        "brow_l": -0.2,
+        "brow_r": 0.05,
+        "smile": 0.28,
+        "mouth_open": 0.0,
+        "mouth_shape": "smile",
+        "mouth_width": 18,
+        "mouth_skew": 0.1,
+        "pupil_x": 0.05,
+        "pupil_y": -0.25,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "fierte_franc",
+      "family": "fierte",
+      "label": "Assuré",
+      "intensity": "franc",
+      "intention": "Faire voir sa maîtrise.",
+      "look": {
+        "target": "public ou résultat dont il est fier",
+        "x": 0.05,
+        "y": -0.35
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.68/0.85, regard dirigé vers public ou résultat dont il est fier.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme smile, demi-largeur 27, asymétrie 0.5."
+      },
+      "context": "MOU admire un geste réussi ou se montre au public.",
+      "risk": "Une demi-paupière et un sourire de côté peuvent évoquer la moquerie.",
+      "params": {
+        "eye_open_l": 0.68,
+        "eye_open_r": 0.85,
+        "brow_raise": 0.5,
+        "brow_l": -0.05,
+        "brow_r": -0.5,
+        "smile": 0.6,
+        "mouth_open": 0.08,
+        "mouth_shape": "smile",
+        "mouth_width": 27,
+        "mouth_skew": 0.5,
+        "pupil_x": 0.05,
+        "pupil_y": -0.35,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "fierte_exagere",
+      "family": "fierte",
+      "label": "Frime assumée",
+      "intensity": "exagere",
+      "intention": "S’assurer que le public admire sa réussite.",
+      "look": {
+        "target": "public ou résultat dont il est fier",
+        "x": 0.15,
+        "y": -0.4
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.4/0.65, regard dirigé vers public ou résultat dont il est fier.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme smile, demi-largeur 34, asymétrie 0.75."
+      },
+      "context": "MOU admire un geste réussi ou se montre au public.",
+      "risk": "Une demi-paupière et un sourire de côté peuvent évoquer la moquerie.",
+      "params": {
+        "eye_open_l": 0.4,
+        "eye_open_r": 0.65,
+        "brow_raise": 0.5,
+        "brow_l": -0.3,
+        "brow_r": -0.6,
+        "smile": 0.85,
+        "mouth_open": 0.15,
+        "mouth_shape": "smile",
+        "mouth_width": 34,
+        "mouth_skew": 0.75,
+        "pupil_x": 0.15,
+        "pupil_y": -0.4,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "curiosite_leger",
+      "family": "curiosite",
+      "label": "Attentif",
+      "intensity": "leger",
+      "intention": "Repérer un détail.",
+      "look": {
+        "target": "détail concret montré dans le cadre",
+        "x": 0.45,
+        "y": 0.25
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.95/1, regard dirigé vers détail concret montré dans le cadre.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme flat, demi-largeur 12, asymétrie 0."
+      },
+      "context": "Un objet, une trace ou un détail appelle son attention.",
+      "risk": "Sans cible montrée, l’asymétrie peut se lire comme du doute.",
+      "params": {
+        "eye_open_l": 0.95,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.45,
+        "brow_l": 0.05,
+        "brow_r": 0.6,
+        "smile": 0.0,
+        "mouth_open": 0.0,
+        "mouth_shape": "flat",
+        "mouth_width": 12,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.45,
+        "pupil_y": 0.25,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "curiosite_franc",
+      "family": "curiosite",
+      "label": "Intrigué",
+      "intensity": "franc",
+      "intention": "Chercher à comprendre ce détail.",
+      "look": {
+        "target": "détail concret montré dans le cadre",
+        "x": 0.65,
+        "y": 0.25
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.97/1, regard dirigé vers détail concret montré dans le cadre.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme o, demi-largeur 11, asymétrie 0."
+      },
+      "context": "Un objet, une trace ou un détail appelle son attention.",
+      "risk": "Sans cible montrée, l’asymétrie peut se lire comme du doute.",
+      "params": {
+        "eye_open_l": 0.97,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.6,
+        "brow_l": -0.15,
+        "brow_r": 0.8,
+        "smile": 0.0,
+        "mouth_open": 0.25,
+        "mouth_shape": "o",
+        "mouth_width": 11,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.65,
+        "pupil_y": 0.25,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "curiosite_exagere",
+      "family": "curiosite",
+      "label": "Concentration intense",
+      "intensity": "exagere",
+      "intention": "Se concentrer entièrement sur une cible précise.",
+      "look": {
+        "target": "détail concret montré dans le cadre",
+        "x": 0.75,
+        "y": 0.55
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.6/0.7, regard dirigé vers détail concret montré dans le cadre.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme flat, demi-largeur 14, asymétrie -0.1."
+      },
+      "context": "Un objet, une trace ou un détail appelle son attention.",
+      "risk": "Sans cible montrée, l’asymétrie peut se lire comme du doute.",
+      "params": {
+        "eye_open_l": 0.6,
+        "eye_open_r": 0.7,
+        "brow_raise": 0.05,
+        "brow_l": -0.4,
+        "brow_r": -0.3,
+        "smile": -0.05,
+        "mouth_open": 0.0,
+        "mouth_shape": "flat",
+        "mouth_width": 14,
+        "mouth_skew": -0.1,
+        "pupil_x": 0.75,
+        "pupil_y": 0.55,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "doute_leger",
+      "family": "doute",
+      "label": "Hésitant",
+      "intensity": "leger",
+      "intention": "Se demander si tout va bien.",
+      "look": {
+        "target": "moufle ou objet à vérifier",
+        "x": -0.55,
+        "y": 0.3
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.9/0.72, regard dirigé vers moufle ou objet à vérifier.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme flat, demi-largeur 16, asymétrie -0.1."
+      },
+      "context": "MOU inspecte sa moufle ou un objet dont il n’est pas sûr.",
+      "risk": "Le doute et le dégoût se séparent surtout par la cible et le recul du geste.",
+      "params": {
+        "eye_open_l": 0.9,
+        "eye_open_r": 0.72,
+        "brow_raise": 0.4,
+        "brow_l": -0.2,
+        "brow_r": 0.6,
+        "smile": -0.1,
+        "mouth_open": 0.0,
+        "mouth_shape": "flat",
+        "mouth_width": 16,
+        "mouth_skew": -0.1,
+        "pupil_x": -0.55,
+        "pupil_y": 0.3,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "doute_franc",
+      "family": "doute",
+      "label": "Soupçonneux",
+      "intensity": "franc",
+      "intention": "Vérifier avant de toucher.",
+      "look": {
+        "target": "moufle ou objet à vérifier",
+        "x": -0.65,
+        "y": 0.25
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.7/0.95, regard dirigé vers moufle ou objet à vérifier.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme wince, demi-largeur 20, asymétrie -0.5."
+      },
+      "context": "MOU inspecte sa moufle ou un objet dont il n’est pas sûr.",
+      "risk": "Le doute et le dégoût se séparent surtout par la cible et le recul du geste.",
+      "params": {
+        "eye_open_l": 0.7,
+        "eye_open_r": 0.95,
+        "brow_raise": 0.4,
+        "brow_l": 0.55,
+        "brow_r": -0.25,
+        "smile": -0.3,
+        "mouth_open": 0.04,
+        "mouth_shape": "wince",
+        "mouth_width": 20,
+        "mouth_skew": -0.5,
+        "pupil_x": -0.65,
+        "pupil_y": 0.25,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "doute_exagere",
+      "family": "doute",
+      "label": "Incrédule",
+      "intensity": "exagere",
+      "intention": "Refuser de croire ce qu’il voit.",
+      "look": {
+        "target": "moufle ou objet à vérifier",
+        "x": -0.7,
+        "y": 0.15
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.45/1, regard dirigé vers moufle ou objet à vérifier.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme wince, demi-largeur 28, asymétrie 0.7."
+      },
+      "context": "MOU inspecte sa moufle ou un objet dont il n’est pas sûr.",
+      "risk": "Le doute et le dégoût se séparent surtout par la cible et le recul du geste.",
+      "params": {
+        "eye_open_l": 0.45,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.5,
+        "brow_l": 0.8,
+        "brow_r": -0.7,
+        "smile": -0.6,
+        "mouth_open": 0.08,
+        "mouth_shape": "wince",
+        "mouth_width": 28,
+        "mouth_skew": 0.7,
+        "pupil_x": -0.7,
+        "pupil_y": 0.15,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "surprise_leger",
+      "family": "surprise",
+      "label": "Tiens ?",
+      "intensity": "leger",
+      "intention": "Noter une petite différence.",
+      "look": {
+        "target": "résultat inattendu visible",
+        "x": 0.0,
+        "y": 0.35
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.98/1, regard dirigé vers résultat inattendu visible.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Ouverture ronde lisible, sans étirer tout le visage à l’unisson."
+      },
+      "context": "Une quantité de papier inattendue, un objet disparu.",
+      "risk": "Une bouche ronde seule peut évoquer un sifflement ; montrer l’événement.",
+      "params": {
+        "eye_open_l": 0.98,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.55,
+        "brow_l": 0.1,
+        "brow_r": 0.1,
+        "smile": 0.0,
+        "mouth_open": 0.18,
+        "mouth_shape": "o",
+        "mouth_width": 10,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.35,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "surprise_franc",
+      "family": "surprise",
+      "label": "Oh !",
+      "intensity": "franc",
+      "intention": "Découvrir l’écart entre attente et résultat.",
+      "look": {
+        "target": "résultat inattendu visible",
+        "x": 0.0,
+        "y": 0.4
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 1/1, regard dirigé vers résultat inattendu visible.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Ouverture ronde lisible, sans étirer tout le visage à l’unisson."
+      },
+      "context": "Une quantité de papier inattendue, un objet disparu.",
+      "risk": "Une bouche ronde seule peut évoquer un sifflement ; montrer l’événement.",
+      "params": {
+        "eye_open_l": 1.0,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.95,
+        "brow_l": 0.05,
+        "brow_r": 0.05,
+        "smile": 0.0,
+        "mouth_open": 0.65,
+        "mouth_shape": "o",
+        "mouth_width": 17,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.4,
+        "pupil_scale": 0.85,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "surprise_exagere",
+      "family": "surprise",
+      "label": "Stupéfait",
+      "intensity": "exagere",
+      "intention": "Rester saisi par le résultat.",
+      "look": {
+        "target": "résultat inattendu visible",
+        "x": 0.0,
+        "y": 0.45
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 1/1, regard dirigé vers résultat inattendu visible.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Ouverture ronde lisible, sans étirer tout le visage à l’unisson."
+      },
+      "context": "Une quantité de papier inattendue, un objet disparu.",
+      "risk": "Une bouche ronde seule peut évoquer un sifflement ; montrer l’événement.",
+      "params": {
+        "eye_open_l": 1.0,
+        "eye_open_r": 1.0,
+        "brow_raise": 1.0,
+        "brow_l": 0.2,
+        "brow_r": 0.2,
+        "smile": 0.0,
+        "mouth_open": 1.0,
+        "mouth_shape": "o",
+        "mouth_width": 28,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.45,
+        "pupil_scale": 0.72,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "peur_leger",
+      "family": "peur",
+      "label": "Inquiet",
+      "intensity": "leger",
+      "intention": "Prévoir que quelque chose peut mal se passer.",
+      "look": {
+        "target": "menace montrée avant la réaction",
+        "x": -0.2,
+        "y": 0.2
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.94/0.98, regard dirigé vers menace montrée avant la réaction.",
+        "brows": "Intérieurs relevés ; la bouche et la cible distinguent la peur de la déception.",
+        "mouth": "Forme frown, demi-largeur 17, asymétrie 0.1."
+      },
+      "context": "MOU regarde un problème qu’il n’ose pas encore toucher.",
+      "risk": "Le visage seul ne prouve pas la nature de la menace.",
+      "params": {
+        "eye_open_l": 0.94,
+        "eye_open_r": 0.98,
+        "brow_raise": 0.5,
+        "brow_l": 0.75,
+        "brow_r": 0.55,
+        "smile": -0.3,
+        "mouth_open": 0.08,
+        "mouth_shape": "frown",
+        "mouth_width": 17,
+        "mouth_skew": 0.1,
+        "pupil_x": -0.2,
+        "pupil_y": 0.2,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "peur_franc",
+      "family": "peur",
+      "label": "Effrayé",
+      "intensity": "franc",
+      "intention": "Faire face à une menace maintenant visible.",
+      "look": {
+        "target": "menace montrée avant la réaction",
+        "x": -0.25,
+        "y": 0.1
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 1/1, regard dirigé vers menace montrée avant la réaction.",
+        "brows": "Intérieurs relevés ; la bouche et la cible distinguent la peur de la déception.",
+        "mouth": "Forme grit, demi-largeur 30, asymétrie -0.2."
+      },
+      "context": "MOU regarde un problème qu’il n’ose pas encore toucher.",
+      "risk": "Le visage seul ne prouve pas la nature de la menace.",
+      "params": {
+        "eye_open_l": 1.0,
+        "eye_open_r": 1.0,
+        "brow_raise": 0.75,
+        "brow_l": 1.0,
+        "brow_r": 0.85,
+        "smile": -0.5,
+        "mouth_open": 0.35,
+        "mouth_shape": "grit",
+        "mouth_width": 30,
+        "mouth_skew": -0.2,
+        "pupil_x": -0.25,
+        "pupil_y": 0.1,
+        "pupil_scale": 0.82,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "peur_exagere",
+      "family": "peur",
+      "label": "Paniqué",
+      "intensity": "exagere",
+      "intention": "Perdre momentanément ses moyens devant cette menace.",
+      "look": {
+        "target": "menace montrée avant la réaction",
+        "x": -0.3,
+        "y": -0.1
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 1/1, regard dirigé vers menace montrée avant la réaction.",
+        "brows": "Intérieurs relevés ; la bouche et la cible distinguent la peur de la déception.",
+        "mouth": "Forme wince, demi-largeur 42, asymétrie 0.45."
+      },
+      "context": "MOU regarde un problème qu’il n’ose pas encore toucher.",
+      "risk": "Le visage seul ne prouve pas la nature de la menace.",
+      "params": {
+        "eye_open_l": 1.0,
+        "eye_open_r": 1.0,
+        "brow_raise": 1.0,
+        "brow_l": 1.0,
+        "brow_r": 1.0,
+        "smile": -0.9,
+        "mouth_open": 0.9,
+        "mouth_shape": "wince",
+        "mouth_width": 42,
+        "mouth_skew": 0.45,
+        "pupil_x": -0.3,
+        "pupil_y": -0.1,
+        "pupil_scale": 0.7,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "contrariete_leger",
+      "family": "contrariete",
+      "label": "Petit agacement",
+      "intensity": "leger",
+      "intention": "Constater un petit contretemps.",
+      "look": {
+        "target": "cause du contretemps ou de la répétition",
+        "x": 0.0,
+        "y": 0.25
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.75/0.8, regard dirigé vers cause du contretemps ou de la répétition.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme flat, demi-largeur 24, asymétrie 0."
+      },
+      "context": "Le rituel empêche encore MOU de cuisiner.",
+      "risk": "Des paupières basses seules peuvent évoquer le sommeil.",
+      "params": {
+        "eye_open_l": 0.75,
+        "eye_open_r": 0.8,
+        "brow_raise": -0.1,
+        "brow_l": -0.1,
+        "brow_r": 0.0,
+        "smile": -0.25,
+        "mouth_open": 0.0,
+        "mouth_shape": "flat",
+        "mouth_width": 24,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.25,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "contrariete_franc",
+      "family": "contrariete",
+      "label": "Encore une fois…",
+      "intensity": "franc",
+      "intention": "Supporter une répétition agaçante.",
+      "look": {
+        "target": "cause du contretemps ou de la répétition",
+        "x": 0.1,
+        "y": -0.65
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.55/0.75, regard dirigé vers cause du contretemps ou de la répétition.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme frown, demi-largeur 28, asymétrie -0.3."
+      },
+      "context": "Le rituel empêche encore MOU de cuisiner.",
+      "risk": "Des paupières basses seules peuvent évoquer le sommeil.",
+      "params": {
+        "eye_open_l": 0.55,
+        "eye_open_r": 0.75,
+        "brow_raise": 0.15,
+        "brow_l": 0.25,
+        "brow_r": -0.3,
+        "smile": -0.6,
+        "mouth_open": 0.0,
+        "mouth_shape": "frown",
+        "mouth_width": 28,
+        "mouth_skew": -0.3,
+        "pupil_x": 0.1,
+        "pupil_y": -0.65,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "contrariete_exagere",
+      "family": "contrariete",
+      "label": "Ras-le-bol",
+      "intensity": "exagere",
+      "intention": "Laisser voir qu’il en a vraiment assez.",
+      "look": {
+        "target": "cause du contretemps ou de la répétition",
+        "x": 0.0,
+        "y": -0.8
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.3/0.55, regard dirigé vers cause du contretemps ou de la répétition.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme frown, demi-largeur 36, asymétrie -0.15."
+      },
+      "context": "Le rituel empêche encore MOU de cuisiner.",
+      "risk": "Des paupières basses seules peuvent évoquer le sommeil.",
+      "params": {
+        "eye_open_l": 0.3,
+        "eye_open_r": 0.55,
+        "brow_raise": 0.25,
+        "brow_l": 0.5,
+        "brow_r": 0.25,
+        "smile": -0.9,
+        "mouth_open": 0.2,
+        "mouth_shape": "frown",
+        "mouth_width": 36,
+        "mouth_skew": -0.15,
+        "pupil_x": 0.0,
+        "pupil_y": -0.8,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "colere_leger",
+      "family": "colere",
+      "label": "Opposition",
+      "intensity": "leger",
+      "intention": "S’opposer sans encore exploser.",
+      "look": {
+        "target": "cause précise de son opposition",
+        "x": 0.0,
+        "y": 0.05
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.8/0.82, regard dirigé vers cause précise de son opposition.",
+        "brows": "Intérieurs des sourcils abaissés vers la cible ; conserver la direction de regard.",
+        "mouth": "Forme flat, demi-largeur 24, asymétrie 0."
+      },
+      "context": "Une cause visible arrête MOU et provoque son opposition.",
+      "risk": "Une grimace de dents sans sourcils dirigés peut évoquer la peur.",
+      "params": {
+        "eye_open_l": 0.8,
+        "eye_open_r": 0.82,
+        "brow_raise": -0.35,
+        "brow_l": -0.65,
+        "brow_r": -0.65,
+        "smile": -0.4,
+        "mouth_open": 0.0,
+        "mouth_shape": "flat",
+        "mouth_width": 24,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.05,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "colere_franc",
+      "family": "colere",
+      "label": "En colère",
+      "intensity": "franc",
+      "intention": "Désigner franchement la cause de sa colère.",
+      "look": {
+        "target": "cause précise de son opposition",
+        "x": 0.0,
+        "y": 0.05
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.75/0.75, regard dirigé vers cause précise de son opposition.",
+        "brows": "Intérieurs des sourcils abaissés vers la cible ; conserver la direction de regard.",
+        "mouth": "Forme grit, demi-largeur 34, asymétrie 0."
+      },
+      "context": "Une cause visible arrête MOU et provoque son opposition.",
+      "risk": "Une grimace de dents sans sourcils dirigés peut évoquer la peur.",
+      "params": {
+        "eye_open_l": 0.75,
+        "eye_open_r": 0.75,
+        "brow_raise": -0.5,
+        "brow_l": -1.0,
+        "brow_r": -1.0,
+        "smile": -0.8,
+        "mouth_open": 0.2,
+        "mouth_shape": "grit",
+        "mouth_width": 34,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.05,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "colere_exagere",
+      "family": "colere",
+      "label": "Furieux",
+      "intensity": "exagere",
+      "intention": "Laisser éclater l’opposition.",
+      "look": {
+        "target": "cause précise de son opposition",
+        "x": 0.0,
+        "y": 0.0
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.68/0.72, regard dirigé vers cause précise de son opposition.",
+        "brows": "Intérieurs des sourcils abaissés vers la cible ; conserver la direction de regard.",
+        "mouth": "Forme grit, demi-largeur 44, asymétrie -0.1."
+      },
+      "context": "Une cause visible arrête MOU et provoque son opposition.",
+      "risk": "Une grimace de dents sans sourcils dirigés peut évoquer la peur.",
+      "params": {
+        "eye_open_l": 0.68,
+        "eye_open_r": 0.72,
+        "brow_raise": -0.7,
+        "brow_l": -1.0,
+        "brow_r": -1.0,
+        "smile": -1.0,
+        "mouth_open": 0.7,
+        "mouth_shape": "grit",
+        "mouth_width": 44,
+        "mouth_skew": -0.1,
+        "pupil_x": 0.0,
+        "pupil_y": 0.0,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "tristesse_leger",
+      "family": "tristesse",
+      "label": "Déçu",
+      "intensity": "leger",
+      "intention": "Constater un espoir déçu.",
+      "look": {
+        "target": "résultat décevant visible",
+        "x": 0.0,
+        "y": 0.65
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.85/0.9, regard dirigé vers résultat décevant visible.",
+        "brows": "Intérieurs relevés ; la bouche et la cible distinguent la peur de la déception.",
+        "mouth": "Forme frown, demi-largeur 20, asymétrie 0."
+      },
+      "context": "Le résultat ne répond pas à ce que MOU espérait.",
+      "risk": "Le découragement peut ressembler à la fatigue ; garder le regard relié au résultat.",
+      "params": {
+        "eye_open_l": 0.85,
+        "eye_open_r": 0.9,
+        "brow_raise": 0.15,
+        "brow_l": 0.7,
+        "brow_r": 0.65,
+        "smile": -0.45,
+        "mouth_open": 0.0,
+        "mouth_shape": "frown",
+        "mouth_width": 20,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.65,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "tristesse_franc",
+      "family": "tristesse",
+      "label": "Peiné",
+      "intensity": "franc",
+      "intention": "Ressentir la déception.",
+      "look": {
+        "target": "résultat décevant visible",
+        "x": -0.05,
+        "y": 0.7
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.68/0.75, regard dirigé vers résultat décevant visible.",
+        "brows": "Intérieurs relevés ; la bouche et la cible distinguent la peur de la déception.",
+        "mouth": "Forme pout, demi-largeur 25, asymétrie 0.1."
+      },
+      "context": "Le résultat ne répond pas à ce que MOU espérait.",
+      "risk": "Le découragement peut ressembler à la fatigue ; garder le regard relié au résultat.",
+      "params": {
+        "eye_open_l": 0.68,
+        "eye_open_r": 0.75,
+        "brow_raise": 0.25,
+        "brow_l": 1.0,
+        "brow_r": 1.0,
+        "smile": -0.8,
+        "mouth_open": 0.1,
+        "mouth_shape": "pout",
+        "mouth_width": 25,
+        "mouth_skew": 0.1,
+        "pupil_x": -0.05,
+        "pupil_y": 0.7,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "tristesse_exagere",
+      "family": "tristesse",
+      "label": "Effondré",
+      "intensity": "exagere",
+      "intention": "Se laisser abattre par le résultat.",
+      "look": {
+        "target": "résultat décevant visible",
+        "x": -0.1,
+        "y": 0.75
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.45/0.5, regard dirigé vers résultat décevant visible.",
+        "brows": "Intérieurs relevés ; la bouche et la cible distinguent la peur de la déception.",
+        "mouth": "Forme frown, demi-largeur 38, asymétrie -0.1."
+      },
+      "context": "Le résultat ne répond pas à ce que MOU espérait.",
+      "risk": "Le découragement peut ressembler à la fatigue ; garder le regard relié au résultat.",
+      "params": {
+        "eye_open_l": 0.45,
+        "eye_open_r": 0.5,
+        "brow_raise": 0.35,
+        "brow_l": 1.0,
+        "brow_r": 1.0,
+        "smile": -1.0,
+        "mouth_open": 0.75,
+        "mouth_shape": "frown",
+        "mouth_width": 38,
+        "mouth_skew": -0.1,
+        "pupil_x": -0.1,
+        "pupil_y": 0.75,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "degout_leger",
+      "family": "degout",
+      "label": "Peu convaincu",
+      "intensity": "leger",
+      "intention": "Hésiter à approcher.",
+      "look": {
+        "target": "chose qui le rebute, puis bref regard à l’écart",
+        "x": -0.55,
+        "y": 0.4
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.8/0.72, regard dirigé vers chose qui le rebute, puis bref regard à l’écart.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme wince, demi-largeur 18, asymétrie 0.4."
+      },
+      "context": "Une trace ou une texture visible contrarie son envie de cuisiner.",
+      "risk": "Une grimace asymétrique peut ressembler à la gêne sans contexte.",
+      "params": {
+        "eye_open_l": 0.8,
+        "eye_open_r": 0.72,
+        "brow_raise": -0.05,
+        "brow_l": -0.1,
+        "brow_r": 0.1,
+        "smile": -0.3,
+        "mouth_open": 0.0,
+        "mouth_shape": "wince",
+        "mouth_width": 18,
+        "mouth_skew": 0.4,
+        "pupil_x": -0.55,
+        "pupil_y": 0.4,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "degout_franc",
+      "family": "degout",
+      "label": "Rebuté",
+      "intensity": "franc",
+      "intention": "Vouloir se tenir à distance.",
+      "look": {
+        "target": "chose qui le rebute, puis bref regard à l’écart",
+        "x": -0.65,
+        "y": 0.35
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.7/0.85, regard dirigé vers chose qui le rebute, puis bref regard à l’écart.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme wince, demi-largeur 30, asymétrie -0.7."
+      },
+      "context": "Une trace ou une texture visible contrarie son envie de cuisiner.",
+      "risk": "Une grimace asymétrique peut ressembler à la gêne sans contexte.",
+      "params": {
+        "eye_open_l": 0.7,
+        "eye_open_r": 0.85,
+        "brow_raise": 0.1,
+        "brow_l": -0.45,
+        "brow_r": 0.55,
+        "smile": -0.7,
+        "mouth_open": 0.2,
+        "mouth_shape": "wince",
+        "mouth_width": 30,
+        "mouth_skew": -0.7,
+        "pupil_x": -0.65,
+        "pupil_y": 0.35,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "degout_exagere",
+      "family": "degout",
+      "label": "Écœuré",
+      "intensity": "exagere",
+      "intention": "Réagir fortement à la chose rebutante.",
+      "look": {
+        "target": "chose qui le rebute, puis bref regard à l’écart",
+        "x": -0.7,
+        "y": 0.25
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.38/0.65, regard dirigé vers chose qui le rebute, puis bref regard à l’écart.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Forme wince, demi-largeur 38, asymétrie 0.9."
+      },
+      "context": "Une trace ou une texture visible contrarie son envie de cuisiner.",
+      "risk": "Une grimace asymétrique peut ressembler à la gêne sans contexte.",
+      "params": {
+        "eye_open_l": 0.38,
+        "eye_open_r": 0.65,
+        "brow_raise": 0.2,
+        "brow_l": -0.5,
+        "brow_r": 0.7,
+        "smile": -1.0,
+        "mouth_open": 0.75,
+        "mouth_shape": "wince",
+        "mouth_width": 38,
+        "mouth_skew": 0.9,
+        "pupil_x": -0.7,
+        "pupil_y": 0.25,
+        "pupil_scale": 0.95,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "gene_leger",
+      "family": "gene",
+      "label": "Mal à l’aise",
+      "intensity": "leger",
+      "intention": "Se sentir un peu observé.",
+      "look": {
+        "target": "résultat, puis personne ou public qui l’a vu",
+        "x": 0.55,
+        "y": 0.65
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.85/0.95, regard dirigé vers résultat, puis personne ou public qui l’a vu.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Courte bouche crispée et de travers, sourire positif contenu ; aucun grand croissant de satisfaction."
+      },
+      "context": "MOU regarde son résultat, puis une personne ou le public.",
+      "risk": "Un grand sourire ou une demi-paupière de frime annule la gêne.",
+      "params": {
+        "eye_open_l": 0.85,
+        "eye_open_r": 0.95,
+        "brow_raise": 0.3,
+        "brow_l": 0.6,
+        "brow_r": 0.3,
+        "smile": -0.1,
+        "mouth_open": 0.0,
+        "mouth_shape": "wince",
+        "mouth_width": 16,
+        "mouth_skew": 0.35,
+        "pupil_x": 0.55,
+        "pupil_y": 0.65,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "gene_franc",
+      "family": "gene",
+      "label": "Pris sur le fait",
+      "intensity": "franc",
+      "intention": "Comprendre que le public a vu son manège.",
+      "look": {
+        "target": "résultat, puis personne ou public qui l’a vu",
+        "x": 0.5,
+        "y": 0.65
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.75/0.9, regard dirigé vers résultat, puis personne ou public qui l’a vu.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Courte bouche crispée et de travers, sourire positif contenu ; aucun grand croissant de satisfaction."
+      },
+      "context": "MOU regarde son résultat, puis une personne ou le public.",
+      "risk": "Un grand sourire ou une demi-paupière de frime annule la gêne.",
+      "params": {
+        "eye_open_l": 0.75,
+        "eye_open_r": 0.9,
+        "brow_raise": 0.4,
+        "brow_l": 0.9,
+        "brow_r": 0.55,
+        "smile": -0.25,
+        "mouth_open": 0.05,
+        "mouth_shape": "wince",
+        "mouth_width": 22,
+        "mouth_skew": 0.6,
+        "pupil_x": 0.5,
+        "pupil_y": 0.65,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "gene_exagere",
+      "family": "gene",
+      "label": "Très embarrassé",
+      "intensity": "exagere",
+      "intention": "Chercher une contenance sans retrouver son assurance.",
+      "look": {
+        "target": "résultat, puis personne ou public qui l’a vu",
+        "x": -0.65,
+        "y": 0.8
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.55/0.9, regard dirigé vers résultat, puis personne ou public qui l’a vu.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Courte bouche crispée et de travers, sourire positif contenu ; aucun grand croissant de satisfaction."
+      },
+      "context": "MOU regarde son résultat, puis une personne ou le public.",
+      "risk": "Un grand sourire ou une demi-paupière de frime annule la gêne.",
+      "params": {
+        "eye_open_l": 0.55,
+        "eye_open_r": 0.9,
+        "brow_raise": 0.6,
+        "brow_l": 1.0,
+        "brow_r": 0.6,
+        "smile": -0.4,
+        "mouth_open": 0.12,
+        "mouth_shape": "wince",
+        "mouth_width": 27,
+        "mouth_skew": 0.85,
+        "pupil_x": -0.65,
+        "pupil_y": 0.8,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "soulagement_leger",
+      "family": "soulagement",
+      "label": "Ça va mieux",
+      "intensity": "leger",
+      "intention": "Comprendre que le problème diminue.",
+      "look": {
+        "target": "problème résolu, main sèche ou geste enfin réussi",
+        "x": 0.0,
+        "y": 0.6
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.8/0.85, regard dirigé vers problème résolu, main sèche ou geste enfin réussi.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Relâchement ou expiration visuelle, distinct d’un rire joyeux."
+      },
+      "context": "Une main est enfin sèche, un risque vient de disparaître.",
+      "risk": "La joie et le soulagement se distinguent par la tension qui précédait.",
+      "params": {
+        "eye_open_l": 0.8,
+        "eye_open_r": 0.85,
+        "brow_raise": 0.15,
+        "brow_l": 0.2,
+        "brow_r": 0.2,
+        "smile": 0.25,
+        "mouth_open": 0.0,
+        "mouth_shape": "smile",
+        "mouth_width": 20,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.6,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "soulagement_franc",
+      "family": "soulagement",
+      "label": "Ouf…",
+      "intensity": "franc",
+      "intention": "Laisser retomber la tension.",
+      "look": {
+        "target": "problème résolu, main sèche ou geste enfin réussi",
+        "x": 0.0,
+        "y": 0.4
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.4/0.45, regard dirigé vers problème résolu, main sèche ou geste enfin réussi.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Relâchement ou expiration visuelle, distinct d’un rire joyeux."
+      },
+      "context": "Une main est enfin sèche, un risque vient de disparaître.",
+      "risk": "La joie et le soulagement se distinguent par la tension qui précédait.",
+      "params": {
+        "eye_open_l": 0.4,
+        "eye_open_r": 0.45,
+        "brow_raise": 0.4,
+        "brow_l": 0.1,
+        "brow_r": 0.1,
+        "smile": 0.0,
+        "mouth_open": 0.25,
+        "mouth_shape": "o",
+        "mouth_width": 15,
+        "mouth_skew": 0.0,
+        "pupil_x": 0.0,
+        "pupil_y": 0.4,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "soulagement_exagere",
+      "family": "soulagement",
+      "label": "Tension retombée",
+      "intensity": "exagere",
+      "intention": "Relâcher entièrement la tension après résolution.",
+      "look": {
+        "target": "problème résolu, main sèche ou geste enfin réussi",
+        "x": 0.0,
+        "y": 0.2
+      },
+      "cues": {
+        "eyes": "Ouvertures gauche/droite 0.06/0.08, regard dirigé vers problème résolu, main sèche ou geste enfin réussi.",
+        "brows": "Asymétrie et hauteur servent l’intention ; ne pas augmenter tous les contrôles ensemble.",
+        "mouth": "Relâchement ou expiration visuelle, distinct d’un rire joyeux."
+      },
+      "context": "Une main est enfin sèche, un risque vient de disparaître.",
+      "risk": "La joie et le soulagement se distinguent par la tension qui précédait.",
+      "params": {
+        "eye_open_l": 0.06,
+        "eye_open_r": 0.08,
+        "brow_raise": 0.65,
+        "brow_l": 0.3,
+        "brow_r": 0.3,
+        "smile": 0.0,
+        "mouth_open": 0.55,
+        "mouth_shape": "o",
+        "mouth_width": 22,
+        "mouth_skew": 0.05,
+        "pupil_x": 0.0,
+        "pupil_y": 0.2,
+        "pupil_scale": 1.0,
+        "laugh": 0.0
+      },
+      "review_status": "a_relire_sur_rendu",
+      "hold_hint_frames_24fps": [
+        8,
+        16
+      ]
+    }
+  ],
+  "limits": [
+    "Les noms d’émotion décrivent une intention à éprouver ; ils ne garantissent pas sa reconnaissance par un spectateur.",
+    "L’intensité ne signifie pas que tous les paramètres montent : une joie forte peut fermer les yeux, un soulagement peut réduire le mouvement.",
+    "Une planche ne démontre pas la compréhension d’une transition. Vérifier la cible, l’anticipation, le contact et la réaction tenue.",
+    "Ne pas compter les directions de regard comme de nouvelles émotions.",
+    "Pas de scénario, rig canonique, bras ou MP4 de production modifié par ce catalogue."
+  ]
+}

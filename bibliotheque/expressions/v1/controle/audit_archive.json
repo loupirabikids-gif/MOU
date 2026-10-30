@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "zip_crc_passed": true,
+  "manifest_files_verified": 147,
+  "isolated_cold_svg_png_matches": [
+    "joie_franc",
+    "degout_franc",
+    "soulagement_franc"
+  ],
+  "archive_sha256": "ee1fc4993ae731471f069ee7eb928c0066f02b2531a1e19c8e3581db151e49a6",
+  "archive_bytes": 12037938,
+  "limits": "Archive integrity and source portability; not emotional/audience approval."
+}

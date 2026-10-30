@@ -1,5 +1,19 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Bibliothèque d'expressions créée le 30 octobre 2026 :
+`bibliotheque/expressions/v1/` contient 36 poses proposées (12 familles ×
+3 intensités), SVG/PNG, galerie hors ligne et six transitions faciales muettes.
+Réutiliser `catalogue.json` et `sources/face.py` : regard vers une cible,
+expression qui se forme, puis pose exposée. Le fragment facial s'intègre au
+personnage déjà présent ; ne pas superposer un deuxième SVG de MOU complet.
+Le modèle canonique et les deux bras/moufles sont conservés. Les trois lectures
+bâillement/soulagement, dégoût/doute, curiosité/surprise ont été corrigées sur
+rendus ; gêne et soulagement restent liés au contexte. La critique interne
+ne vaut pas reconnaissance publique de toutes les étiquettes. Études de visage
+avec corps au repos ; les contacts, le jeu corporel et l'intégration au film
+demandent leur propre animatique. Voir intentions_episode.md pour cinq moments
+à clarifier, sans traiter le film V22 comme déjà révisé par cette bibliothèque.
+
 Référence réellement examinée le 30 octobre 2026 : fichier utilisateur
 Lamput « Spider Squad Activated 🕷️🧡 #spookyseason.mp4 », vidéo112,9s.
 Étude d'images successives et séquences densifiées dans

@@ -1,0 +1,397 @@
+{
+  "status": "passed",
+  "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "poses": 36,
+  "families": 12,
+  "images_unique": 36,
+  "native_body_feet_arms_identical": true,
+  "two_native_hands_all_full_body_states": true,
+  "episode_sources_video_and_audio_unchanged": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/cuisine_v22/sources/animation.py": "0362d1bc783211d11a80d3512b381fb7978effc5497c10a64b69dffe15a0bc97",
+    "episodes/03/cuisine_v22/sources/acting.py": "4161ce65e483e9bba62899bc87d1426ddfd13b55ae077430a3578ad9ca81382b",
+    "episodes/03/cuisine_v22/MOU_Encore_une_feuille.mp4": "2473b3597f624fdb44a06a497ed0dca814ddc987b75c55506574e7dcd9552b9f",
+    "episodes/03/cuisine_v22/audio/mix.wav": "d5e95dc32911c9087c797193ca750d66c82a546ad3355ebe210d6433bc68fc7b",
+    "episodes/03/film/sources/animation.py": "8872db86fafe7edcd7aa392232909607b10d84e247b17f67fcee21a435263f75"
+  },
+  "external_episode_files_not_in_this_checkout": [],
+  "single_clipped_face_during_432_transition_frames": true,
+  "video": {
+    "sha256": "4a5d83dc8028304ec714a6d7c058d5674ddab3874c9c908db5079720fd40a441",
+    "dimensions": [
+      720,
+      960
+    ],
+    "fps": 24,
+    "frames": 432,
+    "duration": 18.0,
+    "audio": false,
+    "full_decode_passed": true
+  },
+  "decoded_video_vs_uncached_cairo": [
+    {
+      "frame": 5,
+      "mean_abs_rgb_error": 1.0757079475308642,
+      "mouth_mean_abs_rgb_error": 0.9294525745257453
+    },
+    {
+      "frame": 16,
+      "mean_abs_rgb_error": 1.084364872685185,
+      "mouth_mean_abs_rgb_error": 0.9263306233062331
+    },
+    {
+      "frame": 27,
+      "mean_abs_rgb_error": 1.1136323302469135,
+      "mouth_mean_abs_rgb_error": 1.2099837398373983
+    },
+    {
+      "frame": 38,
+      "mean_abs_rgb_error": 1.1099720293209876,
+      "mouth_mean_abs_rgb_error": 1.1768780487804877
+    },
+    {
+      "frame": 59,
+      "mean_abs_rgb_error": 1.1100255594135802,
+      "mouth_mean_abs_rgb_error": 1.1759457994579945
+    },
+    {
+      "frame": 69,
+      "mean_abs_rgb_error": 1.1099474344135802,
+      "mouth_mean_abs_rgb_error": 1.1758807588075881
+    },
+    {
+      "frame": 77,
+      "mean_abs_rgb_error": 1.1069425154320989,
+      "mouth_mean_abs_rgb_error": 1.1758807588075881
+    },
+    {
+      "frame": 88,
+      "mean_abs_rgb_error": 1.1175742669753086,
+      "mouth_mean_abs_rgb_error": 1.175761517615176
+    },
+    {
+      "frame": 99,
+      "mean_abs_rgb_error": 1.1168113425925925,
+      "mouth_mean_abs_rgb_error": 1.0401626016260164
+    },
+    {
+      "frame": 110,
+      "mean_abs_rgb_error": 1.111578414351852,
+      "mouth_mean_abs_rgb_error": 0.998569105691057
+    },
+    {
+      "frame": 131,
+      "mean_abs_rgb_error": 1.1110951967592593,
+      "mouth_mean_abs_rgb_error": 0.998720867208672
+    },
+    {
+      "frame": 141,
+      "mean_abs_rgb_error": 1.1110363618827162,
+      "mouth_mean_abs_rgb_error": 0.9986016260162601
+    },
+    {
+      "frame": 149,
+      "mean_abs_rgb_error": 1.095243537808642,
+      "mouth_mean_abs_rgb_error": 0.9985149051490515
+    },
+    {
+      "frame": 160,
+      "mean_abs_rgb_error": 1.1058246527777778,
+      "mouth_mean_abs_rgb_error": 0.998059620596206
+    },
+    {
+      "frame": 171,
+      "mean_abs_rgb_error": 1.1169179205246913,
+      "mouth_mean_abs_rgb_error": 1.0789159891598916
+    },
+    {
+      "frame": 182,
+      "mean_abs_rgb_error": 1.1168913966049383,
+      "mouth_mean_abs_rgb_error": 1.0805853658536586
+    },
+    {
+      "frame": 203,
+      "mean_abs_rgb_error": 1.1172603202160494,
+      "mouth_mean_abs_rgb_error": 1.0811382113821137
+    },
+    {
+      "frame": 213,
+      "mean_abs_rgb_error": 1.1172087191358024,
+      "mouth_mean_abs_rgb_error": 1.0810948509485094
+    },
+    {
+      "frame": 221,
+      "mean_abs_rgb_error": 1.1085030864197531,
+      "mouth_mean_abs_rgb_error": 1.0840542005420055
+    },
+    {
+      "frame": 232,
+      "mean_abs_rgb_error": 1.1186892361111112,
+      "mouth_mean_abs_rgb_error": 1.0831544715447154
+    },
+    {
+      "frame": 243,
+      "mean_abs_rgb_error": 1.1059452160493828,
+      "mouth_mean_abs_rgb_error": 1.0965853658536586
+    },
+    {
+      "frame": 254,
+      "mean_abs_rgb_error": 1.0669753086419753,
+      "mouth_mean_abs_rgb_error": 1.0484552845528454
+    },
+    {
+      "frame": 275,
+      "mean_abs_rgb_error": 1.0671199845679011,
+      "mouth_mean_abs_rgb_error": 1.0484552845528454
+    },
+    {
+      "frame": 285,
+      "mean_abs_rgb_error": 1.0671146797839506,
+      "mouth_mean_abs_rgb_error": 1.0484552845528454
+    },
+    {
+      "frame": 293,
+      "mean_abs_rgb_error": 1.0762374614197532,
+      "mouth_mean_abs_rgb_error": 1.2191219512195122
+    },
+    {
+      "frame": 304,
+      "mean_abs_rgb_error": 1.0857923418209876,
+      "mouth_mean_abs_rgb_error": 1.217810298102981
+    },
+    {
+      "frame": 315,
+      "mean_abs_rgb_error": 1.0996595293209876,
+      "mouth_mean_abs_rgb_error": 1.0706666666666667
+    },
+    {
+      "frame": 326,
+      "mean_abs_rgb_error": 1.0963006365740742,
+      "mouth_mean_abs_rgb_error": 1.050720867208672
+    },
+    {
+      "frame": 347,
+      "mean_abs_rgb_error": 1.0955353009259259,
+      "mouth_mean_abs_rgb_error": 1.0495826558265582
+    },
+    {
+      "frame": 357,
+      "mean_abs_rgb_error": 1.0954986496913581,
+      "mouth_mean_abs_rgb_error": 1.0495284552845527
+    },
+    {
+      "frame": 365,
+      "mean_abs_rgb_error": 1.067342785493827,
+      "mouth_mean_abs_rgb_error": 0.9240433604336044
+    },
+    {
+      "frame": 376,
+      "mean_abs_rgb_error": 1.0779489776234568,
+      "mouth_mean_abs_rgb_error": 0.9210948509485095
+    },
+    {
+      "frame": 387,
+      "mean_abs_rgb_error": 1.1027073688271605,
+      "mouth_mean_abs_rgb_error": 1.0352628726287263
+    },
+    {
+      "frame": 398,
+      "mean_abs_rgb_error": 1.102821662808642,
+      "mouth_mean_abs_rgb_error": 1.0365636856368563
+    },
+    {
+      "frame": 419,
+      "mean_abs_rgb_error": 1.1024971064814815,
+      "mouth_mean_abs_rgb_error": 1.0362926829268293
+    },
+    {
+      "frame": 429,
+      "mean_abs_rgb_error": 1.1024971064814815,
+      "mouth_mean_abs_rgb_error": 1.0362926829268293
+    }
+  ],
+  "gallery_embedded_javascript_syntax": "passed",
+  "rendered_poses": [
+    {
+      "id": "joie_leger",
+      "svg_sha256": "c98ba9870d60fba55f49cb29f388a54acfd08c678aa5a7a67a08d15338d32c2d",
+      "png_sha256": "d21f5a5ea71353875b5b767e22bef3e81db5d47eaf4e959364ea36e94ac4140c"
+    },
+    {
+      "id": "joie_franc",
+      "svg_sha256": "c9888813a9be8ff1d0cc7968d5cb2dcc8af6de9852f7ef10f04c819b6d263985",
+      "png_sha256": "454cbd425a06dc0371927ff6253e3f98aa308522564fcebcf498133046889a35"
+    },
+    {
+      "id": "joie_exagere",
+      "svg_sha256": "783d4b9968eeb8bfe90a7acb916805d54499afb8662386dafdee4b41a0a31dfd",
+      "png_sha256": "e712c118d03ecd8aa3b1bb178dc4361731d863a25b98b82f92a551b4804c3cfa"
+    },
+    {
+      "id": "fierte_leger",
+      "svg_sha256": "26f420a9b36dc40afc400d17edd599c5d7be4ffb170af03675ed6874edb83e9f",
+      "png_sha256": "1d6e1a8f57737ddbf8cf170fb99a1e6d13b3810c52b7334a7f1a63484589a3ae"
+    },
+    {
+      "id": "fierte_franc",
+      "svg_sha256": "927acbbff429b40857787ab7e2b1c92ca15dcc36ba5a3987050203dc54ba403c",
+      "png_sha256": "87c96f2c639996f26dcea891d567b45a199d3b2f5827a0c815556b37568db15f"
+    },
+    {
+      "id": "fierte_exagere",
+      "svg_sha256": "f33a7046f7837f4b1daf5aac3c967d6dd8436e6198a46a57d2547c4f4a3a3fe8",
+      "png_sha256": "04be950d7afcfbbca2b17227ff830c8496798dadd9c5d146a93f78dffcce14b4"
+    },
+    {
+      "id": "curiosite_leger",
+      "svg_sha256": "7283ba4c239d96f21b1783e53acad56de8219161762badb099d83f2f6a697870",
+      "png_sha256": "051c38c27b09e3f70c184eb3b7ba94659a50c450530dc846c0652fc2d9ccb72c"
+    },
+    {
+      "id": "curiosite_franc",
+      "svg_sha256": "0e90d38fb1bf80ac3b1130ef2abed9bd6d25436ca723987d22f00c777ff25d42",
+      "png_sha256": "cd15f9cb4c9fde9327262c01eddb88977c129d7605b492a9f47387280635bdb4"
+    },
+    {
+      "id": "curiosite_exagere",
+      "svg_sha256": "a69c2809c45de81a8f1209ca7aa25062b42891ce77879a3abfd6382abd766c9e",
+      "png_sha256": "71c569cdb8ed7eb120143eeb583423316a27438a5003eefbb77a67375899e9ff"
+    },
+    {
+      "id": "doute_leger",
+      "svg_sha256": "30b51141b3bfcbcc855a0912619eb72d3cc116d11cf9e4d53bbff1d3094ebf00",
+      "png_sha256": "ca9a9255283626f8ba3be6e684ae6dcda4d524321e977cf5747001daeaf53e0d"
+    },
+    {
+      "id": "doute_franc",
+      "svg_sha256": "90f318d640bb8eca9ee7d2cd6af60818c739ca51d9ef90c4eced5cb2e83a9680",
+      "png_sha256": "372ef87cb8f555b5973dca7a4ca5498cc85656af9b5448629cc8b70c92e571c8"
+    },
+    {
+      "id": "doute_exagere",
+      "svg_sha256": "dcdb5a725cc9df516e2b577d72b07f733c978b6f762fb626d4d56e724c3edb3b",
+      "png_sha256": "8044cd381f39937408ef99b3946aa55561e07f5e25b1c0977fa7b3d4bfa1f100"
+    },
+    {
+      "id": "surprise_leger",
+      "svg_sha256": "0d5282c5d6e164ba26c8d7d415387a509bf8a8535d1bb92afc646d16e4d47da4",
+      "png_sha256": "0c379e4cb306fd7112b13e83186b4ba88fdc9d0436709ed6a7df8d3c5780e8fc"
+    },
+    {
+      "id": "surprise_franc",
+      "svg_sha256": "f5f58061e3a36eb7ec9c342f5b2a83c16836c011c6a4f77d03ec4021edb70af8",
+      "png_sha256": "95b0064b388dea840cd529336bc855d80010daeb68442df06ad477db8515cd47"
+    },
+    {
+      "id": "surprise_exagere",
+      "svg_sha256": "da126650bcfe851404c8d8472eacd06f6fbb91165732e719a119062b0c5d812f",
+      "png_sha256": "34a4e016dd7713355738a5d151361ff17684809648b38c79dc7d6d7fc2818954"
+    },
+    {
+      "id": "peur_leger",
+      "svg_sha256": "99935cbe163085321cfc7d66232ce2a81b33fb25038b5cb579ec75c115a8facf",
+      "png_sha256": "e5323871a62e7206070397826d3c2efc441abb4385d8c5ae526937764a7465f3"
+    },
+    {
+      "id": "peur_franc",
+      "svg_sha256": "857f0e59a39efe0f343f4908cf942f34b23bde5a7d72c490c7a1cd8eb2408daa",
+      "png_sha256": "c9b77dce5c2484f78da209477ca606d4deb463547556f926b0080e35c7165755"
+    },
+    {
+      "id": "peur_exagere",
+      "svg_sha256": "55c1494267119f4684923c3983016cd752a59c0f4d54729adfbadff21e22f3d1",
+      "png_sha256": "855a23f386a13b29842aec3d5f23c1443388690a8a2869ab8e7589d461fc53fc"
+    },
+    {
+      "id": "contrariete_leger",
+      "svg_sha256": "330583b91278a837b277404017de137ae49a582e69807428a4d21928c22d8f06",
+      "png_sha256": "d27961c612e50f2ebbdf02e2be29697504cb9725f809cd1ba05884a583781454"
+    },
+    {
+      "id": "contrariete_franc",
+      "svg_sha256": "a9e5b7075bdd7249740e10150c0e2a930042debad3c63fd72fb1a40cef6513ef",
+      "png_sha256": "0a321965d3f0571e08440908b332298b59054dc10ff84f1d30f6080b4854b422"
+    },
+    {
+      "id": "contrariete_exagere",
+      "svg_sha256": "be6efbe8b21c814acb4a1671d81fe0b9327c0e623a694683eaeb1c5e52d31d61",
+      "png_sha256": "69dfe0d03fa38c4c2ddb482dd9b22c36e99db9ccbcbf4ac68f84cc2b13283e99"
+    },
+    {
+      "id": "colere_leger",
+      "svg_sha256": "7da4bbaadcc3805d0da83d1d60c9192a6d65865295894457f740215106f82b08",
+      "png_sha256": "cb73e69d4c8950a6c233d9accede03fc6d3ad6aaf6ccb86618fe4ec7f695c7b7"
+    },
+    {
+      "id": "colere_franc",
+      "svg_sha256": "4bf21e1daff3c3c25782597a4c8d447c05ada6d6d2730e8ebeb5cea215ac3255",
+      "png_sha256": "48f34e5c4e635693fd30a9d4a8959498e51b3ab9df28b2acc16800cba1145d9f"
+    },
+    {
+      "id": "colere_exagere",
+      "svg_sha256": "e59b693985bf97097a5ddc785b34b43b3c28331b3089e657b00f5dea0dbb60fa",
+      "png_sha256": "ac6a2b3a0c327171ef92fbd891148f904702758351f0fa04b6d10f25b6a9e4af"
+    },
+    {
+      "id": "tristesse_leger",
+      "svg_sha256": "b8ec71b2ea5931042589182c1f7fddad41a2d8b028951857d2a99df55394d01f",
+      "png_sha256": "62de6bf0276dab28e35b1643d59135edcf3362f71a3b2de139754d884e822d69"
+    },
+    {
+      "id": "tristesse_franc",
+      "svg_sha256": "00701e5afd60103f6e825c96ee5d3f6e4d94c32651ca831a31608acb2e860ab2",
+      "png_sha256": "d214febd76f2dbcce9cafc88d4469637a468557364a28003e776261f54e22e04"
+    },
+    {
+      "id": "tristesse_exagere",
+      "svg_sha256": "3f802beea17e87004973a164022997f1a5abe38c7578871b06519105f10b52bf",
+      "png_sha256": "6c3e3f8bb1c60590eaab7521362cb2161994d1ec791fa79ef0db78e941976d95"
+    },
+    {
+      "id": "degout_leger",
+      "svg_sha256": "fcc9f580df36002f2ce8a9399ff585e4c88a0a686384d7a251d8867d6ed91fa3",
+      "png_sha256": "39ba42efccf227e324e389cd3947d4df5d33182c82be5d1a6ad9b1f118fa3bab"
+    },
+    {
+      "id": "degout_franc",
+      "svg_sha256": "2a6bd254da8170cb9b585d5eed2d3c03204c1596f1f35b9548fc99f21824ab90",
+      "png_sha256": "141f804b24f0fdca22057be2ffbf406706d35739379db714adec3519d8f31376"
+    },
+    {
+      "id": "degout_exagere",
+      "svg_sha256": "100cc8b1ffd446c8a476e11ed5044a07f162069864cfdac7736bf34808cf8611",
+      "png_sha256": "4e7eab6807ceea48e24bb8ed8ac94b5c0690b27bfcf2e75725582f71b2fb12c5"
+    },
+    {
+      "id": "gene_leger",
+      "svg_sha256": "beee762bad2253838d652d51b51f68ae0d41662c41ac875f244c289940d74be0",
+      "png_sha256": "83aa4570e32b9f35bee446ef5813a0cb9975e3d5e028274523ee6df8223bfd7a"
+    },
+    {
+      "id": "gene_franc",
+      "svg_sha256": "a1968a371b4e0010238dceaebafec4f906070eac9998592e2064c3c498c8383c",
+      "png_sha256": "1ee3850097f422118d404ac7dc1cd252823c73c56648c8c2dde5ff555348adfb"
+    },
+    {
+      "id": "gene_exagere",
+      "svg_sha256": "b839f2ba80ebcaa605a59f8c320e2f4611add0f5415ffc383b138746c5364849",
+      "png_sha256": "64cc0cfd493cb4bec408cde3e9b7765489a5ae8c743546c3209548324bd5ccf2"
+    },
+    {
+      "id": "soulagement_leger",
+      "svg_sha256": "87d809c5d4c28b15399925d4ba6c07298f0fb4e5f0f606981dd62f77fba562d3",
+      "png_sha256": "7b1e541afdd9008513543ff4776eccf49e625f106a19f31eb32f06229febd203"
+    },
+    {
+      "id": "soulagement_franc",
+      "svg_sha256": "19afc73601b949c4af4b9a2935c4ee5afd8ab8795909e5172446d6ce874fa378",
+      "png_sha256": "67ac0cc7ca41c8a023b0e53e4e2d405b4b0377ce80256acb3e78b275ea1d5dac"
+    },
+    {
+      "id": "soulagement_exagere",
+      "svg_sha256": "7bc70c26548f4de1d092e6f5ac7a7de445c3b0d0a3519799ebdfa396efd5b1ef",
+      "png_sha256": "457520f669eb34b907d37a7f002ed967613650d8b504deb19450da282b079ffd"
+    }
+  ],
+  "limits": "Technical checks do not certify emotional interpretation or audience comprehension. Independent visual critique is separate."
+}

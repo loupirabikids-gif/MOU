@@ -1,5 +1,7 @@
 # MOU
 
+**[Bibliothèque d’expressions de MOU](bibliotheque/expressions/v1/)** — 36 poses, 12 familles, galerie SVG/PNG et six transitions de visage.
+
 **Encore une feuille — Just cooking. Mostly washing. — V22, 48,25 secondes.**
 
 MOU cuisine, mais chaque contact relance son lavage et son gaspillage de papier.
