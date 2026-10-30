@@ -5,6 +5,13 @@ L'utilisatrice juge le pilote insuffisant pour sa chaîne, puis fournit une
 analyse de son animation, de son rythme et de sa chute. Les fichiers V25
 restent conservés ; aucun MP4, mix, rig ou ZIP livré n'est remplacé ici.
 
+Direction désormais précisée par l'utilisatrice : **cartoon progressif,
+repas brûlé avec le papier en complice, humour de situation pour adultes
+avec une lecture visuelle accessible au public familial**. Le nouveau
+[découpage plan par plan](decoupage_progressif.md) applique cette direction.
+Les documents précédents restent l'historique de la réflexion ; leur réserve
+sur le choix encore ouvert de la chute est remplacée par ce nouveau brief.
+
 ## Diagnostic retenu
 
 Le gag de l'habitude est compréhensible. La répétition change surtout la
@@ -22,21 +29,26 @@ test auprès de spectateurs. Aucun chiffre d'audience n'est disponible.
 - [Critique indépendante et revue de la nouvelle piste](critique_independante.md)
 - [Réécriture du scénariste et découpage indicatif de 35 s](proposition_scenariste.md)
 - [Triage des observations fournies par l'utilisatrice](tri_analyse_utilisatrice.md)
+- [Vérification réelle du repère 35–42 s de V25](verification_repere_35_42.md)
+- [Critique écrite du nouveau découpage](critique_decoupage_progressif.md)
+- [Storyboard descriptif : 23 plans, 38 s, 912 images](storyboard_progressif.json)
 
 ## Ce que l'analyse change dans la direction
 
 1. **Une progression de comportement.** Premier rituel complet pour établir
    l'habitude, retours plus brefs et différents, puis tentative de résister.
    Le temps gagné sert à son hésitation et au résultat. La proposition passe
-   de cinq à quatre rituels ; ce changement et les 35 s ne sont pas encore
-   approuvés. Carotte avant tomate, puis sel restent dans la réécriture.
+   de cinq à quatre rituels ; les 35 s étaient une première proposition.
+   Le nouveau découpage précise le rythme, sans réduire les cycles par un
+   simple ralenti ou accéléré global. Carotte avant tomate, puis sel restent.
 2. **Des attitudes entières avant les détails.** Préparer les poses de plaisir,
    inspection, hésitation et fausse victoire, lisibles à 360 × 640. Chaque
-   mouvement part d'une cible et finit dans un arrêt. Tester une compression
-   brève du corps et un retour légèrement dépassé sur un geste libre ; les
-   deux bras/moufles natifs, leurs attaches et les objets tenus gardent leur
-   construction. Ne pas ajouter de déformation sur chaque action ni supposer
-   cette nouvelle mécanique déjà vérifiée.
+   mouvement part d'une cible et finit dans un arrêt. L'élasticité commence
+   à 5–10 % et monte vers des extrêmes brefs dans le dernier tiers ; ce sont
+   des cibles de jeu à éprouver, pas des déformations déjà fabriquées. Les
+   deux bras restent continus, leurs attaches cohérentes et les moufles simples.
+   Leur dessin au repos et le costume sont conservés. Compenser les volumes
+   et vérifier les contacts plutôt que déformer chaque élément séparément.
 3. **Une caméra liée à la découverte.** Raccord sur le geste pour les cycles
    condensés ; rapprochement mesuré pendant l'hésitation ; détail du résultat,
    puis cadre assez large pour montrer ensemble repas et MOU. Une nouvelle
@@ -61,7 +73,7 @@ test auprès de spectateurs. Aucun chiffre d'audience n'est disponible.
 
 ## Chute proposée et réserves retenues
 
-La piste de travail du scénariste : à force de retourner se laver et de se
+La direction retenue : à force de retourner se laver et de se
 sécher, MOU rate son repas. Il constate le plat noirci, puis regarde ses mains
 impeccables et retrouve une petite fierté déplacée. La dernière boulette au
 sol reste une conséquence secondaire. Le gag final doit être sa fausse
@@ -84,9 +96,15 @@ Trois analyses indépendantes ou complémentaires et une proposition découpée
 sont enregistrées. La V25 est signalée rejetée dans l'accueil du projet et
 AGENTS.md. Aucun nouveau film ni nouvelle bande-son n'a été fabriqué ici.
 
-La preuve utile serait une courte animatique de l'hésitation et de la fausse
-victoire, puis l'animatique complète si cette direction est retenue. Examiner
+Le nouveau découpage de 38 s a ensuite reçu sa critique indépendante. Les
+trois clarifications sont intégrées : visage visible pendant le premier
+essuyage, pointes élastiques dans le véritable dernier tiers, même sourire
+conservé à la fin. Le storyboard JSON décrit les mêmes 23 plans et conserve
+l'empreinte du Markdown ; il ne pilote pas encore le renderer V25.
+
+La prochaine preuve utile serait une courte animatique de l'hésitation et de
+la fausse victoire, puis l'animatique complète. Examiner
 les pensées effectivement visibles en petit format et les nouveaux contacts
 avant de calculer un final. Cela ne remplace ni l'appréciation artistique de
-l'utilisatrice ni une écoute réelle. Les documents présents ne constituent
-pas son accord sur cette nouvelle fin.
+l'utilisatrice ni une écoute réelle. La direction est choisie ; le découpage
+et son éventuelle fabrication restent distincts d'un film déjà vu et approuvé.

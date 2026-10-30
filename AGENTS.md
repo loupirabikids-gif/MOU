@@ -1,5 +1,28 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Direction précisée après le réexamen : l'utilisatrice recommande un cartoon
+progressif, le repas brûlé avec le papier en complice et un humour de situation
+pour adultes, lisible aussi sans dialogue pour un public familial. Transformer
+ces choix en découpage chronométré avant fabrication. L'élasticité commence
+discrète (5 à 10 % proposés) et augmente avec l'escalade, avec de brèves poses
+extrêmes dans le dernier tiers. Les déformations expressives temporaires sont
+autorisées ; conserver la silhouette reconnaissable, l'aplat, deux yeux,
+deux bras continus et deux moufles simples à pouce arrondi. Aucun changement
+permanent du dessin ni membre ajouté. Les contacts et raccords demandent une
+vérification du rendu, surtout pendant les déformations. Repas progressivement
+abîmé par le retard, poubelle progressivement pleine, dernier papier au sol,
+puis MOU face au public avec ses mains impeccables et une fierté déplacée.
+La fumée et le papier accompagnent cette fausse victoire. Jazz doux et dosage
+stable restent la référence. Le repère V25 a été vérifié : le stem ne présente
+pas de coupure nette à 40 s et son fondu commence à 42,4 s ; aucune écoute
+n'est revendiquée. Le nouveau découpage propose 38 s et 23 plans, avec une
+tenue finale du corps de 18 images. Les trois clarifications issues de la
+critique écrite ont été intégrées, pas encore rendues. Voir le découpage
+courant dans `episodes/03/developpement/reprise_editoriale/` ; ne pas confondre
+ce document avec un nouveau film réalisé ou un test public de la chute.
+
+Historique du rejet et du réexamen :
+
 Retour après V25 : l'utilisatrice rejette aussi cette version et doute de sa
 qualité pour lancer une chaîne. V25 reste consultable et techniquement
 contrôlée, mais n'est pas une référence artistique approuvée ni prête à

@@ -5,6 +5,11 @@ déconseillée en l'état.** Le [réexamen éditorial](episodes/03/developpement
 reprend la progression du gag et le jeu de MOU. Les contrôles techniques
 ci-dessous ne constituent pas une approbation artistique.
 
+Le [nouveau découpage de 38 secondes](episodes/03/developpement/reprise_editoriale/decoupage_progressif.md)
+précise la direction choisie : élasticité progressive, repas brûlé, papier
+débordant et fierté déplacée devant des mains impeccables. C'est un document
+de préparation ; les vidéos ci-dessous restent celles de V25.
+
 **[Bibliothèque d’expressions de MOU](bibliotheque/expressions/v1/)** — 36 poses, 12 familles, galerie SVG/PNG et six transitions de visage.
 
 **Encore une feuille — Just cooking. Mostly washing. — V25, 43 secondes.**
