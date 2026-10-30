@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "observed_utc": "2026-10-30T15:24:19.540972+00:00",
+  "limits": "ZIP integrity and isolated reproducibility only; no listening, continuous viewing, artistic or audience approval.",
+  "isolation": {
+    "python_flags": [
+      "-I",
+      "-B"
+    ],
+    "fresh_extraction": true,
+    "python_socket_operations_blocked": true,
+    "proxy_environment_preserved": true,
+    "external_fetches_required": false,
+    "packages_installed": false
+  },
+  "archive_sha256": "dde06fcfca1a0e929a4232b8605094ad2f098393103376ae14eabbd0c6f660db",
+  "archive_bytes": 56220989,
+  "isolated_work_directory": "work/archive_v24/cold_ljm5lxm8",
+  "metadata_sha256": {
+    "MANIFESTE_SHA256.json": "8172555f36a0fbcb739093a38a566cfd616b8f93821493d59b64e4d023d7c414",
+    "LIRE_MOI.txt": "5b402752a6a36ecd766f82c2eaf75c6eb8bbdad9d0d5817335eb6f40c6559203"
+  },
+  "crc_passed": true,
+  "manifest_files_verified": 202,
+  "current_repository_payload_identical": true,
+  "current_repository_mix_sha256": "66cc967347cc622a5ff098ee8e84383831290bea966a8f5a49c726464a015155",
+  "bundled_jazz_pcm_reference": {
+    "file": "episodes/03/cuisine_v24/audio/reference_v23/musique_v23.wav",
+    "sha256": "31b1eb935a51e7a93b02812b9bde5d2e0809094dbc048010a9f4fa9dabf13e38",
+    "mode": "Frozen included PCM, not a new FluidSynth rendering"
+  },
+  "cold_loaded_modules": {
+    "archive_cold_renderer_v24": "episodes/03/cuisine_v24/sources/render.py",
+    "papier_animation": "episodes/03/cuisine_v24/sources/animation.py",
+    "papier_art": "episodes/03/cuisine_v24/sources/art.py",
+    "mou_lavabo_v14": "episodes/03/cuisine_v24/sources/sink.py",
+    "mou_costume_chef_v20": "episodes/03/cuisine_v24/sources/costume.py",
+    "approved_stir_contact": "episodes/03/test_remuer/sources/animation.py",
+    "mou_rig": "mou_rig.py",
+    "mou_jeu_visage_v23": "episodes/03/cuisine_v24/sources/jeu_visage.py",
+    "mou_visage_library_v23": "episodes/03/cuisine_v24/sources/visage.py",
+    "mitten": "episodes/03/cuisine_v24/sources/mitten.py",
+    "art": "episodes/03/cuisine_v24/sources/art.py",
+    "acting": "episodes/03/cuisine_v24/sources/acting.py"
+  },
+  "fresh_cairo_frames": [
+    {
+      "time_seconds": 4.0,
+      "svg_sha256": "719a4e3c7ea9631136dc8c2c0d605b909d6814d8fa1144dfddb7c53ff8d32c45",
+      "png_sha256": "6a8199abf767a676f76079c7535043fe5a899da0b257b8d53952ae7bc0a4e6a3",
+      "rgba_sha256": "073ac60fb003f565140030d13a914fd175a40615915d69525406ff2b75c5d8a7",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 36.5,
+      "svg_sha256": "81ac7f92ddce8c5c59a11855355b506c945d45e276579b6632e1867242a7f27a",
+      "png_sha256": "9d29def4db70ac0cc98f01eee476d00a888548ee15f1e8ce84c99cd1d6d171e3",
+      "rgba_sha256": "f76d0fcde02451efac8a29a83b868430a4ddfbadf2196059d66f33fe3b934eef",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 42.75,
+      "svg_sha256": "24e32b3a938ffa2194739d08feb4ecf2095d7c828a18787dc7e9c3f0c974108a",
+      "png_sha256": "60680e2e694dafb270171c548d24d1763f1ad096ca31baf879b36537fc775d74",
+      "rgba_sha256": "45a32f45125d47d4d6a4a2a9771b9a7dca48d8d548f2e77619ba04de9836faac",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    }
+  ],
+  "no_render_cache_used": true,
+  "production_sources_unchanged": true,
+  "regenerated_mix_sha256": "66cc967347cc622a5ff098ee8e84383831290bea966a8f5a49c726464a015155",
+  "regenerated_final_2_75s_sha256": "3421abb2f323b4e81080bc916ce059201960711713acb8f41d04cd037efc2bbc",
+  "final_2_75s_exact_samples": {
+    "start_seconds": 40.25,
+    "end_seconds": 43.0,
+    "frames": 132000,
+    "identical": true
+  },
+  "sound_regeneration": {
+    "duration_seconds": 43.0,
+    "event_count": 58,
+    "retained_v23_non_music_events": 39,
+    "new_event_count": 18,
+    "mix_sha256": "66cc967347cc622a5ff098ee8e84383831290bea966a8f5a49c726464a015155",
+    "delivery_gain_db": 3.5,
+    "mix_metrics": {
+      "rms_dbfs": -30.77300064139825,
+      "peak_dbfs": -13.760320791178772,
+      "clipped_samples": 0
+    },
+    "input_loudness": {
+      "input_i": "-27.95",
+      "input_tp": "-13.71",
+      "input_lra": "2.70",
+      "input_thresh": "-37.96"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+MOU — Encore une feuille — V24, 43 secondes
+Contrôles du30 octobre 2026, Africa/Casablanca
+
+CHANGEMENTS LIVRÉS
+Jazz V23 baissé de 4dB ; même composition, même continuité et mêmes instruments.
+Sortie douce de 42,4 à 43 s, sans nouveau bruitage sur la réaction finale.
+18 effets originaux ajoutés :10 frictions d'essuyage,5 froissages,3 impacts
+dans la poubelle aux instants21,27 /26,77 /32,77 s.
+Les 39 événements non musicaux conservés gardent leurs PCM traités, leurs
+instants et leur gain absolu V23. Le gain de livraison reste fixe à+3,50 dB ;
+aucune normalisation de sonie ne remonte le fond après sa baisse.
+
+FIN COURTE
+La dernière boulette tombe au sol à39,85 s ; résultat exposé jusqu'à 40,25 s.
+MOU regarde les déchets, puis le public ; sa réaction est tenue pendant
+15 images (0,625 s) à la fin. Aucun essuyage tablier ou nouvelle goutte ajouté.
+La solution du tablier de V23 est retirée de cette version.
+
+IMAGE ET MODÈLE
+Les 966 premiers états et SVG (0–40,25 s) sont exactement identiques àV23,
+dont215 inserts de lavabo. Le rig, les bras, les moufles et le costume sont
+conservés ; corps et bras stables dans les66 images de la nouvelle fin.
+Contrôle indépendant des 1032 regards et compensations de rotation,
+des masques des pupilles, des deux cadrages finaux et de la tenue de 15 images.
+
+La critique indépendante a examiné le MP4 muet de l'animatique :64 images
+consécutives du dernier papier et de sa chute,33 images de la nouvelle fin,
+29repères du récit. Aucun correctif matériel retenu avant le final.
+Voir controle/critique_montage_v24.md. Il s'agit d'un examen d'images,
+distinct d'une lecture continue à vitesse réelle et d'un test public.
+
+EXPORTS ET MIX
+Son/muet :1080×1920, H264/yuv420p,24 images/s,1032 images,43 s.
+Version sonore :AAC stéréo48kHz. Animatique :540×960,12 images/s,516 images.
+Fin isolée :40,25–43 s,2,75 s et66 images.
+Décodage complet des deux MP4 sans erreur ; flux vidéo compressés identiques.
+100 images du vrai MP4 comparées aux rendus CairoSVG frais hors cache,
+avec vérification des zones visibles de visage, bras, mains et accessoires.
+Sources gelées restées identiques pendant le rendu et les contrôles.
+
+Le mix est reconstruit bit pour bit depuis ses58 événements.
+Baisse musicale mesurée avant le fondu :−3,999985 dB.
+Les10 frictions coïncident avec des pics de vitesse réels des moufles,
+recalculés indépendamment ; froissages et3 impacts suivent les phases/contact.
+Mix43s,48000 Hz, stéréo16bits ;−27,95 LUFS,−13,71 dBTP, zéro écrêtage.
+Corrélation de l'AAC décodé avec le WAV courant :0,9981.
+L'extrait de fin reprend les132000 trames stéréo finales exactes du mix.
+
+Rapports :controle/audit_final.json, audit_revision_v24.json, audit_son.json,
+audit_audio_v24.json. Paramètres et sources :developpement/son_v24.md.
+
+SOURCES
+ZIP :scripts, référence musicale PCM incluse, sons originaux, banque/polices
+libres et licences, chronologie, critiques, contrôles et manifeste SHA-256.
+La recette son.py est autonome et n'utilise aucun service externe.
+Le vérificateur d'archive extrait dans un dossier neuf sans cache ni réseau,
+reproduit3 images et le mix. Son audit_archive.json reste hors du ZIP pour
+éviter une empreinte circulaire. Commandes :sources/README.md.
+
+SHA-256
+Film sonore :
+a55993627438fc110047ce651bf3fbe7bf503086be0814415466e533689d1509
+Film muet :
+430fd2ac59699b7ab3432c7329e4a39c9cd2eff8430d1a009339f4f95af7dbb7
+Mix WAV :
+66cc967347cc622a5ff098ee8e84383831290bea966a8f5a49c726464a015155
+
+LIMITES
+Le modèle ne peut pas écouter la piste dans cette session. Les contrôles
+numériques ne certifient ni l'agrément sonore ni le succès comique.
+Aucun test auprès d'un public ou résultat d'audience n'est revendiqué.
+Livraison sur GitHub autorisée ; aucune publication sur un réseau social.
+La V23, son film et son mix restent conservés et inchangés.

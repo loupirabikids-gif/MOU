@@ -1,0 +1,99 @@
+{
+  "fps": 24,
+  "duration_seconds": 2.75,
+  "frames": 66,
+  "actor_transform": [
+    80,
+    380,
+    2.3
+  ],
+  "face_rotation_pivot_native": [
+    205,
+    250
+  ],
+  "shots": [
+    {
+      "id": "medium_cause",
+      "start": 0,
+      "stop": 26,
+      "information": "Regard aux déchets après la chute au sol"
+    },
+    {
+      "id": "face_audience",
+      "start": 26,
+      "stop": 66,
+      "information": "Regard au public puis gêne tenue"
+    }
+  ],
+  "face_poses": {
+    "notice_drop": {
+      "eye_open_l": 0.89,
+      "eye_open_r": 0.96,
+      "brow_raise": 0.38,
+      "brow_l": 0.35,
+      "brow_r": 0.24,
+      "smile": -0.26,
+      "mouth_open": 0.015
+    },
+    "contrariete": {
+      "eye_open_l": 0.69,
+      "eye_open_r": 0.83,
+      "brow_raise": -0.05,
+      "brow_l": -0.44,
+      "brow_r": -0.31,
+      "smile": -0.49,
+      "mouth_open": 0.0
+    },
+    "solution": {
+      "eye_open_l": 1.0,
+      "eye_open_r": 1.0,
+      "brow_raise": 0.82,
+      "brow_l": 0.08,
+      "brow_r": 0.06,
+      "smile": 0.04,
+      "mouth_open": 0.115
+    },
+    "waste_realisation": {
+      "eye_open_l": 0.94,
+      "eye_open_r": 0.98,
+      "brow_raise": 0.58,
+      "brow_l": 0.76,
+      "brow_r": 0.65,
+      "smile": -0.29,
+      "mouth_open": 0.015
+    },
+    "caught": {
+      "eye_open_l": 0.94,
+      "eye_open_r": 0.98,
+      "brow_raise": 0.58,
+      "brow_l": 0.76,
+      "brow_r": 0.65,
+      "smile": -0.29,
+      "mouth_open": 0.015
+    }
+  },
+  "exposure_holds": [
+    {
+      "start": 0,
+      "stop": 8,
+      "purpose": "Regarder le gaspillage avant de réagir"
+    },
+    {
+      "start": 18,
+      "stop": 26,
+      "purpose": "Laisser le constat se lire"
+    },
+    {
+      "start": 35,
+      "stop": 36,
+      "purpose": "Le regard atteint le public avant la réaction"
+    },
+    {
+      "start": 51,
+      "stop": 66,
+      "purpose": "Réaction finale tenue 0,625 seconde"
+    }
+  ],
+  "hand_action_frames": {},
+  "limits": "Courte conclusion proposée vers43s. Pose finale sans nouvelle action de main, goutte ou essuyage sur le tablier. Les contrôles ne prouvent pas un succès comique."
+}

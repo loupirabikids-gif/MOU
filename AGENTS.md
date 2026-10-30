@@ -1,5 +1,21 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande V24 : après la proposition d'une fin à43s, l'utilisatrice demande
+« Diminue le volume du jazz et ajout les effet ». Dans `episodes/03/cuisine_v24/`,
+baisser le fond musical V23 de4dB, garder les niveaux absolus des bruitages
+existants et leur ajouter frictions d'essuyage, froissages et impacts de papier
+manquants. Aucun regain de normalisation qui annulerait la baisse demandée.
+Conserver la composition continue et les timbres ; sortie douce à la fin.
+Clôture courte : boulette au sol39,85s, regard déchets puis public, regret,
+pose tenue42,375–43s ; supprimer le détour tablier, ne pas couper sa découverte
+en plein geste. Les966 premières images gardent exactement la V23. Deux bras,
+moufles, costume et décor conservés. Critiquer la vraie animatique, vérifier
+synchro et mix, exporter son/muet/sources sur GitHub ; V23 reste conservée.
+Aucune écoute par le modèle possible dans cette session : ne pas la revendiquer.
+Le final et la QA indépendante V24 sont passés :100comparaisons d'images
+hors cache,PCM reconstruit exactement,39anciens événements conservés,
+18effets ajoutés,gain musical−4dB. Bilan dans `episodes/03/cuisine_v24/CONTROLE.txt`.
+
 Livraison courante V23, 30 octobre 2026 : réalisation autorisée de l'épisode
 avec la bibliothèque d'expressions et un nouveau jazz original.
 Travail dans `episodes/03/cuisine_v23/`, V22 conservée. Intégrer les visages à

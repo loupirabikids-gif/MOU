@@ -1,0 +1,648 @@
+{
+  "episode": "03",
+  "revision": "V24 quieter jazz and original paper Foley,43s",
+  "duration_seconds": 43.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bit_depth": 16,
+  "samples_per_channel": 2064000,
+  "expected_video_frames": 1032,
+  "fps": 24,
+  "source_sha256": "30af159a9cfc6742515d1fb9ce00357445a4578787d1239081184cb094045700",
+  "foley_source_sha256": "1759fb611e4e5b73dc4aa4997ac272f7ccf8383735366175a8bfae465c11e3de",
+  "chronologie_sha256": "fb75e4c3aeec0f19ce5ac4ce9c6e50ac7737c0c02657af8b77614c46fa585877",
+  "mix_sha256": "66cc967347cc622a5ff098ee8e84383831290bea966a8f5a49c726464a015155",
+  "event_count": 58,
+  "retained_v23_non_music_events": 39,
+  "new_event_count": 18,
+  "new_events": [
+    {
+      "name": "c1_essuyage_1_v24",
+      "kind": "paper_wipe",
+      "cycle": 1,
+      "start": 11.67576,
+      "duration": 0.14,
+      "seed": 3241101,
+      "peak_dbfs_requested": -25.5,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 11.74576,
+        "relative_speed_pixels_per_second": 279.7,
+        "action_interval": [
+          11.4,
+          12.25
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c1_essuyage_1_v24.wav",
+      "sha256": "c0f6e6180d663736a0436fafcf5740e85561cda62c221b420205358241bdd27c",
+      "start_sample": 560436,
+      "samples": 6720,
+      "end_seconds": 11.815760000000001,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -39.49547169854022,
+        "peak_dbfs": -25.498013733542365,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c1_essuyage_2_v24",
+      "kind": "paper_wipe",
+      "cycle": 1,
+      "start": 11.985669999999999,
+      "duration": 0.14,
+      "seed": 3241102,
+      "peak_dbfs_requested": -26.2,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 12.05567,
+        "relative_speed_pixels_per_second": 192.1,
+        "action_interval": [
+          11.4,
+          12.25
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c1_essuyage_2_v24.wav",
+      "sha256": "7ba8082fe5d32d3c3af68baf952742512d0d39197f3ee7ce28d9051eca424ee7",
+      "start_sample": 575312,
+      "samples": 6720,
+      "end_seconds": 12.12567,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -38.90158538289078,
+        "peak_dbfs": -26.19949796437654,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c1_froissage_v24",
+      "kind": "paper_crumple",
+      "cycle": 1,
+      "start": 12.25,
+      "duration": 0.35,
+      "seed": 3242100,
+      "peak_dbfs_requested": -27.0,
+      "sync": {
+        "target": "visible_paper_compression",
+        "action_interval": [
+          12.25,
+          12.6
+        ]
+      },
+      "synthesis": "four irregular soft grain compressions, warm paper spectrum",
+      "file": "foley_v24/c1_froissage_v24.wav",
+      "sha256": "a16230510116d7a24b712e4c535c3afa5774c55daf35bf9ed06b62563e141aff",
+      "start_sample": 588000,
+      "samples": 16800,
+      "end_seconds": 12.6,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -43.51918121649354,
+        "peak_dbfs": -26.9981771647469,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_essuyage_1_v24",
+      "kind": "paper_wipe",
+      "cycle": 2,
+      "start": 19.80547,
+      "duration": 0.14,
+      "seed": 3241201,
+      "peak_dbfs_requested": -25.5,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 19.87547,
+        "relative_speed_pixels_per_second": 297.2,
+        "action_interval": [
+          19.55,
+          20.35
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c2_essuyage_1_v24.wav",
+      "sha256": "35bc32a62d703da90d162ce3e3d2c8ae8abdb6957e315b0c4e997877dac3c8ac",
+      "start_sample": 950663,
+      "samples": 6720,
+      "end_seconds": 19.94547,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -37.892945112686306,
+        "peak_dbfs": -25.498013733542365,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_essuyage_2_v24",
+      "kind": "paper_wipe",
+      "cycle": 2,
+      "start": 20.10028,
+      "duration": 0.14,
+      "seed": 3241202,
+      "peak_dbfs_requested": -26.2,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 20.17028,
+        "relative_speed_pixels_per_second": 204.1,
+        "action_interval": [
+          19.55,
+          20.35
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c2_essuyage_2_v24.wav",
+      "sha256": "1a2aa70906d7677bce05a66d81722e0d288ea5bf95471a981613b59fe3c5e2c0",
+      "start_sample": 964813,
+      "samples": 6720,
+      "end_seconds": 20.240280000000002,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -40.55757264694755,
+        "peak_dbfs": -26.19949796437654,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_froissage_v24",
+      "kind": "paper_crumple",
+      "cycle": 2,
+      "start": 20.35,
+      "duration": 0.35,
+      "seed": 3242200,
+      "peak_dbfs_requested": -27.0,
+      "sync": {
+        "target": "visible_paper_compression",
+        "action_interval": [
+          20.35,
+          20.7
+        ]
+      },
+      "synthesis": "four irregular soft grain compressions, warm paper spectrum",
+      "file": "foley_v24/c2_froissage_v24.wav",
+      "sha256": "fedacb29c494bbf1c2a4cd60e51c628f86242c661382e353133502a279bb2852",
+      "start_sample": 976800,
+      "samples": 16800,
+      "end_seconds": 20.700000000000003,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.81262265492718,
+        "peak_dbfs": -26.9981771647469,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c2_poubelle_impact_v24",
+      "kind": "paper_land",
+      "cycle": 2,
+      "start": 21.27,
+      "duration": 0.14,
+      "seed": 3243200,
+      "peak_dbfs_requested": -27.0,
+      "sync": {
+        "target": "paper_reaches_bin",
+        "contact_seconds": 21.27
+      },
+      "synthesis": "soft low paper thump with rounded3.5ms attack",
+      "file": "foley_v24/c2_poubelle_impact_v24.wav",
+      "sha256": "9f73335f05817b1185531f3ad6640b83b12cee145ef546f79d028613cdd20209",
+      "start_sample": 1020960,
+      "samples": 6720,
+      "end_seconds": 21.41,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -44.75837926056041,
+        "peak_dbfs": -26.9981771647469,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_essuyage_1_v24",
+      "kind": "paper_wipe",
+      "cycle": 3,
+      "start": 25.50459,
+      "duration": 0.12,
+      "seed": 3241301,
+      "peak_dbfs_requested": -25.5,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 25.56459,
+        "relative_speed_pixels_per_second": 365.8,
+        "action_interval": [
+          25.3,
+          25.95
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c3_essuyage_1_v24.wav",
+      "sha256": "a2e919768bbe39827f6648671400c2487760d74cdce712fc939ed6b0a5218526",
+      "start_sample": 1224220,
+      "samples": 5760,
+      "end_seconds": 25.62459,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -39.40621960910526,
+        "peak_dbfs": -25.498013733542365,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_essuyage_2_v24",
+      "kind": "paper_wipe",
+      "cycle": 3,
+      "start": 25.743540000000003,
+      "duration": 0.12,
+      "seed": 3241302,
+      "peak_dbfs_requested": -26.2,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 25.80354,
+        "relative_speed_pixels_per_second": 251.3,
+        "action_interval": [
+          25.3,
+          25.95
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c3_essuyage_2_v24.wav",
+      "sha256": "30c017388d863d73fbfb0d0a651e955d6b360bc4333431f6403b9fe98e9c58b1",
+      "start_sample": 1235690,
+      "samples": 5760,
+      "end_seconds": 25.863540000000004,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -39.09754113845961,
+        "peak_dbfs": -26.19949796437654,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_froissage_v24",
+      "kind": "paper_crumple",
+      "cycle": 3,
+      "start": 25.95,
+      "duration": 0.3,
+      "seed": 3242300,
+      "peak_dbfs_requested": -27.0,
+      "sync": {
+        "target": "visible_paper_compression",
+        "action_interval": [
+          25.95,
+          26.25
+        ]
+      },
+      "synthesis": "four irregular soft grain compressions, warm paper spectrum",
+      "file": "foley_v24/c3_froissage_v24.wav",
+      "sha256": "63254b0ca8a8464d0352f7372d03e856409ed6b6c73de255653f3c4fe9db4a6a",
+      "start_sample": 1245600,
+      "samples": 14400,
+      "end_seconds": 26.25,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.949633714827485,
+        "peak_dbfs": -26.9981771647469,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c3_poubelle_impact_v24",
+      "kind": "paper_land",
+      "cycle": 3,
+      "start": 26.77,
+      "duration": 0.14,
+      "seed": 3243300,
+      "peak_dbfs_requested": -26.7,
+      "sync": {
+        "target": "paper_reaches_bin",
+        "contact_seconds": 26.77
+      },
+      "synthesis": "soft low paper thump with rounded3.5ms attack",
+      "file": "foley_v24/c3_poubelle_impact_v24.wav",
+      "sha256": "34328dba42cb5b7544ba40fc1768c07290e1a9ceb73536f59fa1edbabe4a92c0",
+      "start_sample": 1284960,
+      "samples": 6720,
+      "end_seconds": 26.91,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -45.601038721224576,
+        "peak_dbfs": -26.700746042427884,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_essuyage_1_v24",
+      "kind": "paper_wipe",
+      "cycle": 4,
+      "start": 31.37576,
+      "duration": 0.14,
+      "seed": 3241401,
+      "peak_dbfs_requested": -25.5,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 31.44576,
+        "relative_speed_pixels_per_second": 279.7,
+        "action_interval": [
+          31.1,
+          31.95
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c4_essuyage_1_v24.wav",
+      "sha256": "1be32ae97f60140ae8e597db0f66623e26b1d6b6af0434505704bc27e8003f81",
+      "start_sample": 1506036,
+      "samples": 6720,
+      "end_seconds": 31.51576,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -37.739650839046,
+        "peak_dbfs": -25.498013733542365,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_essuyage_2_v24",
+      "kind": "paper_wipe",
+      "cycle": 4,
+      "start": 31.68567,
+      "duration": 0.14,
+      "seed": 3241402,
+      "peak_dbfs_requested": -26.2,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 31.75567,
+        "relative_speed_pixels_per_second": 192.1,
+        "action_interval": [
+          31.1,
+          31.95
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c4_essuyage_2_v24.wav",
+      "sha256": "9b6d45fa0f860f00d6286fc57b0a57fa2e26dd4dfca1bba4020f618f481614c4",
+      "start_sample": 1520912,
+      "samples": 6720,
+      "end_seconds": 31.82567,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -38.69924757826404,
+        "peak_dbfs": -26.19949796437654,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_froissage_v24",
+      "kind": "paper_crumple",
+      "cycle": 4,
+      "start": 31.95,
+      "duration": 0.3,
+      "seed": 3242400,
+      "peak_dbfs_requested": -27.0,
+      "sync": {
+        "target": "visible_paper_compression",
+        "action_interval": [
+          31.95,
+          32.25
+        ]
+      },
+      "synthesis": "four irregular soft grain compressions, warm paper spectrum",
+      "file": "foley_v24/c4_froissage_v24.wav",
+      "sha256": "781ff351a502e770e161539fb7ef000b9519f6d661ada3833ee11c9d7d02c4f0",
+      "start_sample": 1533600,
+      "samples": 14400,
+      "end_seconds": 32.25,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.65875688381837,
+        "peak_dbfs": -26.9981771647469,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c4_poubelle_impact_v24",
+      "kind": "paper_land",
+      "cycle": 4,
+      "start": 32.77,
+      "duration": 0.14,
+      "seed": 3243400,
+      "peak_dbfs_requested": -26.4,
+      "sync": {
+        "target": "paper_reaches_bin",
+        "contact_seconds": 32.77
+      },
+      "synthesis": "soft low paper thump with rounded3.5ms attack",
+      "file": "foley_v24/c4_poubelle_impact_v24.wav",
+      "sha256": "8475363310a8e9cc7cfdf0480daae1565e011e943ad8a9a478828679b16ebf95",
+      "start_sample": 1572960,
+      "samples": 6720,
+      "end_seconds": 32.910000000000004,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -43.29817630329071,
+        "peak_dbfs": -26.402077532225967,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_essuyage_1_v24",
+      "kind": "tiny_paper_wipe",
+      "cycle": 5,
+      "start": 37.52862,
+      "duration": 0.14,
+      "seed": 3241501,
+      "peak_dbfs_requested": -29.0,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 37.59862,
+        "relative_speed_pixels_per_second": 140.3,
+        "action_interval": [
+          36.8,
+          38.1
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c5_essuyage_1_v24.wav",
+      "sha256": "46068a16b5e4c2f15f6d17cb886b2c265d9812ce714d48833442d3a689f6735c",
+      "start_sample": 1801374,
+      "samples": 6720,
+      "end_seconds": 37.66862,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -41.7910184443512,
+        "peak_dbfs": -28.99740440462539,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_essuyage_2_v24",
+      "kind": "tiny_paper_wipe",
+      "cycle": 5,
+      "start": 37.95977,
+      "duration": 0.11,
+      "seed": 3241502,
+      "peak_dbfs_requested": -29.7,
+      "sync": {
+        "target": "relative_mitten_motion_speed_peak",
+        "centre_seconds": 38.01477,
+        "relative_speed_pixels_per_second": 47.5,
+        "action_interval": [
+          36.8,
+          38.1
+        ],
+        "method": "V23 state.hands[right]-state.hands[left],240 samples; numpy.gradient; maxima after32%approach, before94%, separation>=22%duration"
+      },
+      "synthesis": "short warm dry friction with softly windowed irregular grains",
+      "file": "foley_v24/c5_essuyage_2_v24.wav",
+      "sha256": "0228d62a5c0a39e857246d11e19a3d2c93dd96e0f3a1e18be5ade5a87b7a5eb6",
+      "start_sample": 1822069,
+      "samples": 5280,
+      "end_seconds": 38.06977,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -42.836198011716306,
+        "peak_dbfs": -29.697004259875335,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "name": "c5_froissage_v24",
+      "kind": "tiny_paper_crumple",
+      "cycle": 5,
+      "start": 38.1,
+      "duration": 0.3,
+      "seed": 3242500,
+      "peak_dbfs_requested": -30.0,
+      "sync": {
+        "target": "visible_paper_compression",
+        "action_interval": [
+          38.1,
+          38.4
+        ]
+      },
+      "synthesis": "four irregular soft grain compressions, warm paper spectrum",
+      "file": "foley_v24/c5_froissage_v24.wav",
+      "sha256": "b7a63e2355debd51544646ba974e2c51e165e2b892df02ea91e2abaa09d2723a",
+      "start_sample": 1828800,
+      "samples": 14400,
+      "end_seconds": 38.4,
+      "stage": "original local synthesis, post-mix PCM before fixed delivery gain",
+      "actual_metrics": {
+        "rms_dbfs": -47.9626402506926,
+        "peak_dbfs": -30.001803591010074,
+        "clipped_samples": 0
+      }
+    }
+  ],
+  "omitted_events": [
+    {
+      "name": "tablier_v22",
+      "start": 43.75,
+      "reason": "Old apron scene removed; outside new43s episode"
+    }
+  ],
+  "reference_sources_unchanged": {
+    "reference_v23/provenance.json": "2800a2e0df79781d8d0216faf565e1bb113f30e8e4459fd58bb57e84e24a0a22",
+    "processed_v22/cuillere_posee.wav": "3ce6bfa34e8db122d0d3960db4e16e2c07057ef35053ac65dc2adbb781aa73fa",
+    "processed_v22/contact_tomate.wav": "26f52390585c0a3e2e507f2e8e4fe43d92b1bff085eea56277a25607aa890f6c",
+    "processed_v22/carotte_coupe_1.wav": "5d9c1be30c999a7879b20f929a6ea738bcae2dc61ffb4336386bd2bb15dbd994",
+    "processed_v22/carotte_coupe_2.wav": "a6660c4420f1fd493fa449a1518dbc36a4e81b59efedd56f9dcbae747496ab28",
+    "processed_v22/couteau_pose.wav": "ed4f901609636141330b0e90628b5ea818ab7b5139a98828f30cdcf9c76beed3",
+    "processed_v22/contact_manche_propre.wav": "60e047b6f195f9af03a8311c8feabd6948f6de02a7387deb31d80b5f5c577a19",
+    "processed_v22/sel_saupoudre.wav": "9dfe3d37270526c49c11940fb7700b1ca051cdd12cc51b589b7359ade17a2f0c",
+    "processed_v22/c1_robinet_ouvre.wav": "aaef3e79e8719ffd518faf3551bb1f37a6165183274569fe80a4622b48bee4ad",
+    "processed_v22/c1_eau.wav": "904fa2f63940489bc89e48a52614af6f3665c2d77ed62a550800bddc9f8e26d7",
+    "processed_v22/c1_robinet_ferme.wav": "554381837452401bc013661c307fd82302c9a594ee5ea718fac19696ae7d0ec0",
+    "processed_v22/c1_papier_deroule.wav": "cfda4d48eee60b86b2282be4d3bd633adb64ef51623aa45ca6158b93a12f7fdd",
+    "processed_v22/c1_papier_dechire.wav": "f2c66e9b9e7e3fc7dc388b1172027374b375df2ec45742a13e7485683d49a98e",
+    "processed_v22/c1_poubelle_impact.wav": "4c8570bc3d8b2a7b57d5796c6b31addb1447fb58f8e66e5213f85c50b99e0a06",
+    "processed_v22/c2_robinet_ouvre.wav": "2527bac602dd5a365c57a85eadf9565294ffe220ea28f50f4137e8add7613d68",
+    "processed_v22/c2_eau.wav": "b82e1d40a8d763d0aeff4b481cc8299035501b38b3d65c26a122879f2200eb73",
+    "processed_v22/c2_robinet_ferme.wav": "1edc08e903d0889be9cd24c8a7110a0ce10590166be7276fcc3d0c3b6c4649c7",
+    "processed_v22/c2_papier_deroule.wav": "41d4a8c7a356f56b064a8d9a769607c347489982226441385e9a3c6c40e96d21",
+    "processed_v22/c2_papier_dechire.wav": "29cecad24f0058d12c561222cc394e3a7e60fd39fc07c2ea804919bbbeb935a8",
+    "processed_v22/c3_robinet_ouvre.wav": "e03d96f95ec7b04e6d34c55fafc218e1c800569f64c2692a9970ff1dd4243fde",
+    "processed_v22/c3_eau.wav": "73cbd52b15675fdb42ed4ba004d577a59f773e6f2d3198d7581a1a98892cf789",
+    "processed_v22/c3_robinet_ferme.wav": "c862378cb8a9bd455b4d6c71ac5e0e2d33c7071c8f15c3a0e50317152fd0fc2f",
+    "processed_v22/c3_papier_deroule.wav": "6d888d9efe6f2625144294d6b928946f2d27aed494f56e315e95e201b9696dab",
+    "processed_v22/c3_papier_dechire.wav": "451a71bc960704dc16288e6725382e077f9cc11a03aebea68a9ca746ebf403d8",
+    "processed_v22/c4_robinet_ouvre.wav": "537c5795ab5813d8a938014ff0c25dadde681a96f85f944cb072edcebfbd1648",
+    "processed_v22/c4_eau.wav": "dec9417fda9daaf21cfca66da94fd20f14a663150fc69716c3ca5e22e3341022",
+    "processed_v22/c4_robinet_ferme.wav": "79beb613b012c6c7805c13d8f476b92ea9b3cdaf5f4ca3bc49d1e4ff22b5cf61",
+    "processed_v22/c4_papier_deroule.wav": "888ba72a94d37911cd6ce706f5a3a1973c79ff9b02fb393748b1df851e193ffe",
+    "processed_v22/c4_papier_dechire.wav": "1363bcc004927d4b2fb931c1f4d3568e688eb9a113c7b829e664ce19289f19d8",
+    "processed_v22/c5_robinet_ouvre.wav": "9c7d48787c5899be5bfb83602fa1df7d61c00da5981151f7eac33b62f6a47b09",
+    "processed_v22/c5_eau.wav": "f28108f3a9ac92a2058e83e5fe25945750075885986b502296c1ae0992aab138",
+    "processed_v22/c5_robinet_ferme.wav": "8b66a08276a1ca24aff1162958ee92c44da1ecdf09831c3f189bad175d1effcb",
+    "processed_v22/c5_papier_deroule.wav": "40c45c7fd77a548ae4c401f7e0a2a79eb34a2ebc6b45446fb1183edac0db0c8d",
+    "processed_v22/c5_papier_dechire.wav": "7158788b717c7af29d7ec0bfe5b9b1ddf4152cdd363b39da0da586bc37c16ef2",
+    "processed_v22/c5_poubelle_impact.wav": "cdb766dea91651b7ea45d6983250d58725d9c1794544673181059c12478faf2d",
+    "processed_v22/sifflement_p1_n1.wav": "164a04b8161badbb19be62de62278725e9972d837f3f0e6131057e4632a2212d",
+    "processed_v22/sifflement_p1_n2.wav": "32e2afbe2acf10c7a2f65099e979a4fc8264041369e861b87fa4184757786d8c",
+    "processed_v22/sifflement_p1_n3.wav": "ba38a0d8fd3327f1dafd9bd775441fb37c5c4550348c3b5791122cbf792abe04",
+    "cuisson_v22.wav": "d52f6d6ad89509dbc86d31716b244945425686a0ad43e0d6d28339adbf5f8fbd",
+    "processed_v22/c5_papier_sol.wav": "1171fd5bc7945cc0e0d07fb7a36fe986500aa0d3e399274145db32a7d7656586",
+    "reference_v23/musique_v23.wav": "31b1eb935a51e7a93b02812b9bde5d2e0809094dbc048010a9f4fa9dabf13e38"
+  },
+  "delivery_gain_db": 3.5,
+  "delivery_gain_linear": 1.4962356560944334,
+  "global_normalization_mode": "No loudness target; unchanged fixed+3.50dB delivery gain",
+  "delivery_target_lufs": null,
+  "historical_master_reapplied": false,
+  "mix_metrics": {
+    "rms_dbfs": -30.77300064139825,
+    "peak_dbfs": -13.760320791178772,
+    "clipped_samples": 0
+  },
+  "pregain_metrics": {
+    "rms_dbfs": -34.27300483680138,
+    "peak_dbfs": -17.260203747405956,
+    "clipped_samples": 0
+  },
+  "input_loudness": {
+    "input_i": "-27.95",
+    "input_tp": "-13.71",
+    "input_lra": "2.70",
+    "input_thresh": "-37.96"
+  },
+  "clipped_samples": 0,
+  "background_music": {
+    "composition": "Original V23 acoustic jazz trio, retained PCM,108BPM",
+    "new_composition": false,
+    "music_source_sha256": "52cfda878f65995d894af2a3e83749eed10573a747524d3e2ee54b695cbf2141",
+    "reference_pcm": "reference_v23/musique_v23.wav",
+    "reference_sha256": "31b1eb935a51e7a93b02812b9bde5d2e0809094dbc048010a9f4fa9dabf13e38",
+    "reduction_db": -4.0,
+    "measured_reduction_db_before_fade": -3.999985350146968,
+    "fade": {
+      "start_seconds": 42.4,
+      "end_seconds": 43.0,
+      "samples": 28800,
+      "curve": "cos(linspace(0,pi/2,n))**2"
+    },
+    "partition_json": "partition_v23.json",
+    "partition_midi": "partition_v23.mid",
+    "scene_restarts": false
+  },
+  "reaction_foreground_silence_40_25_to43": true,
+  "test_final_file": "test_fin_v24.wav",
+  "test_final_sha256": "3421abb2f323b4e81080bc916ce059201960711713acb8f41d04cd037efc2bbc",
+  "test_final_seconds": [
+    40.25,
+    43.0
+  ],
+  "excerpt_file": "extrait_bruitages_v24.mp3",
+  "excerpt_seconds": [
+    11.25,
+    26.25
+  ],
+  "limits": "Technical source, timing, PCM and level checks only; model cannot listen in this session."
+}
