@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "purpose": "Sound-isolation diagnostic; B is not a proposed music-free final",
+  "sources_sha256": {
+    "episodes/03/cuisine_v24/MOU_Encore_une_feuille_muette.mp4": "430fd2ac59699b7ab3432c7329e4a39c9cd2eff8430d1a009339f4f95af7dbb7",
+    "episodes/03/cuisine_v24/audio/mix.wav": "66cc967347cc622a5ff098ee8e84383831290bea966a8f5a49c726464a015155",
+    "episodes/03/cuisine_v24/audio/provenance.json": "250530792792a56bee0b046cd9f3c7cae7f574f7adef31d0d514a62ad0899196"
+  },
+  "sources_unchanged": true,
+  "range_seconds": [
+    10.25,
+    17.25
+  ],
+  "source_video_frame_range_half_open": [
+    246,
+    414
+  ],
+  "source_pcm_frame_range_half_open": [
+    492000,
+    828000
+  ],
+  "frames": 168,
+  "duration_seconds": 7.0,
+  "same_compressed_video_bitstreams": true,
+  "outputs": {
+    "A": {
+      "file": "A_mix_actuel.mp4",
+      "sha256": "93d68ae0d14de2c9bb13e3e76f2875302c37cbf57ed8a48f68167fb1d1d99db2",
+      "bytes": 1402653,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "frames": 168,
+      "duration_seconds": 7.0,
+      "video_bitstream": {
+        "sha256": "ec129b8daa969073cfcd58c56be17ce5db76e0002750b4acfe106495e609f4f6",
+        "bytes": 1256902
+      },
+      "full_decode_without_errors": true,
+      "audio": {
+        "codec": "AAC",
+        "sample_rate": 48000,
+        "channels": 2,
+        "decoded_aac_peak_dbfs": -14.458801811743637,
+        "decoded_aac_matches_own_pcm_correlation": 0.9980144074663944
+      }
+    },
+    "B": {
+      "file": "B_effets_seuls.mp4",
+      "sha256": "8eb7879ef11976e167a6ed89c96cdb0903fbb5ef71b3e3e375e3cb04e7aeebdd",
+      "bytes": 1403815,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "fps": 24,
+      "frames": 168,
+      "duration_seconds": 7.0,
+      "video_bitstream": {
+        "sha256": "ec129b8daa969073cfcd58c56be17ce5db76e0002750b4acfe106495e609f4f6",
+        "bytes": 1256902
+      },
+      "full_decode_without_errors": true,
+      "audio": {
+        "codec": "AAC",
+        "sample_rate": 48000,
+        "channels": 2,
+        "decoded_aac_peak_dbfs": -17.514511560857304,
+        "decoded_aac_matches_own_pcm_correlation": 0.9987993957345137
+      }
+    }
+  },
+  "A": {
+    "method": "Exact V24 mix PCM slice before lossy AAC encode",
+    "exact_source_pcm_segment": true,
+    "pcm_sha256": "77001f7e616c8461ee8b48f4af8a918313fe61ab89488759383e4aefab59a60e",
+    "clipped_samples": 0
+  },
+  "B": {
+    "method": "All V24 nonmusic events summed at original start_sample; global8/35ms edge fade then round; original fixed+3.50dB gain then round; exact slice",
+    "retained_event_count": 57,
+    "omitted_event_names": [
+      "musique_v24"
+    ],
+    "existing_frying_and_other_ambience_retained": true,
+    "extra_gain_or_normalization": false,
+    "delivery_gain_db": 3.5,
+    "pcm_sha256": "b76a0412f8bb40ececaaa3cd9d1811170c0b993441fd258bc12bad0456208260",
+    "clipped_samples": 0
+  },
+  "intermediates": "Ignored work/diagnostic_son_v24; no WAV copies in this delivery folder",
+  "reproduce_script_sha256": "79f022145ab98c1e799bdbf6819fc4e20241d74e4b489c3cc4f50fb50d1bd8f4",
+  "limits": "Technical checks only; no model listening or subjective sound-quality judgement."
+}

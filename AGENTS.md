@@ -1,5 +1,19 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Retour après V24 : l'utilisatrice dit « Still not good enough ».
+V24 est donc une proposition rejetée, pas une référence de qualité approuvée.
+Ses contrôles techniques restent valides ; ils ne valident pas l'agrément
+sonore ou le jeu comique. La cause principale du rejet est en cours de
+clarification. Avant toute nouvelle réfection complète, isoler le problème
+avec un court essai comparatif ; conserver les modèles et films existants.
+Réexamen artistique : l'expression contrariée vers37s et la réaction après
+la chute se ressemblent ; le gros plan final apporte peu de contraste.
+Diagnostic sonore : les nouveaux effets proviennent de bruit filtré ; leur
+identité de matière et leur présence perçue restent à juger par écoute.
+Le comparatif `episodes/03/etudes_son/diagnostic_v24/` oppose le même passage
+avec le mix courant et avec les effets seuls. Ce second clip est un outil
+de diagnostic, pas une décision de supprimer le jazz du film final.
+
 Commande V24 : après la proposition d'une fin à43s, l'utilisatrice demande
 « Diminue le volume du jazz et ajout les effet ». Dans `episodes/03/cuisine_v24/`,
 baisser le fond musical V23 de4dB, garder les niveaux absolus des bruitages
