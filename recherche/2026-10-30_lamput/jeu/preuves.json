@@ -1,0 +1,464 @@
+{
+  "observed_local": "2026-10-30T13:20:12.055231+01:00",
+  "source_name": "Spider Squad Activated 🕷️🧡 #spookyseason.mp4",
+  "source_sha256": "f31047c0d8f48dfadcc9e3fda85340e6f2ee25d52abbf309c75c6204e586f2cd",
+  "source_path_local_only": "work/reference_lamput_2026-10-30/source.mp4",
+  "scope": "Visual acting/deformation/anticipation study of provided file",
+  "overview_frames_examined": 57,
+  "overview_boards_examined": [
+    "overview_01.png",
+    "overview_02.png",
+    "overview_03.png",
+    "overview_04.png",
+    "overview_05.png"
+  ],
+  "dense_passages": [
+    {
+      "id": "transform",
+      "frame_count": 26,
+      "first_pts_seconds": 21.533333,
+      "last_pts_seconds": 34.033333,
+      "method": "ffmpeg select on source timestamps, native 720x1280 crop=(0,370,720,500), scaled480px for reading; no audio analysis",
+      "samples": [
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/001.png",
+          "pts_seconds": 21.533333,
+          "sha256": "0312d053874a02addebe86672707ba21c98927f626ccc8be7dc26e903146b33e"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/002.png",
+          "pts_seconds": 22.033333,
+          "sha256": "d9139b671d39590f4f94822eb20e249295c63463886f58549b5f4a79632860d6"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/003.png",
+          "pts_seconds": 22.533333,
+          "sha256": "224500c71b20e6efbab1b99cd0ebc8b59392e81994099665cdfc8f5b6a24795b"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/004.png",
+          "pts_seconds": 23.033333,
+          "sha256": "ba93f9ae704cf288c7b11eeb1d34b3ac593db9bb30d2f47390c19561fe2d7307"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/005.png",
+          "pts_seconds": 23.533333,
+          "sha256": "a880051303a1711885f5e0e5ac04ac9f000f34b9e07f9e23a5f1b7fe20f4d834"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/006.png",
+          "pts_seconds": 24.033333,
+          "sha256": "1918e522890d44fa2c2daf2fc84d354e76594218829b7857356b53361e3294b1"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/007.png",
+          "pts_seconds": 24.533333,
+          "sha256": "a7868e6f496e0b24d4bdbf9fe0ab840217fbf3635f936bca51194380d8a4faf7"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/008.png",
+          "pts_seconds": 25.033333,
+          "sha256": "eee0a77b18c632b420be9fabcf281657f8f3c723c6105af3fa4e9e5be3681a76"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/009.png",
+          "pts_seconds": 25.533333,
+          "sha256": "992bf60b8340400bba89e8fc57582ee820378d0105bd86e7341a646e65b93383"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/010.png",
+          "pts_seconds": 26.033333,
+          "sha256": "6ea53259837064f5fa9b803680df56c60089ae80c7151f223826a4770b099e8d"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/011.png",
+          "pts_seconds": 26.533333,
+          "sha256": "01df0a1a1e7774550ca65aaa62e88122374cf4a98632d13256f76f673e6dcfd7"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/012.png",
+          "pts_seconds": 27.033333,
+          "sha256": "d517ae22f42bd3de781594b51cbf3f9efaf5386c20159f5502b00819cbf29935"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/013.png",
+          "pts_seconds": 27.533333,
+          "sha256": "77efba1633252a9ad31e0fd07207b720cce9249259dce55a0b9b8485e521780a"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/014.png",
+          "pts_seconds": 28.033333,
+          "sha256": "d51cef2fa78bbe68ae33adce5fcd773da5425cd809921249344f852d7d74ec4f"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/015.png",
+          "pts_seconds": 28.533333,
+          "sha256": "562919aabdc76b63cfb13bfdb8f1f9fbace67bd83857f75a42766969ae50317b"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/016.png",
+          "pts_seconds": 29.033333,
+          "sha256": "7f62630121a9515cfb1a0ce5bf909e691475a3b0dc598a41aaff0f6b14310da2"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/017.png",
+          "pts_seconds": 29.533333,
+          "sha256": "6b5cd3e546b2ad0a4c0111a5d8c66d517392fc1e011501ce46919ad9872c8c08"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/018.png",
+          "pts_seconds": 30.033333,
+          "sha256": "833fbfbc4ac96a8ae46d5530340b0eac6f08abbf45ef4472b83913104e8825a9"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/019.png",
+          "pts_seconds": 30.533333,
+          "sha256": "6a66db4ffae72311800352bfc09d85093876fce8cb66a7ca132f5061010a208c"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/020.png",
+          "pts_seconds": 31.033333,
+          "sha256": "0ab2a7588d3a72839f5934aacdc4aacbc1298bd8dc68855bbb323f33a66ac920"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/021.png",
+          "pts_seconds": 31.533333,
+          "sha256": "67ebb50e654b34d2f4fb35217c6e628f2d999bd86fc40fbc442ae81d33bd35c1"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/022.png",
+          "pts_seconds": 32.033333,
+          "sha256": "d011ce01e0a14fb6bbc1bd773d645e166e84d5535d33d95a2b32fdd93b1e3615"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/023.png",
+          "pts_seconds": 32.533333,
+          "sha256": "c7f34eaedc20bc6cd0348caf13c5b56dcec8dff0b006404dcf8bbd4bc7fc0139"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/024.png",
+          "pts_seconds": 33.033333,
+          "sha256": "208a1c73ae2f7b1dfb32c89aec94f6189bcfca68b23ec3f3a4c531e2f021a30f"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/025.png",
+          "pts_seconds": 33.533333,
+          "sha256": "3d77b5766d211aea865455bd27ba999142724741c440b78b0b2ee98f3124aa2b"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/transform/026.png",
+          "pts_seconds": 34.033333,
+          "sha256": "722244f641b7ad02a9253ff7adb664dc5afce6b1297bc14cf6fe499cf059c633"
+        }
+      ]
+    },
+    {
+      "id": "effort",
+      "frame_count": 21,
+      "first_pts_seconds": 52.033333,
+      "last_pts_seconds": 58.7,
+      "method": "ffmpeg select on source timestamps, native 720x1280 crop=(0,370,720,500), scaled480px for reading; no audio analysis",
+      "samples": [
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/001.png",
+          "pts_seconds": 52.033333,
+          "sha256": "f32e4865c91656f1fed48a4757ba7c8edea717cdd9dec1f04d11aeb6c55fadbd"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/002.png",
+          "pts_seconds": 52.366667,
+          "sha256": "a4c2d5b0f14cb0ddf1a2da3d50d457b0ec1b0217ebc4ff1fecb381e089dfa69b"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/003.png",
+          "pts_seconds": 52.7,
+          "sha256": "e41795fa1ea8b9397b26c3fe8bd8df9d6261d29496530a0b5e1feae2511d5206"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/004.png",
+          "pts_seconds": 53.033333,
+          "sha256": "c5503ec3d79dc6bb25912880fa8c4152719ac1848be0c09d03a045d655098a06"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/005.png",
+          "pts_seconds": 53.366667,
+          "sha256": "db6aaf9291ee652c53882b9cdf3f9f6d97b4a1501dd9ddfcfa461c9cf618aa0c"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/006.png",
+          "pts_seconds": 53.7,
+          "sha256": "c981050bea8b658aeaad5802f51c50f99a24f96223c6848cf229c31fa3a499ca"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/007.png",
+          "pts_seconds": 54.033333,
+          "sha256": "4b5bb6f5fbf37320be76856b460b4b117c099006324cc3812231d532f816736e"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/008.png",
+          "pts_seconds": 54.366667,
+          "sha256": "0fb67cfcda03864379f6e54c669c1d75b85ec7cef3ef7304971e107ad1d5d72a"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/009.png",
+          "pts_seconds": 54.7,
+          "sha256": "0fe9620c40498937b2b9a1c2b474d7cb32a27cc302ea90658890fbe36c5d555e"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/010.png",
+          "pts_seconds": 55.033333,
+          "sha256": "cf0cc7f85e5651f0d957960d595dcafbb66d1ad60b298f9ef03eb1762338be56"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/011.png",
+          "pts_seconds": 55.366667,
+          "sha256": "6ac0fd9a37df61781f0a6584dd2ca5c16255d80026dd2d818d4ebbf6b3f1eb35"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/012.png",
+          "pts_seconds": 55.7,
+          "sha256": "90a26fc2e839e0ef9c925f4f06d7b8bc914d297cd8f5514b78cb626916c5e5d3"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/013.png",
+          "pts_seconds": 56.033333,
+          "sha256": "9cdf4dab6e0c32ee97e25fb0dbf48f0237266fa0530b1253ced1ec08dfbe3ca0"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/014.png",
+          "pts_seconds": 56.366667,
+          "sha256": "54de8c07da42400d16912e4c92d9db986947c138626d960cc0769d3f3b838352"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/015.png",
+          "pts_seconds": 56.7,
+          "sha256": "61821dafbf109db80c3853337c3a9d54dee5421a4f81ed5d841e52b0a4175529"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/016.png",
+          "pts_seconds": 57.033333,
+          "sha256": "7feeac51ef5f54cdafb380408db6f5e7e133e30b6dc34bcb7096a94cc35b9e9c"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/017.png",
+          "pts_seconds": 57.366667,
+          "sha256": "c0d73df86924222e3e459f2e517c618e84575f9c0a4de2c88b08b170612e52eb"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/018.png",
+          "pts_seconds": 57.7,
+          "sha256": "408ab81d62ec59b5b61c33693f96318d3ac3c291cb708292def8c007a7d35850"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/019.png",
+          "pts_seconds": 58.033333,
+          "sha256": "e1a4e2b6d1081d9587ec5abe4310dbc5c62abf6d602d2f3cb3c353b16c159d49"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/020.png",
+          "pts_seconds": 58.366667,
+          "sha256": "23ae334a0eb84a284b7bf83d5264b62f61a6c9bfb90701aa9533aef6e2f2ee3d"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/effort/021.png",
+          "pts_seconds": 58.7,
+          "sha256": "7d16569ec5dc00fd90349ad3abe54f4ae99082ef999759f9309ffd47263275e2"
+        }
+      ]
+    },
+    {
+      "id": "wake",
+      "frame_count": 36,
+      "first_pts_seconds": 95.033333,
+      "last_pts_seconds": 100.866667,
+      "method": "ffmpeg select on source timestamps, native 720x1280 crop=(0,370,720,500), scaled480px for reading; no audio analysis",
+      "samples": [
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/001.png",
+          "pts_seconds": 95.033333,
+          "sha256": "20334148ee05f1f8d97f4f4df016cb5589ea286bc9ac7eef200172bb37a5516f"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/002.png",
+          "pts_seconds": 95.2,
+          "sha256": "e8a00b3e4d30029db98e8e3136df1bd3baed9e7010a92b31c48604a5f9cd218a"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/003.png",
+          "pts_seconds": 95.366667,
+          "sha256": "751629fff7c6c57634ac8c18eb3875053c1f8499856c840184a26593dd5af3b8"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/004.png",
+          "pts_seconds": 95.533333,
+          "sha256": "369dbc1bda6c3269fbe34fe9d9a5f95f7ee5541c5912740e3297190c65a2aabd"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/005.png",
+          "pts_seconds": 95.7,
+          "sha256": "0c7428d8fed2d7e2b99fb01ba9558ab6e4a7a4996675e6e27cc4b792f9369479"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/006.png",
+          "pts_seconds": 95.866667,
+          "sha256": "e4c531442ee059ab306b9a4080d349d24e69a663f317f83bd6fa69903f3be66b"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/007.png",
+          "pts_seconds": 96.033333,
+          "sha256": "55eb495213f10e79bd70187a3b66ff2cdd1b97d03a1075192f4d9dec31c1e581"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/008.png",
+          "pts_seconds": 96.2,
+          "sha256": "8cafecab2e8c1e5ba95ad29216ceeb7aa6cb81dcff0137067f700f530fa19521"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/009.png",
+          "pts_seconds": 96.366667,
+          "sha256": "72a77396f9b0c57127e7d0776078c85899601c117633c1a183500d1709ea6139"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/010.png",
+          "pts_seconds": 96.533333,
+          "sha256": "c52b382fa305202aaeabf38f6f59c17831f0840c253a3946b372fa50a7fbe10e"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/011.png",
+          "pts_seconds": 96.7,
+          "sha256": "1bfa5a816ed25eb2837fc46ff1c34b4ccf526e0b16672feff797382a9cb5aad1"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/012.png",
+          "pts_seconds": 96.866667,
+          "sha256": "2801c11ee757bff64db6245df5703b02d1a662093440f47623f40add0da6cc4b"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/013.png",
+          "pts_seconds": 97.033333,
+          "sha256": "5bbc300dc47aac49a47fb33ba1c6b7228410ad5fb3fa9b02da0e33231901cf78"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/014.png",
+          "pts_seconds": 97.2,
+          "sha256": "1b7999efac0ba18e15c9d859bdea8341fa2da4a05db8baa3af3a62d7860eb1f0"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/015.png",
+          "pts_seconds": 97.366667,
+          "sha256": "aa3084bb08b49b6498612b924df20ab83fc2c817af396f1983f0aa7b6563cbf3"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/016.png",
+          "pts_seconds": 97.533333,
+          "sha256": "a6b8f208555f1d992a98280d69d07c4f2730eb1b589b43bb0ba01811028547c5"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/017.png",
+          "pts_seconds": 97.7,
+          "sha256": "332b6d3aa38b7c8b610f7b4d0fcf5b66c74203da91bda7226eb6fdf91df7eaa1"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/018.png",
+          "pts_seconds": 97.866667,
+          "sha256": "21fa07adf181c75c6eb63697774966b900f35c93cfdc1d6e1a0205fb731ea290"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/019.png",
+          "pts_seconds": 98.033333,
+          "sha256": "3f94059ac54c9936e62185167a4e3aaa512fa8feb5c7945fb0d65849656b9c2b"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/020.png",
+          "pts_seconds": 98.2,
+          "sha256": "a34679370631f656a6b051fecc5e4751237798d123e655ad6be44de6fa4965cc"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/021.png",
+          "pts_seconds": 98.366667,
+          "sha256": "1092ab0d052eb9bfad8ba321afbbaf9eafbd9c5c664748c4b4f66d4c6633f0b8"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/022.png",
+          "pts_seconds": 98.533333,
+          "sha256": "0a54f336fe9604814b2624af63b7fdc774083f059a193530748cbc98b2d150c6"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/023.png",
+          "pts_seconds": 98.7,
+          "sha256": "b28bf39dcd572976ad9ba0bbe7a211e480e8d8ea2b9fe722849035a8526c9947"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/024.png",
+          "pts_seconds": 98.866667,
+          "sha256": "88105434263193ac5089fa286f89adbbe224b54a28a8eea2719259867a55d965"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/025.png",
+          "pts_seconds": 99.033333,
+          "sha256": "0776e4e2fc17c62ad34fc7f0bfc28fe229a26949932cc0793ed9eb7ff925a1b8"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/026.png",
+          "pts_seconds": 99.2,
+          "sha256": "bd618e804e4e43491d93e7285bc9c1d936d1f5000e67fee1582875c0eb208c37"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/027.png",
+          "pts_seconds": 99.366667,
+          "sha256": "1f1bdc449ac93c9f5e4194896e69fd3642bcabb6e45697f8d04eae833cb4557b"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/028.png",
+          "pts_seconds": 99.533333,
+          "sha256": "3e3fd30e64ae343ce3ebef22a0c578886dc2dc8057f6163df12f691f4574bfbf"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/029.png",
+          "pts_seconds": 99.7,
+          "sha256": "0bb99a1825a39a70c82d2060f936e83b3ba86a804cfc631bef9338ecdd9fc2a8"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/030.png",
+          "pts_seconds": 99.866667,
+          "sha256": "061ac2642b407cb91b665ea40620361270180c39101337ff1a96bbb6d1b6507e"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/031.png",
+          "pts_seconds": 100.033333,
+          "sha256": "5d345e6dbfd414fa3cbeebdec32d4ceaf00338c82eef70573bbf6a65c3af492d"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/032.png",
+          "pts_seconds": 100.2,
+          "sha256": "03f780580ff529f86ead7d70762229e71e4054e7b75acfd3bc56d7ce05629306"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/033.png",
+          "pts_seconds": 100.366667,
+          "sha256": "f0ed563ef5e928f901479431e3b02b3a17ba841c715e2ed1e7944c4319435ffe"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/034.png",
+          "pts_seconds": 100.533333,
+          "sha256": "b7683e537b3d5a4d7a2c473bd22c3ed85e7559cd570294641367f4487ddd8fe8"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/035.png",
+          "pts_seconds": 100.7,
+          "sha256": "52196126886b93f59787f64893dd61dcc4d21bf90a164dff1f70962c8dffd739"
+        },
+        {
+          "file": "work/reference_lamput_2026-10-30/jeu_agent/wake/036.png",
+          "pts_seconds": 100.866667,
+          "sha256": "5c8288a892db9073a3e761ef85b264eb3b593d47e2c69725a1737df4ac9efaa0"
+        }
+      ]
+    }
+  ],
+  "no_continuous_viewing_claim": true,
+  "audio_listened": false,
+  "exact_static_hold_frames_measured": false,
+  "production_files_changed": false,
+  "limits": "Dense sampled sequences support order and visible poses; no frame-exact boundaries, audience success, retention or sound comfort inferred."
+}

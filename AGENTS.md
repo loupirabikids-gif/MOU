@@ -1,5 +1,16 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Référence réellement examinée le 30 octobre 2026 : fichier utilisateur
+Lamput « Spider Squad Activated 🕷️🧡 #spookyseason.mp4 », vidéo112,9s.
+Étude d'images successives et séquences densifiées dans
+`recherche/2026-10-30_lamput/` ; aucune écoute ni lecture continue revendiquée.
+Enseignements : déformation au service d'une intention ou d'une force,
+formes exposées pendant les réactions, regard/bras/silhouette accordés,
+coupes qui révèlent cible, contact ou résultat. Proposition à éprouver :
+petit test du dernier papier MOU, avec quelques poses entières contrastées.
+Préserver ses deux bras/moufles et ses attaches ; ne pas copier la toile
+ni multiplier les membres. Le film existant n'a pas été modifié par l'étude.
+
 Point réseau du 30 octobre 2026 : les autorisations YouTube ont été appliquées
 et sont observées actives/enforced dans le runtime et la politique locale.
 Les connexions directes restent refusées au tunnel CONNECT403 (serveur envoy),

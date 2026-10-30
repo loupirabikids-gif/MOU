@@ -1,0 +1,50 @@
+{
+  "source_sha256": "f31047c0d8f48dfadcc9e3fda85340e6f2ee25d52abbf309c75c6204e586f2cd",
+  "method": "Frames decoded with FFmpeg. Central drawing cropped only for presentation; timestamps are source PTS. Full source and frame library remain in ignored work/.",
+  "frames": [
+    {
+      "source_time_seconds": 24.033333,
+      "source_frame_sha256": "6172bf685f9270e902a2b825c2fc54deec07fb749da83548cfe6551e36e5a914",
+      "presentation_crop": [
+        0,
+        380,
+        720,
+        900
+      ],
+      "label": "Tige"
+    },
+    {
+      "source_time_seconds": 28.033333,
+      "source_frame_sha256": "8d20ec03011e396f76f93372d836681462f909876f2aec5e6ac5eff3aa7f59f3",
+      "presentation_crop": [
+        0,
+        380,
+        720,
+        900
+      ],
+      "label": "Croix"
+    },
+    {
+      "source_time_seconds": 30.033333,
+      "source_frame_sha256": "668d01f1c5118e855fc7a8e4b6aefdf6917542d61c5c4660b2cbb9309460a8e8",
+      "presentation_crop": [
+        0,
+        380,
+        720,
+        900
+      ],
+      "label": "Branches"
+    },
+    {
+      "source_time_seconds": 32.033333,
+      "source_frame_sha256": "94f0108cea33de63f0b14fa724adb3b6e5ce6f750d2e1e29953b677527668412",
+      "presentation_crop": [
+        0,
+        380,
+        720,
+        900
+      ],
+      "label": "Toile"
+    }
+  ]
+}

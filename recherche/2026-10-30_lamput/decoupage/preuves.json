@@ -1,0 +1,72 @@
+{
+  "observed_local": "2026-10-30T13:21:47.979445+01:00",
+  "source_filename": "Spider Squad Activated 🕷️🧡 #spookyseason.mp4",
+  "source_sha256": "f31047c0d8f48dfadcc9e3fda85340e6f2ee25d52abbf309c75c6204e586f2cd",
+  "dimensions": [
+    720,
+    1280
+  ],
+  "fps": 30,
+  "video_duration_seconds": 112.9,
+  "scope": "Decoded image sequences only; no continuous viewing, audio listening or performance claim",
+  "overview": {
+    "step_frames": 60,
+    "source_pts_first": 0.0333333,
+    "images": 57,
+    "boards_reviewed": 5
+  },
+  "dense_sequences": [
+    {
+      "source_pts_start": 21.033333,
+      "source_pts_last": 34.833333,
+      "step_frames": 6,
+      "images": 70,
+      "boards_reviewed": 3
+    },
+    {
+      "source_pts_start": 46.033333,
+      "source_pts_last": 62.833333,
+      "step_frames": 6,
+      "images": 85,
+      "boards_reviewed": 4
+    }
+  ],
+  "analysis_crop_xywh": [
+    0,
+    384,
+    720,
+    512
+  ],
+  "crop_note": "Analysis window around sharp central cartoon area, not an assertion of original authored aspect ratio",
+  "verified_cut_pairs": [
+    {
+      "before": 9.033333,
+      "after": 9.066667
+    },
+    {
+      "before": 21.333333,
+      "after": 21.366667
+    },
+    {
+      "before": 33.366667,
+      "after": 33.4
+    },
+    {
+      "before": 48.933333,
+      "after": 48.966667
+    },
+    {
+      "before": 53.066667,
+      "after": 53.1
+    },
+    {
+      "before": 55.766667,
+      "after": 55.8
+    }
+  ],
+  "cut_method": "Candidate scene detection threshold0.18 on cropped image, followed by actual examination of consecutive source frames selected by n=round(30*t)-1. Candidate score alone is not treated as a camera cut.",
+  "exact_freezes_certified": false,
+  "video_republished": false,
+  "production_files_changed": false,
+  "working_evidence_directory": "work/reference_lamput_2026-10-30/decoupage_agent/"
+}
