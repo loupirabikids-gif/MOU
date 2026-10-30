@@ -1,0 +1,4523 @@
+{
+  "original_score": true,
+  "style": "discreet acoustic jazz trio",
+  "bpm": 108.0,
+  "meter_beats": 4,
+  "complete_bars": 21,
+  "short_coda_start_seconds": 46.96666666666666,
+  "global_clock_origin_seconds": 0.3,
+  "tonal_center": "A major: A6/9, F#m7, Bm7, E9/13, C#7 turnaround",
+  "notes": [
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 0,
+      "global_beat": 0.0,
+      "start": 0.0,
+      "duration": 2.527777778,
+      "midi_note": 59,
+      "velocity": 38
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 0,
+      "global_beat": 0.0,
+      "start": 0.0,
+      "duration": 1.916666667,
+      "midi_note": 45,
+      "velocity": 50
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 0,
+      "global_beat": 0.008,
+      "start": 0.007,
+      "duration": 2.527777778,
+      "midi_note": 61,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 0,
+      "global_beat": 0.016,
+      "start": 0.014,
+      "duration": 2.527777778,
+      "midi_note": 64,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 0,
+      "global_beat": 0.024,
+      "start": 0.021,
+      "duration": 2.527777778,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 0,
+      "global_beat": 3.0,
+      "start": 1.9602054,
+      "duration": 0.266666667,
+      "midi_note": 51,
+      "velocity": 13
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 0,
+      "global_beat": 3.0,
+      "start": 1.970945428,
+      "duration": 0.5,
+      "midi_note": 52,
+      "velocity": 43
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 4.0,
+      "start": 2.525922697,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 1,
+      "global_beat": 4.0,
+      "start": 2.527052786,
+      "duration": 1.083333333,
+      "midi_note": 42,
+      "velocity": 55
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 4.0,
+      "start": 2.527789634,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 1,
+      "global_beat": 4.58,
+      "start": 2.837274273,
+      "duration": 0.527777778,
+      "midi_note": 57,
+      "velocity": 42
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 1,
+      "global_beat": 4.592,
+      "start": 2.858502537,
+      "duration": 0.527777778,
+      "midi_note": 61,
+      "velocity": 40
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 1,
+      "global_beat": 4.604,
+      "start": 2.862948986,
+      "duration": 0.527777778,
+      "midi_note": 64,
+      "velocity": 38
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 5.0,
+      "start": 3.074314766,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 5.0,
+      "start": 3.080201062,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 5.0,
+      "start": 3.083423752,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 6.0,
+      "start": 3.630487118,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 1,
+      "global_beat": 6.0,
+      "start": 3.634885002,
+      "duration": 0.611111111,
+      "midi_note": 57,
+      "velocity": 38
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 1,
+      "global_beat": 6.0,
+      "start": 3.639892644,
+      "duration": 1.055555556,
+      "midi_note": 49,
+      "velocity": 49
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 1,
+      "global_beat": 6.012,
+      "start": 3.644009715,
+      "duration": 0.611111111,
+      "midi_note": 61,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 1,
+      "global_beat": 6.024,
+      "start": 3.645216303,
+      "duration": 0.611111111,
+      "midi_note": 64,
+      "velocity": 34
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 7.0,
+      "start": 4.186406689,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 7.0,
+      "start": 4.190510095,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 1,
+      "global_beat": 7.0,
+      "start": 4.196264842,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 2,
+      "global_beat": 8.0,
+      "start": 4.736512888,
+      "duration": 0.638888889,
+      "midi_note": 57,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 8.0,
+      "start": 4.738737406,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 8.0,
+      "start": 4.743178456,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 2,
+      "global_beat": 8.012,
+      "start": 4.748535557,
+      "duration": 0.638888889,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 2,
+      "global_beat": 8.0,
+      "start": 4.751253289,
+      "duration": 1.083333333,
+      "midi_note": 47,
+      "velocity": 52
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 2,
+      "global_beat": 8.024,
+      "start": 4.760474959,
+      "duration": 0.638888889,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 2,
+      "global_beat": 8.58,
+      "start": 5.062430746,
+      "duration": 0.25,
+      "midi_note": 69,
+      "velocity": 48
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 9.0,
+      "start": 5.294393059,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 9.0,
+      "start": 5.295963616,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 9.0,
+      "start": 5.302560975,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 2,
+      "global_beat": 9.58,
+      "start": 5.628846304,
+      "duration": 0.322222222,
+      "midi_note": 73,
+      "velocity": 45
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 2,
+      "global_beat": 10.0,
+      "start": 5.857531799,
+      "duration": 1.055555556,
+      "midi_note": 54,
+      "velocity": 46
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 10.0,
+      "start": 5.858665562,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 2,
+      "global_beat": 10.58,
+      "start": 6.170625221,
+      "duration": 0.511111111,
+      "midi_note": 57,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 2,
+      "global_beat": 10.592,
+      "start": 6.185529901,
+      "duration": 0.511111111,
+      "midi_note": 62,
+      "velocity": 34
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 2,
+      "global_beat": 10.604,
+      "start": 6.189843637,
+      "duration": 0.511111111,
+      "midi_note": 66,
+      "velocity": 32
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 11.0,
+      "start": 6.405867155,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 11.0,
+      "start": 6.411193724,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 2,
+      "global_beat": 11.0,
+      "start": 6.41441483,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 2,
+      "global_beat": 11.0,
+      "start": 6.415652588,
+      "duration": 0.361111111,
+      "midi_note": 71,
+      "velocity": 44
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 3,
+      "global_beat": 12.0,
+      "start": 6.962601047,
+      "duration": 0.488888889,
+      "midi_note": 40,
+      "velocity": 57
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 12.0,
+      "start": 6.964341709,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 12.0,
+      "start": 6.967203964,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 3,
+      "global_beat": 12.58,
+      "start": 7.287947813,
+      "duration": 0.611111111,
+      "midi_note": 69,
+      "velocity": 43
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 12.58,
+      "start": 7.29244627,
+      "duration": 0.444444444,
+      "midi_note": 56,
+      "velocity": 43
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 12.604,
+      "start": 7.296278247,
+      "duration": 0.444444444,
+      "midi_note": 66,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 12.592,
+      "start": 7.29814508,
+      "duration": 0.444444444,
+      "midi_note": 62,
+      "velocity": 41
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 3,
+      "global_beat": 13.0,
+      "start": 7.517309696,
+      "duration": 0.488888889,
+      "midi_note": 47,
+      "velocity": 52
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 13.0,
+      "start": 7.518682014,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 13.0,
+      "start": 7.523352804,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 13.0,
+      "start": 7.527155275,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 3,
+      "global_beat": 14.0,
+      "start": 8.077709373,
+      "duration": 0.488888889,
+      "midi_note": 49,
+      "velocity": 54
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 14.0,
+      "start": 8.083402808,
+      "duration": 0.433333333,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 14.0,
+      "start": 8.084325145,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 14.012,
+      "start": 8.089174742,
+      "duration": 0.433333333,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 14.024,
+      "start": 8.094692366,
+      "duration": 0.433333333,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 3,
+      "global_beat": 15.0,
+      "start": 8.632544721,
+      "duration": 0.488888889,
+      "midi_note": 44,
+      "velocity": 49
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 15.0,
+      "start": 8.633483796,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 15.0,
+      "start": 8.635245888,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 15.0,
+      "start": 8.638393941,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 15.58,
+      "start": 8.947859986,
+      "duration": 0.166666667,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 3,
+      "global_beat": 15.58,
+      "start": 8.953749062,
+      "duration": 0.133333333,
+      "midi_note": 38,
+      "velocity": 13
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 15.592,
+      "start": 8.9614836,
+      "duration": 0.166666667,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 3,
+      "global_beat": 15.604,
+      "start": 8.968876875,
+      "duration": 0.166666667,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 16.0,
+      "start": 9.181279435,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 16.0,
+      "start": 9.181750457,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 16.0,
+      "start": 9.185460011,
+      "duration": 0.455555556,
+      "midi_note": 56,
+      "velocity": 41
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 4,
+      "global_beat": 16.0,
+      "start": 9.186541569,
+      "duration": 1.083333333,
+      "midi_note": 45,
+      "velocity": 53
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 16.012,
+      "start": 9.200347305,
+      "duration": 0.455555556,
+      "midi_note": 61,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 16.024,
+      "start": 9.208411694,
+      "duration": 0.455555556,
+      "midi_note": 64,
+      "velocity": 37
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 17.0,
+      "start": 9.740700389,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 17.0,
+      "start": 9.747735556,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 17.0,
+      "start": 9.751654663,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 17.58,
+      "start": 10.069869917,
+      "duration": 0.422222222,
+      "midi_note": 56,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 17.592,
+      "start": 10.070230189,
+      "duration": 0.422222222,
+      "midi_note": 61,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 17.604,
+      "start": 10.073265014,
+      "duration": 0.422222222,
+      "midi_note": 64,
+      "velocity": 33
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 4,
+      "global_beat": 18.0,
+      "start": 10.292822505,
+      "duration": 1.055555556,
+      "midi_note": 52,
+      "velocity": 48
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 18.0,
+      "start": 10.300513754,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 19.0,
+      "start": 10.856938414,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 19.0,
+      "start": 10.857545021,
+      "duration": 0.388888889,
+      "midi_note": 56,
+      "velocity": 37
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 19.0,
+      "start": 10.857667812,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 19.012,
+      "start": 10.858374859,
+      "duration": 0.388888889,
+      "midi_note": 61,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 4,
+      "global_beat": 19.0,
+      "start": 10.862598395,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 4,
+      "global_beat": 19.024,
+      "start": 10.865014573,
+      "duration": 0.388888889,
+      "midi_note": 64,
+      "velocity": 33
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 20.0,
+      "start": 11.403453494,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 5,
+      "global_beat": 20.0,
+      "start": 11.413749921,
+      "duration": 1.083333333,
+      "midi_note": 37,
+      "velocity": 55
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 20.0,
+      "start": 11.414733538,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 5,
+      "global_beat": 20.58,
+      "start": 11.728005537,
+      "duration": 0.527777778,
+      "midi_note": 53,
+      "velocity": 42
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 5,
+      "global_beat": 20.592,
+      "start": 11.732304189,
+      "duration": 0.527777778,
+      "midi_note": 59,
+      "velocity": 40
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 5,
+      "global_beat": 20.604,
+      "start": 11.752081299,
+      "duration": 0.527777778,
+      "midi_note": 63,
+      "velocity": 38
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 21.0,
+      "start": 11.960063141,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 21.0,
+      "start": 11.962812417,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 21.0,
+      "start": 11.962854323,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 5,
+      "global_beat": 21.0,
+      "start": 11.962947362,
+      "duration": 0.277777778,
+      "midi_note": 73,
+      "velocity": 46
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 5,
+      "global_beat": 22.0,
+      "start": 12.515698358,
+      "duration": 1.055555556,
+      "midi_note": 44,
+      "velocity": 49
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 5,
+      "global_beat": 22.0,
+      "start": 12.523379146,
+      "duration": 0.611111111,
+      "midi_note": 53,
+      "velocity": 38
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 22.0,
+      "start": 12.528648001,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 5,
+      "global_beat": 22.012,
+      "start": 12.530188688,
+      "duration": 0.611111111,
+      "midi_note": 59,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 5,
+      "global_beat": 22.024,
+      "start": 12.540706185,
+      "duration": 0.611111111,
+      "midi_note": 63,
+      "velocity": 34
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 5,
+      "global_beat": 22.58,
+      "start": 12.841267225,
+      "duration": 0.25,
+      "midi_note": 71,
+      "velocity": 42
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 23.0,
+      "start": 13.076284313,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 23.0,
+      "start": 13.079569815,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 5,
+      "global_beat": 23.0,
+      "start": 13.085187808,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 5,
+      "global_beat": 23.58,
+      "start": 13.399543804,
+      "duration": 0.177777778,
+      "midi_note": 69,
+      "velocity": 40
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 6,
+      "global_beat": 24.0,
+      "start": 13.626554064,
+      "duration": 0.638888889,
+      "midi_note": 57,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 24.0,
+      "start": 13.63256045,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 24.0,
+      "start": 13.638353965,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 6,
+      "global_beat": 24.0,
+      "start": 13.639534154,
+      "duration": 1.083333333,
+      "midi_note": 42,
+      "velocity": 52
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 6,
+      "global_beat": 24.024,
+      "start": 13.640879259,
+      "duration": 0.638888889,
+      "midi_note": 64,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 6,
+      "global_beat": 24.012,
+      "start": 13.645065592,
+      "duration": 0.638888889,
+      "midi_note": 61,
+      "velocity": 37
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 6,
+      "global_beat": 24.58,
+      "start": 13.955256016,
+      "duration": 0.388888889,
+      "midi_note": 66,
+      "velocity": 42
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 25.0,
+      "start": 14.182514881,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 25.0,
+      "start": 14.18634197,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 25.0,
+      "start": 14.186535938,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 26.0,
+      "start": 14.740714796,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 6,
+      "global_beat": 26.0,
+      "start": 14.740721231,
+      "duration": 0.583333333,
+      "midi_note": 69,
+      "velocity": 44
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 6,
+      "global_beat": 26.0,
+      "start": 14.743521569,
+      "duration": 1.055555556,
+      "midi_note": 49,
+      "velocity": 46
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 6,
+      "global_beat": 26.58,
+      "start": 15.065523132,
+      "duration": 0.511111111,
+      "midi_note": 57,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 6,
+      "global_beat": 26.592,
+      "start": 15.071572342,
+      "duration": 0.511111111,
+      "midi_note": 61,
+      "velocity": 34
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 6,
+      "global_beat": 26.604,
+      "start": 15.086487174,
+      "duration": 0.511111111,
+      "midi_note": 64,
+      "velocity": 32
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 27.0,
+      "start": 15.294986135,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 27.0,
+      "start": 15.298446076,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 6,
+      "global_beat": 27.0,
+      "start": 15.30233827,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 7,
+      "global_beat": 28.0,
+      "start": 15.852723275,
+      "duration": 0.488888889,
+      "midi_note": 40,
+      "velocity": 57
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 28.0,
+      "start": 15.857044221,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 28.0,
+      "start": 15.860759536,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 28.58,
+      "start": 16.184414777,
+      "duration": 0.444444444,
+      "midi_note": 56,
+      "velocity": 43
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 28.592,
+      "start": 16.184691682,
+      "duration": 0.444444444,
+      "midi_note": 62,
+      "velocity": 41
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 28.604,
+      "start": 16.191717137,
+      "duration": 0.444444444,
+      "midi_note": 66,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 29.0,
+      "start": 16.407145306,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 29.0,
+      "start": 16.411369081,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 29.0,
+      "start": 16.412841843,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 7,
+      "global_beat": 29.0,
+      "start": 16.416282289,
+      "duration": 0.488888889,
+      "midi_note": 47,
+      "velocity": 52
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 7,
+      "global_beat": 30.0,
+      "start": 16.96049239,
+      "duration": 0.488888889,
+      "midi_note": 49,
+      "velocity": 54
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 30.0,
+      "start": 16.960995258,
+      "duration": 0.433333333,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 30.0,
+      "start": 16.973242713,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 30.012,
+      "start": 16.973895315,
+      "duration": 0.433333333,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 30.024,
+      "start": 16.987223184,
+      "duration": 0.433333333,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 31.0,
+      "start": 17.517303087,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 31.0,
+      "start": 17.518069326,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 31.0,
+      "start": 17.521850123,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 7,
+      "global_beat": 31.0,
+      "start": 17.524095891,
+      "duration": 0.488888889,
+      "midi_note": 44,
+      "velocity": 49
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 7,
+      "global_beat": 31.58,
+      "start": 17.836614962,
+      "duration": 0.133333333,
+      "midi_note": 38,
+      "velocity": 13
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 31.592,
+      "start": 17.846651931,
+      "duration": 0.166666667,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 31.604,
+      "start": 17.851097606,
+      "duration": 0.166666667,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 7,
+      "global_beat": 31.58,
+      "start": 17.851110211,
+      "duration": 0.166666667,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 8,
+      "global_beat": 32.0,
+      "start": 18.07741995,
+      "duration": 1.083333333,
+      "midi_note": 45,
+      "velocity": 53
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 32.0,
+      "start": 18.079843549,
+      "duration": 0.455555556,
+      "midi_note": 56,
+      "velocity": 41
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 32.012,
+      "start": 18.080034817,
+      "duration": 0.455555556,
+      "midi_note": 61,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 32.0,
+      "start": 18.08256643,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 32.0,
+      "start": 18.083737358,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 32.024,
+      "start": 18.091138474,
+      "duration": 0.455555556,
+      "midi_note": 64,
+      "velocity": 37
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 8,
+      "global_beat": 32.58,
+      "start": 18.397030807,
+      "duration": 0.277777778,
+      "midi_note": 69,
+      "velocity": 47
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 33.0,
+      "start": 18.626872839,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 33.0,
+      "start": 18.635905132,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 33.0,
+      "start": 18.639601861,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 33.58,
+      "start": 18.952782123,
+      "duration": 0.422222222,
+      "midi_note": 56,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 33.592,
+      "start": 18.959344595,
+      "duration": 0.422222222,
+      "midi_note": 61,
+      "velocity": 35
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 8,
+      "global_beat": 33.58,
+      "start": 18.95954336,
+      "duration": 0.277777778,
+      "midi_note": 71,
+      "velocity": 45
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 33.604,
+      "start": 18.973176297,
+      "duration": 0.422222222,
+      "midi_note": 64,
+      "velocity": 33
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 34.0,
+      "start": 19.182715363,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 8,
+      "global_beat": 34.0,
+      "start": 19.186878356,
+      "duration": 1.055555556,
+      "midi_note": 52,
+      "velocity": 48
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 8,
+      "global_beat": 34.58,
+      "start": 19.510748466,
+      "duration": 0.333333333,
+      "midi_note": 73,
+      "velocity": 43
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 35.0,
+      "start": 19.739063519,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 35.0,
+      "start": 19.742554742,
+      "duration": 0.388888889,
+      "midi_note": 56,
+      "velocity": 37
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 35.0,
+      "start": 19.743367111,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 8,
+      "global_beat": 35.0,
+      "start": 19.745188292,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 35.012,
+      "start": 19.752533799,
+      "duration": 0.388888889,
+      "midi_note": 61,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 8,
+      "global_beat": 35.024,
+      "start": 19.754948638,
+      "duration": 0.388888889,
+      "midi_note": 64,
+      "velocity": 33
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 9,
+      "global_beat": 36.0,
+      "start": 20.297177612,
+      "duration": 1.083333333,
+      "midi_note": 42,
+      "velocity": 55
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 36.0,
+      "start": 20.304751299,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 36.0,
+      "start": 20.307027857,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 9,
+      "global_beat": 36.58,
+      "start": 20.614241141,
+      "duration": 0.527777778,
+      "midi_note": 57,
+      "velocity": 42
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 9,
+      "global_beat": 36.592,
+      "start": 20.629277013,
+      "duration": 0.527777778,
+      "midi_note": 61,
+      "velocity": 40
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 9,
+      "global_beat": 36.604,
+      "start": 20.629627357,
+      "duration": 0.527777778,
+      "midi_note": 64,
+      "velocity": 38
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 37.0,
+      "start": 20.855719219,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 9,
+      "global_beat": 37.0,
+      "start": 20.856263134,
+      "duration": 0.388888889,
+      "midi_note": 76,
+      "velocity": 43
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 37.0,
+      "start": 20.862099838,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 37.0,
+      "start": 20.862770699,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 38.0,
+      "start": 21.407034901,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 9,
+      "global_beat": 38.0,
+      "start": 21.408801853,
+      "duration": 0.611111111,
+      "midi_note": 57,
+      "velocity": 38
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 9,
+      "global_beat": 38.0,
+      "start": 21.413443264,
+      "duration": 1.055555556,
+      "midi_note": 49,
+      "velocity": 49
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 9,
+      "global_beat": 38.012,
+      "start": 21.417284271,
+      "duration": 0.611111111,
+      "midi_note": 61,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 9,
+      "global_beat": 38.024,
+      "start": 21.418747951,
+      "duration": 0.611111111,
+      "midi_note": 64,
+      "velocity": 34
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 9,
+      "global_beat": 38.58,
+      "start": 21.740060552,
+      "duration": 0.388888889,
+      "midi_note": 73,
+      "velocity": 40
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 39.0,
+      "start": 21.958899038,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 39.0,
+      "start": 21.966652646,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 9,
+      "global_beat": 39.0,
+      "start": 21.974364513,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 40.0,
+      "start": 22.517049792,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 10,
+      "global_beat": 40.0,
+      "start": 22.517521558,
+      "duration": 1.083333333,
+      "midi_note": 47,
+      "velocity": 52
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 40.0,
+      "start": 22.520626631,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 10,
+      "global_beat": 40.012,
+      "start": 22.523000593,
+      "duration": 0.638888889,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 10,
+      "global_beat": 40.0,
+      "start": 22.526673491,
+      "duration": 0.638888889,
+      "midi_note": 57,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 10,
+      "global_beat": 40.024,
+      "start": 22.535859863,
+      "duration": 0.638888889,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 41.0,
+      "start": 23.070594042,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 41.0,
+      "start": 23.083323987,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 41.0,
+      "start": 23.084626475,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 42.0,
+      "start": 23.628622453,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 10,
+      "global_beat": 42.0,
+      "start": 23.640426531,
+      "duration": 1.055555556,
+      "midi_note": 54,
+      "velocity": 46
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 10,
+      "global_beat": 42.592,
+      "start": 23.955994225,
+      "duration": 0.511111111,
+      "midi_note": 62,
+      "velocity": 34
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 10,
+      "global_beat": 42.58,
+      "start": 23.960713777,
+      "duration": 0.511111111,
+      "midi_note": 57,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 10,
+      "global_beat": 42.604,
+      "start": 23.961339005,
+      "duration": 0.511111111,
+      "midi_note": 66,
+      "velocity": 32
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 43.0,
+      "start": 24.18903493,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 43.0,
+      "start": 24.191376087,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 10,
+      "global_beat": 43.0,
+      "start": 24.194115318,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 44.0,
+      "start": 24.74460669,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 11,
+      "global_beat": 44.0,
+      "start": 24.74942738,
+      "duration": 0.488888889,
+      "midi_note": 40,
+      "velocity": 57
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 44.0,
+      "start": 24.75043376,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 44.592,
+      "start": 25.069035424,
+      "duration": 0.444444444,
+      "midi_note": 62,
+      "velocity": 41
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 44.58,
+      "start": 25.069139325,
+      "duration": 0.444444444,
+      "midi_note": 56,
+      "velocity": 43
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 11,
+      "global_beat": 44.58,
+      "start": 25.072346269,
+      "duration": 0.333333333,
+      "midi_note": 74,
+      "velocity": 44
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 44.604,
+      "start": 25.084805947,
+      "duration": 0.444444444,
+      "midi_note": 66,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 45.0,
+      "start": 25.292190568,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 45.0,
+      "start": 25.299235115,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 11,
+      "global_beat": 45.0,
+      "start": 25.300943698,
+      "duration": 0.488888889,
+      "midi_note": 47,
+      "velocity": 52
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 45.0,
+      "start": 25.307580475,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 46.0,
+      "start": 25.850241425,
+      "duration": 0.433333333,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 11,
+      "global_beat": 46.0,
+      "start": 25.850366885,
+      "duration": 0.333333333,
+      "midi_note": 73,
+      "velocity": 42
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 46.0,
+      "start": 25.850663173,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 11,
+      "global_beat": 46.0,
+      "start": 25.859783149,
+      "duration": 0.488888889,
+      "midi_note": 49,
+      "velocity": 54
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 46.012,
+      "start": 25.862193997,
+      "duration": 0.433333333,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 46.024,
+      "start": 25.86494707,
+      "duration": 0.433333333,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 47.0,
+      "start": 26.407855248,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 47.0,
+      "start": 26.409613658,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 11,
+      "global_beat": 47.0,
+      "start": 26.414915837,
+      "duration": 0.305555556,
+      "midi_note": 71,
+      "velocity": 40
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 11,
+      "global_beat": 47.0,
+      "start": 26.415032087,
+      "duration": 0.488888889,
+      "midi_note": 46,
+      "velocity": 49
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 47.0,
+      "start": 26.415445247,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 47.58,
+      "start": 26.732583152,
+      "duration": 0.166666667,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 11,
+      "global_beat": 47.58,
+      "start": 26.737816102,
+      "duration": 0.133333333,
+      "midi_note": 38,
+      "velocity": 13
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 47.592,
+      "start": 26.740487705,
+      "duration": 0.166666667,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 11,
+      "global_beat": 47.604,
+      "start": 26.753280638,
+      "duration": 0.166666667,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 12,
+      "global_beat": 48.0,
+      "start": 26.961281588,
+      "duration": 1.083333333,
+      "midi_note": 47,
+      "velocity": 53
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 48.0,
+      "start": 26.963825333,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 48.0,
+      "start": 26.965669192,
+      "duration": 0.455555556,
+      "midi_note": 57,
+      "velocity": 41
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 48.0,
+      "start": 26.972562095,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 48.012,
+      "start": 26.979196622,
+      "duration": 0.455555556,
+      "midi_note": 62,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 48.024,
+      "start": 26.986551773,
+      "duration": 0.455555556,
+      "midi_note": 66,
+      "velocity": 37
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 49.0,
+      "start": 27.514803328,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 49.0,
+      "start": 27.518742171,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 49.0,
+      "start": 27.525390609,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 49.58,
+      "start": 27.839015912,
+      "duration": 0.422222222,
+      "midi_note": 57,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 49.592,
+      "start": 27.847546663,
+      "duration": 0.422222222,
+      "midi_note": 62,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 49.604,
+      "start": 27.855646593,
+      "duration": 0.422222222,
+      "midi_note": 66,
+      "velocity": 33
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 12,
+      "global_beat": 50.0,
+      "start": 28.083369695,
+      "duration": 1.055555556,
+      "midi_note": 54,
+      "velocity": 48
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 50.0,
+      "start": 28.084613259,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 51.0,
+      "start": 28.632438448,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 51.0,
+      "start": 28.633835682,
+      "duration": 0.388888889,
+      "midi_note": 57,
+      "velocity": 37
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 51.0,
+      "start": 28.635358146,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 12,
+      "global_beat": 51.0,
+      "start": 28.640549744,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 51.012,
+      "start": 28.641325892,
+      "duration": 0.388888889,
+      "midi_note": 62,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 12,
+      "global_beat": 51.024,
+      "start": 28.642495988,
+      "duration": 0.388888889,
+      "midi_note": 66,
+      "velocity": 33
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 52.0,
+      "start": 29.182874637,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 52.0,
+      "start": 29.183114019,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 13,
+      "global_beat": 52.0,
+      "start": 29.189904813,
+      "duration": 1.083333333,
+      "midi_note": 40,
+      "velocity": 55
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 13,
+      "global_beat": 52.58,
+      "start": 29.513215678,
+      "duration": 0.527777778,
+      "midi_note": 56,
+      "velocity": 42
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 13,
+      "global_beat": 52.604,
+      "start": 29.516908868,
+      "duration": 0.527777778,
+      "midi_note": 62,
+      "velocity": 38
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 13,
+      "global_beat": 52.592,
+      "start": 29.523253045,
+      "duration": 0.527777778,
+      "midi_note": 61,
+      "velocity": 40
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 13,
+      "global_beat": 52.616,
+      "start": 29.527617509,
+      "duration": 0.527777778,
+      "midi_note": 66,
+      "velocity": 36
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 13,
+      "global_beat": 53.0,
+      "start": 29.738448364,
+      "duration": 0.305555556,
+      "midi_note": 71,
+      "velocity": 43
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 53.0,
+      "start": 29.749095662,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 53.0,
+      "start": 29.751286872,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 53.0,
+      "start": 29.751986264,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 13,
+      "global_beat": 54.0,
+      "start": 30.292963013,
+      "duration": 1.055555556,
+      "midi_note": 47,
+      "velocity": 49
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 54.0,
+      "start": 30.297081536,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 13,
+      "global_beat": 54.0,
+      "start": 30.302242011,
+      "duration": 0.611111111,
+      "midi_note": 56,
+      "velocity": 38
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 13,
+      "global_beat": 54.012,
+      "start": 30.3080806,
+      "duration": 0.611111111,
+      "midi_note": 61,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 13,
+      "global_beat": 54.036,
+      "start": 30.315088248,
+      "duration": 0.611111111,
+      "midi_note": 66,
+      "velocity": 32
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 13,
+      "global_beat": 54.024,
+      "start": 30.317281865,
+      "duration": 0.611111111,
+      "midi_note": 62,
+      "velocity": 34
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 13,
+      "global_beat": 54.58,
+      "start": 30.620340628,
+      "duration": 0.305555556,
+      "midi_note": 69,
+      "velocity": 40
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 55.0,
+      "start": 30.85321741,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 55.0,
+      "start": 30.855367026,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 13,
+      "global_beat": 55.0,
+      "start": 30.861813416,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 56.0,
+      "start": 31.410088205,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 14,
+      "global_beat": 56.012,
+      "start": 31.410675583,
+      "duration": 0.638888889,
+      "midi_note": 61,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 14,
+      "global_beat": 56.0,
+      "start": 31.415836885,
+      "duration": 0.638888889,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 14,
+      "global_beat": 56.0,
+      "start": 31.41784879,
+      "duration": 0.488888889,
+      "midi_note": 45,
+      "velocity": 52
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 56.0,
+      "start": 31.417940372,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 14,
+      "global_beat": 56.024,
+      "start": 31.426472736,
+      "duration": 0.638888889,
+      "midi_note": 64,
+      "velocity": 35
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 14,
+      "global_beat": 56.58,
+      "start": 31.733443555,
+      "duration": 0.388888889,
+      "midi_note": 73,
+      "velocity": 42
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 57.0,
+      "start": 31.967072669,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 57.0,
+      "start": 31.967223549,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 57.0,
+      "start": 31.969414358,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 14,
+      "global_beat": 57.0,
+      "start": 31.974019469,
+      "duration": 0.488888889,
+      "midi_note": 52,
+      "velocity": 47
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 58.0,
+      "start": 32.517336038,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 14,
+      "global_beat": 58.0,
+      "start": 32.523777853,
+      "duration": 0.694444444,
+      "midi_note": 69,
+      "velocity": 40
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 14,
+      "global_beat": 58.0,
+      "start": 32.529783319,
+      "duration": 0.488888889,
+      "midi_note": 54,
+      "velocity": 49
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 14,
+      "global_beat": 58.58,
+      "start": 32.841838792,
+      "duration": 0.511111111,
+      "midi_note": 56,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 14,
+      "global_beat": 58.592,
+      "start": 32.850461781,
+      "duration": 0.511111111,
+      "midi_note": 61,
+      "velocity": 34
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 14,
+      "global_beat": 58.604,
+      "start": 32.864094862,
+      "duration": 0.511111111,
+      "midi_note": 64,
+      "velocity": 32
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 59.0,
+      "start": 33.076000957,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 59.0,
+      "start": 33.080835492,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 14,
+      "global_beat": 59.0,
+      "start": 33.083840287,
+      "duration": 0.488888889,
+      "midi_note": 44,
+      "velocity": 45
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 14,
+      "global_beat": 59.0,
+      "start": 33.08568663,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 60.0,
+      "start": 33.6274678,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 15,
+      "global_beat": 60.0,
+      "start": 33.632213135,
+      "duration": 1.083333333,
+      "midi_note": 45,
+      "velocity": 57
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 60.0,
+      "start": 33.640252309,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 60.58,
+      "start": 33.951652461,
+      "duration": 0.444444444,
+      "midi_note": 57,
+      "velocity": 43
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 60.592,
+      "start": 33.956665836,
+      "duration": 0.444444444,
+      "midi_note": 61,
+      "velocity": 41
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 60.604,
+      "start": 33.965074735,
+      "duration": 0.444444444,
+      "midi_note": 64,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 60.616,
+      "start": 33.97995092,
+      "duration": 0.444444444,
+      "midi_note": 66,
+      "velocity": 37
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 61.0,
+      "start": 34.181072837,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 61.0,
+      "start": 34.188489559,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 61.0,
+      "start": 34.195700061,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 62.012,
+      "start": 34.743415579,
+      "duration": 0.433333333,
+      "midi_note": 61,
+      "velocity": 37
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 15,
+      "global_beat": 62.0,
+      "start": 34.746270219,
+      "duration": 1.055555556,
+      "midi_note": 52,
+      "velocity": 50
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 62.0,
+      "start": 34.747558013,
+      "duration": 0.433333333,
+      "midi_note": 57,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 62.0,
+      "start": 34.748382888,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 62.024,
+      "start": 34.752296646,
+      "duration": 0.433333333,
+      "midi_note": 64,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 62.036,
+      "start": 34.765063221,
+      "duration": 0.433333333,
+      "midi_note": 66,
+      "velocity": 33
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 63.0,
+      "start": 35.29517012,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 63.0,
+      "start": 35.299881487,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 63.0,
+      "start": 35.302884222,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 63.592,
+      "start": 35.622324986,
+      "duration": 0.166666667,
+      "midi_note": 61,
+      "velocity": 37
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 15,
+      "global_beat": 63.58,
+      "start": 35.623176281,
+      "duration": 0.133333333,
+      "midi_note": 38,
+      "velocity": 13
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 63.58,
+      "start": 35.623833117,
+      "duration": 0.166666667,
+      "midi_note": 57,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 63.604,
+      "start": 35.640225488,
+      "duration": 0.166666667,
+      "midi_note": 64,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 15,
+      "global_beat": 63.616,
+      "start": 35.649440814,
+      "duration": 0.166666667,
+      "midi_note": 66,
+      "velocity": 33
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 64.0,
+      "start": 35.848078819,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 64.0,
+      "start": 35.849328487,
+      "duration": 0.455555556,
+      "midi_note": 59,
+      "velocity": 41
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 16,
+      "global_beat": 64.0,
+      "start": 35.851321575,
+      "duration": 1.083333333,
+      "midi_note": 45,
+      "velocity": 53
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 64.0,
+      "start": 35.857533781,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 64.012,
+      "start": 35.868116303,
+      "duration": 0.455555556,
+      "midi_note": 61,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 64.036,
+      "start": 35.873411069,
+      "duration": 0.455555556,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 64.024,
+      "start": 35.87581954,
+      "duration": 0.455555556,
+      "midi_note": 64,
+      "velocity": 37
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 16,
+      "global_beat": 64.58,
+      "start": 36.172088366,
+      "duration": 0.333333333,
+      "midi_note": 69,
+      "velocity": 44
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 65.0,
+      "start": 36.411820207,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 65.0,
+      "start": 36.415000931,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 65.0,
+      "start": 36.416130475,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 65.58,
+      "start": 36.737176149,
+      "duration": 0.422222222,
+      "midi_note": 59,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 65.592,
+      "start": 36.738778843,
+      "duration": 0.422222222,
+      "midi_note": 61,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 65.604,
+      "start": 36.740042057,
+      "duration": 0.422222222,
+      "midi_note": 64,
+      "velocity": 33
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 65.616,
+      "start": 36.748761016,
+      "duration": 0.422222222,
+      "midi_note": 66,
+      "velocity": 31
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 66.0,
+      "start": 36.959904225,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 16,
+      "global_beat": 66.0,
+      "start": 36.970035061,
+      "duration": 0.416666667,
+      "midi_note": 73,
+      "velocity": 42
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 16,
+      "global_beat": 66.0,
+      "start": 36.97181663,
+      "duration": 1.055555556,
+      "midi_note": 52,
+      "velocity": 48
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 67.0,
+      "start": 37.515452374,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 67.0,
+      "start": 37.520745184,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 16,
+      "global_beat": 67.0,
+      "start": 37.521783277,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 67.012,
+      "start": 37.525830388,
+      "duration": 0.388888889,
+      "midi_note": 61,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 67.0,
+      "start": 37.529589589,
+      "duration": 0.388888889,
+      "midi_note": 59,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 67.024,
+      "start": 37.532520981,
+      "duration": 0.388888889,
+      "midi_note": 64,
+      "velocity": 33
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 16,
+      "global_beat": 67.036,
+      "start": 37.541884172,
+      "duration": 0.388888889,
+      "midi_note": 66,
+      "velocity": 31
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 68.0,
+      "start": 38.075892828,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 17,
+      "global_beat": 68.0,
+      "start": 38.077665981,
+      "duration": 1.083333333,
+      "midi_note": 42,
+      "velocity": 55
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 68.0,
+      "start": 38.080295187,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 17,
+      "global_beat": 68.58,
+      "start": 38.403795707,
+      "duration": 0.527777778,
+      "midi_note": 57,
+      "velocity": 42
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 17,
+      "global_beat": 68.604,
+      "start": 38.408270337,
+      "duration": 0.527777778,
+      "midi_note": 64,
+      "velocity": 38
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 17,
+      "global_beat": 68.592,
+      "start": 38.411180503,
+      "duration": 0.527777778,
+      "midi_note": 61,
+      "velocity": 40
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 69.0,
+      "start": 38.629922869,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 69.0,
+      "start": 38.632129691,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 69.0,
+      "start": 38.63664801,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 70.0,
+      "start": 39.18107311,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 17,
+      "global_beat": 70.0,
+      "start": 39.184102855,
+      "duration": 1.055555556,
+      "midi_note": 49,
+      "velocity": 49
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 17,
+      "global_beat": 70.0,
+      "start": 39.184714119,
+      "duration": 0.611111111,
+      "midi_note": 57,
+      "velocity": 38
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 17,
+      "global_beat": 70.012,
+      "start": 39.203023748,
+      "duration": 0.611111111,
+      "midi_note": 61,
+      "velocity": 36
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 17,
+      "global_beat": 70.024,
+      "start": 39.207161572,
+      "duration": 0.611111111,
+      "midi_note": 64,
+      "velocity": 34
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 71.0,
+      "start": 39.737840385,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 71.0,
+      "start": 39.751164036,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 17,
+      "global_beat": 71.0,
+      "start": 39.751896867,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 18,
+      "global_beat": 72.0,
+      "start": 40.295822294,
+      "duration": 0.638888889,
+      "midi_note": 57,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 18,
+      "global_beat": 72.012,
+      "start": 40.300503791,
+      "duration": 0.638888889,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 72.0,
+      "start": 40.301325984,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 72.0,
+      "start": 40.303646359,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 18,
+      "global_beat": 72.0,
+      "start": 40.305266702,
+      "duration": 1.083333333,
+      "midi_note": 47,
+      "velocity": 52
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 18,
+      "global_beat": 72.024,
+      "start": 40.308426921,
+      "duration": 0.638888889,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 73.0,
+      "start": 40.849926371,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 18,
+      "global_beat": 73.0,
+      "start": 40.851360378,
+      "duration": 0.333333333,
+      "midi_note": 74,
+      "velocity": 43
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 73.0,
+      "start": 40.861907736,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 73.0,
+      "start": 40.862504693,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 74.0,
+      "start": 41.411546281,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 18,
+      "global_beat": 74.0,
+      "start": 41.41738768,
+      "duration": 1.055555556,
+      "midi_note": 54,
+      "velocity": 46
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 18,
+      "global_beat": 74.58,
+      "start": 41.737402624,
+      "duration": 0.511111111,
+      "midi_note": 57,
+      "velocity": 36
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 18,
+      "global_beat": 74.58,
+      "start": 41.739177723,
+      "duration": 0.333333333,
+      "midi_note": 73,
+      "velocity": 41
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 18,
+      "global_beat": 74.604,
+      "start": 41.741306629,
+      "duration": 0.511111111,
+      "midi_note": 66,
+      "velocity": 32
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 18,
+      "global_beat": 74.592,
+      "start": 41.7419063,
+      "duration": 0.511111111,
+      "midi_note": 62,
+      "velocity": 34
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 75.0,
+      "start": 41.958951478,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 75.0,
+      "start": 41.960629716,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 18,
+      "global_beat": 75.0,
+      "start": 41.961789825,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 76.0,
+      "start": 42.515253253,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 76.0,
+      "start": 42.524235756,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 19,
+      "global_beat": 76.0,
+      "start": 42.52721818,
+      "duration": 0.488888889,
+      "midi_note": 40,
+      "velocity": 57
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 76.58,
+      "start": 42.842078591,
+      "duration": 0.444444444,
+      "midi_note": 56,
+      "velocity": 43
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 76.592,
+      "start": 42.856093885,
+      "duration": 0.444444444,
+      "midi_note": 62,
+      "velocity": 41
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 76.604,
+      "start": 42.86511045,
+      "duration": 0.444444444,
+      "midi_note": 66,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 77.0,
+      "start": 43.0718,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 77.0,
+      "start": 43.077060309,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 77.0,
+      "start": 43.077500607,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 19,
+      "global_beat": 77.0,
+      "start": 43.07958623,
+      "duration": 0.488888889,
+      "midi_note": 47,
+      "velocity": 52
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 78.0,
+      "start": 43.626962222,
+      "duration": 0.433333333,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 78.0,
+      "start": 43.634804608,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 78.012,
+      "start": 43.637379747,
+      "duration": 0.433333333,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 19,
+      "global_beat": 78.0,
+      "start": 43.638449442,
+      "duration": 0.488888889,
+      "midi_note": 49,
+      "velocity": 54
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 78.024,
+      "start": 43.64972375,
+      "duration": 0.433333333,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 79.0,
+      "start": 44.182426059,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 79.0,
+      "start": 44.188975847,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 79.0,
+      "start": 44.189027806,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 19,
+      "global_beat": 79.0,
+      "start": 44.193771279,
+      "duration": 0.488888889,
+      "midi_note": 44,
+      "velocity": 49
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 19,
+      "global_beat": 79.58,
+      "start": 44.505464365,
+      "duration": 0.133333333,
+      "midi_note": 38,
+      "velocity": 13
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 79.592,
+      "start": 44.515850182,
+      "duration": 0.166666667,
+      "midi_note": 62,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 79.58,
+      "start": 44.516817532,
+      "duration": 0.166666667,
+      "midi_note": 56,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 19,
+      "global_beat": 79.604,
+      "start": 44.521245022,
+      "duration": 0.166666667,
+      "midi_note": 66,
+      "velocity": 35
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 20,
+      "global_beat": 80.0,
+      "start": 44.738804605,
+      "duration": 0.488888889,
+      "midi_note": 45,
+      "velocity": 53
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 80.0,
+      "start": 44.738987601,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 80.0,
+      "start": 44.744249232,
+      "duration": 0.455555556,
+      "midi_note": 56,
+      "velocity": 41
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 80.0,
+      "start": 44.749429277,
+      "duration": 0.305555556,
+      "midi_note": 36,
+      "velocity": 18
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 80.012,
+      "start": 44.750039806,
+      "duration": 0.455555556,
+      "midi_note": 61,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 80.024,
+      "start": 44.765139283,
+      "duration": 0.455555556,
+      "midi_note": 64,
+      "velocity": 37
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 20,
+      "global_beat": 80.58,
+      "start": 45.066340924,
+      "duration": 0.333333333,
+      "midi_note": 71,
+      "velocity": 42
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 81.0,
+      "start": 45.29270705,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 81.0,
+      "start": 45.294434451,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 21
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 81.0,
+      "start": 45.302850819,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 20,
+      "global_beat": 81.0,
+      "start": 45.307121172,
+      "duration": 0.488888889,
+      "midi_note": 52,
+      "velocity": 48
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 81.58,
+      "start": 45.617902269,
+      "duration": 0.422222222,
+      "midi_note": 56,
+      "velocity": 37
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 81.592,
+      "start": 45.621987795,
+      "duration": 0.422222222,
+      "midi_note": 61,
+      "velocity": 35
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 81.604,
+      "start": 45.639806309,
+      "duration": 0.422222222,
+      "midi_note": 64,
+      "velocity": 33
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 82.0,
+      "start": 45.849892129,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 17
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 20,
+      "global_beat": 82.0,
+      "start": 45.858725472,
+      "duration": 0.488888889,
+      "midi_note": 54,
+      "velocity": 50
+    },
+    {
+      "track": "melodie",
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif",
+      "bar_index": 20,
+      "global_beat": 82.0,
+      "start": 45.861935215,
+      "duration": 0.722222222,
+      "midi_note": 69,
+      "velocity": 40
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 83.0,
+      "start": 46.406056353,
+      "duration": 0.305555556,
+      "midi_note": 38,
+      "velocity": 23
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 83.012,
+      "start": 46.411627962,
+      "duration": 0.388888889,
+      "midi_note": 61,
+      "velocity": 35
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 83.0,
+      "start": 46.413169691,
+      "duration": 0.222222222,
+      "midi_note": 44,
+      "velocity": 12
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 83.0,
+      "start": 46.416710634,
+      "duration": 0.388888889,
+      "midi_note": 56,
+      "velocity": 37
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 20,
+      "global_beat": 83.0,
+      "start": 46.417102778,
+      "duration": 0.488888889,
+      "midi_note": 44,
+      "velocity": 47
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 20,
+      "global_beat": 83.0,
+      "start": 46.417747643,
+      "duration": 0.388888889,
+      "midi_note": 51,
+      "velocity": 15
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 20,
+      "global_beat": 83.024,
+      "start": 46.42100579,
+      "duration": 0.388888889,
+      "midi_note": 64,
+      "velocity": 33
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 21,
+      "global_beat": 84.0,
+      "start": 46.966666667,
+      "duration": 1.248333333,
+      "midi_note": 57,
+      "velocity": 40
+    },
+    {
+      "track": "basse",
+      "instrument": "FluidR3 acoustic double bass",
+      "bar_index": 21,
+      "global_beat": 84.0,
+      "start": 46.966666667,
+      "duration": 1.248333333,
+      "midi_note": 45,
+      "velocity": 54
+    },
+    {
+      "track": "balais",
+      "instrument": "FluidR3 brush kit",
+      "bar_index": 21,
+      "global_beat": 84.0,
+      "start": 46.971100979,
+      "duration": 0.344444444,
+      "midi_note": 51,
+      "velocity": 12
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 21,
+      "global_beat": 84.01,
+      "start": 46.972222222,
+      "duration": 1.242777778,
+      "midi_note": 61,
+      "velocity": 39
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 21,
+      "global_beat": 84.02,
+      "start": 46.977777778,
+      "duration": 1.237222222,
+      "midi_note": 64,
+      "velocity": 38
+    },
+    {
+      "track": "accords",
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp",
+      "bar_index": 21,
+      "global_beat": 84.03,
+      "start": 46.983333333,
+      "duration": 1.231666667,
+      "midi_note": 66,
+      "velocity": 37
+    }
+  ],
+  "instruments": {
+    "basse": {
+      "program": 32,
+      "bank": 0,
+      "channel": 0,
+      "gain": 0.55,
+      "pan": 47,
+      "instrument": "FluidR3 acoustic double bass"
+    },
+    "accords": {
+      "program": 0,
+      "bank": 0,
+      "channel": 1,
+      "gain": 1.8,
+      "pan": 60,
+      "instrument": "FluidR3 Yamaha grand piano — left-hand comp"
+    },
+    "melodie": {
+      "program": 0,
+      "bank": 0,
+      "channel": 2,
+      "gain": 1.0,
+      "pan": 68,
+      "instrument": "FluidR3 Yamaha grand piano — right-hand motif"
+    },
+    "balais": {
+      "program": 40,
+      "bank": 128,
+      "channel": 9,
+      "gain": 0.65,
+      "pan": 77,
+      "instrument": "FluidR3 brush kit"
+    }
+  },
+  "continuous_global_clock": true,
+  "visual_cut_restarts": 0,
+  "score_inputs": [
+    "duration",
+    "bpm"
+  ],
+  "frame_or_action_dependent_notes": false,
+  "swing_offbeat_ratio": 0.58,
+  "humanized_onsets_max_seconds": 0.008,
+  "humanization_seed": 230803,
+  "opening": "Sustained A6/9 and A bass; no regular percussion pattern until2.522s, under existing A5/C#6/B5 whistle",
+  "composition_character": "two-feel bass with six walking turnaround bars; sparse alternating comp patterns; separated piano phrases",
+  "one_global_music_calibration": 3.054171684754103,
+  "fixed_music_bus_compression": {
+    "ratio": 2.0,
+    "threshold_dbfs": -36.0,
+    "knee_db": 6.0,
+    "detector": "stereo-linked RMS25ms",
+    "attack_seconds": 0.015,
+    "release_seconds": 0.24,
+    "control_step_seconds": 0.005,
+    "gain_reduction_min_db": -5.666895234714612,
+    "scene_dependent": false,
+    "dynamic_normalization": false,
+    "fixed_makeup_linear": 1.492427472315777
+  },
+  "continuous_brush_texture": {
+    "source": "FluidR3 brush38 atvelocity72, overlapped windowed grains",
+    "seed": 230871,
+    "relative_rms_db_to_unducked_music": -9.0,
+    "intro_fade_seconds": [
+      1.85,
+      2.2
+    ]
+  },
+  "target_unducked_music_body_rms_dbfs": -31.5,
+  "duck_db": -1.5,
+  "duck_intervals": [
+    [
+      7.75,
+      10.3
+    ],
+    [
+      16.5,
+      18.6
+    ],
+    [
+      23.0,
+      24.5
+    ],
+    [
+      29.0,
+      30.35
+    ],
+    [
+      34.0,
+      35.35
+    ]
+  ],
+  "duck_attack_seconds": 0.6,
+  "duck_release_seconds": 0.8,
+  "duck_gain_min": 0.8413951416451951,
+  "duck_gain_max": 1.0,
+  "same_pitch_gate_overlaps": 0,
+  "chorus": false,
+  "light_room_reverb": {
+    "room_size": 0.2,
+    "damping": 0.55,
+    "width": 0.65,
+    "level": 0.1
+  },
+  "fluidsynth_version": "2.4.4",
+  "soundfont": {
+    "file": "assets/FluidR3_MOU_trio.sf2",
+    "sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+    "license": "MIT, selected FluidR3 samples; see bundled notice/provenance"
+  },
+  "limits": "New composed/sample-rendered proposal. No audio listening or perceptual-comfort claim.",
+  "stems": [
+    {
+      "track": "basse",
+      "file": "jazz_basse_v23.wav",
+      "sha256": "20eacff977ba452076c93856b9bb2b8d1fc1355daca363b681007bc1f8a802e9",
+      "actual_metrics": {
+        "rms_dbfs": -38.550430879762004,
+        "peak_dbfs": -20.571891593655494,
+        "crest_db": 17.97853928610651,
+        "energy_fraction_2_6khz": 0.00014986661462290053
+      }
+    },
+    {
+      "track": "accords",
+      "file": "jazz_accords_v23.wav",
+      "sha256": "9ca672d5fedc7480546f3354db4e1b0764eaf464ae5c255e099887d057f09c5a",
+      "actual_metrics": {
+        "rms_dbfs": -34.26735713869637,
+        "peak_dbfs": -15.938964921848873,
+        "crest_db": 18.328392216847494,
+        "energy_fraction_2_6khz": 0.0825022587662848
+      }
+    },
+    {
+      "track": "melodie",
+      "file": "jazz_melodie_v23.wav",
+      "sha256": "e61613b18c9d06ebb567fa62462669865d7ca52ececfa65ddff20a9d4eaedbf0",
+      "actual_metrics": {
+        "rms_dbfs": -44.708947081177854,
+        "peak_dbfs": -22.256893860796065,
+        "crest_db": 22.452053220381785,
+        "energy_fraction_2_6khz": 0.09374661041946515
+      }
+    },
+    {
+      "track": "balais",
+      "file": "jazz_balais_v23.wav",
+      "sha256": "2d3c577cedb266d3027a0c6157e9429acb7c862a845bad22e211da2e660a39e3",
+      "actual_metrics": {
+        "rms_dbfs": -40.63401706502973,
+        "peak_dbfs": -23.09334490172876,
+        "crest_db": 17.540672163300975,
+        "energy_fraction_2_6khz": 0.2534138157428737
+      }
+    }
+  ],
+  "unattenuated_file": "jazz_sans_baisse_v23.wav",
+  "unattenuated_sha256": "e848055b9537637da6946b568e42dce397c2d2ec2f29bf8ba619309f8479c8b1",
+  "music_source_sha256": "52cfda878f65995d894af2a3e83749eed10573a747524d3e2ee54b695cbf2141"
+}

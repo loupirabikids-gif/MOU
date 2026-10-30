@@ -2,22 +2,30 @@
 
 **[Bibliothèque d’expressions de MOU](bibliotheque/expressions/v1/)** — 36 poses, 12 familles, galerie SVG/PNG et six transitions de visage.
 
-**Encore une feuille — Just cooking. Mostly washing. — V22, 48,25 secondes.**
+**Encore une feuille — Just cooking. Mostly washing. — V23, 48,25 secondes.**
 
 MOU cuisine, mais chaque contact relance son lavage et son gaspillage de papier.
 Carotte, tomate, pincée de sel… le rouleau finit vide et la poubelle déborde.
 Il découvre finalement qu’il peut sécher sa main sur son tablier.
 
-La V22 conserve le dessin, les deux bras/moufles, la toque et le tablier validés.
-Elle reprend la réalisation : regards avant les gestes, cadrages fixes utiles,
-détail de l’essuyage sur le tissu, insert des déchets puis réaction tenue.
-Le mix allège les superpositions et les attaques ; le jazz reste continu.
+La V23 intègre la bibliothèque d’expressions : plaisir de cuisiner, doute devant
+la main, contrariété qui grandit, surprise devant le dernier papier, puis regard
+aux déchets et au public. Le dessin, les deux bras/moufles, la toque, le tablier
+et les gestes de la V22 sont conservés. Les plans exposent les objets regardés
+et le contact de la main avec le tissu avant la réaction finale tenue.
 
-- **[Voir le film avec son — 1080 × 1920](episodes/03/cuisine_v22/MOU_Encore_une_feuille.mp4?raw=true)**
-- **[Voir la nouvelle fin — test de 8 secondes](episodes/03/cuisine_v22/MOU_test_mise_en_scene.mp4?raw=true)**
-- [Version muette](episodes/03/cuisine_v22/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v22/MOU_Encore_une_feuille_sources.zip?raw=true) · [Contrôles et limites](episodes/03/cuisine_v22/CONTROLE.txt)
-- [Découpage et critiques](episodes/03/developpement/etude_professionnelle/)
+Le nouveau jazz original associe piano acoustique, contrebasse et balais sur
+une seule grille à 108 BPM. Il laisse de l’espace au sifflement initial et
+continue pendant les lavages, avec une légère baisse progressive du fond.
+
+[![Expressions extraites du vrai film V23](episodes/03/cuisine_v23/controle/planche_jeu_final.png)](episodes/03/cuisine_v23/MOU_Encore_une_feuille.mp4?raw=true)
+
+- **[Film avec son — 1080 × 1920](episodes/03/cuisine_v23/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Jazz seul — extrait de 15 secondes](episodes/03/cuisine_v23/audio/jazz_seul_15s.mp3?raw=true)
+- [Fin — 8 secondes](episodes/03/cuisine_v23/MOU_test_mise_en_scene.mp4?raw=true)
+- [Version muette](episodes/03/cuisine_v23/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v23/MOU_Encore_une_feuille_sources.zip?raw=true) · [Contrôles et limites](episodes/03/cuisine_v23/CONTROLE.txt)
+- [Direction et critiques V23](episodes/03/cuisine_v23/)
 - [Recherche : outils libres réellement testés et techniques retenues](recherche/2026-10-29_professionnel/README.md)
 - [Repérage animation adulte : chaînes, pages et dépôts GitHub](recherche/2026-10-29_animation_adulte/README.md)
 - [Accès YouTube après activation du 30 octobre et recherche documentaire](recherche/2026-10-30_acces_youtube/README.md)
@@ -30,7 +38,7 @@ L’accès officiel à Oggy est bloqué : aucun visionnage n’est revendiqué.
 Le modèle ne peut pas écouter le mix ; les mesures ne certifient pas le confort
 sur téléphone. Les critiques portent sur les images et les séquences décodées.
 
-[Historique V21 rejeté](episodes/03/cuisine_v21/) · [V20](episodes/03/cuisine_v20/) ·
+[Version précédente V22](episodes/03/cuisine_v22/) · [V21 rejetée](episodes/03/cuisine_v21/) · [V20](episodes/03/cuisine_v20/) ·
 [V19](episodes/03/cuisine_v19/) · [Versions de 35 secondes](episodes/03/cuisine_v6/).
 Les épisodes abandonnés restent conservés :
 [Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
@@ -43,14 +51,14 @@ Les rôles sont appliqués par mandats distincts dans la session ; la présence
 des fichiers ne prouve pas leur activation native dans tous les clients.
 
 - [Archives : scénario et découpage du Torchon](episodes/02/developpement/)
-- [Critique de la fin avant fabrication](episodes/02/developpement/critique_scenario_fin_v3.md) et [critique du montage rendu](episodes/02/controle/critique_montage.md)
+- [Critique avant fabrication](episodes/02/developpement/critique_scenario.md) et [critique du montage rendu](episodes/02/controle/critique_montage.md)
 - [Critiques initiales conservées](episodes/01_reprise/controle/critique.md)
 - [Archives : corrections retenues](episodes/02/developpement/corrections.md)
 - [Veille datée et limites](editorial/veille_2026-10-27.md) · [Suivi après diffusion](publication/README.md)
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
 NumPy, FFmpeg et FluidSynth. Partition originale, banque d’instruments libre
-[TimGM6mb créditée](episodes/03/cuisine_v22/assets/README.md), bruitages originaux ; trois notes sifflées
+[FluidR3 MIT créditée](episodes/03/cuisine_v23/assets/FluidR3_README.md), bruitages originaux ; trois notes sifflées
 uniquement au départ, aucun dialogue ni musique téléchargée.
 La [recherche de réalisation actuelle](recherche/2026-10-29_professionnel/README.md)
 conserve les essais et les preuves d’accès. Aucune statistique, écoute ou

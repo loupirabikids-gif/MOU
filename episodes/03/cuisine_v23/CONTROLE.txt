@@ -1,0 +1,74 @@
+MOU — Encore une feuille — V23
+Contrôles du 30 octobre 2026 — Africa/Casablanca
+
+LIVRAISON
+Film avec son et version muette : 1080 × 1920, H.264 yuv420p,
+24 images/s, 1 158 images, 48,25 secondes. Audio AAC stéréo, 48 kHz.
+Animatique complète : 540 × 960, 12 images/s, 579 images.
+Extrait de fin : 40,25–48,25 s, huit secondes et 192 images.
+
+JEU ET MODÈLE
+Les visages proviennent des copies gelées de la bibliothèque V1.
+Treize poses sont employées dans le récit : plaisir de cuisiner, inspection
+de la main, retours des rituels, dernier papier, solution du tablier et regret.
+Les regards rejoignent leurs cibles avant les réactions décisives.
+La petite feuille apparaît avant la surprise ; la fin regarde les déchets
+puis le public. La dernière pose reste identique pendant seize images.
+
+Comparaison indépendante avec V22 : 1 158 états physiques et 215 images SVG
+de lavabo identiques. Rig, fonctions natives des bras, moufles, costume,
+accessoires et six plans de la fin conservés. Regards et compensation de
+rotation recalculés pour les 1 158 images ; 48 rasters de masques vérifiés.
+Contact moufle/tablier : vingt images ; trace humide encore tenue huit images.
+
+REVUE DU MONTAGE
+La critique indépendante a examiné les images réellement décodées du MP4
+d'animatique : série dense de la première inspection, du dernier papier et
+du regard final, puis repères du récit et détails du tablier. Aucun nouveau
+défaut matériel demandant une reprise n'a été retenu dans ce périmètre.
+Voir controle/critique_montage_v23.md et developpement/direction_v23.md.
+Il ne s'agit pas d'un test public ou d'une lecture continue à vitesse réelle.
+
+JAZZ ET BRUITAGES
+Partition originale de trio : piano acoustique, contrebasse, balais ;
+la majeur, 108 BPM, grille globale conservant les trois notes sifflées initiales.
+Une seule partition continue, sans redémarrage aux coupes. Baisse maximale
+de 1,5 dB sous les lavages, progressive à l'entrée et à la sortie.
+Banque FluidR3 MIT incluse, sous-ensemble de 4 048 186 octets ; notices,
+provenance, partition JSON/MIDI et pistes séparées fournies.
+Quarante événements non musicaux conservent leurs PCM traités et leurs instants
+V22. Le gain final est constant pour tout le film : +3,50 dB.
+Le contrôle indépendant reconstruit le PCM bit pour bit depuis les événements.
+Sonie intégrée mesurée : −25,00 LUFS ; crête vraie : −9,94 dBTP.
+Aucun échantillon écrêté ; audio AAC corrélé au WAV courant à 0,9980.
+L'extrait jazz seul de quinze secondes garde le gain du fond musical du film.
+
+CONTRÔLE DU FINAL ET REPRODUCTION
+Décodage complet des deux MP4 sans erreur, durée et nombre d'images contrôlés.
+Le flux vidéo compressé est identique entre versions sonore et muette.
+112 images du vrai MP4 ont été comparées à des rendus CairoSVG frais,
+hors cache, avec contrôles des zones visibles de contact, visage et accessoires.
+Les sources gelées sont restées identiques pendant le rendu et les contrôles.
+Résultats : controle/audit_final.json, audit_revision_v23.json, audit_son.json.
+
+Le ZIP contient les sources, sons, banque libre, polices, critiques et manifeste
+SHA-256. Le contrôle séparé controle/verify_archive_v23.py vérifie le ZIP et
+reproduit trois images et le mix dans une extraction neuve, sans réseau ni
+cache. Son résultat audit_archive.json reste à côté du ZIP et est exclu de
+son contenu pour éviter une empreinte circulaire.
+Reproduction : sources/README.md.
+
+EMPREINTES SHA-256
+Film avec son :
+1801af8a5ef989bf0b0e57035ef835d0f9a2c8ee25056f884efb38e540fbb8cb
+Film muet :
+187fcfffeb8cf6d08605fe90bfda221ff90f0126ac28ea936b3ace4f3bea8a33
+Mix WAV :
+6094900535e2cfeb46b60e26f8a2f4b570c776e2a51e8aa5f99ddd72cf184c2b
+
+LIMITES
+Le modèle n'a pas pu écouter l'audio dans cette session. Les mesures ne
+prouvent ni le confort sonore, ni le naturel perçu du jazz, ni le succès comique.
+L'examen d'images établit des faits visuels, pas une reconnaissance universelle
+des émotions. Les exports sont livrés sur GitHub ; aucune publication sur
+réseau social ni donnée d'audience n'est revendiquée. V22 reste conservée.

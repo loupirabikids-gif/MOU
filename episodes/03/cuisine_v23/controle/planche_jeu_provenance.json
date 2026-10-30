@@ -1,0 +1,266 @@
+[
+  {
+    "frame": 84,
+    "time": 3.5,
+    "label": "Cuisine",
+    "crop_from_encoded_frame": [
+      336,
+      552,
+      751,
+      1197
+    ],
+    "expression": {
+      "phase": "plaisir_cuisine",
+      "pose_from": "joie_franc",
+      "pose_to": "joie_franc",
+      "weight": 1.0,
+      "gaze_phase": "cible_action",
+      "target_world": [
+        293.0,
+        1305.0
+      ],
+      "target_compensated_world": [
+        293.0,
+        1305.0
+      ],
+      "face_roll_deg": 0.0,
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 177,
+    "time": 7.375,
+    "label": "Inspection",
+    "crop_from_encoded_frame": [
+      45,
+      0,
+      1018,
+      1401
+    ],
+    "expression": {
+      "phase": "premiere_inspection",
+      "pose_from": "doute_franc",
+      "pose_to": "doute_franc",
+      "weight": 1.0,
+      "gaze_phase": "main_observee",
+      "target_world": [
+        474.9999999945938,
+        1164.999999995925
+      ],
+      "target_compensated_world": [
+        467.71770742025325,
+        1162.2022621720075
+      ],
+      "face_roll_deg": -2.0,
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 294,
+    "time": 12.25,
+    "label": "Main essuyée",
+    "crop_from_encoded_frame": [
+      344,
+      552,
+      759,
+      1197
+    ],
+    "expression": {
+      "phase": "premier_soulagement",
+      "pose_from": "soulagement_leger",
+      "pose_to": "soulagement_leger",
+      "weight": 1.0,
+      "gaze_phase": "cible_action",
+      "target_world": [
+        495.0,
+        1220.0
+      ],
+      "target_compensated_world": [
+        495.0,
+        1220.0
+      ],
+      "face_roll_deg": 0.0,
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 754,
+    "time": 31.416666666666668,
+    "label": "Rituel répété",
+    "crop_from_encoded_frame": [
+      344,
+      552,
+      759,
+      1197
+    ],
+    "expression": {
+      "phase": "contretemps_pese",
+      "pose_from": "contrariete_franc",
+      "pose_to": "contrariete_franc",
+      "weight": 0.0,
+      "gaze_phase": "cible_action",
+      "target_world": [
+        495.0,
+        1220.0
+      ],
+      "target_compensated_world": [
+        495.0,
+        1220.0
+      ],
+      "face_roll_deg": 0.0,
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 877,
+    "time": 36.541666666666664,
+    "label": "Petite feuille",
+    "crop_from_encoded_frame": [
+      249,
+      307,
+      808,
+      1177
+    ],
+    "expression": {
+      "phase": "dernier_papier",
+      "pose_from": "surprise_franc",
+      "pose_to": "surprise_franc",
+      "weight": 1.0,
+      "gaze_phase": "petite_feuille_visible_avant_surprise",
+      "target_world": [
+        680.0000000184803,
+        1199.9999999530537
+      ],
+      "target_compensated_world": [
+        680.0000000184803,
+        1199.9999999530537
+      ],
+      "face_roll_deg": 0.0,
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 896,
+    "time": 37.333333333333336,
+    "label": "Constat",
+    "crop_from_encoded_frame": [
+      249,
+      307,
+      808,
+      1177
+    ],
+    "expression": {
+      "phase": "dernier_papier",
+      "pose_from": "contrariete_franc",
+      "pose_to": "contrariete_franc",
+      "weight": 1.0,
+      "gaze_phase": "cible_action",
+      "target_world": [
+        517.3912007053983,
+        1190.6956004176911
+      ],
+      "target_compensated_world": [
+        517.3912007053983,
+        1190.6956004176911
+      ],
+      "face_roll_deg": 0.0,
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 1037,
+    "time": 43.208333333333336,
+    "label": "Tablier",
+    "crop_from_encoded_frame": [
+      37,
+      0,
+      1080,
+      1534
+    ],
+    "expression": {
+      "phase": "cloture_tablier",
+      "pose_from": "curiosite_franc",
+      "pose_to": "curiosite_franc",
+      "weight": 0.0,
+      "gaze_phase": "tissu",
+      "target_world": [
+        528.5,
+        1265.5
+      ],
+      "target_compensated_world": [
+        528.5,
+        1265.5
+      ],
+      "face_roll_deg": 0.0,
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  },
+  {
+    "frame": 1146,
+    "time": 47.75,
+    "label": "Dernier regard",
+    "crop_from_encoded_frame": [
+      37,
+      0,
+      1080,
+      1534
+    ],
+    "expression": {
+      "phase": "cloture_tablier",
+      "pose_from": "gene_franc",
+      "pose_to": "gene_franc",
+      "weight": 0.0,
+      "gaze_phase": "public",
+      "target_world": [
+        544.5999999999999,
+        918.1999999999999
+      ],
+      "target_compensated_world": [
+        544.5999999999999,
+        918.1999999999999
+      ],
+      "face_roll_deg": 0.0,
+      "blink_factor": 1.0,
+      "source_sha256": {
+        "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+        "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a"
+      },
+      "library_pose_count": 36
+    }
+  }
+]

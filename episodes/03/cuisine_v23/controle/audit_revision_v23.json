@@ -1,0 +1,575 @@
+{
+  "status": "passed",
+  "scope": "independent V23 geometry/expression/audio checks",
+  "limits": "No artistic, audience, continuous-viewing or listening approval is implied.",
+  "scene": {
+    "full_frames": 1158,
+    "external_v22_comparison": "passed",
+    "historical_action_frames_identical": 1158,
+    "sink_svg_frames_identical": 215,
+    "body_and_costume_preserved": true,
+    "arm_functions_identical": [
+      "controls",
+      "native_grip",
+      "world_grip",
+      "solve_arm",
+      "arm_linear_transform",
+      "_connect_left_root",
+      "soften_left_root",
+      "draw_arm"
+    ],
+    "ending_body_transform_constant": [
+      80.0,
+      380.0,
+      2.3
+    ],
+    "six_fixed_camera_shots": {
+      "medium": [
+        50.0,
+        120.0,
+        1000.0,
+        1777.7777777778
+      ],
+      "face_discovery": [
+        330.0,
+        600.0,
+        420.0,
+        746.6666666667
+      ],
+      "cloth_macro": [
+        482.49999999999994,
+        1148.1999999999998,
+        114.99999999999999,
+        204.44444444446998
+      ],
+      "wide_look": [
+        0.0,
+        0.0,
+        1080.0,
+        1920.0
+      ],
+      "bin_pov": [
+        0.0,
+        1020.0,
+        500.0,
+        888.8888888889
+      ],
+      "face_audience": [
+        330.0,
+        600.0,
+        420.0,
+        746.6666666667
+      ]
+    },
+    "camera_changes_against_v22": [],
+    "actual_gaze_and_inverse_face_rotation_checked_frames": 1158,
+    "library_pose_ids_used": [
+      "contrariete_franc",
+      "contrariete_leger",
+      "curiosite_franc",
+      "curiosite_leger",
+      "doute_franc",
+      "doute_leger",
+      "fierte_leger",
+      "gene_franc",
+      "joie_franc",
+      "joie_leger",
+      "soulagement_leger",
+      "surprise_franc",
+      "tristesse_leger"
+    ],
+    "expression_phase_frames": {
+      "plaisir_cuisine": 168,
+      "premiere_inspection": 18,
+      "lavabo_hors_visage": 215,
+      "premier_soulagement": 76,
+      "precision_carotte": 68,
+      "inspection_repetee": 13,
+      "rituel_papier": 69,
+      "cuisine": 30,
+      "contretemps_recurrent": 60,
+      "assaisonner": 48,
+      "contretemps_pese": 63,
+      "manche_propre": 21,
+      "dernier_papier": 117,
+      "cloture_tablier": 192
+    },
+    "narrative_beats": 5,
+    "bin_flight_contour_frames_by_paper": {
+      "1": 9,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 28
+    },
+    "all_paper_flights_fully_cadrated": true,
+    "all_viewports_within_decor": true,
+    "wet_cap_frames": 89,
+    "drop_to_native_cap_ink_max_gap": 5.981287947123706,
+    "apron_contact_frames": 20,
+    "macro_contact_anchors": [
+      {
+        "frame": 84,
+        "native_anchor": [
+          185.2982815294381,
+          384.0488715629877
+        ]
+      },
+      {
+        "frame": 85,
+        "native_anchor": [
+          185.43372875558242,
+          384.0543359417834
+        ]
+      },
+      {
+        "frame": 86,
+        "native_anchor": [
+          185.82138079120656,
+          384.0699409238768
+        ]
+      },
+      {
+        "frame": 87,
+        "native_anchor": [
+          186.43319509516354,
+          384.0944667494401
+        ]
+      },
+      {
+        "frame": 88,
+        "native_anchor": [
+          187.2411231979393,
+          384.1266626840713
+        ]
+      },
+      {
+        "frame": 89,
+        "native_anchor": [
+          188.21711533017736,
+          384.1652678409984
+        ]
+      },
+      {
+        "frame": 90,
+        "native_anchor": [
+          189.3331243154907,
+          384.2090289552287
+        ]
+      },
+      {
+        "frame": 91,
+        "native_anchor": [
+          190.56110879356964,
+          384.2567150418393
+        ]
+      },
+      {
+        "frame": 92,
+        "native_anchor": [
+          191.8730347898574,
+          384.3071282129306
+        ]
+      },
+      {
+        "frame": 93,
+        "native_anchor": [
+          193.2408770428526,
+          384.3591117382546
+        ]
+      },
+      {
+        "frame": 94,
+        "native_anchor": [
+          194.63661936615313,
+          384.41155492646413
+        ]
+      },
+      {
+        "frame": 95,
+        "native_anchor": [
+          196.03225423847354,
+          384.4633951131988
+        ]
+      },
+      {
+        "frame": 96,
+        "native_anchor": [
+          197.39978256594966,
+          384.51361754899995
+        ]
+      },
+      {
+        "frame": 97,
+        "native_anchor": [
+          198.71121244040336,
+          384.56125252118477
+        ]
+      },
+      {
+        "frame": 98,
+        "native_anchor": [
+          199.93855815554804,
+          384.60537070347067
+        ]
+      },
+      {
+        "frame": 99,
+        "native_anchor": [
+          201.0538390833779,
+          384.6450765571814
+        ]
+      },
+      {
+        "frame": 100,
+        "native_anchor": [
+          202.02907792298257,
+          384.67949955111834
+        ]
+      },
+      {
+        "frame": 101,
+        "native_anchor": [
+          202.8362993100725,
+          384.70778389069284
+        ]
+      },
+      {
+        "frame": 102,
+        "native_anchor": [
+          203.44752783941956,
+          384.7290761425733
+        ]
+      },
+      {
+        "frame": 103,
+        "native_anchor": [
+          203.83478591515632,
+          384.74251098594664
+        ]
+      }
+    ],
+    "wet_trace_hold_exact_frames": 8,
+    "planned_macro_entry_partial_water_frames": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ],
+    "final_hold_exact_frames": 16,
+    "fifth_paper_persistent_on_floor": true
+  },
+  "masks": {
+    "isolated_actual_pupil_mask_rasters": [
+      {
+        "time_seconds": 0.5,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 0.5,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 1.2,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 1.2,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 2.5,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 2.5,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 6.9,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 6.9,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 7.125,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 7.125,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 7.458333,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 7.458333,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 11.7,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 11.7,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 18.95,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 18.95,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 22.5,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 22.5,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 27.7,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 27.7,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 31.4,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 31.4,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 35.7,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 35.7,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 36.3,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 36.3,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 36.75,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 36.75,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 37.3,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 37.3,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 40.5,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 40.5,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 41.916667,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 41.916667,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 42.25,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 42.25,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 42.916667,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 42.916667,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 43.7,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 43.7,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 44.416667,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 44.416667,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 46.916667,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 46.916667,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 47.166667,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 47.166667,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 47.916667,
+        "mask": "mou-visage-v23-eye-l",
+        "outside_mask_pixels": 0
+      },
+      {
+        "time_seconds": 47.916667,
+        "mask": "mou-visage-v23-eye-r",
+        "outside_mask_pixels": 0
+      }
+    ],
+    "optional_tongue_teeth_mask_rasters": [
+      {
+        "time_seconds": 2.5,
+        "mask": "mou-visage-v23-mouth",
+        "outside_mask_pixels": 0
+      }
+    ],
+    "whole_face_rotation_keeps_graphics_clipped": true,
+    "exactly_two_pupils_per_sample": true,
+    "one_face_one_mouth_per_sample": true,
+    "macro_face_raster_above_viewport": true
+  },
+  "audio": {
+    "duration_seconds": 48.25,
+    "mix_sha256": "6094900535e2cfeb46b60e26f8a2f4b570c776e2a51e8aa5f99ddd72cf184c2b",
+    "active_events": 41,
+    "removed_events": 25,
+    "single_water_layer_per_wash": true,
+    "cloth_contact_sound_seconds": [
+      43.75,
+      44.583333333333336
+    ],
+    "no_foreground_reaction_accents": true,
+    "no_clipping": true,
+    "postmix_recipe_reconstructs_integer_pcm_exactly": true,
+    "fixed_delivery_gain_db": 3.5,
+    "eight_second_audio_is_exact_final_slice": true,
+    "raw_reference_wavs_verified": 39,
+    "non_music_postmix_events_identical_to_v22": 40,
+    "music_source_sha256": "52cfda878f65995d894af2a3e83749eed10573a747524d3e2ee54b695cbf2141",
+    "music_soundfont_sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+    "continuous_music_clock_no_visual_cut_restarts": true,
+    "limits": "No numerical loudness, spectrum or layering check proves perceptual comfort."
+  },
+  "final_mp4s": {
+    "MOU_Encore_une_feuille.mp4": {
+      "sha256": "1801af8a5ef989bf0b0e57035ef835d0f9a2c8ee25056f884efb38e540fbb8cb",
+      "frames": 1158,
+      "duration_seconds": 48.25
+    },
+    "MOU_Encore_une_feuille_muette.mp4": {
+      "sha256": "187fcfffeb8cf6d08605fe90bfda221ff90f0126ac28ea936b3ace4f3bea8a33",
+      "frames": 1158,
+      "duration_seconds": 48.25
+    }
+  },
+  "source_snapshot": {
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/animation.py": "29d91856c227b7a9eec6a7248d894c66714a0fa0fae5f2f12df23f4efc8df895",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/art.py": "2a9818c90e47edc8d5ea9027e5e4e1904c6ce66067f5ba29a903e28a9366ff7d",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/render.py": "6f3b4211c9f0a001c4870c1d0d1ae6dc504722ba68ddd1915fca147be05958fa",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/acting.py": "4161ce65e483e9bba62899bc87d1426ddfd13b55ae077430a3578ad9ca81382b",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/poses.json": "f9149dbf327caf468ac49021f86ea6662549cad8c7c47de641d49c486f628e5d",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/jeu_visage.py": "6213b819ebaa6d1ba1785d3e1ce8ddbc1d4f94ab08affd805fd3680ec8ee0cef",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+    "/workspace/MOU/episodes/03/cuisine_v23/chronologie.json": "156430fb5553bed8e1e9cb4f78ec01e8ce3a6494622fe5557065997a7b2a4d6e",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/cuisine_v23/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/son.py": "f904444c0deaed04a5186a9481aa150786929cbcf538bfa2315af17e59e42fa8",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/music.py": "52cfda878f65995d894af2a3e83749eed10573a747524d3e2ee54b695cbf2141",
+    "/workspace/MOU/episodes/03/cuisine_v23/audio/mix.wav": "6094900535e2cfeb46b60e26f8a2f4b570c776e2a51e8aa5f99ddd72cf184c2b",
+    "/workspace/MOU/episodes/03/cuisine_v23/assets/FluidR3_MOU_trio.sf2": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+    "/workspace/MOU/episodes/03/cuisine_v23/audio/partition_v23.json": "548a4374ddcba190f4abd4f1135b04a5b88073257e86ee69902cce27e3114cff",
+    "/workspace/MOU/episodes/03/cuisine_v23/audio/partition_v23.mid": "e448a594586c092b4bf2b30d34f170ccbf1f24d6868615c8cff3ebb9d80ac5d1"
+  }
+}

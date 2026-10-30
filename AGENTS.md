@@ -1,5 +1,24 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Livraison courante V23, 30 octobre 2026 : réalisation autorisée de l'épisode
+avec la bibliothèque d'expressions et un nouveau jazz original.
+Travail dans `episodes/03/cuisine_v23/`, V22 conservée. Intégrer les visages à
+cinq moments lisibles : plaisir de cuisiner, première inspection, réactions
+choisies aux rituels, dernier petit papier et clôture tablier/gaspillage.
+Regard vers l'objet avant l'expression, puis tenue ; surprise seulement après
+l'apparition du petit papier. Employer le fragment facial, pas un personnage
+superposé. Conserver rig, deux bras/moufles, costume, gestes/contacts, inserts
+lavabo et chronologie48,25s ; critiquer l'animatique complète avant final.
+La nouvelle musique est autorisée : trio jazz original continu, timbres libres,
+partition globale, accompagnement moins chargé, léger ducking régulier au lavage.
+Les trois notes sifflées initiales restent synchronisées ; aucun retour à des
+coupures par scène. Le modèle ne peut toujours pas écouter : aucune écoute ni
+qualité perçue certifiée par les mesures. Vérifier sources/licences/mix et livrer
+son/muet/sources/GitHub dans le cadre de l'autorisation existante.
+Les contrôles du final et la QA indépendante sont passés ; bilan dans
+`episodes/03/cuisine_v23/CONTROLE.txt`. Ne pas confondre cette livraison
+technique avec une approbation artistique de l'utilisatrice ou une écoute.
+
 Bibliothèque d'expressions créée le 30 octobre 2026 :
 `bibliotheque/expressions/v1/` contient 36 poses proposées (12 familles ×
 3 intensités), SVG/PNG, galerie hors ligne et six transitions faciales muettes.

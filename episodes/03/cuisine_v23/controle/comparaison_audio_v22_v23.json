@@ -1,0 +1,217 @@
+{
+  "V22": {
+    "0.25s": {
+      "p95_minus_p05_db": 4.278990075927453,
+      "min_dbfs": -31.05056808331661,
+      "max_dbfs": -24.81898989424716
+    },
+    "2.0s": {
+      "p95_minus_p05_db": 1.3672365040088188,
+      "min_dbfs": -28.64385274035645,
+      "max_dbfs": -26.418447786629436
+    },
+    "3.0s": {
+      "p95_minus_p05_db": 1.125073045658425,
+      "min_dbfs": -28.21807772014582,
+      "max_dbfs": -26.718024833208606
+    }
+  },
+  "V23": {
+    "0.25s": {
+      "p95_minus_p05_db": 8.50209928268768,
+      "min_dbfs": -36.264501901404415,
+      "max_dbfs": -24.495287623440767
+    },
+    "2.0s": {
+      "p95_minus_p05_db": 1.942956569378456,
+      "min_dbfs": -29.529125047126193,
+      "max_dbfs": -26.579037071727164
+    },
+    "3.0s": {
+      "p95_minus_p05_db": 1.4431832128592923,
+      "min_dbfs": -29.246441521790185,
+      "max_dbfs": -27.072133374252058
+    }
+  },
+  "music_v23": {
+    "original_score": true,
+    "style": "discreet acoustic jazz trio",
+    "bpm": 108.0,
+    "meter_beats": 4,
+    "complete_bars": 21,
+    "short_coda_start_seconds": 46.96666666666666,
+    "global_clock_origin_seconds": 0.3,
+    "tonal_center": "A major: A6/9, F#m7, Bm7, E9/13, C#7 turnaround",
+    "instruments": {
+      "basse": {
+        "program": 32,
+        "bank": 0,
+        "channel": 0,
+        "gain": 0.55,
+        "pan": 47,
+        "instrument": "FluidR3 acoustic double bass"
+      },
+      "accords": {
+        "program": 0,
+        "bank": 0,
+        "channel": 1,
+        "gain": 1.8,
+        "pan": 60,
+        "instrument": "FluidR3 Yamaha grand piano — left-hand comp"
+      },
+      "melodie": {
+        "program": 0,
+        "bank": 0,
+        "channel": 2,
+        "gain": 1.0,
+        "pan": 68,
+        "instrument": "FluidR3 Yamaha grand piano — right-hand motif"
+      },
+      "balais": {
+        "program": 40,
+        "bank": 128,
+        "channel": 9,
+        "gain": 0.65,
+        "pan": 77,
+        "instrument": "FluidR3 brush kit"
+      }
+    },
+    "continuous_global_clock": true,
+    "visual_cut_restarts": 0,
+    "score_inputs": [
+      "duration",
+      "bpm"
+    ],
+    "frame_or_action_dependent_notes": false,
+    "swing_offbeat_ratio": 0.58,
+    "humanized_onsets_max_seconds": 0.008,
+    "humanization_seed": 230803,
+    "opening": "Sustained A6/9 and A bass; no regular percussion pattern until2.522s, under existing A5/C#6/B5 whistle",
+    "composition_character": "two-feel bass with six walking turnaround bars; sparse alternating comp patterns; separated piano phrases",
+    "one_global_music_calibration": 3.054171684754103,
+    "fixed_music_bus_compression": {
+      "ratio": 2.0,
+      "threshold_dbfs": -36.0,
+      "knee_db": 6.0,
+      "detector": "stereo-linked RMS25ms",
+      "attack_seconds": 0.015,
+      "release_seconds": 0.24,
+      "control_step_seconds": 0.005,
+      "gain_reduction_min_db": -5.666895234714612,
+      "scene_dependent": false,
+      "dynamic_normalization": false,
+      "fixed_makeup_linear": 1.492427472315777
+    },
+    "continuous_brush_texture": {
+      "source": "FluidR3 brush38 atvelocity72, overlapped windowed grains",
+      "seed": 230871,
+      "relative_rms_db_to_unducked_music": -9.0,
+      "intro_fade_seconds": [
+        1.85,
+        2.2
+      ]
+    },
+    "target_unducked_music_body_rms_dbfs": -31.5,
+    "duck_db": -1.5,
+    "duck_intervals": [
+      [
+        7.75,
+        10.3
+      ],
+      [
+        16.5,
+        18.6
+      ],
+      [
+        23.0,
+        24.5
+      ],
+      [
+        29.0,
+        30.35
+      ],
+      [
+        34.0,
+        35.35
+      ]
+    ],
+    "duck_attack_seconds": 0.6,
+    "duck_release_seconds": 0.8,
+    "duck_gain_min": 0.8413951416451951,
+    "duck_gain_max": 1.0,
+    "same_pitch_gate_overlaps": 0,
+    "chorus": false,
+    "light_room_reverb": {
+      "room_size": 0.2,
+      "damping": 0.55,
+      "width": 0.65,
+      "level": 0.1
+    },
+    "fluidsynth_version": "2.4.4",
+    "soundfont": {
+      "file": "assets/FluidR3_MOU_trio.sf2",
+      "sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+      "license": "MIT, selected FluidR3 samples; see bundled notice/provenance"
+    },
+    "limits": "New composed/sample-rendered proposal. No audio listening or perceptual-comfort claim.",
+    "stems": [
+      {
+        "track": "basse",
+        "file": "jazz_basse_v23.wav",
+        "sha256": "20eacff977ba452076c93856b9bb2b8d1fc1355daca363b681007bc1f8a802e9",
+        "actual_metrics": {
+          "rms_dbfs": -38.550430879762004,
+          "peak_dbfs": -20.571891593655494,
+          "crest_db": 17.97853928610651,
+          "energy_fraction_2_6khz": 0.00014986661462290053
+        }
+      },
+      {
+        "track": "accords",
+        "file": "jazz_accords_v23.wav",
+        "sha256": "9ca672d5fedc7480546f3354db4e1b0764eaf464ae5c255e099887d057f09c5a",
+        "actual_metrics": {
+          "rms_dbfs": -34.26735713869637,
+          "peak_dbfs": -15.938964921848873,
+          "crest_db": 18.328392216847494,
+          "energy_fraction_2_6khz": 0.0825022587662848
+        }
+      },
+      {
+        "track": "melodie",
+        "file": "jazz_melodie_v23.wav",
+        "sha256": "e61613b18c9d06ebb567fa62462669865d7ca52ececfa65ddff20a9d4eaedbf0",
+        "actual_metrics": {
+          "rms_dbfs": -44.708947081177854,
+          "peak_dbfs": -22.256893860796065,
+          "crest_db": 22.452053220381785,
+          "energy_fraction_2_6khz": 0.09374661041946515
+        }
+      },
+      {
+        "track": "balais",
+        "file": "jazz_balais_v23.wav",
+        "sha256": "2d3c577cedb266d3027a0c6157e9429acb7c862a845bad22e211da2e660a39e3",
+        "actual_metrics": {
+          "rms_dbfs": -40.63401706502973,
+          "peak_dbfs": -23.09334490172876,
+          "crest_db": 17.540672163300975,
+          "energy_fraction_2_6khz": 0.2534138157428737
+        }
+      }
+    ],
+    "unattenuated_file": "jazz_sans_baisse_v23.wav",
+    "unattenuated_sha256": "e848055b9537637da6946b568e42dce397c2d2ec2f29bf8ba619309f8479c8b1",
+    "music_source_sha256": "52cfda878f65995d894af2a3e83749eed10573a747524d3e2ee54b695cbf2141",
+    "rolling_100ms_body_min_dbfs": -43.50714582421651,
+    "rolling_100ms_body_p95_minus_p05_db": 11.264335347865767,
+    "jazz_only_excerpt": {
+      "file": "jazz_seul_15s.wav",
+      "sha256": "b6120853e302ccb8e7f7ccd5cf6450974db4383938a4f3496d8da1788783f040",
+      "start": 0.0,
+      "duration": 15.0,
+      "same_gain_as_film": true
+    }
+  },
+  "same_non_music_events": 40
+}

@@ -1,0 +1,20 @@
+{
+  "sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/animation.py": "29d91856c227b7a9eec6a7248d894c66714a0fa0fae5f2f12df23f4efc8df895",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/art.py": "2a9818c90e47edc8d5ea9027e5e4e1904c6ce66067f5ba29a903e28a9366ff7d",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/render.py": "6f3b4211c9f0a001c4870c1d0d1ae6dc504722ba68ddd1915fca147be05958fa",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/sink.py": "2cd8bc909e6514a09aa6e7ee06697be9ed1164cd8525c811023e4e4fee709fc3",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/acting.py": "4161ce65e483e9bba62899bc87d1426ddfd13b55ae077430a3578ad9ca81382b",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/poses.json": "f9149dbf327caf468ac49021f86ea6662549cad8c7c47de641d49c486f628e5d",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/jeu_visage.py": "6213b819ebaa6d1ba1785d3e1ce8ddbc1d4f94ab08affd805fd3680ec8ee0cef",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "/workspace/MOU/episodes/03/cuisine_v23/sources/expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+    "/workspace/MOU/episodes/03/cuisine_v23/chronologie.json": "156430fb5553bed8e1e9cb4f78ec01e8ce3a6494622fe5557065997a7b2a4d6e",
+    "/workspace/MOU/episodes/03/cuisine_v23/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "/workspace/MOU/fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+  },
+  "output": "/workspace/MOU/episodes/03/cuisine_v23/MOU_Encore_une_feuille.mp4",
+  "muxed_mix_sha256": "6094900535e2cfeb46b60e26f8a2f4b570c776e2a51e8aa5f99ddd72cf184c2b"
+}

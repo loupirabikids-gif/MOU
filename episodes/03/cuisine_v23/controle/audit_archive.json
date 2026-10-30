@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "observed_utc": "2026-10-30T14:24:50.138826+00:00",
+  "limits": "ZIP integrity and isolated reproducibility only; no listening, continuous viewing, artistic or audience approval.",
+  "isolation": {
+    "python_flags": [
+      "-I",
+      "-B"
+    ],
+    "fresh_extraction": true,
+    "python_socket_operations_blocked": true,
+    "proxy_environment_preserved": true,
+    "external_fetches_required": false,
+    "packages_installed": false
+  },
+  "archive_sha256": "5f1cf1035ce26e322513f000212ec04931233c743ddce063965739ca71062334",
+  "archive_bytes": 76718550,
+  "isolated_work_directory": "work/verif_archive_v23/cold_l12mc6y2",
+  "metadata_sha256": {
+    "MANIFESTE_SHA256.json": "b07555eb6055f28e1867ceb80f72d9e32622a1e780be07c689869d302a752ba0",
+    "LIRE_MOI.txt": "496c0a8e47c638d6f582742344e58396acb8465b9b49b8ff6b8deb78f490cccf"
+  },
+  "crc_passed": true,
+  "manifest_files_verified": 186,
+  "current_repository_payload_identical": true,
+  "current_repository_mix_sha256": "6094900535e2cfeb46b60e26f8a2f4b570c776e2a51e8aa5f99ddd72cf184c2b",
+  "bundled_soundfont_sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+  "cold_loaded_modules": {
+    "archive_cold_renderer_v23": "episodes/03/cuisine_v23/sources/render.py",
+    "papier_animation": "episodes/03/cuisine_v23/sources/animation.py",
+    "papier_art": "episodes/03/cuisine_v23/sources/art.py",
+    "mou_lavabo_v14": "episodes/03/cuisine_v23/sources/sink.py",
+    "mou_costume_chef_v20": "episodes/03/cuisine_v23/sources/costume.py",
+    "approved_stir_contact": "episodes/03/test_remuer/sources/animation.py",
+    "mou_jeu_visage_v23": "episodes/03/cuisine_v23/sources/jeu_visage.py",
+    "mou_visage_library_v23": "episodes/03/cuisine_v23/sources/visage.py",
+    "mou_rig": "mou_rig.py",
+    "acting": "episodes/03/cuisine_v23/sources/acting.py"
+  },
+  "fresh_cairo_frames": [
+    {
+      "time_seconds": 4.0,
+      "svg_sha256": "719a4e3c7ea9631136dc8c2c0d605b909d6814d8fa1144dfddb7c53ff8d32c45",
+      "png_sha256": "6a8199abf767a676f76079c7535043fe5a899da0b257b8d53952ae7bc0a4e6a3",
+      "rgba_sha256": "073ac60fb003f565140030d13a914fd175a40615915d69525406ff2b75c5d8a7",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 36.5,
+      "svg_sha256": "81ac7f92ddce8c5c59a11855355b506c945d45e276579b6632e1867242a7f27a",
+      "png_sha256": "9d29def4db70ac0cc98f01eee476d00a888548ee15f1e8ce84c99cd1d6d171e3",
+      "rgba_sha256": "f76d0fcde02451efac8a29a83b868430a4ddfbadf2196059d66f33fe3b934eef",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 47.75,
+      "svg_sha256": "1c9c83f752caddae202b0f215f1dfdee574d0656d41214cbc73b0c05067ae184",
+      "png_sha256": "27a07e06a897f9ec384eb32bc8a5ae5f6de26390ea47db58eaf6ea85a308f04e",
+      "rgba_sha256": "db0d234ee522a9c949ad2561d90ad429bf9c35cac55a1043b24100d04ba4e776",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    }
+  ],
+  "no_render_cache_used": true,
+  "production_sources_unchanged": true,
+  "regenerated_mix_sha256": "6094900535e2cfeb46b60e26f8a2f4b570c776e2a51e8aa5f99ddd72cf184c2b",
+  "regenerated_final_8s_sha256": "e452ccd931c83d22e17ab5b8ebbf3b9c5dc6371b9fa4c764b73389a184543b1b",
+  "final_8s_exact_samples": {
+    "start_seconds": 40.25,
+    "end_seconds": 48.25,
+    "frames": 384000,
+    "identical": true
+  },
+  "sound_regeneration": {
+    "duration_seconds": 48.25,
+    "event_count": 41,
+    "removed_event_count": 25,
+    "mix_sha256": "6094900535e2cfeb46b60e26f8a2f4b570c776e2a51e8aa5f99ddd72cf184c2b",
+    "mix_metrics": {
+      "rms_dbfs": -27.772700473406218,
+      "peak_dbfs": -9.975851802750316,
+      "crest_db": 17.7968486706559,
+      "energy_fraction_2_6khz": 0.09481167182800931
+    },
+    "input_loudness": {
+      "input_i": "-25.00",
+      "input_tp": "-9.94",
+      "input_lra": "1.40",
+      "input_thresh": "-35.00"
+    },
+    "delivery_gain_db": 3.5,
+    "rolling_250ms_body_p95_minus_p05_db": 8.50209928268768
+  }
+}
