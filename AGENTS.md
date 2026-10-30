@@ -1,5 +1,17 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Clarification après V24 : l'utilisatrice confirme que les effets sonores
+paraissent artificiels ou peu clairs. Priorité à la matière sonore ; ne pas
+déduire de ce retour une autorisation de retoucher le personnage ou le jeu.
+Essai court dans `episodes/03/etudes_son/papier_foley_v1/` : un cycle papier
+de10,25 à13,5s, mêmes images et même jazz baissé que V24. Remplacer les six
+événements papier du cycle par des extraits de sources libres documentées.
+Trois gestes papier AtomSFX sont décrits comme captations originales ; la
+déchirure éventuelle est du carton adapté, pas une captation d'essuie-tout.
+Les textures Ben Burnes sont CC0 mais leur méthode d'enregistrement n'est
+pas documentée. Conserver ces distinctions dans la provenance, garder les
+licences et ne pas déclarer le son naturel ou réussi sans retour d'écoute.
+
 Retour après V24 : l'utilisatrice dit « Still not good enough ».
 V24 est donc une proposition rejetée, pas une référence de qualité approuvée.
 Ses contrôles techniques restent valides ; ils ne valident pas l'agrément

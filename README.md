@@ -2,6 +2,9 @@
 
 **[Bibliothèque d’expressions de MOU](bibliotheque/expressions/v1/)** — 36 poses, 12 familles, galerie SVG/PNG et six transitions de visage.
 
+**Correction sonore en cours :** les effets V24 ont été jugés artificiels ou
+peu clairs. [Essai court avec une nouvelle matière de papier](episodes/03/etudes_son/papier_foley_v1/).
+
 **Encore une feuille — Just cooking. Mostly washing. — V24, 43 secondes.**
 
 MOU cuisine, mais chaque contact relance son lavage et son gaspillage de papier.
