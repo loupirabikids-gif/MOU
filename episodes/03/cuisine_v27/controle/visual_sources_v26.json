@@ -1,0 +1,19 @@
+{
+  "acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+  "reference_acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+  "jeu_visage.py": "1eb3cbdf61b525ba6b1b3f9583e5ff40dbb9c3e8c3397efe1309ce474f777897",
+  "costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+  "performance.py": "470be3672654baed33d29176cc2732adaf91548d9a02447f6b3aabbb8b6dddc4",
+  "cooking_fx.py": "f3e522fb3a953dcadc647b1f6fb5711029d2dbdc0d23923463c17c2dffbedc27",
+  "sink.py": "5a45bc7b0c5d8c2e9d2e7b52b2505d8ef1830a25dacf5a65f37f5416eb2675f8",
+  "mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+  "animation.py": "29748212112335d5113f0cd77c7b6f7839b6cb675ebc5096333fb74582676bcd",
+  "render.py": "6a4a7078476adcb4f4d27dd3946c2e646ab0e5c329c722a59f1a905fa9cd7af5",
+  "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+  "reference_performance.py": "6a3e64adfce3445ed9acd78721c5dda813325d9f7ef7865ab4156971855c281b",
+  "poses.json": "ba81b9a395f650f4d21e51e2052af39933ff19dba69402d2f8aea48f42170db7",
+  "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+  "reference_jeu_visage.py": "2725f1dc7e4be5eb8bea7565b03b2cd23c723a4019ccfb3270b8d47f3970ef07",
+  "art.py": "481475ec22011957c341726e616b665841af723450cac6028411153349f2f924",
+  "reference_animation.py": "b079195b7599a5a21042370d38480a780329b2378af9f0eeb536d97fc854e917"
+}

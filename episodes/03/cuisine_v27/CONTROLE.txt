@@ -1,0 +1,29 @@
+MOU — Just cooking. Mostly washing. — V27 sonore
+38 secondes, vertical 1080 × 1920, 24 images/s, 912 images, AAC 48 kHz stéréo.
+
+Périmètre : aucune image ni coupe modifiée par rapport à V26. Le flux H.264,
+ses horodatages et le MP4 muet de référence sont contrôlés contre l'original.
+Le nouveau mix est attaché sans réencoder le film complet.
+
+Direction : bossa guitare nylon/contrebasse, dérive et tempo modérés avant
+32 s. Nouvelle coupure exacte à 32 s, demi-seconde de silence 32–32,5 s.
+Cuisson et panier enrichis ;46 anciens bruitages gardent leurs PCM et horaires.
+Cinq accents vocaux brefs suivent les expressions, sans dialogue écrit.
+Dernier tsss, expiration, murmure satisfait et unique note 36,25–36,75 s.
+Dernière tenue silencieuse 37,25–38 s. Aucun détecteur ajouté hors du décor.
+
+Son : 63 événements, gain fixe +3,5 dB, aucune normalisation par scène ou LUFS.
+Mix mesuré −31,64 LUFS / −19,00 dBTP, zéro saturation. Régénération locale des
+quatre WAV de livraison bit-identique. Voix séparées disponibles en essai 5,5 s.
+Les droits CC0 et sources sont documentés ; auteur original et méthode de
+création des assets vocaux ne sont pas vérifiés. Aucune captation humaine
+ou imitation de Lamput n'est revendiquée.
+
+L'audit média/mix est dans controle/audit_final.json, avec son bilan qa_v27.md.
+Le ZIP contient les sources et la référence muette, avec un manifeste SHA256.
+L'audit séparé controle/audit_archive.json consigne le test de reproduction
+à froid sans créer d'empreinte circulaire dans le paquet.
+
+Limites : aucune écoute par le modèle ni validation du naturel, de l'émotion
+reconnue ou du confort sonore par un public. Ce sont des propositions sonores
+contrôlées numériquement, pas une approbation artistique de l'utilisatrice.

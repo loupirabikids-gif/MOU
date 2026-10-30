@@ -1,0 +1,112 @@
+{
+  "source_repo": "AgentGameLab/atom-sfx",
+  "commit": "b3e55737e0019905b8d85ef0d06def1bca6ab025",
+  "observed_utc": "2026-10-30T17:33:31.493180+00:00",
+  "files": [
+    {
+      "source_path": "README.md",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/README.md",
+      "sha256": "a0e90e1a34ee85c7ead805e95251fc4e6d07bb387b837ea306ec7fb8dfd6f0a5",
+      "bytes": 7183,
+      "http_status": 200
+    },
+    {
+      "source_path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/LICENSE",
+      "sha256": "f688bd222a68aa26576832b07c97f54ee7da7cf11109b1eaaafbab3ff72d4ab0",
+      "bytes": 1065,
+      "http_status": 200
+    },
+    {
+      "source_path": "docs/library.md",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/docs/library.md",
+      "sha256": "2c15f8088b558659d794c5aea07c6d4012c96f6a0090a4356f93d8727f65a327",
+      "bytes": 6743,
+      "http_status": 200
+    },
+    {
+      "source_path": "atoms/map-铺平纸张.json",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/map-%E9%93%BA%E5%B9%B3%E7%BA%B8%E5%BC%A0.json",
+      "sha256": "501a01ae7e61830aa986063c07bcade0d171128f09605b1933773366ed1dd150",
+      "bytes": 197,
+      "http_status": 200
+    },
+    {
+      "source_path": "atoms/split-report-paper.json",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/split-report-paper.json",
+      "sha256": "5c43cb7f06277321165a5f151ff5c7f9515504ff73a1d7fcf65e78c8cea8e7d0",
+      "bytes": 1132,
+      "http_status": 200
+    },
+    {
+      "source_path": "atoms/map-撕纸.json",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/map-%E6%92%95%E7%BA%B8.json",
+      "sha256": "0ae3990c7bf8394920bab420ac5893246d69bc17c9ab920068e59248f4cee6b7",
+      "bytes": 150,
+      "http_status": 200
+    },
+    {
+      "source_path": "atoms/split-report-cardboard.json",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/split-report-cardboard.json",
+      "sha256": "7f1e84dc3bd0890faaf512a47884535f54ab42d489acd696328d43c675c5807c",
+      "bytes": 2987,
+      "http_status": 200
+    },
+    {
+      "source_path": "atoms/paper__flatten__01.wav",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__01.wav",
+      "sha256": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+      "bytes": 130302,
+      "http_status": 200,
+      "audio": {
+        "codec_name": "pcm_f32le",
+        "sample_rate": "48000",
+        "channels": 1,
+        "bits_per_sample": 32
+      },
+      "duration": "0.678000"
+    },
+    {
+      "source_path": "atoms/paper__flatten__02.wav",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__02.wav",
+      "sha256": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+      "bytes": 89790,
+      "http_status": 200,
+      "audio": {
+        "codec_name": "pcm_f32le",
+        "sample_rate": "48000",
+        "channels": 1,
+        "bits_per_sample": 32
+      },
+      "duration": "0.467000"
+    },
+    {
+      "source_path": "atoms/paper__flatten__03.wav",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/paper__flatten__03.wav",
+      "sha256": "9059ddaa4a273aab5a8fa45fda581645de1dd9583c756393eb2f5349f21f5b10",
+      "bytes": 79038,
+      "http_status": 200,
+      "audio": {
+        "codec_name": "pcm_f32le",
+        "sample_rate": "48000",
+        "channels": 1,
+        "bits_per_sample": 32
+      },
+      "duration": "0.411000"
+    },
+    {
+      "source_path": "atoms/cardboard__tear__01.wav",
+      "url": "https://raw.githubusercontent.com/AgentGameLab/atom-sfx/b3e55737e0019905b8d85ef0d06def1bca6ab025/atoms/cardboard__tear__01.wav",
+      "sha256": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+      "bytes": 64446,
+      "http_status": 200,
+      "audio": {
+        "codec_name": "pcm_f32le",
+        "sample_rate": "48000",
+        "channels": 1,
+        "bits_per_sample": 32
+      },
+      "duration": "0.335000"
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "status": "passed",
+  "scope": "V27 sound-only: exact V26 picture identity, new PCM and mux",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "duration_seconds": 38.0,
+  "expected_frames": 912,
+  "limits": "Numerical sound/mux/source checks only. No listening, perceptual wordlessness, emotion recognition, comfort or audience success is certified.",
+  "source_integrity": {
+    "rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "visual_sources_unchanged": {
+      "acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+      "reference_acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+      "jeu_visage.py": "1eb3cbdf61b525ba6b1b3f9583e5ff40dbb9c3e8c3397efe1309ce474f777897",
+      "costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+      "performance.py": "470be3672654baed33d29176cc2732adaf91548d9a02447f6b3aabbb8b6dddc4",
+      "cooking_fx.py": "f3e522fb3a953dcadc647b1f6fb5711029d2dbdc0d23923463c17c2dffbedc27",
+      "sink.py": "5a45bc7b0c5d8c2e9d2e7b52b2505d8ef1830a25dacf5a65f37f5416eb2675f8",
+      "mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+      "animation.py": "29748212112335d5113f0cd77c7b6f7839b6cb675ebc5096333fb74582676bcd",
+      "render.py": "6a4a7078476adcb4f4d27dd3946c2e646ab0e5c329c722a59f1a905fa9cd7af5",
+      "expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+      "reference_performance.py": "6a3e64adfce3445ed9acd78721c5dda813325d9f7ef7865ab4156971855c281b",
+      "poses.json": "ba81b9a395f650f4d21e51e2052af39933ff19dba69402d2f8aea48f42170db7",
+      "visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+      "reference_jeu_visage.py": "2725f1dc7e4be5eb8bea7565b03b2cd23c723a4019ccfb3270b8d47f3970ef07",
+      "art.py": "481475ec22011957c341726e616b665841af723450cac6028411153349f2f924",
+      "reference_animation.py": "b079195b7599a5a21042370d38480a780329b2378af9f0eeb536d97fc854e917"
+    },
+    "protected_originals_verified": {
+      "episodes/03/cuisine_v26/MOU_Encore_une_feuille.mp4": "57e3cbb8b45595901aa18738643b135998fd97933460240f029d93855b516cc0",
+      "episodes/03/cuisine_v26/MOU_Encore_une_feuille_muette.mp4": "8190747fb4931221ba7f1e1968c1d795f813179f822eb8f33f81c1d3db9d4eeb",
+      "episodes/03/cuisine_v26/audio/mix.wav": "a785f8bd9cd5bbeeb3baae830b6e61f5b3d8154d6bed59887035f3c2d2051bbb",
+      "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
+    },
+    "protected_originals_unavailable_in_this_checkout": [],
+    "sound_producer_hashes": {
+      "son.py": "8df164154ecf9a98843015ec239a8bc18984726482e7c9656fa1a2d5bf11de08",
+      "music.py": "c9e03e47d17f58db8460dd544ab1a12479b0f831a0bacee40304255b01000621",
+      "foley.py": "a12b2430d62609116ca7e120ecc53d50700374a8365705eefd55d6e01c600ca7",
+      "foley_supplement.py": "ecb920e1be95038a0c919d22f182602f52211501e25a069b9a18beb71539a112",
+      "vocal.py": "de23574efe6a0065f87f4370b00f514d8bf83163411259c627c114d7e0af7e8a"
+    },
+    "sound_audit_mix_sha256": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b"
+  },
+  "sound_video": {
+    "file_sha256": "6c3a47f1f145b0b650ef22177276f05919f8e3f48e664ff42948988d9ea41ee6",
+    "bytes": 16470392,
+    "full_decode_without_errors": true,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "912",
+        "nb_read_frames": "912",
+        "duration": "38.000000",
+        "start_time": "0.000000"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "nb_frames": "1783",
+        "nb_read_frames": "1782",
+        "duration": "38.000000",
+        "start_time": "0.000000",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ]
+  },
+  "silent_video": {
+    "file_sha256": "8190747fb4931221ba7f1e1968c1d795f813179f822eb8f33f81c1d3db9d4eeb",
+    "bytes": 15706143,
+    "full_decode_without_errors": true,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "nb_frames": "912",
+        "nb_read_frames": "912",
+        "duration": "38.000000",
+        "start_time": "0.000000"
+      }
+    ]
+  },
+  "identical_compressed_video_bitstreams": {
+    "sha256": "97169f1957a8abe536d45b56f516803e22200a0c50ce7cbd2d4045114539bf70",
+    "bytes": 15695353
+  },
+  "identical_video_timestamps": {
+    "packets": 912,
+    "timestamp_sha256": "86527bc5b7787f8f59c6763d36279665151e2e27cb9eee809401fb01f268325d"
+  },
+  "v26_original_picture_rechecked": true,
+  "audio": {
+    "mix_sha256": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b",
+    "samples_per_channel": 1824000,
+    "sample_rate": 48000,
+    "channels": 2,
+    "bit_depth": 16,
+    "pcm_metrics": {
+      "rms_dbfs": -35.53175001598362,
+      "peak_dbfs": -19.0441246763864,
+      "nonzero_samples": 3518249
+    },
+    "wav_clipped_samples": 0,
+    "decoded_aac_metrics": {
+      "rms_dbfs": -35.60210441837683,
+      "peak_dbfs": -19.053266872132916,
+      "nonzero_samples": 3534848
+    },
+    "wav_vs_decoded_aac_correlation_without_offset": 0.9974394440905435,
+    "silence_pcm": {
+      "interval_s": [
+        32.0,
+        32.5
+      ],
+      "frames": 24000,
+      "nonzero_samples": 0
+    },
+    "silence_decoded_aac_core": {
+      "interval_s": [
+        32.06,
+        32.44
+      ],
+      "rms_dbfs": -300.0,
+      "peak_dbfs": -300.0,
+      "nonzero_samples": 0
+    },
+    "final_pose_pcm": {
+      "interval_s": [
+        37.25,
+        38.0
+      ],
+      "nonzero_samples": 0
+    },
+    "test_final_excerpt_sha256": "f36f3ee3f977558e5da0e29b04bd6c8a25a033781a0c1dc63576c0e63564375a",
+    "excerpt_interval_s": [
+      30.0,
+      38.0
+    ]
+  },
+  "cue_provenance": {
+    "event_count": 63,
+    "all_event_pcm_and_intervals_verified": true,
+    "events": [
+      {
+        "name": "cuisson_progressive_v27",
+        "kind": "frying",
+        "start_s": 0.0,
+        "end_s": 31.95,
+        "pcm_sha256": "6b84b0eadb1d02848107099f979526d07ddb23c6f25d3a4e9369aea790b1589e",
+        "metrics": {
+          "rms_dbfs": -44.378603257355245,
+          "peak_dbfs": -29.27823088888781,
+          "nonzero_samples": 3054413
+        }
+      },
+      {
+        "name": "musique_v27",
+        "kind": "background_music",
+        "start_s": 0.0,
+        "end_s": 38.0,
+        "pcm_sha256": "b87512ba09eaee106fdf35d16e0346fdf5a9b712a6ce56939cfe160fe828296c",
+        "metrics": {
+          "rms_dbfs": -42.36734955124048,
+          "peak_dbfs": -25.232549925032895,
+          "nonzero_samples": 3061070
+        }
+      },
+      {
+        "name": "room_air_1_v27",
+        "kind": "room_ambience",
+        "start_s": 0.0,
+        "end_s": 32.0,
+        "pcm_sha256": "3570c67b68409b3786eba5323a261f8bf4b220099044e364570414c6f7f96dc7",
+        "metrics": {
+          "rms_dbfs": -57.50689294432537,
+          "peak_dbfs": -43.989591790056004,
+          "nonzero_samples": 3042156
+        }
+      },
+      {
+        "name": "sifflement_n1_v27",
+        "kind": "whistle",
+        "start_s": 0.3,
+        "end_s": 0.7,
+        "pcm_sha256": "fd7691366dd07a66c3a9d3b1b3abd88985f27a580223a14b7ab8106411cb35a7",
+        "metrics": {
+          "rms_dbfs": -33.90869995992952,
+          "peak_dbfs": -29.110160937955264,
+          "nonzero_samples": 37650
+        }
+      },
+      {
+        "name": "sifflement_n2_v27",
+        "kind": "whistle",
+        "start_s": 0.8555625,
+        "end_s": 1.2555625,
+        "pcm_sha256": "976dfc4fa95bc2d76275765ae70fc9e047bcdbba34b9ca28de71d00c7beb7058",
+        "metrics": {
+          "rms_dbfs": -34.05283217879904,
+          "peak_dbfs": -28.967581578286957,
+          "nonzero_samples": 37660
+        }
+      },
+      {
+        "name": "sifflement_n3_v27",
+        "kind": "whistle",
+        "start_s": 1.4111041666666666,
+        "end_s": 1.7311041666666667,
+        "pcm_sha256": "99b33c2836a105a2eb3c872f0049ca8edaed2e03367502d416fa1975e1bc14fd",
+        "metrics": {
+          "rms_dbfs": -34.25353257487866,
+          "peak_dbfs": -29.35571480716316,
+          "nonzero_samples": 29966
+        }
+      },
+      {
+        "name": "cuillere_posee_v27",
+        "kind": "wood_contact",
+        "start_s": 2.7,
+        "end_s": 2.8,
+        "pcm_sha256": "96ba49c86548ad9e461fefacd81b389ebfe9bcf6e3a643a43f3efed478cc73f7",
+        "metrics": {
+          "rms_dbfs": -47.31904948054982,
+          "peak_dbfs": -33.102238567774485,
+          "nonzero_samples": 8212
+        }
+      },
+      {
+        "name": "c1_eau_v27",
+        "kind": "water",
+        "start_s": 3.9,
+        "end_s": 5.35,
+        "pcm_sha256": "ec23e7efd7d25c1d53f6cd22a7f02a0145f3e21991363edeff16e2c55dad7f56",
+        "metrics": {
+          "rms_dbfs": -39.137311506038024,
+          "peak_dbfs": -24.99849199481288,
+          "nonzero_samples": 138744
+        }
+      },
+      {
+        "name": "c1_robinet_ouvre_v27",
+        "kind": "tap",
+        "start_s": 3.9,
+        "end_s": 3.975,
+        "pcm_sha256": "7518e8ae58e40b7239e74f50ecbc1e5c31de5f0aa3cdf6aa753c0a6cecaede12",
+        "metrics": {
+          "rms_dbfs": -46.088731367800335,
+          "peak_dbfs": -28.99740440462539,
+          "nonzero_samples": 6232
+        }
+      },
+      {
+        "name": "c1_robinet_ferme_v27",
+        "kind": "tap",
+        "start_s": 5.35,
+        "end_s": 5.425,
+        "pcm_sha256": "e51576a002e246f767e84aa679048bad3d65d000c67c0784c9839c68f4735cc2",
+        "metrics": {
+          "rms_dbfs": -45.000313667039286,
+          "peak_dbfs": -29.117730341169008,
+          "nonzero_samples": 6331
+        }
+      },
+      {
+        "name": "c1_paper_pull_v26_00",
+        "kind": "paper_pull",
+        "start_s": 6.024,
+        "end_s": 6.304,
+        "pcm_sha256": "b6c9a0015a77ed65c8be62dcf6186bc96dfd67fdc7a5f89f7c7da5bce6eba617",
+        "metrics": {
+          "rms_dbfs": -43.63281364782467,
+          "peak_dbfs": -26.00153564352592,
+          "nonzero_samples": 26688
+        }
+      },
+      {
+        "name": "c1_paper_tear_v26_01",
+        "kind": "paper_tear",
+        "start_s": 6.4,
+        "end_s": 6.56,
+        "pcm_sha256": "379b4b776117825e8bbfe435bc38daed61930f48ea414dbdd6a94c2741335258",
+        "metrics": {
+          "rms_dbfs": -43.9032908604026,
+          "peak_dbfs": -25.498013733542365,
+          "nonzero_samples": 15046
+        }
+      },
+      {
+        "name": "c1_paper_wipe_v26_02",
+        "kind": "paper_wipe",
+        "start_s": 6.574416666666667,
+        "end_s": 6.7564166666666665,
+        "pcm_sha256": "b6de1ca77e8e70522dfd09fdae166068d25f2cc445f7c9110333ee684381d8da",
+        "metrics": {
+          "rms_dbfs": -43.21648362446854,
+          "peak_dbfs": -26.502364735788532,
+          "nonzero_samples": 17308
+        }
+      },
+      {
+        "name": "c1_paper_wipe_v26_03",
+        "kind": "paper_wipe",
+        "start_s": 6.81275,
+        "end_s": 6.99475,
+        "pcm_sha256": "e8e280ddcc14f28e203e26c011e56c97a76c1a9caa2f8b1f3767228bf591d67d",
+        "metrics": {
+          "rms_dbfs": -44.455159599033266,
+          "peak_dbfs": -26.502364735788532,
+          "nonzero_samples": 17292
+        }
+      },
+      {
+        "name": "c1_paper_crumple_v26_04",
+        "kind": "paper_crumple",
+        "start_s": 7.3,
+        "end_s": 7.58,
+        "pcm_sha256": "dd9123a183cde4f184066d113b1cbcbdf994e8514a8e3bced06dab0d575e7eef",
+        "metrics": {
+          "rms_dbfs": -44.999957958504105,
+          "peak_dbfs": -34.117804406489,
+          "nonzero_samples": 26768
+        }
+      },
+      {
+        "name": "papier_lacher_c1_v27",
+        "kind": "paper_release_texture",
+        "start_s": 7.82,
+        "end_s": 7.94,
+        "pcm_sha256": "8b56a4c43a83fbfcd878a1d959d6da637bf90c737d6eec1ea1e2c5d81a6436a7",
+        "metrics": {
+          "rms_dbfs": -49.000281687027574,
+          "peak_dbfs": -34.63092711373966,
+          "nonzero_samples": 11457
+        }
+      },
+      {
+        "name": "c1_paper_land_v26_05",
+        "kind": "paper_land",
+        "start_s": 8.36,
+        "end_s": 8.52,
+        "pcm_sha256": "a2b8149e8330390134ca5d45e029854248a37d1a6ee5dac63a6cf4a406bdd142",
+        "metrics": {
+          "rms_dbfs": -52.86411424911481,
+          "peak_dbfs": -27.498837838430767,
+          "nonzero_samples": 14968
+        }
+      },
+      {
+        "name": "papier_tas_matiere_c1_v27",
+        "kind": "paper_heap_body",
+        "start_s": 8.36,
+        "end_s": 8.56,
+        "pcm_sha256": "ce0707b4c73597192a28eacc6bb84d4fa90157a61ccdb67b1aaf9c0219a85821",
+        "metrics": {
+          "rms_dbfs": -47.08838467558273,
+          "peak_dbfs": -27.996788465708363,
+          "nonzero_samples": 18307
+        }
+      },
+      {
+        "name": "carotte_coupe_1_v27",
+        "kind": "carrot_chop",
+        "start_s": 9.4,
+        "end_s": 9.495,
+        "pcm_sha256": "48d036b80afb92a9a28666bd43e3f20723e6afbfc9b0443765d949f883062f55",
+        "metrics": {
+          "rms_dbfs": -40.537806319862774,
+          "peak_dbfs": -23.500116402391992,
+          "nonzero_samples": 8253
+        }
+      },
+      {
+        "name": "carotte_coupe_2_v27",
+        "kind": "carrot_chop",
+        "start_s": 9.98,
+        "end_s": 10.075,
+        "pcm_sha256": "e2c147fd69ea82733077b3f04dbdfa34bf3dfc11891973eb3f2178d269201fb0",
+        "metrics": {
+          "rms_dbfs": -42.38917359870386,
+          "peak_dbfs": -26.76404197408189,
+          "nonzero_samples": 8222
+        }
+      },
+      {
+        "name": "couteau_pose_v27",
+        "kind": "knife_setdown",
+        "start_s": 10.4,
+        "end_s": 10.505,
+        "pcm_sha256": "6223eacb413de8382af3fd9d9d6af852876afdbedad8bb28b2724892ce73702b",
+        "metrics": {
+          "rms_dbfs": -46.03785103846689,
+          "peak_dbfs": -29.504866147700138,
+          "nonzero_samples": 8564
+        }
+      },
+      {
+        "name": "c2_eau_v27",
+        "kind": "water",
+        "start_s": 11.3,
+        "end_s": 12.4,
+        "pcm_sha256": "33ad142bcdda69e80c49b699c784123379b07a03e972cd1f3fdc12b9237a4ffe",
+        "metrics": {
+          "rms_dbfs": -39.000038436838395,
+          "peak_dbfs": -25.098031246454767,
+          "nonzero_samples": 105186
+        }
+      },
+      {
+        "name": "c2_robinet_ouvre_v27",
+        "kind": "tap",
+        "start_s": 11.3,
+        "end_s": 11.375,
+        "pcm_sha256": "87cda7f9620a3c5bc0364867c91af0f2a1eb7d47baaee19e44802da4c58a3358",
+        "metrics": {
+          "rms_dbfs": -46.3627702966118,
+          "peak_dbfs": -28.99740440462539,
+          "nonzero_samples": 6260
+        }
+      },
+      {
+        "name": "c2_robinet_ferme_v27",
+        "kind": "tap",
+        "start_s": 12.4,
+        "end_s": 12.475,
+        "pcm_sha256": "cb8dde4465ff09e4e37dabae3de36d7ac289ac8cb500ebedba03cc1843400bd6",
+        "metrics": {
+          "rms_dbfs": -44.99992585824189,
+          "peak_dbfs": -29.132888965676223,
+          "nonzero_samples": 6293
+        }
+      },
+      {
+        "name": "c2_paper_pull_v26_06",
+        "kind": "paper_pull",
+        "start_s": 12.914,
+        "end_s": 13.092208333333334,
+        "pcm_sha256": "a17b36340d21117debf8a4c066d2aa4f4df783653053aefeead6bb3de75229a0",
+        "metrics": {
+          "rms_dbfs": -42.88836434110052,
+          "peak_dbfs": -26.00153564352592,
+          "nonzero_samples": 16994
+        }
+      },
+      {
+        "name": "c2_paper_tear_v26_07",
+        "kind": "paper_tear",
+        "start_s": 13.13,
+        "end_s": 13.27,
+        "pcm_sha256": "99ad772a76a7c98ead84f34ad0edf78b09b11b2ff72424a477e31b110a7bc338",
+        "metrics": {
+          "rms_dbfs": -43.35747031668617,
+          "peak_dbfs": -25.498013733542365,
+          "nonzero_samples": 13120
+        }
+      },
+      {
+        "name": "c2_paper_wipe_v26_08",
+        "kind": "paper_wipe",
+        "start_s": 13.264166666666666,
+        "end_s": 13.404166666666667,
+        "pcm_sha256": "e1975e5ff364eabf86513e665fe6813a8d759404dbe2ed38cfde7f3d0d84db2c",
+        "metrics": {
+          "rms_dbfs": -42.499849878428435,
+          "peak_dbfs": -29.592402194137794,
+          "nonzero_samples": 13340
+        }
+      },
+      {
+        "name": "c2_paper_wipe_v26_09",
+        "kind": "paper_wipe",
+        "start_s": 13.445416666666667,
+        "end_s": 13.585416666666667,
+        "pcm_sha256": "ebdfed9609122ad87f696710af594001f961fe4ef3469fe02ba1d77215773659",
+        "metrics": {
+          "rms_dbfs": -43.181234286383166,
+          "peak_dbfs": -26.502364735788532,
+          "nonzero_samples": 13306
+        }
+      },
+      {
+        "name": "c2_paper_crumple_v26_10",
+        "kind": "paper_crumple",
+        "start_s": 13.63,
+        "end_s": 13.9,
+        "pcm_sha256": "2d398ac9aac5b000167f97c05363443e2f4a67f50d95f8f70b95cc535a099e02",
+        "metrics": {
+          "rms_dbfs": -44.999917350207326,
+          "peak_dbfs": -34.80407350438963,
+          "nonzero_samples": 25760
+        }
+      },
+      {
+        "name": "c2_paper_land_v26_11",
+        "kind": "paper_land",
+        "start_s": 14.62,
+        "end_s": 14.78,
+        "pcm_sha256": "22d328e5d12e2f2f064d94eb03f6d6b5611fc3490224e59239afa43601ca9c14",
+        "metrics": {
+          "rms_dbfs": -45.88823801602516,
+          "peak_dbfs": -27.498837838430767,
+          "nonzero_samples": 15242
+        }
+      },
+      {
+        "name": "papier_tas_matiere_c2_v27",
+        "kind": "paper_heap_body",
+        "start_s": 14.62,
+        "end_s": 14.91,
+        "pcm_sha256": "a48db3ba2cee6f5f6054cda1ee03b94f02b34f779bb14ccdc4a2206875fef5c5",
+        "metrics": {
+          "rms_dbfs": -45.70010829453643,
+          "peak_dbfs": -28.137698224537672,
+          "nonzero_samples": 27737
+        }
+      },
+      {
+        "name": "contact_tomate_v27",
+        "kind": "tomato_contact",
+        "start_s": 15.58,
+        "end_s": 15.69,
+        "pcm_sha256": "dbdc02d12c1e60219ca0f4dd5dd612fb385e9fe28b95dea62b7b54e2aeef51b7",
+        "metrics": {
+          "rms_dbfs": -48.780718022825,
+          "peak_dbfs": -32.001001994948965,
+          "nonzero_samples": 8792
+        }
+      },
+      {
+        "name": "c3_eau_v27",
+        "kind": "water",
+        "start_s": 16.5,
+        "end_s": 17.45,
+        "pcm_sha256": "d540820b5e41bcddc425142f3b0f4689d9c76ebca5264be658ffeb0f003e152f",
+        "metrics": {
+          "rms_dbfs": -38.99996668509956,
+          "peak_dbfs": -25.782156955921742,
+          "nonzero_samples": 90818
+        }
+      },
+      {
+        "name": "c3_robinet_ouvre_v27",
+        "kind": "tap",
+        "start_s": 16.5,
+        "end_s": 16.575,
+        "pcm_sha256": "9da8855287c4bb535f0b791fd2906ffc19ba3f9e4f79a057a947c179dc045e83",
+        "metrics": {
+          "rms_dbfs": -45.52935473322425,
+          "peak_dbfs": -28.99740440462539,
+          "nonzero_samples": 6264
+        }
+      },
+      {
+        "name": "c3_robinet_ferme_v27",
+        "kind": "tap",
+        "start_s": 17.45,
+        "end_s": 17.525,
+        "pcm_sha256": "e5ea3ec2b1ee7d5c388526fdcb32fc26d9183205511e1249070eb300ca1aed5b",
+        "metrics": {
+          "rms_dbfs": -45.22896465441037,
+          "peak_dbfs": -28.99740440462539,
+          "nonzero_samples": 6369
+        }
+      },
+      {
+        "name": "c3_paper_pull_v26_12",
+        "kind": "paper_pull",
+        "start_s": 17.896,
+        "end_s": 18.047791666666665,
+        "pcm_sha256": "5049e32760e0756370c2ec1d59a791b2999ebe769894373447cf10db0034a904",
+        "metrics": {
+          "rms_dbfs": -41.336849614025006,
+          "peak_dbfs": -26.00153564352592,
+          "nonzero_samples": 14472
+        }
+      },
+      {
+        "name": "c3_paper_tear_v26_13",
+        "kind": "paper_tear",
+        "start_s": 18.08,
+        "end_s": 18.2,
+        "pcm_sha256": "6c0dd45b51288ee03fb3c7940660d05e7335641724452db3f1d0294202fc5cab",
+        "metrics": {
+          "rms_dbfs": -42.705575753290915,
+          "peak_dbfs": -25.498013733542365,
+          "nonzero_samples": 11310
+        }
+      },
+      {
+        "name": "c3_paper_wipe_v26_14",
+        "kind": "paper_wipe",
+        "start_s": 18.184645833333335,
+        "end_s": 18.293854166666666,
+        "pcm_sha256": "24c90f991715157976e4342e3f98bdbfd23d5001f50f9ecc8f7f1e377bc9a6c5",
+        "metrics": {
+          "rms_dbfs": -42.49994265455112,
+          "peak_dbfs": -28.103940352126298,
+          "nonzero_samples": 10340
+        }
+      },
+      {
+        "name": "c3_paper_wipe_v26_15",
+        "kind": "paper_wipe",
+        "start_s": 18.326020833333335,
+        "end_s": 18.435229166666666,
+        "pcm_sha256": "d427503637e15cf92a6736a2346e965447b35c8d0ee51d0d1aa4b5b64a1529f6",
+        "metrics": {
+          "rms_dbfs": -45.718472247774756,
+          "peak_dbfs": -26.502364735788532,
+          "nonzero_samples": 10314
+        }
+      },
+      {
+        "name": "c3_paper_crumple_v26_16",
+        "kind": "paper_crumple",
+        "start_s": 18.47,
+        "end_s": 18.69,
+        "pcm_sha256": "df99de42534abb4254b43c2c52e8cc244adaaa41c1b13f0d6fb148ecf4e448ad",
+        "metrics": {
+          "rms_dbfs": -44.999961720583414,
+          "peak_dbfs": -34.57397025628313,
+          "nonzero_samples": 20963
+        }
+      },
+      {
+        "name": "papier_lacher_c3_v27",
+        "kind": "paper_release_texture",
+        "start_s": 18.86,
+        "end_s": 19.02,
+        "pcm_sha256": "42ca9ca5c7b12e1f92887a50def290ba11a9d330be6c21118b8c3bf930032b71",
+        "metrics": {
+          "rms_dbfs": -52.67792118882686,
+          "peak_dbfs": -27.996788465708363,
+          "nonzero_samples": 14580
+        }
+      },
+      {
+        "name": "c3_paper_land_v26_17",
+        "kind": "paper_land",
+        "start_s": 19.18,
+        "end_s": 19.34,
+        "pcm_sha256": "df4fd91365549b137166c65287cefe96715ed3b3451df8d2c47a7aa4b71ac563",
+        "metrics": {
+          "rms_dbfs": -51.11614381690547,
+          "peak_dbfs": -27.498837838430767,
+          "nonzero_samples": 15034
+        }
+      },
+      {
+        "name": "papier_tas_matiere_c3_v27",
+        "kind": "paper_heap_body",
+        "start_s": 19.18,
+        "end_s": 19.58,
+        "pcm_sha256": "a856a8c6c5f34352685f07af9a0c186bc2a9613024ca0fd8697db843f7bf97af",
+        "metrics": {
+          "rms_dbfs": -44.79213303653183,
+          "peak_dbfs": -27.996788465708363,
+          "nonzero_samples": 38264
+        }
+      },
+      {
+        "name": "sel_saupoudre_v27",
+        "kind": "salt_sprinkle",
+        "start_s": 20.1,
+        "end_s": 20.6,
+        "pcm_sha256": "697a40bf8567965716b772edb098de4e05f654b2d2d13dc19978c66ea117673d",
+        "metrics": {
+          "rms_dbfs": -55.832022689507454,
+          "peak_dbfs": -33.997443732709016,
+          "nonzero_samples": 45434
+        }
+      },
+      {
+        "name": "mou_hesitation",
+        "kind": "mou_nonverbal",
+        "start_s": 21.98,
+        "end_s": 22.16,
+        "pcm_sha256": "3545a40bf01ffba0088b27c7141e20af57ead63a00cbb45748809cc0eafcbae2",
+        "metrics": {
+          "rms_dbfs": -38.99985308319273,
+          "peak_dbfs": -29.117730341169008,
+          "nonzero_samples": 16272
+        }
+      },
+      {
+        "name": "c4_eau_v27",
+        "kind": "water",
+        "start_s": 23.25,
+        "end_s": 24.2,
+        "pcm_sha256": "1a48771dc598d7334f48ff043e02d409411936e2aade733c389ab6ed5b52d81f",
+        "metrics": {
+          "rms_dbfs": -39.00000108488959,
+          "peak_dbfs": -26.259232357992488,
+          "nonzero_samples": 90606
+        }
+      },
+      {
+        "name": "c4_robinet_ouvre_v27",
+        "kind": "tap",
+        "start_s": 23.25,
+        "end_s": 23.325,
+        "pcm_sha256": "c7b1f7418ca10f6e08cd8f27dcab04fc3c52afaca5e420d8cee11d8808d7106b",
+        "metrics": {
+          "rms_dbfs": -45.01688377408274,
+          "peak_dbfs": -28.99740440462539,
+          "nonzero_samples": 6387
+        }
+      },
+      {
+        "name": "c4_robinet_ferme_v27",
+        "kind": "tap",
+        "start_s": 24.2,
+        "end_s": 24.275,
+        "pcm_sha256": "f72afdae290f3645b9ec7090d62adc42c90fa84646328f74bb7888735601faf3",
+        "metrics": {
+          "rms_dbfs": -45.05990574177278,
+          "peak_dbfs": -28.99740440462539,
+          "nonzero_samples": 6259
+        }
+      },
+      {
+        "name": "c4_tiny_paper_pull_v26_18",
+        "kind": "tiny_paper_pull",
+        "start_s": 24.8,
+        "end_s": 25.08,
+        "pcm_sha256": "2352d81bca54baf8cca23e08559c891c7a48dc705a09508f47ea9382adfda858",
+        "metrics": {
+          "rms_dbfs": -54.60963824141523,
+          "peak_dbfs": -27.996788465708363,
+          "nonzero_samples": 26152
+        }
+      },
+      {
+        "name": "c4_tiny_paper_tear_v26_19",
+        "kind": "tiny_paper_tear",
+        "start_s": 25.2,
+        "end_s": 25.32,
+        "pcm_sha256": "e5b16fe2649a5abb176ebd13a6810bd1cf369188bf92a279910b633dfd609f49",
+        "metrics": {
+          "rms_dbfs": -45.68526361574237,
+          "peak_dbfs": -28.496784542626227,
+          "nonzero_samples": 11234
+        }
+      },
+      {
+        "name": "mou_inspiration",
+        "kind": "mou_nonverbal",
+        "start_s": 25.68,
+        "end_s": 25.84,
+        "pcm_sha256": "a600466d86910f5164d9904a53f7b01a493963a47f755d859c89b4f7f005c1ec",
+        "metrics": {
+          "rms_dbfs": -42.56379879080327,
+          "peak_dbfs": -26.9981771647469,
+          "nonzero_samples": 14936
+        }
+      },
+      {
+        "name": "c4_tiny_paper_wipe_v26_20",
+        "kind": "tiny_paper_wipe",
+        "start_s": 26.885833333333334,
+        "end_s": 27.085833333333333,
+        "pcm_sha256": "4cc18ee1525f2d708976ad237988ddbc11ba7296ac7949a5bbeecbfb5129898e",
+        "metrics": {
+          "rms_dbfs": -46.151393566616186,
+          "peak_dbfs": -27.996788465708363,
+          "nonzero_samples": 18962
+        }
+      },
+      {
+        "name": "c4_tiny_paper_wipe_v26_21",
+        "kind": "tiny_paper_wipe",
+        "start_s": 27.23125,
+        "end_s": 27.35,
+        "pcm_sha256": "5a4f6cd07299c58e715f9785adafbd0f8c6005a4bbde8e60f3526d28425b95d4",
+        "metrics": {
+          "rms_dbfs": -44.00009980035549,
+          "peak_dbfs": -28.35691212170614,
+          "nonzero_samples": 11250
+        }
+      },
+      {
+        "name": "c4_tiny_paper_crumple_v26_22",
+        "kind": "tiny_paper_crumple",
+        "start_s": 27.35,
+        "end_s": 28.0,
+        "pcm_sha256": "fbec58b0586679e7f7b46df3b26d7e11f397a9ee2fb594267f787aea0075afce",
+        "metrics": {
+          "rms_dbfs": -50.6465160890164,
+          "peak_dbfs": -28.99740440462539,
+          "nonzero_samples": 61948
+        }
+      },
+      {
+        "name": "c4_tiny_paper_land_v26_23",
+        "kind": "tiny_paper_land",
+        "start_s": 29.0,
+        "end_s": 29.12,
+        "pcm_sha256": "2d71295575d4a546135b6f186d69c08290cd3ec8b720d58fb7de7e92ed5ffa45",
+        "metrics": {
+          "rms_dbfs": -48.53683547706956,
+          "peak_dbfs": -30.001803591010074,
+          "nonzero_samples": 11238
+        }
+      },
+      {
+        "name": "papier_tas_matiere_c4_v27",
+        "kind": "paper_heap_body",
+        "start_s": 29.0,
+        "end_s": 29.16,
+        "pcm_sha256": "daee9b1ebc2d2ee33d0eee1853096ef32a61328ea2cb52cb4385108b5ede65b2",
+        "metrics": {
+          "rms_dbfs": -51.91467047541202,
+          "peak_dbfs": -27.996788465708363,
+          "nonzero_samples": 15116
+        }
+      },
+      {
+        "name": "c4_tiny_paper_floor_v26_24",
+        "kind": "tiny_paper_floor",
+        "start_s": 29.85,
+        "end_s": 29.97,
+        "pcm_sha256": "fc9aca57f6e68ffc453e2e59887ca701ebd1e31b240ac46c5fc980e12e151a06",
+        "metrics": {
+          "rms_dbfs": -53.65298930552774,
+          "peak_dbfs": -30.995559274792225,
+          "nonzero_samples": 11150
+        }
+      },
+      {
+        "name": "papier_sol_matiere_v27",
+        "kind": "paper_floor_texture",
+        "start_s": 29.85,
+        "end_s": 29.97,
+        "pcm_sha256": "7235c3c4e0a0db557d4197d01a81945f792febbac8cce675eb157ba3ee6e1c6d",
+        "metrics": {
+          "rms_dbfs": -51.55375535673325,
+          "peak_dbfs": -27.996788465708363,
+          "nonzero_samples": 11164
+        }
+      },
+      {
+        "name": "mou_choc",
+        "kind": "mou_nonverbal",
+        "start_s": 31.76,
+        "end_s": 31.96,
+        "pcm_sha256": "a5d7919420e4154efa6f2c693cb1c2c9bf018dae756d1ad5f51845b85d0cc377",
+        "metrics": {
+          "rms_dbfs": -38.499995755723,
+          "peak_dbfs": -28.454585805512377,
+          "nonzero_samples": 17304
+        }
+      },
+      {
+        "name": "room_air_2_v27",
+        "kind": "room_ambience",
+        "start_s": 32.5,
+        "end_s": 38.0,
+        "pcm_sha256": "650154b0707d9c9b74c5613387801c29ea8fedeb2292624107e4d774249df159",
+        "metrics": {
+          "rms_dbfs": -58.24976663546737,
+          "peak_dbfs": -45.498013733542365,
+          "nonzero_samples": 450456
+        }
+      },
+      {
+        "name": "dernier_tsss_poele_v27",
+        "kind": "last_pan_sizzle",
+        "start_s": 32.6,
+        "end_s": 32.95,
+        "pcm_sha256": "edd1454cab673b22be20f554328cfcbd50f3cea3993919401124d218a70f9a3c",
+        "metrics": {
+          "rms_dbfs": -46.513636370425445,
+          "peak_dbfs": -27.996788465708363,
+          "nonzero_samples": 32228
+        }
+      },
+      {
+        "name": "mou_expiration",
+        "kind": "mou_nonverbal",
+        "start_s": 32.78,
+        "end_s": 33.06,
+        "pcm_sha256": "5bdd03ed21dfddc95f0195ceccca9b56f07478a52a85da9e9c35f964d1a384d8",
+        "metrics": {
+          "rms_dbfs": -42.23716748884084,
+          "peak_dbfs": -26.9981771647469,
+          "nonzero_samples": 26256
+        }
+      },
+      {
+        "name": "mou_satisfaction",
+        "kind": "mou_nonverbal",
+        "start_s": 35.15,
+        "end_s": 35.31,
+        "pcm_sha256": "334398f0192197b6cba5c0cf4bea54c5f837a949aff7f83c07aea2c66b1857ec",
+        "metrics": {
+          "rms_dbfs": -43.81271653937988,
+          "peak_dbfs": -26.9981771647469,
+          "nonzero_samples": 3012
+        }
+      }
+    ],
+    "retained_v26_pcm_and_timing_directly_verified": 46,
+    "stems": [
+      {
+        "track": "guitare",
+        "file_sha256": "63f2c97f0b63b9dd413b186e2036ce41bb8ac4cdd90e51b90f27b4e52f249609",
+        "metrics": {
+          "rms_dbfs": -42.822706381092544,
+          "peak_dbfs": -25.237392907950703,
+          "nonzero_samples": 2749386
+        }
+      },
+      {
+        "track": "basse",
+        "file_sha256": "4083f82c3d1810475ababe63545c80042e6f1a9feed1dc8363e881912fc326ed",
+        "metrics": {
+          "rms_dbfs": -51.91154851849372,
+          "peak_dbfs": -36.12359947967774,
+          "nonzero_samples": 2897355
+        }
+      },
+      {
+        "track": "effets",
+        "file_sha256": "db9aff598280fd9e0f04f47ae1ff9e2578bfe3733822d528aa114c1d16349ead",
+        "metrics": {
+          "rms_dbfs": -42.02344952265592,
+          "peak_dbfs": -23.512023038441615,
+          "nonzero_samples": 3089332
+        }
+      },
+      {
+        "track": "voix",
+        "file_sha256": "e527e5da383359fe68f6fc8d55d9d5ea522670373b627dea5b8bd67a7becece3",
+        "metrics": {
+          "rms_dbfs": -56.59886045534951,
+          "peak_dbfs": -26.9981771647469,
+          "nonzero_samples": 77780
+        }
+      },
+      {
+        "track": "ambiance",
+        "file_sha256": "2923d683e26c06abef314b1cf25db87e7a4c62495467c981d67e463223670f53",
+        "metrics": {
+          "rms_dbfs": -57.66573458511167,
+          "peak_dbfs": -43.989591790056004,
+          "nonzero_samples": 3492612
+        }
+      }
+    ],
+    "vocal_count": 5,
+    "vocal_total_seconds": 0.98,
+    "vocals": [
+      {
+        "name": "mou_hesitation",
+        "start": 21.98,
+        "duration": 0.18,
+        "metrics": {
+          "rms_dbfs": -38.99985308319273,
+          "peak_dbfs": -29.117730341169008,
+          "nonzero_samples": 16272
+        }
+      },
+      {
+        "name": "mou_inspiration",
+        "start": 25.68,
+        "duration": 0.16,
+        "metrics": {
+          "rms_dbfs": -42.56379879080327,
+          "peak_dbfs": -26.9981771647469,
+          "nonzero_samples": 14936
+        }
+      },
+      {
+        "name": "mou_choc",
+        "start": 31.76,
+        "duration": 0.2,
+        "metrics": {
+          "rms_dbfs": -38.499995755723,
+          "peak_dbfs": -28.454585805512377,
+          "nonzero_samples": 17304
+        }
+      },
+      {
+        "name": "mou_expiration",
+        "start": 32.78,
+        "duration": 0.28,
+        "metrics": {
+          "rms_dbfs": -42.23716748884084,
+          "peak_dbfs": -26.9981771647469,
+          "nonzero_samples": 26256
+        }
+      },
+      {
+        "name": "mou_satisfaction",
+        "start": 35.15,
+        "duration": 0.16,
+        "metrics": {
+          "rms_dbfs": -43.81271653937988,
+          "peak_dbfs": -26.9981771647469,
+          "nonzero_samples": 3012
+        }
+      }
+    ],
+    "music_pcm_sha256": "b87512ba09eaee106fdf35d16e0346fdf5a9b712a6ce56939cfe160fe828296c",
+    "music_zero_outside_intervals": [
+      [
+        0.0,
+        32.0
+      ],
+      [
+        36.25,
+        36.75
+      ]
+    ],
+    "vocal_sources_licence_verified": "CC0 1.0 notice and all original/decoded SHA verified",
+    "vocal_source_limits": "Repository identifies CC0 assets but original recording method was not recovered. No listening was possible. Do not call these verified natural human recordings.",
+    "wordlessness_note": "Intended nonverbal cue timings verified; no listening/transcription claim."
+  },
+  "tested_sources_sha256": {
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/mux.py": "9db34927f54f8bca5944e46176a9d1e3381f66887211df74e4c9e129e1584f42",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/reference_acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/foley_supplement.py": "ecb920e1be95038a0c919d22f182602f52211501e25a069b9a18beb71539a112",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/subset_soundfont.py": "bbefb0044b06efe787ea4c0a56106cffcb0026ae0531d3807420c25f6cfd6fc8",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/music.py": "c9e03e47d17f58db8460dd544ab1a12479b0f831a0bacee40304255b01000621",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/jeu_visage.py": "1eb3cbdf61b525ba6b1b3f9583e5ff40dbb9c3e8c3397efe1309ce474f777897",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/test_scene.py": "6c7b1261f42ce34bf343c9bc41818c904464a76f8e3c25eaeec16c751fcab9a1",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/performance.py": "470be3672654baed33d29176cc2732adaf91548d9a02447f6b3aabbb8b6dddc4",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/package.py": "99bb12fb90c11b79412a408293035daa1866e2a19c75d3099dc8aad2d6576c4e",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/cooking_fx.py": "f3e522fb3a953dcadc647b1f6fb5711029d2dbdc0d23923463c17c2dffbedc27",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/sink.py": "5a45bc7b0c5d8c2e9d2e7b52b2505d8ef1830a25dacf5a65f37f5416eb2675f8",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/son.py": "8df164154ecf9a98843015ec239a8bc18984726482e7c9656fa1a2d5bf11de08",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/animation.py": "29748212112335d5113f0cd77c7b6f7839b6cb675ebc5096333fb74582676bcd",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/render.py": "6a4a7078476adcb4f4d27dd3946c2e646ab0e5c329c722a59f1a905fa9cd7af5",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/verify.py": "adda928a4f5f84c324e250928586e5951d1212f1799024c0f2c6b170e471db84",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/reference_performance.py": "6a3e64adfce3445ed9acd78721c5dda813325d9f7ef7865ab4156971855c281b",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/foley.py": "a12b2430d62609116ca7e120ecc53d50700374a8365705eefd55d6e01c600ca7",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/poses.json": "ba81b9a395f650f4d21e51e2052af39933ff19dba69402d2f8aea48f42170db7",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/reference_jeu_visage.py": "2725f1dc7e4be5eb8bea7565b03b2cd23c723a4019ccfb3270b8d47f3970ef07",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/art.py": "481475ec22011957c341726e616b665841af723450cac6028411153349f2f924",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/reference_animation.py": "b079195b7599a5a21042370d38480a780329b2378af9f0eeb536d97fc854e917",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/vocal.py": "de23574efe6a0065f87f4370b00f514d8bf83163411259c627c114d7e0af7e8a",
+    "/workspace/MOU/episodes/03/cuisine_v27/sources/planche_jeu.py": "cb632ada69dd77d54a83b4629ccd3c07f89451405fc2496f6642a4a3854d48bd",
+    "/workspace/MOU/episodes/03/cuisine_v27/chronologie_reference_v25.json": "e8586365c28bc84ca6cf2d6427e22ecec5debe9f7df57c10a310534856584d99",
+    "/workspace/MOU/episodes/03/cuisine_v27/chronologie.json": "5695031652327ad1564ad7dac8036c67c6fbf61c8a37e4555e559ff8d53bbe6a",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/FluidR3_MOU_trio.sf2": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/FluidR3_MOU_trio.json": "0bb7e36fe0952b38a323130f9b88a05de1a7faadf2a954b58ec932ba8dcff716",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/LGPL-2.1.txt": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/FluidSynth_COPYRIGHT.txt": "239bb790cefe6fcebfb7c55a80e41e08e75cddcead502215403266f4b9c298b5",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/NOTICE_FluidR3_COPYRIGHT.txt": "f2f5e6358fc7c1fe62aafc6c8229c4c5898e5afb0d4ce1322b15362a8cbd600e",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/OFL_Nunito.txt": "ee9491ad3ea5d390878695bd6cce49beb3cacd5c4312f8ab574b541e9f7afa21",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/FluidR3_MOU_bossa.sf2": "fa64be8254db1fbe0ffde1121beb14aae96d4fe0f7f485a82ebee1768276936f",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/README.md": "3ac5645611dd3911f98d41ec70e795746a6f5bd55223d397cf21aaca056954c8",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/FluidR3_README.md": "e0372e45cd4b1b51ce891e1f17c7256e4c5950ab03ef62c12ce24a722b48f47f",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/FluidR3_MOU_bossa.json": "cb44c325766f87b6666a01579b7b5b0a9674bd499f4d980b2345156890ddad63",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/CC0_LICENSE.txt": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/ooh.ogg": "6e2323960b6eaa931a75e4f75e3f13926cf3b67d4c21767cae88f2b2f7c83613",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/breath.ogg": "d6ecfd092c261059701fe81581957ce6e67c1737978449bbd98ec6d4f30abb7f",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/breath.wav": "46728d98e8e13b480dd4c7d4c1070f86b2deb90852bd59fde26c3deddb6f82ab",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/breath_02.wav": "27474bcd792817c3cecb516eea3953a7077096d4be042dacbd4fb049acefcf95",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/nose.ogg": "c54f2937d705bda30a9618531d62752356ba9e1cae258687131e1582b36e53ce",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/breath_02.ogg": "5b32729394cc36667bb8052508115941f21d85804f84ecda4c492d19883cd15e",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/ooh.wav": "21fe7a7cdce33620a1b1fa31e916914f163c4df7bfe74ab2071dee952cce9fc4",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/provenance.json": "3eafbc3cdf012219b4af5448445667ac33cfc058f5fe791fdb0cc1d4d54784b9",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/vocal_sources/nose.wav": "56505d46a95d5b231dd7c1880528416a4684748ba31ee3379f73b1f36fe67858",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/provenance.json": "c71d5e57705551325eb6c2503517a0eab53cb8d9b00c928ccc8a84e6e06149c3",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/rights/atom_MIT_LICENSE.txt": "f688bd222a68aa26576832b07c97f54ee7da7cf11109b1eaaafbab3ff72d4ab0",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/rights/Ben_Burnes_Paper_Cutter_CC0.txt": "771c08981f268afb6783d0f8ac154d34618387898e5f2db01ec2f59553f877ea",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/wav/paper__flatten__01.wav": "85e5d74384ee2dc76f2725749c24feaadd89135c526538f0dfe4819ca45f29d5",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/wav/Ben_Burnes_Paper_Scraps.wav": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/wav/paper__flatten__02.wav": "38d5d50beeb4b3b03ce1d20d0cfda6078ad4b3021acef57dd016b2a3e4eb34dd",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/wav/cardboard__tear__01.wav": "c140c3be8ae780d9bf9a28c1a69047b3674554c57763b182126ccfb582f28fec",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/evidence/atom_README.md": "a0e90e1a34ee85c7ead805e95251fc4e6d07bb387b837ea306ec7fb8dfd6f0a5",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/evidence/atom_map_paper.json": "501a01ae7e61830aa986063c07bcade0d171128f09605b1933773366ed1dd150",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/evidence/atom_map_cardboard.json": "0ae3990c7bf8394920bab420ac5893246d69bc17c9ab920068e59248f4cee6b7",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/evidence/atom_download_manifest.json": "b0eda866d0770e0ec674a38122b63df95e318a1b991f86362e753a53d39fb0c3",
+    "/workspace/MOU/episodes/03/cuisine_v27/assets/paper_recordings/evidence/library_source_manifest.json": "be3eb570fc566696d69209c74d45fc8424d9f0aa628f85440a166a623a2dbde7"
+  }
+}

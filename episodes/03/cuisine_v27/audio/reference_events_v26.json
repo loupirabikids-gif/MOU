@@ -1,0 +1,375 @@
+{
+  "source_revision": 26,
+  "source_provenance_sha256": "2545c99446536b085e983aee31390cd16ac89b88a7ed779ff907bf9dee11e7c6",
+  "events": [
+    {
+      "name": "sifflement_n1_v26",
+      "kind": "whistle",
+      "start": 0.3,
+      "duration": 0.4,
+      "samples": 19200,
+      "sha256": "fd7691366dd07a66c3a9d3b1b3abd88985f27a580223a14b7ab8106411cb35a7"
+    },
+    {
+      "name": "sifflement_n2_v26",
+      "kind": "whistle",
+      "start": 0.855556,
+      "duration": 0.4,
+      "samples": 19200,
+      "sha256": "976dfc4fa95bc2d76275765ae70fc9e047bcdbba34b9ca28de71d00c7beb7058"
+    },
+    {
+      "name": "sifflement_n3_v26",
+      "kind": "whistle",
+      "start": 1.411111,
+      "duration": 0.32,
+      "samples": 15360,
+      "sha256": "99b33c2836a105a2eb3c872f0049ca8edaed2e03367502d416fa1975e1bc14fd"
+    },
+    {
+      "name": "cuillere_posee_v26",
+      "kind": "wood_contact",
+      "start": 2.7,
+      "duration": 0.1,
+      "samples": 4800,
+      "sha256": "96ba49c86548ad9e461fefacd81b389ebfe9bcf6e3a643a43f3efed478cc73f7"
+    },
+    {
+      "name": "c1_eau_v26",
+      "kind": "water",
+      "start": 3.9,
+      "duration": 1.45,
+      "samples": 69600,
+      "sha256": "ec23e7efd7d25c1d53f6cd22a7f02a0145f3e21991363edeff16e2c55dad7f56"
+    },
+    {
+      "name": "c1_robinet_ouvre_v26",
+      "kind": "tap",
+      "start": 3.9,
+      "duration": 0.075,
+      "samples": 3600,
+      "sha256": "7518e8ae58e40b7239e74f50ecbc1e5c31de5f0aa3cdf6aa753c0a6cecaede12"
+    },
+    {
+      "name": "c1_robinet_ferme_v26",
+      "kind": "tap",
+      "start": 5.35,
+      "duration": 0.075,
+      "samples": 3600,
+      "sha256": "e51576a002e246f767e84aa679048bad3d65d000c67c0784c9839c68f4735cc2"
+    },
+    {
+      "name": "c1_paper_pull_v26_00",
+      "kind": "paper_pull",
+      "start": 6.024,
+      "duration": 0.28,
+      "samples": 13440,
+      "sha256": "b6c9a0015a77ed65c8be62dcf6186bc96dfd67fdc7a5f89f7c7da5bce6eba617"
+    },
+    {
+      "name": "c1_paper_tear_v26_01",
+      "kind": "paper_tear",
+      "start": 6.4,
+      "duration": 0.16,
+      "samples": 7680,
+      "sha256": "379b4b776117825e8bbfe435bc38daed61930f48ea414dbdd6a94c2741335258"
+    },
+    {
+      "name": "c1_paper_wipe_v26_02",
+      "kind": "paper_wipe",
+      "start": 6.574416666666667,
+      "duration": 0.182,
+      "samples": 8736,
+      "sha256": "b6de1ca77e8e70522dfd09fdae166068d25f2cc445f7c9110333ee684381d8da"
+    },
+    {
+      "name": "c1_paper_wipe_v26_03",
+      "kind": "paper_wipe",
+      "start": 6.812749999999999,
+      "duration": 0.182,
+      "samples": 8736,
+      "sha256": "e8e280ddcc14f28e203e26c011e56c97a76c1a9caa2f8b1f3767228bf591d67d"
+    },
+    {
+      "name": "c1_paper_crumple_v26_04",
+      "kind": "paper_crumple",
+      "start": 7.3,
+      "duration": 0.28,
+      "samples": 13440,
+      "sha256": "dd9123a183cde4f184066d113b1cbcbdf994e8514a8e3bced06dab0d575e7eef"
+    },
+    {
+      "name": "c1_paper_land_v26_05",
+      "kind": "paper_land",
+      "start": 8.36,
+      "duration": 0.16,
+      "samples": 7680,
+      "sha256": "a2b8149e8330390134ca5d45e029854248a37d1a6ee5dac63a6cf4a406bdd142"
+    },
+    {
+      "name": "carotte_coupe_1_v26",
+      "kind": "carrot_chop",
+      "start": 9.4,
+      "duration": 0.095,
+      "samples": 4560,
+      "sha256": "48d036b80afb92a9a28666bd43e3f20723e6afbfc9b0443765d949f883062f55"
+    },
+    {
+      "name": "carotte_coupe_2_v26",
+      "kind": "carrot_chop",
+      "start": 9.98,
+      "duration": 0.095,
+      "samples": 4560,
+      "sha256": "e2c147fd69ea82733077b3f04dbdfa34bf3dfc11891973eb3f2178d269201fb0"
+    },
+    {
+      "name": "couteau_pose_v26",
+      "kind": "knife_setdown",
+      "start": 10.4,
+      "duration": 0.105,
+      "samples": 5040,
+      "sha256": "6223eacb413de8382af3fd9d9d6af852876afdbedad8bb28b2724892ce73702b"
+    },
+    {
+      "name": "c2_eau_v26",
+      "kind": "water",
+      "start": 11.3,
+      "duration": 1.1,
+      "samples": 52800,
+      "sha256": "33ad142bcdda69e80c49b699c784123379b07a03e972cd1f3fdc12b9237a4ffe"
+    },
+    {
+      "name": "c2_robinet_ouvre_v26",
+      "kind": "tap",
+      "start": 11.3,
+      "duration": 0.075,
+      "samples": 3600,
+      "sha256": "87cda7f9620a3c5bc0364867c91af0f2a1eb7d47baaee19e44802da4c58a3358"
+    },
+    {
+      "name": "c2_robinet_ferme_v26",
+      "kind": "tap",
+      "start": 12.4,
+      "duration": 0.075,
+      "samples": 3600,
+      "sha256": "cb8dde4465ff09e4e37dabae3de36d7ac289ac8cb500ebedba03cc1843400bd6"
+    },
+    {
+      "name": "c2_paper_pull_v26_06",
+      "kind": "paper_pull",
+      "start": 12.914,
+      "duration": 0.17820833333333333,
+      "samples": 8554,
+      "sha256": "a17b36340d21117debf8a4c066d2aa4f4df783653053aefeead6bb3de75229a0"
+    },
+    {
+      "name": "c2_paper_tear_v26_07",
+      "kind": "paper_tear",
+      "start": 13.13,
+      "duration": 0.14,
+      "samples": 6720,
+      "sha256": "99ad772a76a7c98ead84f34ad0edf78b09b11b2ff72424a477e31b110a7bc338"
+    },
+    {
+      "name": "c2_paper_wipe_v26_08",
+      "kind": "paper_wipe",
+      "start": 13.264166666666668,
+      "duration": 0.14,
+      "samples": 6720,
+      "sha256": "e1975e5ff364eabf86513e665fe6813a8d759404dbe2ed38cfde7f3d0d84db2c"
+    },
+    {
+      "name": "c2_paper_wipe_v26_09",
+      "kind": "paper_wipe",
+      "start": 13.445416666666667,
+      "duration": 0.14,
+      "samples": 6720,
+      "sha256": "ebdfed9609122ad87f696710af594001f961fe4ef3469fe02ba1d77215773659"
+    },
+    {
+      "name": "c2_paper_crumple_v26_10",
+      "kind": "paper_crumple",
+      "start": 13.63,
+      "duration": 0.27,
+      "samples": 12960,
+      "sha256": "2d398ac9aac5b000167f97c05363443e2f4a67f50d95f8f70b95cc535a099e02"
+    },
+    {
+      "name": "c2_paper_land_v26_11",
+      "kind": "paper_land",
+      "start": 14.62,
+      "duration": 0.16,
+      "samples": 7680,
+      "sha256": "22d328e5d12e2f2f064d94eb03f6d6b5611fc3490224e59239afa43601ca9c14"
+    },
+    {
+      "name": "contact_tomate_v26",
+      "kind": "tomato_contact",
+      "start": 15.58,
+      "duration": 0.11,
+      "samples": 5280,
+      "sha256": "dbdc02d12c1e60219ca0f4dd5dd612fb385e9fe28b95dea62b7b54e2aeef51b7"
+    },
+    {
+      "name": "c3_eau_v26",
+      "kind": "water",
+      "start": 16.5,
+      "duration": 0.95,
+      "samples": 45600,
+      "sha256": "d540820b5e41bcddc425142f3b0f4689d9c76ebca5264be658ffeb0f003e152f"
+    },
+    {
+      "name": "c3_robinet_ouvre_v26",
+      "kind": "tap",
+      "start": 16.5,
+      "duration": 0.075,
+      "samples": 3600,
+      "sha256": "9da8855287c4bb535f0b791fd2906ffc19ba3f9e4f79a057a947c179dc045e83"
+    },
+    {
+      "name": "c3_robinet_ferme_v26",
+      "kind": "tap",
+      "start": 17.45,
+      "duration": 0.075,
+      "samples": 3600,
+      "sha256": "e5ea3ec2b1ee7d5c388526fdcb32fc26d9183205511e1249070eb300ca1aed5b"
+    },
+    {
+      "name": "c3_paper_pull_v26_12",
+      "kind": "paper_pull",
+      "start": 17.896,
+      "duration": 0.15179166666666666,
+      "samples": 7286,
+      "sha256": "5049e32760e0756370c2ec1d59a791b2999ebe769894373447cf10db0034a904"
+    },
+    {
+      "name": "c3_paper_tear_v26_13",
+      "kind": "paper_tear",
+      "start": 18.08,
+      "duration": 0.12,
+      "samples": 5760,
+      "sha256": "6c0dd45b51288ee03fb3c7940660d05e7335641724452db3f1d0294202fc5cab"
+    },
+    {
+      "name": "c3_paper_wipe_v26_14",
+      "kind": "paper_wipe",
+      "start": 18.184649999999998,
+      "duration": 0.10920833333333334,
+      "samples": 5242,
+      "sha256": "24c90f991715157976e4342e3f98bdbfd23d5001f50f9ecc8f7f1e377bc9a6c5"
+    },
+    {
+      "name": "c3_paper_wipe_v26_15",
+      "kind": "paper_wipe",
+      "start": 18.326024999999998,
+      "duration": 0.10920833333333334,
+      "samples": 5242,
+      "sha256": "d427503637e15cf92a6736a2346e965447b35c8d0ee51d0d1aa4b5b64a1529f6"
+    },
+    {
+      "name": "c3_paper_crumple_v26_16",
+      "kind": "paper_crumple",
+      "start": 18.47,
+      "duration": 0.22,
+      "samples": 10560,
+      "sha256": "df99de42534abb4254b43c2c52e8cc244adaaa41c1b13f0d6fb148ecf4e448ad"
+    },
+    {
+      "name": "c3_paper_land_v26_17",
+      "kind": "paper_land",
+      "start": 19.18,
+      "duration": 0.16,
+      "samples": 7680,
+      "sha256": "df4fd91365549b137166c65287cefe96715ed3b3451df8d2c47a7aa4b71ac563"
+    },
+    {
+      "name": "sel_saupoudre_v26",
+      "kind": "salt_sprinkle",
+      "start": 20.1,
+      "duration": 0.5,
+      "samples": 24000,
+      "sha256": "697a40bf8567965716b772edb098de4e05f654b2d2d13dc19978c66ea117673d"
+    },
+    {
+      "name": "c4_eau_v26",
+      "kind": "water",
+      "start": 23.25,
+      "duration": 0.95,
+      "samples": 45600,
+      "sha256": "1a48771dc598d7334f48ff043e02d409411936e2aade733c389ab6ed5b52d81f"
+    },
+    {
+      "name": "c4_robinet_ouvre_v26",
+      "kind": "tap",
+      "start": 23.25,
+      "duration": 0.075,
+      "samples": 3600,
+      "sha256": "c7b1f7418ca10f6e08cd8f27dcab04fc3c52afaca5e420d8cee11d8808d7106b"
+    },
+    {
+      "name": "c4_robinet_ferme_v26",
+      "kind": "tap",
+      "start": 24.2,
+      "duration": 0.075,
+      "samples": 3600,
+      "sha256": "f72afdae290f3645b9ec7090d62adc42c90fa84646328f74bb7888735601faf3"
+    },
+    {
+      "name": "c4_tiny_paper_pull_v26_18",
+      "kind": "tiny_paper_pull",
+      "start": 24.8,
+      "duration": 0.28,
+      "samples": 13440,
+      "sha256": "2352d81bca54baf8cca23e08559c891c7a48dc705a09508f47ea9382adfda858"
+    },
+    {
+      "name": "c4_tiny_paper_tear_v26_19",
+      "kind": "tiny_paper_tear",
+      "start": 25.2,
+      "duration": 0.12,
+      "samples": 5760,
+      "sha256": "e5b16fe2649a5abb176ebd13a6810bd1cf369188bf92a279910b633dfd609f49"
+    },
+    {
+      "name": "c4_tiny_paper_wipe_v26_20",
+      "kind": "tiny_paper_wipe",
+      "start": 26.88583333333333,
+      "duration": 0.2,
+      "samples": 9600,
+      "sha256": "4cc18ee1525f2d708976ad237988ddbc11ba7296ac7949a5bbeecbfb5129898e"
+    },
+    {
+      "name": "c4_tiny_paper_wipe_v26_21",
+      "kind": "tiny_paper_wipe",
+      "start": 27.231250000000003,
+      "duration": 0.11875,
+      "samples": 5700,
+      "sha256": "5a4f6cd07299c58e715f9785adafbd0f8c6005a4bbde8e60f3526d28425b95d4"
+    },
+    {
+      "name": "c4_tiny_paper_crumple_v26_22",
+      "kind": "tiny_paper_crumple",
+      "start": 27.35,
+      "duration": 0.65,
+      "samples": 31200,
+      "sha256": "fbec58b0586679e7f7b46df3b26d7e11f397a9ee2fb594267f787aea0075afce"
+    },
+    {
+      "name": "c4_tiny_paper_land_v26_23",
+      "kind": "tiny_paper_land",
+      "start": 29.0,
+      "duration": 0.12,
+      "samples": 5760,
+      "sha256": "2d71295575d4a546135b6f186d69c08290cd3ec8b720d58fb7de7e92ed5ffa45"
+    },
+    {
+      "name": "c4_tiny_paper_floor_v26_24",
+      "kind": "tiny_paper_floor",
+      "start": 29.85,
+      "duration": 0.12,
+      "samples": 5760,
+      "sha256": "fc9aca57f6e68ffc453e2e59887ca701ebd1e31b240ac46c5fc980e12e151a06"
+    }
+  ],
+  "method": "Metadata snapshot; only hashes used, no V26 folder input required."
+}

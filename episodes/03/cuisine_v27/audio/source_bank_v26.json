@@ -1,0 +1,1450 @@
+{
+  "source_manifest_sha256": "250530792792a56bee0b046cd9f3c7cae7f574f7adef31d0d514a62ad0899196",
+  "source_revision": "V24 event metadata retained by V25",
+  "raw_events": {
+    "cuisson_v22": {
+      "name": "cuisson_v22",
+      "kind": "frying",
+      "file": "raw_bank/cuisson_v22.wav",
+      "source_file": "cuisson.wav",
+      "source_sha256": "9e81e276f6a40cd5efe68e2eee1c7e342f11f3d41c77a16fae2371f6786040a7",
+      "sha256": "d52f6d6ad89509dbc86d31716b244945425686a0ad43e0d6d28339adbf5f8fbd",
+      "start": 0.0,
+      "duration": 40.25,
+      "start_sample": 0,
+      "samples": 1932000,
+      "end_seconds": 40.25,
+      "gain_db_relative_to_old_postmaster": -4.0,
+      "tail_fade_seconds": 0.2,
+      "stage": "post-mix PCM; no frying under ending reactions",
+      "actual_metrics": {
+        "rms_dbfs": -48.58884904165513,
+        "peak_dbfs": -28.461604706611947,
+        "crest_db": 20.127244335043187,
+        "energy_fraction_2_6khz": 0.534046159370587
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "sifflement_p1_n1": {
+      "name": "sifflement_p1_n1",
+      "kind": "whistle",
+      "start": 0.3,
+      "duration": 0.4,
+      "peak_dbfs": -23.112289052396598,
+      "pan": 0.0,
+      "cycle": null,
+      "frequency_hz": 880.0,
+      "phrase": 1,
+      "end": 0.7,
+      "file": "raw_bank/sifflement_p1_n1.wav",
+      "seed": 3039480,
+      "mix_gain_db": 0.0,
+      "start_sample": 14400,
+      "samples": 19200,
+      "end_seconds": 0.7,
+      "first_above_one_percent_seconds": 0.30245833333333333,
+      "peak_dbfs_measured": -23.112289052396598,
+      "parameters": {
+        "lowpass_hz": 2600.0,
+        "attack_seconds": 0.005,
+        "release_seconds": 0.015,
+        "gain_db_relative_to_old_postmaster": -10.0,
+        "pan": 0.0
+      },
+      "sha256": "164a04b8161badbb19be62de62278725e9972d837f3f0e6131057e4632a2212d",
+      "source_file": "sifflement_p1_n1.wav",
+      "source_sha256": "4f5d9fb77246e984f4b76fbfc293d4454736873a959a41fc53d1969cea735628",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -19.5,
+      "source_pan": 0.0,
+      "source_parameters": {
+        "fundamental_hz": 880.0,
+        "initial_scoop_cents": -48.0,
+        "scoop_time_seconds": 0.032,
+        "vibrato_hz": 5.05,
+        "vibrato_depth_cents": 5.2,
+        "pitch_jitter_std_cents": 2.2,
+        "jitter_node_spacing_seconds": 0.03,
+        "air_band_hz": [
+          800,
+          4300
+        ],
+        "air_amplitude": 0.065,
+        "attack_seconds": 0.02,
+        "release_seconds": 0.035,
+        "source": "original local synthesis, no tune or sample imported",
+        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
+      },
+      "processing": {
+        "lowpass_hz": 2600.0,
+        "attack_seconds": 0.005,
+        "release_seconds": 0.015,
+        "gain_db_relative_to_old_postmaster": -10.0,
+        "pan": 0.0
+      },
+      "actual_metrics": {
+        "rms_dbfs": -27.87416620032765,
+        "peak_dbfs": -23.112289052396598,
+        "crest_db": 4.7618771479310515,
+        "energy_fraction_2_6khz": 0.0017390719415434506
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "sifflement_p1_n2": {
+      "name": "sifflement_p1_n2",
+      "kind": "whistle",
+      "start": 0.855556,
+      "duration": 0.4,
+      "peak_dbfs": -22.96933917963734,
+      "pan": 0.0,
+      "cycle": null,
+      "frequency_hz": 1108.731,
+      "phrase": 1,
+      "end": 1.255556,
+      "file": "raw_bank/sifflement_p1_n2.wav",
+      "seed": 3039617,
+      "mix_gain_db": 0.0,
+      "start_sample": 41067,
+      "samples": 19200,
+      "end_seconds": 1.255556,
+      "first_above_one_percent_seconds": 0.8579726666666666,
+      "peak_dbfs_measured": -22.96933917963734,
+      "parameters": {
+        "lowpass_hz": 2600.0,
+        "attack_seconds": 0.005,
+        "release_seconds": 0.015,
+        "gain_db_relative_to_old_postmaster": -10.0,
+        "pan": 0.0
+      },
+      "sha256": "32e2afbe2acf10c7a2f65099e979a4fc8264041369e861b87fa4184757786d8c",
+      "source_file": "sifflement_p1_n2.wav",
+      "source_sha256": "c5908d8c7ed155e3a921ff4fa3dda0b73ff790a6debab5d040717e94b54b294a",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -19.5,
+      "source_pan": 0.0,
+      "source_parameters": {
+        "fundamental_hz": 1108.731,
+        "initial_scoop_cents": -48.0,
+        "scoop_time_seconds": 0.032,
+        "vibrato_hz": 5.05,
+        "vibrato_depth_cents": 5.2,
+        "pitch_jitter_std_cents": 2.2,
+        "jitter_node_spacing_seconds": 0.03,
+        "air_band_hz": [
+          800,
+          4300
+        ],
+        "air_amplitude": 0.065,
+        "attack_seconds": 0.02,
+        "release_seconds": 0.035,
+        "source": "original local synthesis, no tune or sample imported",
+        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
+      },
+      "processing": {
+        "lowpass_hz": 2600.0,
+        "attack_seconds": 0.005,
+        "release_seconds": 0.015,
+        "gain_db_relative_to_old_postmaster": -10.0,
+        "pan": 0.0
+      },
+      "actual_metrics": {
+        "rms_dbfs": -28.016658257290125,
+        "peak_dbfs": -22.96933917963734,
+        "crest_db": 5.047319077652786,
+        "energy_fraction_2_6khz": 0.0021105089341294536
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "sifflement_p1_n3": {
+      "name": "sifflement_p1_n3",
+      "kind": "whistle",
+      "start": 1.411111,
+      "duration": 0.32,
+      "peak_dbfs": -23.354594358513594,
+      "pan": 0.0,
+      "cycle": null,
+      "frequency_hz": 987.767,
+      "phrase": 1,
+      "end": 1.731111,
+      "file": "raw_bank/sifflement_p1_n3.wav",
+      "seed": 3039754,
+      "mix_gain_db": 0.0,
+      "start_sample": 67733,
+      "samples": 15360,
+      "end_seconds": 1.731111,
+      "first_above_one_percent_seconds": 1.413361,
+      "peak_dbfs_measured": -23.354594358513594,
+      "parameters": {
+        "lowpass_hz": 2600.0,
+        "attack_seconds": 0.005,
+        "release_seconds": 0.015,
+        "gain_db_relative_to_old_postmaster": -10.0,
+        "pan": 0.0
+      },
+      "sha256": "ba38a0d8fd3327f1dafd9bd775441fb37c5c4550348c3b5791122cbf792abe04",
+      "source_file": "sifflement_p1_n3.wav",
+      "source_sha256": "2914540c1d2e0119f3a0b476695ea130b251ca7bc88cf4291e7da4fbf47d44c0",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -19.5,
+      "source_pan": 0.0,
+      "source_parameters": {
+        "fundamental_hz": 987.767,
+        "initial_scoop_cents": -48.0,
+        "scoop_time_seconds": 0.032,
+        "vibrato_hz": 5.05,
+        "vibrato_depth_cents": 5.2,
+        "pitch_jitter_std_cents": 2.2,
+        "jitter_node_spacing_seconds": 0.03,
+        "air_band_hz": [
+          800,
+          4300
+        ],
+        "air_amplitude": 0.065,
+        "attack_seconds": 0.02,
+        "release_seconds": 0.035,
+        "source": "original local synthesis, no tune or sample imported",
+        "intention": "petite phrase sifflée gaie et soufflée pendant la cuisine"
+      },
+      "processing": {
+        "lowpass_hz": 2600.0,
+        "attack_seconds": 0.005,
+        "release_seconds": 0.015,
+        "gain_db_relative_to_old_postmaster": -10.0,
+        "pan": 0.0
+      },
+      "actual_metrics": {
+        "rms_dbfs": -28.211441028000177,
+        "peak_dbfs": -23.354594358513594,
+        "crest_db": 4.856846669486582,
+        "energy_fraction_2_6khz": 0.0019720620383894545
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "cuillere_posee": {
+      "name": "cuillere_posee",
+      "kind": "wood_contact",
+      "start": 6.95,
+      "duration": 0.1,
+      "peak_dbfs": -28.00344687127633,
+      "pan": 0.0,
+      "cycle": null,
+      "file": "raw_bank/cuillere_posee.wav",
+      "seed": 3033178,
+      "mix_gain_db": 0.0,
+      "start_sample": 333600,
+      "samples": 4800,
+      "end_seconds": 7.05,
+      "first_above_one_percent_seconds": 6.950541666666667,
+      "peak_dbfs_measured": -28.00344687127633,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.003,
+        "release_seconds": 0.025,
+        "target_postmix_peak_dbfs": -28.0,
+        "pan": 0.0
+      },
+      "sha256": "3ce6bfa34e8db122d0d3960db4e16e2c07057ef35053ac65dc2adbb781aa73fa",
+      "source_file": "cuillere_posee.wav",
+      "source_sha256": "1da395cce8d12e2ef1807c5d569abfb91e78fac63d1c8af091007f6c4063a958",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -23.0,
+      "source_pan": -0.2,
+      "source_parameters": {
+        "band_hz": [
+          140,
+          2200
+        ],
+        "intention": "contact de moufle sur manche en bois"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.003,
+        "release_seconds": 0.025,
+        "target_postmix_peak_dbfs": -28.0,
+        "pan": 0.0
+      },
+      "actual_metrics": {
+        "rms_dbfs": -44.07528494444624,
+        "peak_dbfs": -28.00344687127633,
+        "crest_db": 16.07183807316991,
+        "energy_fraction_2_6khz": 0.007762854578924048
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c1_eau": {
+      "name": "c1_eau",
+      "kind": "water",
+      "start": 8.23,
+      "duration": 1.82,
+      "peak_dbfs": -21.001341670225994,
+      "pan": -0.08,
+      "cycle": 1,
+      "file": "raw_bank/c1_eau.wav",
+      "seed": 3034137,
+      "mix_gain_db": 0.0,
+      "start_sample": 395040,
+      "samples": 87360,
+      "end_seconds": 10.05,
+      "first_above_one_percent_seconds": 8.235770833333333,
+      "peak_dbfs_measured": -21.001341670225994,
+      "parameters": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.035,
+        "release_seconds": 0.055,
+        "target_postmix_peak_dbfs": -21.0,
+        "pan": -0.08
+      },
+      "sha256": "904fa2f63940489bc89e48a52614af6f3665c2d77ed62a550800bddc9f8e26d7",
+      "source_file": "c1_eau.wav",
+      "source_sha256": "434c643f3002f3ddc5eb82eb071bb7a4537d2a41b1104c351d0ac43f1b181da3",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": -9.0,
+      "source_peak_dbfs": -11.5,
+      "source_pan": -0.55,
+      "source_parameters": {
+        "body_band_hz": [
+          85,
+          1550
+        ],
+        "air_band_hz": [
+          850,
+          4050
+        ],
+        "basin_band_hz": [
+          65,
+          460
+        ],
+        "micro_splashes_per_second": 42,
+        "event_gain_change_db_vs_v5": 4.0,
+        "intention": "jet généreux sous pression et eau qui frappe le bassin, sans sifflement aigu"
+      },
+      "processing": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.035,
+        "release_seconds": 0.055,
+        "target_postmix_peak_dbfs": -21.0,
+        "pan": -0.08
+      },
+      "actual_metrics": {
+        "rms_dbfs": -35.15286090129987,
+        "peak_dbfs": -21.001341670225994,
+        "crest_db": 14.151519231073875,
+        "energy_fraction_2_6khz": 0.009804571865084776
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c1_robinet_ouvre": {
+      "name": "c1_robinet_ouvre",
+      "kind": "tap",
+      "start": 8.23,
+      "duration": 0.075,
+      "peak_dbfs": -26.00153564352592,
+      "pan": -0.05,
+      "cycle": 1,
+      "file": "raw_bank/c1_robinet_ouvre.wav",
+      "seed": 3034000,
+      "mix_gain_db": 0.0,
+      "start_sample": 395040,
+      "samples": 3600,
+      "end_seconds": 8.305,
+      "first_above_one_percent_seconds": 8.230541666666667,
+      "peak_dbfs_measured": -26.00153564352592,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "sha256": "aaef3e79e8719ffd518faf3551bb1f37a6165183274569fe80a4622b48bee4ad",
+      "source_file": "c1_robinet_ouvre.wav",
+      "source_sha256": "2e894e985ce65e52c1f846059ab32ea1cbef7376d15ef7d0462f65bcaf5d3653",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -21.0,
+      "source_pan": -0.6,
+      "source_parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -42.9978120576202,
+        "peak_dbfs": -26.00153564352592,
+        "crest_db": 16.996276414094286,
+        "energy_fraction_2_6khz": 0.017119942274907013
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c1_robinet_ferme": {
+      "name": "c1_robinet_ferme",
+      "kind": "tap",
+      "start": 10.05,
+      "duration": 0.075,
+      "peak_dbfs": -26.00153564352592,
+      "pan": -0.05,
+      "cycle": 1,
+      "file": "raw_bank/c1_robinet_ferme.wav",
+      "seed": 3034274,
+      "mix_gain_db": 0.0,
+      "start_sample": 482400,
+      "samples": 3600,
+      "end_seconds": 10.125,
+      "first_above_one_percent_seconds": 10.050166666666668,
+      "peak_dbfs_measured": -26.00153564352592,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "sha256": "554381837452401bc013661c307fd82302c9a594ee5ea718fac19696ae7d0ec0",
+      "source_file": "c1_robinet_ferme.wav",
+      "source_sha256": "890b0d1d698e7ba82fc0782b91794a83e57a7114f4bc40571d96883415b9fdbb",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -21.5,
+      "source_pan": -0.6,
+      "source_parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -41.59707007776463,
+        "peak_dbfs": -26.00153564352592,
+        "crest_db": 15.595534434238713,
+        "energy_fraction_2_6khz": 0.017364179947164257
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "carotte_coupe_1": {
+      "name": "carotte_coupe_1",
+      "kind": "carrot_chop",
+      "start": 14.55,
+      "duration": 0.095,
+      "peak_dbfs": -21.500263377078884,
+      "pan": 0.05,
+      "cycle": null,
+      "file": "raw_bank/carotte_coupe_1.wav",
+      "seed": 3033452,
+      "mix_gain_db": 0.0,
+      "start_sample": 698400,
+      "samples": 4560,
+      "end_seconds": 14.645000000000001,
+      "first_above_one_percent_seconds": 14.550291666666668,
+      "peak_dbfs_measured": -21.500263377078884,
+      "parameters": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.0025,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -21.5,
+        "pan": 0.05
+      },
+      "sha256": "5d9c1be30c999a7879b20f929a6ea738bcae2dc61ffb4336386bd2bb15dbd994",
+      "source_file": "carotte_coupe_1.wav",
+      "source_sha256": "4f5bd6c80adfecb7e5c62f21bdd544c4152e126257ea7c3fb0abddaa4955401f",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -15.0,
+      "source_pan": 0.23,
+      "source_parameters": {
+        "board_band_hz": [
+          90,
+          1900
+        ],
+        "vegetable_band_hz": [
+          850,
+          4900
+        ],
+        "wood_resonances_hz": [
+          370,
+          610
+        ],
+        "intention": "tac bref du couteau traversant la carotte sur la planche"
+      },
+      "processing": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.0025,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -21.5,
+        "pan": 0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -38.15825764973839,
+        "peak_dbfs": -21.500263377078884,
+        "crest_db": 16.6579942726595,
+        "energy_fraction_2_6khz": 0.00887960623112446
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "carotte_coupe_2": {
+      "name": "carotte_coupe_2",
+      "kind": "carrot_chop",
+      "start": 15.25,
+      "duration": 0.095,
+      "peak_dbfs": -21.500263377078884,
+      "pan": 0.05,
+      "cycle": null,
+      "file": "raw_bank/carotte_coupe_2.wav",
+      "seed": 3033589,
+      "mix_gain_db": 0.0,
+      "start_sample": 732000,
+      "samples": 4560,
+      "end_seconds": 15.345,
+      "first_above_one_percent_seconds": 15.250229166666667,
+      "peak_dbfs_measured": -21.500263377078884,
+      "parameters": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.0025,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -21.5,
+        "pan": 0.05
+      },
+      "sha256": "a6660c4420f1fd493fa449a1518dbc36a4e81b59efedd56f9dcbae747496ab28",
+      "source_file": "carotte_coupe_2.wav",
+      "source_sha256": "3ca6b2fd85db7b23e100c39fe90e5f6320f21745eacbbbe93bd57364afb874ea",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -15.5,
+      "source_pan": 0.23,
+      "source_parameters": {
+        "board_band_hz": [
+          90,
+          1900
+        ],
+        "vegetable_band_hz": [
+          850,
+          4900
+        ],
+        "wood_resonances_hz": [
+          370,
+          610
+        ],
+        "intention": "tac bref du couteau traversant la carotte sur la planche"
+      },
+      "processing": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.0025,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -21.5,
+        "pan": 0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -39.79007884537792,
+        "peak_dbfs": -21.500263377078884,
+        "crest_db": 18.289815468299036,
+        "energy_fraction_2_6khz": 0.010649726270302352
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "couteau_pose": {
+      "name": "couteau_pose",
+      "kind": "knife_setdown",
+      "start": 15.95,
+      "duration": 0.105,
+      "peak_dbfs": -28.00344687127633,
+      "pan": 0.05,
+      "cycle": null,
+      "file": "raw_bank/couteau_pose.wav",
+      "seed": 3033726,
+      "mix_gain_db": 0.0,
+      "start_sample": 765600,
+      "samples": 5040,
+      "end_seconds": 16.055,
+      "first_above_one_percent_seconds": 15.950166666666666,
+      "peak_dbfs_measured": -28.00344687127633,
+      "parameters": {
+        "lowpass_hz": 2100.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.025,
+        "target_postmix_peak_dbfs": -28.0,
+        "pan": 0.05
+      },
+      "sha256": "ed4f901609636141330b0e90628b5ea818ab7b5139a98828f30cdcf9c76beed3",
+      "source_file": "couteau_pose.wav",
+      "source_sha256": "eaf10c556da68e99eb261c5ff1ad872520216b345fcb0b503f260656861934d2",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -23.0,
+      "source_pan": 0.23,
+      "source_parameters": {
+        "body_band_hz": [
+          110,
+          2100
+        ],
+        "blade_resonances_hz": [
+          1370,
+          2230
+        ],
+        "intention": "petit contact du couteau posé, sans longue sonnerie"
+      },
+      "processing": {
+        "lowpass_hz": 2100.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.025,
+        "target_postmix_peak_dbfs": -28.0,
+        "pan": 0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -43.67459609896954,
+        "peak_dbfs": -28.00344687127633,
+        "crest_db": 15.671149227693206,
+        "energy_fraction_2_6khz": 0.010496904657076941
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c2_eau": {
+      "name": "c2_eau",
+      "kind": "water",
+      "start": 16.85,
+      "duration": 1.55,
+      "peak_dbfs": -21.001341670225994,
+      "pan": -0.08,
+      "cycle": 2,
+      "file": "raw_bank/c2_eau.wav",
+      "seed": 3035507,
+      "mix_gain_db": 0.0,
+      "start_sample": 808800,
+      "samples": 74400,
+      "end_seconds": 18.400000000000002,
+      "first_above_one_percent_seconds": 16.856291666666667,
+      "peak_dbfs_measured": -21.001341670225994,
+      "parameters": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.035,
+        "release_seconds": 0.055,
+        "target_postmix_peak_dbfs": -21.0,
+        "pan": -0.08
+      },
+      "sha256": "b82e1d40a8d763d0aeff4b481cc8299035501b38b3d65c26a122879f2200eb73",
+      "source_file": "c2_eau.wav",
+      "source_sha256": "47e07b4917f703ea267d2ee8ef75b36efe07ccdf1c2816aff3bfaeb7b3521a30",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": -9.0,
+      "source_peak_dbfs": -11.5,
+      "source_pan": -0.55,
+      "source_parameters": {
+        "body_band_hz": [
+          85,
+          1550
+        ],
+        "air_band_hz": [
+          850,
+          4050
+        ],
+        "basin_band_hz": [
+          65,
+          460
+        ],
+        "micro_splashes_per_second": 42,
+        "event_gain_change_db_vs_v5": 4.0,
+        "intention": "jet généreux sous pression et eau qui frappe le bassin, sans sifflement aigu"
+      },
+      "processing": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.035,
+        "release_seconds": 0.055,
+        "target_postmix_peak_dbfs": -21.0,
+        "pan": -0.08
+      },
+      "actual_metrics": {
+        "rms_dbfs": -34.79541017198168,
+        "peak_dbfs": -21.001341670225994,
+        "crest_db": 13.794068501755685,
+        "energy_fraction_2_6khz": 0.011277945016605858
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c2_robinet_ouvre": {
+      "name": "c2_robinet_ouvre",
+      "kind": "tap",
+      "start": 16.85,
+      "duration": 0.075,
+      "peak_dbfs": -26.00153564352592,
+      "pan": -0.05,
+      "cycle": 2,
+      "file": "raw_bank/c2_robinet_ouvre.wav",
+      "seed": 3035370,
+      "mix_gain_db": 0.0,
+      "start_sample": 808800,
+      "samples": 3600,
+      "end_seconds": 16.925,
+      "first_above_one_percent_seconds": 16.850375,
+      "peak_dbfs_measured": -26.00153564352592,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "sha256": "2527bac602dd5a365c57a85eadf9565294ffe220ea28f50f4137e8add7613d68",
+      "source_file": "c2_robinet_ouvre.wav",
+      "source_sha256": "d4127e358ecd9e43dbf7f6ec86cd3ebbb3b350cde07dbcf0eaec6eb630c1a501",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -21.0,
+      "source_pan": -0.6,
+      "source_parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -42.972311241707224,
+        "peak_dbfs": -26.00153564352592,
+        "crest_db": 16.970775598181305,
+        "energy_fraction_2_6khz": 0.03574780103328681
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c2_robinet_ferme": {
+      "name": "c2_robinet_ferme",
+      "kind": "tap",
+      "start": 18.4,
+      "duration": 0.075,
+      "peak_dbfs": -26.00153564352592,
+      "pan": -0.05,
+      "cycle": 2,
+      "file": "raw_bank/c2_robinet_ferme.wav",
+      "seed": 3035644,
+      "mix_gain_db": 0.0,
+      "start_sample": 883200,
+      "samples": 3600,
+      "end_seconds": 18.474999999999998,
+      "first_above_one_percent_seconds": 18.40020833333333,
+      "peak_dbfs_measured": -26.00153564352592,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "sha256": "1edc08e903d0889be9cd24c8a7110a0ce10590166be7276fcc3d0c3b6c4649c7",
+      "source_file": "c2_robinet_ferme.wav",
+      "source_sha256": "8eb868c85241bb79c0a9af11d11d92289decf49a89666e8905966047cde26568",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -21.5,
+      "source_pan": -0.6,
+      "source_parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -43.0964269398841,
+        "peak_dbfs": -26.00153564352592,
+        "crest_db": 17.09489129635818,
+        "energy_fraction_2_6khz": 0.023980963450575987
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "contact_tomate": {
+      "name": "contact_tomate",
+      "kind": "tomato_contact",
+      "start": 22.3,
+      "duration": 0.11,
+      "peak_dbfs": -26.9981771647469,
+      "pan": 0.03,
+      "cycle": null,
+      "file": "raw_bank/contact_tomate.wav",
+      "seed": 3033315,
+      "mix_gain_db": 0.0,
+      "start_sample": 1070400,
+      "samples": 5280,
+      "end_seconds": 22.41,
+      "first_above_one_percent_seconds": 22.30079166666667,
+      "peak_dbfs_measured": -26.9981771647469,
+      "parameters": {
+        "lowpass_hz": 1900.0,
+        "attack_seconds": 0.004,
+        "release_seconds": 0.025,
+        "target_postmix_peak_dbfs": -27.0,
+        "pan": 0.03
+      },
+      "sha256": "26f52390585c0a3e2e507f2e8e4fe43d92b1bff085eea56277a25607aa890f6c",
+      "source_file": "contact_tomate.wav",
+      "source_sha256": "8fd9c2cf249b14a7f4f8235a215ca5af1f2e181aba89ca5479c560a1eef7822a",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -23.0,
+      "source_pan": 0.18,
+      "source_parameters": {
+        "band_hz": [
+          100,
+          1700
+        ],
+        "intention": "petit contact mou de tomate"
+      },
+      "processing": {
+        "lowpass_hz": 1900.0,
+        "attack_seconds": 0.004,
+        "release_seconds": 0.025,
+        "target_postmix_peak_dbfs": -27.0,
+        "pan": 0.03
+      },
+      "actual_metrics": {
+        "rms_dbfs": -48.116945291359066,
+        "peak_dbfs": -26.9981771647469,
+        "crest_db": 21.118768126612167,
+        "energy_fraction_2_6khz": 0.0014388770420207366
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c3_eau": {
+      "name": "c3_eau",
+      "kind": "water",
+      "start": 23.28,
+      "duration": 1.07,
+      "peak_dbfs": -21.001341670225994,
+      "pan": -0.08,
+      "cycle": 3,
+      "file": "raw_bank/c3_eau.wav",
+      "seed": 3036877,
+      "mix_gain_db": 0.0,
+      "start_sample": 1117440,
+      "samples": 51360,
+      "end_seconds": 24.35,
+      "first_above_one_percent_seconds": 23.286104166666668,
+      "peak_dbfs_measured": -21.001341670225994,
+      "parameters": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.035,
+        "release_seconds": 0.055,
+        "target_postmix_peak_dbfs": -21.0,
+        "pan": -0.08
+      },
+      "sha256": "73cbd52b15675fdb42ed4ba004d577a59f773e6f2d3198d7581a1a98892cf789",
+      "source_file": "c3_eau.wav",
+      "source_sha256": "659b987fc18a33353e9f7555d4345a9955bd0c745aba247a6d90818fdbd1ebd9",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": -9.0,
+      "source_peak_dbfs": -11.5,
+      "source_pan": -0.55,
+      "source_parameters": {
+        "body_band_hz": [
+          85,
+          1550
+        ],
+        "air_band_hz": [
+          850,
+          4050
+        ],
+        "basin_band_hz": [
+          65,
+          460
+        ],
+        "micro_splashes_per_second": 42,
+        "event_gain_change_db_vs_v5": 4.0,
+        "intention": "jet généreux sous pression et eau qui frappe le bassin, sans sifflement aigu"
+      },
+      "processing": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.035,
+        "release_seconds": 0.055,
+        "target_postmix_peak_dbfs": -21.0,
+        "pan": -0.08
+      },
+      "actual_metrics": {
+        "rms_dbfs": -34.15971047937589,
+        "peak_dbfs": -21.001341670225994,
+        "crest_db": 13.158368809149897,
+        "energy_fraction_2_6khz": 0.009830352999892135
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c3_robinet_ouvre": {
+      "name": "c3_robinet_ouvre",
+      "kind": "tap",
+      "start": 23.28,
+      "duration": 0.075,
+      "peak_dbfs": -26.00153564352592,
+      "pan": -0.05,
+      "cycle": 3,
+      "file": "raw_bank/c3_robinet_ouvre.wav",
+      "seed": 3036740,
+      "mix_gain_db": 0.0,
+      "start_sample": 1117440,
+      "samples": 3600,
+      "end_seconds": 23.355,
+      "first_above_one_percent_seconds": 23.280291666666667,
+      "peak_dbfs_measured": -26.00153564352592,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "sha256": "e03d96f95ec7b04e6d34c55fafc218e1c800569f64c2692a9970ff1dd4243fde",
+      "source_file": "c3_robinet_ouvre.wav",
+      "source_sha256": "e98f3b5c6ed5d28b0e67497fcdc48a14949986adbea016a9ef34752e9989d597",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -21.0,
+      "source_pan": -0.6,
+      "source_parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -44.81458960883633,
+        "peak_dbfs": -26.00153564352592,
+        "crest_db": 18.81305396531041,
+        "energy_fraction_2_6khz": 0.024096114783572504
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c3_robinet_ferme": {
+      "name": "c3_robinet_ferme",
+      "kind": "tap",
+      "start": 24.35,
+      "duration": 0.075,
+      "peak_dbfs": -26.00153564352592,
+      "pan": -0.05,
+      "cycle": 3,
+      "file": "raw_bank/c3_robinet_ferme.wav",
+      "seed": 3037014,
+      "mix_gain_db": 0.0,
+      "start_sample": 1168800,
+      "samples": 3600,
+      "end_seconds": 24.425,
+      "first_above_one_percent_seconds": 24.350375,
+      "peak_dbfs_measured": -26.00153564352592,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "sha256": "c862378cb8a9bd455b4d6c71ac5e0e2d33c7071c8f15c3a0e50317152fd0fc2f",
+      "source_file": "c3_robinet_ferme.wav",
+      "source_sha256": "a0cdb8313f9c7cb059f23f2f0fb51f49b4981941d1dd3fb319b1c4ba420fe869",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -21.5,
+      "source_pan": -0.6,
+      "source_parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -42.020365332064685,
+        "peak_dbfs": -26.00153564352592,
+        "crest_db": 16.018829688538766,
+        "energy_fraction_2_6khz": 0.021689312777746404
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "sel_saupoudre": {
+      "name": "sel_saupoudre",
+      "kind": "salt_sprinkle",
+      "start": 28.05,
+      "duration": 0.5,
+      "peak_dbfs": -32.001001994948965,
+      "pan": 0.03,
+      "cycle": null,
+      "file": "raw_bank/sel_saupoudre.wav",
+      "seed": 3041535,
+      "mix_gain_db": 0.0,
+      "start_sample": 1346400,
+      "samples": 24000,
+      "end_seconds": 28.55,
+      "first_above_one_percent_seconds": 28.058500000000002,
+      "peak_dbfs_measured": -32.001001994948965,
+      "parameters": {
+        "lowpass_hz": 2600.0,
+        "attack_seconds": 0.012,
+        "release_seconds": 0.04,
+        "target_postmix_peak_dbfs": -32.0,
+        "pan": 0.03
+      },
+      "sha256": "9dfe3d37270526c49c11940fb7700b1ca051cdd12cc51b589b7359ade17a2f0c",
+      "source_file": "sel_saupoudre.wav",
+      "source_sha256": "6d2936731eaac3a094d75015b0ab51781b8bed0ac1f38fc5eff1e9b8569d2d72",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -29.0,
+      "source_pan": -0.25,
+      "source_parameters": {
+        "air_band_hz": [
+          1000,
+          4700
+        ],
+        "grain_density_per_second": 29,
+        "grain_decay_seconds": 0.002,
+        "intention": "grains de sel légers et secs versés dans la poêle, sans carillon explicatif"
+      },
+      "processing": {
+        "lowpass_hz": 2600.0,
+        "attack_seconds": 0.012,
+        "release_seconds": 0.04,
+        "target_postmix_peak_dbfs": -32.0,
+        "pan": 0.03
+      },
+      "actual_metrics": {
+        "rms_dbfs": -53.83172569820891,
+        "peak_dbfs": -32.001001994948965,
+        "crest_db": 21.83072370325995,
+        "energy_fraction_2_6khz": 0.4707728108947283
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c5_eau": {
+      "name": "c5_eau",
+      "kind": "water",
+      "start": 34.24,
+      "duration": 0.98,
+      "peak_dbfs": -21.001341670225994,
+      "pan": -0.08,
+      "cycle": 5,
+      "file": "raw_bank/c5_eau.wav",
+      "seed": 3038247,
+      "mix_gain_db": 0.0,
+      "start_sample": 1643520,
+      "samples": 47040,
+      "end_seconds": 35.22,
+      "first_above_one_percent_seconds": 34.24539583333333,
+      "peak_dbfs_measured": -21.001341670225994,
+      "parameters": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.035,
+        "release_seconds": 0.055,
+        "target_postmix_peak_dbfs": -21.0,
+        "pan": -0.08
+      },
+      "sha256": "f28108f3a9ac92a2058e83e5fe25945750075885986b502296c1ae0992aab138",
+      "source_file": "c5_eau.wav",
+      "source_sha256": "6e4e417408f4445691d18bf0bac3266f91c44ae3d5cc0bf625eaa42c7d311443",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": -9.0,
+      "source_peak_dbfs": -11.5,
+      "source_pan": -0.55,
+      "source_parameters": {
+        "body_band_hz": [
+          85,
+          1550
+        ],
+        "air_band_hz": [
+          850,
+          4050
+        ],
+        "basin_band_hz": [
+          65,
+          460
+        ],
+        "micro_splashes_per_second": 42,
+        "event_gain_change_db_vs_v5": 4.0,
+        "intention": "jet généreux sous pression et eau qui frappe le bassin, sans sifflement aigu"
+      },
+      "processing": {
+        "lowpass_hz": 2400.0,
+        "attack_seconds": 0.035,
+        "release_seconds": 0.055,
+        "target_postmix_peak_dbfs": -21.0,
+        "pan": -0.08
+      },
+      "actual_metrics": {
+        "rms_dbfs": -33.700607500015394,
+        "peak_dbfs": -21.001341670225994,
+        "crest_db": 12.699265829789399,
+        "energy_fraction_2_6khz": 0.010187874088914164
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c5_robinet_ouvre": {
+      "name": "c5_robinet_ouvre",
+      "kind": "tap",
+      "start": 34.24,
+      "duration": 0.075,
+      "peak_dbfs": -26.00153564352592,
+      "pan": -0.05,
+      "cycle": 5,
+      "file": "raw_bank/c5_robinet_ouvre.wav",
+      "seed": 3038110,
+      "mix_gain_db": 0.0,
+      "start_sample": 1643520,
+      "samples": 3600,
+      "end_seconds": 34.315000000000005,
+      "first_above_one_percent_seconds": 34.240208333333335,
+      "peak_dbfs_measured": -26.00153564352592,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "sha256": "9c7d48787c5899be5bfb83602fa1df7d61c00da5981151f7eac33b62f6a47b09",
+      "source_file": "c5_robinet_ouvre.wav",
+      "source_sha256": "b78003a140884d9dc9d55cce5c60fa38e8a2e6c42c67e257cbce984b5659f106",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -21.0,
+      "source_pan": -0.6,
+      "source_parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -41.643627594261694,
+        "peak_dbfs": -26.00153564352592,
+        "crest_db": 15.642091950735775,
+        "energy_fraction_2_6khz": 0.017463411470736937
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    },
+    "c5_robinet_ferme": {
+      "name": "c5_robinet_ferme",
+      "kind": "tap",
+      "start": 35.22,
+      "duration": 0.075,
+      "peak_dbfs": -26.00153564352592,
+      "pan": -0.05,
+      "cycle": 5,
+      "file": "raw_bank/c5_robinet_ferme.wav",
+      "seed": 3038384,
+      "mix_gain_db": 0.0,
+      "start_sample": 1690560,
+      "samples": 3600,
+      "end_seconds": 35.295,
+      "first_above_one_percent_seconds": 35.22027083333333,
+      "peak_dbfs_measured": -26.00153564352592,
+      "parameters": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "sha256": "8b66a08276a1ca24aff1162958ee92c44da1ecdf09831c3f189bad175d1effcb",
+      "source_file": "c5_robinet_ferme.wav",
+      "source_sha256": "780ee32c1e1c51457d7946e0385186136382fc0be1593cee46a66b949bd7d956",
+      "stage": "post-mix PCM; add directly, no historical master",
+      "render_stage": "post-mix PCM; no old master or source mix gain downstream",
+      "source_mix_gain_db": 0.0,
+      "source_peak_dbfs": -21.5,
+      "source_pan": -0.6,
+      "source_parameters": {
+        "noise_band_hz": [
+          180,
+          2800
+        ],
+        "resonance_hz": 730,
+        "resonance_decay_seconds": 0.012,
+        "intention": "petit clic mat de commande de robinet"
+      },
+      "processing": {
+        "lowpass_hz": 1800.0,
+        "attack_seconds": 0.002,
+        "release_seconds": 0.02,
+        "target_postmix_peak_dbfs": -26.0,
+        "pan": -0.05
+      },
+      "actual_metrics": {
+        "rms_dbfs": -41.78204297300325,
+        "peak_dbfs": -26.00153564352592,
+        "crest_db": 15.780507329477334,
+        "energy_fraction_2_6khz": 0.04286818466447642
+      },
+      "origin": "Previously synthesized and softened MOU kitchen asset, copied before V26 retiming"
+    }
+  },
+  "paper_reference_events": [
+    {
+      "name": "c1_papier_deroule",
+      "kind": "paper_pull",
+      "sha256": "cfda4d48eee60b86b2282be4d3bd633adb64ef51623aa45ca6158b93a12f7fdd",
+      "cycle": 1
+    },
+    {
+      "name": "c1_papier_dechire",
+      "kind": "paper_tear",
+      "sha256": "f2c66e9b9e7e3fc7dc388b1172027374b375df2ec45742a13e7485683d49a98e",
+      "cycle": 1
+    },
+    {
+      "name": "c1_essuyage_1_v24",
+      "kind": "paper_wipe",
+      "sha256": "c0f6e6180d663736a0436fafcf5740e85561cda62c221b420205358241bdd27c",
+      "cycle": 1
+    },
+    {
+      "name": "c1_essuyage_2_v24",
+      "kind": "paper_wipe",
+      "sha256": "7ba8082fe5d32d3c3af68baf952742512d0d39197f3ee7ce28d9051eca424ee7",
+      "cycle": 1
+    },
+    {
+      "name": "c1_froissage_v24",
+      "kind": "paper_crumple",
+      "sha256": "a16230510116d7a24b712e4c535c3afa5774c55daf35bf9ed06b62563e141aff",
+      "cycle": 1
+    },
+    {
+      "name": "c1_poubelle_impact",
+      "kind": "paper_land",
+      "sha256": "4c8570bc3d8b2a7b57d5796c6b31addb1447fb58f8e66e5213f85c50b99e0a06",
+      "cycle": 1
+    },
+    {
+      "name": "c2_papier_deroule",
+      "kind": "paper_pull",
+      "sha256": "41d4a8c7a356f56b064a8d9a769607c347489982226441385e9a3c6c40e96d21",
+      "cycle": 2
+    },
+    {
+      "name": "c2_papier_dechire",
+      "kind": "paper_tear",
+      "sha256": "29cecad24f0058d12c561222cc394e3a7e60fd39fc07c2ea804919bbbeb935a8",
+      "cycle": 2
+    },
+    {
+      "name": "c2_essuyage_1_v24",
+      "kind": "paper_wipe",
+      "sha256": "35bc32a62d703da90d162ce3e3d2c8ae8abdb6957e315b0c4e997877dac3c8ac",
+      "cycle": 2
+    },
+    {
+      "name": "c2_essuyage_2_v24",
+      "kind": "paper_wipe",
+      "sha256": "1a2aa70906d7677bce05a66d81722e0d288ea5bf95471a981613b59fe3c5e2c0",
+      "cycle": 2
+    },
+    {
+      "name": "c2_froissage_v24",
+      "kind": "paper_crumple",
+      "sha256": "fedacb29c494bbf1c2a4cd60e51c628f86242c661382e353133502a279bb2852",
+      "cycle": 2
+    },
+    {
+      "name": "c2_poubelle_impact_v24",
+      "kind": "paper_land",
+      "sha256": "9f73335f05817b1185531f3ad6640b83b12cee145ef546f79d028613cdd20209",
+      "cycle": 2
+    },
+    {
+      "name": "c3_papier_deroule",
+      "kind": "paper_pull",
+      "sha256": "6d888d9efe6f2625144294d6b928946f2d27aed494f56e315e95e201b9696dab",
+      "cycle": 3
+    },
+    {
+      "name": "c3_papier_dechire",
+      "kind": "paper_tear",
+      "sha256": "451a71bc960704dc16288e6725382e077f9cc11a03aebea68a9ca746ebf403d8",
+      "cycle": 3
+    },
+    {
+      "name": "c3_essuyage_1_v24",
+      "kind": "paper_wipe",
+      "sha256": "a2e919768bbe39827f6648671400c2487760d74cdce712fc939ed6b0a5218526",
+      "cycle": 3
+    },
+    {
+      "name": "c3_essuyage_2_v24",
+      "kind": "paper_wipe",
+      "sha256": "30c017388d863d73fbfb0d0a651e955d6b360bc4333431f6403b9fe98e9c58b1",
+      "cycle": 3
+    },
+    {
+      "name": "c3_froissage_v24",
+      "kind": "paper_crumple",
+      "sha256": "63254b0ca8a8464d0352f7372d03e856409ed6b6c73de255653f3c4fe9db4a6a",
+      "cycle": 3
+    },
+    {
+      "name": "c3_poubelle_impact_v24",
+      "kind": "paper_land",
+      "sha256": "34328dba42cb5b7544ba40fc1768c07290e1a9ceb73536f59fa1edbabe4a92c0",
+      "cycle": 3
+    },
+    {
+      "name": "c4_papier_deroule",
+      "kind": "paper_pull",
+      "sha256": "888ba72a94d37911cd6ce706f5a3a1973c79ff9b02fb393748b1df851e193ffe",
+      "cycle": 4
+    },
+    {
+      "name": "c4_papier_dechire",
+      "kind": "paper_tear",
+      "sha256": "1363bcc004927d4b2fb931c1f4d3568e688eb9a113c7b829e664ce19289f19d8",
+      "cycle": 4
+    },
+    {
+      "name": "c4_essuyage_1_v24",
+      "kind": "paper_wipe",
+      "sha256": "1be32ae97f60140ae8e597db0f66623e26b1d6b6af0434505704bc27e8003f81",
+      "cycle": 4
+    },
+    {
+      "name": "c4_essuyage_2_v24",
+      "kind": "paper_wipe",
+      "sha256": "9b6d45fa0f860f00d6286fc57b0a57fa2e26dd4dfca1bba4020f618f481614c4",
+      "cycle": 4
+    },
+    {
+      "name": "c4_froissage_v24",
+      "kind": "paper_crumple",
+      "sha256": "781ff351a502e770e161539fb7ef000b9519f6d661ada3833ee11c9d7d02c4f0",
+      "cycle": 4
+    },
+    {
+      "name": "c4_poubelle_impact_v24",
+      "kind": "paper_land",
+      "sha256": "8475363310a8e9cc7cfdf0480daae1565e011e943ad8a9a478828679b16ebf95",
+      "cycle": 4
+    },
+    {
+      "name": "c5_papier_deroule",
+      "kind": "tiny_paper_pull",
+      "sha256": "40c45c7fd77a548ae4c401f7e0a2a79eb34a2ebc6b45446fb1183edac0db0c8d",
+      "cycle": 5
+    },
+    {
+      "name": "c5_papier_dechire",
+      "kind": "tiny_paper_tear",
+      "sha256": "7158788b717c7af29d7ec0bfe5b9b1ddf4152cdd363b39da0da586bc37c16ef2",
+      "cycle": 5
+    },
+    {
+      "name": "c5_essuyage_1_v24",
+      "kind": "tiny_paper_wipe",
+      "sha256": "46068a16b5e4c2f15f6d17cb886b2c265d9812ce714d48833442d3a689f6735c",
+      "cycle": 5
+    },
+    {
+      "name": "c5_essuyage_2_v24",
+      "kind": "tiny_paper_wipe",
+      "sha256": "0228d62a5c0a39e857246d11e19a3d2c93dd96e0f3a1e18be5ade5a87b7a5eb6",
+      "cycle": 5
+    },
+    {
+      "name": "c5_froissage_v24",
+      "kind": "tiny_paper_crumple",
+      "sha256": "b7a63e2355debd51544646ba974e2c51e165e2b892df02ea91e2abaa09d2723a",
+      "cycle": 5
+    },
+    {
+      "name": "c5_poubelle_impact",
+      "kind": "tiny_paper_land",
+      "sha256": "cdb766dea91651b7ea45d6983250d58725d9c1794544673181059c12478faf2d",
+      "cycle": 5
+    },
+    {
+      "name": "c5_papier_sol",
+      "kind": "tiny_paper_floor",
+      "sha256": "1171fd5bc7945cc0e0d07fb7a36fe986500aa0d3e399274145db32a7d7656586"
+    }
+  ],
+  "note": "Only raw_events have PCM inputs here; paper references identify the former cues but are regenerated from the licensed paper recordings."
+}

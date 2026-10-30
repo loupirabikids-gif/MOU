@@ -1,0 +1,381 @@
+{
+  "scope": "V27 copied unused audio only; V26 untouched",
+  "removed_files": [
+    {
+      "file": "test_fin_v26.wav",
+      "bytes": 1536044,
+      "sha256": "768184867fc6c7edab065ef643c0f0e170e84c3e81b7b42a96998c98c2258e1f"
+    },
+    {
+      "file": "partition_v26.json",
+      "bytes": 47606,
+      "sha256": "1ab14e915c7ae48c5180d26e33ab3c65ff4b31702a7453dae89e28105a8f534b"
+    },
+    {
+      "file": "cleanup_v26.json",
+      "bytes": 7768,
+      "sha256": "e56c88127d9868ac79dccc9524dfb269f61e2cd4b1f11530aaec6f20fa38332d"
+    },
+    {
+      "file": "musique_v26.wav",
+      "bytes": 7296044,
+      "sha256": "48a350334c30c7688bf43dbb17094a5c550ecdcd2cb9279c3ff04ecb794a670f"
+    },
+    {
+      "file": "partition_v26.mid",
+      "bytes": 1380,
+      "sha256": "3c035b80c8315b39464a978335660ab8e6b35c590d18e78d68b7c98e85109ebf"
+    },
+    {
+      "file": "stems_v26/basse.wav",
+      "bytes": 7296044,
+      "sha256": "c36c6d003cbaa4170c43aba81e67bdbcddcbfeba629ea77d32be804ce8cf738e"
+    },
+    {
+      "file": "stems_v26/accords.wav",
+      "bytes": 7296044,
+      "sha256": "f8cb7e62c896a639ea7ac851c3ff2aafd54d8e08ca6a37f92667e2a651e48c9d"
+    },
+    {
+      "file": "cues_v26/c4_eau_v26.wav",
+      "bytes": 182444,
+      "sha256": "1a48771dc598d7334f48ff043e02d409411936e2aade733c389ab6ed5b52d81f"
+    },
+    {
+      "file": "cues_v26/c1_paper_land_v26_05.wav",
+      "bytes": 30764,
+      "sha256": "a2b8149e8330390134ca5d45e029854248a37d1a6ee5dac63a6cf4a406bdd142"
+    },
+    {
+      "file": "cues_v26/c3_robinet_ferme_v26.wav",
+      "bytes": 14444,
+      "sha256": "e5ea3ec2b1ee7d5c388526fdcb32fc26d9183205511e1249070eb300ca1aed5b"
+    },
+    {
+      "file": "cues_v26/c1_robinet_ouvre_v26.wav",
+      "bytes": 14444,
+      "sha256": "7518e8ae58e40b7239e74f50ecbc1e5c31de5f0aa3cdf6aa753c0a6cecaede12"
+    },
+    {
+      "file": "cues_v26/c2_paper_wipe_v26_08.wav",
+      "bytes": 26924,
+      "sha256": "e1975e5ff364eabf86513e665fe6813a8d759404dbe2ed38cfde7f3d0d84db2c"
+    },
+    {
+      "file": "cues_v26/c3_paper_pull_v26_12.wav",
+      "bytes": 29188,
+      "sha256": "5049e32760e0756370c2ec1d59a791b2999ebe769894373447cf10db0034a904"
+    },
+    {
+      "file": "cues_v26/c1_eau_v26.wav",
+      "bytes": 278444,
+      "sha256": "ec23e7efd7d25c1d53f6cd22a7f02a0145f3e21991363edeff16e2c55dad7f56"
+    },
+    {
+      "file": "cues_v26/c1_robinet_ferme_v26.wav",
+      "bytes": 14444,
+      "sha256": "e51576a002e246f767e84aa679048bad3d65d000c67c0784c9839c68f4735cc2"
+    },
+    {
+      "file": "cues_v26/c1_paper_wipe_v26_03.wav",
+      "bytes": 34988,
+      "sha256": "e8e280ddcc14f28e203e26c011e56c97a76c1a9caa2f8b1f3767228bf591d67d"
+    },
+    {
+      "file": "cues_v26/c3_paper_crumple_v26_16.wav",
+      "bytes": 42284,
+      "sha256": "df99de42534abb4254b43c2c52e8cc244adaaa41c1b13f0d6fb148ecf4e448ad"
+    },
+    {
+      "file": "cues_v26/sifflement_n1_v26.wav",
+      "bytes": 76844,
+      "sha256": "fd7691366dd07a66c3a9d3b1b3abd88985f27a580223a14b7ab8106411cb35a7"
+    },
+    {
+      "file": "cues_v26/c1_paper_pull_v26_00.wav",
+      "bytes": 53804,
+      "sha256": "b6c9a0015a77ed65c8be62dcf6186bc96dfd67fdc7a5f89f7c7da5bce6eba617"
+    },
+    {
+      "file": "cues_v26/sel_saupoudre_v26.wav",
+      "bytes": 96044,
+      "sha256": "697a40bf8567965716b772edb098de4e05f654b2d2d13dc19978c66ea117673d"
+    },
+    {
+      "file": "cues_v26/c2_paper_wipe_v26_09.wav",
+      "bytes": 26924,
+      "sha256": "ebdfed9609122ad87f696710af594001f961fe4ef3469fe02ba1d77215773659"
+    },
+    {
+      "file": "cues_v26/c4_tiny_paper_land_v26_23.wav",
+      "bytes": 23084,
+      "sha256": "2d71295575d4a546135b6f186d69c08290cd3ec8b720d58fb7de7e92ed5ffa45"
+    },
+    {
+      "file": "cues_v26/c4_robinet_ouvre_v26.wav",
+      "bytes": 14444,
+      "sha256": "c7b1f7418ca10f6e08cd8f27dcab04fc3c52afaca5e420d8cee11d8808d7106b"
+    },
+    {
+      "file": "cues_v26/c4_tiny_paper_crumple_v26_22.wav",
+      "bytes": 124844,
+      "sha256": "fbec58b0586679e7f7b46df3b26d7e11f397a9ee2fb594267f787aea0075afce"
+    },
+    {
+      "file": "cues_v26/c4_tiny_paper_floor_v26_24.wav",
+      "bytes": 23084,
+      "sha256": "fc9aca57f6e68ffc453e2e59887ca701ebd1e31b240ac46c5fc980e12e151a06"
+    },
+    {
+      "file": "cues_v26/c3_robinet_ouvre_v26.wav",
+      "bytes": 14444,
+      "sha256": "9da8855287c4bb535f0b791fd2906ffc19ba3f9e4f79a057a947c179dc045e83"
+    },
+    {
+      "file": "cues_v26/cuisson_v26.wav",
+      "bytes": 6384044,
+      "sha256": "0c72174712a95df79bd390cbb68da37bd94873e0b130f8ce5f34bc202a84c7e7"
+    },
+    {
+      "file": "cues_v26/carotte_coupe_1_v26.wav",
+      "bytes": 18284,
+      "sha256": "48d036b80afb92a9a28666bd43e3f20723e6afbfc9b0443765d949f883062f55"
+    },
+    {
+      "file": "cues_v26/c3_paper_wipe_v26_14.wav",
+      "bytes": 21012,
+      "sha256": "24c90f991715157976e4342e3f98bdbfd23d5001f50f9ecc8f7f1e377bc9a6c5"
+    },
+    {
+      "file": "cues_v26/c2_eau_v26.wav",
+      "bytes": 211244,
+      "sha256": "33ad142bcdda69e80c49b699c784123379b07a03e972cd1f3fdc12b9237a4ffe"
+    },
+    {
+      "file": "cues_v26/c4_tiny_paper_wipe_v26_20.wav",
+      "bytes": 38444,
+      "sha256": "4cc18ee1525f2d708976ad237988ddbc11ba7296ac7949a5bbeecbfb5129898e"
+    },
+    {
+      "file": "cues_v26/c2_paper_pull_v26_06.wav",
+      "bytes": 34260,
+      "sha256": "a17b36340d21117debf8a4c066d2aa4f4df783653053aefeead6bb3de75229a0"
+    },
+    {
+      "file": "cues_v26/contact_tomate_v26.wav",
+      "bytes": 21164,
+      "sha256": "dbdc02d12c1e60219ca0f4dd5dd612fb385e9fe28b95dea62b7b54e2aeef51b7"
+    },
+    {
+      "file": "cues_v26/carotte_coupe_2_v26.wav",
+      "bytes": 18284,
+      "sha256": "e2c147fd69ea82733077b3f04dbdfa34bf3dfc11891973eb3f2178d269201fb0"
+    },
+    {
+      "file": "cues_v26/cuillere_posee_v26.wav",
+      "bytes": 19244,
+      "sha256": "96ba49c86548ad9e461fefacd81b389ebfe9bcf6e3a643a43f3efed478cc73f7"
+    },
+    {
+      "file": "cues_v26/c2_paper_land_v26_11.wav",
+      "bytes": 30764,
+      "sha256": "22d328e5d12e2f2f064d94eb03f6d6b5611fc3490224e59239afa43601ca9c14"
+    },
+    {
+      "file": "cues_v26/c2_robinet_ferme_v26.wav",
+      "bytes": 14444,
+      "sha256": "cb8dde4465ff09e4e37dabae3de36d7ac289ac8cb500ebedba03cc1843400bd6"
+    },
+    {
+      "file": "cues_v26/c3_paper_tear_v26_13.wav",
+      "bytes": 23084,
+      "sha256": "6c0dd45b51288ee03fb3c7940660d05e7335641724452db3f1d0294202fc5cab"
+    },
+    {
+      "file": "cues_v26/c1_paper_wipe_v26_02.wav",
+      "bytes": 34988,
+      "sha256": "b6de1ca77e8e70522dfd09fdae166068d25f2cc445f7c9110333ee684381d8da"
+    },
+    {
+      "file": "cues_v26/c2_paper_tear_v26_07.wav",
+      "bytes": 26924,
+      "sha256": "99ad772a76a7c98ead84f34ad0edf78b09b11b2ff72424a477e31b110a7bc338"
+    },
+    {
+      "file": "cues_v26/c2_paper_crumple_v26_10.wav",
+      "bytes": 51884,
+      "sha256": "2d398ac9aac5b000167f97c05363443e2f4a67f50d95f8f70b95cc535a099e02"
+    },
+    {
+      "file": "cues_v26/c4_robinet_ferme_v26.wav",
+      "bytes": 14444,
+      "sha256": "f72afdae290f3645b9ec7090d62adc42c90fa84646328f74bb7888735601faf3"
+    },
+    {
+      "file": "cues_v26/c3_eau_v26.wav",
+      "bytes": 182444,
+      "sha256": "d540820b5e41bcddc425142f3b0f4689d9c76ebca5264be658ffeb0f003e152f"
+    },
+    {
+      "file": "cues_v26/c3_paper_land_v26_17.wav",
+      "bytes": 30764,
+      "sha256": "df4fd91365549b137166c65287cefe96715ed3b3451df8d2c47a7aa4b71ac563"
+    },
+    {
+      "file": "cues_v26/c4_tiny_paper_pull_v26_18.wav",
+      "bytes": 53804,
+      "sha256": "2352d81bca54baf8cca23e08559c891c7a48dc705a09508f47ea9382adfda858"
+    },
+    {
+      "file": "cues_v26/c1_paper_crumple_v26_04.wav",
+      "bytes": 53804,
+      "sha256": "dd9123a183cde4f184066d113b1cbcbdf994e8514a8e3bced06dab0d575e7eef"
+    },
+    {
+      "file": "cues_v26/c1_paper_tear_v26_01.wav",
+      "bytes": 30764,
+      "sha256": "379b4b776117825e8bbfe435bc38daed61930f48ea414dbdd6a94c2741335258"
+    },
+    {
+      "file": "cues_v26/c2_robinet_ouvre_v26.wav",
+      "bytes": 14444,
+      "sha256": "87cda7f9620a3c5bc0364867c91af0f2a1eb7d47baaee19e44802da4c58a3358"
+    },
+    {
+      "file": "cues_v26/sifflement_n3_v26.wav",
+      "bytes": 61484,
+      "sha256": "99b33c2836a105a2eb3c872f0049ca8edaed2e03367502d416fa1975e1bc14fd"
+    },
+    {
+      "file": "cues_v26/sifflement_n2_v26.wav",
+      "bytes": 76844,
+      "sha256": "976dfc4fa95bc2d76275765ae70fc9e047bcdbba34b9ca28de71d00c7beb7058"
+    },
+    {
+      "file": "cues_v26/couteau_pose_v26.wav",
+      "bytes": 20204,
+      "sha256": "6223eacb413de8382af3fd9d9d6af852876afdbedad8bb28b2724892ce73702b"
+    },
+    {
+      "file": "cues_v26/c4_tiny_paper_wipe_v26_21.wav",
+      "bytes": 22844,
+      "sha256": "5a4f6cd07299c58e715f9785adafbd0f8c6005a4bbde8e60f3526d28425b95d4"
+    },
+    {
+      "file": "cues_v26/c3_paper_wipe_v26_15.wav",
+      "bytes": 21012,
+      "sha256": "d427503637e15cf92a6736a2346e965447b35c8d0ee51d0d1aa4b5b64a1529f6"
+    },
+    {
+      "file": "cues_v26/c4_tiny_paper_tear_v26_19.wav",
+      "bytes": 23084,
+      "sha256": "e5b16fe2649a5abb176ebd13a6810bd1cf369188bf92a279910b633dfd609f49"
+    }
+  ],
+  "bytes_removed": 32156822,
+  "needed_paths": [
+    "audition_voix_v27.json",
+    "audition_voix_v27.wav",
+    "cleanup_v27.json",
+    "cues_v27/c1_eau_v27.wav",
+    "cues_v27/c1_paper_crumple_v26_04.wav",
+    "cues_v27/c1_paper_land_v26_05.wav",
+    "cues_v27/c1_paper_pull_v26_00.wav",
+    "cues_v27/c1_paper_tear_v26_01.wav",
+    "cues_v27/c1_paper_wipe_v26_02.wav",
+    "cues_v27/c1_paper_wipe_v26_03.wav",
+    "cues_v27/c1_robinet_ferme_v27.wav",
+    "cues_v27/c1_robinet_ouvre_v27.wav",
+    "cues_v27/c2_eau_v27.wav",
+    "cues_v27/c2_paper_crumple_v26_10.wav",
+    "cues_v27/c2_paper_land_v26_11.wav",
+    "cues_v27/c2_paper_pull_v26_06.wav",
+    "cues_v27/c2_paper_tear_v26_07.wav",
+    "cues_v27/c2_paper_wipe_v26_08.wav",
+    "cues_v27/c2_paper_wipe_v26_09.wav",
+    "cues_v27/c2_robinet_ferme_v27.wav",
+    "cues_v27/c2_robinet_ouvre_v27.wav",
+    "cues_v27/c3_eau_v27.wav",
+    "cues_v27/c3_paper_crumple_v26_16.wav",
+    "cues_v27/c3_paper_land_v26_17.wav",
+    "cues_v27/c3_paper_pull_v26_12.wav",
+    "cues_v27/c3_paper_tear_v26_13.wav",
+    "cues_v27/c3_paper_wipe_v26_14.wav",
+    "cues_v27/c3_paper_wipe_v26_15.wav",
+    "cues_v27/c3_robinet_ferme_v27.wav",
+    "cues_v27/c3_robinet_ouvre_v27.wav",
+    "cues_v27/c4_eau_v27.wav",
+    "cues_v27/c4_robinet_ferme_v27.wav",
+    "cues_v27/c4_robinet_ouvre_v27.wav",
+    "cues_v27/c4_tiny_paper_crumple_v26_22.wav",
+    "cues_v27/c4_tiny_paper_floor_v26_24.wav",
+    "cues_v27/c4_tiny_paper_land_v26_23.wav",
+    "cues_v27/c4_tiny_paper_pull_v26_18.wav",
+    "cues_v27/c4_tiny_paper_tear_v26_19.wav",
+    "cues_v27/c4_tiny_paper_wipe_v26_20.wav",
+    "cues_v27/c4_tiny_paper_wipe_v26_21.wav",
+    "cues_v27/carotte_coupe_1_v27.wav",
+    "cues_v27/carotte_coupe_2_v27.wav",
+    "cues_v27/contact_tomate_v27.wav",
+    "cues_v27/couteau_pose_v27.wav",
+    "cues_v27/cuillere_posee_v27.wav",
+    "cues_v27/cuisson_progressive_v27.wav",
+    "cues_v27/dernier_tsss_poele_v27.wav",
+    "cues_v27/mou_choc.wav",
+    "cues_v27/mou_expiration.wav",
+    "cues_v27/mou_hesitation.wav",
+    "cues_v27/mou_inspiration.wav",
+    "cues_v27/mou_satisfaction.wav",
+    "cues_v27/musique_v27.wav",
+    "cues_v27/papier_lacher_c1_v27.wav",
+    "cues_v27/papier_lacher_c3_v27.wav",
+    "cues_v27/papier_sol_matiere_v27.wav",
+    "cues_v27/papier_tas_matiere_c1_v27.wav",
+    "cues_v27/papier_tas_matiere_c2_v27.wav",
+    "cues_v27/papier_tas_matiere_c3_v27.wav",
+    "cues_v27/papier_tas_matiere_c4_v27.wav",
+    "cues_v27/room_air_1_v27.wav",
+    "cues_v27/room_air_2_v27.wav",
+    "cues_v27/sel_saupoudre_v27.wav",
+    "cues_v27/sifflement_n1_v27.wav",
+    "cues_v27/sifflement_n2_v27.wav",
+    "cues_v27/sifflement_n3_v27.wav",
+    "mix.wav",
+    "motion_sync_v26.json",
+    "motion_sync_v27.json",
+    "musique_v27.wav",
+    "partition_v27.json",
+    "partition_v27.mid",
+    "provenance.json",
+    "raw_bank/c1_eau.wav",
+    "raw_bank/c1_robinet_ferme.wav",
+    "raw_bank/c1_robinet_ouvre.wav",
+    "raw_bank/c2_eau.wav",
+    "raw_bank/c2_robinet_ferme.wav",
+    "raw_bank/c2_robinet_ouvre.wav",
+    "raw_bank/c3_eau.wav",
+    "raw_bank/c3_robinet_ferme.wav",
+    "raw_bank/c3_robinet_ouvre.wav",
+    "raw_bank/c5_eau.wav",
+    "raw_bank/c5_robinet_ferme.wav",
+    "raw_bank/c5_robinet_ouvre.wav",
+    "raw_bank/carotte_coupe_1.wav",
+    "raw_bank/carotte_coupe_2.wav",
+    "raw_bank/contact_tomate.wav",
+    "raw_bank/couteau_pose.wav",
+    "raw_bank/cuillere_posee.wav",
+    "raw_bank/cuisson_v22.wav",
+    "raw_bank/sel_saupoudre.wav",
+    "raw_bank/sifflement_p1_n1.wav",
+    "raw_bank/sifflement_p1_n2.wav",
+    "raw_bank/sifflement_p1_n3.wav",
+    "reference_events_v26.json",
+    "source_bank_v26.json",
+    "stems_v27/ambiance.wav",
+    "stems_v27/basse.wav",
+    "stems_v27/effets.wav",
+    "stems_v27/guitare.wav",
+    "stems_v27/voix.wav",
+    "test_fin_v27.wav"
+  ]
+}

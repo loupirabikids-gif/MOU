@@ -1,29 +1,29 @@
 # MOU
 
-**Just cooking. Mostly washing. — V26, 38 secondes.**
+**Just cooking. Mostly washing. — V27 sonore, 38 secondes.**
 
-MOU cuisine, se lave et gaspille du papier. Il tente de résister à son rituel,
-mais finit plus fier de ses mains impeccables que de son repas brûlé.
-L'animation progresse du jeu retenu aux réactions cartoon ; la fin présente
-les deux moufles avec le plat noir, la fumée et la poubelle débordante.
+Bossa douce à guitare nylon et contrebasse, cuisson et panier plus présents,
+cinq accents vocaux courts. Coupure à 32 s, demi-seconde de silence, puis
+souffle de MOU, dernier tsss et note finale. Les images et le montage V26
+sont conservés exactement.
 
-[![MOU présente ses mains devant le repas raté](episodes/03/cuisine_v26/controle/affiche_v26.png)](episodes/03/cuisine_v26/MOU_Encore_une_feuille.mp4?raw=true)
+[![MOU présente ses mains devant le repas raté — images V26 conservées](episodes/03/cuisine_v27/controle/affiche_v26.png)](episodes/03/cuisine_v27/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Film avec son — 1080 × 1920](episodes/03/cuisine_v26/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Aperçu de la fin — 8 secondes](episodes/03/cuisine_v26/MOU_test_mise_en_scene.mp4?raw=true)
-- [Version muette](episodes/03/cuisine_v26/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v26/MOU_Encore_une_feuille_sources.zip?raw=true)
-- [Découpage, critiques et contrôles](episodes/03/cuisine_v26/)
+- **[Film avec son — 1080 × 1920](episodes/03/cuisine_v27/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Aperçu de la fin — 8 secondes](episodes/03/cuisine_v27/MOU_test_mise_en_scene.mp4?raw=true)
+- [Voix seules — essai de 5,5 secondes](episodes/03/cuisine_v27/audio/audition_voix_v27.wav?raw=true)
+- [Version muette inchangée](episodes/03/cuisine_v27/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources ZIP](episodes/03/cuisine_v27/MOU_Encore_une_feuille_sources.zip?raw=true)
+- [Sources, contrôles et limites](episodes/03/cuisine_v27/)
 - [Bibliothèque d'expressions : 36 poses](bibliotheque/expressions/v1/)
 
-Le modèle, la toque « MOU », le tablier de taille et les deux moufles sont
-conservés. Jazz piano-contrebasse continu, bruitages courts synchronisés et
-sifflement seulement au départ. La production utilise des outils gratuits
-et open source. Le modèle ne peut pas écouter : les mesures ne certifient
-pas le confort sonore. La critique par images n'est pas un test public.
+Les assets vocaux CC0 sont crédités ; leur méthode de création et leur auteur
+original ne sont pas vérifiés. Aucun dialogue n'est ajouté. Le modèle ne peut
+pas écouter : les contrôles numériques ne certifient pas le confort sonore.
+Les outils de production restent gratuits et open source.
 
-[V25 rejetée](episodes/03/cuisine_v25/) · [V24 rejetée](episodes/03/cuisine_v24/) ·
-[V23](episodes/03/cuisine_v23/) · [Versions précédentes](episodes/03/).
+[V26 : animation et son précédents](episodes/03/cuisine_v26/) ·
+[V25 rejetée](episodes/03/cuisine_v25/) · [Versions précédentes](episodes/03/).
 [Réexamen éditorial](episodes/03/developpement/reprise_editoriale/) ·
 [Référence Lamput examinée](recherche/2026-10-30_lamput/) ·
 [Outils libres et essais](recherche/2026-10-29_professionnel/).
@@ -45,7 +45,7 @@ des fichiers ne prouve pas leur activation native dans tous les clients.
 
 Outils de production gratuits/open source : Python, SVG, CairoSVG, Pillow,
 NumPy, FFmpeg et FluidSynth. Partition originale, banque d’instruments libre
-[FluidR3 MIT créditée](episodes/03/cuisine_v23/assets/FluidR3_README.md), bruitages originaux ; trois notes sifflées
+[FluidR3 MIT créditée](episodes/03/cuisine_v23/assets/FluidR3_README.md), bruitages originaux et matières libres créditées ; trois notes sifflées
 uniquement au départ, aucun dialogue ni musique téléchargée.
 La [recherche de réalisation actuelle](recherche/2026-10-29_professionnel/README.md)
 conserve les essais et les preuves d’accès. Aucune statistique, écoute ou
@@ -93,7 +93,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v26/`.
+Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v27/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

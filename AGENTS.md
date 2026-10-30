@@ -1,5 +1,22 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande sonore V27 : reprendre uniquement la bande-son du film de 38 s.
+Conserver exactement les images, le montage et les gestes V26. Nouvelle
+direction : bossa douce à guitare nylon et contrebasse, dérive modérée avant
+32 s, coupure nette à 32 s et silence jusqu'à 32,5 s. Cinq accents non verbaux
+très brefs suivent hésitation, inspiration, choc, déception puis fierté.
+Renforcer la matière du panier et la progression de la cuisson sans empiler
+des effets sur chaque coupe. Le détecteur n'étant pas établi, la direction
+retient le dernier tsss de la poêle et une note finale plutôt qu'un bip qui
+détournerait la chute. La note finit avant la tenue muette 37,25–38 s.
+Travailler dans `episodes/03/cuisine_v27/`, préserver tous les anciens films.
+La source vocale CC0 est documentée ; sa méthode de création et son auteur
+original ne sont pas vérifiés. Ne pas revendiquer des captations humaines,
+une imitation vocale de Lamput, une écoute ou un confort perceptif validés.
+Livrer film son/muet/sources et contrôles sur GitHub selon l'accord existant.
+
+Historique de la réalisation V26 :
+
 Commande de réalisation : « Vas y » autorise la fabrication du découpage
 progressif retenu. Travailler dans `episodes/03/cuisine_v26/`, 38 s, quatre
 rituels, 23 plans, dernier repas brûlé et fausse victoire des mains propres.

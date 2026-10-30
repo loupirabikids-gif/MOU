@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "initial_pcm": {
+    "mix.wav": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b",
+    "musique_v27.wav": "b87512ba09eaee106fdf35d16e0346fdf5a9b712a6ce56939cfe160fe828296c",
+    "test_fin_v27.wav": "f36f3ee3f977558e5da0e29b04bd6c8a25a033781a0c1dc63576c0e63564375a",
+    "audition_voix_v27.wav": "112c5098f4cf1c9b4b8caf7374cdc43115393b0d106fac7f7b9fc6298d6550e7"
+  },
+  "producer_sha256": "8df164154ecf9a98843015ec239a8bc18984726482e7c9656fa1a2d5bf11de08",
+  "regenerated_pcm": {
+    "mix.wav": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b",
+    "musique_v27.wav": "b87512ba09eaee106fdf35d16e0346fdf5a9b712a6ce56939cfe160fe828296c",
+    "test_fin_v27.wav": "f36f3ee3f977558e5da0e29b04bd6c8a25a033781a0c1dc63576c0e63564375a",
+    "audition_voix_v27.wav": "112c5098f4cf1c9b4b8caf7374cdc43115393b0d106fac7f7b9fc6298d6550e7"
+  },
+  "pcm_bit_identical": true,
+  "method": "Full son.py run after removing unused copied V26 audio; only local included sources and installed FOSS tools."
+}

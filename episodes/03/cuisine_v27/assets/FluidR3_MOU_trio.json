@@ -1,0 +1,744 @@
+{
+  "source_sha256": "74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0",
+  "subset_sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+  "source_bytes": 148398306,
+  "subset_bytes": 4048186,
+  "presets": [
+    {
+      "name": "Brush",
+      "bank": 128,
+      "program": 40,
+      "preset_zones": 5,
+      "notes": [
+        36,
+        38,
+        42,
+        44,
+        51
+      ]
+    },
+    {
+      "name": "Yamaha Grand Piano",
+      "bank": 0,
+      "program": 0,
+      "preset_zones": 10,
+      "notes": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "name": "Acoustic Bass",
+      "bank": 0,
+      "program": 32,
+      "preset_zones": 10,
+      "notes": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    }
+  ],
+  "instrument_count": 6,
+  "sample_count": 32,
+  "sample_frames": 2021428,
+  "method": "Original PCM and sample loops copied intact; zone key ranges filtered to documented score notes, stereo sample links and all bags/generators/modulators reindexed.",
+  "samples": [
+    {
+      "name": "Gun",
+      "frames": 15394,
+      "sample_rate": 11025
+    },
+    {
+      "name": "Brush Snr 1(L)",
+      "frames": 14900,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Brush Snr 1(R)",
+      "frames": 14900,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Std Kick 7(L)",
+      "frames": 16768,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Std Kick 7(R)",
+      "frames": 16768,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Ride1(L)",
+      "frames": 113920,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Ride1(R)",
+      "frames": 113920,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Hi-Hat Foot(L)",
+      "frames": 22528,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Hi-Hat Foot(R)",
+      "frames": 22528,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Hi-Hat Closed(L)",
+      "frames": 31360,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Hi-Hat Closed(R)",
+      "frames": 31360,
+      "sample_rate": 44100
+    },
+    {
+      "name": "P200 Piano D4(L)",
+      "frames": 109546,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano D4(R)",
+      "frames": 109546,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano F#4(L)",
+      "frames": 84485,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano F#4(R)",
+      "frames": 84485,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano A#4(L)",
+      "frames": 87545,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano A#4(R)",
+      "frames": 87545,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano D5(L)",
+      "frames": 103887,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano D5(R)",
+      "frames": 103887,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano F#5(L)",
+      "frames": 88431,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano F#5(R)",
+      "frames": 88431,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano A#5(L)",
+      "frames": 71092,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano A#5(R)",
+      "frames": 71092,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano D6(L)",
+      "frames": 67050,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano D6(R)",
+      "frames": 67050,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano F#6(L)",
+      "frames": 75721,
+      "sample_rate": 32000
+    },
+    {
+      "name": "P200 Piano F#6(R)",
+      "frames": 75721,
+      "sample_rate": 32000
+    },
+    {
+      "name": "Acoustic Bass C5",
+      "frames": 42688,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass F#4",
+      "frames": 36728,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass A#3",
+      "frames": 44768,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass F3",
+      "frames": 53472,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass C3",
+      "frames": 52440,
+      "sample_rate": 44100
+    }
+  ],
+  "render_checks": [
+    {
+      "preset": "Brush",
+      "bank": 128,
+      "program": 40,
+      "tested_notes": [
+        36,
+        38,
+        42,
+        44,
+        51
+      ],
+      "all_notes_nonzero": true,
+      "max_sample_difference": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "preset": "Yamaha Grand Piano",
+      "bank": 0,
+      "program": 0,
+      "tested_notes": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "all_notes_nonzero": true,
+      "max_sample_difference": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "preset": "Acoustic Bass",
+      "bank": 0,
+      "program": 32,
+      "tested_notes": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "all_notes_nonzero": true,
+      "max_sample_difference": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    }
+  ],
+  "bank_sha256": "c8c326b595c4cf49a5aa58c920ecb27b645deb025652938e7db8b6795eca5fe2",
+  "package_verification": {
+    "package_url": "https://deb.debian.org/debian/pool/main/f/fluid-soundfont/fluid-soundfont-gm_3.1-5.3_all.deb",
+    "package_sha256": "6f531493ac4e4d9772fd96b2488ea1790af81c196135fbdd25997da0781fc60e",
+    "package_version": "3.1-5.3",
+    "packages_index_url": "https://deb.debian.org/debian/dists/trixie/main/binary-amd64/Packages.xz",
+    "packages_index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "debian_inrelease_signature_verified": true,
+    "keyring": "/usr/share/keyrings/debian-archive-keyring.gpg"
+  },
+  "signature_verification_summary": "Debian Trixie InRelease signature verified by gpg using installed Debian archive keyring; Packages.xz SHA and package SHA matched.",
+  "license": "MIT; see NOTICE_FluidR3_COPYRIGHT.txt. Debian packaging files separately GPL-2+.",
+  "reproduction_script": "sources/subset_soundfont.py",
+  "additional_long_sustain_checks": [
+    {
+      "bank": 0,
+      "program": 32,
+      "note": 45,
+      "velocity": 40,
+      "peak_dbfs": -33.04750666709526,
+      "rms_dbfs_0_3s": -52.32928992310009,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -40.542406191539186,
+        "0.2": -49.79177655076313,
+        "0.5": -53.82464326610226,
+        "1.0": -60.6820016955718,
+        "2.0": -67.99271310310344,
+        "2.8": -73.66606928734475,
+        "3.0": -88.65067748236824,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 0,
+      "program": 32,
+      "note": 45,
+      "velocity": 72,
+      "peak_dbfs": -22.847506496891498,
+      "rms_dbfs_0_3s": -42.129289916142454,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -30.34240618092898,
+        "0.2": -39.59177654781412,
+        "0.5": -43.62464326460429,
+        "1.0": -50.48200168996053,
+        "2.0": -57.79271310111029,
+        "2.8": -63.466069285829015,
+        "3.0": -77.57026232345137,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 0,
+      "program": 32,
+      "note": 45,
+      "velocity": 96,
+      "peak_dbfs": -17.847506489501942,
+      "rms_dbfs_0_3s": -37.129289922824015,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -25.34240618745936,
+        "0.2": -34.59177656097814,
+        "0.5": -38.62464326353205,
+        "1.0": -45.482001686314064,
+        "2.0": -52.79271309937842,
+        "2.8": -58.46606927619288,
+        "3.0": -70.67066258594829,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 0,
+      "program": 0,
+      "note": 61,
+      "velocity": 40,
+      "peak_dbfs": -35.83838715286416,
+      "rms_dbfs_0_3s": -53.6435779080294,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -45.60041525163585,
+        "0.2": -47.12271595884951,
+        "0.5": -50.52498914172471,
+        "1.0": -57.83846626429309,
+        "2.0": -68.35372246157395,
+        "2.8": -76.53035096084695,
+        "3.0": -84.97651350124212,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 0,
+      "program": 0,
+      "note": 61,
+      "velocity": 72,
+      "peak_dbfs": -25.638387790309928,
+      "rms_dbfs_0_3s": -43.4435769936568,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -35.400410954906725,
+        "0.2": -36.92271595468568,
+        "0.5": -40.324989131588474,
+        "1.0": -47.63846626565741,
+        "2.0": -58.153722466004815,
+        "2.8": -66.33035096190936,
+        "3.0": -73.82006492444924,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 0,
+      "program": 0,
+      "note": 61,
+      "velocity": 96,
+      "peak_dbfs": -20.63838729118805,
+      "rms_dbfs_0_3s": -38.44357699473907,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -30.400410955922922,
+        "0.2": -31.922715951156366,
+        "0.5": -35.32498913900543,
+        "1.0": -42.63846625787607,
+        "2.0": -53.15372245628801,
+        "2.8": -61.33035096770574,
+        "3.0": -66.96935564032829,
+        "3.5": -126.06206509709834
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 0,
+      "program": 0,
+      "note": 69,
+      "velocity": 40,
+      "peak_dbfs": -36.002182290423484,
+      "rms_dbfs_0_3s": -54.90958763156047,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -45.387660208368956,
+        "0.2": -48.59425825013476,
+        "0.5": -53.06873830246728,
+        "1.0": -60.600887656883124,
+        "2.0": -73.56164995962303,
+        "2.8": -76.77629029563525,
+        "3.0": -82.79568059027712,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 0,
+      "program": 0,
+      "note": 69,
+      "velocity": 72,
+      "peak_dbfs": -25.802181963044042,
+      "rms_dbfs_0_3s": -44.70958763377257,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -35.187660208516746,
+        "0.2": -38.394258251683205,
+        "0.5": -42.86873829813983,
+        "1.0": -50.400887652340636,
+        "2.0": -63.36164996514306,
+        "2.8": -66.57629029490623,
+        "3.0": -71.70027448870223,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 0,
+      "program": 0,
+      "note": 69,
+      "velocity": 96,
+      "peak_dbfs": -20.80218173479671,
+      "rms_dbfs_0_3s": -39.7095876318834,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -30.18766020291975,
+        "0.2": -33.39425825122649,
+        "0.5": -37.86873830516589,
+        "1.0": -45.40088765781715,
+        "2.0": -58.36164996683692,
+        "2.8": -61.57629030130943,
+        "3.0": -64.96341147698702,
+        "3.5": -126.4881688343734
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 38,
+      "velocity": 40,
+      "peak_dbfs": -36.06094381312012,
+      "rms_dbfs_0_3s": -67.65938207817017,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -52.9032894334249,
+        "0.2": -93.64598263760259,
+        "0.5": -240.0,
+        "1.0": -240.0,
+        "2.0": -240.0,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 38,
+      "velocity": 72,
+      "peak_dbfs": -25.86094439147311,
+      "rms_dbfs_0_3s": -57.459382076824575,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -42.7032894321121,
+        "0.2": -83.44598263302336,
+        "0.5": -240.0,
+        "1.0": -240.0,
+        "2.0": -240.0,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 38,
+      "velocity": 96,
+      "peak_dbfs": -20.51344239462432,
+      "rms_dbfs_0_3s": -51.31405575030118,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -36.56198359745275,
+        "0.2": -74.47165152438677,
+        "0.5": -240.0,
+        "1.0": -240.0,
+        "2.0": -240.0,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 42,
+      "velocity": 40,
+      "peak_dbfs": -42.44552441269072,
+      "rms_dbfs_0_3s": -71.21014489921987,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -56.4880966953305,
+        "0.2": -93.26888121440193,
+        "0.5": -112.27354976349075,
+        "1.0": -240.0,
+        "2.0": -240.0,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 42,
+      "velocity": 72,
+      "peak_dbfs": -32.24552452640739,
+      "rms_dbfs_0_3s": -61.010144892388226,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -46.28809668838358,
+        "0.2": -83.06888121686482,
+        "0.5": -102.07354976797347,
+        "1.0": -240.0,
+        "2.0": -240.0,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 42,
+      "velocity": 96,
+      "peak_dbfs": -27.245524375635547,
+      "rms_dbfs_0_3s": -56.01014488964368,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -41.28809668562978,
+        "0.2": -78.06888120808331,
+        "0.5": -97.07354975729267,
+        "1.0": -240.0,
+        "2.0": -240.0,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 51,
+      "velocity": 40,
+      "peak_dbfs": -35.943330842594705,
+      "rms_dbfs_0_3s": -63.9954085729073,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -51.73451505371095,
+        "0.2": -59.108467851305676,
+        "0.5": -66.52260069214987,
+        "1.0": -75.63733351481709,
+        "2.0": -100.81872012072878,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 51,
+      "velocity": 72,
+      "peak_dbfs": -25.74333111904897,
+      "rms_dbfs_0_3s": -53.79540856926566,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -41.53451504718895,
+        "0.2": -48.908467858601625,
+        "0.5": -56.32260070420145,
+        "1.0": -65.4373335211041,
+        "2.0": -90.61872013439188,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    },
+    {
+      "bank": 128,
+      "program": 40,
+      "note": 51,
+      "velocity": 96,
+      "peak_dbfs": -20.743331379716096,
+      "rms_dbfs_0_3s": -48.79540857361781,
+      "rms_windows_0_.2_.5_1_2s": {
+        "0.0": -36.53451505311481,
+        "0.2": -43.908467860241906,
+        "0.5": -51.32260070014471,
+        "1.0": -60.43733352516571,
+        "2.0": -85.6187201253711,
+        "2.8": -240.0,
+        "3.0": -240.0,
+        "3.5": -240.0
+      },
+      "max_abs_error": 0.0,
+      "relative_rmse": 0.0,
+      "waveform_identical": true
+    }
+  ]
+}

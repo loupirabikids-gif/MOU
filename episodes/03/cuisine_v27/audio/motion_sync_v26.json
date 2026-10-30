@@ -1,0 +1,70 @@
+{
+  "source_hashes": {
+    "animation.py": "29748212112335d5113f0cd77c7b6f7839b6cb675ebc5096333fb74582676bcd",
+    "performance.py": "470be3672654baed33d29176cc2732adaf91548d9a02447f6b3aabbb8b6dddc4",
+    "jeu_visage.py": "1eb3cbdf61b525ba6b1b3f9583e5ff40dbb9c3e8c3397efe1309ce474f777897"
+  },
+  "cycles": {
+    "1": {
+      "action_interval": [
+        6.4,
+        7.05
+      ],
+      "centres_seconds": [
+        6.665416666666667,
+        6.90375
+      ],
+      "relative_speed_pixels_per_second": [
+        373.83484442711216,
+        254.85124929485247
+      ],
+      "method": "240 actual V26 world hand states per wipe; gradient of right-minus-left; local maxima after first32% approach and before94%, separated by >=20% of action duration; numerical only"
+    },
+    "2": {
+      "action_interval": [
+        13.13,
+        13.63
+      ],
+      "centres_seconds": [
+        13.334166666666668,
+        13.515416666666667
+      ],
+      "relative_speed_pixels_per_second": [
+        477.96995414244265,
+        334.809882180638
+      ],
+      "method": "240 actual V26 world hand states per wipe; gradient of right-minus-left; local maxima after first32% approach and before94%, separated by >=20% of action duration; numerical only"
+    },
+    "3": {
+      "action_interval": [
+        18.08,
+        18.47
+      ],
+      "centres_seconds": [
+        18.23925,
+        18.380625
+      ],
+      "relative_speed_pixels_per_second": [
+        620.9709115193268,
+        426.6121456634149
+      ],
+      "method": "240 actual V26 world hand states per wipe; gradient of right-minus-left; local maxima after first32% approach and before94%, separated by >=20% of action duration; numerical only"
+    },
+    "4": {
+      "action_interval": [
+        26.4,
+        27.35
+      ],
+      "centres_seconds": [
+        26.985833333333332,
+        27.290625000000002
+      ],
+      "relative_speed_pixels_per_second": [
+        190.96750895233652,
+        64.92402918038903
+      ],
+      "method": "240 actual V26 world hand states per wipe; gradient of right-minus-left; local maxima after first32% approach and before94%, separated by >=20% of action duration; numerical only"
+    }
+  },
+  "method": "240 actual V26 world hand states per wipe; gradient of right-minus-left; local maxima after first32% approach and before94%, separated by >=20% of action duration; numerical only"
+}
