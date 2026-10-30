@@ -1,5 +1,10 @@
 # MOU
 
+**V25 rejetée par l'utilisatrice : version de travail conservée, publication
+déconseillée en l'état.** Le [réexamen éditorial](episodes/03/developpement/reprise_editoriale/)
+reprend la progression du gag et le jeu de MOU. Les contrôles techniques
+ci-dessous ne constituent pas une approbation artistique.
+
 **[Bibliothèque d’expressions de MOU](bibliotheque/expressions/v1/)** — 36 poses, 12 familles, galerie SVG/PNG et six transitions de visage.
 
 **Encore une feuille — Just cooking. Mostly washing. — V25, 43 secondes.**

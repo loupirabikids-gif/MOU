@@ -1,5 +1,20 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Retour après V25 : l'utilisatrice rejette aussi cette version et doute de sa
+qualité pour lancer une chaîne. V25 reste consultable et techniquement
+contrôlée, mais n'est pas une référence artistique approuvée ni prête à
+publier. Réexamen dans `episodes/03/developpement/reprise_editoriale/`.
+Ne pas traiter ce rejet comme une nouvelle baisse de volume ou un changement
+isolé de sourcil : les répétitions doivent modifier les décisions de MOU et
+la chute doit résulter de son caractère. Conserver le modèle, les deux bras
+et moufles, le costume et les outils libres. La réécriture est une proposition,
+pas un film déjà réalisé ni un accord de l'utilisatrice sur une nouvelle fin.
+Examiner les nouvelles actions et leur lisibilité en petit format avant un
+nouveau rendu final. Ni critique interne favorable, ni nombre d'expressions,
+ni export valide ne prouvent le succès d'une chaîne.
+
+Historique de la commande V25 :
+
 Commande V25 : l'utilisatrice reste insatisfaite ; elle demande une musique
 douce et une vraie reprise des expressions, de l'animation et des mouvements.
 Cette demande autorise maintenant le jeu corporel et les poses, au-delà des
