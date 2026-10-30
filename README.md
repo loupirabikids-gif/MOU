@@ -18,6 +18,7 @@ Le mix allège les superpositions et les attaques ; le jazz reste continu.
 - [Découpage et critiques](episodes/03/developpement/etude_professionnelle/)
 - [Recherche : outils libres réellement testés et techniques retenues](recherche/2026-10-29_professionnel/README.md)
 - [Repérage animation adulte : chaînes, pages et dépôts GitHub](recherche/2026-10-29_animation_adulte/README.md)
+- [Accès YouTube après activation du 30 octobre et recherche documentaire](recherche/2026-10-30_acces_youtube/README.md)
 
 Blender et RaveAnima ont été essayés ; leurs imports automatiques altèrent les
 masques du SVG. Le film garde son rendu CairoSVG. Friction et OpenToonz

@@ -1,0 +1,50 @@
+[
+  {
+    "query_name": "cyanide_google",
+    "query": "Cyanide Happiness Explosm million YouTube success",
+    "search_url": "https://www.google.com/search?q=Cyanide+Happiness+Explosm+million+YouTube+success&hl=en&num=8",
+    "observed_local": "2026-10-30T12:30:40.996118+01:00",
+    "zone": "Africa/Casablanca",
+    "kind": "search_engine_index_not_primary_article",
+    "status": 200,
+    "response_sha256": "60cb16db422c3bd27f8ec44038367489539f8c8e674bb1a9dbf1914455ed7a97",
+    "page_text_excerpt": "Google Search Please click here if you are not redirected within a few seconds. If you're having trouble accessing Google Search, please click here , or send feedback .",
+    "links": []
+  },
+  {
+    "query_name": "hazbin_google",
+    "query": "Hazbin Hotel Amazon record 2024 Deadline",
+    "search_url": "https://www.google.com/search?q=Hazbin+Hotel+Amazon+record+2024+Deadline&hl=en&num=8",
+    "observed_local": "2026-10-30T12:30:40.996582+01:00",
+    "zone": "Africa/Casablanca",
+    "kind": "search_engine_index_not_primary_article",
+    "status": 200,
+    "response_sha256": "df4eba12048db32a347d4e72906f567024bded8aaa4df4ed95036dac8c7fa549",
+    "page_text_excerpt": "Google Search Please click here if you are not redirected within a few seconds. If you're having trouble accessing Google Search, please click here , or send feedback .",
+    "links": []
+  },
+  {
+    "query_name": "helluva_google",
+    "query": "Helluva Boss Prime Video picked up Deadline",
+    "search_url": "https://www.google.com/search?q=Helluva+Boss+Prime+Video+picked+up+Deadline&hl=en&num=8",
+    "observed_local": "2026-10-30T12:30:40.997131+01:00",
+    "zone": "Africa/Casablanca",
+    "kind": "search_engine_index_not_primary_article",
+    "status": 200,
+    "response_sha256": "e2b26a113acd4434d0d5b737ed894e2e096d0e3a6e21b3c2d8a7eeac17f46130",
+    "page_text_excerpt": "Google Search Please click here if you are not redirected within a few seconds. If you're having trouble accessing Google Search, please click here , or send feedback .",
+    "links": []
+  },
+  {
+    "query_name": "smiling_google",
+    "query": "Smiling Friends Adult Swim ratings renewed",
+    "search_url": "https://www.google.com/search?q=Smiling+Friends+Adult+Swim+ratings+renewed&hl=en&num=8",
+    "observed_local": "2026-10-30T12:30:40.997871+01:00",
+    "zone": "Africa/Casablanca",
+    "kind": "search_engine_index_not_primary_article",
+    "status": 200,
+    "response_sha256": "02e88c2f9a70840d94f0e923a81d46d28f6905fe72d9d08c5a19f6e662f7c6d9",
+    "page_text_excerpt": "Google Search Please click here if you are not redirected within a few seconds. If you're having trouble accessing Google Search, please click here , or send feedback .",
+    "links": []
+  }
+]

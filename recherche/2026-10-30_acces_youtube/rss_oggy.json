@@ -1,0 +1,59 @@
+{
+  "name": "rss_oggy",
+  "url": "https://www.bing.com/search?q=Oggy&format=rss",
+  "status": 200,
+  "bytes": 5686,
+  "results": [
+    {
+      "title": "The Disability Squeeze",
+      "url": "https://disabilitysqueeze.org/",
+      "description": "The Disability Squeeze is a research and policy initiative led by Dr. Zach Morris (Associate Professor at Stony Brook University) documenting the financial costs of disability and translating findings into policy recommendations."
+    },
+    {
+      "title": "The disability squeeze: Out-of-pocket expenses and unmet needs for ...",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1936657425001591",
+      "description": "Few studies have quantified the higher cost of living with a disability and the extent of unmet needs for disability-related goods and services as exp…"
+    },
+    {
+      "title": "The Disability Squeeze | American Foundation for the Blind",
+      "url": "https://www.afb.org/research-and-initiatives/research/partnered-projects/disability-squeeze-the-extra-costs-of-living-with-blindness-or-low-vision",
+      "description": "People who are blind or have low vision (BLV), like other people with disabilities, often must spend money out-of-pocket for needed disability-related goods and services, such as assistive technologies, prescription drugs, or accessible transportation services."
+    },
+    {
+      "title": "Research Hub – The Disability Squeeze",
+      "url": "https://disabilitysqueeze.org/research-hub/",
+      "description": "A place to share pertinent research on the extra costs of living with disabilities and the disability financial squeeze."
+    },
+    {
+      "title": "The Disability Squeeze: The High Cost of Living with a Disability",
+      "url": "https://gracedowwrites.com/2026/02/12/the-disability-squeezethe-high-cost-of-living-with-a-disability/",
+      "description": "The report, published in the Disability and Health Journal, highlighted the increased cost-of-living challenges that disabled people face, which Morris and his team called “The Disability Squeeze.”"
+    },
+    {
+      "title": "The Disability Squeeze: Out-of-pocket Expenses and Unmet Needs for ...",
+      "url": "https://www.rand.org/pubs/external_publications/EP71005.html",
+      "description": "To provide national estimates of total annual out-of-pocket disability-related expenditures, their burden, and the prevalence of unmet needs, and to investigate whether persons with disabilities from underserved communities experience disparate impacts from \"the disability squeeze.\""
+    },
+    {
+      "title": "National Study Finds an Even Tougher Financial Picture for the Disabled",
+      "url": "https://ablenews.com/national-study-finds-an-even-tougher-financial-picture-for-the-disabled/",
+      "description": "The report published in the Disability and Health Journal, focused on the amplified cost-of-living challenges faced by people with disabilities – what Morris and his team referred to as “The Disability Squeeze.”"
+    },
+    {
+      "title": "The disability squeeze: Out-of-pocket expenses and unmet needs for ...",
+      "url": "https://researchconnect.suny.edu/en/publications/the-disability-squeeze-out-of-pocket-expenses-and-unmet-needs-for/",
+      "description": "Conclusion: Adults with disabilities in the U.S. experience considerable financial strain from their disability-related expenses and sustain high rates of unmet needs with disproportionate impacts identified for those from underserved communities."
+    },
+    {
+      "title": "Stay Safe Rx: The Disability Squeeze",
+      "url": "https://www.staysaferx.org/2026/08/the-disability-squeeze.html",
+      "description": "When it comes to work, the squeeze may come from having to accept a lower paying job on one end and having to pay more for accessibility accommodations in order to be able to work on the other."
+    },
+    {
+      "title": "The disability squeeze: Out-of-pocket expenses and unmet needs for ...",
+      "url": "https://www.researchgate.net/profile/Zachary-Morris-2/publication/393888178_The_Disability_Squeeze_Out-of-Pocket_Expenses_and_Unmet_Needs_for_Disability-Related_Goods_and_Services_in_the_US/links/68892ce44eccfb3f29c61e87/The-Disability-Squeeze-Out-of-Pocket-Expenses-and-Unmet-Needs-for-Disability-Related-Goods-and-Services-in-the-US.pdf",
+      "description": "term the 'disability squeeze', which we define as the financial pressures that persons with disabilities experience affording their needed disability-related goods and services."
+    }
+  ],
+  "assessment": "Off-topic result set excluded from references"
+}

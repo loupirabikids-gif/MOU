@@ -1,0 +1,13 @@
+{
+  "name": "google_oggy",
+  "url": "https://www.google.com/search?q=Oggy+cooking+official+youtube&hl=en",
+  "observed_utc": "2026-10-30T11:30:10.345567+00:00",
+  "status": 200,
+  "final_url": "https://www.google.com/search?q=Oggy+cooking+official+youtube&hl=en",
+  "bytes": 93082,
+  "sha256": "b519b1dbcafcd3408f95a3eb17c8e1855de6e9229ef2cd248904e91d741fb469",
+  "page_title": "Google Search",
+  "results": [],
+  "youtube_links": [],
+  "assessment": "Google JavaScript challenge, no readable search results"
+}

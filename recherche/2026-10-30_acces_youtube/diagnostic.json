@@ -1,0 +1,61 @@
+{
+  "observed_local": "2026-10-30T12:33:28.062127+01:00",
+  "timezone": "Africa/Casablanca",
+  "runtime_observations_current": true,
+  "runtime_network_policy_state": "enforced",
+  "runtime_explicit_youtube_rules_active": true,
+  "runtime_allowed_hosts": [
+    "*.googlevideo.com",
+    "i.ytimg.com",
+    "m.youtube.com",
+    "www.bing.com",
+    "www.google.com",
+    "www.youtube.com",
+    "youtu.be",
+    "youtube.com"
+  ],
+  "direct_requests": [
+    {
+      "name": "oggy",
+      "url": "https://www.youtube.com/@oggy/videos",
+      "observed_utc": "2026-10-30T11:27:10.413944+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "mrbean",
+      "url": "https://www.youtube.com/@MrBean/videos",
+      "observed_utc": "2026-10-30T11:27:10.414799+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "explosm",
+      "url": "https://www.youtube.com/@ExplosmEntertainment/shorts",
+      "observed_utc": "2026-10-30T11:27:10.415350+00:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "name": "bing",
+      "url": "https://www.bing.com/search?q=Oggy+Mr+Bean+animated+cooking+official+youtube",
+      "observed_utc": "2026-10-30T11:27:10.416041+00:00",
+      "status": 200,
+      "final_url": "https://www.bing.com/search?q=Oggy+Mr+Bean+animated+cooking+official+youtube",
+      "bytes": 117561,
+      "sha256": "2d7b8e22682e5d411e4ff0d8e933b43c6fa103b681e9f3197dfb27f256709796",
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "diagnostic_request": {
+    "url": "https://www.youtube.com/@oggy/videos",
+    "curl_connect_http_code": 403,
+    "origin_http_code": 0,
+    "filtered_response_headers": [
+      "HTTP/1.1 403 Forbidden",
+      "content-type: text/plain",
+      "server: envoy"
+    ]
+  },
+  "retained_network_diagnostics_status": "not_found",
+  "cause_limit": "Allowlist active; CONNECT refusal observed before TLS/origin response. Root cause not established.",
+  "video_viewed": false,
+  "audio_listened": false
+}

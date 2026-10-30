@@ -1,0 +1,62 @@
+{
+  "name": "rss_oggy_kitchen",
+  "query": "\"Oggy and the Cockroaches\" cooking official",
+  "url": "https://www.bing.com/search?q=%22Oggy+and+the+Cockroaches%22+cooking+official&format=rss",
+  "observed_utc": "2026-10-30T11:32:32.457367+00:00",
+  "status": 200,
+  "bytes": 4460,
+  "sha256": "d601628e9375cc3ad2bfced7a7b2f64891b05c66af2efd2771b1e8a36e09134c",
+  "results": [
+    {
+      "title": "calculator.com calculate anything, anytime, anywhere",
+      "url": "https://www.calculator.com/",
+      "description": "Online calculators for everything. Some solve problems, some satisfy curiosity."
+    },
+    {
+      "title": "Basic Calculator",
+      "url": "https://www.calculator.net/basic-calculator.html",
+      "description": "This free online calculator can be used for basic computations such as addition, subtraction, multiplication, division, and square roots."
+    },
+    {
+      "title": "Scientific Calculator - Desmos",
+      "url": "https://www.desmos.com/scientific",
+      "description": "A beautiful, free online scientific calculator with advanced features for evaluating percentages, fractions, exponential functions, logarithms, trigonometry, statistics, and more."
+    },
+    {
+      "title": "Scientific Calculator",
+      "url": "https://www.calculator.net/scientific-calculator.html",
+      "description": "This is an online scientific calculator with double-digit precision that supports both button click and keyboard type."
+    },
+    {
+      "title": "Basic Calculator",
+      "url": "https://www.calculator.io/basic-calculator/",
+      "description": "Solve everyday math instantly with our free online Basic Calculator. Easily perform addition, subtraction, multiplication, division, percentages, and taxes."
+    },
+    {
+      "title": "Calculator - Math is Fun",
+      "url": "https://www.mathsisfun.com/numbers/calculator.html",
+      "description": "Calculator Just type and your answer comes up live. Use the buttons, or type formulas like 3*sqrt (2) or pi/2"
+    },
+    {
+      "title": "Calculator | The Online Calculator",
+      "url": "https://www.theonlinecalculator.com/",
+      "description": "Basic Online Calculator with 10-digit keypad and 4 functions to add, subtract, multiply and divide numbers. Includes basic handheld calculator functions for square, square root, percent, sign change, Pi and memory."
+    },
+    {
+      "title": "Calculator | Online Calculator",
+      "url": "https://w3calc.com/en/",
+      "description": "Your all-in-one online calculator for quick and precise basic to scientific calculations. Easily perform addition, subtraction, multiplication, division, trigonometry, logarithms, and more with our user-friendly interface."
+    },
+    {
+      "title": "Free Online Calculator — Basic Calculator Online",
+      "url": "https://basiccalculatoronline.com/",
+      "description": "Free online calculator — basic, scientific & percentage calculator plus 50+ free tools. No sign-up, no download, works instantly."
+    },
+    {
+      "title": "Full Screen Calculator - Online Calculator",
+      "url": "https://www.online-calculator.com/full-screen-calculator/",
+      "description": "Our Full Screen Online Calculator is an essential tool for anyone who needs to perform mathematical calculations quickly and easily. With a user-friendly interface and a range of functions, our calculator can handle all types of calculations, from basic arithmetic to complex mathematical equations."
+    }
+  ],
+  "assessment": "Off-topic result set excluded from references"
+}

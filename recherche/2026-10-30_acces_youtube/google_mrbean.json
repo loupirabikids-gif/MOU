@@ -1,0 +1,13 @@
+{
+  "name": "google_mrbean",
+  "url": "https://www.google.com/search?q=Mr+Bean+animated+cooking+official+youtube&hl=en",
+  "observed_utc": "2026-10-30T11:30:10.346001+00:00",
+  "status": 200,
+  "final_url": "https://www.google.com/search?q=Mr+Bean+animated+cooking+official+youtube&hl=en",
+  "bytes": 93243,
+  "sha256": "4cffdd2213dcfe2e3cf155ddfd4c3eb3d6694fa7837b031fa7bb30c48a38faf6",
+  "page_title": "Google Search",
+  "results": [],
+  "youtube_links": [],
+  "assessment": "Google JavaScript challenge, no readable search results"
+}

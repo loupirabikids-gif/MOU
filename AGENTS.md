@@ -1,5 +1,15 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Point réseau du 30 octobre 2026 : les autorisations YouTube ont été appliquées
+et sont observées actives/enforced dans le runtime et la politique locale.
+Les connexions directes restent refusées au tunnel CONNECT403 (serveur envoy),
+avant chargement de YouTube ; cause précise non établie. Bing est accessible,
+avec certains résultats pertinents et d'autres hors sujet à écarter. Aucun
+visionnage ni écoute ne découle des métadonnées indexées. Voir
+`recherche/2026-10-30_acces_youtube/`. L'utilisatrice a accompli la publication :
+vérifier l'état réel avant de redemander une configuration ; ne pas faire
+répéter la même manipulation sans élément nouveau.
+
 Demande courante V22 : après rejet « Ridicule » de V21, chercher et tester
 des outils/techniques pour une animation expressive, des pauses calculées,
 des cadrages utiles et des sons confortables, inspiration demandée Oggy.
