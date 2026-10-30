@@ -1,0 +1,93 @@
+{
+  "repository": "lavenderdotpet/CC0-Public-Domain-Sounds",
+  "commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+  "licence_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/LICENSE",
+  "licence_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+  "limits": "Repository identifies CC0 assets but original recording method was not recovered. No listening was possible. Do not call these verified natural human recordings.",
+  "sources": [
+    {
+      "source_path": "80-CC0-creature-sfx-2/breath_02.ogg",
+      "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/80-CC0-creature-sfx-2/breath_02.ogg",
+      "source_sha256": "5b32729394cc36667bb8052508115941f21d85804f84ecda4c492d19883cd15e",
+      "source_bytes": 15575,
+      "duration_s": 0.356292,
+      "original_stream": {
+        "codec_name": "vorbis",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "wav_sha256": "27474bcd792817c3cecb516eea3953a7077096d4be042dacbd4fb049acefcf95",
+      "conversion": "FFmpeg decode only, 48000 Hz stereo PCM16; no pitch/time/subjective selection",
+      "licence": "repository-wide CC0 1.0 LICENSE, pack title also claims CC0",
+      "recording_method": "not verified",
+      "original_author": "not verified",
+      "wordlessness_and_emotional_quality": "not listened to; label alone is not a perception test",
+      "local_wav": "breath_02.wav",
+      "local_original": "breath_02.ogg",
+      "id": "breath_02"
+    },
+    {
+      "source_path": "80-CC0-creature-SFX/ooh.ogg",
+      "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/80-CC0-creature-SFX/ooh.ogg",
+      "source_sha256": "6e2323960b6eaa931a75e4f75e3f13926cf3b67d4c21767cae88f2b2f7c83613",
+      "source_bytes": 16551,
+      "duration_s": 0.738542,
+      "original_stream": {
+        "codec_name": "vorbis",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "wav_sha256": "21fe7a7cdce33620a1b1fa31e916914f163c4df7bfe74ab2071dee952cce9fc4",
+      "conversion": "FFmpeg decode only, 48000 Hz stereo PCM16; no pitch/time/subjective selection",
+      "licence": "repository-wide CC0 1.0 LICENSE, pack title also claims CC0",
+      "recording_method": "not verified",
+      "original_author": "not verified",
+      "wordlessness_and_emotional_quality": "not listened to; label alone is not a perception test",
+      "local_wav": "ooh.wav",
+      "local_original": "ooh.ogg",
+      "id": "ooh"
+    },
+    {
+      "source_path": "80-CC0-creature-SFX/breath.ogg",
+      "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/80-CC0-creature-SFX/breath.ogg",
+      "source_sha256": "d6ecfd092c261059701fe81581957ce6e67c1737978449bbd98ec6d4f30abb7f",
+      "source_bytes": 28273,
+      "duration_s": 0.670417,
+      "original_stream": {
+        "codec_name": "vorbis",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "wav_sha256": "46728d98e8e13b480dd4c7d4c1070f86b2deb90852bd59fde26c3deddb6f82ab",
+      "conversion": "FFmpeg decode only, 48000 Hz stereo PCM16; no pitch/time/subjective selection",
+      "licence": "repository-wide CC0 1.0 LICENSE, pack title also claims CC0",
+      "recording_method": "not verified",
+      "original_author": "not verified",
+      "wordlessness_and_emotional_quality": "not listened to; label alone is not a perception test",
+      "local_wav": "breath.wav",
+      "local_original": "breath.ogg",
+      "id": "breath"
+    },
+    {
+      "source_path": "80-CC0-creature-SFX/nose.ogg",
+      "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/80-CC0-creature-SFX/nose.ogg",
+      "source_sha256": "c54f2937d705bda30a9618531d62752356ba9e1cae258687131e1582b36e53ce",
+      "source_bytes": 17972,
+      "duration_s": 0.348625,
+      "original_stream": {
+        "codec_name": "vorbis",
+        "sample_rate": "48000",
+        "channels": 2
+      },
+      "wav_sha256": "56505d46a95d5b231dd7c1880528416a4684748ba31ee3379f73b1f36fe67858",
+      "conversion": "FFmpeg decode only, 48000 Hz stereo PCM16; no pitch/time/subjective selection",
+      "licence": "repository-wide CC0 1.0 LICENSE, pack title also claims CC0",
+      "recording_method": "not verified",
+      "original_author": "not verified",
+      "wordlessness_and_emotional_quality": "not listened to; label alone is not a perception test",
+      "local_wav": "nose.wav",
+      "local_original": "nose.ogg",
+      "id": "nose"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+MOU — Cuisine V28 : mains et couplage des souffles
+38 secondes, 1080 × 1920, 24 images/s, 912 images ; AAC 48 kHz stéréo.
+
+Mains : présentation finale devant le torse et sous la bouche, petits arcs
+natifs avec pivots ±8°. Modèle, deux bras et deux moufles conservés. La critique
+du vrai clip HD ne retrouve plus les formes de palettes près des oreilles.
+Les 798 états physiques avant 33,25 s restent identiques à V27.
+
+Synchronisation : aucun retard global mesuré dans V27. Deux actions de bouche
+suivent les souffles déjà présents : ouverture tenue pendant l'inspiration,
+puis petite expiration visible. Pics d'énergie à 25,7668 et 32,8093 s ; ancres
+visuelles à moins d'une image. Ces corrections sont constatées sur les images
+encodées, sans prétendre à une écoute.
+
+Audio : WAV V27 exactement conservé, SHA256
+16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b
+Musique, bruitages, niveaux, coupure à 32 s et silences conservés.
+
+QA finale passée : 912 états, 1 488 contours natifs, prises, masques et pieds.
+38 images du MP4 comparées à CairoSVG frais hors cache, aucun échec. Tous les
+SVG hors fenêtres autorisées sont identiques à V27 ; seuls deux gestes de
+bouche et la présentation finale diffèrent. Flux H.264 son/muet identiques,
+AAC/WAV corrélation 0,997439444, aucune saturation, tenue finale 18 images.
+Rapports détaillés : controle/audit_final.json et qa_v28.md.
+
+Bibliothèque séparée : douze propositions, six intentions, deux variantes,
+avec WAV, ancres d'énergie, bouche conseillée, catalogue HTML et audition de 18 s.
+Aucun de ces nouveaux sons n'est imposé au film. Les douze WAV ont été
+reproduits à l'identique depuis leur ZIP autonome. Les licences CC0 et les
+limites sur les créateurs originaux sont documentées.
+
+Sources : ZIP avec manifeste SHA256. L'audit séparé de reproduction à froid
+est enregistré dans controle/audit_archive.json sans empreinte circulaire.
+
+Limites : pas d'écoute par le modèle, de validation publique des émotions
+ou de garantie de confort sonore. La bibliothèque est un ensemble d'essais
+à auditionner ; la livraison n'est pas une approbation artistique de l'utilisatrice.

@@ -1,5 +1,30 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Retour après V27 : corriger les moufles étranges de la fin, préparer une
+bibliothèque des sons de MOU et examiner le couplage son/mouvement. V28 dans
+`episodes/03/cuisine_v28/` : correction de pose, pas de nouveau dessin des
+bras. Les moufles restent devant le torse sous la bouche, dans de petits
+arcs natifs. Préserver tous les autres gestes. L'audit V27 ne mesure aucun
+retard audio global ; ne pas glisser toute la piste. Deux actions de bouche
+accompagnent l'inspiration vers 25,77 s et l'expiration vers 32,81 s. Le mix
+V27 est conservé exactement ; la musique et les bruitages restent identiques.
+La banque `bibliotheque/sons/v1/` fournit douze propositions à auditionner,
+six intentions et deux variantes, avec bouche conseillée et ancre d'énergie.
+Ne pas injecter les douze sons dans le film ni les déclarer validés par un
+public. Préserver le timbre commun, le muet et les outils libres. Produire
+un aperçu de la fin, une critique du vrai MP4 et les exports/sources GitHub
+selon l'autorisation existante. Les mesures ne remplacent pas une écoute.
+
+V28 réalisée et revue : réserve des mains levée sur le clip encodé et deux
+respirations vérifiées par images. QA passée : 798 états physiques précédents
+inchangés, contours natifs et fenêtres graphiques contrôlés, WAV V27 conservé.
+La bibliothèque v1 contient douze propositions et son ZIP autonome a été
+reproduit à froid. Les ancres d'énergie sont des repères numériques, pas une
+validation d'audibilité ou d'émotion reconnue. Voir le bilan V28 et le statut
+proposition_non_validee de chaque son avant d'en choisir pour un autre épisode.
+
+Historique de la révision sonore V27 :
+
 Commande sonore V27 : reprendre uniquement la bande-son du film de 38 s.
 Conserver exactement les images, le montage et les gestes V26. Nouvelle
 direction : bossa douce à guitare nylon et contrebasse, dérive modérée avant

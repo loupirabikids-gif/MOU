@@ -1,0 +1,198 @@
+{
+  "status": "passed",
+  "current_library_validated": true,
+  "scope": "Final ZIP integrity and isolated deterministic generation only; not auditory or emotion validation.",
+  "observed_utc": "2026-10-30T22:55:10.572104+00:00",
+  "archive_sha256": "6a684944fadb320320258325921b9a3a1f307ab862cbe82cd4d20e06d00b8329",
+  "archive_bytes": 1310047,
+  "manifest_files": 31,
+  "crc_and_sha256_verified": true,
+  "extraction": "/workspace/MOU/work/biblio_sons_v1/cold_nsq2r2xw/extracted",
+  "python_flags": [
+    "-I",
+    "-B",
+    "-c"
+  ],
+  "cold": {
+    "status": "passed",
+    "cold_module": "/workspace/MOU/work/biblio_sons_v1/cold_nsq2r2xw/extracted/sound_bank.py",
+    "sounds": [
+      {
+        "id": "hesitation_01",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "39b213e56ac3c7ca16e81c1799dddd500341ce77bd09c0afade85171e6f18cb4",
+        "samples": 11520,
+        "anchor_sample": 1590,
+        "peak_sample": 3136,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "hesitation_02",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "dffbb8d54eb12e7f945b436e5f378afb81faf63dba35fc3dc132d19d15d509fc",
+        "samples": 17280,
+        "anchor_sample": 2832,
+        "peak_sample": 4966,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "effort_01",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "7addb4f9dc4e2aa8cea2ff1b1594eb74723ec1eec8f0a4f4564757b0a02414b4",
+        "samples": 8640,
+        "anchor_sample": 363,
+        "peak_sample": 976,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "effort_02",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "cd83fd02f3d2429a37fa93980594f308ba1a75c464b1195ef462a1007f53177b",
+        "samples": 12480,
+        "anchor_sample": 1182,
+        "peak_sample": 2436,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "surprise_01",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "3448519ccec096719aa3f0df4a920a62b4269a4ed6bbe468684da17a62c60470",
+        "samples": 6720,
+        "anchor_sample": 1925,
+        "peak_sample": 5360,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "surprise_02",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "87b51ac7704ce7b1c1addfa6a0a7f05ac2b5afb883067be819c05b09ff794169",
+        "samples": 12000,
+        "anchor_sample": 1509,
+        "peak_sample": 4201,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "deception_01",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "5c2c74ba24d62b66246cc572ef6dbde9cc121a3e8bd91dd866f3b3269f2cfe34",
+        "samples": 16320,
+        "anchor_sample": 1063,
+        "peak_sample": 1992,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "deception_02",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "f7807c603deda25ad66323f00a6f4edd677f673a683ebb77f69fee47e3405ee2",
+        "samples": 24000,
+        "anchor_sample": 1711,
+        "peak_sample": 2684,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "satisfaction_01",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "c900a663b8eadb77af28cfecbb2824041171d23aeb6563671b90b66a050e1492",
+        "samples": 8640,
+        "anchor_sample": 1280,
+        "peak_sample": 2577,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "satisfaction_02",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "623dc4f5391137ebdba4e756eff1fa4364d373944088c269aa4fa1fbac616a7c",
+        "samples": 12000,
+        "anchor_sample": 1236,
+        "peak_sample": 2990,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "gene_01",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "ae953b730f829439ebbdf81175c7a86c7643a4e63f15d2510af289b873f622ea",
+        "samples": 15360,
+        "anchor_sample": 944,
+        "peak_sample": 11134,
+        "status": "proposition_non_validee"
+      },
+      {
+        "id": "gene_02",
+        "pcm_and_wav_bytes_identical": true,
+        "sha256": "3e9f95c508e71d1675f9799633dc67a7e47ae8dee2f30a79eaf7e3566be30f06",
+        "samples": 22080,
+        "anchor_sample": 2831,
+        "peak_sample": 18052,
+        "status": "proposition_non_validee"
+      }
+    ],
+    "distinct_wav_count": 12,
+    "html_external_resources": false,
+    "html_fetch_api_calls": false,
+    "html_declared_resources": [
+      [
+        "audio",
+        "audition_complete.wav"
+      ],
+      [
+        "audio",
+        "audio/hesitation_01.wav"
+      ],
+      [
+        "audio",
+        "audio/hesitation_02.wav"
+      ],
+      [
+        "audio",
+        "audio/effort_01.wav"
+      ],
+      [
+        "audio",
+        "audio/effort_02.wav"
+      ],
+      [
+        "audio",
+        "audio/surprise_01.wav"
+      ],
+      [
+        "audio",
+        "audio/surprise_02.wav"
+      ],
+      [
+        "audio",
+        "audio/deception_01.wav"
+      ],
+      [
+        "audio",
+        "audio/deception_02.wav"
+      ],
+      [
+        "audio",
+        "audio/satisfaction_01.wav"
+      ],
+      [
+        "audio",
+        "audio/satisfaction_02.wav"
+      ],
+      [
+        "audio",
+        "audio/gene_01.wav"
+      ],
+      [
+        "audio",
+        "audio/gene_02.wav"
+      ]
+    ],
+    "relative_audio_links_exist": true,
+    "project_modules_loaded_from_extraction": [
+      "mou_sound_bank_cold_audit"
+    ],
+    "network_disabled": true
+  },
+  "checker_correction": "Audit driver invoked with -c so it is not mistaken for an imported original project module; no producer or library output changed.",
+  "limitations": [
+    "No listening performed.",
+    "Intentions, perceived wordlessness, comfort and emotion recognition remain unvalidated proposals.",
+    "Original author and production method remain unverified beyond the repository CC0 declaration."
+  ]
+}

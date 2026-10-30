@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "generated_sounds": 12,
+  "families": 6,
+  "source_count": 3,
+  "same_render_twice": true,
+  "unique_wav_hashes": 12,
+  "audition_duration_s": 18.0,
+  "video_frames": 432,
+  "sample_rate": 48000,
+  "no_pcm_clipping": true,
+  "energy_anchors_recomputed_from_written_pcm": true,
+  "no_model_listening": true,
+  "all_sounds_status": "proposition_non_validee",
+  "entries": [
+    {
+      "id": "hesitation_01",
+      "sha256": "39b213e56ac3c7ca16e81c1799dddd500341ce77bd09c0afade85171e6f18cb4",
+      "anchor_sample": 1590,
+      "samples": 11520
+    },
+    {
+      "id": "hesitation_02",
+      "sha256": "dffbb8d54eb12e7f945b436e5f378afb81faf63dba35fc3dc132d19d15d509fc",
+      "anchor_sample": 2832,
+      "samples": 17280
+    },
+    {
+      "id": "effort_01",
+      "sha256": "7addb4f9dc4e2aa8cea2ff1b1594eb74723ec1eec8f0a4f4564757b0a02414b4",
+      "anchor_sample": 363,
+      "samples": 8640
+    },
+    {
+      "id": "effort_02",
+      "sha256": "cd83fd02f3d2429a37fa93980594f308ba1a75c464b1195ef462a1007f53177b",
+      "anchor_sample": 1182,
+      "samples": 12480
+    },
+    {
+      "id": "surprise_01",
+      "sha256": "3448519ccec096719aa3f0df4a920a62b4269a4ed6bbe468684da17a62c60470",
+      "anchor_sample": 1925,
+      "samples": 6720
+    },
+    {
+      "id": "surprise_02",
+      "sha256": "87b51ac7704ce7b1c1addfa6a0a7f05ac2b5afb883067be819c05b09ff794169",
+      "anchor_sample": 1509,
+      "samples": 12000
+    },
+    {
+      "id": "deception_01",
+      "sha256": "5c2c74ba24d62b66246cc572ef6dbde9cc121a3e8bd91dd866f3b3269f2cfe34",
+      "anchor_sample": 1063,
+      "samples": 16320
+    },
+    {
+      "id": "deception_02",
+      "sha256": "f7807c603deda25ad66323f00a6f4edd677f673a683ebb77f69fee47e3405ee2",
+      "anchor_sample": 1711,
+      "samples": 24000
+    },
+    {
+      "id": "satisfaction_01",
+      "sha256": "c900a663b8eadb77af28cfecbb2824041171d23aeb6563671b90b66a050e1492",
+      "anchor_sample": 1280,
+      "samples": 8640
+    },
+    {
+      "id": "satisfaction_02",
+      "sha256": "623dc4f5391137ebdba4e756eff1fa4364d373944088c269aa4fa1fbac616a7c",
+      "anchor_sample": 1236,
+      "samples": 12000
+    },
+    {
+      "id": "gene_01",
+      "sha256": "ae953b730f829439ebbdf81175c7a86c7643a4e63f15d2510af289b873f622ea",
+      "anchor_sample": 944,
+      "samples": 15360
+    },
+    {
+      "id": "gene_02",
+      "sha256": "3e9f95c508e71d1675f9799633dc67a7e47ae8dee2f30a79eaf7e3566be30f06",
+      "anchor_sample": 2831,
+      "samples": 22080
+    }
+  ],
+  "limits": "Technical audit only; no approval of naturalness, emotion or wordlessness perceived."
+}

@@ -1,0 +1,319 @@
+{
+  "status": "passed",
+  "observed_utc": "2026-10-30T23:07:31.772324+00:00",
+  "limits": "ZIP integrity and isolated reproducibility only; no listening, continuous viewing, artistic or audience approval.",
+  "isolation": {
+    "python_flags": [
+      "-I",
+      "-B"
+    ],
+    "fresh_extraction": true,
+    "python_socket_operations_blocked": true,
+    "proxy_environment_preserved": true,
+    "external_fetches_required": false,
+    "packages_installed": false
+  },
+  "archive_sha256": "fc696a442c1bc5eaa5d93754ef67fd6493c2ac432e1df643fb700f04d4ffdc64",
+  "archive_bytes": 55793384,
+  "isolated_work_directory": "work/archive_v28/cold_k661a16i",
+  "metadata_sha256": {
+    "MANIFESTE_SHA256.json": "1ee5b2fb1d2b0380bdc62a4d6bf11776ef9e7b8368f9d8914511cfe7e661cfbd",
+    "LIRE_MOI.txt": "264fa2b0e164e17bdbd0448e9b9d7984be660fd53107fa24569328dc2efa7a75"
+  },
+  "crc_passed": true,
+  "manifest_files_verified": 267,
+  "current_repository_payload_identical": true,
+  "current_repository_mix_sha256": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b",
+  "deliberately_preserved_v27_mix_sha256": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b",
+  "bundled_soundfont_sha256": "fa64be8254db1fbe0ffde1121beb14aae96d4fe0f7f485a82ebee1768276936f",
+  "included_audio_reference_files": {
+    "episodes/03/cuisine_v28/audio/reference_events_v26.json": "99b27a6b53c22db259638bc399941eee081d4214bb2ac8a96e6f4cb8f08c953d"
+  },
+  "immutable_raw_bank_pcm_files": {
+    "episodes/03/cuisine_v28/audio/raw_bank/cuisson_v22.wav": "d52f6d6ad89509dbc86d31716b244945425686a0ad43e0d6d28339adbf5f8fbd",
+    "episodes/03/cuisine_v28/audio/raw_bank/sifflement_p1_n1.wav": "164a04b8161badbb19be62de62278725e9972d837f3f0e6131057e4632a2212d",
+    "episodes/03/cuisine_v28/audio/raw_bank/sifflement_p1_n2.wav": "32e2afbe2acf10c7a2f65099e979a4fc8264041369e861b87fa4184757786d8c",
+    "episodes/03/cuisine_v28/audio/raw_bank/sifflement_p1_n3.wav": "ba38a0d8fd3327f1dafd9bd775441fb37c5c4550348c3b5791122cbf792abe04",
+    "episodes/03/cuisine_v28/audio/raw_bank/cuillere_posee.wav": "3ce6bfa34e8db122d0d3960db4e16e2c07057ef35053ac65dc2adbb781aa73fa",
+    "episodes/03/cuisine_v28/audio/raw_bank/c1_eau.wav": "904fa2f63940489bc89e48a52614af6f3665c2d77ed62a550800bddc9f8e26d7",
+    "episodes/03/cuisine_v28/audio/raw_bank/c1_robinet_ouvre.wav": "aaef3e79e8719ffd518faf3551bb1f37a6165183274569fe80a4622b48bee4ad",
+    "episodes/03/cuisine_v28/audio/raw_bank/c1_robinet_ferme.wav": "554381837452401bc013661c307fd82302c9a594ee5ea718fac19696ae7d0ec0",
+    "episodes/03/cuisine_v28/audio/raw_bank/carotte_coupe_1.wav": "5d9c1be30c999a7879b20f929a6ea738bcae2dc61ffb4336386bd2bb15dbd994",
+    "episodes/03/cuisine_v28/audio/raw_bank/carotte_coupe_2.wav": "a6660c4420f1fd493fa449a1518dbc36a4e81b59efedd56f9dcbae747496ab28",
+    "episodes/03/cuisine_v28/audio/raw_bank/couteau_pose.wav": "ed4f901609636141330b0e90628b5ea818ab7b5139a98828f30cdcf9c76beed3",
+    "episodes/03/cuisine_v28/audio/raw_bank/c2_eau.wav": "b82e1d40a8d763d0aeff4b481cc8299035501b38b3d65c26a122879f2200eb73",
+    "episodes/03/cuisine_v28/audio/raw_bank/c2_robinet_ouvre.wav": "2527bac602dd5a365c57a85eadf9565294ffe220ea28f50f4137e8add7613d68",
+    "episodes/03/cuisine_v28/audio/raw_bank/c2_robinet_ferme.wav": "1edc08e903d0889be9cd24c8a7110a0ce10590166be7276fcc3d0c3b6c4649c7",
+    "episodes/03/cuisine_v28/audio/raw_bank/contact_tomate.wav": "26f52390585c0a3e2e507f2e8e4fe43d92b1bff085eea56277a25607aa890f6c",
+    "episodes/03/cuisine_v28/audio/raw_bank/c3_eau.wav": "73cbd52b15675fdb42ed4ba004d577a59f773e6f2d3198d7581a1a98892cf789",
+    "episodes/03/cuisine_v28/audio/raw_bank/c3_robinet_ouvre.wav": "e03d96f95ec7b04e6d34c55fafc218e1c800569f64c2692a9970ff1dd4243fde",
+    "episodes/03/cuisine_v28/audio/raw_bank/c3_robinet_ferme.wav": "c862378cb8a9bd455b4d6c71ac5e0e2d33c7071c8f15c3a0e50317152fd0fc2f",
+    "episodes/03/cuisine_v28/audio/raw_bank/sel_saupoudre.wav": "9dfe3d37270526c49c11940fb7700b1ca051cdd12cc51b589b7359ade17a2f0c",
+    "episodes/03/cuisine_v28/audio/raw_bank/c5_eau.wav": "f28108f3a9ac92a2058e83e5fe25945750075885986b502296c1ae0992aab138",
+    "episodes/03/cuisine_v28/audio/raw_bank/c5_robinet_ouvre.wav": "9c7d48787c5899be5bfb83602fa1df7d61c00da5981151f7eac33b62f6a47b09",
+    "episodes/03/cuisine_v28/audio/raw_bank/c5_robinet_ferme.wav": "8b66a08276a1ca24aff1162958ee92c44da1ecdf09831c3f189bad175d1effcb"
+  },
+  "bundled_vocal_sources_sha256": {
+    "episodes/03/cuisine_v28/assets/vocal_sources/breath_02.ogg": "5b32729394cc36667bb8052508115941f21d85804f84ecda4c492d19883cd15e",
+    "episodes/03/cuisine_v28/assets/vocal_sources/breath_02.wav": "27474bcd792817c3cecb516eea3953a7077096d4be042dacbd4fb049acefcf95",
+    "episodes/03/cuisine_v28/assets/vocal_sources/ooh.ogg": "6e2323960b6eaa931a75e4f75e3f13926cf3b67d4c21767cae88f2b2f7c83613",
+    "episodes/03/cuisine_v28/assets/vocal_sources/ooh.wav": "21fe7a7cdce33620a1b1fa31e916914f163c4df7bfe74ab2071dee952cce9fc4",
+    "episodes/03/cuisine_v28/assets/vocal_sources/breath.ogg": "d6ecfd092c261059701fe81581957ce6e67c1737978449bbd98ec6d4f30abb7f",
+    "episodes/03/cuisine_v28/assets/vocal_sources/breath.wav": "46728d98e8e13b480dd4c7d4c1070f86b2deb90852bd59fde26c3deddb6f82ab",
+    "episodes/03/cuisine_v28/assets/vocal_sources/nose.ogg": "c54f2937d705bda30a9618531d62752356ba9e1cae258687131e1582b36e53ce",
+    "episodes/03/cuisine_v28/assets/vocal_sources/nose.wav": "56505d46a95d5b231dd7c1880528416a4684748ba31ee3379f73b1f36fe67858"
+  },
+  "bundled_vocal_cc0_notice_files": [
+    "episodes/03/cuisine_v28/assets/vocal_sources/CC0_LICENSE.txt"
+  ],
+  "vocal_quality_limit": "Repository identifies CC0 assets but original recording method was not recovered. No listening was possible. Do not call these verified natural human recordings.",
+  "separate_voice_library": {
+    "sounds": 12,
+    "families": 6,
+    "variants_per_family": 2,
+    "catalogue_status": "proposition_non_validee",
+    "cc0_notice_files": [
+      "bibliotheque/sons/v1/sources/CC0_LICENSE.txt"
+    ],
+    "not_injected_into_movie": true,
+    "limits": "Aucune écoute par le modèle. Intention, caractère non verbal, naturel et confort restent à valider par l’utilisatrice ; auteur et méthode des assets initiaux non vérifiés."
+  },
+  "cold_loaded_modules": {
+    "archive_cold_renderer_v28": "episodes/03/cuisine_v28/sources/render.py",
+    "papier_animation": "episodes/03/cuisine_v28/sources/animation.py",
+    "papier_art": "episodes/03/cuisine_v28/sources/art.py",
+    "mou_lavabo_v14": "episodes/03/cuisine_v28/sources/sink.py",
+    "mou_costume_chef_v20": "episodes/03/cuisine_v28/sources/costume.py",
+    "mou_cooking_fx_v26": "episodes/03/cuisine_v28/sources/cooking_fx.py",
+    "performance": "episodes/03/cuisine_v28/sources/performance.py",
+    "mou_rig": "mou_rig.py",
+    "mou_v26_reference_animation": "episodes/03/cuisine_v28/sources/reference_animation.py",
+    "approved_stir_contact": "episodes/03/test_remuer/sources/animation.py",
+    "mou_jeu_visage_v23": "episodes/03/cuisine_v28/sources/reference_jeu_visage.py",
+    "mou_visage_library_v23": "episodes/03/cuisine_v28/sources/visage.py",
+    "mou_performance_v25": "episodes/03/cuisine_v28/sources/reference_performance.py",
+    "reference_performance": "episodes/03/cuisine_v28/sources/reference_performance.py",
+    "mou_face_library_v26": "episodes/03/cuisine_v28/sources/visage.py",
+    "jeu_visage": "episodes/03/cuisine_v28/sources/jeu_visage.py",
+    "mitten": "episodes/03/cuisine_v28/sources/mitten.py",
+    "art": "episodes/03/cuisine_v28/sources/art.py"
+  },
+  "fresh_cairo_frames": [
+    {
+      "time_seconds": 2.9,
+      "svg_sha256": "b2b5fc61c6a7d2e236f281348e946fe09328fc6599fc3b1633f50b725a2479bb",
+      "png_sha256": "70a179e719abe0bc1dffefdc818b49561f9e81986c06e8f1eeb42e33cd8a381f",
+      "rgba_sha256": "481bce5df31b9bf3a7dd75ca3304fa1b7fadc7564dbb6109f5ce69c218c931fd",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 25.75,
+      "svg_sha256": "12994f448a7a5297cf68811584bea2c286a7856b1840d8a86a2db75437c9e9a0",
+      "png_sha256": "151946f4098aa51a74f07bafdb5492215a1d137dc7c8f194cdaec5a24207ac76",
+      "rgba_sha256": "fe06b469be4ab39ce7715f933ccd32439bc31031bd48221c8dcf5185ed3aba81",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 32.8333,
+      "svg_sha256": "1f4b9f3d602403b072df2bd797b072922eab0ef541b11fee959fec666c34558c",
+      "png_sha256": "2f686bc5a935a98feef13b9005165cd6a0b7c1a9906768066e31f4d7ff7031ea",
+      "rgba_sha256": "d03752cf54b8a8e1bc61a3972f58d20e07884cd8c593bb968058bf9a6e4cd682",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 35.5,
+      "svg_sha256": "527def43f470b111950ad88e7b56fe2e363d35e2900ca219973cb0b6fd26a6bf",
+      "png_sha256": "346e11afd0ea8b93863b4fc7459d3a5560cf7e54a1e234248bec2bfe1dbb86c9",
+      "rgba_sha256": "36a0e28eb1b622ff60e2960728c3249d814cb575ce2f911a41db3386f338aa37",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    },
+    {
+      "time_seconds": 37.5,
+      "svg_sha256": "76de296ba29fe71a087bcb48db6863bff02015be5e518fde7f2ec2174d8f5c3a",
+      "png_sha256": "15e238b6ac1cc9a1a1ac15b1d188901b6a17d56d56fc7d5224147715d94f216d",
+      "rgba_sha256": "f4e0124b412cb8ad31e6c097e8b2da501b2ae90a9bf0e117024ab8c738b52bfc",
+      "max_pixel_error": 0,
+      "pixels_identical": true
+    }
+  ],
+  "no_render_cache_used": true,
+  "separate_voice_library_cold_regeneration": {
+    "source": "bibliotheque/sons/v1/sound_bank.py",
+    "families": {
+      "hesitation": 2,
+      "effort": 2,
+      "surprise": 2,
+      "deception": 2,
+      "satisfaction": 2,
+      "gene": 2
+    },
+    "regenerated_sounds": [
+      {
+        "id": "hesitation_01",
+        "sha256": "39b213e56ac3c7ca16e81c1799dddd500341ce77bd09c0afade85171e6f18cb4",
+        "anchor_sample": 1590,
+        "peak_sample": 3136,
+        "samples": 11520
+      },
+      {
+        "id": "hesitation_02",
+        "sha256": "dffbb8d54eb12e7f945b436e5f378afb81faf63dba35fc3dc132d19d15d509fc",
+        "anchor_sample": 2832,
+        "peak_sample": 4966,
+        "samples": 17280
+      },
+      {
+        "id": "effort_01",
+        "sha256": "7addb4f9dc4e2aa8cea2ff1b1594eb74723ec1eec8f0a4f4564757b0a02414b4",
+        "anchor_sample": 363,
+        "peak_sample": 976,
+        "samples": 8640
+      },
+      {
+        "id": "effort_02",
+        "sha256": "cd83fd02f3d2429a37fa93980594f308ba1a75c464b1195ef462a1007f53177b",
+        "anchor_sample": 1182,
+        "peak_sample": 2436,
+        "samples": 12480
+      },
+      {
+        "id": "surprise_01",
+        "sha256": "3448519ccec096719aa3f0df4a920a62b4269a4ed6bbe468684da17a62c60470",
+        "anchor_sample": 1925,
+        "peak_sample": 5360,
+        "samples": 6720
+      },
+      {
+        "id": "surprise_02",
+        "sha256": "87b51ac7704ce7b1c1addfa6a0a7f05ac2b5afb883067be819c05b09ff794169",
+        "anchor_sample": 1509,
+        "peak_sample": 4201,
+        "samples": 12000
+      },
+      {
+        "id": "deception_01",
+        "sha256": "5c2c74ba24d62b66246cc572ef6dbde9cc121a3e8bd91dd866f3b3269f2cfe34",
+        "anchor_sample": 1063,
+        "peak_sample": 1992,
+        "samples": 16320
+      },
+      {
+        "id": "deception_02",
+        "sha256": "f7807c603deda25ad66323f00a6f4edd677f673a683ebb77f69fee47e3405ee2",
+        "anchor_sample": 1711,
+        "peak_sample": 2684,
+        "samples": 24000
+      },
+      {
+        "id": "satisfaction_01",
+        "sha256": "c900a663b8eadb77af28cfecbb2824041171d23aeb6563671b90b66a050e1492",
+        "anchor_sample": 1280,
+        "peak_sample": 2577,
+        "samples": 8640
+      },
+      {
+        "id": "satisfaction_02",
+        "sha256": "623dc4f5391137ebdba4e756eff1fa4364d373944088c269aa4fa1fbac616a7c",
+        "anchor_sample": 1236,
+        "peak_sample": 2990,
+        "samples": 12000
+      },
+      {
+        "id": "gene_01",
+        "sha256": "ae953b730f829439ebbdf81175c7a86c7643a4e63f15d2510af289b873f622ea",
+        "anchor_sample": 944,
+        "peak_sample": 11134,
+        "samples": 15360
+      },
+      {
+        "id": "gene_02",
+        "sha256": "3e9f95c508e71d1675f9799633dc67a7e47ae8dee2f30a79eaf7e3566be30f06",
+        "anchor_sample": 2831,
+        "peak_sample": 18052,
+        "samples": 22080
+      }
+    ],
+    "injected_into_movie": false,
+    "limits": "Aucune écoute par le modèle. Intention, caractère non verbal, naturel et confort restent à valider par l’utilisatrice ; auteur et méthode des assets initiaux non vérifiés."
+  },
+  "audio_punctuation": {
+    "mix_exact_zero_s": [
+      32.0,
+      32.5
+    ],
+    "terminal_mix_exact_zero_s": [
+      37.25,
+      38.0
+    ],
+    "music_silent_after32_except_s": [
+      36.25,
+      36.75
+    ]
+  },
+  "production_sources_unchanged": true,
+  "regenerated_mix_sha256": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b",
+  "regenerated_final_8s_sha256": "f36f3ee3f977558e5da0e29b04bd6c8a25a033781a0c1dc63576c0e63564375a",
+  "final_8s_exact_samples": {
+    "start_seconds": 30.0,
+    "end_seconds": 38.0,
+    "frames": 384000,
+    "identical": true
+  },
+  "sound_regeneration": {
+    "stdout_framing": "successive valid JSON documents",
+    "documents": [
+      {
+        "mix": "/workspace/MOU/work/archive_v28/cold_k661a16i/extracted/episodes/03/cuisine_v28/audio/mix.wav",
+        "seconds": 38.0,
+        "events": 63,
+        "retained_v26": 46,
+        "vocal_events": 5,
+        "supplemental_events": 11,
+        "mix_metrics": {
+          "rms_dbfs": -35.531750015983626,
+          "peak_dbfs": -19.0441246763864,
+          "clipped_samples": 0
+        },
+        "loudness": {
+          "input_i": "-31.64",
+          "input_tp": "-19.00",
+          "input_lra": "15.80",
+          "input_thresh": "-42.38"
+        },
+        "exact_zero_interval_seconds": [
+          32.0,
+          32.5
+        ],
+        "final_hold_silence_seconds": [
+          37.25,
+          38.0
+        ]
+      },
+      {
+        "archive_worker": {
+          "executed_sound_source": "episodes/03/cuisine_v28/sources/son.py",
+          "cold_project_modules": {
+            "mou_sound_motion_v26": "episodes/03/cuisine_v28/sources/animation.py",
+            "mou_v26_reference_animation": "episodes/03/cuisine_v28/sources/reference_animation.py",
+            "mou_rig": "mou_rig.py",
+            "mou_jeu_visage_v23": "episodes/03/cuisine_v28/sources/reference_jeu_visage.py",
+            "mou_visage_library_v23": "episodes/03/cuisine_v28/sources/visage.py",
+            "mou_performance_v25": "episodes/03/cuisine_v28/sources/reference_performance.py",
+            "reference_performance": "episodes/03/cuisine_v28/sources/reference_performance.py",
+            "performance": "episodes/03/cuisine_v28/sources/performance.py",
+            "mou_face_library_v26": "episodes/03/cuisine_v28/sources/visage.py",
+            "jeu_visage": "episodes/03/cuisine_v28/sources/jeu_visage.py",
+            "mou_paper_v27": "episodes/03/cuisine_v28/sources/foley.py",
+            "mou_foley_supplement_v27": "episodes/03/cuisine_v28/sources/foley_supplement.py",
+            "mou_vocal_v27": "episodes/03/cuisine_v28/sources/vocal.py",
+            "mou_music_v27": "episodes/03/cuisine_v28/sources/music.py"
+          }
+        }
+      }
+    ]
+  }
+}

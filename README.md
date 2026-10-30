@@ -1,34 +1,33 @@
 # MOU
 
-**Just cooking. Mostly washing. — V27 sonore, 38 secondes.**
+**Cuisine V28 — mains et gestes de souffle corrigés, 38 secondes.**
 
-Bossa douce à guitare nylon et contrebasse, cuisson et panier plus présents,
-cinq accents vocaux courts. Coupure à 32 s, demi-seconde de silence, puis
-souffle de MOU, dernier tsss et note finale. Les images et le montage V26
-sont conservés exactement.
+Les moufles restent devant le torse, sous la bouche. Deux mouvements de bouche
+suivent les souffles existants ; aucun décalage global du son n'est appliqué.
+La musique, les bruitages et le WAV complet V27 sont conservés exactement.
 
-[![MOU présente ses mains devant le repas raté — images V26 conservées](episodes/03/cuisine_v27/controle/affiche_v26.png)](episodes/03/cuisine_v27/MOU_Encore_une_feuille.mp4?raw=true)
+[![Pose finale corrigée de MOU](episodes/03/cuisine_v28/controle/affiche_v28.png)](episodes/03/cuisine_v28/MOU_Encore_une_feuille.mp4?raw=true)
 
-- **[Film avec son — 1080 × 1920](episodes/03/cuisine_v27/MOU_Encore_une_feuille.mp4?raw=true)**
-- [Aperçu de la fin — 8 secondes](episodes/03/cuisine_v27/MOU_test_mise_en_scene.mp4?raw=true)
-- [Voix seules — essai de 5,5 secondes](episodes/03/cuisine_v27/audio/audition_voix_v27.wav?raw=true)
-- [Version muette inchangée](episodes/03/cuisine_v27/MOU_Encore_une_feuille_muette.mp4?raw=true)
-- [Sources ZIP](episodes/03/cuisine_v27/MOU_Encore_une_feuille_sources.zip?raw=true)
-- [Sources, contrôles et limites](episodes/03/cuisine_v27/)
-- [Bibliothèque d'expressions : 36 poses](bibliotheque/expressions/v1/)
+- **[Film avec son](episodes/03/cuisine_v28/MOU_Encore_une_feuille.mp4?raw=true)**
+- [Fin corrigée — 8 secondes](episodes/03/cuisine_v28/MOU_test_mise_en_scene.mp4?raw=true)
+- [Avant/après des mains](episodes/03/cuisine_v28/controle/planche_mains_avant_apres.png)
+- [Version muette](episodes/03/cuisine_v28/MOU_Encore_une_feuille_muette.mp4?raw=true)
+- [Sources et contrôles](episodes/03/cuisine_v28/)
 
-Les assets vocaux CC0 sont crédités ; leur méthode de création et leur auteur
-original ne sont pas vérifiés. Aucun dialogue n'est ajouté. Le modèle ne peut
-pas écouter : les contrôles numériques ne certifient pas le confort sonore.
-Les outils de production restent gratuits et open source.
+**[Bibliothèque de sons — 12 propositions à écouter](bibliotheque/sons/v1/)**
 
-[V26 : animation et son précédents](episodes/03/cuisine_v26/) ·
-[V25 rejetée](episodes/03/cuisine_v25/) · [Versions précédentes](episodes/03/).
-[Réexamen éditorial](episodes/03/developpement/reprise_editoriale/) ·
-[Référence Lamput examinée](recherche/2026-10-30_lamput/) ·
-[Outils libres et essais](recherche/2026-10-29_professionnel/).
-Les épisodes abandonnés restent conservés :
-[Le retardateur](episodes/01_reprise/), [Le torchon](episodes/02/).
+[Audition vidéo — 18 secondes](bibliotheque/sons/v1/MOU_Bibliotheque_Sons_v1.mp4?raw=true) ·
+[Catalogue autonome ZIP](bibliotheque/sons/v1/MOU_Bibliotheque_Sons_v1.zip?raw=true).
+Extraire le ZIP puis ouvrir index.html pour écouter séparément les sons.
+Six intentions, deux variantes ; aucune voix définitive n'est encore choisie.
+Les ancres d'énergie aident à placer les sons, sans prouver l'émotion perçue.
+
+[Bibliothèque d'expressions — 36 poses](bibliotheque/expressions/v1/) ·
+[V27 sonore conservée](episodes/03/cuisine_v27/) · [V26](episodes/03/cuisine_v26/) ·
+[Versions précédentes](episodes/03/).
+Les assets CC0 sont documentés, avec limites sur leur auteur et procédé.
+Le modèle ne peut pas écouter : les contrôles ne certifient pas le confort sonore.
+Production avec des logiciels gratuits et open source.
 
 ## Équipe et dossier de création
 
@@ -93,7 +92,7 @@ La première commande de rendu produit une planche. La seconde exporte les
 - `SOURCES.txt` : références et liens techniques.
 
 Les poses SVG et les sons du test se régénèrent avec le script.
-Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v27/`.
+Le montage courant et ses sources se trouvent dans `episodes/03/cuisine_v28/`.
 
 La référence visuelle est une illustration ; le rig est son interprétation
 vectorielle. Le test vérifie des expressions et des raccords, sans mesurer

@@ -1,0 +1,41 @@
+{
+  "duration_s": 5.5,
+  "events": [
+    {
+      "start": 0.15,
+      "film_start": 21.98,
+      "name": "mou_hesitation",
+      "intended_expression": "murmure nasal hésitant",
+      "file": "cues_v27/mou_hesitation.wav"
+    },
+    {
+      "start": 1.15,
+      "film_start": 25.68,
+      "name": "mou_inspiration",
+      "intended_expression": "inspiration brève devant la fumée",
+      "file": "cues_v27/mou_inspiration.wav"
+    },
+    {
+      "start": 2.15,
+      "film_start": 31.76,
+      "name": "mou_choc",
+      "intended_expression": "prise de souffle devant le repas raté",
+      "file": "cues_v27/mou_choc.wav"
+    },
+    {
+      "start": 3.15,
+      "film_start": 32.78,
+      "name": "mou_expiration",
+      "intended_expression": "expiration de déception",
+      "file": "cues_v27/mou_expiration.wav"
+    },
+    {
+      "start": 4.15,
+      "film_start": 35.15,
+      "name": "mou_satisfaction",
+      "intended_expression": "murmure nasal de satisfaction déplacée",
+      "file": "cues_v27/mou_satisfaction.wav"
+    }
+  ],
+  "limits": "Audition of unlistened-to library adaptations, not verified natural human acting or wordlessness."
+}

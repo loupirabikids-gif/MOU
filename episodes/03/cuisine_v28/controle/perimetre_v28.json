@@ -1,0 +1,22 @@
+{
+  "reference": "episodes/03/cuisine_v27",
+  "duration_s": 38,
+  "fps": 24,
+  "audio_sha256": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b",
+  "allowed_visual_windows_s": [
+    [
+      25.625,
+      25.916667
+    ],
+    [
+      32.75,
+      33.083334
+    ],
+    [
+      33.25,
+      38.0
+    ]
+  ],
+  "physical_first_unchanged_frames": 798,
+  "note": "Frame pixels/SVG unchanged elsewhere; H264 may differ due to re-encoding. No global audio shift."
+}
