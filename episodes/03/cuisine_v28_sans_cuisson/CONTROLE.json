@@ -1,0 +1,631 @@
+{
+  "base": "episodes/03/cuisine_v28",
+  "base_release_commit": "45718cec9580e30a5f84ab21a9ae71dcd3a465a5",
+  "character": "Original MOU with continuous arms, not Galet",
+  "removed_events": [
+    {
+      "name": "cuisson_progressive_v27",
+      "kind": "frying",
+      "file": "cues_v27/cuisson_progressive_v27.wav",
+      "sha256": "6b84b0eadb1d02848107099f979526d07ddb23c6f25d3a4e9369aea790b1589e",
+      "start_sample": 0,
+      "samples": 1533600
+    },
+    {
+      "name": "dernier_tsss_poele_v27",
+      "kind": "last_pan_sizzle",
+      "file": "cues_v27/dernier_tsss_poele_v27.wav",
+      "sha256": "edd1454cab673b22be20f554328cfcbd50f3cea3993919401124d218a70f9a3c",
+      "start_sample": 1564800,
+      "samples": 16800
+    }
+  ],
+  "retained_events": [
+    {
+      "name": "musique_v27",
+      "kind": "background_music",
+      "file": "cues_v27/musique_v27.wav",
+      "sha256": "b87512ba09eaee106fdf35d16e0346fdf5a9b712a6ce56939cfe160fe828296c",
+      "start_sample": 0,
+      "samples": 1824000
+    },
+    {
+      "name": "room_air_1_v27",
+      "kind": "room_ambience",
+      "file": "cues_v27/room_air_1_v27.wav",
+      "sha256": "3570c67b68409b3786eba5323a261f8bf4b220099044e364570414c6f7f96dc7",
+      "start_sample": 0,
+      "samples": 1536000
+    },
+    {
+      "name": "sifflement_n1_v27",
+      "kind": "whistle",
+      "file": "cues_v27/sifflement_n1_v27.wav",
+      "sha256": "fd7691366dd07a66c3a9d3b1b3abd88985f27a580223a14b7ab8106411cb35a7",
+      "start_sample": 14400,
+      "samples": 19200
+    },
+    {
+      "name": "sifflement_n2_v27",
+      "kind": "whistle",
+      "file": "cues_v27/sifflement_n2_v27.wav",
+      "sha256": "976dfc4fa95bc2d76275765ae70fc9e047bcdbba34b9ca28de71d00c7beb7058",
+      "start_sample": 41067,
+      "samples": 19200
+    },
+    {
+      "name": "sifflement_n3_v27",
+      "kind": "whistle",
+      "file": "cues_v27/sifflement_n3_v27.wav",
+      "sha256": "99b33c2836a105a2eb3c872f0049ca8edaed2e03367502d416fa1975e1bc14fd",
+      "start_sample": 67733,
+      "samples": 15360
+    },
+    {
+      "name": "cuillere_posee_v27",
+      "kind": "wood_contact",
+      "file": "cues_v27/cuillere_posee_v27.wav",
+      "sha256": "96ba49c86548ad9e461fefacd81b389ebfe9bcf6e3a643a43f3efed478cc73f7",
+      "start_sample": 129600,
+      "samples": 4800
+    },
+    {
+      "name": "c1_eau_v27",
+      "kind": "water",
+      "file": "cues_v27/c1_eau_v27.wav",
+      "sha256": "ec23e7efd7d25c1d53f6cd22a7f02a0145f3e21991363edeff16e2c55dad7f56",
+      "start_sample": 187200,
+      "samples": 69600
+    },
+    {
+      "name": "c1_robinet_ouvre_v27",
+      "kind": "tap",
+      "file": "cues_v27/c1_robinet_ouvre_v27.wav",
+      "sha256": "7518e8ae58e40b7239e74f50ecbc1e5c31de5f0aa3cdf6aa753c0a6cecaede12",
+      "start_sample": 187200,
+      "samples": 3600
+    },
+    {
+      "name": "c1_robinet_ferme_v27",
+      "kind": "tap",
+      "file": "cues_v27/c1_robinet_ferme_v27.wav",
+      "sha256": "e51576a002e246f767e84aa679048bad3d65d000c67c0784c9839c68f4735cc2",
+      "start_sample": 256800,
+      "samples": 3600
+    },
+    {
+      "name": "c1_paper_pull_v26_00",
+      "kind": "paper_pull",
+      "file": "cues_v27/c1_paper_pull_v26_00.wav",
+      "sha256": "b6c9a0015a77ed65c8be62dcf6186bc96dfd67fdc7a5f89f7c7da5bce6eba617",
+      "start_sample": 289152,
+      "samples": 13440
+    },
+    {
+      "name": "c1_paper_tear_v26_01",
+      "kind": "paper_tear",
+      "file": "cues_v27/c1_paper_tear_v26_01.wav",
+      "sha256": "379b4b776117825e8bbfe435bc38daed61930f48ea414dbdd6a94c2741335258",
+      "start_sample": 307200,
+      "samples": 7680
+    },
+    {
+      "name": "c1_paper_wipe_v26_02",
+      "kind": "paper_wipe",
+      "file": "cues_v27/c1_paper_wipe_v26_02.wav",
+      "sha256": "b6de1ca77e8e70522dfd09fdae166068d25f2cc445f7c9110333ee684381d8da",
+      "start_sample": 315572,
+      "samples": 8736
+    },
+    {
+      "name": "c1_paper_wipe_v26_03",
+      "kind": "paper_wipe",
+      "file": "cues_v27/c1_paper_wipe_v26_03.wav",
+      "sha256": "e8e280ddcc14f28e203e26c011e56c97a76c1a9caa2f8b1f3767228bf591d67d",
+      "start_sample": 327012,
+      "samples": 8736
+    },
+    {
+      "name": "c1_paper_crumple_v26_04",
+      "kind": "paper_crumple",
+      "file": "cues_v27/c1_paper_crumple_v26_04.wav",
+      "sha256": "dd9123a183cde4f184066d113b1cbcbdf994e8514a8e3bced06dab0d575e7eef",
+      "start_sample": 350400,
+      "samples": 13440
+    },
+    {
+      "name": "papier_lacher_c1_v27",
+      "kind": "paper_release_texture",
+      "file": "cues_v27/papier_lacher_c1_v27.wav",
+      "sha256": "8b56a4c43a83fbfcd878a1d959d6da637bf90c737d6eec1ea1e2c5d81a6436a7",
+      "start_sample": 375360,
+      "samples": 5760
+    },
+    {
+      "name": "c1_paper_land_v26_05",
+      "kind": "paper_land",
+      "file": "cues_v27/c1_paper_land_v26_05.wav",
+      "sha256": "a2b8149e8330390134ca5d45e029854248a37d1a6ee5dac63a6cf4a406bdd142",
+      "start_sample": 401280,
+      "samples": 7680
+    },
+    {
+      "name": "papier_tas_matiere_c1_v27",
+      "kind": "paper_heap_body",
+      "file": "cues_v27/papier_tas_matiere_c1_v27.wav",
+      "sha256": "ce0707b4c73597192a28eacc6bb84d4fa90157a61ccdb67b1aaf9c0219a85821",
+      "start_sample": 401280,
+      "samples": 9600
+    },
+    {
+      "name": "carotte_coupe_1_v27",
+      "kind": "carrot_chop",
+      "file": "cues_v27/carotte_coupe_1_v27.wav",
+      "sha256": "48d036b80afb92a9a28666bd43e3f20723e6afbfc9b0443765d949f883062f55",
+      "start_sample": 451200,
+      "samples": 4560
+    },
+    {
+      "name": "carotte_coupe_2_v27",
+      "kind": "carrot_chop",
+      "file": "cues_v27/carotte_coupe_2_v27.wav",
+      "sha256": "e2c147fd69ea82733077b3f04dbdfa34bf3dfc11891973eb3f2178d269201fb0",
+      "start_sample": 479040,
+      "samples": 4560
+    },
+    {
+      "name": "couteau_pose_v27",
+      "kind": "knife_setdown",
+      "file": "cues_v27/couteau_pose_v27.wav",
+      "sha256": "6223eacb413de8382af3fd9d9d6af852876afdbedad8bb28b2724892ce73702b",
+      "start_sample": 499200,
+      "samples": 5040
+    },
+    {
+      "name": "c2_eau_v27",
+      "kind": "water",
+      "file": "cues_v27/c2_eau_v27.wav",
+      "sha256": "33ad142bcdda69e80c49b699c784123379b07a03e972cd1f3fdc12b9237a4ffe",
+      "start_sample": 542400,
+      "samples": 52800
+    },
+    {
+      "name": "c2_robinet_ouvre_v27",
+      "kind": "tap",
+      "file": "cues_v27/c2_robinet_ouvre_v27.wav",
+      "sha256": "87cda7f9620a3c5bc0364867c91af0f2a1eb7d47baaee19e44802da4c58a3358",
+      "start_sample": 542400,
+      "samples": 3600
+    },
+    {
+      "name": "c2_robinet_ferme_v27",
+      "kind": "tap",
+      "file": "cues_v27/c2_robinet_ferme_v27.wav",
+      "sha256": "cb8dde4465ff09e4e37dabae3de36d7ac289ac8cb500ebedba03cc1843400bd6",
+      "start_sample": 595200,
+      "samples": 3600
+    },
+    {
+      "name": "c2_paper_pull_v26_06",
+      "kind": "paper_pull",
+      "file": "cues_v27/c2_paper_pull_v26_06.wav",
+      "sha256": "a17b36340d21117debf8a4c066d2aa4f4df783653053aefeead6bb3de75229a0",
+      "start_sample": 619872,
+      "samples": 8554
+    },
+    {
+      "name": "c2_paper_tear_v26_07",
+      "kind": "paper_tear",
+      "file": "cues_v27/c2_paper_tear_v26_07.wav",
+      "sha256": "99ad772a76a7c98ead84f34ad0edf78b09b11b2ff72424a477e31b110a7bc338",
+      "start_sample": 630240,
+      "samples": 6720
+    },
+    {
+      "name": "c2_paper_wipe_v26_08",
+      "kind": "paper_wipe",
+      "file": "cues_v27/c2_paper_wipe_v26_08.wav",
+      "sha256": "e1975e5ff364eabf86513e665fe6813a8d759404dbe2ed38cfde7f3d0d84db2c",
+      "start_sample": 636680,
+      "samples": 6720
+    },
+    {
+      "name": "c2_paper_wipe_v26_09",
+      "kind": "paper_wipe",
+      "file": "cues_v27/c2_paper_wipe_v26_09.wav",
+      "sha256": "ebdfed9609122ad87f696710af594001f961fe4ef3469fe02ba1d77215773659",
+      "start_sample": 645380,
+      "samples": 6720
+    },
+    {
+      "name": "c2_paper_crumple_v26_10",
+      "kind": "paper_crumple",
+      "file": "cues_v27/c2_paper_crumple_v26_10.wav",
+      "sha256": "2d398ac9aac5b000167f97c05363443e2f4a67f50d95f8f70b95cc535a099e02",
+      "start_sample": 654240,
+      "samples": 12960
+    },
+    {
+      "name": "c2_paper_land_v26_11",
+      "kind": "paper_land",
+      "file": "cues_v27/c2_paper_land_v26_11.wav",
+      "sha256": "22d328e5d12e2f2f064d94eb03f6d6b5611fc3490224e59239afa43601ca9c14",
+      "start_sample": 701760,
+      "samples": 7680
+    },
+    {
+      "name": "papier_tas_matiere_c2_v27",
+      "kind": "paper_heap_body",
+      "file": "cues_v27/papier_tas_matiere_c2_v27.wav",
+      "sha256": "a48db3ba2cee6f5f6054cda1ee03b94f02b34f779bb14ccdc4a2206875fef5c5",
+      "start_sample": 701760,
+      "samples": 13920
+    },
+    {
+      "name": "contact_tomate_v27",
+      "kind": "tomato_contact",
+      "file": "cues_v27/contact_tomate_v27.wav",
+      "sha256": "dbdc02d12c1e60219ca0f4dd5dd612fb385e9fe28b95dea62b7b54e2aeef51b7",
+      "start_sample": 747840,
+      "samples": 5280
+    },
+    {
+      "name": "c3_eau_v27",
+      "kind": "water",
+      "file": "cues_v27/c3_eau_v27.wav",
+      "sha256": "d540820b5e41bcddc425142f3b0f4689d9c76ebca5264be658ffeb0f003e152f",
+      "start_sample": 792000,
+      "samples": 45600
+    },
+    {
+      "name": "c3_robinet_ouvre_v27",
+      "kind": "tap",
+      "file": "cues_v27/c3_robinet_ouvre_v27.wav",
+      "sha256": "9da8855287c4bb535f0b791fd2906ffc19ba3f9e4f79a057a947c179dc045e83",
+      "start_sample": 792000,
+      "samples": 3600
+    },
+    {
+      "name": "c3_robinet_ferme_v27",
+      "kind": "tap",
+      "file": "cues_v27/c3_robinet_ferme_v27.wav",
+      "sha256": "e5ea3ec2b1ee7d5c388526fdcb32fc26d9183205511e1249070eb300ca1aed5b",
+      "start_sample": 837600,
+      "samples": 3600
+    },
+    {
+      "name": "c3_paper_pull_v26_12",
+      "kind": "paper_pull",
+      "file": "cues_v27/c3_paper_pull_v26_12.wav",
+      "sha256": "5049e32760e0756370c2ec1d59a791b2999ebe769894373447cf10db0034a904",
+      "start_sample": 859008,
+      "samples": 7286
+    },
+    {
+      "name": "c3_paper_tear_v26_13",
+      "kind": "paper_tear",
+      "file": "cues_v27/c3_paper_tear_v26_13.wav",
+      "sha256": "6c0dd45b51288ee03fb3c7940660d05e7335641724452db3f1d0294202fc5cab",
+      "start_sample": 867840,
+      "samples": 5760
+    },
+    {
+      "name": "c3_paper_wipe_v26_14",
+      "kind": "paper_wipe",
+      "file": "cues_v27/c3_paper_wipe_v26_14.wav",
+      "sha256": "24c90f991715157976e4342e3f98bdbfd23d5001f50f9ecc8f7f1e377bc9a6c5",
+      "start_sample": 872863,
+      "samples": 5242
+    },
+    {
+      "name": "c3_paper_wipe_v26_15",
+      "kind": "paper_wipe",
+      "file": "cues_v27/c3_paper_wipe_v26_15.wav",
+      "sha256": "d427503637e15cf92a6736a2346e965447b35c8d0ee51d0d1aa4b5b64a1529f6",
+      "start_sample": 879649,
+      "samples": 5242
+    },
+    {
+      "name": "c3_paper_crumple_v26_16",
+      "kind": "paper_crumple",
+      "file": "cues_v27/c3_paper_crumple_v26_16.wav",
+      "sha256": "df99de42534abb4254b43c2c52e8cc244adaaa41c1b13f0d6fb148ecf4e448ad",
+      "start_sample": 886560,
+      "samples": 10560
+    },
+    {
+      "name": "papier_lacher_c3_v27",
+      "kind": "paper_release_texture",
+      "file": "cues_v27/papier_lacher_c3_v27.wav",
+      "sha256": "42ca9ca5c7b12e1f92887a50def290ba11a9d330be6c21118b8c3bf930032b71",
+      "start_sample": 905280,
+      "samples": 7680
+    },
+    {
+      "name": "c3_paper_land_v26_17",
+      "kind": "paper_land",
+      "file": "cues_v27/c3_paper_land_v26_17.wav",
+      "sha256": "df4fd91365549b137166c65287cefe96715ed3b3451df8d2c47a7aa4b71ac563",
+      "start_sample": 920640,
+      "samples": 7680
+    },
+    {
+      "name": "papier_tas_matiere_c3_v27",
+      "kind": "paper_heap_body",
+      "file": "cues_v27/papier_tas_matiere_c3_v27.wav",
+      "sha256": "a856a8c6c5f34352685f07af9a0c186bc2a9613024ca0fd8697db843f7bf97af",
+      "start_sample": 920640,
+      "samples": 19200
+    },
+    {
+      "name": "sel_saupoudre_v27",
+      "kind": "salt_sprinkle",
+      "file": "cues_v27/sel_saupoudre_v27.wav",
+      "sha256": "697a40bf8567965716b772edb098de4e05f654b2d2d13dc19978c66ea117673d",
+      "start_sample": 964800,
+      "samples": 24000
+    },
+    {
+      "name": "mou_hesitation",
+      "kind": "mou_nonverbal",
+      "file": "cues_v27/mou_hesitation.wav",
+      "sha256": "3545a40bf01ffba0088b27c7141e20af57ead63a00cbb45748809cc0eafcbae2",
+      "start_sample": 1055040,
+      "samples": 8640
+    },
+    {
+      "name": "c4_eau_v27",
+      "kind": "water",
+      "file": "cues_v27/c4_eau_v27.wav",
+      "sha256": "1a48771dc598d7334f48ff043e02d409411936e2aade733c389ab6ed5b52d81f",
+      "start_sample": 1116000,
+      "samples": 45600
+    },
+    {
+      "name": "c4_robinet_ouvre_v27",
+      "kind": "tap",
+      "file": "cues_v27/c4_robinet_ouvre_v27.wav",
+      "sha256": "c7b1f7418ca10f6e08cd8f27dcab04fc3c52afaca5e420d8cee11d8808d7106b",
+      "start_sample": 1116000,
+      "samples": 3600
+    },
+    {
+      "name": "c4_robinet_ferme_v27",
+      "kind": "tap",
+      "file": "cues_v27/c4_robinet_ferme_v27.wav",
+      "sha256": "f72afdae290f3645b9ec7090d62adc42c90fa84646328f74bb7888735601faf3",
+      "start_sample": 1161600,
+      "samples": 3600
+    },
+    {
+      "name": "c4_tiny_paper_pull_v26_18",
+      "kind": "tiny_paper_pull",
+      "file": "cues_v27/c4_tiny_paper_pull_v26_18.wav",
+      "sha256": "2352d81bca54baf8cca23e08559c891c7a48dc705a09508f47ea9382adfda858",
+      "start_sample": 1190400,
+      "samples": 13440
+    },
+    {
+      "name": "c4_tiny_paper_tear_v26_19",
+      "kind": "tiny_paper_tear",
+      "file": "cues_v27/c4_tiny_paper_tear_v26_19.wav",
+      "sha256": "e5b16fe2649a5abb176ebd13a6810bd1cf369188bf92a279910b633dfd609f49",
+      "start_sample": 1209600,
+      "samples": 5760
+    },
+    {
+      "name": "mou_inspiration",
+      "kind": "mou_nonverbal",
+      "file": "cues_v27/mou_inspiration.wav",
+      "sha256": "a600466d86910f5164d9904a53f7b01a493963a47f755d859c89b4f7f005c1ec",
+      "start_sample": 1232640,
+      "samples": 7680
+    },
+    {
+      "name": "c4_tiny_paper_wipe_v26_20",
+      "kind": "tiny_paper_wipe",
+      "file": "cues_v27/c4_tiny_paper_wipe_v26_20.wav",
+      "sha256": "4cc18ee1525f2d708976ad237988ddbc11ba7296ac7949a5bbeecbfb5129898e",
+      "start_sample": 1290520,
+      "samples": 9600
+    },
+    {
+      "name": "c4_tiny_paper_wipe_v26_21",
+      "kind": "tiny_paper_wipe",
+      "file": "cues_v27/c4_tiny_paper_wipe_v26_21.wav",
+      "sha256": "5a4f6cd07299c58e715f9785adafbd0f8c6005a4bbde8e60f3526d28425b95d4",
+      "start_sample": 1307100,
+      "samples": 5700
+    },
+    {
+      "name": "c4_tiny_paper_crumple_v26_22",
+      "kind": "tiny_paper_crumple",
+      "file": "cues_v27/c4_tiny_paper_crumple_v26_22.wav",
+      "sha256": "fbec58b0586679e7f7b46df3b26d7e11f397a9ee2fb594267f787aea0075afce",
+      "start_sample": 1312800,
+      "samples": 31200
+    },
+    {
+      "name": "c4_tiny_paper_land_v26_23",
+      "kind": "tiny_paper_land",
+      "file": "cues_v27/c4_tiny_paper_land_v26_23.wav",
+      "sha256": "2d71295575d4a546135b6f186d69c08290cd3ec8b720d58fb7de7e92ed5ffa45",
+      "start_sample": 1392000,
+      "samples": 5760
+    },
+    {
+      "name": "papier_tas_matiere_c4_v27",
+      "kind": "paper_heap_body",
+      "file": "cues_v27/papier_tas_matiere_c4_v27.wav",
+      "sha256": "daee9b1ebc2d2ee33d0eee1853096ef32a61328ea2cb52cb4385108b5ede65b2",
+      "start_sample": 1392000,
+      "samples": 7680
+    },
+    {
+      "name": "c4_tiny_paper_floor_v26_24",
+      "kind": "tiny_paper_floor",
+      "file": "cues_v27/c4_tiny_paper_floor_v26_24.wav",
+      "sha256": "fc9aca57f6e68ffc453e2e59887ca701ebd1e31b240ac46c5fc980e12e151a06",
+      "start_sample": 1432800,
+      "samples": 5760
+    },
+    {
+      "name": "papier_sol_matiere_v27",
+      "kind": "paper_floor_texture",
+      "file": "cues_v27/papier_sol_matiere_v27.wav",
+      "sha256": "7235c3c4e0a0db557d4197d01a81945f792febbac8cce675eb157ba3ee6e1c6d",
+      "start_sample": 1432800,
+      "samples": 5760
+    },
+    {
+      "name": "mou_choc",
+      "kind": "mou_nonverbal",
+      "file": "cues_v27/mou_choc.wav",
+      "sha256": "a5d7919420e4154efa6f2c693cb1c2c9bf018dae756d1ad5f51845b85d0cc377",
+      "start_sample": 1524480,
+      "samples": 9600
+    },
+    {
+      "name": "room_air_2_v27",
+      "kind": "room_ambience",
+      "file": "cues_v27/room_air_2_v27.wav",
+      "sha256": "650154b0707d9c9b74c5613387801c29ea8fedeb2292624107e4d774249df159",
+      "start_sample": 1560000,
+      "samples": 264000
+    },
+    {
+      "name": "mou_expiration",
+      "kind": "mou_nonverbal",
+      "file": "cues_v27/mou_expiration.wav",
+      "sha256": "5bdd03ed21dfddc95f0195ceccca9b56f07478a52a85da9e9c35f964d1a384d8",
+      "start_sample": 1573440,
+      "samples": 13440
+    },
+    {
+      "name": "mou_satisfaction",
+      "kind": "mou_nonverbal",
+      "file": "cues_v27/mou_satisfaction.wav",
+      "sha256": "334398f0192197b6cba5c0cf4bea54c5f837a949aff7f83c07aea2c66b1857ec",
+      "start_sample": 1687200,
+      "samples": 7680
+    }
+  ],
+  "retained_cue_pcm_gains_and_timing_unchanged": true,
+  "original_mix_reconstructed_bit_exact": true,
+  "pcm_unchanged_outside_removed_contributions": true,
+  "fixed_delivery_gain_db": 3.5,
+  "new_normalization": false,
+  "global_edge_fade_ms": [
+    8,
+    35
+  ],
+  "wav_sha256": "2081f3e29798e709cd4d8d989298a1278033758d250ab7649141053318cbb94e",
+  "pcm_sha256": "8f06edd457bca66d39a7079107d80a56f6b738fd660d7488818d4b5708d9e809",
+  "independent_audit_pcm_match": true,
+  "clipped_pcm_samples": 0,
+  "exact_silences_s": [
+    [
+      32.0,
+      32.5
+    ],
+    [
+      37.25,
+      38.0
+    ]
+  ],
+  "identical_video_stream": "SHA256=36ab80fc92234cfd914502b0b195cc60df666abc2f04cac47b58bc080ff5988b",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "frames": 912,
+    "seconds": 38
+  },
+  "aac": {
+    "bitrate_requested": 160000,
+    "sample_rate": 48000,
+    "channels": 2
+  },
+  "output": {
+    "file": "MOU_Encore_une_feuille_sans_cuisson.mp4",
+    "sha256": "f1c79ef44a78462ed9d8ddac5f171972f0895f6d527de6e286c8268b2e99131c",
+    "bytes": 16364348
+  },
+  "original_files_preserved": true,
+  "source_sha256": {
+    "episodes/03/cuisine_v28/audio/provenance.json": "5b06617caf618a50666ce4262b392c558373adc142e9ecf0bfaa246f6c65d537",
+    "episodes/03/cuisine_v28/audio/mix.wav": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b",
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/cuisine_v28/MOU_Encore_une_feuille_animatique_muette.mp4": "b525df2b9f86734e02a82834e394db75ad75a86a02d99b50dc84c2989bf8681f",
+    "episodes/03/cuisine_v28/MOU_Encore_une_feuille.mp4": "5eb5bc112a1eec458c721743fbc1538a7b56dbb1a68e93b8865c0fa6d6f52e11",
+    "episodes/03/cuisine_v28/MOU_test_mise_en_scene.mp4": "04306cb2ce094c5749b72b0a5350fbfc05f8619f37d27d225b27580c71117b69",
+    "episodes/03/cuisine_v28/MOU_Encore_une_feuille_muette.mp4": "ed2b8aca0c1c2804e88949c97e2a27c3b501adf60152dda5bd74b5893e3c2419",
+    "episodes/03/cuisine_v28/MOU_test_mise_en_scene_muette.mp4": "25b3a9da3142061e693f8cf713cde5469e655d4cae6a0280debff3336e8279fb",
+    "episodes/03/cuisine_v28/MOU_Encore_une_feuille_animatique.mp4": "d53cb9b141d9a4e437d8f831e8edde0c0aa70755276b34f242da8f0e6e240526",
+    "episodes/03/cuisine_v28/MOU_Encore_une_feuille_sources.zip": "fc696a442c1bc5eaa5d93754ef67fd6493c2ac432e1df643fb700f04d4ffdc64",
+    "episodes/03/cuisine_v28/audio/cues_v27/cuisson_progressive_v27.wav": "6b84b0eadb1d02848107099f979526d07ddb23c6f25d3a4e9369aea790b1589e",
+    "episodes/03/cuisine_v28/audio/cues_v27/musique_v27.wav": "b87512ba09eaee106fdf35d16e0346fdf5a9b712a6ce56939cfe160fe828296c",
+    "episodes/03/cuisine_v28/audio/cues_v27/room_air_1_v27.wav": "3570c67b68409b3786eba5323a261f8bf4b220099044e364570414c6f7f96dc7",
+    "episodes/03/cuisine_v28/audio/cues_v27/sifflement_n1_v27.wav": "fd7691366dd07a66c3a9d3b1b3abd88985f27a580223a14b7ab8106411cb35a7",
+    "episodes/03/cuisine_v28/audio/cues_v27/sifflement_n2_v27.wav": "976dfc4fa95bc2d76275765ae70fc9e047bcdbba34b9ca28de71d00c7beb7058",
+    "episodes/03/cuisine_v28/audio/cues_v27/sifflement_n3_v27.wav": "99b33c2836a105a2eb3c872f0049ca8edaed2e03367502d416fa1975e1bc14fd",
+    "episodes/03/cuisine_v28/audio/cues_v27/cuillere_posee_v27.wav": "96ba49c86548ad9e461fefacd81b389ebfe9bcf6e3a643a43f3efed478cc73f7",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_eau_v27.wav": "ec23e7efd7d25c1d53f6cd22a7f02a0145f3e21991363edeff16e2c55dad7f56",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_robinet_ouvre_v27.wav": "7518e8ae58e40b7239e74f50ecbc1e5c31de5f0aa3cdf6aa753c0a6cecaede12",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_robinet_ferme_v27.wav": "e51576a002e246f767e84aa679048bad3d65d000c67c0784c9839c68f4735cc2",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_paper_pull_v26_00.wav": "b6c9a0015a77ed65c8be62dcf6186bc96dfd67fdc7a5f89f7c7da5bce6eba617",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_paper_tear_v26_01.wav": "379b4b776117825e8bbfe435bc38daed61930f48ea414dbdd6a94c2741335258",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_paper_wipe_v26_02.wav": "b6de1ca77e8e70522dfd09fdae166068d25f2cc445f7c9110333ee684381d8da",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_paper_wipe_v26_03.wav": "e8e280ddcc14f28e203e26c011e56c97a76c1a9caa2f8b1f3767228bf591d67d",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_paper_crumple_v26_04.wav": "dd9123a183cde4f184066d113b1cbcbdf994e8514a8e3bced06dab0d575e7eef",
+    "episodes/03/cuisine_v28/audio/cues_v27/papier_lacher_c1_v27.wav": "8b56a4c43a83fbfcd878a1d959d6da637bf90c737d6eec1ea1e2c5d81a6436a7",
+    "episodes/03/cuisine_v28/audio/cues_v27/c1_paper_land_v26_05.wav": "a2b8149e8330390134ca5d45e029854248a37d1a6ee5dac63a6cf4a406bdd142",
+    "episodes/03/cuisine_v28/audio/cues_v27/papier_tas_matiere_c1_v27.wav": "ce0707b4c73597192a28eacc6bb84d4fa90157a61ccdb67b1aaf9c0219a85821",
+    "episodes/03/cuisine_v28/audio/cues_v27/carotte_coupe_1_v27.wav": "48d036b80afb92a9a28666bd43e3f20723e6afbfc9b0443765d949f883062f55",
+    "episodes/03/cuisine_v28/audio/cues_v27/carotte_coupe_2_v27.wav": "e2c147fd69ea82733077b3f04dbdfa34bf3dfc11891973eb3f2178d269201fb0",
+    "episodes/03/cuisine_v28/audio/cues_v27/couteau_pose_v27.wav": "6223eacb413de8382af3fd9d9d6af852876afdbedad8bb28b2724892ce73702b",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_eau_v27.wav": "33ad142bcdda69e80c49b699c784123379b07a03e972cd1f3fdc12b9237a4ffe",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_robinet_ouvre_v27.wav": "87cda7f9620a3c5bc0364867c91af0f2a1eb7d47baaee19e44802da4c58a3358",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_robinet_ferme_v27.wav": "cb8dde4465ff09e4e37dabae3de36d7ac289ac8cb500ebedba03cc1843400bd6",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_paper_pull_v26_06.wav": "a17b36340d21117debf8a4c066d2aa4f4df783653053aefeead6bb3de75229a0",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_paper_tear_v26_07.wav": "99ad772a76a7c98ead84f34ad0edf78b09b11b2ff72424a477e31b110a7bc338",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_paper_wipe_v26_08.wav": "e1975e5ff364eabf86513e665fe6813a8d759404dbe2ed38cfde7f3d0d84db2c",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_paper_wipe_v26_09.wav": "ebdfed9609122ad87f696710af594001f961fe4ef3469fe02ba1d77215773659",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_paper_crumple_v26_10.wav": "2d398ac9aac5b000167f97c05363443e2f4a67f50d95f8f70b95cc535a099e02",
+    "episodes/03/cuisine_v28/audio/cues_v27/c2_paper_land_v26_11.wav": "22d328e5d12e2f2f064d94eb03f6d6b5611fc3490224e59239afa43601ca9c14",
+    "episodes/03/cuisine_v28/audio/cues_v27/papier_tas_matiere_c2_v27.wav": "a48db3ba2cee6f5f6054cda1ee03b94f02b34f779bb14ccdc4a2206875fef5c5",
+    "episodes/03/cuisine_v28/audio/cues_v27/contact_tomate_v27.wav": "dbdc02d12c1e60219ca0f4dd5dd612fb385e9fe28b95dea62b7b54e2aeef51b7",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_eau_v27.wav": "d540820b5e41bcddc425142f3b0f4689d9c76ebca5264be658ffeb0f003e152f",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_robinet_ouvre_v27.wav": "9da8855287c4bb535f0b791fd2906ffc19ba3f9e4f79a057a947c179dc045e83",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_robinet_ferme_v27.wav": "e5ea3ec2b1ee7d5c388526fdcb32fc26d9183205511e1249070eb300ca1aed5b",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_paper_pull_v26_12.wav": "5049e32760e0756370c2ec1d59a791b2999ebe769894373447cf10db0034a904",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_paper_tear_v26_13.wav": "6c0dd45b51288ee03fb3c7940660d05e7335641724452db3f1d0294202fc5cab",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_paper_wipe_v26_14.wav": "24c90f991715157976e4342e3f98bdbfd23d5001f50f9ecc8f7f1e377bc9a6c5",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_paper_wipe_v26_15.wav": "d427503637e15cf92a6736a2346e965447b35c8d0ee51d0d1aa4b5b64a1529f6",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_paper_crumple_v26_16.wav": "df99de42534abb4254b43c2c52e8cc244adaaa41c1b13f0d6fb148ecf4e448ad",
+    "episodes/03/cuisine_v28/audio/cues_v27/papier_lacher_c3_v27.wav": "42ca9ca5c7b12e1f92887a50def290ba11a9d330be6c21118b8c3bf930032b71",
+    "episodes/03/cuisine_v28/audio/cues_v27/c3_paper_land_v26_17.wav": "df4fd91365549b137166c65287cefe96715ed3b3451df8d2c47a7aa4b71ac563",
+    "episodes/03/cuisine_v28/audio/cues_v27/papier_tas_matiere_c3_v27.wav": "a856a8c6c5f34352685f07af9a0c186bc2a9613024ca0fd8697db843f7bf97af",
+    "episodes/03/cuisine_v28/audio/cues_v27/sel_saupoudre_v27.wav": "697a40bf8567965716b772edb098de4e05f654b2d2d13dc19978c66ea117673d",
+    "episodes/03/cuisine_v28/audio/cues_v27/mou_hesitation.wav": "3545a40bf01ffba0088b27c7141e20af57ead63a00cbb45748809cc0eafcbae2",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_eau_v27.wav": "1a48771dc598d7334f48ff043e02d409411936e2aade733c389ab6ed5b52d81f",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_robinet_ouvre_v27.wav": "c7b1f7418ca10f6e08cd8f27dcab04fc3c52afaca5e420d8cee11d8808d7106b",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_robinet_ferme_v27.wav": "f72afdae290f3645b9ec7090d62adc42c90fa84646328f74bb7888735601faf3",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_tiny_paper_pull_v26_18.wav": "2352d81bca54baf8cca23e08559c891c7a48dc705a09508f47ea9382adfda858",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_tiny_paper_tear_v26_19.wav": "e5b16fe2649a5abb176ebd13a6810bd1cf369188bf92a279910b633dfd609f49",
+    "episodes/03/cuisine_v28/audio/cues_v27/mou_inspiration.wav": "a600466d86910f5164d9904a53f7b01a493963a47f755d859c89b4f7f005c1ec",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_tiny_paper_wipe_v26_20.wav": "4cc18ee1525f2d708976ad237988ddbc11ba7296ac7949a5bbeecbfb5129898e",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_tiny_paper_wipe_v26_21.wav": "5a4f6cd07299c58e715f9785adafbd0f8c6005a4bbde8e60f3526d28425b95d4",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_tiny_paper_crumple_v26_22.wav": "fbec58b0586679e7f7b46df3b26d7e11f397a9ee2fb594267f787aea0075afce",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_tiny_paper_land_v26_23.wav": "2d71295575d4a546135b6f186d69c08290cd3ec8b720d58fb7de7e92ed5ffa45",
+    "episodes/03/cuisine_v28/audio/cues_v27/papier_tas_matiere_c4_v27.wav": "daee9b1ebc2d2ee33d0eee1853096ef32a61328ea2cb52cb4385108b5ede65b2",
+    "episodes/03/cuisine_v28/audio/cues_v27/c4_tiny_paper_floor_v26_24.wav": "fc9aca57f6e68ffc453e2e59887ca701ebd1e31b240ac46c5fc980e12e151a06",
+    "episodes/03/cuisine_v28/audio/cues_v27/papier_sol_matiere_v27.wav": "7235c3c4e0a0db557d4197d01a81945f792febbac8cce675eb157ba3ee6e1c6d",
+    "episodes/03/cuisine_v28/audio/cues_v27/mou_choc.wav": "a5d7919420e4154efa6f2c693cb1c2c9bf018dae756d1ad5f51845b85d0cc377",
+    "episodes/03/cuisine_v28/audio/cues_v27/room_air_2_v27.wav": "650154b0707d9c9b74c5613387801c29ea8fedeb2292624107e4d774249df159",
+    "episodes/03/cuisine_v28/audio/cues_v27/dernier_tsss_poele_v27.wav": "edd1454cab673b22be20f554328cfcbd50f3cea3993919401124d218a70f9a3c",
+    "episodes/03/cuisine_v28/audio/cues_v27/mou_expiration.wav": "5bdd03ed21dfddc95f0195ceccca9b56f07478a52a85da9e9c35f964d1a384d8",
+    "episodes/03/cuisine_v28/audio/cues_v27/mou_satisfaction.wav": "334398f0192197b6cba5c0cf4bea54c5f837a949aff7f83c07aea2c66b1857ec"
+  },
+  "limits": "Numerical and stream checks; no model listening or artistic quality claim."
+}

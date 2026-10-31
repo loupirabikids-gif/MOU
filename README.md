@@ -1,5 +1,13 @@
 # MOU
 
+**Dernière correction demandée : MOU original, sans son de cuisson.**
+
+**[Voir la vidéo corrigée — 38 secondes](episodes/03/cuisine_v28_sans_cuisson/MOU_Encore_une_feuille_sans_cuisson.mp4?raw=true)** ·
+[Sources et contrôles](episodes/03/cuisine_v28_sans_cuisson/).
+
+Images de la V28 conservées exactement ; grésillement et dernier « tsss »
+de la poêle retirés. Musique, voix et autres bruitages aux niveaux d'origine.
+
 **Épisode de cuisine avec le nouveau galet — 38 secondes.**
 
 **[Voir l'épisode avec son](episodes/03/galet_cuisine_v1/Galet_Cuisine.mp4?raw=true)** ·

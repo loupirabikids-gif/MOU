@@ -1,5 +1,15 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande courante : l'utilisatrice identifie la cuisson comme piste gênante
+et demande la dernière vidéo avec le MOU original, sans ce son. Reprendre la
+V28 livrée, pas le galet ni la V29 interrompue. Variante isolée dans
+`episodes/03/cuisine_v28_sans_cuisson/` : retirer seulement
+`cuisson_progressive_v27` et `dernier_tsss_poele_v27` ; conserver les 61 autres
+cues, leurs gains et instants, le gain global fixe et tous les gestes.
+Copier le flux vidéo sans réencodage. Préserver les originaux. Exporter et
+livrer le MP4 corrigé sur GitHub dans l'autorisation existante ; aucune
+nouvelle conception du dessin ou de l'animation n'est demandée.
+
 Retour courant après livraison du galet : l'utilisatrice pense que les sons
 nuisent au résultat. Priorité au diagnostic sonore ; garder les images et le
 film complet inchangés. `episodes/03/etudes_son/galet_diagnostic_v1/` isole le
