@@ -1,0 +1,47 @@
+{
+  "purpose": "Listening diagnosis, no revised full mix or new visual performance.",
+  "source_episode": "12f3a14613a798623be182d7c2f47d7a7e6e3596",
+  "start_episode_seconds": 0.0,
+  "duration_requested_seconds": 8.75,
+  "unchanged_source_sha256": {
+    "episodes/03/galet_cuisine_v1/Galet_Cuisine_muette.mp4": "a77ab0878fb6f0cf83a0f4395fb4e1ac4e3c151d1e5c2025254238620ff2ae8f",
+    "episodes/03/galet_cuisine_v1/Galet_Cuisine.mp4": "91fd95643cbec9f94a2dcbdd6630d9463b9c8f6c4538f1576f07983f2a045296",
+    "episodes/03/galet_cuisine_v1/audio/mix.wav": "06946073fb2c39f49d79acf8d1d5a073b1ac07aeb6dd49e127b0b8158abcb18b",
+    "episodes/03/galet_cuisine_v1/audio/stems/ambience.wav": "63991e93f4b59b6d8be042604b3e52e71686b121404a2c9d3f6301c25557f220",
+    "episodes/03/galet_cuisine_v1/audio/stems/music.wav": "350c092c3b85f73b8a746bbc3d75ad70271f20b3210d2ceccf0ccfeb658cfea6",
+    "episodes/03/galet_cuisine_v1/audio/stems/foley.wav": "5250025d0ab72acea461cfbbd96c0765f0d5a9453dd099cb667bf526007a5007"
+  },
+  "normalization": false,
+  "gain_changes": false,
+  "first210_decoded_frames_identical_to_delivered_movie": true,
+  "variants": [
+    {
+      "file": "A_mix_actuel.mp4",
+      "label": "Mix livré",
+      "sha256": "6ee4f69fbc015613c5fae02a7ffb20bff3c8f95568b53d2d6594876fb1b0fbb9",
+      "bytes": 2705817,
+      "h264_sha256": "189e1b9a502a4d825aab3d109daa70e17d81e064f64d0023df64c672aab13f11",
+      "duration_container_seconds": 8.833333,
+      "decoded_first210_images_identical": true
+    },
+    {
+      "file": "B_jazz_seul.mp4",
+      "label": "Jazz seul, au même niveau",
+      "sha256": "7be3082f0bd54527c5c6e0ad681d6616af8ee02ccd66c8e9c6689c01dc021257",
+      "bytes": 2707100,
+      "h264_sha256": "189e1b9a502a4d825aab3d109daa70e17d81e064f64d0023df64c672aab13f11",
+      "duration_container_seconds": 8.833333,
+      "decoded_first210_images_identical": true
+    },
+    {
+      "file": "C_bruitages_seuls.mp4",
+      "label": "Bruitages et ambiance seuls, aux mêmes niveaux",
+      "sha256": "1a3fc309d287300e543f2af753eefce9e42a73815c2b20e30e4fb53b51e00cd5",
+      "bytes": 2705363,
+      "h264_sha256": "189e1b9a502a4d825aab3d109daa70e17d81e064f64d0023df64c672aab13f11",
+      "duration_container_seconds": 8.833333,
+      "decoded_first210_images_identical": true
+    }
+  ],
+  "limits": "No listening or timbre assessment by the model; these are isolated layers, not artistic fixes."
+}

@@ -1,5 +1,15 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Retour courant après livraison du galet : l'utilisatrice pense que les sons
+nuisent au résultat. Priorité au diagnostic sonore ; garder les images et le
+film complet inchangés. `episodes/03/etudes_son/galet_diagnostic_v1/` isole le
+premier rituel en mix actuel, jazz seul et bruitages/air seuls, aux gains
+existants. Cette comparaison n'est pas un nouveau mix approuvé. L'eau, la
+cuisson et les sifflements restent des synthèses héritées ; ne pas présenter
+leur réemploi comme une correction de matière ni déduire une qualité perçue
+des niveaux ou de la synchronisation. Identifier la couche gênante avant de
+refaire tout le mix. Ce retour n'est pas un rejet explicite du nouveau dessin.
+
 Commande courante : « Ok fait l'episode avec ce nv charactere ». Réaliser
 l'épisode de cuisine avec le galet présenté, dans `episodes/03/galet_cuisine_v1/`.
 Le nouveau concept est retenu pour cette fabrication : conserver forme compacte

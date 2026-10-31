@@ -10,6 +10,10 @@ Carotte, tomate, sel, quatre lavages et trop de papier. Le repas brûle pendant
 que le chef soigne ses moufles, puis il présente fièrement ses mains propres.
 Nouveau personnage aux mains flottantes, décor et costume conservés.
 
+**Bande-son à réexaminer :** l'utilisatrice pense que les sons nuisent au rendu.
+[Comparer le mix, le jazz seul et les bruitages seuls — trois extraits de 9 s](episodes/03/etudes_son/galet_diagnostic_v1/).
+Mêmes images et niveaux d'origine ; le film complet reste inchangé.
+
 **Nouveau prototype : le petit galet aux moufles flottantes.**
 Le concept a été sélectionné par l'utilisatrice ; le dessin et le jeu restent
 à juger. Nom de travail Galet, première palette citron, essai muet de cinq secondes.
