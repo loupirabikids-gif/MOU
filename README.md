@@ -1,9 +1,18 @@
 # MOU
 
-**Production arrêtée à la demande de l'utilisatrice.**
-[Recherche du 31 octobre : expériences Codex et proposition pour MOU](recherche/2026-10-31_codex_animation/).
-Aucun nouveau personnage ou rig réalisé ; V28 reste l'export archivé ci-dessous,
-avec des mains et positions jugées encore insuffisantes par l'utilisatrice.
+**Nouveau prototype : le petit galet aux moufles flottantes.**
+Le concept a été sélectionné par l'utilisatrice ; le dessin et le jeu restent
+à juger. Nom de travail Galet, première palette citron, essai muet de cinq secondes.
+
+[Dessin](personnages/galet_v1/Galet_reference.png) ·
+[Voir le test](personnages/galet_v1/Galet_miette_muette.mp4?raw=true) ·
+[Six poses](personnages/galet_v1/Galet_poses.png) ·
+[Sources et contrôles](personnages/galet_v1/).
+
+La [recherche du 31 octobre](recherche/2026-10-31_codex_animation/) explique
+cette proposition. Les anciens épisodes MOU restent conservés ; la V29 cuisine
+interrompue n'est pas relancée. V28 demeure archivée ci-dessous, avec des mains
+et positions jugées encore insuffisantes par l'utilisatrice.
 
 **Cuisine V28 — mains et gestes de souffle corrigés, 38 secondes.**
 

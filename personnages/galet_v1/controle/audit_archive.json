@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "observed_utc": "2026-10-31T14:09:13.233077+00:00",
+  "archive_sha256": "d8d9161560e0ea72c4555010783805871637f3e41ef4d24dcc9bd9aed1bbcd95",
+  "archive_bytes": 401846,
+  "crc_verified": true,
+  "manifest_files_verified": 27,
+  "source_snapshot_matches_repository": true,
+  "fresh_isolated_four_frames": [
+    {
+      "time": 0.05,
+      "svg_sha256": "3ded2fc88bf0687844eddf91d78936cc4bb624b42055be844fa5c84956fd2f2d",
+      "pixels_png_sha256": "9b1596b181f5063624649b66bc56201dfc30ee9b35560acd4432401e9d75b9c5"
+    },
+    {
+      "time": 1.5,
+      "svg_sha256": "66d4d233653f394783d2bf8a5fad395bc761b88c7d2b39f10c7a42c36b3abcda",
+      "pixels_png_sha256": "a741e50f470050d873beb6d6171f3e6f4bad8332052483874956ae7f42051fc0"
+    },
+    {
+      "time": 2.9,
+      "svg_sha256": "cd0b65a9b450f7dcadc6d9fa6d042e81899e9a0676a559137d9812e1ea39a9b9",
+      "pixels_png_sha256": "e9b72af2a7c54945d31b892c73ac5c64728fa8d453242192f39d7a885227eb4a"
+    },
+    {
+      "time": 4.6,
+      "svg_sha256": "fa5fa60aeae1fcdccccfc93e903745a13e7a31b0c41f7b8abd17c12a77d9cf4a",
+      "pixels_png_sha256": "70f795dcb4d769802e9906720f8347b21af9933af6612ae2d8c19a7f290c1211"
+    }
+  ],
+  "clean_reference_and_pose_images_reproduced": {
+    "Galet_reference.png": "fd89a75d55e9075ab1ee125d0af3104f5df72944a477cbc630850823ca8dcb6f",
+    "Galet_poses.png": "c05ed67e166d37efa4d7b434e942664131e9098ebb894e81c9a615195ec7cb26",
+    "Galet_pose_finale.png": "d712945aa136b8a803be231af228593a5b170675179ce4bc133a31e164a9eea2"
+  },
+  "historical_mou_required_for_production": false,
+  "extraction": "work/galet_v1/sources_zuky7sk0",
+  "limits": "Isolated source reproduction, no artistic or user approval implied; full historical-archive QA requires the main repository."
+}

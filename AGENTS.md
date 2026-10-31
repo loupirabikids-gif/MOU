@@ -1,5 +1,29 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Nouvelle autorisation du 31 octobre 2026 : l'utilisatrice sélectionne explicitement
+le nouveau « petit galet souple, deux grands yeux, deux moufles flottantes et deux
+petits pieds », sûr de lui et dépassé par de minuscules problèmes. Réaliser dans
+`personnages/galet_v1/` son dessin original, six poses et l'essai muet de cinq
+secondes « La miette collante ». Les mains flottantes sans bras font partie du
+choix ; ne pas leur imposer la règle des bras continus de l'ancien MOU. Garder
+un seul pouce rond, deux yeux et deux petits pieds. Nom de travail Galet, palette
+citron annoncée comme défaut ; aucun nom de série définitif choisi. Python/SVG/
+CairoSVG/Pillow/FFmpeg uniquement, aucun générateur propriétaire ou asset tiers.
+Le coordinateur possède les producteurs, critique et QA indépendants leurs
+rapports. Contrôler pose, contact, transfert réel et réaction dans le vrai MP4.
+Pas de musique ni dialogue pour ce premier essai. L'ancien MOU, ses épisodes et
+la V29 interrompue restent conservés ; cette commande ne relance pas celle-ci.
+Livrer image, étude de poses, petit MP4 muet et sources sur GitHub dans le cadre
+de l'autorisation persistante. Aucun succès de chaîne ou niveau Lamput promis.
+
+Prototype réalisé : galet citron et essai muet de cinq secondes, 1080 × 1920,
+24 images/s. La critique a fait détacher les moufles, renforcer le constat,
+distinguer la fin du départ et passer les trajets sous le visage. Seconde
+revue de l'animatique et revue du HD favorables à présenter l'essai. QA passée
+sur contours/contacts, quatorze images encodées et tenue finale. Cela ne vaut
+pas approbation du dessin ou de l'animation par l'utilisatrice. Voir
+`personnages/galet_v1/CONTROLE.md` ; ne pas lancer une série à partir du seul QA.
+
 Instruction courante du 31 octobre 2026 : l'utilisatrice a demandé l'arrêt total
 après avoir précisé que les mains et leurs positions restent insuffisantes.
 V29 locale interrompue, aucun nouvel épisode livré. La commande suivante autorise

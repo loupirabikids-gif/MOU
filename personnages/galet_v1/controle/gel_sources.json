@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-10-31T14:04:20.674129+00:00",
+  "duration": 5.0,
+  "fps": 24,
+  "frames": 120,
+  "audio": false,
+  "sources_sha256": {
+    "personnages/galet_v1/sources/animation.py": "2efed34508bfcefbc11a27a0a10e772b5c32113d3d2316ee909dfa4eafae9e17",
+    "personnages/galet_v1/sources/package.py": "bcfe5991f7bfff87d9a417cc9b542dbe10c6e7ed9f0b99b893809cf4da36e688",
+    "personnages/galet_v1/sources/render.py": "7e2fae39a6c386e7ff9a6853682fc509d3967656c8661da29e38b7dcad95fb52",
+    "personnages/galet_v1/sources/rig.py": "c15016bfeab6495841219d540303d223559e821f2ed82ba14c4c222598d49402",
+    "personnages/galet_v1/sources/palette.json": "e06eca65257d46c9d082685edd7ebeacdd3d501920ff0cd865e89f4d532bcfd4",
+    "fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+  },
+  "historical_mou_sha256": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/cuisine_v28/MOU_Encore_une_feuille.mp4": "5eb5bc112a1eec458c721743fbc1538a7b56dbb1a68e93b8865c0fa6d6f52e11"
+  }
+}

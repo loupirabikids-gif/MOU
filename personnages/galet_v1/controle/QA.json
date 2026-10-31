@@ -1,0 +1,473 @@
+{
+  "status": "passed",
+  "scope": "Independent geometric, raster and encoding checks; no artistic or audience approval.",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "duration": 5.0,
+  "frames": 120,
+  "silent": true,
+  "source_sha256": {
+    "/workspace/MOU/personnages/galet_v1/sources/rig.py": "c15016bfeab6495841219d540303d223559e821f2ed82ba14c4c222598d49402",
+    "/workspace/MOU/personnages/galet_v1/sources/animation.py": "2efed34508bfcefbc11a27a0a10e772b5c32113d3d2316ee909dfa4eafae9e17",
+    "/workspace/MOU/personnages/galet_v1/sources/render.py": "7e2fae39a6c386e7ff9a6853682fc509d3967656c8661da29e38b7dcad95fb52",
+    "/workspace/MOU/personnages/galet_v1/sources/palette.json": "e06eca65257d46c9d082685edd7ebeacdd3d501920ff0cd865e89f4d532bcfd4"
+  },
+  "frozen_production_and_history_sha256": {
+    "personnages/galet_v1/sources/animation.py": "2efed34508bfcefbc11a27a0a10e772b5c32113d3d2316ee909dfa4eafae9e17",
+    "personnages/galet_v1/sources/package.py": "bcfe5991f7bfff87d9a417cc9b542dbe10c6e7ed9f0b99b893809cf4da36e688",
+    "personnages/galet_v1/sources/render.py": "7e2fae39a6c386e7ff9a6853682fc509d3967656c8661da29e38b7dcad95fb52",
+    "personnages/galet_v1/sources/rig.py": "c15016bfeab6495841219d540303d223559e821f2ed82ba14c4c222598d49402",
+    "personnages/galet_v1/sources/palette.json": "e06eca65257d46c9d082685edd7ebeacdd3d501920ff0cd865e89f4d532bcfd4",
+    "fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895",
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/cuisine_v28/MOU_Encore_une_feuille.mp4": "5eb5bc112a1eec458c721743fbc1538a7b56dbb1a68e93b8865c0fa6d6f52e11"
+  },
+  "checker_sha256": "b3303c8b44c7bac9b39f7abc3e69807247a430065aecf0c6a043e95a955d4356",
+  "contract_sha256": "b2688e3478d151085af3e66aaadf2a33ec9681c7fcc5504787cc265ec7dd3cf2",
+  "video_sha256": "30bff6dcabcbe97ae6d6cc7346e0a7cacb80c257b6dcc16004641f420d57631e",
+  "all_svg_frames_checked": 120,
+  "final_hold_frames": 12,
+  "contacts": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "crumb_bounds": [
+        235,
+        1080,
+        264,
+        1108
+      ],
+      "crumb_hand_gap_pixels": [
+        0.0,
+        551.2721650872643
+      ],
+      "hand_hand_gap_pixels": 510.008823453085
+    },
+    {
+      "frame": 17,
+      "time": 0.7083333333333334,
+      "crumb_bounds": [
+        237,
+        1057,
+        267,
+        1085
+      ],
+      "crumb_hand_gap_pixels": [
+        0.0,
+        553.2612402834668
+      ],
+      "hand_hand_gap_pixels": 510.31754819915807
+    },
+    {
+      "frame": 30,
+      "time": 1.25,
+      "crumb_bounds": [
+        237,
+        1057,
+        267,
+        1085
+      ],
+      "crumb_hand_gap_pixels": [
+        0.0,
+        0.0
+      ],
+      "hand_hand_gap_pixels": 0.0
+    },
+    {
+      "frame": 36,
+      "time": 1.5,
+      "crumb_bounds": [
+        237,
+        1057,
+        267,
+        1085
+      ],
+      "crumb_hand_gap_pixels": [
+        0.0,
+        0.0
+      ],
+      "hand_hand_gap_pixels": 0.0
+    },
+    {
+      "frame": 38,
+      "time": 1.5833333333333333,
+      "crumb_bounds": [
+        237,
+        1057,
+        267,
+        1085
+      ],
+      "crumb_hand_gap_pixels": [
+        0.0,
+        0.0
+      ],
+      "hand_hand_gap_pixels": 0.0
+    },
+    {
+      "frame": 39,
+      "time": 1.625,
+      "crumb_bounds": [
+        237,
+        1060,
+        266,
+        1089
+      ],
+      "crumb_hand_gap_pixels": [
+        0.0,
+        0.0
+      ],
+      "hand_hand_gap_pixels": 0.0
+    },
+    {
+      "frame": 52,
+      "time": 2.1666666666666665,
+      "crumb_bounds": [
+        826,
+        1066,
+        855,
+        1097
+      ],
+      "crumb_hand_gap_pixels": [
+        526.7750943239439,
+        0.0
+      ],
+      "hand_hand_gap_pixels": 520.7533005176251
+    },
+    {
+      "frame": 66,
+      "time": 2.75,
+      "crumb_bounds": [
+        826,
+        1064,
+        856,
+        1096
+      ],
+      "crumb_hand_gap_pixels": [
+        527.0910737244561,
+        0.0
+      ],
+      "hand_hand_gap_pixels": 521.7518567288477
+    },
+    {
+      "frame": 108,
+      "time": 4.5,
+      "crumb_bounds": [
+        826,
+        1054,
+        856,
+        1086
+      ],
+      "crumb_hand_gap_pixels": [
+        531.5044684666348,
+        0.0
+      ],
+      "hand_hand_gap_pixels": 524.4435145942792
+    }
+  ],
+  "crumb_owner_changes": 1,
+  "transfer_emitted_geometry_jump": {
+    "position_pixels": 0.0,
+    "linear_matrix_max_delta": 0.0,
+    "sampling_offset_seconds": 1e-06
+  },
+  "feet_pose_counts": {
+    "foot-l": 1,
+    "foot-r": 1
+  },
+  "mitten_svg_scale_determinants": {
+    "hand-left": [
+      1.4399999999999995,
+      1.4400000000000004
+    ],
+    "hand-right": [
+      1.4399999999999995,
+      1.4400000000000002
+    ]
+  },
+  "fresh_encoded_image_comparisons": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "mean_abs_rgb_error": 1.5025012860082305,
+      "hands_crumb_mean_abs_rgb_error": 2.532926610443208,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "time": 0.7083333333333334,
+      "mean_abs_rgb_error": 1.5058889531893005,
+      "hands_crumb_mean_abs_rgb_error": 2.619314446237523,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "time": 0.9583333333333334,
+      "mean_abs_rgb_error": 1.4996082497427983,
+      "hands_crumb_mean_abs_rgb_error": 2.8632164319669924,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "time": 1.25,
+      "mean_abs_rgb_error": 1.5005832047325103,
+      "hands_crumb_mean_abs_rgb_error": 2.770034896770127,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "time": 1.5,
+      "mean_abs_rgb_error": 1.4989949845679011,
+      "hands_crumb_mean_abs_rgb_error": 2.6940059162385177,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 38,
+      "time": 1.5833333333333333,
+      "mean_abs_rgb_error": 1.4990202224794238,
+      "hands_crumb_mean_abs_rgb_error": 2.695531683014168,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 39,
+      "time": 1.625,
+      "mean_abs_rgb_error": 1.499493795010288,
+      "hands_crumb_mean_abs_rgb_error": 2.750741002117149,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 45,
+      "time": 1.875,
+      "mean_abs_rgb_error": 1.497789191100823,
+      "hands_crumb_mean_abs_rgb_error": 2.7424358685022194,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 52,
+      "time": 2.1666666666666665,
+      "mean_abs_rgb_error": 1.4999496849279836,
+      "hands_crumb_mean_abs_rgb_error": 2.5783025541457834,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 66,
+      "time": 2.75,
+      "mean_abs_rgb_error": 1.5040361368312758,
+      "hands_crumb_mean_abs_rgb_error": 2.5209517793219627,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 74,
+      "time": 3.0833333333333335,
+      "mean_abs_rgb_error": 1.5009645061728396,
+      "hands_crumb_mean_abs_rgb_error": 2.4835153265349095,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 95,
+      "time": 3.9583333333333335,
+      "mean_abs_rgb_error": 1.4865295460390946,
+      "hands_crumb_mean_abs_rgb_error": 2.5446530661370885,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 108,
+      "time": 4.5,
+      "mean_abs_rgb_error": 1.5024381108539095,
+      "hands_crumb_mean_abs_rgb_error": 2.471918900219595,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    },
+    {
+      "frame": 119,
+      "time": 4.958333333333333,
+      "mean_abs_rgb_error": 1.5025361689814816,
+      "hands_crumb_mean_abs_rgb_error": 2.472219715428812,
+      "pupil_aperture_checks": [
+        {
+          "eye": "eye-white-l",
+          "pupil": "pupil-l",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        },
+        {
+          "eye": "eye-white-r",
+          "pupil": "pupil-r",
+          "pupil_pixels_outside_aperture": 0,
+          "hand_crumb_overlap_aperture_pixels": 0
+        }
+      ]
+    }
+  ],
+  "limits": "No continuous viewing, listening or emotional-recognition claim. Critique is separate."
+}
