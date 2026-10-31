@@ -1,0 +1,331 @@
+{
+  "observed_date_utc": "2026-10-31",
+  "scope": "Research only. MOU production remains stopped. No tools installed. No episodes or character designs changed.",
+  "limits": [
+    "Creator attribution is distinct from our independent execution.",
+    "Compatibility with Codex does not identify the authoring agent of a particular film.",
+    "Frames examined, no listening or continuous playback claimed.",
+    "No audience, revenue or channel-success evidence verified.",
+    "External artwork and video retained only for private study, not incorporated into MOU."
+  ],
+  "sources": [
+    {
+      "url": "https://github.com/AntonioChen007/bubu-codex-pet",
+      "observed_utc": "2026-10-31T12:44:10.152406+00:00",
+      "status": 200,
+      "sha256": "b59ec03b219c0fc9ddea9ebce694eb3279bde37006f8044c6741a728b9595450",
+      "repository_head_observed": "2024899acaa171e54d73b5030430d2944c8c901c",
+      "publication_date_verified": null,
+      "codex_attribution": "Explicit author account of creation and iteration with Codex/GPT-5.6; not independently reproduced.",
+      "artifact_examined": "Downloaded and opened idle, jumping and failed GIF frame sequences.",
+      "license_limit": "No open-source artwork license. No copying into MOU.",
+      "audience_success_verified": false
+    },
+    {
+      "url": "https://github.com/cth9191/after-effects-motion-prompts",
+      "observed_utc": "2026-10-31T12:44:10.151168+00:00",
+      "status": 200,
+      "sha256": "01809b5b0ff852baab86f2f9a2642d4f610a0161ddfc2835d8ccc0e3409cdeb7",
+      "repository_head_observed": "37d747b86d3d20fed89a707c3fa40dd8e111a552",
+      "publication_date_verified": null,
+      "codex_attribution": "Author explicitly credits Codex, Higgsfield local bridge and After Effects.",
+      "artifact_examined": "Chase MP4, six decoded images, 300 video frames at 30 fps.",
+      "license_limit": "Proprietary After Effects. Reference only, not a production tool recommendation.",
+      "audience_success_verified": false
+    },
+    {
+      "url": "https://github.com/diffusionstudio/lottie",
+      "observed_utc": "2026-10-31T12:42:15.719597+00:00",
+      "status": 200,
+      "sha256": "35b997064fa825b36219d7257be3e6c206d86989edbf233d9067c6feacb2f8b6",
+      "repository_head_observed": "3c72912fad543897f90045ed4d355813837927fc",
+      "publication_date_verified": null,
+      "codex_attribution": "Compatibility or workflow stated; individual demonstrated output agent not established.",
+      "audience_success_verified": false
+    },
+    {
+      "url": "https://github.com/Griff2325/cartoon-motion",
+      "observed_utc": "2026-10-31T12:43:06.376502+00:00",
+      "status": 200,
+      "sha256": "115c04cae8da16282353b32c2c56124daf44c21c635d81c62879a9d43a1e3d29",
+      "repository_head_observed": "4c003980eaeb4e29b7c42be13afd75d79d0abe57",
+      "publication_date_verified": null,
+      "codex_attribution": "Compatibility or workflow stated; individual demonstrated output agent not established.",
+      "audience_success_verified": false
+    },
+    {
+      "url": "https://github.com/tachikomared/character-animation-creator-skill",
+      "observed_utc": "2026-10-31T12:41:44.762096+00:00",
+      "status": 200,
+      "sha256": "3fa4b0951596c4a5ce1b6a667dab0cbc8484ed5b5797b24b13a6eccc0c6b0904",
+      "repository_head_observed": "9ce98dffb98c84488fe7b99b62c49fabee20abd6",
+      "publication_date_verified": null,
+      "codex_attribution": "Compatibility or workflow stated; individual demonstrated output agent not established.",
+      "audience_success_verified": false
+    },
+    {
+      "url": "https://github.com/XiaoyeCodes/code-animation-prompts",
+      "observed_utc": "2026-10-31T12:41:44.762722+00:00",
+      "status": 200,
+      "sha256": "e92d66484548b853c407b06180e7ed738f53ea3ba9b72b382dd7a30f974456dd",
+      "repository_head_observed": "69ccbeaf0b821591a40936572c2f559d8f4cfb68",
+      "publication_date_verified": null,
+      "codex_attribution": "Compatibility or workflow stated; individual demonstrated output agent not established.",
+      "audience_success_verified": false
+    },
+    {
+      "evidence_file_private": "Favio__agents.json",
+      "url": "https://raw.githubusercontent.com/FavioVazquez/showtime/main/docs/agents.md",
+      "observed_utc": "2026-10-31T12:42:52.371163+00:00",
+      "status": 200,
+      "sha256": "f35f81bfd044405a09a45e303cc98bab91e7d7398ffc4972353886695d8e7821"
+    },
+    {
+      "evidence_file_private": "ZLHad__handdrawn.json",
+      "url": "https://raw.githubusercontent.com/ZLHad/OpenVideoHarness/main/showcase/01-handdrawn-clawd-leaf/README.md",
+      "observed_utc": "2026-10-31T12:42:13.322818+00:00",
+      "status": 200,
+      "sha256": "b2e1881547cc14045244657560f78dd3a6051556963033137178b38e25dd0f9f"
+    },
+    {
+      "evidence_file_private": "ZLHad__handdrawn_notes.json",
+      "url": "https://raw.githubusercontent.com/ZLHad/OpenVideoHarness/main/showcase/01-handdrawn-clawd-leaf/NOTES.md",
+      "observed_utc": "2026-10-31T12:43:17.094251+00:00",
+      "status": 200,
+      "sha256": "227908a21e96fb48b54b2edd843c3446d008ae8c383d74c60e5106dcca0a4963"
+    },
+    {
+      "evidence_file_private": "NO6KIKO__agent_workflow.json",
+      "url": "https://raw.githubusercontent.com/NO6KIKO/gorest-2d-animation-spritesheet-generator/main/docs/AGENT_WORKFLOW.md",
+      "observed_utc": "2026-10-31T12:42:13.590714+00:00",
+      "status": 200,
+      "sha256": "ecfdab8f23ad950b945fa62b9ca9806cafec5eb2829b75841289685d9d868454"
+    },
+    {
+      "evidence_file_private": "Jane-xiaoer__paper-collage-ad-codex_README.json",
+      "url": "https://raw.githubusercontent.com/Jane-xiaoer/paper-collage-ad-codex/main/README.md",
+      "observed_utc": "2026-10-31T12:41:51.493464+00:00",
+      "status": 200,
+      "sha256": "d84c0aca9d3b97fa16a1e817190d3cbcd9ee9276b9d70188943913bc9c51c8e2"
+    },
+    {
+      "evidence_file_private": "reference_clawd_leaf_download.json",
+      "url": "https://github.com/ZLHad/OpenVideoHarness/releases/download/media/01-handdrawn-short.mp4",
+      "observed_utc": "2026-10-31T12:43:17.533603+00:00",
+      "status": 200,
+      "sha256": "f42681f2a2f09fa1cb56aeebe1e296d9efebc0155b674733dd0c8baac96b5c97",
+      "bytes": 9040203
+    }
+  ],
+  "private_media_examined": [
+    {
+      "url": "https://raw.githubusercontent.com/cth9191/after-effects-motion-prompts/main/media/videos/chase.mp4",
+      "observed_utc": "2026-10-31T12:45:13.315152+00:00",
+      "status": 200,
+      "bytes": 1557530,
+      "sha256": "83d008dccfe6996ecb7e22030c22513c6dbf2f554b88a64e15b3d8ba27b7d7e0",
+      "private_local_path": "work/recherche_codex_archive/medias/chase.mp4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AntonioChen007/bubu-codex-pet/main/preview/gifs/idle.gif",
+      "observed_utc": "2026-10-31T12:45:13.315833+00:00",
+      "status": 200,
+      "bytes": 66269,
+      "sha256": "284fd36297f24e396731e52e83e7646f4ceeb2c82d3073fb8f2c3a2a18473fcd",
+      "private_local_path": "work/recherche_codex_archive/medias/bubu_idle.gif"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AntonioChen007/bubu-codex-pet/main/preview/gifs/failed.gif",
+      "observed_utc": "2026-10-31T12:45:13.316286+00:00",
+      "status": 200,
+      "bytes": 94948,
+      "sha256": "cc5e912c887a167c4a416b57a6469c4563a590c17e7e149c060100a15a924972",
+      "private_local_path": "work/recherche_codex_archive/medias/bubu_failed.gif"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/AntonioChen007/bubu-codex-pet/main/preview/gifs/jumping.gif",
+      "observed_utc": "2026-10-31T12:45:13.316651+00:00",
+      "status": 200,
+      "bytes": 53687,
+      "sha256": "a82bba1f45ebb2a4a9430cd38e33047737209607e383640715e3f0a9a9f448bb",
+      "private_local_path": "work/recherche_codex_archive/medias/bubu_jumping.gif"
+    }
+  ],
+  "chase_probe": {
+    "duration_container_seconds": 10.005,
+    "video_frames": 300,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080
+  },
+  "frame_observations": {
+    "bubu_idle": {
+      "total_frames": 6,
+      "examined_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "bubu_jumping": {
+      "total_frames": 5,
+      "examined_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "bubu_failed": {
+      "total_frames": 8,
+      "examined_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    },
+    "chase": {
+      "times_seconds": [
+        0.5,
+        2,
+        3.5,
+        5,
+        7,
+        9
+      ]
+    },
+    "clawd_leaf": {
+      "times_seconds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "private_evidence_root": "work/recherche_codex_archive/",
+  "archived_evidence_sha256": {
+    "medias/bubu_failed.gif": "cc5e912c887a167c4a416b57a6469c4563a590c17e7e149c060100a15a924972",
+    "medias/lottie_demo_1_frames.png": "dcbc4b0e657116721ee53c202099533736d58c9ac3d11686f1cd7b94db05647d",
+    "medias/chase.mp4": "83d008dccfe6996ecb7e22030c22513c6dbf2f554b88a64e15b3d8ba27b7d7e0",
+    "medias/chase_frames_etudiees.png": "9a9f5e5f8a32fd2c317e3054d595aecd40381dc0bce77546bad518bae2a55860",
+    "medias/bubu_jumping.gif": "a82bba1f45ebb2a4a9430cd38e33047737209607e383640715e3f0a9a9f448bb",
+    "medias/bubu_sequence_etudiee.png": "138950e57e9b4a9afcb52b7a8ee6831e203a582361d44724a76b977121aa84e3",
+    "medias/bubu_idle.gif": "284fd36297f24e396731e52e83e7646f4ceeb2c82d3073fb8f2c3a2a18473fcd",
+    "experiences/NO6KIKO__LICENSE.md": "d87a5a9cbc39a0ae1882a0505a2be87b5c340695142368eaf524f245990b16b8",
+    "experiences/reference_clawd_leaf_probe.json": "9d6ba6e21584c00be2dcb0454c5b6f251cc0ebe2f6478881efa1b44ecf0de0d0",
+    "experiences/NO6KIKO__gorest-2d-animation-spritesheet-generator_README.md": "bff0b67ae24c8a504cbec2f71515dbd7234bf47d244076c716c0d8c2fe9a1e27",
+    "experiences/bing_plus.html": "5b248aaadf1e7be444ab9bda35dcedd63e59c5e1f8e534c1a40fb77942583c0d",
+    "experiences/Favio__agents.md": "f35f81bfd044405a09a45e303cc98bab91e7d7398ffc4972353886695d8e7821",
+    "experiences/ZLHad__handdrawn.md": "b2e1881547cc14045244657560f78dd3a6051556963033137178b38e25dd0f9f",
+    "experiences/NO6KIKO__gorest-2d-animation-spritesheet-generator_README.json": "e74eefb64b8ed4e7d0a6786ab56017098e1317e1a75cb62719b4f7d8163bbc3b",
+    "experiences/Favio__gallery.md": "7b67f62d1de43a187a33b79efc691dfe8b87747e49b8b2fd2ac5e57a6d615061",
+    "experiences/github_codex_manim.json": "aaa46957ff3457dc09a475529025d4f0620535903b4b6e32f286b2a79b8e325c",
+    "experiences/github_codex_animation.json": "f5997daf240eeb23249aad91907dcca9aec268b5635d1c8294fa63484bf5ab0f",
+    "experiences/FavioVazquez__showtime_README.md": "58b9bff1b67958d8c186bbd13c6094d5c1ed93ac8c06e1e40148b26d16b8edb2",
+    "experiences/ZLHad__cases.json": "e3362c950fcda4420d2a66ffc8f2e9b67b9564648b58cce4f63d9ecdc2a47ad8",
+    "experiences/bing_plus.json": "b98385b9c809c9d79cfec913505723771179963752fe34d42a70af553e6ecfff",
+    "experiences/Jane-xiaoer__paper-collage-ad-codex_README.json": "90201b9356c63746de132feee201c5d7d791a37e20234165b8d58938c1c465bf",
+    "experiences/04a75c2f22ae.json": "ab39be035cf1f19f1f4d934a925a37cbaf5b7a293d7f03e9cca1e24610fc67ae",
+    "experiences/ZLHad__OpenVideoHarness_README.json": "744225b58a4f201aaf4aad0582f7c39ac815cd354d43a3d80decff7e40c68a79",
+    "experiences/google.html": "d6615422b03aecd3ba27b444cb2c96aa6cfa3605bf5223b7c6d6c17b4c324cdb",
+    "experiences/ZLHad__handdrawn_storyboard.json": "4b7c2a27da723e9b3f6add22f63042da6bcdc5382119ec528f022a5a185c48af",
+    "experiences/NO6KIKO__agent_workflow.md": "ecfdab8f23ad950b945fa62b9ca9806cafec5eb2829b75841289685d9d868454",
+    "experiences/ZLHad__handdrawn_storyboard.md": "c98b739dbc68a36156c8a6363b78f4f0605a31980d022d76178f818b02dc2f95",
+    "experiences/github_codex_animation.html": "c9d1e3d86c6c5704775cefb814bc9badb189d7c076a45266d80d5f0072c98225",
+    "experiences/google.json": "2a8077e44e80da63e8d1f16b2d233ae6dd28d7b6e6b5f6df928d103c83c19bdd",
+    "experiences/ZLHad__handdrawn_notes.md": "227908a21e96fb48b54b2edd843c3446d008ae8c383d74c60e5106dcca0a4963",
+    "experiences/reference_clawd_leaf_etude.png": "2c25feae4b8f562b13b28d0a72aa804150c30e131a6a6de0ebbd793fe97ed4b1",
+    "experiences/Favio__LICENSE.json": "bdfe89ff268c5ab6cf303ffec91c6a9a6b06db7d9625c2ea70efcd55f6a90e7b",
+    "experiences/c3c4fbeb2f6b.json": "65cec634e30afed8c20899a4c81c76d9839cab06cc32927416ec1956615a927c",
+    "experiences/Favio__examples.md": "0692dacb8a3a2271bd99745bd9e47cf117199454b01ab9b1f00c0968ab35b947",
+    "experiences/FavioVazquez__showtime_README.json": "34da66a4df867e5d6d888bd3ba566410f3889b4e3bce5bc0eb273a9dff727783",
+    "experiences/Github__codex_cartoon.json": "1c453cad697e8517a806f03c714b2f4658389430f30ef27f1ad6a2cdaaf47aef",
+    "experiences/ZLHad__cases.md": "fae6ec09606400ae6a25c753605f93734ffd97f2dbdacf998cedf93394ab6cec",
+    "experiences/Jane__LICENSE.json": "054e4d2643bc92e46b197ffe5c5eb1b48d70165a3f2bb3ef2fafe7672d8856ba",
+    "experiences/Favio__examples.json": "34a7811cad35e0c6e3195a1066c3e8150f89a469a2dcda74ecb058d45e1d291d",
+    "experiences/NO6KIKO__LICENSE.json": "0d5cb33c95ddb2346c3c27e76b2a10b9d430e9e5473a8af790375b3cf8ee2fa1",
+    "experiences/reference_clawd_leaf_download.json": "9ef6cc53f956b76490d5b7b635204047bec337a8eadaa2275d1349eb1612c794",
+    "experiences/reference_clawd_leaf.mp4": "f42681f2a2f09fa1cb56aeebe1e296d9efebc0155b674733dd0c8baac96b5c97",
+    "experiences/Github__codex_blenderfilm.json": "6de0d6e749ba77862dfd641eca51790bc1b0e09a3ef82c2fe902df8d9a790300",
+    "experiences/Winglok__pets.md": "3ed752c3c1edf21b370301c0595d81eda0c89b1fc9736c7d4f56e796ee1fd363",
+    "experiences/jntv__app2reel.md": "62633a76278a8a0745e87faaabaf6341090124f01981f219f4504f2455e31c21",
+    "experiences/jntv__app2reel.json": "e3d5f2bacd0495102e3f09bf4b7b97b8ba2cd9f98138b15b5878f56d3b06e0b7",
+    "experiences/Favio__gallery.json": "bb0593156433244abb5d30234c997189f82f123f24d0ad226fa4ae4ed85fe925",
+    "experiences/Winglok__pets.json": "19dd97a754a05d5b5fefacff3a416f6b4c20908eb9fb2865e2cc6db54565f58a",
+    "experiences/ZLHad__handdrawn.json": "f4bee91fc30f1de1c69b17af46bad520a02bfc6be99046e84af7d581012fb8b5",
+    "experiences/Jane__LICENSE.txt": "aa737a39f94d647de4b9bf27d8ad3241bc16adb5a31d166ef40901903520bc61",
+    "experiences/Jane-xiaoer__paper-collage-ad-codex_README.md": "d84c0aca9d3b97fa16a1e817190d3cbcd9ee9276b9d70188943913bc9c51c8e2",
+    "experiences/ZLHad__handdrawn_notes.json": "0be04aececd63ee2b003f54c1d20007c853157f9c75c41d3e592a6831d52cfa9",
+    "experiences/3485cc931011.json": "8700674fd2519e6a347750e87a2409c4bc3400d7d505b0dbbd55530a05c404bb",
+    "experiences/NO6KIKO__agent_workflow.json": "b610f43ac2eec33ea3f563c55c237e1f19d8cfed48e89677495f6413ba108aa6",
+    "experiences/Favio__LICENSE.md": "520df7abbfb7438c79c48a42e001a8ed7be10ea655fd11dcdf56d1a9ef7db620",
+    "experiences/github_codex_manim.html": "be949e9a786b8ec61d249a20f3a2b55e6433bb8d63c7921ee5b6cdf178ba8d1a",
+    "experiences/3e8a5ca5b814.json": "a5984792d0dc734feb265f3180934da7842dff4c8ed1c18f114026e1130f71dd",
+    "experiences/ZLHad__OpenVideoHarness_README.md": "e6b16b323332bf9c842f378d9e63e4a61baa1855ec48696fe2be9e432def5698",
+    "experiences/Favio__agents.json": "e5712dc6237b428d405b4f689ad5e7ef612dfac24f97f06f0051675f35facf86",
+    "preuves/cth9191__after-effects-motion-prompts.html": "01809b5b0ff852baab86f2f9a2642d4f610a0161ddfc2835d8ccc0e3409cdeb7",
+    "preuves/chase_ffprobe.json": "d107b34cfb9c5447d822142b9c581f6ec78f94b0eeb97d7531d57a29ac05e202",
+    "preuves/songkeys__little-flock.html": "4d5047aa744747fd5e907fc3d57a7de0c14d0855c4a69c83a10fb351f73a27c6",
+    "preuves/FavioVazquez__showtime.json": "479ab5e35532cf92044ef6a42c46a1d4ef504bb9b168c6e5ff8f93276740a8c1",
+    "preuves/diffusionstudio__lottie.json": "6c93d9bfa2f03d68f7f77fd35e66ad06df8846338f1335e337af5c13838dfe10",
+    "preuves/cth9191__after-effects-motion-prompts.json": "5109f8d8b64ed95abc678c0acf97c3b52287c4e8069022e4a74dac00e26884ab",
+    "preuves/character_SKILL.txt": "c316025d5a2489be32be6fe4efead5b25f03f956adf396e4287697818a8f43f7",
+    "preuves/songkeys__little-flock.json": "85c0ba13e9293603bdbc5047ff944f0bd316f3abed5ddd0390f41cee480a5495",
+    "preuves/lottie_demo_1.json": "d2c5048887c536d2d35c1cd2feb872d612d928df83fbd0b2dd74e6859045af40",
+    "preuves/bing_2.html": "314dca36f317a1a56f2bbe2196b7bb8b0f6bbb4ab12c5f28e204529ed9f643d4",
+    "preuves/XiaoyeCodes__code-animation-prompts.html": "e92d66484548b853c407b06180e7ed738f53ea3ba9b72b382dd7a30f974456dd",
+    "preuves/search_cartoon.html": "1dedfc584618a860fdb344bc3df3c7549dc3eb5da9cf24476fd1edeaf5788e87",
+    "preuves/search_blender.html": "55e3aadab1b544fdb6e8c50ed85a96f68c00dc45a421f95d08169470a30eea31",
+    "preuves/lottie_LICENSE.txt": "53e75f4653f37f979bef6ae2d13fee2cba97239689a2439678c79a100e2740af",
+    "preuves/bing_1.html": "738c764688a66542f93becd10806ac19e2fbb5b816c989f4052f2ddf95440a78",
+    "preuves/ManimCommunity__manim.json": "1c0b7649395f4cd1e27d22176250d27e7d7fffd61bef0e748dd297b93e21e3ca",
+    "preuves/search_499fd1ab34.json": "35527e4f2cfe4e587901c63bcd499e4a6550eabb4ba3e30f41fdac3bf02a22c4",
+    "preuves/lottie_LICENSE.json": "9682b1b704e1e527e83c7450f6013dfae8bfe3f56661d19348eef64cf00578c5",
+    "preuves/Xiaoye_LICENSE.txt": "46415c16f6c1e764d37152fea36cee413c87b8809607dffe561e3db22aa05903",
+    "preuves/Griff2325__cartoon-motion.json": "43589d9a4d81bbcf194c354f12806622c62bf0c2db8af0ad0a917f0edcd12031",
+    "preuves/bing_1.json": "6b6bd350a665cc8237efffd68c0a295996ed33091e323f45c9c340cbbc22dfa9",
+    "preuves/character_SKILL.json": "470092e5ce75474192edc8a3bd10e05adc1338c2a156317b8d3eb75c6cdaf8bc",
+    "preuves/tachikomared__character-animation-creator-skill.json": "bf1e2c69ef49be566bd3b8eccc0df486134eb32eb6a62c3c068ee8858e89ba2f",
+    "preuves/search_20a95b7c39.json": "b4777bf8ffcfa8d99c7ac780584c6a73343a9008442f58842413398aac07aba4",
+    "preuves/Xiaoye_LICENSE.json": "4e7843897b773c8064618b7e979fc0d1ce73f1f8193afb0b5c2f5f4c3d8a646e",
+    "preuves/search_36d08ea8ba.json": "fc41f6cd45c49bf07e6b1e4139535fc611564976c954683432090185ca5e83ae",
+    "preuves/FavioVazquez__showtime.html": "1d3f93293d9e7f519c5cb0a6365df79927b789978f8e1abc8d0134b9baa29f9b",
+    "preuves/search_7efa487c45.json": "a4f84bc0dd07aa3a169ec08073d975b748664c52df5155c26a1d9abba6de3f91",
+    "preuves/bing_3.json": "c1ec548e75a3d8ebd628c09c1209bf1b9783dc9d3536b11dafd77baa3277ea5f",
+    "preuves/medias_consultes.json": "474d0ab9fb2438f828844930c633e764942a5eafe2b4e6322857773fb1cad755",
+    "preuves/Griff2325__cartoon-motion.html": "115c04cae8da16282353b32c2c56124daf44c21c635d81c62879a9d43a1e3d29",
+    "preuves/motion-canvas__motion-canvas.json": "0b4fa49d4512ba3900c8e9a9407304226fd8c1294301374b2ab8bc640a780958",
+    "preuves/AntonioChen007__bubu-codex-pet.html": "b59ec03b219c0fc9ddea9ebce694eb3279bde37006f8044c6741a728b9595450",
+    "preuves/search_blender.json": "ae0b416c8acf2670b32a26b5769e7462769b323e5f0973987d0ff3974da875db",
+    "preuves/AntonioChen007__bubu-codex-pet.json": "fbab0ee45250f45a048d0f175a08dd5ecd41256bb26039ead1d0966ff1a8c1b8",
+    "preuves/bing_3.html": "b7f89dca168c2b6f4085c2d8f8e60c79b72133d4de3d4e572db9db8d4978d7ef",
+    "preuves/motion-canvas__motion-canvas.html": "6ee906f382fa7cd5ddf9ee389eb26a118eacd431a1b4487b94075067d35178f0",
+    "preuves/bing_0.json": "03795e6126878872ae36863bf0b8ee53f3eee92d90bfd4cbe37918d0c1247ee0",
+    "preuves/github_repos.html": "57d16f4aa19dbf9af4648c150c53f691ca748845b0e45bfd483a9e3ca52b745c",
+    "preuves/search_cartoon.json": "0f4a748282675d903ba0f435de88ae42f7be01b7a59b2e0725d354ef038578fd",
+    "preuves/bing_2.json": "937b81bb056e809cc3bc94ddcd341a6b15f380456a2bb29c6be279f3b4efb62b",
+    "preuves/github_repos.json": "9dd00fd2fd6f8eacd6650fe9b4d600a4943a1f03b83a4ce09c1e76062d14a19e",
+    "preuves/diffusionstudio__lottie.html": "35b997064fa825b36219d7257be3e6c206d86989edbf233d9067c6feacb2f8b6",
+    "preuves/bing_0.html": "0abf31213977fbab935d64579599be6d366af123363b2c677128bf35bb13be5d",
+    "preuves/tachikomared__character-animation-creator-skill.html": "3fa4b0951596c4a5ce1b6a667dab0cbc8484ed5b5797b24b13a6eccc0c6b0904",
+    "preuves/XiaoyeCodes__code-animation-prompts.json": "67477a0fcc167bf8317c1e31c2b8da10be75e5869e603664ee90a382998c1a8a",
+    "preuves/ManimCommunity__manim.html": "ed335408de3c4ac21a5a0c5cc09ac879a1188f124d17b6b7a0d9e32e8387fe33",
+    "preuves/lottie_demo_1.gif": "d403a6c44c9cecff48a502c2767323d4f2129308430451c26c5ecf9d6107010f"
+  }
+}

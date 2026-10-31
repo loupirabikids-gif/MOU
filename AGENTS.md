@@ -1,5 +1,18 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Instruction courante du 31 octobre 2026 : l'utilisatrice a demandé l'arrêt total
+après avoir précisé que les mains et leurs positions restent insuffisantes.
+V29 locale interrompue, aucun nouvel épisode livré. La commande suivante autorise
+une recherche d'expériences d'animation avec Codex et une proposition réaliste de
+personnage ou de construction plus facile à animer, pas la reprise du rendu.
+Voir `recherche/2026-10-31_codex_animation/README.md`. Les deux cas attribués
+explicitement à Codex et les références seulement compatibles sont distingués ;
+aucun succès de chaîne n'est établi. Conserver MOU ; poignet indépendant et
+dessins de moufles cohérents restent une proposition non fabriquée. L'alternative
+du petit galet aux moufles flottantes n'est ni retenue ni réalisée. Aucun nouvel
+outil ou skill installé. Ne pas relancer la production arrêtée sans nouvelle
+instruction de l'utilisatrice.
+
 Retour après V27 : corriger les moufles étranges de la fin, préparer une
 bibliothèque des sons de MOU et examiner le couplage son/mouvement. V28 dans
 `episodes/03/cuisine_v28/` : correction de pose, pas de nouveau dessin des

@@ -1,5 +1,10 @@
 # MOU
 
+**Production arrêtée à la demande de l'utilisatrice.**
+[Recherche du 31 octobre : expériences Codex et proposition pour MOU](recherche/2026-10-31_codex_animation/).
+Aucun nouveau personnage ou rig réalisé ; V28 reste l'export archivé ci-dessous,
+avec des mains et positions jugées encore insuffisantes par l'utilisatrice.
+
 **Cuisine V28 — mains et gestes de souffle corrigés, 38 secondes.**
 
 Les moufles restent devant le torse, sous la bouche. Deux mouvements de bouche
