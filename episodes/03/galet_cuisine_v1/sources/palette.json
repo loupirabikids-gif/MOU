@@ -1,0 +1,11 @@
+{
+  "name": "vert citron",
+  "body": "#D7F14C",
+  "light": "#EDFF8A",
+  "shade": "#B6D338",
+  "ink": "#342238",
+  "background": "#FFF5E9",
+  "floor": "#F0E3DB",
+  "crumb": "#E99436",
+  "crumb_ink": "#8D4B25"
+}

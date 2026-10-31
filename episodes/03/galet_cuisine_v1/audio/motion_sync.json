@@ -1,0 +1,66 @@
+{
+  "method": "240 fresh scene states per wipe, true world fingertip coordinates; two relative-velocity maxima after the approach, numerical only",
+  "source_hashes": {
+    "animation.py": "7de33162f08a2e26f18a7ddf01a4fd675b61a12894b1ca080f43995ee666d3e7",
+    "character.py": "0b55ad7a51a8a9481a46c8aa41cefa63cb3818461d1fdb25a55862382e6dfc00",
+    "reference_character.py": "c15016bfeab6495841219d540303d223559e821f2ed82ba14c4c222598d49402"
+  },
+  "cycles": {
+    "1": {
+      "action_interval": [
+        6.4,
+        7.05
+      ],
+      "centres_seconds": [
+        6.725,
+        6.868541666666666
+      ],
+      "speed_pixels_per_second": [
+        328.48062735079657,
+        254.57748005968128
+      ]
+    },
+    "2": {
+      "action_interval": [
+        13.13,
+        13.63
+      ],
+      "centres_seconds": [
+        13.38,
+        13.490416666666668
+      ],
+      "speed_pixels_per_second": [
+        494.78902191169453,
+        383.4690142166221
+      ]
+    },
+    "3": {
+      "action_interval": [
+        18.08,
+        18.47
+      ],
+      "centres_seconds": [
+        18.275,
+        18.361124999999998
+      ],
+      "speed_pixels_per_second": [
+        723.6945111934111,
+        560.8742484405471
+      ]
+    },
+    "4": {
+      "action_interval": [
+        26.4,
+        27.35
+      ],
+      "centres_seconds": [
+        26.875,
+        27.084791666666668
+      ],
+      "speed_pixels_per_second": [
+        136.11422792530752,
+        105.49059597506907
+      ]
+    }
+  }
+}

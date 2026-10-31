@@ -1,5 +1,15 @@
 # MOU
 
+**Épisode de cuisine avec le nouveau galet — 38 secondes.**
+
+**[Voir l'épisode avec son](episodes/03/galet_cuisine_v1/Galet_Cuisine.mp4?raw=true)** ·
+[Version muette](episodes/03/galet_cuisine_v1/Galet_Cuisine_muette.mp4?raw=true) ·
+[Sources et contrôles](episodes/03/galet_cuisine_v1/).
+
+Carotte, tomate, sel, quatre lavages et trop de papier. Le repas brûle pendant
+que le chef soigne ses moufles, puis il présente fièrement ses mains propres.
+Nouveau personnage aux mains flottantes, décor et costume conservés.
+
 **Nouveau prototype : le petit galet aux moufles flottantes.**
 Le concept a été sélectionné par l'utilisatrice ; le dessin et le jeu restent
 à juger. Nom de travail Galet, première palette citron, essai muet de cinq secondes.

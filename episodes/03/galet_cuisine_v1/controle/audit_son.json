@@ -1,0 +1,275 @@
+{
+  "status": "passed",
+  "sample_rate": 48000,
+  "channels": 2,
+  "duration_seconds": 38.0,
+  "samples_per_channel": 1824000,
+  "event_count": 58,
+  "voice_count": 0,
+  "mix_sha256": "06946073fb2c39f49d79acf8d1d5a073b1ac07aeb6dd49e127b0b8158abcb18b",
+  "metrics": {
+    "peak_dbfs": -19.48490488552919,
+    "rms_dbfs": -36.256838385440695,
+    "clipped_samples": 0
+  },
+  "constant_delivery_gain_db": 3.5,
+  "music_relative_gain_db": -1.5,
+  "exact_silence_intervals": [
+    [
+      32.0,
+      32.5
+    ],
+    [
+      37.25,
+      38.0
+    ]
+  ],
+  "stem_sum_equals_mix_pcm": true,
+  "opening_whistle_events": [
+    {
+      "name": "sifflement_n1_v27",
+      "start": 0.3,
+      "duration": 0.4
+    },
+    {
+      "name": "sifflement_n2_v27",
+      "start": 0.8555625,
+      "duration": 0.4
+    },
+    {
+      "name": "sifflement_n3_v27",
+      "start": 1.4111041666666666,
+      "duration": 0.32
+    }
+  ],
+  "scene_levels": [
+    {
+      "scene": "cook",
+      "interval": [
+        0.2,
+        2.6
+      ],
+      "mix": {
+        "peak_dbfs": -19.797737533793022,
+        "rms_dbfs": -32.25190918107374,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -25.16503017640747,
+        "rms_dbfs": -40.20736306172999,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -21.522344822589105,
+        "rms_dbfs": -33.19453955149677,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "wash1",
+      "interval": [
+        3.9,
+        5.35
+      ],
+      "mix": {
+        "peak_dbfs": -21.01920775051493,
+        "rms_dbfs": -33.45820479745856,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -24.340671097968468,
+        "rms_dbfs": -39.761298106266175,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -20.640105737223653,
+        "rms_dbfs": -34.57644411796867,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "wash2",
+      "interval": [
+        11.3,
+        12.4
+      ],
+      "mix": {
+        "peak_dbfs": -19.85489884449936,
+        "rms_dbfs": -32.902652404930876,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -25.16983564797572,
+        "rms_dbfs": -39.510495776164454,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -20.729016065727215,
+        "rms_dbfs": -34.06956053844962,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "wash3",
+      "interval": [
+        16.5,
+        17.45
+      ],
+      "mix": {
+        "peak_dbfs": -21.331781787045543,
+        "rms_dbfs": -33.99239807295338,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -26.21032825211146,
+        "rms_dbfs": -40.22473921396001,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -21.310178923727605,
+        "rms_dbfs": -35.18578086480102,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "wash4",
+      "interval": [
+        23.25,
+        24.2
+      ],
+      "mix": {
+        "peak_dbfs": -20.662963354725505,
+        "rms_dbfs": -33.705743352078585,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -25.5732167110085,
+        "rms_dbfs": -39.34588100948594,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -20.965719379812555,
+        "rms_dbfs": -35.23676923610991,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "shock",
+      "interval": [
+        31.5,
+        32.0
+      ],
+      "mix": {
+        "peak_dbfs": -22.67226269922749,
+        "rms_dbfs": -36.695472217519736,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -24.508306471943996,
+        "rms_dbfs": -39.9956095440774,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -26.626531614400935,
+        "rms_dbfs": -39.62084531572582,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "silence",
+      "interval": [
+        32.0,
+        32.5
+      ],
+      "mix": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "lost",
+      "interval": [
+        32.5,
+        33.25
+      ],
+      "mix": {
+        "peak_dbfs": -24.258051249444645,
+        "rms_dbfs": -45.69194373922775,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -46.32369343730044,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "proud",
+      "interval": [
+        35.0,
+        35.75
+      ],
+      "mix": {
+        "peak_dbfs": -42.66865784769699,
+        "rms_dbfs": -54.08575493629239,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "scene": "hold",
+      "interval": [
+        37.25,
+        38.0
+      ],
+      "mix": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      },
+      "music": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      },
+      "foley": {
+        "peak_dbfs": -300.0,
+        "rms_dbfs": -300.0,
+        "clipped_samples": 0
+      }
+    }
+  ],
+  "input_loudness": {
+    "input_i": "-32.08",
+    "input_tp": "-19.44",
+    "input_lra": "18.00",
+    "input_thresh": "-42.95"
+  },
+  "motion_sync_status": "measured_new_character",
+  "limits": "No model listening is available. Waveform timing, reproducibility and levels do not establish perceived naturalness, comfort or comic success."
+}

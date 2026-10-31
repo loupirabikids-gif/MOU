@@ -1,5 +1,32 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande courante : « Ok fait l'episode avec ce nv charactere ». Réaliser
+l'épisode de cuisine avec le galet présenté, dans `episodes/03/galet_cuisine_v1/`.
+Le nouveau concept est retenu pour cette fabrication : conserver forme compacte
+citron, deux yeux, moufles flottantes à pouce rond et deux petits pieds ; aucun
+bras. Réutiliser le décor, les accessoires et le costume approuvés. Le mot MOU
+sur la toque reste la marque du projet ; Galet est encore un nom de travail.
+38 s, quatre rituels (remuer, carotte, tomate, sel), papier qui diminue, panier
+qui déborde, repas brûlé puis fausse victoire des moufles propres. Les regards,
+contacts et trajectoires sont construits pour ce personnage, pas pour l'ancien
+rig. Garder les outils libres, sifflement au départ seulement, jazz doux et
+mix stable ; pas d'injection des voix de bibliothèque non choisies.
+Animation cuisine, lavabo, son, critique et QA ont des fichiers exclusifs ;
+le coordinateur possède la référence commune, le directeur et le renderer.
+Faire critiquer l'animatique complète réellement produite, corriger les
+réserves puis exporter 1080 × 1920 son/muet/sources et livrer sur GitHub dans
+l'autorisation existante. Préserver le prototype, les anciens épisodes et
+la V29 interrompue. Aucune qualité professionnelle, écoute ou réussite publique
+n'est déduite d'une QA favorable.
+
+Galet cuisine réalisé : 38 s son/muet, animatique complète et HD revus. Corrections
+retenues : espaces des moufles au repos, vrai contact du dernier papier, puis
+présentation des deux paumes depuis une pose basse derrière le comptoir. QA finale
+passée sur 912 SVG, 46 images HD fraîches, prises/lavabo/papier, tenue et mix
+reconstruit. Le son reste sans nouvelle voix ; huit accents suivent les gestes.
+Voir `episodes/03/galet_cuisine_v1/CONTROLE.md`. Ces résultats ne valent toujours
+pas approbation de l'utilisatrice ou écoute ; conserver cette distinction.
+
 Nouvelle autorisation du 31 octobre 2026 : l'utilisatrice sélectionne explicitement
 le nouveau « petit galet souple, deux grands yeux, deux moufles flottantes et deux
 petits pieds », sûr de lui et dépassé par de minuscules problèmes. Réaliser dans

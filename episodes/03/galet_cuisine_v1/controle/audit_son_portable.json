@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "observed_utc": "2026-10-31T19:43:31.123865+00:00",
+  "isolated_directory": "work/son_galet_cuisine/cold_5j61locq",
+  "python_isolated_flag": true,
+  "network_or_older_episodes_required": false,
+  "visual_animation_not_imported_for_rebuild": true,
+  "copied_inputs": 58,
+  "identical_artifacts": {
+    "mix.wav": true,
+    "test_fin.wav": true,
+    "stems/music.wav": true,
+    "stems/foley.wav": true,
+    "stems/ambience.wav": true,
+    "events.json": true
+  },
+  "identical_cues": 58,
+  "all_output_pcm_and_event_metadata_bitexact": true,
+  "final_mix_sha256": "06946073fb2c39f49d79acf8d1d5a073b1ac07aeb6dd49e127b0b8158abcb18b",
+  "source_hashes": {
+    "sources/son.py": "d21afdeab2ae268f58e2148d982456b2ef48c7e8488ace31996a920023dedc41",
+    "chronologie.json": "ea0fe000552bc5f8ec4de021a2022fea163f8748baa59892537d422d50d004c6",
+    "audio/input_bank.json": "dc595218d412f87a33c21f33ebe598373544458f4dff9c78c0dd1f3901a46890",
+    "audio/motion_sync.json": "543e6fb0f4bdd89f5d690b8f5d217a4c0ed16eb53f8603c13c0ee9424117760f"
+  },
+  "motion_producer_hashes": {
+    "animation.py": "7de33162f08a2e26f18a7ddf01a4fd675b61a12894b1ca080f43995ee666d3e7",
+    "character.py": "0b55ad7a51a8a9481a46c8aa41cefa63cb3818461d1fdb25a55862382e6dfc00",
+    "reference_character.py": "c15016bfeab6495841219d540303d223559e821f2ed82ba14c4c222598d49402"
+  },
+  "limits": "Audio reproducibility only. No listening, comfort or artistic validation."
+}

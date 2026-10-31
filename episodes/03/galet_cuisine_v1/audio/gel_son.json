@@ -1,0 +1,29 @@
+{
+  "frozen_utc": "2026-10-31T19:43:31.130357+00:00",
+  "status": "audio_frozen",
+  "sources": {
+    "sources/son.py": "d21afdeab2ae268f58e2148d982456b2ef48c7e8488ace31996a920023dedc41",
+    "chronologie.json": "ea0fe000552bc5f8ec4de021a2022fea163f8748baa59892537d422d50d004c6",
+    "audio/input_bank.json": "dc595218d412f87a33c21f33ebe598373544458f4dff9c78c0dd1f3901a46890",
+    "audio/motion_sync.json": "543e6fb0f4bdd89f5d690b8f5d217a4c0ed16eb53f8603c13c0ee9424117760f"
+  },
+  "motion_producer_hashes": {
+    "animation.py": "7de33162f08a2e26f18a7ddf01a4fd675b61a12894b1ca080f43995ee666d3e7",
+    "character.py": "0b55ad7a51a8a9481a46c8aa41cefa63cb3818461d1fdb25a55862382e6dfc00",
+    "reference_character.py": "c15016bfeab6495841219d540303d223559e821f2ed82ba14c4c222598d49402"
+  },
+  "mix_sha256": "06946073fb2c39f49d79acf8d1d5a073b1ac07aeb6dd49e127b0b8158abcb18b",
+  "test_final_sha256": "cd2d464053e4d0075f074aef7b8000fc330201060be39e271641fdf8ee56f7cd",
+  "stems": {
+    "music": "350c092c3b85f73b8a746bbc3d75ad70271f20b3210d2ceccf0ccfeb658cfea6",
+    "foley": "5250025d0ab72acea461cfbbd96c0765f0d5a9453dd099cb667bf526007a5007",
+    "ambience": "63991e93f4b59b6d8be042604b3e52e71686b121404a2c9d3f6301c25557f220"
+  },
+  "input_count": 58,
+  "vocal_count": 0,
+  "duration": 38.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "motion_sync_status": "measured_new_character",
+  "portable_check": "../controle/audit_son_portable.json"
+}

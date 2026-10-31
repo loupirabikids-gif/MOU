@@ -1,0 +1,351 @@
+{
+  "duration": 38.0,
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "cycles": [
+    {
+      "id": 1,
+      "trigger": "remuer",
+      "trigger_start": 0.0,
+      "inspect": [
+        2.75,
+        3.5
+      ],
+      "sink": [
+        3.5,
+        5.75
+      ],
+      "open": [
+        3.5,
+        3.9
+      ],
+      "water": [
+        3.9,
+        5.35
+      ],
+      "wash": [
+        4.05,
+        5.1
+      ],
+      "close": [
+        5.1,
+        5.6
+      ],
+      "reach": [
+        5.75,
+        5.93
+      ],
+      "pull": [
+        5.93,
+        6.4
+      ],
+      "tear": 6.4,
+      "wipe": [
+        6.4,
+        7.05
+      ],
+      "crumple": [
+        7.3,
+        7.58
+      ],
+      "throw": [
+        7.58,
+        8.75
+      ],
+      "release": 7.82,
+      "land": 8.36,
+      "zoom": [
+        8.0,
+        8.75
+      ],
+      "amount": 1.0,
+      "paper": [
+        5.75,
+        7.58
+      ]
+    },
+    {
+      "id": 2,
+      "trigger": "carotte",
+      "trigger_start": 8.75,
+      "inspect": [
+        10.5,
+        11.0
+      ],
+      "sink": [
+        11.0,
+        12.75
+      ],
+      "open": [
+        11.0,
+        11.3
+      ],
+      "water": [
+        11.3,
+        12.4
+      ],
+      "wash": [
+        11.4,
+        12.25
+      ],
+      "close": [
+        12.25,
+        12.65
+      ],
+      "reach": [
+        12.75,
+        12.86
+      ],
+      "pull": [
+        12.86,
+        13.13
+      ],
+      "tear": 13.13,
+      "wipe": [
+        13.13,
+        13.63
+      ],
+      "crumple": [
+        13.63,
+        13.9
+      ],
+      "throw": [
+        13.9,
+        15.0
+      ],
+      "release": 14.12,
+      "land": 14.62,
+      "zoom": [
+        14.25,
+        15.0
+      ],
+      "amount": 1.4,
+      "paper": [
+        12.75,
+        13.9
+      ]
+    },
+    {
+      "id": 3,
+      "trigger": "tomate",
+      "trigger_start": 15.0,
+      "inspect": [
+        16.0,
+        16.25
+      ],
+      "sink": [
+        16.25,
+        17.75
+      ],
+      "open": [
+        16.25,
+        16.5
+      ],
+      "water": [
+        16.5,
+        17.45
+      ],
+      "wash": [
+        16.6,
+        17.25
+      ],
+      "close": [
+        17.25,
+        17.65
+      ],
+      "reach": [
+        17.75,
+        17.85
+      ],
+      "pull": [
+        17.85,
+        18.08
+      ],
+      "tear": 18.08,
+      "wipe": [
+        18.08,
+        18.47
+      ],
+      "crumple": [
+        18.47,
+        18.69
+      ],
+      "throw": [
+        18.69,
+        19.5
+      ],
+      "release": 18.86,
+      "land": 19.18,
+      "zoom": [
+        19.0,
+        19.5
+      ],
+      "amount": 1.8,
+      "paper": [
+        17.75,
+        18.69
+      ]
+    },
+    {
+      "id": 4,
+      "trigger": "sel",
+      "trigger_start": 19.5,
+      "inspect": [
+        21.0,
+        23.0
+      ],
+      "sink": [
+        23.0,
+        24.5
+      ],
+      "open": [
+        23.0,
+        23.25
+      ],
+      "water": [
+        23.25,
+        24.2
+      ],
+      "wash": [
+        23.35,
+        24.05
+      ],
+      "close": [
+        24.05,
+        24.4
+      ],
+      "reach": [
+        24.5,
+        24.7
+      ],
+      "pull": [
+        24.7,
+        25.2
+      ],
+      "tear": 25.2,
+      "reveal": [
+        25.2,
+        26.4
+      ],
+      "wipe": [
+        26.4,
+        27.35
+      ],
+      "crumple": [
+        27.35,
+        28.0
+      ],
+      "throw": [
+        28.0,
+        30.25
+      ],
+      "release": 28.45,
+      "land": 29.0,
+      "zoom": [
+        28.75,
+        30.25
+      ],
+      "amount": 0.22,
+      "paper": [
+        24.5,
+        28.0
+      ]
+    }
+  ],
+  "carrot": {
+    "start": 8.75,
+    "end": 11.0,
+    "cut_times": [
+      9.4,
+      9.98
+    ],
+    "knife_park": 10.4
+  },
+  "cooking_events": {
+    "tomato_contact": 15.58
+  },
+  "salt": {
+    "start": 19.5,
+    "end": 23.0,
+    "pinch": [
+      19.75,
+      20.0
+    ],
+    "sprinkle": [
+      20.1,
+      20.6
+    ],
+    "inspect": [
+      21.0,
+      23.0
+    ],
+    "bowl": [
+      590.0,
+      1284.0
+    ],
+    "target": [
+      301.0,
+      1300.0
+    ]
+  },
+  "bin_layout": {
+    "centres": [
+      [
+        140.0,
+        1700.0
+      ],
+      [
+        195.0,
+        1590.0
+      ],
+      [
+        135.0,
+        1480.0
+      ]
+    ],
+    "radii": [
+      58.0,
+      70.0,
+      82.0
+    ],
+    "rotations": [
+      -12.0,
+      17.0,
+      -8.0
+    ],
+    "visual_seeds": [
+      1,
+      2,
+      3
+    ]
+  },
+  "paper_overflow": {
+    "contact": 29.0,
+    "floor_land": 29.85,
+    "settle": 29.95,
+    "closeup_end": 30.25,
+    "floor": [
+      325.0,
+      1805.0
+    ],
+    "shadow_y": 1831.0,
+    "r": 22.0,
+    "visual_seed": 4
+  },
+  "final": [
+    31.5,
+    38.0
+  ],
+  "final_hold": [
+    37.25,
+    38.0
+  ],
+  "titre": "Just cooking. Mostly washing. — Galet",
+  "version": "galet_cuisine_v1",
+  "character": "galet_v1 : deux moufles flottantes, aucun bras",
+  "musique": "Jazz doux et dosage stable ; silence avant la chute.",
+  "caption": "Just cooking. Mostly washing."
+}

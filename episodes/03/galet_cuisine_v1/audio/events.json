@@ -1,0 +1,1973 @@
+{
+  "title": "Just cooking. Mostly washing. — Galet cuisine",
+  "duration_seconds": 38.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples_per_channel": 1824000,
+  "events": [
+    {
+      "name": "cuisson_progressive_v27",
+      "kind": "frying",
+      "file": "cues/cuisson_progressive_v27.wav",
+      "source_file": "inputs/cuisson_progressive_v27.wav",
+      "source_sha256": "6b84b0eadb1d02848107099f979526d07ddb23c6f25d3a4e9369aea790b1589e",
+      "sha256": "cca95c4f9b3ac3d8900c0abe27b8c52005a3023ca5844b6ac33179e566633ffa",
+      "start": 0.0,
+      "start_sample": 0,
+      "samples": 1533600,
+      "duration": 31.95,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 1335607,
+      "energy_peak_seconds": 27.825145833333334,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 1533600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.77700059504721,
+        "rms_dbfs": -40.87860835819978,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "musique_v27",
+      "kind": "background_music",
+      "file": "cues/musique_v27.wav",
+      "source_file": "inputs/musique_v27.wav",
+      "source_sha256": "b87512ba09eaee106fdf35d16e0346fdf5a9b712a6ce56939cfe160fe828296c",
+      "sha256": "350c092c3b85f73b8a746bbc3d75ad70271f20b3210d2ceccf0ccfeb658cfea6",
+      "start": 0.0,
+      "start_sample": 0,
+      "samples": 1824000,
+      "duration": 38.0,
+      "stem": "music",
+      "fixed_gain_db": 2.0,
+      "energy_peak_sample": 148206,
+      "energy_peak_seconds": 3.087625,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 1824000,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.2306740807871,
+        "rms_dbfs": -40.36743275253991,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "room_air_1_v27",
+      "kind": "room_ambience",
+      "file": "cues/room_air_1_v27.wav",
+      "source_file": "inputs/room_air_1_v27.wav",
+      "source_sha256": "3570c67b68409b3786eba5323a261f8bf4b220099044e364570414c6f7f96dc7",
+      "sha256": "2e01fc2d0341cffa6d0e843e89069cc70de269c60b503efb59bcc7c63761614e",
+      "start": 0.0,
+      "start_sample": 0,
+      "samples": 1536000,
+      "duration": 32.0,
+      "stem": "ambience",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 1266568,
+      "energy_peak_seconds": 26.386833333333332,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 1536000,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -40.48176482250891,
+        "rms_dbfs": -54.01196086147243,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "sifflement_n1_v27",
+      "kind": "whistle",
+      "file": "cues/sifflement_n1_v27.wav",
+      "source_file": "inputs/sifflement_n1_v27.wav",
+      "source_sha256": "fd7691366dd07a66c3a9d3b1b3abd88985f27a580223a14b7ab8106411cb35a7",
+      "sha256": "9cbdc4abc31e0559c6382ef1ffb85933dff0bbc149dc2c2e53f0cf2653304bbb",
+      "start": 0.3,
+      "start_sample": 14400,
+      "samples": 19200,
+      "duration": 0.4,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 7919,
+      "energy_peak_seconds": 0.46497916666666667,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 19200,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.60853550928989,
+        "rms_dbfs": -30.408741943838518,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "sifflement_n2_v27",
+      "kind": "whistle",
+      "file": "cues/sifflement_n2_v27.wav",
+      "source_file": "inputs/sifflement_n2_v27.wav",
+      "source_sha256": "976dfc4fa95bc2d76275765ae70fc9e047bcdbba34b9ca28de71d00c7beb7058",
+      "sha256": "3f783d90d339c4e56ecab1a4fcbc7c541246d4d0269823eb8547b886939f085f",
+      "start": 0.8555625,
+      "start_sample": 41067,
+      "samples": 19200,
+      "duration": 0.4,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 4419,
+      "energy_peak_seconds": 0.947625,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 19200,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.46811391180334,
+        "rms_dbfs": -30.552844917115838,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "sifflement_n3_v27",
+      "kind": "whistle",
+      "file": "cues/sifflement_n3_v27.wav",
+      "source_file": "inputs/sifflement_n3_v27.wav",
+      "source_sha256": "99b33c2836a105a2eb3c872f0049ca8edaed2e03367502d416fa1975e1bc14fd",
+      "sha256": "aab3e985084605d2285e2f894da75ec89c08129f6c7577e7b452d7580799c7e1",
+      "start": 1.4111041666666666,
+      "start_sample": 67733,
+      "samples": 15360,
+      "duration": 0.32,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 3686,
+      "energy_peak_seconds": 1.4878958333333334,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 15360,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.854669276242692,
+        "rms_dbfs": -30.75354825842879,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "cuillere_posee_v27",
+      "kind": "wood_contact",
+      "file": "cues/cuillere_posee_v27.wav",
+      "source_file": "inputs/cuillere_posee_v27.wav",
+      "source_sha256": "96ba49c86548ad9e461fefacd81b389ebfe9bcf6e3a643a43f3efed478cc73f7",
+      "sha256": "c315f275f0dc50ab705af939d88a5058be25829cef4dd6239817258124b83eb6",
+      "start": 2.7,
+      "start_sample": 129600,
+      "samples": 4800,
+      "duration": 0.1,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 371,
+      "energy_peak_seconds": 2.7077291666666667,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 4800,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -29.600403935503394,
+        "rms_dbfs": -43.81944821782235,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c1_robinet_ouvre_v27",
+      "kind": "tap",
+      "file": "cues/c1_robinet_ouvre_v27.wav",
+      "source_file": "inputs/c1_robinet_ouvre_v27.wav",
+      "source_sha256": "7518e8ae58e40b7239e74f50ecbc1e5c31de5f0aa3cdf6aa753c0a6cecaede12",
+      "sha256": "0fe3778cc7e0016b6c2c46a4b3e0f17e2e4c6f04ccc882f5ee27a9e6b3aadca1",
+      "start": 3.8935208333333335,
+      "start_sample": 186889,
+      "samples": 3600,
+      "duration": 0.075,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 311,
+      "energy_peak_seconds": 3.9,
+      "sync": {
+        "target_seconds": 3.9,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 3600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.498013733542365,
+        "rms_dbfs": -42.58890272663008,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c1_eau_v27",
+      "kind": "water",
+      "file": "cues/c1_eau_v27.wav",
+      "source_file": "inputs/c1_eau_v27.wav",
+      "source_sha256": "ec23e7efd7d25c1d53f6cd22a7f02a0145f3e21991363edeff16e2c55dad7f56",
+      "sha256": "d5abf5dea060036e06076eeb0c654f1105f10f1bd1bcbd6076d4216d9527a1f2",
+      "start": 3.9,
+      "start_sample": 187200,
+      "samples": 69600,
+      "duration": 1.45,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 56650,
+      "energy_peak_seconds": 5.080208333333333,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 69600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -21.497113462397742,
+        "rms_dbfs": -35.637282643456814,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c1_robinet_ferme_v27",
+      "kind": "tap",
+      "file": "cues/c1_robinet_ferme_v27.wav",
+      "source_file": "inputs/c1_robinet_ferme_v27.wav",
+      "source_sha256": "e51576a002e246f767e84aa679048bad3d65d000c67c0784c9839c68f4735cc2",
+      "sha256": "26d80a9452a9f8db35af367dac851ae1574caafa534a8fbf797909f0690a7400",
+      "start": 5.344,
+      "start_sample": 256512,
+      "samples": 3600,
+      "duration": 0.075,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 288,
+      "energy_peak_seconds": 5.35,
+      "sync": {
+        "target_seconds": 5.35,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 3600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.618653028940628,
+        "rms_dbfs": -41.50050992645423,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c1_paper_pull_v26_00",
+      "kind": "paper_pull",
+      "file": "cues/c1_paper_pull_v26_00.wav",
+      "source_file": "inputs/c1_paper_pull_v26_00.wav",
+      "source_sha256": "b6c9a0015a77ed65c8be62dcf6186bc96dfd67fdc7a5f89f7c7da5bce6eba617",
+      "sha256": "fc9884adb30bcabd2361065a741b58ac34bff926722b613ce07e8ba0aead4f8f",
+      "start": 6.024,
+      "start_sample": 289152,
+      "samples": 13440,
+      "duration": 0.28,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 6673,
+      "energy_peak_seconds": 6.163020833333333,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 13440,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -22.50089556959274,
+        "rms_dbfs": -40.1328172347492,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c1_paper_tear_v26_01",
+      "kind": "paper_tear",
+      "file": "cues/c1_paper_tear_v26_01.wav",
+      "source_file": "inputs/c1_paper_tear_v26_01.wav",
+      "source_sha256": "379b4b776117825e8bbfe435bc38daed61930f48ea414dbdd6a94c2741335258",
+      "sha256": "30aea79907d8d166ca9e806d60da15c2629c91d2c8f7912a881d71c9390971e9",
+      "start": 6.3010625,
+      "start_sample": 302451,
+      "samples": 7680,
+      "duration": 0.16,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 4749,
+      "energy_peak_seconds": 6.4,
+      "sync": {
+        "target_seconds": 6.4,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 7680,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -21.999515337009644,
+        "rms_dbfs": -40.403456368493366,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c1_paper_wipe_v26_02",
+      "kind": "paper_wipe",
+      "file": "cues/c1_paper_wipe_v26_02.wav",
+      "source_file": "inputs/c1_paper_wipe_v26_02.wav",
+      "source_sha256": "b6de1ca77e8e70522dfd09fdae166068d25f2cc445f7c9110333ee684381d8da",
+      "sha256": "dccfecfd6e408aa34b27f414c8f10e8e40d5e1d458586f0b6a2a5c49ef38a967",
+      "start": 6.675979166666667,
+      "start_sample": 320447,
+      "samples": 8736,
+      "duration": 0.182,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 2353,
+      "energy_peak_seconds": 6.725,
+      "sync": {
+        "target_seconds": 6.725,
+        "marker": "8 ms RMS energy peak",
+        "method": "New galet world relative-fingertip speed maximum matched to this cue 8 ms RMS energy peak",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 8736,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.00298372643461,
+        "rms_dbfs": -39.71646478268872,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c1_paper_wipe_v26_03",
+      "kind": "paper_wipe",
+      "file": "cues/c1_paper_wipe_v26_03.wav",
+      "source_file": "inputs/c1_paper_wipe_v26_03.wav",
+      "source_sha256": "e8e280ddcc14f28e203e26c011e56c97a76c1a9caa2f8b1f3767228bf591d67d",
+      "sha256": "8c638d17e8d8bb6b453407600339e4ffc7116a6e793801a678c83951e5034473",
+      "start": 6.859875,
+      "start_sample": 329274,
+      "samples": 8736,
+      "duration": 0.182,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 416,
+      "energy_peak_seconds": 6.868541666666666,
+      "sync": {
+        "target_seconds": 6.868541666666666,
+        "marker": "8 ms RMS energy peak",
+        "method": "New galet world relative-fingertip speed maximum matched to this cue 8 ms RMS energy peak",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 8736,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.00298372643461,
+        "rms_dbfs": -40.9551150699889,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c1_paper_crumple_v26_04",
+      "kind": "paper_crumple",
+      "file": "cues/c1_paper_crumple_v26_04.wav",
+      "source_file": "inputs/c1_paper_crumple_v26_04.wav",
+      "source_sha256": "dd9123a183cde4f184066d113b1cbcbdf994e8514a8e3bced06dab0d575e7eef",
+      "sha256": "7d1a1c658079da26032d7fb3213a360ee983ea5ed5a0e19c0e51f15b082e9437",
+      "start": 7.3,
+      "start_sample": 350400,
+      "samples": 13440,
+      "duration": 0.28,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 12128,
+      "energy_peak_seconds": 7.552666666666667,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 13440,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -30.618452432318506,
+        "rms_dbfs": -41.499720979545216,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "papier_lacher_c1_v27",
+      "kind": "paper_release_texture",
+      "file": "cues/papier_lacher_c1_v27.wav",
+      "source_file": "inputs/papier_lacher_c1_v27.wav",
+      "source_sha256": "8b56a4c43a83fbfcd878a1d959d6da637bf90c737d6eec1ea1e2c5d81a6436a7",
+      "sha256": "246f7e684d036bfdd63c52c8b418419cfc0231ac49fea625ff4a37bce8c29e4d",
+      "start": 7.82,
+      "start_sample": 375360,
+      "samples": 5760,
+      "duration": 0.12,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 4582,
+      "energy_peak_seconds": 7.9154583333333335,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5760,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -31.128170852772485,
+        "rms_dbfs": -45.50025435908811,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c1_paper_land_v26_05",
+      "kind": "paper_land",
+      "file": "cues/c1_paper_land_v26_05.wav",
+      "source_file": "inputs/c1_paper_land_v26_05.wav",
+      "source_sha256": "a2b8149e8330390134ca5d45e029854248a37d1a6ee5dac63a6cf4a406bdd142",
+      "sha256": "854411107804fe0e2d29a41dec5f72b01857abe061c789150959267c5a026da8",
+      "start": 8.3335625,
+      "start_sample": 400011,
+      "samples": 7680,
+      "duration": 0.16,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 1269,
+      "energy_peak_seconds": 8.36,
+      "sync": {
+        "target_seconds": 8.36,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 7680,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.99798801075626,
+        "rms_dbfs": -49.36564370294416,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "papier_tas_matiere_c1_v27",
+      "kind": "paper_heap_body",
+      "file": "cues/papier_tas_matiere_c1_v27.wav",
+      "source_file": "inputs/papier_tas_matiere_c1_v27.wav",
+      "source_sha256": "ce0707b4c73597192a28eacc6bb84d4fa90157a61ccdb67b1aaf9c0219a85821",
+      "sha256": "a24a2f6876672470609d6516a1188875e07a527474e37d59c66071a928c39eee",
+      "start": 8.36,
+      "start_sample": 401280,
+      "samples": 9600,
+      "duration": 0.2,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 5372,
+      "energy_peak_seconds": 8.471916666666667,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 9600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -43.588445700191684,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "carotte_coupe_1_v27",
+      "kind": "carrot_chop",
+      "file": "cues/carotte_coupe_1_v27.wav",
+      "source_file": "inputs/carotte_coupe_1_v27.wav",
+      "source_sha256": "48d036b80afb92a9a28666bd43e3f20723e6afbfc9b0443765d949f883062f55",
+      "sha256": "c508320fc5be3753e3e9ead04c3aeb3e861051fe4135cb348c795b6b40d3ee6b",
+      "start": 9.389729166666667,
+      "start_sample": 450707,
+      "samples": 4560,
+      "duration": 0.095,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 493,
+      "energy_peak_seconds": 9.4,
+      "sync": {
+        "target_seconds": 9.4,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 4560,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -19.999469871546843,
+        "rms_dbfs": -37.03779750203693,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "carotte_coupe_2_v27",
+      "kind": "carrot_chop",
+      "file": "cues/carotte_coupe_2_v27.wav",
+      "source_file": "inputs/carotte_coupe_2_v27.wav",
+      "source_sha256": "e2c147fd69ea82733077b3f04dbdfa34bf3dfc11891973eb3f2178d269201fb0",
+      "sha256": "81350c04a0afcb2ccd8a81ce7c6e8aab388989018da22225cfd6a31e777b2ea9",
+      "start": 9.973854166666667,
+      "start_sample": 478745,
+      "samples": 4560,
+      "duration": 0.095,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 295,
+      "energy_peak_seconds": 9.98,
+      "sync": {
+        "target_seconds": 9.98,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 4560,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.265348336967108,
+        "rms_dbfs": -38.88923249988348,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "couteau_pose_v27",
+      "kind": "knife_setdown",
+      "file": "cues/couteau_pose_v27.wav",
+      "source_file": "inputs/couteau_pose_v27.wav",
+      "source_sha256": "6223eacb413de8382af3fd9d9d6af852876afdbedad8bb28b2724892ce73702b",
+      "sha256": "3ccd42bdd2c13dbe25e4579744146c193fdb0878950d6e88bb605bc4f1011455",
+      "start": 10.387666666666666,
+      "start_sample": 498608,
+      "samples": 5040,
+      "duration": 0.105,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 592,
+      "energy_peak_seconds": 10.4,
+      "sync": {
+        "target_seconds": 10.4,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5040,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -26.006827078132492,
+        "rms_dbfs": -42.538160816355486,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c2_robinet_ouvre_v27",
+      "kind": "tap",
+      "file": "cues/c2_robinet_ouvre_v27.wav",
+      "source_file": "inputs/c2_robinet_ouvre_v27.wav",
+      "source_sha256": "87cda7f9620a3c5bc0364867c91af0f2a1eb7d47baaee19e44802da4c58a3358",
+      "sha256": "49dbfeaa4c32b3b454feedaff12d1843757c9c9a67a48c8388152200c410bc36",
+      "start": 11.294208333333334,
+      "start_sample": 542122,
+      "samples": 3600,
+      "duration": 0.075,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 278,
+      "energy_peak_seconds": 11.3,
+      "sync": {
+        "target_seconds": 11.3,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 3600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.498013733542365,
+        "rms_dbfs": -42.8628371416943,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c2_eau_v27",
+      "kind": "water",
+      "file": "cues/c2_eau_v27.wav",
+      "source_file": "inputs/c2_eau_v27.wav",
+      "source_sha256": "33ad142bcdda69e80c49b699c784123379b07a03e972cd1f3fdc12b9237a4ffe",
+      "sha256": "87fbcdf9a39d16ad3c70c9496a660efbbe23d20dc5ba796789092d7a8f4be420",
+      "start": 11.3,
+      "start_sample": 542400,
+      "samples": 52800,
+      "duration": 1.1,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 5329,
+      "energy_peak_seconds": 11.411020833333334,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 52800,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -21.598481669221265,
+        "rms_dbfs": -35.50003692100208,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c2_robinet_ferme_v27",
+      "kind": "tap",
+      "file": "cues/c2_robinet_ferme_v27.wav",
+      "source_file": "inputs/c2_robinet_ferme_v27.wav",
+      "source_sha256": "cb8dde4465ff09e4e37dabae3de36d7ac289ac8cb500ebedba03cc1843400bd6",
+      "sha256": "ed28b0db975f9ce146fd0b3d784ed066f0d688397f130c1b507327540774c2fa",
+      "start": 12.394333333333334,
+      "start_sample": 594928,
+      "samples": 3600,
+      "duration": 0.075,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 272,
+      "energy_peak_seconds": 12.4,
+      "sync": {
+        "target_seconds": 12.4,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 3600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.633851439884147,
+        "rms_dbfs": -41.49997396844477,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c2_paper_pull_v26_06",
+      "kind": "paper_pull",
+      "file": "cues/c2_paper_pull_v26_06.wav",
+      "source_file": "inputs/c2_paper_pull_v26_06.wav",
+      "source_sha256": "a17b36340d21117debf8a4c066d2aa4f4df783653053aefeead6bb3de75229a0",
+      "sha256": "d32e696d0b0bb2b845e48ba9c5820f11a9dee1d731a5d5e72836fbd9c155e024",
+      "start": 12.914,
+      "start_sample": 619872,
+      "samples": 8554,
+      "duration": 0.17820833333333333,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 5713,
+      "energy_peak_seconds": 13.033020833333333,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 8554,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -22.50089556959274,
+        "rms_dbfs": -39.38815802418718,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c2_paper_tear_v26_07",
+      "kind": "paper_tear",
+      "file": "cues/c2_paper_tear_v26_07.wav",
+      "source_file": "inputs/c2_paper_tear_v26_07.wav",
+      "source_sha256": "99ad772a76a7c98ead84f34ad0edf78b09b11b2ff72424a477e31b110a7bc338",
+      "sha256": "d6ce20f69a1bed23180df35d24a8073f7d860558ab7987e40b676ef00562b015",
+      "start": 13.0360625,
+      "start_sample": 625731,
+      "samples": 6720,
+      "duration": 0.14,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 4509,
+      "energy_peak_seconds": 13.13,
+      "sync": {
+        "target_seconds": 13.13,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 6720,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -21.999515337009644,
+        "rms_dbfs": -39.85728486315275,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c2_paper_wipe_v26_08",
+      "kind": "paper_wipe",
+      "file": "cues/c2_paper_wipe_v26_08.wav",
+      "source_file": "inputs/c2_paper_wipe_v26_08.wav",
+      "source_sha256": "e1975e5ff364eabf86513e665fe6813a8d759404dbe2ed38cfde7f3d0d84db2c",
+      "sha256": "60d9f3a13a4c14a5b209f06f202e977e737e522da5100116c61c509773dc01ae",
+      "start": 13.256395833333332,
+      "start_sample": 636307,
+      "samples": 6720,
+      "duration": 0.14,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 5933,
+      "energy_peak_seconds": 13.38,
+      "sync": {
+        "target_seconds": 13.38,
+        "marker": "8 ms RMS energy peak",
+        "method": "New galet world relative-fingertip speed maximum matched to this cue 8 ms RMS energy peak",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 6720,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -26.091931392896495,
+        "rms_dbfs": -38.99984839004434,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c2_paper_wipe_v26_09",
+      "kind": "paper_wipe",
+      "file": "cues/c2_paper_wipe_v26_09.wav",
+      "source_file": "inputs/c2_paper_wipe_v26_09.wav",
+      "source_sha256": "ebdfed9609122ad87f696710af594001f961fe4ef3469fe02ba1d77215773659",
+      "sha256": "804f0e030b3789f82bf371c79957ad58e4d3e63c6fb246b638d18420a2b37acd",
+      "start": 13.451395833333333,
+      "start_sample": 645667,
+      "samples": 6720,
+      "duration": 0.14,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 1873,
+      "energy_peak_seconds": 13.490416666666667,
+      "sync": {
+        "target_seconds": 13.490416666666668,
+        "marker": "8 ms RMS energy peak",
+        "method": "New galet world relative-fingertip speed maximum matched to this cue 8 ms RMS energy peak",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 6720,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.00298372643461,
+        "rms_dbfs": -39.68117991510337,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": -1.7763568394002505e-12
+    },
+    {
+      "name": "c2_paper_crumple_v26_10",
+      "kind": "paper_crumple",
+      "file": "cues/c2_paper_crumple_v26_10.wav",
+      "source_file": "inputs/c2_paper_crumple_v26_10.wav",
+      "source_sha256": "2d398ac9aac5b000167f97c05363443e2f4a67f50d95f8f70b95cc535a099e02",
+      "sha256": "a7819b951d8ed02cf9bcdc93b9d5db5683ea9700f41152cc6215f0963c5aa504",
+      "start": 13.63,
+      "start_sample": 654240,
+      "samples": 12960,
+      "duration": 0.27,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 11251,
+      "energy_peak_seconds": 13.864395833333333,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 12960,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -31.3017016116719,
+        "rms_dbfs": -41.49975648843963,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c2_paper_land_v26_11",
+      "kind": "paper_land",
+      "file": "cues/c2_paper_land_v26_11.wav",
+      "source_file": "inputs/c2_paper_land_v26_11.wav",
+      "source_sha256": "22d328e5d12e2f2f064d94eb03f6d6b5611fc3490224e59239afa43601ca9c14",
+      "sha256": "ea4e2abb3de9c7a9f66020eecebc0a4cb7bdb5def83a3e6fa25944220db7743a",
+      "start": 14.588083333333334,
+      "start_sample": 700228,
+      "samples": 7680,
+      "duration": 0.16,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 1532,
+      "energy_peak_seconds": 14.62,
+      "sync": {
+        "target_seconds": 14.62,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 7680,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.99798801075626,
+        "rms_dbfs": -42.38840902113091,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "papier_tas_matiere_c2_v27",
+      "kind": "paper_heap_body",
+      "file": "cues/papier_tas_matiere_c2_v27.wav",
+      "source_file": "inputs/papier_tas_matiere_c2_v27.wav",
+      "source_sha256": "a48db3ba2cee6f5f6054cda1ee03b94f02b34f779bb14ccdc4a2206875fef5c5",
+      "sha256": "2e7fa77510f8b274bf1c55645a70062f13638873e90b7d561f05d0cb6e3456b0",
+      "start": 14.62,
+      "start_sample": 701760,
+      "samples": 13920,
+      "duration": 0.29,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 1163,
+      "energy_peak_seconds": 14.644229166666667,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 13920,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.638451401960488,
+        "rms_dbfs": -42.200122517894386,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "contact_tomate_v27",
+      "kind": "tomato_contact",
+      "file": "cues/contact_tomate_v27.wav",
+      "source_file": "inputs/contact_tomate_v27.wav",
+      "source_sha256": "dbdc02d12c1e60219ca0f4dd5dd612fb385e9fe28b95dea62b7b54e2aeef51b7",
+      "sha256": "cbd825a81a97f672a6f6529ae4f34e7293d02f8b980b4cbc47112ed91e661bc2",
+      "start": 15.572333333333333,
+      "start_sample": 747472,
+      "samples": 5280,
+      "duration": 0.11,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 368,
+      "energy_peak_seconds": 15.58,
+      "sync": {
+        "target_seconds": 15.58,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5280,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -28.50383764056803,
+        "rms_dbfs": -45.28086770743585,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c3_robinet_ouvre_v27",
+      "kind": "tap",
+      "file": "cues/c3_robinet_ouvre_v27.wav",
+      "source_file": "inputs/c3_robinet_ouvre_v27.wav",
+      "source_sha256": "9da8855287c4bb535f0b791fd2906ffc19ba3f9e4f79a057a947c179dc045e83",
+      "sha256": "cddef46c69dd3d0462fe0be3698e6ac060e99c1b8c5ea57dfab85f83ece587d5",
+      "start": 16.494375,
+      "start_sample": 791730,
+      "samples": 3600,
+      "duration": 0.075,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 270,
+      "energy_peak_seconds": 16.5,
+      "sync": {
+        "target_seconds": 16.5,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 3600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.498013733542365,
+        "rms_dbfs": -42.0294398745953,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c3_eau_v27",
+      "kind": "water",
+      "file": "cues/c3_eau_v27.wav",
+      "source_file": "inputs/c3_eau_v27.wav",
+      "source_sha256": "d540820b5e41bcddc425142f3b0f4689d9c76ebca5264be658ffeb0f003e152f",
+      "sha256": "3f4aa1b1977320d8df52d56d28a76c3fa0b9b59d8a756d33a5ae0bc0378f61db",
+      "start": 16.5,
+      "start_sample": 792000,
+      "samples": 45600,
+      "duration": 0.95,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 24672,
+      "energy_peak_seconds": 17.014,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 45600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -22.280987883563476,
+        "rms_dbfs": -35.49994752567945,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c3_robinet_ferme_v27",
+      "kind": "tap",
+      "file": "cues/c3_robinet_ferme_v27.wav",
+      "source_file": "inputs/c3_robinet_ferme_v27.wav",
+      "source_sha256": "e5ea3ec2b1ee7d5c388526fdcb32fc26d9183205511e1249070eb300ca1aed5b",
+      "sha256": "2a6f4bd74acf34999eda6ee6b9757853a5da77773f14a1c215fdd319879d0b2e",
+      "start": 17.4421875,
+      "start_sample": 837225,
+      "samples": 3600,
+      "duration": 0.075,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 375,
+      "energy_peak_seconds": 17.45,
+      "sync": {
+        "target_seconds": 17.45,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 3600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.498013733542365,
+        "rms_dbfs": -41.72895158103582,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c3_paper_pull_v26_12",
+      "kind": "paper_pull",
+      "file": "cues/c3_paper_pull_v26_12.wav",
+      "source_file": "inputs/c3_paper_pull_v26_12.wav",
+      "source_sha256": "5049e32760e0756370c2ec1d59a791b2999ebe769894373447cf10db0034a904",
+      "sha256": "5c89de51185fc6d228ddab2dbb63a20d62099c39cf6d2b87b0f63b9906ff9e5b",
+      "start": 17.896,
+      "start_sample": 859008,
+      "samples": 7286,
+      "duration": 0.15179166666666666,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 6193,
+      "energy_peak_seconds": 18.025020833333333,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 7286,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -22.50089556959274,
+        "rms_dbfs": -37.836866530011555,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c3_paper_tear_v26_13",
+      "kind": "paper_tear",
+      "file": "cues/c3_paper_tear_v26_13.wav",
+      "source_file": "inputs/c3_paper_tear_v26_13.wav",
+      "source_sha256": "6c0dd45b51288ee03fb3c7940660d05e7335641724452db3f1d0294202fc5cab",
+      "sha256": "adb34802d731647511ec48c58d645c4a19b17ecbce366f85f7aa651a9e172faf",
+      "start": 18.0010625,
+      "start_sample": 864051,
+      "samples": 5760,
+      "duration": 0.12,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 3789,
+      "energy_peak_seconds": 18.08,
+      "sync": {
+        "target_seconds": 18.08,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5760,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -21.999515337009644,
+        "rms_dbfs": -39.205598168454564,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c3_paper_wipe_v26_14",
+      "kind": "paper_wipe",
+      "file": "cues/c3_paper_wipe_v26_14.wav",
+      "source_file": "inputs/c3_paper_wipe_v26_14.wav",
+      "source_sha256": "24c90f991715157976e4342e3f98bdbfd23d5001f50f9ecc8f7f1e377bc9a6c5",
+      "sha256": "574b9aef86069571851e74cf86ca5c9ad5124ff4a5609e7be257ec35900919ba",
+      "start": 18.215291666666666,
+      "start_sample": 874334,
+      "samples": 5242,
+      "duration": 0.10920833333333334,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 2866,
+      "energy_peak_seconds": 18.275,
+      "sync": {
+        "target_seconds": 18.275,
+        "marker": "8 ms RMS energy peak",
+        "method": "New galet world relative-fingertip speed maximum matched to this cue 8 ms RMS energy peak",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5242,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.602354146316667,
+        "rms_dbfs": -38.999717959974866,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c3_paper_wipe_v26_15",
+      "kind": "paper_wipe",
+      "file": "cues/c3_paper_wipe_v26_15.wav",
+      "source_file": "inputs/c3_paper_wipe_v26_15.wav",
+      "source_sha256": "d427503637e15cf92a6736a2346e965447b35c8d0ee51d0d1aa4b5b64a1529f6",
+      "sha256": "30e5c23e099951e43a76ff55b301d42a00708c9aaa07bd3a815550104e9f6672",
+      "start": 18.342479166666667,
+      "start_sample": 880439,
+      "samples": 5242,
+      "duration": 0.10920833333333334,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 895,
+      "energy_peak_seconds": 18.361125,
+      "sync": {
+        "target_seconds": 18.361124999999998,
+        "marker": "8 ms RMS energy peak",
+        "method": "New galet world relative-fingertip speed maximum matched to this cue 8 ms RMS energy peak",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5242,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.00298372643461,
+        "rms_dbfs": -42.21850708800189,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 3.552713678800501e-12
+    },
+    {
+      "name": "c3_paper_crumple_v26_16",
+      "kind": "paper_crumple",
+      "file": "cues/c3_paper_crumple_v26_16.wav",
+      "source_file": "inputs/c3_paper_crumple_v26_16.wav",
+      "source_sha256": "df99de42534abb4254b43c2c52e8cc244adaaa41c1b13f0d6fb148ecf4e448ad",
+      "sha256": "1d3d6413d0e2b1eff72c34eed868724cd32a52cf7dd4dfee147e2ec0dbbf5026",
+      "start": 18.47,
+      "start_sample": 886560,
+      "samples": 10560,
+      "duration": 0.22,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 8851,
+      "energy_peak_seconds": 18.654395833333332,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 10560,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -31.071089225837348,
+        "rms_dbfs": -41.499699018133796,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "papier_lacher_c3_v27",
+      "kind": "paper_release_texture",
+      "file": "cues/papier_lacher_c3_v27.wav",
+      "source_file": "inputs/papier_lacher_c3_v27.wav",
+      "source_sha256": "42ca9ca5c7b12e1f92887a50def290ba11a9d330be6c21118b8c3bf930032b71",
+      "sha256": "78d5ca76686989581c86a876b10428920b4e4a829c66b99463d1e3c4d9074574",
+      "start": 18.86,
+      "start_sample": 905280,
+      "samples": 7680,
+      "duration": 0.16,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 771,
+      "energy_peak_seconds": 18.8760625,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 7680,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -49.179468315732784,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c3_paper_land_v26_17",
+      "kind": "paper_land",
+      "file": "cues/c3_paper_land_v26_17.wav",
+      "source_file": "inputs/c3_paper_land_v26_17.wav",
+      "source_sha256": "df4fd91365549b137166c65287cefe96715ed3b3451df8d2c47a7aa4b71ac563",
+      "sha256": "bc6e81a62ab55c2b42432c4becb6071afae22810ea1cb2b175163d316f57de9d",
+      "start": 19.139833333333332,
+      "start_sample": 918712,
+      "samples": 7680,
+      "duration": 0.16,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 1928,
+      "energy_peak_seconds": 19.18,
+      "sync": {
+        "target_seconds": 19.18,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 7680,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -23.99798801075626,
+        "rms_dbfs": -47.61699074522407,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "papier_tas_matiere_c3_v27",
+      "kind": "paper_heap_body",
+      "file": "cues/papier_tas_matiere_c3_v27.wav",
+      "source_file": "inputs/papier_tas_matiere_c3_v27.wav",
+      "source_sha256": "a856a8c6c5f34352685f07af9a0c186bc2a9613024ca0fd8697db843f7bf97af",
+      "sha256": "eb52800b64d960e624e7dfa7325d6c67cd1fb926f1ef00df06b076f0034fc2e5",
+      "start": 19.18,
+      "start_sample": 920640,
+      "samples": 19200,
+      "duration": 0.4,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 9801,
+      "energy_peak_seconds": 19.3841875,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 19200,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -41.292031751466915,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "sel_saupoudre_v27",
+      "kind": "salt_sprinkle",
+      "file": "cues/sel_saupoudre_v27.wav",
+      "source_file": "inputs/sel_saupoudre_v27.wav",
+      "source_sha256": "697a40bf8567965716b772edb098de4e05f654b2d2d13dc19978c66ea117673d",
+      "sha256": "7954a1249497300433e1eec87990b95230500f2d25eb2a5170c7ce9f977c9ce5",
+      "start": 20.1,
+      "start_sample": 964800,
+      "samples": 24000,
+      "duration": 0.5,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 8226,
+      "energy_peak_seconds": 20.271375,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 24000,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -30.493344863131604,
+        "rms_dbfs": -52.334741094080684,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c4_robinet_ouvre_v27",
+      "kind": "tap",
+      "file": "cues/c4_robinet_ouvre_v27.wav",
+      "source_file": "inputs/c4_robinet_ouvre_v27.wav",
+      "source_sha256": "c7b1f7418ca10f6e08cd8f27dcab04fc3c52afaca5e420d8cee11d8808d7106b",
+      "sha256": "2ffef6ad62aec5464a511b6180b97b504c3ea80f4819fc2d2d7fee8e56cbf259",
+      "start": 23.243770833333333,
+      "start_sample": 1115701,
+      "samples": 3600,
+      "duration": 0.075,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 299,
+      "energy_peak_seconds": 23.25,
+      "sync": {
+        "target_seconds": 23.25,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 3600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.498013733542365,
+        "rms_dbfs": -41.51703224499606,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c4_eau_v27",
+      "kind": "water",
+      "file": "cues/c4_eau_v27.wav",
+      "source_file": "inputs/c4_eau_v27.wav",
+      "source_sha256": "1a48771dc598d7334f48ff043e02d409411936e2aade733c389ab6ed5b52d81f",
+      "sha256": "317b73d0dced891a9a23d4398e3e49c5ec13f6050b05111f976636a60c54e9f1",
+      "start": 23.25,
+      "start_sample": 1116000,
+      "samples": 45600,
+      "duration": 0.95,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 25480,
+      "energy_peak_seconds": 23.780833333333334,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 45600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -22.759231031671703,
+        "rms_dbfs": -35.49992739732741,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c4_robinet_ferme_v27",
+      "kind": "tap",
+      "file": "cues/c4_robinet_ferme_v27.wav",
+      "source_file": "inputs/c4_robinet_ferme_v27.wav",
+      "source_sha256": "f72afdae290f3645b9ec7090d62adc42c90fa84646328f74bb7888735601faf3",
+      "sha256": "1388052e962072d0ab0d6372f0c74ee9edc9fad06a9ba1de86315c1ac440b745",
+      "start": 24.194375,
+      "start_sample": 1161330,
+      "samples": 3600,
+      "duration": 0.075,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 270,
+      "energy_peak_seconds": 24.2,
+      "sync": {
+        "target_seconds": 24.2,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 3600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.498013733542365,
+        "rms_dbfs": -41.55989753633947,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c4_tiny_paper_pull_v26_18",
+      "kind": "tiny_paper_pull",
+      "file": "cues/c4_tiny_paper_pull_v26_18.wav",
+      "source_file": "inputs/c4_tiny_paper_pull_v26_18.wav",
+      "source_sha256": "2352d81bca54baf8cca23e08559c891c7a48dc705a09508f47ea9382adfda858",
+      "sha256": "251a5ed4a57fece8b8f30b01b5d5a4b14813ada6d45e9db356e62dbbb9b4c25f",
+      "start": 24.8,
+      "start_sample": 1190400,
+      "samples": 13440,
+      "duration": 0.28,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 9411,
+      "energy_peak_seconds": 24.9960625,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 13440,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -51.11322982831987,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c4_tiny_paper_tear_v26_19",
+      "kind": "tiny_paper_tear",
+      "file": "cues/c4_tiny_paper_tear_v26_19.wav",
+      "source_file": "inputs/c4_tiny_paper_tear_v26_19.wav",
+      "source_sha256": "e5b16fe2649a5abb176ebd13a6810bd1cf369188bf92a279910b633dfd609f49",
+      "sha256": "2c31d8e894aa87b1f88e5898959ba76ac2c053a66f0bf0b5f2497be6e7402d5a",
+      "start": 25.1310625,
+      "start_sample": 1206291,
+      "samples": 5760,
+      "duration": 0.12,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 3309,
+      "energy_peak_seconds": 25.2,
+      "sync": {
+        "target_seconds": 25.2,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5760,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.99849199481288,
+        "rms_dbfs": -42.18527942814414,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c4_tiny_paper_wipe_v26_20",
+      "kind": "tiny_paper_wipe",
+      "file": "cues/c4_tiny_paper_wipe_v26_20.wav",
+      "source_file": "inputs/c4_tiny_paper_wipe_v26_20.wav",
+      "source_sha256": "4cc18ee1525f2d708976ad237988ddbc11ba7296ac7949a5bbeecbfb5129898e",
+      "sha256": "e7ebd30f3b3ef70368b0e02598278890539fcad42337b1d0f77c7ee2de742b53",
+      "start": 26.866354166666667,
+      "start_sample": 1289585,
+      "samples": 9600,
+      "duration": 0.2,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 415,
+      "energy_peak_seconds": 26.875,
+      "sync": {
+        "target_seconds": 26.875,
+        "marker": "8 ms RMS energy peak",
+        "method": "New galet world relative-fingertip speed maximum matched to this cue 8 ms RMS energy peak",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 9600,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -42.65129239087979,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c4_tiny_paper_wipe_v26_21",
+      "kind": "tiny_paper_wipe",
+      "file": "cues/c4_tiny_paper_wipe_v26_21.wav",
+      "source_file": "inputs/c4_tiny_paper_wipe_v26_21.wav",
+      "source_sha256": "5a4f6cd07299c58e715f9785adafbd0f8c6005a4bbde8e60f3526d28425b95d4",
+      "sha256": "7070bbdc858dc0a8546dcb496ce1c16d4ad0a0ed1271374dd1dacead17b46f22",
+      "start": 27.035770833333334,
+      "start_sample": 1297717,
+      "samples": 5700,
+      "duration": 0.11875,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 2353,
+      "energy_peak_seconds": 27.084791666666668,
+      "sync": {
+        "target_seconds": 27.084791666666668,
+        "marker": "8 ms RMS energy peak",
+        "method": "New galet world relative-fingertip speed maximum matched to this cue 8 ms RMS energy peak",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5700,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.858243151689614,
+        "rms_dbfs": -40.5002156700455,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "c4_tiny_paper_crumple_v26_22",
+      "kind": "tiny_paper_crumple",
+      "file": "cues/c4_tiny_paper_crumple_v26_22.wav",
+      "source_file": "inputs/c4_tiny_paper_crumple_v26_22.wav",
+      "source_sha256": "fbec58b0586679e7f7b46df3b26d7e11f397a9ee2fb594267f787aea0075afce",
+      "sha256": "57c19235e86b8afaa767329845d23b24f8f281aace88e58b0901d3c7cb61c247",
+      "start": 27.35,
+      "start_sample": 1312800,
+      "samples": 31200,
+      "duration": 0.65,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 27373,
+      "energy_peak_seconds": 27.920270833333333,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 31200,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -25.498013733542365,
+        "rms_dbfs": -47.146839549971915,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c4_tiny_paper_land_v26_23",
+      "kind": "tiny_paper_land",
+      "file": "cues/c4_tiny_paper_land_v26_23.wav",
+      "source_file": "inputs/c4_tiny_paper_land_v26_23.wav",
+      "source_sha256": "2d71295575d4a546135b6f186d69c08290cd3ec8b720d58fb7de7e92ed5ffa45",
+      "sha256": "799e3689beed55c74580308d205f249d210293edaadc5a5c21ce054d31e7d42a",
+      "start": 28.988083333333332,
+      "start_sample": 1391428,
+      "samples": 5760,
+      "duration": 0.12,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 572,
+      "energy_peak_seconds": 29.0,
+      "sync": {
+        "target_seconds": 29.0,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5760,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -26.502364735788532,
+        "rms_dbfs": -45.03689695371466,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "papier_tas_matiere_c4_v27",
+      "kind": "paper_heap_body",
+      "file": "cues/papier_tas_matiere_c4_v27.wav",
+      "source_file": "inputs/papier_tas_matiere_c4_v27.wav",
+      "source_sha256": "daee9b1ebc2d2ee33d0eee1853096ef32a61328ea2cb52cb4385108b5ede65b2",
+      "sha256": "c7ade97ae8e55bc08d157d0a11e5b81156404d8e128b92e53ce71aa04fc3cef4",
+      "start": 29.0,
+      "start_sample": 1392000,
+      "samples": 7680,
+      "duration": 0.16,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 5768,
+      "energy_peak_seconds": 29.120166666666666,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 7680,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -48.415624658354915,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "c4_tiny_paper_floor_v26_24",
+      "kind": "tiny_paper_floor",
+      "file": "cues/c4_tiny_paper_floor_v26_24.wav",
+      "source_file": "inputs/c4_tiny_paper_floor_v26_24.wav",
+      "source_sha256": "fc9aca57f6e68ffc453e2e59887ca701ebd1e31b240ac46c5fc980e12e151a06",
+      "sha256": "b81d134264b4310b772eac59bee10f250483aa60739a7c01569a5cb841e93eb2",
+      "start": 29.81983333333333,
+      "start_sample": 1431352,
+      "samples": 5760,
+      "duration": 0.12,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 1448,
+      "energy_peak_seconds": 29.85,
+      "sync": {
+        "target_seconds": 29.85,
+        "marker": "8 ms RMS energy peak",
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5760,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -27.492555097008147,
+        "rms_dbfs": -50.15543396825207,
+        "clipped_samples": 0
+      },
+      "voice": false,
+      "energy_sync_error_ms": 0.0
+    },
+    {
+      "name": "papier_sol_matiere_v27",
+      "kind": "paper_floor_texture",
+      "file": "cues/papier_sol_matiere_v27.wav",
+      "source_file": "inputs/papier_sol_matiere_v27.wav",
+      "source_sha256": "7235c3c4e0a0db557d4197d01a81945f792febbac8cce675eb157ba3ee6e1c6d",
+      "sha256": "f26e97a3f909cf2e44d0868c77a08a810904e279252b0653e6c1e279d6b229a8",
+      "start": 29.85,
+      "start_sample": 1432800,
+      "samples": 5760,
+      "duration": 0.12,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 2408,
+      "energy_peak_seconds": 29.900166666666667,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 5760,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -48.05472623754028,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "room_air_2_v27",
+      "kind": "room_ambience",
+      "file": "cues/room_air_2_v27.wav",
+      "source_file": "inputs/room_air_2_v27.wav",
+      "source_sha256": "650154b0707d9c9b74c5613387801c29ea8fedeb2292624107e4d774249df159",
+      "sha256": "56a7412b15936143bb664291b3a8151142c0616dd75a98e10dc2bdf2a55f2995",
+      "start": 32.5,
+      "start_sample": 1560000,
+      "samples": 264000,
+      "duration": 5.5,
+      "stem": "ambience",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 206455,
+      "energy_peak_seconds": 36.80114583333334,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 264000,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -42.009531739778005,
+        "rms_dbfs": -54.7582608605872,
+        "clipped_samples": 0
+      },
+      "voice": false
+    },
+    {
+      "name": "dernier_tsss_poele_v27",
+      "kind": "last_pan_sizzle",
+      "file": "cues/dernier_tsss_poele_v27.wav",
+      "source_file": "inputs/dernier_tsss_poele_v27.wav",
+      "source_sha256": "edd1454cab673b22be20f554328cfcbd50f3cea3993919401124d218a70f9a3c",
+      "sha256": "a61dabcb18072d00401eede9fda14b47482caf69e4746c81086c174f816d96c5",
+      "start": 32.6,
+      "start_sample": 1564800,
+      "samples": 16800,
+      "duration": 0.35,
+      "stem": "foley",
+      "fixed_gain_db": 3.5,
+      "energy_peak_sample": 530,
+      "energy_peak_seconds": 32.611041666666665,
+      "sync": {
+        "method": "Existing source cue mapped to the shared scene clock",
+        "audio_marker_is_not_listening": true
+      },
+      "source_edit": {
+        "source_offset_samples": 0,
+        "source_samples": 16800,
+        "tail_trimmed_samples": 0
+      },
+      "metrics": {
+        "peak_dbfs": -24.494953833437272,
+        "rms_dbfs": -43.0137612468862,
+        "clipped_samples": 0
+      },
+      "voice": false
+    }
+  ],
+  "event_count": 58,
+  "vocal_event_count": 0,
+  "source_bank": {
+    "source_original_commit": "45718cec9580e30a5f84ab21a9ae71dcd3a465a5",
+    "source_provenance_sha256": "5b06617caf618a50666ce4262b392c558373adc142e9ecf0bfaa246f6c65d537",
+    "source_mix_sha256": "16294d1642cd220b6eb0cf3c7c8ffa32db70db5105f692e766a4fe62601aff0b"
+  },
+  "source_hashes": {
+    "son.py": "d21afdeab2ae268f58e2148d982456b2ef48c7e8488ace31996a920023dedc41",
+    "input_bank.json": "dc595218d412f87a33c21f33ebe598373544458f4dff9c78c0dd1f3901a46890",
+    "chronologie.json": "ea0fe000552bc5f8ec4de021a2022fea163f8748baa59892537d422d50d004c6"
+  },
+  "mix_sha256": "06946073fb2c39f49d79acf8d1d5a073b1ac07aeb6dd49e127b0b8158abcb18b",
+  "test_final_sha256": "cd2d464053e4d0075f074aef7b8000fc330201060be39e271641fdf8ee56f7cd",
+  "delivery_gain_db": 3.5,
+  "music_relative_gain_db": -1.5,
+  "gain_policy": "One fixed per-category trim plus one constant delivery gain; no scene normalization, no AGC and no whole-track time shift.",
+  "silences": [
+    [
+      32.0,
+      32.5
+    ],
+    [
+      37.25,
+      38.0
+    ]
+  ],
+  "music_cut_seconds": 32.0,
+  "final_note_window": [
+    36.25,
+    36.75
+  ],
+  "motion_sync_status": "measured_new_character",
+  "metrics": {
+    "peak_dbfs": -19.48490488552919,
+    "rms_dbfs": -36.256838385440695,
+    "clipped_samples": 0
+  },
+  "input_loudness": {
+    "input_i": "-32.08",
+    "input_tp": "-19.44",
+    "input_lra": "18.00",
+    "input_thresh": "-42.95"
+  },
+  "limits": "No model listening is available. Waveform timing, reproducibility and levels do not establish perceived naturalness, comfort or comic success.",
+  "stems": [
+    {
+      "stem": "music",
+      "file": "stems/music.wav",
+      "sha256": "350c092c3b85f73b8a746bbc3d75ad70271f20b3210d2ceccf0ccfeb658cfea6",
+      "metrics": {
+        "peak_dbfs": -23.2306740807871,
+        "rms_dbfs": -40.36743275253991,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "stem": "foley",
+      "file": "stems/foley.wav",
+      "sha256": "5250025d0ab72acea461cfbbd96c0765f0d5a9453dd099cb667bf526007a5007",
+      "metrics": {
+        "peak_dbfs": -20.241357429719706,
+        "rms_dbfs": -38.5297498328416,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "stem": "ambience",
+      "file": "stems/ambience.wav",
+      "sha256": "63991e93f4b59b6d8be042604b3e52e71686b121404a2c9d3f6301c25557f220",
+      "metrics": {
+        "peak_dbfs": -40.48176482250891,
+        "rms_dbfs": -54.17123586607647,
+        "clipped_samples": 0
+      }
+    }
+  ],
+  "reproduction": "python sources/son.py; add --sync-motion only after the final animation is frozen",
+  "source_provenance_scope": "source_provenance_v27.json is historical evidence, not an active list of required file paths; input_bank.json is the complete active source bank."
+}

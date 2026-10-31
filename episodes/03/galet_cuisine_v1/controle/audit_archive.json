@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "observed_utc": "2026-10-31T19:49:44.920318+00:00",
+  "archive_sha256": "fc9462d2565f32b788e1854e170b44269a001bc5e372589d59645dbd3946021f",
+  "archive_bytes": 14165801,
+  "crc_passed": true,
+  "manifest_files_verified": 124,
+  "current_repository_payload_identical": true,
+  "extraction": "work/archive_galet_cuisine/cold_gc8fn1dr",
+  "isolated_python_flags": [
+    "-I",
+    "-B"
+  ],
+  "source_modules_loaded": {
+    "galet_archive_fresh_render": "episodes/03/galet_cuisine_v1/sources/render.py",
+    "reference_character": "episodes/03/galet_cuisine_v1/sources/reference_character.py",
+    "art": "episodes/03/galet_cuisine_v1/sources/art.py",
+    "costume": "episodes/03/galet_cuisine_v1/sources/costume.py",
+    "character": "episodes/03/galet_cuisine_v1/sources/character.py",
+    "cooking_actions": "episodes/03/galet_cuisine_v1/sources/cooking_actions.py",
+    "sink_galet": "episodes/03/galet_cuisine_v1/sources/sink_galet.py",
+    "animation": "episodes/03/galet_cuisine_v1/sources/animation.py",
+    "cooking_fx": "episodes/03/galet_cuisine_v1/sources/cooking_fx.py"
+  },
+  "historical_mou_rig_required": false,
+  "cached_render_frames_used": false,
+  "fresh_cairo_frames": [
+    {
+      "time_seconds": 1.0,
+      "svg_sha256": "9abff9c3e1d2dba5ae8d18004ef75b8b34e28d17c26ae3da880f45509edad627",
+      "png_sha256": "c40169ebc94a0b5ad9964627bf81e583bbf572eeb1a698989cf7c9f19979f1bd",
+      "rgba_sha256": "ce6f6c73f5b689fec56a0136c6a885adbbd95cb400bc4f6e0910fee8f58a470a",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "time_seconds": 4.5,
+      "svg_sha256": "f1d49e2fa6c4ec072c0bdbd518ea42feea1384e63d14844bc3db2caf57c58bb8",
+      "png_sha256": "d177c99cebbe948f7af73e8e8ca503c98aa9461dba03b68ecfa9d2c4d7f7066f",
+      "rgba_sha256": "5e3111847c193ab191e372d2070d77d5a2ba3c36da988fc9a93cde9c5b680753",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "time_seconds": 9.4166666667,
+      "svg_sha256": "a94cb4fe9d5c23fa6fde4c570aabe794d05c00516496ac45ac8d2b11aa1adbc7",
+      "png_sha256": "eaee663c0dc4fcb9da73559953e832020c62d2f4d7a99b1a3fed38dfe677feb9",
+      "rgba_sha256": "92c035ba718669eecf26b30cfbb6409e4308f7876990e669576b8332405b2038",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "time_seconds": 26.9,
+      "svg_sha256": "97449131657f45a0bf87fca02746e5cd807309cc290cdc20947da58a0ede0a59",
+      "png_sha256": "fc7d6f2b11099d73634ee6835507d2f5d2c6a646821ef2c6978ae52cf56a624b",
+      "rgba_sha256": "abc61a4973666e2cb05f08703e72a41bca17ca97cfde652a776892da89949618",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "time_seconds": 35.4,
+      "svg_sha256": "1b4ba12e49dcf474e80d2daeb3f32045f02f4dd38a17298497b8f06f3461df6d",
+      "png_sha256": "b2c2d052eeacd6650f04c02e628323095d72ed07c968b4c7d5842e89d309831f",
+      "rgba_sha256": "923a45b4b9042ad60e6d0a440d8ef023fc323ffb24e8595b0bfc952d7ee2d319",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "bitexact_reproduced_cues": 58,
+  "mix_sha256": "06946073fb2c39f49d79acf8d1d5a073b1ac07aeb6dd49e127b0b8158abcb18b",
+  "final_8_seconds_sha256": "cd2d464053e4d0075f074aef7b8000fc330201060be39e271641fdf8ee56f7cd",
+  "mix_format": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "sample_width_bytes": 2,
+    "samples_per_channel": 1824000
+  },
+  "motion_sync_status": "measured_new_character",
+  "voice_count": 0,
+  "exact_silence_intervals": [
+    [
+      32.0,
+      32.5
+    ],
+    [
+      37.25,
+      38.0
+    ]
+  ],
+  "producer_and_archive_unchanged": true,
+  "limits": "ZIP integrity and isolated source reproducibility only; no listening, continuous playback, artistic acceptance or audience success implied."
+}
