@@ -1,5 +1,9 @@
 # MOU
 
+**Retour sur V30 : réalisation jugée fade, comédie et expressions insuffisantes.**
+La version reste consultable, mais ne constitue pas une référence artistique
+approuvée. [Diagnostic et reprise proposée](episodes/03/developpement/reprise_apres_v30/).
+
 **MOU original — V30 : jeu accentué, jazz plus discret, sans cuisson.**
 
 **[Voir la vidéo — 38 secondes](episodes/03/cuisine_v30/MOU_Encore_une_feuille.mp4?raw=true)** ·

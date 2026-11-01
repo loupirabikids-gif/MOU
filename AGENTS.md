@@ -1,5 +1,20 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Retour après V30 : l'utilisatrice juge la vidéo fade et mal réalisée malgré
+une bonne idée. Elle ne ressent pas la comédie, rejette le jeu du visage et
+trouve les soupirs/signaux vocaux peu compréhensibles. V30 n'est donc pas une
+référence artistique approuvée. Ne pas répondre par une nouvelle hausse
+d'amplitude, baisse de volume ou longue liste de contrôles techniques.
+Le diagnostic et la proposition de reprise sont dans
+`episodes/03/developpement/reprise_apres_v30/`. Distinguer la pensée du
+personnage, la pose qui l'exprime et l'effet comique ; une bouche agrandie ou
+un corps aplati ne les prouvent pas. Les vocalisations actuelles sont des
+adaptations de sons de bibliothèque, pas une voix de MOU reconnue ou validée.
+Construire d'abord un très court jeu muet avec des intentions distinctes ;
+le son ne doit pas porter une information que l'image n'explique pas.
+Conserver les films et le dessin original. Ce retour appelle un diagnostic
+artistique ; aucun nouveau film complet n'est fabriqué automatiquement.
+
 Commande du 1 novembre 2026 : à partir du MOU original V28 sans cuisson,
 baisser le jazz pour entendre ses vocalisations, accentuer son jeu comique et
 remettre la phrase d'origine. Nouvelle révision isolée `episodes/03/cuisine_v30/`,
