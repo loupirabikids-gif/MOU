@@ -1,0 +1,110 @@
+{
+  "observed_local_date": "2026-10-30",
+  "timezone": "Africa/Casablanca",
+  "selection": [
+    {
+      "path": "Micro Pack - Paper Cutter/Caress Paper.wav",
+      "file": "work/recorded_paper_research/Micro Pack - Paper Cutter__Caress Paper.wav",
+      "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Caress%20Paper.wav",
+      "status": 200,
+      "sha256": "5a06eb5ebfa842debcb76d64bcfd361edf5b6f24e0c2e1ca41c935edd7b1c74b",
+      "bytes": 200788,
+      "duration_seconds": 1.138005,
+      "codec": "pcm_s16le",
+      "sample_rate": 44100,
+      "channels": 2,
+      "original_filename": "Caress Paper.wav",
+      "origin_repo": "lavenderdotpet/CC0-Public-Domain-Sounds",
+      "origin_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "listening_performed": false,
+      "recording_method_verified": false,
+      "author": "Benjamin / Ben Burnes (Abstraction)",
+      "license": "CC0 1.0 Universal, explicitly named in pack notice",
+      "license_notice": "Micro Pack - Paper Cutter___README.txt",
+      "material_claim": "Paper interaction, as named by author; not identified as paper towel",
+      "candidate_use": "candidate dry paper surface rub; must audition"
+    },
+    {
+      "path": "Micro Pack - Paper Cutter/Floppy Paper.wav",
+      "file": "work/recorded_paper_research/Micro Pack - Paper Cutter__Floppy Paper.wav",
+      "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Floppy%20Paper.wav",
+      "status": 200,
+      "sha256": "b8d09b9d4bb2fae9d05a6249a8cbdd4f1a863fd141a45c123a62e84d56183a68",
+      "bytes": 427716,
+      "duration_seconds": 2.424444,
+      "codec": "pcm_s16le",
+      "sample_rate": 44100,
+      "channels": 2,
+      "original_filename": "Floppy Paper.wav",
+      "origin_repo": "lavenderdotpet/CC0-Public-Domain-Sounds",
+      "origin_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "listening_performed": false,
+      "recording_method_verified": false,
+      "author": "Benjamin / Ben Burnes (Abstraction)",
+      "license": "CC0 1.0 Universal, explicitly named in pack notice",
+      "license_notice": "Micro Pack - Paper Cutter___README.txt",
+      "material_claim": "Paper interaction, as named by author; not identified as paper towel",
+      "candidate_use": "candidate paper movement; must audition"
+    },
+    {
+      "path": "Micro Pack - Paper Cutter/Paper Scraps.wav",
+      "file": "work/recorded_paper_research/Micro Pack - Paper Cutter__Paper Scraps.wav",
+      "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Paper%20Scraps.wav",
+      "status": 200,
+      "sha256": "0d600879d3fc6e7b44b55ac2b0dce5f67725fd6443cadaf259c856728075023c",
+      "bytes": 718216,
+      "duration_seconds": 4.07127,
+      "codec": "pcm_s16le",
+      "sample_rate": 44100,
+      "channels": 2,
+      "original_filename": "Paper Scraps.wav",
+      "origin_repo": "lavenderdotpet/CC0-Public-Domain-Sounds",
+      "origin_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "listening_performed": false,
+      "recording_method_verified": false,
+      "author": "Benjamin / Ben Burnes (Abstraction)",
+      "license": "CC0 1.0 Universal, explicitly named in pack notice",
+      "license_notice": "Micro Pack - Paper Cutter___README.txt",
+      "material_claim": "Paper interaction, as named by author; not identified as paper towel",
+      "candidate_use": "candidate loose paper handling/compression texture; not verified crumple"
+    },
+    {
+      "path": "100-CC0-SFX/paper_02.ogg",
+      "file": "work/recorded_paper_research/100-CC0-SFX__paper_02.ogg",
+      "url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/100-CC0-SFX/paper_02.ogg",
+      "status": 200,
+      "sha256": "4d0c68b367bd3fbdf9817e764908e5524b2cad6536eb0911fc74f6ab4f60c50a",
+      "bytes": 27205,
+      "duration_seconds": 0.547792,
+      "codec": "vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "original_filename": "paper_02.ogg",
+      "origin_repo": "lavenderdotpet/CC0-Public-Domain-Sounds",
+      "origin_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "listening_performed": false,
+      "recording_method_verified": false,
+      "author": "not established from mirror",
+      "license": "CC0 1.0 Universal, mirror root LICENSE",
+      "license_notice": "LICENSE",
+      "material_claim": "generic paper as filename only; motion unverified",
+      "candidate_use": "additional paper texture to audition; not a verified tear/crumple/drop"
+    }
+  ],
+  "limits": [
+    "No audio listening supported in this session.",
+    "Samples are existing CC0 audio-library assets; microphone recording process is not established by consulted pack notices.",
+    "None is identified as kitchen paper towel; exact actions must be judged by listening."
+  ],
+  "other_sources_examined": [
+    {
+      "url": "https://github.com/balandinodidonato/crumpling-paper/tree/7996d88464139ff88e4aa657ca96cb6438d27b31",
+      "finding": "Only README; no audio assets or usable sample licence."
+    },
+    {
+      "url": "https://opengameart.org/content/100-cc0-sfx",
+      "finding": "CONNECT403 from session proxy before page access; no recording-method proof obtained."
+    }
+  ],
+  "rejected_searches": "Bing returned unrelated dictionary/Minecraft/TV results; no metadata claims derived from those results."
+}

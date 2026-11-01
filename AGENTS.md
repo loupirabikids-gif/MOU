@@ -1,5 +1,39 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande du 1 novembre 2026 : à partir du MOU original V28 sans cuisson,
+baisser le jazz pour entendre ses vocalisations, accentuer son jeu comique et
+remettre la phrase d'origine. Nouvelle révision isolée `episodes/03/cuisine_v30/`,
+sans relancer la V29 interrompue. Garder 38 s, les plans, accessoires, rig,
+bras/moufles natifs et cibles existantes. Le jeu du corps et du visage peut
+être accentué : anticipation, pose extrême brève, puis tenue lisible.
+Jazz abaissé de 6 dB constant, deux cues de cuisson toujours exclus. Les
+61 cues restants sont conservés ; seul le gain du jazz change. Les cinq
+vocalisations et autres bruitages gardent leurs niveaux et instants.
+Aucun nouveau son ajouté.
+Phrase supposée d'origine : « Me cooking: touch, wash, wipe… repeat. » ;
+clarification facultative envoyée et toute réponse doit être intégrée.
+Animation possède performance.py/jeu_visage.py ; son possède son.py/audio/ ;
+critique ses rapports. Le coordinateur possède render.py, chronologie,
+sources et exports. Critiquer l'animatique réellement produite puis corriger,
+contrôler et livrer son/muet/sources sur GitHub dans l'autorisation existante.
+Les vérifications numériques ne constituent pas une écoute ou une qualité
+artistique approuvée. Toutes les versions précédentes restent conservées.
+
+V30 fabriquée : critique de l'animatique complète puis du vrai HD. La première
+exportation avait une bouche de choc masquée par le tablier. Correction locale
+dans jeu_visage.py seulement : O légèrement réduit et remonté temporairement ;
+corps, bras et son conservés. La seconde revue HD a levé la réserve sur le MP4
+SHA a130180602e138cb776946730b0a791928cf3ea74bb2cf2441c9c9b6c6ac0521.
+Le rapport QA doit porter sur ce nouvel export et inclure la séparation
+bouche/tablier/yeux sur la transition du choc. Ne pas réutiliser le rapport
+de la première exportation pour affirmer que la version corrigée est contrôlée.
+La phrase remise est « Me cooking: touch, wash, wipe… repeat. » en l'absence
+de réponse différente à la clarification facultative.
+QA actualisée passée sur ce nouvel export : 912 états, 42 HD frais,
+21 images du choc sans recouvrement bouche/tablier/yeux, même vidéo dans
+les exports son et muet. Les rapports du vrai montage et les limites
+d'écoute restent conservés dans le dossier de l'épisode.
+
 Commande courante : l'utilisatrice identifie la cuisson comme piste gênante
 et demande la dernière vidéo avec le MOU original, sans ce son. Reprendre la
 V28 livrée, pas le galet ni la V29 interrompue. Variante isolée dans

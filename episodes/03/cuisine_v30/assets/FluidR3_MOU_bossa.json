@@ -1,0 +1,250 @@
+{
+  "source_sha256": "74594e8f4250680adf590507a306655a299935343583256f3b722c48a1bc1cb0",
+  "subset_sha256": "fa64be8254db1fbe0ffde1121beb14aae96d4fe0f7f485a82ebee1768276936f",
+  "bank_sha256": "fa64be8254db1fbe0ffde1121beb14aae96d4fe0f7f485a82ebee1768276936f",
+  "source_bytes": 148398306,
+  "subset_bytes": 1720132,
+  "presets": [
+    {
+      "name": "Nylon String Guitar",
+      "bank": 0,
+      "program": 24,
+      "preset_zones": 10,
+      "notes": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "name": "Acoustic Bass",
+      "bank": 0,
+      "program": 32,
+      "preset_zones": 10,
+      "notes": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ]
+    }
+  ],
+  "instrument_count": 2,
+  "sample_count": 13,
+  "sample_frames": 859000,
+  "method": "Original PCM and sample loops copied intact; zone key ranges filtered to documented score notes, stereo sample links and all bags/generators/modulators reindexed.",
+  "samples": [
+    {
+      "name": "Nylon E6",
+      "frames": 31472,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Nylon B6",
+      "frames": 27070,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Nylon A5",
+      "frames": 37032,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Nylon E5",
+      "frames": 40064,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Nylon B4",
+      "frames": 62568,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Nylon G4",
+      "frames": 88268,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Nylon D4",
+      "frames": 200096,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Nylon A3",
+      "frames": 141736,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass C5",
+      "frames": 42688,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass F#4",
+      "frames": 36728,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass A#3",
+      "frames": 44768,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass F3",
+      "frames": 53472,
+      "sample_rate": 44100
+    },
+    {
+      "name": "Acoustic Bass C3",
+      "frames": 52440,
+      "sample_rate": 44100
+    }
+  ],
+  "package_verification": {
+    "package_url": "https://deb.debian.org/debian/pool/main/f/fluid-soundfont/fluid-soundfont-gm_3.1-5.3_all.deb",
+    "package_sha256": "6f531493ac4e4d9772fd96b2488ea1790af81c196135fbdd25997da0781fc60e",
+    "package_version": "3.1-5.3",
+    "packages_index_url": "https://deb.debian.org/debian/dists/trixie/main/binary-amd64/Packages.xz",
+    "packages_index_sha256": "7778d3e3f303b7ddb8ce0fe7c8d57473a076c6bf2e8f241f75421d2396352498",
+    "debian_inrelease_signature_verified": true,
+    "keyring": "/usr/share/keyrings/debian-archive-keyring.gpg"
+  },
+  "signature_verification_summary": "Debian Trixie InRelease signature verified by gpg using installed Debian archive keyring; Packages.xz SHA and package SHA matched.",
+  "license": "MIT; see NOTICE_FluidR3_COPYRIGHT.txt. Debian packaging files separately GPL-2+.",
+  "package_verification_origin": "Preserved prior verified FluidR3 package chain from FluidR3_MOU_trio.json; this run reverified the exact full source SF2 SHA256 locally, without new network retrieval.",
+  "reproduction_script": "episodes/03/cuisine_v27/sources/subset_soundfont.py",
+  "render_checks": {
+    "fluidsynth_version": "2.4.4",
+    "reverb": false,
+    "chorus": false,
+    "notes": [
+      {
+        "bank": 0,
+        "program": 24,
+        "midi_note": 48,
+        "velocity": 64,
+        "sample_rate": 48000,
+        "frames": 31200,
+        "array_equal": true,
+        "max_abs_error": 0.0,
+        "peak": 0.050617098808288574
+      },
+      {
+        "bank": 0,
+        "program": 24,
+        "midi_note": 60,
+        "velocity": 64,
+        "sample_rate": 48000,
+        "frames": 31200,
+        "array_equal": true,
+        "max_abs_error": 0.0,
+        "peak": 0.043240390717983246
+      },
+      {
+        "bank": 0,
+        "program": 24,
+        "midi_note": 69,
+        "velocity": 64,
+        "sample_rate": 48000,
+        "frames": 31200,
+        "array_equal": true,
+        "max_abs_error": 0.0,
+        "peak": 0.04162285849452019
+      },
+      {
+        "bank": 0,
+        "program": 24,
+        "midi_note": 77,
+        "velocity": 64,
+        "sample_rate": 48000,
+        "frames": 31200,
+        "array_equal": true,
+        "max_abs_error": 0.0,
+        "peak": 0.03599097207188606
+      },
+      {
+        "bank": 0,
+        "program": 32,
+        "midi_note": 33,
+        "velocity": 64,
+        "sample_rate": 48000,
+        "frames": 31200,
+        "array_equal": true,
+        "max_abs_error": 0.0,
+        "peak": 0.05086362734436989
+      },
+      {
+        "bank": 0,
+        "program": 32,
+        "midi_note": 45,
+        "velocity": 64,
+        "sample_rate": 48000,
+        "frames": 31200,
+        "array_equal": true,
+        "max_abs_error": 0.0,
+        "peak": 0.05087122321128845
+      },
+      {
+        "bank": 0,
+        "program": 32,
+        "midi_note": 57,
+        "velocity": 64,
+        "sample_rate": 48000,
+        "frames": 31200,
+        "array_equal": true,
+        "max_abs_error": 0.0,
+        "peak": 0.05083025246858597
+      }
+    ],
+    "all_identical": true,
+    "scope": "Seven boundary/representative notes, original vs subset, same PCM/loops; not a listening or mix-quality test."
+  }
+}

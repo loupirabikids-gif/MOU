@@ -1,0 +1,9 @@
+{
+  "archive": "MOU_Encore_une_feuille_sources.zip",
+  "sha256": "8460046b9288ab2eff8689d1a6d68b2cb81618741cfa61987a0459d47454738a",
+  "bytes": 23382195,
+  "payload_files": 184,
+  "crc_ok": true,
+  "all_payload_sha256_match": true,
+  "limits": "Archive integrity; cold reproduction is a separate control."
+}

@@ -1,0 +1,11 @@
+{
+  "cold_run_without_v28_inputs": true,
+  "mix_wav_bit_exact": true,
+  "mix_pcm_bit_exact": true,
+  "stems_bit_exact": true,
+  "provenance_bit_exact": true,
+  "mix_sha256": "18448452c527eff7a4ae9ecfbb3c6fc5300697344a9e8b17be8a5140b4733c8e",
+  "source_sha256": "81de411195c7e5c8a50555561cb9c645da28606e791541e7ce74b0d6f7647fe7",
+  "input_bank_sha256": "7214eef587427b74cd584514235d8ba8dfe34a8640c2445bc0f822fe9fdbc47a",
+  "limits": "Autonomous numerical reproduction only, no listening."
+}

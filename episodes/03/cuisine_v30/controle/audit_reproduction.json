@@ -1,0 +1,171 @@
+{
+  "check": "Cold visual-source reproduction, isolated Python processes",
+  "scope": "Five representative exact24fps SVG and directCairoSVG540x960 PNG samples; not a full render, audio test or archive integrity test",
+  "passed": true,
+  "samples": [
+    {
+      "frame": 24,
+      "time_s": 1.0,
+      "svg_sha256": "a013bd807604b59f31ac9f80527dc5a3ac7cb28668eae4a335bafadc1767814d",
+      "png540_sha256": "8a4a1fe3da7f371bfa9a05c7d3eab0acdae5f034b003e4df3e75640c3915f9d7"
+    },
+    {
+      "frame": 74,
+      "time_s": 3.0833333333333335,
+      "svg_sha256": "661d22db419a770e020100bff5e440191ea8485c18317096718df4bf0b35f74f",
+      "png540_sha256": "7817dd84aa0dd07eeb99f550dd04bcbf8ee0afd11311ffbedcf430334347f80d"
+    },
+    {
+      "frame": 434,
+      "time_s": 18.083333333333332,
+      "svg_sha256": "805edea04d3ab4c907f5aace91ffe2c8c0f0355cb8bc7553f403ede20d27bbce",
+      "png540_sha256": "e084eef520884247b54cd463ea97d16c76c767f1c67874ac46301c303696b1b2"
+    },
+    {
+      "frame": 765,
+      "time_s": 31.875,
+      "svg_sha256": "9d85ec4f04c09be351864f458a6b2be72186339385e57305c8df51f1139e3b1b",
+      "png540_sha256": "7bb095bb9740e65d9232d808f1d66e97d05b81382d2b158073deba6bb74e5063"
+    },
+    {
+      "frame": 844,
+      "time_s": 35.166666666666664,
+      "svg_sha256": "0ec536852f0d846b5165bbf7f20cd3ec431f9b2feef29568e551d1f41ab0a117",
+      "png540_sha256": "541db59f3fedbdfd829c0256fa58bcccba836ea6a34f31860aa951f543fb61c8"
+    }
+  ],
+  "svg_bit_exact": true,
+  "png540_bit_exact": true,
+  "source_sha256": {
+    "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "episodes/03/test_remuer/sources/animation.py": "d6883d83cbd669ea08bf85fe5d40182f027c7ab28d15b9d7a2a011d0bb98f5f4",
+    "episodes/03/test_remuer/controle/audit_structure.json": "f6e2891ca79dc0a64b73ccae16f132d5c109673dc5a35a95bf062d44647b86ec",
+    "episodes/03/film/sources/animation.py": "8872db86fafe7edcd7aa392232909607b10d84e247b17f67fcee21a435263f75",
+    "episodes/03/chronologie.json": "b472a6c4bbba36161f3e4dbe4fa78bdb971008a1b71436db534158d10de8fab1",
+    "episodes/03/cuisine_v30/chronologie.json": "d9043ff17d5aaa418940d1f0eb999ed51ab266c0c22e7dcc68bfcc9a5c39ff2f",
+    "episodes/03/cuisine_v30/chronologie_reference_v25.json": "e8586365c28bc84ca6cf2d6427e22ecec5debe9f7df57c10a310534856584d99",
+    "episodes/03/cuisine_v30/sources/animation.py": "f7761df3488324b38d52cea09d7ce9bd6510cc827595f728b2f98b544050c9d2",
+    "episodes/03/cuisine_v30/sources/art.py": "481475ec22011957c341726e616b665841af723450cac6028411153349f2f924",
+    "episodes/03/cuisine_v30/sources/render.py": "8cfaacafacb90c648b06095ded75543d425a49ccb7b9b84f161a242e5ce8b41b",
+    "episodes/03/cuisine_v30/sources/sink.py": "5a45bc7b0c5d8c2e9d2e7b52b2505d8ef1830a25dacf5a65f37f5416eb2675f8",
+    "episodes/03/cuisine_v30/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "episodes/03/cuisine_v30/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "episodes/03/cuisine_v30/sources/acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "episodes/03/cuisine_v30/sources/poses.json": "ba81b9a395f650f4d21e51e2052af39933ff19dba69402d2f8aea48f42170db7",
+    "episodes/03/cuisine_v30/sources/jeu_visage.py": "d728a0bc3c726f7e3da95e7be7c463d12568768fe87fbfb42bb8f0d5b0350ac4",
+    "episodes/03/cuisine_v30/sources/visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "episodes/03/cuisine_v30/sources/expressions.json": "20cb51b6819bb6191bb19f847fc1e1db6a125b27958bf1fdb44d99155232157a",
+    "episodes/03/cuisine_v30/sources/performance.py": "c8d5b4a376b36e57a04b0137f5b547623ddd89a9622dace87182a17ec16601d3",
+    "episodes/03/cuisine_v30/sources/cooking_fx.py": "f3e522fb3a953dcadc647b1f6fb5711029d2dbdc0d23923463c17c2dffbedc27",
+    "episodes/03/cuisine_v30/sources/reference_animation.py": "b079195b7599a5a21042370d38480a780329b2378af9f0eeb536d97fc854e917",
+    "episodes/03/cuisine_v30/sources/reference_performance.py": "6a3e64adfce3445ed9acd78721c5dda813325d9f7ef7865ab4156971855c281b",
+    "episodes/03/cuisine_v30/sources/reference_jeu_visage.py": "2725f1dc7e4be5eb8bea7565b03b2cd23c723a4019ccfb3270b8d47f3970ef07",
+    "episodes/03/cuisine_v30/sources/reference_acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "episodes/03/cuisine_v30/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "episodes/03/decor/MOU_cuisine_decor.svg": "7e5292c066a8bdafca4ae42586fbf89ca62f6a45dcbca468bf9b748f19da2d49"
+  },
+  "all_visual_sources_preserved": true,
+  "copied_single_files": [
+    "mou_rig.py",
+    "episodes/03/test_remuer/sources/animation.py",
+    "episodes/03/test_remuer/controle/audit_structure.json",
+    "episodes/03/film/sources/animation.py",
+    "episodes/03/chronologie.json",
+    "episodes/03/cuisine_v30/chronologie.json",
+    "episodes/03/cuisine_v30/chronologie_reference_v25.json"
+  ],
+  "copied_directories": [
+    "fonts",
+    "episodes/03/decor",
+    "episodes/03/cuisine_v30/sources",
+    "episodes/03/cuisine_v30/assets"
+  ],
+  "old_episode_directories_absent": [
+    "cuisine_v28",
+    "cuisine_v29",
+    "galet_cuisine_v1"
+  ],
+  "isolated_python": true,
+  "no_external_production_module_imports": true,
+  "cold_runtime_paths_relative": {
+    "root": ".",
+    "episode": "episodes/03/cuisine_v30",
+    "font": "episodes/03/cuisine_v30/assets/Nunito-wght.ttf",
+    "decor": "episodes/03/decor",
+    "rig": "mou_rig.py"
+  },
+  "loaded_cold_modules": [
+    {
+      "module": "art",
+      "file": "episodes/03/cuisine_v30/sources/art.py"
+    },
+    {
+      "module": "cold_visual_renderer",
+      "file": "episodes/03/cuisine_v30/sources/render.py"
+    },
+    {
+      "module": "jeu_visage",
+      "file": "episodes/03/cuisine_v30/sources/jeu_visage.py"
+    },
+    {
+      "module": "mitten",
+      "file": "episodes/03/cuisine_v30/sources/mitten.py"
+    },
+    {
+      "module": "mou_cooking_fx_v26",
+      "file": "episodes/03/cuisine_v30/sources/cooking_fx.py"
+    },
+    {
+      "module": "mou_costume_chef_v20",
+      "file": "episodes/03/cuisine_v30/sources/costume.py"
+    },
+    {
+      "module": "mou_face_library_v26",
+      "file": "episodes/03/cuisine_v30/sources/visage.py"
+    },
+    {
+      "module": "mou_jeu_visage_v23",
+      "file": "episodes/03/cuisine_v30/sources/reference_jeu_visage.py"
+    },
+    {
+      "module": "mou_lavabo_v14",
+      "file": "episodes/03/cuisine_v30/sources/sink.py"
+    },
+    {
+      "module": "mou_performance_v25",
+      "file": "episodes/03/cuisine_v30/sources/reference_performance.py"
+    },
+    {
+      "module": "mou_rig",
+      "file": "mou_rig.py"
+    },
+    {
+      "module": "mou_v26_reference_animation",
+      "file": "episodes/03/cuisine_v30/sources/reference_animation.py"
+    },
+    {
+      "module": "mou_visage_library_v23",
+      "file": "episodes/03/cuisine_v30/sources/visage.py"
+    },
+    {
+      "module": "papier_animation",
+      "file": "episodes/03/cuisine_v30/sources/animation.py"
+    },
+    {
+      "module": "papier_art",
+      "file": "episodes/03/cuisine_v30/sources/art.py"
+    },
+    {
+      "module": "performance",
+      "file": "episodes/03/cuisine_v30/sources/performance.py"
+    },
+    {
+      "module": "reference_performance",
+      "file": "episodes/03/cuisine_v30/sources/reference_performance.py"
+    }
+  ],
+  "caption": "Me cooking: touch, wash, wipe… repeat.",
+  "limits": "Only reproducibility of sampled source output. No listening, artistic-quality judgement, public response or full ZIP validation.",
+  "revision_note": "Repeated the same five isolated SVG/PNG comparisons after updating only jeu_visage.py in the cold copy for the visible shock-mouth correction.",
+  "corrected_visual_producer_sha256": "d728a0bc3c726f7e3da95e7be7c463d12568768fe87fbfb42bb8f0d5b0350ac4"
+}
