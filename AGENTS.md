@@ -1,5 +1,38 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande courante du 2 novembre 2026 « GO pour cela » : réaliser le prototype
+Blender proposé, avec trois poses et un essai muet de cinq secondes, en
+empruntant à doodle-anim les mécanismes utiles de découpage, attentes et
+enchaînement. Dossier `personnages/MOU_blender_v1/`. Garder MOU original,
+sa couleur, ses deux yeux, ses bras/moufles continus et le style 2D. La scène
+doit contenir des éléments vectoriels de personnage éditables et de vraies
+clés Blender ; un film pré-rendu sur un plan ne constitue pas le transfert
+de rig demandé. Les décors fixes et le lettrage peuvent rester des images.
+Traiter explicitement les masques SVG pour éviter les défauts des essais
+d'import antérieurs. Préserver tous les modèles et films existants. Revoir
+des images Blender réelles avant l'animation complète ; livrer .blend,
+MP4 vertical muet, trois poses et sources sur GitHub selon l'accord existant.
+Ne pas prétendre à une animation professionnelle ou une comédie validée à
+partir du seul transfert technique. Aucun service ou outil payant.
+
+Prototype construit dans `personnages/MOU_blender_v1/` : courbes 2D, clés de
+forme et poids natifs Blender, clips résolus en géométrie, prises suivant les
+poids des mains, ressources emballées. Trois poses revues avant rendu ;
+MP4 muet 5 s, 1080 × 1920, 24 ips. La critique du premier MP4 a détecté des
+défauts de morphing entre poses malgré les contrôles techniques passés :
+bouche 77, bras 92–98, paume 114. Les dessins SVG natifs sont propres ; leurs
+états 76–79, 92–98, 114–115 sont ajoutés (51 états), puis le MP4 est revu.
+Les poses fixes et les drivers valides ne prouvent pas une fidélité continue.
+Les défauts observés sont corrigés dans le dernier MP4 2e29234e…ecf48 ;
+les transparences du lavabo utilisent BLENDED pour supprimer la trame.
+QA finale : 19 contrôles passés, vingt comparaisons locales de contours et
+huit images décodées concordantes ; 22 références intactes. Régénération
+depuis ZIP extrait : 61 ressources aux empreintes identiques. La critique
+ne relève plus de réserve matérielle bloquante sur les passages revus.
+Le gag reste celui de l'étude SVG pour comparer l'outil ; aucun gain comique
+n'est déduit de ces contrôles. Voir les critiques et CONTROLE.md du prototype.
+Le rig permet de retoucher des poses ; il n'a pas encore d'IK.
+
 Commande du 2 novembre 2026 « Vas y » : fabriquer les trois attitudes et
 l'essai MUET de cinq secondes proposés après le rejet de V30. Dossier isolé
 `episodes/03/etude_grain_v1/`, MOU original avec ses bras/moufles natifs,

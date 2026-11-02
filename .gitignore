@@ -47,5 +47,7 @@ episodes/03/cuisine_v30/cache/
 episodes/03/etude_grain_v1/frames/
 episodes/03/etude_grain_v1/cache/
 personnages/*/frames/
+personnages/MOU_blender_v1/*.blend1
+personnages/MOU_blender_v1/*.blend2
 episodes/03/galet_cuisine_v1/frames/
 episodes/03/galet_cuisine_v1/cache/

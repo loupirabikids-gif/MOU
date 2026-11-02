@@ -1,0 +1,7 @@
+{
+  "tested": "51-state source ZIP extracted into a separate directory; prepare_assets.py --vectorize --skip-film-check",
+  "files_compared": 61,
+  "all_hashes_identical": true,
+  "mismatches": [],
+  "omitted_from_zip": "Two old reference MP4s; original Python source hashes remain checked."
+}

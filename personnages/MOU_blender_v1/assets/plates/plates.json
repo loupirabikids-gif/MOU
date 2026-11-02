@@ -1,0 +1,38 @@
+[
+  {
+    "path": "assets/plates/wide_background.png",
+    "world": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "shot": "wide",
+    "role": "back",
+    "order": -1000
+  },
+  {
+    "path": "assets/plates/wide_foreground.png",
+    "world": [
+      0,
+      0,
+      1080,
+      2400
+    ],
+    "shot": "wide",
+    "role": "front",
+    "order": 500
+  },
+  {
+    "path": "assets/plates/sink_background.png",
+    "world": [
+      0,
+      925,
+      270,
+      480
+    ],
+    "shot": "sink",
+    "role": "back",
+    "order": -1000
+  }
+]
