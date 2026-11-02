@@ -1,0 +1,6 @@
+# Raw search pages and JS challenges stay local; request logs are versioned.
+etudes/preuves/*.html
+etudes/preuves/*.txt
+etudes/preuves/*.xml
+coordination/*.txt
+work/

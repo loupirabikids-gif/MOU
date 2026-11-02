@@ -1,0 +1,63 @@
+{
+  "scope": "repérage_partiel_sans_echantillon_recent",
+  "observed_local": "2026-11-02T15:40:20.330411+01:00",
+  "timezone": "Africa/Casablanca",
+  "target_window": {
+    "from": "2026-09-03",
+    "through": "2026-11-02"
+  },
+  "primary_video_pages_read": 0,
+  "videos_viewed": 0,
+  "thumbnails_examined": 0,
+  "audio_heard": false,
+  "qualified_recent_shorts": [],
+  "ordinary_chronological_neighbors": [],
+  "candidate_channels": [
+    {
+      "name": "The Land of Boggs",
+      "candidate_url": "https://www.youtube.com/@TheLandofBoggs/shorts",
+      "official_reference_previously_listed_in_project": "https://www.buzzfeedanimationlab.com/the-land-of-boggs",
+      "fresh_primary_verification": false,
+      "publication_date": null,
+      "duration_seconds": null,
+      "views": null,
+      "likes": null,
+      "subscribers": null
+    },
+    {
+      "name": "Nutshell Animations",
+      "indexed_channel_url": "https://www.youtube.com/channel/UChFs0d8syPIK6x8q4C6BrJw",
+      "indexed_title": "Nutshell Animations - YouTube",
+      "raw_index_excerpt": "To celebrate 1 year of uploading animations, I decided to pack all my Mega Nuts into 1 ULTRA NUT! Enjoy this hour long compilation of all my animations!",
+      "search_source": "https://www.bing.com/search?q=%22Nutshell%20Animations%22%20%22YouTube%22&format=rss",
+      "search_response_sha256": "13f1cd040dd085af59bfb41030559ba1357669c0fbd9d76ea4cbd10fc9568092",
+      "observed_local": "2026-11-02T15:39:10.070676+01:00",
+      "rss_pubdate_is_not_video_publication": "Sun, 01 Nov 2026 16:13:00 GMT",
+      "fresh_primary_verification": false,
+      "publication_date": null,
+      "duration_seconds": null,
+      "views": null,
+      "likes": null,
+      "subscribers": null
+    }
+  ],
+  "access_failures": [
+    {
+      "url": "https://www.youtube.com/@TheLandofBoggs/shorts",
+      "observed_local": "2026-11-02T15:38:18.015018+01:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.youtube.com/@NutshellAnimations/shorts",
+      "observed_local": "2026-11-02T15:38:18.015562+01:00",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "search_limits": [
+    "Bing HTML and RSS mostly return unrelated dictionary or off-topic results despite HTTP200.",
+    "Google HTTP200 serves a JavaScript/redirect page, without readable search results.",
+    "The lone Nutshell channel index excerpt concerns an annual compilation, with no qualified video metadata.",
+    "No chronological neighbor comparison is possible without dated video entries."
+  ],
+  "interpretation": "No current ranking, growth, audience-performance comparison or design-performance causal conclusion is supported."
+}

@@ -1,4 +1,22 @@
-# MOU — équipe de création de courts épisodes humoristiques
+# Courts épisodes humoristiques — équipe et règles
+
+Dernière instruction : l'utilisatrice rejette le personnage compact et demande
+d'oublier MOU complètement, puis de proposer un nouveau personnage à partir
+d'études et de références actuelles. MOU et Galet sont désormais des archives,
+pas la référence active. Ne pas réutiliser leur silhouette, nom, palette citron,
+rig ou scénario comme nouveau concept. Aucun ancien fichier n'est supprimé.
+Mission actuelle : recherche et proposition de personnage, pas nouvelle vidéo.
+Dossier `recherche/2026-11-02_nouveau_personnage/`. La collecte récente est
+limitée par des refus réseau : aucun échantillon de Shorts récents ou compteur
+actuel vérifié ; aucun texte scientifique primaire relu. Les index trouvés
+servent à repérer des sources, pas à prouver des performances. Distinguer
+références bibliographiques, observations et hypothèses créatives ; ne jamais
+prétendre qu'une espèce ou un dessin est validé par les succès actuels.
+Une piste de raton laveur citadin inventif/impatient est proposée et illustrée
+en croquis original libre ; ce n'est pas encore un choix validé ni un rig animé.
+Un visage chaleureux et éveillé est préférable comme pose par défaut ; la
+fatigue permanente ne doit pas remplacer une personnalité. Les personnages
+tiers sont des références, jamais des dessins ou gags à recopier.
 
 Commande actuelle « d'acc » après la remise à zéro du plan de production :
 fabriquer l'essai MUET de dix secondes proposé, puis juger le jeu avant les

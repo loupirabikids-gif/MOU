@@ -1,0 +1,35 @@
+[
+  {
+    "key": "curve_exact",
+    "url": "https://www.bing.com/search?q=%22Humans%20prefer%20curved%20visual%20objects%22",
+    "status": 200,
+    "bytes": 120158
+  },
+  {
+    "key": "baby_exact",
+    "url": "https://www.bing.com/search?q=%22Baby%20schema%20in%20infant%20faces%22",
+    "status": 200,
+    "bytes": 120357
+  },
+  {
+    "key": "animacy_exact",
+    "url": "https://www.bing.com/search?q=%22The%20tipping%20point%20of%20animacy%22",
+    "status": 200,
+    "bytes": 117087
+  },
+  {
+    "key": "official_recommend",
+    "url": "https://www.youtube.com/howyoutubeworks/our-commitments/recommending-content/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "key": "official_creation",
+    "url": "https://www.youtube.com/creators/how-things-work/content-creation-strategy/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "key": "baby_primary",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3260535/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

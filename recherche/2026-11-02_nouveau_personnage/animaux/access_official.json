@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://pusheen.com/pages/characters",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "observed_at": "2026-11-02T15:40:12.450430+01:00"
+  },
+  {
+    "url": "https://simonscat.com/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "observed_at": "2026-11-02T15:40:12.450430+01:00"
+  },
+  {
+    "url": "https://www.buzzfeedanimationlab.com/chikn-nuggit",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "observed_at": "2026-11-02T15:40:12.450430+01:00"
+  }
+]

@@ -1,0 +1,277 @@
+[
+  {
+    "key": "nature_id",
+    "url": "https://www.bing.com/search?format=rss&q=s41598-022-15922-z",
+    "items": [
+      {
+        "title": "Standard Logic App Setup using Terraform | Microsoft Community Hub",
+        "link": "https://techcommunity.microsoft.com/blog/azureinfrastructureblog/standard-logic-app-setup-using-terraform/4404038",
+        "description": "This Terraform configuration sets up the necessary Azure infrastructure to host Logic App Standard workflows that are stored in an Azure File Share and configured dynamically using JSON templates."
+      },
+      {
+        "title": "Deploying Standard Logic App to Storage Account behind Firewall using ...",
+        "link": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/deploying-standard-logic-app-to-storage-account-behind-firewall-using-service-or/2626286",
+        "description": "Standard LogicApp is powered by new Azure single-tenant LogicApp runtime. Single-tenant Logic App&nbsp;offering runs as an extension on top of Azure Function..."
+      },
+      {
+        "title": "Configure PostgreSQL Connection in Logic Apps (Standard) with JDBC ...",
+        "link": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/configure-postgresql-connection-in-logic-apps-standard-with-jdbc-call-function-w/3784988",
+        "description": "Many use relational databases, the JDBC Connector for Logic Apps (Standard) allows to establish a connection with most relational databases and perform..."
+      },
+      {
+        "title": "Sign in to your account - techcommunity.microsoft.com",
+        "link": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/retention-in-logic-apps-standard---including-the-retention-of-storage-container-/3662627",
+        "description": "Retention in Logic Apps Standard - Including Storage Container Logs"
+      },
+      {
+        "title": "Azure Integration Services Blog | Microsoft Community Hub",
+        "link": "https://techcommunity.microsoft.com/category/azure/blog/integrationsonazureblog",
+        "description": "Azure API Management v2: Restoring Predictable Outbound IP Addresses with NAT Gateway Introduction A key consideration when deploying Azure API Management Standard v2 or Premium v2 is that outbound networking behavior differs from the classic tiers. This applies both when customers ..."
+      },
+      {
+        "title": "Run Logic App Anywhere | Microsoft Community Hub",
+        "link": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/run-logic-app-anywhere/3118351",
+        "description": "&nbsp; Develop, Build and Run Logic App Anywhere -&nbsp;any Cloud, On-Prem or any Infrastructure &nbsp;"
+      },
+      {
+        "title": "Upgrading a basic public IP address to Standard SKU for Azure Express ...",
+        "link": "https://techcommunity.microsoft.com/discussions/azure/upgrading-a-basic-public-ip-address-to-standard-sku-for-azure-express-route-virt/4204684",
+        "description": "Hi Khoon, which option you end up going with to upgrade public IP with basic SKU to standard for express route Virtual network Gateway? I am in similar situation."
+      },
+      {
+        "title": "Multiple secondaries for Azure SQL Database failover groups (Public ...",
+        "link": "https://techcommunity.microsoft.com/blog/azuredbsupport/multiple-secondaries-for-azure-sql-database-failover-groups-public-preview/4491006",
+        "description": "Multiple secondaries for Azure SQL Database failover groups is a meaningful step forward for customers running globally distributed applications. It combines the operational simplicity of failover groups\u2014stable listener endpoints and coordinated failover\u2014with added architectural freedom: more DR targets, more read scale-out options, and ..."
+      },
+      {
+        "title": "Inbound private endpoint for Standard v2 tier of Azure API Management ...",
+        "link": "https://techcommunity.microsoft.com/blog/integrationsonazureblog/inbound-private-endpoint-for-standard-v2-tier-of-azure-api-management/4358975",
+        "description": "Standard v2 was announced in general availability on April 1st, 2024. Customers can now configure an inbound private endpoint (preview) for your API..."
+      },
+      {
+        "title": "API Management service secure configuration for Standard v2 SKU ...",
+        "link": "https://techcommunity.microsoft.com/discussions/azure/api-management-service-secure-configuration-for-standard-v2-sku/4336449",
+        "description": "While the Standard v2 SKU lacks support for completely disabling public access to the management API, you can still secure the service by: Enabling VNet integration."
+      }
+    ]
+  },
+  {
+    "key": "power_kawaii",
+    "url": "https://www.bing.com/search?format=rss&q=e46362",
+    "items": [
+      {
+        "title": "Microsoft \u2013 AI, Cloud, Productivity, Computing, Gaming & Apps",
+        "link": "https://www.microsoft.com/en-us",
+        "description": "Explore Microsoft products and services and support for your home or business. Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more."
+      },
+      {
+        "title": "Microsoft account | Sign In or Create Your Account Today \u2013 Microsoft",
+        "link": "https://account.microsoft.com/account",
+        "description": "Get access to free online versions of Outlook, Word, Excel, and PowerPoint."
+      },
+      {
+        "title": "Sign in to your account",
+        "link": "https://myaccount.microsoft.com/",
+        "description": "Access and manage your Microsoft account, subscriptions, and settings all in one place."
+      },
+      {
+        "title": "Sign in - account.microsoft.com",
+        "link": "https://account.microsoft.com/account-checkup",
+        "description": "Sign in to check and manage your Microsoft account settings with the Account Checkup Wizard."
+      },
+      {
+        "title": "My Account",
+        "link": "https://myaccount.microsoft.com/login",
+        "description": "Sign in to manage your Microsoft account and access free online services like Outlook, Word, Excel, and PowerPoint securely from any device."
+      },
+      {
+        "title": "FOLLOW - microsoft.com",
+        "link": "https://www.microsoft.com/en-us/windows/",
+        "description": "Power your possibilities with Windows PCs for work, creativity, gaming, and AI. Explore powerful features, built-in security, and more ways to do what you love."
+      },
+      {
+        "title": "Microsoft - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Microsoft",
+        "description": "Microsoft Corporation is an American multinational technology conglomerate headquartered in Redmond, Washington. The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing, artificial intelligence and video gaming among others."
+      },
+      {
+        "title": "myapps.microsoft.com - Sign in to your account",
+        "link": "https://myapps.microsoft.com/index.html",
+        "description": "Access and manage your Microsoft applications securely with My Apps."
+      },
+      {
+        "title": "Microsoft 365 - Sign into Copilot",
+        "link": "https://m365.cloud.microsoft/?origindomain=Office",
+        "description": "Microsoft 365 includes Word, Excel, PowerPoint, Outlook, Teams, and OneDrive, with Microsoft Copilot built in to help you create, communicate, and summarize information. Formerly Office 365."
+      },
+      {
+        "title": "Outlook",
+        "link": "https://outlook.office.com/mail/inbox",
+        "description": "Sign in to Outlook to access and manage your email efficiently."
+      }
+    ]
+  },
+  {
+    "key": "animacy",
+    "url": "https://www.bing.com/search?format=rss&q=animacy",
+    "items": [
+      {
+        "title": "The Officer Tatum - YouTube",
+        "link": "https://www.youtube.com/channel/UCaYw_yJ_YLPEv6zR2c7hgHA",
+        "description": "The official YouTube Channel of Brandon Tatum!Bringing the smoke where it\u2019s needed most. Former Police Officer, Man of God, Speaker, Entrepreneur, @turningpo..."
+      },
+      {
+        "title": "The Officer Tatum's New Videos - YouTube",
+        "link": "https://www.youtube.com/playlist?list=PLi3xo3TNHxDOfWpIN0gTetSjl7EUaCkTf",
+        "description": "The Officer Tatum's New Videos by The Officer Tatum \u2022 Playlist \u2022 3,475 videos \u2022 4,365,581 views Daily Videos Posted by The Officer TatumDaily Videos Posted by The Officer Tatum..."
+      },
+      {
+        "title": "The Officer Tatum Show - YouTube",
+        "link": "https://www.youtube.com/playlist?list=PLi3xo3TNHxDMJd5qnls97m6csOnuiqgXv",
+        "description": "Watch all episodes of the Officer Tatum Show in this playlist!"
+      },
+      {
+        "title": "The Officer Tatum's Top Recent Uploads - YouTube",
+        "link": "https://www.youtube.com/playlist?list=PLi3xo3TNHxDNQRIGSNLVIMJeWNKA8XR7w",
+        "description": "Officer Kim Potter WILL BE FOUND NOT GUILTY? Why they ALWAYS crying?"
+      },
+      {
+        "title": "Officer Tatum - YouTube",
+        "link": "https://www.youtube.com/channel/UCsJwit-WclyK3Ifv3gaNi_w",
+        "description": "\u2022 5 subscribers \u2022 12 videos Host of \u201cThe Officer Tatum Show\u201dPoint USA Contributor \ud83c\uddfa\ud83c\uddf8 ...more Host of \u201cThe Officer Tatum Show\u201dPoint USA Contributor \ud83c\uddfa\ud83c\uddf8 ...more ...more 3:07"
+      },
+      {
+        "title": "Female Cop BEGS FOR HER LIFE After Suspect STEALS Her Firearm - YouTube",
+        "link": "https://www.youtube.com/watch?v=658SltzNzX0",
+        "description": "Female Cop BEGS FOR HER LIFE After Suspect STEALS Her Firearm The Officer Tatum 3.85M subscribers 9K Share"
+      },
+      {
+        "title": "Home - The Officer Tatum",
+        "link": "https://theofficertatum.com/",
+        "description": "As a former police officer turned online mega influencer, Brandon Tatum brings a unique blend of bold straight-talk and philosophical depth to the public sphere. As the co-founder of BLEXIT with Candace Owens, Brandon brings profound insights forged on the frontlines of the culture wars."
+      },
+      {
+        "title": "The Officer Tatum - YouTube Music",
+        "link": "https://music.youtube.com/channel/UCaYw_yJ_YLPEv6zR2c7hgHA",
+        "description": "Videos Spencer Pratt BREAKS INTERNET With NEW Bel Air AD The Officer Tatum \u2022 434K views"
+      },
+      {
+        "title": "Brandon Tatum - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Brandon_Tatum",
+        "description": "Brandon Orlando Tatum (born April 22, 1987), also known as The Officer Tatum, is an American YouTuber, conservative political commentator, author, radio personality, former policeman, and former college football player."
+      },
+      {
+        "title": "Latest Episodes - The Officer Tatum",
+        "link": "https://theofficertatum.com/latest-episodes/",
+        "description": "Follow Us The Officer Tatum Inspires. Educates. Empowers Book Brandon \u00a9 Copyright The Officer Tatum 2026."
+      }
+    ]
+  },
+  {
+    "key": "curvature",
+    "url": "https://www.bing.com/search?format=rss&q=curvature",
+    "items": [
+      {
+        "title": "Outlook - Use the OWA login for email - Microsoft Office",
+        "link": "https://www.microsoft.com/en/microsoft-365/outlook/web-email-login-for-outlook",
+        "description": "With your Outlook login and Outlook on the web (OWA), you can send email, check your calendar and more from \u2013 all your go-to devices."
+      },
+      {
+        "title": "Outlook",
+        "link": "https://outlook.office.com/mail/login",
+        "description": "Access your mailbox, manage emails and organize your communication seamlessly by signing in to your account."
+      },
+      {
+        "title": "How to determine if an email from Microsoft support is genuine",
+        "link": "https://learn.microsoft.com/en-us/troubleshoot/azure/general/email-domains-support-agent",
+        "description": "Explains how to determine if an email claiming to be from Microsoft support is genuine or a phishing scam."
+      },
+      {
+        "title": "Sign in to your account",
+        "link": "https://myaccount.microsoft.com/mail",
+        "description": "Can\u2019t access your account? Terms of use Privacy & cookies ..."
+      },
+      {
+        "title": "Outlook Log In | Microsoft 365",
+        "link": "https://www.microsoft.com/en-us/microsoft-365/outlook/log-in",
+        "description": "Sign in to Outlook with Microsoft 365 to access your email, calendar, and more. Download the app or log in online for enhanced organization and productivity."
+      },
+      {
+        "title": "Microsoft account | Sign In or Create Your Account Today \u2013 Microsoft",
+        "link": "https://account.microsoft.com/account",
+        "description": "Access all your Microsoft apps, services, and games with one account. Whatever you\u2019re doing, wherever you are, just go. Your account profile and preferences sync across all your devices. Wherever you are, it\u2019s all here."
+      },
+      {
+        "title": "Sign in to your account",
+        "link": "https://myaccount.microsoft.com/",
+        "description": "Access and manage your Microsoft account, subscriptions, and settings all in one place."
+      },
+      {
+        "title": "Sign in to Microsoft Entra",
+        "link": "https://entra.microsoft.com/auth/login/",
+        "description": "Sign in to Microsoft Entra"
+      },
+      {
+        "title": "myapps.microsoft.com - Sign in to your account",
+        "link": "https://myapps.microsoft.com/index.html",
+        "description": "Access and manage your Microsoft applications securely with My Apps."
+      }
+    ]
+  },
+  {
+    "key": "anthropomorphism",
+    "url": "https://www.bing.com/search?format=rss&q=anthropomorphism",
+    "items": [
+      {
+        "title": "Anthropomorphism - Wikipedia",
+        "link": "https://en.wikipedia.org/wiki/Anthropomorphism",
+        "description": "In religion and mythology, anthropomorphism is the perception of a divine being or beings in human form, or the recognition of human qualities in these beings. Ancient mythologies frequently represented the divine as deities with human forms and qualities."
+      },
+      {
+        "title": "Anthropomorphism | Definition, Examples & History | Britannica",
+        "link": "https://www.britannica.com/topic/anthropomorphism",
+        "description": "Anthropomorphism, the interpretation of nonhuman things or events in terms of human characteristics, as when one senses malice in a computer or hears human voices in the wind."
+      },
+      {
+        "title": "ANTHROPOMORPHISM Definition & Meaning - Merriam-Webster",
+        "link": "https://www.merriam-webster.com/dictionary/anthropomorphism",
+        "description": "The meaning of ANTHROPOMORPHISM is an interpretation of what is not human or personal in terms of human or personal characteristics : humanization. How to use anthropomorphism in a sentence."
+      },
+      {
+        "title": "Anthropomorphism - Psychology Today",
+        "link": "https://www.psychologytoday.com/us/basics/anthropomorphism",
+        "description": "Anthropomorphism is the attribution of human characteristics or behavior to non-human entities, including animals."
+      },
+      {
+        "title": "Anthropomorphism - Definition and Examples - Literary Devices",
+        "link": "https://literarydevices.net/anthropomorphism/",
+        "description": "Anthropomorphism is a literary device that can be defined as a technique in which a writer ascribes human traits, ambitions, emotions or entire behavior to animals, non-human beings, natural phenomena or objects."
+      },
+      {
+        "title": "Anthropomorphism: What It Is\u2014and How It Really Works",
+        "link": "https://anthropomorphism.org/anthropomorphism-what-it-is-and-how-it-really-works/",
+        "description": "Throughout history, anthropomorphism has been woven into the fabric of human storytelling. Ancient civilizations often depicted their gods with human forms, embodying virtues and flaws alike."
+      },
+      {
+        "title": "What Is Anthropomorphism and Why Do We Do It? - ScienceInsights",
+        "link": "https://scienceinsights.org/what-is-anthropomorphism-and-why-do-we-do-it/",
+        "description": "Far from being a quirk or a childish habit, anthropomorphism is a deeply rooted cognitive pattern that begins in infancy and shapes how humans interact with animals, technology, brands, and even the natural world."
+      },
+      {
+        "title": "Anthropomorphism - Definition and Examples | LitCharts",
+        "link": "https://www.litcharts.com/literary-devices-and-terms/anthropomorphism",
+        "description": "Anthropomorphism can occur in many kinds of stories, but it is especially common in folktales, fantasy, and children's stories. Anthropomorphism is related to, but distinct from personification, in which things are described figuratively (rather than literally) as having human characteristics."
+      },
+      {
+        "title": "What Is Anthropomorphism?",
+        "link": "https://anthropomorphism.org/what-is-anthropomorphism/",
+        "description": "Anthropomorphism, a term that blends two Greek roots\u2014\u2019anthropos\u2019 meaning \u2018human\u2019 and \u2018morphe\u2019 meaning \u2018form\u2019\u2014is a fascinating concept that infuses human characteristics into non-human entities."
+      },
+      {
+        "title": "Anthropomorphism - New World Encyclopedia",
+        "link": "https://www.newworldencyclopedia.org/entry/Anthropomorphism",
+        "description": "Anthropomorphism is the attribution of human characteristics and qualities to non-human beings, objects, natural, or supernatural phenomena. God, animals, the forces of nature, and unseen or unknown authors of chance are frequent subjects of anthropomorphosis."
+      }
+    ]
+  }
+]

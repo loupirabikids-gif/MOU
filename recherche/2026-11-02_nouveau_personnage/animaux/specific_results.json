@@ -1,0 +1,230 @@
+[
+  {
+    "query": "\"Chikn Nuggit\"",
+    "url": "https://www.bing.com/search?q=%22Chikn%20Nuggit%22",
+    "status": 200,
+    "observed_at": "2026-11-02T15:38:52.525724+01:00",
+    "results": [
+      {
+        "url": "https://stackoverflow.com/questions/28978967/unit-tests-are-always-aborted",
+        "text": "stackoverflow.com https://stackoverflow.com › questions c# - Unit tests are always aborted - Stack Overflow Mar 11, 2015 · The test explorer and test output window sometimes hides issues from you. Often, when this happens, it can be fixed …"
+      },
+      {
+        "url": "https://stackoverflow.com/questions/346372/whats-the-difference-between-faking-mocking-and-stubbing",
+        "text": "stackoverflow.com https://stackoverflow.com › questions What's the difference between faking, mocking, and stubbing? Dec 6, 2008 · Test doubles Fakes, stubs, and mocks all belong to the category of test doubles. A test double is any object or system …"
+      },
+      {
+        "url": "https://www.cdc.gov/healthy-swimming/prevention/preventing-legionella-from-hot-tubs.html",
+        "text": "cdc.gov https://www.cdc.gov › healthy-swimming › prevention › preventing-legionella-fr… About Protecting Yourself from Legionella in Hot Tubs May 28, 2025 · People are at risk for respiratory infections if they breathe in mist from a hot tub that contains Legionella bacteria. …"
+      },
+      {
+        "url": "https://www.cdc.gov/think-test-treat-tb/index.html",
+        "text": "cdc.gov https://www.cdc.gov › think-test-treat-tb Think. Test. Treat TB | Think. Test. Treat TB. | CDC Think. Test. Treat TB aims to increase awareness and understanding about inactive tuberculosis."
+      },
+      {
+        "url": "https://stackoverflow.com/questions/235025/why-should-unit-tests-test-only-one-thing",
+        "text": "stackoverflow.com https://stackoverflow.com › questions › why-should-unit-tests-test-only-one-thing Why should unit tests test only one thing? - Stack Overflow Oct 24, 2008 · What Makes a Good Unit Test? says that a test should test only one thing. What is the benefit from that? Wouldn't it …"
+      },
+      {
+        "url": "https://stackoverflow.com/questions/13064809/the-point-of-test-eax-eax",
+        "text": "stackoverflow.com https://stackoverflow.com › questions assembly - The point of test %eax %eax - Stack Overflow Oct 25, 2012 · test is a non-destructive and, it doesn't return the result of the operation but it sets the flags register accordingly. To …"
+      },
+      {
+        "url": "https://stackoverflow.com/questions/3387134/test-events-with-nunit",
+        "text": "stackoverflow.com https://stackoverflow.com › questions › test-events-with-nunit c# - Test events with nunit - Stack Overflow Mar 13, 2017 · I'm just starting with TDD and could solve most of the problems I've faced on my own. But now I'm lost: How can I …"
+      },
+      {
+        "url": "https://stackoverflow.com/questions/45778192/what-is-the-difference-between-it-and-test-in-jest",
+        "text": "stackoverflow.com https://stackoverflow.com › questions What is the difference between 'it' and 'test' in Jest? Aug 20, 2017 · In my opinion, it really has a point when it comes to read the result of a failing test that you haven't written yourself. It …"
+      },
+      {
+        "url": "https://stackoverflow.com/questions/10832031/how-to-run-a-single-test-with-mocha",
+        "text": "stackoverflow.com https://stackoverflow.com › questions How to run a single test with Mocha? - Stack Overflow May 31, 2012 · I use Mocha to test my JavaScript stuff. My test file contains 5 tests. Is that possible to run a specific test (or set of …"
+      },
+      {
+        "url": "https://stackoverflow.com/questions/29229109/test-database-connectivity",
+        "text": "stackoverflow.com https://stackoverflow.com › questions powershell - Test Database Connectivity - Stack Overflow Mar 24, 2015 · The other answers are great; just providing this as another option. If you have the SqlServer PowerShell module …"
+      }
+    ]
+  },
+  {
+    "query": "\"Simons Cat\" YouTube shorts",
+    "url": "https://www.bing.com/search?q=%22Simons%20Cat%22%20YouTube%20shorts",
+    "status": 200,
+    "observed_at": "2026-11-02T15:38:52.573887+01:00",
+    "results": [
+      {
+        "url": "https://www.simons.ca/en",
+        "text": "simons.ca https://www. simons .ca › en Canadian Fashion Destination Since 1840 | Simons Get your hands on new arrivals inspired by the latest women's, men's and home trends at Simons. Read more"
+      },
+      {
+        "url": "https://www.simons.ca/en/women-clothing--6660",
+        "text": "simons.ca https://www. simons .ca › en Women's Clothing & Accessories | Simons From one family business to another: Simons celebrates Barbour, the inspiring British label founded over 130 years ago. Discover its …"
+      },
+      {
+        "url": "https://www.simon.com/",
+        "text": "simon.com https://www.simon.com Simon: Shopping, Dining and Entertainment Destinations Near You Touch, try, buy your favorite fashion discoveries at a Simon Malls, Simon Mills or Simon Premium Outlets near you."
+      },
+      {
+        "url": "https://shop.simon.com/",
+        "text": "simon.com https://shop.simon.com ShopSimon: Brands You Love. 24/7. | ShopSimon Shop thousands of fashion, footwear, handbag, jewelry, and home styles from trusted global brands - all at the best prices. Discover …"
+      },
+      {
+        "url": "https://www.premiumoutlets.com/outlet/san-francisco",
+        "text": "premiumoutlets.com https://www.premiumoutlets.com › outlet › san-francisco San Francisco Premium Outlets® Join Simon+ ® to unlock holiday offers from top brands and more. It’s a gifts for them, rewards for you thing. JOIN FOR FREE. The …"
+      },
+      {
+        "url": "https://m.simons.ca/en/stores",
+        "text": "simons.ca https://m. simons .ca › en › stores La Maison Simons Women's clothing at La Maison Simons online store. Shop the hottest styles & trends in women's & men's clothing, Home decor."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/La_Maison_Simons",
+        "text": "wikipedia.org https://en.wikipedia.org › wiki › La_Maison_Simons La Maison Simons - Wikipedia La Maison Simons (colloquially Simons) is a Canadian department store chain founded in 1840 by John Hamilton Simons. The …"
+      },
+      {
+        "url": "https://simons.berkeley.edu/homepage",
+        "text": "berkeley.edu https:// simons .berkeley.edu Simons Institute for the Theory of Computing The world's leading venue for collaborative research in theoretical computer science. Established on July 1, 2012, with a grant from …"
+      },
+      {
+        "url": "https://www.simonsdsm.com/",
+        "text": "simonsdsm.com https://www. simons dsm.com Simon's Small Italian restaurant with a big menu in Des Moines, Iowa."
+      }
+    ]
+  },
+  {
+    "query": "\"Chikn Nuggit\" \"2026\"",
+    "url": "https://www.bing.com/search?q=%22Chikn%20Nuggit%22%20%222026%22",
+    "status": 200,
+    "observed_at": "2026-11-02T15:38:52.555599+01:00",
+    "results": [
+      {
+        "url": "https://agencyanalytics.com/pricing",
+        "text": "agencyanalytics.com https:// agencyanalytics .com › pricing Pick Your Plan - Flexible AgencyAnalytics Pricing for Growing ... Yes, we offer discounts for larger agencies managing a substantial roster of clients. Reach out to our sales team to discuss bulk …"
+      },
+      {
+        "url": "https://www.reportingninja.com/blog/agency-analytics-pricing",
+        "text": "reportingninja.com https://www. reporting ninja.com › blog › agency-analytics - pricing AgencyAnalytics Pricing 2026: Plans, Hidden Fees & More Apr 21, 2026 · Uncover the real cost of using AgencyAnalytics in 2026, full pricing breakdown, hidden charges, and smarter …"
+      },
+      {
+        "url": "https://leadjourney.io/blog/agencyanalytics-pricing",
+        "text": "leadjourney.io https://leadjourney.io › blog › agencyanalytics - pricing AgencyAnalytics Pricing 2026: What $20 a Client Really Costs Sep 13, 2026 · AgencyAnalytics now sells one plan at $20 per client a month billed annually, $25 monthly. What counts as a client, …"
+      },
+      {
+        "url": "https://www.swydo.com/blog/agencyanalytics-pricing/",
+        "text": "swydo.com https://www.swydo.com › blog › agencyanalytics - pricing AgencyAnalytics Pricing Explained: Plans, Real Costs, and ... Jun 22, 2026 · A clear, current breakdown of AgencyAnalytics pricing, including every plan, what's actually included, add-on costs, …"
+      },
+      {
+        "url": "https://pricingnow.com/question/agencyanalytics-pricing/",
+        "text": "pricingnow.com https:// pricing now.com › question › agencyanalytics - pricing AgencyAnalytics Pricing 2026: Real Costs, Fees & What Others Paid Mar 8, 2026 · As the market evolves, comparing AgencyAnalytics with alternatives that offer AI-powered performance optimization …"
+      },
+      {
+        "url": "https://www.globaltechstack.com/blog/agencyanalytics-review",
+        "text": "globaltechstack.com https://www.globaltechstack.com › blog › agencyanalytics -review AgencyAnalytics Review (2026): Per- Client Reporting for... 4 days ago · Agencies managing 25 or more clients can ask for discounted per-client pricing, dedicated onboarding, database …"
+      },
+      {
+        "url": "https://costbench.com/software/seo-tools/agencyanalytics/",
+        "text": "costbench.com https://costbench.com › software › seo-tools › agencyanalytics AgencyAnalytics Pricing 2026: Plans from $20–$349/mo Aug 25, 2026 · AgencyAnalytics is a client reporting and marketing analytics platform built for agencies and freelancers. It …"
+      }
+    ]
+  },
+  {
+    "query": "\"Simon's Cat\" \"2026\"",
+    "url": "https://www.bing.com/search?q=%22Simon%27s%20Cat%22%20%222026%22",
+    "status": 200,
+    "observed_at": "2026-11-02T15:38:52.686772+01:00",
+    "results": [
+      {
+        "url": "https://support.microsoft.com/en-us/support/index",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › support › index Contact Microsoft customer support | Microsoft Support The type of support Microsoft provides depends on the product you're calling about and if you have a product for home or for …"
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/microsoft-365/",
+        "text": "microsoft.com https:// support.microsoft.com › en-us Microsoft 365 help & learning | Microsoft Support Get support, help, and learning resources for Microsoft 365 apps and services. Set up and manage your apps and subscription, and …"
+      },
+      {
+        "url": "https://docs.microsoft.com/api/search?search=s-leep&locale=en-us",
+        "text": "microsoft.com https://docs.microsoft.com › api › search Microsoft Docs {\"results\": [ {\"title\":\"Taking data in one cell and moving it to multiple rows- cells - Microsoft …"
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-hotmail",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › accounts... How to sign in to Hotmail | Microsoft Support Hotmail is now Outlook.com. Learn how to sign in to access your Outlook.com, Hotmail, Live, or MSN email account."
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/manage/how-to-sign-in-to-a-microsoft-account",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › accounts... How to sign in to a Microsoft account | Microsoft Support Use your Microsoft account to sign in to Microsoft services like Windows, Microsoft 365, OneDrive, Skype, Outlook, and Xbox Live."
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/windows/",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › windows Windows help and learning | Microsoft Support Find help and how-to articles for Windows operating systems. Get support for Windows and learn about installation, updates, …"
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/msn/how-to-sign-in-to-msn",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › msn › how-to-sign-in-to- msn How to sign in to MSN | Microsoft Support Learn how to personalize your experience on MSN by signing in with a Microsoft account."
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/teams/personal/get-started/sign-in-sign-up-sign-out-and-add-a-new-account-in-microsoft-teams-personal",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › teams › personal › ... Sign in, sign up, sign out, and add a new account in Microsoft Teams ... Learn how to sign in and out of Microsoft Teams for personal use with a Microsoft account, which you already have if you use Skype, …"
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/outlook/how-to-sign-in-to-outlook-on-the-web",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › outlook › how-to... How to sign in to Outlook on the web | Microsoft Support Outlook on the web is the web-based version of Outlook used by organizations and it's what you use to access the email, calendar, …"
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/outlook/how-to-get-support-for-outlook-com",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › outlook › how-to... How to get support for Outlook .com | Microsoft Support Still need help? If you're not getting any replies from support If your mailbox is full, we won't be able to reply to your request. Learn …"
+      },
+      {
+        "url": "https://support.microsoft.com/en-us/accounts-billing/security/sign-in-options-in-windows",
+        "text": "microsoft.com https:// support.microsoft.com › en-us › accounts... Sign-In Options in Windows | Microsoft Support Ways to sign in Use Set up Windows Hello to enable to sign in using face recognition, a fingerprint or a PIN, instead of a password. …"
+      }
+    ]
+  },
+  {
+    "query": "\"Pusheen\" \"2026\" animation",
+    "url": "https://www.bing.com/search?q=%22Pusheen%22%20%222026%22%20animation",
+    "status": 200,
+    "observed_at": "2026-11-02T15:38:53.213033+01:00",
+    "results": [
+      {
+        "url": "https://pusheen.com/",
+        "text": "pusheen.com https:// pusheen .com Pusheen Shop Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
+      },
+      {
+        "url": "https://pusheen.com/pages/characters",
+        "text": "pusheen.com https:// pusheen .com › pages › characters Characters – Pusheen Shop Pusheen Shop is the official online home of Pusheen! Explore exclusive plush, apparel, accessories and more!"
+      },
+      {
+        "url": "https://en.m.wikipedia.org/wiki/Pusheen",
+        "text": "wikipedia.org https://en.m. wikipedia.org › wiki › Pusheen Pusheen - Wikipedia Pusheen was created in 2010 by Claire Belton and Andrew Duff for a comic strip on their website, Everyday Cute. More recently, the …"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCFWi9aUuK7oFksfbWObwcIQ",
+        "text": "youtube.com https:// www.youtube.com › channel Pusheen the Cat - YouTube Welcome to Pusheen's official Youtube Channel! For more things Pusheen, visit https://Pusheen.com !"
+      },
+      {
+        "url": "https://thepusheen.shop/",
+        "text": "thepusheen.shop https://the pusheen .shop Home | Pusheen Pusheen Shop is the online home for official Pusheen products, including exclusive plush, apparel, accessories and more!"
+      },
+      {
+        "url": "https://www.instagram.com/pusheen/",
+        "text": "instagram.com https://www.instagram.com › pusheen Pusheen (@ pusheen ) • Instagram photos and videos The official account of Pusheen the cat. Shop new and exclusive Pusheen merchandise online at @thepusheenshop!"
+      },
+      {
+        "url": "https://m.youtube.com/watch?v=_6cOAcMrcQo",
+        "text": "youtube.com https://m. youtube.com › watch Pusheen : Voyage to Planet Koo-Kee - YouTube Aug 22, 2020 · Voyage to Planet Koo-Kee 🛸 home of the Pastel Pusheens! For more things Pusheen, visit https://Pusheen.com."
+      },
+      {
+        "url": "https://www.walmart.com/browse/pusheen/YnJhbmQ6UHVzaGVlbgieie",
+        "text": "walmart.com https://www.walmart.com › browse › pusheen Pusheen - Walmart.com Shop for Pusheen . Buy products such as Pusheen Holiday Throw Cat Blanket Assorted, Pusheen Funko POP Vinyl Figure | …"
+      },
+      {
+        "url": "https://www.pinterest.com/pusheen/",
+        "text": "pinterest.com https:// www.pinterest.com › pusheen Pusheen ( pusheen ) | Official Pinterest account Pusheen Pusheen Verified Merchant pusheen 104kfollowers 0following Welcome to the official Pinterest of Pusheen the Cat®"
+      },
+      {
+        "url": "https://www.tiktok.com/@pusheen",
+        "text": "tiktok.com https://www.tiktok.com › @ pusheen Pusheen (@ pusheen ) | TikTok Official account of Pusheen the Cat.Watch Pusheen's popular videos: \"The Shinjuku 3D Cat ...\", \"🐾 #Pusheen #pushee...\". Join 2.3M …"
+      }
+    ]
+  }
+]

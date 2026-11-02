@@ -1,0 +1,30 @@
+[
+  {
+    "key": "official_shorts",
+    "url": "https://blog.youtube/creator-and-artist-stories/youtube-shorts-deep-dive/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "key": "official_discovery",
+    "url": "https://support.google.com/youtube/answer/11914225?hl=en",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "key": "baby_search",
+    "url": "https://www.google.com/search?q=Glocker+2009+baby+schema+cuteness+motivation+caregiving+122+adults",
+    "status": 200,
+    "bytes": 92176
+  },
+  {
+    "key": "animacy_search",
+    "url": "https://www.google.com/search?q=Looser+Wheatley+2010+tipping+point+animacy+human+face+eyes",
+    "status": 200,
+    "bytes": 92364
+  },
+  {
+    "key": "curvature_search",
+    "url": "https://www.google.com/search?q=Bar+Neta+2006+humans+prefer+curved+visual+objects+abstract",
+    "status": 200,
+    "bytes": 92386
+  }
+]

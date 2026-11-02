@@ -1,4 +1,18 @@
-# MOU
+# Atelier de courts épisodes
+
+**Nouvelle direction : un personnage original, nom de travail PATCH.**
+
+[Voir la proposition visuelle](recherche/2026-11-02_nouveau_personnage/visuel/Patch_concept.png) ·
+[Tempérament et design](recherche/2026-11-02_nouveau_personnage/PROPOSITION.md) ·
+[Recherche, sources et limites](recherche/2026-11-02_nouveau_personnage/).
+
+L'utilisatrice abandonne MOU. La piste proposée est un raton laveur citadin
+inventif et impatient, avec une silhouette identifiable et un visage chaleureux.
+Le croquis n'est pas encore un choix validé ni un rig animé. La collecte
+actuelle n'a pas permis de vérifier les performances récentes des chaînes ;
+aucune tendance gagnante ou popularité garantie n'est revendiquée.
+
+**Archives MOU : modèles et essais précédents conservés ci-dessous.**
 
 **Essai de reprise : Poids plume — dix secondes muettes.**
 

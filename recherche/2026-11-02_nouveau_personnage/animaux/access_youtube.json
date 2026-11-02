@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.youtube.com/@chiknnuggit/shorts",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "observed_at": "2026-11-02T15:37:52.364058+01:00"
+  },
+  {
+    "url": "https://www.youtube.com/@SimonsCat/shorts",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "observed_at": "2026-11-02T15:37:52.364058+01:00"
+  },
+  {
+    "url": "https://www.youtube.com/@PusheenTheCat/shorts",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "observed_at": "2026-11-02T15:37:52.364058+01:00"
+  }
+]

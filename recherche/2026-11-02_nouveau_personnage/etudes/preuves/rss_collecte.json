@@ -1,0 +1,32 @@
+[
+  {
+    "key": "doi_baby",
+    "url": "https://www.bing.com/search?format=rss&q=10.1111/j.1439-0310.2008.01603.x",
+    "status": 200,
+    "bytes": 4992
+  },
+  {
+    "key": "doi_curves",
+    "url": "https://www.bing.com/search?format=rss&q=10.1111/j.1467-9280.2006.01759.x",
+    "status": 200,
+    "bytes": 4992
+  },
+  {
+    "key": "doi_animacy",
+    "url": "https://www.bing.com/search?format=rss&q=10.1177/0956797610388044",
+    "status": 200,
+    "bytes": 4960
+  },
+  {
+    "key": "schema",
+    "url": "https://www.bing.com/search?format=rss&q=Kindchenschema",
+    "status": 200,
+    "bytes": 5133
+  },
+  {
+    "key": "nittono",
+    "url": "https://www.bing.com/search?format=rss&q=Nittono",
+    "status": 200,
+    "bytes": 4251
+  }
+]
