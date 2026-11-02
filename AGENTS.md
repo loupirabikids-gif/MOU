@@ -1,5 +1,32 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante : corriger l'épisode pour une mise en scène similaire à
+la vidéo de référence, à partir de son analyse complète. Nouvelle V4 isolée
+dans `episodes/patch_01_coffre_v4/`. Produire des dessins de vues distinctes :
+plongée trois quarts du bureau, frontal de jeu, insert horloge, plan bas
+au ras du plateau avec coffre devant la joue, visage/coffre, joie de corps
+entier avec deux pieds visibles, puis téléphone à deux mains dos vers caméra
+et lumière sur le museau. Ne pas présenter un recadrage frontal comme un
+changement d'angle. Garder les30minutes, la motivation de travail et les
+trois cases vides, sans recopier les incohérences de la référence.
+Root possède scène/placement/props/chronologie/rendu ; décor possède vues.py,
+animation personnage.py/jeu.py, scénario+son leurs docs et audio, critique
+ses rapports et QA son contrôleur. Comparer les vraies vues complètes puis
+l'animatique à la référence avant HD. Corriger collisions/cadrages/prises.
+Les anciens épisodes, modèles et références sont conservés. Outils libres
+gratuits et son sobre existant ; aucune écoute réelle revendiquée. Référence
+privée non insérée/non publiée. Livrer son/muet/sources sur GitHub dans
+l'accord existant ; aucune diffusion sociale.
+
+V4 produite : filmson38242f06…aa3e0c0 et muet55b8368f…3e83a6,
+30s/720images1080×1920. Vraies vues et animatique revues avantHD, puis
+images du MP4final. Pied masqué et pupille derrièrelid corrigés, boucheO
+distincte, premierregard aprèsinserthorloge ; phonebilatéral/dos/lueur.
+QA24contrôles passés avec contacts et visibilité réels,12HD frais comparés,
+13producteursgel et6références intacts. DepuisZIP16PNG+WAV identiques ;
+pas d'identité binaireMP4 revendiquée. Son18cues inchangéV3, aucune audition,
+approbation publique ou similitude parfaite garantie. Vidéoprivée nonlivrée.
+
 Instruction courante : analyser complètement la référence utilisateur,
 chaque émotion, posture, position de caméra et sa relation au prompt proposé.
 Rapports dans `recherche/2026-11-02_analyse_reference_patch/`. Pas de nouveau

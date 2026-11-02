@@ -1,10 +1,24 @@
 # Atelier de courts épisodes
 
-**Analyse de la référence avant la prochaine reprise.**
+**PATCH V4 — nouvelles vues et joie du corps entier.**
+
+**[Voir le nouvel épisode avec son — 30 secondes](episodes/patch_01_coffre_v4/PATCH_Le_coffre_V4.mp4?raw=true)** ·
+[Version muette](episodes/patch_01_coffre_v4/PATCH_Le_coffre_V4_muet.mp4?raw=true) ·
+[Douze vues](episodes/patch_01_coffre_v4/PATCH_Le_coffre_V4_storyboard.png) ·
+[Sources et contrôles](episodes/patch_01_coffre_v4/).
+
+Bureau de trois quarts, plan au ras du plateau, inserts horloge et compteur,
+gros plan visage/coffre, puis deux pieds dégagés dans la pose de joie.
+Téléphone tenu à deux mains, dos vers le spectateur, regard et lueur d'écran
+en fin. Les trente minutes et les trois cases vides sont conservées.
+La fabrication reste en Python/SVG/CairoSVG/FFmpeg, sans insertion de la
+vidéo privée de référence. Bande-son sobre précédente conservée ; aucune
+audition réelle dans cet environnement.
+
+**Analyse de la référence appliquée à cette reprise.**
 [Dix plans, émotions, positions et confrontation au prompt](recherche/2026-11-02_analyse_reference_patch/ANALYSE.md).
-La V3 a repris des attitudes mais conserve surtout la vue frontale ; les
-changements d'angle, la joie de corps entier et la prise du téléphone
-demandent encore un travail spécifique.
+La V3 avait repris des attitudes tout en conservant surtout la vue frontale.
+La V4 construit les vues et les prises que cette analyse avait identifiées.
 
 **PATCH — Le coffre, jeu reconstruit à partir de la référence fournie.**
 

@@ -1,0 +1,18 @@
+{
+  "note": "Gel après revue des vues complètes et de la vraie animatique V4 ; contrôle QA distinct du producteur.",
+  "files": {
+    "episodes/patch_01_coffre_v4/sources/cadres.json": "f31e6a90f0a7cb0f14583407befb9eeef886ee5fc2c3a2527c07bd9a935901b8",
+    "episodes/patch_01_coffre_v4/sources/jeu.py": "4c28f8892782b1813d4340c4cb32b11f107b38912295d58dc62915f5a6b7864e",
+    "episodes/patch_01_coffre_v4/sources/package.py": "f353fa1a92ad441aa9249109164d2f9f7d06e17019bf942598e04e663ba92eac",
+    "episodes/patch_01_coffre_v4/sources/palette.json": "42d905009d4e53603db26e964168083bf652b4a583e4ff1442dc0f239aa116b0",
+    "episodes/patch_01_coffre_v4/sources/personnage.py": "b065998b4d1fe1298322cd842a61016b9d9e6f2bdb8cafe758db9965c2ea1f14",
+    "episodes/patch_01_coffre_v4/sources/reference_scene.py": "06e090059e1549f6e96b12edbfbc34b5ae41de46e0cc63ef922dc46ffa6d9b0b",
+    "episodes/patch_01_coffre_v4/sources/render.py": "5c4b2821302e6c26743cf29bc64928d4008629652aa7112026a440b0959aa6ff",
+    "episodes/patch_01_coffre_v4/sources/scene.py": "687035fa0fe0c48f92d110a4d3a838c39a456bc9868a12a0421740abbfb160bd",
+    "episodes/patch_01_coffre_v4/sources/scene_base.py": "3a86ff73ba6b3704b7f5df3c0cb2f970130170fa759973b9549fe6523baf6d64",
+    "episodes/patch_01_coffre_v4/sources/son.py": "be770b835aba6167b9dfbf2cc9a4f63b788f974ee9f89081967c479c30a6272d",
+    "episodes/patch_01_coffre_v4/sources/vues.py": "7a4f837aef02219fb749fbf0b44af0d9c9d2720ef35716d3b3784464ab7880c2",
+    "episodes/patch_01_coffre_v4/chronologie.json": "ea319df2d1f71a2fece26d69e62133f0f36d025ad578ed183363a72329e83e0f",
+    "episodes/patch_01_coffre_v4/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41"
+  }
+}

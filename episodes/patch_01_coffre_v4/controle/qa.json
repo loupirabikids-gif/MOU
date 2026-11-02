@@ -1,0 +1,1366 @@
+{
+  "status": "passed",
+  "scope": "final_exports",
+  "observed_at": "2026-11-02T20:14:09.999595+01:00",
+  "checks": [
+    {
+      "check": "v3_and_concept_untouched",
+      "passed": true,
+      "evidence": {
+        "files": 6,
+        "changed": []
+      }
+    },
+    {
+      "check": "palette_preserved_and_rig_extended",
+      "passed": true,
+      "evidence": {
+        "palette_sha256": "42d905009d4e53603db26e964168083bf652b4a583e4ff1442dc0f239aa116b0",
+        "rig_sha256": "b065998b4d1fe1298322cd842a61016b9d9e6f2bdb8cafe758db9965c2ea1f14"
+      }
+    },
+    {
+      "check": "svg_structure",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "view_frames": {
+          "wide_high": 51,
+          "lock_insert": 60,
+          "medium": 253,
+          "clock": 24,
+          "work_close": 54,
+          "low": 79,
+          "box_insert": 31,
+          "face_box": 41,
+          "joy": 47,
+          "paper": 30,
+          "phone_final": 50
+        },
+        "paper_insert_frames": 30,
+        "maximum_svg_right_grip_error_px": 1.5622519713222867e-05,
+        "maximum_svg_bilateral_error_px": 5.381670916904113e-06
+      }
+    },
+    {
+      "check": "story_time_and_countdown",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "view_frames": {
+          "wide_high": 51,
+          "lock_insert": 60,
+          "medium": 253,
+          "clock": 24,
+          "work_close": 54,
+          "low": 79,
+          "box_insert": 31,
+          "face_box": 41,
+          "joy": 47,
+          "paper": 30,
+          "phone_final": 50
+        },
+        "paper_insert_frames": 30,
+        "maximum_svg_right_grip_error_px": 1.5622519713222867e-05,
+        "maximum_svg_bilateral_error_px": 5.381670916904113e-06
+      }
+    },
+    {
+      "check": "paper_goal",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "view_frames": {
+          "wide_high": 51,
+          "lock_insert": 60,
+          "medium": 253,
+          "clock": 24,
+          "work_close": 54,
+          "low": 79,
+          "box_insert": 31,
+          "face_box": 41,
+          "joy": 47,
+          "paper": 30,
+          "phone_final": 50
+        },
+        "paper_insert_frames": 30,
+        "maximum_svg_right_grip_error_px": 1.5622519713222867e-05,
+        "maximum_svg_bilateral_error_px": 5.381670916904113e-06
+      }
+    },
+    {
+      "check": "phone_grip_and_orientation",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "view_frames": {
+          "wide_high": 51,
+          "lock_insert": 60,
+          "medium": 253,
+          "clock": 24,
+          "work_close": 54,
+          "low": 79,
+          "box_insert": 31,
+          "face_box": 41,
+          "joy": 47,
+          "paper": 30,
+          "phone_final": 50
+        },
+        "paper_insert_frames": 30,
+        "maximum_svg_right_grip_error_px": 1.5622519713222867e-05,
+        "maximum_svg_bilateral_error_px": 5.381670916904113e-06
+      }
+    },
+    {
+      "check": "eye_framing",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "view_frames": {
+          "wide_high": 51,
+          "lock_insert": 60,
+          "medium": 253,
+          "clock": 24,
+          "work_close": 54,
+          "low": 79,
+          "box_insert": 31,
+          "face_box": 41,
+          "joy": 47,
+          "paper": 30,
+          "phone_final": 50
+        },
+        "paper_insert_frames": 30,
+        "maximum_svg_right_grip_error_px": 1.5622519713222867e-05,
+        "maximum_svg_bilateral_error_px": 5.381670916904113e-06
+      }
+    },
+    {
+      "check": "first_two_visible_checks_return_to_paper",
+      "passed": true,
+      "evidence": [
+        {
+          "minute": 1,
+          "visible_frames": 24,
+          "all_actor_visible": true,
+          "maximum_gaze_x": 1.0,
+          "final_gaze_x": -0.25,
+          "pencil_descends_px": 19.87339851851857
+        },
+        {
+          "minute": 2,
+          "visible_frames": 48,
+          "all_actor_visible": true,
+          "maximum_gaze_x": 0.9999999999999999,
+          "final_gaze_x": -0.15,
+          "pencil_descends_px": 17.21620327503433
+        }
+      ]
+    },
+    {
+      "check": "29_story_minutes_and_last_values_represented",
+      "passed": true,
+      "evidence": {
+        "minute_frame_counts": [
+          48,
+          48,
+          54,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          9,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          16,
+          17,
+          41
+        ]
+      }
+    },
+    {
+      "check": "56_rendered_sleeve_paw_connections",
+      "passed": true,
+      "evidence": [
+        {
+          "time": 0.3,
+          "side": "left",
+          "intersection_pixels": 184,
+          "within_one_pixel": true
+        },
+        {
+          "time": 0.3,
+          "side": "right",
+          "intersection_pixels": 194,
+          "within_one_pixel": true
+        },
+        {
+          "time": 1.7,
+          "side": "left",
+          "intersection_pixels": 186,
+          "within_one_pixel": true
+        },
+        {
+          "time": 1.7,
+          "side": "right",
+          "intersection_pixels": 191,
+          "within_one_pixel": true
+        },
+        {
+          "time": 2.8,
+          "side": "left",
+          "intersection_pixels": 1008,
+          "within_one_pixel": true
+        },
+        {
+          "time": 2.8,
+          "side": "right",
+          "intersection_pixels": 1234,
+          "within_one_pixel": true
+        },
+        {
+          "time": 4.1,
+          "side": "left",
+          "intersection_pixels": 1016,
+          "within_one_pixel": true
+        },
+        {
+          "time": 4.1,
+          "side": "right",
+          "intersection_pixels": 770,
+          "within_one_pixel": true
+        },
+        {
+          "time": 7.2,
+          "side": "left",
+          "intersection_pixels": 391,
+          "within_one_pixel": true
+        },
+        {
+          "time": 7.2,
+          "side": "right",
+          "intersection_pixels": 260,
+          "within_one_pixel": true
+        },
+        {
+          "time": 7.8,
+          "side": "left",
+          "intersection_pixels": 373,
+          "within_one_pixel": true
+        },
+        {
+          "time": 7.8,
+          "side": "right",
+          "intersection_pixels": 267,
+          "within_one_pixel": true
+        },
+        {
+          "time": 8.7,
+          "side": "left",
+          "intersection_pixels": 391,
+          "within_one_pixel": true
+        },
+        {
+          "time": 8.7,
+          "side": "right",
+          "intersection_pixels": 260,
+          "within_one_pixel": true
+        },
+        {
+          "time": 9.8,
+          "side": "left",
+          "intersection_pixels": 385,
+          "within_one_pixel": true
+        },
+        {
+          "time": 9.8,
+          "side": "right",
+          "intersection_pixels": 267,
+          "within_one_pixel": true
+        },
+        {
+          "time": 11.8,
+          "side": "left",
+          "intersection_pixels": 580,
+          "within_one_pixel": true
+        },
+        {
+          "time": 11.8,
+          "side": "right",
+          "intersection_pixels": 494,
+          "within_one_pixel": true
+        },
+        {
+          "time": 12.45,
+          "side": "left",
+          "intersection_pixels": 293,
+          "within_one_pixel": true
+        },
+        {
+          "time": 12.45,
+          "side": "right",
+          "intersection_pixels": 260,
+          "within_one_pixel": true
+        },
+        {
+          "time": 13.5,
+          "side": "left",
+          "intersection_pixels": 765,
+          "within_one_pixel": true
+        },
+        {
+          "time": 13.5,
+          "side": "right",
+          "intersection_pixels": 257,
+          "within_one_pixel": true
+        },
+        {
+          "time": 15.2,
+          "side": "left",
+          "intersection_pixels": 765,
+          "within_one_pixel": true
+        },
+        {
+          "time": 15.2,
+          "side": "right",
+          "intersection_pixels": 257,
+          "within_one_pixel": true
+        },
+        {
+          "time": 15.35,
+          "side": "left",
+          "intersection_pixels": 517,
+          "within_one_pixel": true
+        },
+        {
+          "time": 15.35,
+          "side": "right",
+          "intersection_pixels": 338,
+          "within_one_pixel": true
+        },
+        {
+          "time": 15.5,
+          "side": "left",
+          "intersection_pixels": 346,
+          "within_one_pixel": true
+        },
+        {
+          "time": 15.5,
+          "side": "right",
+          "intersection_pixels": 300,
+          "within_one_pixel": true
+        },
+        {
+          "time": 16.7,
+          "side": "left",
+          "intersection_pixels": 346,
+          "within_one_pixel": true
+        },
+        {
+          "time": 16.7,
+          "side": "right",
+          "intersection_pixels": 300,
+          "within_one_pixel": true
+        },
+        {
+          "time": 18.3,
+          "side": "left",
+          "intersection_pixels": 392,
+          "within_one_pixel": true
+        },
+        {
+          "time": 18.3,
+          "side": "right",
+          "intersection_pixels": 335,
+          "within_one_pixel": true
+        },
+        {
+          "time": 18.7,
+          "side": "left",
+          "intersection_pixels": 1384,
+          "within_one_pixel": true
+        },
+        {
+          "time": 18.7,
+          "side": "right",
+          "intersection_pixels": 763,
+          "within_one_pixel": true
+        },
+        {
+          "time": 20.5,
+          "side": "left",
+          "intersection_pixels": 831,
+          "within_one_pixel": true
+        },
+        {
+          "time": 20.5,
+          "side": "right",
+          "intersection_pixels": 805,
+          "within_one_pixel": true
+        },
+        {
+          "time": 23.3,
+          "side": "left",
+          "intersection_pixels": 1460,
+          "within_one_pixel": true
+        },
+        {
+          "time": 23.3,
+          "side": "right",
+          "intersection_pixels": 1866,
+          "within_one_pixel": true
+        },
+        {
+          "time": 23.6,
+          "side": "left",
+          "intersection_pixels": 1249,
+          "within_one_pixel": true
+        },
+        {
+          "time": 23.6,
+          "side": "right",
+          "intersection_pixels": 1987,
+          "within_one_pixel": true
+        },
+        {
+          "time": 24.05,
+          "side": "left",
+          "intersection_pixels": 837,
+          "within_one_pixel": true
+        },
+        {
+          "time": 24.05,
+          "side": "right",
+          "intersection_pixels": 1631,
+          "within_one_pixel": true
+        },
+        {
+          "time": 24.7,
+          "side": "left",
+          "intersection_pixels": 240,
+          "within_one_pixel": true
+        },
+        {
+          "time": 24.7,
+          "side": "right",
+          "intersection_pixels": 710,
+          "within_one_pixel": true
+        },
+        {
+          "time": 25.08,
+          "side": "left",
+          "intersection_pixels": 640,
+          "within_one_pixel": true
+        },
+        {
+          "time": 25.08,
+          "side": "right",
+          "intersection_pixels": 702,
+          "within_one_pixel": true
+        },
+        {
+          "time": 25.3,
+          "side": "left",
+          "intersection_pixels": 640,
+          "within_one_pixel": true
+        },
+        {
+          "time": 25.3,
+          "side": "right",
+          "intersection_pixels": 702,
+          "within_one_pixel": true
+        },
+        {
+          "time": 25.7,
+          "side": "left",
+          "intersection_pixels": 640,
+          "within_one_pixel": true
+        },
+        {
+          "time": 25.7,
+          "side": "right",
+          "intersection_pixels": 702,
+          "within_one_pixel": true
+        },
+        {
+          "time": 26.3,
+          "side": "left",
+          "intersection_pixels": 640,
+          "within_one_pixel": true
+        },
+        {
+          "time": 26.3,
+          "side": "right",
+          "intersection_pixels": 702,
+          "within_one_pixel": true
+        },
+        {
+          "time": 28.4,
+          "side": "left",
+          "intersection_pixels": 623,
+          "within_one_pixel": true
+        },
+        {
+          "time": 28.4,
+          "side": "right",
+          "intersection_pixels": 695,
+          "within_one_pixel": true
+        },
+        {
+          "time": 29.2,
+          "side": "left",
+          "intersection_pixels": 623,
+          "within_one_pixel": true
+        },
+        {
+          "time": 29.2,
+          "side": "right",
+          "intersection_pixels": 695,
+          "within_one_pixel": true
+        }
+      ]
+    },
+    {
+      "check": "5_rendered_cheek_paw_supports",
+      "passed": true,
+      "evidence": [
+        {
+          "time": 13.0,
+          "intersection_pixels": 1892
+        },
+        {
+          "time": 13.5,
+          "intersection_pixels": 1846
+        },
+        {
+          "time": 14.0,
+          "intersection_pixels": 1801
+        },
+        {
+          "time": 14.5,
+          "intersection_pixels": 1817
+        },
+        {
+          "time": 15.0,
+          "intersection_pixels": 1883
+        }
+      ]
+    },
+    {
+      "check": "two_actual_feet_visible_above_desk_in_jump",
+      "passed": true,
+      "evidence": [
+        {
+          "time": 25.2,
+          "side": "left",
+          "visible_pixels": 7873,
+          "full_foot_pixels": 8077,
+          "visible_fraction": 0.974743097684784,
+          "screen_bbox": [
+            275.0,
+            1262.0685131195337,
+            398.0,
+            1361.0685131195337
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 25.2,
+          "side": "right",
+          "visible_pixels": 7856,
+          "full_foot_pixels": 8081,
+          "visible_fraction": 0.9721569112733572,
+          "screen_bbox": [
+            685.0,
+            1256.0685131195337,
+            801.0,
+            1359.0685131195337
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 25.4,
+          "side": "left",
+          "visible_pixels": 7873,
+          "full_foot_pixels": 8077,
+          "visible_fraction": 0.974743097684784,
+          "screen_bbox": [
+            275.0,
+            1262.100971314631,
+            398.0,
+            1361.100971314631
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 25.4,
+          "side": "right",
+          "visible_pixels": 7856,
+          "full_foot_pixels": 8081,
+          "visible_fraction": 0.9721569112733572,
+          "screen_bbox": [
+            685.0,
+            1256.100971314631,
+            801.0,
+            1359.100971314631
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 25.7,
+          "side": "left",
+          "visible_pixels": 7873,
+          "full_foot_pixels": 8077,
+          "visible_fraction": 0.974743097684784,
+          "screen_bbox": [
+            275.0,
+            1278.8650326732868,
+            398.0,
+            1377.8650326732868
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 25.7,
+          "side": "right",
+          "visible_pixels": 7855,
+          "full_foot_pixels": 8081,
+          "visible_fraction": 0.97203316421235,
+          "screen_bbox": [
+            685.0,
+            1272.8650326732868,
+            801.0,
+            1375.8650326732868
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 26.0,
+          "side": "left",
+          "visible_pixels": 7873,
+          "full_foot_pixels": 8077,
+          "visible_fraction": 0.974743097684784,
+          "screen_bbox": [
+            275.0,
+            1288.5943201125137,
+            398.0,
+            1387.5943201125137
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 26.0,
+          "side": "right",
+          "visible_pixels": 7855,
+          "full_foot_pixels": 8081,
+          "visible_fraction": 0.97203316421235,
+          "screen_bbox": [
+            685.0,
+            1282.5943201125137,
+            801.0,
+            1385.5943201125137
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 26.3,
+          "side": "left",
+          "visible_pixels": 7873,
+          "full_foot_pixels": 8077,
+          "visible_fraction": 0.974743097684784,
+          "screen_bbox": [
+            275.0,
+            1305.2918527212457,
+            398.0,
+            1404.2918527212457
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 26.3,
+          "side": "right",
+          "visible_pixels": 7855,
+          "full_foot_pixels": 8081,
+          "visible_fraction": 0.97203316421235,
+          "screen_bbox": [
+            685.0,
+            1299.2918527212457,
+            801.0,
+            1402.2918527212457
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 26.55,
+          "side": "left",
+          "visible_pixels": 7873,
+          "full_foot_pixels": 8077,
+          "visible_fraction": 0.974743097684784,
+          "screen_bbox": [
+            275.0,
+            1322.3335101059638,
+            398.0,
+            1421.3335101059638
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        },
+        {
+          "time": 26.55,
+          "side": "right",
+          "visible_pixels": 7855,
+          "full_foot_pixels": 8081,
+          "visible_fraction": 0.97203316421235,
+          "screen_bbox": [
+            685.0,
+            1316.3335101059638,
+            801.0,
+            1419.3335101059638
+          ],
+          "above_tabletop": true,
+          "inside_frame": true
+        }
+      ]
+    },
+    {
+      "check": "both_phone_grips_overlap_real_rendered_phone",
+      "passed": true,
+      "evidence": [
+        {
+          "time": 25.1,
+          "side": "left",
+          "intersection_pixels": 4575
+        },
+        {
+          "time": 25.1,
+          "side": "right",
+          "intersection_pixels": 4180
+        },
+        {
+          "time": 25.4,
+          "side": "left",
+          "intersection_pixels": 4575
+        },
+        {
+          "time": 25.4,
+          "side": "right",
+          "intersection_pixels": 4180
+        },
+        {
+          "time": 25.7,
+          "side": "left",
+          "intersection_pixels": 4575
+        },
+        {
+          "time": 25.7,
+          "side": "right",
+          "intersection_pixels": 4180
+        },
+        {
+          "time": 26.3,
+          "side": "left",
+          "intersection_pixels": 4575
+        },
+        {
+          "time": 26.3,
+          "side": "right",
+          "intersection_pixels": 4180
+        },
+        {
+          "time": 28.2,
+          "side": "left",
+          "intersection_pixels": 7125
+        },
+        {
+          "time": 28.2,
+          "side": "right",
+          "intersection_pixels": 6359
+        },
+        {
+          "time": 29.2,
+          "side": "left",
+          "intersection_pixels": 7125
+        },
+        {
+          "time": 29.2,
+          "side": "right",
+          "intersection_pixels": 6359
+        }
+      ]
+    },
+    {
+      "check": "reaction_eyes_remain_partly_visible_in_intentional_close_crop",
+      "passed": true,
+      "evidence": [
+        {
+          "time": 23.3,
+          "side": "l",
+          "outline_visible_fraction": 0.6931877275091004
+        },
+        {
+          "time": 23.3,
+          "side": "r",
+          "outline_visible_fraction": 0.6563106796116505
+        },
+        {
+          "time": 23.6,
+          "side": "l",
+          "outline_visible_fraction": 0.5748700173310225
+        },
+        {
+          "time": 23.6,
+          "side": "r",
+          "outline_visible_fraction": 0.7582292849035187
+        },
+        {
+          "time": 24.1,
+          "side": "l",
+          "outline_visible_fraction": 0.4328022168340838
+        },
+        {
+          "time": 24.1,
+          "side": "r",
+          "outline_visible_fraction": 0.8749188838416613
+        },
+        {
+          "time": 24.5,
+          "side": "l",
+          "outline_visible_fraction": 0.43405067684831655
+        },
+        {
+          "time": 24.5,
+          "side": "r",
+          "outline_visible_fraction": 0.8772697795071336
+        }
+      ]
+    },
+    {
+      "check": "full_head_silhouettes_fit_non_insert_views",
+      "passed": true,
+      "evidence": [
+        {
+          "time": 0.3,
+          "bbox": [
+            304.0,
+            724.0,
+            724.0,
+            1116.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 4.9,
+          "bbox": [
+            236.0,
+            644.0,
+            836.0,
+            1212.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 7.5,
+          "bbox": [
+            240.0,
+            656.0,
+            840.0,
+            1204.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 9.8,
+          "bbox": [
+            232.0,
+            624.0,
+            836.0,
+            1196.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 11.9,
+          "bbox": [
+            172.0,
+            544.0,
+            996.0,
+            1300.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 13.5,
+          "bbox": [
+            196.0,
+            684.0,
+            812.0,
+            1268.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 15.35,
+          "bbox": [
+            236.0,
+            672.0,
+            832.0,
+            1232.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 16.7,
+          "bbox": [
+            240.0,
+            668.0,
+            840.0,
+            1220.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 18.7,
+          "bbox": [
+            248.0,
+            812.0,
+            896.0,
+            1404.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 20.5,
+          "bbox": [
+            256.0,
+            824.0,
+            908.0,
+            1420.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 24.75,
+          "bbox": [
+            236.0,
+            768.0,
+            836.0,
+            1336.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 25.12,
+          "bbox": [
+            236.0,
+            336.0,
+            836.0,
+            908.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 25.3,
+          "bbox": [
+            236.0,
+            320.0,
+            836.0,
+            888.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 25.7,
+          "bbox": [
+            236.0,
+            340.0,
+            836.0,
+            908.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 26.3,
+          "bbox": [
+            236.0,
+            368.0,
+            836.0,
+            936.0
+          ],
+          "inside": true
+        },
+        {
+          "time": 29.2,
+          "bbox": [
+            164.0,
+            556.0,
+            916.0,
+            1264.0
+          ],
+          "inside": true
+        }
+      ]
+    },
+    {
+      "check": "different_drawn_tabletop_surfaces",
+      "passed": true,
+      "evidence": {
+        "tabletop_sha256": {
+          "wide_high": "79f4c2434345265d7c9d1447d0091d2d1b20de5c4c196b2abbaebe35f2cc19f9",
+          "medium": "999e0840880a722c9b14bd955fa0d0c55c612d452b2b02c2a8b50798891556d3",
+          "low": "4e1607bdfc7986cf7eca07221c2ed17c829d70f371c1d630c503b43fffd5c9ce"
+        },
+        "limit": "Different geometry verified; perspective and emotional staging also require the separate visual critique."
+      }
+    },
+    {
+      "check": "18_cues_assets_and_timeline_match",
+      "passed": true,
+      "evidence": {
+        "cue_count": 18,
+        "mismatches": [],
+        "cue_contacts_match": true
+      }
+    },
+    {
+      "check": "pcm_30s_48khz_stereo_unclipped",
+      "passed": true,
+      "evidence": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 1440000,
+        "bits": 16,
+        "peak_dbfs": -19.810695748397023,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "check": "stems_recombine",
+      "passed": true,
+      "evidence": {
+        "maximum_error_lsb": 0
+      }
+    },
+    {
+      "check": "sound_bank_and_mix_preserved_from_v3",
+      "passed": true,
+      "evidence": {
+        "mix_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41"
+      }
+    },
+    {
+      "check": "frozen_sources_unchanged",
+      "passed": true,
+      "evidence": {
+        "files": 13,
+        "changed": []
+      }
+    },
+    {
+      "check": "hd_exports_720_frames_30s",
+      "passed": true,
+      "evidence": {
+        "sound_video": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1088,
+            "coded_height": 1920,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 368640,
+            "duration": "30.000000",
+            "bit_rate": "707628",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "720",
+            "nb_read_frames": "720",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc61.19.101 libx264"
+            }
+          }
+        ],
+        "silent_video": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1088,
+            "coded_height": 1920,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 368640,
+            "duration": "30.000000",
+            "bit_rate": "707628",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "720",
+            "nb_read_frames": "720",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc61.19.101 libx264"
+            }
+          }
+        ],
+        "audio": [
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1440000,
+            "duration": "30.000000",
+            "bit_rate": "27629",
+            "nb_frames": "1408",
+            "nb_read_frames": "1407",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "check": "identical_h264_in_sound_and_silent",
+      "passed": true,
+      "evidence": {
+        "h264_sha256": [
+          "20aa2f2b3a9ac2b26d7b9c7dc2da7367e486e85ede1965a18b231131ece8cc12",
+          "20aa2f2b3a9ac2b26d7b9c7dc2da7367e486e85ede1965a18b231131ece8cc12"
+        ]
+      }
+    },
+    {
+      "check": "12_hd_decoded_frames_match_fresh_renders",
+      "passed": true,
+      "evidence": [
+        {
+          "frame": 20,
+          "mean_abs_rgb_error": 1.5358371913580247,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 97,
+          "mean_abs_rgb_error": 1.57231545781893,
+          "p99_rgb_error": 8.0
+        },
+        {
+          "frame": 156,
+          "mean_abs_rgb_error": 1.446896701388889,
+          "p99_rgb_error": 3.0
+        },
+        {
+          "frame": 183,
+          "mean_abs_rgb_error": 1.614428208590535,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 286,
+          "mean_abs_rgb_error": 1.6033650012860083,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 325,
+          "mean_abs_rgb_error": 1.6015189364711935,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 402,
+          "mean_abs_rgb_error": 1.616237622170782,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 493,
+          "mean_abs_rgb_error": 1.546742058899177,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 541,
+          "mean_abs_rgb_error": 1.4324445408950617,
+          "p99_rgb_error": 4.0
+        },
+        {
+          "frame": 568,
+          "mean_abs_rgb_error": 1.543379468878601,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 617,
+          "mean_abs_rgb_error": 1.653595357510288,
+          "p99_rgb_error": 9.0
+        },
+        {
+          "frame": 699,
+          "mean_abs_rgb_error": 1.5363974086934156,
+          "p99_rgb_error": 7.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Checks do not establish comedy or audience approval; separate visual critique applies.",
+    "No real listening or audio comfort approval claimed."
+  ],
+  "files": {
+    "episodes/patch_01_coffre_v4/PATCH_Le_coffre_V4.mp4": "38242f064ebaff7e0b60457f95b3b622756967fa085a584a69397bd79aa3e0c0",
+    "episodes/patch_01_coffre_v4/PATCH_Le_coffre_V4_muet.mp4": "55b8368f648a7e2c6afcdbec70974006dec42c448b1b9108860410fd033e83a6",
+    "episodes/patch_01_coffre_v4/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+    "episodes/patch_01_coffre_v4/chronologie.json": "ea319df2d1f71a2fece26d69e62133f0f36d025ad578ed183363a72329e83e0f"
+  }
+}
