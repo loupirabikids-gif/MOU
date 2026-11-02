@@ -1,0 +1,37 @@
+{
+  "sources": {
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/jeu_visage.py": "d728a0bc3c726f7e3da95e7be7c463d12568768fe87fbfb42bb8f0d5b0350ac4",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/etude.py": "421451a6524af4bbd7f3d3d3408fadd4695336b78f4f05563b3573d2b4d00de8",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/performance.py": "c0f210d9169f5c1da29a1dd40a2edf4b00934066d3542cac01dacfdc595dafbf",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/cooking_fx.py": "f3e522fb3a953dcadc647b1f6fb5711029d2dbdc0d23923463c17c2dffbedc27",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/sink.py": "5a45bc7b0c5d8c2e9d2e7b52b2505d8ef1830a25dacf5a65f37f5416eb2675f8",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/animation.py": "f7761df3488324b38d52cea09d7ce9bd6510cc827595f728b2f98b544050c9d2",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/intentions.py": "e08ad57fe669fdae9e2632e504326ffa8de0ac379e95456160016c1c9863d9ae",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_performance.py": "6a3e64adfce3445ed9acd78721c5dda813325d9f7ef7865ab4156971855c281b",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_renderer.py": "8cfaacafacb90c648b06095ded75543d425a49ccb7b9b84f161a242e5ce8b41b",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_jeu_visage.py": "2725f1dc7e4be5eb8bea7565b03b2cd23c723a4019ccfb3270b8d47f3970ef07",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/art.py": "481475ec22011957c341726e616b665841af723450cac6028411153349f2f924",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_animation.py": "b079195b7599a5a21042370d38480a780329b2378af9f0eeb536d97fc854e917",
+    "/workspace/MOU/episodes/03/etude_grain_v1/chronologie.json": "d9043ff17d5aaa418940d1f0eb999ed51ab266c0c22e7dcc68bfcc9a5c39ff2f",
+    "/workspace/MOU/episodes/03/etude_grain_v1/chronologie_reference_v25.json": "e8586365c28bc84ca6cf2d6427e22ecec5debe9f7df57c10a310534856584d99",
+    "/workspace/MOU/episodes/03/etude_grain_v1/assets/Nunito-wght.ttf": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+    "/workspace/MOU/mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+    "/workspace/MOU/episodes/03/test_remuer/sources/animation.py": "d6883d83cbd669ea08bf85fe5d40182f027c7ab28d15b9d7a2a011d0bb98f5f4",
+    "/workspace/MOU/episodes/03/decor/MOU_cuisine_decor.svg": "7e5292c066a8bdafca4ae42586fbf89ca62f6a45dcbca468bf9b748f19da2d49"
+  },
+  "output": "MOU_Le_grain_5s_muet.mp4",
+  "sha256": "fc8cb8acd8937315e9c9b33484ded261441a50b052168d7fe7c2c4cf6240e6b0",
+  "seconds": 5,
+  "frames": 120,
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "audio_streams": 0
+}

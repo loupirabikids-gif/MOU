@@ -1,0 +1,81 @@
+{
+  "fps": 24,
+  "duration_seconds": 2.75,
+  "frames": 66,
+  "actor_transform": [
+    80,
+    380,
+    2.3
+  ],
+  "face_rotation_pivot_native": [
+    205,
+    250
+  ],
+  "shots": [
+    {
+      "id": "medium_cause",
+      "start": 0,
+      "stop": 26,
+      "information": "Regard aux déchets après la chute au sol"
+    },
+    {
+      "id": "face_audience",
+      "start": 26,
+      "stop": 66,
+      "information": "Regard au public puis gêne tenue"
+    }
+  ],
+  "face_poses": {
+    "relief": {
+      "eye_open_l": 0.67,
+      "eye_open_r": 0.72,
+      "brow_raise": 0.15,
+      "brow_l": 0.25,
+      "brow_r": 0.25,
+      "smile": 0.48,
+      "mouth_open": 0.0
+    },
+    "discovery": {
+      "eye_open_l": 1.0,
+      "eye_open_r": 1.0,
+      "brow_raise": 0.95,
+      "brow_l": 0.05,
+      "brow_r": 0.05,
+      "smile": 0.0,
+      "mouth_open": 0.4
+    },
+    "caught": {
+      "eye_open_l": 0.77,
+      "eye_open_r": 0.92,
+      "brow_raise": 0.4,
+      "brow_l": 0.85,
+      "brow_r": 0.55,
+      "smile": -0.3,
+      "mouth_open": 0.025
+    }
+  },
+  "exposure_holds": [
+    {
+      "start": 0,
+      "stop": 3,
+      "purpose": "Se croire encore quitte avant de regarder le sol"
+    },
+    {
+      "start": 14,
+      "stop": 26,
+      "purpose": "Découverte et arrêt du corps exposés avant la coupe"
+    },
+    {
+      "start": 35,
+      "stop": 36,
+      "purpose": "Le regard atteint le public avant la bouche qui se referme"
+    },
+    {
+      "start": 51,
+      "stop": 66,
+      "purpose": "Réaction finale tenue0,625s"
+    }
+  ],
+  "hand_action_frames": {},
+  "limits": "V25 : plaisir, application, soulagement puis vraie découverte du gaspillage. Corps/costume/bras partagent une rotation rigide, pieds au sol. Contacts de cuisine conservés. Aucune écoute ou réussite comique certifiée."
+}

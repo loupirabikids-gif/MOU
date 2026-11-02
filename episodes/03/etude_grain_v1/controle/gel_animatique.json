@@ -1,0 +1,32 @@
+{
+  "sources": {
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_acting.py": "cb6ccd1d7f759a6ef8758ba54fae63f02557d30c701de2b12b5cc7b4cf3c9d5f",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/jeu_visage.py": "d728a0bc3c726f7e3da95e7be7c463d12568768fe87fbfb42bb8f0d5b0350ac4",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/costume.py": "4e49f49bbaeab88822f6ea43257c008fff2b38ba43f4981cd137385bef95b595",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/etude.py": "9a8a1facdec18ce95042e5c4e736514cbc922441f3c36ede74568acb179fcf91",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/performance.py": "c0f210d9169f5c1da29a1dd40a2edf4b00934066d3542cac01dacfdc595dafbf",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/cooking_fx.py": "f3e522fb3a953dcadc647b1f6fb5711029d2dbdc0d23923463c17c2dffbedc27",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/sink.py": "5a45bc7b0c5d8c2e9d2e7b52b2505d8ef1830a25dacf5a65f37f5416eb2675f8",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/mitten.py": "bf4c1cf55d7189411091fb092f623a66d60457beebc9b19543b9cd03a9e02bd0",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/animation.py": "f7761df3488324b38d52cea09d7ce9bd6510cc827595f728b2f98b544050c9d2",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/verify.py": "d3f6cf78aab5c2ba4581250ffcf7aaee5c0d4eb3aaa74b6914f0e38f74ddd651",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/intentions.py": "e08ad57fe669fdae9e2632e504326ffa8de0ac379e95456160016c1c9863d9ae",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_performance.py": "6a3e64adfce3445ed9acd78721c5dda813325d9f7ef7865ab4156971855c281b",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_renderer.py": "8cfaacafacb90c648b06095ded75543d425a49ccb7b9b84f161a242e5ce8b41b",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/visage.py": "f45f6c16ae021f211f3956ebfd3d3ea31c9fbeefd1fb9d4430d59f0a25bc6412",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_jeu_visage.py": "2725f1dc7e4be5eb8bea7565b03b2cd23c723a4019ccfb3270b8d47f3970ef07",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/art.py": "481475ec22011957c341726e616b665841af723450cac6028411153349f2f924",
+    "/workspace/MOU/episodes/03/etude_grain_v1/sources/reference_animation.py": "b079195b7599a5a21042370d38480a780329b2378af9f0eeb536d97fc854e917"
+  },
+  "output": "MOU_Le_grain_animatique_muette.mp4",
+  "sha256": "beefd779bbc339dabf54bfce5b13fab3de63fac20303ea26746c6b1cbb601a5d",
+  "seconds": 5,
+  "frames": 120,
+  "fps": 24,
+  "dimensions": [
+    540,
+    960
+  ],
+  "audio_streams": 0
+}

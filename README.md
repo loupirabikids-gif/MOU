@@ -1,5 +1,15 @@
 # MOU
 
+**Nouvel essai muet : Le grain — cinq secondes, trois attitudes.**
+
+**[Voir l'essai](episodes/03/etude_grain_v1/MOU_Le_grain_5s_muet.mp4?raw=true)** ·
+[Trois poses](episodes/03/etude_grain_v1/MOU_trois_poses.png) ·
+[Sources et contrôles](episodes/03/etude_grain_v1/).
+
+MOU reprend sa cuillère malgré un grain de sel sur sa moufle, s'arrête puis
+va le laver. Essai de jeu sans vocalisation ou texte explicatif, à apprécier
+avant toute nouvelle fabrication complète.
+
 **Retour sur V30 : réalisation jugée fade, comédie et expressions insuffisantes.**
 La version reste consultable, mais ne constitue pas une référence artistique
 approuvée. [Diagnostic et reprise proposée](episodes/03/developpement/reprise_apres_v30/).

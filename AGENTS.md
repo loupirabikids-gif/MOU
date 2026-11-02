@@ -1,5 +1,19 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande du 2 novembre 2026 « Vas y » : fabriquer les trois attitudes et
+l'essai MUET de cinq secondes proposés après le rejet de V30. Dossier isolé
+`episodes/03/etude_grain_v1/`, MOU original avec ses bras/moufles natifs,
+même cuisine et costume. Un grain de sel reste sur sa main gauche après
+assaisonnement ; il veut l'ignorer, reprend sa cuillère, s'arrête puis cède
+avec une gravité disproportionnée et le lave. Aucun texte explicatif, musique
+ou vocalisation ; ne pas reprendre tout le film de 38 s. Le coordinateur
+possède le producteur et les exports, le dessinateur intentions.py, la
+critique ses rapports et la QA son contrôleur. Revoir les poses puis le vrai
+montage avant HD. Les deux premières réserves de dessin et la première
+reprise trop discrète ont été corrigées. Livrer trois poses et petit MP4
+1080 × 1920 sur GitHub dans l'autorisation existante, avec sources. Ne pas
+présenter une QA passée comme validation de la comédie par l'utilisatrice.
+
 Retour après V30 : l'utilisatrice juge la vidéo fade et mal réalisée malgré
 une bonne idée. Elle ne ressent pas la comédie, rejette le jeu du visage et
 trouve les soupirs/signaux vocaux peu compréhensibles. V30 n'est donc pas une

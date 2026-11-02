@@ -1,0 +1,31 @@
+{
+  "file": "MOU_Le_grain_sources.zip",
+  "sha256": "e699c4c48a8e6fba14c7edea920dfd205143094ec179814cfe3d4057c312d49e",
+  "bytes": 2534441,
+  "payload_files": 64,
+  "crc_ok": true,
+  "all_payload_sha256_match": true,
+  "cold_reproduction": {
+    "three_svg_and_png540_bit_exact": true,
+    "sample_times": [
+      0.45,
+      2.15,
+      4.7
+    ],
+    "no_old_episode_or_cache_in_archive": true,
+    "samples": {
+      "0.45": {
+        "svg_sha256": "b11c7c0065b3528aca12eca526e5b50e010e2e3c2545a2e0d4df2cca349f014e",
+        "png_sha256": "b0656a27623c5c7351bf049bf545e1ac2d7e2f5d646df1b8466fb599c6156cbe"
+      },
+      "2.15": {
+        "svg_sha256": "8191fe455508ed0f86ff70bb9d50f52e431ada10e556097f9968a7623e313e63",
+        "png_sha256": "e5058dda0257f9481c676fef50cf55e7a7a3a303b84a460333efc55bb3555317"
+      },
+      "4.7": {
+        "svg_sha256": "2cf3fccbc4300accec3682ce2b22d90c5dee6cd45ed5ba7e01bf5e7bdd9bc4bb",
+        "png_sha256": "0be80e80fd82550699f218aef906a2196963d019e268e4b95666bba6277cbb42"
+      }
+    }
+  }
+}
