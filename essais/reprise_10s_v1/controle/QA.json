@@ -1,0 +1,156 @@
+{
+  "observed_at_utc": "2026-11-02T14:07:58.535684+00:00",
+  "sources": {
+    "essais/reprise_10s_v1/sources/package.py": "bfdcbbe1eb20f5a1b1b204247eb6001fbcb095569ed3892f92c79023e6fc20fe",
+    "essais/reprise_10s_v1/sources/palette.json": "ce3989b01daaaa1b6930688beaf92ec0afebf9e4523dca156460d0307c826b0c",
+    "essais/reprise_10s_v1/sources/personnage.py": "3519a6ba0366ee218e63fe53e44c42a44a69a148c153e6a67a8dc84c2efe8b45",
+    "essais/reprise_10s_v1/sources/render.py": "4ac09f27e7b1e9d1e4e901ee768619d0bb762499b8cfe2b7393b94ad7d587590",
+    "essais/reprise_10s_v1/sources/scene.py": "06ef48dae64eb6b4aefd3ad386a9be5f40929c5b11f7593bb27d090098bcb833"
+  },
+  "checks": [
+    {
+      "check": "previous_rigs_and_films_preserved",
+      "passed": true,
+      "evidence": {
+        "files": 6,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "all_svg_states_are_finite",
+      "passed": true,
+      "evidence": {
+        "frames": 240
+      }
+    },
+    {
+      "check": "two_eyes_two_feet_no_arms_and_valid_unique_clips",
+      "passed": true,
+      "evidence": {
+        "frames": 240,
+        "failed_frames": []
+      }
+    },
+    {
+      "check": "feet_rest_on_ground_and_follow_only_the_intended_hop",
+      "passed": true,
+      "evidence": {
+        "max_error_world_pixels": 4.625120254786452e-06,
+        "hop_window_seconds": [
+          1.96,
+          2.38
+        ]
+      }
+    },
+    {
+      "check": "whole_body_visible_in_wide_shot",
+      "passed": true,
+      "evidence": {
+        "failed_frames": [],
+        "reaction_insert_seconds": 7.75
+      }
+    },
+    {
+      "check": "feather_does_not_touch_before_impact",
+      "passed": true,
+      "evidence": {
+        "minimum_gap_pixels": 3.169088169642915,
+        "last_preimpact_frame": [
+          84,
+          3.169088169642915
+        ]
+      }
+    },
+    {
+      "check": "feather_stays_on_the_actual_drawn_head_during_load",
+      "passed": true,
+      "evidence": {
+        "contact_frame_range": [
+          85,
+          134
+        ],
+        "gap_range_pixels": [
+          -1.4062082798850535,
+          -1.3822734374998655
+        ],
+        "measurement": "Native SVG outline sampled, transformed and expanded by stroke; feather shaft cap included."
+      }
+    },
+    {
+      "check": "large_squash_starts_at_contact_not_during_approach",
+      "passed": true,
+      "evidence": {
+        "minimum_sy_before_contact": 0.9300256799768519,
+        "minimum_sy_first_three_impact_frames": 0.42999999999999994
+      }
+    },
+    {
+      "check": "final_mp4_is_hd_ten_seconds_and_silent",
+      "passed": true,
+      "evidence": {
+        "width": 1080,
+        "height": 1920,
+        "fps": "24/1",
+        "frames": "240",
+        "duration": "10.000000",
+        "audio_streams": 0
+      }
+    },
+    {
+      "check": "decoded_export_matches_fresh_renders_not_cache",
+      "passed": true,
+      "evidence": [
+        {
+          "frame": 71,
+          "mean_abs_rgb_8bit": 1.4809162808641976,
+          "p99_abs_rgb_8bit": 4.0
+        },
+        {
+          "frame": 85,
+          "mean_abs_rgb_8bit": 1.4703060699588477,
+          "p99_abs_rgb_8bit": 4.0
+        },
+        {
+          "frame": 88,
+          "mean_abs_rgb_8bit": 1.501270736882716,
+          "p99_abs_rgb_8bit": 4.0
+        },
+        {
+          "frame": 108,
+          "mean_abs_rgb_8bit": 1.4736866640946502,
+          "p99_abs_rgb_8bit": 3.0
+        },
+        {
+          "frame": 135,
+          "mean_abs_rgb_8bit": 1.4837022569444445,
+          "p99_abs_rgb_8bit": 4.0
+        },
+        {
+          "frame": 167,
+          "mean_abs_rgb_8bit": 1.4415145961934157,
+          "p99_abs_rgb_8bit": 3.0
+        },
+        {
+          "frame": 216,
+          "mean_abs_rgb_8bit": 1.390209458590535,
+          "p99_abs_rgb_8bit": 4.0
+        },
+        {
+          "frame": 240,
+          "mean_abs_rgb_8bit": 1.3865133101851852,
+          "p99_abs_rgb_8bit": 4.0
+        }
+      ]
+    }
+  ],
+  "video": {
+    "path": "essais/reprise_10s_v1/MOU_Poids_plume_10s_muet.mp4",
+    "sha256": "d5697070a1813d4084e30a15b3ce9f264026e8f038f21f7ce9c48657fac6a6cd"
+  },
+  "limits": [
+    "Contrôle technique distinct de la lecture du gag par la critique et du jugement du public.",
+    "Film muet ; aucun son ni confort d’écoute certifié.",
+    "Le dernier plan est un recadrage volontaire ; la vérification de silhouette entière porte sur le plan large."
+  ],
+  "status": "passed"
+}

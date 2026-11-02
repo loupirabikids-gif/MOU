@@ -1,0 +1,79 @@
+{
+  "title": "Poids plume",
+  "kind": "essai_interne_de_jeu",
+  "fps": 24,
+  "duration": 10.0,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "audio": false,
+  "contact": 3.5,
+  "release": 5.55,
+  "shots": [
+    {
+      "start": 0,
+      "end": 7.75,
+      "viewbox": [
+        0,
+        170,
+        1080,
+        1920
+      ]
+    },
+    {
+      "start": 7.75,
+      "end": 10,
+      "viewbox": [
+        160,
+        650,
+        760,
+        1351.111111111111
+      ]
+    }
+  ],
+  "beats": [
+    {
+      "start": 0,
+      "end": 1.05,
+      "action": "decouvrir",
+      "intention": "Voir la plume ; comprendre sa légèreté",
+      "frame_start": 1
+    },
+    {
+      "start": 1.05,
+      "end": 3.5,
+      "action": "offrir_sa_tete",
+      "intention": "Choisir de la recevoir et afficher son assurance",
+      "frame_start": 27
+    },
+    {
+      "start": 3.5,
+      "end": 4.2,
+      "action": "recevoir_le_poids",
+      "intention": "Écrasement au contact, puis surprise lisible",
+      "frame_start": 85
+    },
+    {
+      "start": 4.2,
+      "end": 5.55,
+      "action": "constater",
+      "intention": "Regard vers la plume posée",
+      "frame_start": 102
+    },
+    {
+      "start": 5.55,
+      "end": 7.55,
+      "action": "essayer_de_se_redresser",
+      "intention": "Plume partie, effort puis retombée",
+      "frame_start": 135
+    },
+    {
+      "start": 7.55,
+      "end": 10,
+      "action": "sauver_les_apparences",
+      "intention": "Constat, regard public, sourire forcé puis tenue",
+      "frame_start": 183
+    }
+  ]
+}

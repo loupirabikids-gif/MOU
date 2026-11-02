@@ -1,5 +1,17 @@
 # MOU
 
+**Essai de reprise : Poids plume — dix secondes muettes.**
+
+**[Voir l'essai](essais/reprise_10s_v1/MOU_Poids_plume_10s_muet.mp4?raw=true)** ·
+[Trois intentions](essais/reprise_10s_v1/MOU_Poids_plume_trois_poses.png) ·
+[Sources et contrôles](essais/reprise_10s_v1/) ·
+[Plan de production hebdomadaire](equipe/PIPELINE_HEBDOMADAIRE.md).
+
+MOU compact offre sa tête à une plume, s'écrase et tente de garder sa dignité.
+Test isolé de jeu en poses, sans bras, musique ni dialogue. Les anciens modèles
+et épisodes restent conservés. La lecture de cet essai précède les deux futurs
+pilotes et la mesure d'une cadence hebdomadaire.
+
 **Nouvel essai muet : Le grain — cinq secondes, trois attitudes.**
 
 **[Voir l'essai](episodes/03/etude_grain_v1/MOU_Le_grain_5s_muet.mp4?raw=true)** ·

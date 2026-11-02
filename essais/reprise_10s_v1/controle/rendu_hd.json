@@ -1,0 +1,12 @@
+{
+  "source_sha256": "d07e239514824ab34c8e670e94e6e1a65ea7b89a52195ac6215894773b9c6cd6",
+  "file": "MOU_Poids_plume_10s_muet.mp4",
+  "sha256": "d5697070a1813d4084e30a15b3ce9f264026e8f038f21f7ce9c48657fac6a6cd",
+  "frames": 240,
+  "fps": 24,
+  "duration": 10.0,
+  "width": 1080,
+  "height": 1920,
+  "audio": false,
+  "elapsed_seconds": 7.67
+}

@@ -1,5 +1,33 @@
 # MOU — équipe de création de courts épisodes humoristiques
 
+Commande actuelle « d'acc » après la remise à zéro du plan de production :
+fabriquer l'essai MUET de dix secondes proposé, puis juger le jeu avant les
+deux futurs pilotes. Dossier isolé `essais/reprise_10s_v1/`. Animation 2D en
+poses avec Python/SVG/CairoSVG/FFmpeg ; personnage compact citron reprenant
+la silhouette de Galet, deux yeux, sourcils et bouche, sans bras dans ce test.
+Cette simplification est autorisée par le dernier échange ; elle ne modifie
+aucun ancien dessin, rig, épisode ou fichier Blender. « Poids plume » est
+choisi parmi cinq pistes et revu par la critique avant fabrication : il offre
+sa tête à une plume, s'écrase au contact et tente de garder sa dignité.
+Trois intentions, un accessoire, aucun texte explicatif, dialogue ou musique.
+Le coordinateur possède scène, chronologie, rendu, export et archive ; dessin
+possède personnage.py/palette.json, scénariste ses cinq pistes, critique ses
+rapports. Revoir les vraies poses puis le montage léger complet avant HD.
+Ce test interne ne prétend pas à une nouvelle veille Shorts complète, à une
+approbation artistique ou à une cadence hebdomadaire déjà démontrée. Conserver
+les études et critiques disponibles. Livraison GitHub selon l'accord existant,
+aucune diffusion sociale. La production hebdomadaire reste un objectif à
+mesurer après deux pilotes et une écoute humaine du son final.
+
+Essai réalisé : MP4 muet dix secondes d5697070…a6cd, trois poses et sources
+dans le même dossier. Après revue de l'animatique, l'effort de redressement
+6,35–6,90 s a été clarifié par une crispation puis la réouverture des yeux.
+La critique du vrai HD ne retient plus de défaut bloquant sur les passages
+revus. QA indépendante : 240 états, contact réel, huit images décodées face
+à des rendus frais et six références intactes. Aucun son ou dialogue ajouté.
+Le résultat reste un essai à juger, pas une approbation de la série ou de la
+cadence ; ne pas déclencher les deux pilotes à partir de la seule QA.
+
 Commande courante du 2 novembre 2026 « GO pour cela » : réaliser le prototype
 Blender proposé, avec trois poses et un essai muet de cinq secondes, en
 empruntant à doodle-anim les mécanismes utiles de découpage, attentes et
