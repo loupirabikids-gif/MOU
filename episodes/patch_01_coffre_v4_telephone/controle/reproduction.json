@@ -1,0 +1,89 @@
+{
+  "method": "ZIP extrait séparément ; seize rendus frais des contacts et du reste, sans V4/cache de rendu/réseau. Dépendances Python du poste utilisées.",
+  "frames": [
+    {
+      "frame": 1,
+      "sha256": "586868000d27ce58938a0dd56d3c8eb1785c89ba7f6111a98510dcddb509b692",
+      "identical": true
+    },
+    {
+      "frame": 40,
+      "sha256": "32e6295c64acc8f95761dcf3fe35035bec3dd2fc169b898e036d3306556c89af",
+      "identical": true
+    },
+    {
+      "frame": 42,
+      "sha256": "39ac4c05b248eb0ffaa7297eb3d1492827d8e65d59e4855f17177bf9d4568d7e",
+      "identical": true
+    },
+    {
+      "frame": 68,
+      "sha256": "d0c3aec9e91e9b87f9c4d7244ef8d9ea8c2542b405f543d1221b3f3494094643",
+      "identical": true
+    },
+    {
+      "frame": 70,
+      "sha256": "37d20057c207e3a9c13611d2f66361a7da33eee16c945934034c2e94b86f39b9",
+      "identical": true
+    },
+    {
+      "frame": 74,
+      "sha256": "53f72a2e15f61a721cc4933a294201fa7eaa695dfefdcd64c46ffd7afbbd53ae",
+      "identical": true
+    },
+    {
+      "frame": 78,
+      "sha256": "dbbcff951df69a8a21fe64dc8b51d9e029bd32346ee1856aad92a0d0790bef3e",
+      "identical": true
+    },
+    {
+      "frame": 86,
+      "sha256": "4d9ebe9ba770328b42f40cb01ccd35d7e258add3a780301727aab8d4894f4428",
+      "identical": true
+    },
+    {
+      "frame": 480,
+      "sha256": "220594d83978d1ee2b98de3bb1d03a0fee161becd8b7a01d642f3947ecffeaa9",
+      "identical": true
+    },
+    {
+      "frame": 574,
+      "sha256": "b329703cea9965c2b40f0af440afc6663b563d57e93b8d1536f966e6ce8a8a28",
+      "identical": true
+    },
+    {
+      "frame": 578,
+      "sha256": "ca67e8f8203d9a72d60be038c48f9ac4c40d234dc1e2175d0487f2e23cbb2685",
+      "identical": true
+    },
+    {
+      "frame": 583,
+      "sha256": "09c8588b5546d0eb0afcf9d1c61ed66a24530f97b76131cbbeda631b984a167c",
+      "identical": true
+    },
+    {
+      "frame": 589,
+      "sha256": "01ed450eb74cb97763ad78559eb49b18fe230893e868bff7a03ad1b7914c79b8",
+      "identical": true
+    },
+    {
+      "frame": 593,
+      "sha256": "78dc1ec70cc4e288915893b39511d08d2008a00b77ac4dfbc967efd3a21f4127",
+      "identical": true
+    },
+    {
+      "frame": 620,
+      "sha256": "979bcf4ec6cccb543244ccee78afc2e9496370c12e90f976a9146653af5c430a",
+      "identical": true
+    },
+    {
+      "frame": 700,
+      "sha256": "bd19e1fef5e6fac42603288496ad2e0328af3289f46f80a2491cfb9311f852da",
+      "identical": true
+    }
+  ],
+  "all_sampled_png_identical": true,
+  "wav_identical": true,
+  "wav_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+  "limit": "Seize PNG et PCM entier vérifiés. Pas d’identité binaire MP4 ou régénération complète des720PNG revendiquée."
+}

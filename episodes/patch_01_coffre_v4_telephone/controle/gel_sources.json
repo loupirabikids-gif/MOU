@@ -1,0 +1,19 @@
+{
+  "note": "Correctif local après revue des images consécutives de la vraie animatique. Autres dessins/vues/son conservés.",
+  "files": {
+    "episodes/patch_01_coffre_v4_telephone/sources/cadres.json": "f31e6a90f0a7cb0f14583407befb9eeef886ee5fc2c3a2527c07bd9a935901b8",
+    "episodes/patch_01_coffre_v4_telephone/sources/jeu.py": "4c28f8892782b1813d4340c4cb32b11f107b38912295d58dc62915f5a6b7864e",
+    "episodes/patch_01_coffre_v4_telephone/sources/package.py": "51ada12d46f74ffa6d6ee0246ade7079af0ae86194fd8dbdf74e4d67d484aed9",
+    "episodes/patch_01_coffre_v4_telephone/sources/palette.json": "42d905009d4e53603db26e964168083bf652b4a583e4ff1442dc0f239aa116b0",
+    "episodes/patch_01_coffre_v4_telephone/sources/personnage.py": "b065998b4d1fe1298322cd842a61016b9d9e6f2bdb8cafe758db9965c2ea1f14",
+    "episodes/patch_01_coffre_v4_telephone/sources/reference_scene.py": "06e090059e1549f6e96b12edbfbc34b5ae41de46e0cc63ef922dc46ffa6d9b0b",
+    "episodes/patch_01_coffre_v4_telephone/sources/render.py": "3f88489b750f5d325e47155d5addceb058ec2bf0f77ee010e72fe8e47f0badf7",
+    "episodes/patch_01_coffre_v4_telephone/sources/scene.py": "d835eeba6ea0f799a33ef2d49e788a3743668b571cace5cd18e190dc6c2611ed",
+    "episodes/patch_01_coffre_v4_telephone/sources/scene_base.py": "3a86ff73ba6b3704b7f5df3c0cb2f970130170fa759973b9549fe6523baf6d64",
+    "episodes/patch_01_coffre_v4_telephone/sources/son.py": "be770b835aba6167b9dfbf2cc9a4f63b788f974ee9f89081967c479c30a6272d",
+    "episodes/patch_01_coffre_v4_telephone/sources/telephone.py": "f20d4677e05060967f13d748a44cd1e3a4b3047fbc5f962e5bdda58979517e53",
+    "episodes/patch_01_coffre_v4_telephone/sources/vues.py": "7a4f837aef02219fb749fbf0b44af0d9c9d2720ef35716d3b3784464ab7880c2",
+    "episodes/patch_01_coffre_v4_telephone/chronologie.json": "ea319df2d1f71a2fece26d69e62133f0f36d025ad578ed183363a72329e83e0f",
+    "episodes/patch_01_coffre_v4_telephone/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41"
+  }
+}

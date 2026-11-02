@@ -1,0 +1,322 @@
+{
+  "status": "passed",
+  "scope": "final_hd",
+  "checks": [
+    {
+      "name": "720_finite_states_and_unique_svg_ids",
+      "passed": true,
+      "detail": {
+        "frames": 720,
+        "fps": 24,
+        "duration": 30.0
+      }
+    },
+    {
+      "name": "rig_views_timeline_audio_bank_and_original_refs_unchanged",
+      "passed": true,
+      "detail": {
+        "inputs": {
+          "sources/personnage.py": true,
+          "sources/jeu.py": true,
+          "sources/vues.py": true,
+          "sources/cadres.json": true,
+          "sources/palette.json": true,
+          "sources/scene_base.py": true,
+          "sources/reference_scene.py": true,
+          "chronologie.json": true,
+          "audio/mix.wav": true
+        },
+        "bank_files": 22,
+        "bank_all_identical": true,
+        "protected_refs": {
+          "episodes/patch_01_coffre_v4/PATCH_Le_coffre_V4.mp4": true,
+          "episodes/patch_01_coffre_v4/PATCH_Le_coffre_V4_muet.mp4": true,
+          "episodes/patch_01_coffre_v4/sources/scene.py": true,
+          "episodes/patch_01_coffre_v4/sources/personnage.py": true,
+          "episodes/patch_01_coffre_v4/sources/jeu.py": true,
+          "episodes/patch_01_coffre_v4/sources/vues.py": true,
+          "episodes/patch_01_coffre_v4/sources/cadres.json": true,
+          "episodes/patch_01_coffre_v4/audio/mix.wav": true
+        }
+      }
+    },
+    {
+      "name": "phone_path_ownership_depth_story_and_views_unchanged",
+      "passed": true,
+      "detail": {
+        "bad_frames_zero": []
+      }
+    },
+    {
+      "name": "wrist_and_grip_no_single_frame_snaps",
+      "passed": true,
+      "detail": [
+        {
+          "window": [
+            1.4,
+            3.55
+          ],
+          "new_max_wrist_degrees_per_frame": 16.26950723153565,
+          "old_max_wrist_degrees_per_frame": 84.96203838678328,
+          "new_max_grip_per_frame": 0.32160723650896905
+        },
+        {
+          "window": [
+            23.2,
+            24.7
+          ],
+          "new_max_wrist_degrees_per_frame": 18.119697252708576,
+          "old_max_wrist_degrees_per_frame": 84.39041453834372,
+          "new_max_grip_per_frame": 0.23624785214403354
+        }
+      ]
+    },
+    {
+      "name": "continuous_ownership_and_cut_contacts",
+      "passed": true,
+      "detail": [
+        {
+          "at": 1.7,
+          "phone_center_jump": 4.6678104420091434e-11,
+          "paw_wrist_jump": 4.629185923477053e-12,
+          "grip_jump": 1.4941406258905943e-06
+        },
+        {
+          "at": 2.8,
+          "phone_center_jump": 1.170477633080168e-11,
+          "paw_wrist_jump": 5.4996007747831754e-12,
+          "grip_jump": 0.0
+        },
+        {
+          "at": 24.05,
+          "phone_center_jump": 1.184800130358125e-11,
+          "paw_wrist_jump": 2.4641622076160274e-11,
+          "grip_jump": 1.005822701460879e-06
+        },
+        {
+          "at": 24.7,
+          "phone_center_jump": 5.275118273002673e-12,
+          "paw_wrist_jump": 5.6843418860808015e-12,
+          "grip_jump": 0.0
+        }
+      ]
+    },
+    {
+      "name": "settle_pause_retreat_then_lid_closes",
+      "passed": true,
+      "detail": {
+        "held_palms": [
+          [
+            857.0,
+            1300.0
+          ],
+          [
+            857.0,
+            1300.0
+          ],
+          [
+            857.0,
+            1300.0
+          ],
+          [
+            857.0,
+            1300.0
+          ]
+        ],
+        "retreat_y": [
+          1300.0,
+          1259.3586005830903,
+          1154.7667638483965,
+          1095.0
+        ],
+        "lid": [
+          1.0,
+          0.8017492711370271,
+          0.393586005830904,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "paw_oriented_before_retrieval",
+      "passed": true,
+      "detail": {
+        "at": 24.049999,
+        "rotation": -89.9999999969679
+      }
+    },
+    {
+      "name": "phone_above_sleeves_below_front_and_palms",
+      "passed": true,
+      "detail": {
+        "bad_frames_zero": []
+      }
+    },
+    {
+      "name": "turn_has_real_edge_frame_and_back_before_cut",
+      "passed": true,
+      "detail": [
+        {
+          "t": 24.35,
+          "face": "screen",
+          "plane_x": 1.0,
+          "rendered_alpha_area": 43289
+        },
+        {
+          "t": 24.5,
+          "face": "back",
+          "plane_x": 0.055,
+          "rendered_alpha_area": 4443
+        },
+        {
+          "t": 24.6666666667,
+          "face": "back",
+          "plane_x": 1.0,
+          "rendered_alpha_area": 43218
+        }
+      ]
+    },
+    {
+      "name": "unchanged_30s_audio_18_cues_stems_no_clipping",
+      "passed": true,
+      "detail": {
+        "wav_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+        "cue_count": 18,
+        "parameters": [
+          48000,
+          2,
+          2,
+          1440000
+        ],
+        "peak_pcm": 3349
+      }
+    },
+    {
+      "name": "all_images_outside_phone_windows_identical",
+      "passed": true,
+      "detail": {
+        "mode": "hd",
+        "cache_sources_sha_valid": true,
+        "protected_frame_count": 632,
+        "different_frames_zero": []
+      }
+    },
+    {
+      "name": "final_export_formats",
+      "passed": true,
+      "detail": {
+        "video_sha256": "e555c0589e92f48aabe3df8186fe6a3be6de1fef0d6aacd0cf15526b22966680",
+        "mute_sha256": "3bc36cb07979bebce909bae47e7020bcbb1e9eb2691778a06442249ad78158c0",
+        "duration": "30.000000",
+        "frames": "720",
+        "aac_present": true
+      }
+    },
+    {
+      "name": "same_h264_in_sound_and_mute",
+      "passed": true,
+      "detail": {
+        "method": "SHA256 of copied H264 elementary streams"
+      }
+    },
+    {
+      "name": "encoded_aac_identical_to_v4",
+      "passed": true,
+      "detail": {
+        "sha256": "61abbc55d81b717cde9797a4d8e1d74bf8dba40ae6ce643a9bc22185e58ba6b2",
+        "v4_sha256": "61abbc55d81b717cde9797a4d8e1d74bf8dba40ae6ce643a9bc22185e58ba6b2"
+      }
+    },
+    {
+      "name": "12_real_hd_decodes_match_fresh_renders",
+      "passed": true,
+      "detail": [
+        {
+          "frame_zero": 40,
+          "mean_error_rgb": 1.5472,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 41,
+          "mean_error_rgb": 1.5464,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 67,
+          "mean_error_rgb": 1.5081,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 68,
+          "mean_error_rgb": 1.5064,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 70,
+          "mean_error_rgb": 1.5068,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 74,
+          "mean_error_rgb": 1.5342,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 575,
+          "mean_error_rgb": 1.5078,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 577,
+          "mean_error_rgb": 1.5028,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 578,
+          "mean_error_rgb": 1.502,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 588,
+          "mean_error_rgb": 1.5193,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 590,
+          "mean_error_rgb": 1.532,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 699,
+          "mean_error_rgb": 1.5365,
+          "p99": 7.0
+        }
+      ]
+    },
+    {
+      "name": "frozen_producers_unchanged",
+      "passed": true,
+      "detail": {
+        "episodes/patch_01_coffre_v4_telephone/sources/cadres.json": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/jeu.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/package.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/palette.json": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/personnage.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/reference_scene.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/render.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/scene.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/scene_base.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/son.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/telephone.py": true,
+        "episodes/patch_01_coffre_v4_telephone/sources/vues.py": true,
+        "episodes/patch_01_coffre_v4_telephone/chronologie.json": true,
+        "episodes/patch_01_coffre_v4_telephone/audio/mix.wav": true
+      }
+    }
+  ],
+  "limits": [
+    "Contrôle technique ciblé ; la critique visuelle indépendante décide de la lisibilité des gestes.",
+    "Aucune audition ni confort sonore certifié.",
+    "Identité PNG hors fenêtres contrôlée avant encodage ; le MP4 compressé peut présenter de petites différences ailleurs."
+  ]
+}

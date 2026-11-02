@@ -1,0 +1,12 @@
+{
+  "file": "PATCH_Le_coffre_V4_telephone_animatique_muette.mp4",
+  "sha256": "fcd12dab0598c705a3c264bb662b5b07ec691cbf8a82228016f94f598be27f6d",
+  "source_sha256": "22a13d1bf3f161852e01730c2c86fa8f8491d9d6403fe8cd5574cb524d1ad03d",
+  "frames": 720,
+  "fps": 24,
+  "duration": 30.0,
+  "width": 540,
+  "height": 960,
+  "audio": false,
+  "elapsed_seconds": 10.66
+}

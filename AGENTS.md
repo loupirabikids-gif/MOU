@@ -1,5 +1,28 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Correction courante : l'utilisatrice signale des défauts quand PATCH pose
+et prend le téléphone de laV4. Variante locale
+`episodes/patch_01_coffre_v4_telephone/`, sans reconstruire les vues ou le jeu
+du reste de l'épisode. Défauts observés sur le vraiMP4 : poignet/grip changent
+d'un coup au lâcher2,8s et à la reprise24,05s ; écran→dos à la coupe24,7s sans
+retournement visible. Lisser les trois prises, marquer le relâchement, orienter
+la paume avant contact et montrer tranche→dos avant la coupe. Garder durée,
+chronologie, sons, personnage, vues et anciens exports. Les PNG de source
+hors fenêtres du correctif doivent rester identiques àV4. Vérifier images
+consécutives et propriétés de rotation/grip ; l'égalité des centres du phone
+ne prouve pas un raccord de main. Root possède correctif/scène/export,
+critique etQA leurs rapports exclusifs. Pas de nouvelle voix/musique ou
+audition revendiquée. LivraisonGitHub dans l'accord existant.
+
+Correctif produit : film son e555c058…66680, muet 3bc36cb0…158c0.
+Revue de 58 images de l'animatique, puis 38 du vrai HD : relâchement,
+reprise et tranche→dos confirmés. QA16 contrôles passés ; les632PNG HD
+hors fenêtres sont identiques àV4, douzeHD concordent avec rendus frais.
+WAV et fluxAAC identiquesV4 ; rig/vues/chronologie préservés. Huit références
+et quatorze fichiers gelés intacts. DepuisZIP16PNG+WAV identiques, pas de
+promesse d'identité binaireMP4 ou d'approbation publique. Les anciens films
+et la vidéo privée de référence ne sont pas modifiés.
+
 Commande courante : corriger l'épisode pour une mise en scène similaire à
 la vidéo de référence, à partir de son analyse complète. Nouvelle V4 isolée
 dans `episodes/patch_01_coffre_v4/`. Produire des dessins de vues distinctes :

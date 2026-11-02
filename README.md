@@ -1,5 +1,15 @@
 # Atelier de courts épisodes
 
+**PATCH V4 — correctif local des prises du téléphone.**
+
+**[Voir le film corrigé avec son](episodes/patch_01_coffre_v4_telephone/PATCH_Le_coffre_V4_telephone.mp4?raw=true)** ·
+[Version muette](episodes/patch_01_coffre_v4_telephone/PATCH_Le_coffre_V4_telephone_muet.mp4?raw=true) ·
+[Sources et contrôles](episodes/patch_01_coffre_v4_telephone/).
+
+Poignets orientés avant la prise, relâchement progressif et courte pose dans
+le coffre ; retournement sur tranche puis dos visible avant la coupe.
+Les cadrages, le reste du jeu, la durée et la bande-son de la V4 sont conservés.
+
 **PATCH V4 — nouvelles vues et joie du corps entier.**
 
 **[Voir le nouvel épisode avec son — 30 secondes](episodes/patch_01_coffre_v4/PATCH_Le_coffre_V4.mp4?raw=true)** ·
