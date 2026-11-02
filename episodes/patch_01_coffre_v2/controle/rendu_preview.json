@@ -1,0 +1,12 @@
+{
+  "file": "PATCH_Le_coffre_30min_animatique_muette.mp4",
+  "sha256": "dd269f32c34adb3e4c73a270015c7d449c1271e2fe24f9515186aee5f934ed83",
+  "source_sha256": "a6cc41dd2a8f7d4b618cadecb9872231211d19980e2c1ea13e3e64c39453f018",
+  "frames": 720,
+  "fps": 24,
+  "duration": 30.0,
+  "width": 540,
+  "height": 960,
+  "audio": false,
+  "elapsed_seconds": 9.06
+}

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "episodes/patch_01_coffre_v2/sources/controle.py": "61633f6f1a1c30b0fcd2eb1dea2990fdd23f730f94b41fb314635ec946c06f1f",
+    "episodes/patch_01_coffre_v2/sources/package.py": "5ec92ee94655a14af60a5176670059fde86f398aa090b3999e34c988b87a3267",
+    "episodes/patch_01_coffre_v2/sources/palette.json": "42d905009d4e53603db26e964168083bf652b4a583e4ff1442dc0f239aa116b0",
+    "episodes/patch_01_coffre_v2/sources/personnage.py": "d85ca67749fe0f3830630b70a49504f22e0933a0b6f4d19b02ed2487a6597ec2",
+    "episodes/patch_01_coffre_v2/sources/reference_scene.py": "06e090059e1549f6e96b12edbfbc34b5ae41de46e0cc63ef922dc46ffa6d9b0b",
+    "episodes/patch_01_coffre_v2/sources/render.py": "3ff23a80e200e0496813ecf181d0fb872205d5f24537e843848748cf2c75d4e8",
+    "episodes/patch_01_coffre_v2/sources/scene.py": "881cc4d3c6c80c57dfbea5a67d923b7b0f55355a6fb083df0caad75cdfdea31b",
+    "episodes/patch_01_coffre_v2/sources/son.py": "4e5d892ef2b0adfd528fd1e698856eef7784cf1d3ce7486797a156397474ff9d",
+    "episodes/patch_01_coffre_v2/chronologie.json": "4abcabb5744bfaffef68f4985bbdbb213fdb83d679bfcc63262af99f333d73e3",
+    "episodes/patch_01_coffre_v2/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41"
+  },
+  "note": "Gel corrigé après critique de la vraie animatique muette et correction arrondi minute17 image399. Aucun changement de dessin/rig/contacts/son."
+}

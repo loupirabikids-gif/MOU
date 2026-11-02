@@ -1,17 +1,23 @@
 # Atelier de courts épisodes
 
-**Premier épisode PATCH — Le coffre à concentration, vingt secondes.**
+**PATCH — Trente minutes de concentration, version corrigée.**
 
-**[Voir le film avec son](episodes/patch_01_coffre/PATCH_Le_coffre.mp4?raw=true)** ·
-[Version muette](episodes/patch_01_coffre/PATCH_Le_coffre_muet.mp4?raw=true) ·
-[Storyboard](episodes/patch_01_coffre/PATCH_Le_coffre_storyboard.png) ·
-[Sources et contrôles](episodes/patch_01_coffre/).
+**[Voir le film avec son — 30 secondes](episodes/patch_01_coffre_v2/PATCH_Le_coffre_30min.mp4?raw=true)** ·
+[Version muette](episodes/patch_01_coffre_v2/PATCH_Le_coffre_30min_muet.mp4?raw=true) ·
+[Storyboard](episodes/patch_01_coffre_v2/PATCH_Le_coffre_30min_storyboard.png) ·
+[Sources et contrôles](episodes/patch_01_coffre_v2/).
 
-PATCH enferme son téléphone pour travailler, puis surveille les dix secondes
-du minuteur. À l'ouverture il retrouve son écran avec joie ; sa feuille est
-restée vierge. Animation 2D, quatorze effets courts, sans musique ni dialogue.
-Le mix n'a pas pu être écouté dans l'environnement ; les contrôles de son
-portent sur la synchronisation, les niveaux et la reconstruction des cues.
+PATCH enferme son téléphone pendant trente minutes pour travailler, puis
+vérifie le coffre chaque minute. Le film représente ce temps par des ellipses
+explicites et une horloge. À l'ouverture il retrouve son écran avec joie ;
+un gros plan révèle les trois cases restées vides sur sa liste TO DO.
+Le personnage et le rig sont conservés. Animation 2D, 18 effets courts, sans
+musique ni dialogue. Le mix n'a pas pu être écouté dans l'environnement ; les
+contrôles de son portent sur la synchronisation, les niveaux et les cues.
+
+[Première version conservée — vingt secondes](episodes/patch_01_coffre/).
+Son délai réel de dix secondes a été jugé trop faible et le gag peu lisible
+par l'utilisatrice ; ses contrôles techniques ne valent pas validation comique.
 
 **Nouvelle direction : un personnage original, nom de travail PATCH.**
 
@@ -21,8 +27,9 @@ portent sur la synchronisation, les niveaux et la reconstruction des cues.
 
 L'utilisatrice abandonne MOU. La piste proposée est un raton laveur citadin
 inventif et impatient, avec une silhouette identifiable et un visage chaleureux.
-Le croquis n'est pas encore un choix validé ni un rig animé. La collecte
-actuelle n'a pas permis de vérifier les performances récentes des chaînes ;
+Le croquis a servi de référence au rig et aux deux versions du coffre ; le
+résultat reste à apprécier. La collecte actuelle n'a pas permis de vérifier
+les performances récentes des chaînes ;
 aucune tendance gagnante ou popularité garantie n'est revendiquée.
 
 **Archives MOU : modèles et essais précédents conservés ci-dessous.**

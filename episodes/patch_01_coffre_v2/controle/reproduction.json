@@ -1,0 +1,69 @@
+{
+  "method": "Archive extraite dans dossier séparé ; rendus frais sans ancien dossier, cache ou réseau. Dépendances Python installées et FFmpeg du poste utilisés.",
+  "frames": [
+    {
+      "frame": 1,
+      "sha256": "45f8038647401bdfbbff6b12b75b91c682ea5b3385141061f1b1266fa6a2d1e6",
+      "identical": true
+    },
+    {
+      "frame": 49,
+      "sha256": "9e90a371d8ef194369016bb78090798105adb46cc39b13c403e17ef3f372b32b",
+      "identical": true
+    },
+    {
+      "frame": 97,
+      "sha256": "426b70f3c4f28b566c96c8780680bb701b04d0e3511f86e063a54d1842c81766",
+      "identical": true
+    },
+    {
+      "frame": 145,
+      "sha256": "3e90fd730547a44489c6c6098e4710b2dabaa862d37ff54ea5ce76c388562012",
+      "identical": true
+    },
+    {
+      "frame": 193,
+      "sha256": "712e84d7814234d0847b52b4544d0c02785c00f3a8995ff60dadaa8e7436bacc",
+      "identical": true
+    },
+    {
+      "frame": 241,
+      "sha256": "f2c7febde396fc827d6518489c4291f2d3ee537e5155f6a6766a45e92d753d32",
+      "identical": true
+    },
+    {
+      "frame": 295,
+      "sha256": "0cb2c6fb0adf13fd753c86cb9af9d1c98d3911018a70759ddbd6516ae2a7b86f",
+      "identical": true
+    },
+    {
+      "frame": 399,
+      "sha256": "d7093759207657944a4e3101d7cf31d1d1eb5dc229f117fa49d772c788612978",
+      "identical": true
+    },
+    {
+      "frame": 512,
+      "sha256": "a8e18893a8b076d986f6f05b96c92e17efd612a6e45c9c0b0be5a5b7ea7aefed",
+      "identical": true
+    },
+    {
+      "frame": 553,
+      "sha256": "945ee7b163ef564c7dedf8a90ddf7e730eb36ef48fcf43a2d585e7e539132754",
+      "identical": true
+    },
+    {
+      "frame": 650,
+      "sha256": "e941a18711390c7586bb1e449467176069f58e033538d5d034d2e08e5d90530a",
+      "identical": true
+    },
+    {
+      "frame": 706,
+      "sha256": "89d07466c85b15b61c6b5a8454f84ebb69f2ef113d351609101b1acea063189a",
+      "identical": true
+    }
+  ],
+  "all_sampled_png_identical": true,
+  "wav_identical": true,
+  "wav_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+  "limit": "Douze PNG et PCM entier vérifiés. Aucune identité binaire MP4 ou reproduction des720PNG revendiquée."
+}

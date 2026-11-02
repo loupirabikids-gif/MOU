@@ -1,0 +1,12 @@
+{
+  "file": "PATCH_Le_coffre_30min_muet.mp4",
+  "sha256": "ccce6a9323adbb6daea18ba987a257da1de8221a387cb1ff9ef5d5069c634601",
+  "source_sha256": "a6cc41dd2a8f7d4b618cadecb9872231211d19980e2c1ea13e3e64c39453f018",
+  "frames": 720,
+  "fps": 24,
+  "duration": 30.0,
+  "width": 1080,
+  "height": 1920,
+  "audio": false,
+  "elapsed_seconds": 23.18
+}

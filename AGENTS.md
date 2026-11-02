@@ -1,5 +1,31 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Correction courante : l'utilisatrice juge le gag PATCH illisible et refuse
+le délai réel de dix secondes. Elle demande trente minutes dans l'histoire,
+le passage visible du temps et une vérification chaque minute. Réaliser V2
+dans `episodes/patch_01_coffre_v2/`, sans changer le dessin/rig ni écraser V1.
+Film cible30s, compteur30:00 et unitéMIN:SEC, horloge09:00→09:30, ellipses
+explicites en anglais. Trois premiers regards avec vrais retours au travail,
+puis montage de toutes les minutes, valeurs finales03/02/01 mieux tenues.
+ListeTO DO à trois cases imprimées, aucune coche ajoutée, et insert final
+de cette liste pour rendre les trente minutes perdues visibles. Les prises,
+bras, profondeur et son sobres déjà construits sont réutilisés. Pas de musique
+ni voix ajoutée. Scénario/critique/audio/QA ont des fichiers exclusifs ; root
+possède scène, chronologie, rendu, exports et archive. Vérifier le vrai montage
+avant HD. La validation technique de V1 n'était pas une validation du gag.
+Livraison GitHub son/muet/sources selon l'accord existant ; aucune diffusion
+sociale, aucun ancien modèle remis en production.
+
+V2 rendue :30s/720images1080×1920 ; filmson eed3bf80…e00dd et muet
+ccce6a93…34601. La revue interne du vrai montage comprend les trente minutes
+perdues et la listeTO DO intacte ; ce n'est pas une approbation du public.
+L'effort de travail initial demeure discret et cette réserve est conservée.
+QA16contrôles passés, douzeHD comparés aux rendus frais, six références et
+dixfichiersgelés intacts. Une erreur d'arrondi de carton, image399, a été
+corrigée puis les deux formats rerendus. Son18cues sans musique/voix ; aucune
+audition réelle ou qualité comique certifiée. Les versions antérieures restent
+conservées, dont laV1 rejetée pour sa durée et sa lecture du gag.
+
 Commande courante « réalise cela » : fabriquer l'épisode PATCH proposé,
 où il enferme son téléphone pour travailler puis surveille le minuteur.
 Le croquis PATCH (raton gris/crème, hoodie corail, queue annelée) devient la

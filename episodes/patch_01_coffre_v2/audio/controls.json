@@ -1,0 +1,19 @@
+{
+  "duration": 30.0,
+  "channels": 2,
+  "sample_rate": 48000,
+  "cues": 18,
+  "clipped_samples": 0,
+  "music": false,
+  "voice": false,
+  "listening_performed": false,
+  "fixed_gains": true,
+  "ellipsis_events": 4,
+  "tick_events": 4,
+  "last_sound_end": 24.155,
+  "duration_seconds": 30.0,
+  "bits": 16,
+  "last_nonzero_seconds": 24.1505,
+  "final_silence_seconds": 5.849479166666667,
+  "cue_count": 18
+}

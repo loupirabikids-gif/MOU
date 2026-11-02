@@ -1,0 +1,1022 @@
+{
+  "status": "passed",
+  "scope": "final_exports",
+  "observed_at": "2026-11-02T17:08:25.993126+01:00",
+  "checks": [
+    {
+      "check": "v1_and_concept_untouched",
+      "passed": true,
+      "evidence": {
+        "files": 6,
+        "changed": []
+      }
+    },
+    {
+      "check": "same_patch_rig",
+      "passed": true,
+      "evidence": {
+        "sha256": "d85ca67749fe0f3830630b70a49504f22e0933a0b6f4d19b02ed2487a6597ec2"
+      }
+    },
+    {
+      "check": "svg_structure",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "paper_insert_frames": 30,
+        "maximum_grip_error_px": 7.811259834203485e-06
+      }
+    },
+    {
+      "check": "story_time_and_countdown",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "paper_insert_frames": 30,
+        "maximum_grip_error_px": 7.811259834203485e-06
+      }
+    },
+    {
+      "check": "captions_and_units",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "paper_insert_frames": 30,
+        "maximum_grip_error_px": 7.811259834203485e-06
+      }
+    },
+    {
+      "check": "paper_goal",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "paper_insert_frames": 30,
+        "maximum_grip_error_px": 7.811259834203485e-06
+      }
+    },
+    {
+      "check": "phone_box_and_grip",
+      "passed": true,
+      "evidence": {
+        "failing_frames": [],
+        "frames": 720,
+        "paper_insert_frames": 30,
+        "maximum_grip_error_px": 7.811259834203485e-06
+      }
+    },
+    {
+      "check": "all_29_minutes_have_directed_glances",
+      "passed": true,
+      "evidence": [
+        {
+          "minute": 1,
+          "frame_start": 145,
+          "frames": 48,
+          "gaze_x_first": -0.15,
+          "gaze_x_last": -0.15,
+          "gaze_x_max": 0.9999999999999999,
+          "gaze_range": 1.15,
+          "pencil_y_first": 1312.0,
+          "pencil_y_last": 1331.9994695919042,
+          "returned_to_paper": true
+        },
+        {
+          "minute": 2,
+          "frame_start": 193,
+          "frames": 48,
+          "gaze_x_first": -0.15,
+          "gaze_x_last": -0.15,
+          "gaze_x_max": 0.9999999999999999,
+          "gaze_range": 1.15,
+          "pencil_y_first": 1312.0,
+          "pencil_y_last": 1331.9958564814815,
+          "returned_to_paper": true
+        },
+        {
+          "minute": 3,
+          "frame_start": 241,
+          "frames": 54,
+          "gaze_x_first": 1.0,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.0
+        },
+        {
+          "minute": 4,
+          "frame_start": 295,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 5,
+          "frame_start": 303,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 6,
+          "frame_start": 311,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 7,
+          "frame_start": 319,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 8,
+          "frame_start": 327,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 9,
+          "frame_start": 335,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 10,
+          "frame_start": 343,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 11,
+          "frame_start": 351,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 12,
+          "frame_start": 359,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 13,
+          "frame_start": 367,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 14,
+          "frame_start": 375,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 15,
+          "frame_start": 383,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 16,
+          "frame_start": 391,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 17,
+          "frame_start": 399,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 18,
+          "frame_start": 407,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 19,
+          "frame_start": 415,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 20,
+          "frame_start": 423,
+          "frames": 8,
+          "gaze_x_first": -0.1,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 1.1
+        },
+        {
+          "minute": 21,
+          "frame_start": 431,
+          "frames": 8,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 22,
+          "frame_start": 439,
+          "frames": 8,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 23,
+          "frame_start": 447,
+          "frames": 8,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 24,
+          "frame_start": 455,
+          "frames": 8,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 25,
+          "frame_start": 463,
+          "frames": 8,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 26,
+          "frame_start": 471,
+          "frames": 8,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 27,
+          "frame_start": 479,
+          "frames": 16,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 28,
+          "frame_start": 495,
+          "frames": 17,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 29,
+          "frame_start": 512,
+          "frames": 17,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        }
+      ]
+    },
+    {
+      "check": "first_two_checks_return_to_work",
+      "passed": true,
+      "evidence": [
+        {
+          "minute": 1,
+          "frame_start": 145,
+          "frames": 48,
+          "gaze_x_first": -0.15,
+          "gaze_x_last": -0.15,
+          "gaze_x_max": 0.9999999999999999,
+          "gaze_range": 1.15,
+          "pencil_y_first": 1312.0,
+          "pencil_y_last": 1331.9994695919042,
+          "returned_to_paper": true
+        },
+        {
+          "minute": 2,
+          "frame_start": 193,
+          "frames": 48,
+          "gaze_x_first": -0.15,
+          "gaze_x_last": -0.15,
+          "gaze_x_max": 0.9999999999999999,
+          "gaze_range": 1.15,
+          "pencil_y_first": 1312.0,
+          "pencil_y_last": 1331.9958564814815,
+          "returned_to_paper": true
+        }
+      ]
+    },
+    {
+      "check": "last_three_minute_values_held_longer",
+      "passed": true,
+      "evidence": [
+        {
+          "minute": 27,
+          "frame_start": 479,
+          "frames": 16,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 28,
+          "frame_start": 495,
+          "frames": 17,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        },
+        {
+          "minute": 29,
+          "frame_start": 512,
+          "frames": 17,
+          "gaze_x_first": 0.45,
+          "gaze_x_last": 1.0,
+          "gaze_x_max": 1.0,
+          "gaze_range": 0.55
+        }
+      ]
+    },
+    {
+      "check": "audio_assets_18_cues_and_frozen_timeline_agree",
+      "passed": true,
+      "evidence": {
+        "cue_count": 18,
+        "asset_mismatches": [],
+        "cue_offsets_match": true
+      }
+    },
+    {
+      "check": "pcm_30_seconds_stereo_48k_unclipped",
+      "passed": true,
+      "evidence": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 1440000,
+        "bits": 16,
+        "peak_linear": 0.102203369140625,
+        "clipped_samples": 0
+      }
+    },
+    {
+      "check": "stems_recombine_with_quantization_tolerance",
+      "passed": true,
+      "evidence": {
+        "maximum_residual_lsb": 0
+      }
+    },
+    {
+      "check": "hd_sound_and_silent_exports",
+      "passed": true,
+      "evidence": {
+        "sound_video": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1088,
+            "coded_height": 1920,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 368640,
+            "duration": "30.000000",
+            "bit_rate": "728928",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "720",
+            "nb_read_frames": "720",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc61.19.101 libx264"
+            }
+          }
+        ],
+        "silent_video": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1088,
+            "coded_height": 1920,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 368640,
+            "duration": "30.000000",
+            "bit_rate": "728928",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "720",
+            "nb_read_frames": "720",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc61.19.101 libx264"
+            }
+          }
+        ],
+        "audio": [
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 1440000,
+            "duration": "30.000000",
+            "bit_rate": "27629",
+            "nb_frames": "1408",
+            "nb_read_frames": "1407",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "check": "sound_and_silent_same_h264",
+      "passed": true,
+      "evidence": {
+        "sound_h264_sha256": "d3fa75933edd458d294948ccb0109f10e5fe08ab77a12d9b771fba61dc7b6c3d",
+        "silent_h264_sha256": "d3fa75933edd458d294948ccb0109f10e5fe08ab77a12d9b771fba61dc7b6c3d"
+      }
+    },
+    {
+      "check": "12_decoded_hd_frames_match_independent_fresh_renders",
+      "passed": true,
+      "evidence": [
+        {
+          "frame": 1,
+          "mean_abs_rgb_error": 1.521743666409465,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 68,
+          "mean_abs_rgb_error": 1.5322426376028806,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 86,
+          "mean_abs_rgb_error": 1.5276326195987655,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 97,
+          "mean_abs_rgb_error": 1.5338477366255143,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 145,
+          "mean_abs_rgb_error": 1.4966083140432098,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 190,
+          "mean_abs_rgb_error": 1.4984138695987654,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 239,
+          "mean_abs_rgb_error": 1.5065936856995885,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 295,
+          "mean_abs_rgb_error": 1.5455515367798354,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 495,
+          "mean_abs_rgb_error": 1.5826556069958848,
+          "p99_rgb_error": 8.0
+        },
+        {
+          "frame": 529,
+          "mean_abs_rgb_error": 1.5523656121399176,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 578,
+          "mean_abs_rgb_error": 1.5288786008230453,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 651,
+          "mean_abs_rgb_error": 1.8970444315843622,
+          "p99_rgb_error": 3.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Contrôles numériques sans écoute ni confort sonore certifié.",
+    "Le mouvement mesuré des pupilles ne prouve pas la compréhension ou la comédie ; critique distincte du vrai montage."
+  ],
+  "files": {
+    "episodes/patch_01_coffre_v2/PATCH_Le_coffre_30min.mp4": "eed3bf80ee7ac21682e3dbf16ff061952c7df3381391c461ffa72794e26e00dd",
+    "episodes/patch_01_coffre_v2/PATCH_Le_coffre_30min_muet.mp4": "ccce6a9323adbb6daea18ba987a257da1de8221a387cb1ff9ef5d5069c634601",
+    "episodes/patch_01_coffre_v2/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+    "episodes/patch_01_coffre_v2/chronologie.json": "4abcabb5744bfaffef68f4985bbdbb213fdb83d679bfcc63262af99f333d73e3"
+  },
+  "supplemental_cuff_samples": {
+    "samples": 60,
+    "max_fill_gap_px": 0.0,
+    "failures": [],
+    "rows": [
+      {
+        "frame": 1,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 1,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 42,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 42,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 68,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 68,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 86,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 86,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 97,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 97,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 145,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 145,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 161,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 161,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 176,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 176,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 190,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 190,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 193,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 193,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 210,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 210,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 230,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 230,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 239,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 239,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 241,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 241,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 280,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 280,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 295,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 295,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 335,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 335,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 383,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 383,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 431,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 431,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 479,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 479,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 495,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 495,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 512,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 512,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 529,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 529,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 553,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 553,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 566,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 566,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 578,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 578,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 594,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 594,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 631,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 631,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 671,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 671,
+        "side": "right",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 720,
+        "side": "left",
+        "gap_px": 0.0
+      },
+      {
+        "frame": 720,
+        "side": "right",
+        "gap_px": 0.0
+      }
+    ]
+  },
+  "frozen_sources": {
+    "checked": 10,
+    "changed": []
+  }
+}

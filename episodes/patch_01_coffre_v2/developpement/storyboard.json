@@ -1,0 +1,479 @@
+{
+  "title": "PATCH — Trente minutes de concentration",
+  "status": "proposition_pour_critique_avant_fabrication",
+  "duration": 30.0,
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "revision_reason": "Le délai réel de dix secondes rendait l’enjeu et la perte de temps peu lisibles ; l’utilisatrice demande trente minutes, des ellipses visibles et un regard à chaque minute.",
+  "preserve": [
+    "PATCH_character_and_rig",
+    "desk_layout",
+    "validated_phone_grip_and_deposit",
+    "opaque_box_and_lid_depth",
+    "old_episode_untouched"
+  ],
+  "diegetic_duration_seconds": 1800,
+  "lock": {
+    "film_time": 4.0,
+    "frame": 97,
+    "display": "30:00",
+    "unit_label": "MIN:SEC",
+    "wall_clock": "09:00",
+    "duration_label": "30 MIN",
+    "duration_label_hold": [
+      4.0,
+      5.2
+    ]
+  },
+  "unlock": {
+    "film_time": 23.0,
+    "frame": 553,
+    "display": "00:00",
+    "wall_clock": "09:30"
+  },
+  "time_representation": {
+    "type": "explicit_elliptical_montage",
+    "first_ellipsis_caption": "1 MIN LATER",
+    "final_elapsed_caption": "30 MIN LATER",
+    "captions_language": "en",
+    "minute_checks": [
+      {
+        "elapsed_minute": 1,
+        "film_start": 6.0,
+        "film_end": 8.0,
+        "frame_start": 145,
+        "remaining_display": "29:00",
+        "wall_clock": "09:01",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "return_to_work"
+      },
+      {
+        "elapsed_minute": 2,
+        "film_start": 8.0,
+        "film_end": 10.0,
+        "frame_start": 193,
+        "remaining_display": "28:00",
+        "wall_clock": "09:02",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "return_to_work"
+      },
+      {
+        "elapsed_minute": 3,
+        "film_start": 10.0,
+        "film_end": 12.25,
+        "frame_start": 241,
+        "remaining_display": "27:00",
+        "wall_clock": "09:03",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "abandon_pencil"
+      },
+      {
+        "elapsed_minute": 4,
+        "film_start": 12.25,
+        "film_end": 12.583333,
+        "frame_start": 295,
+        "frames": 8,
+        "remaining_display": "26:00",
+        "wall_clock": "09:04",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 5,
+        "film_start": 12.583333,
+        "film_end": 12.916667,
+        "frame_start": 303,
+        "frames": 8,
+        "remaining_display": "25:00",
+        "wall_clock": "09:05",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 6,
+        "film_start": 12.916667,
+        "film_end": 13.25,
+        "frame_start": 311,
+        "frames": 8,
+        "remaining_display": "24:00",
+        "wall_clock": "09:06",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 7,
+        "film_start": 13.25,
+        "film_end": 13.583333,
+        "frame_start": 319,
+        "frames": 8,
+        "remaining_display": "23:00",
+        "wall_clock": "09:07",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 8,
+        "film_start": 13.583333,
+        "film_end": 13.916667,
+        "frame_start": 327,
+        "frames": 8,
+        "remaining_display": "22:00",
+        "wall_clock": "09:08",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 9,
+        "film_start": 13.916667,
+        "film_end": 14.25,
+        "frame_start": 335,
+        "frames": 8,
+        "remaining_display": "21:00",
+        "wall_clock": "09:09",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 10,
+        "film_start": 14.25,
+        "film_end": 14.583333,
+        "frame_start": 343,
+        "frames": 8,
+        "remaining_display": "20:00",
+        "wall_clock": "09:10",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 11,
+        "film_start": 14.583333,
+        "film_end": 14.916667,
+        "frame_start": 351,
+        "frames": 8,
+        "remaining_display": "19:00",
+        "wall_clock": "09:11",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 12,
+        "film_start": 14.916667,
+        "film_end": 15.25,
+        "frame_start": 359,
+        "frames": 8,
+        "remaining_display": "18:00",
+        "wall_clock": "09:12",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 13,
+        "film_start": 15.25,
+        "film_end": 15.583333,
+        "frame_start": 367,
+        "frames": 8,
+        "remaining_display": "17:00",
+        "wall_clock": "09:13",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 14,
+        "film_start": 15.583333,
+        "film_end": 15.916667,
+        "frame_start": 375,
+        "frames": 8,
+        "remaining_display": "16:00",
+        "wall_clock": "09:14",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 15,
+        "film_start": 15.916667,
+        "film_end": 16.25,
+        "frame_start": 383,
+        "frames": 8,
+        "remaining_display": "15:00",
+        "wall_clock": "09:15",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 16,
+        "film_start": 16.25,
+        "film_end": 16.583333,
+        "frame_start": 391,
+        "frames": 8,
+        "remaining_display": "14:00",
+        "wall_clock": "09:16",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 17,
+        "film_start": 16.583333,
+        "film_end": 16.916667,
+        "frame_start": 399,
+        "frames": 8,
+        "remaining_display": "13:00",
+        "wall_clock": "09:17",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 18,
+        "film_start": 16.916667,
+        "film_end": 17.25,
+        "frame_start": 407,
+        "frames": 8,
+        "remaining_display": "12:00",
+        "wall_clock": "09:18",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 19,
+        "film_start": 17.25,
+        "film_end": 17.583333,
+        "frame_start": 415,
+        "frames": 8,
+        "remaining_display": "11:00",
+        "wall_clock": "09:19",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 20,
+        "film_start": 17.583333,
+        "film_end": 17.916667,
+        "frame_start": 423,
+        "frames": 8,
+        "remaining_display": "10:00",
+        "wall_clock": "09:20",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 21,
+        "film_start": 17.916667,
+        "film_end": 18.25,
+        "frame_start": 431,
+        "frames": 8,
+        "remaining_display": "09:00",
+        "wall_clock": "09:21",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 22,
+        "film_start": 18.25,
+        "film_end": 18.583333,
+        "frame_start": 439,
+        "frames": 8,
+        "remaining_display": "08:00",
+        "wall_clock": "09:22",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 23,
+        "film_start": 18.583333,
+        "film_end": 18.916667,
+        "frame_start": 447,
+        "frames": 8,
+        "remaining_display": "07:00",
+        "wall_clock": "09:23",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 24,
+        "film_start": 18.916667,
+        "film_end": 19.25,
+        "frame_start": 455,
+        "frames": 8,
+        "remaining_display": "06:00",
+        "wall_clock": "09:24",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 25,
+        "film_start": 19.25,
+        "film_end": 19.583333,
+        "frame_start": 463,
+        "frames": 8,
+        "remaining_display": "05:00",
+        "wall_clock": "09:25",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 26,
+        "film_start": 19.583333,
+        "film_end": 19.916667,
+        "frame_start": 471,
+        "frames": 8,
+        "remaining_display": "04:00",
+        "wall_clock": "09:26",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 27,
+        "film_start": 19.916667,
+        "film_end": 20.583333,
+        "frame_start": 479,
+        "frames": 16,
+        "remaining_display": "03:00",
+        "wall_clock": "09:27",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 28,
+        "film_start": 20.583333,
+        "film_end": 21.291667,
+        "frame_start": 495,
+        "frames": 17,
+        "remaining_display": "02:00",
+        "wall_clock": "09:28",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 29,
+        "film_start": 21.291667,
+        "film_end": 22.0,
+        "frame_start": 512,
+        "frames": 17,
+        "remaining_display": "01:00",
+        "wall_clock": "09:29",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      }
+    ],
+    "last_second": {
+      "film_start": 22.0,
+      "film_end": 23.0,
+      "display": "00:01",
+      "elapsed_seconds": 1799
+    },
+    "note": "La V2 représente trente minutes dans un film court : les sauts des chiffres sont accompagnés par une horloge murale et des ellipses annoncées. Les changements d’état ne prétendent plus être du temps réel.",
+    "montage_frame_plan": "Minutes4–26:8frames each; minute27:16frames; minutes28–29:17frames each. Total234frames/9.75s; final03:00/02:00/01:00 read longer."
+  },
+  "work_goal": {
+    "paper_header": "TO DO",
+    "printed_empty_checkboxes": 3,
+    "handwritten_marks": false,
+    "same_paper_at_start_and_end": true,
+    "no_writing_sound": true
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 2.1,
+      "framing": "medium_patch_paper_phone_box",
+      "actions": [
+        "pencil_moves_toward_first_empty_checkbox_line",
+        "notification_interrupts_before_mark",
+        "patch_looks_phone_then_open_box",
+        "right_paw_grips_phone"
+      ],
+      "intention": "Vraiment se mettre au travail puis trouver une parade à la distraction."
+    },
+    {
+      "id": "S02",
+      "start": 2.1,
+      "end": 4.6,
+      "framing": "insert_full_box_phone_paws",
+      "actions": [
+        "real_phone_deposit_at_2_80",
+        "paw_withdraws",
+        "lid_closes_at_3_55",
+        "start_button_at_3_90",
+        "display_30_00_and_lock_at_4_00",
+        "hold_readable_MIN_label"
+      ],
+      "intention": "Choisir volontairement trente minutes sans téléphone."
+    },
+    {
+      "id": "S03",
+      "start": 4.6,
+      "end": 12.25,
+      "framing": "medium_work_goal_timer_wall_clock",
+      "actions": [
+        "return_to_paper_before_first_ellipsis",
+        "minute_1_short_glance_then_return",
+        "minute_2_longer_glance_then_voluntary_return",
+        "minute_3_put_pencil_down_and_look_at_timer"
+      ],
+      "intention": "Il veut résister ; les vérifications prennent progressivement la place du travail."
+    },
+    {
+      "id": "S04",
+      "start": 12.25,
+      "end": 22.0,
+      "framing": "stable_same_axis_montage",
+      "actions": [
+        "one_minute_check_for_each_elapsed_minute_4_to_29",
+        "wall_clock_advances_6_degrees_per_minute",
+        "timer_minutes_decrease_at_each_cut",
+        "body_postures_evolve_by_groups",
+        "no_full_screen_flashes"
+      ],
+      "intention": "Trente minutes sont consommées à surveiller le retour du téléphone."
+    },
+    {
+      "id": "S05",
+      "start": 22.0,
+      "end": 26.2,
+      "framing": "medium_close_timer_face",
+      "actions": [
+        "last_second_held_one_real_second",
+        "unlock_at_23_00",
+        "caption_30_MIN_LATER",
+        "delight_on_patch_face",
+        "lid_open_and_retrieve_phone_23_30_to_24_85",
+        "immediate_absorption_in_phone"
+      ],
+      "intention": "Sa grande récompense est seulement de retrouver l’objet qu’il avait écarté."
+    },
+    {
+      "id": "S06",
+      "start": 26.2,
+      "end": 30.0,
+      "framing": "reveal_unchanged_to_do_then_readable_final_composition",
+      "actions": [
+        "reveal_full_same_paper_with_3_unticked_boxes",
+        "wall_clock_09_30_visible",
+        "patch_remains_happy_looking_at_phone",
+        "hold_payoff_then_cut"
+      ],
+      "intention": "Le spectateur voit trente minutes perdues et aucun travail accompli."
+    }
+  ],
+  "sound_notes": [
+    "No music or voice required.",
+    "No writing cue because no line is written.",
+    "A few soft transition cues at the first explicit ellipses; do not beep thirty times.",
+    "Montage is readable without audio.",
+    "Unlock cue and physical phone contacts remain synchronized to the new film times.",
+    "No alarm crescendo or harsh speed-up."
+  ],
+  "review_priorities": [
+    "30_MIN_clear_before_montage",
+    "first_one_minute_ellipsis_unambiguous",
+    "one_check_event_per_minute",
+    "distinct_first_3_checks_with_real_returns",
+    "elapsed_wall_clock_and_countdown_consistent",
+    "same_unmarked_TO_DO_at_end",
+    "no_clone_phone_or_body_redesign",
+    "payoff_readable_without_caption_explaining_joke"
+  ]
+}
