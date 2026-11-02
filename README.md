@@ -1,5 +1,11 @@
 # Atelier de courts épisodes
 
+**Analyse de la référence avant la prochaine reprise.**
+[Dix plans, émotions, positions et confrontation au prompt](recherche/2026-11-02_analyse_reference_patch/ANALYSE.md).
+La V3 a repris des attitudes mais conserve surtout la vue frontale ; les
+changements d'angle, la joie de corps entier et la prise du téléphone
+demandent encore un travail spécifique.
+
 **PATCH — Le coffre, jeu reconstruit à partir de la référence fournie.**
 
 **[Voir le nouvel épisode avec son — 30 secondes](episodes/patch_01_coffre_v3/PATCH_Le_coffre_V3.mp4?raw=true)** ·

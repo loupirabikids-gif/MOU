@@ -1,5 +1,19 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Instruction courante : analyser complètement la référence utilisateur,
+chaque émotion, posture, position de caméra et sa relation au prompt proposé.
+Rapports dans `recherche/2026-11-02_analyse_reference_patch/`. Pas de nouveau
+rendu d'épisode dans cette étape. Vidéo privée et images d'analyse restent
+hors publication ; notes textuelles et prompt sont conservés dans le projet.
+Pour toute reprise fondée sur une vidéo : découper les plans aux vraies
+images, relever visage/regards/mains/corps/caméra/transitions et comparer
+chaque consigne au résultat. Distinguer signes observés, lecture émotionnelle
+et hypothèse sur la génération. Le prompt réellement soumis et les paramètres
+ne sont pas connus ici. Un recadrage frontal ne constitue pas un nouvel angle.
+Comparer une planche de vues/poses/raccords à la référence avant production.
+La V3 reprend des attitudes mais reste incomplète pour les angles, la joie
+de corps entier, la prise à deux mains et l'orientation du téléphone lu.
+
 Commande courante : reconstruire l'épisode PATCH en s'inspirant du jeu de
 la vidéo utilisateur. Nouvelle version isolée `episodes/patch_01_coffre_v3/`.
 Conserver dessin, palette, identité et anciens films ; étendre le rig pour

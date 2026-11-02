@@ -1,0 +1,287 @@
+{
+  "source_sha256": "631e0d7edb628a72a189f255c183cea7887c23fe8281632ec14969da260417b3",
+  "video_frames": 361,
+  "fps": 24,
+  "duration_video": 15.041666666666666,
+  "scope": "analyse des images ; aucune écoute",
+  "time_note": "Bornes des plans exactes ; micro-expressions approximatives à1–2images, numérotation vidéo index0.",
+  "segments": [
+    {
+      "id": "ennui_appui",
+      "start": 0.0,
+      "end_exclusive": 0.5,
+      "shot": "P1",
+      "visible_observations": [
+        "joue soutenue à droite écran",
+        "autre main tient crayon",
+        "pupilles bas/gauche",
+        "paupières lourdes",
+        "bouche descendante"
+      ],
+      "emotion_reading": "lassitude ou découragement"
+    },
+    {
+      "id": "regard_coffre",
+      "start": 0.5,
+      "end_exclusive": 1.333333,
+      "shot": "P1",
+      "visible_observations": [
+        "pupilles centre puis droite",
+        "posture portée maintenue"
+      ],
+      "emotion_reading": "retour de la distraction"
+    },
+    {
+      "id": "horloge",
+      "start": 1.333333,
+      "end_exclusive": 2.541667,
+      "shot": "P2",
+      "visible_observations": [
+        "personnage hors champ",
+        "œil apparaît dans cadran"
+      ],
+      "emotion_reading": "émotion de PATCH non observable"
+    },
+    {
+      "id": "appui_frontal",
+      "start": 2.541667,
+      "end_exclusive": 2.791667,
+      "shot": "P3",
+      "visible_observations": [
+        "joue soutenue",
+        "regard droite",
+        "crayon posé à la coupe"
+      ],
+      "emotion_reading": "ennui contrarié"
+    },
+    {
+      "id": "fermeture_et_croisement",
+      "start": 2.791667,
+      "end_exclusive": 2.916667,
+      "shot": "P3",
+      "visible_observations": [
+        "fermeture yeux",
+        "main quitte joue",
+        "avant-bras se croisent"
+      ],
+      "emotion_reading": "passage à la contrariété fermée"
+    },
+    {
+      "id": "croises_tenus",
+      "start": 2.916667,
+      "end_exclusive": 4.25,
+      "shot": "P3",
+      "visible_observations": [
+        "bras croisés devant hoodie",
+        "sourcils rapprochés",
+        "queue mobile derrière chaise"
+      ],
+      "emotion_reading": "impatience contenue"
+    },
+    {
+      "id": "crayon_abandonne",
+      "start": 4.25,
+      "end_exclusive": 4.916667,
+      "shot": "P4",
+      "visible_observations": [
+        "crayon à nouveau tenu au début du plan",
+        "descente vers gauche du plateau",
+        "main se retire",
+        "regard bas"
+      ],
+      "emotion_reading": "renoncement"
+    },
+    {
+      "id": "regard_repart",
+      "start": 4.916667,
+      "end_exclusive": 5.583333,
+      "shot": "P4",
+      "visible_observations": [
+        "deux pattes sur plateau",
+        "regard droite",
+        "paupières lourdes"
+      ],
+      "emotion_reading": "fixation du coffre"
+    },
+    {
+      "id": "approche_basse",
+      "start": 5.583333,
+      "end_exclusive": 6.416667,
+      "shot": "P5",
+      "visible_observations": [
+        "buste et tête descendent",
+        "museau au bord du plateau",
+        "coffre devant une partie du visage"
+      ],
+      "emotion_reading": "envie suppliante"
+    },
+    {
+      "id": "blink_et_eclat",
+      "start": 6.416667,
+      "end_exclusive": 6.583333,
+      "shot": "P5",
+      "visible_observations": [
+        "fermeture puis réouverture large des yeux",
+        "points lumineux supplémentaires"
+      ],
+      "emotion_reading": "envie plus tendre"
+    },
+    {
+      "id": "envie_tenue",
+      "start": 6.583333,
+      "end_exclusive": 7.583333,
+      "shot": "P5",
+      "visible_observations": [
+        "corps bas",
+        "grands yeux vers coffre",
+        "queue secondaire"
+      ],
+      "emotion_reading": "attente de récompense"
+    },
+    {
+      "id": "coffre_insert",
+      "start": 7.583333,
+      "end_exclusive": 9.0,
+      "shot": "P6",
+      "visible_observations": [
+        "personnage hors champ",
+        "compteur9:35 puis9:30"
+      ],
+      "emotion_reading": "émotion de PATCH non observable"
+    },
+    {
+      "id": "surveillance_proche",
+      "start": 9.0,
+      "end_exclusive": 9.416667,
+      "shot": "P7",
+      "visible_observations": [
+        "yeux ouverts vers coffre",
+        "tête très proche",
+        "patte au plateau"
+      ],
+      "emotion_reading": "anticipation"
+    },
+    {
+      "id": "ouverture_et_blink",
+      "start": 9.416667,
+      "end_exclusive": 9.666667,
+      "shot": "P7",
+      "visible_observations": [
+        "couvercle monte",
+        "tête remonte",
+        "brève fermeture des yeux"
+      ],
+      "emotion_reading": "changement vers surprise"
+    },
+    {
+      "id": "surprise",
+      "start": 9.666667,
+      "end_exclusive": 10.208333,
+      "shot": "P7",
+      "visible_observations": [
+        "blancs yeux dominants",
+        "boucheO",
+        "sourcils relevés"
+      ],
+      "emotion_reading": "surprise heureuse"
+    },
+    {
+      "id": "mains_ouvertes",
+      "start": 10.208333,
+      "end_exclusive": 10.416667,
+      "shot": "P8",
+      "visible_observations": [
+        "deux mains ouvertes au buste",
+        "grand sourire",
+        "regard intérieur coffre"
+      ],
+      "emotion_reading": "joie anticipée"
+    },
+    {
+      "id": "prise",
+      "start": 10.416667,
+      "end_exclusive": 10.666667,
+      "shot": "P8",
+      "visible_observations": [
+        "bras vers coffre",
+        "tête baisse",
+        "yeux se ferment",
+        "petit sourire"
+      ],
+      "emotion_reading": "plaisir de récupérer"
+    },
+    {
+      "id": "telephone_visible",
+      "start": 10.666667,
+      "end_exclusive": 10.75,
+      "shot": "P8",
+      "visible_observations": [
+        "téléphone tenu près coffre",
+        "yeux fermés puis réouverture"
+      ],
+      "emotion_reading": "satisfaction intime avant explosion"
+    },
+    {
+      "id": "suspension_joyeuse",
+      "start": 10.75,
+      "end_exclusive": 11.625,
+      "shot": "P8",
+      "visible_observations": [
+        "corps entier en l’air",
+        "jambes écartées",
+        "téléphone à deux mains",
+        "yeux brillants",
+        "grand sourire",
+        "descente sans atterrissage montré"
+      ],
+      "emotion_reading": "joie ample"
+    },
+    {
+      "id": "liste",
+      "start": 11.625,
+      "end_exclusive": 13.083333,
+      "shot": "P9",
+      "visible_observations": [
+        "personnage absent",
+        "trois cases cochées",
+        "titre pseudo-texte"
+      ],
+      "emotion_reading": "émotion de PATCH non observable"
+    },
+    {
+      "id": "absorption_finale",
+      "start": 13.083333,
+      "end_exclusive": 15.041667,
+      "shot": "P10",
+      "visible_observations": [
+        "assis",
+        "téléphone à deux mains",
+        "pupilles bas/centre",
+        "petit sourire fermé",
+        "lueur écran",
+        "queue secondaire"
+      ],
+      "emotion_reading": "satisfaction absorbée"
+    }
+  ],
+  "not_demonstrated": [
+    "détermination initiale",
+    "trente minutes complètes",
+    "vérification montrée chaque minute",
+    "travail ou écriture accompli",
+    "squash-and-stretch massif contrôlé",
+    "atterrissage et amorti après le saut",
+    "geste de scrolling distinct",
+    "intention interne ou prompt réellement soumis à Runway"
+  ],
+  "V3_differences": [
+    "soutien de joue en miroir",
+    "croisement plus progressif",
+    "caméra principalement frontale recadrée",
+    "réaction du buste au lieu du corps entier visible",
+    "phone porté par droite plutôt que même prise à deux mains",
+    "référence montrant le dos du téléphone au spectateur, V3 montrant la face écran",
+    "lueur d’écran absente",
+    "cases vides conservées correctement"
+  ]
+}

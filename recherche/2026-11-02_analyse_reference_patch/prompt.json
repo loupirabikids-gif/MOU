@@ -1,0 +1,298 @@
+{
+  "scope": "Confrontation du prompt proposé dans le chat avec la vidéo effectivement reçue. Prompt réellement soumis, modèle, réglages, coupes éventuelles et génération ne sont pas connus. Aucun accès au raisonnement interne du système.",
+  "source_sha256": "631e0d7edb628a72a189f255c183cea7887c23fe8281632ec14969da260417b3",
+  "visual_duration_seconds": 15.041666666666666,
+  "frame_count": 361,
+  "fps": 24,
+  "audio_evaluated": false,
+  "matrix": [
+    {
+      "id": "P01",
+      "prompt_clause": "vertical 9:16",
+      "status": "Observé",
+      "time": "Tout le fichier",
+      "observation": "720×1280, soit9:16.",
+      "effect": "Format conforme dans le fichier reçu."
+    },
+    {
+      "id": "P02",
+      "prompt_clause": "approximately 30 seconds long",
+      "status": "Contradictoire",
+      "time": "Durée du fichier",
+      "observation": "361images/24ips =15,041667s vidéo (15,104s conteneur audio inclus).",
+      "effect": "La durée demandée n’est pas présente ; le fichier ne permet pas de savoir si la génération a été limitée ou coupée."
+    },
+    {
+      "id": "P03",
+      "prompt_clause": "with no dialogue",
+      "status": "Indéterminé",
+      "time": "Piste audio",
+      "observation": "La vidéo comporte une piste AAC ; aucune audition n’est disponible dans cette analyse.",
+      "effect": "Ne pas certifier absence de dialogue par les seules images."
+    },
+    {
+      "id": "P04",
+      "prompt_clause": "preserve PATCH’s character design: a gray-and-cream raccoon wearing a coral hoodie, with rounded paws and a striped tail",
+      "status": "Observé",
+      "time": "0–15s",
+      "observation": "Masque brun, museau crème, pelage gris, hoodiecorail, pattes arrondies et queue rayée reconnaissables.",
+      "effect": "Identité générale conservée ; proportions et finitions du dessin varient légèrement selon le plan."
+    },
+    {
+      "id": "P05",
+      "prompt_clause": "Clean 2D cartoon style, warm pastel room, expressive face",
+      "status": "Observé",
+      "time": "0–15s",
+      "observation": "Dessin2D àcontour, bois et mur chauds, lumière de fenêtre, ombres, expressions contrastées.",
+      "effect": "Le résultat enrichit l’aplat de départ avec lumière, ombres et profondeur de décor."
+    },
+    {
+      "id": "P06",
+      "prompt_clause": "PATCH sits at a desk, determined to work",
+      "status": "Contradictoire",
+      "time": "0–1,3s",
+      "observation": "PATCH est déjà affaissé, joue portée par une patte, paupières lourdes, bouche descendante.",
+      "effect": "L’état initial montre ennui/attente ; aucune détermination initiale lisible."
+    },
+    {
+      "id": "P07",
+      "prompt_clause": "He holds a pencil above a to-do list",
+      "status": "Partiel",
+      "time": "0–1,3s",
+      "observation": "Un crayon est dans une patte au contact/près du papier ; un second est posé sur le bureau.",
+      "effect": "L’accessoire de travail est présent, mais aucun début de tâche volontaire n’est établi."
+    },
+    {
+      "id": "P08",
+      "prompt_clause": "with three empty checkboxes",
+      "status": "Partiel",
+      "time": "Début et fin",
+      "observation": "Une liste àcases est visible ; les petits signes du début sont ambigus, les trois cases de l’insert final sont clairement cochées.",
+      "effect": "L’état vide àconserver n’est pas sécurisé par le résultat ; la contradiction finale est certaine."
+    },
+    {
+      "id": "P09",
+      "prompt_clause": "His phone lights up",
+      "status": "Omis",
+      "time": "0–9s",
+      "observation": "Aucun téléphone lumineux ou notification visuelle identifié avant la récupération.",
+      "effect": "Le téléphone n’est connu comme objet désiré qu’à la fin."
+    },
+    {
+      "id": "P10",
+      "prompt_clause": "He puts it inside an opaque timed lockbox",
+      "status": "Partiel",
+      "time": "Début puis9–11s",
+      "observation": "Coffre opaque déjà fermé au premier plan ; téléphone ensuite récupéré dans le coffre ouvert. Aucun dépôt montré.",
+      "effect": "Le contenant est fourni, l’action volontaire d’éloigner la distraction est omise."
+    },
+    {
+      "id": "P11",
+      "prompt_clause": "closes the lid and starts a thirty-minute lock",
+      "status": "Omis",
+      "time": "0–9s",
+      "observation": "Aucun geste de fermeture/lancement ; coffre déjà fermé. Affichage9:15 au début,9:30 vers7,8–8,75s.",
+      "effect": "Ni choix du délai ni unité ni verrouillage de trente minutes ne sont établis."
+    },
+    {
+      "id": "P12",
+      "prompt_clause": "He confidently turns back to his work",
+      "status": "Omis",
+      "time": "0–5,6s",
+      "observation": "Joue dans la main, puis bras croisés, puis regard baissé et crayon relâché.",
+      "effect": "Pas de retour confiant observé au travail avant les regards au coffre."
+    },
+    {
+      "id": "P13",
+      "prompt_clause": "One minute later, his eyes drift toward the timer",
+      "status": "Partiel",
+      "time": "Environ3–5,6s",
+      "observation": "Des regards latéraux vers la droite/coffre sont visibles. Aucune minute écoulée explicitée.",
+      "effect": "La direction d’attention existe ; sa périodicité d’une minute reste absente."
+    },
+    {
+      "id": "P14",
+      "prompt_clause": "He catches himself and returns to the paper",
+      "status": "Omis",
+      "time": "Environ4,3–5,6s",
+      "observation": "PATCH regarde le papier puis le coffre, mais sans réengagement visible du crayon ni redressement volontaire.",
+      "effect": "Le conflit entre volonté de travailler et tentation est peu raconté."
+    },
+    {
+      "id": "P15",
+      "prompt_clause": "Another minute passes. He checks again, holding the stare longer",
+      "status": "Partiel",
+      "time": "Environ5,6–7,7s",
+      "observation": "Le visage descend près du plateau ; le regard vers le coffre est long et les yeux s’agrandissent.",
+      "effect": "Le regard prolongé est matérialisé, la deuxième minute et la répétition ne le sont pas."
+    },
+    {
+      "id": "P16",
+      "prompt_clause": "Show an increasingly fast montage of repeated checks",
+      "status": "Omis",
+      "time": "0–9s",
+      "observation": "Succession de cadrages et d’attitudes ; pas de série identifiable de vérifications minute par minute. Les plans du milieu restent tenus.",
+      "effect": "Le montage raconte une attente continue ; accélération des cycles non établie."
+    },
+    {
+      "id": "P17",
+      "prompt_clause": "The wall clock advances from 9:00 to 9:30",
+      "status": "Contradictoire",
+      "time": "Horloge vers1,5s puis10,25s",
+      "observation": "L’horloge montre environ1h au départ, puis3h après l’ouverture.",
+      "effect": "Le résultat indique un changement de temps, sans respecter le début, la fin ni l’intervalle demandés."
+    },
+    {
+      "id": "P18",
+      "prompt_clause": "PATCH changes posture, fidgets",
+      "status": "Observé",
+      "time": "0–7,7s",
+      "observation": "Joue soutenue → bras croisés → pattes sur le plateau → tête basse. La queue change aussi de position.",
+      "effect": "Cette clause générale est traduite par une vraie diversité de poses."
+    },
+    {
+      "id": "P19",
+      "prompt_clause": "puts down his pencil",
+      "status": "Observé",
+      "time": "Environ4,3–5,3s",
+      "observation": "Le crayon tenu est relâché et la patte se libère sur le plateau.",
+      "effect": "L’abandon de l’accessoire devient une action lisible, malgré le second crayon initial."
+    },
+    {
+      "id": "P20",
+      "prompt_clause": "eventually leans toward the box, completely absorbed by the countdown",
+      "status": "Observé",
+      "time": "Environ5,6–7,7s",
+      "observation": "Tête abaissée près du plateau, proche du coffre au premier plan ; deux pattes au bord, grands yeux tournés vers le coffre.",
+      "effect": "L’absorption passe par le corps et la composition, pas seulement les pupilles."
+    },
+    {
+      "id": "P21",
+      "prompt_clause": "Hold briefly on the final second",
+      "status": "Omis",
+      "time": "7,8–9,5s",
+      "observation": "Insert du compteur9:30 ; aucun00:01 tenu observé avant l’ouverture.",
+      "effect": "Le plan de tension est présent comme principe de mise en scène, mais son information temporelle est fausse."
+    },
+    {
+      "id": "P22",
+      "prompt_clause": "The box unlocks",
+      "status": "Partiel",
+      "time": "Environ9–9,8s",
+      "observation": "Coffre fermé puis couvercle ouvert, avec expression surprise de PATCH.",
+      "effect": "L’ouverture se comprend, mais le déverrouillage ne s’appuie pas sur un zéro affiché ; son éventuel signal reste non évalué."
+    },
+    {
+      "id": "P23",
+      "prompt_clause": "PATCH immediately retrieves his phone, visibly delighted",
+      "status": "Observé",
+      "time": "Environ10,2–11,7s",
+      "observation": "Il tend les pattes, récupère le téléphone, ferme brièvement les yeux puis le tient en souriant largement pendant une pose bondissante.",
+      "effect": "Récompense très lisible. Le jeu de joie est beaucoup plus ample que la formulation minimale du prompt."
+    },
+    {
+      "id": "P24",
+      "prompt_clause": "Cut to a close-up of the untouched to-do list",
+      "status": "Partiel",
+      "time": "Environ11,7–13,2s",
+      "observation": "Un insert rapproché et tenu isole la liste entière.",
+      "effect": "La fonction de caméra est suivie ; le contenu de la liste contredit la consigne suivante."
+    },
+    {
+      "id": "P25",
+      "prompt_clause": "all three checkboxes are still empty",
+      "status": "Contradictoire",
+      "time": "Insert11,7–13,2s",
+      "observation": "Les trois cases comportent chacune une coche noire distincte ; titre pseudo-texte proche de «Ranic Taie».",
+      "effect": "Cette erreur renverse la chute : le travail peut paraître terminé au lieu d’être resté intact."
+    },
+    {
+      "id": "P26",
+      "prompt_clause": "Return to PATCH happily scrolling",
+      "status": "Partiel",
+      "time": "Environ13,2–15,04s",
+      "observation": "Retour frontal, téléphone tenu des deux pattes, yeux dirigés vers l’écran et sourire calme ; mouvements courts des pattes/regard.",
+      "effect": "L’absorption finale se lit ; l’action de défiler exactement reste moins certaine que l’attention portée à l’écran."
+    },
+    {
+      "id": "P27",
+      "prompt_clause": "unaware that he has wasted the entire session",
+      "status": "Partiel",
+      "time": "Fin",
+      "observation": "Satisfaction du téléphone visible ; il ne réagit pas àla liste. Mais la liste cochée ne montre pas du temps perdu.",
+      "effect": "L’ignorance joyeuse fonctionne localement, l’ironie globale demandée ne se construit pas."
+    },
+    {
+      "id": "P28",
+      "prompt_clause": "Make his thoughts readable through eye direction, anticipation, distinct poses and well-timed pauses",
+      "status": "Partiel",
+      "time": "Tout le fichier",
+      "observation": "Regard latéral, yeux baissés puis élargis, poses et attentes distinctes, détente joyeuse.",
+      "effect": "Émotions lisibles ; pensée «je veux travailler malgré ma distraction» beaucoup moins explicite. Toutes les anticipations ne sont pas certifiées par ce tableau de conformité."
+    },
+    {
+      "id": "P29",
+      "prompt_clause": "Use gentle squash and stretch",
+      "status": "Indéterminé",
+      "time": "Transitions et saut",
+      "observation": "Différences de hauteur/position et pose bondissante observées ; une simple comparaison des plans ne prouve pas une déformation contrôlée du volume.",
+      "effect": "Ne pas appeler squash&stretch toute translation ou différence de dessin. L’analyse du jeu détaille les transitions."
+    },
+    {
+      "id": "P30",
+      "prompt_clause": "Keep the character and props consistent across shots",
+      "status": "Partiel",
+      "time": "Tout le fichier",
+      "observation": "PATCH demeure reconnaissable. Deux crayons au début puis un visible ; pseudo-texte, compteurs incohérents et œil dans l’horloge vers2,2–2,5s.",
+      "effect": "Cohérence d’identité plus solide que la continuité des objets et informations écrites."
+    }
+  ],
+  "additions_not_explicitly_requested": [
+    {
+      "element": "Caméra en plongée de trois quarts au départ",
+      "effect": "Situe personnage, bureau et coffre dans un espace profond."
+    },
+    {
+      "element": "Insert de l’horloge",
+      "effect": "Fait de l’attente un sujet visuel. Un œil non prescrit apparaît dans le cadran ; personnification volontaire ou déformation ne peuvent pas être départagées par les seules images."
+    },
+    {
+      "element": "Joue portée puis bras croisés",
+      "effect": "Traduit «changes posture» par des attitudes psychologiques successives."
+    },
+    {
+      "element": "Point de vue au ras du plateau avec coffre dominant au premier plan",
+      "effect": "Rapproche l’objectif désiré du visage et rend l’obsession concrète."
+    },
+    {
+      "element": "Grands yeux brillants et pose bondissante téléphone tenu des deux pattes",
+      "effect": "Amplifie «visibly delighted» jusqu’àune joie corporelle enfantine."
+    },
+    {
+      "element": "Lumière de fenêtre, ombres, reflets du coffre, bois du bureau",
+      "effect": "Enrichit la profondeur et la matérialité, non prescrites en détail."
+    }
+  ],
+  "hypotheses": [
+    {
+      "statement": "Le résultat semble privilégier un arc simple ennui→attente→récompense, plus facile àmatérialiser en quelques plans que la mécanique des vérifications minute par minute.",
+      "certainty": "Hypothèse descriptive ; aucune connaissance du fonctionnement interne."
+    },
+    {
+      "statement": "La quantité d’actions, les multiples unités de temps et les obligations de texte/compteur dans un seul prompt peuvent avoir favorisé omissions et compression.",
+      "certainty": "Hypothèse ; les limites du modèle, réglages ou montage réel ne sont pas connus."
+    },
+    {
+      "statement": "Les coches finales ressemblent àun symbole visuel générique de liste, inséré sans conserver son état narratif.",
+      "certainty": "Hypothèse sur le résultat ; pas une explication prouvée de sa génération."
+    }
+  ],
+  "recommendations": [
+    "Découper en un clip par intention et un montage décidé avant génération : choix d’enfermer, tentative, premier retour, répétition, attente proche, ouverture, joie, constat papier.",
+    "Dissocier repères fixes de l’animation : compteur, horloge et liste àtrois cases vides composités ou rendus de manière déterministe.",
+    "Écrire les positions de caméra et les contacts pour chaque plan : la plongée, le ras du plateau et les inserts sont des apports du résultat, pas des clauses angulaires de notre prompt.",
+    "Reprendre les signes observables du jeu (paupières, sourcils, joue soutenue, coudes au plateau, bras croisés, tête basse, yeux brillants, anticipation et joie) dans un storyboard mesuré.",
+    "Vérifier les états avant/après des objets : un crayon, téléphone réellement enfermé, coffre ferméjusqu’àzéro, trois cases jamais cochées.",
+    "Maintenir le désir initial de travailler et ses deux échecs visibles ; une série de poses d’ennui seule raconte surtout l’attente d’une récompense."
+  ]
+}

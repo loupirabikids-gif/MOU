@@ -1,0 +1,31 @@
+{
+  "video_sha256": "631e0d7edb628a72a189f255c183cea7887c23fe8281632ec14969da260417b3",
+  "video_frames": 361,
+  "fps": 24,
+  "video_duration": 15.041666666666666,
+  "prompt_origin": "Texte proposé dans la conversation. Prompt réellement soumis, modèle et réglages de génération non connus.",
+  "frames_indexed": true,
+  "audio_scope": "Piste présente, pas d’écoute réelle revendiquée.",
+  "zero_based_frame_indices": true,
+  "root_review": "Onze planches couvrant les361images ouvertes, vue à4ips, coupes et transitions ciblées grossies. Chaque émotion est une lecture visuelle ; pas de jugement individuel rédigé pour361images.",
+  "cut_frames_zero": [
+    32,
+    61,
+    102,
+    134,
+    182,
+    216,
+    245,
+    279,
+    314
+  ],
+  "review_dimensions": [
+    "caméra et profondeur",
+    "visage et regards",
+    "positions et contacts des deux mains",
+    "corps et queue",
+    "pauses et transitions",
+    "états et orientation des objets",
+    "30clauses du prompt"
+  ]
+}
