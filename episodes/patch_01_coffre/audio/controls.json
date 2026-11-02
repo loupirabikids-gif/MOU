@@ -1,0 +1,11 @@
+{
+  "duration_seconds": 20.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 16,
+  "clipped_samples": 0,
+  "last_nonzero_seconds": 15.1505,
+  "final_silence_seconds": 4.849479166666667,
+  "cue_count": 14,
+  "listening_performed": false
+}

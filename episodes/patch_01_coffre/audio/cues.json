@@ -1,0 +1,156 @@
+[
+  {
+    "id": "notification",
+    "sound": "notification",
+    "at": 0.65,
+    "start_sample": 31200,
+    "duration": 0.39,
+    "gain_db": -4.0,
+    "pan": 0.15,
+    "group": "ui",
+    "sound_sha256": "f5b08f993bf55c3abf78fde816499ae78f9fae07ea19931984b584e3691b06d2"
+  },
+  {
+    "id": "prise",
+    "sound": "tap",
+    "at": 1.7,
+    "start_sample": 81600,
+    "duration": 0.105,
+    "gain_db": -6.0,
+    "pan": 0.15,
+    "group": "foley",
+    "sound_sha256": "f4eb03de6970c9866802cd2f450134e06e886e6c9e6fd879eebcc4f0250cb5ba"
+  },
+  {
+    "id": "depot",
+    "sound": "phone_place",
+    "at": 2.8,
+    "start_sample": 134400,
+    "duration": 0.13,
+    "gain_db": -5.0,
+    "pan": 0.3,
+    "group": "foley",
+    "sound_sha256": "9ef7285cabdc035db357e8be9df1e8822b39fbd74bee8d4dde40b62b3cd4cc5b"
+  },
+  {
+    "id": "fermeture",
+    "sound": "lid_close",
+    "at": 3.55,
+    "start_sample": 170400,
+    "duration": 0.235,
+    "gain_db": -4.0,
+    "pan": 0.3,
+    "group": "foley",
+    "sound_sha256": "8fd35d395fd484fd49f24e5caebb18245e9eefa68f78746b43e7b58f0bf1b60a"
+  },
+  {
+    "id": "bouton",
+    "sound": "button",
+    "at": 3.9,
+    "start_sample": 187200,
+    "duration": 0.11,
+    "gain_db": -5.0,
+    "pan": 0.2,
+    "group": "foley",
+    "sound_sha256": "9ad269046417d044a0802c01dcd8bbab48f242d9aa87fd4384654fa1282c21b0"
+  },
+  {
+    "id": "verrou",
+    "sound": "lock",
+    "at": 4.0,
+    "start_sample": 192000,
+    "duration": 0.142,
+    "gain_db": -4.0,
+    "pan": 0.3,
+    "group": "foley",
+    "sound_sha256": "9d4db6c9e8d223e7c6782612a00407ae9bd687a48090a64c7b6a3f398ff32e2b"
+  },
+  {
+    "id": "crayon_pose",
+    "sound": "paper",
+    "at": 8.05,
+    "start_sample": 386400,
+    "duration": 0.24,
+    "gain_db": -7.0,
+    "pan": -0.15,
+    "group": "foley",
+    "sound_sha256": "eba5e521f5366f3697885781743d9ce968313a560b5559090f739af56b5aefca"
+  },
+  {
+    "id": "tic_1",
+    "sound": "tick",
+    "at": 7.0,
+    "start_sample": 336000,
+    "duration": 0.07,
+    "gain_db": -10.0,
+    "pan": 0.3,
+    "group": "tick",
+    "sound_sha256": "7c2f66a98ddaa86a8d23515972c16064a34673ed817ff1874b612c9d10d31837"
+  },
+  {
+    "id": "tic_2",
+    "sound": "tick",
+    "at": 10.0,
+    "start_sample": 480000,
+    "duration": 0.07,
+    "gain_db": -10.0,
+    "pan": 0.3,
+    "group": "tick",
+    "sound_sha256": "7c2f66a98ddaa86a8d23515972c16064a34673ed817ff1874b612c9d10d31837"
+  },
+  {
+    "id": "tic_3",
+    "sound": "tick",
+    "at": 12.0,
+    "start_sample": 576000,
+    "duration": 0.07,
+    "gain_db": -10.0,
+    "pan": 0.3,
+    "group": "tick",
+    "sound_sha256": "7c2f66a98ddaa86a8d23515972c16064a34673ed817ff1874b612c9d10d31837"
+  },
+  {
+    "id": "tic_4",
+    "sound": "tick",
+    "at": 13.0,
+    "start_sample": 624000,
+    "duration": 0.07,
+    "gain_db": -10.0,
+    "pan": 0.3,
+    "group": "tick",
+    "sound_sha256": "7c2f66a98ddaa86a8d23515972c16064a34673ed817ff1874b612c9d10d31837"
+  },
+  {
+    "id": "fin",
+    "sound": "end_ping",
+    "at": 14.0,
+    "start_sample": 672000,
+    "duration": 0.39,
+    "gain_db": -5.0,
+    "pan": 0.3,
+    "group": "ui",
+    "sound_sha256": "6b9115267b97097b5bec1d9d688cc2d2edf269a80df242697574ea13805a9f83"
+  },
+  {
+    "id": "couvercle_ouvert",
+    "sound": "unlock",
+    "at": 14.7,
+    "start_sample": 705600,
+    "duration": 0.235,
+    "gain_db": -6.0,
+    "pan": 0.3,
+    "group": "foley",
+    "sound_sha256": "48bcf421e15d8eb7b044db9f258459b055e0ac7b3c6ca68397ae83600ac3a30c"
+  },
+  {
+    "id": "reprise",
+    "sound": "tap",
+    "at": 15.05,
+    "start_sample": 722400,
+    "duration": 0.105,
+    "gain_db": -6.0,
+    "pan": 0.3,
+    "group": "foley",
+    "sound_sha256": "f4eb03de6970c9866802cd2f450134e06e886e6c9e6fd879eebcc4f0250cb5ba"
+  }
+]

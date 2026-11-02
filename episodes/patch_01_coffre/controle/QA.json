@@ -1,0 +1,445 @@
+{
+  "status": "passed",
+  "scope": "final_exports",
+  "observed_at": "2026-11-02T16:30:38.225054+01:00",
+  "checks": [
+    {
+      "check": "six_original_references_unchanged",
+      "passed": true,
+      "evidence": {
+        "files": 6,
+        "changed": []
+      }
+    },
+    {
+      "check": "all_480_svg",
+      "passed": true,
+      "evidence": {
+        "failures": [],
+        "svg_frames": 480,
+        "phone_visible_frames": 225,
+        "maximum_grip_error_px": 1.4803962162179694e-05,
+        "maximum_cuff_paw_fill_gap_px": 0.0
+      }
+    },
+    {
+      "check": "all_480_timer",
+      "passed": true,
+      "evidence": {
+        "failures": [],
+        "svg_frames": 480,
+        "phone_visible_frames": 225,
+        "maximum_grip_error_px": 1.4803962162179694e-05,
+        "maximum_cuff_paw_fill_gap_px": 0.0
+      }
+    },
+    {
+      "check": "all_480_phone",
+      "passed": true,
+      "evidence": {
+        "failures": [],
+        "svg_frames": 480,
+        "phone_visible_frames": 225,
+        "maximum_grip_error_px": 1.4803962162179694e-05,
+        "maximum_cuff_paw_fill_gap_px": 0.0
+      }
+    },
+    {
+      "check": "all_480_grip",
+      "passed": true,
+      "evidence": {
+        "failures": [],
+        "svg_frames": 480,
+        "phone_visible_frames": 225,
+        "maximum_grip_error_px": 1.4803962162179694e-05,
+        "maximum_cuff_paw_fill_gap_px": 0.0
+      }
+    },
+    {
+      "check": "all_480_cuffs",
+      "passed": true,
+      "evidence": {
+        "failures": [],
+        "svg_frames": 480,
+        "phone_visible_frames": 225,
+        "maximum_grip_error_px": 1.4803962162179694e-05,
+        "maximum_cuff_paw_fill_gap_px": 0.0
+      }
+    },
+    {
+      "check": "all_480_paper",
+      "passed": true,
+      "evidence": {
+        "failures": [],
+        "svg_frames": 480,
+        "phone_visible_frames": 225,
+        "maximum_grip_error_px": 1.4803962162179694e-05,
+        "maximum_cuff_paw_fill_gap_px": 0.0
+      }
+    },
+    {
+      "check": "all_480_lid",
+      "passed": true,
+      "evidence": {
+        "failures": [],
+        "svg_frames": 480,
+        "phone_visible_frames": 225,
+        "maximum_grip_error_px": 1.4803962162179694e-05,
+        "maximum_cuff_paw_fill_gap_px": 0.0
+      }
+    },
+    {
+      "check": "rigid_prop_handoffs_continuous",
+      "passed": true,
+      "evidence": [
+        {
+          "time": 1.7,
+          "part": "phone",
+          "max_transform_delta": 0.0
+        },
+        {
+          "time": 2.8,
+          "part": "phone",
+          "max_transform_delta": 0.0
+        },
+        {
+          "time": 15.05,
+          "part": "phone",
+          "max_transform_delta": 0.0
+        },
+        {
+          "time": 8.05,
+          "part": "pencil",
+          "max_transform_delta": 0.0
+        }
+      ]
+    },
+    {
+      "check": "audio_has_no_writing_music_or_voice_cues",
+      "passed": true,
+      "evidence": {
+        "cue_count": 14,
+        "sounds": [
+          "button",
+          "end_ping",
+          "lid_close",
+          "lock",
+          "notification",
+          "paper",
+          "phone_place",
+          "tap",
+          "tick",
+          "unlock"
+        ]
+      }
+    },
+    {
+      "check": "final_sound_and_silent_mp4_format",
+      "passed": true,
+      "evidence": {
+        "video": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1088,
+            "coded_height": 1920,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 245760,
+            "duration": "20.000000",
+            "bit_rate": "733460",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "480",
+            "nb_read_frames": "480",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc61.19.101 libx264"
+            }
+          }
+        ],
+        "silent": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1088,
+            "coded_height": 1920,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 4,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "time_base": "1/12288",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 245760,
+            "duration": "20.000000",
+            "bit_rate": "733460",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "480",
+            "nb_read_frames": "480",
+            "extradata_size": 47,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]",
+              "encoder": "Lavc61.19.101 libx264"
+            }
+          }
+        ],
+        "audio": [
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 960000,
+            "duration": "20.000000",
+            "bit_rate": "31937",
+            "nb_frames": "939",
+            "nb_read_frames": "938",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler",
+              "vendor_id": "[0][0][0][0]"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "check": "mux_copies_the_same_h264_picture",
+      "passed": true,
+      "evidence": {
+        "sound_h264_sha256": "9ebffcd46149f1bd45bf112d4a9e5a1e8158e819e316df43f721a31bd77ff199",
+        "silent_h264_sha256": "9ebffcd46149f1bd45bf112d4a9e5a1e8158e819e316df43f721a31bd77ff199"
+      }
+    },
+    {
+      "check": "mix_is_20_seconds_48k_stereo_without_clipping",
+      "passed": true,
+      "evidence": {
+        "sample_rate": 48000,
+        "channels": 2,
+        "samples_per_channel": 960000,
+        "peak_linear": 0.102203369140625
+      }
+    },
+    {
+      "check": "audio_assets_cues_and_frozen_timeline_agree",
+      "passed": true,
+      "evidence": {
+        "bank_mismatches": [],
+        "original_mismatches": [],
+        "cue_count": 14,
+        "cue_offsets_and_assets_match": true,
+        "timeline_hash_matches": true
+      }
+    },
+    {
+      "check": "three_declared_stems_reproduce_mix_with_quantization_tolerance",
+      "passed": true,
+      "evidence": {
+        "maximum_pcm_residual_lsb": 0,
+        "tolerance_lsb": 2,
+        "stems": [
+          "foley",
+          "ui",
+          "tick"
+        ]
+      }
+    },
+    {
+      "check": "twelve_decoded_frames_match_fresh_cairo_renders",
+      "passed": true,
+      "evidence": [
+        {
+          "frame": 1,
+          "mean_abs_rgb_error": 1.5166067065329218,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 42,
+          "mean_abs_rgb_error": 1.5361622299382716,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 68,
+          "mean_abs_rgb_error": 1.5277322852366255,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 86,
+          "mean_abs_rgb_error": 1.5259137088477366,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 97,
+          "mean_abs_rgb_error": 1.5284862075617285,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 194,
+          "mean_abs_rgb_error": 1.5045916923868312,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 265,
+          "mean_abs_rgb_error": 1.5436064493312758,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 337,
+          "mean_abs_rgb_error": 1.4832375257201647,
+          "p99_rgb_error": 5.0
+        },
+        {
+          "frame": 362,
+          "mean_abs_rgb_error": 1.5073971193415638,
+          "p99_rgb_error": 7.0
+        },
+        {
+          "frame": 380,
+          "mean_abs_rgb_error": 1.4841176376028806,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 466,
+          "mean_abs_rgb_error": 1.5232066615226338,
+          "p99_rgb_error": 6.0
+        },
+        {
+          "frame": 480,
+          "mean_abs_rgb_error": 1.5232248263888888,
+          "p99_rgb_error": 6.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Contrôles numériques et contours sans écoute ; aucun confort sonore certifié.",
+    "La lecture du gag est réservée à la critique indépendante du montage."
+  ],
+  "files": {
+    "episodes/patch_01_coffre/PATCH_Le_coffre.mp4": "bf3c7c558067c97f005db2c01fc6b44a234411581184caf07626ccdb147c9dae",
+    "episodes/patch_01_coffre/PATCH_Le_coffre_muet.mp4": "ef7ff3d1c5d677b6fc92867e2b2a0ee3b10865451a2756032c57b6577969ef00",
+    "episodes/patch_01_coffre/audio/mix.wav": "626eacbaf499d0e9fe93fab2033346477e4c1b0278774bde73d55403b34e3397"
+  }
+}

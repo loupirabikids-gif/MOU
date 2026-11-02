@@ -1,0 +1,19 @@
+{
+  "file": "mix.wav",
+  "sha256": "626eacbaf499d0e9fe93fab2033346477e4c1b0278774bde73d55403b34e3397",
+  "timeline_sha256": "c5e9f7d5c9b7b12f070e2a7c75693a358f03819e17c535f9d2bdc788ee6ed17c",
+  "duration": 20.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 16,
+  "samples": 960000,
+  "cues": 14,
+  "peak_linear": 0.10222055199099804,
+  "peak_dbfs": -19.809235563683483,
+  "rms_dbfs": -48.22118284638825,
+  "music": false,
+  "voice": false,
+  "compressor": false,
+  "listening_performed": false,
+  "limits": "Reproducible editing and numeric checks; human audition still needed for perceived material fit and comfort."
+}

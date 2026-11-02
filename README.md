@@ -1,5 +1,18 @@
 # Atelier de courts épisodes
 
+**Premier épisode PATCH — Le coffre à concentration, vingt secondes.**
+
+**[Voir le film avec son](episodes/patch_01_coffre/PATCH_Le_coffre.mp4?raw=true)** ·
+[Version muette](episodes/patch_01_coffre/PATCH_Le_coffre_muet.mp4?raw=true) ·
+[Storyboard](episodes/patch_01_coffre/PATCH_Le_coffre_storyboard.png) ·
+[Sources et contrôles](episodes/patch_01_coffre/).
+
+PATCH enferme son téléphone pour travailler, puis surveille les dix secondes
+du minuteur. À l'ouverture il retrouve son écran avec joie ; sa feuille est
+restée vierge. Animation 2D, quatorze effets courts, sans musique ni dialogue.
+Le mix n'a pas pu être écouté dans l'environnement ; les contrôles de son
+portent sur la synchronisation, les niveaux et la reconstruction des cues.
+
 **Nouvelle direction : un personnage original, nom de travail PATCH.**
 
 [Voir la proposition visuelle](recherche/2026-11-02_nouveau_personnage/visuel/Patch_concept.png) ·

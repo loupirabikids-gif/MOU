@@ -1,5 +1,36 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante « réalise cela » : fabriquer l'épisode PATCH proposé,
+où il enferme son téléphone pour travailler puis surveille le minuteur.
+Le croquis PATCH (raton gris/crème, hoodie corail, queue annelée) devient la
+référence de cette fabrication. MOU et Galet restent des archives intactes.
+Dossier `episodes/patch_01_coffre/`, cible20s/24ips/1080×1920, son et muet.
+Quatre plans ; verrou à4s, déverrou à14s, compte réel00:10→00:00 sans ellipse.
+Le dépôt doit réellement mettre le téléphone dans le coffre opaque ; il est
+caché par le couvercle fermé puis repris après ouverture. Feuille sans trace,
+crayon déposé sans écrire ; joie au téléphone et feuille vide font la chute.
+Python/SVG/CairoSVG/FFmpeg, outils gratuits et libres. Pas de musique ni voix
+artificielle ; peu de Foley CC0 documentés et deux signaux UI originaux.
+Le coordinateur possède scène/caméras/chronologie/export ; rig possède
+personnage.py/palette.json ; son possède son.py/audio/assets son ; scénariste
+ses deux documents ; critique ses rapports. Gel des sources avant rendu,
+revue des contacts et de l'animatique complète avant HD. La critique ne vaut
+pas approbation du public ; aucun confort d'écoute certifié sans écoute.
+Livrer film son/muet/sources sur GitHub selon l'autorisation existante,
+aucune diffusion sociale. Veille récente toujours incomplète, sans statistiques
+inventées ; ce gag est un choix explicite de l'utilisatrice.
+
+Épisode fabriqué et revu : film son bf3c7c55…c9dae et muet ef7ff3d1…9ef00,
+20s/480images. La critique des animatiques a clarifié profondeur du couvercle,
+masquage du hoodie, séparation de la prise initiale, retrait de la patte du
+crayon et dégagement du compteur. La revue du vrai HD ne retient plus de
+défaut visuel bloquant sur les passages examinés. QA16contrôles passés,
+douze images décodées face à des rendus frais, six références intactes,
+même flux vidéo dans les deux exports. Quatorze cues, sans musique ou voix,
+aucune écoute réelle revendiquée. Depuis le ZIP extrait, les480PNG et leWAV
+se reproduisent à l'identique ; les octets de l'encodageMP4 peuvent différer.
+Cela ne prouve ni succès d'audience ni cadence hebdomadaire validée.
+
 Dernière instruction : l'utilisatrice rejette le personnage compact et demande
 d'oublier MOU complètement, puis de proposer un nouveau personnage à partir
 d'études et de références actuelles. MOU et Galet sont désormais des archives,

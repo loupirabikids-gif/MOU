@@ -1,0 +1,397 @@
+{
+  "title": "PATCH — Le coffre à concentration",
+  "status": "chronologie_de_fabrication",
+  "fps": 24,
+  "duration": 20.0,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "character_reference": "recherche/2026-11-02_nouveau_personnage/visuel/Patch_concept.png",
+  "dialogue_required": false,
+  "music_default": false,
+  "sound": "short_visible_cause_foley",
+  "desire": "Se mettre au travail sans regarder son téléphone",
+  "attempt": "Enfermer le téléphone dans une boîte à minuterie",
+  "reversal": "Le minuteur devient la nouvelle distraction",
+  "payoff": "PATCH retrouve son téléphone avec joie ; la feuille est toujours vierge",
+  "lock": {
+    "time": 4.0,
+    "frame": 97,
+    "duration_seconds": 10,
+    "display": "00:10"
+  },
+  "unlock": {
+    "time": 14.0,
+    "frame": 337,
+    "display": "00:00"
+  },
+  "continuity": {
+    "paper_has_marks": false,
+    "phone_in_box": [
+      2.8,
+      15.05
+    ],
+    "phone_hidden_by_closed_lid": [
+      3.55,
+      14.2
+    ],
+    "lid_stays_open_after_retrieval": true,
+    "pencil_stays_on_desk_after": 8.05,
+    "same_screen_axis": true,
+    "phone_drawn_behind_box_front": [
+      2.2,
+      15.3
+    ]
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "start": 0.0,
+      "end": 2.1,
+      "framing": "medium_desk_face_and_paws",
+      "purpose": "Établir le désir de travailler et la distraction du téléphone",
+      "beats": [
+        {
+          "start": 0.0,
+          "end": 0.65,
+          "action": "pencil_hover_above_blank_paper",
+          "gaze_target": "paper",
+          "expression": "concentration",
+          "intention": "commencer"
+        },
+        {
+          "start": 0.65,
+          "end": 1.45,
+          "action": "phone_lights_and_briefly_vibrates",
+          "gaze_target": "phone_then_box",
+          "expression": "temptation_then_idea",
+          "intention": "trouver_une_solution"
+        },
+        {
+          "start": 1.45,
+          "end": 2.1,
+          "action": "grab_phone_and_move_toward_box",
+          "gaze_target": "box_opening",
+          "expression": "enthusiastic",
+          "intention": "mettre_la_solution_en_place"
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "start": 2.1,
+      "end": 4.4,
+      "framing": "insert_whole_box_phone_and_attached_paws",
+      "purpose": "Montrer le dépôt réel, la fermeture et le verrouillage",
+      "beats": [
+        {
+          "start": 2.1,
+          "end": 2.85,
+          "action": "deposit_phone_inside_box",
+          "gaze_target": "box_opening",
+          "contact": "phone_follows_grip_until_deposit"
+        },
+        {
+          "start": 2.85,
+          "end": 3.65,
+          "action": "withdraw_paw_and_close_lid",
+          "contact": "lid_covers_phone"
+        },
+        {
+          "start": 3.65,
+          "end": 4.0,
+          "action": "press_start_button",
+          "display": "00:10"
+        },
+        {
+          "start": 4.0,
+          "end": 4.4,
+          "action": "lock_confirmation_hold",
+          "display": "00:10",
+          "icon": "closed_padlock"
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "start": 4.4,
+      "end": 14.0,
+      "framing": "medium_paper_face_and_timer_visible",
+      "purpose": "Transformer le minuteur en distraction, par progression du jeu",
+      "beats": [
+        {
+          "start": 4.4,
+          "end": 5.45,
+          "action": "return_to_paper_with_pencil_ready",
+          "gaze_target": "paper",
+          "expression": "satisfied",
+          "intention": "reprendre_le_travail"
+        },
+        {
+          "start": 5.45,
+          "end": 6.15,
+          "action": "first_short_peek_then_return",
+          "gaze_target": "timer_then_paper",
+          "expression": "curious",
+          "intention": "verifier_un_instant"
+        },
+        {
+          "start": 6.15,
+          "end": 7.4,
+          "action": "second_longer_peek",
+          "gaze_target": "timer",
+          "expression": "impatient",
+          "intention": "savoir_combien_il_reste"
+        },
+        {
+          "start": 7.4,
+          "end": 8.2,
+          "action": "put_pencil_down_without_writing",
+          "gaze_target": "timer",
+          "expression": "preoccupied",
+          "intention": "regarder_plus_attentivement"
+        },
+        {
+          "start": 8.2,
+          "end": 10.4,
+          "action": "lean_face_toward_display",
+          "gaze_target": "timer_digits",
+          "expression": "focused_on_wrong_object",
+          "intention": "surveiller"
+        },
+        {
+          "start": 10.4,
+          "end": 12.75,
+          "action": "hold_impatient_pose_with_one_small_tail_motion",
+          "gaze_target": "timer_digits",
+          "expression": "impatient",
+          "intention": "attendre_plus_vite"
+        },
+        {
+          "start": 12.75,
+          "end": 14.0,
+          "action": "anticipate_unlock_without_opening_lid",
+          "gaze_target": "timer_digits",
+          "expression": "eager",
+          "intention": "etre_pret_a_la_seconde_pres"
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "start": 14.0,
+      "end": 20.0,
+      "framing": "medium_box_face_then_gentle_pullback_to_whole_blank_paper",
+      "purpose": "Retrouver le téléphone et montrer le travail resté vide",
+      "beats": [
+        {
+          "start": 14.0,
+          "end": 14.2,
+          "action": "unlock_signal",
+          "gaze_target": "display",
+          "display": "00:00",
+          "icon": "open_padlock",
+          "expression": "delighted"
+        },
+        {
+          "start": 14.2,
+          "end": 15.7,
+          "action": "open_box_and_retrieve_phone",
+          "gaze_target": "phone",
+          "contact": "phone_follows_grip",
+          "expression": "relief_and_joy"
+        },
+        {
+          "start": 15.7,
+          "end": 17.25,
+          "action": "absorb_attention_in_phone",
+          "gaze_target": "phone_screen",
+          "expression": "warm_genuine_smile"
+        },
+        {
+          "start": 17.25,
+          "end": 18.5,
+          "action": "camera_reveals_whole_blank_paper_and_resting_pencil",
+          "gaze_target": "phone_screen",
+          "expression": "happy_unaware",
+          "paper_has_marks": false
+        },
+        {
+          "start": 18.5,
+          "end": 20.0,
+          "action": "short_living_final_hold_then_cut",
+          "gaze_target": "phone_screen",
+          "expression": "happy_unaware",
+          "paper_has_marks": false
+        }
+      ]
+    }
+  ],
+  "sound_events": [
+    {
+      "time": 0.65,
+      "cue": "soft_phone_notification",
+      "visible_cause": "phone_lights_and_vibrates"
+    },
+    {
+      "time": 1.7,
+      "cue": "small_phone_pickup_contact",
+      "visible_cause": "grip_closes_on_phone"
+    },
+    {
+      "time": 2.8,
+      "cue": "soft_phone_deposit",
+      "visible_cause": "phone_reaches_box_bottom"
+    },
+    {
+      "time": 3.55,
+      "cue": "muted_lid_contact",
+      "visible_cause": "lid_reaches_box_rim"
+    },
+    {
+      "time": 3.9,
+      "cue": "small_button_click",
+      "visible_cause": "start_button_pressed"
+    },
+    {
+      "time": 4.0,
+      "cue": "lock_latch",
+      "visible_cause": "closed_padlock_confirmation"
+    },
+    {
+      "time": 7.9,
+      "cue": "pencil_set_down",
+      "visible_cause": "pencil_touches_desk"
+    },
+    {
+      "time": 14.0,
+      "cue": "soft_unlock_confirmation",
+      "visible_cause": "display_zero_and_open_padlock"
+    },
+    {
+      "time": 14.55,
+      "cue": "lid_open_contact",
+      "visible_cause": "paw_lifts_lid"
+    },
+    {
+      "time": 15.3,
+      "cue": "phone_retrieval_contact",
+      "visible_cause": "phone_leaves_box_in_grip"
+    },
+    {
+      "time": 16.1,
+      "cue": "single_glass_tap",
+      "visible_cause": "paw_touches_screen"
+    }
+  ],
+  "sound_notes": "No writing cue: paper stays blank. Optional very soft regular timer ticks, never a loud continuous clock. No vocalisation required.",
+  "review_priorities": [
+    "work_goal_visible_at_start",
+    "phone_really_inside_box",
+    "timer_and_gaze_relation",
+    "non_repetitive_waiting_progression",
+    "blank_paper_payoff",
+    "patch_identity_and_paw_contacts"
+  ],
+  "audio_cues": [
+    {
+      "id": "notification",
+      "sound": "notification",
+      "at": 0.65,
+      "gain_db": -4,
+      "pan": 0.15
+    },
+    {
+      "id": "prise",
+      "sound": "tap",
+      "at": 1.7,
+      "gain_db": -6,
+      "pan": 0.15
+    },
+    {
+      "id": "depot",
+      "sound": "phone_place",
+      "at": 2.8,
+      "gain_db": -5,
+      "pan": 0.3
+    },
+    {
+      "id": "fermeture",
+      "sound": "lid_close",
+      "at": 3.55,
+      "gain_db": -4,
+      "pan": 0.3
+    },
+    {
+      "id": "bouton",
+      "sound": "button",
+      "at": 3.9,
+      "gain_db": -5,
+      "pan": 0.2
+    },
+    {
+      "id": "verrou",
+      "sound": "lock",
+      "at": 4.0,
+      "gain_db": -4,
+      "pan": 0.3
+    },
+    {
+      "id": "crayon_pose",
+      "sound": "paper",
+      "at": 8.05,
+      "gain_db": -7,
+      "pan": -0.15
+    },
+    {
+      "id": "tic_1",
+      "sound": "tick",
+      "at": 7.0,
+      "gain_db": -10,
+      "pan": 0.3
+    },
+    {
+      "id": "tic_2",
+      "sound": "tick",
+      "at": 10.0,
+      "gain_db": -10,
+      "pan": 0.3
+    },
+    {
+      "id": "tic_3",
+      "sound": "tick",
+      "at": 12.0,
+      "gain_db": -10,
+      "pan": 0.3
+    },
+    {
+      "id": "tic_4",
+      "sound": "tick",
+      "at": 13.0,
+      "gain_db": -10,
+      "pan": 0.3
+    },
+    {
+      "id": "fin",
+      "sound": "end_ping",
+      "at": 14.0,
+      "gain_db": -5,
+      "pan": 0.3
+    },
+    {
+      "id": "couvercle_ouvert",
+      "sound": "unlock",
+      "at": 14.7,
+      "gain_db": -6,
+      "pan": 0.3
+    },
+    {
+      "id": "reprise",
+      "sound": "tap",
+      "at": 15.05,
+      "gain_db": -6,
+      "pan": 0.3
+    }
+  ]
+}
