@@ -1,5 +1,20 @@
 # Atelier de courts épisodes
 
+**PATCH — Le coffre, jeu reconstruit à partir de la référence fournie.**
+
+**[Voir le nouvel épisode avec son — 30 secondes](episodes/patch_01_coffre_v3/PATCH_Le_coffre_V3.mp4?raw=true)** ·
+[Version muette](episodes/patch_01_coffre_v3/PATCH_Le_coffre_V3_muet.mp4?raw=true) ·
+[Huit poses](episodes/patch_01_coffre_v3/PATCH_Le_coffre_V3_storyboard.png) ·
+[Sources et contrôles](episodes/patch_01_coffre_v3/).
+
+Nouveau jeu : joue soutenue par une patte, bras croisés, tête au niveau du
+plateau puis joie corporelle au retour du téléphone. Le dessin de PATCH
+reste reconnaissable ; son rig reçoit de nouvelles poses et des transitions.
+Les trente minutes demeurent explicites et les trois cases finales vides.
+La référence privée guide le jeu ; aucun de ses plans ou sons n'est inséré.
+La bande-son sobre de la V2 est conservée, sans nouvelle musique ou voix.
+Les contrôles audio restent numériques, sans écoute réelle dans cet environnement.
+
 **PATCH — Trente minutes de concentration, version corrigée.**
 
 **[Voir le film avec son — 30 secondes](episodes/patch_01_coffre_v2/PATCH_Le_coffre_30min.mp4?raw=true)** ·

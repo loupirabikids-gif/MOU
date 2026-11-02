@@ -1,0 +1,15 @@
+{
+  "note": "Gel après examen des nouvelles poses et de la vraie animatique corrigée ; QA séparée du producteur.",
+  "files": {
+    "episodes/patch_01_coffre_v3/sources/jeu.py": "7a70cdf2fc7151d7ed5dbaa6c9cbede1033cf1e7f0eae4e8bba2cc1e4ae5f369",
+    "episodes/patch_01_coffre_v3/sources/package.py": "b82e1dce1ce34de35fea4dd23da301ce5d2c0dea09e13d70f639169d21f62a81",
+    "episodes/patch_01_coffre_v3/sources/palette.json": "42d905009d4e53603db26e964168083bf652b4a583e4ff1442dc0f239aa116b0",
+    "episodes/patch_01_coffre_v3/sources/personnage.py": "44ff6a102e41730b81093d03034ea94083db485ab5304c2e67b1c48e4b58db4d",
+    "episodes/patch_01_coffre_v3/sources/reference_scene.py": "06e090059e1549f6e96b12edbfbc34b5ae41de46e0cc63ef922dc46ffa6d9b0b",
+    "episodes/patch_01_coffre_v3/sources/render.py": "ad9da404278b2db5dfc7d7f78cda57864ee42c35c43474c6e87594f8bd481365",
+    "episodes/patch_01_coffre_v3/sources/scene.py": "3a86ff73ba6b3704b7f5df3c0cb2f970130170fa759973b9549fe6523baf6d64",
+    "episodes/patch_01_coffre_v3/sources/son.py": "bff10390afb9b57d18900aabba7a3fd94134857b03f6d3408904be9bd96e35c7",
+    "episodes/patch_01_coffre_v3/chronologie.json": "13d6f043e49f3a27bf31b9c8271817957d2829b7ce5a44b2148346b6d4eee508",
+    "episodes/patch_01_coffre_v3/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41"
+  }
+}

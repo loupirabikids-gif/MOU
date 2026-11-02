@@ -1,0 +1,79 @@
+{
+  "method": "Archive extraite dans un dossier séparé ; dessins/poses/sons/police fournis, rendus frais sans V1/V2, cache ou réseau. Dépendances Python du poste utilisées.",
+  "frames": [
+    {
+      "frame": 1,
+      "sha256": "328ec0c47c16001f7ce35cbb659d9e486efaf18f64d02ce509e127d2f4e4442a",
+      "identical": true
+    },
+    {
+      "frame": 49,
+      "sha256": "67892bba30f873dfb3bf3efd28585517b0998857580349b25deb681d95e3fea1",
+      "identical": true
+    },
+    {
+      "frame": 97,
+      "sha256": "974082bfaeb498ccac133596d5df3902dea2f0cc4c9de90f163c750906f16a65",
+      "identical": true
+    },
+    {
+      "frame": 175,
+      "sha256": "874a972ab52d5d49983e70cf320d56e8e187e34078c35cac3fa466d31436d9e1",
+      "identical": true
+    },
+    {
+      "frame": 319,
+      "sha256": "72b38a938ad745d8370afa0cf397834f216376955678e13cf23cce76928718f0",
+      "identical": true
+    },
+    {
+      "frame": 340,
+      "sha256": "e617b27c0d80a2fbfaee18a156d280811c05a8b0dd4b2d45b5b08c4c2fa0981f",
+      "identical": true
+    },
+    {
+      "frame": 405,
+      "sha256": "7b77f0b20aedcfba2bc4cc60d6c80230385465130aec5985cd0f519ef80c4acf",
+      "identical": true
+    },
+    {
+      "frame": 444,
+      "sha256": "cd3f72d360156b3a42c77fd0ecc5fe23b6b62df14f8c73c054bf23f9933566cb",
+      "identical": true
+    },
+    {
+      "frame": 514,
+      "sha256": "ddb56dab302dff803807a71ef33706482a8486d8aaee73500643c71c228413c8",
+      "identical": true
+    },
+    {
+      "frame": 553,
+      "sha256": "89a2c796c4fca192676e312337b488486df006555a08f17683bcfb1bb5fd8b4e",
+      "identical": true
+    },
+    {
+      "frame": 605,
+      "sha256": "6ee665314ee3efa76faacd32e40e5acff13078166269259dd1f7f8be6e86cbbf",
+      "identical": true
+    },
+    {
+      "frame": 613,
+      "sha256": "78a3d140a72c23fa411f5c5d3e10ae02b2f95a741eaa4bcb00a062f618f91073",
+      "identical": true
+    },
+    {
+      "frame": 650,
+      "sha256": "e941a18711390c7586bb1e449467176069f58e033538d5d034d2e08e5d90530a",
+      "identical": true
+    },
+    {
+      "frame": 705,
+      "sha256": "0bba2f4fd0c268cdb115d4afbd3d29163c0945825a94cf4b8ddf3db3e4b58039",
+      "identical": true
+    }
+  ],
+  "all_sampled_png_identical": true,
+  "wav_identical": true,
+  "wav_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+  "limit": "Quatorze PNG et PCM entier vérifiés. Aucune identité binaire MP4 ou reproduction des720PNG revendiquée."
+}

@@ -1,5 +1,35 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante : reconstruire l'épisode PATCH en s'inspirant du jeu de
+la vidéo utilisateur. Nouvelle version isolée `episodes/patch_01_coffre_v3/`.
+Conserver dessin, palette, identité et anciens films ; étendre le rig pour
+des poses réellement nouvelles : joue appuyée dans la patte, bras croisés,
+tête près du plateau, puis joie corporelle après la reprise du téléphone.
+Le récit conserve trente minutes dans trente secondes, les 29 vérifications,
+verrou4s/déverrou23s/reprise24,05s et les trois cases TO DO toujours vides.
+Le coordinateur possède scène/caméras/chronologie/rendu/exports ; animation
+possède personnage.py et jeu.py ; scénario ses deux documents ; son ses
+sources/audio ; critique ses rapports ; QA son contrôleur et rapport.
+Observer les nouvelles poses puis l'animatique entière avant HD, corriger
+les défauts réels de contacts/mains/regards/raccords. La référence AI sert
+au jeu ; ses coches, temps incohérents et déformations parasites ne sont
+pas repris. Ne pas incorporer ou publier la vidéo utilisateur. Outils
+gratuits/libres et banque sonore sobre existante, sans musique ou voix
+ajoutée. Aucune écoute réelle n'est disponible ici ; ne pas confondre
+mesures audio, revue visuelle et validation artistique par l'utilisatrice.
+Livraison son/muet/sources sur GitHub dans l'accord existant, pas diffusion
+sociale. Les consignes précédentes restent l'historique des versions.
+
+V3 reconstruite : film son ef4e8079…6b566, muet06ee0d30…6bcf4,
+30s/720images1080×1920. Poses et animatique complète réellement examinées,
+puis revue des images du vrai HD ; pas de défaut visuel bloquant observé
+sur les passages inspectés. Bouche de joie ouverte puis cadrage/texte
+corrigés au sommet du rebond. QA22contrôles passés, raccords réels et appuis
+joue/paume, douzeHD frais comparés ; six références et dixfichiersgel intacts.
+Depuis ZIP extrait, quatorzePNG et WAV se reproduisent à l'identique ; aucune
+identité binaireMP4 revendiquée. Son18cues identiqueV2, aucune audition ou
+approbation publique. Pas de vidéo privée de référence incluse dans la livraison.
+
 Correction courante : l'utilisatrice juge le gag PATCH illisible et refuse
 le délai réel de dix secondes. Elle demande trente minutes dans l'histoire,
 le passage visible du temps et une vérification chaque minute. Réaliser V2
