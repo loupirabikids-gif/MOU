@@ -1,0 +1,962 @@
+{
+  "status": "passed",
+  "scope": "final_hd",
+  "producer_source_sha256": "f76dc353b775d8f56dd6708e9de4b301247c024dbcbeb6432a494c3b39510211",
+  "checks": [
+    {
+      "name": "720_finite_states_unique_svg_ids",
+      "passed": true,
+      "detail": {
+        "frames": 720,
+        "fps": 24,
+        "duration": 30.0
+      }
+    },
+    {
+      "name": "thirteen_shots_camera_and_timeline_agree",
+      "passed": true,
+      "detail": {
+        "camera_shots": [
+          {
+            "id": "P01",
+            "start": 0.0,
+            "end": 2.1,
+            "view": "wide_high"
+          },
+          {
+            "id": "P02",
+            "start": 2.1,
+            "end": 4.6,
+            "view": "lock_insert"
+          },
+          {
+            "id": "P03",
+            "start": 4.6,
+            "end": 6.0,
+            "view": "medium"
+          },
+          {
+            "id": "P04",
+            "start": 6.0,
+            "end": 7.0,
+            "view": "clock"
+          },
+          {
+            "id": "P05",
+            "start": 7.0,
+            "end": 10.0,
+            "view": "medium"
+          },
+          {
+            "id": "P06",
+            "start": 10.0,
+            "end": 12.25,
+            "view": "work_close"
+          },
+          {
+            "id": "P07",
+            "start": 12.25,
+            "end": 15.2,
+            "view": "medium"
+          },
+          {
+            "id": "P08",
+            "start": 15.2,
+            "end": 18.4,
+            "view": "medium"
+          },
+          {
+            "id": "P09",
+            "start": 18.4,
+            "end": 21.7,
+            "view": "low"
+          },
+          {
+            "id": "P10",
+            "start": 21.7,
+            "end": 23.0,
+            "view": "box_insert"
+          },
+          {
+            "id": "P11",
+            "start": 23.0,
+            "end": 25.4,
+            "view": "face_box"
+          },
+          {
+            "id": "P12",
+            "start": 25.4,
+            "end": 27.0,
+            "view": "phone_final"
+          },
+          {
+            "id": "P13",
+            "start": 27.0,
+            "end": 30.0,
+            "view": "phone_final"
+          }
+        ],
+        "timeline_matches": true,
+        "views_match": true
+      }
+    },
+    {
+      "name": "native_mou_geometry_and_two_eyes_arms_mittens_feet",
+      "passed": true,
+      "detail": {
+        "actor_frames": 665,
+        "bad_frames": [],
+        "occlusion_or_crop_not_claimed_as_visible_identity": true
+      }
+    },
+    {
+      "name": "canonical_rig_and_adapter_unchanged",
+      "passed": true,
+      "detail": {
+        "rig": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+        "adapter": "445ef02a57dfa58245d6298fde6bcbbad48a835b8b47e2b8fc10c39657d988b3"
+      }
+    },
+    {
+      "name": "clock_countdown_single_monotonic_1800_second_session",
+      "passed": true,
+      "detail": {
+        "bad_frames": [],
+        "first": 0,
+        "last": 1800
+      }
+    },
+    {
+      "name": "bilateral_grips_share_phone_projection_in_extended_recovery",
+      "passed": true,
+      "detail": [
+        {
+          "t": 25.041666667,
+          "view": "face_box",
+          "bilateral": true,
+          "projected_edge_errors": [
+            0.0,
+            1.1368683772161603e-13
+          ],
+          "native_anchor_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 25.1,
+          "view": "face_box",
+          "bilateral": true,
+          "projected_edge_errors": [
+            0.0,
+            1.1368683772161603e-13
+          ],
+          "native_anchor_errors": [
+            2.2737367544323206e-13,
+            2.2737367544323206e-13
+          ]
+        },
+        {
+          "t": 25.3,
+          "view": "face_box",
+          "bilateral": true,
+          "projected_edge_errors": [
+            1.1368683772161603e-13,
+            1.1368683772161603e-13
+          ],
+          "native_anchor_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 25.4,
+          "view": "phone_final",
+          "bilateral": true,
+          "projected_edge_errors": [
+            0.0,
+            0.0
+          ],
+          "native_anchor_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 25.7,
+          "view": "phone_final",
+          "bilateral": true,
+          "projected_edge_errors": [
+            0.0,
+            0.0
+          ],
+          "native_anchor_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 26.65,
+          "view": "phone_final",
+          "bilateral": true,
+          "projected_edge_errors": [
+            0.0,
+            0.0
+          ],
+          "native_anchor_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 28.5,
+          "view": "phone_final",
+          "bilateral": true,
+          "projected_edge_errors": [
+            0.0,
+            0.0
+          ],
+          "native_anchor_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 29.5,
+          "view": "phone_final",
+          "bilateral": true,
+          "projected_edge_errors": [
+            0.0,
+            0.0
+          ],
+          "native_anchor_errors": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "seated_satisfaction_without_airborne_hold_or_26_65_reset",
+      "passed": true,
+      "detail": {
+        "stable_from_seconds": 25.75,
+        "stable_hand_and_body_state": true,
+        "post_recovery_frames": 127
+      }
+    },
+    {
+      "name": "same_frontal_perspective_paper_pullback_and_hold",
+      "passed": true,
+      "detail": {
+        "start_viewport": [
+          90.0,
+          1490.0,
+          180.0,
+          320.0
+        ],
+        "end_viewport": [
+          0.0,
+          60.0,
+          1080.0,
+          1920.0
+        ],
+        "paper_completed": 0,
+        "final_clock": "09:30",
+        "no_new_3d_angle_claimed": true
+      }
+    },
+    {
+      "name": "same_three_empty_todo_boxes_no_written_marks",
+      "passed": true,
+      "detail": [
+        {
+          "t": 0.5,
+          "boxes": 3,
+          "all_empty": true,
+          "header_present": true
+        },
+        {
+          "t": 27.5,
+          "boxes": 3,
+          "all_empty": true,
+          "header_present": true
+        },
+        {
+          "t": 29.5,
+          "boxes": 3,
+          "all_empty": true,
+          "header_present": true
+        }
+      ]
+    },
+    {
+      "name": "real_composed_mitten_pixels_touch_phone_and_button",
+      "passed": true,
+      "detail": [
+        {
+          "t": 1.75,
+          "hand": "mou-hand-right",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 7396
+        },
+        {
+          "t": 2.75,
+          "hand": "mou-hand-right",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 29953
+        },
+        {
+          "t": 24.1,
+          "hand": "mou-hand-right",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 7863
+        },
+        {
+          "t": 25.1,
+          "hand": "mou-hand-left",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 1017
+        },
+        {
+          "t": 25.1,
+          "hand": "mou-hand-right",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 8518
+        },
+        {
+          "t": 25.3,
+          "hand": "mou-hand-left",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 897
+        },
+        {
+          "t": 25.3,
+          "hand": "mou-hand-right",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 7077
+        },
+        {
+          "t": 25.7,
+          "hand": "mou-hand-left",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 832
+        },
+        {
+          "t": 25.7,
+          "hand": "mou-hand-right",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 977
+        },
+        {
+          "t": 29.5,
+          "hand": "mou-hand-left",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 356
+        },
+        {
+          "t": 29.5,
+          "hand": "mou-hand-right",
+          "object": "phone",
+          "removed": 1,
+          "pixels": 405
+        },
+        {
+          "t": 3.9,
+          "hand": "mou-hand-right",
+          "object": "start-button",
+          "removed": 1,
+          "pixels": 650
+        },
+        {
+          "t": 4.0,
+          "hand": "mou-hand-right",
+          "object": "start-button",
+          "removed": 1,
+          "pixels": 650
+        }
+      ]
+    },
+    {
+      "name": "both_open_pupils_visible_in_actual_story_reading_crops",
+      "passed": true,
+      "detail": [
+        {
+          "t": 0.7,
+          "side": "l",
+          "removed": 1,
+          "visible_pixels": 2595
+        },
+        {
+          "t": 0.7,
+          "side": "r",
+          "removed": 1,
+          "visible_pixels": 2597
+        },
+        {
+          "t": 5.15,
+          "side": "l",
+          "removed": 1,
+          "visible_pixels": 6322
+        },
+        {
+          "t": 5.15,
+          "side": "r",
+          "removed": 1,
+          "visible_pixels": 6328
+        },
+        {
+          "t": 8.5,
+          "side": "l",
+          "removed": 1,
+          "visible_pixels": 4668
+        },
+        {
+          "t": 8.5,
+          "side": "r",
+          "removed": 1,
+          "visible_pixels": 4611
+        },
+        {
+          "t": 13.5,
+          "side": "l",
+          "intentional_closure": true,
+          "openness": 0.1624307939990093
+        },
+        {
+          "t": 13.5,
+          "side": "r",
+          "intentional_closure": true,
+          "openness": 0.18509555595235944
+        },
+        {
+          "t": 19.3,
+          "side": "l",
+          "removed": 1,
+          "visible_pixels": 8122
+        },
+        {
+          "t": 19.3,
+          "side": "r",
+          "removed": 1,
+          "visible_pixels": 8127
+        },
+        {
+          "t": 23.3,
+          "side": "l",
+          "removed": 1,
+          "visible_pixels": 2470
+        },
+        {
+          "t": 23.3,
+          "side": "r",
+          "removed": 1,
+          "visible_pixels": 2470
+        },
+        {
+          "t": 24.3,
+          "side": "l",
+          "removed": 1,
+          "visible_pixels": 2465
+        },
+        {
+          "t": 24.3,
+          "side": "r",
+          "removed": 1,
+          "visible_pixels": 2464
+        },
+        {
+          "t": 25.7,
+          "side": "l",
+          "removed": 1,
+          "visible_pixels": 10700
+        },
+        {
+          "t": 25.7,
+          "side": "r",
+          "removed": 1,
+          "visible_pixels": 10704
+        },
+        {
+          "t": 29.5,
+          "side": "l",
+          "removed": 1,
+          "visible_pixels": 4663
+        },
+        {
+          "t": 29.5,
+          "side": "r",
+          "removed": 1,
+          "visible_pixels": 4652
+        }
+      ]
+    },
+    {
+      "name": "global_recrops_have_full_background_coverage",
+      "passed": true,
+      "detail": [
+        {
+          "frame_zero": 0,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 36,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 72,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 108,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 144,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 180,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 216,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 252,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 288,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 324,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 360,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 396,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 432,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 468,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 504,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 540,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 576,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 612,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 647,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 648,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 671,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 684,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 690,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 708,
+          "transparent_pixels": 0
+        },
+        {
+          "frame_zero": 719,
+          "transparent_pixels": 0
+        }
+      ]
+    },
+    {
+      "name": "lcd_entire_or_outside_after_global_camera_no_limbs",
+      "passed": true,
+      "detail": {
+        "frames_with_visible_lcd": 356,
+        "limb_failures": [],
+        "partially_cropped_lcd": []
+      }
+    },
+    {
+      "name": "eight_motivated_foley_cues_no_rejected_voice_music_or_ticks",
+      "passed": true,
+      "detail": {
+        "sounds": [
+          "phone_vibration",
+          "phone_place",
+          "lid_close",
+          "button",
+          "lock_engage",
+          "pencil_place",
+          "lock_release",
+          "lid_hinge"
+        ],
+        "listening_performed": false
+      }
+    },
+    {
+      "name": "current_48k_stereo_pcm_mix_equals_eight_cues_no_clipping",
+      "passed": true,
+      "detail": {
+        "parameters": [
+          48000,
+          2,
+          2,
+          1440000
+        ],
+        "cue_stems": 8,
+        "max_quantized_stem_error": 0,
+        "peak_pcm": 8109,
+        "mix_sha256": "b477ff3138a4a2abaec529633ea233fa0dc36c74d7ddc631a7708ad5177ceffe"
+      }
+    },
+    {
+      "name": "eight_distinct_recorded_sources_hashes_and_license_evidence",
+      "passed": true,
+      "detail": {
+        "sources": [
+          {
+            "id": "plastic_thump_1",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": true
+          },
+          {
+            "id": "plastic_lid_1",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": false
+          },
+          {
+            "id": "plastic_case_1",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": true
+          },
+          {
+            "id": "wood_rattle_1",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": true
+          },
+          {
+            "id": "button_3",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": true
+          },
+          {
+            "id": "ratchet_muted_3",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": true
+          },
+          {
+            "id": "spring_blade_2",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": true
+          },
+          {
+            "id": "cable_coiler_2",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": false
+          },
+          {
+            "id": "hinge_1",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": true
+          },
+          {
+            "id": "hinge_2",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": false
+          },
+          {
+            "id": "small_fan",
+            "hash_matches": true,
+            "license": "CC0-1.0",
+            "evidence_matches": true,
+            "used": true
+          }
+        ],
+        "notice_file": "assets/son_v2/LICENCES.md",
+        "phone_vibration_is_disclosed_fan_motor_substitute": true,
+        "audition_not_performed": true
+      }
+    },
+    {
+      "name": "seven_v1_and_native_rig_baselines_unchanged",
+      "passed": true,
+      "detail": {
+        "episodes/mou_04_coffre_v1/MOU_Le_coffre.mp4": true,
+        "episodes/mou_04_coffre_v1/MOU_Le_coffre_muet.mp4": true,
+        "episodes/mou_04_coffre_v1/sources/personnage.py": true,
+        "episodes/mou_04_coffre_v1/sources/mou_rig_original.py": true,
+        "episodes/mou_04_coffre_v1/sources/scene.py": true,
+        "episodes/mou_04_coffre_v1/audio/mix.wav": true,
+        "mou_rig.py": true
+      }
+    },
+    {
+      "name": "hd_portrait_24fps_30s_sound_and_mute",
+      "passed": true,
+      "detail": {
+        "sound": "c716472623badcec9a42e67940764afa57b7f87016b462d37ff69c209b819502",
+        "mute": "b9b67a5fa78fca96174abed1943b9c31ab85044d6641e5cd5b54219e87d8e818"
+      }
+    },
+    {
+      "name": "identical_h264_sound_mute",
+      "passed": true,
+      "detail": {
+        "sound_h264": "d9f7c47231c8e3dc5b3f16e44b26efd8d8ffeeaf351931032f431a79a9eb4a0e",
+        "mute_h264": "d9f7c47231c8e3dc5b3f16e44b26efd8d8ffeeaf351931032f431a79a9eb4a0e"
+      }
+    },
+    {
+      "name": "aac_is_current_new_foley_mix",
+      "passed": true,
+      "detail": {
+        "actual_aac": "277c476168fb4731e195737d58e81531c745e557615f2637402fcfa78a9634f2",
+        "fresh_aac": "277c476168fb4731e195737d58e81531c745e557615f2637402fcfa78a9634f2"
+      }
+    },
+    {
+      "name": "twelve_decoded_hd_frames_match_fresh_producers_and_cache",
+      "passed": true,
+      "detail": [
+        {
+          "frame_zero": 17,
+          "mean_rgb_error": 1.4932135738168724,
+          "p99": 9.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 64,
+          "mean_rgb_error": 1.3494171167695472,
+          "p99": 7.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 84,
+          "mean_rgb_error": 1.4650366512345678,
+          "p99": 6.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 94,
+          "mean_rgb_error": 1.4098474472736626,
+          "p99": 6.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 123,
+          "mean_rgb_error": 1.5394682355967078,
+          "p99": 8.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 328,
+          "mean_rgb_error": 1.451085551697531,
+          "p99": 10.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 408,
+          "mean_rgb_error": 1.6257299704218107,
+          "p99": 8.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 479,
+          "mean_rgb_error": 1.5635452031893005,
+          "p99": 7.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 577,
+          "mean_rgb_error": 1.4489076967592593,
+          "p99": 8.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 606,
+          "mean_rgb_error": 1.5132476530349794,
+          "p99": 9.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 660,
+          "mean_rgb_error": 1.7699602944958848,
+          "p99": 4.0,
+          "cache_max_rgb_error": 0
+        },
+        {
+          "frame_zero": 708,
+          "mean_rgb_error": 1.6099127121913581,
+          "p99": 9.0,
+          "cache_max_rgb_error": 0
+        }
+      ]
+    },
+    {
+      "name": "render_producer_hash_current",
+      "passed": true,
+      "detail": {
+        "render": "f76dc353b775d8f56dd6708e9de4b301247c024dbcbeb6432a494c3b39510211",
+        "current": "f76dc353b775d8f56dd6708e9de4b301247c024dbcbeb6432a494c3b39510211"
+      }
+    },
+    {
+      "name": "frozen_producer_inputs_intact",
+      "passed": true,
+      "detail": {
+        "episodes/mou_04_coffre_v2/assets/mou/MOU_reference.png": true,
+        "episodes/mou_04_coffre_v2/assets/mou/PROVENANCE.md": true,
+        "episodes/mou_04_coffre_v2/assets/son/LICENCES.md": true,
+        "episodes/mou_04_coffre_v2/assets/son/bank.json": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/button.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/ellipsis.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/end_ping.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/lid_close.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/lock.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/notification.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/paper.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/phone_place.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/tap.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/tick.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/effets/unlock.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/evidence/paper_readme.txt": true,
+        "episodes/mou_04_coffre_v2/assets/son/evidence/smol_readme.txt": true,
+        "episodes/mou_04_coffre_v2/assets/son/evidence/smol_tree.json": true,
+        "episodes/mou_04_coffre_v2/assets/son/originaux/click_button_1.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/originaux/paper_caress.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/originaux/ratchet_muted_1.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/originaux/spring_plastic_1.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/originaux/spring_plastic_2.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son/provenance.json": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/LICENCES.md": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/bank.json": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/effets/button.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/effets/lid_close.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/effets/lid_hinge.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/effets/lock_engage.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/effets/lock_release.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/effets/pencil_place.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/effets/phone_place.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/effets/phone_vibration.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/evidence/fans_README.txt": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/evidence/repository_CC0.txt": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/evidence/retail_README.txt": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/evidence/smol_README.txt": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/evidence/toolbox_README.txt": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/button_3.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/cable_coiler_2.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/hinge_1.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/hinge_2.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/plastic_case_1.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/plastic_lid_1.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/plastic_thump_1.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/ratchet_muted_3.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/small_fan.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/spring_blade_2.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/originaux/wood_rattle_1.wav": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/provenance.json": true,
+        "episodes/mou_04_coffre_v2/assets/son_v2/sources_downloads.json": true,
+        "episodes/mou_04_coffre_v2/audio/mix.wav": true,
+        "episodes/mou_04_coffre_v2/chronologie.json": true,
+        "episodes/mou_04_coffre_v2/requirements.txt": true,
+        "episodes/mou_04_coffre_v2/sources/attente.py": true,
+        "episodes/mou_04_coffre_v2/sources/bras.py": true,
+        "episodes/mou_04_coffre_v2/sources/cadrage.py": true,
+        "episodes/mou_04_coffre_v2/sources/cadres.json": true,
+        "episodes/mou_04_coffre_v2/sources/expressions.py": true,
+        "episodes/mou_04_coffre_v2/sources/expressions_gestes.json": true,
+        "episodes/mou_04_coffre_v2/sources/jeu.py": true,
+        "episodes/mou_04_coffre_v2/sources/jeu_mou.py": true,
+        "episodes/mou_04_coffre_v2/sources/jeu_support.py": true,
+        "episodes/mou_04_coffre_v2/sources/mou_rig_original.py": true,
+        "episodes/mou_04_coffre_v2/sources/package.py": true,
+        "episodes/mou_04_coffre_v2/sources/palette.json": true,
+        "episodes/mou_04_coffre_v2/sources/personnage.py": true,
+        "episodes/mou_04_coffre_v2/sources/reference_scene.py": true,
+        "episodes/mou_04_coffre_v2/sources/render.py": true,
+        "episodes/mou_04_coffre_v2/sources/scene.py": true,
+        "episodes/mou_04_coffre_v2/sources/scene_base.py": true,
+        "episodes/mou_04_coffre_v2/sources/son.py": true,
+        "episodes/mou_04_coffre_v2/sources/telephone.py": true,
+        "episodes/mou_04_coffre_v2/sources/temps.py": true,
+        "episodes/mou_04_coffre_v2/sources/vues.py": true,
+        "fonts/DejaVuSans-Bold.ttf": true,
+        "fonts/LICENCE_DejaVu.txt": true,
+        "requirements.txt": true
+      }
+    },
+    {
+      "name": "producer_inputs_unchanged_during_qa",
+      "passed": true,
+      "detail": {
+        "start": "f76dc353b775d8f56dd6708e9de4b301247c024dbcbeb6432a494c3b39510211",
+        "end": "f76dc353b775d8f56dd6708e9de4b301247c024dbcbeb6432a494c3b39510211"
+      }
+    }
+  ],
+  "limits": [
+    "No actual audio audition, source recognition or perceived comfort certified.",
+    "Technical QA is separate from artistic critique and audience understanding.",
+    "Visible composed hand pixels support, but do not alone certify, believable limb acting."
+  ]
+}

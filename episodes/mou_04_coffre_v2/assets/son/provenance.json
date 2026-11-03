@@ -1,0 +1,83 @@
+{
+  "observed_at": "2026-11-02T16:09:50.683427+01:00",
+  "sources": [
+    {
+      "id": "click_button_1",
+      "file": "originaux/click_button_1.wav",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/bb%20-%20Smol%20Mechanisms%20%28May%202021%29/Click%20Button%201.wav",
+      "source_path": "bb - Smol Mechanisms (May 2021)/Click Button 1.wav",
+      "source_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "author": "Benjamin / Ben Burnes (Abstraction)",
+      "license": "CC0-1.0",
+      "license_notice": "evidence/smol_readme.txt",
+      "status": 200,
+      "bytes": 62272,
+      "sha256": "f59a08dda64cfaf7ee45cae7405b3b764cb5879a66fce66ca70a5fc2a10777f7",
+      "recording_method_verified": false,
+      "listening_performed": false
+    },
+    {
+      "id": "spring_plastic_1",
+      "file": "originaux/spring_plastic_1.wav",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/bb%20-%20Smol%20Mechanisms%20%28May%202021%29/Spring%20Loaded%20Plastic%201.wav",
+      "source_path": "bb - Smol Mechanisms (May 2021)/Spring Loaded Plastic 1.wav",
+      "source_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "author": "Benjamin / Ben Burnes (Abstraction)",
+      "license": "CC0-1.0",
+      "license_notice": "evidence/smol_readme.txt",
+      "status": 200,
+      "bytes": 156480,
+      "sha256": "f00a73a826a45aea305734e4003b0de6ee9afb27276ac615cb227a6bc207e46a",
+      "recording_method_verified": false,
+      "listening_performed": false
+    },
+    {
+      "id": "spring_plastic_2",
+      "file": "originaux/spring_plastic_2.wav",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/bb%20-%20Smol%20Mechanisms%20%28May%202021%29/Spring%20Loaded%20Plastic%202.wav",
+      "source_path": "bb - Smol Mechanisms (May 2021)/Spring Loaded Plastic 2.wav",
+      "source_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "author": "Benjamin / Ben Burnes (Abstraction)",
+      "license": "CC0-1.0",
+      "license_notice": "evidence/smol_readme.txt",
+      "status": 200,
+      "bytes": 130648,
+      "sha256": "c727866e7340464992b1d5e32824581efcfcf1cf54ec5a5909155a798a708276",
+      "recording_method_verified": false,
+      "listening_performed": false
+    },
+    {
+      "id": "ratchet_muted_1",
+      "file": "originaux/ratchet_muted_1.wav",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/bb%20-%20Smol%20Mechanisms%20%28May%202021%29/Ratchet%20Muted%201.wav",
+      "source_path": "bb - Smol Mechanisms (May 2021)/Ratchet Muted 1.wav",
+      "source_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "author": "Benjamin / Ben Burnes (Abstraction)",
+      "license": "CC0-1.0",
+      "license_notice": "evidence/smol_readme.txt",
+      "status": 200,
+      "bytes": 59988,
+      "sha256": "7a4d8bb5b1714918f0e585864bed32a8545ddc858e4118d85e1eb21569140e2e",
+      "recording_method_verified": false,
+      "listening_performed": false
+    },
+    {
+      "id": "paper_caress",
+      "file": "originaux/paper_caress.wav",
+      "source_url": "https://raw.githubusercontent.com/lavenderdotpet/CC0-Public-Domain-Sounds/f2b6264f9ab89fabc266914c3654685d68c5a39b/Micro%20Pack%20-%20Paper%20Cutter/Caress%20Paper.wav",
+      "source_path": "Micro Pack - Paper Cutter/Caress Paper.wav",
+      "source_commit": "f2b6264f9ab89fabc266914c3654685d68c5a39b",
+      "author": "Benjamin / Ben Burnes (Abstraction)",
+      "license": "CC0-1.0",
+      "license_notice": "evidence/paper_readme.txt",
+      "bytes": 200788,
+      "sha256": "5a06eb5ebfa842debcb76d64bcfd361edf5b6f24e0c2e1ca41c935edd7b1c74b",
+      "recording_method_verified": false,
+      "listening_performed": false
+    }
+  ],
+  "limitations": [
+    "Library sound filenames and explicit CC0 pack notices verified; precise microphone/recording method not established.",
+    "No actual audio listening supported here; material fit and comfort require an audition."
+  ]
+}

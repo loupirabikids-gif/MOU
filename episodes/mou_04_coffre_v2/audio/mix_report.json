@@ -1,0 +1,22 @@
+{
+  "file": "mix.wav",
+  "sha256": "b477ff3138a4a2abaec529633ea233fa0dc36c74d7ddc631a7708ad5177ceffe",
+  "timeline_sha256": "7747922f07c05dccc098804d8a6a31d8c91a4af545a979296eceec7e2c455c1d",
+  "bank_sha256": "dc7e64388ba753f9c7640e05695defe7a684b9e020d4519db3285105af24830c",
+  "duration": 30.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 16,
+  "samples": 1440000,
+  "cues": 8,
+  "peak_linear": 0.2474735592933365,
+  "peak_dbfs": -12.129423907652214,
+  "rms_dbfs": -47.06220047853335,
+  "music": false,
+  "voice": false,
+  "ambience": false,
+  "compressor": false,
+  "ducking": false,
+  "listening_performed": false,
+  "limitation": "Numerical checks do not replace audition for material recognition, comfortable balance or comic effect."
+}

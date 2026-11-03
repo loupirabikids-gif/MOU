@@ -1,0 +1,73 @@
+{
+  "format_pass": true,
+  "cue_count": 8,
+  "distinct_recordings": 8,
+  "expected_cue_times_pass": true,
+  "timeline_sha256": "7747922f07c05dccc098804d8a6a31d8c91a4af545a979296eceec7e2c455c1d",
+  "bank_sha256": "dc7e64388ba753f9c7640e05695defe7a684b9e020d4519db3285105af24830c",
+  "mix_sha256": "b477ff3138a4a2abaec529633ea233fa0dc36c74d7ddc631a7708ad5177ceffe",
+  "clipping_samples": 0,
+  "peak_dbfs": -12.129423907652214,
+  "pcm_stems_sum_equals_mix": true,
+  "all_effects_start_end_zero": true,
+  "edges": {
+    "phone_vibration": {
+      "first_sample": 0.0,
+      "last_sample": 0.0,
+      "duration": 0.42,
+      "source": "small_fan"
+    },
+    "phone_place": {
+      "first_sample": 0.0,
+      "last_sample": 0.0,
+      "duration": 0.215,
+      "source": "plastic_thump_1"
+    },
+    "lid_close": {
+      "first_sample": 0.0,
+      "last_sample": 0.0,
+      "duration": 0.182,
+      "source": "plastic_case_1"
+    },
+    "button": {
+      "first_sample": 0.0,
+      "last_sample": 0.0,
+      "duration": 0.09,
+      "source": "button_3"
+    },
+    "lock_engage": {
+      "first_sample": 0.0,
+      "last_sample": 0.0,
+      "duration": 0.09,
+      "source": "ratchet_muted_3"
+    },
+    "pencil_place": {
+      "first_sample": 0.0,
+      "last_sample": 0.0,
+      "duration": 0.175,
+      "source": "wood_rattle_1"
+    },
+    "lock_release": {
+      "first_sample": 0.0,
+      "last_sample": 0.0,
+      "duration": 0.148,
+      "source": "spring_blade_2"
+    },
+    "lid_hinge": {
+      "first_sample": 0.0,
+      "last_sample": 0.0,
+      "duration": 0.55,
+      "source": "hinge_1"
+    }
+  },
+  "first_nonzero_seconds": 0.6504791666666667,
+  "last_nonzero_seconds": 23.748895833333332,
+  "no_music": true,
+  "no_voice": true,
+  "no_synthesized_tones": true,
+  "no_ducking": true,
+  "no_compressor": true,
+  "no_continuous_ambience": true,
+  "listening_performed": false,
+  "limits": "No ear validation available: material recognition, naturalness, subjective timing and comfort unverified."
+}

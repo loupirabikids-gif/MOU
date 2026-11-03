@@ -1,0 +1,9 @@
+{
+  "episodes/mou_04_coffre_v1/MOU_Le_coffre.mp4": "84ead5b0f9fd99db277db6bdb9ed1f61ad51318ec6651ae124aa63390a26ecb0",
+  "episodes/mou_04_coffre_v1/MOU_Le_coffre_muet.mp4": "20f36505256bd34dbcaad9949238c24fa76e67d47cf3786e8d3ae0e6633b2af5",
+  "episodes/mou_04_coffre_v1/sources/personnage.py": "445ef02a57dfa58245d6298fde6bcbbad48a835b8b47e2b8fc10c39657d988b3",
+  "episodes/mou_04_coffre_v1/sources/mou_rig_original.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+  "episodes/mou_04_coffre_v1/sources/scene.py": "6d6bb91e18265aa130e0e5898f61410b94a97e5e9bed63b926e270ac03a282c2",
+  "episodes/mou_04_coffre_v1/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+  "mou_rig.py": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
+}

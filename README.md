@@ -1,5 +1,18 @@
 # Atelier de courts épisodes
 
+**MOU — Le coffre V2 : cadrages et bruitages repris.**
+
+**[Voir le film — 30 secondes](episodes/mou_04_coffre_v2/MOU_Le_coffre_V2.mp4?raw=true)** ·
+[Version muette](episodes/mou_04_coffre_v2/MOU_Le_coffre_V2_muet.mp4?raw=true) ·
+[Treize plans](episodes/mou_04_coffre_v2/MOU_Le_coffre_V2_storyboard.png?raw=true) ·
+[Sources et contrôles](episodes/mou_04_coffre_v2/).
+
+Entrée rapprochée, attente en trois intentions, satisfaction sans saut
+suspendu, puis recul final réunissant MOU au téléphone, la liste vide et
+09:30. Huit bruitages matériels distincts remplacent les accents d'ellipse.
+Les sons sont attribués et mesurés ; aucune audition réelle revendiquée.
+Le personnage original est conservé. Les anciennes versions restent ci-dessous.
+
 **MOU — Le coffre, avec le personnage original.**
 
 **[Voir l'épisode avec MOU — 30 secondes](episodes/mou_04_coffre_v1/MOU_Le_coffre.mp4?raw=true)** ·

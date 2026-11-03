@@ -1,0 +1,36 @@
+{
+  "duration": 30,
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "files": {
+    "MOU_Le_coffre_V2.mp4": {
+      "sha256": "c716472623badcec9a42e67940764afa57b7f87016b462d37ff69c209b819502",
+      "bytes": 3147007
+    },
+    "MOU_Le_coffre_V2_muet.mp4": {
+      "sha256": "b9b67a5fa78fca96174abed1943b9c31ab85044d6641e5cd5b54219e87d8e818",
+      "bytes": 3066986
+    },
+    "MOU_Le_coffre_V2_animatique.mp4": {
+      "sha256": "231fac8df67466b0f79c0a62bb2093e8b70f2af5434be483a595456f70e3c253",
+      "bytes": 1543819
+    },
+    "MOU_Le_coffre_V2_animatique_muette.mp4": {
+      "sha256": "fd76cbf176a26a23ac14cc6dea974c60cc76c159b352630378bc2f95c3c0be89",
+      "bytes": 1463782
+    },
+    "MOU_Le_coffre_V2_storyboard.png": {
+      "sha256": "ec68d844eddee6ae4a0b7c7464b5cc9d0b0747e9df68d481794ae83f1cd28e09",
+      "bytes": 1161877
+    },
+    "audio/mix.wav": {
+      "sha256": "b477ff3138a4a2abaec529633ea233fa0dc36c74d7ddc631a7708ad5177ceffe",
+      "bytes": 5760044
+    }
+  },
+  "producer_source_sha256": "f76dc353b775d8f56dd6708e9de4b301247c024dbcbeb6432a494c3b39510211",
+  "listening_performed": false
+}

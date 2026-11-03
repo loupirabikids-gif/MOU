@@ -1,0 +1,870 @@
+{
+  "title": "MOU — Le coffre, V2 : caméra et son",
+  "status": "directed_camera_and_material_foley",
+  "duration": 30.0,
+  "fps": 24,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "revision_reason": "Réalisation approuvée : treize cadrages motivés, attente en trois intentions, récupération sans saut suspendu, recul final réunissant MOU, feuille vide et09:30 ; huit événements Foley matériels.",
+  "preserve": [
+    "MOU_original_native_identity_and_palette",
+    "desk_layout",
+    "validated_phone_grip_and_deposit",
+    "opaque_box_and_lid_depth",
+    "old_episodes_untouched"
+  ],
+  "diegetic_duration_seconds": 1800,
+  "lock": {
+    "film_time": 4.0,
+    "frame": 97,
+    "display": "30:00",
+    "unit_label": "MIN:SEC",
+    "wall_clock": "09:00",
+    "duration_label": "30 MIN",
+    "duration_label_hold": [
+      4.0,
+      5.2
+    ]
+  },
+  "unlock": {
+    "film_time": 23.0,
+    "frame": 553,
+    "display": "00:00",
+    "wall_clock": "09:30"
+  },
+  "time_representation": {
+    "type": "early_ellipses_then_continuous_time_montage",
+    "first_ellipsis_caption": "1 MIN LATER",
+    "final_elapsed_caption": "30 MIN LATER",
+    "captions_language": "en",
+    "minute_checks": [
+      {
+        "elapsed_minute": 1,
+        "film_start": 6.0,
+        "film_end": 8.0,
+        "frame_start": 145,
+        "remaining_display": "29:00",
+        "wall_clock": "09:01",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "return_to_work",
+        "visible_check": [
+          7.0,
+          7.8
+        ],
+        "first_part": "Clock insert6–7, then visible look and return before8."
+      },
+      {
+        "elapsed_minute": 2,
+        "film_start": 8.0,
+        "film_end": 10.0,
+        "frame_start": 193,
+        "remaining_display": "28:00",
+        "wall_clock": "09:02",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "return_to_work"
+      },
+      {
+        "elapsed_minute": 3,
+        "film_start": 10.0,
+        "film_end": 12.25,
+        "frame_start": 241,
+        "remaining_display": "27:00",
+        "wall_clock": "09:03",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "abandon_pencil"
+      },
+      {
+        "elapsed_minute": 4,
+        "film_start": 12.25,
+        "film_end": 12.583333,
+        "frame_start": 295,
+        "frames": 8,
+        "remaining_display": "26:00",
+        "wall_clock": "09:04",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 5,
+        "film_start": 12.583333,
+        "film_end": 12.916667,
+        "frame_start": 303,
+        "frames": 8,
+        "remaining_display": "25:00",
+        "wall_clock": "09:05",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 6,
+        "film_start": 12.916667,
+        "film_end": 13.25,
+        "frame_start": 311,
+        "frames": 8,
+        "remaining_display": "24:00",
+        "wall_clock": "09:06",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 7,
+        "film_start": 13.25,
+        "film_end": 13.583333,
+        "frame_start": 319,
+        "frames": 8,
+        "remaining_display": "23:00",
+        "wall_clock": "09:07",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 8,
+        "film_start": 13.583333,
+        "film_end": 13.916667,
+        "frame_start": 327,
+        "frames": 8,
+        "remaining_display": "22:00",
+        "wall_clock": "09:08",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 9,
+        "film_start": 13.916667,
+        "film_end": 14.25,
+        "frame_start": 335,
+        "frames": 8,
+        "remaining_display": "21:00",
+        "wall_clock": "09:09",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 10,
+        "film_start": 14.25,
+        "film_end": 14.583333,
+        "frame_start": 343,
+        "frames": 8,
+        "remaining_display": "20:00",
+        "wall_clock": "09:10",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 11,
+        "film_start": 14.583333,
+        "film_end": 14.916667,
+        "frame_start": 351,
+        "frames": 8,
+        "remaining_display": "19:00",
+        "wall_clock": "09:11",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 12,
+        "film_start": 14.916667,
+        "film_end": 15.25,
+        "frame_start": 359,
+        "frames": 8,
+        "remaining_display": "18:00",
+        "wall_clock": "09:12",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 13,
+        "film_start": 15.25,
+        "film_end": 15.583333,
+        "frame_start": 367,
+        "frames": 8,
+        "remaining_display": "17:00",
+        "wall_clock": "09:13",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 14,
+        "film_start": 15.583333,
+        "film_end": 15.916667,
+        "frame_start": 375,
+        "frames": 8,
+        "remaining_display": "16:00",
+        "wall_clock": "09:14",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      },
+      {
+        "elapsed_minute": 15,
+        "film_start": 15.916667,
+        "film_end": 16.25,
+        "frame_start": 383,
+        "frames": 8,
+        "remaining_display": "15:00",
+        "wall_clock": "09:15",
+        "gaze_event": "sustained_gaze_then_closed_posture",
+        "body_stage": "give_up"
+      }
+    ],
+    "last_second": {
+      "film_start": 22.0,
+      "film_end": 23.0,
+      "display": "00:01",
+      "elapsed_seconds": 1799
+    },
+    "note": "Trente minutes sont condensées en30s. Les anciens repères minute conservés sous legacy_minute_boundaries servent à interpoler les données, pas à définir les plans ou les actions V2.",
+    "montage_frame_plan": "Early ellipses retain a single minute check, then abandonment; shared diegetic clock progresses continuously from film16.25s to22s. No repeated checking movement during this acceleration.",
+    "legacy_minute_boundaries": [
+      {
+        "elapsed_minute": 1,
+        "film_start": 6.0,
+        "film_end": 8.0,
+        "frame_start": 145,
+        "remaining_display": "29:00",
+        "wall_clock": "09:01",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "return_to_work",
+        "visible_check": [
+          7.0,
+          7.8
+        ],
+        "first_part": "Clock insert6–7, then visible look and return before8."
+      },
+      {
+        "elapsed_minute": 2,
+        "film_start": 8.0,
+        "film_end": 10.0,
+        "frame_start": 193,
+        "remaining_display": "28:00",
+        "wall_clock": "09:02",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "return_to_work"
+      },
+      {
+        "elapsed_minute": 3,
+        "film_start": 10.0,
+        "film_end": 12.25,
+        "frame_start": 241,
+        "remaining_display": "27:00",
+        "wall_clock": "09:03",
+        "gaze_event": "paper_then_timer",
+        "body_stage": "abandon_pencil"
+      },
+      {
+        "elapsed_minute": 4,
+        "film_start": 12.25,
+        "film_end": 12.583333,
+        "frame_start": 295,
+        "frames": 8,
+        "remaining_display": "26:00",
+        "wall_clock": "09:04",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 5,
+        "film_start": 12.583333,
+        "film_end": 12.916667,
+        "frame_start": 303,
+        "frames": 8,
+        "remaining_display": "25:00",
+        "wall_clock": "09:05",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 6,
+        "film_start": 12.916667,
+        "film_end": 13.25,
+        "frame_start": 311,
+        "frames": 8,
+        "remaining_display": "24:00",
+        "wall_clock": "09:06",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 7,
+        "film_start": 13.25,
+        "film_end": 13.583333,
+        "frame_start": 319,
+        "frames": 8,
+        "remaining_display": "23:00",
+        "wall_clock": "09:07",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 8,
+        "film_start": 13.583333,
+        "film_end": 13.916667,
+        "frame_start": 327,
+        "frames": 8,
+        "remaining_display": "22:00",
+        "wall_clock": "09:08",
+        "gaze_event": "minute_check",
+        "body_stage": "fidget"
+      },
+      {
+        "elapsed_minute": 9,
+        "film_start": 13.916667,
+        "film_end": 14.25,
+        "frame_start": 335,
+        "frames": 8,
+        "remaining_display": "21:00",
+        "wall_clock": "09:09",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 10,
+        "film_start": 14.25,
+        "film_end": 14.583333,
+        "frame_start": 343,
+        "frames": 8,
+        "remaining_display": "20:00",
+        "wall_clock": "09:10",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 11,
+        "film_start": 14.583333,
+        "film_end": 14.916667,
+        "frame_start": 351,
+        "frames": 8,
+        "remaining_display": "19:00",
+        "wall_clock": "09:11",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 12,
+        "film_start": 14.916667,
+        "film_end": 15.25,
+        "frame_start": 359,
+        "frames": 8,
+        "remaining_display": "18:00",
+        "wall_clock": "09:12",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 13,
+        "film_start": 15.25,
+        "film_end": 15.583333,
+        "frame_start": 367,
+        "frames": 8,
+        "remaining_display": "17:00",
+        "wall_clock": "09:13",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 14,
+        "film_start": 15.583333,
+        "film_end": 15.916667,
+        "frame_start": 375,
+        "frames": 8,
+        "remaining_display": "16:00",
+        "wall_clock": "09:14",
+        "gaze_event": "minute_check",
+        "body_stage": "impatient"
+      },
+      {
+        "elapsed_minute": 15,
+        "film_start": 15.916667,
+        "film_end": 16.25,
+        "frame_start": 383,
+        "frames": 8,
+        "remaining_display": "15:00",
+        "wall_clock": "09:15",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 16,
+        "film_start": 16.25,
+        "film_end": 16.583333,
+        "frame_start": 391,
+        "frames": 8,
+        "remaining_display": "14:00",
+        "wall_clock": "09:16",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 17,
+        "film_start": 16.583333,
+        "film_end": 16.916667,
+        "frame_start": 399,
+        "frames": 8,
+        "remaining_display": "13:00",
+        "wall_clock": "09:17",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 18,
+        "film_start": 16.916667,
+        "film_end": 17.25,
+        "frame_start": 407,
+        "frames": 8,
+        "remaining_display": "12:00",
+        "wall_clock": "09:18",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 19,
+        "film_start": 17.25,
+        "film_end": 17.583333,
+        "frame_start": 415,
+        "frames": 8,
+        "remaining_display": "11:00",
+        "wall_clock": "09:19",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 20,
+        "film_start": 17.583333,
+        "film_end": 17.916667,
+        "frame_start": 423,
+        "frames": 8,
+        "remaining_display": "10:00",
+        "wall_clock": "09:20",
+        "gaze_event": "minute_check",
+        "body_stage": "lean_in"
+      },
+      {
+        "elapsed_minute": 21,
+        "film_start": 17.916667,
+        "film_end": 18.25,
+        "frame_start": 431,
+        "frames": 8,
+        "remaining_display": "09:00",
+        "wall_clock": "09:21",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 22,
+        "film_start": 18.25,
+        "film_end": 18.583333,
+        "frame_start": 439,
+        "frames": 8,
+        "remaining_display": "08:00",
+        "wall_clock": "09:22",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 23,
+        "film_start": 18.583333,
+        "film_end": 18.916667,
+        "frame_start": 447,
+        "frames": 8,
+        "remaining_display": "07:00",
+        "wall_clock": "09:23",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 24,
+        "film_start": 18.916667,
+        "film_end": 19.25,
+        "frame_start": 455,
+        "frames": 8,
+        "remaining_display": "06:00",
+        "wall_clock": "09:24",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 25,
+        "film_start": 19.25,
+        "film_end": 19.583333,
+        "frame_start": 463,
+        "frames": 8,
+        "remaining_display": "05:00",
+        "wall_clock": "09:25",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 26,
+        "film_start": 19.583333,
+        "film_end": 19.916667,
+        "frame_start": 471,
+        "frames": 8,
+        "remaining_display": "04:00",
+        "wall_clock": "09:26",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 27,
+        "film_start": 19.916667,
+        "film_end": 20.583333,
+        "frame_start": 479,
+        "frames": 16,
+        "remaining_display": "03:00",
+        "wall_clock": "09:27",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 28,
+        "film_start": 20.583333,
+        "film_end": 21.291667,
+        "frame_start": 495,
+        "frames": 17,
+        "remaining_display": "02:00",
+        "wall_clock": "09:28",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      },
+      {
+        "elapsed_minute": 29,
+        "film_start": 21.291667,
+        "film_end": 22.0,
+        "frame_start": 512,
+        "frames": 17,
+        "remaining_display": "01:00",
+        "wall_clock": "09:29",
+        "gaze_event": "minute_check",
+        "body_stage": "absorbed"
+      }
+    ],
+    "calm_waiting": {
+      "film_start": 16.25,
+      "story_start_seconds": 960,
+      "story_last_second_at": 22.0,
+      "story_last_second_seconds": 1799,
+      "unlock": 23.0,
+      "minute_based_looks": false,
+      "late_caption": "LATER...",
+      "clock_and_timer": "Same integer session_elapsed, bounded0..1800; remaining+elapsed=1800; clock9h+elapsed."
+    }
+  },
+  "work_goal": {
+    "paper_header": "TO DO",
+    "printed_empty_checkboxes": 3,
+    "handwritten_marks": false,
+    "same_paper_at_start_and_end": true,
+    "no_writing_sound": true
+  },
+  "shots": [
+    {
+      "id": "P01",
+      "start": 0,
+      "end": 2.1,
+      "view": "wide_high"
+    },
+    {
+      "id": "P02",
+      "start": 2.1,
+      "end": 4.6,
+      "view": "lock_insert"
+    },
+    {
+      "id": "P03",
+      "start": 4.6,
+      "end": 6,
+      "view": "medium"
+    },
+    {
+      "id": "P04",
+      "start": 6,
+      "end": 7,
+      "view": "clock"
+    },
+    {
+      "id": "P05",
+      "start": 7,
+      "end": 10,
+      "view": "medium"
+    },
+    {
+      "id": "P06",
+      "start": 10,
+      "end": 12.25,
+      "view": "work_close"
+    },
+    {
+      "id": "P07",
+      "start": 12.25,
+      "end": 15.2,
+      "view": "medium"
+    },
+    {
+      "id": "P08",
+      "start": 15.2,
+      "end": 18.4,
+      "view": "medium"
+    },
+    {
+      "id": "P09",
+      "start": 18.4,
+      "end": 21.7,
+      "view": "low"
+    },
+    {
+      "id": "P10",
+      "start": 21.7,
+      "end": 23,
+      "view": "box_insert"
+    },
+    {
+      "id": "P11",
+      "start": 23,
+      "end": 25.4,
+      "view": "face_box"
+    },
+    {
+      "id": "P12",
+      "start": 25.4,
+      "end": 27,
+      "view": "phone_final"
+    },
+    {
+      "id": "P13",
+      "start": 27,
+      "end": 30,
+      "view": "phone_final"
+    }
+  ],
+  "sound_notes": [
+    "Huit événements matériels liés aux gestes ; pas de voix synthétiques rejetées, musique, ticks ou accents d’ellipse.",
+    "Voir developpement/son.md pour prises, substitutions Foley, traitements et limites sans audition."
+  ],
+  "review_priorities": [
+    "Lecture du projet et du téléphone",
+    "Attente en trois intentions",
+    "Contacts réels mains/coffre/téléphone",
+    "Feuille vide, MOU absorbé et09:30 réunis dans le même recul frontal",
+    "Matières Foley distinctes synchronisées"
+  ],
+  "audio_cues": [
+    {
+      "id": "telephone_vibre",
+      "sound": "phone_vibration",
+      "at": 0.65,
+      "gain_db": -5.0,
+      "pan": 0.2
+    },
+    {
+      "id": "telephone_pose",
+      "sound": "phone_place",
+      "at": 2.8,
+      "gain_db": -5.0,
+      "pan": 0.3
+    },
+    {
+      "id": "couvercle_ferme",
+      "sound": "lid_close",
+      "at": 3.55,
+      "gain_db": -4.0,
+      "pan": 0.3
+    },
+    {
+      "id": "bouton",
+      "sound": "button",
+      "at": 3.9,
+      "gain_db": -6.0,
+      "pan": 0.2
+    },
+    {
+      "id": "verrou_engage",
+      "sound": "lock_engage",
+      "at": 4.0,
+      "gain_db": -4.0,
+      "pan": 0.3
+    },
+    {
+      "id": "crayon_abandonne",
+      "sound": "pencil_place",
+      "at": 11.78125,
+      "gain_db": -7.0,
+      "pan": -0.2
+    },
+    {
+      "id": "verrou_libere",
+      "sound": "lock_release",
+      "at": 23.0,
+      "gain_db": -4.0,
+      "pan": 0.3
+    },
+    {
+      "id": "charniere",
+      "sound": "lid_hinge",
+      "at": 23.2,
+      "gain_db": -7.0,
+      "pan": 0.3
+    }
+  ],
+  "continuity": {
+    "phone_stored_in_box": [
+      2.8,
+      24.05
+    ],
+    "phone_hidden_by_lid": [
+      3.55,
+      23.2
+    ],
+    "pencil_put_down": 11.78125,
+    "paper_checked_boxes": 0,
+    "handwritten_marks": false,
+    "rig_unchanged_from_v1": true,
+    "rig_design_preserved": true,
+    "held_phone_follows_final_paw": true,
+    "phone_back_when_reading": true,
+    "phone_two_hands_from": 25.04
+  },
+  "performance_revision": {
+    "reference_sha256": "631e0d7edb628a72a189f255c183cea7887c23fe8281632ec14969da260417b3",
+    "reference_use": "Analyse des vues/attitudes/transitions uniquement. Aucun plan ni son de référence inséré ou publié.",
+    "distinct_views": [
+      "wide_high",
+      "lock_insert",
+      "medium",
+      "clock",
+      "work_close",
+      "low",
+      "box_insert",
+      "face_box",
+      "phone_final"
+    ],
+    "first_visible_check": [
+      7.0,
+      7.8
+    ],
+    "phone_binding": "jeu.phone_binding after24.7; bilateral after25.04. Back toward spectator, screen toward MOU; both hands remain rigidly bound.",
+    "open_lid_depth": "In face_box the raised lid is behind the leaning face; front/body remains before it.",
+    "final_satisfaction": [
+      25.4,
+      27.0
+    ],
+    "final_reveal": [
+      27.0,
+      30.0
+    ],
+    "ending": "Seated satisfaction, then same frontal paper close view and continuous2D pullback28–29.2; no jump."
+  },
+  "views": [
+    {
+      "at": [
+        0,
+        2.1
+      ],
+      "view": "wide_high",
+      "plan": 1
+    },
+    {
+      "at": [
+        2.1,
+        4.6
+      ],
+      "view": "lock_insert",
+      "plan": 2
+    },
+    {
+      "at": [
+        4.6,
+        6
+      ],
+      "view": "medium",
+      "plan": 3
+    },
+    {
+      "at": [
+        6,
+        7
+      ],
+      "view": "clock",
+      "plan": 4
+    },
+    {
+      "at": [
+        7,
+        10
+      ],
+      "view": "medium",
+      "plan": 5
+    },
+    {
+      "at": [
+        10,
+        12.25
+      ],
+      "view": "work_close",
+      "plan": 6
+    },
+    {
+      "at": [
+        12.25,
+        15.2
+      ],
+      "view": "medium",
+      "plan": 7
+    },
+    {
+      "at": [
+        15.2,
+        18.4
+      ],
+      "view": "medium",
+      "plan": 8
+    },
+    {
+      "at": [
+        18.4,
+        21.7
+      ],
+      "view": "low",
+      "plan": 9
+    },
+    {
+      "at": [
+        21.7,
+        23
+      ],
+      "view": "box_insert",
+      "plan": 10
+    },
+    {
+      "at": [
+        23,
+        25.4
+      ],
+      "view": "face_box",
+      "plan": 11
+    },
+    {
+      "at": [
+        25.4,
+        27
+      ],
+      "view": "phone_final",
+      "plan": 12
+    },
+    {
+      "at": [
+        27,
+        30
+      ],
+      "view": "phone_final",
+      "plan": 13
+    }
+  ],
+  "voice_direction": {
+    "voice": false,
+    "music": false,
+    "listening_performed": false,
+    "reason": "User rejected procedural vocal banks; material Foley only."
+  },
+  "character": "MOU original vert citron"
+}

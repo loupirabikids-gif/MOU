@@ -1,5 +1,32 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante : l’utilisatrice a accepté la réalisation du découpage
+caméra/son avec « Ok ». Produire `episodes/mou_04_coffre_v2/`, préserver V1.
+Appliquer les treize plans et le son motivé de la proposition V2 : entrée
+resserrée, inserts assumés, attente en étapes, satisfaction sans saut gelé,
+recul final dans le même angle réunissant feuille vide, MOU et heure09:30.
+Root possède scène/chronologie/export, cadrage possède cadrage.py, jeu possède
+jeu_mou.py, son ses assets/son.py/audio, critique ses rapports, QA ses contrôles.
+Les tâches n’écrivent pas les mêmes fichiers. Conserver le rig natif MOU.
+Ne pas réintroduire les voix Soundgen rejetées, ni musique ou ticks à chaque
+ellipse. Préparer des matières distinctes et documenter leurs vraies licences.
+Aucune audition réelle ou qualité perçue validée ne doit être revendiquée.
+Produire l’animatique complète, revoir les choix de prise et la chute dans le
+vrai film, corriger les problèmes retenus, puis exporter son/muet/sources.
+La livraison GitHub reste autorisée ; aucune diffusion sociale.
+
+V2 réalisée : treize plans sur30s, entrée rapprochée, attente en étapes,
+satisfaction assise et recul frontal des cases vides vers MOU/téléphone/09:30.
+L'animatique A a révélé un bras fusionné au sourire à24,917–25,333 et des
+retours souriants à10/12,25 : trajectoire téléphone/moufles abaissée et
+continuité du visage corrigées dans jeu_mou.py, revues dans l'animatique B.
+Producteurs gelés f76dc353…,79 entrées ; QA final24/24,12 images HD comparées
+aux rendus frais, sept références V1 intactes. Film son c7164726…9502,
+muet b9b67a5f…e818. Huit Foley distincts CC0 attribués, deux substitutions
+explicites (ventilateur→vibration, bois→crayon), rig natif et adaptateur MOU V1
+inchangés. Depuis le ZIP :16 PNG, banque et WAV reproduits à l'identique.
+Aucune audition réelle ou efficacité comique publique certifiée.
+
 Commande courante : l'utilisatrice critique les effets sonores et le cadrage
 et demande si les agents décrivent les prises. Revoir la direction du coffre
 MOU dans `episodes/mou_04_coffre_v1/developpement/realisation_v2/` : documents

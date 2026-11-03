@@ -1,0 +1,258 @@
+"""MOU original in the lockbox episode, with native silhouette and prop contacts."""
+from __future__ import annotations
+from copy import deepcopy
+import json
+import math
+from pathlib import Path
+import scene_base as base
+from personnage import character_svg
+from jeu import phone_binding
+from vues import scene_layers,clock_placement
+from telephone import correct_phone_state
+from attente import apply_waiting
+from temps import apply_time_state
+from expressions import apply_expressions
+from bras import apply_arms
+from jeu_mou import apply_mou_acting
+from cadrage import framing_at
+
+EP=Path(__file__).resolve().parents[1]
+TIMELINE=base.TIMELINE
+FPS=base.FPS;DURATION=base.DURATION
+LAYOUTS=json.loads(Path(__file__).with_name('cadres.json').read_text())
+
+
+def view_at(t):
+    return framing_at(t)['view']
+
+
+def mapped_actor(actor,layout):
+    a=deepcopy(actor);s=layout['scale'];tx=layout['tx'];ty=layout['ty']
+    a['cx']=actor['cx']*s+tx;a['floor_y']=actor['floor_y']*s+ty
+    a['scale']=actor.get('scale',1.)*s
+    a['lean']=tuple(v*s for v in actor.get('lean',(0.,0.)))
+    if layout.get('actor_cancel_lean_x',False):
+        # The inherited raccoon lean placed MOU's shoulder behind the box.
+        # Keep his torso alongside it while palms retain their world targets.
+        a['lean']=(0.,a['lean'][1])
+    # MOU has a wider face than PATCH. In the close reveal only, move the
+    # torso slightly left while keeping the reaching palms on their props.
+    a['cx']+=layout.get('actor_shift_x',0.)*s
+    for side,h in a['hands'].items():
+        h['x']=actor['hands'][side]['x']*s+tx;h['y']=actor['hands'][side]['y']*s+ty
+    if 'elbows' in a:a['elbows']={side:(x*s+tx,y*s+ty)for side,(x,y)in actor['elbows'].items()}
+    if 'wrists' in a:a['wrists']={side:(x*s+tx,y*s+ty)for side,(x,y)in actor['wrists'].items()}
+    if layout.get('box_shift_y'):
+        a['hands']['right']['y']+=layout['box_shift_y']
+        if 'right' in a.get('wrists',{}):
+            x,y=a['wrists']['right'];a['wrists']['right']=(x,y+layout['box_shift_y'])
+        progress=max(0.,min(1.,actor.get('_phone_progress',0.)))
+        if progress:
+            a['hands']['left']['y']+=layout['box_shift_y']*progress
+            if 'left' in a.get('wrists',{}):
+                x,y=a['wrists']['left'];a['wrists']['left']=(x,y+layout['box_shift_y']*progress)
+    return a
+
+
+def state_at(t):
+    s=base.state_at(t);t=s['t'];a=s['actor'];framing=framing_at(t)
+    view=framing['view'];layout=deepcopy(LAYOUTS[view])
+    layout.update(framing.get('layout_override',{}))
+    # The clock insert precedes the first visible look, rather than hiding it.
+    if 7.<=t<8.:
+        p=t-7.;look=base.ref.ease(p,.02,.17)*(1.-base.ref.ease(p,.48,.80))
+        a.pop('pose',None);a.pop('face',None)
+        a['pose_weights']={'concentre':1.-look,'curieux':look}
+        a['gaze']=(base.ref.lerp(-.25,1.,look),1.)
+        a['head_tilt']=3.*look
+        a['hands']['left']['y']=base.ref.lerp(1312.,1332.,base.ref.ease(p,.72,.97))
+        a['performance_state']='visible_first_return'
+    if view=='face_box':a['mouth_shape']='o'
+    correct_phone_state(s)
+    a=apply_mou_acting(t,apply_expressions(t,apply_arms(t,apply_waiting(t,a))));s['actor']=a
+    apply_time_state(s)
+    if 8.<=t<16.25 or t>=27.:s['caption']=''
+    s['view']=view;s['shot']=framing['shot_id'];s['camera']=tuple(framing['viewport'])
+    s['framing']=framing
+    s['layout']=layout;s['actor_screen']=mapped_actor(a,layout)
+    if t>=24.7 and s['phone']['owner']=='right':
+        b=phone_binding(t,a);s['phone_binding']=b
+        s['phone']['center']=tuple(b['center']);s['phone']['angle']=b['angle']
+        s['phone']['face']=b['face'];s['phone']['bilateral']=b['bilateral']
+    else:
+        s['phone'].setdefault('face','screen');s['phone']['bilateral']=False
+    return s
+
+
+def transform(layout,box=False):
+    s=layout['scale'];dy=layout['ty']+(layout.get('box_shift_y',0.)if box else 0.)
+    dx=layout['tx']+(layout.get('box_shift_x',0.)if box else 0.)
+    return f'translate({dx} {dy}) scale({s})'
+
+
+def wrap(svg,layout,box=False):return '<g transform="'+transform(layout,box)+'">'+svg+'</g>'
+
+
+def draw_clock(cx,cy,r,elapsed):
+    hour=math.radians(180.+elapsed/120.);minute=math.radians(-90.+elapsed/10.)
+    out=[f'<g id="wall-clock" data-elapsed-seconds="{elapsed:.6f}">',
+         f'<ellipse cx="{cx+9}" cy="{cy+11}" rx="{r}" ry="{r}" fill="#78666B" opacity=".18"/>',
+         f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#FAF4E8" stroke="#51464D" stroke-width="{max(5.,r*.035)}"/>']
+    for i in range(12):
+        theta=math.radians(i*30.-90.)
+        points=[(cx+math.cos(theta)*r*k,cy+math.sin(theta)*r*k)for k in(.81,.91)]
+        out.append(f'<path d="M{points[0][0]} {points[0][1]} L{points[1][0]} {points[1][1]}" stroke="#71686E" stroke-width="{max(3.,r*.025)}"/>')
+    for angle,length,width,color in [(hour,.51,.067,'#403C48'),(minute,.76,.042,'#D36A5B')]:
+        out.append(f'<path d="M{cx} {cy} L{cx+r*length*math.cos(angle)} {cy+r*length*math.sin(angle)}" stroke="{color}" stroke-width="{max(4.,r*width)}" stroke-linecap="round"/>')
+    out.append(f'<circle cx="{cx}" cy="{cy}" r="{max(6.,r*.055)}" fill="#403C48"/></g>')
+    return ''.join(out)
+
+
+def clock_svg(s):
+    cx,cy,r=clock_placement(s['view'])
+    out=draw_clock(cx,cy,r,s['time_state']['session_elapsed'])
+    if s['view']!='clock' and cx-r>10 and cx+r<1070:
+        text=s['clock_display'];size=30
+        width,_,_=base.text_image(text,size)
+        out+=base.text_svg(text,cx-width/2.,cy+r+17,size,'wall-clock-time')
+    return out
+
+
+def box_parts(s):
+    """One actual volume: a recessed opening, visible side and hinged lid."""
+    lid=s['lid'];line=base.ref.path
+    back=(line('M662 1205 L700 1295 V1465 L662 1375 Z','#70978F',width=4.)+
+          line('M662 1205 H952 L990 1295 H700 Z','#8CB2A5',width=5.)+
+          line('M676 1217 H943 L974 1282 H710 Z','#354D4E',width=3.))
+    fx=700.-20.*lid;fy=1295.-295.*lid
+    lid_svg=(f'<g id="lid" data-open="{lid:.6f}">'+
+             line(f'M662 1205 H952 L{fx+290:.5f} {fy:.5f} H{fx:.5f} Z','#85A99C',width=5.)+
+             f'<path d="M{fx+13} {fy+5} H{fx+276}" stroke="#D3E2CA" stroke-width="5"/>'+
+             f'<path d="M{fx+121} {fy+7} H{fx+158}" stroke="#3A5150" stroke-width="7" stroke-linecap="round"/></g>')
+    front=['<g id="box-front" data-volume="perspective-v4">',
+           '<rect x="700" y="1295" width="290" height="170" rx="11" fill="#A2BFB0" stroke="#3C3441" stroke-width="5"/>',
+           '<path d="M709 1304 V1451 H981" fill="none" stroke="#D0DBBF" stroke-width="3" opacity=".7"/>',
+           '<rect x="754" y="1335" width="200" height="86" rx="12" fill="#344149" stroke="#3C3441" stroke-width="4"/>',
+           f'<g id="timer" data-display="{s["display"]}" data-remaining="{s["remaining"]}">']
+    for ch,x in zip(s['display'].replace(':',''),(770,805,867,902)):front.append(base.ref.digit_svg(ch,x,1352))
+    front.append('<circle cx="851" cy="1368" r="3.2" fill="#F9F2DF"/><circle cx="851" cy="1389" r="3.2" fill="#F9F2DF"/></g>')
+    shackle='M0 10 V1 Q12 -17 24 1 V10'if s['locked']else'M0 10 V1 Q12 -17 24 1'
+    front.append(f'<g id="lock" data-locked="{int(s["locked"])}" transform="translate(720 1332)">'+line(shackle,'none',width=4.)+
+                 '<rect x="-4" y="8" width="32" height="27" rx="4" fill="'+('#D5A656'if s['locked']else'#D9EEE1')+'" stroke="#3C3441" stroke-width="3"/></g>')
+    front.append(f'<ellipse id="start-button" cx="731" cy="1417" rx="16" ry="{9 if 3.84<=s["t"]<4.02 else 12}" fill="#FFF0D6" stroke="#3C3441" stroke-width="3"/>')
+    front.extend([base.text_svg('30 MIN',818,1303,18,'box-duration'),base.text_svg('MIN:SEC',817,1432,14,'box-units'),'</g>'])
+    return back,''.join(front),lid_svg,lid>.306
+
+
+def phone_svg(s):
+    p=s['phone']
+    if not p['visible']:return ''
+    x,y=p['center'];face=p['face'];angle=p['angle'];layout=s['layout']
+    # During the close recovery the box and reaching paw occupy a nearer plane.
+    shift=layout.get('box_shift_y',0.)if p['owner']in('box','right')else 0.
+    attrs=f'data-owner="{p["owner"]}" data-face="{face}" data-bilateral="{int(p["bilateral"])}"'
+    shape=['<rect x="-39" y="-70" width="78" height="140" rx="12" fill="#494854" stroke="#302D35" stroke-width="5"/>']
+    if face=='back':
+        shape.extend(['<rect x="-31" y="-61" width="44" height="46" rx="10" fill="#666772" stroke="#302D35" stroke-width="2.5"/>',
+                      '<circle cx="-18" cy="-48" r="10" fill="#212632" stroke="#B3B3B5" stroke-width="2.5"/>',
+                      '<circle cx="-1" cy="-30" r="9" fill="#212632" stroke="#B3B3B5" stroke-width="2.5"/>',
+                      '<circle cx="1" cy="-49" r="3.3" fill="#F9E7BD"/>',
+                      '<path d="M-28 -4 V53 Q-28 60 -20 60 H23" fill="none" stroke="#737682" stroke-width="2"/>'])
+    else:
+        color='#F7BA9B'if s['t']>=.65 else'#ADB9CA'
+        shape.append(f'<rect x="-31" y="-58" width="62" height="114" rx="7" fill="{color}"/>')
+        shape.append('<path d="M-20 -29 H20 M-20 -7 H12 M-20 15 H19" stroke="#FFF5EA" stroke-width="9" stroke-linecap="round"/>')
+        if s['t']>=.65:shape.append('<circle cx="23" cy="-47" r="10" fill="#E85F61" stroke="#FFF4E3" stroke-width="2"/>')
+    plane=p.get('plane_scale_x',1.)
+    if plane<.999999:
+        # Keep a visible rim while the face passes through its narrow edge.
+        artwork=('<rect x="-3" y="-69" width="6" height="138" rx="2" fill="#555560" stroke="#302D35" stroke-width="2"/>'
+                 +f'<g id="phone-turn-plane" data-progress="{p.get("turn_progress",0.):.6f}" transform="scale({plane:.7f} 1)">'+''.join(shape)+'</g>')
+    else:artwork=''.join(shape)
+    local=f'<g id="phone" {attrs} transform="translate({x:.5f} {y:.5f}) rotate({angle:.5f})">'+artwork+'</g>'
+    # Prop and right palm receive the same offset in this view.
+    if shift:local='<g transform="translate(0 '+str(shift/layout['scale'])+')">'+local+'</g>'
+    return wrap(local,layout)
+
+
+def paper_svg(s):
+    paper=base.paper_svg()
+    if s['view']=='wide_high':
+        # Tilt the paper in the actual diagonal tabletop, keeping the pencil's
+        # contact near(458,1390) fixed rather than slipping it off the sheet.
+        paper='<g transform="translate(458 1390) matrix(1 -.22 .20 1 0 0) translate(-458 -1390)">'+paper+'</g>'
+    return wrap(paper,s['layout'])
+
+
+def top_contact_limbs(s, actor):
+    """Keep the lifting arm over the lid, but behind its vertical front wall.
+
+    A compound clip with opposite windings is used instead of a luminance
+    mask, so the same geometry works in CairoSVG and standard SVG viewers.
+    """
+    layout=s['layout'];scale=layout['scale']
+    x=700.*scale+layout['tx']+layout.get('box_shift_x',0.)
+    y=1295.*scale+layout['ty']+layout.get('box_shift_y',0.)
+    w,h=290.*scale,170.*scale
+    outside=f'M0 0 H1080 V1920 H0 Z M{x} {y} V{y+h} H{x+w} V{y} Z'
+    clip=('<defs><clipPath id="mou-lid-contact-clip" clipPathUnits="userSpaceOnUse">'
+          f'<path d="{outside}" clip-rule="evenodd"/></clipPath></defs>')
+    return (clip+'<g id="mou-lid-contact" clip-path="url(#mou-lid-contact-clip)">'
+            +character_svg(actor,'mou',layer='arms')
+            +character_svg(actor,'mou',layer='hands')+'</g>')
+
+
+def svg_at(t):
+    s=state_at(t);a=s['actor_screen'];view=s['view'];layout=s['layout']
+    layers=scene_layers(view,s['story_elapsed_seconds'],s['t'])
+    if view=='paper':
+        body=layers['background']+base.paper_svg(True)
+        body+='<path d="M915 660 L933 659 L961 1320 L951 1360 L939 1320 Z" fill="#D7AD55" stroke="#4C3A38" stroke-width="4"/>'
+    elif view=='clock':
+        body=layers['background']+clock_svg(s)
+        body+=base.text_svg(s['clock_display'],410,1190,76,'clock-readable-time')
+    else:
+        clock=''if view=='work_close'else clock_svg(s)
+        body=layers['background']+clock+layers['chair']
+        show_actor=view!='box_insert'
+        back,front,lid,lid_behind=box_parts(s)
+        # In the close reveal MOU leans ahead of the raised lid. The open
+        # panel belongs behind his face, so it cannot erase the second eye.
+        lid_before_actor=view=='face_box' and lid_behind
+        if lid_before_actor:body+=wrap(lid,layout,True)
+        if show_actor:body+=character_svg(a,'mou',layer='torso')
+        body+=layers['tabletop']+layers['front']+paper_svg(s)
+        waiting_limbs=show_actor and 4.6<=s['t']<23.
+        lifting_lid=show_actor and 23.0<=s['t']<23.75
+        if waiting_limbs:
+            # The resting limbs are behind the whole solid box, including its
+            # left side. Put the pencil under its holding paw as before.
+            body+=wrap(base.ref.pencil_svg(s),layout)
+            body+=character_svg(a,'mou',layer='arms')
+            body+=character_svg(a,'mou',layer='hands')
+        body+=wrap(back,layout,True)
+        if lid_behind and not lid_before_actor:body+=wrap(lid,layout,True)
+        # Sleeves can cross the hoodie and rest over the surface, behind the box.
+        if show_actor and not waiting_limbs and not lifting_lid:
+            body+=character_svg(a,'mou',layer='arms')
+        if s['phone_deep']:body+=phone_svg(s)
+        paws_inside=(show_actor and not waiting_limbs and s['phone_deep'] and
+                     (2.2<=s['t']<3.20 or 23.75<=s['t']<24.35))
+        if paws_inside:
+            # The palm follows the phone into the opening; the front wall
+            # occludes its lower part just as it occludes the stored phone.
+            body+=character_svg(a,'mou',layer='hands')
+        body+=wrap(front,layout,True)
+        if not lid_behind:body+=wrap(lid,layout,True)
+        if not s['phone_deep']:body+=phone_svg(s)
+        if not waiting_limbs:body+=wrap(base.ref.pencil_svg(s),layout)
+        if lifting_lid:
+            body+=top_contact_limbs(s,a)
+        elif show_actor and not waiting_limbs and not paws_inside:
+            body+=character_svg(a,'mou',layer='hands')
+    x,y,w,h=s['camera'];zoom=1080./w
+    body=(f'<g id="camera-view" transform="translate({-x*zoom:.7f} {-y*zoom:.7f}) scale({zoom:.9f})">'
+          +body+'</g>'+base.caption_svg(s))
+    return ('<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" '
+            f'data-view="{view}" data-shot="{s["shot"]}" data-viewport="{x} {y} {w} {h}" '
+            f'data-story-seconds="{s["story_elapsed_seconds"]:.6f}">'+body+'</svg>')
