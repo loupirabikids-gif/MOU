@@ -1,0 +1,10 @@
+{
+  "episodes/patch_01_coffre_v4_telephone/PATCH_Le_coffre_V4_telephone.mp4": "e555c0589e92f48aabe3df8186fe6a3be6de1fef0d6aacd0cf15526b22966680",
+  "episodes/patch_01_coffre_v4_telephone/PATCH_Le_coffre_V4_telephone_muet.mp4": "3bc36cb07979bebce909bae47e7020bcbb1e9eb2691778a06442249ad78158c0",
+  "episodes/patch_01_coffre_v4_telephone/sources/scene.py": "d835eeba6ea0f799a33ef2d49e788a3743668b571cace5cd18e190dc6c2611ed",
+  "episodes/patch_01_coffre_v4_telephone/sources/personnage.py": "b065998b4d1fe1298322cd842a61016b9d9e6f2bdb8cafe758db9965c2ea1f14",
+  "episodes/patch_01_coffre_v4_telephone/sources/jeu.py": "4c28f8892782b1813d4340c4cb32b11f107b38912295d58dc62915f5a6b7864e",
+  "episodes/patch_01_coffre_v4_telephone/sources/vues.py": "7a4f837aef02219fb749fbf0b44af0d9c9d2720ef35716d3b3784464ab7880c2",
+  "episodes/patch_01_coffre_v4_telephone/sources/telephone.py": "f20d4677e05060967f13d748a44cd1e3a4b3047fbc5f962e5bdda58979517e53",
+  "episodes/patch_01_coffre_v4_telephone/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41"
+}

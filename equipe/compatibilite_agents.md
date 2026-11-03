@@ -1,5 +1,13 @@
 # Agents personnalisés — compatibilité vérifiée
 
+Ajout du 3 novembre 2026 : le profil `voix_patch` et sa table projet sont
+enregistrés pour la recherche et la fabrication de vocalisations non verbales.
+Les fichiers TOML ont été analysés localement. Aucun moteur vocal ou poids
+n'est installé par ce profil ; son chargement natif dans le client courant
+n'a pas été observé. La recherche réelle a été déléguée avec l'outil de cette
+session. Les constatations historiques ci-dessous concernent les cinq profils
+initiaux et ne constituent pas une nouvelle validation de schéma de ce rôle.
+
 Observation : 2026-10-27T19:41:04+01:00 (Africa/Casablanca).
 
 Les cinq profils sont enregistrés dans `.codex/agents/` et référencés par

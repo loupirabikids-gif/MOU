@@ -1,0 +1,345 @@
+{
+  "status": "passed",
+  "scope": "final_hd",
+  "checks": [
+    {
+      "name": "720_finite_states_and_unique_svg_ids",
+      "passed": true,
+      "detail": {
+        "frames": 720,
+        "fps": 24,
+        "duration": 30.0
+      }
+    },
+    {
+      "name": "one_integer_session_clock_timer_and_labels",
+      "passed": true,
+      "detail": {
+        "bad_frames_zero": [],
+        "clock_start": 32400,
+        "session_seconds": 1800
+      }
+    },
+    {
+      "name": "time_montage_endpoints_and_clock_freeze",
+      "passed": true,
+      "detail": {
+        "0.0": {
+          "session_elapsed": 0,
+          "remaining": 1800,
+          "clock_seconds": 32400,
+          "start_clock_seconds": 32400,
+          "session_seconds": 1800
+        },
+        "4.0": {
+          "session_elapsed": 0,
+          "remaining": 1800,
+          "clock_seconds": 32400,
+          "start_clock_seconds": 32400,
+          "session_seconds": 1800
+        },
+        "16.25": {
+          "session_elapsed": 960,
+          "remaining": 840,
+          "clock_seconds": 33360,
+          "start_clock_seconds": 32400,
+          "session_seconds": 1800
+        },
+        "22.0": {
+          "session_elapsed": 1799,
+          "remaining": 1,
+          "clock_seconds": 34199,
+          "start_clock_seconds": 32400,
+          "session_seconds": 1800
+        },
+        "23.0": {
+          "session_elapsed": 1800,
+          "remaining": 0,
+          "clock_seconds": 34200,
+          "start_clock_seconds": 32400,
+          "session_seconds": 1800
+        },
+        "29.958333333": {
+          "session_elapsed": 1800,
+          "remaining": 0,
+          "clock_seconds": 34200,
+          "start_clock_seconds": 32400,
+          "session_seconds": 1800
+        }
+      }
+    },
+    {
+      "name": "rendered_timer_and_wall_clock_use_session_time",
+      "passed": true,
+      "detail": {
+        "bad_frames_zero": [],
+        "frames_with_numeric_clock": 454,
+        "method": "Inspect actual full-frame SVG element data and presence of rasterized clock labels."
+      }
+    },
+    {
+      "name": "late_wait_has_one_approach_and_no_minute_gaze_loops",
+      "passed": true,
+      "detail": {
+        "direction_reversals": {
+          "gaze_x": 1,
+          "gaze_y": 0,
+          "head_tilt": 1
+        },
+        "held_head_and_blink_span": {
+          "head_tilt": 0.0,
+          "blink": 0.0
+        },
+        "held_gaze_xy_span": [
+          0.0,
+          0.0
+        ],
+        "held_window": [
+          19.125,
+          21.7
+        ],
+        "late_numeric_minute_captions": 0
+      }
+    },
+    {
+      "name": "validated_phone_contact_states_preserved",
+      "passed": true,
+      "detail": {
+        "windows": [
+          [
+            1.4,
+            3.55
+          ],
+          [
+            23.2,
+            24.7
+          ]
+        ],
+        "protected_frames": 88,
+        "differences": []
+      }
+    },
+    {
+      "name": "rig_phone_cameras_audio_and_8_old_references_preserved",
+      "passed": true,
+      "detail": {
+        "inputs": {
+          "sources/personnage.py": true,
+          "sources/jeu.py": true,
+          "sources/vues.py": true,
+          "sources/telephone.py": true,
+          "sources/cadres.json": true,
+          "sources/palette.json": true,
+          "sources/reference_scene.py": true,
+          "audio/mix.wav": true
+        },
+        "protected_refs": {
+          "episodes/patch_01_coffre_v4_telephone/PATCH_Le_coffre_V4_telephone.mp4": true,
+          "episodes/patch_01_coffre_v4_telephone/PATCH_Le_coffre_V4_telephone_muet.mp4": true,
+          "episodes/patch_01_coffre_v4_telephone/sources/scene.py": true,
+          "episodes/patch_01_coffre_v4_telephone/sources/personnage.py": true,
+          "episodes/patch_01_coffre_v4_telephone/sources/jeu.py": true,
+          "episodes/patch_01_coffre_v4_telephone/sources/vues.py": true,
+          "episodes/patch_01_coffre_v4_telephone/sources/telephone.py": true,
+          "episodes/patch_01_coffre_v4_telephone/audio/mix.wav": true
+        }
+      }
+    },
+    {
+      "name": "real_composed_paw_clearance_and_solid_box_occlusion",
+      "passed": true,
+      "detail": [
+        {
+          "t": 13.5,
+          "solid_box_limb_pixels": 0,
+          "visible_right_paw_pixels": 7578,
+          "visible_right_paw_right_edge": 706,
+          "nearest_box_x": 719.4,
+          "right_paw_fully_left_of_side": true
+        },
+        {
+          "t": 19.3,
+          "solid_box_limb_pixels": 0,
+          "visible_right_paw_pixels": 8727,
+          "visible_right_paw_right_edge": 646,
+          "nearest_box_x": 660.6,
+          "right_paw_fully_left_of_side": true
+        },
+        {
+          "t": 20.0,
+          "solid_box_limb_pixels": 0,
+          "visible_right_paw_pixels": 8727,
+          "visible_right_paw_right_edge": 646,
+          "nearest_box_x": 660.6,
+          "right_paw_fully_left_of_side": true
+        },
+        {
+          "t": 21.0,
+          "solid_box_limb_pixels": 0,
+          "visible_right_paw_pixels": 8727,
+          "visible_right_paw_right_edge": 646,
+          "nearest_box_x": 660.6,
+          "right_paw_fully_left_of_side": true
+        }
+      ]
+    },
+    {
+      "name": "joy_two_feet_bilateral_phone_and_blank_work",
+      "passed": true,
+      "detail": {
+        "joy_samples": [
+          25.2,
+          25.7,
+          26.5
+        ],
+        "completed_tasks_max": 0
+      }
+    },
+    {
+      "name": "audio_18_cues_no_clip_reconstructed_and_current_timeline",
+      "passed": true,
+      "detail": {
+        "wav_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+        "parameters": [
+          48000,
+          2,
+          2,
+          1440000
+        ],
+        "cues": 18,
+        "peak_pcm": 3349,
+        "timeline_reports_current": true,
+        "listening_performed": false
+      }
+    },
+    {
+      "name": "render_cache_has_current_source_hash",
+      "passed": true,
+      "detail": {
+        "mode": "hd",
+        "report": "5b5b0be77593a54764e22e9508411d1ba559aa91531e34daa0a0ce1804610442",
+        "current": "5b5b0be77593a54764e22e9508411d1ba559aa91531e34daa0a0ce1804610442"
+      }
+    },
+    {
+      "name": "final_1080x1920_24fps_30s_sound_and_mute",
+      "passed": true,
+      "detail": {
+        "video_sha256": "f86fd51e079578b65182cf154baaaf3993baff9af0372885b7825d58f1d797d5",
+        "mute_sha256": "729a3b5b33d306ed1dc1b8c26b47374850fc0dfb4f50662dfa00f8eb0621949d",
+        "video_frames": "720",
+        "audio_duration": "30.000000"
+      }
+    },
+    {
+      "name": "same_h264_in_sound_and_mute",
+      "passed": true,
+      "detail": {
+        "sound_h264_sha256": "e24c9adfe1dbb444479866052272156164cd027b48e2f18f9a96403539cfb538",
+        "mute_h264_sha256": "e24c9adfe1dbb444479866052272156164cd027b48e2f18f9a96403539cfb538"
+      }
+    },
+    {
+      "name": "aac_unchanged_from_validated_phone_film",
+      "passed": true,
+      "detail": {
+        "new_aac_sha256": "61abbc55d81b717cde9797a4d8e1d74bf8dba40ae6ce643a9bc22185e58ba6b2",
+        "baseline_aac_sha256": "61abbc55d81b717cde9797a4d8e1d74bf8dba40ae6ce643a9bc22185e58ba6b2"
+      }
+    },
+    {
+      "name": "12_actual_hd_decodes_match_current_fresh_renders",
+      "passed": true,
+      "detail": [
+        {
+          "frame_zero": 40,
+          "mean_rgb_error": 1.5498,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 68,
+          "mean_rgb_error": 1.5064,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 156,
+          "mean_rgb_error": 1.4471,
+          "p99": 3.0
+        },
+        {
+          "frame_zero": 324,
+          "mean_rgb_error": 1.6022,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 390,
+          "mean_rgb_error": 1.6153,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 411,
+          "mean_rgb_error": 1.6115,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 438,
+          "mean_rgb_error": 1.6269,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 455,
+          "mean_rgb_error": 1.5309,
+          "p99": 6.0
+        },
+        {
+          "frame_zero": 463,
+          "mean_rgb_error": 1.5353,
+          "p99": 6.0
+        },
+        {
+          "frame_zero": 504,
+          "mean_rgb_error": 1.5345,
+          "p99": 6.0
+        },
+        {
+          "frame_zero": 540,
+          "mean_rgb_error": 1.4325,
+          "p99": 4.0
+        },
+        {
+          "frame_zero": 617,
+          "mean_rgb_error": 1.6459,
+          "p99": 9.0
+        }
+      ]
+    },
+    {
+      "name": "frozen_producers_unchanged",
+      "passed": true,
+      "detail": {
+        "episodes/patch_01_coffre_v5/sources/telephone.py": true,
+        "episodes/patch_01_coffre_v5/sources/jeu.py": true,
+        "episodes/patch_01_coffre_v5/sources/scene.py": true,
+        "episodes/patch_01_coffre_v5/sources/attente.py": true,
+        "episodes/patch_01_coffre_v5/sources/package.py": true,
+        "episodes/patch_01_coffre_v5/sources/son.py": true,
+        "episodes/patch_01_coffre_v5/sources/render.py": true,
+        "episodes/patch_01_coffre_v5/sources/temps.py": true,
+        "episodes/patch_01_coffre_v5/sources/palette.json": true,
+        "episodes/patch_01_coffre_v5/sources/reference_scene.py": true,
+        "episodes/patch_01_coffre_v5/sources/vues.py": true,
+        "episodes/patch_01_coffre_v5/sources/scene_base.py": true,
+        "episodes/patch_01_coffre_v5/sources/cadres.json": true,
+        "episodes/patch_01_coffre_v5/sources/personnage.py": true,
+        "episodes/patch_01_coffre_v5/chronologie.json": true,
+        "episodes/patch_01_coffre_v5/audio/mix.wav": true,
+        "fonts/DejaVuSans-Bold.ttf": true
+      }
+    }
+  ],
+  "limits": [
+    "Mesures ciblées complétées par critique visuelle du vrai montage ; aucun succès public certifié.",
+    "Aucune audition, génération vocale ni confort d’écoute revendiqué.",
+    "Contrôle du temps par données et rendu SVG ; la lisibilité sur téléphone doit rester soumise à la revue artistique."
+  ]
+}

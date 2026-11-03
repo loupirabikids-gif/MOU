@@ -1,0 +1,19 @@
+{
+  "episodes/patch_01_coffre_v5/sources/telephone.py": "f20d4677e05060967f13d748a44cd1e3a4b3047fbc5f962e5bdda58979517e53",
+  "episodes/patch_01_coffre_v5/sources/jeu.py": "4c28f8892782b1813d4340c4cb32b11f107b38912295d58dc62915f5a6b7864e",
+  "episodes/patch_01_coffre_v5/sources/scene.py": "b58f5df34031514f4f13c0fd3431495c1231ce68333a4bcce44659a1ac4f4431",
+  "episodes/patch_01_coffre_v5/sources/attente.py": "b6ff63422b3fe18282f7b8b1388b64996e7752b7b8d6e1fff2772f3d0536347e",
+  "episodes/patch_01_coffre_v5/sources/package.py": "e2d7c8ee500d2a011448699da8ce9772fd103fb3b4a3097367106eaf6ca1d07c",
+  "episodes/patch_01_coffre_v5/sources/son.py": "be770b835aba6167b9dfbf2cc9a4f63b788f974ee9f89081967c479c30a6272d",
+  "episodes/patch_01_coffre_v5/sources/render.py": "832e0cece2de8ffa52fba2758f988d69ed9112e1d58839de6d02559a18001916",
+  "episodes/patch_01_coffre_v5/sources/temps.py": "a3d9f1e7f85db810a19f542a106f0c17db942d8ddc83fb503c40c697f86379cc",
+  "episodes/patch_01_coffre_v5/sources/palette.json": "42d905009d4e53603db26e964168083bf652b4a583e4ff1442dc0f239aa116b0",
+  "episodes/patch_01_coffre_v5/sources/reference_scene.py": "06e090059e1549f6e96b12edbfbc34b5ae41de46e0cc63ef922dc46ffa6d9b0b",
+  "episodes/patch_01_coffre_v5/sources/vues.py": "7a4f837aef02219fb749fbf0b44af0d9c9d2720ef35716d3b3784464ab7880c2",
+  "episodes/patch_01_coffre_v5/sources/scene_base.py": "95dbbd98ddddbb0ca2a0f92301a942025dbb33c3e3a9194dde1825f74e0e8775",
+  "episodes/patch_01_coffre_v5/sources/cadres.json": "f31e6a90f0a7cb0f14583407befb9eeef886ee5fc2c3a2527c07bd9a935901b8",
+  "episodes/patch_01_coffre_v5/sources/personnage.py": "b065998b4d1fe1298322cd842a61016b9d9e6f2bdb8cafe758db9965c2ea1f14",
+  "episodes/patch_01_coffre_v5/chronologie.json": "9bb135a8c6967b7bcc1cd4687c68955cfe233fbd912fd334fa991f470b4721cd",
+  "episodes/patch_01_coffre_v5/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+  "fonts/DejaVuSans-Bold.ttf": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+}

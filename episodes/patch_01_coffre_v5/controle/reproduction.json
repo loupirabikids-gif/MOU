@@ -1,0 +1,90 @@
+{
+  "archive_payload_files_verified": 78,
+  "crc_ok": true,
+  "isolated_extraction": true,
+  "fresh_png": [
+    {
+      "frame_1based": 1,
+      "sha256": "d1fda9bc833965624f3812fd38b98967b217a93475bb8b894cdf03d659abdba1",
+      "identical": true
+    },
+    {
+      "frame_1based": 44,
+      "sha256": "87340861c2ea06441eee8761019702a7b539aa7cda510e2efc24cd4b06690275",
+      "identical": true
+    },
+    {
+      "frame_1based": 68,
+      "sha256": "d0c3aec9e91e9b87f9c4d7244ef8d9ea8c2542b405f543d1221b3f3494094643",
+      "identical": true
+    },
+    {
+      "frame_1based": 84,
+      "sha256": "94cb21c0b97a589e121372097f0e823a06b98db5afa37e122a83741dc478f7f6",
+      "identical": true
+    },
+    {
+      "frame_1based": 157,
+      "sha256": "f709a4226d9d9ebc99bdd571f28027c400dfd4440a8ef2067c20a01697d07e49",
+      "identical": true
+    },
+    {
+      "frame_1based": 193,
+      "sha256": "7deb9da2b7b0b49c47b6682cdfb0692b7cb48a29d4e8d022671f00674ea74b66",
+      "identical": true
+    },
+    {
+      "frame_1based": 250,
+      "sha256": "fec9376d7e46c36018d1599b9bc0186edd90ba24c478bf027440dee76d37f5b7",
+      "identical": true
+    },
+    {
+      "frame_1based": 325,
+      "sha256": "b5e978d7f876f1cda882682c6866a59db85d14ba7ea95b9f39a69d8bc64dad86",
+      "identical": true
+    },
+    {
+      "frame_1based": 391,
+      "sha256": "3da226c09f534242ceb3b799b37339b8df37280942ab8e526b9e814e8e0ff1cb",
+      "identical": true
+    },
+    {
+      "frame_1based": 433,
+      "sha256": "ddd8af0e3e1dedb596d182141512b1896ffc91eae58d70c80fcf970410341605",
+      "identical": true
+    },
+    {
+      "frame_1based": 451,
+      "sha256": "6e59bf077253da0a85614c9e8552f2c609868ccc8ae8ae5c3f7b0f2b6342024c",
+      "identical": true
+    },
+    {
+      "frame_1based": 465,
+      "sha256": "0b9d5b9a065be3f3ce18a373790483735c31004405bf1c4baceebd918277fca8",
+      "identical": true
+    },
+    {
+      "frame_1based": 517,
+      "sha256": "f0fec20f9dd88d4e919a22916c58150426546526ec182acf130491382ae8b936",
+      "identical": true
+    },
+    {
+      "frame_1based": 541,
+      "sha256": "f8cb46872ab3575f7a5c169b524b3573cac2b5a835b68e33ee5d08fbc50469b7",
+      "identical": true
+    },
+    {
+      "frame_1based": 578,
+      "sha256": "891d34ba41aee3d28f18e54b7e27cc5a5b0005b2fdff3a35be4e0b4ea69f80d3",
+      "identical": true
+    },
+    {
+      "frame_1based": 618,
+      "sha256": "c898547dfe881f2af0684473ee78eb9e670897778bd34009aacb83f01231ff86",
+      "identical": true
+    }
+  ],
+  "wav_identical": true,
+  "wav_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+  "mp4_binary_reproduction_claimed": false
+}

@@ -1,0 +1,19 @@
+{
+  "duration_seconds": 30.0,
+  "channels": 2,
+  "sample_rate": 48000,
+  "bits": 16,
+  "cue_count": 18,
+  "clipped_samples": 0,
+  "music": false,
+  "voice": false,
+  "listening_performed": false,
+  "fixed_gains": true,
+  "last_nonzero_seconds": 24.150520833333335,
+  "final_silence_seconds": 5.849479166666665,
+  "timeline_sha256": "9bb135a8c6967b7bcc1cd4687c68955cfe233fbd912fd334fa991f470b4721cd",
+  "mix_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+  "producer_sha256": "be770b835aba6167b9dfbf2cc9a4f63b788f974ee9f89081967c479c30a6272d",
+  "pcm_identical_v4_telephone": true,
+  "peak_dbfs": -19.810695748397023
+}

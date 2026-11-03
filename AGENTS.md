@@ -1,5 +1,31 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante : V5 dans `episodes/patch_01_coffre_v5/`. Corriger les
+bras au flanc du coffre, calculer minuteur/horloge depuis un même temps de
+session et arrêter les regards minute par minute dès la16e minute
+(film16,25s). Après ce point, tenir impatience/fatigue puis une seule
+approche du coffre et un regard posé, comme la référence. L'interdiction
+historique de changer les29regards est levée par cette nouvelle demande.
+Préserver les prises du téléphone déjà corrigées et les vues/personnage.
+Root possède scène/temps/chronologie/export ; jeu possède attente.py ;
+critique ses rapports, QA son contrôleur. Recherche parallèle de banques
+et moteurs de vocalisations gratuits dans `recherche/2026-11-03_sons_patch/` :
+vérifier licences du code ET des poids, distinguer ce qui est consulté,
+généré et écouté. Ne pas prétendre qu'un agent de son ou une voix est validé
+par un simple nom d'outil. Pas de nouvelles vocalisations aveuglément mixées.
+Les anciens épisodes et la vidéo privée restent conservés. Revue des vraies
+poses/animatique puis HD avant livraison GitHub dans l'accord existant.
+
+V5 produite : 30s/720images1080×1920, filmsonf86fd51e…97d5 et
+muet729a3b5b…949d. Pause continue dès16,25s, main droite reculée et
+profondeur d'attente corrigée ; session entière partagée temps/compteur.
+QA16contrôles passés,88images de contacts protégés comparées,12HD comparés
+aux rendus frais,17entrées gelées et8anciennes références intactes.
+DepuisZIP16PNG+WAV identiques. Bark etSoundgen documentés pour essais,
+profilvoix_patch enregistré etTOMLanalysé ; aucun moteur vocal installé,
+prise générée ou audition revendiquée. Ce profil ne prouve pas son chargement
+natif dans leclient ; les recherches ont bien été déléguées dans cette session.
+
 Correction courante : l'utilisatrice signale des défauts quand PATCH pose
 et prend le téléphone de laV4. Variante locale
 `episodes/patch_01_coffre_v4_telephone/`, sans reconstruire les vues ou le jeu

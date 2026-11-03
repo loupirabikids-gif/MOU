@@ -1,5 +1,18 @@
 # Atelier de courts épisodes
 
+**PATCH V5 — bras dégagés, temps cohérent et attente moins répétitive.**
+
+**[Voir le film corrigé avec son](episodes/patch_01_coffre_v5/PATCH_Le_coffre_V5.mp4?raw=true)** ·
+[Version muette](episodes/patch_01_coffre_v5/PATCH_Le_coffre_V5_muet.mp4?raw=true) ·
+[Sources et contrôles](episodes/patch_01_coffre_v5/).
+
+Main droite séparée du flanc du coffre ; horloge et minuteur calculés depuis
+un même temps. Dès la seizième minute, une attente continue remplace les regards
+minute par minute : fatigue, une approche et un éveil. Les prises du téléphone
+précédemment corrigées sont conservées.
+[Recherche de vocalisations gratuites](recherche/2026-11-03_sons_patch/RECHERCHE.md) :
+Bark et Soundgen retenus pour un essai ; aucun nouveau son vocal validé ou mixé.
+
 **PATCH V4 — correctif local des prises du téléphone.**
 
 **[Voir le film corrigé avec son](episodes/patch_01_coffre_v4_telephone/PATCH_Le_coffre_V4_telephone.mp4?raw=true)** ·

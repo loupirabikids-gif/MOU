@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "observed_date": "2026-11-03",
+  "observation_timezone": "Africa/Casablanca",
+  "generated_at_utc": "2026-11-03T10:15:33.975195+00:00",
+  "generated_at_local": "2026-11-03T11:15:33.975195+01:00",
+  "scope": "Research only. No production audio edited, no heavy model run, no sample listened to.",
+  "network": "Managed proxy and CA preserved; denied sites not bypassed.",
+  "sources": [
+    {
+      "id": "bark",
+      "name": "Suno Bark",
+      "type": "local_generative_nonverbal_audio",
+      "url": "https://github.com/suno-ai/bark",
+      "commit": "f4f32d4cd480dfec1c245d258174bc9bde3c2148",
+      "code_license": "MIT",
+      "weights_license_evidence": "Official README says released checkpoints available for commercial use; repo announces Bark MIT. Scope is official release, not arbitrary third-party voices/models.",
+      "commercial_status": "official_release_author_explicitly_allows",
+      "voice_clone_required": false,
+      "documented_nonverbal": [
+        "laughter",
+        "laughs",
+        "sighs",
+        "gasps",
+        "clears throat",
+        "crying (README description)"
+      ],
+      "not_verified": [
+        "quality of generated isolated sounds",
+        "yawn support",
+        "runtime speed on this machine",
+        "listening comparison"
+      ],
+      "dependencies": [
+        "Python",
+        "PyTorch >= 2.0",
+        "EnCodec",
+        "NumPy",
+        "SciPy",
+        "Transformers"
+      ],
+      "hardware_author_claim": "CPU supported but slower; full GPU model about 12 GB VRAM, small models about 8 GB, CPU offload options",
+      "payment": "No paid API needed for local use; compute and downloads still required.",
+      "decision": "first_generative_audition_candidate",
+      "evidence_quotes": [
+        "The model can also produce nonverbal communications like laughing, sighing and crying.",
+        "we are providing access to pretrained model checkpoints, which are ready for inference and available for commercial use.",
+        "Bark is now licensed under the MIT License, meaning it's now available for commercial use!"
+      ],
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/suno-ai/bark/main/README.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/bark_readme.txt",
+          "sha256": "727acc4ec3d37ad8e20a8333fb779edece39271f3be9a813019d01849b256c72",
+          "bytes": 15207
+        },
+        {
+          "url": "https://raw.githubusercontent.com/suno-ai/bark/main/LICENSE",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/bark_license.txt",
+          "sha256": "09d0da397aba950dd45c40203220135a8d1d9647f1533df6dad7a4ae5f581dfb",
+          "bytes": 1061
+        },
+        {
+          "url": "https://raw.githubusercontent.com/suno-ai/bark/main/model-card.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/bark_checkpoint_license.txt",
+          "sha256": "0decfa136220894956cf0798e20da85fc102596db75487f5f68ff7d7022a697e",
+          "bytes": 2050
+        },
+        {
+          "url": "https://raw.githubusercontent.com/facebookresearch/encodec/main/README.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/encodec_readme.txt",
+          "sha256": "bcda16ffd00d5d65efbe9952ae38f994f2bf26ee043fae79d1c6c53f64a549a3",
+          "bytes": 10171
+        },
+        {
+          "url": "https://raw.githubusercontent.com/facebookresearch/encodec/main/LICENSE",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/encodec_license.txt",
+          "sha256": "cf9b17822d1fcd4ff32ccbe14183386fb3adf6f2ff92dc184130823f7fc28173",
+          "bytes": 1087
+        }
+      ]
+    },
+    {
+      "id": "soundgen",
+      "name": "Soundgen R package / CRAN mirror",
+      "type": "parametric_nonverbal_voice_synthesizer",
+      "url": "https://github.com/cran/soundgen",
+      "commit": "ea27b027896d4aab7bddf349e6687013c6c78d98",
+      "version": "3.0.0",
+      "code_license": "GPL-2.0-or-later",
+      "weights_license": "not applicable; no pretrained neural model",
+      "commercial_status": "GPL permits commercial software use with redistribution obligations for covered code; original synthesized audio is not automatically GPL merely because the tool is GPL",
+      "voice_clone_required": false,
+      "documented_nonverbal": [
+        "human nonverbal vocalizations",
+        "breathy moan README example",
+        "animal calls"
+      ],
+      "proposed_not_tested": [
+        "small hum",
+        "breathy sigh",
+        "pulsed chuckle",
+        "effort grunt"
+      ],
+      "dependencies": [
+        "R >= 4.1",
+        "tuneR",
+        "signal",
+        "phonTools"
+      ],
+      "hardware_author_claim": "No GPU or compilation requirement shown in DESCRIPTION.",
+      "payment": "Local FOSS tool; no API payment.",
+      "decision": "open_parametric_candidate_needs_audition",
+      "evidence_quotes": [
+        "License: GPL (>= 2)",
+        "NeedsCompilation: no",
+        "Soundgen: an open-source tool for synthesizing nonverbal vocalizations."
+      ],
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/cran/soundgen/master/README.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/soundgen_cran_readme.txt",
+          "sha256": "839a04b028dcc1ec088387e73217e5647a25f2306f3e6e879fae0fb3fba90330",
+          "bytes": 6843
+        },
+        {
+          "url": "https://raw.githubusercontent.com/cran/soundgen/master/DESCRIPTION",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/soundgen_cran_description.txt",
+          "sha256": "685b3211e8670c69537fdc3815d2e4ec3278167628cc576632276d2f8ae9cf32",
+          "bytes": 1397
+        },
+        {
+          "url": "https://raw.githubusercontent.com/cran/soundgen/master/R/soundgen.R",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/soundgen_function.txt",
+          "sha256": "3e5bf6e277d27c2957cfe93cb9a91dd7317d066e2e1b8955aced85428672684a",
+          "bytes": 50620
+        }
+      ]
+    },
+    {
+      "id": "orpheus",
+      "name": "Canopy Orpheus TTS",
+      "type": "expressive_tts_with_nonverbal_tags",
+      "url": "https://github.com/canopyai/Orpheus-TTS",
+      "commit": "e64661fe6d02c414fc77c53578c9d64082614861",
+      "code_license": "Apache-2.0",
+      "weights_license": "unverified; model cards blocked by network policy",
+      "commercial_status": "not_cleared_for_selected_weights",
+      "voice_clone_required": false,
+      "documented_nonverbal": [
+        "laugh",
+        "chuckle",
+        "sigh",
+        "cough",
+        "sniffle",
+        "groan",
+        "yawn",
+        "gasp"
+      ],
+      "scope_of_tags": "English finetune-prod model; other models/languages vary.",
+      "dependencies": [
+        "Python inference stack",
+        "3B neural model download",
+        "CPU llama.cpp alternative documented"
+      ],
+      "payment": "Local execution possible; hosted paid provider links are optional and not used.",
+      "decision": "highly_relevant_tags_conditional_on_exact_weights_license",
+      "not_verified": [
+        "weights-specific commercial/redistribution terms",
+        "tag-only sound quality",
+        "runtime speed",
+        "listening"
+      ],
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/canopyai/Orpheus-TTS/main/README.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/orpheus_readme_current.txt",
+          "sha256": "e0c2b5c7fc73938d731b074c5fe197b58dc716a6a87d0aaff682d5ba0bd37b06",
+          "bytes": 10869
+        },
+        {
+          "url": "https://raw.githubusercontent.com/canopyai/Orpheus-TTS/main/LICENSE",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/orpheus_license.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "bytes": 11357
+        },
+        {
+          "url": "https://raw.githubusercontent.com/canopyai/Orpheus-TTS/main/additional_inference_options/no_gpu/README.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/orpheus_nogpu.txt",
+          "sha256": "120b45811a78af08b542b5b1b25ff4b2aa7845abe4be3e0a4fb1e98dc98af5a4",
+          "bytes": 1325
+        }
+      ]
+    },
+    {
+      "id": "chatterbox",
+      "name": "Resemble Chatterbox Turbo / Nano",
+      "type": "expressive_tts_with_paralinguistic_tags",
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "commit": "5de7a54aa4e5e2baadb0182dde554908b48b85c2",
+      "code_license": "MIT",
+      "weights_license": "unverified; model cards blocked by network policy",
+      "commercial_status": "not_cleared_for_selected_weights",
+      "voice_clone_required": "No mandatory clone inferred: code supports bundled conds.pt when supplied by checkpoint; README samples use reference clip. Availability of bundled voice not tested.",
+      "documented_nonverbal": [
+        "cough",
+        "laugh",
+        "chuckle"
+      ],
+      "not_verified": [
+        "sigh or yawn tags",
+        "actual model card terms",
+        "performance claim",
+        "isolated vocalization quality"
+      ],
+      "dependencies": [
+        "Python 3.11",
+        "PyTorch",
+        "torchaudio",
+        "model weights"
+      ],
+      "hardware_author_claim": "Turbo 350M; Nano 110M, author claims 3x realtime on 8 CPU cores, not measured here.",
+      "watermark": "Source applies Perth implicit watermark to generated audio.",
+      "decision": "lightweight_alternative_conditional_on_weights_and_audition",
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/resemble-ai/chatterbox/master/README.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/chatterbox_readme.txt",
+          "sha256": "fd9315cc529c65d46ddd21ded05ba3372b6f6f39242bd015f770145bf5e0448f",
+          "bytes": 15301
+        },
+        {
+          "url": "https://raw.githubusercontent.com/resemble-ai/chatterbox/master/LICENSE",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/chatterbox_license.txt",
+          "sha256": "4248e910a928849fe5815a0f9236e17fa07768d95b9193212752c464b93d6caa",
+          "bytes": 1067
+        },
+        {
+          "url": "https://raw.githubusercontent.com/resemble-ai/chatterbox/master/src/chatterbox/tts_turbo.py",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/chatterbox_turbo_code.txt",
+          "sha256": "2f27e8ff2fa35181fdd2849367fb96ecc2cb87a1088ca7520c8bd51946599f08",
+          "bytes": 11379
+        }
+      ]
+    },
+    {
+      "id": "kenney_voiceover",
+      "name": "Kenney Voiceover / Voiceover Fighter, GitHub mirror",
+      "type": "recorded_sound_library",
+      "url": "https://github.com/GeorgeQLe/assets-sfx-voice",
+      "commit": "8188462294cc2b37af5ff41afb51937f0617435d",
+      "source_author": "Kenney Vleugels (Kenney.nl)",
+      "source_urls": [
+        "https://kenney.nl/assets/voiceover-pack",
+        "https://kenney.nl/assets/voiceover-pack-fighter"
+      ],
+      "asset_license": "CC0-1.0, original included text permits personal and commercial projects; optional credit",
+      "commercial_status": "CC0_text_verified_in_asset_mirror",
+      "weights_license": "not applicable",
+      "actually_downloaded": true,
+      "private_local_path": "work/recherche_son/assets_sfx_voice/",
+      "content_verified_from_filenames": "Primarily spoken game announcements and numbers, including ready, you_win, fight; not a verified sigh/yawn/laugh bank.",
+      "decision": "not_selected_for_patch_nonverbal_voice",
+      "not_verified": [
+        "direct author website; blocked403",
+        "listening quality"
+      ],
+      "evidence_quotes": [
+        "License (Creative Commons Zero, CC0)",
+        "You may use these assets in personal and commercial projects.",
+        "Credit (Kenney or www.kenney.nl) would be nice but is not mandatory."
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/GeorgeQLe/assets-sfx-voice/blob/8188462294cc2b37af5ff41afb51937f0617435d/LICENSES/kenney-voiceover-pack-license.txt",
+          "http_status": 200,
+          "access_method": "git clone, file inspection",
+          "private_snapshot": "work/recherche_son/assets_sfx_voice/LICENSES/kenney-voiceover-pack-license.txt",
+          "sha256": "57d021b53ab176ba287ee0e32abe3a31df86a2449715bf437789cf9779cc1d4e"
+        },
+        {
+          "url": "https://github.com/GeorgeQLe/assets-sfx-voice/blob/8188462294cc2b37af5ff41afb51937f0617435d/LICENSES/kenney-voiceover-pack-fighter-license.txt",
+          "http_status": 200,
+          "access_method": "git clone, file inspection",
+          "private_snapshot": "work/recherche_son/assets_sfx_voice/LICENSES/kenney-voiceover-pack-fighter-license.txt",
+          "sha256": "1680179f31ab785164f171488dbf262f988483417fb72af353c75aac03e34796"
+        }
+      ]
+    },
+    {
+      "id": "freesound",
+      "name": "Freesound, candidate human recording library",
+      "type": "recorded_sound_library_not_accessible",
+      "url": "https://freesound.org/search/?q=yawn",
+      "http_status": 403,
+      "asset_license": "item-specific, not verified; choose CC0 or CC BY and record attribution; do not use NC for commercial scope",
+      "commercial_status": "no_individual_asset_cleared",
+      "decision": "future_search_route_only_no_claim_of_audition_or_asset_license",
+      "suggested_queries": [
+        "yawn",
+        "sigh",
+        "chuckle",
+        "gasp"
+      ],
+      "not_verified": [
+        "individual recordings",
+        "licenses",
+        "downloads/account conditions",
+        "sound quality"
+      ]
+    },
+    {
+      "id": "audiogen",
+      "name": "Meta AudioCraft / AudioGen",
+      "type": "text_to_sound_effect_generator",
+      "url": "https://github.com/facebookresearch/audiocraft",
+      "commit": "896ec7c47f5e5d1e5aa1e4b260c4405328bf009d",
+      "code_license": "MIT",
+      "weights_license": "CC-BY-NC-4.0",
+      "commercial_status": "noncommercial_weights_not_suitable_for_unrestricted_commercial_channel",
+      "decision": "excluded_as_primary_tool_for_commercial_project",
+      "evidence_quotes": [
+        "The models weights in this repository are released under the CC-BY-NC 4.0 license"
+      ],
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/README.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/audiocraft_readme.txt",
+          "sha256": "0240bd901c60c42508680e6beb580574836fd44b8476e721f811831fd2780638",
+          "bytes": 4834
+        },
+        {
+          "url": "https://raw.githubusercontent.com/facebookresearch/audiocraft/main/LICENSE_weights",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/audiocraft_weights_license.txt",
+          "sha256": "336255dc30193e8e15d689d9481bb05673d89055718f3a96923a7ffb99adbbaf",
+          "bytes": 19333
+        }
+      ]
+    },
+    {
+      "id": "stable_audio",
+      "name": "Stable Audio Tools / Open models",
+      "type": "text_to_audio_generation_tools",
+      "url": "https://github.com/Stability-AI/stable-audio-tools",
+      "commit": "3241adba4fc2a85cf5b29d9eb68d42f40a28e820",
+      "code_license": "MIT",
+      "weights_license": "not verified for Open 1.0 or Open Small; gated model terms not accessible",
+      "commercial_status": "not_cleared_for_selected_weights",
+      "decision": "not_selected_pending_model_terms_and_relevance",
+      "evidence_quotes": [
+        "once you've accepted the terms for the model on Hugging Face"
+      ],
+      "not_verified": [
+        "model-specific license conditions",
+        "revenue thresholds",
+        "voice consistency",
+        "isolated expressive nonverbal generation"
+      ],
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/Stability-AI/stable-audio-tools/main/README.md",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/stableaudio_readme.txt",
+          "sha256": "55d170f97663ca9ce361e73ca680c7e1399cfc9ee1604e59a226dacffdad3a46",
+          "bytes": 7930
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Stability-AI/stable-audio-tools/main/LICENSE",
+          "http_status": 200,
+          "downloaded": true,
+          "private_snapshot": "work/recherche_son/stable_lic.txt",
+          "sha256": "a1fac33b7bcd791b74fb33aeb439f825e7277e239fc119fb7d2ab6f084a0c101",
+          "bytes": 1069
+        }
+      ]
+    }
+  ],
+  "blocked_requests": [
+    {
+      "url": "https://kenney.nl/assets/voiceover-pack",
+      "status": 403
+    },
+    {
+      "url": "https://opengameart.org/art-search-advanced?keys=vocal+sounds",
+      "status": 403
+    },
+    {
+      "url": "https://freesound.org/search/?q=yawn",
+      "status": 403
+    },
+    {
+      "url": "https://huggingface.co/ResembleAI/chatterbox-turbo/raw/main/README.md",
+      "status": 403
+    },
+    {
+      "url": "https://huggingface.co/stabilityai/stable-audio-open-1.0/raw/main/README.md",
+      "status": 403
+    },
+    {
+      "url": "https://api.github.com/repos/cran/soundgen/git/trees/ea27b027896d4aab7bddf349e6687013c6c78d98?recursive=1",
+      "status": 403
+    }
+  ],
+  "model_card_access_note": "Hugging Face model cards not inspected; no assumptions made from repo code licenses.",
+  "evidence_storage": "Private scratch work/recherche_son/, not part of final asset library.",
+  "recommended_next_step": "Bark vs Soundgen short nonverbal audition sheet; choose voice identity and human-audition sound comfort before integration."
+}
