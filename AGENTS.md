@@ -1,5 +1,25 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante : l'utilisatrice critique les effets sonores et le cadrage
+et demande si les agents décrivent les prises. Revoir la direction du coffre
+MOU dans `episodes/mou_04_coffre_v1/developpement/realisation_v2/` : documents
+caméra/son et synthèse, sans nouveau rendu ou modification des films existants.
+Le remplacement par MOU avait surtout mobilisé rig, critique de raccords et
+QA ; les vues et le mix ont été largement hérités. Ne pas présenter cette
+conformité technique comme une mise en scène aboutie.
+
+Pour toute prochaine réalisation, le coordinateur doit confier explicitement
+le découpage au responsable avant production. Pour chaque plan : intention
+comique, information à lire, échelle/angle/composition, durée, anticipation,
+regard, pause, raison du raccord ou mouvement et fonction du son/silence.
+Un recadrage frontal ne prouve pas un changement d'angle. Justifier un insert
+ou mouvement par le récit, pas par le besoin de varier arbitrairement.
+Le son ne se réduit pas à ses crêtes et à sa synchronisation : différencier
+les matières et les événements, relier chaque effet à une cause visible,
+réserver les accents et documenter l'absence d'audition. Le critique juge le
+choix des prises et le rythme ; QA juge la conformité et les défauts techniques.
+Un verdict technique réussi ne vaut ni direction artistique ni écoute réelle.
+
 Commande courante : remplacer Patchy par le MOU original dans le même
 épisode du coffre. Version isolée `episodes/mou_04_coffre_v1/` ; conserver
 PATCH V7 et les anciens MOU. Reprendre le dessin de `mou_rig.py` et

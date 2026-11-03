@@ -10,6 +10,11 @@ travailler trente minutes, passe son temps à attendre, puis retrouve son
 - [Sources ZIP](MOU_Le_coffre_sources.zip?raw=true)
 - [Contrôles et limites](CONTROLE.md)
 
+À la suite du retour sur les cadrages et les effets sonores :
+[proposition de réalisation caméra/son pour la prochaine version](developpement/realisation_v2/).
+Cette préparation décrit les prises et leurs intentions ; le film et le ZIP
+V1 ci-dessus restent ceux de la livraison avec MOU.
+
 Le personnage réutilise le corps, le visage et les pieds du modèle original
 `mou_rig.py`, copié sans modification sous `sources/mou_rig_original.py`.
 Il garde sa silhouette asymétrique vert citron, deux grands yeux, deux bras
