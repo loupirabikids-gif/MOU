@@ -1,0 +1,36 @@
+{
+  "source_episode": "episodes/patch_01_coffre_v4",
+  "duration": 30,
+  "fps": 24,
+  "allowed_change_windows": [
+    [
+      1.4,
+      3.55
+    ],
+    [
+      23.2,
+      24.7
+    ]
+  ],
+  "deposit": 2.8,
+  "retrieval": 24.05,
+  "settle_hold": [
+    2.8,
+    2.92
+  ],
+  "release_retreat": [
+    2.92,
+    3.2
+  ],
+  "lid_close": [
+    3.2,
+    3.55
+  ],
+  "phone_turn": [
+    24.35,
+    24.65
+  ],
+  "audio_unchanged": true,
+  "character_rig_unchanged": true,
+  "views_unchanged": true
+}

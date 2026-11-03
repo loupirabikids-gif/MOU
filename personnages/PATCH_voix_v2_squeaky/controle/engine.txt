@@ -1,0 +1,5 @@
+R version 4.5.0 (2025-04-11)
+soundgen=3.0.0
+tuneR=1.4.7
+signal=1.8.1
+phonTools=0.2.2.2

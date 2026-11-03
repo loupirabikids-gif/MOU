@@ -1,0 +1,223 @@
+{
+  "method": "40ms Hann-window autocorrelation, 10ms hop,160\u20131800Hz analysis band; ambiguous/nonperiodic windows excluded. These are estimates, not pitch ground truth or human emotion recognition. Breath-dominated yawn and mixed inhalation are marked unreliable for F0: formant/noise peaks must not be mistaken for a fundamental.",
+  "neutral_formants_ratio_vs_v1": 1.3,
+  "v1_vocal_tract_cm": null,
+  "v2_vocal_tract_cm": 11,
+  "mouth_articulation_difference": "V1 NA length disabled resonance movement for mouth. V2 finite length physically shifts all formants with mouth opening; nasal threshold retained.",
+  "sounds": {
+    "resolve_hm": {
+      "v1": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          255.86822237474263,
+          271.1864406779661,
+          279.06976744186045
+        ],
+        "voiced_windows": 23,
+        "autocorrelation_quality_median": 0.9430113066536878,
+        "spectral_centroid_hz": 276.5884790094779,
+        "fraction_energy_above_6khz": 7.321450937725889e-07,
+        "whole_rms_dbfs": -26.35155896526534,
+        "peak_dbfs": -18.647291372240606
+      },
+      "v2": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          558.7961696306429,
+          585.3658536585366,
+          647.7837837837837
+        ],
+        "voiced_windows": 22,
+        "autocorrelation_quality_median": 0.9798071914253936,
+        "spectral_centroid_hz": 634.3690662044573,
+        "fraction_energy_above_6khz": 3.4924498943812856e-08,
+        "whole_rms_dbfs": -28.642023314427757,
+        "peak_dbfs": -18.498849459022694
+      },
+      "f0_estimate_reliable": true,
+      "median_f0_ratio": 2.1585365853658534,
+      "v2_accent_points_seconds": [
+        0.06422916666666667,
+        0.2249375
+      ],
+      "v1_duration": 0.3047708333333333,
+      "v2_duration": 0.3249375
+    },
+    "bored_exhale": {
+      "v1": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          211.45374449339207,
+          251.3089005235602,
+          256.6844919786096
+        ],
+        "voiced_windows": 31,
+        "autocorrelation_quality_median": 0.5029741743789388,
+        "spectral_centroid_hz": 953.3206099364543,
+        "fraction_energy_above_6khz": 0.00025107069365772056,
+        "whole_rms_dbfs": -29.260232819383862,
+        "peak_dbfs": -14.000100374307355
+      },
+      "v2": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          533.3333333333334,
+          545.4545454545455,
+          564.7058823529412
+        ],
+        "voiced_windows": 27,
+        "autocorrelation_quality_median": 0.6462022714289372,
+        "spectral_centroid_hz": 1028.2678326659463,
+        "fraction_energy_above_6khz": 1.0546976031042093e-07,
+        "whole_rms_dbfs": -30.473640079612135,
+        "peak_dbfs": -14.000100374307355
+      },
+      "f0_estimate_reliable": true,
+      "median_f0_ratio": 2.170454545454546,
+      "v2_accent_points_seconds": [
+        0.2853541666666667
+      ],
+      "v1_duration": 0.5190208333333334,
+      "v2_duration": 0.5215
+    },
+    "sleepy_yawn": {
+      "v1": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          272.12156633547636,
+          666.6666666666666,
+          786.8852459016393
+        ],
+        "voiced_windows": 63,
+        "autocorrelation_quality_median": 0.5738140275315942,
+        "spectral_centroid_hz": 1689.6309426336406,
+        "fraction_energy_above_6khz": 0.002804257180988563,
+        "whole_rms_dbfs": -30.90408607438277,
+        "peak_dbfs": -14.000100374307355
+      },
+      "v2": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          576.2478485370052,
+          914.3686502177068,
+          1043.4782608695652
+        ],
+        "voiced_windows": 48,
+        "autocorrelation_quality_median": 0.7188187026820211,
+        "spectral_centroid_hz": 1294.9089285659402,
+        "fraction_energy_above_6khz": 3.634978060169375e-07,
+        "whole_rms_dbfs": -31.029587305255593,
+        "peak_dbfs": -14.000100374307355
+      },
+      "f0_estimate_reliable": false,
+      "median_f0_ratio": null,
+      "v2_accent_points_seconds": [
+        0.62375
+      ],
+      "v1_duration": 0.8325416666666666,
+      "v2_duration": 0.834
+    },
+    "effort_small": {
+      "v1": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          260.58754406580493,
+          277.4566473988439,
+          285.7142857142857
+        ],
+        "voiced_windows": 19,
+        "autocorrelation_quality_median": 0.9165820094061249,
+        "spectral_centroid_hz": 311.79172383245213,
+        "fraction_energy_above_6khz": 1.58223789831798e-05,
+        "whole_rms_dbfs": -26.923614886026378,
+        "peak_dbfs": -17.67403721126297
+      },
+      "v2": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          520.8097165991902,
+          600.0937646507267,
+          660.2739726027397
+        ],
+        "voiced_windows": 18,
+        "autocorrelation_quality_median": 0.9604556890527791,
+        "spectral_centroid_hz": 644.3127552466055,
+        "fraction_energy_above_6khz": 3.7918627240814544e-08,
+        "whole_rms_dbfs": -28.569015484668295,
+        "peak_dbfs": -17.98158925336897
+      },
+      "f0_estimate_reliable": true,
+      "median_f0_ratio": 2.162837943428661,
+      "v2_accent_points_seconds": [
+        0.09114583333333333
+      ],
+      "v1_duration": 0.26475,
+      "v2_duration": 0.24608333333333332
+    },
+    "surprise_inhale": {
+      "v1": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          428.7783679381941,
+          466.0194174757282,
+          695.6521739130435
+        ],
+        "voiced_windows": 15,
+        "autocorrelation_quality_median": 0.5583814109971166,
+        "spectral_centroid_hz": 1104.671779982519,
+        "fraction_energy_above_6khz": 2.7518003673317433e-07,
+        "whole_rms_dbfs": -27.929592012676856,
+        "peak_dbfs": -17.004886130502346
+      },
+      "v2": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          560.109439124487,
+          611.1200644641418,
+          663.9269406392693
+        ],
+        "voiced_windows": 4,
+        "autocorrelation_quality_median": 0.5795978943373674,
+        "spectral_centroid_hz": 1111.450967054764,
+        "fraction_energy_above_6khz": 2.393617899694177e-07,
+        "whole_rms_dbfs": -34.62668070365427,
+        "peak_dbfs": -14.000100374307355
+      },
+      "f0_estimate_reliable": false,
+      "median_f0_ratio": null,
+      "v2_accent_points_seconds": [
+        0.02027083333333333
+      ],
+      "v1_duration": 0.247,
+      "v2_duration": 0.2376875
+    },
+    "relief_chuckle": {
+      "v1": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          266.6666666666667,
+          275.86206896551727,
+          298.50931677018633
+        ],
+        "voiced_windows": 29,
+        "autocorrelation_quality_median": 0.8780913973454344,
+        "spectral_centroid_hz": 418.3655282623209,
+        "fraction_energy_above_6khz": 0.00013854951129184848,
+        "whole_rms_dbfs": -27.105301674186766,
+        "peak_dbfs": -15.945610591368222
+      },
+      "v2": {
+        "autocorrelation_candidate_hz_p10_median_p90": [
+          695.6521739130435,
+          738.4615384615385,
+          836.2976406533576
+        ],
+        "voiced_windows": 25,
+        "autocorrelation_quality_median": 0.9043158192290244,
+        "spectral_centroid_hz": 796.3193112151278,
+        "fraction_energy_above_6khz": 4.82790356729145e-08,
+        "whole_rms_dbfs": -28.82891390931451,
+        "peak_dbfs": -15.409065218423159
+      },
+      "f0_estimate_reliable": true,
+      "median_f0_ratio": 2.6769230769230767,
+      "v2_accent_points_seconds": [
+        0.082625,
+        0.2718333333333333
+      ],
+      "v1_duration": 0.4274791666666667,
+      "v2_duration": 0.41233333333333333
+    }
+  },
+  "listening_performed": false,
+  "naturalness_or_emotion_recognition_claimed": false
+}

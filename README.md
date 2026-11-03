@@ -1,5 +1,18 @@
 # Atelier de courts épisodes
 
+**PATCH V7 — nouvelle voix aiguë et raccord du bras au bouton.**
+
+**[Voir le film corrigé](episodes/patch_01_coffre_v7/PATCH_Le_coffre_V7.mp4?raw=true)** ·
+[Version muette](episodes/patch_01_coffre_v7/PATCH_Le_coffre_V7_muet.mp4?raw=true) ·
+[Sources et contrôles](episodes/patch_01_coffre_v7/) ·
+[Écouter les voix seules](personnages/PATCH_voix_v2_squeaky/PATCH_Voix_V2_squeaky_ecoute.mp4?raw=true).
+
+La main contourne le coffre par la gauche pour presser le bouton sans couvrir
+le LCD. Les paumes qui entrent dans l'ouverture suivent sa profondeur. Douze
+nouvelles prises Soundgen : timbre plus aigu, résonances M/O/A et rythmes
+différenciés, cinq prises intégrées. Les contrôles visuels et numériques ne
+constituent pas une audition ; aucune qualité perçue n'est affirmée validée.
+
 **PATCH V6 — cinq interventions vocales non verbales.**
 
 **[Voir le film avec voix](episodes/patch_01_coffre_v6_voix/PATCH_Le_coffre_V6_voix.mp4?raw=true)** ·

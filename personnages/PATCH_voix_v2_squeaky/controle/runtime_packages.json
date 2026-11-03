@@ -1,0 +1,22 @@
+{
+  "r-base-core": {
+    "url": "https://deb.debian.org/debian/pool/main/r/r-base/r-base-core_4.5.0-3_amd64.deb",
+    "sha256": "6c529a906d2a26cf78e6c24eaa96e0bbd061b032e6c824f9a61e5f313353b155"
+  },
+  "mass": {
+    "url": "https://deb.debian.org/debian/pool/main/r/r-cran-mass/r-cran-mass_7.3-65-1_amd64.deb",
+    "sha256": "edaead4fde6bb4a1f63bdb6c47d94fb32f189553f767d9d39cd9f9571d61cb33"
+  },
+  "gfortran-14": {
+    "url": "https://deb.debian.org/debian/pool/main/g/gcc-14/gfortran-14_14.2.0-19_amd64.deb",
+    "sha256": "843ad332a9ffbc0b6093e9cb5cfc25424fb6e756f270ed180299367dfc3ef533"
+  },
+  "libgfortran-14-dev": {
+    "url": "https://deb.debian.org/debian/pool/main/g/gcc-14/libgfortran-14-dev_14.2.0-19_amd64.deb",
+    "sha256": "8460dfd941d9f60e92516e5c4e3f8bb08e60983e7526f376a7c87969a8a2dbfb"
+  },
+  "gfortran-target": {
+    "url": "https://deb.debian.org/debian/pool/main/g/gcc-14/gfortran-14-x86-64-linux-gnu_14.2.0-19_amd64.deb",
+    "sha256": "520b3283edc193b75644d655654834662f56f9006a78751d91feb882b74ca684"
+  }
+}

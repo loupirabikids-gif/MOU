@@ -1,0 +1,30 @@
+{
+  "file": "mix.wav",
+  "sha256": "aa9787f4c0e9a2ba99f19814e216a62ffe01f78f1228d5f613c232076943dda8",
+  "timeline_sha256": "366943d66107b2ea998d37475457ae27dced9262d4ccd4582948b30fded7edff",
+  "duration": 30.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bits": 16,
+  "samples": 1440000,
+  "cues": 23,
+  "peak_linear": 0.16050220402865575,
+  "peak_dbfs": -15.890379989056205,
+  "rms_dbfs": -43.06274666901413,
+  "music": false,
+  "voice": true,
+  "compressor": false,
+  "listening_performed": false,
+  "limits": "Generated and aligned numerically; naturalness and comfort have not been heard here.",
+  "base_mix_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+  "foley_ui_cues": 18,
+  "voice_cues": 5,
+  "voice_engine": {
+    "name": "Soundgen",
+    "version": "3.0.0",
+    "runtime": "R4.5.0",
+    "executed": true,
+    "code_license": "GPL-2.0-or-later",
+    "models_or_voice_recordings_used": false
+  }
+}

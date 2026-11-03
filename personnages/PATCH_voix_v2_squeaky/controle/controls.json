@@ -1,0 +1,174 @@
+{
+  "engine_executed": true,
+  "engine": "Soundgen3.0.0/R4.5.0",
+  "voice_recording_or_neural_model_used": false,
+  "masters": [
+    {
+      "id": "resolve_hm_01",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.3249375,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "resolve_hm_02",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.32229166666666664,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "bored_exhale_01",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.5215,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "bored_exhale_02",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.5205833333333333,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "sleepy_yawn_01",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.834,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "sleepy_yawn_02",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.8167291666666666,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "effort_small_01",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.24608333333333332,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "effort_small_02",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.24833333333333332,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "surprise_inhale_01",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.2376875,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "surprise_inhale_02",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.23729166666666668,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "relief_chuckle_01",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.41233333333333333,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    },
+    {
+      "id": "relief_chuckle_02",
+      "sha256_match": true,
+      "format": [
+        48000,
+        1,
+        2
+      ],
+      "duration": 0.413875,
+      "clipped_samples": 0,
+      "first_sample": 0,
+      "last_sample": 0
+    }
+  ],
+  "full_demo_decode_ok": true,
+  "demo_sha256": "9ccf4e2ccef2bedd55b0319159c410171d9005f65635aaba7b60c588fc48ae8c",
+  "demo_duration": 21.6,
+  "demo_video_dimensions": [
+    [
+      1280,
+      720
+    ]
+  ],
+  "listening_performed": false,
+  "perceptual_quality_or_emotion_recognition_validated": false
+}

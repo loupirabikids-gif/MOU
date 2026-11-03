@@ -1,5 +1,33 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante : V7 dans `episodes/patch_01_coffre_v7/`. L'utilisatrice
+trouve les voix trop proches et demande une identité « squeaky » ; elle voit
+encore des bras dans le coffre. Régénérer une banque différente sous
+`personnages/PATCH_voix_v2_squeaky/` avec Soundgen existant, timbre plus aigu
+et articulations/rythmes contrastés. Ne pas prétendre avoir écouté.
+Le vrai défaut visuel est la fermeture→bouton vers3,5–4,3s : paume surLCD,
+manche qui semble traverser le flanc. Corriger le trajet et le raccord entier,
+pas seulement quatre poses de repos ou un masquage qui détache la moufle.
+Contrôler toutes les phases du film. Root possède scène/chronologie/mix/export,
+bras possède bras.py et diagnostic, voix sa banque, critique/QA leurs rapports.
+Préserver V6 et les archives, le personnage, les vues et les trente minutes.
+Les prises du téléphone peuvent recevoir les corrections de profondeur ou de
+raccord nécessaires ; les anciens tests de préservation ne priment pas sur
+un défaut réel. Ne pas ajouter de licence publique aux créations originales.
+
+V7 produite : voix V2 réellement régénérées, articulation avec conduit de
+11 cm et hauteur mesurée environ 2,2–2,7 fois V1 sur quatre prises périodiques.
+Six intentions, douze prises, cinq utilisées et planche d'écoute séparée.
+Film son a0c3cad7…c2130, muet 9341389c…fcb6b, 30 s / 720 images 1080 × 1920.
+Le bras entre 3,20 et 4,65 s suit le coin, un retrait extérieur et une pression
+latérale, avec poignet explicite et manche courbe. La façade masque les
+paumes entrant avec le téléphone. QA : 22 contrôles passés, aucune manche
+ou paume dans le LCD sur ses 612 images réellement dessinées et visibles,
+12 images HD comparées aux sources, 35 entrées gelées et 8 anciennes références
+intactes. Depuis le ZIP, 16 PNG et le WAV sont identiques. Aucune audition
+ou qualité perçue validée : la V2 reste une proposition à entendre. Un test
+qui préserve un vrai défaut ne doit pas empêcher sa correction.
+
 Commande courante : l’utilisatrice demande de réaliser les ajustements de voix.
 Produire V6 dans `episodes/patch_01_coffre_v6_voix/`, en conservant V5.
 Exécuter réellement un moteur ouvert : Soundgen local est privilégié sans

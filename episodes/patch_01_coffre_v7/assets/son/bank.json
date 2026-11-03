@@ -1,0 +1,139 @@
+{
+  "sample_rate": 48000,
+  "channels": 1,
+  "bits": 16,
+  "sounds": {
+    "tap": {
+      "source": "click_button_1",
+      "start": 0.0,
+      "end": 0.105,
+      "low": 100.0,
+      "high": 4200.0,
+      "peak": 0.105,
+      "group": "foley",
+      "file": "effets/tap.wav",
+      "sha256": "f4eb03de6970c9866802cd2f450134e06e886e6c9e6fd879eebcc4f0250cb5ba",
+      "duration": 0.105,
+      "origin": "CC0 library excerpt, filtered and faded"
+    },
+    "button": {
+      "source": "click_button_1",
+      "start": 0.16,
+      "end": 0.27,
+      "low": 100.0,
+      "high": 4000.0,
+      "peak": 0.105,
+      "group": "foley",
+      "file": "effets/button.wav",
+      "sha256": "9ad269046417d044a0802c01dcd8bbab48f242d9aa87fd4384654fa1282c21b0",
+      "duration": 0.11,
+      "origin": "CC0 library excerpt, filtered and faded"
+    },
+    "phone_place": {
+      "source": "spring_plastic_1",
+      "start": 0.0,
+      "end": 0.13,
+      "low": 100.0,
+      "high": 1900.0,
+      "peak": 0.115,
+      "group": "foley",
+      "file": "effets/phone_place.wav",
+      "sha256": "9ef7285cabdc035db357e8be9df1e8822b39fbd74bee8d4dde40b62b3cd4cc5b",
+      "duration": 0.13,
+      "origin": "CC0 library excerpt, filtered and faded"
+    },
+    "lid_close": {
+      "source": "spring_plastic_1",
+      "start": 0.0,
+      "end": 0.235,
+      "low": 90.0,
+      "high": 2900.0,
+      "peak": 0.19,
+      "group": "foley",
+      "file": "effets/lid_close.wav",
+      "sha256": "8fd35d395fd484fd49f24e5caebb18245e9eefa68f78746b43e7b58f0bf1b60a",
+      "duration": 0.235,
+      "origin": "CC0 library excerpt, filtered and faded"
+    },
+    "lock": {
+      "source": "ratchet_muted_1",
+      "start": 0.018,
+      "end": 0.16,
+      "low": 130.0,
+      "high": 3300.0,
+      "peak": 0.135,
+      "group": "foley",
+      "file": "effets/lock.wav",
+      "sha256": "9d4db6c9e8d223e7c6782612a00407ae9bd687a48090a64c7b6a3f398ff32e2b",
+      "duration": 0.142,
+      "origin": "CC0 library excerpt, filtered and faded"
+    },
+    "unlock": {
+      "source": "spring_plastic_2",
+      "start": 0.4,
+      "end": 0.635,
+      "low": 120.0,
+      "high": 2800.0,
+      "peak": 0.145,
+      "group": "foley",
+      "file": "effets/unlock.wav",
+      "sha256": "48bcf421e15d8eb7b044db9f258459b055e0ac7b3c6ca68397ae83600ac3a30c",
+      "duration": 0.235,
+      "origin": "CC0 library excerpt, filtered and faded"
+    },
+    "paper": {
+      "source": "paper_caress",
+      "start": 0.0,
+      "end": 0.24,
+      "low": 130.0,
+      "high": 4400.0,
+      "peak": 0.08,
+      "group": "foley",
+      "file": "effets/paper.wav",
+      "sha256": "eba5e521f5366f3697885781743d9ce968313a560b5559090f739af56b5aefca",
+      "duration": 0.24,
+      "origin": "CC0 library excerpt, filtered and faded"
+    },
+    "tick": {
+      "source": "click_button_1",
+      "start": 0.16,
+      "end": 0.23,
+      "low": 200.0,
+      "high": 3400.0,
+      "peak": 0.034,
+      "group": "tick",
+      "file": "effets/tick.wav",
+      "sha256": "7c2f66a98ddaa86a8d23515972c16064a34673ed817ff1874b612c9d10d31837",
+      "duration": 0.07,
+      "origin": "CC0 library excerpt, filtered and faded"
+    },
+    "ellipsis": {
+      "file": "effets/ellipsis.wav",
+      "sha256": "ed3f089a4c163b910d2c95ab18b0f7fd52e760ae704bc119a1901f7f414bad2e",
+      "duration": 0.205,
+      "peak": 0.045,
+      "group": "tick",
+      "derived_from": "tick",
+      "origin": "Two low CC0 clock clicks arranged for selected visible time ellipses"
+    },
+    "notification": {
+      "file": "effets/notification.wav",
+      "sha256": "f5b08f993bf55c3abf78fde816499ae78f9fae07ea19931984b584e3691b06d2",
+      "duration": 0.39,
+      "peak": 0.1125433078711861,
+      "group": "ui",
+      "origin": "Original deterministic additive synthesis; sine plus quiet second partial"
+    },
+    "end_ping": {
+      "file": "effets/end_ping.wav",
+      "sha256": "6b9115267b97097b5bec1d9d688cc2d2edf269a80df242697574ea13805a9f83",
+      "duration": 0.39,
+      "peak": 0.12229791243682184,
+      "group": "ui",
+      "origin": "Original deterministic additive synthesis; sine plus quiet second partial"
+    }
+  },
+  "listening_performed": false,
+  "direction": "Sparse events, no music/voices/continuous ambience, fixed gains.",
+  "limits": "Numeric levels and spectral limits do not certify subjective comfort or material recognition."
+}

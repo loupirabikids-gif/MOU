@@ -4,3 +4,9 @@ episodes/patch_01_coffre_v6_voix/assets/voix/licences/*.txt -text whitespace=-bl
 episodes/patch_01_coffre_v6_voix/assets/voix/parametres/*.R -text whitespace=-blank-at-eol
 personnages/PATCH_voix_v1/licences/*.txt -text whitespace=-blank-at-eol
 personnages/PATCH_voix_v1/parametres/*.R -text whitespace=-blank-at-eol
+
+# Preserve V7 upstream notices and exact R parameter receipts.
+episodes/patch_01_coffre_v7/assets/voix/licences/*.txt -text whitespace=-blank-at-eol
+episodes/patch_01_coffre_v7/assets/voix/parametres/*.R -text whitespace=-blank-at-eol
+personnages/PATCH_voix_v2_squeaky/licences/*.txt -text whitespace=-blank-at-eol
+personnages/PATCH_voix_v2_squeaky/parametres/*.R -text whitespace=-blank-at-eol

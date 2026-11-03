@@ -1,0 +1,34 @@
+{
+  "soundgen": {
+    "repository": "https://github.com/cran/soundgen",
+    "commit": "ea27b027896d4aab7bddf349e6687013c6c78d98",
+    "archive_sha256": "51b6f2c005f216a5f3debc3c422cbdd4000c8c5431cd54b5f6399063f9ea9745",
+    "source_url": "https://codeload.github.com/cran/soundgen/tar.gz/ea27b027896d4aab7bddf349e6687013c6c78d98",
+    "pinned_archive_sha256": "607d77af5506f0d56e31eb840f868fce46bf992a806db8b7fa5a28bc9a4a29dd",
+    "master_content_matches_pinned_commit": true
+  },
+  "tuneR": {
+    "repository": "https://github.com/cran/tuneR",
+    "commit": "ee0ec05b00ad9c886d9cdf45bae8d586c4e82d08",
+    "archive_sha256": "a6b2d94f6142a0980e1f1b66da1522f22f77144f261bed9d90dcff64cf4d6bf7",
+    "source_url": "https://codeload.github.com/cran/tuneR/tar.gz/ee0ec05b00ad9c886d9cdf45bae8d586c4e82d08",
+    "pinned_archive_sha256": "656bae8e850fa45642044470e07e42eb0804c9c2e77247763b995a3d3900e9f3",
+    "master_content_matches_pinned_commit": true
+  },
+  "signal": {
+    "repository": "https://github.com/cran/signal",
+    "commit": "5eff0e48052444c44e2f4776f28e8b0b8e036cc3",
+    "archive_sha256": "0324f69809d73f5d50fbd9702117be986e715328da28a184bbf7ebcb5a122f6e",
+    "source_url": "https://codeload.github.com/cran/signal/tar.gz/5eff0e48052444c44e2f4776f28e8b0b8e036cc3",
+    "pinned_archive_sha256": "29307e5dc097c50d436cf0a59d2259728aa15554779eebacf94c2bf333195ddf",
+    "master_content_matches_pinned_commit": true
+  },
+  "phonTools": {
+    "repository": "https://github.com/cran/phonTools",
+    "commit": "760ad82606113512c48a864fb0e86fd14c121cf8",
+    "archive_sha256": "339b264102d235f91518ff92fb582749aaa372bbf522292e36eedad8be85e1f8",
+    "source_url": "https://codeload.github.com/cran/phonTools/tar.gz/760ad82606113512c48a864fb0e86fd14c121cf8",
+    "pinned_archive_sha256": "07bafd35815598806ba229eab301401cf7879a4d88ae8caf346f99f0eee2eded",
+    "master_content_matches_pinned_commit": true
+  }
+}

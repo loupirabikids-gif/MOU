@@ -1,0 +1,24 @@
+{
+  "command": "R --vanilla --slave -f personnages/PATCH_voix_v2_squeaky/sources/generate.R --args work/voix_squeaky/generated",
+  "runtime_reused": "work/voix_soundgen_runtime",
+  "new_installation": false,
+  "generator_sha256": "3155518d857512cc95c929a1c5bd1b8c2ec87d3b7064d314d22a9c941d6cc8bf",
+  "finish_sha256": "fd18a83b49ef0d9abd6786bffdf7bfa86a50241230c483503cfdf367e3988500",
+  "engine_receipt_sha256": "c5fff61cd3a919ae76d13b6b38e269b61a9f3c1d4d1f4b19ed7917c76376abad",
+  "stdout_log_sha256": "6a46897fe8e30ce6e022779a6ef4fc5a5a352bccb55f4db96fa2070949c294f1",
+  "raw_files": {
+    "bored_exhale_01.f64": "cf6091969f26263ec8bf60de3ed4e764695fee781d1b7d40c0b3ad47f2b46a17",
+    "bored_exhale_02.f64": "442a00b71fb28c3609c9f0ccc9c912b6533521429d666db1d872e506cfaae3b7",
+    "effort_small_01.f64": "61269035770913b5380a91b69989145159baf2c2ac081a634c0a61ad9e58121b",
+    "effort_small_02.f64": "2ac0bf43b25481af8d81d69647c49995928e8163b8aee9ac45e2c7674be26c26",
+    "relief_chuckle_01.f64": "e74f8367b3dd245b76794db4fbb85285bb3057930d6be676049e94f982040701",
+    "relief_chuckle_02.f64": "fde1d87a705b50914afe16580344e1c305f776fd4994114d25a4510ffda11526",
+    "resolve_hm_01.f64": "d1e7e927fff2c1323b43f3bb3fa3053508e75e1411585649e36515725ffc40dc",
+    "resolve_hm_02.f64": "1480821e26539af83cf6e7e7c7b173bcb45534d3831fb77bbca3f4c1899527c0",
+    "sleepy_yawn_01.f64": "3c597024727fff5cd390aa66d6dbffa288b52b436621538d1fd9429d21bbaa54",
+    "sleepy_yawn_02.f64": "557f3288110113bf36cee38791dfa4e21f40742cf045dfb7eab7f3a995efa1af",
+    "surprise_inhale_01.f64": "0bd34029100c96d52c90f375b84595daccada03ccbd13d4ea7f23b3413ed7a8f",
+    "surprise_inhale_02.f64": "6be9bed059ab1ff1ff3bef6cd8ca988c30a4e03754fc190c5cad2c8ab898a704"
+  },
+  "listening_performed": false
+}
