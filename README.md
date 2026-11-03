@@ -1,5 +1,18 @@
 # Atelier de courts épisodes
 
+**MOU — Le coffre, avec le personnage original.**
+
+**[Voir l'épisode avec MOU — 30 secondes](episodes/mou_04_coffre_v1/MOU_Le_coffre.mp4?raw=true)** ·
+[Version muette](episodes/mou_04_coffre_v1/MOU_Le_coffre_muet.mp4?raw=true) ·
+[Huit poses](episodes/mou_04_coffre_v1/MOU_Le_coffre_storyboard.png?raw=true) ·
+[Sources et contrôles](episodes/mou_04_coffre_v1/).
+
+Le MOU vert citron remplace Patchy : corps, visage et pieds du rig original,
+deux bras continus adaptés aux prises du téléphone et au bouton. Le récit,
+les trente minutes et le décor du coffre sont repris ; le gros plan est élargi
+pour ses deux yeux. Son : 18 bruitages, sans les vocalisations synthétiques
+rejetées. Les versions précédentes restent disponibles ci-dessous.
+
 **PATCH V7 — nouvelle voix aiguë et raccord du bras au bouton.**
 
 **[Voir le film corrigé](episodes/patch_01_coffre_v7/PATCH_Le_coffre_V7.mp4?raw=true)** ·

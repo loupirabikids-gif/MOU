@@ -1,0 +1,12 @@
+{
+  "file": "MOU_Le_coffre_animatique_muette.mp4",
+  "sha256": "2c6adf9c5579c962cdb135868ad9d0ec5e7e68666fc8a33d54aad2f54fc52dc3",
+  "source_sha256": "72a6172c6235821ad3830e1e361e3886653b841c5991decdbed9b01afa87e354",
+  "frames": 720,
+  "fps": 24,
+  "duration": 30.0,
+  "width": 540,
+  "height": 960,
+  "audio": false,
+  "elapsed_seconds": 12.19
+}

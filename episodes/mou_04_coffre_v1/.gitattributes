@@ -1,0 +1,3 @@
+# Keep upstream license receipts and standard CSV line endings unchanged.
+assets/son/evidence/*.txt -text whitespace=cr-at-eol
+audio/*.csv -text whitespace=cr-at-eol

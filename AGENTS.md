@@ -1,5 +1,38 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante : remplacer Patchy par le MOU original dans le même
+épisode du coffre. Version isolée `episodes/mou_04_coffre_v1/` ; conserver
+PATCH V7 et les anciens MOU. Reprendre le dessin de `mou_rig.py` et
+`references/MOU_reference.png` : vert citron asymétrique, deux yeux, pas de
+nez/oreilles/queue/vêtements, deux bras continus terminés par deux moufles
+et deux petits pieds prune. Le retour à MOU prime les anciennes consignes
+qui l'abandonnaient. Adapter réellement proportions, regards et contacts,
+pas recolorer le raton. Garder récit, durée et vues du coffre ; adapter le
+placement si le visage, les mains ou les pieds deviennent illisibles.
+Root possède scène/placement/chronologie/son/export, le spécialiste possède
+personnage.py et son adaptation, critique et QA leurs rapports exclusifs.
+Réutiliser le rig original inchangé, copié comme mou_rig_original.py.
+Pour ce changement de personnage, le son reprend les 18 bruitages conservés ;
+les voix synthétiques rejetées restent dans leurs archives. Aucune nouvelle
+voix ou écoute revendiquée. Vérifier les vrais contacts au dépôt/bouton/
+reprise, les deux mains au téléphone et les pieds de la joie avant HD.
+Outils gratuits ouverts, livraison GitHub dans l'accord existant.
+
+Version MOU du coffre réalisée : film son 84ead5b0…a26ecb0 et muet
+20f36505…b2af5, 30 s / 720 images 1080 × 1920. Le rig canonique MOU est
+inchangé (copie 7f04a142…423e) ; l'adaptateur final est445ef02a…988b3.
+Mains et expressions retargetées, deux pieds visibles dans la joie. Dans
+face_box, annuler le lean horizontal hérité, élargir le cadre et poser le
+coffre sur le bureau ; garder le bras sur le panneau mais clipper seulement
+contre la façade. La cible de bouton715 correspond au bout de moufle natif,
+contrairement à l'ancienne cible690 de la paume PATCH. Ces corrections ont
+été revues sur les vraies images, pas seulement sur les ancrages.
+QA : 21 contrôles passés, 612 images de LCD sans membre, 12 images HD
+comparées aux sources, 23 entrées gelées et 5 anciennes références intactes.
+Critique finale : 45 images natives HD examinées. Depuis le ZIP, 16 PNG et
+le WAV sont identiques. Son : 18 bruitages, AAC conforme au WAV Foley,
+sans les anciennes voix rejetées ; aucune audition ou succès public certifié.
+
 Commande courante : V7 dans `episodes/patch_01_coffre_v7/`. L'utilisatrice
 trouve les voix trop proches et demande une identité « squeaky » ; elle voit
 encore des bras dans le coffre. Régénérer une banque différente sous

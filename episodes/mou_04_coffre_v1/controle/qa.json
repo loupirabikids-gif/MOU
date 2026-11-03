@@ -1,0 +1,563 @@
+{
+  "status": "passed",
+  "scope": "final_hd",
+  "producer_source_sha256": "72a6172c6235821ad3830e1e361e3886653b841c5991decdbed9b01afa87e354",
+  "checks": [
+    {
+      "name": "30_seconds_720_finite_unique_id_states",
+      "passed": true,
+      "detail": {
+        "frames": 720,
+        "fps": 24,
+        "duration": 30.0
+      }
+    },
+    {
+      "name": "native_lime_body_two_eyes_two_continuous_arms_hands_and_feet",
+      "passed": true,
+      "detail": {
+        "actor_frames": 635,
+        "bad_frames": [],
+        "native_body_path_unchanged": true,
+        "source_rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+        "included_rig_sha256": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
+      }
+    },
+    {
+      "name": "canonical_mou_rig_included_byte_for_byte",
+      "passed": true,
+      "detail": {
+        "original": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e",
+        "copy": "7f04a1424831db9a83956bf175579000269b9af6a2582fa5d0147e81e76a423e"
+      }
+    },
+    {
+      "name": "story_views_timer_clock_phone_lid_and_blank_work_preserved",
+      "passed": true,
+      "detail": {
+        "differences": []
+      }
+    },
+    {
+      "name": "timer_clock_share_integer_session_and_freeze_at_thirty_minutes",
+      "passed": true,
+      "detail": {
+        "bad_frames": []
+      }
+    },
+    {
+      "name": "actual_mou_grip_anchors_follow_accessory_targets",
+      "passed": true,
+      "detail": [
+        {
+          "t": 1.75,
+          "actual_mou_grip_to_world_target_error": {
+            "left": 0.0,
+            "right": 1.1368683772161603e-13
+          },
+          "phone_owner": "right",
+          "phone_bilateral": false
+        },
+        {
+          "t": 2.8,
+          "actual_mou_grip_to_world_target_error": {
+            "left": 0.0,
+            "right": 0.0
+          },
+          "phone_owner": "box",
+          "phone_bilateral": false
+        },
+        {
+          "t": 3.9,
+          "actual_mou_grip_to_world_target_error": {
+            "left": 0.0,
+            "right": 0.0
+          },
+          "phone_owner": "box",
+          "phone_bilateral": false
+        },
+        {
+          "t": 13.5,
+          "actual_mou_grip_to_world_target_error": {
+            "left": 0.0,
+            "right": 0.0
+          },
+          "phone_owner": "box",
+          "phone_bilateral": false
+        },
+        {
+          "t": 19.3,
+          "actual_mou_grip_to_world_target_error": {
+            "left": 2.2737367544323206e-13,
+            "right": 0.0
+          },
+          "phone_owner": "box",
+          "phone_bilateral": false
+        },
+        {
+          "t": 24.08,
+          "actual_mou_grip_to_world_target_error": {
+            "left": 1.1368683772161603e-13,
+            "right": 0.0
+          },
+          "phone_owner": "right",
+          "phone_bilateral": false
+        },
+        {
+          "t": 25.3,
+          "actual_mou_grip_to_world_target_error": {
+            "left": 1.1368683772161603e-13,
+            "right": 1.6077746776921858e-13
+          },
+          "phone_owner": "right",
+          "phone_bilateral": true
+        },
+        {
+          "t": 28.5,
+          "actual_mou_grip_to_world_target_error": {
+            "left": 0.0,
+            "right": 0.0
+          },
+          "phone_owner": "right",
+          "phone_bilateral": true
+        }
+      ]
+    },
+    {
+      "name": "phone_recovered_and_held_with_both_mou_hands",
+      "passed": true,
+      "detail": [
+        {
+          "t": 25.3,
+          "bilateral": true,
+          "edge_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 25.7,
+          "bilateral": true,
+          "edge_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 28.5,
+          "bilateral": true,
+          "edge_errors": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "t": 29.5,
+          "bilateral": true,
+          "edge_errors": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "visible_mou_mitten_pixels_meet_phone_and_press_button",
+      "passed": true,
+      "detail": [
+        {
+          "t": 1.75,
+          "hand_id": "mou-hand-right",
+          "object_id": "phone",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 3685
+        },
+        {
+          "t": 2.75,
+          "hand_id": "mou-hand-right",
+          "object_id": "phone",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 15587
+        },
+        {
+          "t": 24.1,
+          "hand_id": "mou-hand-right",
+          "object_id": "phone",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 7863
+        },
+        {
+          "t": 25.3,
+          "hand_id": "mou-hand-left",
+          "object_id": "phone",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 527
+        },
+        {
+          "t": 25.3,
+          "hand_id": "mou-hand-right",
+          "object_id": "phone",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 4203
+        },
+        {
+          "t": 28.5,
+          "hand_id": "mou-hand-left",
+          "object_id": "phone",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 858
+        },
+        {
+          "t": 28.5,
+          "hand_id": "mou-hand-right",
+          "object_id": "phone",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 405
+        },
+        {
+          "t": 3.9,
+          "hand_id": "mou-hand-right",
+          "object_id": "start-button",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 338
+        },
+        {
+          "t": 4.0,
+          "hand_id": "mou-hand-right",
+          "object_id": "start-button",
+          "removed_parts": 1,
+          "visible_hand_pixels_over_prop": 338
+        }
+      ]
+    },
+    {
+      "name": "both_pupils_actually_visible_at_open_eye_story_reading_poses",
+      "passed": true,
+      "detail": [
+        {
+          "t": 0.7,
+          "side": "l",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 1306
+        },
+        {
+          "t": 0.7,
+          "side": "r",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 1304
+        },
+        {
+          "t": 4.875,
+          "side": "l",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 2350
+        },
+        {
+          "t": 4.875,
+          "side": "r",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 2351
+        },
+        {
+          "t": 13.5,
+          "side": "l",
+          "skipped": "intentional eyelid closure",
+          "native_openness": 0.1624307939990093
+        },
+        {
+          "t": 13.5,
+          "side": "r",
+          "skipped": "intentional eyelid closure",
+          "native_openness": 0.18509555595235944
+        },
+        {
+          "t": 19.3,
+          "side": "l",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 4495
+        },
+        {
+          "t": 19.3,
+          "side": "r",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 4498
+        },
+        {
+          "t": 23.3,
+          "side": "l",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 2470
+        },
+        {
+          "t": 23.3,
+          "side": "r",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 2470
+        },
+        {
+          "t": 25.3,
+          "side": "l",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 3246
+        },
+        {
+          "t": 25.3,
+          "side": "r",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 3246
+        },
+        {
+          "t": 28.5,
+          "side": "l",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 4656
+        },
+        {
+          "t": 28.5,
+          "side": "r",
+          "removed_pupil_elements": 1,
+          "visible_pupil_pixels": 4651
+        }
+      ]
+    },
+    {
+      "name": "two_small_dark_feet_actually_visible_in_joy",
+      "passed": true,
+      "detail": [
+        {
+          "t": 25.3,
+          "side": "left",
+          "expected_pad_pixels": 5711,
+          "visible_pad_pixels": 5709,
+          "visible_fraction": 0.9996497986342147
+        },
+        {
+          "t": 25.3,
+          "side": "right",
+          "expected_pad_pixels": 5724,
+          "visible_pad_pixels": 5716,
+          "visible_fraction": 0.9986023759608665
+        },
+        {
+          "t": 25.7,
+          "side": "left",
+          "expected_pad_pixels": 5717,
+          "visible_pad_pixels": 5709,
+          "visible_fraction": 0.998600664684275
+        },
+        {
+          "t": 25.7,
+          "side": "right",
+          "expected_pad_pixels": 5719,
+          "visible_pad_pixels": 5710,
+          "visible_fraction": 0.9984262983038993
+        },
+        {
+          "t": 26.3,
+          "side": "left",
+          "expected_pad_pixels": 5709,
+          "visible_pad_pixels": 5705,
+          "visible_fraction": 0.999299351900508
+        },
+        {
+          "t": 26.3,
+          "side": "right",
+          "expected_pad_pixels": 5707,
+          "visible_pad_pixels": 5701,
+          "visible_fraction": 0.9989486595409147
+        }
+      ]
+    },
+    {
+      "name": "all_drawn_visible_lcd_frames_clear_of_composited_mou_limbs",
+      "passed": true,
+      "detail": {
+        "frames_considered": 720,
+        "frames_with_drawn_visible_lcd": 612,
+        "failures": [],
+        "method": "True composed LCD minus same view without MOU arm/hand groups; contact button excluded."
+      }
+    },
+    {
+      "name": "18_existing_foley_cues_without_rejected_synthetic_voices_or_music",
+      "passed": true,
+      "detail": {
+        "cues": 18,
+        "voice": false,
+        "music": false,
+        "stems": [
+          "foley.wav",
+          "tick.wav",
+          "ui.wav"
+        ]
+      }
+    },
+    {
+      "name": "pcm_mix_stems_no_clips_and_current_timeline",
+      "passed": true,
+      "detail": {
+        "parameters": [
+          48000,
+          2,
+          2,
+          1440000
+        ],
+        "max_stem_pcm_error": 0,
+        "peak_pcm": 3349,
+        "mix_sha256": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41",
+        "listening_performed": false
+      }
+    },
+    {
+      "name": "previous_patch_mou_films_rig_and_reference_unchanged",
+      "passed": true,
+      "detail": {
+        "episodes/patch_01_coffre_v7/PATCH_Le_coffre_V7.mp4": true,
+        "episodes/patch_01_coffre_v7/sources/scene.py": true,
+        "mou_rig.py": true,
+        "references/MOU_reference.png": true,
+        "episodes/03/cuisine_v30/MOU_Encore_une_feuille.mp4": true
+      }
+    },
+    {
+      "name": "vertical_hd_24fps_30_seconds_audio_and_mute",
+      "passed": true,
+      "detail": {
+        "video_sha256": "84ead5b0f9fd99db277db6bdb9ed1f61ad51318ec6651ae124aa63390a26ecb0",
+        "mute_sha256": "20f36505256bd34dbcaad9949238c24fa76e67d47cf3786e8d3ae0e6633b2af5"
+      }
+    },
+    {
+      "name": "identical_h264_in_sound_and_mute",
+      "passed": true,
+      "detail": {
+        "sound_h264_sha256": "739aa5680c62fb01a0fa9a93602effee98a348571d81729a926db9ca2f12c59d",
+        "mute_h264_sha256": "739aa5680c62fb01a0fa9a93602effee98a348571d81729a926db9ca2f12c59d"
+      }
+    },
+    {
+      "name": "actual_mp4_audio_is_current_foley_without_stale_vocal_mux",
+      "passed": true,
+      "detail": {
+        "actual_aac_sha256": "61abbc55d81b717cde9797a4d8e1d74bf8dba40ae6ce643a9bc22185e58ba6b2",
+        "fresh_foley_aac_sha256": "61abbc55d81b717cde9797a4d8e1d74bf8dba40ae6ce643a9bc22185e58ba6b2"
+      }
+    },
+    {
+      "name": "12_decoded_hd_frames_match_current_fresh_render",
+      "passed": true,
+      "detail": [
+        {
+          "frame_zero": 17,
+          "mean_rgb_error": 1.5635884452160493,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 64,
+          "mean_rgb_error": 1.4964592978395062,
+          "p99": 9.0
+        },
+        {
+          "frame_zero": 84,
+          "mean_rgb_error": 1.5386583719135802,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 94,
+          "mean_rgb_error": 1.5258862204218107,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 110,
+          "mean_rgb_error": 1.5421011766975308,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 324,
+          "mean_rgb_error": 1.5740096129115226,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 432,
+          "mean_rgb_error": 1.5941161908436214,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 464,
+          "mean_rgb_error": 1.5286218814300412,
+          "p99": 6.0
+        },
+        {
+          "frame_zero": 559,
+          "mean_rgb_error": 1.4481730645576132,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 577,
+          "mean_rgb_error": 1.4052054398148148,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 608,
+          "mean_rgb_error": 1.554283532664609,
+          "p99": 9.0
+        },
+        {
+          "frame_zero": 685,
+          "mean_rgb_error": 1.5416626478909465,
+          "p99": 9.0
+        }
+      ]
+    },
+    {
+      "name": "final_renderer_producer_hash_current",
+      "passed": true,
+      "detail": {
+        "render": "72a6172c6235821ad3830e1e361e3886653b841c5991decdbed9b01afa87e354",
+        "current": "72a6172c6235821ad3830e1e361e3886653b841c5991decdbed9b01afa87e354"
+      }
+    },
+    {
+      "name": "frozen_producers_intact",
+      "passed": true,
+      "detail": {
+        "episodes/mou_04_coffre_v1/sources/expressions.py": true,
+        "episodes/mou_04_coffre_v1/sources/telephone.py": true,
+        "episodes/mou_04_coffre_v1/sources/expressions_gestes.json": true,
+        "episodes/mou_04_coffre_v1/sources/jeu.py": true,
+        "episodes/mou_04_coffre_v1/sources/mou_rig_original.py": true,
+        "episodes/mou_04_coffre_v1/sources/scene.py": true,
+        "episodes/mou_04_coffre_v1/sources/attente.py": true,
+        "episodes/mou_04_coffre_v1/sources/package.py": true,
+        "episodes/mou_04_coffre_v1/sources/son.py": true,
+        "episodes/mou_04_coffre_v1/sources/render.py": true,
+        "episodes/mou_04_coffre_v1/sources/jeu_support.py": true,
+        "episodes/mou_04_coffre_v1/sources/temps.py": true,
+        "episodes/mou_04_coffre_v1/sources/bras.py": true,
+        "episodes/mou_04_coffre_v1/sources/palette.json": true,
+        "episodes/mou_04_coffre_v1/sources/reference_scene.py": true,
+        "episodes/mou_04_coffre_v1/sources/vues.py": true,
+        "episodes/mou_04_coffre_v1/sources/scene_base.py": true,
+        "episodes/mou_04_coffre_v1/sources/cadres.json": true,
+        "episodes/mou_04_coffre_v1/sources/personnage.py": true,
+        "episodes/mou_04_coffre_v1/chronologie.json": true,
+        "episodes/mou_04_coffre_v1/audio/mix.wav": true,
+        "episodes/mou_04_coffre_v1/assets/mou/MOU_reference.png": true,
+        "fonts/DejaVuSans-Bold.ttf": true
+      }
+    },
+    {
+      "name": "producer_inputs_unchanged_during_qa",
+      "passed": true,
+      "detail": {
+        "start": "72a6172c6235821ad3830e1e361e3886653b841c5991decdbed9b01afa87e354",
+        "end": "72a6172c6235821ad3830e1e361e3886653b841c5991decdbed9b01afa87e354"
+      }
+    }
+  ],
+  "limits": [
+    "No audio audition or perceived naturalness claimed.",
+    "Native geometry, composited pixels and decoded frames are inspected separately from audience or comic quality.",
+    "Grip anchors alone do not prove a believable pose; independent visual critique covers contact and limb continuity."
+  ]
+}
