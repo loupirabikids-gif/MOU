@@ -1,5 +1,18 @@
 # Atelier de courts épisodes
 
+**PATCH V6 — cinq interventions vocales non verbales.**
+
+**[Voir le film avec voix](episodes/patch_01_coffre_v6_voix/PATCH_Le_coffre_V6_voix.mp4?raw=true)** ·
+[Version muette](episodes/patch_01_coffre_v6_voix/PATCH_Le_coffre_V6_voix_muet.mp4?raw=true) ·
+[Sources et contrôles](episodes/patch_01_coffre_v6_voix/) ·
+[Bibliothèque et planche d'écoute](personnages/PATCH_voix_v1/).
+
+Soundgen réellement exécuté : « hm », soupir, bâillement, inspiration et
+deux souffles de joie, synchronisés avec le visage. Les mains, le téléphone,
+le temps, les vues et les 18 effets de V5 sont préservés. Banque de six
+intentions avec deux variantes chacune et recettes conservées. Aucune
+audition réelle ni qualité perçue déclarée validée dans cet environnement.
+
 **PATCH V5 — bras dégagés, temps cohérent et attente moins répétitive.**
 
 **[Voir le film corrigé avec son](episodes/patch_01_coffre_v5/PATCH_Le_coffre_V5.mp4?raw=true)** ·

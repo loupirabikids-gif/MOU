@@ -1,0 +1,33 @@
+{
+  "bank_sha256": "b0ed4d1314104c77c8b9251f9071a971b9918c5ebec4c655909a18ac70045ff2",
+  "takes": 12,
+  "sample_rate": 48000,
+  "mono": true,
+  "pcm16": true,
+  "clipped_samples": 0,
+  "demo_mp4_sha256": "594b6572d21df9154f9f7123b276d05daddd76f04b704584071b30f8c704f0ae",
+  "demo_wav_sha256": "a192a32bc970249c4a87abcdf5e9f2b29a6da75bf2d4cd4ac9f075294de190c1",
+  "demo_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 1
+      }
+    ],
+    "format": {
+      "duration": "21.600000"
+    }
+  },
+  "demo_complete_decode": true,
+  "selected_audio_frozen": true,
+  "listening_performed": false,
+  "limits": "Intent labels and numerical/visual checks; no auditory quality or emotion recognition certified."
+}

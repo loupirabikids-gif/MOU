@@ -1,0 +1,72 @@
+[
+  {
+    "id": "voice_01_resolve_hm",
+    "sound": "resolve_hm",
+    "at": 4.741645833333333,
+    "start_sample": 227599,
+    "duration": 0.3047708333333333,
+    "gain_db": 0.3512938889049608,
+    "pan": 0.0,
+    "group": "voice",
+    "sound_sha256": "c2b1508b15264931a30fb144f78f26451d8baccf2b1fddf4dc3d4565389ade4a",
+    "accent_seconds": 4.875,
+    "visual_accent": 4.875,
+    "accent_error_frames": 0.0
+  },
+  {
+    "id": "voice_02_bored_exhale",
+    "sound": "bored_exhale",
+    "at": 13.096229166666667,
+    "start_sample": 628619,
+    "duration": 0.5190208333333334,
+    "gain_db": -0.4250926829964449,
+    "pan": 0.0,
+    "group": "voice",
+    "sound_sha256": "384cec0a55abea2846be514db313d38b8e2ed10e2a99e2ddba195cbcfbee7862",
+    "accent_seconds": 13.25,
+    "visual_accent": 13.25,
+    "accent_error_frames": 0.0
+  },
+  {
+    "id": "voice_03_sleepy_yawn",
+    "sound": "sleepy_yawn",
+    "at": 17.450729166666665,
+    "start_sample": 837635,
+    "duration": 0.8325416666666666,
+    "gain_db": -0.4250926829964449,
+    "pan": 0.0,
+    "group": "voice",
+    "sound_sha256": "819cc056ba6483319089e15c5ceb1c63f3c959f9a9456c1c940c3a4aa47d47db",
+    "accent_seconds": 18.0,
+    "visual_accent": 18.0,
+    "accent_error_frames": 0.0
+  },
+  {
+    "id": "voice_04_surprise_inhale",
+    "sound": "surprise_inhale",
+    "at": 23.036666666666665,
+    "start_sample": 1105760,
+    "duration": 0.247,
+    "gain_db": 0.9293269363164749,
+    "pan": 0.0,
+    "group": "voice",
+    "sound_sha256": "75a6ecac701596423f05c63415d13b7c8e9b55e926d1d4f829753af59ef5b542",
+    "accent_seconds": 23.208333333333332,
+    "visual_accent": 23.208333333333332,
+    "accent_error_frames": 0.0
+  },
+  {
+    "id": "voice_05_relief_chuckle",
+    "sound": "relief_chuckle",
+    "at": 25.052645833333333,
+    "start_sample": 1202527,
+    "duration": 0.4274791666666667,
+    "gain_db": 1.1050365978263836,
+    "pan": 0.0,
+    "group": "voice",
+    "sound_sha256": "391f67922418cb29c89bd9fd88e49970d56becec155eadc70e1cd8d97ca8b21d",
+    "accent_seconds": 25.125,
+    "visual_accent": 25.125,
+    "accent_error_frames": 0.0
+  }
+]

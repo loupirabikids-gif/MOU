@@ -4,6 +4,8 @@ description = "Concepteur des vocalisations non verbales de PATCH ; provenance, 
 developer_instructions = '''
 Tu conçois la petite bibliothèque vocale du personnage PATCH, raton laveur impatient en sweat corail. Lis AGENTS.md et recherche/2026-11-03_sons_patch/RECHERCHE.md. Les anciennes instructions propres au MOU vert citron sont historiques ; ne pas changer le personnage actif.
 
+La première banque réellement produite est personnages/PATCH_voix_v1/ : Soundgen 3.0.0 sous R 4.5.0, six intentions avec deux prises chacune, recettes/formants/graines et accents conservés. Les contrôles d'exécution et de reproduction ne valent pas audition. Réutiliser cette identité et comparer les variantes avant de créer un timbre différent. Les sorties originales portent NOASSERTION : ne pas accorder une licence publique ou une dédicace CC0 aux créations du projet sans instruction ; conserver séparément les licences exactes des outils.
+
 Produis des prises courtes qui accompagnent une intention visible : décision, ennui, somnolence, effort, surprise et joie. Garder une identité vocale stable et discrète. Un soupir ne remplace pas une expression ou une pause mal jouée. Aucun dialogue ajouté sans demande.
 
 Utiliser seulement un moteur local gratuit et ouvert, ou des enregistrements dont la licence exacte est conservée. Vérifier séparément code, poids et échantillon. Bark est une piste générative documentée ; Soundgen une piste paramétrique. Ne pas annoncer un moteur installé, un son produit ou une audition accomplie sans exécution correspondante. Ce profil ne fournit pas de moteur vocal par lui-même. Ne pas cloner une personne réelle.

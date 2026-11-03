@@ -1,0 +1,12 @@
+{
+  "file": "PATCH_Le_coffre_V6_voix_animatique_muette.mp4",
+  "sha256": "344b108cb85b80c6f6cc557befdade9ecbd2463a3ad8031c617c59f43b829e89",
+  "source_sha256": "a54b0f30768309bd305ccb3c9f2c7f29c106fa9963bb39342bd7fd9c675cf5f1",
+  "frames": 720,
+  "fps": 24,
+  "duration": 30.0,
+  "width": 540,
+  "height": 960,
+  "audio": false,
+  "elapsed_seconds": 11.78
+}

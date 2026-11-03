@@ -1,0 +1,9 @@
+{
+  "episodes/patch_01_coffre_v5/PATCH_Le_coffre_V5.mp4": "f86fd51e079578b65182cf154baaaf3993baff9af0372885b7825d58f1d797d5",
+  "episodes/patch_01_coffre_v5/PATCH_Le_coffre_V5_muet.mp4": "729a3b5b33d306ed1dc1b8c26b47374850fc0dfb4f50662dfa00f8eb0621949d",
+  "episodes/patch_01_coffre_v5/sources/scene.py": "b58f5df34031514f4f13c0fd3431495c1231ce68333a4bcce44659a1ac4f4431",
+  "episodes/patch_01_coffre_v5/sources/personnage.py": "b065998b4d1fe1298322cd842a61016b9d9e6f2bdb8cafe758db9965c2ea1f14",
+  "episodes/patch_01_coffre_v5/sources/attente.py": "b6ff63422b3fe18282f7b8b1388b64996e7752b7b8d6e1fff2772f3d0536347e",
+  "episodes/patch_01_coffre_v5/sources/telephone.py": "f20d4677e05060967f13d748a44cd1e3a4b3047fbc5f962e5bdda58979517e53",
+  "episodes/patch_01_coffre_v5/audio/mix.wav": "b09ec672aba907961c386be03e2df22c13f36d9ee5d39d94171ad5a3c364ad41"
+}

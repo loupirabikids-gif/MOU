@@ -1,0 +1,614 @@
+{
+  "status": "passed",
+  "scope": "final_hd",
+  "checks": [
+    {
+      "name": "30_seconds_720_finite_states",
+      "passed": true,
+      "detail": {
+        "frames": 720,
+        "fps": 24,
+        "duration": 30.0
+      }
+    },
+    {
+      "name": "timer_clock_views_phone_lid_and_blank_work_unchanged",
+      "passed": true,
+      "detail": {
+        "differences": []
+      }
+    },
+    {
+      "name": "hands_elbows_body_and_prop_contact_unchanged_all_720",
+      "passed": true,
+      "detail": {
+        "differences": [],
+        "allowed_changes": [
+          "blink",
+          "face",
+          "mouth_o_scale",
+          "mouth_shape",
+          "pose_weights",
+          "voice_envelope",
+          "voice_event"
+        ]
+      }
+    },
+    {
+      "name": "18_foley_ui_cues_retained_and_five_sparse_vocals",
+      "passed": true,
+      "detail": {
+        "base_cues": 18,
+        "voice_cues": 5,
+        "events": 5,
+        "starts": [
+          4.741645833333333,
+          13.096229166666667,
+          17.450729166666665,
+          23.036666666666665,
+          25.052645833333333
+        ]
+      }
+    },
+    {
+      "name": "facial_state_changes_limited_to_declared_voice_windows",
+      "passed": true,
+      "detail": {
+        "frames_outside": 654,
+        "changed_frames": []
+      }
+    },
+    {
+      "name": "validated_rig_controls_and_seven_old_references_preserved",
+      "passed": true,
+      "detail": {
+        "controls": {
+          "sources/attente.py": true,
+          "sources/telephone.py": true,
+          "sources/jeu.py": true,
+          "sources/vues.py": true,
+          "sources/cadres.json": true,
+          "sources/temps.py": true,
+          "sources/palette.json": true
+        },
+        "references": {
+          "episodes/patch_01_coffre_v5/PATCH_Le_coffre_V5.mp4": true,
+          "episodes/patch_01_coffre_v5/PATCH_Le_coffre_V5_muet.mp4": true,
+          "episodes/patch_01_coffre_v5/sources/scene.py": true,
+          "episodes/patch_01_coffre_v5/sources/personnage.py": true,
+          "episodes/patch_01_coffre_v5/sources/attente.py": true,
+          "episodes/patch_01_coffre_v5/sources/telephone.py": true,
+          "episodes/patch_01_coffre_v5/audio/mix.wav": true
+        }
+      }
+    },
+    {
+      "name": "selected_vocal_assets_valid_pcm_sha_and_silent_boundaries",
+      "passed": true,
+      "detail": [
+        {
+          "sound": "resolve_hm",
+          "file": "maitres/resolve_hm_01.wav",
+          "sha_ok": true,
+          "parameters": [
+            48000,
+            1,
+            2,
+            14629
+          ],
+          "peak_pcm": 3829,
+          "first_last_pcm": [
+            0,
+            0
+          ],
+          "measured_rms_peak_seconds": 0.133354,
+          "declared_accent_seconds": 0.13335416666666666
+        },
+        {
+          "sound": "bored_exhale",
+          "file": "maitres/bored_exhale_01.wav",
+          "sha_ok": true,
+          "parameters": [
+            48000,
+            1,
+            2,
+            24913
+          ],
+          "peak_pcm": 6538,
+          "first_last_pcm": [
+            0,
+            0
+          ],
+          "measured_rms_peak_seconds": 0.153771,
+          "declared_accent_seconds": 0.15377083333333333
+        },
+        {
+          "sound": "sleepy_yawn",
+          "file": "maitres/sleepy_yawn_01.wav",
+          "sha_ok": true,
+          "parameters": [
+            48000,
+            1,
+            2,
+            39962
+          ],
+          "peak_pcm": 6538,
+          "first_last_pcm": [
+            0,
+            0
+          ],
+          "measured_rms_peak_seconds": 0.549271,
+          "declared_accent_seconds": 0.5492708333333334
+        },
+        {
+          "sound": "surprise_inhale",
+          "file": "maitres/surprise_inhale_01.wav",
+          "sha_ok": true,
+          "parameters": [
+            48000,
+            1,
+            2,
+            11856
+          ],
+          "peak_pcm": 4626,
+          "first_last_pcm": [
+            0,
+            0
+          ],
+          "measured_rms_peak_seconds": 0.171667,
+          "declared_accent_seconds": 0.17166666666666666
+        },
+        {
+          "sound": "relief_chuckle",
+          "file": "maitres/relief_chuckle_01.wav",
+          "sha_ok": true,
+          "parameters": [
+            48000,
+            1,
+            2,
+            20519
+          ],
+          "peak_pcm": 5226,
+          "first_last_pcm": [
+            0,
+            0
+          ],
+          "measured_rms_peak_seconds": 0.072354,
+          "declared_accent_seconds": 0.07235416666666666
+        }
+      ]
+    },
+    {
+      "name": "actual_vocal_accents_and_facial_envelopes_align_within_frame",
+      "passed": true,
+      "detail": [
+        {
+          "id": "voice_01_resolve_hm",
+          "sound": "resolve_hm",
+          "visual_accent": 4.875,
+          "file_accent_in_film": 4.875,
+          "declared_error_frames": 0.0,
+          "energetic_peak_error_frames": 0.0,
+          "gesture_peak_error_frames": 0.08050000000000779,
+          "declared_points_seconds": [
+            0.13335416666666666
+          ],
+          "measured_points_seconds": [
+            0.13335416666666666
+          ],
+          "facial_points_in_film": [
+            4.871645833333333
+          ],
+          "sample_start_error": 0
+        },
+        {
+          "id": "voice_02_bored_exhale",
+          "sound": "bored_exhale",
+          "visual_accent": 13.25,
+          "file_accent_in_film": 13.25,
+          "declared_error_frames": 0.0,
+          "energetic_peak_error_frames": 0.0,
+          "gesture_peak_error_frames": 0.1495000000000175,
+          "declared_points_seconds": [
+            0.15377083333333333
+          ],
+          "measured_points_seconds": [
+            0.15377083333333333
+          ],
+          "facial_points_in_film": [
+            13.256229166666667
+          ],
+          "sample_start_error": 0
+        },
+        {
+          "id": "voice_03_sleepy_yawn",
+          "sound": "sleepy_yawn",
+          "visual_accent": 18.0,
+          "file_accent_in_film": 18.0,
+          "declared_error_frames": 0.0,
+          "energetic_peak_error_frames": 0.0,
+          "gesture_peak_error_frames": 0.017499999999984084,
+          "declared_points_seconds": [
+            0.5492708333333334
+          ],
+          "measured_points_seconds": [
+            0.5492708333333334
+          ],
+          "facial_points_in_film": [
+            18.000729166666666
+          ],
+          "sample_start_error": 0
+        },
+        {
+          "id": "voice_04_surprise_inhale",
+          "sound": "surprise_inhale",
+          "visual_accent": 23.208333333333332,
+          "file_accent_in_film": 23.208333333333332,
+          "declared_error_frames": 0.0,
+          "energetic_peak_error_frames": 0.0,
+          "gesture_peak_error_frames": 0.28000000000000114,
+          "declared_points_seconds": [
+            0.17166666666666666
+          ],
+          "measured_points_seconds": [
+            0.17166666666666666
+          ],
+          "facial_points_in_film": [
+            23.196666666666665
+          ],
+          "sample_start_error": 0
+        },
+        {
+          "id": "voice_05_relief_chuckle",
+          "sound": "relief_chuckle",
+          "visual_accent": 25.125,
+          "file_accent_in_film": 25.125,
+          "declared_error_frames": 0.0,
+          "energetic_peak_error_frames": 0.0,
+          "gesture_peak_error_frames": 0.05649999999999977,
+          "declared_points_seconds": [
+            0.07235416666666666,
+            0.28222916666666664
+          ],
+          "measured_points_seconds": [
+            0.07235416666666666,
+            0.28222916666666664
+          ],
+          "facial_points_in_film": [
+            25.122645833333333,
+            25.332645833333334
+          ],
+          "sample_start_error": 0
+        }
+      ]
+    },
+    {
+      "name": "base_foley_pcm_stems_and_nonvocal_samples_exactly_preserved",
+      "passed": true,
+      "detail": {
+        "base_mix_identical": true,
+        "outside_voice_equal": true,
+        "base_stems": {
+          "ui.wav": true,
+          "foley.wav": true,
+          "tick.wav": true
+        }
+      }
+    },
+    {
+      "name": "voice_plus_base_reconstruct_mix_no_clips_and_current_timeline",
+      "passed": true,
+      "detail": {
+        "parameters": [
+          48000,
+          2,
+          2,
+          1440000
+        ],
+        "max_reconstruction_pcm_error": 0,
+        "peak_pcm": 4596,
+        "voice_active_seconds": 2.3308125,
+        "listening_performed": false,
+        "report_current": true
+      }
+    },
+    {
+      "name": "fixed_gain_voice_placements_reconstruct_exact_stem",
+      "passed": true,
+      "detail": {
+        "max_pcm_error": 0,
+        "voice_cues": 5,
+        "no_scene_ducking": true
+      }
+    },
+    {
+      "name": "real_soundgen_six_intents_twelve_seeded_takes_and_licenses",
+      "passed": true,
+      "detail": {
+        "engine": {
+          "name": "Soundgen",
+          "version": "3.0.0",
+          "runtime": "R4.5.0",
+          "executed": true,
+          "code_license": "GPL-2.0-or-later",
+          "models_or_voice_recordings_used": false
+        },
+        "engine_receipt_sha256": "c5fff61cd3a919ae76d13b6b38e269b61a9f3c1d4d1f4b19ed7917c76376abad",
+        "script_sha256": "8426d43639fe4bb5a2ba0997e1847751e1399d0af400eb94faeaa7d263e5b7b7",
+        "license_description_sha256": "685b3211e8670c69537fdc3815d2e4ec3278167628cc576632276d2f8ae9cf32",
+        "variants": [
+          {
+            "name": "resolve_hm_01",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 3829
+          },
+          {
+            "name": "resolve_hm_02",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 3856
+          },
+          {
+            "name": "bored_exhale_01",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 6538
+          },
+          {
+            "name": "bored_exhale_02",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 6538
+          },
+          {
+            "name": "sleepy_yawn_01",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 6538
+          },
+          {
+            "name": "sleepy_yawn_02",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 6538
+          },
+          {
+            "name": "effort_small_01",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 4283
+          },
+          {
+            "name": "effort_small_02",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 4179
+          },
+          {
+            "name": "surprise_inhale_01",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 4626
+          },
+          {
+            "name": "surprise_inhale_02",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 5753
+          },
+          {
+            "name": "relief_chuckle_01",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 5226
+          },
+          {
+            "name": "relief_chuckle_02",
+            "sha_ok": true,
+            "parameters_ok": true,
+            "duration_error_samples": 0,
+            "recipe_exists": true,
+            "peak_pcm": 5337
+          }
+        ],
+        "listening_performed": false
+      }
+    },
+    {
+      "name": "final_hd_vertical_24fps_30s_sound_and_mute",
+      "passed": true,
+      "detail": {
+        "video_sha256": "f9069b502ca3fccbae72135d2d6b9d166d223a68e745ca9a227dac4b82800d89",
+        "mute_sha256": "52b404caa730cf509193eecb7a550a704fedb00c0a5a3ca1619cac609558786e",
+        "audio_duration": "30.000000"
+      }
+    },
+    {
+      "name": "identical_h264_in_sound_and_mute",
+      "passed": true,
+      "detail": {
+        "sound_h264_sha256": "cdc91e6a45f9bf4acc64b8aac02bceac3931be984a96b3aad0436867649622ba",
+        "mute_h264_sha256": "cdc91e6a45f9bf4acc64b8aac02bceac3931be984a96b3aad0436867649622ba"
+      }
+    },
+    {
+      "name": "12_real_hd_frames_match_fresh_source_renders",
+      "passed": true,
+      "detail": [
+        {
+          "frame_zero": 68,
+          "mean_rgb_error": 1.5064,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 114,
+          "mean_rgb_error": 1.6138,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 156,
+          "mean_rgb_error": 1.4471,
+          "p99": 3.0
+        },
+        {
+          "frame_zero": 318,
+          "mean_rgb_error": 1.6194,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 420,
+          "mean_rgb_error": 1.6106,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 432,
+          "mean_rgb_error": 1.6108,
+          "p99": 7.0
+        },
+        {
+          "frame_zero": 439,
+          "mean_rgb_error": 1.6368,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 463,
+          "mean_rgb_error": 1.5346,
+          "p99": 6.0
+        },
+        {
+          "frame_zero": 555,
+          "mean_rgb_error": 1.4935,
+          "p99": 6.0
+        },
+        {
+          "frame_zero": 603,
+          "mean_rgb_error": 1.6373,
+          "p99": 8.0
+        },
+        {
+          "frame_zero": 608,
+          "mean_rgb_error": 1.6494,
+          "p99": 9.0
+        },
+        {
+          "frame_zero": 684,
+          "mean_rgb_error": 1.5381,
+          "p99": 7.0
+        }
+      ]
+    },
+    {
+      "name": "all_cached_hd_png_outside_voice_windows_identical_v5",
+      "passed": true,
+      "detail": {
+        "frames_checked": 654,
+        "missing": [],
+        "changed": []
+      }
+    },
+    {
+      "name": "final_render_source_hash_current",
+      "passed": true,
+      "detail": {
+        "render": "a54b0f30768309bd305ccb3c9f2c7f29c106fa9963bb39342bd7fd9c675cf5f1",
+        "current": "a54b0f30768309bd305ccb3c9f2c7f29c106fa9963bb39342bd7fd9c675cf5f1"
+      }
+    },
+    {
+      "name": "frozen_productive_inputs_intact",
+      "passed": true,
+      "detail": {
+        "episodes/patch_01_coffre_v6_voix/sources/telephone.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/jeu.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/scene.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/preparer_voix.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/attente.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/package.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/son_base.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/son.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/voix_gestes.json": true,
+        "episodes/patch_01_coffre_v6_voix/sources/voix.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/render.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/temps.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/palette.json": true,
+        "episodes/patch_01_coffre_v6_voix/sources/reference_scene.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/vues.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/scene_base.py": true,
+        "episodes/patch_01_coffre_v6_voix/sources/cadres.json": true,
+        "episodes/patch_01_coffre_v6_voix/sources/personnage.py": true,
+        "episodes/patch_01_coffre_v6_voix/chronologie.json": true,
+        "episodes/patch_01_coffre_v6_voix/audio/mix.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/bank.json": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/relief_chuckle_01.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/bored_exhale_01.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/sleepy_yawn_01.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/resolve_hm_01.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/resolve_hm_02.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/effort_small_01.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/effort_small_02.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/relief_chuckle_02.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/bored_exhale_02.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/surprise_inhale_02.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/sleepy_yawn_02.wav": true,
+        "episodes/patch_01_coffre_v6_voix/assets/voix/maitres/surprise_inhale_01.wav": true,
+        "fonts/DejaVuSans-Bold.ttf": true
+      }
+    }
+  ],
+  "limits": [
+    "No audio audition or perceived naturalness/comfort validated.",
+    "Waveforms, sample placements and decoded visuals were checked; public comic response is not measured.",
+    "Soundgen generation provenance is checked separately from artistic listening."
+  ],
+  "metadata_only_recheck": {
+    "old_bank_reconstructed_sha256": "b0ed4d1314104c77c8b9251f9071a971b9918c5ebec4c655909a18ac70045ff2",
+    "current_bank_sha256": "291a457f99fb379cdc74159105ff2fe0e82e7cb6abff8d79c78839448a009d5c",
+    "only_license_and_rights_fields_changed": true,
+    "changed_json_paths": 36,
+    "no_public_reuse_license_granted": true,
+    "third_party_licenses_identical_in_master_and_copy": true,
+    "master_wavs_still_match_prior_measured_sha256": true,
+    "snapshots": {
+      "productive_inputs": {
+        "files": 34,
+        "all_sha256_match": true
+      },
+      "master_bank": {
+        "files": 47,
+        "all_sha256_match": true
+      },
+      "copied_bank": {
+        "files": 47,
+        "all_sha256_match": true
+      }
+    },
+    "video_mute_mix_sha256_unchanged": true,
+    "second_runtime_reproduction_receipt_copied": true,
+    "prior_hd_checks_remain_valid": true,
+    "new_audio_or_frame_render_performed": false,
+    "historical_finish_hash_note": "The first isolated reproduction used the earlier finish_bank.py hash. Only rights metadata changed since; generate.R, parameters and WAV masters are identical."
+  }
+}

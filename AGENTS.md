@@ -1,5 +1,31 @@
 # Courts épisodes humoristiques — équipe et règles
 
+Commande courante : l’utilisatrice demande de réaliser les ajustements de voix.
+Produire V6 dans `episodes/patch_01_coffre_v6_voix/`, en conservant V5.
+Exécuter réellement un moteur ouvert : Soundgen local est privilégié sans
+poids neuronaux ; ne pas annoncer Bark exécuté. Bibliothèque dans
+`personnages/PATCH_voix_v1/`, paramètres et provenance conservés. Quatre à
+cinq interventions non verbales courtes et espacées, accordées aux expressions.
+Le coordinateur possède scène/voix.py/chronologie/mix/export ; le spécialiste
+possède la bibliothèque et son installation locale ; critique et QA leurs
+rapports exclusifs. Préserver bras, prises, horloge, vues et durée. L’autorisation
+actuelle couvre une version avec voix ; aucune écoute réelle ou qualité perçue
+validée ne doit être revendiquée. Livrer aussi une planche d’écoute séparée.
+Les règles historiques « aucune voix ajoutée » décrivent les anciennes versions.
+
+V6 réalisée : Soundgen3.0/R4.5 réellement installé/exécuté en local,
+6intentions/12prises dans `personnages/PATCH_voix_v1/`, avec recettes et
+réinstallation isolée reproduite. 5prises intégrées, 23cues au total ;
+bouches/accents accordés, bras/phone/temps/vues préservés. Filmsonf9069b50…00d89,
+muet52b404ca…8786e. QA18contrôles :654PNG hors voix identiquesV5,
+720états de corps/mains/props identiques,12imagesHD comparées ; mix
+reconstitué sans écartPCM, pic−17,06dBFS. La planche d'écoute séparée
+présente12prises ; aucune audition ni qualité perçue validée ici.
+Les voix restent des propositions d'identité sonore. Les droits des sorties
+originales ne sont pas dédiésCC0 : NOASSERTION et notice projet dansbank,
+licences tierces conservées séparément. Ne pas confondre outils ouverts
+et autorisation de licencier publiquement les créations de l'utilisatrice.
+
 Commande courante : V5 dans `episodes/patch_01_coffre_v5/`. Corriger les
 bras au flanc du coffre, calculer minuteur/horloge depuis un même temps de
 session et arrêter les regards minute par minute dès la16e minute

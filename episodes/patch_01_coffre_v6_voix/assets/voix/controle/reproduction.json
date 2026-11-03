@@ -1,0 +1,88 @@
+{
+  "engine_executed": true,
+  "engine": "Soundgen3.0.0",
+  "runtime": "R4.5.0",
+  "second_runtime_installation_executed": true,
+  "second_runtime_installation_command": "sources/install_runtime.py --runtime work/voix_soundgen_runtime/reproduction",
+  "second_generation_command": "sources/run_generation.py --runtime work/voix_soundgen_runtime/reproduction --raw-only",
+  "takes": [
+    {
+      "id": "resolve_hm_01",
+      "raw_sha256": "29b4ba79f9ef1acd0e5342a77f8b36feeb65943971193a823f761e9ebe3284c7",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "resolve_hm_02",
+      "raw_sha256": "5e98b0ac11ed8b80e71cf350220f13d0e8d00766201f1f6d488c64742816856d",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "bored_exhale_01",
+      "raw_sha256": "4af75a6b58da26a8a426f86a403cf38f69563a178e3d71b09ff6a4e48c3d26f7",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "bored_exhale_02",
+      "raw_sha256": "e9eaf0bffd6e3d9bd2bb27bc7493e42cc4aa5f158bce7c2c17afbe32a7ef8bfd",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "sleepy_yawn_01",
+      "raw_sha256": "dcd66a13b816d269c9e8989e356100c5946464743f77b920fe6e7b4f3dd4d1fc",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "sleepy_yawn_02",
+      "raw_sha256": "364688eed304275c847e57837aa9d608076da390d5c33c5650beadf4533d8d76",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "effort_small_01",
+      "raw_sha256": "8bc7bc3b822b4717fdb498f74a61de69ec765b075a2dbb8b4e6c86ad1a80a48d",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "effort_small_02",
+      "raw_sha256": "68d47d859d5b361edc6f2191caf01f6a40c2bc36c13aa7d20e93417106ed0be9",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "surprise_inhale_01",
+      "raw_sha256": "f6c111ecabd8ee222607250e566a77293bcacfd41960e529754e28cf565a2129",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "surprise_inhale_02",
+      "raw_sha256": "e51bddce32dd0c71fdae523cad10a7e92e889905dd45a64890c97251b6ce5efb",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "relief_chuckle_01",
+      "raw_sha256": "0358b65bf67df4adcc1e24f4c9437871357b2df8bba00e09096dca3e01eed0de",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    },
+    {
+      "id": "relief_chuckle_02",
+      "raw_sha256": "c62027e4769de539cdb7e1bb5d58121db5d60e49ad335ae385eace5a438db6c5",
+      "matches_initial_synthesis": true,
+      "parameters_identical": true
+    }
+  ],
+  "all12raw_identical": true,
+  "all12parameters_identical": true,
+  "generate_script_sha256": "8426d43639fe4bb5a2ba0997e1847751e1399d0af400eb94faeaa7d263e5b7b7",
+  "finish_script_sha256": "259e29247e9227671081b90876d3c9dd53704458de584442f7ed1a9450ea4205",
+  "installation_script_sha256": "c7bc0d1c4dab02061859e20584f9648575c5016f9d173e21c13b1c818012fd1b",
+  "listening_performed": false
+}

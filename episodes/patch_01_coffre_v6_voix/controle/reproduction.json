@@ -1,0 +1,91 @@
+{
+  "crc_ok": true,
+  "payload_files_verified": 133,
+  "isolated_extraction": true,
+  "fresh_png": [
+    {
+      "frame_1based": 1,
+      "sha256": "d1fda9bc833965624f3812fd38b98967b217a93475bb8b894cdf03d659abdba1",
+      "identical": true
+    },
+    {
+      "frame_1based": 69,
+      "sha256": "4f4e79f3e7d1c98736df9bbc630058ba1791ecaf2c83e8ef0d0892bec7a83166",
+      "identical": true
+    },
+    {
+      "frame_1based": 115,
+      "sha256": "f462f5a8a9628dc8a3a1854e4aa9707fbf5f49ccf7a44006f0b8d6c14c8ef57f",
+      "identical": true
+    },
+    {
+      "frame_1based": 118,
+      "sha256": "b6c4d8b766461e10d1999b9b76d011ecf975433be083e1e255d46f4a5f89119d",
+      "identical": true
+    },
+    {
+      "frame_1based": 157,
+      "sha256": "f709a4226d9d9ebc99bdd571f28027c400dfd4440a8ef2067c20a01697d07e49",
+      "identical": true
+    },
+    {
+      "frame_1based": 315,
+      "sha256": "20cbd1ff6b669ac87190f9dd954bcc9a1e3174855fb856f4aad3b6499d3a94b4",
+      "identical": true
+    },
+    {
+      "frame_1based": 319,
+      "sha256": "eda9f45e48af433f99f39dd1411220a81028724e22ae8b1a30364e95d6a5b70c",
+      "identical": true
+    },
+    {
+      "frame_1based": 420,
+      "sha256": "1039d7af65307ad9d398df29fd087e16da18045fcc989b475f8879d6a6f7f0e6",
+      "identical": true
+    },
+    {
+      "frame_1based": 433,
+      "sha256": "936016336ba7c12acd9813d664e377cbcf1ce1f5e367ac79460f5c8f3bb5cefc",
+      "identical": true
+    },
+    {
+      "frame_1based": 440,
+      "sha256": "984430d8ccda839560559e736f0f5ac20939435ec5ae495d0b73669ce545221d",
+      "identical": true
+    },
+    {
+      "frame_1based": 464,
+      "sha256": "c92e310e99e4d46d8b168db8aaee020d8c8e0f29795b613ac457a7a031a8ef67",
+      "identical": true
+    },
+    {
+      "frame_1based": 558,
+      "sha256": "92b649de6d67a737f6bc70c1eee71783fee9300888124f9dc37cddfb4aaa1889",
+      "identical": true
+    },
+    {
+      "frame_1based": 604,
+      "sha256": "b7acc86cd8fa326cb68956492442366b73da247179e0bd2c7d9049f764be1797",
+      "identical": true
+    },
+    {
+      "frame_1based": 609,
+      "sha256": "aaed89efa9966bc8e8965adf149c872fe245a4dae1b283590a3cb9669e9eee98",
+      "identical": true
+    },
+    {
+      "frame_1based": 668,
+      "sha256": "fadd76bf5887b954a8a258d2b8dfced331af3f643c822f24551a5a620bf75abf",
+      "identical": true
+    },
+    {
+      "frame_1based": 685,
+      "sha256": "774c24012b6594ede4868db6106437534b766a4fdc4078aff5de1635a5074dea",
+      "identical": true
+    }
+  ],
+  "wav_identical": true,
+  "wav_sha256": "b8033ca85465bcf666c9eaa8690b3acc8f6fc5b8932f9eac988b34001e6799b8",
+  "bank_recipes_licenses_present": true,
+  "mp4_binary_identity_claimed": false
+}

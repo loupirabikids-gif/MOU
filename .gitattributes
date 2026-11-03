@@ -1,0 +1,6 @@
+
+# Preserve the exact bytes of upstream licence notices and R dput evidence.
+episodes/patch_01_coffre_v6_voix/assets/voix/licences/*.txt -text whitespace=-blank-at-eol
+episodes/patch_01_coffre_v6_voix/assets/voix/parametres/*.R -text whitespace=-blank-at-eol
+personnages/PATCH_voix_v1/licences/*.txt -text whitespace=-blank-at-eol
+personnages/PATCH_voix_v1/parametres/*.R -text whitespace=-blank-at-eol

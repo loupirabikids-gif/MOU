@@ -1,0 +1,78 @@
+{
+  "duration": 21.6,
+  "cues": [
+    {
+      "id": "resolve_hm_01",
+      "at": 0.4,
+      "duration": 0.3047708333333333,
+      "accent_seconds": 0.5333541666666667
+    },
+    {
+      "id": "resolve_hm_02",
+      "at": 2.2,
+      "duration": 0.30302083333333335,
+      "accent_seconds": 2.3290208333333333
+    },
+    {
+      "id": "bored_exhale_01",
+      "at": 4.0,
+      "duration": 0.5190208333333334,
+      "accent_seconds": 4.153770833333334
+    },
+    {
+      "id": "bored_exhale_02",
+      "at": 5.800000000000001,
+      "duration": 0.5177083333333333,
+      "accent_seconds": 5.991604166666668
+    },
+    {
+      "id": "sleepy_yawn_01",
+      "at": 7.6000000000000005,
+      "duration": 0.8325416666666666,
+      "accent_seconds": 8.149270833333334
+    },
+    {
+      "id": "sleepy_yawn_02",
+      "at": 9.4,
+      "duration": 0.846625,
+      "accent_seconds": 10.020333333333333
+    },
+    {
+      "id": "effort_small_01",
+      "at": 11.200000000000001,
+      "duration": 0.26475,
+      "accent_seconds": 11.3119375
+    },
+    {
+      "id": "effort_small_02",
+      "at": 13.0,
+      "duration": 0.2607083333333333,
+      "accent_seconds": 13.110979166666667
+    },
+    {
+      "id": "surprise_inhale_01",
+      "at": 14.8,
+      "duration": 0.247,
+      "accent_seconds": 14.971666666666668
+    },
+    {
+      "id": "surprise_inhale_02",
+      "at": 16.599999999999998,
+      "duration": 0.247,
+      "accent_seconds": 16.7054375
+    },
+    {
+      "id": "relief_chuckle_01",
+      "at": 18.4,
+      "duration": 0.4274791666666667,
+      "accent_seconds": 18.472354166666666
+    },
+    {
+      "id": "relief_chuckle_02",
+      "at": 20.2,
+      "duration": 0.43866666666666665,
+      "accent_seconds": 20.27283333333333
+    }
+  ],
+  "listening_performed": false
+}

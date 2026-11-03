@@ -1,0 +1,12 @@
+{
+  "file": "PATCH_Le_coffre_V6_voix_muet.mp4",
+  "sha256": "52b404caa730cf509193eecb7a550a704fedb00c0a5a3ca1619cac609558786e",
+  "source_sha256": "a54b0f30768309bd305ccb3c9f2c7f29c106fa9963bb39342bd7fd9c675cf5f1",
+  "frames": 720,
+  "fps": 24,
+  "duration": 30.0,
+  "width": 1080,
+  "height": 1920,
+  "audio": false,
+  "elapsed_seconds": 29.24
+}
